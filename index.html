@@ -1461,9 +1461,55 @@
       }
     }
 
+    /* ─── FILTERS TOGGLE BUTTON (mobile only) ─────────────── */
+    .filters-toggle {
+      display: none;
+      width: 100%;
+      padding: 8px 14px;
+      background: transparent;
+      border: none;
+      border-top: 1px solid var(--border);
+      color: var(--text2);
+      font-family: var(--sans);
+      font-size: .73rem;
+      font-weight: 600;
+      cursor: pointer;
+      text-align: center;
+      transition: color .15s;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .filters-toggle:hover { color: var(--text); }
+    .filters-toggle .ftog-icon { transition: transform .2s; display: inline-block; }
+    .filters-toggle.open .ftog-icon { transform: rotate(180deg); }
+
+    @media(max-width:768px) {
+      .filters-toggle { display: block; }
+      .filters-wrap {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height .3s ease;
+      }
+      .filters-wrap.open {
+        max-height: 500px;
+      }
+      .ctrl-wrap {
+        position: relative;
+      }
+      .search-wrap {
+        min-width: 0;
+        max-width: none;
+      }
+      .s-kbd { display: none !important; }
+      .search-wrap input { padding-right: 36px; }
+      .field-select { min-width: 100px; font-size: .72rem; padding: 6px 24px 6px 8px; }
+      .sort-btn { padding: 4px 8px; font-size: .68rem; }
+      .sort-lbl { display: none; }
+      .res-count { font-size: .62rem; padding: 4px 8px; }
+    }
+
     @media(max-width:480px) {
       .page {
-        padding: 0 14px 40px;
+        padding: 0 10px 40px;
       }
 
       .stats-grid {
@@ -1471,20 +1517,34 @@
         gap: 6px;
       }
 
-      .filter-row {
-        flex-wrap: nowrap;
-        overflow-x: auto;
-        scrollbar-width: none;
-        padding: 7px 10px;
+      .ctrl-bar {
+        padding: 6px 8px;
+        gap: 6px;
       }
 
-      .filter-row::-webkit-scrollbar {
-        display: none;
+      .prog-grid {
+        grid-template-columns: 1fr;
       }
 
-      .fbtn,
-      .fsep,
+      .filter-section {
+        flex-wrap: wrap;
+        padding: 6px 8px;
+        gap: 5px;
+      }
+
+      .fbtn {
+        padding: 4px 9px;
+        font-size: .66rem;
+        flex-shrink: 0;
+      }
+
       .flbl {
+        font-size: .52rem;
+        min-width: 50px;
+        flex-shrink: 0;
+      }
+
+      .fsep {
         flex-shrink: 0;
       }
 
@@ -1500,6 +1560,9 @@
         padding-top: 4px;
       }
 
+      .hdr-title { font-size: 1.4rem; }
+      .hdr-sub { font-size: .72rem; }
+      .hdr-flag { width: 48px; height: 36px; }
     }
   </style>
   <!-- Vercel Analytics -->
@@ -1614,8 +1677,12 @@
           <span class="res-count" id="resCount">Loading…</span>
         </div>
 
+        <!-- FILTERS TOGGLE (mobile only) -->
+        <button class="filters-toggle" id="filtersToggle">
+          <span data-i18n="fToggle">Filters</span> <span class="ftog-icon">▼</span>
+        </button>
         <!-- FILTERS (merged into the same sticky panel) -->
-        <div class="filters-wrap">
+        <div class="filters-wrap" id="filtersWrap">
           <div class="filter-section">
             <span class="flbl"><span class="flbl-dot"></span><span data-i18n="fLevel">Level</span></span>
             <div class="filter-pills">
@@ -1921,6 +1988,17 @@
     let sortDir = 1; // 1 = asc, -1 = desc
 
     /* ═══════════════════════════════════════════════════════════
+       FILTERS TOGGLE (mobile)
+    ═══════════════════════════════════════════════════════════ */
+    function toggleFilters() {
+      const wrap = document.getElementById('filtersWrap');
+      const btn = document.getElementById('filtersToggle');
+      if (!wrap || !btn) return;
+      const isOpen = wrap.classList.toggle('open');
+      btn.classList.toggle('open', isOpen);
+    }
+
+    /* ═══════════════════════════════════════════════════════════
        INIT
     ═══════════════════════════════════════════════════════════ */
     (function init() {
@@ -1930,6 +2008,10 @@
       buildUrgentBanner();
       setInterval(applyFilters, 30000); // refresh countdowns
       setInterval(buildUrgentBanner, 60000);
+
+      // Filters toggle (mobile)
+      const filtersToggleBtn = document.getElementById('filtersToggle');
+      if (filtersToggleBtn) filtersToggleBtn.addEventListener('click', toggleFilters);
 
       // Search
       const searchEl = document.getElementById('prog-search');
