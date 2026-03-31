@@ -1669,6 +1669,9 @@
             <button class="sort-btn" data-sort="tuition">
               💰 <span data-i18n="sortTuition">Tuition</span>
             </button>
+            <button class="sort-btn" data-sort="fee">
+              💳 <span data-i18n="sortFee">App Fee</span>
+            </button>
             <button class="sort-btn" data-sort="tier">
               🥇 <span data-i18n="sortTier">Tier</span>
             </button>
@@ -2106,7 +2109,9 @@
       const now = new Date();
       const urgent = allPrograms.filter(p => {
         if (!p.deadline_iso) return false;
-        const diff = new Date(p.deadline_iso) - now;
+        const dl = new Date(p.deadline_iso);
+        dl.setHours(23, 59, 59, 999);
+        const diff = dl - now;
         return diff > 0 && diff <= 7 * 86400000;
       });
       const banner = document.getElementById('urgentBanner');
@@ -2114,7 +2119,9 @@
       const pills = [...new Map(urgent.map(p => [p.university, p])).values()]
         .slice(0, 5)
         .map(p => {
-          const days = Math.ceil((new Date(p.deadline_iso) - now) / 86400000);
+          const dl = new Date(p.deadline_iso);
+          dl.setHours(23, 59, 59, 999);
+          const days = Math.ceil((dl - now) / 86400000);
           return `<span class="ub-pill">${p.university} <span class="ub-days">${days}d</span></span>`;
         }).join('');
       banner.innerHTML = `<div class="ub-inner"><span class="ub-label">⚡ Closing soon</span><div class="ub-pills">${pills}</div></div>`;
@@ -2141,6 +2148,7 @@
       if (!iso) return { status: 'unknown', label: 'Unknown', cls: '', days: 0 };
       const now = new Date();
       const dl = new Date(iso);
+      dl.setHours(23, 59, 59, 999);
       const diff = dl - now;
       const days = Math.floor(diff / 86400000);
       if (diff <= 0) return { status: 'closed', label: 'Closed', cls: 'dp-closed', days: 0 };
@@ -2184,12 +2192,22 @@
       return [...programs].sort((a, b) => {
         if (currentSort === 'deadline') {
           const da = a.deadline_iso ? new Date(a.deadline_iso) : new Date('2099-01-01');
+          if (a.deadline_iso) da.setHours(23, 59, 59, 999);
           const db = b.deadline_iso ? new Date(b.deadline_iso) : new Date('2099-01-01');
+          if (b.deadline_iso) db.setHours(23, 59, 59, 999);
           return (da - db) * sortDir;
         }
         if (currentSort === 'tuition') {
           const parseMin = t => { const m = (t || '').match(/[\d,]+/); return m ? parseInt(m[0].replace(',', '')) : 9999; };
           return (parseMin(a.tuition) - parseMin(b.tuition)) * sortDir;
+        }
+        if (currentSort === 'fee') {
+          const parseFee = f => { 
+            if ((f || '').toLowerCase().includes('free')) return 0;
+            const m = (f || '').match(/[\d,]+/); 
+            return m ? parseInt(m[0].replace(',', '')) : 999; 
+          };
+          return (parseFee(a.app_fee) - parseFee(b.app_fee)) * sortDir;
         }
         if (currentSort === 'tier') {
           const order = { gold: 0, silver: 1, bronze: 2 };
@@ -2362,7 +2380,7 @@
         secHead:    '📊 34 Universities — Admissions Data',
         searchPh:   'Search university, city, program…',
         allFields:  '📚 All Fields',
-        sortLbl:    'Sort', sortDeadline: 'Deadline', sortTuition: 'Tuition', sortTier: 'Tier',
+        sortLbl:    'Sort', sortDeadline: 'Deadline', sortTuition: 'Tuition', sortFee: 'App Fee', sortTier: 'Tier',
         fLevel:     'Level', fLang: 'Language', fStatus: 'Status', fGpa: 'GPA Req',
         all:        'All',
         fEnglish:   '<img class="flag-img" src="https://flagcdn.com/20x15/gb.png" alt="GB"> English',
@@ -2388,7 +2406,7 @@
         secHead:    '📊 34 Università — Dati di Ammissione',
         searchPh:   'Cerca università, città, programma…',
         allFields:  '📚 Tutti i Campi',
-        sortLbl:    'Ordina', sortDeadline: 'Scadenza', sortTuition: 'Tasse', sortTier: 'Livello',
+        sortLbl:    'Ordina', sortDeadline: 'Scadenza', sortTuition: 'Tasse', sortFee: 'Tassa Domanda', sortTier: 'Livello',
         fLevel:     'Livello', fLang: 'Lingua', fStatus: 'Stato', fGpa: 'Req. GPA',
         all:        'Tutti',
         fEnglish:   '<img class="flag-img" src="https://flagcdn.com/20x15/gb.png" alt="GB"> Inglese',
