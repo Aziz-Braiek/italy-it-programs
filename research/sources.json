@@ -2448,5 +2448,153 @@
     "supports": [
       "program.course_contact"
     ]
+  },
+  {
+    "id": "SRC-INSUBRIA-CS-PROFILE-2026",
+    "university_id": "insubria",
+    "title": "Informatica (Computer Science) – official course profile 2026/27",
+    "url": "https://www.uninsubria.it/formazione/offerta-formativa/corsi-di-laurea/informatica-0",
+    "source_type": "Official degree profile",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The current course profile lists Informatica (Computer Science) as a two-year Laurea Magistrale in Varese, English-taught and open access. The page links the 2026/27 course regulation and SUA-CdS and repeats the current course entry requirements. The profile does not confirm a 2027/28 first-year intake.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_language",
+      "program.previous_cycle_duration"
+    ]
+  },
+  {
+    "id": "SRC-INSUBRIA-REGULATION-2026",
+    "university_id": "insubria",
+    "title": "Informatica MSc course regulation 2026/27",
+    "url": "https://www.uninsubria.it/sites/default/files/2026-06/Regolamento_2026_LM_INFO.pdf",
+    "source_type": "Official annual course regulation",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The official 2026/27 regulation identifies Informatica as an LM-18, two-year Laurea Magistrale based in Varese, with English teaching and open access. It is prior-cycle evidence and does not establish 2027/28 availability.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_language"
+    ]
+  },
+  {
+    "id": "SRC-INSUBRIA-CS-REQUIREMENTS",
+    "university_id": "insubria",
+    "title": "Admission requirements – Informatica",
+    "url": "https://www.uninsubria.it/formazione/offerta-formativa/corsi-di-laurea/requisiti-di-ammissione-informatica",
+    "source_type": "Official course admission requirements page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "Applicants may hold an Italian L-31/26 or L-8/09 bachelor’s degree; other or foreign degrees can qualify with at least 60 CFU in INF-01/A and IINF-05/A combined and 18 CFU in the specified mathematics sectors. English at B2 or equivalent is required, and all applicants undergo an interview on fundamental computer science; a negative interview result bars access for that academic year. The page reflects the current/2026/27 requirements and is not a 2027/28 notice.",
+    "supports": [
+      "program.previous_cycle_program_requirements",
+      "program.previous_cycle_english_requirement",
+      "program.previous_cycle_admission_assessment"
+    ]
+  },
+  {
+    "id": "SRC-INSUBRIA-MSC-PREAPPLICATION-2026",
+    "university_id": "insubria",
+    "title": "Pre-enrolment for non-single-cycle Master's degrees, 2026/27",
+    "url": "https://www.uninsubria.it/servizi/vivere-insubria/immatricolarsi-e-iscriversi/immatricolazioni/immatricolazione-lauree-0",
+    "source_type": "Official university admissions procedure",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "For 2026/27, pre-enrolment to open-access MSc courses ran from 1 July to 30 October 2026 via Student Web Services/Esse3, using the 'Test di valutazione' application and supporting identity and qualification documents. The course secretariat evaluates the qualifications and contacts the applicant for an interview; eligible students then complete enrolment and pay through PagoPA. The next-cycle calendar is not stated.",
+    "supports": [
+      "university.previous_cycle_masters_admission",
+      "university.previous_cycle_application_windows",
+      "university.previous_cycle_application_route",
+      "program.previous_cycle_application_route",
+      "program.previous_cycle_application_window"
+    ]
+  },
+  {
+    "id": "SRC-INSUBRIA-NON-EU-2026",
+    "university_id": "insubria",
+    "title": "Enrolment for non-EU students resident abroad",
+    "url": "https://www.uninsubria.it/servizi/vivere-insubria/immatricolarsi-e-iscriversi/immatricolazioni/studenti-non-ue-residenti",
+    "source_type": "Official international admissions guidance",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "For 2026/27, applicants needing a study visa had to apply for pre-enrolment and preliminary assessment through Universitaly, with submissions accepted through 30 June 2026. University guidance describes foreign-qualification documentation and says applicants to English-taught courses are exempt from the University's Italian-language test. These are annual prior-cycle procedures, not 2027/28 deadlines.",
+    "supports": [
+      "university.previous_cycle_non_eu_process",
+      "university.previous_cycle_universitaly_deadline",
+      "program.previous_cycle_non_eu_admission"
+    ]
+  },
+  {
+    "id": "SRC-INSUBRIA-FEES-2026",
+    "university_id": "insubria",
+    "title": "Student contribution regulation 2026/27",
+    "url": "https://www.uninsubria.it/sites/default/files/2026-06/Regolamento_Contribuzione__2026_2027.pdf",
+    "source_type": "Official annual tuition and contribution regulation",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 regulation sets the registration payment at €146 initially, composed of €16 stamp duty and €130 regional tax, with possible regional-tax adjustment to €160 or €190 based on ISEE. For regular students in Area B (the area including Informatica), the university contribution is zero up to €28,000 ISEE and reaches €3,660 above €66,000. Students with foreign citizenship and family income/assets abroad may instead use a country-group flat contribution; for Area B's K=1.1 coefficient, the 2026/27 amounts are €220, €770 or €3,630 by group. Rules depend on eligibility and are historical only; no 2027/28 schedule was identified.",
+    "supports": [
+      "university.previous_cycle_tuition",
+      "university.tuition_2027_2028",
+      "program.previous_cycle_tuition"
+    ]
+  },
+  {
+    "id": "SRC-INSUBRIA-MERIT-AWARDS-2026",
+    "university_id": "insubria",
+    "title": "Merit and excellence scholarships under the 2026/27 fee regulation",
+    "url": "https://www.uninsubria.it/sites/default/files/2026-06/Regolamento_Contribuzione__2026_2027.pdf",
+    "source_type": "Official university scholarship regulation",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 contribution regulation lists university-wide merit awards for two-year MSc students: 15 first-year in-residence awards of €2,000, 7 first-year out-of-residence awards of €3,000, and 20 second-year awards of €750. Awards are competitive, subject to the regulation and its eligibility conditions, and do not guarantee an award to Computer Science applicants or confirm a 2027/28 call.",
+    "supports": [
+      "university.previous_cycle_merit_scholarships",
+      "program.previous_cycle_scholarships"
+    ]
+  },
+  {
+    "id": "SRC-INSUBRIA-DSU-CALL-2026",
+    "university_id": "insubria",
+    "title": "Right-to-study benefits call 2026/27",
+    "url": "https://www.uninsubria.it/bandi-e-concorsi/bando-di-concorso-lassegnazione-dei-benefici-economici-aa-20262027",
+    "source_type": "Official regional DSU scholarship and accommodation call",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The annual call offers competitive right-to-study benefits including scholarships/meal support and reduced-rate accommodation, subject to financial and merit criteria. In 2026/27 scholarship/meal applications ran 24 July–30 September 2026 and accommodation applications 24 July–24 August; foreign students could use ISEE Parificato procedures. No 2027/28 call is identified.",
+    "supports": [
+      "university.previous_cycle_regional_scholarships",
+      "university.scholarships_2027_2028",
+      "program.previous_cycle_scholarships"
+    ]
+  },
+  {
+    "id": "SRC-INSUBRIA-SCHOLARSHIPS",
+    "university_id": "insubria",
+    "title": "Scholarships and right-to-study support",
+    "url": "https://www.uninsubria.it/formazione/opportunita-e-agevolazioni/diritto-allo-studio/borse-di-studio",
+    "source_type": "Official university scholarship information",
+    "accessed_at": "2026-11-09",
+    "cycle": "general",
+    "evidence": "The University describes regional-funded right-to-study scholarships as competitive and jointly dependent on merit, academic progression and income; amounts vary by income band and travel distance and are set in the annual call. A separate university merit-scholarship page links awards for BSc and single-cycle students; that page is not treated as a Computer Science MSc award source.",
+    "supports": [
+      "university.scholarship_structure",
+      "university.regional_scholarship_structure"
+    ]
+  },
+  {
+    "id": "SRC-INSUBRIA-CONTACT",
+    "university_id": "insubria",
+    "title": "Infostudenti – student information and contact service",
+    "url": "https://www.uninsubria.it/servizi/tutti-i-servizi/infostudenti-servizio-informazioni-gli-studenti",
+    "source_type": "Official university contact page",
+    "accessed_at": "2026-11-09",
+    "cycle": "general",
+    "evidence": "The course profile and university service directory link Infostudenti as the student information/contact pathway. No verified course-specific admissions email is published on the reviewed course profile; the contact pathway is provided instead of inferring an email address.",
+    "supports": [
+      "university.general_student_contact",
+      "program.course_contact"
+    ]
   }
 ]

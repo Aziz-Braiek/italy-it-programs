@@ -6362,44 +6362,257 @@
   {
     "id": "legacy-098",
     "university_id": "insubria",
-    "university": "Università degli Studi dell'Insubria",
+    "university": "Università degli Studi dell’Insubria",
     "city": "Varese",
     "program": "Computer Science",
     "level": {
       "value": "MSc",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-INSUBRIA-CS-PROFILE-2026",
+        "SRC-INSUBRIA-REGULATION-2026"
+      ],
+      "notes": "Officially listed as an MSc for 2026/27; 2027/28 level and intake remain to be confirmed."
     },
     "language": {
       "value": "English",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-INSUBRIA-CS-PROFILE-2026",
+        "SRC-INSUBRIA-REGULATION-2026"
+      ],
+      "notes": "Official 2026/27 course material says the degree is taught in English. Confirm again in the 2027/28 offer."
     },
     "field": {
       "value": "Computer Science",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-INSUBRIA-CS-PROFILE-2026",
+        "SRC-INSUBRIA-REGULATION-2026"
+      ],
+      "notes": "Official prior-cycle course identity; 2027/28 listing remains unconfirmed."
     },
     "availability_2027_2028": {
       "value": null,
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
+      "source_ids": [
+        "SRC-INSUBRIA-CS-PROFILE-2026",
+        "SRC-INSUBRIA-REGULATION-2026",
+        "SRC-INSUBRIA-CS-REQUIREMENTS"
+      ],
+      "notes": "The newest named course profile, regulation and requirements reviewed are for 2026/27. No 2027/28 first-year call was identified on 9 November 2026; no cancellation is inferred."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
-    "facts": {},
-    "source_ids": [],
+    "facts": {
+      "previous_cycle_course_listing": {
+        "value": {
+          "academic_year": "2026/27",
+          "official_name": "Informatica (Computer Science)",
+          "degree": "Laurea Magistrale / MSc",
+          "degree_class": "LM-18",
+          "duration_years": 2,
+          "location": "Varese",
+          "language": "English",
+          "access": "Open access with curricular and personal-preparation assessment"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-INSUBRIA-CS-PROFILE-2026",
+          "SRC-INSUBRIA-REGULATION-2026"
+        ],
+        "notes": "Official course identity and delivery for 2026/27 only; this does not confirm a 2027/28 first-year intake."
+      },
+      "previous_cycle_program_requirements": {
+        "value": {
+          "academic_year": "2026/27",
+          "qualifying_degrees": [
+            "Italian L-31 or legacy class 26 in Computer Science",
+            "Italian L-8 or legacy class 09 in Information Engineering"
+          ],
+          "other_or_foreign_degree_curricular_credits": {
+            "computer_science": {
+              "minimum_credits": 60,
+              "sectors": [
+                "INF-01/A",
+                "IINF-05/A"
+              ]
+            },
+            "mathematics": {
+              "minimum_credits": 18,
+              "sectors": [
+                "MATH-01/A",
+                "MATH-02/A",
+                "MATH-02/B",
+                "MATH-03/A",
+                "MATH-03/B",
+                "MATH-04/A",
+                "MATH-05/A",
+                "MATH-06/A"
+              ]
+            }
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-INSUBRIA-CS-REQUIREMENTS"
+        ],
+        "notes": "Current official requirements are recorded as 2026/27 evidence; verify sector equivalencies and rules against the new annual course regulation."
+      },
+      "previous_cycle_english_requirement": {
+        "value": {
+          "academic_year": "2026/27",
+          "minimum_level": "B2 or equivalent",
+          "course_language": "English"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-INSUBRIA-CS-REQUIREMENTS",
+          "SRC-INSUBRIA-CS-PROFILE-2026"
+        ],
+        "notes": "Prior-cycle course language and threshold; check future course rules for 2027/28."
+      },
+      "previous_cycle_admission_assessment": {
+        "value": {
+          "academic_year": "2026/27",
+          "assessment": "All applicants take an interview with a faculty committee on fundamental computer science disciplines",
+          "negative_result": "Bars access to the MSc for that academic year"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-INSUBRIA-CS-REQUIREMENTS"
+        ],
+        "notes": "This describes the assessment published for the current/prior cycle, not a 2027/28 interview calendar."
+      },
+      "application_windows": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-INSUBRIA-MSC-PREAPPLICATION-2026",
+          "SRC-INSUBRIA-NON-EU-2026"
+        ],
+        "notes": "No 2027/28 Computer Science application calendar was identified. The general 2026/27 MSc pre-enrolment period was 1 July–30 October and the non-EU Universitaly deadline was 30 June 2026."
+      },
+      "previous_cycle_application_window": {
+        "value": {
+          "academic_year": "2026/27",
+          "route": "Open-access Master's pre-enrolment via Student Web Services / Esse3",
+          "start": "2026-07-01",
+          "end": "2026-10-30",
+          "follow_up": "Course secretariat review and interview; successful applicants complete enrolment and PagoPA payment"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-INSUBRIA-MSC-PREAPPLICATION-2026"
+        ],
+        "notes": "University-wide schedule for the 2026/27 cycle, not a program-specific or 2027/28 deadline."
+      },
+      "previous_cycle_non_eu_admission": {
+        "value": {
+          "academic_year": "2026/27",
+          "visa_pre_enrolment_portal": "Universitaly",
+          "deadline": "2026-06-30",
+          "university_application_portal": "Student Web Services / Esse3",
+          "italian_language_test": "Applicants to English-taught degrees are exempt",
+          "qualification_documentation": "Foreign degree certificate, transcript and any required course descriptions with translation/authentication or accepted comparability evidence"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-INSUBRIA-NON-EU-2026",
+          "SRC-INSUBRIA-MSC-PREAPPLICATION-2026"
+        ],
+        "notes": "Annual international procedure from the 2026/27 cycle; new 2027/28 visa steps and dates remain unconfirmed."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-INSUBRIA-FEES-2026"
+        ],
+        "notes": "No 2027/28 tuition or contribution rules were identified; the latest fee regulation reviewed is for 2026/27."
+      },
+      "previous_cycle_tuition": {
+        "value": {
+          "academic_year": "2026/27",
+          "course_area": "Area B",
+          "regular_students": {
+            "isee_contribution_eur_up_to_28000": 0,
+            "area_contribution_max_eur_above_66000": 3660
+          },
+          "registration_payment_initial_eur": 146,
+          "foreign_income_flat_rate_country_group_eur": {
+            "group_1": 220,
+            "group_2": 770,
+            "group_3": 3630
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-INSUBRIA-FEES-2026"
+        ],
+        "notes": "Prior-cycle costs only. The €146 initial registration payment comprises stamp duty and the initial regional tax; final amounts vary by ISEE/foreign-income route and regional-tax adjustment. No 2027/28 fees are confirmed."
+      },
+      "previous_cycle_scholarships": {
+        "value": {
+          "academic_year": "2026/27",
+          "regional_DSU": "Competitive scholarship/meal benefits and reduced-rate accommodation under a separate annual call; foreign-income ISEE Parificato provisions apply",
+          "university_merit_awards_for_two_year_MSc": {
+            "first_year_in_residence": {
+              "awards": 15,
+              "gross_eur_each": 2000
+            },
+            "first_year_out_of_residence": {
+              "awards": 7,
+              "gross_eur_each": 3000
+            },
+            "second_year": {
+              "awards": 20,
+              "gross_eur_each": 750
+            }
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-INSUBRIA-DSU-CALL-2026",
+          "SRC-INSUBRIA-MERIT-AWARDS-2026",
+          "SRC-INSUBRIA-SCHOLARSHIPS"
+        ],
+        "notes": "Competitive university-wide prior-cycle schemes; eligibility and award selection apply, and no 2027/28 call is confirmed."
+      },
+      "student_information_contact": {
+        "value": "Infostudenti – official student information/contact service",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-INSUBRIA-CONTACT"
+        ],
+        "notes": "Use the official student service for current contact details; no course-specific admissions email was inferred."
+      }
+    },
+    "source_ids": [
+      "SRC-INSUBRIA-CS-PROFILE-2026",
+      "SRC-INSUBRIA-REGULATION-2026",
+      "SRC-INSUBRIA-CS-REQUIREMENTS",
+      "SRC-INSUBRIA-MSC-PREAPPLICATION-2026",
+      "SRC-INSUBRIA-NON-EU-2026",
+      "SRC-INSUBRIA-FEES-2026",
+      "SRC-INSUBRIA-MERIT-AWARDS-2026",
+      "SRC-INSUBRIA-DSU-CALL-2026",
+      "SRC-INSUBRIA-SCHOLARSHIPS",
+      "SRC-INSUBRIA-CONTACT"
+    ],
     "previous_tracker_tags": {
       "level": "MSc",
       "language": "English",
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
-    "previous_cycle_tags": null,
+    "previous_cycle_tags": {
+      "level": "MSc",
+      "language": "English",
+      "field": "Computer Science",
+      "cycle": "2026-2027",
+      "label": "Latest official course listing and admissions details are for 2026/27; new 2027/28 intake is unverified"
+    },
     "last_checked": "2026-11-09"
   },
   {

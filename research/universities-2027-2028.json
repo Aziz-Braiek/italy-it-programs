@@ -20,7 +20,7 @@
       "official_website_visited": "complete",
       "international_admissions_page_examined": "partial",
       "bachelors_admissions_examined": "not_started",
-      "masters_admissions_examined": "partial",
+      "masters_admissions_examined": "not_started",
       "english_programs_examined": "not_started",
       "fees_examined": "not_started",
       "scholarships_examined": "not_started",
@@ -989,7 +989,7 @@
   },
   {
     "id": "insubria",
-    "name": "Università degli Studi dell'Insubria",
+    "name": "Università degli Studi dell’Insubria",
     "aliases": [
       "Università dell'Insubria"
     ],
@@ -997,30 +997,171 @@
     "region": "Lombardy",
     "country": "Italy",
     "official_website": "https://www.uninsubria.it/",
-    "international_admissions_url": "https://www.uninsubria.it/servizi/vivere-insubria/immatricolarsi-e-iscriversi/immatricolazioni/studenti-non-ue-residenti",
-    "application_portal_url": null,
+    "international_admissions_url": "https://www.uninsubria.it/servizi/vivere-insubria/immatricolarsi-e-iscriversi/immatricolazioni/immatricolazione-lauree-0",
+    "application_portal_url": "https://uninsubria.esse3.cineca.it/",
     "contact_email": null,
-    "contact_url": "https://www.uninsubria.it/servizi/vivere-insubria/immatricolarsi-e-iscriversi/immatricolazioni/studenti-non-ue-residenti",
+    "contact_url": "https://www.uninsubria.it/contact-center",
     "cycle_status": "REQUIRES_VERIFICATION",
     "research_stage": "PARTIALLY_RESEARCHED",
-    "research_summary": "The non-EU page reviewed describes the prior cycle; 2027/28 offer and program requirements remain outstanding.",
+    "research_summary": "The official course profile and admissions guidance document Computer Science for 2026/27, including its English MSc profile, entry requirements and prior-cycle pre-enrolment route. No 2027/28 new-entry call, dates, fees or scholarship call were identified; the candidate remains pending.",
     "coverage": {
       "official_website_visited": "complete",
       "international_admissions_page_examined": "partial",
       "bachelors_admissions_examined": "not_started",
-      "masters_admissions_examined": "not_started",
-      "english_programs_examined": "not_started",
-      "fees_examined": "not_started",
-      "scholarships_examined": "not_started",
+      "masters_admissions_examined": "partial",
+      "english_programs_examined": "partial",
+      "fees_examined": "partial",
+      "scholarships_examined": "partial",
       "non_eu_requirements_examined": "partial",
-      "application_deadlines_examined": "not_started",
-      "program_level_review": "not_started"
+      "application_deadlines_examined": "partial",
+      "program_level_review": "partial"
     },
     "source_ids": [
-      "SRC-INSUBRIA-INTL"
+      "SRC-INSUBRIA-INTL",
+      "SRC-INSUBRIA-CS-PROFILE-2026",
+      "SRC-INSUBRIA-REGULATION-2026",
+      "SRC-INSUBRIA-CS-REQUIREMENTS",
+      "SRC-INSUBRIA-MSC-PREAPPLICATION-2026",
+      "SRC-INSUBRIA-NON-EU-2026",
+      "SRC-INSUBRIA-FEES-2026",
+      "SRC-INSUBRIA-MERIT-AWARDS-2026",
+      "SRC-INSUBRIA-DSU-CALL-2026",
+      "SRC-INSUBRIA-SCHOLARSHIPS",
+      "SRC-INSUBRIA-CONTACT"
     ],
     "last_checked": "2026-11-09",
-    "cycle_facts": {}
+    "cycle_facts": {
+      "application_windows": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-INSUBRIA-MSC-PREAPPLICATION-2026",
+          "SRC-INSUBRIA-NON-EU-2026"
+        ],
+        "notes": "No 2027/28 calendar was identified. The 1 July–30 October pre-enrolment period and 30 June Universitaly deadline in the reviewed pages belong to 2026/27."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-INSUBRIA-FEES-2026"
+        ],
+        "notes": "No 2027/28 fee regulation was identified. The available ISEE and foreign-income amounts are from 2026/27 and must not be carried forward."
+      },
+      "scholarships_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-INSUBRIA-DSU-CALL-2026",
+          "SRC-INSUBRIA-MERIT-AWARDS-2026"
+        ],
+        "notes": "The reviewed regional DSU call and university merit awards are for 2026/27. No 2027/28 call, eligibility or awards were identified."
+      },
+      "previous_cycle_application_windows": {
+        "value": [
+          {
+            "academic_year": "2026/27",
+            "route": "University pre-enrolment through Student Web Services / Esse3 for open-access MSc courses",
+            "start": "2026-07-01",
+            "end": "2026-10-30"
+          },
+          {
+            "academic_year": "2026/27",
+            "route": "Universitaly pre-enrolment for non-EU applicants resident abroad who need a study visa",
+            "end": "2026-06-30"
+          }
+        ],
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-INSUBRIA-MSC-PREAPPLICATION-2026",
+          "SRC-INSUBRIA-NON-EU-2026"
+        ],
+        "notes": "These are general university dates for 2026/27, not Computer Science-specific or 2027/28 deadlines."
+      },
+      "previous_cycle_non_eu_process": {
+        "value": {
+          "academic_year": "2026/27",
+          "visa_pre_enrolment": "Universitaly pre-enrolment and preliminary evaluation",
+          "deadline": "2026-06-30",
+          "english_taught_courses": "Exempt from the University's Italian-language test",
+          "foreign_qualification_documents": [
+            "Official degree certificate",
+            "Transcript",
+            "Course descriptions when requested",
+            "Translation and authentication/CIMEA or equivalent documentation as applicable"
+          ]
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-INSUBRIA-NON-EU-2026"
+        ],
+        "notes": "Annual prior-cycle guidance only; verify 2027/28 visa, document and course-level procedures."
+      },
+      "previous_cycle_tuition": {
+        "value": {
+          "academic_year": "2026/27",
+          "course_area": "Area B",
+          "regular_students": {
+            "isee_contribution_eur_up_to_28000": 0,
+            "area_contribution_max_eur_above_66000": 3660
+          },
+          "registration_payment_initial_eur": 146,
+          "registration_payment_composition": {
+            "stamp_duty_eur": 16,
+            "regional_tax_initial_eur": 130
+          },
+          "regional_tax_after_isee_review_eur": [
+            130,
+            160,
+            190
+          ],
+          "foreign_income_flat_rate": {
+            "eligibility": "Foreign citizens with family income/assets abroad, subject to the regulation",
+            "area_coefficient_K": 1.1,
+            "country_group_annual_contribution_eur": {
+              "group_1": 220,
+              "group_2": 770,
+              "group_3": 3630
+            }
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-INSUBRIA-FEES-2026"
+        ],
+        "notes": "2026/27 rules only. The final amount depends on student regularity, ISEE or qualifying foreign-income route, country group and regional-tax adjustment; 2027/28 rates are unconfirmed."
+      },
+      "previous_cycle_scholarships": {
+        "value": {
+          "academic_year": "2026/27",
+          "regional_DSU": {
+            "application_window": "24 July–30 September 2026 for scholarship/meal benefits; 24 July–24 August for reduced-rate accommodation",
+            "basis": "Competitive; financial and merit eligibility; foreign-student ISEE Parificato provisions"
+          },
+          "university_merit_awards_for_two_year_MSc": {
+            "first_year_in_residence": {
+              "awards": 15,
+              "gross_eur_each": 2000
+            },
+            "first_year_out_of_residence": {
+              "awards": 7,
+              "gross_eur_each": 3000
+            },
+            "second_year": {
+              "awards": 20,
+              "gross_eur_each": 750
+            }
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-INSUBRIA-DSU-CALL-2026",
+          "SRC-INSUBRIA-MERIT-AWARDS-2026",
+          "SRC-INSUBRIA-SCHOLARSHIPS"
+        ],
+        "notes": "These are competitive university-wide prior-cycle schemes. They do not guarantee an award to a Computer Science applicant and do not confirm 2027/28 funding."
+      }
+    }
   },
   {
     "id": "bologna",
