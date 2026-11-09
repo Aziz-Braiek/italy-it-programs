@@ -4557,38 +4557,235 @@
     "level": {
       "value": "MSc",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-FERRARA-CATALOGUE-2026",
+        "SRC-FERRARA-PHYSICS-PROFILE-2026",
+        "SRC-FERRARA-PHYSICS-OVERVIEW",
+        "SRC-FERRARA-PHYSICS-ADMISSION-2026"
+      ],
+      "notes": "The official 2026/27 profile identifies a Laurea Magistrale, class LM-17; this does not confirm a 2027/28 first-year offer."
     },
     "language": {
       "value": "English",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-FERRARA-CATALOGUE-2026",
+        "SRC-FERRARA-PHYSICS-PROFILE-2026",
+        "SRC-FERRARA-PHYSICS-OVERVIEW"
+      ],
+      "notes": "Official 2026/27 and general course pages say the Physics MSc is taught fully in English. Recheck against the 2027/28 offer."
     },
     "field": {
-      "value": "Sciences",
+      "value": "Physics",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-FERRARA-CATALOGUE-2026",
+        "SRC-FERRARA-PHYSICS-PROFILE-2026",
+        "SRC-FERRARA-PHYSICS-OVERVIEW",
+        "SRC-FERRARA-PHYSICS-ADMISSION-2026"
+      ],
+      "notes": "Physics is the official prior-cycle course identity; the 2027/28 listing remains unconfirmed."
     },
     "availability_2027_2028": {
       "value": null,
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
+      "source_ids": [
+        "SRC-FERRARA-CATALOGUE-2026",
+        "SRC-FERRARA-PHYSICS-PROFILE-2026",
+        "SRC-FERRARA-PHYSICS-ADMISSION-2026"
+      ],
+      "notes": "The latest named course catalogue/profile and admissions calendar reviewed are for 2026/27. No 2027/28 first-year call was identified; no cancellation is inferred."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
-    "facts": {},
-    "source_ids": [],
+    "facts": {
+      "previous_cycle_course_listing": {
+        "value": {
+          "academic_year": "2026/27",
+          "official_name": "Physics",
+          "degree": "Laurea Magistrale / Master's Degree",
+          "degree_class": "LM-17",
+          "duration_years": 2,
+          "credits": 120,
+          "location": "Ferrara",
+          "language": "English",
+          "access": "Open access with assessment of personal competencies",
+          "double_degree_option": true
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-FERRARA-CATALOGUE-2026",
+          "SRC-FERRARA-PHYSICS-PROFILE-2026",
+          "SRC-FERRARA-PHYSICS-OVERVIEW"
+        ],
+        "notes": "The sources establish the course in the 2026/27 offer and its current general profile; this is not confirmation of a 2027/28 new-entry intake."
+      },
+      "application_windows": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-FERRARA-PHYSICS-ADMISSION-2026",
+          "SRC-FERRARA-LM-INTERNATIONAL-2026"
+        ],
+        "notes": "No 2027/28 Physics application dates were identified. The 12 January–30 April period shown on the official page is explicitly for extra-EU enrolment in 2026/27."
+      },
+      "previous_cycle_application_window": {
+        "value": {
+          "academic_year": "2026/27",
+          "start": "2026-01-12",
+          "end": "2026-04-30",
+          "eligible_group": "Extra-EU applicants abroad applying to Physics and other named English-taught master's degrees"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-FERRARA-PHYSICS-ADMISSION-2026",
+          "SRC-FERRARA-LM-INTERNATIONAL-2026"
+        ],
+        "notes": "Historical course application window only; check the 2027/28 call for new dates."
+      },
+      "previous_cycle_application_fee": {
+        "value": {
+          "academic_year": "2026/27",
+          "amount_eur": 20,
+          "refundable": false,
+          "platform": "apply.unife.it"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-FERRARA-LM-INTERNATIONAL-2026"
+        ],
+        "notes": "Prior-cycle fee only; no 2027/28 application fee is confirmed."
+      },
+      "previous_cycle_program_requirements": {
+        "value": {
+          "academic_year": "2026/27",
+          "qualifying_degree": "Bachelor's degree in Physics, Italian L-30 or legacy class 25 degree, or certified foreign bachelor's degree",
+          "assessment": "Teaching committee evaluates qualifications and Physics background in an admission interview; the interview also checks English skills",
+          "assumed_background": [
+            "Calculus, geometry and algebra",
+            "Basic chemistry",
+            "Classical mechanics, thermodynamics, electromagnetism and optics",
+            "Experimental methods and basic electronics",
+            "Classical and modern physics, special relativity, quantum mechanics and statistical mechanics",
+            "Scientific computing and problem-solving"
+          ]
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-FERRARA-PHYSICS-ADMISSION-2026"
+        ],
+        "notes": "Published requirements and assessment process from the 2026/27 course page; verify against the annual 2027/28 course call."
+      },
+      "previous_cycle_english_requirement": {
+        "value": {
+          "academic_year": "2026/27",
+          "course_language": "English",
+          "admission_assessment": "The course committee evaluates spoken and written English in the admission interview; the course page does not specify a CEFR minimum or accepted certificate list."
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-FERRARA-PHYSICS-OVERVIEW",
+          "SRC-FERRARA-PHYSICS-ADMISSION-2026"
+        ],
+        "notes": "This is the course's published prior-cycle language and interview information. Separately, the University notes that visa consulates may require B2 evidence; that is not recorded here as the program admission threshold."
+      },
+      "previous_cycle_non_eu_admission": {
+        "value": {
+          "academic_year": "2026/27",
+          "apply_unife_window": "12 January–30 April",
+          "universitaly_deadline": "30 June",
+          "application_fee_eur": 20,
+          "steps": [
+            "Apply and upload academic documents through apply.unife.it",
+            "Complete Universitaly pre-enrolment for university admission and visa",
+            "After admission and visa, complete in-person qualification verification and enrolment"
+          ],
+          "course_reserved_places": "Set annually; the current number must be checked in the applicable call"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-FERRARA-LM-INTERNATIONAL-2026",
+          "SRC-FERRARA-NON-EU-CATEGORIES-2026",
+          "SRC-FERRARA-VISA-2026"
+        ],
+        "notes": "2026/27 non-EU route only; positive university evaluation does not guarantee a visa."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-FERRARA-FEES-2026",
+          "SRC-FERRARA-FEES-FOREIGN-INCOME"
+        ],
+        "notes": "No 2027/28 fee schedule was identified. The latest located contribution rules are for 2026/27 and use ISEE or documented foreign income."
+      },
+      "previous_cycle_scholarships": {
+        "value": {
+          "academic_year": "2026/27",
+          "provider": "ER.GO Emilia-Romagna",
+          "eligible_group": "Ferrara university students, including international students, subject to financial, merit and documentation criteria",
+          "benefit_types": [
+            "Competitive scholarship",
+            "Accommodation",
+            "Meals"
+          ]
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-FERRARA-ERGO-2026"
+        ],
+        "notes": "Prior-cycle regional benefits only; amounts, thresholds and dates vary by annual call and no 2027/28 call is confirmed."
+      },
+      "program_course_contact": {
+        "value": {
+          "name": "Anca Teodora Lazar",
+          "role": "Physics didactic manager",
+          "email": "manager.fisica@unife.it"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-FERRARA-PHYSICS-CONTACT"
+        ],
+        "notes": "Course information contact only; use the official admissions procedure for application and visa questions."
+      },
+      "acceptance_rate": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-FERRARA-PHYSICS-ADMISSION-2026",
+          "SRC-FERRARA-PHYSICS-PROFILE-2026"
+        ],
+        "notes": "The reviewed official pages describe assessment criteria but do not publish applicant/admission counts or an acceptance rate; no estimate is inferred."
+      }
+    },
+    "source_ids": [
+      "SRC-FERRARA-CATALOGUE-2026",
+      "SRC-FERRARA-PHYSICS-PROFILE-2026",
+      "SRC-FERRARA-PHYSICS-OVERVIEW",
+      "SRC-FERRARA-PHYSICS-ADMISSION-2026",
+      "SRC-FERRARA-LM-INTERNATIONAL-2026",
+      "SRC-FERRARA-NON-EU-CATEGORIES-2026",
+      "SRC-FERRARA-VISA-2026",
+      "SRC-FERRARA-FEES-2026",
+      "SRC-FERRARA-FEES-FOREIGN-INCOME",
+      "SRC-FERRARA-ERGO-2026",
+      "SRC-FERRARA-PHYSICS-CONTACT",
+      "SRC-FERRARA-INTL",
+      "SRC-FERRARA-INCOMING-CONTACT"
+    ],
     "previous_tracker_tags": {
       "level": "MSc",
       "language": "English",
       "field": "Sciences",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
-    "previous_cycle_tags": null,
+    "previous_cycle_tags": {
+      "level": "MSc",
+      "language": "English",
+      "field": "Physics",
+      "cycle": "2026-2027",
+      "label": "Official course identity and offer evidence is for 2026/27; new-entry availability for 2027/28 is not verified"
+    },
     "last_checked": "2026-11-09"
   },
   {

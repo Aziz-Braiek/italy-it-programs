@@ -189,6 +189,22 @@ assert.match(getElementById("university-grid").innerHTML, /2026\/27 pre-admissio
 assert.match(getElementById("university-grid").innerHTML, /annual cost eur: 6876/);
 assert.match(getElementById("university-grid").innerHTML, /ERDIS Marche/);
 assert.match(getElementById("university-grid").innerHTML, /No 2027\/28 application window or deadline was identified/);
+getElementById("search").value = "Università degli Studi di Ferrara";
+getElementById("search").dispatch("input");
+const ferraraProgramHtml = getElementById("program-grid").innerHTML;
+assert.equal((ferraraProgramHtml.match(/class="card pending"/g) ?? []).length, 1);
+assert.match(ferraraProgramHtml, /Physics/);
+assert.match(ferraraProgramHtml, /Latest official listing \(2026\/27\)/);
+assert.match(ferraraProgramHtml, /Course requirements \(2026\/27\)/);
+assert.match(ferraraProgramHtml, /English requirement \(2026\/27\)/);
+assert.match(ferraraProgramHtml, /12 January–30 April/);
+assert.match(ferraraProgramHtml, /No 2027\/28 Physics application dates were identified/);
+assert.match(ferraraProgramHtml, /amount eur: 20/);
+assert.match(ferraraProgramHtml, /ER.GO Emilia-Romagna/);
+assert.match(ferraraProgramHtml, /manager\.fisica@unife\.it/);
+assert.match(getElementById("university-grid").innerHTML, /2026\/27 catalogue confirms the Physics MSc/);
+assert.match(getElementById("university-grid").innerHTML, /apply\.unife\.it/);
+assert.match(getElementById("university-grid").innerHTML, /No official 2027\/28 application calendar was identified/);
 getElementById("search").value = "";
 getElementById("search").dispatch("input");
 

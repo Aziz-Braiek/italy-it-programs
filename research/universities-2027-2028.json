@@ -1290,30 +1290,169 @@
     "region": "Emilia-Romagna",
     "country": "Italy",
     "official_website": "https://www.unife.it/",
-    "international_admissions_url": "https://www.unife.it/en/come-to-study/enroll/how-to-enroll/arrival-enrolment/enrol-in-a-post-graduate-course",
-    "application_portal_url": null,
+    "international_admissions_url": "https://corsi.unife.it/en/lm-physics/enrolling/admission-and-enrolment",
+    "application_portal_url": "https://apply.unife.it/",
     "contact_email": null,
-    "contact_url": "https://www.unife.it/en/come-to-study/enroll/how-to-enroll/arrival-enrolment/enrol-in-a-post-graduate-course",
+    "contact_url": "https://corsi.unife.it/en/lm-physics/enrolling/admission-and-enrolment",
     "cycle_status": "REQUIRES_VERIFICATION",
     "research_stage": "PARTIALLY_RESEARCHED",
-    "research_summary": "Official international postgraduate enrollment guidance was identified, but 2027/28 calls and current program availability remain outstanding.",
+    "research_summary": "The 2026/27 catalogue confirms the Physics MSc (LM-17), English delivery, interview-based requirements and prior-cycle non-EU process. Current-cycle intake, dates, application fee, tuition and awards remain unverified.",
     "coverage": {
       "official_website_visited": "complete",
       "international_admissions_page_examined": "partial",
-      "bachelors_admissions_examined": "not_started",
-      "masters_admissions_examined": "not_started",
-      "english_programs_examined": "not_started",
-      "fees_examined": "not_started",
-      "scholarships_examined": "not_started",
+      "bachelors_admissions_examined": "partial",
+      "masters_admissions_examined": "partial",
+      "english_programs_examined": "partial",
+      "fees_examined": "partial",
+      "scholarships_examined": "partial",
       "non_eu_requirements_examined": "partial",
-      "application_deadlines_examined": "not_started",
-      "program_level_review": "not_started"
+      "application_deadlines_examined": "partial",
+      "program_level_review": "partial"
     },
     "source_ids": [
-      "SRC-FERRARA-INTL"
+      "SRC-FERRARA-INTL",
+      "SRC-FERRARA-CATALOGUE-2026",
+      "SRC-FERRARA-PHYSICS-PROFILE-2026",
+      "SRC-FERRARA-PHYSICS-OVERVIEW",
+      "SRC-FERRARA-PHYSICS-ADMISSION-2026",
+      "SRC-FERRARA-LM-INTERNATIONAL-2026",
+      "SRC-FERRARA-NON-EU-CATEGORIES-2026",
+      "SRC-FERRARA-VISA-2026",
+      "SRC-FERRARA-FEES-2026",
+      "SRC-FERRARA-FEES-FOREIGN-INCOME",
+      "SRC-FERRARA-ERGO-2026",
+      "SRC-FERRARA-INCOMING-CONTACT",
+      "SRC-FERRARA-PHYSICS-CONTACT"
     ],
     "last_checked": "2026-11-09",
-    "cycle_facts": {}
+    "cycle_facts": {
+      "application_windows": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-FERRARA-LM-INTERNATIONAL-2026",
+          "SRC-FERRARA-NON-EU-CATEGORIES-2026"
+        ],
+        "notes": "No official 2027/28 application calendar was identified. The available 12 January–30 April apply.unife.it period and 30 June Universitaly deadline are from the 2026/27 procedure."
+      },
+      "application_fee": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-FERRARA-LM-INTERNATIONAL-2026"
+        ],
+        "notes": "The €20 non-refundable fee is stated in the 2026/27 international Master's procedure only; no 2027/28 fee was identified."
+      },
+      "tuition": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-FERRARA-FEES-2026",
+          "SRC-FERRARA-FEES-FOREIGN-INCOME"
+        ],
+        "notes": "No 2027/28 fee schedule was identified. Current published amounts and reductions are 2026/27 and depend on ISEE or accepted foreign-income documentation."
+      },
+      "scholarships": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-FERRARA-ERGO-2026"
+        ],
+        "notes": "The official ER.GO call reviewed covers 2026/27 only. No 2027/28 scholarship or regional-benefit call was identified; annual eligibility and deadlines must be checked in the new call."
+      },
+      "previous_cycle_application_windows": {
+        "value": [
+          {
+            "platform": "apply.unife.it",
+            "start": "2026-01-12",
+            "end": "2026-04-30",
+            "eligible_group": "Non-EU applicants resident abroad to Physics and other named English-taught MSc courses"
+          },
+          {
+            "platform": "Universitaly",
+            "end": "2026-06-30",
+            "eligible_group": "Non-EU applicants resident abroad to Physics; pre-enrolment for admission and visa"
+          }
+        ],
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-FERRARA-LM-INTERNATIONAL-2026",
+          "SRC-FERRARA-NON-EU-CATEGORIES-2026"
+        ],
+        "notes": "These are the 2026/27 route and dates only. The University assesses applications after all required documents and payment are submitted."
+      },
+      "previous_cycle_application_fee": {
+        "value": {
+          "academic_year": "2026/27",
+          "amount_eur": 20,
+          "refundable": false,
+          "scope": "International Master's application through apply.unife.it"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-FERRARA-LM-INTERNATIONAL-2026"
+        ],
+        "notes": "Prior-cycle application fee only; no 2027/28 fee confirmed."
+      },
+      "previous_cycle_non_eu_process": {
+        "value": {
+          "academic_year": "2026/27",
+          "steps": [
+            "Register and apply on apply.unife.it",
+            "Submit degree documents for committee evaluation",
+            "Pay the non-refundable €20 application fee",
+            "Submit Universitaly pre-enrolment for admission and visa",
+            "Complete in-person verification/enrolment after visa issuance"
+          ],
+          "visa_note": "University admission does not guarantee a visa; visa issuance is decided by the consular authority."
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-FERRARA-LM-INTERNATIONAL-2026",
+          "SRC-FERRARA-NON-EU-CATEGORIES-2026",
+          "SRC-FERRARA-VISA-2026"
+        ],
+        "notes": "Previous-cycle non-EU process only. Verify annual rules, reserved places and deadlines for 2027/28."
+      },
+      "previous_cycle_tuition": {
+        "value": {
+          "academic_year": "2026/27",
+          "basis": "ISEE or documented foreign-income assessment; contribution also depends on study year and earned credits",
+          "first_year": {
+            "isee_up_to_eur": 27000,
+            "tuition_contribution_exempt": true,
+            "mandatory_stamp_and_regional_tax_eur": 156
+          },
+          "first_year_without_isee_or_isee_over_eur": 60000,
+          "listed_tuition_contribution_eur": 2092,
+          "note": "Contribution amount is subject to eligibility and the annual fee regulations."
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-FERRARA-FEES-2026",
+          "SRC-FERRARA-FEES-FOREIGN-INCOME"
+        ],
+        "notes": "Historical 2026/27 fees only. The €156 minimum is stamp plus regional tax and is not the total cost for every student."
+      },
+      "previous_cycle_scholarships": {
+        "value": {
+          "academic_year": "2026/27",
+          "provider": "ER.GO Emilia-Romagna",
+          "eligible_group": "Students enrolling at the University of Ferrara, including foreign students, subject to financial, merit and documentation criteria",
+          "benefit_types": [
+            "Need-based scholarship",
+            "Accommodation",
+            "Meals"
+          ],
+          "award": "Competitive; subject to annual call and ranking"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-FERRARA-ERGO-2026"
+        ],
+        "notes": "Prior-cycle regional aid context only. It is competitive and does not confirm any 2027/28 award, eligibility threshold, amount or deadline."
+      }
+    }
   },
   {
     "id": "firenze",

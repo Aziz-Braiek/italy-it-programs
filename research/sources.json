@@ -2277,5 +2277,176 @@
       "university.previous_cycle_welcomein_scholarship",
       "program.previous_cycle_scholarships"
     ]
+  },
+  {
+    "id": "SRC-FERRARA-CATALOGUE-2026",
+    "university_id": "ferrara",
+    "title": "Degree catalogue 2026/27",
+    "url": "https://www.unife.it/it/corsi/lauree-e-lauree-magistrali",
+    "source_type": "Official annual degree catalogue",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The catalogue page identifies the 2026/27 offer and lists bachelor's and master's degrees, including the two-year, English-taught Physics MSc (LM-17). It is an annual prior-cycle catalogue and does not establish new-entry availability for 2027/28.",
+    "supports": [
+      "university.previous_cycle_degree_catalogue",
+      "program.previous_cycle_course_listing"
+    ]
+  },
+  {
+    "id": "SRC-FERRARA-PHYSICS-PROFILE-2026",
+    "university_id": "ferrara",
+    "title": "Physics – course profile 2026/27",
+    "url": "https://giuri.unife.it/unife/it/corsi/libero-programmato/libero/fisica-e-scienze-della-terra/lm-physics",
+    "source_type": "Official degree profile",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The official profile names Physics as a Laurea Magistrale in class LM-17, at Ferrara, with open access and English teaching for academic year 2026/27; it also notes a double-degree option. This confirms course identity in the prior-cycle catalogue only.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_language"
+    ]
+  },
+  {
+    "id": "SRC-FERRARA-PHYSICS-OVERVIEW",
+    "university_id": "ferrara",
+    "title": "Physics – degree overview",
+    "url": "https://corsi.unife.it/en/lm-physics/the-degree/explore-the-degree",
+    "source_type": "Official degree program page",
+    "accessed_at": "2026-11-09",
+    "cycle": "general",
+    "evidence": "The course page says the Physics master's is fully taught in English, awards 120 ECTS over two years, and is the natural follow-up to a bachelor's degree in Physics or a related area. It is general course information and does not confirm a 2027/28 intake.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_language",
+      "program.previous_cycle_duration"
+    ]
+  },
+  {
+    "id": "SRC-FERRARA-PHYSICS-ADMISSION-2026",
+    "university_id": "ferrara",
+    "title": "Physics – admission and enrolment guidance, 2026/27",
+    "url": "https://corsi.unife.it/en/lm-physics/enrolling/admission-and-enrolment",
+    "source_type": "Official degree admissions page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The course page identifies an extra-EU 2026/27 enrolment period of 12 January–30 April. Applicants need a Physics bachelor's degree, Italian L-30 or legacy class 25 degree, or a certified foreign bachelor's degree; the committee evaluates the academic record and Physics background through an interview that also checks English skills. The listed background includes calculus, geometry, algebra, chemistry, core classical and modern physics, experimental methods, electronics and computing. No 2027/28 course-specific dates or intake are established.",
+    "supports": [
+      "program.previous_cycle_admission_route",
+      "program.previous_cycle_program_requirements",
+      "program.previous_cycle_application_window"
+    ]
+  },
+  {
+    "id": "SRC-FERRARA-LM-INTERNATIONAL-2026",
+    "university_id": "ferrara",
+    "title": "Apply for a Master's degree – international procedure",
+    "url": "https://www.unife.it/it/internazionale/venire/iscriversi/iscrizione-lm/avvia-la-procedura",
+    "source_type": "Official international admissions guidance",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "For the 2026/27 cycle, non-EU applicants abroad applying to Physics were directed to submit through apply.unife.it from 12 January to 30 April, pay a non-refundable €20 application fee, upload qualification documents and also submit through Universitaly. ER.GO scholarship/accommodation applications are normally announced in July and August. This page was last updated 4 June 2026 and does not establish the 2027/28 route, fee or dates.",
+    "supports": [
+      "university.previous_cycle_international_admission",
+      "university.previous_cycle_application_fee",
+      "university.previous_cycle_scholarship_route"
+    ]
+  },
+  {
+    "id": "SRC-FERRARA-NON-EU-CATEGORIES-2026",
+    "university_id": "ferrara",
+    "title": "Applicants with foreign qualifications – applicant categories",
+    "url": "https://giuri.unife.it/unife/it/internazionale/venire/iscriversi/informazioni/categorie",
+    "source_type": "Official non-EU admissions guidance",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "For extra-EU applicants resident abroad applying to English-taught Physics, the page specifies apply.unife.it registration from 12 January to 30 April and Universitaly pre-enrolment by 30 June. It also says course-specific reserved places are set annually and evaluation requires applications through both systems. The page was last updated 18 December 2025; these dates are recorded as the prior-cycle route only.",
+    "supports": [
+      "university.previous_cycle_non_eu_process",
+      "university.previous_cycle_application_windows",
+      "program.previous_cycle_application_window"
+    ]
+  },
+  {
+    "id": "SRC-FERRARA-VISA-2026",
+    "university_id": "ferrara",
+    "title": "Entrance visa request – international students",
+    "url": "https://www.unife.it/en/come-to-study/enroll/how-to-enroll/entrance-visa-request",
+    "source_type": "Official international student visa guidance",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "Updated 25 May 2026. For the 2026/27 process, non-EU applicants abroad apply through Universitaly; admission/pre-enrolment does not guarantee a study visa. The page states an English certificate of at least B2 may be required by the relevant embassy/consulate when English is not the applicant's mother tongue, and students must complete enrolment in Ferrara within one month of visa issuance (31 January only for late-issued visas). It does not establish a 2027/28 visa procedure.",
+    "supports": [
+      "university.previous_cycle_non_eu_process",
+      "university.previous_cycle_visa_requirements"
+    ]
+  },
+  {
+    "id": "SRC-FERRARA-FEES-2026",
+    "university_id": "ferrara",
+    "title": "University fees and contribution rules, 2026/27",
+    "url": "https://giuri.unife.it/unife/it/iscriviti/tasse/tasse/simulazione-tasse/come-calcolare-il-contributo",
+    "source_type": "Official annual fees and contribution page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 contribution page uses ISEE or foreign-income documentation and study-year/credit rules. First-year students with ISEE up to €27,000 receive a full tuition-contribution exemption and pay €156 in stamp and regional tax; the listed contribution at ISEE above €60,000 or without ISEE is €2,092 for regular first-year students. These amounts depend on eligibility and are prior-cycle only, not a 2027/28 international flat fee.",
+    "supports": [
+      "university.previous_cycle_tuition",
+      "university.tuition_2027_2028"
+    ]
+  },
+  {
+    "id": "SRC-FERRARA-FEES-FOREIGN-INCOME",
+    "university_id": "ferrara",
+    "title": "ISEE or foreign-income documentation for fees",
+    "url": "https://www.unife.it/it/iscriviti/tasse/isee",
+    "source_type": "Official fee-reduction guidance",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The University allows students with income abroad to request a fee reduction using the required foreign-income documentation instead of ISEE. The page says the 2026/27 deadline was 2 November 2026, with a €100 surcharge for documentation submitted from 3 November to 15 December 2026. Annual deadline and fee rules do not establish 2027/28 terms.",
+    "supports": [
+      "university.previous_cycle_foreign_income_fee_process",
+      "university.previous_cycle_tuition"
+    ]
+  },
+  {
+    "id": "SRC-FERRARA-ERGO-2026",
+    "university_id": "ferrara",
+    "title": "ER.GO study-benefit competition call 2026/27",
+    "url": "https://www.er-go.it/cosa-fare-per/bandi-di-concorso/leggi-il-bando/bando-di-concorso-benefici-dsu-a-a-2026_2027.pdf/%40%40display-file/file/bando-di-concorso-benefici-dsu-a-a-2026_2027.pdf",
+    "source_type": "Official regional scholarship and student-benefit call",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 regional call includes students enrolling at the University of Ferrara in bachelor's and master's degrees. Foreign students are eligible subject to income, merit and documentation conditions; benefits can include a scholarship, accommodation and meals, and application/award terms are governed by the annual call. This is prior-cycle regional aid and does not confirm a 2027/28 award or deadline.",
+    "supports": [
+      "university.previous_cycle_regional_scholarships",
+      "university.scholarships_2027_2028",
+      "program.previous_cycle_scholarships"
+    ]
+  },
+  {
+    "id": "SRC-FERRARA-INCOMING-CONTACT",
+    "university_id": "ferrara",
+    "title": "International Mobility Office – contact information",
+    "url": "https://www.unife.it/it/ateneo/strutture/uffici/ufficio-mobilita-internazionale",
+    "source_type": "Official university international office contact page",
+    "accessed_at": "2026-11-09",
+    "cycle": "general",
+    "evidence": "Lists international@unife.it as the contact for incoming international mobility and student-support activities. It is a general contact, not a 2027/28 admissions decision channel.",
+    "supports": [
+      "university.general_international_contact"
+    ]
+  },
+  {
+    "id": "SRC-FERRARA-PHYSICS-CONTACT",
+    "university_id": "ferrara",
+    "title": "Physics – teaching manager contact",
+    "url": "https://corsi.unife.it/en/lm-physics/the-degree/organization",
+    "source_type": "Official degree contact page",
+    "accessed_at": "2026-11-09",
+    "cycle": "general",
+    "evidence": "Names Anca Teodora Lazar as the Physics degree's didactic manager and gives manager.fisica@unife.it as the course contact. This is a course-information contact, not a 2027/28 intake confirmation.",
+    "supports": [
+      "program.course_contact"
+    ]
   }
 ]

@@ -85,6 +85,11 @@
       "id": "camerino-english-masters-and-2026-27-prior-cycle-review",
       "status": "partial",
       "result": "Checked the official international master list and course profiles for Computer Science, Chemistry, Mathematics and Applications, and Physics. Recorded prior-cycle degree classes, English delivery, available academic entry requirements, a 2026/27 €6,876 international housing/tuition package, the €20 international pre-admission fee and deadline, WelcomeInUnicam and ERDIS Marche scholarship context. Logged the official curriculum-count discrepancies for Computer Science and Mathematics and conflicting Chemistry course titles. No 2027/28 first-year calls, deadlines, tuition amounts or scholarship awards were confirmed; all four candidate intakes remain pending."
+    },
+    {
+      "id": "ferrara-physics-2026-27-prior-cycle-review",
+      "status": "partial",
+      "result": "Checked Ferrara's official 2026/27 degree catalogue and Physics profile, confirming the prior-cycle English LM-17 course identity, two-year/120-ECTS duration, open access with assessment, Physics/related-degree route and committee interview. Recorded the 2026/27 apply.unife.it and Universitaly procedure, €20 application fee, fee-reduction rules and ER.GO regional aid as historical. No 2027/28 Physics first-year call, application dates, fee, tuition schedule or scholarship call was identified; the program remains pending, not marked discontinued."
     }
   ],
   "counts": {
@@ -95,12 +100,13 @@
     "universities_without_initial_official_source_outcome": 0,
     "universities_fully_verified": 0,
     "universities_partially_researched": 34,
-    "universities_with_program_level_research": 15,
+    "universities_with_program_level_research": 16,
     "university_ids_with_program_level_research": [
       "bologna",
       "ca-foscari",
       "camerino",
       "catania",
+      "ferrara",
       "firenze",
       "messina",
       "napoli-federico-ii",
@@ -113,9 +119,8 @@
       "tor-vergata",
       "verona"
     ],
-    "universities_program_level_review_not_started": 19,
+    "universities_program_level_review_not_started": 18,
     "university_ids_with_program_level_review_not_started": [
-      "ferrara",
       "genova",
       "insubria",
       "laquila",
@@ -143,7 +148,7 @@
     "programs_fully_verified": 23,
     "programs_requiring_verification": 164,
     "programs_not_offered_2027_2028": 2,
-    "programs_supported_only_by_previous_cycle": 21,
+    "programs_supported_only_by_previous_cycle": 22,
     "program_ids_supported_only_by_previous_cycle": [
       "discovered-023",
       "discovered-024",
@@ -152,6 +157,7 @@
       "legacy-070",
       "legacy-071",
       "legacy-079",
+      "legacy-080",
       "legacy-081",
       "legacy-083",
       "legacy-084",
@@ -202,11 +208,12 @@
       "politecnico-torino",
       "siena"
     ],
-    "universities_with_unavailable_or_conflicting_information": 10,
+    "universities_with_unavailable_or_conflicting_information": 11,
     "university_ids_with_unavailable_or_conflicting_information": [
       "bologna",
       "ca-foscari",
       "camerino",
+      "ferrara",
       "padova",
       "perugia",
       "pisa",
@@ -221,8 +228,8 @@
       "politecnico-milano",
       "trento"
     ],
-    "source_records": 152,
-    "official_source_supported_fields": 343,
+    "source_records": 164,
+    "official_source_supported_fields": 356,
     "verification_statuses": [
       "CONFIRMED",
       "NOT_YET_PUBLISHED",
