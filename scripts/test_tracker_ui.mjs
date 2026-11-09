@@ -60,6 +60,13 @@ assert.equal(getElementById("stat-deadlines").textContent, "8");
 assert.match(getElementById("notice-count").textContent, /^163 /);
 assert.match(getElementById("program-count").textContent, /^23 \/ 187 /);
 assert.doesNotMatch(getElementById("program-grid").innerHTML, /legacy-001/);
+const universityHtml = getElementById("university-grid").innerHTML;
+assert.match(universityHtml, /Engineering application windows/);
+assert.match(universityHtml, /Official sources conflict/);
+assert.match(universityHtml, /International merit scholarships/);
+assert.match(universityHtml, /2027\/28 tuition/);
+assert.match(universityHtml, /Admissions contact/);
+assert.match(universityHtml, /Merit Based Call for Applications/);
 
 const status = getElementById("status-filter");
 status.value = "CONFLICTING_SOURCES";

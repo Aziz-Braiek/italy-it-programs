@@ -35,6 +35,11 @@
       "id": "unige-program-cycle-outcomes",
       "status": "partial",
       "result": "Recorded the official notice that Maritime Science and Technology will not be offered in 2027/28, and the planned CORES joint MSc with its proposal and intake details still pending."
+    },
+    {
+      "id": "polimi-admissions-scholarships-and-fees",
+      "status": "partial",
+      "result": "Recorded the official 2027/28 MSc schedules and €50/€150 application fees, the deadline-page Engineering schedule discrepancy, 2027/28 international merit scholarships, English certificate requirements, CEnT-S timing and pending BSc call, current contact pathway, and the fact that the reviewed tuition page still covers 2026/27. The 17 historic program rows remain pending individual 2027/28 checks."
     }
   ],
   "counts": {
@@ -64,40 +69,44 @@
       "tor-vergata",
       "trento"
     ],
-    "universities_with_explicit_not_yet_published_fields": 7,
+    "universities_with_explicit_not_yet_published_fields": 8,
     "university_ids_with_explicit_not_yet_published_fields": [
       "ca-foscari",
       "palermo",
       "parma",
       "pisa",
       "politecnico-bari",
+      "politecnico-milano",
       "politecnico-torino",
       "siena"
     ],
-    "universities_with_deadlines_or_calls_explicitly_not_yet_published": 6,
+    "universities_with_deadlines_or_calls_explicitly_not_yet_published": 7,
     "university_ids_with_deadlines_or_calls_explicitly_not_yet_published": [
       "ca-foscari",
       "palermo",
       "parma",
       "politecnico-bari",
+      "politecnico-milano",
       "politecnico-torino",
       "siena"
     ],
-    "universities_with_unavailable_or_conflicting_information": 6,
+    "universities_with_unavailable_or_conflicting_information": 7,
     "university_ids_with_unavailable_or_conflicting_information": [
       "bologna",
       "padova",
       "pisa",
+      "politecnico-milano",
       "politecnico-torino",
       "tor-vergata",
       "trento"
     ],
-    "universities_with_conflicting_sources": 1,
+    "universities_with_conflicting_sources": 2,
     "university_ids_with_conflicting_sources": [
+      "politecnico-milano",
       "trento"
     ],
-    "source_records": 68,
-    "official_source_supported_fields": 234,
+    "source_records": 73,
+    "official_source_supported_fields": 236,
     "verification_statuses": [
       "CONFIRMED",
       "NOT_YET_PUBLISHED",

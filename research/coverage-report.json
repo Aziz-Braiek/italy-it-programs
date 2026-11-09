@@ -25,40 +25,44 @@
     "tor-vergata",
     "trento"
   ],
-  "universities_with_explicit_not_yet_published_fields": 7,
+  "universities_with_explicit_not_yet_published_fields": 8,
   "university_ids_with_explicit_not_yet_published_fields": [
     "ca-foscari",
     "palermo",
     "parma",
     "pisa",
     "politecnico-bari",
+    "politecnico-milano",
     "politecnico-torino",
     "siena"
   ],
-  "universities_with_deadlines_or_calls_explicitly_not_yet_published": 6,
+  "universities_with_deadlines_or_calls_explicitly_not_yet_published": 7,
   "university_ids_with_deadlines_or_calls_explicitly_not_yet_published": [
     "ca-foscari",
     "palermo",
     "parma",
     "politecnico-bari",
+    "politecnico-milano",
     "politecnico-torino",
     "siena"
   ],
-  "universities_with_unavailable_or_conflicting_information": 6,
+  "universities_with_unavailable_or_conflicting_information": 7,
   "university_ids_with_unavailable_or_conflicting_information": [
     "bologna",
     "padova",
     "pisa",
+    "politecnico-milano",
     "politecnico-torino",
     "tor-vergata",
     "trento"
   ],
-  "universities_with_conflicting_sources": 1,
+  "universities_with_conflicting_sources": 2,
   "university_ids_with_conflicting_sources": [
+    "politecnico-milano",
     "trento"
   ],
-  "source_records": 68,
-  "official_source_supported_fields": 234,
+  "source_records": 73,
+  "official_source_supported_fields": 236,
   "verification_statuses": [
     "CONFIRMED",
     "NOT_YET_PUBLISHED",

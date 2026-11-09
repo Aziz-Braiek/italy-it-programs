@@ -40,7 +40,7 @@
     "source_type": "Official admissions deadlines page",
     "accessed_at": "2026-11-09",
     "cycle": "2027-2028",
-    "evidence": "For MSc September 2027 intake, general application periods include 1 Oct–1 Dec 2026 early-bird and 12–28 Jan 2027; an additional 1–18 Mar 2027 call is restricted to EEA applicants and eligible non-EEA residents in Italy. Fees are €50 early-bird or €150 standard, for up to two programs. Architecture/Design has a separate cycle section.",
+    "evidence": "For September 2027 MSc entry, the page gives general 2027/28 windows of 1 Oct–1 Dec 2026 (early bird), 12–28 Jan 2027 and 1–18 Mar 2027 for EEA and certain non-EEA residents in Italy. Architecture/Design has its own table with a 1 Oct 2026–28 Jan 2027 general call and the same additional March call. A separate Engineering subsection labelled 2026/27 nevertheless describes the September 2027 intake and gives 12 Jan–25 Feb 2027, creating a cycle/date discrepancy that must be resolved by study area. Fees are €50 early bird or €150 standard, and candidates may apply to at most two programmes.",
     "supports": [
       "university.application_window",
       "university.application_fee",
@@ -55,11 +55,9 @@
     "source_type": "Official admissions and enrolment page",
     "accessed_at": "2026-11-09",
     "cycle": "2027-2028",
-    "evidence": "Publishes the 2027/28 Engineering BSc enrolment calendar: first phase 3 May–10 June 2027 (limited eligibility and excludes English-taught programmes); the second phase has preferences due 17 June followed by rankings and enrolment dates through 30 June; the third phase has preferences due 22 July and rankings through 4 August; the fourth phase has preferences due 26 August and rankings through 8 September. The first tuition instalment is €880.04, with ISEE-based reductions possible. Dates are CEST.",
+    "evidence": "Publishes the 2027/28 Engineering BSc enrolment calendar: first phase 3 May–10 June 2027 (restricted eligibility and excludes English-taught programmes); preference deadlines for later phases are 17 June, 22 July and 26 August 2027, followed by rankings and enrolment deadlines. The page covers enrolment timing, not the pending cycle-specific Engineering call or total tuition amount. Dates are CEST.",
     "supports": [
-      "university.bachelor_application_windows",
-      "university.bachelor_first_installment",
-      "university.isee_reductions"
+      "university.bachelor_application_windows"
     ]
   },
   {
@@ -74,6 +72,77 @@
     "supports": [
       "university.english_certificates",
       "university.masters_entry"
+    ]
+  },
+  {
+    "id": "SRC-POLIMI-SCHOLARSHIPS-2027",
+    "university_id": "politecnico-milano",
+    "title": "Merit Based Call for Applications – A.Y. 2027–2028",
+    "url": "https://www.polimi.it/fileadmin/user_upload/futuri_studenti/borse-di-studio/Merit_Based_Call_For_Applications_a.y._2027-2028.pdf",
+    "source_type": "Official 2027/28 scholarship call PDF",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "Offers 10 Platinum (€10,000 gross), 18 Gold (€8,000 gross), 16 Piacenza Gold (€5,000 gross), 10 Piacenza Bronze (€2,500 gross), and 10 Silver awards (tuition waiver at Cremona, Lecco, Mantova and Piacenza); all include a tuition waiver for the award year. Eligible applicants must be international first-year MSc applicants to English-taught programs for 2027/28 and must have paid the admission application fee during 1 Oct–1 Dec 2026. Scholarship forms are accepted 1 Oct–15 Dec 2026 at noon Italian time. Awards are competitive and subject to admission and acceptance conditions.",
+    "supports": [
+      "university.scholarships",
+      "university.scholarship_deadline",
+      "university.scholarship_eligibility"
+    ]
+  },
+  {
+    "id": "SRC-POLIMI-ENGINEERING-CALL-2027",
+    "university_id": "politecnico-milano",
+    "title": "Engineering BSc admissions – 2027/28 call publication status",
+    "url": "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-programmes/engineering",
+    "source_type": "Official admissions page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "For first-year Engineering BSc programs in 2027/28, the page says the admission call will be published shortly. It describes the required admission test and non-Italian qualification documentation but does not yet provide the complete 2027/28 call rules, full seat inventory, or all deadlines.",
+    "supports": [
+      "university.bachelor_call_status",
+      "university.bachelor_entry"
+    ]
+  },
+  {
+    "id": "SRC-POLIMI-CENTS-2027",
+    "university_id": "politecnico-milano",
+    "title": "CEnT-S – admission to Engineering BSc 2027/28",
+    "url": "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-programmes/engineering/cent-s",
+    "source_type": "Official test requirements and deadlines page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "For Engineering BSc entry in 2027/28, the page describes the English-language CEnT-S test (55 questions/110 minutes overall; Polimi uses Mathematics, reasoning on texts/data and Physics, 35 questions/70 minutes) and score-recording deadlines. For final-year or already graduated applicants taking a test from 1 Sep 2026 through 3 Jun 2027, the recording deadline is 3 Jun 2027 at 11:59 a.m. A separate 3 Jun deadline applies to the specified 2025/26 penultimate-year cohort that missed the prior recording deadline.",
+    "supports": [
+      "university.bachelor_admission_test",
+      "university.bachelor_test_deadline"
+    ]
+  },
+  {
+    "id": "SRC-POLIMI-TUITION-2027",
+    "university_id": "politecnico-milano",
+    "title": "Tuition fees – current published fee schedule",
+    "url": "https://www.polimi.it/en/students/tuition-fees-scholarships-and-financial-aid/tuition-fees",
+    "source_type": "Official tuition and financial aid page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "The fee page currently labels its detailed fee structure as Academic Year 2026/2027, including regional tax brackets and an annual contribution range. It does not establish the 2027/28 tuition amount; 2026/27 amounts are not carried forward as current-cycle fees.",
+    "supports": [
+      "university.tuition_publication_status",
+      "university.fee_conditions"
+    ]
+  },
+  {
+    "id": "SRC-POLIMI-CONTACTS",
+    "university_id": "politecnico-milano",
+    "title": "Contacts for international prospective students",
+    "url": "https://www.polimi.it/en/prospective-students/contacts/contacts-for-international-prospective-students",
+    "source_type": "Official international contacts page",
+    "accessed_at": "2026-11-09",
+    "cycle": "general",
+    "evidence": "Routes international prospective students to the official enquiry form/Online Services rather than publishing a general admissions email. It distinguishes undergraduate applicants from postgraduate applicants and provides the relevant contact pathways.",
+    "supports": [
+      "university.admissions_contact",
+      "university.application_support"
     ]
   },
   {

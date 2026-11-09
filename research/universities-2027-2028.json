@@ -92,10 +92,10 @@
     "international_admissions_url": "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/deadlines",
     "application_portal_url": null,
     "contact_email": null,
-    "contact_url": "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/deadlines",
+    "contact_url": "https://www.polimi.it/en/prospective-students/contacts/contacts-for-international-prospective-students",
     "cycle_status": "CONFIRMED",
     "research_stage": "PARTIALLY_RESEARCHED",
-    "research_summary": "Official 2027/28 MSc windows, Engineering BSc enrolment phases, first instalment amount and English-certificate scores are recorded; the 17 historic program rows still need individual checks.",
+    "research_summary": "2027/28 MSc application windows, merit scholarships, English requirements and Engineering BSc test/enrolment details are recorded. The official page has an Engineering deadline discrepancy, the current fee schedule is 2026/27, and all 17 historic program rows still need individual cycle checks.",
     "coverage": {
       "official_website_visited": "complete",
       "international_admissions_page_examined": "partial",
@@ -103,7 +103,7 @@
       "masters_admissions_examined": "partial",
       "english_programs_examined": "partial",
       "fees_examined": "partial",
-      "scholarships_examined": "not_started",
+      "scholarships_examined": "partial",
       "non_eu_requirements_examined": "partial",
       "application_deadlines_examined": "partial",
       "program_level_review": "not_started"
@@ -111,7 +111,12 @@
     "source_ids": [
       "SRC-POLIMI-DEADLINES-2027",
       "SRC-POLIMI-BSC-2027",
-      "SRC-POLIMI-ENGLISH-2027"
+      "SRC-POLIMI-ENGLISH-2027",
+      "SRC-POLIMI-SCHOLARSHIPS-2027",
+      "SRC-POLIMI-ENGINEERING-CALL-2027",
+      "SRC-POLIMI-CENTS-2027",
+      "SRC-POLIMI-TUITION-2027",
+      "SRC-POLIMI-CONTACTS"
     ],
     "last_checked": "2026-11-09",
     "cycle_facts": {
@@ -121,38 +126,107 @@
             "label": "Early bird",
             "start": "2026-10-01",
             "end": "2026-12-01",
-            "eligible_group": "Most September 2027 MSc applicants; see study-area rules"
+            "eligible_group": "September 2027 MSc applicants; study-area rules apply"
           },
           {
-            "label": "Regular",
+            "label": "General period 2",
             "start": "2027-01-12",
             "end": "2027-01-28",
-            "eligible_group": "Most September 2027 MSc applicants; see study-area rules"
+            "eligible_group": "General cross-area schedule; verify the chosen study area's call"
           },
           {
             "label": "Additional",
             "start": "2027-03-01",
             "end": "2027-03-18",
-            "eligible_group": "EEA and eligible non-EEA residents in Italy only"
+            "eligible_group": "EEA and non-EEA residents in Italy with one of the listed permit types"
           }
         ],
         "status": "CONFIRMED",
         "source_ids": [
           "SRC-POLIMI-DEADLINES-2027"
         ],
-        "notes": "Study-area exceptions apply; Architecture/Design has its own section."
+        "notes": "The official page also has separate Architecture/Design and Engineering tables; the Engineering subsection is labelled 2026/27 while describing the September 2027 intake and gives a different second-call end date. See engineering_application_windows below."
       },
       "application_fee": {
         "value": {
           "early_bird_eur": 50,
           "standard_eur": 150,
-          "program_limit": 2
+          "maximum_programmes": 2
         },
         "status": "CONFIRMED",
         "source_ids": [
           "SRC-POLIMI-DEADLINES-2027"
         ],
-        "notes": null
+        "notes": "The standard fee applies from 2 December; eligibility and study-area windows vary."
+      },
+      "architecture_design_application_windows": {
+        "value": [
+          {
+            "label": "General call",
+            "start": "2026-10-01",
+            "end": "2027-01-28",
+            "eligible_group": "September 2027 Architecture and Design MSc applicants"
+          },
+          {
+            "label": "Additional call",
+            "start": "2027-03-01",
+            "end": "2027-03-18",
+            "eligible_group": "EEA and non-EEA residents in Italy with a listed permit type"
+          }
+        ],
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-POLIMI-DEADLINES-2027"
+        ],
+        "notes": "Early-bird fee deadline is 1 December 2026."
+      },
+      "engineering_application_windows": {
+        "value": {
+          "general_2027_2028_section": [
+            {
+              "label": "Early bird",
+              "start": "2026-10-01",
+              "end": "2026-12-01"
+            },
+            {
+              "label": "Period 2",
+              "start": "2027-01-12",
+              "end": "2027-01-28"
+            }
+          ],
+          "engineering_subsection_labeled_2026_2027_for_september_2027_intake": [
+            {
+              "label": "Call 1",
+              "start": "2026-10-01",
+              "end": "2026-12-01"
+            },
+            {
+              "label": "Call 2",
+              "start": "2027-01-12",
+              "end": "2027-02-25"
+            }
+          ],
+          "additional_call": [
+            {
+              "start": "2027-03-01",
+              "end": "2027-03-18",
+              "eligible_group": "EEA and non-EEA residents in Italy with a listed permit type"
+            }
+          ]
+        },
+        "status": "CONFLICTING_SOURCES",
+        "source_ids": [
+          "SRC-POLIMI-DEADLINES-2027"
+        ],
+        "notes": "A single official page has a 2027/28 general table ending 28 January, and an Engineering subsection labelled 2026/27 that nonetheless describes the September 2027 intake and ends the Engineering second call on 25 February. The applicable Engineering deadline needs confirmation from the program-specific call or admissions portal."
+      },
+      "bachelor_call": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-POLIMI-ENGINEERING-CALL-2027"
+        ],
+        "notes": "The official Engineering admissions page says the 2027/28 call will be published shortly; the full call and places were not yet available on the reviewed page."
       },
       "bachelor_enrolment_schedule": {
         "value": [
@@ -180,13 +254,99 @@
         ],
         "notes": "The page also lists ranking and enrolment deadlines after each preference phase; this is not a single university-wide BSc application deadline."
       },
-      "bachelor_first_installment_eur": {
-        "value": 880.04,
+      "engineering_bachelor_tests": {
+        "value": {
+          "tests": [
+            "TOL",
+            "TOLC-I",
+            "CEnT-S",
+            "SAT"
+          ],
+          "CEnT-S": {
+            "language": "English",
+            "questions_total": 55,
+            "minutes_total": 110,
+            "questions_used_by_Polimi": 35,
+            "minutes_used_by_Polimi": 70,
+            "sections_used": [
+              "Mathematics",
+              "Reasoning on texts and data",
+              "Physics"
+            ]
+          },
+          "CEnT-S_score_record_deadline": "2027-06-03 11:59 a.m. for final-year 2026/27 or already-graduated test-takers taking a test from 2026-09-01 through 2027-06-03"
+        },
         "status": "CONFIRMED",
         "source_ids": [
-          "SRC-POLIMI-BSC-2027"
+          "SRC-POLIMI-ENGINEERING-CALL-2027",
+          "SRC-POLIMI-CENTS-2027"
         ],
-        "notes": "First tuition instalment only, not total annual tuition; ISEE-based reductions may apply."
+        "notes": "CEnT-S recording deadlines differ by cohort; check the source for the separate prior-year penultimate-student rule."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-POLIMI-TUITION-2027"
+        ],
+        "notes": "The reviewed official fee page displays the 2026/27 schedule only. Do not carry those amounts forward as 2027/28 tuition."
+      },
+      "international_merit_scholarships": {
+        "value": {
+          "platinum": {
+            "awards": 10,
+            "gross_eur": 10000,
+            "campus": "Milan"
+          },
+          "gold": {
+            "awards": 18,
+            "gross_eur": 8000,
+            "campus": "Milan"
+          },
+          "gold_piacenza": {
+            "awards": 16,
+            "gross_eur": 5000,
+            "campus": "Piacenza",
+            "eligible_programs": [
+              "Sustainable Architecture and Landscape Design",
+              "Landscape Architecture – Land Landscape Heritage",
+              "Energy Engineering – Renewables and Environmental Sustainability"
+            ]
+          },
+          "bronze_piacenza": {
+            "awards": 10,
+            "gross_eur": 2500,
+            "campus": "Piacenza",
+            "eligible_program": "Mechanical Engineering – Mechatronics for Manufacturing"
+          },
+          "silver": {
+            "awards": 10,
+            "campuses": [
+              "Cremona",
+              "Lecco",
+              "Mantova",
+              "Piacenza"
+            ],
+            "benefit": "full tuition waiver"
+          },
+          "tuition_waiver": "All awards include a tuition waiver for the 2027/28 award year",
+          "eligible_group": "International applicants to first-year MSc programs taught in English; scholarship tier has campus/program restrictions",
+          "admission_application_fee_paid_between": [
+            "2026-10-01",
+            "2026-12-01"
+          ],
+          "scholarship_application_period": {
+            "start": "2026-10-01",
+            "end": "2026-12-15",
+            "deadline_time": "12:00 Italian time"
+          },
+          "award_conditions": "Competitive; applicants must be admitted and accept the admission outcome; award rules and renewal conditions apply"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-POLIMI-SCHOLARSHIPS-2027"
+        ],
+        "notes": "Gross award amounts are not net payments; campus, program, admission and renewal conditions apply."
       },
       "masters_english_certificates": {
         "value": {
