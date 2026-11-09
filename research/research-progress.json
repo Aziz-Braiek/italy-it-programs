@@ -70,6 +70,11 @@
       "id": "pavia-computer-engineering-prior-cycle-review",
       "status": "partial",
       "result": "Recorded Pavia's 2027/28 application calendar and €35 fee for non-restricted Master's programs with a course-category caveat; retained the 2026/27 Computer Engineering profile, LM-32 requirements, international admissions route, country-bracketed non-EU tuition, EDiSU funding and tuition exemptions as historical evidence. Program intake and category for 2027/28 remain unconfirmed."
+    },
+    {
+      "id": "perugia-engineering-management-prior-cycle-review",
+      "status": "partial",
+      "result": "Matched the legacy Engineering MSc lead to the official Engineering Management course and added the English BSc discovered in the 2026/27 Engineering catalogue. Recorded prior-cycle course profiles, capacity, curriculum requirements, language and international PICA/Universitaly procedures, university-level fee guidance, and the ADiSU 2026/27 scholarship call including foreign-income rules. Neither 2027/28 first-year intake nor current deadlines, fees or scholarships are confirmed; program-level coverage is partial."
     }
   ],
   "counts": {
@@ -80,7 +85,7 @@
     "universities_without_initial_official_source_outcome": 0,
     "universities_fully_verified": 0,
     "universities_partially_researched": 34,
-    "universities_with_program_level_research": 12,
+    "universities_with_program_level_research": 13,
     "university_ids_with_program_level_research": [
       "bologna",
       "catania",
@@ -90,12 +95,13 @@
       "padova",
       "parma",
       "pavia",
+      "perugia",
       "pisa",
       "siena",
       "tor-vergata",
       "verona"
     ],
-    "universities_program_level_review_not_started": 22,
+    "universities_program_level_review_not_started": 21,
     "university_ids_with_program_level_review_not_started": [
       "ca-foscari",
       "camerino",
@@ -108,7 +114,6 @@
       "milano-statale",
       "modena-reggio",
       "palermo",
-      "perugia",
       "politecnico-bari",
       "politecnico-milano",
       "politecnico-torino",
@@ -120,21 +125,23 @@
       "trieste",
       "udine"
     ],
-    "program_records": 188,
+    "program_records": 189,
     "prior_tracker_programs_archived": 165,
-    "newly_discovered_programs": 23,
+    "newly_discovered_programs": 24,
     "programs_cycle_availability_confirmed": 24,
-    "programs_availability_pending": 162,
+    "programs_availability_pending": 163,
     "programs_fully_verified": 23,
-    "programs_requiring_verification": 163,
+    "programs_requiring_verification": 164,
     "programs_not_offered_2027_2028": 2,
-    "programs_supported_only_by_previous_cycle": 5,
+    "programs_supported_only_by_previous_cycle": 7,
     "program_ids_supported_only_by_previous_cycle": [
       "discovered-023",
+      "discovered-024",
       "legacy-079",
       "legacy-081",
       "legacy-084",
-      "legacy-088"
+      "legacy-088",
+      "legacy-089"
     ],
     "bsc_programs_verified": 1,
     "msc_programs_verified": 22,
@@ -171,10 +178,11 @@
       "politecnico-torino",
       "siena"
     ],
-    "universities_with_unavailable_or_conflicting_information": 7,
+    "universities_with_unavailable_or_conflicting_information": 8,
     "university_ids_with_unavailable_or_conflicting_information": [
       "bologna",
       "padova",
+      "perugia",
       "pisa",
       "politecnico-milano",
       "politecnico-torino",
@@ -186,8 +194,8 @@
       "politecnico-milano",
       "trento"
     ],
-    "source_records": 112,
-    "official_source_supported_fields": 269,
+    "source_records": 118,
+    "official_source_supported_fields": 285,
     "verification_statuses": [
       "CONFIRMED",
       "NOT_YET_PUBLISHED",

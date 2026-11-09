@@ -4685,42 +4685,275 @@
     "university_id": "perugia",
     "university": "Università degli Studi di Perugia",
     "city": "Perugia",
-    "program": "Engineering",
+    "program": "Engineering Management",
     "level": {
       "value": "MSc",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-UNIPG-CATALOGUE-2026",
+        "SRC-UNIPG-EM-MSC-2026"
+      ],
+      "notes": "Officially listed as an LM-31 second-cycle degree for 2026/27; its level for a 2027/28 first-year intake remains unconfirmed."
     },
     "language": {
       "value": "English",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-UNIPG-CATALOGUE-2026",
+        "SRC-UNIPG-EM-MSC-2026"
+      ],
+      "notes": "The 2026/27 catalogue and current department page identify English teaching; 2027/28 teaching language remains unconfirmed."
     },
     "field": {
-      "value": "Engineering",
+      "value": "Engineering Management",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-UNIPG-CATALOGUE-2026",
+        "SRC-UNIPG-EM-MSC-2026"
+      ],
+      "notes": "The exact course name and LM-31 class are verified for 2026/27 only."
     },
     "availability_2027_2028": {
       "value": null,
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
+      "source_ids": [
+        "SRC-UNIPG-CATALOGUE-2026",
+        "SRC-UNIPG-EM-MSC-2026",
+        "SRC-UNIPG-INTL"
+      ],
+      "notes": "The latest official course listing is for 2026/27 and the international PICA route gives 2026 dates. No 2027/28 first-year intake was identified in the reviewed official pages; this is not treated as a cancellation or explicit publication notice."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
-    "facts": {},
-    "source_ids": [],
+    "facts": {
+      "previous_cycle_course_listing": {
+        "value": {
+          "academic_year": "2026/27",
+          "degree": "Laurea Magistrale / Master of Science",
+          "degree_class": "LM-31",
+          "duration_years": 2,
+          "credits": 120,
+          "location": "Perugia",
+          "language": "English",
+          "access": "Free access; 80 sustainable places",
+          "teaching_method": "Conventional"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIPG-CATALOGUE-2026",
+          "SRC-UNIPG-EM-MSC-2026"
+        ],
+        "notes": "Course identity, language, duration and capacity are from 2026/27/general course pages, not a 2027/28 first-year offer."
+      },
+      "previous_cycle_program_requirements": {
+        "value": {
+          "academic_year": "2026/27",
+          "qualifying_degree": "Bachelor's degree or recognized foreign equivalent",
+          "direct_admission": "Three-year Engineering degree in class L-8 (Information Engineering) or L-9 (Industrial Engineering)",
+          "other_degrees": {
+            "minimum_total_cfu": 85,
+            "subminimums_cfu": {
+              "physics": 10,
+              "mathematics_statistics_or_information": 15,
+              "engineering_management_and_related": 25,
+              "engineering_economics_and_related": 35
+            }
+          },
+          "foreign_qualifications": "Curricular requirements assessed by a special committee from the applicant's academic record"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIPG-EM-MSC-2026"
+        ],
+        "notes": "These course requirements are documented on the current page updated in October 2026 and linked to the 2026/27 offer; they are not a 2027/28 call."
+      },
+      "previous_cycle_english_requirement": {
+        "value": {
+          "academic_year": "2026/27",
+          "level": "B2 CEFR",
+          "course_page_rule": "The department course page says B2 may be obtained by the end of the first academic year for ordinary enrolment.",
+          "visa_applicant_rule": "Non-EU visa applicants had to submit an accepted B2 certificate at PICA pre-evaluation; MOI and other unlisted certificates were rejected."
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIPG-EM-MSC-2026",
+          "SRC-UNIPG-INTL"
+        ],
+        "notes": "The course page and the separate 2026/27 visa procedure apply to different contexts: visa applicants needed B2 evidence before the visa process. Neither rule is confirmed for 2027/28."
+      },
+      "previous_cycle_program_capacity": {
+        "value": {
+          "academic_year": "2026/27 course guidance",
+          "sustainable_places": 80,
+          "applicant_counts_published": false,
+          "acceptance_rate_published": false
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIPG-EM-MSC-2026"
+        ],
+        "notes": "The page gives 80 places but no applicant/admitted counts or acceptance rate; capacity is not an acceptance-rate estimate."
+      },
+      "previous_cycle_enrollment_deadlines": {
+        "value": {
+          "ordinary_enrollment": "Through the end of February",
+          "late_enrollment": "Through the end of April"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIPG-EM-MSC-2026"
+        ],
+        "notes": "The department page states these enrollment cutoffs but does not label them as a 2027/28 intake calendar; verify the annual dates before use."
+      },
+      "previous_cycle_non_eu_admission": {
+        "value": {
+          "academic_year": "2026/27",
+          "initial_pica_pre_evaluation": {
+            "start": "2026-05-29",
+            "end": "2026-06-07",
+            "deadline_time": "12:00",
+            "documents": [
+              "passport",
+              "foreign qualifying-credential documents",
+              "language documentation if available",
+              "CV"
+            ]
+          },
+          "engineering_management_pica_procedure_deadline": "2026-08-21",
+          "applications_per_candidate": 1,
+          "course_limit": 1,
+          "after_positive_pica": "Universitaly pre-enrolment is mandatory for the study-visa application"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIPG-INTL"
+        ],
+        "notes": "These are previous-cycle dates and steps for non-EU applicants residing abroad; 2027/28 dates and procedure remain unverified."
+      },
+      "previous_cycle_tuition": {
+        "value": {
+          "academic_year": "2026/27",
+          "usual_annual_range_eur": [
+            150,
+            2200
+          ],
+          "basis": "Family income and merit; exact contribution under the University regulation",
+          "foreign_income_options": [
+            "Country-bracketed fixed contribution for eligible students whose family income/assets abroad make ISEE inapplicable",
+            "ISEEU Parificato income-based assessment through an affiliated CAF/CAAF"
+          ],
+          "program_specific_fee": "Not published separately for Engineering Management"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIPG-FEES-2026"
+        ],
+        "notes": "The published range and foreign-income methods are university-level 2026/27 guidance, not a fixed Engineering Management price and not 2027/28 values."
+      },
+      "previous_cycle_scholarships": {
+        "value": {
+          "academic_year": "2026/27",
+          "regional_agency": "A.Di.S.U. Umbria",
+          "benefit": "Competitive grant plus possible free meals and accommodation; eligibility depends on income, enrollment and merit",
+          "income_limits_eur": {
+            "ISEE_max": 28339.88,
+            "ISPE_max": 61608.48
+          },
+          "ordinary_application_deadline": "2026-09-02 12:00 Italy time",
+          "foreign_income_document_deadlines": [
+            "2026-09-02 12:00 for benefits from 1 October 2026",
+            "2026-10-30 12:00 for benefits from no later than 1 December 2026"
+          ],
+          "illustrative_lowest_income_band_package_totals_eur": {
+            "off_site_paid_lodging": 8246.78,
+            "off_site_ADiSU_bed": 8246.78,
+            "commuter": 4819.32,
+            "in_town": 3623.68
+          },
+          "women_in_listed_stem_courses": "20% cash uplift; not cumulative with the 15% hardship uplift, and the more favorable condition applies",
+          "engineering_management_in_stem_annex": "Both BSc course code L0615 (L-8/L-9) and MSc code M0622 (LM-31) are listed",
+          "foreign_income_documents": "Required, with official legalization/translation rules; amounts depend on household income and student status",
+          "program_specific_award": "No separate Engineering Management award was identified; the degree is listed in the general ADiSU STEM uplift rules"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIPG-ADISU-2026",
+          "SRC-UNIPG-ADISU-CALL-2026"
+        ],
+        "notes": "Regional 2026/27 competition, not a guaranteed grant. Published package totals include cash and non-cash service values and reduce by income band. The call gives a 20% cash uplift for eligible women in listed STEM degrees, including these BSc/MSc course codes; it is not cumulative with the separate 15% hardship uplift. Application and foreign-income deadlines have passed. No 2027/28 call is confirmed."
+      },
+      "application_windows": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-UNIPG-INTL"
+        ],
+        "notes": "No 2027/28 Engineering Management application window was found; the 2026 PICA dates are retained in previous_cycle_non_eu_admission."
+      },
+      "application_fee": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-UNIPG-INTL"
+        ],
+        "notes": "The 2026/27 pages reviewed do not state a separate Engineering Management PICA application fee. Check the live application portal for any fee; no 2027/28 fee is confirmed."
+      },
+      "program_specific_requirements": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-UNIPG-EM-MSC-2026",
+          "SRC-UNIPG-INTL"
+        ],
+        "notes": "The detailed requirements currently available are 2026/27/general guidance only; no 2027/28 course call was identified."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-UNIPG-FEES-2026"
+        ],
+        "notes": "No 2027/28 fee schedule was identified in the official pages reviewed."
+      },
+      "scholarships_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-UNIPG-ADISU-2026",
+          "SRC-UNIPG-ADISU-CALL-2026"
+        ],
+        "notes": "The official regional call located is for 2026/27 only; do not assume the next call's dates, thresholds or values."
+      },
+      "acceptance_rate": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-UNIPG-EM-MSC-2026"
+        ],
+        "notes": "No official acceptance rate or applicant/admitted counts are given on the reviewed course page; no rate is inferred from the published 80-place capacity."
+      }
+    },
+    "source_ids": [
+      "SRC-UNIPG-CATALOGUE-2026",
+      "SRC-UNIPG-EM-MSC-2026",
+      "SRC-UNIPG-INTL",
+      "SRC-UNIPG-FEES-2026",
+      "SRC-UNIPG-ADISU-2026",
+      "SRC-UNIPG-ADISU-CALL-2026"
+    ],
     "previous_tracker_tags": {
       "level": "MSc",
       "language": "English",
       "field": "Engineering",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
-    "previous_cycle_tags": null,
+    "previous_cycle_tags": {
+      "level": "MSc",
+      "language": "English",
+      "field": "Engineering Management",
+      "cycle": "2026-2027",
+      "label": "Latest official course listing is for 2026/27"
+    },
     "last_checked": "2026-11-09"
   },
   {
@@ -11623,6 +11856,274 @@
       "field": "Data Science",
       "cycle": "2026-2027",
       "label": "Latest official 2026/27 listing"
+    },
+    "last_checked": "2026-11-09"
+  },
+  {
+    "id": "discovered-024",
+    "university_id": "perugia",
+    "university": "Università degli Studi di Perugia",
+    "city": "Perugia",
+    "program": "Engineering Management",
+    "level": {
+      "value": "BSc",
+      "status": "REQUIRES_VERIFICATION",
+      "source_ids": [
+        "SRC-UNIPG-CATALOGUE-2026",
+        "SRC-UNIPG-EM-BSC-2026"
+      ],
+      "notes": "Officially listed as an L-8 R/L-9 R first-cycle degree for 2026/27; 2027/28 level remains unconfirmed."
+    },
+    "language": {
+      "value": "English",
+      "status": "REQUIRES_VERIFICATION",
+      "source_ids": [
+        "SRC-UNIPG-CATALOGUE-2026",
+        "SRC-UNIPG-EM-BSC-2026"
+      ],
+      "notes": "The latest official catalogue and department page identify English teaching for 2026/27; 2027/28 language remains unconfirmed."
+    },
+    "field": {
+      "value": "Engineering Management",
+      "status": "REQUIRES_VERIFICATION",
+      "source_ids": [
+        "SRC-UNIPG-CATALOGUE-2026",
+        "SRC-UNIPG-EM-BSC-2026"
+      ],
+      "notes": "The exact course name and classes L-8 R/L-9 R are verified for 2026/27 only."
+    },
+    "availability_2027_2028": {
+      "value": null,
+      "status": "REQUIRES_VERIFICATION",
+      "source_ids": [
+        "SRC-UNIPG-CATALOGUE-2026",
+        "SRC-UNIPG-EM-BSC-2026",
+        "SRC-UNIPG-INTL"
+      ],
+      "notes": "The latest official course listing is for 2026/27 and the visa PICA procedure gives 2026 dates. No 2027/28 first-year intake was identified in the reviewed official pages; this is not treated as a cancellation or explicit publication statement."
+    },
+    "overall_status": "REQUIRES_VERIFICATION",
+    "discovery_source": "newly_discovered",
+    "facts": {
+      "previous_cycle_course_listing": {
+        "value": {
+          "academic_year": "2026/27",
+          "degree": "Laurea / Bachelor of Science",
+          "degree_classes": [
+            "L-8 R",
+            "L-9 R"
+          ],
+          "duration_years": 3,
+          "location": "Perugia",
+          "language": "English",
+          "access": "Free access; 180 sustainable places"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIPG-CATALOGUE-2026",
+          "SRC-UNIPG-EM-BSC-2026"
+        ],
+        "notes": "Course identity, teaching language, duration and capacity are from the 2026/27/general pages, not a 2027/28 first-year offer."
+      },
+      "previous_cycle_program_requirements": {
+        "value": {
+          "academic_year": "2026/27",
+          "qualifying_degree": "Secondary school diploma or equivalent recognized foreign qualification",
+          "mandatory_assessment": "Basic preparation test in mathematics, logic and verbal comprehension",
+          "course_page_test_options": {
+            "TOLC-I": {
+              "minimum_total_excluding_English": 14,
+              "minimum_math": 7
+            },
+            "SAT": {
+              "minimum_total": 700,
+              "minimum_math": 350
+            },
+            "ACT": {
+              "minimum_total": 16,
+              "minimum_math": 15
+            }
+          },
+          "below_threshold": "Enrollment may remain possible with Additional Educational Requirements (OFA), which must be completed in the first year"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIPG-EM-BSC-2026"
+        ],
+        "notes": "These requirements are from the current 2026/27/general course guidance and should be rechecked against the 2027/28 call."
+      },
+      "previous_cycle_admission_tests": {
+        "value": {
+          "international_visa_applicant_tests": "CEnT-S, TOLC-I or SAT had to be provided with the 2026/27 PICA application",
+          "course_page_tests": [
+            "TOLC-I",
+            "SAT",
+            "ACT"
+          ]
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIPG-EM-BSC-2026",
+          "SRC-UNIPG-INTL"
+        ],
+        "notes": "The international PICA page and course page describe different applicant contexts; use the 2027/28 call for the applicable test options and scores."
+      },
+      "previous_cycle_english_requirement": {
+        "value": {
+          "academic_year": "2026/27",
+          "level": "B2 CEFR",
+          "course_page_rule": "The course page says B2 may be obtained by the end of the first academic year for ordinary enrollment.",
+          "visa_applicant_rule": "Non-EU visa applicants had to submit an accepted B2 certificate with the PICA procedure; MOI and unlisted certificates were rejected."
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIPG-EM-BSC-2026",
+          "SRC-UNIPG-INTL"
+        ],
+        "notes": "The course page and the separate 2026/27 visa route apply to different contexts; neither rule is confirmed for 2027/28."
+      },
+      "previous_cycle_non_eu_admission": {
+        "value": {
+          "academic_year": "2026/27",
+          "initial_pica_pre_evaluation": {
+            "start": "2026-05-29",
+            "end": "2026-06-07",
+            "deadline_time": "12:00",
+            "documents": [
+              "passport",
+              "foreign qualifying-credential documents",
+              "language documentation if available",
+              "CV"
+            ]
+          },
+          "engineering_management_pica_procedure_deadline": "2026-08-21",
+          "applications_per_candidate": 1,
+          "course_limit": 1,
+          "after_positive_pica": "Universitaly pre-enrolment is mandatory for the study-visa application"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIPG-INTL"
+        ],
+        "notes": "These are previous-cycle dates and steps for non-EU applicants residing abroad; 2027/28 dates and procedure remain unverified."
+      },
+      "previous_cycle_tuition": {
+        "value": {
+          "academic_year": "2026/27",
+          "usual_annual_range_eur": [
+            150,
+            2200
+          ],
+          "basis": "Family income and merit; exact contribution under the University regulation",
+          "foreign_income_options": [
+            "Country-bracketed fixed contribution for eligible students whose family income/assets abroad make ISEE inapplicable",
+            "ISEEU Parificato income-based assessment through an affiliated CAF/CAAF"
+          ],
+          "program_specific_fee": "Not published separately for Engineering Management"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIPG-FEES-2026"
+        ],
+        "notes": "University-level 2026/27 guidance only; this is not a fixed BSc Engineering Management price or a 2027/28 amount."
+      },
+      "previous_cycle_scholarships": {
+        "value": {
+          "academic_year": "2026/27",
+          "regional_agency": "A.Di.S.U. Umbria",
+          "benefit": "Competitive grant plus possible free meals and accommodation; eligibility depends on income, enrollment and merit",
+          "income_limits_eur": {
+            "ISEE_max": 28339.88,
+            "ISPE_max": 61608.48
+          },
+          "ordinary_application_deadline": "2026-09-02 12:00 Italy time",
+          "foreign_income_document_deadlines": [
+            "2026-09-02 12:00 for benefits from 1 October 2026",
+            "2026-10-30 12:00 for benefits from no later than 1 December 2026"
+          ],
+          "illustrative_lowest_income_band_package_totals_eur": {
+            "off_site_paid_lodging": 8246.78,
+            "off_site_ADiSU_bed": 8246.78,
+            "commuter": 4819.32,
+            "in_town": 3623.68
+          },
+          "women_in_listed_stem_courses": "20% cash uplift; not cumulative with the 15% hardship uplift, and the more favorable condition applies",
+          "engineering_management_in_stem_annex": "Both BSc course code L0615 (L-8/L-9) and MSc code M0622 (LM-31) are listed",
+          "program_specific_award": "No separate Engineering Management award was identified; the degree is listed in the general ADiSU STEM uplift rules"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIPG-ADISU-2026",
+          "SRC-UNIPG-ADISU-CALL-2026"
+        ],
+        "notes": "Regional 2026/27 competition, not a guaranteed grant. Published package totals include cash and non-cash service values and reduce by income band. The call gives a 20% cash uplift for eligible women in listed STEM degrees, including these BSc/MSc course codes; it is not cumulative with the separate 15% hardship uplift. Application and foreign-income deadlines have passed. No 2027/28 call is confirmed."
+      },
+      "application_windows": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-UNIPG-INTL"
+        ],
+        "notes": "No 2027/28 Engineering Management application window was found; the 2026 PICA dates are retained in previous_cycle_non_eu_admission."
+      },
+      "application_fee": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-UNIPG-INTL"
+        ],
+        "notes": "The 2026/27 pages reviewed do not state a separate Engineering Management PICA application fee. Check the live application portal for any fee; no 2027/28 fee is confirmed."
+      },
+      "program_specific_requirements": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-UNIPG-EM-BSC-2026",
+          "SRC-UNIPG-INTL"
+        ],
+        "notes": "The detailed requirements currently available are 2026/27/general guidance only; no 2027/28 course call was identified."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-UNIPG-FEES-2026"
+        ],
+        "notes": "No 2027/28 fee schedule was identified in the official pages reviewed."
+      },
+      "scholarships_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-UNIPG-ADISU-2026",
+          "SRC-UNIPG-ADISU-CALL-2026"
+        ],
+        "notes": "The official regional call located is for 2026/27 only; do not assume the next call's dates, thresholds or values."
+      },
+      "acceptance_rate": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-UNIPG-EM-BSC-2026"
+        ],
+        "notes": "No official acceptance rate or applicant/admitted counts are given on the reviewed course page; no rate is inferred from the 180-place capacity."
+      }
+    },
+    "source_ids": [
+      "SRC-UNIPG-CATALOGUE-2026",
+      "SRC-UNIPG-EM-BSC-2026",
+      "SRC-UNIPG-INTL",
+      "SRC-UNIPG-FEES-2026",
+      "SRC-UNIPG-ADISU-2026",
+      "SRC-UNIPG-ADISU-CALL-2026"
+    ],
+    "previous_tracker_tags": null,
+    "previous_cycle_tags": {
+      "level": "BSc",
+      "language": "English",
+      "field": "Engineering Management",
+      "cycle": "2026-2027",
+      "label": "Latest official course listing is for 2026/27"
     },
     "last_checked": "2026-11-09"
   }

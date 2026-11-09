@@ -1500,28 +1500,93 @@
     "official_website": "https://www.unipg.it/",
     "international_admissions_url": "https://www.unipg.it/en/international-students/becoming-a-unipg-student",
     "application_portal_url": null,
-    "contact_email": null,
+    "contact_email": "segr-studenti.stranieri@unipg.it",
     "contact_url": "https://www.unipg.it/en/international-students/becoming-a-unipg-student",
     "cycle_status": "REQUIRES_VERIFICATION",
     "research_stage": "PARTIALLY_RESEARCHED",
-    "research_summary": "The official page reviewed still contains 2026 visa procedures; 2027/28 program-level requirements and deadlines remain outstanding.",
+    "research_summary": "The latest official Engineering Management catalogue and course guidance reviewed is for 2026/27. The English BSc and MSc, prior-cycle admission rules, visa route, 2026/27 fees and ADiSU scholarship call are recorded; neither degree's 2027/28 first-year intake or current terms are confirmed.",
     "coverage": {
       "official_website_visited": "complete",
       "international_admissions_page_examined": "partial",
-      "bachelors_admissions_examined": "not_started",
-      "masters_admissions_examined": "not_started",
-      "english_programs_examined": "not_started",
-      "fees_examined": "not_started",
-      "scholarships_examined": "not_started",
+      "bachelors_admissions_examined": "partial",
+      "masters_admissions_examined": "partial",
+      "english_programs_examined": "partial",
+      "fees_examined": "partial",
+      "scholarships_examined": "partial",
       "non_eu_requirements_examined": "partial",
-      "application_deadlines_examined": "not_started",
-      "program_level_review": "not_started"
+      "application_deadlines_examined": "partial",
+      "program_level_review": "partial"
     },
     "source_ids": [
-      "SRC-UNIPG-INTL"
+      "SRC-UNIPG-INTL",
+      "SRC-UNIPG-CATALOGUE-2026",
+      "SRC-UNIPG-EM-BSC-2026",
+      "SRC-UNIPG-EM-MSC-2026",
+      "SRC-UNIPG-FEES-2026",
+      "SRC-UNIPG-ADISU-2026",
+      "SRC-UNIPG-ADISU-CALL-2026"
     ],
     "last_checked": "2026-11-09",
-    "cycle_facts": {}
+    "cycle_facts": {
+      "admissions_contact": {
+        "value": {
+          "email": "segr-studenti.stranieri@unipg.it",
+          "phone": "+39 075 585 2029"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIPG-INTL"
+        ],
+        "notes": "Official international student office contact; the page lists Tuesday and Thursday contact hours. This is general contact information, not a 2027/28 application call."
+      },
+      "application_windows": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-UNIPG-INTL",
+          "SRC-UNIPG-EM-MSC-2026",
+          "SRC-UNIPG-EM-BSC-2026"
+        ],
+        "notes": "The newest official international process located gives 2026/27 PICA dates only. No 2027/28 course-specific application window was identified in the reviewed official pages; this is not treated as a cancellation."
+      },
+      "application_procedure_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-UNIPG-INTL",
+          "SRC-UNIPG-CATALOGUE-2026"
+        ],
+        "notes": "Official pages reviewed show the 2026/27 catalogue and visa process. A 2027/28 first-year call or procedure for Engineering Management BSc/MSc was not found; the pages do not explicitly say a new call will not be published."
+      },
+      "non_eu_requirements_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-UNIPG-INTL",
+          "SRC-UNIPG-EM-MSC-2026",
+          "SRC-UNIPG-EM-BSC-2026"
+        ],
+        "notes": "The PICA/Universitaly visa route and course-specific requirements reviewed are for 2026/27. Do not carry forward the prior-year dates, B2 evidence rules or PICA conditions as confirmed 2027/28 requirements."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-UNIPG-FEES-2026"
+        ],
+        "notes": "The latest official fee page reviewed gives 2026/27 guidance only. No 2027/28 tuition schedule was identified; the prior-year amounts and fee structure are not carried forward."
+      },
+      "scholarships_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-UNIPG-FEES-2026",
+          "SRC-UNIPG-ADISU-2026",
+          "SRC-UNIPG-ADISU-CALL-2026"
+        ],
+        "notes": "The reviewed university and regional sources describe 2026/27 funding. No 2027/28 ADiSU call or Engineering Management-specific award was identified; annual eligibility and amounts must be checked in the next call."
+      }
+    }
   },
   {
     "id": "pisa",

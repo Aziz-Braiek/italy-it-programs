@@ -1202,14 +1202,18 @@
   {
     "id": "SRC-UNIPG-INTL",
     "university_id": "perugia",
-    "title": "Becoming a UniPG student",
+    "title": "Becoming a UniPG student – international admissions",
     "url": "https://www.unipg.it/en/international-students/becoming-a-unipg-student",
     "source_type": "Official international admissions page",
     "accessed_at": "2026-11-09",
     "cycle": "2026-2027",
-    "evidence": "The reviewed page still describes 2026 visa-applicant pre-evaluation windows; it does not establish 2027/28 deadlines.",
+    "evidence": "For 2026/27 non-EU applicants residing abroad, the general PICA pre-evaluation window was 29 May–7 June 2026 noon; applicants supplied passport, qualifying-credential documents, language evidence if available and CV, and could apply to only one course. Engineering Management had a dedicated PICA procedure through 21 August 2026; visa applicants to both its BSc and MSc needed an accepted B2 certificate (MOI and other certificates were rejected), and BSc applicants had to provide CEnT-S, TOLC-I or SAT. Positive PICA evaluation was required before Universitaly visa pre-enrolment. The page gives international office contact details. These dates and steps are 2026/27 only and do not establish a 2027/28 call.",
     "supports": [
-      "university.previous_cycle_process"
+      "university.non_eu_process",
+      "university.application_procedure",
+      "university.admissions_contact",
+      "program.previous_cycle_non_eu_admission",
+      "program.previous_cycle_english_requirement"
     ]
   },
   {
@@ -1556,6 +1560,100 @@
     "supports": [
       "program.previous_cycle_fee_exemptions",
       "program.previous_cycle_scholarship_context"
+    ]
+  },
+  {
+    "id": "SRC-UNIPG-CATALOGUE-2026",
+    "university_id": "perugia",
+    "title": "Engineering degree catalogue 2026/27",
+    "url": "https://www.unipg.it/didattica/corsi-di-laurea-e-laurea-magistrale/archivio/offerta-formativa-2026-27?annoregolamento=2026&cerca=&classe=&dipartimento=516600&lingua=&nomecorso=&ricerca=on&sede=&tipocorso=",
+    "source_type": "Official degree catalogue",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 Department of Engineering catalogue lists Engineering Management as an English-taught three-year L-8 R/L-9 R Bachelor’s and a two-year LM-31 Master’s in Perugia. It also lists other engineering degrees whose teaching is Italian or mixed English/Italian. The catalogue is prior-cycle evidence and does not confirm either course's 2027/28 first-year intake.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.name",
+      "program.level",
+      "program.language",
+      "program.location"
+    ]
+  },
+  {
+    "id": "SRC-UNIPG-EM-BSC-2026",
+    "university_id": "perugia",
+    "title": "Engineering Management – First cycle degree course",
+    "url": "https://ing.unipg.it/en/courses/engineering-management/first-cycle-degree-course",
+    "source_type": "Official degree and admissions page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The page, last updated 19 October 2026, describes the three-year English BSc, a sustainable capacity of 180 students, a school-leaving qualification, B2 English, and a mandatory basic-knowledge assessment. It lists TOLC-I, SAT and ACT guidance and OFA rules. The current page does not establish a 2027/28 call or intake.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_requirements",
+      "program.previous_cycle_admission_tests",
+      "program.previous_cycle_language"
+    ]
+  },
+  {
+    "id": "SRC-UNIPG-EM-MSC-2026",
+    "university_id": "perugia",
+    "title": "Engineering Management – Second cycle degree course",
+    "url": "https://ing.unipg.it/en/courses/engineering-management/second-cycle-degree-course",
+    "source_type": "Official degree and admissions page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The page, last updated 19 October 2026, describes the English 120-ECTS two-year LM-31 MSc, 80 sustainable places, direct access for L-8/L-9 graduates, an 85-CFU curricular route for other backgrounds, B2 English, committee review of foreign qualifications, and course enrollment guidance. These are current/prior-cycle course details, not a 2027/28 admission call.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_program_requirements",
+      "program.previous_cycle_english_requirement",
+      "program.previous_cycle_program_capacity",
+      "program.previous_cycle_enrollment_deadlines"
+    ]
+  },
+  {
+    "id": "SRC-UNIPG-FEES-2026",
+    "university_id": "perugia",
+    "title": "Tuition Fees and scholarships – 2026/27 guidance",
+    "url": "https://www.unipg.it/en/international-students/becoming-a-unipg-student/tuition-fees-and-scholarships",
+    "source_type": "Official tuition and financial-support page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The page, last updated 6 October 2026, says exact 2026/27 fees are governed by the University Regulation and gives a usual annual range of €150–€2,200 depending on family income and merit. Applicants whose family income/assets are abroad may use a four-bracket country-based flat contribution or opt for ISEEU Parificato; low-human-development-country and protection-status rules also apply. It does not publish 2027/28 fees.",
+    "supports": [
+      "program.previous_cycle_tuition",
+      "university.tuition_publication_status",
+      "university.non_eu_fees"
+    ]
+  },
+  {
+    "id": "SRC-UNIPG-ADISU-2026",
+    "university_id": "perugia",
+    "title": "ADiSU Umbria scholarship and services call 2026/27",
+    "url": "https://www.adisu.umbria.it/concorso-borsa-di-studio/bando/2026-2027/bando-di-concorso-lassegnazione-di-borse-di-studio-e-altri",
+    "source_type": "Official regional scholarship call notice",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The regional 2026/27 call was open to students enrolled or intending to enroll at Umbria institutions, subject to income, enrollment and merit requirements. The published application deadline was 2 September 2026 at noon. ISEE and ISPE limits were €28,339.88 and €61,608.48. Applicants with foreign household income/assets had to submit supporting foreign-income documentation by separate deadlines (2 September or 30 October 2026), following legalization/translation rules. These regional benefits are competitive and are not a program-specific guaranteed award; no 2027/28 call is confirmed.",
+    "supports": [
+      "program.previous_cycle_scholarships",
+      "university.previous_cycle_scholarships",
+      "program.previous_cycle_non_eu_financial_requirements"
+    ]
+  },
+  {
+    "id": "SRC-UNIPG-ADISU-CALL-2026",
+    "university_id": "perugia",
+    "title": "ADiSU Umbria 2026/27 scholarship call – official PDF",
+    "url": "https://www.adisu.umbria.it/sites/default/files/2026-07/Bando_borse_di_studio_Adisu_2026_2027_1.pdf",
+    "source_type": "Official regional scholarship call PDF",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 call publishes cash amounts by ISEE band and student status plus meal/accommodation values. In the lowest-income band, maximum standard totals include €8,246.78 for an off-site student with paid lodging (cash plus two daily meals), €8,246.78 for an off-site student in an ADiSU bed (cash, bed and meals), €4,819.32 for a commuter (cash plus one daily meal), and €3,623.68 for an in-town student (cash plus one daily meal). Award amounts reduce by income band and depend on eligibility, ranking, service allocation and documentation. Annex 4 lists Engineering Management BSc course L0615 (L-8/L-9) and MSc course M0622 (LM-31) among STEM courses eligible for a 20% cash uplift for women; this uplift is subject to the call's other rules and is not a guaranteed award. This is 2026/27 evidence only.",
+    "supports": [
+      "program.previous_cycle_scholarships",
+      "program.previous_cycle_scholarship_amounts"
     ]
   },
   {
