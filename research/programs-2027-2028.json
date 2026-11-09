@@ -10537,5 +10537,120 @@
     ],
     "previous_tracker_tags": null,
     "last_checked": "2026-11-09"
+  },
+  {
+    "id": "discovered-021",
+    "university_id": "genova",
+    "university": "Università degli Studi di Genova",
+    "city": "Genoa",
+    "program": "Maritime Science and Technology",
+    "level": {
+      "value": "BSc",
+      "status": "REQUIRES_VERIFICATION",
+      "source_ids": [],
+      "notes": null
+    },
+    "language": {
+      "value": "English",
+      "status": "REQUIRES_VERIFICATION",
+      "source_ids": [],
+      "notes": null
+    },
+    "field": {
+      "value": "Maritime Science",
+      "status": "REQUIRES_VERIFICATION",
+      "source_ids": [],
+      "notes": null
+    },
+    "availability_2027_2028": {
+      "value": false,
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-UNIGE-MST-2027"
+      ],
+      "notes": "Official notice says first-year enrollment will not be possible for 2027/28."
+    },
+    "overall_status": "NOT_APPLICABLE",
+    "discovery_source": "newly_discovered",
+    "facts": {},
+    "source_ids": [
+      "SRC-UNIGE-MST-2027"
+    ],
+    "previous_tracker_tags": null,
+    "last_checked": "2026-11-09"
+  },
+  {
+    "id": "discovered-022",
+    "university_id": "genova",
+    "university": "Università degli Studi di Genova",
+    "city": "Genoa",
+    "program": "Conservation and Restoration Sciences (CORES Joint Master)",
+    "level": {
+      "value": "MSc",
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-UNIGE-CORES-2027"
+      ],
+      "notes": null
+    },
+    "language": {
+      "value": "REQUIRES_VERIFICATION",
+      "status": "REQUIRES_VERIFICATION",
+      "source_ids": [],
+      "notes": null
+    },
+    "field": {
+      "value": "Conservation and Restoration Sciences",
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-UNIGE-CORES-2027"
+      ],
+      "notes": null
+    },
+    "availability_2027_2028": {
+      "value": null,
+      "status": "REQUIRES_VERIFICATION",
+      "source_ids": [
+        "SRC-UNIGE-CORES-2027"
+      ],
+      "notes": "UniGe announced a planned 2027/28 start, but its Erasmus Mundus Joint Master proposal was still under evaluation and formal call details were not published."
+    },
+    "overall_status": "REQUIRES_VERIFICATION",
+    "discovery_source": "newly_discovered",
+    "facts": {
+      "application_opening": {
+        "value": "Planned for early 2027",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIGE-CORES-2027"
+        ],
+        "notes": "This is a published plan, not an exact application date."
+      },
+      "application_deadline": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-UNIGE-CORES-2027"
+        ],
+        "notes": "No exact deadline was included in the university announcement; formal call details remain pending."
+      },
+      "consortium": {
+        "value": [
+          "Università degli Studi di Genova",
+          "Universidad de Sevilla",
+          "Université Bordeaux-Montaigne",
+          "University of Montenegro",
+          "Universität Münster"
+        ],
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIGE-CORES-2027"
+        ],
+        "notes": "The announcement names UniGe as coordinator and describes four partner universities."
+      }
+    },
+    "source_ids": [],
+    "previous_tracker_tags": null,
+    "last_checked": "2026-11-09"
   }
 ]

@@ -39,7 +39,7 @@ UNIVERSITIES = [
     ("camerino", "Università di Camerino", "Camerino", "Marche", "https://www.unicam.it/", "https://international.unicam.it/admissions/faq", "REQUIRES_VERIFICATION", "The official admissions material reviewed is for 2026/27 or general guidance; 2027/28 program-level checks remain outstanding."),
     ("ferrara", "Università degli Studi di Ferrara", "Ferrara", "Emilia-Romagna", "https://www.unife.it/", "https://www.unife.it/en/come-to-study/enroll/how-to-enroll/arrival-enrolment/enrol-in-a-post-graduate-course", "REQUIRES_VERIFICATION", "Official international postgraduate enrollment guidance was identified, but 2027/28 calls and current program availability remain outstanding."),
     ("firenze", "Università degli Studi di Firenze", "Florence", "Tuscany", "https://www.unifi.it/", "https://www.sst.unifi.it/index.php?func=viewpage&module=CMpro&newlang=eng&pageid=168", "CONFIRMED", "The Software: Science and Technology MSc page gives specific 2027/28 admission requirements; the other historical programs still need verification."),
-    ("genova", "Università degli Studi di Genova", "Genoa", "Liguria", "https://unige.it/en", "https://unige.it/en/international-enrolment", "REQUIRES_VERIFICATION", "2027/28 visa preselection is expected mid-December 2026 to end-March 2027, but exact dates are pending; €30 fee covers up to two assessments."),
+    ("genova", "Università degli Studi di Genova", "Genoa", "Liguria", "https://unige.it/en", "https://unige.it/en/international-enrolment", "REQUIRES_VERIFICATION", "An official notice says the BSc Maritime Science and Technology will not run in 2027/28. UniGe also announced the planned 2027/28 start of CORES, a new joint MSc whose proposal remains under evaluation; admissions details are pending. Visa preselection dates and fees are also tracked at university level."),
     ("messina", "Università degli Studi di Messina", "Messina", "Sicily", "https://international.unime.it/", "https://international.unime.it/study-us/application-and-admission", "CONFIRMED", "Official 2027/28 international calls publish multiple application windows and a €40 fee for up to two applications; program-specific eligibility remains to be checked."),
     ("modena-reggio", "Università degli Studi di Modena e Reggio Emilia", "Modena", "Emilia-Romagna", "https://www.unimore.it/", "https://www.unimore.it/en/internationalisation/foreign-qualification", "REQUIRES_VERIFICATION", "Official international-qualification guidance explains the degree-specific call process; individual 2027/28 calls require further review."),
     ("padova", "Università degli Studi di Padova", "Padua", "Veneto", "https://www.unipd.it/en/", "https://www.unipd.it/en/ammissione-studenti-internazionali", "CONFIRMED", "The 2027/28 international application calls are published; seven program listings on the source page have been verified, while the historic entries remain under review."),
@@ -112,6 +112,8 @@ SOURCES = [
     {"id":"SRC-PISA-DH","university_id":"pisa","title":"Master programme in Informatics for Digital Health","url":"https://didattica.di.unipi.it/en/master-programme-in-informatics-for-digital-health/","source_type":"Official program page","accessed_at":AS_OF,"cycle":CYCLE,"evidence":"Describes an English-taught open-admission MSc and links to foreign-student enrollment for AY 2027/28. The department call confirms cycle availability.","supports":["program.name","program.level","program.language","program.access_type"]},
     {"id":"SRC-UNIME-2027","university_id":"messina","title":"Application and Admission – 2027/28","url":"https://international.unime.it/study-us/application-and-admission","source_type":"Official international admissions page","accessed_at":AS_OF,"cycle":CYCLE,"evidence":"Publishes 2027/28 application rounds for international candidates and a €40 fee for up to two program applications; English certificates are generally B2 unless exempt; program details and eligibility must be checked individually.","supports":["university.application_window","university.application_fee","university.english_requirement","university.non_eu_process"]},
     {"id":"SRC-UNIGE-2027","university_id":"genova","title":"UniGeApply International Admissions","url":"https://unige.it/en/international-enrolment","source_type":"Official international admissions page","accessed_at":AS_OF,"cycle":CYCLE,"evidence":"2027/28 non-EU visa preselection is expected mid-December 2026 through end-March 2027; exact dates await publication. €30 fee covers up to two assessment applications. English-taught programs do not require Italian.","supports":["university.application_window_expected","university.application_fee","university.english_requirement"]},
+    {"id":"SRC-UNIGE-MST-2027","university_id":"genova","title":"Maritime Science and Technology – degree programme not offered in 2027/28","url":"https://corsi.unige.it/en/corsi/11929/news/attivazione-MST-2027-28","source_type":"Official program-cycle notice","accessed_at":AS_OF,"cycle":CYCLE,"evidence":"UniGe notice dated 18 September 2026 explicitly says the BSc Maritime Science and Technology will not be offered for 2027/28 and first-year enrollment will not be possible in that academic year.","supports":["program.availability","program.not_offered"]},
+    {"id":"SRC-UNIGE-CORES-2027","university_id":"genova","title":"CORES Joint Master Degree – planned 2027/28 start","url":"https://life.unige.it/index.php/presentazione-cores-mag2026","source_type":"Official university programme announcement","accessed_at":AS_OF,"cycle":CYCLE,"evidence":"UniGe announced the joint Master’s degree Conservation and Restoration Sciences (CORES), coordinated by UniGe with four European partner universities, with admissions planned to open in early 2027 and a planned start in academic year 2027/28. The Erasmus Mundus Joint Master proposal was still under evaluation, so formal approval, call terms and exact dates were not yet confirmed.","supports":["program.planned_availability","program.application_opening_expected"]},
     {"id":"SRC-UNITRENTO-28DIGITAL-2027","university_id":"trento","title":"28DIGITAL Master School at UniTrento – technical majors and 2027/28 intake","url":"https://www.disi.unitn.it/eit-digital","source_type":"Official department and program admissions page","accessed_at":AS_OF,"cycle":CYCLE,"evidence":"Describes the UniTrento 28DIGITAL offer as two-year, 120-ECTS double-degree master’s study with technical majors in Information Engineering (Cloud and Network Infrastructures and HPC; Intelligent Chips and Systems), Computer Science (Cyber Security, Data Science, Fintech, Human-Computer Interaction & Design with extended reality), and Artificial Intelligence Systems (Artificial Intelligence with Affective Computing). For the 2027/28 intake it lists three application periods: 31 Oct–11 Feb open to EU/EEA/CH and non-EU applicants; 11 Feb–15 Apr open to EU/EEA/CH and non-EU Italian residents, with visa timing limitations; and 15 Apr–1 Jun open to EU/EEA/CH and non-EU Italian residents. The page says not all trajectories may be available in period two, central selection is handled by 28DIGITAL, and consortium scholarships are first-come-first-served. UniTrento's additional double-degree scholarships are for second-year entrants who receive no other 28DIGITAL grant; their call is indicatively published in August.","supports":["program.duration","program.technical_major","program.application_windows","program.admissions_route","program.scholarships"]},
     {"id":"SRC-28DIGITAL-ADMISSIONS-2027","university_id":"trento","title":"28DIGITAL Master School – 2027 admission dates and criteria","url":"https://masterschool.28digital.eu/admissions","source_type":"Official joint-master admissions page","accessed_at":AS_OF,"cycle":CYCLE,"evidence":"Lists 2027 application periods as 30 Oct 2026–31 Jan 2027, 1 Feb–18 Apr 2027 and 19 Apr–31 May 2027, with applicant-category/visa restrictions by round. States all 28DIGITAL programmes are taught in English; applicants need a relevant bachelor’s degree of at least 180 ECTS and English proficiency, generally IELTS 6.5 with section minimums or TOEFL iBT scores depending on test scale/date. The University of Trento department’s 2027/28 intake page publishes different round boundaries; treat the university-level date comparison as conflicting and use each programme’s central portal before applying.","supports":["program.availability","program.language","program.requirements","program.application_windows","program.admissions_route"]},
     {"id":"SRC-28DIGITAL-FEES-2027","university_id":"trento","title":"28DIGITAL Master School – tuition fees and scholarships","url":"https://masterschool.28digital.eu/admissions/fees","source_type":"Official joint-master fees and funding page","accessed_at":AS_OF,"cycle":CYCLE,"evidence":"Lists €75 non-refundable application fee per application, €250 non-refundable registration deposit credited to first-semester tuition, and tuition of €6,000 per academic year for EU/EEA citizens or €18,000 for non-EU/EEA citizens. General merit-based awards include full or half tuition waivers; additional excellence scholarships with living allowance are restricted to EU/EEA and associated-country citizens in selected programs. Period 1, 2 and 3 tuition-payment expected deadlines are 31 May, 30 June and 19 July 2027, respectively.","supports":["program.application_fee","program.registration_fee","program.tuition","program.scholarships","program.tuition_payment_deadline"]},
@@ -445,10 +447,28 @@ def build():
         "acceptance_rate":fact(None,"UNAVAILABLE",["SRC-POLITO-HYSET-REQ-2027"],"The reviewed official pages do not publish applicant and admission totals.")},discovery="newly_discovered",city="Turin")
     programs.append(hyset)
 
+    # UniGe has a published non-offer notice and a separate planned joint degree whose formal status is pending.
+    maritime = make_program("discovered-021","genova","Maritime Science and Technology","BSc","English","Maritime Science","REQUIRES_VERIFICATION",[],facts={},discovery="newly_discovered")
+    maritime["overall_status"] = "NOT_APPLICABLE"
+    maritime["availability_2027_2028"] = fact(False,"CONFIRMED",["SRC-UNIGE-MST-2027"],"Official notice says first-year enrollment will not be possible for 2027/28.")
+    maritime["source_ids"] = ["SRC-UNIGE-MST-2027"]
+    programs.append(maritime)
+
+    cores = make_program("discovered-022","genova","Conservation and Restoration Sciences (CORES Joint Master)","MSc","REQUIRES_VERIFICATION","Conservation and Restoration Sciences","REQUIRES_VERIFICATION",[],facts={},discovery="newly_discovered")
+    cores["level"] = fact("MSc","CONFIRMED",["SRC-UNIGE-CORES-2027"])
+    cores["field"] = fact("Conservation and Restoration Sciences","CONFIRMED",["SRC-UNIGE-CORES-2027"])
+    cores["availability_2027_2028"] = fact(None,"REQUIRES_VERIFICATION",["SRC-UNIGE-CORES-2027"],"UniGe announced a planned 2027/28 start, but its Erasmus Mundus Joint Master proposal was still under evaluation and formal call details were not published.")
+    cores["facts"] = {
+        "application_opening":fact("Planned for early 2027","CONFIRMED",["SRC-UNIGE-CORES-2027"],"This is a published plan, not an exact application date."),
+        "application_deadline":fact(None,"NOT_YET_PUBLISHED",["SRC-UNIGE-CORES-2027"],"No exact deadline was included in the university announcement; formal call details remain pending."),
+        "consortium":fact(["Università degli Studi di Genova","Universidad de Sevilla","Université Bordeaux-Montaigne","University of Montenegro","Universität Münster"],"CONFIRMED",["SRC-UNIGE-CORES-2027"],"The announcement names UniGe as coordinator and describes four partner universities.")}
+    programs.append(cores)
+
     verified = [p for p in programs if p["overall_status"] == "CONFIRMED"]
     level_counts = Counter(p["level"]["value"] for p in verified)
     fully_verified_count = len(verified)
     cycle_availability_count = sum(p["availability_2027_2028"]["status"] == "CONFIRMED" and p["availability_2027_2028"]["value"] is True for p in programs)
+    programs_not_offered = sum(p["overall_status"] == "NOT_APPLICABLE" for p in programs)
     deadlines = {u["id"] for u in uni_rows if u["cycle_facts"].get("application_windows", {}).get("status") == "CONFIRMED" and any(w.get("end") for w in u["cycle_facts"]["application_windows"]["value"])}
     # Count exact program-specific application deadlines/windows, but exclude expected or conflicting schedules.
     for p in programs:
@@ -483,7 +503,8 @@ def build():
         "newly_discovered_programs": len(programs)-len(old),
         "programs_cycle_availability_confirmed": cycle_availability_count,
         "programs_fully_verified": fully_verified_count,
-        "programs_requiring_verification": len(programs)-fully_verified_count,
+        "programs_requiring_verification": sum(p["overall_status"] == "REQUIRES_VERIFICATION" for p in programs),
+        "programs_not_offered_2027_2028": programs_not_offered,
         "bsc_programs_verified": level_counts.get("BSc",0),
         "msc_programs_verified": level_counts.get("MSc",0),
         "universities_with_confirmed_deadline_windows": len(deadlines),
@@ -528,6 +549,8 @@ def build():
             {"id":"baseline-and-archive","status":"complete","result":"Archived all 165 prior program rows and mapped the original 34 universities."},
             {"id":"official-2027-28-initial-batch","status":"partial","result":"Recorded 34 university research outcomes, source-linked 14 core program offers, and explicitly marked outstanding program rows."},
             {"id":"official-2027-28-program-batch-2","status":"partial","result":"Verified the Bologna Intelligent Embedded Systems 28Digital track and seven UniTrento 28DIGITAL tracks; recorded program costs, requirements and a documented conflict between official round calendars."},
+            {"id":"polito-hyset-and-bachelor-tests","status":"partial","result":"Verified the HySET 2027–29 intake, November 15 deadline, eligibility, English tests, scoring and self-funded tuition; recorded that scholarship funding is not guaranteed. Confirmed Polito’s 2027/28 in-person CISIA test formats while the detailed bachelor call remains pending."},
+            {"id":"unige-program-cycle-outcomes","status":"partial","result":"Recorded the official notice that Maritime Science and Technology will not be offered in 2027/28, and the planned CORES joint MSc with its proposal and intake details still pending."},
         ],
         "counts": coverage,
     }
@@ -549,13 +572,14 @@ def build():
         f"- Program records: **{coverage['program_records']}** ({coverage['prior_tracker_programs_archived']} archived prior listings + {coverage['newly_discovered_programs']} discoveries)",
         f"- Program availabilities named in 2027/28 official sources: **{coverage['programs_cycle_availability_confirmed']}**",
         f"- Program offers with core name, level, language and cycle availability verified: **{coverage['programs_fully_verified']}** ({coverage['bsc_programs_verified']} BSc, {coverage['msc_programs_verified']} MSc)",
+        f"- Program records still requiring verification: **{coverage['programs_requiring_verification']}**; programs explicitly confirmed not offered in 2027/28: **{coverage['programs_not_offered_2027_2028']}**",
         f"- Universities with at least one confirmed date-specific 2027/28 application window in reviewed material: **{coverage['universities_with_confirmed_deadline_windows']}**",
         f"- Universities with admissions deadlines or calls explicitly marked not yet published: **{coverage['universities_with_deadlines_or_calls_explicitly_not_yet_published']}**",
         f"- Universities with at least one cycle field not yet published (including non-deadline fields): **{coverage['universities_with_explicit_not_yet_published_fields']}**",
         f"- Universities with an unavailable or conflicting researched program/university field: **{coverage['universities_with_unavailable_or_conflicting_information']}**; conflicting official sources: **{coverage['universities_with_conflicting_sources']}**",
         f"- Official source records: **{coverage['source_records']}**; source-backed confirmed fields: **{coverage['official_source_supported_fields']}**",
         "",
-        "Program counts distinguish an availability confirmation from a fully verified program record. CLE at Bologna has a 2027/28 call page but its instruction language is still unverified. The UniTrento 28DIGITAL tracks are core-verified from their individual 2027/28 pages, while a round-calendar conflict between the University department and central 28DIGITAL pages remains visible in the application data.",
+        "Program counts distinguish an availability confirmation from a fully verified program record. CLE at Bologna has a 2027/28 call page but its instruction language is still unverified. The UniTrento 28DIGITAL tracks are core-verified from their individual 2027/28 pages, while a round-calendar conflict between the University department and central 28DIGITAL pages remains visible in the application data. CORES at UniGe is a planned 2027/28 joint master, but the university says its proposal remains under evaluation.",
         "",
         "## Programs with core 2027/28 details confirmed",
         "",
@@ -567,6 +591,12 @@ def build():
         source_titles = [source_map[sid]["title"] for sid in p["source_ids"] if sid in source_map]
         source_links = "; ".join(f"[{title}]({source_map[sid]['url']})" for sid in p["source_ids"] if sid in source_map for title in [source_map[sid]["title"]])
         lines.append(f"| {p['university']} | {p['program']} | {p['level']['value']} | {p['language']['value']} | {', '.join(fact_names) or 'Cycle availability, name, level and language'} | {source_links} |")
+    not_offered = [p for p in programs if p["overall_status"] == "NOT_APPLICABLE"]
+    if not_offered:
+        lines += ["", "## Programs confirmed not offered in 2027/28", ""]
+        for p in not_offered:
+            source_links = "; ".join(f"[{source_map[sid]['title']}]({source_map[sid]['url']})" for sid in p["source_ids"] if sid in source_map)
+            lines.append(f"- **{p['university']} — {p['program']}:** {p['availability_2027_2028']['notes']} {source_links}")
     lines += [
         "",
         "## Confirmed date windows and official publication status",

@@ -20,7 +20,7 @@ class Element {
     this.innerHTML = "";
     this._textContent = "";
     this.placeholder = "";
-    this.options = Array.from({ length: id === "status-filter" ? 6 : 3 }, () => ({ text: "" }));
+    this.options = Array.from({ length: id === "status-filter" ? 7 : 3 }, () => ({ text: "" }));
     this.listeners = {};
   }
   get textContent() { return this._textContent; }
@@ -54,10 +54,11 @@ vm.runInNewContext(script, { document, fetch, console, Date, Promise });
 await new Promise((resolve) => setTimeout(resolve, 50));
 
 assert.equal(getElementById("stat-universities").textContent, "34", getElementById("program-grid").innerHTML);
-assert.equal(getElementById("stat-programs").textContent, "185");
+assert.equal(getElementById("stat-programs").textContent, "187");
 assert.equal(getElementById("stat-confirmed").textContent, "23");
 assert.equal(getElementById("stat-deadlines").textContent, "8");
-assert.match(getElementById("program-count").textContent, /^23 \/ 185 /);
+assert.match(getElementById("notice-count").textContent, /^163 /);
+assert.match(getElementById("program-count").textContent, /^23 \/ 187 /);
 assert.doesNotMatch(getElementById("program-grid").innerHTML, /legacy-001/);
 
 const status = getElementById("status-filter");
@@ -73,6 +74,12 @@ status.value = "NOT_YET_PUBLISHED";
 status.dispatch("change");
 assert.match(getElementById("program-grid").innerHTML, /Hydrogen Systems and Enabling Technologies/);
 assert.doesNotMatch(getElementById("program-grid").innerHTML, /Cyber Security \(CSES\)/);
+
+status.value = "NOT_APPLICABLE";
+status.dispatch("change");
+assert.match(getElementById("program-grid").innerHTML, /Maritime Science and Technology/);
+assert.match(getElementById("program-grid").innerHTML, /will not be offered in 2027–28/);
+assert.equal((getElementById("program-grid").innerHTML.match(/<article class="card/g) ?? []).length, 1);
 
 status.value = "all";
 getElementById("search").value = "Hydrogen";

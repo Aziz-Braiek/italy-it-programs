@@ -258,6 +258,34 @@
     ]
   },
   {
+    "id": "SRC-UNIGE-MST-2027",
+    "university_id": "genova",
+    "title": "Maritime Science and Technology – degree programme not offered in 2027/28",
+    "url": "https://corsi.unige.it/en/corsi/11929/news/attivazione-MST-2027-28",
+    "source_type": "Official program-cycle notice",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "UniGe notice dated 18 September 2026 explicitly says the BSc Maritime Science and Technology will not be offered for 2027/28 and first-year enrollment will not be possible in that academic year.",
+    "supports": [
+      "program.availability",
+      "program.not_offered"
+    ]
+  },
+  {
+    "id": "SRC-UNIGE-CORES-2027",
+    "university_id": "genova",
+    "title": "CORES Joint Master Degree – planned 2027/28 start",
+    "url": "https://life.unige.it/index.php/presentazione-cores-mag2026",
+    "source_type": "Official university programme announcement",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "UniGe announced the joint Master’s degree Conservation and Restoration Sciences (CORES), coordinated by UniGe with four European partner universities, with admissions planned to open in early 2027 and a planned start in academic year 2027/28. The Erasmus Mundus Joint Master proposal was still under evaluation, so formal approval, call terms and exact dates were not yet confirmed.",
+    "supports": [
+      "program.planned_availability",
+      "program.application_opening_expected"
+    ]
+  },
+  {
     "id": "SRC-UNITRENTO-28DIGITAL-2027",
     "university_id": "trento",
     "title": "28DIGITAL Master School at UniTrento – technical majors and 2027/28 intake",

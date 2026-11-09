@@ -5,12 +5,13 @@
   "universities_researched": 34,
   "universities_fully_verified": 0,
   "universities_partially_researched": 34,
-  "program_records": 185,
+  "program_records": 187,
   "prior_tracker_programs_archived": 165,
-  "newly_discovered_programs": 20,
+  "newly_discovered_programs": 22,
   "programs_cycle_availability_confirmed": 24,
   "programs_fully_verified": 23,
-  "programs_requiring_verification": 162,
+  "programs_requiring_verification": 163,
+  "programs_not_offered_2027_2028": 1,
   "bsc_programs_verified": 1,
   "msc_programs_verified": 22,
   "universities_with_confirmed_deadline_windows": 8,
@@ -56,8 +57,8 @@
   "university_ids_with_conflicting_sources": [
     "trento"
   ],
-  "source_records": 66,
-  "official_source_supported_fields": 229,
+  "source_records": 68,
+  "official_source_supported_fields": 234,
   "verification_statuses": [
     "CONFIRMED",
     "NOT_YET_PUBLISHED",

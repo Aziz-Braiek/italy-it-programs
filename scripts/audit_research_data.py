@@ -64,7 +64,9 @@ assert coverage["program_records"] == len(programs)
 assert coverage["universities_researched"] == len(universities)
 assert coverage["universities_fully_verified"] == 0
 assert coverage["programs_fully_verified"] == len(confirmed_programs)
-assert coverage["programs_cycle_availability_confirmed"] == sum(p["availability_2027_2028"]["status"] == "CONFIRMED" for p in programs)
+assert coverage["programs_cycle_availability_confirmed"] == sum(p["availability_2027_2028"]["status"] == "CONFIRMED" and p["availability_2027_2028"]["value"] is True for p in programs)
+assert coverage["programs_requiring_verification"] == sum(p["overall_status"] == "REQUIRES_VERIFICATION" for p in programs)
+assert coverage["programs_not_offered_2027_2028"] == sum(p["overall_status"] == "NOT_APPLICABLE" for p in programs)
 assert coverage["source_records"] == len(sources)
 conflicting_universities = {
     p["university_id"] for p in programs

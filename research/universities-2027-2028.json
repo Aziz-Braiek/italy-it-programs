@@ -830,7 +830,7 @@
     "contact_url": "https://unige.it/en/international-enrolment",
     "cycle_status": "REQUIRES_VERIFICATION",
     "research_stage": "PARTIALLY_RESEARCHED",
-    "research_summary": "2027/28 visa preselection is expected mid-December 2026 to end-March 2027, but exact dates are pending; €30 fee covers up to two assessments.",
+    "research_summary": "An official notice says the BSc Maritime Science and Technology will not run in 2027/28. UniGe also announced the planned 2027/28 start of CORES, a new joint MSc whose proposal remains under evaluation; admissions details are pending. Visa preselection dates and fees are also tracked at university level.",
     "coverage": {
       "official_website_visited": "complete",
       "international_admissions_page_examined": "partial",
@@ -844,7 +844,9 @@
       "program_level_review": "not_started"
     },
     "source_ids": [
-      "SRC-UNIGE-2027"
+      "SRC-UNIGE-2027",
+      "SRC-UNIGE-MST-2027",
+      "SRC-UNIGE-CORES-2027"
     ],
     "last_checked": "2026-11-09",
     "cycle_facts": {
