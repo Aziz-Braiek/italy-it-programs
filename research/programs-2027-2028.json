@@ -2674,38 +2674,231 @@
     "level": {
       "value": "MSc",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-MILANO-CS-PROFILE-2026",
+        "SRC-MILANO-CS-CALL-2026"
+      ],
+      "notes": "Official 2026/27 course material identifies this as an MSc; confirm the 2027/28 course level and intake in the new offer."
     },
     "language": {
-      "value": "English",
+      "value": "Italian/English",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-MILANO-CS-PROFILE-2026"
+      ],
+      "notes": "The language shown is from the 2026/27 course profile only; verify the next course offer and any language tracks."
     },
     "field": {
       "value": "Computer Science",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-MILANO-CS-PROFILE-2026"
+      ],
+      "notes": "Prior-cycle subject classification only; verify the 2027/28 course record."
     },
     "availability_2027_2028": {
       "value": null,
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
+      "source_ids": [
+        "SRC-MILANO-MASTER-CATALOGUE-2026",
+        "SRC-MILANO-CS-PROFILE-2026",
+        "SRC-MILANO-CS-CALL-2026",
+        "SRC-MILANO-ENROL"
+      ],
+      "notes": "The latest named course profile and admission notice are for 2026/27. The reviewed general admissions page does not name a 2027/28 intake for this course; no discontinuation is inferred."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
-    "facts": {},
-    "source_ids": [],
+    "facts": {
+      "previous_cycle_course_listing": {
+        "value": {
+          "academic_year": "2026/27",
+          "official_name": "Computer Science",
+          "level": "MSc",
+          "language": "Italian/English"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-MILANO-CS-PROFILE-2026"
+        ],
+        "notes": "The official 2026/27 profile establishes course identity and language only for the previous cycle."
+      },
+      "previous_cycle_program_requirements": {
+        "value": {
+          "academic_year": "2026/27",
+          "degree_route": "L-31 Computer Science and Technology or corresponding prior class; other qualifications need at least 48 CFU in INF/01 or ING-INF/05 and 12 CFU in MAT/01–09",
+          "foreign_qualification": "Recognized as equivalent with comparable skills and knowledge",
+          "assessment": "Evaluation of previous university career; individual interview may be required when academic results do not demonstrate adequate preparation"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-MILANO-CS-PROFILE-2026"
+        ],
+        "notes": "Published course-specific 2026/27 requirements only; use the new annual course call for current rules."
+      },
+      "previous_cycle_english_requirement": {
+        "value": {
+          "academic_year": "2026/27",
+          "study_plan": "English Proficiency B2 (3 ECTS) is listed as a compulsory study-plan activity",
+          "admission_threshold_note": "The course is taught in Italian and English; the reviewed admission page does not establish a standalone English certificate threshold"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-MILANO-CS-PROFILE-2026",
+          "SRC-MILANO-CS-CALL-2026"
+        ],
+        "notes": "Prior-cycle course language or English evidence only. For Computer Science, B2 is a listed study-plan activity and not stated here as an admission certificate threshold."
+      },
+      "previous_cycle_application_windows": {
+        "value": {
+          "academic_year": "2026/27",
+          "application_start": "2026-01-22",
+          "application_deadline": "2026-10-30",
+          "non_eu_visa_applicant_deadline": "2026-04-30",
+          "enrolment_start": "2026-05-05",
+          "enrolment_deadline": "2027-01-15",
+          "application_fee_eur": 30
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-MILANO-CS-CALL-2026"
+        ],
+        "notes": "All dates, places and fees in this fact belong to the 2026/27 procedure and must not be used as 2027/28 deadlines."
+      },
+      "previous_cycle_application_fee": {
+        "value": {
+          "academic_year": "2026/27",
+          "amount_eur": 30,
+          "scope": "Course admission application fee"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-MILANO-CS-CALL-2026"
+        ],
+        "notes": "Prior-cycle application fee only; no 2027/28 course fee is confirmed."
+      },
+      "previous_cycle_international_admission": {
+        "value": {
+          "academic_year": "2026/27",
+          "foreign_qualification_platform": "apply.unimi.it",
+          "non_eu_visa_route": "Universitaly pre-enrolment",
+          "universitaly_deadline": "2026-07-31"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-MILANO-CS-PROFILE-2026",
+          "SRC-MILANO-CS-CALL-2026",
+          "SRC-MILANO-INTL-2026"
+        ],
+        "notes": "Previous-cycle administration, portal or visa guidance. Applicants must follow the next annual course procedure."
+      },
+      "application_windows": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-MILANO-ENROL",
+          "SRC-MILANO-CS-CALL-2026"
+        ],
+        "notes": "No 2027/28 course application window was identified; recorded application and visa dates are from 2026/27."
+      },
+      "application_fee_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-MILANO-CS-CALL-2026"
+        ],
+        "notes": "No 2027/28 course application fee was confirmed; the prior-cycle €30 fee is stored separately where published."
+      },
+      "program_specific_requirements_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-MILANO-MASTER-CATALOGUE-2026",
+          "SRC-MILANO-CS-CALL-2026"
+        ],
+        "notes": "No 2027/28 admission notice or current course requirements were identified. Prior-cycle criteria remain separate."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-MILANO-FEES-2026"
+        ],
+        "notes": "No 2027/28 tuition schedule or course-area fee was identified; 2026/27 amounts are not carried forward."
+      },
+      "previous_cycle_tuition": {
+        "value": {
+          "academic_year": "2026/27",
+          "first_installment_eur": 156,
+          "international_second_installment": "Depends on country group and course tuition area"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-MILANO-FEES-2026"
+        ],
+        "notes": "University-wide prior-cycle fee framework, not a course-specific total or 2027/28 quote."
+      },
+      "previous_cycle_scholarships": {
+        "value": {
+          "academic_year": "2026/27",
+          "university_scholarships": "Competitive awards of €1,800 for eligible students above the DSU income threshold",
+          "European_Futures": "Competitive €10,000 awards for eligible EU Master's applicants from universities outside Italy",
+          "regional_DSU": "Annual income- and merit-based competition"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-MILANO-SCHOLARSHIPS-2026",
+          "SRC-MILANO-EU-FUTURES-2026",
+          "SRC-MILANO-DSU-2026"
+        ],
+        "notes": "General competitive University and regional schemes only; eligibility differs and none guarantees funding for this course. No 2027/28 award is confirmed."
+      },
+      "scholarships_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-MILANO-SCHOLARSHIPS-2026",
+          "SRC-MILANO-EU-FUTURES-2026",
+          "SRC-MILANO-DSU-2026"
+        ],
+        "notes": "No 2027/28 university, European Futures or regional scholarship call was identified."
+      },
+      "acceptance_rate": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-MILANO-CS-PROFILE-2026",
+          "SRC-MILANO-CS-CALL-2026"
+        ],
+        "notes": "The reviewed official course and admission pages do not publish a complete applicant denominator and admitted count; no acceptance rate is inferred."
+      }
+    },
+    "source_ids": [
+      "SRC-MILANO-MASTER-CATALOGUE-2026",
+      "SRC-MILANO-CS-PROFILE-2026",
+      "SRC-MILANO-CS-CALL-2026",
+      "SRC-MILANO-ENROL",
+      "SRC-MILANO-INTL-2026",
+      "SRC-MILANO-FEES-2026",
+      "SRC-MILANO-SCHOLARSHIPS-2026",
+      "SRC-MILANO-EU-FUTURES-2026",
+      "SRC-MILANO-DSU-2026",
+      "SRC-MILANO-EXCELLENCE-2026",
+      "SRC-MILANO-CONTACT"
+    ],
     "previous_tracker_tags": {
       "level": "MSc",
       "language": "English",
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
-    "previous_cycle_tags": null,
+    "previous_cycle_tags": {
+      "level": "MSc",
+      "language": "Italian/English",
+      "field": "Computer Science",
+      "cycle": "2026-2027",
+      "label": "Official 2026/27 course evidence only; 2027/28 first-year intake remains unverified"
+    },
     "last_checked": "2026-11-09"
   },
   {
@@ -2717,38 +2910,247 @@
     "level": {
       "value": "MSc",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-MILANO-AI4ST-PROFILE-2026",
+        "SRC-BICOCCA-AI-MSC-CALL-2026"
+      ],
+      "notes": "Official 2026/27 course material identifies this as an MSc; confirm the 2027/28 course level and intake in the new offer."
     },
     "language": {
       "value": "English",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-MILANO-AI4ST-PROFILE-2026"
+      ],
+      "notes": "The language shown is from the 2026/27 course profile only; verify the next course offer and any language tracks."
     },
     "field": {
       "value": "Computer Science",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-MILANO-AI4ST-PROFILE-2026"
+      ],
+      "notes": "Prior-cycle subject classification only; verify the 2027/28 course record."
     },
     "availability_2027_2028": {
       "value": null,
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
+      "source_ids": [
+        "SRC-MILANO-MASTER-CATALOGUE-2026",
+        "SRC-MILANO-AI4ST-PROFILE-2026",
+        "SRC-BICOCCA-AI-MSC-CALL-2026",
+        "SRC-MILANO-ENROL"
+      ],
+      "notes": "The latest named course profile and admission notice are for 2026/27. The reviewed general admissions page does not name a 2027/28 intake for this course; no discontinuation is inferred."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
-    "facts": {},
-    "source_ids": [],
+    "facts": {
+      "previous_cycle_course_listing": {
+        "value": {
+          "academic_year": "2026/27",
+          "official_name": "Artificial Intelligence for Science and Technology",
+          "level": "MSc",
+          "language": "English"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-MILANO-AI4ST-PROFILE-2026"
+        ],
+        "notes": "The official 2026/27 profile establishes course identity and language only for the previous cycle."
+      },
+      "previous_cycle_program_requirements": {
+        "value": {
+          "academic_year": "2026/27",
+          "degree": "Bachelor's degree or equivalent international qualification",
+          "curricular_credits": {
+            "minimum_total_cfu": 30,
+            "areas": [
+              "Computer science",
+              "Information engineering",
+              "Biomedical engineering",
+              "Mathematics",
+              "Statistics",
+              "Physics"
+            ]
+          },
+          "english": "B2 or higher",
+          "assessment": "Curricular requirement verification and assessment of personal preparation"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BICOCCA-AI-MSC-CALL-2026"
+        ],
+        "notes": "Published course-specific 2026/27 requirements only; use the new annual course call for current rules."
+      },
+      "previous_cycle_english_requirement": {
+        "value": {
+          "minimum_level": "B2 CEFR"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-MILANO-AI4ST-PROFILE-2026",
+          "SRC-BICOCCA-AI-MSC-CALL-2026"
+        ],
+        "notes": "Prior-cycle course language or English evidence only. For Computer Science, B2 is a listed study-plan activity and not stated here as an admission certificate threshold."
+      },
+      "previous_cycle_application_windows": {
+        "value": {
+          "academic_year": "2026/27",
+          "course_administration": "Milano-Bicocca",
+          "italian_qualification_application_period": {
+            "start": "2026-03-02",
+            "end": "2026-09-01"
+          },
+          "application_fee_eur": 30,
+          "foreign_qualification_route": "Apply through Bicocca's DreamApply/apply.unimib.it; the 2026/27 source does not provide the same dates for this applicant group"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BICOCCA-AI-MSC-CALL-2026"
+        ],
+        "notes": "All dates, places and fees in this fact belong to the 2026/27 procedure and must not be used as 2027/28 deadlines."
+      },
+      "previous_cycle_application_fee": {
+        "value": {
+          "academic_year": "2026/27",
+          "amount_eur": 30,
+          "scope": "Course admission application fee"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BICOCCA-AI-MSC-CALL-2026"
+        ],
+        "notes": "Prior-cycle application fee only; no 2027/28 course fee is confirmed."
+      },
+      "previous_cycle_international_admission": {
+        "value": {
+          "academic_year": "2026/27",
+          "joint_partners": [
+            "Milano-Bicocca",
+            "University of Milan",
+            "University of Pavia"
+          ],
+          "administrative_headquarters": "Milano-Bicocca",
+          "admissions_authority": "Milano-Bicocca",
+          "foreign_qualification_platform": "apply.unimib.it"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-MILANO-AI4ST-PROFILE-2026",
+          "SRC-BICOCCA-AI-MSC-CALL-2026"
+        ],
+        "notes": "Previous-cycle administration, portal or visa guidance. Applicants must follow the next annual course procedure."
+      },
+      "application_windows": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-MILANO-ENROL",
+          "SRC-BICOCCA-AI-MSC-CALL-2026"
+        ],
+        "notes": "No 2027/28 course application window was identified; recorded application and visa dates are from 2026/27."
+      },
+      "application_fee_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-BICOCCA-AI-MSC-CALL-2026"
+        ],
+        "notes": "No 2027/28 course application fee was confirmed; the prior-cycle €30 fee is stored separately where published."
+      },
+      "program_specific_requirements_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-MILANO-MASTER-CATALOGUE-2026",
+          "SRC-BICOCCA-AI-MSC-CALL-2026"
+        ],
+        "notes": "No 2027/28 admission notice or current course requirements were identified. Prior-cycle criteria remain separate."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-MILANO-FEES-2026"
+        ],
+        "notes": "No 2027/28 tuition schedule or course-area fee was identified; 2026/27 amounts are not carried forward."
+      },
+      "previous_cycle_tuition": {
+        "value": {
+          "academic_year": "2026/27",
+          "first_installment_eur": 156,
+          "international_second_installment": "Depends on country group and course tuition area"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-MILANO-FEES-2026"
+        ],
+        "notes": "University-wide prior-cycle fee framework, not a course-specific total or 2027/28 quote."
+      },
+      "previous_cycle_scholarships": {
+        "value": {
+          "academic_year": "2026/27",
+          "university_scholarships": "Competitive awards of €1,800 for eligible students above the DSU income threshold",
+          "European_Futures": "Competitive €10,000 awards for eligible EU Master's applicants from universities outside Italy",
+          "regional_DSU": "Annual income- and merit-based competition"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-MILANO-SCHOLARSHIPS-2026",
+          "SRC-MILANO-EU-FUTURES-2026",
+          "SRC-MILANO-DSU-2026"
+        ],
+        "notes": "General competitive University and regional schemes only; eligibility differs and none guarantees funding for this course. No 2027/28 award is confirmed."
+      },
+      "scholarships_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-MILANO-SCHOLARSHIPS-2026",
+          "SRC-MILANO-EU-FUTURES-2026",
+          "SRC-MILANO-DSU-2026"
+        ],
+        "notes": "No 2027/28 university, European Futures or regional scholarship call was identified."
+      },
+      "acceptance_rate": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-MILANO-AI4ST-PROFILE-2026",
+          "SRC-BICOCCA-AI-MSC-CALL-2026"
+        ],
+        "notes": "The reviewed official course and admission pages do not publish a complete applicant denominator and admitted count; no acceptance rate is inferred."
+      }
+    },
+    "source_ids": [
+      "SRC-MILANO-MASTER-CATALOGUE-2026",
+      "SRC-MILANO-AI4ST-PROFILE-2026",
+      "SRC-BICOCCA-AI-MSC-CALL-2026",
+      "SRC-MILANO-ENROL",
+      "SRC-MILANO-INTL-2026",
+      "SRC-MILANO-FEES-2026",
+      "SRC-MILANO-SCHOLARSHIPS-2026",
+      "SRC-MILANO-EU-FUTURES-2026",
+      "SRC-MILANO-DSU-2026",
+      "SRC-MILANO-EXCELLENCE-2026",
+      "SRC-MILANO-CONTACT",
+      "SRC-BICOCCA-2027",
+      "SRC-BICOCCA-AI-MSC-COURSE-2026"
+    ],
     "previous_tracker_tags": {
       "level": "MSc",
       "language": "English",
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
-    "previous_cycle_tags": null,
+    "previous_cycle_tags": {
+      "level": "MSc",
+      "language": "English",
+      "field": "Computer Science",
+      "cycle": "2026-2027",
+      "label": "Official 2026/27 course evidence only; 2027/28 first-year intake remains unverified"
+    },
     "last_checked": "2026-11-09"
   },
   {
@@ -2760,38 +3162,244 @@
     "level": {
       "value": "MSc",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-MILANO-DSEH-PROFILE-2026",
+        "SRC-MILANO-DSEH-CALL-2026"
+      ],
+      "notes": "Official 2026/27 course material identifies this as an MSc; confirm the 2027/28 course level and intake in the new offer."
     },
     "language": {
       "value": "English",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-MILANO-DSEH-PROFILE-2026"
+      ],
+      "notes": "The language shown is from the 2026/27 course profile only; verify the next course offer and any language tracks."
     },
     "field": {
       "value": "Data Science",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-MILANO-DSEH-PROFILE-2026"
+      ],
+      "notes": "Prior-cycle subject classification only; verify the 2027/28 course record."
     },
     "availability_2027_2028": {
       "value": null,
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
+      "source_ids": [
+        "SRC-MILANO-MASTER-CATALOGUE-2026",
+        "SRC-MILANO-DSEH-PROFILE-2026",
+        "SRC-MILANO-DSEH-CALL-2026",
+        "SRC-MILANO-ENROL"
+      ],
+      "notes": "The latest named course profile and admission notice are for 2026/27. The reviewed general admissions page does not name a 2027/28 intake for this course; no discontinuation is inferred."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
-    "facts": {},
-    "source_ids": [],
+    "facts": {
+      "previous_cycle_course_listing": {
+        "value": {
+          "academic_year": "2026/27",
+          "official_name": "Data Science for Economics and Health",
+          "level": "MSc",
+          "language": "English"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-MILANO-DSEH-PROFILE-2026"
+        ],
+        "notes": "The official 2026/27 profile establishes course identity and language only for the previous cycle."
+      },
+      "previous_cycle_program_requirements": {
+        "value": {
+          "academic_year": "2026/27",
+          "degree": "Bachelor's degree",
+          "curricular_credits": {
+            "minimum_total_ects": 30,
+            "areas": [
+              "Computer science and mathematics",
+              "Economics and statistics",
+              "Medical sciences; MED/01 only"
+            ]
+          },
+          "english": "B2 or higher",
+          "assessment": "Written online admission test in English; admission board evaluates curriculum and may request an oral technical interview"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-MILANO-DSEH-CALL-2026"
+        ],
+        "notes": "Published course-specific 2026/27 requirements only; use the new annual course call for current rules."
+      },
+      "previous_cycle_english_requirement": {
+        "value": {
+          "minimum_level": "B2 CEFR"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-MILANO-DSEH-PROFILE-2026",
+          "SRC-MILANO-DSEH-CALL-2026"
+        ],
+        "notes": "Prior-cycle course language or English evidence only. For Computer Science, B2 is a listed study-plan activity and not stated here as an admission certificate threshold."
+      },
+      "previous_cycle_application_windows": {
+        "value": {
+          "academic_year": "2026/27",
+          "eu_or_equivalent_application": {
+            "start": "2026-01-22",
+            "end": "2026-07-20"
+          },
+          "non_eu_visa_applicant_application": {
+            "start": "2026-01-22",
+            "end": "2026-04-30"
+          },
+          "enrolment": {
+            "start": "2026-05-05",
+            "end": "2027-01-15"
+          },
+          "application_fee_eur": 30
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-MILANO-DSEH-CALL-2026"
+        ],
+        "notes": "All dates, places and fees in this fact belong to the 2026/27 procedure and must not be used as 2027/28 deadlines."
+      },
+      "previous_cycle_application_fee": {
+        "value": {
+          "academic_year": "2026/27",
+          "amount_eur": 30,
+          "scope": "Course admission application fee"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-MILANO-DSEH-CALL-2026"
+        ],
+        "notes": "Prior-cycle application fee only; no 2027/28 course fee is confirmed."
+      },
+      "previous_cycle_international_admission": {
+        "value": {
+          "academic_year": "2026/27",
+          "foreign_qualification_platform": "apply.unimi.it",
+          "non_eu_visa_route": "Universitaly pre-enrolment",
+          "universitaly_deadline": "2026-07-31"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-MILANO-DSEH-PROFILE-2026",
+          "SRC-MILANO-DSEH-CALL-2026",
+          "SRC-MILANO-INTL-2026"
+        ],
+        "notes": "Previous-cycle administration, portal or visa guidance. Applicants must follow the next annual course procedure."
+      },
+      "application_windows": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-MILANO-ENROL",
+          "SRC-MILANO-DSEH-CALL-2026"
+        ],
+        "notes": "No 2027/28 course application window was identified; recorded application and visa dates are from 2026/27."
+      },
+      "application_fee_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-MILANO-DSEH-CALL-2026"
+        ],
+        "notes": "No 2027/28 course application fee was confirmed; the prior-cycle €30 fee is stored separately where published."
+      },
+      "program_specific_requirements_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-MILANO-MASTER-CATALOGUE-2026",
+          "SRC-MILANO-DSEH-CALL-2026"
+        ],
+        "notes": "No 2027/28 admission notice or current course requirements were identified. Prior-cycle criteria remain separate."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-MILANO-FEES-2026"
+        ],
+        "notes": "No 2027/28 tuition schedule or course-area fee was identified; 2026/27 amounts are not carried forward."
+      },
+      "previous_cycle_tuition": {
+        "value": {
+          "academic_year": "2026/27",
+          "first_installment_eur": 156,
+          "international_second_installment": "Depends on country group and course tuition area"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-MILANO-FEES-2026"
+        ],
+        "notes": "University-wide prior-cycle fee framework, not a course-specific total or 2027/28 quote."
+      },
+      "previous_cycle_scholarships": {
+        "value": {
+          "academic_year": "2026/27",
+          "university_scholarships": "Competitive awards of €1,800 for eligible students above the DSU income threshold",
+          "European_Futures": "Competitive €10,000 awards for eligible EU Master's applicants from universities outside Italy",
+          "regional_DSU": "Annual income- and merit-based competition"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-MILANO-SCHOLARSHIPS-2026",
+          "SRC-MILANO-EU-FUTURES-2026",
+          "SRC-MILANO-DSU-2026"
+        ],
+        "notes": "General competitive University and regional schemes only; eligibility differs and none guarantees funding for this course. No 2027/28 award is confirmed."
+      },
+      "scholarships_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-MILANO-SCHOLARSHIPS-2026",
+          "SRC-MILANO-EU-FUTURES-2026",
+          "SRC-MILANO-DSU-2026"
+        ],
+        "notes": "No 2027/28 university, European Futures or regional scholarship call was identified."
+      },
+      "acceptance_rate": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-MILANO-DSEH-PROFILE-2026",
+          "SRC-MILANO-DSEH-CALL-2026"
+        ],
+        "notes": "The reviewed official course and admission pages do not publish a complete applicant denominator and admitted count; no acceptance rate is inferred."
+      }
+    },
+    "source_ids": [
+      "SRC-MILANO-MASTER-CATALOGUE-2026",
+      "SRC-MILANO-DSEH-PROFILE-2026",
+      "SRC-MILANO-DSEH-CALL-2026",
+      "SRC-MILANO-ENROL",
+      "SRC-MILANO-INTL-2026",
+      "SRC-MILANO-FEES-2026",
+      "SRC-MILANO-SCHOLARSHIPS-2026",
+      "SRC-MILANO-EU-FUTURES-2026",
+      "SRC-MILANO-DSU-2026",
+      "SRC-MILANO-EXCELLENCE-2026",
+      "SRC-MILANO-CONTACT"
+    ],
     "previous_tracker_tags": {
       "level": "MSc",
       "language": "English",
       "field": "Data Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
-    "previous_cycle_tags": null,
+    "previous_cycle_tags": {
+      "level": "MSc",
+      "language": "English",
+      "field": "Data Science",
+      "cycle": "2026-2027",
+      "label": "Official 2026/27 course evidence only; 2027/28 first-year intake remains unverified"
+    },
     "last_checked": "2026-11-09"
   },
   {
@@ -2803,38 +3411,269 @@
     "level": {
       "value": "MSc",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-MILANO-BCG-PROFILE-2026",
+        "SRC-MILANO-BCG-CALL-2026"
+      ],
+      "notes": "Official 2026/27 course material identifies this as an MSc; confirm the 2027/28 course level and intake in the new offer."
     },
     "language": {
       "value": "English",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-MILANO-BCG-PROFILE-2026"
+      ],
+      "notes": "The language shown is from the 2026/27 course profile only; verify the next course offer and any language tracks."
     },
     "field": {
-      "value": "Sciences",
+      "value": "Bioinformatics",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-MILANO-BCG-PROFILE-2026"
+      ],
+      "notes": "Prior-cycle subject classification only; verify the 2027/28 course record."
     },
     "availability_2027_2028": {
       "value": null,
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
+      "source_ids": [
+        "SRC-MILANO-MASTER-CATALOGUE-2026",
+        "SRC-MILANO-BCG-PROFILE-2026",
+        "SRC-MILANO-BCG-CALL-2026",
+        "SRC-MILANO-ENROL"
+      ],
+      "notes": "The latest named course profile and admission notice are for 2026/27. The reviewed general admissions page does not name a 2027/28 intake for this course; no discontinuation is inferred."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
-    "facts": {},
-    "source_ids": [],
+    "facts": {
+      "previous_cycle_course_listing": {
+        "value": {
+          "academic_year": "2026/27",
+          "official_name": "Bioinformatics for Computational Genomics",
+          "level": "MSc",
+          "language": "English"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-MILANO-BCG-PROFILE-2026"
+        ],
+        "notes": "The official 2026/27 profile establishes course identity and language only for the previous cycle."
+      },
+      "previous_cycle_program_requirements": {
+        "value": {
+          "academic_year": "2026/27",
+          "degree_routes": [
+            {
+              "eligible_classes": [
+                "L-2 Biotechnology",
+                "L-13 Biology",
+                "L-26 Agriculture and Food Sciences",
+                "L-29 Pharmacological Sciences"
+              ],
+              "minimum_biological_credits": 30,
+              "genetics_molecular_biology_biochemistry_minimum_cfu": 18
+            },
+            {
+              "eligible_classes": [
+                "L-8 Information Engineering",
+                "L-30 Physics",
+                "L-31 Computer Science",
+                "L-35 Mathematics",
+                "L-41 Statistics"
+              ],
+              "minimum_credits_in_computing_engineering_biomedical_engineering_mathematics_or_statistics": 30,
+              "mathematics_minimum_cfu": 6,
+              "computing_information_biomedical_or_statistics_minimum_cfu": 12
+            }
+          ],
+          "english": "B2; in exceptional cases, a good level may be assessed during interview without a certificate",
+          "assessment": "For Italian/EU applicants, up to 50 points for CV and 50 for interview; non-EU applicants residing abroad are evaluated on prior study record only; minimum 60/100"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-MILANO-BCG-CALL-2026"
+        ],
+        "notes": "Published course-specific 2026/27 requirements only; use the new annual course call for current rules."
+      },
+      "previous_cycle_english_requirement": {
+        "value": {
+          "minimum_level": "B2 CEFR",
+          "exception": "A strong level assessed at interview may be accepted in exceptional cases"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-MILANO-BCG-PROFILE-2026",
+          "SRC-MILANO-BCG-CALL-2026"
+        ],
+        "notes": "Prior-cycle course language or English evidence only. For Computer Science, B2 is a listed study-plan activity and not stated here as an admission certificate threshold."
+      },
+      "previous_cycle_application_windows": {
+        "value": {
+          "academic_year": "2026/27",
+          "application_period": {
+            "start": "2026-03-24",
+            "end": "2026-06-26",
+            "deadline_time": "14:00 Italy time"
+          },
+          "non_eu_visa_applicant_deadline": "2026-05-29 14:00 Italy time",
+          "application_fee_eur": 30,
+          "interview": "2026-07-01",
+          "places": {
+            "general": 50,
+            "non_eu_visa_reserved": 10
+          },
+          "ranking_publication": "2026-07-07",
+          "initial_enrolment_period": {
+            "start": "2026-07-07",
+            "end": "2026-07-16"
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-MILANO-BCG-CALL-2026"
+        ],
+        "notes": "All dates, places and fees in this fact belong to the 2026/27 procedure and must not be used as 2027/28 deadlines."
+      },
+      "previous_cycle_application_fee": {
+        "value": {
+          "academic_year": "2026/27",
+          "amount_eur": 30,
+          "scope": "Course admission application fee"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-MILANO-BCG-CALL-2026"
+        ],
+        "notes": "Prior-cycle application fee only; no 2027/28 course fee is confirmed."
+      },
+      "previous_cycle_international_admission": {
+        "value": {
+          "academic_year": "2026/27",
+          "joint_degree_partners": [
+            "University of Milan",
+            "Politecnico di Milano"
+          ],
+          "foreign_qualification_platform": "apply.unimi.it",
+          "non_eu_visa_route": "Universitaly pre-enrolment",
+          "universitaly_deadline": "2026-07-31",
+          "visa_applicant_selection": "Non-EU applicants residing abroad were assessed from prior study records without interview"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-MILANO-BCG-PROFILE-2026",
+          "SRC-MILANO-BCG-CALL-2026",
+          "SRC-MILANO-INTL-2026"
+        ],
+        "notes": "Previous-cycle administration, portal or visa guidance. Applicants must follow the next annual course procedure."
+      },
+      "application_windows": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-MILANO-ENROL",
+          "SRC-MILANO-BCG-CALL-2026"
+        ],
+        "notes": "No 2027/28 course application window was identified; recorded application and visa dates are from 2026/27."
+      },
+      "application_fee_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-MILANO-BCG-CALL-2026"
+        ],
+        "notes": "No 2027/28 course application fee was confirmed; the prior-cycle €30 fee is stored separately where published."
+      },
+      "program_specific_requirements_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-MILANO-MASTER-CATALOGUE-2026",
+          "SRC-MILANO-BCG-CALL-2026"
+        ],
+        "notes": "No 2027/28 admission notice or current course requirements were identified. Prior-cycle criteria remain separate."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-MILANO-FEES-2026"
+        ],
+        "notes": "No 2027/28 tuition schedule or course-area fee was identified; 2026/27 amounts are not carried forward."
+      },
+      "previous_cycle_tuition": {
+        "value": {
+          "academic_year": "2026/27",
+          "first_installment_eur": 156,
+          "international_second_installment": "Depends on country group and course tuition area"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-MILANO-FEES-2026"
+        ],
+        "notes": "University-wide prior-cycle fee framework, not a course-specific total or 2027/28 quote."
+      },
+      "previous_cycle_scholarships": {
+        "value": {
+          "academic_year": "2026/27",
+          "university_scholarships": "Competitive awards of €1,800 for eligible students above the DSU income threshold",
+          "European_Futures": "Competitive €10,000 awards for eligible EU Master's applicants from universities outside Italy",
+          "regional_DSU": "Annual income- and merit-based competition"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-MILANO-SCHOLARSHIPS-2026",
+          "SRC-MILANO-EU-FUTURES-2026",
+          "SRC-MILANO-DSU-2026"
+        ],
+        "notes": "General competitive University and regional schemes only; eligibility differs and none guarantees funding for this course. No 2027/28 award is confirmed."
+      },
+      "scholarships_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-MILANO-SCHOLARSHIPS-2026",
+          "SRC-MILANO-EU-FUTURES-2026",
+          "SRC-MILANO-DSU-2026"
+        ],
+        "notes": "No 2027/28 university, European Futures or regional scholarship call was identified."
+      },
+      "acceptance_rate": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-MILANO-BCG-PROFILE-2026",
+          "SRC-MILANO-BCG-CALL-2026"
+        ],
+        "notes": "The reviewed official course and admission pages do not publish a complete applicant denominator and admitted count; no acceptance rate is inferred."
+      }
+    },
+    "source_ids": [
+      "SRC-MILANO-MASTER-CATALOGUE-2026",
+      "SRC-MILANO-BCG-PROFILE-2026",
+      "SRC-MILANO-BCG-CALL-2026",
+      "SRC-MILANO-ENROL",
+      "SRC-MILANO-INTL-2026",
+      "SRC-MILANO-FEES-2026",
+      "SRC-MILANO-SCHOLARSHIPS-2026",
+      "SRC-MILANO-EU-FUTURES-2026",
+      "SRC-MILANO-DSU-2026",
+      "SRC-MILANO-EXCELLENCE-2026",
+      "SRC-MILANO-CONTACT"
+    ],
     "previous_tracker_tags": {
       "level": "MSc",
       "language": "English",
       "field": "Sciences",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
-    "previous_cycle_tags": null,
+    "previous_cycle_tags": {
+      "level": "MSc",
+      "language": "English",
+      "field": "Bioinformatics",
+      "cycle": "2026-2027",
+      "label": "Official 2026/27 course evidence only; 2027/28 first-year intake remains unverified"
+    },
     "last_checked": "2026-11-09"
   },
   {

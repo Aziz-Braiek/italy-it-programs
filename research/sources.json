@@ -1906,10 +1906,229 @@
     "source_type": "Official admissions page",
     "accessed_at": "2026-11-09",
     "cycle": "2026-2027",
-    "evidence": "The reviewed page describes 2026/27 admissions and explains that annual calls set requirements, tests, places, rankings and enrollment procedures.",
+    "evidence": "The University describes its 2026/27 admissions processes and says calls contain the applicable admission requirements, tests, places, rankings and enrollment procedures. It does not confirm any 2027/28 course call.",
     "supports": [
       "university.previous_cycle_process",
       "university.admission_structure"
+    ]
+  },
+  {
+    "id": "SRC-MILANO-MASTER-CATALOGUE-2026",
+    "university_id": "milano-statale",
+    "title": "Master's Degree Programmes – 2026/27 catalogue",
+    "url": "https://www.unimi.it/en/education/masters-degree-programmes",
+    "source_type": "Official Master's programme catalogue",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The official 2026/27 catalogue lists Computer Science, Artificial Intelligence for Science and Technology, Data Science for Economics and Health, and Bioinformatics for Computational Genomics. The individual pages establish distinct language and admissions classifications; this catalogue is not a 2027/28 intake notice.",
+    "supports": [
+      "university.masters_programmes",
+      "university.english_programs",
+      "program.previous_cycle_course_listing"
+    ]
+  },
+  {
+    "id": "SRC-MILANO-CS-PROFILE-2026",
+    "university_id": "milano-statale",
+    "title": "Computer Science – Master's degree profile",
+    "url": "https://www.unimi.it/en/education/master-programme/computer-science-master",
+    "source_type": "Official degree profile and requirements",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 course is an LM-18, two-year, 120-ECTS open-access Master's in Milan taught in Italian and English. L-31 graduates may apply; other degrees need at least 48 credits in INF/01 or ING-INF/05 and 12 credits in MAT/01–09; foreign qualifications are assessed for equivalence and preparation, with an interview possible. The study plan includes a 3-ECTS B2 English proficiency activity.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_program_requirements",
+      "program.previous_cycle_english_requirement"
+    ]
+  },
+  {
+    "id": "SRC-MILANO-CS-CALL-2026",
+    "university_id": "milano-statale",
+    "title": "Computer Science – admission notice AY 2026/27",
+    "url": "https://apps.unimi.it/files/bandi/admission-notice-2027-1-computer-science-(classe-lm-18).pdf?30-MAR-26=",
+    "source_type": "Official program admission notice",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 notice gives open-admission applications 22 January–30 October 2026, non-EU visa-applicant deadline 30 April, €30 application fee, enrolment 5 May 2026–15 January 2027, and apply.unimi.it for foreign qualifications. The listed deadlines and fee are prior-cycle only.",
+    "supports": [
+      "program.previous_cycle_application_windows",
+      "program.previous_cycle_application_fee",
+      "program.previous_cycle_international_admission"
+    ]
+  },
+  {
+    "id": "SRC-MILANO-AI4ST-PROFILE-2026",
+    "university_id": "milano-statale",
+    "title": "Artificial Intelligence for Science and Technology – inter-university profile",
+    "url": "https://www.unimi.it/en/education/master-programme/artificial-intelligence-science-and-technology",
+    "source_type": "Official inter-university degree profile",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 profile identifies the English-taught, two-year, 120-ECTS LM-91 joint degree run by Milano-Bicocca, the University of Milan, and Pavia. Bicocca is the administrative headquarters and handles admissions. Requirements include a Bachelor's degree, at least 30 CFU across listed computer science, engineering, mathematics, statistics or physics sectors, and English at B2 or higher.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_program_requirements",
+      "program.previous_cycle_english_requirement",
+      "program.previous_cycle_admissions_route"
+    ]
+  },
+  {
+    "id": "SRC-MILANO-DSEH-PROFILE-2026",
+    "university_id": "milano-statale",
+    "title": "Data Science for Economics and Health – Master's profile",
+    "url": "https://www.unimi.it/en/education/master-programme/data-science-economics-and-health",
+    "source_type": "Official degree profile",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 profile identifies a two-year, 120-ECTS, English-taught LM-Data Master's in Milan, open access with entry-requirements examination. It links the annual admission procedure; it does not confirm a 2027/28 first-year intake.",
+    "supports": [
+      "program.previous_cycle_course_listing"
+    ]
+  },
+  {
+    "id": "SRC-MILANO-DSEH-CALL-2026",
+    "university_id": "milano-statale",
+    "title": "Data Science for Economics and Health – admission notice AY 2026/27",
+    "url": "https://apps.unimi.it/files/bandi/admission-notice-2027-1-data-science-for-economics-and-health-(classe-lm-data).pdf?30-MAR-26=",
+    "source_type": "Official program admission notice",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 notice requires a Bachelor's degree and at least 30 ECTS across computer science/mathematics, economics/statistics, and/or medical sciences, B2 English, and a written online assessment with possible interview. Applications ran 22 January–20 July 2026 (visa applicants by 30 April), cost €30, and used apply.unimi.it for foreign qualifications. These are prior-cycle conditions and dates.",
+    "supports": [
+      "program.previous_cycle_program_requirements",
+      "program.previous_cycle_english_requirement",
+      "program.previous_cycle_application_windows",
+      "program.previous_cycle_application_fee",
+      "program.previous_cycle_international_admission"
+    ]
+  },
+  {
+    "id": "SRC-MILANO-BCG-PROFILE-2026",
+    "university_id": "milano-statale",
+    "title": "Bioinformatics for Computational Genomics – Master's profile",
+    "url": "https://bcg.cdl.unimi.it/en/programme/bioinformatics-computational-genomics",
+    "source_type": "Official inter-university degree profile",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 course is a two-year, 120-ECTS, English-taught LM-8 R joint degree organized by the University of Milan and Politecnico di Milano, with first-year enrollment open, limited enrollment and an admission test. The profile lists 50 places plus 10 reserved for non-EU candidates applying for a visa.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_admissions_route"
+    ]
+  },
+  {
+    "id": "SRC-MILANO-BCG-CALL-2026",
+    "university_id": "milano-statale",
+    "title": "Bioinformatics for Computational Genomics – admission call AY 2026/27",
+    "url": "https://apps.unimi.it/files/bandi/call-2027-1-bioinformatics-for-computational-genomics-(classe-lm-8-r).pdf?27-MAR-26=",
+    "source_type": "Official joint-degree admission call",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 call accepts Biology/Life Science degrees with at least 30 CFU in biological areas and 18 CFU in genetics, molecular biology and biochemistry, or CS/engineering/physics/math/statistics degrees with at least 30 CFU in relevant quantitative areas including 6 CFU mathematics and 12 CFU in specified computing/statistics sectors. English B2 is required; interview/scoring rules differ by applicant group. Applications ran 24 March–26 June for most applicants and to 29 May for non-EU visa applicants; €30 fee; 50 places plus 10 visa-reserved. No 2027/28 call is established.",
+    "supports": [
+      "program.previous_cycle_program_requirements",
+      "program.previous_cycle_english_requirement",
+      "program.previous_cycle_application_windows",
+      "program.previous_cycle_application_fee",
+      "program.previous_cycle_international_admission"
+    ]
+  },
+  {
+    "id": "SRC-MILANO-INTL-2026",
+    "university_id": "milano-statale",
+    "title": "International enrolment in degree programmes",
+    "url": "https://www.unimi.it/en/international/coming-abroad/enrol-programme/international-enrolment-degree-programmes",
+    "source_type": "Official international admissions procedure",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "For 2026/27, non-EU applicants residing abroad needed a Universitaly pre-enrolment by 31 July; master's applicants with foreign qualifications completed documentation through apply.unimi.it, including translated/legalized degrees and CIMEA/DOV or accepted equivalents. This general guidance is prior-cycle only.",
+    "supports": [
+      "university.previous_cycle_international_process",
+      "university.previous_cycle_visa_process"
+    ]
+  },
+  {
+    "id": "SRC-MILANO-FEES-2026",
+    "university_id": "milano-statale",
+    "title": "Fees – current year AY 2026/27",
+    "url": "https://www.unimi.it/en/study/bachelor-and-master-study/fees-and-how-pay-them/fees-current-year",
+    "source_type": "Official tuition and fee guide",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "For 2026/27, the first instalment is a fixed €156. Tuition for students with income abroad varies by country group and course tuition area: Group A €200/€256, Group B €910/€1,164, Group C €3,204/€4,101.12 for Areas A/B; regional tax may remain due for Groups B/C. Students with eligible ISEE have a no-tax area up to €30,000 subject to merit. Amounts are prior-cycle and exact area/country eligibility must be checked.",
+    "supports": [
+      "university.previous_cycle_tuition",
+      "program.previous_cycle_tuition"
+    ]
+  },
+  {
+    "id": "SRC-MILANO-SCHOLARSHIPS-2026",
+    "university_id": "milano-statale",
+    "title": "University scholarships AY 2026/27",
+    "url": "https://www.unimi.it/en/study/financial-support/university-scholarships",
+    "source_type": "Official university scholarship page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "For 2026/27, the University offered 1,055 awards of €1,800 for students above the income threshold for regional DSU scholarships; applications ran 10 July–30 September 2026. Eligibility and merit rules are in the annual call. This is not a guaranteed award for any program or a 2027/28 offer.",
+    "supports": [
+      "university.previous_cycle_scholarships",
+      "program.previous_cycle_scholarships"
+    ]
+  },
+  {
+    "id": "SRC-MILANO-EU-FUTURES-2026",
+    "university_id": "milano-statale",
+    "title": "European Futures Scholarships AY 2026/27",
+    "url": "https://www.unimi.it/en/study/financial-support/international-scholarships",
+    "source_type": "Official international scholarship page and call index",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The University announced 30 merit scholarships of €10,000 each for eligible EU students from universities outside Italy enrolling in Master's degrees in 2026/27; the scholarship page lists an application period 5 May–15 June 2026, later extended to 26 June. The programme is limited by applicant eligibility and is not a general award to all international applicants. It does not establish a 2027/28 call.",
+    "supports": [
+      "university.previous_cycle_international_scholarships",
+      "program.previous_cycle_scholarships"
+    ]
+  },
+  {
+    "id": "SRC-MILANO-DSU-2026",
+    "university_id": "milano-statale",
+    "title": "Regional scholarships AY 2026/27",
+    "url": "https://www.unimi.it/en/study/financial-support/regional-scholarships",
+    "source_type": "Official regional scholarship administration page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 Lombardy regional DSU competition was for enrolled University of Milan students meeting annual income and merit criteria; applications ran 10 July–30 September. Awards may include a cash scholarship, meal and full or partial fee exemption. International applicants with foreign income must follow the annual documentation rules. No 2027/28 call is confirmed.",
+    "supports": [
+      "university.previous_cycle_regional_scholarships",
+      "program.previous_cycle_scholarships"
+    ]
+  },
+  {
+    "id": "SRC-MILANO-EXCELLENCE-2026",
+    "university_id": "milano-statale",
+    "title": "International scholarships – new Excellence award status",
+    "url": "https://www.unimi.it/en/node/1157",
+    "source_type": "Official scholarship administration page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The official award administration page states that no new allocations of the international Excellence Scholarships will be made from AY 2026/27. This does not affect separate 2026/27 European Futures or university/DSU competitions.",
+    "supports": [
+      "university.previous_cycle_international_scholarships"
+    ]
+  },
+  {
+    "id": "SRC-MILANO-CONTACT",
+    "university_id": "milano-statale",
+    "title": "Welcome Desk – International Admissions and Credentials Evaluation",
+    "url": "https://www.unimi.it/en/study/student-services/welcome-desk-informastudenti",
+    "source_type": "Official international admissions contact page",
+    "accessed_at": "2026-11-09",
+    "cycle": "general",
+    "evidence": "The University directs applicants who are not resident in Italy or hold foreign qualifications to the International Admissions and Credentials Evaluation Office through InformaStudenti. General contact route only.",
+    "supports": [
+      "university.admissions_contact",
+      "university.application_portal"
     ]
   },
   {

@@ -270,6 +270,20 @@ assert.match(bicoccaProgramHtml, /No 2027\/28 course application fee was confirm
 assert.match(getElementById("university-grid").innerHTML, /country-specific entry requirements/);
 assert.match(getElementById("university-grid").innerHTML, /apply\.unimib\.it/);
 assert.match(getElementById("university-grid").innerHTML, /€146 is the first installment, not total tuition/);
+getElementById("search").value = "Università degli Studi di Milano";
+getElementById("search").dispatch("input");
+const milanoStataleProgramHtml = getElementById("program-grid").innerHTML;
+assert.ok((milanoStataleProgramHtml.match(/class="card pending"/g) ?? []).length >= 4);
+assert.match(milanoStataleProgramHtml, /Computer Science/);
+assert.match(milanoStataleProgramHtml, /Italian\/English/);
+assert.match(milanoStataleProgramHtml, /Data Science for Economics and Health/);
+assert.match(milanoStataleProgramHtml, /Bioinformatics for Computational Genomics/);
+assert.match(milanoStataleProgramHtml, /administrative headquarters: Milano-Bicocca/);
+assert.match(milanoStataleProgramHtml, /application fee eur: 30/);
+assert.match(getElementById("university-grid").innerHTML, /No 2027\/28 application schedule was identified/);
+assert.match(getElementById("university-grid").innerHTML, /first installment eur: 156/);
+assert.match(getElementById("university-grid").innerHTML, /awards: 1055/);
+assert.match(getElementById("university-grid").innerHTML, /apply\.unimi\.it/);
 getElementById("search").value = "";
 getElementById("search").dispatch("input");
 

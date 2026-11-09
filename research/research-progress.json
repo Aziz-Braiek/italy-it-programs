@@ -110,6 +110,11 @@
       "id": "milano-bicocca-program-and-international-admissions-review",
       "status": "partial",
       "result": "Checked all six Bicocca legacy leads against official course profiles, English-program listings and 2026/27 course calls. Corrected the MSc title to Artificial Intelligence for Science and Technology; recorded course-specific prior-cycle requirements and dates, and noted that the joint AI BSc is administered by Pavia while the joint Human-Centered AI MSc is administered by the University of Milan. The 2027/28 international qualification page confirms country-specific entry requirements and apply.unimib.it, but no candidate course's new-entry offer or call. Recorded 2026/27 fees and scholarship context with the BISP undergraduate naming mismatch; no 2027/28 course windows, fees or awards were confirmed."
+    },
+    {
+      "id": "milano-statale-masters-and-2026-27-course-review",
+      "status": "partial",
+      "result": "Checked four legacy Master's leads against the University of Milan's 2026/27 catalogue, course profiles and admission notices. Corrected Computer Science from English-only to Italian/English and recorded the same Artificial Intelligence for Science and Technology inter-university degree already tracked at Bicocca, which is its administrative headquarters. Matched Data Science for Economics and Health and the joint Bioinformatics for Computational Genomics MSc, with course-specific prior-cycle requirements, application dates, fees and international routes. Recorded the 2026/27 €156 first tuition instalment, country/course-area fee framework, university and European Futures awards, and regional DSU. No 2027/28 first-entry calls, dates, fee schedule or scholarship calls were identified."
     }
   ],
   "counts": {
@@ -120,7 +125,7 @@
     "universities_without_initial_official_source_outcome": 0,
     "universities_fully_verified": 0,
     "universities_partially_researched": 34,
-    "universities_with_program_level_research": 20,
+    "universities_with_program_level_research": 21,
     "university_ids_with_program_level_research": [
       "bologna",
       "ca-foscari",
@@ -133,6 +138,7 @@
       "marche",
       "messina",
       "milano-bicocca",
+      "milano-statale",
       "napoli-federico-ii",
       "padova",
       "parma",
@@ -143,10 +149,9 @@
       "tor-vergata",
       "verona"
     ],
-    "universities_program_level_review_not_started": 14,
+    "universities_program_level_review_not_started": 13,
     "university_ids_with_program_level_review_not_started": [
       "genova",
-      "milano-statale",
       "modena-reggio",
       "palermo",
       "politecnico-bari",
@@ -168,10 +173,14 @@
     "programs_fully_verified": 23,
     "programs_requiring_verification": 164,
     "programs_not_offered_2027_2028": 2,
-    "programs_supported_only_by_previous_cycle": 31,
+    "programs_supported_only_by_previous_cycle": 35,
     "program_ids_supported_only_by_previous_cycle": [
       "discovered-023",
       "discovered-024",
+      "legacy-058",
+      "legacy-059",
+      "legacy-060",
+      "legacy-061",
       "legacy-062",
       "legacy-063",
       "legacy-064",
@@ -237,7 +246,7 @@
       "politecnico-torino",
       "siena"
     ],
-    "universities_with_unavailable_or_conflicting_information": 14,
+    "universities_with_unavailable_or_conflicting_information": 15,
     "university_ids_with_unavailable_or_conflicting_information": [
       "bologna",
       "ca-foscari",
@@ -246,6 +255,7 @@
       "laquila",
       "marche",
       "milano-bicocca",
+      "milano-statale",
       "padova",
       "perugia",
       "pisa",
@@ -260,8 +270,8 @@
       "politecnico-milano",
       "trento"
     ],
-    "source_records": 217,
-    "official_source_supported_fields": 445,
+    "source_records": 232,
+    "official_source_supported_fields": 482,
     "verification_statuses": [
       "CONFIRMED",
       "NOT_YET_PUBLISHED",
