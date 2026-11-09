@@ -75,6 +75,11 @@
       "id": "perugia-engineering-management-prior-cycle-review",
       "status": "partial",
       "result": "Matched the legacy Engineering MSc lead to the official Engineering Management course and added the English BSc discovered in the 2026/27 Engineering catalogue. Recorded prior-cycle course profiles, capacity, curriculum requirements, language and international PICA/Universitaly procedures, university-level fee guidance, and the ADiSU 2026/27 scholarship call including foreign-income rules. Neither 2027/28 first-year intake nor current deadlines, fees or scholarships are confirmed; program-level coverage is partial."
+    },
+    {
+      "id": "ca-foscari-catalogue-and-2027-28-admission-review",
+      "status": "partial",
+      "result": "Checked the official 2026/27 English programme list and course profiles against all Ca' Foscari tracker leads; source-linked ten prior-cycle course profiles and entry requirements for the reviewed bachelor's and master's records. Corrected Hospitality Innovation and e-Tourism from the legacy MSc label to the official BSc level, and documented that the catalogue lists Digital Management only as a BSc, not a separate MSc. Confirmed 2027/28 international applications begin in December 2026 and the university announced 8 BSc and 20 MSc Honours awards of €10,000/year; exact admission and scholarship calls remain pending. Recorded 2026/27 tuition and Veneto regional-aid conditions as historical only. Buddhism and Asian Religions remains the only separate Ca' Foscari program confirmed for a 2027/28 first-year intake; the other candidate rows remain pending."
     }
   ],
   "counts": {
@@ -85,9 +90,10 @@
     "universities_without_initial_official_source_outcome": 0,
     "universities_fully_verified": 0,
     "universities_partially_researched": 34,
-    "universities_with_program_level_research": 13,
+    "universities_with_program_level_research": 14,
     "university_ids_with_program_level_research": [
       "bologna",
+      "ca-foscari",
       "catania",
       "firenze",
       "messina",
@@ -101,9 +107,8 @@
       "tor-vergata",
       "verona"
     ],
-    "universities_program_level_review_not_started": 21,
+    "universities_program_level_review_not_started": 20,
     "university_ids_with_program_level_review_not_started": [
-      "ca-foscari",
       "camerino",
       "ferrara",
       "genova",
@@ -133,15 +138,25 @@
     "programs_fully_verified": 23,
     "programs_requiring_verification": 164,
     "programs_not_offered_2027_2028": 2,
-    "programs_supported_only_by_previous_cycle": 7,
+    "programs_supported_only_by_previous_cycle": 17,
     "program_ids_supported_only_by_previous_cycle": [
       "discovered-023",
       "discovered-024",
       "legacy-079",
       "legacy-081",
+      "legacy-083",
       "legacy-084",
       "legacy-088",
-      "legacy-089"
+      "legacy-089",
+      "legacy-099",
+      "legacy-100",
+      "legacy-101",
+      "legacy-102",
+      "legacy-103",
+      "legacy-104",
+      "legacy-105",
+      "legacy-106",
+      "legacy-107"
     ],
     "bsc_programs_verified": 1,
     "msc_programs_verified": 22,
@@ -178,9 +193,10 @@
       "politecnico-torino",
       "siena"
     ],
-    "universities_with_unavailable_or_conflicting_information": 8,
+    "universities_with_unavailable_or_conflicting_information": 9,
     "university_ids_with_unavailable_or_conflicting_information": [
       "bologna",
+      "ca-foscari",
       "padova",
       "perugia",
       "pisa",
@@ -194,8 +210,8 @@
       "politecnico-milano",
       "trento"
     ],
-    "source_records": 118,
-    "official_source_supported_fields": 285,
+    "source_records": 138,
+    "official_source_supported_fields": 320,
     "verification_statuses": [
       "CONFIRMED",
       "NOT_YET_PUBLISHED",

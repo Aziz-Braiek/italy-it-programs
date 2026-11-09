@@ -788,11 +788,328 @@
     "source_type": "Official scholarship page",
     "accessed_at": "2026-11-09",
     "cycle": "2027-2028",
-    "evidence": "For 2027/28 lists 8 bachelor scholarships of €10,000/year for three years and 20 master’s scholarships of €10,000/year for two years. Ranking factors include CGPA at least 85%, motivational video, reference letters and language evidence; the complete call with exact deadlines is expected in late fall.",
+    "evidence": "For 2027/28 lists 8 bachelor scholarships of €10,000/year for three years and 20 master’s scholarships of €10,000/year for two years. Ranking factors include CGPA at least 85%, motivational video, reference letters and language evidence; the complete call with exact deadlines is expected in late fall. The page lists International Office contact +39 041 234 7575 and prospective.students@unive.it.",
     "supports": [
       "university.scholarships",
       "university.scholarship_eligibility",
-      "university.scholarship_deadline_status"
+      "university.scholarship_deadline_status",
+      "university.international_contact"
+    ]
+  },
+  {
+    "id": "SRC-CA-FOSCARI-ENGLISH-2026",
+    "university_id": "ca-foscari",
+    "title": "International programmes – English-taught degree list (2026/27)",
+    "url": "https://www.unive.it/pag/15612/",
+    "source_type": "Official English-taught programme list",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The official page groups English-taught bachelor's and master's programmes for 2026/27, including Computer Science - Data Science, Computer Science and Information Technology, Data Analytics for Business and Society, Economics, Finance and Sustainability, International Management, Comparative International Relations, Digital Management, Economics and Business, Hospitality Innovation and e-Tourism, and Philosophy, International and Economic Studies. This is the latest displayed course list, not a 2027/28 new-entry catalogue.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "university.previous_cycle_english_programmes"
+    ]
+  },
+  {
+    "id": "SRC-CA-FOSCARI-CATALOGUE-2026",
+    "university_id": "ca-foscari",
+    "title": "Bachelor's and Master's degrees – course catalogue (2026/27)",
+    "url": "https://www.unive.it/data/it/15241",
+    "source_type": "Official degree catalogue",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The official catalogue labels its course lists a.y. 2026/27 and includes course codes and languages. It lists Computer Science and Information Technology (CM90) as an English MSc and Informatica (CTR3) as a BSc with Italian and English language entries; Digital Management appears in the bachelor's list, not as a separate master's degree. Hospitality Innovation and e-Tourism (CTR9) appears in the bachelor's list. This does not confirm first-year availability for 2027/28.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_level",
+      "program.previous_cycle_language"
+    ]
+  },
+  {
+    "id": "SRC-CA-FOSCARI-TUITION-2026",
+    "university_id": "ca-foscari",
+    "title": "Annual tuition fees – international degree programmes (2026/27 entry guide)",
+    "url": "https://www.unive.it/pag/fileadmin/user_upload/inglese/international/doc/degree-seeking/CaFoscari_EnglishDegreeProgrammes.pdf",
+    "source_type": "Official international tuition guide",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "For 2026/27 entry, the guide lists annual fees by group: Italy/EU €2,352 BSc and €2,599 MSc; non-EU OECD €2,100 and €2,300; developing-country group €700 at both levels; all other countries €1,300 at both levels. It lists exceptions including Digital Management (€8,811) and Hospitality Innovation and e-Tourism (€7,025). These are prior-cycle guide figures, may interact with fee-reduction rules, and are not 2027/28 amounts.",
+    "supports": [
+      "university.previous_cycle_tuition",
+      "program.previous_cycle_tuition"
+    ]
+  },
+  {
+    "id": "SRC-CA-FOSCARI-REGIONAL-AID-2026",
+    "university_id": "ca-foscari",
+    "title": "Regional right-to-study scholarship (2026/27)",
+    "url": "https://www.unive.it/pag/8551/",
+    "source_type": "Official regional scholarship information",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 page describes the Veneto regional grant administered by Ca' Foscari, a combination of cash and services, income eligibility below ISEE €26,306.25 and ISPE €43,125.94, and a general application deadline of 30 September 2026 at 12:30. The related ISEE-information page gives a later 18 December 2026 ISEE-equivalent submission deadline for first-year master's students. These are prior-cycle conditions; no 2027/28 regional call is confirmed here.",
+    "supports": [
+      "university.previous_cycle_scholarships",
+      "program.previous_cycle_scholarships"
+    ]
+  },
+  {
+    "id": "SRC-CA-FOSCARI-CONTACT-2026",
+    "university_id": "ca-foscari",
+    "title": "Welcome Unit – international degree-seeker contact",
+    "url": "https://www.unive.it/web/en/21179/welcome",
+    "source_type": "Official international student contact page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "Identifies welcome@unive.it as the contact for degree-seeking and prospective international students and evaluation of international qualifications; the page provides appointment-based support in Italian and English.",
+    "supports": [
+      "university.admissions_contact",
+      "university.international_qualification_process"
+    ]
+  },
+  {
+    "id": "SRC-CA-FOSCARI-DM-BSC-2026",
+    "university_id": "ca-foscari",
+    "title": "Digital Management – Bachelor's programme profile",
+    "url": "https://www.unive.it/degree/etr7",
+    "source_type": "Official degree programme page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The profile identifies Digital Management as a three-year English BSc, L-18 R, 180 ECTS, Roncade, with limited admission. The page is the current programme profile and does not confirm a 2027/28 first-year intake.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_level",
+      "program.previous_cycle_language",
+      "program.previous_cycle_duration",
+      "program.previous_cycle_access"
+    ]
+  },
+  {
+    "id": "SRC-CA-FOSCARI-EB-BSC-2026",
+    "university_id": "ca-foscari",
+    "title": "Economics and Business – Bachelor's programme profile",
+    "url": "https://www.unive.it/degree/etr9",
+    "source_type": "Official degree programme page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The profile identifies Economics and Business as a three-year English BSc, L-33 R, 180 ECTS, Venice, with limited admission. The page does not confirm a 2027/28 first-year intake.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_level",
+      "program.previous_cycle_language",
+      "program.previous_cycle_duration",
+      "program.previous_cycle_access"
+    ]
+  },
+  {
+    "id": "SRC-CA-FOSCARI-DABS-MSC-2026",
+    "university_id": "ca-foscari",
+    "title": "Data Analytics for Business and Society – Master's programme profile",
+    "url": "https://www.unive.it/degree/emr14",
+    "source_type": "Official degree programme page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The profile identifies a two-year English MSc, LM-91 R, 120 ECTS, Venice, open admission and a double/joint-degree option. It does not confirm a 2027/28 first-year intake.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_level",
+      "program.previous_cycle_language",
+      "program.previous_cycle_duration",
+      "program.previous_cycle_access"
+    ]
+  },
+  {
+    "id": "SRC-CA-FOSCARI-EFS-MSC-2026",
+    "university_id": "ca-foscari",
+    "title": "Economics, Finance and Sustainability – Master's programme profile",
+    "url": "https://www.unive.it/degree/emr15",
+    "source_type": "Official degree programme page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The profile identifies a two-year English MSc, LM-56 R, 120 ECTS, Venice, open admission and a double/joint-degree option. It does not confirm a 2027/28 first-year intake.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_level",
+      "program.previous_cycle_language",
+      "program.previous_cycle_duration",
+      "program.previous_cycle_access"
+    ]
+  },
+  {
+    "id": "SRC-CA-FOSCARI-IM-MSC-2026",
+    "university_id": "ca-foscari",
+    "title": "International Management – Master's programme profile",
+    "url": "https://www.unive.it/degree/emr18",
+    "source_type": "Official degree programme page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The profile identifies a two-year English MSc, LM-77 R, 120 ECTS, Venice, limited admission and a double/joint-degree option. It does not confirm a 2027/28 first-year intake.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_level",
+      "program.previous_cycle_language",
+      "program.previous_cycle_duration",
+      "program.previous_cycle_access"
+    ]
+  },
+  {
+    "id": "SRC-CA-FOSCARI-CIR-MSC-2026",
+    "university_id": "ca-foscari",
+    "title": "Comparative International Relations – Master's programme profile",
+    "url": "https://www.unive.it/degree/lmr60",
+    "source_type": "Official degree programme page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The profile identifies a two-year MSc, LM-52 R, 120 ECTS, Venice, open admission, a double/joint-degree option and Italian/English teaching. The previous tracker’s English-only label is incomplete. It does not confirm a 2027/28 first-year intake.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_level",
+      "program.previous_cycle_language",
+      "program.previous_cycle_duration",
+      "program.previous_cycle_access"
+    ]
+  },
+  {
+    "id": "SRC-CA-FOSCARI-CS-BSC-2026",
+    "university_id": "ca-foscari",
+    "title": "Computer Science – Bachelor's programme profile",
+    "url": "https://www.unive.it/degree/ctr3",
+    "source_type": "Official degree programme page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The profile identifies a three-year BSc, L-31 R, 180 ECTS, Mestre, open admission, with Italian/English language entries and three curricula; only the Data Science curriculum is taught in English. It does not confirm a 2027/28 first-year intake.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_level",
+      "program.previous_cycle_language",
+      "program.previous_cycle_duration",
+      "program.previous_cycle_access"
+    ]
+  },
+  {
+    "id": "SRC-CA-FOSCARI-CSIT-MSC-2026",
+    "university_id": "ca-foscari",
+    "title": "Computer Science and Information Technology – Master's programme profile",
+    "url": "https://www.unive.it/degree/cm90",
+    "source_type": "Official degree programme page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The profile identifies a two-year English MSc, LM-18, 120 ECTS, Mestre and open admission. It does not confirm a 2027/28 first-year intake.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_level",
+      "program.previous_cycle_language",
+      "program.previous_cycle_duration",
+      "program.previous_cycle_access"
+    ]
+  },
+  {
+    "id": "SRC-CA-FOSCARI-HOSP-BSC-2026",
+    "university_id": "ca-foscari",
+    "title": "Hospitality Innovation and e-Tourism – Bachelor's programme profile",
+    "url": "https://www.unive.it/degree/ctr9",
+    "source_type": "Official degree programme page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The profile identifies Hospitality Innovation and e-Tourism as a three-year English BSc, L-15 R, 180 ECTS, Venice/Mestre, limited admission. The prior tracker classified it as an MSc; the latest official profile lists the BSc. It does not confirm a 2027/28 first-year intake.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_level",
+      "program.previous_cycle_language",
+      "program.previous_cycle_duration",
+      "program.previous_cycle_access"
+    ]
+  },
+  {
+    "id": "SRC-CA-FOSCARI-PIES-BSC-2026",
+    "university_id": "ca-foscari",
+    "title": "Philosophy, International and Economic Studies – Bachelor's programme profile",
+    "url": "https://www.unive.it/degree/ltr6",
+    "source_type": "Official degree programme page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The profile identifies a three-year English BSc, L-5 R, 180 ECTS, Venice and limited admission. It does not confirm a 2027/28 first-year intake.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_level",
+      "program.previous_cycle_language",
+      "program.previous_cycle_duration",
+      "program.previous_cycle_access"
+    ]
+  },
+  {
+    "id": "SRC-CA-FOSCARI-DM-ADMISSION-2026",
+    "university_id": "ca-foscari",
+    "title": "Digital Management – 2026/27 admission and enrolment",
+    "url": "https://www.unive.it/web/en/12519/admission-and-enrolment",
+    "source_type": "Official programme admissions page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 procedure is limited admission with TOLC-E, spring and summer rounds, mathematics assessment, B2 English, and international-qualification procedures. These requirements and rounds are prior-cycle evidence, not 2027/28 terms.",
+    "supports": [
+      "program.previous_cycle_admission",
+      "program.previous_cycle_requirements",
+      "program.previous_cycle_english_requirement"
+    ]
+  },
+  {
+    "id": "SRC-CA-FOSCARI-EB-ADMISSION-2026",
+    "university_id": "ca-foscari",
+    "title": "Economics and Business – 2026/27 admission and enrolment",
+    "url": "https://www.unive.it/web/en/12613/admission-and-enrolment",
+    "source_type": "Official programme admissions page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 procedure is limited admission with TOLC-E, spring and summer rounds, mathematics assessment, mandatory B2 English by enrolment, and international-qualification procedures. These requirements and rounds are prior-cycle evidence, not 2027/28 terms.",
+    "supports": [
+      "program.previous_cycle_admission",
+      "program.previous_cycle_requirements",
+      "program.previous_cycle_english_requirement"
+    ]
+  },
+  {
+    "id": "SRC-CA-FOSCARI-DABS-ADMISSION-2026",
+    "university_id": "ca-foscari",
+    "title": "Data Analytics for Business and Society – 2026/27 admission and enrolment",
+    "url": "https://www.unive.it/web/en/12701/admission-and-enrolment",
+    "source_type": "Official programme admissions page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 page describes open admission, a three-year bachelor's qualification, at least 60 CFU in relevant business/economics/statistical-mathematics subjects (including minimum 12 CFU in economics/business and 12 in statistical mathematics), CV assessment and potential interview, and B2 English. These are prior-cycle requirements.",
+    "supports": [
+      "program.previous_cycle_admission",
+      "program.previous_cycle_requirements",
+      "program.previous_cycle_english_requirement"
+    ]
+  },
+  {
+    "id": "SRC-CA-FOSCARI-CS-BSC-ADMISSION-2026",
+    "university_id": "ca-foscari",
+    "title": "Computer Science – 2026/27 admission and enrolment",
+    "url": "https://www.unive.it/web/en/12082/admission-and-enrolment",
+    "source_type": "Official programme admissions page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 page says Computer Science has open admission and only the Data Science curriculum is taught in English. TOLC-I is recommended; scores below 20/40 or no test lead to a mathematics-logic OFA, and the English curriculum requires B2. These are prior-cycle terms.",
+    "supports": [
+      "program.previous_cycle_admission",
+      "program.previous_cycle_requirements",
+      "program.previous_cycle_english_requirement"
+    ]
+  },
+  {
+    "id": "SRC-CA-FOSCARI-CSIT-ADMISSION-2026",
+    "university_id": "ca-foscari",
+    "title": "Computer Science and Information Technology – 2026/27 admission and enrolment",
+    "url": "https://www.unive.it/web/en/7047/admission-and-enrolment",
+    "source_type": "Official programme admissions page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The page gives prior-cycle MSc conditions: at least 48 CFU in listed computer-science, mathematics, physics and statistics subject areas; personal preparation assessed through the CV and potentially an interview, with stated degree/85-of-110 exemption criteria; and B2 English. These are not confirmed for 2027/28.",
+    "supports": [
+      "program.previous_cycle_admission",
+      "program.previous_cycle_requirements",
+      "program.previous_cycle_english_requirement"
     ]
   },
   {

@@ -554,29 +554,49 @@
     "region": "Veneto",
     "country": "Italy",
     "official_website": "https://www.unive.it/",
-    "international_admissions_url": "https://www.unive.it/web/en/21001/admission-and-enrolment-with-an-international-qualification",
-    "application_portal_url": null,
-    "contact_email": null,
-    "contact_url": "https://www.unive.it/web/en/21001/admission-and-enrolment-with-an-international-qualification",
+    "international_admissions_url": "https://www.unive.it/pag/12520",
+    "application_portal_url": "https://apply.unive.it/",
+    "contact_email": "welcome@unive.it",
+    "contact_url": "https://www.unive.it/web/en/21179/welcome",
     "cycle_status": "CONFIRMED",
     "research_stage": "PARTIALLY_RESEARCHED",
-    "research_summary": "Official international qualification page states that 2027/28 applications open in December 2026; exact windows and program calls are pending.",
+    "research_summary": "The official international qualification page says 2027/28 applications open in December 2026; exact periods and program calls remain pending. The 2026/27 catalogue was checked against all Ca' Foscari tracker leads: Hospitality Innovation and e-Tourism is a BSc, and no separate Digital Management MSc is listed. Buddhism and Asian Religions is separately confirmed for 2027/28. The university has announced 2027/28 Honours scholarships, while tuition and regional-aid details remain prior-cycle only.",
     "coverage": {
       "official_website_visited": "complete",
       "international_admissions_page_examined": "partial",
-      "bachelors_admissions_examined": "not_started",
-      "masters_admissions_examined": "not_started",
-      "english_programs_examined": "not_started",
-      "fees_examined": "not_started",
-      "scholarships_examined": "not_started",
+      "bachelors_admissions_examined": "partial",
+      "masters_admissions_examined": "partial",
+      "english_programs_examined": "partial",
+      "fees_examined": "partial",
+      "scholarships_examined": "partial",
       "non_eu_requirements_examined": "partial",
       "application_deadlines_examined": "partial",
-      "program_level_review": "not_started"
+      "program_level_review": "partial"
     },
     "source_ids": [
       "SRC-CA-FOSCARI-2027",
       "SRC-CA-FOSCARI-BUDDHISM-2027",
-      "SRC-CA-FOSCARI-SCHOLARSHIPS-2027"
+      "SRC-CA-FOSCARI-SCHOLARSHIPS-2027",
+      "SRC-CA-FOSCARI-ENGLISH-2026",
+      "SRC-CA-FOSCARI-CATALOGUE-2026",
+      "SRC-CA-FOSCARI-TUITION-2026",
+      "SRC-CA-FOSCARI-REGIONAL-AID-2026",
+      "SRC-CA-FOSCARI-CONTACT-2026",
+      "SRC-CA-FOSCARI-DM-BSC-2026",
+      "SRC-CA-FOSCARI-EB-BSC-2026",
+      "SRC-CA-FOSCARI-DABS-MSC-2026",
+      "SRC-CA-FOSCARI-EFS-MSC-2026",
+      "SRC-CA-FOSCARI-IM-MSC-2026",
+      "SRC-CA-FOSCARI-CIR-MSC-2026",
+      "SRC-CA-FOSCARI-CS-BSC-2026",
+      "SRC-CA-FOSCARI-CSIT-MSC-2026",
+      "SRC-CA-FOSCARI-HOSP-BSC-2026",
+      "SRC-CA-FOSCARI-PIES-BSC-2026",
+      "SRC-CA-FOSCARI-DM-ADMISSION-2026",
+      "SRC-CA-FOSCARI-EB-ADMISSION-2026",
+      "SRC-CA-FOSCARI-DABS-ADMISSION-2026",
+      "SRC-CA-FOSCARI-CS-BSC-ADMISSION-2026",
+      "SRC-CA-FOSCARI-CSIT-ADMISSION-2026"
     ],
     "last_checked": "2026-11-09",
     "cycle_facts": {
@@ -586,7 +606,15 @@
         "source_ids": [
           "SRC-CA-FOSCARI-2027"
         ],
-        "notes": "Exact 2027/28 application periods were not yet listed."
+        "notes": "Official international admissions information says applications for 2027/28 begin in December 2026."
+      },
+      "application_windows": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-2027"
+        ],
+        "notes": "Exact dates and applicant-category windows were not yet listed; the general page directs candidates to programme-specific selection notices."
       },
       "application_deadlines": {
         "value": null,
@@ -594,10 +622,53 @@
         "source_ids": [
           "SRC-CA-FOSCARI-2027"
         ],
-        "notes": null
+        "notes": "The official page says 2027/28 admission begins in December 2026 and programme notices will be published later; no exact deadlines were listed on 9 November 2026."
+      },
+      "application_fee": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CA-FOSCARI-2027"
+        ],
+        "notes": "The general international qualification route does not specify an application fee; verify the fee, if any, in the programme-specific 2027/28 selection notice."
+      },
+      "admissions_contact": {
+        "value": {
+          "degree_seekers": "welcome@unive.it",
+          "international_recruitment": "prospective.students@unive.it",
+          "phone": "+39 041 234 7575"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-CONTACT-2026",
+          "SRC-CA-FOSCARI-SCHOLARSHIPS-2027"
+        ],
+        "notes": "welcome@unive.it handles degree-seeker qualification evaluation; prospective.students@unive.it and the listed call-centre number are for international recruitment questions."
+      },
+      "international_qualification_process": {
+        "value": {
+          "portal": "https://apply.unive.it/",
+          "process": "Preliminary online evaluation for European and non-European applicants with an international qualification; eligibility letter does not guarantee final enrolment",
+          "visa_applicants": "Non-European applicants requiring a visa follow the annual ministry process and must check the separate visa/pre-enrolment guidance"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-2027",
+          "SRC-CA-FOSCARI-CONTACT-2026"
+        ],
+        "notes": "The university states that the 2027/28 international-qualification route opens in December; detailed programme calls remain pending."
+      },
+      "non_eu_requirements_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CA-FOSCARI-2027"
+        ],
+        "notes": "The university says non-European applicants requiring a visa follow ministry rules published annually. The detailed 2027/28 course calls and visa/pre-enrolment instructions were not yet available on the reviewed page."
       },
       "honours_scholarships": {
         "value": {
+          "academic_year": "2027/28",
           "bachelor_awards": 8,
           "bachelor_eur_per_year": 10000,
           "bachelor_years": 3,
@@ -610,13 +681,89 @@
             "motivational video",
             "reference letter(s)",
             "language certification"
+          ],
+          "eligible_program_languages": [
+            "Italian",
+            "English"
           ]
         },
         "status": "CONFIRMED",
         "source_ids": [
           "SRC-CA-FOSCARI-SCHOLARSHIPS-2027"
         ],
-        "notes": "The complete 2027/28 call, including deadlines and detailed conditions, was expected in late fall 2026."
+        "notes": "The 2027/28 page publishes award counts and headline criteria for international students in bachelor's/master's programmes. Final eligibility, exclusions, renewal conditions and deadlines are governed by the forthcoming call."
+      },
+      "honours_scholarship_call": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-SCHOLARSHIPS-2027"
+        ],
+        "notes": "The page says the complete call with application instructions and deadlines will be published in late fall; it was not linked on 9 November 2026."
+      },
+      "previous_cycle_tuition": {
+        "value": {
+          "academic_year": "2026/27",
+          "annual_fees_eur": {
+            "Italy_EU": {
+              "BSc": 2352,
+              "MSc": 2599
+            },
+            "non_EU_OECD": {
+              "BSc": 2100,
+              "MSc": 2300
+            },
+            "developing_country_group": {
+              "BSc": 700,
+              "MSc": 700
+            },
+            "other_countries": {
+              "BSc": 1300,
+              "MSc": 1300
+            }
+          },
+          "programme_exceptions_eur": {
+            "Digital Management": 8811,
+            "Hospitality Innovation and e-Tourism": 7025
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-TUITION-2026"
+        ],
+        "notes": "These are prior-cycle international-guide amounts, not 2027/28 fees; tuition reductions and separately charged regional tax/stamp duty may apply."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CA-FOSCARI-TUITION-2026"
+        ],
+        "notes": "The official international guide reviewed gives 2026/27 entrant fees only. No 2027/28 fee schedule was identified; prior-year amounts are not carried forward."
+      },
+      "previous_cycle_regional_scholarships": {
+        "value": {
+          "academic_year": "2026/27",
+          "administrator": "Ca' Foscari for Regione Veneto; services via ESU Venezia",
+          "benefits": "Cash plus possible accommodation and meals",
+          "ISEE_below_eur": 26306.25,
+          "ISPE_below_eur": 43125.94,
+          "general_application_deadline": "2026-09-30 12:30 Italy time",
+          "ISEE_equivalent_deadline_first_year_MSc": "2026-12-18"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-REGIONAL-AID-2026"
+        ],
+        "notes": "Prior-cycle regional funding only. The later ISEE-equivalent date for first-year Master's students is not an application deadline. The 2027/28 regional call was not identified."
+      },
+      "regional_scholarships_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CA-FOSCARI-REGIONAL-AID-2026"
+        ],
+        "notes": "The current regional scholarship page is for 2026/27; no 2027/28 call, thresholds or amounts are confirmed."
       }
     }
   },

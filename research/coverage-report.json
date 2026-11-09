@@ -6,9 +6,10 @@
   "universities_without_initial_official_source_outcome": 0,
   "universities_fully_verified": 0,
   "universities_partially_researched": 34,
-  "universities_with_program_level_research": 13,
+  "universities_with_program_level_research": 14,
   "university_ids_with_program_level_research": [
     "bologna",
+    "ca-foscari",
     "catania",
     "firenze",
     "messina",
@@ -22,9 +23,8 @@
     "tor-vergata",
     "verona"
   ],
-  "universities_program_level_review_not_started": 21,
+  "universities_program_level_review_not_started": 20,
   "university_ids_with_program_level_review_not_started": [
-    "ca-foscari",
     "camerino",
     "ferrara",
     "genova",
@@ -54,15 +54,25 @@
   "programs_fully_verified": 23,
   "programs_requiring_verification": 164,
   "programs_not_offered_2027_2028": 2,
-  "programs_supported_only_by_previous_cycle": 7,
+  "programs_supported_only_by_previous_cycle": 17,
   "program_ids_supported_only_by_previous_cycle": [
     "discovered-023",
     "discovered-024",
     "legacy-079",
     "legacy-081",
+    "legacy-083",
     "legacy-084",
     "legacy-088",
-    "legacy-089"
+    "legacy-089",
+    "legacy-099",
+    "legacy-100",
+    "legacy-101",
+    "legacy-102",
+    "legacy-103",
+    "legacy-104",
+    "legacy-105",
+    "legacy-106",
+    "legacy-107"
   ],
   "bsc_programs_verified": 1,
   "msc_programs_verified": 22,
@@ -99,9 +109,10 @@
     "politecnico-torino",
     "siena"
   ],
-  "universities_with_unavailable_or_conflicting_information": 8,
+  "universities_with_unavailable_or_conflicting_information": 9,
   "university_ids_with_unavailable_or_conflicting_information": [
     "bologna",
+    "ca-foscari",
     "padova",
     "perugia",
     "pisa",
@@ -115,8 +126,8 @@
     "politecnico-milano",
     "trento"
   ],
-  "source_records": 118,
-  "official_source_supported_fields": 285,
+  "source_records": 138,
+  "official_source_supported_fields": 320,
   "verification_statuses": [
     "CONFIRMED",
     "NOT_YET_PUBLISHED",

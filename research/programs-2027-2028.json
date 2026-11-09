@@ -4042,14 +4042,20 @@
     "level": {
       "value": "MSc",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-CA-FOSCARI-CATALOGUE-2026",
+        "SRC-CA-FOSCARI-DM-BSC-2026"
+      ],
+      "notes": "The previous tracker listed a Digital Management MSc, but the 2026/27 official English list places Digital Management only among bachelor's programmes and its official profile is a BSc (L-18 R). No separate MSc with this name was found; 2027/28 status remains unconfirmed."
     },
     "language": {
       "value": "English",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-CA-FOSCARI-ENGLISH-2026",
+        "SRC-CA-FOSCARI-DM-BSC-2026"
+      ],
+      "notes": "English is verified for the 2026/27 Digital Management BSc, not for a separate MSc. The 2027/28 MSc lead remains unresolved."
     },
     "field": {
       "value": "Economics",
@@ -4060,13 +4066,70 @@
     "availability_2027_2028": {
       "value": null,
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
+      "source_ids": [
+        "SRC-CA-FOSCARI-2027",
+        "SRC-CA-FOSCARI-ENGLISH-2026",
+        "SRC-CA-FOSCARI-CATALOGUE-2026",
+        "SRC-CA-FOSCARI-DM-BSC-2026"
+      ],
+      "notes": "No separate Digital Management MSc appears in the latest 2026/27 official catalogue; its 2027/28 existence is unconfirmed. The official application route opens in December 2026, so this is not marked discontinued."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
-    "facts": {},
-    "source_ids": [],
+    "facts": {
+      "previous_cycle_course_listing": {
+        "value": {
+          "academic_year": "2026/27",
+          "tracker_lead": "Digital Management MSc",
+          "official_catalogue_finding": "No separate MSc under this name listed; the course named Digital Management is a BSc, L-18 R, English, three years, 180 credits, Roncade, limited admission"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-ENGLISH-2026",
+          "SRC-CA-FOSCARI-CATALOGUE-2026",
+          "SRC-CA-FOSCARI-DM-BSC-2026"
+        ],
+        "notes": "This records a verified mismatch in the legacy tracker. It does not prove that a new course could not appear in 2027/28."
+      },
+      "application_windows": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-2027"
+        ],
+        "notes": "The 2027/28 international admissions route opens in December; no course-specific MSc dates or notice were available on 9 November."
+      },
+      "program_specific_requirements_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CA-FOSCARI-2027"
+        ],
+        "notes": "No separate MSc course notice was found for 2026/27 or 2027/28; do not reuse the BSc requirements for this lead."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CA-FOSCARI-TUITION-2026"
+        ],
+        "notes": "No 2027/28 MSc fee or separate Digital Management MSc fee was verified."
+      },
+      "acceptance_rate": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-CA-FOSCARI-CATALOGUE-2026"
+        ],
+        "notes": "No separate Digital Management MSc course, applicant count or acceptance statistic was found in the reviewed official 2026/27 catalogue."
+      }
+    },
+    "source_ids": [
+      "SRC-CA-FOSCARI-ENGLISH-2026",
+      "SRC-CA-FOSCARI-CATALOGUE-2026",
+      "SRC-CA-FOSCARI-DM-BSC-2026",
+      "SRC-CA-FOSCARI-2027"
+    ],
     "previous_tracker_tags": {
       "level": "MSc",
       "language": "English",
@@ -4083,40 +4146,165 @@
     "city": "Venice",
     "program": "Hospitality Innovation and e-Tourism",
     "level": {
-      "value": "MSc",
+      "value": "BSc",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-CA-FOSCARI-CATALOGUE-2026",
+        "SRC-CA-FOSCARI-HOSP-BSC-2026"
+      ],
+      "notes": "The previous tracker labelled this lead MSc, but the latest official course page and 2026/27 catalogue identify the course as a BSc (L-15 R). Its 2027/28 first-year level still requires confirmation."
     },
     "language": {
       "value": "English",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-CA-FOSCARI-ENGLISH-2026",
+        "SRC-CA-FOSCARI-HOSP-BSC-2026"
+      ],
+      "notes": "The latest official English-program list/course profile supports the 2026/27 language information only; verify the 2027/28 curriculum and teaching language when the course notice opens."
     },
     "field": {
-      "value": "Economics",
+      "value": "Tourism",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-CA-FOSCARI-HOSP-BSC-2026"
+      ],
+      "notes": "Field/category is based on the latest official programme profile and is retained as prior-cycle classification pending the 2027/28 programme notice."
     },
     "availability_2027_2028": {
       "value": null,
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
+      "source_ids": [
+        "SRC-CA-FOSCARI-2027",
+        "SRC-CA-FOSCARI-ENGLISH-2026",
+        "SRC-CA-FOSCARI-HOSP-BSC-2026"
+      ],
+      "notes": "The official international page says 2027/28 admissions begin in December 2026, but no course-specific 2027/28 first-year call was identified on 9 November. The latest English course list is 2026/27; no cancellation is inferred."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
-    "facts": {},
-    "source_ids": [],
+    "facts": {
+      "previous_cycle_course_listing": {
+        "value": {
+          "academic_year": "2026/27",
+          "official_name": "Hospitality Innovation and e-Tourism",
+          "degree_level": "BSc",
+          "degree_class": "L-15 R",
+          "duration_years": 3,
+          "credits": 180,
+          "location": "Venice/Mestre",
+          "language": "English",
+          "access": "Limited admission"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-CATALOGUE-2026",
+          "SRC-CA-FOSCARI-HOSP-BSC-2026"
+        ],
+        "notes": "Latest official catalogue/profile evidence only; it does not establish the 2027/28 first-year offer."
+      },
+      "application_windows": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-2027"
+        ],
+        "notes": "The general page says 2027/28 applications start in December 2026; exact programme periods and selection notices were not listed as of 9 November."
+      },
+      "application_fee": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CA-FOSCARI-2027"
+        ],
+        "notes": "No 2027/28 programme application or selection fee was confirmed in the reviewed material; do not treat the TOLC provider fee, where applicable, as a university application fee."
+      },
+      "program_specific_requirements_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CA-FOSCARI-2027",
+          "SRC-CA-FOSCARI-HOSP-BSC-2026"
+        ],
+        "notes": "The programme-specific 2027/28 call was not available on 9 November 2026; prior-cycle requirements, when recorded, are kept separately."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CA-FOSCARI-TUITION-2026"
+        ],
+        "notes": "The latest fee guide reviewed is for 2026/27 entry; no 2027/28 amount is carried forward."
+      },
+      "previous_cycle_tuition": {
+        "value": {
+          "academic_year": "2026/27",
+          "annual_fees_eur": {
+            "Italy_EU": {
+              "BSc": 2352,
+              "MSc": 2599
+            },
+            "non_EU_OECD": {
+              "BSc": 2100,
+              "MSc": 2300
+            },
+            "developing_country_group": {
+              "BSc": 700,
+              "MSc": 700
+            },
+            "other_countries": {
+              "BSc": 1300,
+              "MSc": 1300
+            }
+          },
+          "programme_specific_exception_eur": 7025
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-TUITION-2026"
+        ],
+        "notes": "Prior-cycle international guide only; amounts depend on student country group, may be affected by reductions and are not 2027/28 tuition."
+      },
+      "acceptance_rate": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-CA-FOSCARI-CATALOGUE-2026",
+          "SRC-CA-FOSCARI-HOSP-BSC-2026"
+        ],
+        "notes": "The reviewed official course/listing pages do not publish applicant and admitted-student counts or an acceptance rate; access category alone is not used to estimate selectivity."
+      },
+      "previous_cycle_program_requirements": {
+        "value": {
+          "academic_year": "2026/27",
+          "access": "See the annual selection notice for this programme; the current profile identifies the access category but does not state all criteria."
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-HOSP-BSC-2026"
+        ],
+        "notes": "Prior-cycle access category only; check the programme call for detailed admission conditions."
+      }
+    },
+    "source_ids": [
+      "SRC-CA-FOSCARI-ENGLISH-2026",
+      "SRC-CA-FOSCARI-CATALOGUE-2026",
+      "SRC-CA-FOSCARI-HOSP-BSC-2026",
+      "SRC-CA-FOSCARI-2027"
+    ],
     "previous_tracker_tags": {
       "level": "MSc",
       "language": "English",
       "field": "Economics",
-      "label": "Previous tracker classification — not reverified for 2027/28"
+      "label": "Previous tracker classification corrected against the official 2026/27 catalogue"
     },
-    "previous_cycle_tags": null,
+    "previous_cycle_tags": {
+      "level": "BSc",
+      "language": "English",
+      "field": "Tourism",
+      "cycle": "2026-2027",
+      "label": "Latest official course profile is prior-cycle evidence only"
+    },
     "last_checked": "2026-11-09"
   },
   {
@@ -5352,38 +5540,172 @@
     "level": {
       "value": "MSc",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-CA-FOSCARI-CATALOGUE-2026",
+        "SRC-CA-FOSCARI-CSIT-MSC-2026"
+      ],
+      "notes": "The official 2026/27 programme page lists MSc (LM-18); the 2027/28 new-entry level has not yet been confirmed."
     },
     "language": {
       "value": "English",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-CA-FOSCARI-ENGLISH-2026",
+        "SRC-CA-FOSCARI-CSIT-MSC-2026"
+      ],
+      "notes": "The latest official English-program list/course profile supports the 2026/27 language information only; verify the 2027/28 curriculum and teaching language when the course notice opens."
     },
     "field": {
       "value": "Computer Science",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-CA-FOSCARI-CSIT-MSC-2026"
+      ],
+      "notes": "Field/category is based on the latest official programme profile and is retained as prior-cycle classification pending the 2027/28 programme notice."
     },
     "availability_2027_2028": {
       "value": null,
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
+      "source_ids": [
+        "SRC-CA-FOSCARI-2027",
+        "SRC-CA-FOSCARI-ENGLISH-2026",
+        "SRC-CA-FOSCARI-CSIT-MSC-2026"
+      ],
+      "notes": "The official international page says 2027/28 admissions begin in December 2026, but no course-specific 2027/28 first-year call was identified on 9 November. The latest English course list is 2026/27; no cancellation is inferred."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
-    "facts": {},
-    "source_ids": [],
+    "facts": {
+      "previous_cycle_course_listing": {
+        "value": {
+          "academic_year": "2026/27",
+          "official_name": "Computer Science and Information Technology",
+          "degree_level": "MSc",
+          "degree_class": "LM-18",
+          "duration_years": 2,
+          "credits": 120,
+          "location": "Mestre",
+          "language": "English",
+          "access": "Open admission"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-CATALOGUE-2026",
+          "SRC-CA-FOSCARI-CSIT-MSC-2026"
+        ],
+        "notes": "Latest official catalogue/profile evidence only; it does not establish the 2027/28 first-year offer."
+      },
+      "application_windows": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-2027"
+        ],
+        "notes": "The general page says 2027/28 applications start in December 2026; exact programme periods and selection notices were not listed as of 9 November."
+      },
+      "application_fee": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CA-FOSCARI-2027",
+          "SRC-CA-FOSCARI-CSIT-ADMISSION-2026"
+        ],
+        "notes": "No 2027/28 programme application or selection fee was confirmed in the reviewed material; do not treat the TOLC provider fee, where applicable, as a university application fee."
+      },
+      "program_specific_requirements_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CA-FOSCARI-2027",
+          "SRC-CA-FOSCARI-CSIT-MSC-2026"
+        ],
+        "notes": "The programme-specific 2027/28 call was not available on 9 November 2026; prior-cycle requirements, when recorded, are kept separately."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CA-FOSCARI-TUITION-2026"
+        ],
+        "notes": "The latest fee guide reviewed is for 2026/27 entry; no 2027/28 amount is carried forward."
+      },
+      "previous_cycle_tuition": {
+        "value": {
+          "academic_year": "2026/27",
+          "annual_fees_eur": {
+            "Italy_EU": {
+              "BSc": 2352,
+              "MSc": 2599
+            },
+            "non_EU_OECD": {
+              "BSc": 2100,
+              "MSc": 2300
+            },
+            "developing_country_group": {
+              "BSc": 700,
+              "MSc": 700
+            },
+            "other_countries": {
+              "BSc": 1300,
+              "MSc": 1300
+            }
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-TUITION-2026"
+        ],
+        "notes": "Prior-cycle international guide only; amounts depend on student country group, may be affected by reductions and are not 2027/28 tuition."
+      },
+      "acceptance_rate": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-CA-FOSCARI-CATALOGUE-2026",
+          "SRC-CA-FOSCARI-CSIT-MSC-2026"
+        ],
+        "notes": "The reviewed official course/listing pages do not publish applicant and admitted-student counts or an acceptance rate; access category alone is not used to estimate selectivity."
+      },
+      "previous_cycle_program_requirements": {
+        "value": {
+          "academic_year": "2026/27",
+          "qualification": "At least a three-year bachelor's degree or equivalent",
+          "curricular_credits": {
+            "minimum_total_cfu": 48,
+            "computer_science_minimum_cfu": 24,
+            "mathematics_physics_statistics_minimum_cfu": 12,
+            "remaining_minimum_cfu": 12
+          },
+          "personal_preparation": "Programming, algorithms, databases, systems, discrete/continuous mathematics and probability; assessed by CV/transcript and possibly interview; stated exemption for L-8/L-31 or equivalent with final grade >=85/110",
+          "english": "B2 mandatory by enrolment"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-CSIT-ADMISSION-2026"
+        ],
+        "notes": "These course-specific requirements and tests are stated on the current 2026/27 admissions page and are not confirmed for 2027/28."
+      }
+    },
+    "source_ids": [
+      "SRC-CA-FOSCARI-ENGLISH-2026",
+      "SRC-CA-FOSCARI-CATALOGUE-2026",
+      "SRC-CA-FOSCARI-CSIT-MSC-2026",
+      "SRC-CA-FOSCARI-2027",
+      "SRC-CA-FOSCARI-CSIT-ADMISSION-2026"
+    ],
     "previous_tracker_tags": {
       "level": "MSc",
       "language": "English",
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
-    "previous_cycle_tags": null,
+    "previous_cycle_tags": {
+      "level": "MSc",
+      "language": "English",
+      "field": "Computer Science",
+      "cycle": "2026-2027",
+      "label": "Latest official course profile is prior-cycle evidence only"
+    },
     "last_checked": "2026-11-09"
   },
   {
@@ -5395,38 +5717,171 @@
     "level": {
       "value": "MSc",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-CA-FOSCARI-CATALOGUE-2026",
+        "SRC-CA-FOSCARI-DABS-MSC-2026"
+      ],
+      "notes": "The official 2026/27 programme page lists MSc (LM-91 R); the 2027/28 new-entry level has not yet been confirmed."
     },
     "language": {
       "value": "English",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-CA-FOSCARI-ENGLISH-2026",
+        "SRC-CA-FOSCARI-DABS-MSC-2026"
+      ],
+      "notes": "The latest official English-program list/course profile supports the 2026/27 language information only; verify the 2027/28 curriculum and teaching language when the course notice opens."
     },
     "field": {
       "value": "Data Science",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-CA-FOSCARI-DABS-MSC-2026"
+      ],
+      "notes": "Field/category is based on the latest official programme profile and is retained as prior-cycle classification pending the 2027/28 programme notice."
     },
     "availability_2027_2028": {
       "value": null,
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
+      "source_ids": [
+        "SRC-CA-FOSCARI-2027",
+        "SRC-CA-FOSCARI-ENGLISH-2026",
+        "SRC-CA-FOSCARI-DABS-MSC-2026"
+      ],
+      "notes": "The official international page says 2027/28 admissions begin in December 2026, but no course-specific 2027/28 first-year call was identified on 9 November. The latest English course list is 2026/27; no cancellation is inferred."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
-    "facts": {},
-    "source_ids": [],
+    "facts": {
+      "previous_cycle_course_listing": {
+        "value": {
+          "academic_year": "2026/27",
+          "official_name": "Data Analytics for Business and Society",
+          "degree_level": "MSc",
+          "degree_class": "LM-91 R",
+          "duration_years": 2,
+          "credits": 120,
+          "location": "Venice",
+          "language": "English",
+          "access": "Open admission"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-CATALOGUE-2026",
+          "SRC-CA-FOSCARI-DABS-MSC-2026"
+        ],
+        "notes": "Latest official catalogue/profile evidence only; it does not establish the 2027/28 first-year offer."
+      },
+      "application_windows": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-2027"
+        ],
+        "notes": "The general page says 2027/28 applications start in December 2026; exact programme periods and selection notices were not listed as of 9 November."
+      },
+      "application_fee": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CA-FOSCARI-2027",
+          "SRC-CA-FOSCARI-DABS-ADMISSION-2026"
+        ],
+        "notes": "No 2027/28 programme application or selection fee was confirmed in the reviewed material; do not treat the TOLC provider fee, where applicable, as a university application fee."
+      },
+      "program_specific_requirements_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CA-FOSCARI-2027",
+          "SRC-CA-FOSCARI-DABS-MSC-2026"
+        ],
+        "notes": "The programme-specific 2027/28 call was not available on 9 November 2026; prior-cycle requirements, when recorded, are kept separately."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CA-FOSCARI-TUITION-2026"
+        ],
+        "notes": "The latest fee guide reviewed is for 2026/27 entry; no 2027/28 amount is carried forward."
+      },
+      "previous_cycle_tuition": {
+        "value": {
+          "academic_year": "2026/27",
+          "annual_fees_eur": {
+            "Italy_EU": {
+              "BSc": 2352,
+              "MSc": 2599
+            },
+            "non_EU_OECD": {
+              "BSc": 2100,
+              "MSc": 2300
+            },
+            "developing_country_group": {
+              "BSc": 700,
+              "MSc": 700
+            },
+            "other_countries": {
+              "BSc": 1300,
+              "MSc": 1300
+            }
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-TUITION-2026"
+        ],
+        "notes": "Prior-cycle international guide only; amounts depend on student country group, may be affected by reductions and are not 2027/28 tuition."
+      },
+      "acceptance_rate": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-CA-FOSCARI-CATALOGUE-2026",
+          "SRC-CA-FOSCARI-DABS-MSC-2026"
+        ],
+        "notes": "The reviewed official course/listing pages do not publish applicant and admitted-student counts or an acceptance rate; access category alone is not used to estimate selectivity."
+      },
+      "previous_cycle_program_requirements": {
+        "value": {
+          "academic_year": "2026/27",
+          "qualification": "At least a three-year bachelor's degree or equivalent",
+          "curricular_credits": {
+            "minimum_total_cfu": 60,
+            "business_and_economics_minimum_cfu": 12,
+            "statistical_mathematics_minimum_cfu": 12
+          },
+          "personal_preparation": "CV and transcript assessed; interview may be required; exemption stated for selected bachelor's classes with final grade >=95/110",
+          "english": "B2 mandatory by enrolment"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-DABS-ADMISSION-2026"
+        ],
+        "notes": "These course-specific requirements and tests are stated on the current 2026/27 admissions page and are not confirmed for 2027/28."
+      }
+    },
+    "source_ids": [
+      "SRC-CA-FOSCARI-ENGLISH-2026",
+      "SRC-CA-FOSCARI-CATALOGUE-2026",
+      "SRC-CA-FOSCARI-DABS-MSC-2026",
+      "SRC-CA-FOSCARI-2027",
+      "SRC-CA-FOSCARI-DABS-ADMISSION-2026"
+    ],
     "previous_tracker_tags": {
       "level": "MSc",
       "language": "English",
       "field": "Data Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
-    "previous_cycle_tags": null,
+    "previous_cycle_tags": {
+      "level": "MSc",
+      "language": "English",
+      "field": "Data Science",
+      "cycle": "2026-2027",
+      "label": "Latest official course profile is prior-cycle evidence only"
+    },
     "last_checked": "2026-11-09"
   },
   {
@@ -5438,38 +5893,162 @@
     "level": {
       "value": "MSc",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-CA-FOSCARI-CATALOGUE-2026",
+        "SRC-CA-FOSCARI-EFS-MSC-2026"
+      ],
+      "notes": "The official 2026/27 programme page lists MSc (LM-56 R); the 2027/28 new-entry level has not yet been confirmed."
     },
     "language": {
       "value": "English",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-CA-FOSCARI-ENGLISH-2026",
+        "SRC-CA-FOSCARI-EFS-MSC-2026"
+      ],
+      "notes": "The latest official English-program list/course profile supports the 2026/27 language information only; verify the 2027/28 curriculum and teaching language when the course notice opens."
     },
     "field": {
       "value": "Economics",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-CA-FOSCARI-EFS-MSC-2026"
+      ],
+      "notes": "Field/category is based on the latest official programme profile and is retained as prior-cycle classification pending the 2027/28 programme notice."
     },
     "availability_2027_2028": {
       "value": null,
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
+      "source_ids": [
+        "SRC-CA-FOSCARI-2027",
+        "SRC-CA-FOSCARI-ENGLISH-2026",
+        "SRC-CA-FOSCARI-EFS-MSC-2026"
+      ],
+      "notes": "The official international page says 2027/28 admissions begin in December 2026, but no course-specific 2027/28 first-year call was identified on 9 November. The latest English course list is 2026/27; no cancellation is inferred."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
-    "facts": {},
-    "source_ids": [],
+    "facts": {
+      "previous_cycle_course_listing": {
+        "value": {
+          "academic_year": "2026/27",
+          "official_name": "Economics, Finance and Sustainability",
+          "degree_level": "MSc",
+          "degree_class": "LM-56 R",
+          "duration_years": 2,
+          "credits": 120,
+          "location": "Venice",
+          "language": "English",
+          "access": "Open admission"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-CATALOGUE-2026",
+          "SRC-CA-FOSCARI-EFS-MSC-2026"
+        ],
+        "notes": "Latest official catalogue/profile evidence only; it does not establish the 2027/28 first-year offer."
+      },
+      "application_windows": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-2027"
+        ],
+        "notes": "The general page says 2027/28 applications start in December 2026; exact programme periods and selection notices were not listed as of 9 November."
+      },
+      "application_fee": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CA-FOSCARI-2027"
+        ],
+        "notes": "No 2027/28 programme application or selection fee was confirmed in the reviewed material; do not treat the TOLC provider fee, where applicable, as a university application fee."
+      },
+      "program_specific_requirements_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CA-FOSCARI-2027",
+          "SRC-CA-FOSCARI-EFS-MSC-2026"
+        ],
+        "notes": "The programme-specific 2027/28 call was not available on 9 November 2026; prior-cycle requirements, when recorded, are kept separately."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CA-FOSCARI-TUITION-2026"
+        ],
+        "notes": "The latest fee guide reviewed is for 2026/27 entry; no 2027/28 amount is carried forward."
+      },
+      "previous_cycle_tuition": {
+        "value": {
+          "academic_year": "2026/27",
+          "annual_fees_eur": {
+            "Italy_EU": {
+              "BSc": 2352,
+              "MSc": 2599
+            },
+            "non_EU_OECD": {
+              "BSc": 2100,
+              "MSc": 2300
+            },
+            "developing_country_group": {
+              "BSc": 700,
+              "MSc": 700
+            },
+            "other_countries": {
+              "BSc": 1300,
+              "MSc": 1300
+            }
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-TUITION-2026"
+        ],
+        "notes": "Prior-cycle international guide only; amounts depend on student country group, may be affected by reductions and are not 2027/28 tuition."
+      },
+      "acceptance_rate": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-CA-FOSCARI-CATALOGUE-2026",
+          "SRC-CA-FOSCARI-EFS-MSC-2026"
+        ],
+        "notes": "The reviewed official course/listing pages do not publish applicant and admitted-student counts or an acceptance rate; access category alone is not used to estimate selectivity."
+      },
+      "previous_cycle_program_requirements": {
+        "value": {
+          "academic_year": "2026/27",
+          "access": "See the annual selection notice for this programme; the current profile identifies the access category but does not state all criteria."
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-EFS-MSC-2026"
+        ],
+        "notes": "Prior-cycle access category only; check the programme call for detailed admission conditions."
+      }
+    },
+    "source_ids": [
+      "SRC-CA-FOSCARI-ENGLISH-2026",
+      "SRC-CA-FOSCARI-CATALOGUE-2026",
+      "SRC-CA-FOSCARI-EFS-MSC-2026",
+      "SRC-CA-FOSCARI-2027"
+    ],
     "previous_tracker_tags": {
       "level": "MSc",
       "language": "English",
       "field": "Economics",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
-    "previous_cycle_tags": null,
+    "previous_cycle_tags": {
+      "level": "MSc",
+      "language": "English",
+      "field": "Economics",
+      "cycle": "2026-2027",
+      "label": "Latest official course profile is prior-cycle evidence only"
+    },
     "last_checked": "2026-11-09"
   },
   {
@@ -5481,38 +6060,162 @@
     "level": {
       "value": "MSc",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-CA-FOSCARI-CATALOGUE-2026",
+        "SRC-CA-FOSCARI-IM-MSC-2026"
+      ],
+      "notes": "The official 2026/27 programme page lists MSc (LM-77 R); the 2027/28 new-entry level has not yet been confirmed."
     },
     "language": {
       "value": "English",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-CA-FOSCARI-ENGLISH-2026",
+        "SRC-CA-FOSCARI-IM-MSC-2026"
+      ],
+      "notes": "The latest official English-program list/course profile supports the 2026/27 language information only; verify the 2027/28 curriculum and teaching language when the course notice opens."
     },
     "field": {
-      "value": "Economics",
+      "value": "Management",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-CA-FOSCARI-IM-MSC-2026"
+      ],
+      "notes": "Field/category is based on the latest official programme profile and is retained as prior-cycle classification pending the 2027/28 programme notice."
     },
     "availability_2027_2028": {
       "value": null,
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
+      "source_ids": [
+        "SRC-CA-FOSCARI-2027",
+        "SRC-CA-FOSCARI-ENGLISH-2026",
+        "SRC-CA-FOSCARI-IM-MSC-2026"
+      ],
+      "notes": "The official international page says 2027/28 admissions begin in December 2026, but no course-specific 2027/28 first-year call was identified on 9 November. The latest English course list is 2026/27; no cancellation is inferred."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
-    "facts": {},
-    "source_ids": [],
+    "facts": {
+      "previous_cycle_course_listing": {
+        "value": {
+          "academic_year": "2026/27",
+          "official_name": "International Management",
+          "degree_level": "MSc",
+          "degree_class": "LM-77 R",
+          "duration_years": 2,
+          "credits": 120,
+          "location": "Venice",
+          "language": "English",
+          "access": "Limited admission"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-CATALOGUE-2026",
+          "SRC-CA-FOSCARI-IM-MSC-2026"
+        ],
+        "notes": "Latest official catalogue/profile evidence only; it does not establish the 2027/28 first-year offer."
+      },
+      "application_windows": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-2027"
+        ],
+        "notes": "The general page says 2027/28 applications start in December 2026; exact programme periods and selection notices were not listed as of 9 November."
+      },
+      "application_fee": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CA-FOSCARI-2027"
+        ],
+        "notes": "No 2027/28 programme application or selection fee was confirmed in the reviewed material; do not treat the TOLC provider fee, where applicable, as a university application fee."
+      },
+      "program_specific_requirements_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CA-FOSCARI-2027",
+          "SRC-CA-FOSCARI-IM-MSC-2026"
+        ],
+        "notes": "The programme-specific 2027/28 call was not available on 9 November 2026; prior-cycle requirements, when recorded, are kept separately."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CA-FOSCARI-TUITION-2026"
+        ],
+        "notes": "The latest fee guide reviewed is for 2026/27 entry; no 2027/28 amount is carried forward."
+      },
+      "previous_cycle_tuition": {
+        "value": {
+          "academic_year": "2026/27",
+          "annual_fees_eur": {
+            "Italy_EU": {
+              "BSc": 2352,
+              "MSc": 2599
+            },
+            "non_EU_OECD": {
+              "BSc": 2100,
+              "MSc": 2300
+            },
+            "developing_country_group": {
+              "BSc": 700,
+              "MSc": 700
+            },
+            "other_countries": {
+              "BSc": 1300,
+              "MSc": 1300
+            }
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-TUITION-2026"
+        ],
+        "notes": "Prior-cycle international guide only; amounts depend on student country group, may be affected by reductions and are not 2027/28 tuition."
+      },
+      "acceptance_rate": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-CA-FOSCARI-CATALOGUE-2026",
+          "SRC-CA-FOSCARI-IM-MSC-2026"
+        ],
+        "notes": "The reviewed official course/listing pages do not publish applicant and admitted-student counts or an acceptance rate; access category alone is not used to estimate selectivity."
+      },
+      "previous_cycle_program_requirements": {
+        "value": {
+          "academic_year": "2026/27",
+          "access": "See the annual selection notice for this programme; the current profile identifies the access category but does not state all criteria."
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-IM-MSC-2026"
+        ],
+        "notes": "Prior-cycle access category only; check the programme call for detailed admission conditions."
+      }
+    },
+    "source_ids": [
+      "SRC-CA-FOSCARI-ENGLISH-2026",
+      "SRC-CA-FOSCARI-CATALOGUE-2026",
+      "SRC-CA-FOSCARI-IM-MSC-2026",
+      "SRC-CA-FOSCARI-2027"
+    ],
     "previous_tracker_tags": {
       "level": "MSc",
       "language": "English",
       "field": "Economics",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
-    "previous_cycle_tags": null,
+    "previous_cycle_tags": {
+      "level": "MSc",
+      "language": "English",
+      "field": "Management",
+      "cycle": "2026-2027",
+      "label": "Latest official course profile is prior-cycle evidence only"
+    },
     "last_checked": "2026-11-09"
   },
   {
@@ -5524,38 +6227,162 @@
     "level": {
       "value": "MSc",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-CA-FOSCARI-CATALOGUE-2026",
+        "SRC-CA-FOSCARI-CIR-MSC-2026"
+      ],
+      "notes": "The official 2026/27 programme page lists MSc (LM-52 R); the 2027/28 new-entry level has not yet been confirmed."
     },
     "language": {
-      "value": "English",
+      "value": "Italian/English",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-CA-FOSCARI-ENGLISH-2026",
+        "SRC-CA-FOSCARI-CIR-MSC-2026"
+      ],
+      "notes": "The latest official English-program list/course profile supports the 2026/27 language information only; verify the 2027/28 curriculum and teaching language when the course notice opens."
     },
     "field": {
-      "value": "Law",
+      "value": "International Relations",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-CA-FOSCARI-CIR-MSC-2026"
+      ],
+      "notes": "Field/category is based on the latest official programme profile and is retained as prior-cycle classification pending the 2027/28 programme notice."
     },
     "availability_2027_2028": {
       "value": null,
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
+      "source_ids": [
+        "SRC-CA-FOSCARI-2027",
+        "SRC-CA-FOSCARI-ENGLISH-2026",
+        "SRC-CA-FOSCARI-CIR-MSC-2026"
+      ],
+      "notes": "The official international page says 2027/28 admissions begin in December 2026, but no course-specific 2027/28 first-year call was identified on 9 November. The latest English course list is 2026/27; no cancellation is inferred."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
-    "facts": {},
-    "source_ids": [],
+    "facts": {
+      "previous_cycle_course_listing": {
+        "value": {
+          "academic_year": "2026/27",
+          "official_name": "Comparative International Relations",
+          "degree_level": "MSc",
+          "degree_class": "LM-52 R",
+          "duration_years": 2,
+          "credits": 120,
+          "location": "Venice",
+          "language": "Italian/English",
+          "access": "Open admission"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-CATALOGUE-2026",
+          "SRC-CA-FOSCARI-CIR-MSC-2026"
+        ],
+        "notes": "Latest official catalogue/profile evidence only; it does not establish the 2027/28 first-year offer."
+      },
+      "application_windows": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-2027"
+        ],
+        "notes": "The general page says 2027/28 applications start in December 2026; exact programme periods and selection notices were not listed as of 9 November."
+      },
+      "application_fee": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CA-FOSCARI-2027"
+        ],
+        "notes": "No 2027/28 programme application or selection fee was confirmed in the reviewed material; do not treat the TOLC provider fee, where applicable, as a university application fee."
+      },
+      "program_specific_requirements_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CA-FOSCARI-2027",
+          "SRC-CA-FOSCARI-CIR-MSC-2026"
+        ],
+        "notes": "The programme-specific 2027/28 call was not available on 9 November 2026; prior-cycle requirements, when recorded, are kept separately."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CA-FOSCARI-TUITION-2026"
+        ],
+        "notes": "The latest fee guide reviewed is for 2026/27 entry; no 2027/28 amount is carried forward."
+      },
+      "previous_cycle_tuition": {
+        "value": {
+          "academic_year": "2026/27",
+          "annual_fees_eur": {
+            "Italy_EU": {
+              "BSc": 2352,
+              "MSc": 2599
+            },
+            "non_EU_OECD": {
+              "BSc": 2100,
+              "MSc": 2300
+            },
+            "developing_country_group": {
+              "BSc": 700,
+              "MSc": 700
+            },
+            "other_countries": {
+              "BSc": 1300,
+              "MSc": 1300
+            }
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-TUITION-2026"
+        ],
+        "notes": "Prior-cycle international guide only; amounts depend on student country group, may be affected by reductions and are not 2027/28 tuition."
+      },
+      "acceptance_rate": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-CA-FOSCARI-CATALOGUE-2026",
+          "SRC-CA-FOSCARI-CIR-MSC-2026"
+        ],
+        "notes": "The reviewed official course/listing pages do not publish applicant and admitted-student counts or an acceptance rate; access category alone is not used to estimate selectivity."
+      },
+      "previous_cycle_program_requirements": {
+        "value": {
+          "academic_year": "2026/27",
+          "access": "See the annual selection notice for this programme; the current profile identifies the access category but does not state all criteria."
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-CIR-MSC-2026"
+        ],
+        "notes": "Prior-cycle access category only; check the programme call for detailed admission conditions."
+      }
+    },
+    "source_ids": [
+      "SRC-CA-FOSCARI-ENGLISH-2026",
+      "SRC-CA-FOSCARI-CATALOGUE-2026",
+      "SRC-CA-FOSCARI-CIR-MSC-2026",
+      "SRC-CA-FOSCARI-2027"
+    ],
     "previous_tracker_tags": {
       "level": "MSc",
       "language": "English",
       "field": "Law",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
-    "previous_cycle_tags": null,
+    "previous_cycle_tags": {
+      "level": "MSc",
+      "language": "Italian/English",
+      "field": "International Relations",
+      "cycle": "2026-2027",
+      "label": "Latest official course profile is prior-cycle evidence only"
+    },
     "last_checked": "2026-11-09"
   },
   {
@@ -5567,38 +6394,168 @@
     "level": {
       "value": "BSc",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-CA-FOSCARI-CATALOGUE-2026",
+        "SRC-CA-FOSCARI-DM-BSC-2026"
+      ],
+      "notes": "The official 2026/27 programme page lists BSc (L-18 R); the 2027/28 new-entry level has not yet been confirmed."
     },
     "language": {
       "value": "English",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-CA-FOSCARI-ENGLISH-2026",
+        "SRC-CA-FOSCARI-DM-BSC-2026"
+      ],
+      "notes": "The latest official English-program list/course profile supports the 2026/27 language information only; verify the 2027/28 curriculum and teaching language when the course notice opens."
     },
     "field": {
-      "value": "Economics",
+      "value": "Economics and Management",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-CA-FOSCARI-DM-BSC-2026"
+      ],
+      "notes": "Field/category is based on the latest official programme profile and is retained as prior-cycle classification pending the 2027/28 programme notice."
     },
     "availability_2027_2028": {
       "value": null,
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
+      "source_ids": [
+        "SRC-CA-FOSCARI-2027",
+        "SRC-CA-FOSCARI-ENGLISH-2026",
+        "SRC-CA-FOSCARI-DM-BSC-2026"
+      ],
+      "notes": "The official international page says 2027/28 admissions begin in December 2026, but no course-specific 2027/28 first-year call was identified on 9 November. The latest English course list is 2026/27; no cancellation is inferred."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
-    "facts": {},
-    "source_ids": [],
+    "facts": {
+      "previous_cycle_course_listing": {
+        "value": {
+          "academic_year": "2026/27",
+          "official_name": "Digital Management",
+          "degree_level": "BSc",
+          "degree_class": "L-18 R",
+          "duration_years": 3,
+          "credits": 180,
+          "location": "Roncade",
+          "language": "English",
+          "access": "Limited admission"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-CATALOGUE-2026",
+          "SRC-CA-FOSCARI-DM-BSC-2026"
+        ],
+        "notes": "Latest official catalogue/profile evidence only; it does not establish the 2027/28 first-year offer."
+      },
+      "application_windows": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-2027"
+        ],
+        "notes": "The general page says 2027/28 applications start in December 2026; exact programme periods and selection notices were not listed as of 9 November."
+      },
+      "application_fee": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CA-FOSCARI-2027",
+          "SRC-CA-FOSCARI-DM-ADMISSION-2026"
+        ],
+        "notes": "No 2027/28 programme application or selection fee was confirmed in the reviewed material; do not treat the TOLC provider fee, where applicable, as a university application fee."
+      },
+      "program_specific_requirements_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CA-FOSCARI-2027",
+          "SRC-CA-FOSCARI-DM-BSC-2026"
+        ],
+        "notes": "The programme-specific 2027/28 call was not available on 9 November 2026; prior-cycle requirements, when recorded, are kept separately."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CA-FOSCARI-TUITION-2026"
+        ],
+        "notes": "The latest fee guide reviewed is for 2026/27 entry; no 2027/28 amount is carried forward."
+      },
+      "previous_cycle_tuition": {
+        "value": {
+          "academic_year": "2026/27",
+          "annual_fees_eur": {
+            "Italy_EU": {
+              "BSc": 2352,
+              "MSc": 2599
+            },
+            "non_EU_OECD": {
+              "BSc": 2100,
+              "MSc": 2300
+            },
+            "developing_country_group": {
+              "BSc": 700,
+              "MSc": 700
+            },
+            "other_countries": {
+              "BSc": 1300,
+              "MSc": 1300
+            }
+          },
+          "programme_specific_exception_eur": 8811
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-TUITION-2026"
+        ],
+        "notes": "Prior-cycle international guide only; amounts depend on student country group, may be affected by reductions and are not 2027/28 tuition."
+      },
+      "acceptance_rate": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-CA-FOSCARI-CATALOGUE-2026",
+          "SRC-CA-FOSCARI-DM-BSC-2026"
+        ],
+        "notes": "The reviewed official course/listing pages do not publish applicant and admitted-student counts or an acceptance rate; access category alone is not used to estimate selectivity."
+      },
+      "previous_cycle_program_requirements": {
+        "value": {
+          "academic_year": "2026/27",
+          "international_qualification": "Secondary school credential recognised for university access; international applicants follow the separate qualification/visa procedure",
+          "selection": "TOLC-E test plus registration for the Ca' Foscari selection; spring and summer rounds; places assigned by ranking",
+          "math": "Mathematics OFA if TOLC-E mathematics score is below 6/13; SAT Math >=542/800 or CEnT-S mathematics >=14 exempts from that OFA",
+          "english": "B2; if not met at enrolment an English OFA may be fulfilled by the end of year one"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-DM-ADMISSION-2026"
+        ],
+        "notes": "These course-specific requirements and tests are stated on the current 2026/27 admissions page and are not confirmed for 2027/28."
+      }
+    },
+    "source_ids": [
+      "SRC-CA-FOSCARI-ENGLISH-2026",
+      "SRC-CA-FOSCARI-CATALOGUE-2026",
+      "SRC-CA-FOSCARI-DM-BSC-2026",
+      "SRC-CA-FOSCARI-2027",
+      "SRC-CA-FOSCARI-DM-ADMISSION-2026"
+    ],
     "previous_tracker_tags": {
       "level": "BSc",
       "language": "English",
       "field": "Economics",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
-    "previous_cycle_tags": null,
+    "previous_cycle_tags": {
+      "level": "BSc",
+      "language": "English",
+      "field": "Economics and Management",
+      "cycle": "2026-2027",
+      "label": "Latest official course profile is prior-cycle evidence only"
+    },
     "last_checked": "2026-11-09"
   },
   {
@@ -5610,38 +6567,167 @@
     "level": {
       "value": "BSc",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-CA-FOSCARI-CATALOGUE-2026",
+        "SRC-CA-FOSCARI-EB-BSC-2026"
+      ],
+      "notes": "The official 2026/27 programme page lists BSc (L-33 R); the 2027/28 new-entry level has not yet been confirmed."
     },
     "language": {
       "value": "English",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-CA-FOSCARI-ENGLISH-2026",
+        "SRC-CA-FOSCARI-EB-BSC-2026"
+      ],
+      "notes": "The latest official English-program list/course profile supports the 2026/27 language information only; verify the 2027/28 curriculum and teaching language when the course notice opens."
     },
     "field": {
       "value": "Economics",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-CA-FOSCARI-EB-BSC-2026"
+      ],
+      "notes": "Field/category is based on the latest official programme profile and is retained as prior-cycle classification pending the 2027/28 programme notice."
     },
     "availability_2027_2028": {
       "value": null,
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
+      "source_ids": [
+        "SRC-CA-FOSCARI-2027",
+        "SRC-CA-FOSCARI-ENGLISH-2026",
+        "SRC-CA-FOSCARI-EB-BSC-2026"
+      ],
+      "notes": "The official international page says 2027/28 admissions begin in December 2026, but no course-specific 2027/28 first-year call was identified on 9 November. The latest English course list is 2026/27; no cancellation is inferred."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
-    "facts": {},
-    "source_ids": [],
+    "facts": {
+      "previous_cycle_course_listing": {
+        "value": {
+          "academic_year": "2026/27",
+          "official_name": "Economics and Business",
+          "degree_level": "BSc",
+          "degree_class": "L-33 R",
+          "duration_years": 3,
+          "credits": 180,
+          "location": "Venice",
+          "language": "English",
+          "access": "Limited admission"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-CATALOGUE-2026",
+          "SRC-CA-FOSCARI-EB-BSC-2026"
+        ],
+        "notes": "Latest official catalogue/profile evidence only; it does not establish the 2027/28 first-year offer."
+      },
+      "application_windows": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-2027"
+        ],
+        "notes": "The general page says 2027/28 applications start in December 2026; exact programme periods and selection notices were not listed as of 9 November."
+      },
+      "application_fee": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CA-FOSCARI-2027",
+          "SRC-CA-FOSCARI-EB-ADMISSION-2026"
+        ],
+        "notes": "No 2027/28 programme application or selection fee was confirmed in the reviewed material; do not treat the TOLC provider fee, where applicable, as a university application fee."
+      },
+      "program_specific_requirements_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CA-FOSCARI-2027",
+          "SRC-CA-FOSCARI-EB-BSC-2026"
+        ],
+        "notes": "The programme-specific 2027/28 call was not available on 9 November 2026; prior-cycle requirements, when recorded, are kept separately."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CA-FOSCARI-TUITION-2026"
+        ],
+        "notes": "The latest fee guide reviewed is for 2026/27 entry; no 2027/28 amount is carried forward."
+      },
+      "previous_cycle_tuition": {
+        "value": {
+          "academic_year": "2026/27",
+          "annual_fees_eur": {
+            "Italy_EU": {
+              "BSc": 2352,
+              "MSc": 2599
+            },
+            "non_EU_OECD": {
+              "BSc": 2100,
+              "MSc": 2300
+            },
+            "developing_country_group": {
+              "BSc": 700,
+              "MSc": 700
+            },
+            "other_countries": {
+              "BSc": 1300,
+              "MSc": 1300
+            }
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-TUITION-2026"
+        ],
+        "notes": "Prior-cycle international guide only; amounts depend on student country group, may be affected by reductions and are not 2027/28 tuition."
+      },
+      "acceptance_rate": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-CA-FOSCARI-CATALOGUE-2026",
+          "SRC-CA-FOSCARI-EB-BSC-2026"
+        ],
+        "notes": "The reviewed official course/listing pages do not publish applicant and admitted-student counts or an acceptance rate; access category alone is not used to estimate selectivity."
+      },
+      "previous_cycle_program_requirements": {
+        "value": {
+          "academic_year": "2026/27",
+          "international_qualification": "Secondary school credential recognised for university access; international applicants follow the separate qualification/visa procedure",
+          "selection": "TOLC-E test plus registration for the Ca' Foscari selection; spring and summer rounds; places assigned by ranking",
+          "math": "Mathematics OFA if TOLC-E mathematics score is below 6/13; SAT Math >=542/800 or CEnT-S mathematics >=14 exempts from that OFA",
+          "english": "B2 mandatory by enrolment"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-EB-ADMISSION-2026"
+        ],
+        "notes": "These course-specific requirements and tests are stated on the current 2026/27 admissions page and are not confirmed for 2027/28."
+      }
+    },
+    "source_ids": [
+      "SRC-CA-FOSCARI-ENGLISH-2026",
+      "SRC-CA-FOSCARI-CATALOGUE-2026",
+      "SRC-CA-FOSCARI-EB-BSC-2026",
+      "SRC-CA-FOSCARI-2027",
+      "SRC-CA-FOSCARI-EB-ADMISSION-2026"
+    ],
     "previous_tracker_tags": {
       "level": "BSc",
       "language": "English",
       "field": "Economics",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
-    "previous_cycle_tags": null,
+    "previous_cycle_tags": {
+      "level": "BSc",
+      "language": "English",
+      "field": "Economics",
+      "cycle": "2026-2027",
+      "label": "Latest official course profile is prior-cycle evidence only"
+    },
     "last_checked": "2026-11-09"
   },
   {
@@ -5649,42 +6735,171 @@
     "university_id": "ca-foscari",
     "university": "Università Ca' Foscari Venezia",
     "city": "Venice",
-    "program": "Computer Science (Data Science)",
+    "program": "Computer Science – Data Science curriculum",
     "level": {
       "value": "BSc",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-CA-FOSCARI-CATALOGUE-2026",
+        "SRC-CA-FOSCARI-CS-BSC-2026"
+      ],
+      "notes": "The official 2026/27 programme page lists BSc (L-31 R); the 2027/28 new-entry level has not yet been confirmed."
     },
     "language": {
-      "value": "English",
+      "value": "Italian/English (Data Science curriculum taught in English)",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-CA-FOSCARI-ENGLISH-2026",
+        "SRC-CA-FOSCARI-CS-BSC-2026"
+      ],
+      "notes": "The latest official English-program list/course profile supports the 2026/27 language information only; verify the 2027/28 curriculum and teaching language when the course notice opens."
     },
     "field": {
       "value": "Computer Science",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-CA-FOSCARI-CS-BSC-2026"
+      ],
+      "notes": "Field/category is based on the latest official programme profile and is retained as prior-cycle classification pending the 2027/28 programme notice."
     },
     "availability_2027_2028": {
       "value": null,
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
+      "source_ids": [
+        "SRC-CA-FOSCARI-2027",
+        "SRC-CA-FOSCARI-ENGLISH-2026",
+        "SRC-CA-FOSCARI-CS-BSC-2026"
+      ],
+      "notes": "The official international page says 2027/28 admissions begin in December 2026, but no course-specific 2027/28 first-year call was identified on 9 November. The latest English course list is 2026/27; no cancellation is inferred."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
-    "facts": {},
-    "source_ids": [],
+    "facts": {
+      "previous_cycle_course_listing": {
+        "value": {
+          "academic_year": "2026/27",
+          "official_name": "Computer Science – Data Science curriculum",
+          "degree_level": "BSc",
+          "degree_class": "L-31 R",
+          "duration_years": 3,
+          "credits": 180,
+          "location": "Mestre",
+          "language": "Italian/English (Data Science curriculum taught in English)",
+          "access": "Open admission",
+          "curriculum": "Three curricula; only Data Science is taught in English"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-CATALOGUE-2026",
+          "SRC-CA-FOSCARI-CS-BSC-2026"
+        ],
+        "notes": "Latest official catalogue/profile evidence only; it does not establish the 2027/28 first-year offer."
+      },
+      "application_windows": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-2027"
+        ],
+        "notes": "The general page says 2027/28 applications start in December 2026; exact programme periods and selection notices were not listed as of 9 November."
+      },
+      "application_fee": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CA-FOSCARI-2027",
+          "SRC-CA-FOSCARI-CS-BSC-ADMISSION-2026"
+        ],
+        "notes": "No 2027/28 programme application or selection fee was confirmed in the reviewed material; do not treat the TOLC provider fee, where applicable, as a university application fee."
+      },
+      "program_specific_requirements_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CA-FOSCARI-2027",
+          "SRC-CA-FOSCARI-CS-BSC-2026"
+        ],
+        "notes": "The programme-specific 2027/28 call was not available on 9 November 2026; prior-cycle requirements, when recorded, are kept separately."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CA-FOSCARI-TUITION-2026"
+        ],
+        "notes": "The latest fee guide reviewed is for 2026/27 entry; no 2027/28 amount is carried forward."
+      },
+      "previous_cycle_tuition": {
+        "value": {
+          "academic_year": "2026/27",
+          "annual_fees_eur": {
+            "Italy_EU": {
+              "BSc": 2352,
+              "MSc": 2599
+            },
+            "non_EU_OECD": {
+              "BSc": 2100,
+              "MSc": 2300
+            },
+            "developing_country_group": {
+              "BSc": 700,
+              "MSc": 700
+            },
+            "other_countries": {
+              "BSc": 1300,
+              "MSc": 1300
+            }
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-TUITION-2026"
+        ],
+        "notes": "Prior-cycle international guide only; amounts depend on student country group, may be affected by reductions and are not 2027/28 tuition."
+      },
+      "acceptance_rate": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-CA-FOSCARI-CATALOGUE-2026",
+          "SRC-CA-FOSCARI-CS-BSC-2026"
+        ],
+        "notes": "The reviewed official course/listing pages do not publish applicant and admitted-student counts or an acceptance rate; access category alone is not used to estimate selectivity."
+      },
+      "previous_cycle_program_requirements": {
+        "value": {
+          "academic_year": "2026/27",
+          "qualification": "Secondary school credential recognised for university access",
+          "assessment": "TOLC-I recommended; no test or score below 20/40 leads to a mathematics-logic OFA",
+          "english": "B2 for the Data Science curriculum; language OFA may be fulfilled by the end of year one"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-CS-BSC-ADMISSION-2026"
+        ],
+        "notes": "These course-specific requirements and tests are stated on the current 2026/27 admissions page and are not confirmed for 2027/28."
+      }
+    },
+    "source_ids": [
+      "SRC-CA-FOSCARI-ENGLISH-2026",
+      "SRC-CA-FOSCARI-CATALOGUE-2026",
+      "SRC-CA-FOSCARI-CS-BSC-2026",
+      "SRC-CA-FOSCARI-2027",
+      "SRC-CA-FOSCARI-CS-BSC-ADMISSION-2026"
+    ],
     "previous_tracker_tags": {
       "level": "BSc",
       "language": "English",
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
-    "previous_cycle_tags": null,
+    "previous_cycle_tags": {
+      "level": "BSc",
+      "language": "Italian/English (Data Science curriculum taught in English)",
+      "field": "Computer Science",
+      "cycle": "2026-2027",
+      "label": "Latest official course profile is prior-cycle evidence only"
+    },
     "last_checked": "2026-11-09"
   },
   {
@@ -5692,42 +6907,166 @@
     "university_id": "ca-foscari",
     "university": "Università Ca' Foscari Venezia",
     "city": "Venice",
-    "program": "Philosophy, Intl and Economic Studies",
+    "program": "Philosophy, International and Economic Studies",
     "level": {
       "value": "BSc",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-CA-FOSCARI-CATALOGUE-2026",
+        "SRC-CA-FOSCARI-PIES-BSC-2026"
+      ],
+      "notes": "The official 2026/27 programme page lists BSc (L-5 R); the 2027/28 new-entry level has not yet been confirmed."
     },
     "language": {
       "value": "English",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-CA-FOSCARI-ENGLISH-2026",
+        "SRC-CA-FOSCARI-PIES-BSC-2026"
+      ],
+      "notes": "The latest official English-program list/course profile supports the 2026/27 language information only; verify the 2027/28 curriculum and teaching language when the course notice opens."
     },
     "field": {
-      "value": "Sciences",
+      "value": "Humanities",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-CA-FOSCARI-PIES-BSC-2026"
+      ],
+      "notes": "Field/category is based on the latest official programme profile and is retained as prior-cycle classification pending the 2027/28 programme notice."
     },
     "availability_2027_2028": {
       "value": null,
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
+      "source_ids": [
+        "SRC-CA-FOSCARI-2027",
+        "SRC-CA-FOSCARI-ENGLISH-2026",
+        "SRC-CA-FOSCARI-PIES-BSC-2026"
+      ],
+      "notes": "The official international page says 2027/28 admissions begin in December 2026, but no course-specific 2027/28 first-year call was identified on 9 November. The latest English course list is 2026/27; no cancellation is inferred."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
-    "facts": {},
-    "source_ids": [],
+    "facts": {
+      "previous_cycle_course_listing": {
+        "value": {
+          "academic_year": "2026/27",
+          "official_name": "Philosophy, International and Economic Studies",
+          "degree_level": "BSc",
+          "degree_class": "L-5 R",
+          "duration_years": 3,
+          "credits": 180,
+          "location": "Venice",
+          "language": "English",
+          "access": "Limited admission"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-CATALOGUE-2026",
+          "SRC-CA-FOSCARI-PIES-BSC-2026"
+        ],
+        "notes": "Latest official catalogue/profile evidence only; it does not establish the 2027/28 first-year offer."
+      },
+      "application_windows": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-2027"
+        ],
+        "notes": "The general page says 2027/28 applications start in December 2026; exact programme periods and selection notices were not listed as of 9 November."
+      },
+      "application_fee": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CA-FOSCARI-2027"
+        ],
+        "notes": "No 2027/28 programme application or selection fee was confirmed in the reviewed material; do not treat the TOLC provider fee, where applicable, as a university application fee."
+      },
+      "program_specific_requirements_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CA-FOSCARI-2027",
+          "SRC-CA-FOSCARI-PIES-BSC-2026"
+        ],
+        "notes": "The programme-specific 2027/28 call was not available on 9 November 2026; prior-cycle requirements, when recorded, are kept separately."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CA-FOSCARI-TUITION-2026"
+        ],
+        "notes": "The latest fee guide reviewed is for 2026/27 entry; no 2027/28 amount is carried forward."
+      },
+      "previous_cycle_tuition": {
+        "value": {
+          "academic_year": "2026/27",
+          "annual_fees_eur": {
+            "Italy_EU": {
+              "BSc": 2352,
+              "MSc": 2599
+            },
+            "non_EU_OECD": {
+              "BSc": 2100,
+              "MSc": 2300
+            },
+            "developing_country_group": {
+              "BSc": 700,
+              "MSc": 700
+            },
+            "other_countries": {
+              "BSc": 1300,
+              "MSc": 1300
+            }
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-TUITION-2026"
+        ],
+        "notes": "Prior-cycle international guide only; amounts depend on student country group, may be affected by reductions and are not 2027/28 tuition."
+      },
+      "acceptance_rate": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-CA-FOSCARI-CATALOGUE-2026",
+          "SRC-CA-FOSCARI-PIES-BSC-2026"
+        ],
+        "notes": "The reviewed official course/listing pages do not publish applicant and admitted-student counts or an acceptance rate; access category alone is not used to estimate selectivity."
+      },
+      "previous_cycle_program_requirements": {
+        "value": {
+          "academic_year": "2026/27",
+          "access": "See the annual selection notice for this programme; the current profile identifies the access category but does not state all criteria."
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-PIES-BSC-2026"
+        ],
+        "notes": "Prior-cycle access category only; check the programme call for detailed admission conditions."
+      }
+    },
+    "source_ids": [
+      "SRC-CA-FOSCARI-ENGLISH-2026",
+      "SRC-CA-FOSCARI-CATALOGUE-2026",
+      "SRC-CA-FOSCARI-PIES-BSC-2026",
+      "SRC-CA-FOSCARI-2027"
+    ],
     "previous_tracker_tags": {
       "level": "BSc",
       "language": "English",
       "field": "Sciences",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
-    "previous_cycle_tags": null,
+    "previous_cycle_tags": {
+      "level": "BSc",
+      "language": "English",
+      "field": "Humanities",
+      "cycle": "2026-2027",
+      "label": "Latest official course profile is prior-cycle evidence only"
+    },
     "last_checked": "2026-11-09"
   },
   {

@@ -156,6 +156,18 @@ assert.match(perugiaProgramHtml, /ISEE max: 28339\.88/);
 assert.match(perugiaProgramHtml, /class="status pending"/);
 assert.match(getElementById("university-grid").innerHTML, /2027\/28 first-year call or procedure for Engineering Management/);
 assert.match(getElementById("university-grid").innerHTML, /segr-studenti\.stranieri@unipg\.it/);
+getElementById("search").value = "Università Ca' Foscari Venezia";
+getElementById("search").dispatch("input");
+const caFoscariProgramHtml = getElementById("program-grid").innerHTML;
+assert.match(caFoscariProgramHtml, /Computer Science and Information Technology/);
+assert.match(caFoscariProgramHtml, /Data Science curriculum/);
+assert.match(caFoscariProgramHtml, /Hospitality Innovation and e-Tourism/);
+assert.match(caFoscariProgramHtml, /No separate MSc/);
+assert.match(caFoscariProgramHtml, /TOLC-E/);
+assert.match(caFoscariProgramHtml, /minimum total cfu: 60/);
+assert.equal((caFoscariProgramHtml.match(/class="card pending"/g) ?? []).length, 11);
+assert.match(getElementById("university-grid").innerHTML, /applications open in December 2026/);
+assert.match(getElementById("university-grid").innerHTML, /welcome@unive\.it/);
 getElementById("search").value = "";
 getElementById("search").dispatch("input");
 
