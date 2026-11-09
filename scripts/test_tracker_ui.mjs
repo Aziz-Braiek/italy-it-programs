@@ -256,6 +256,20 @@ assert.match(getElementById("university-grid").innerHTML, /No 2027\/28 UnivPM or
 assert.match(getElementById("university-grid").innerHTML, /university open access masters award: awards: 40/);
 assert.match(getElementById("university-grid").innerHTML, /gross eur each: 2000/);
 assert.match(getElementById("university-grid").innerHTML, /ERDIS Marche/);
+getElementById("search").value = "Milano-Bicocca";
+getElementById("search").dispatch("input");
+const bicoccaProgramHtml = getElementById("program-grid").innerHTML;
+assert.equal((bicoccaProgramHtml.match(/class="card pending"/g) ?? []).length, 6);
+assert.match(bicoccaProgramHtml, /Artificial Intelligence for Science and Technology/);
+assert.match(bicoccaProgramHtml, /Human-Centered Artificial Intelligence/);
+assert.match(bicoccaProgramHtml, /admissions authority: University of Pavia/);
+assert.match(bicoccaProgramHtml, /administrative headquarters: University of Milan/);
+assert.match(bicoccaProgramHtml, /No program-specific 2027\/28 application window was found/);
+assert.match(bicoccaProgramHtml, /gross eur per academic year: 10000/);
+assert.match(bicoccaProgramHtml, /No 2027\/28 course application fee was confirmed/);
+assert.match(getElementById("university-grid").innerHTML, /country-specific entry requirements/);
+assert.match(getElementById("university-grid").innerHTML, /apply\.unimib\.it/);
+assert.match(getElementById("university-grid").innerHTML, /€146 is the first installment, not total tuition/);
 getElementById("search").value = "";
 getElementById("search").dispatch("input");
 

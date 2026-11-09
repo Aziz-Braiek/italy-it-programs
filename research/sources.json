@@ -1511,9 +1511,293 @@
     "source_type": "Official international admissions page",
     "accessed_at": "2026-11-09",
     "cycle": "2027-2028",
-    "evidence": "Notes 2027/28-specific country-dependent entry requirements; program calls and dates require individual review.",
+    "evidence": "For 2027/28, the university says foreign-qualification entry requirements will vary depending on the country where the qualification was obtained and directs applicants to apply.unimib.it and country-specific guidance. Its current instructions require foreign-qualification applicants to apply through that platform. This page does not give degree-program application dates or confirm the six candidate programs for 2027/28.",
     "supports": [
-      "university.international_qualification"
+      "university.international_qualification",
+      "university.application_portal",
+      "university.admissions_status"
+    ]
+  },
+  {
+    "id": "SRC-BICOCCA-ENGLISH-PROGRAMS",
+    "university_id": "milano-bicocca",
+    "title": "International Courses – programmes entirely taught in English",
+    "url": "https://en.unimib.it/study/international-courses",
+    "source_type": "Official English-program list",
+    "accessed_at": "2026-11-09",
+    "cycle": "general",
+    "evidence": "Lists Artificial Intelligence, Artificial Intelligence for Science and Technology, Astrophysics and Space Physics, Data Science, Human-Centered Artificial Intelligence and International Economics among the University's programmes entirely taught in English. The page is not a 2027/28 first-year call.",
+    "supports": [
+      "university.english_programs",
+      "program.previous_cycle_course_listing"
+    ]
+  },
+  {
+    "id": "SRC-BICOCCA-SCIENCE-MSC-CATALOGUE-2026",
+    "university_id": "milano-bicocca",
+    "title": "Sciences – Master's degree programmes",
+    "url": "https://en.unimib.it/study/bachelors-and-masters-degrees/sciences-masters-degree-programmes",
+    "source_type": "Official degree catalogue",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The official catalogue lists Artificial Intelligence for Science and Technology, Astrophysics and Space Physics, and Data Science as Master's degrees taught in English with open access subject to entry-requirement examination. It does not publish a 2027/28 intake notice.",
+    "supports": [
+      "program.previous_cycle_course_listing"
+    ]
+  },
+  {
+    "id": "SRC-BICOCCA-AI-BSC-COURSE-2026",
+    "university_id": "milano-bicocca",
+    "title": "Artificial Intelligence – inter-university Bachelor's degree",
+    "url": "https://en.unimib.it/undergraduate/artificial-intelligence",
+    "source_type": "Official degree profile",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The Bachelor's in Artificial Intelligence is an English-taught inter-university L-31 degree with administrative headquarters at Pavia and classes across Pavia, Milano Statale and Milano-Bicocca. The profile states three years, limited access and that admission is managed by the University of Pavia.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_admissions_route"
+    ]
+  },
+  {
+    "id": "SRC-BICOCCA-AI-BSC-CALL-2026",
+    "university_id": "milano-bicocca",
+    "title": "Artificial Intelligence – admission call 2026/27",
+    "url": "https://en.unipv.it/sites/sten/files/2026-04/Artificial%20Intelligence%202026-2027_ENG.pdf",
+    "source_type": "Official inter-university admission call",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The University of Pavia administers the 2026/27 call for the English L-31 Bachelor's in Artificial Intelligence, offered with Milano-Bicocca and Milano Statale. The call lists 130 EU/equivalent or Italy-resident places, 45 non-EU-abroad places and 5 Marco Polo places; selection uses an admission test (CEnT-S or eligible prior English TOLC-I for specified categories, SAT for non-EU applicants abroad). These are prior-cycle quotas and rules.",
+    "supports": [
+      "program.previous_cycle_program_requirements",
+      "program.previous_cycle_application_windows",
+      "program.previous_cycle_admissions_route"
+    ]
+  },
+  {
+    "id": "SRC-BICOCCA-AI-BSC-FAQ-2026",
+    "university_id": "milano-bicocca",
+    "title": "Artificial Intelligence – 2026/27 admission FAQ",
+    "url": "https://en.unipv.it/en/node/1459",
+    "source_type": "Official inter-university admissions FAQ",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "Pavia's FAQ gives 2026/27 registration windows of 9–25 June and 5–22 October 2026, with the second ranking on 10 November and enrollment through 16 November. It lists the relevant CEnT-S, English TOLC-I and SAT score thresholds by applicant category. These are prior-cycle dates and thresholds only.",
+    "supports": [
+      "program.previous_cycle_application_windows",
+      "program.previous_cycle_program_requirements"
+    ]
+  },
+  {
+    "id": "SRC-BICOCCA-AI-MSC-COURSE-2026",
+    "university_id": "milano-bicocca",
+    "title": "Artificial Intelligence for Science and Technology – Master's profile",
+    "url": "https://www.unimib.it/graduate/artificial-intelligence",
+    "source_type": "Official degree profile",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The current official title is Artificial Intelligence for Science and Technology, LM-91, two years, English, based jointly across Milano and Pavia and administered by Milano-Bicocca. The course profile links to its 2026/27 call for application.",
+    "supports": [
+      "program.previous_cycle_course_listing"
+    ]
+  },
+  {
+    "id": "SRC-BICOCCA-AI-MSC-CALL-2026",
+    "university_id": "milano-bicocca",
+    "title": "Artificial Intelligence for Science and Technology – admission procedure 2026/27",
+    "url": "https://www.unimib.it/sites/default/files/2026-03/AI4ST_ENG_26_27_0.pdf",
+    "source_type": "Official program admission procedure",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 procedure requires a Bachelor's degree or equivalent, at least 30 CFU overall in specified computer-science, mathematics, statistics or physics areas, B2 English, and a personal-preparation interview. Italian-qualification applications ran 2 March–1 September 2026 with a €30 fee; foreign-qualification applicants used DreamApply/apply.unimib. These are prior-cycle rules and dates.",
+    "supports": [
+      "program.previous_cycle_program_requirements",
+      "program.previous_cycle_english_requirement",
+      "program.previous_cycle_admissions_route",
+      "program.previous_cycle_application_windows"
+    ]
+  },
+  {
+    "id": "SRC-BICOCCA-ASTRO-COURSE-2026",
+    "university_id": "milano-bicocca",
+    "title": "Astrophysics and Space Physics – Master's profile",
+    "url": "https://www.unimib.it/graduate/astrophysics-and-space-physics",
+    "source_type": "Official degree profile",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 profile identifies a two-year, English-taught LM-58 Master's in Milan with open access subject to entry-requirement examination and links the 2026/27 call.",
+    "supports": [
+      "program.previous_cycle_course_listing"
+    ]
+  },
+  {
+    "id": "SRC-BICOCCA-ASTRO-CALL-2026",
+    "university_id": "milano-bicocca",
+    "title": "Astrophysics and Space Physics – admission procedure 2026/27",
+    "url": "https://www.unimib.it/sites/default/files/2026-04/Astro_ENG_26_27.pdf",
+    "source_type": "Official program admission procedure",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 call requires a suitable Bachelor's degree. An L-30 degree satisfies curricular entry; other degree classes require at least 18 CFU in mathematics and 18 CFU in physics. Personal preparation is assessed by interview; Physics/Astrophysics/Astronomy L-30 graduates with at least 90/110 are exempt. B2 English is required. Italian-qualification applications ran 13 April–19 June and 22 June–11 September 2026 with a €30 fee; foreign-qualification applicants use apply.unimib.it. These are prior-cycle rules and dates.",
+    "supports": [
+      "program.previous_cycle_program_requirements",
+      "program.previous_cycle_english_requirement",
+      "program.previous_cycle_application_windows",
+      "program.previous_cycle_admissions_route"
+    ]
+  },
+  {
+    "id": "SRC-BICOCCA-DS-COURSE-2026",
+    "university_id": "milano-bicocca",
+    "title": "Data Science – Master's profile",
+    "url": "https://www.unimib.it/graduate/data-science",
+    "source_type": "Official degree profile",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 profile identifies a two-year, 120-ECTS English-taught LM Data Master's in Milan with open access subject to entry-requirement examination; it links the 2026/27 application procedure.",
+    "supports": [
+      "program.previous_cycle_course_listing"
+    ]
+  },
+  {
+    "id": "SRC-BICOCCA-DS-CALL-2026",
+    "university_id": "milano-bicocca",
+    "title": "Data Science – admission procedure 2026/27",
+    "url": "https://www.unimib.it/sites/default/files/2026-04/DATA%20SCIENCE_ENG_26_27_0.pdf",
+    "source_type": "Official program admission procedure",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 call requires a Bachelor's degree, at least 30 CFU overall across informatics, computer engineering, statistics, mathematics and physics, B2 English and a personal-preparation interview. Italian-qualification applications ran 1 April–27 May and 29 May–1 September 2026 with a €30 fee. Foreign-qualification applicants applied through apply.unimib.it. These are prior-cycle rules and dates.",
+    "supports": [
+      "program.previous_cycle_program_requirements",
+      "program.previous_cycle_english_requirement",
+      "program.previous_cycle_application_windows",
+      "program.previous_cycle_admissions_route"
+    ]
+  },
+  {
+    "id": "SRC-BICOCCA-INTECO-COURSE-2026",
+    "university_id": "milano-bicocca",
+    "title": "International Economics – Master's profile",
+    "url": "https://www.unimib.it/graduate/international-economics",
+    "source_type": "Official degree profile",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 profile identifies a two-year, English-taught LM-56 R Master's in Milan with open access subject to entry-requirement examination and links its current-year admission calls.",
+    "supports": [
+      "program.previous_cycle_course_listing"
+    ]
+  },
+  {
+    "id": "SRC-BICOCCA-INTECO-CALL-2026",
+    "university_id": "milano-bicocca",
+    "title": "International Economics – admission procedure 2026/27",
+    "url": "https://www.unimib.it/sites/default/files/2026-03/INTECO_call_26_27-def.pdf",
+    "source_type": "Official program admission procedure",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 call requires a Bachelor's qualification and B2 English. The standard-degree route specifies L-18/L-33 or legacy L-17/L-28 with at least 110/110; candidates outside that route may be assessed on economics/business, quantitative methods and legal principles, with interview possible. Foreign-qualification candidates use DreamApply. Applications ran 1 April–7 September 2026; these are prior-cycle criteria and dates. No application fee was stated in the reviewed call.",
+    "supports": [
+      "program.previous_cycle_program_requirements",
+      "program.previous_cycle_english_requirement",
+      "program.previous_cycle_application_windows",
+      "program.previous_cycle_admissions_route"
+    ]
+  },
+  {
+    "id": "SRC-BICOCCA-HCAI-COURSE-2026",
+    "university_id": "milano-bicocca",
+    "title": "Human-Centered Artificial Intelligence – inter-university Master's profile",
+    "url": "https://en.unimib.it/graduate/human-centered-artificial-intelligence",
+    "source_type": "Official degree profile",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 profile identifies a two-year, English-taught LM-55 inter-university Master's across Milano and Pavia, jointly organized by Milano-Bicocca, Pavia and Milano Statale. The University of Milan is the administrative headquarters and manages admission.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_admissions_route"
+    ]
+  },
+  {
+    "id": "SRC-BICOCCA-HCAI-CALL-2026",
+    "university_id": "milano-bicocca",
+    "title": "Human-Centered Artificial Intelligence – application AY 2026/27",
+    "url": "https://hcai.cdl.unimi.it/en/enrolment",
+    "source_type": "Official inter-university admission page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The University of Milan managed 2026/27 HCAI admission. Applications ran 22 January–30 October 2026 and enrolment 5 May 2026–15 January 2027; non-EU visa applicants had to apply by 30 April 2026. The next-cycle dates are not established by this page.",
+    "supports": [
+      "program.previous_cycle_application_windows",
+      "program.previous_cycle_admissions_route"
+    ]
+  },
+  {
+    "id": "SRC-BICOCCA-BISP-2026",
+    "university_id": "milano-bicocca",
+    "title": "Bicocca International Scholarship Programme – call AY 2026/27",
+    "url": "https://en.unimib.it/sites/sten/files/2026-01/Bando%20BISP%202026_2027.pdf",
+    "source_type": "Official international scholarship call",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 call reserves eligibility for international students residing abroad with foreign qualifications. It lists Data Science, International Economics, Artificial Intelligence for Science and Technology, Astrophysics and Space Physics, and Human-Centered Artificial Intelligence among participating Master's courses. It assigns five competitive awards per listed course, each worth €10,000 gross per academic year plus a tuition-fee exemption; administrative and regional fees remain payable. The call's separate undergraduate entry uses the wording 'Artificial Science (LT)', so the BSc Artificial Intelligence lead is not matched to that award here.",
+    "supports": [
+      "university.previous_cycle_international_scholarships",
+      "program.previous_cycle_scholarships"
+    ]
+  },
+  {
+    "id": "SRC-BICOCCA-FEES-2026",
+    "university_id": "milano-bicocca",
+    "title": "Student contribution fees AY 2026/27",
+    "url": "https://www.unimib.it/studiare/servizi-studenti-e-laureati/segreterie/immatricolazione/contribuzione-studentesca",
+    "source_type": "Official university fee guide",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "For 2026/27, the University expanded its ISEE no-tax area to €30,000 subject to merit criteria. The general student contribution is variable by ISEE and course area; non-Italian citizens with foreign entry qualifications and foreign residence follow a fixed country-of-residence and course-area tariff. No 2027/28 fee schedule was identified.",
+    "supports": [
+      "university.previous_cycle_tuition",
+      "program.previous_cycle_tuition"
+    ]
+  },
+  {
+    "id": "SRC-BICOCCA-FEES-FAQ-2026",
+    "university_id": "milano-bicocca",
+    "title": "Student contribution and fees FAQ 2026/27",
+    "url": "https://www.unimib.it/studiare/servizi-studenti-e-laureati/segreterie/immatricolazione/faq",
+    "source_type": "Official university fee FAQ",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 FAQ lists a €146 first installment (regional-tax advance plus stamp), later variable charges, ISEE-based no-tax eligibility up to €30,000 subject to merit, and an ISEE submission deadline of 13 November 2026. It is prior-cycle general guidance, not an individual international student's fee quote.",
+    "supports": [
+      "university.previous_cycle_tuition"
+    ]
+  },
+  {
+    "id": "SRC-BICOCCA-DSU-2026",
+    "university_id": "milano-bicocca",
+    "title": "Benefits for the right to university education – call AY 2026/27",
+    "url": "https://en.unimib.it/news/benefits-right-university-education",
+    "source_type": "Official regional right-to-study call announcement",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The University announced the 2026/27 DSU call for scholarships and student benefits; applications opened 7 July 2026 through the Online Help Desk, with deadlines varying by benefit in the call. Annual eligibility, award amounts and deadlines must be rechecked for 2027/28.",
+    "supports": [
+      "university.previous_cycle_regional_scholarships"
+    ]
+  },
+  {
+    "id": "SRC-BICOCCA-CONTACT",
+    "university_id": "milano-bicocca",
+    "title": "Contacts – International degree-seeking students",
+    "url": "https://en.unimib.it/community/contacts",
+    "source_type": "Official international admissions contact page",
+    "accessed_at": "2026-11-09",
+    "cycle": "general",
+    "evidence": "The International Admissions and Welcome Office manages international admission and enrollment procedures and directs applicants holding foreign qualifications to apply.unimib.it. Contact information is general and does not establish a 2027/28 course deadline.",
+    "supports": [
+      "university.admissions_contact",
+      "university.application_portal"
     ]
   },
   {

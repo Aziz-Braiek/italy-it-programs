@@ -105,6 +105,11 @@
       "id": "marche-data-science-finance-and-economics-2026-27-prior-cycle-review",
       "status": "partial",
       "result": "Matched the historical Data Science for Finance and Economics lead to its official status as a curriculum within UnivPM's Data Science for Economics, Business and Finance MSc. Recorded 2026/27 English-language course evidence, prior-year curricular and B2 requirements, faculty-specific streaming/asynchronous delivery, international pre-evaluation procedure, tuition structure and competitive UnivPM/ERDIS aid. No 2027/28 new-entry listing, application dates, fee schedule or scholarship call was identified; availability remains pending."
+    },
+    {
+      "id": "milano-bicocca-program-and-international-admissions-review",
+      "status": "partial",
+      "result": "Checked all six Bicocca legacy leads against official course profiles, English-program listings and 2026/27 course calls. Corrected the MSc title to Artificial Intelligence for Science and Technology; recorded course-specific prior-cycle requirements and dates, and noted that the joint AI BSc is administered by Pavia while the joint Human-Centered AI MSc is administered by the University of Milan. The 2027/28 international qualification page confirms country-specific entry requirements and apply.unimib.it, but no candidate course's new-entry offer or call. Recorded 2026/27 fees and scholarship context with the BISP undergraduate naming mismatch; no 2027/28 course windows, fees or awards were confirmed."
     }
   ],
   "counts": {
@@ -115,7 +120,7 @@
     "universities_without_initial_official_source_outcome": 0,
     "universities_fully_verified": 0,
     "universities_partially_researched": 34,
-    "universities_with_program_level_research": 19,
+    "universities_with_program_level_research": 20,
     "university_ids_with_program_level_research": [
       "bologna",
       "ca-foscari",
@@ -127,6 +132,7 @@
       "laquila",
       "marche",
       "messina",
+      "milano-bicocca",
       "napoli-federico-ii",
       "padova",
       "parma",
@@ -137,10 +143,9 @@
       "tor-vergata",
       "verona"
     ],
-    "universities_program_level_review_not_started": 15,
+    "universities_program_level_review_not_started": 14,
     "university_ids_with_program_level_review_not_started": [
       "genova",
-      "milano-bicocca",
       "milano-statale",
       "modena-reggio",
       "palermo",
@@ -163,10 +168,16 @@
     "programs_fully_verified": 23,
     "programs_requiring_verification": 164,
     "programs_not_offered_2027_2028": 2,
-    "programs_supported_only_by_previous_cycle": 25,
+    "programs_supported_only_by_previous_cycle": 31,
     "program_ids_supported_only_by_previous_cycle": [
       "discovered-023",
       "discovered-024",
+      "legacy-062",
+      "legacy-063",
+      "legacy-064",
+      "legacy-065",
+      "legacy-066",
+      "legacy-067",
       "legacy-068",
       "legacy-069",
       "legacy-070",
@@ -226,7 +237,7 @@
       "politecnico-torino",
       "siena"
     ],
-    "universities_with_unavailable_or_conflicting_information": 13,
+    "universities_with_unavailable_or_conflicting_information": 14,
     "university_ids_with_unavailable_or_conflicting_information": [
       "bologna",
       "ca-foscari",
@@ -234,6 +245,7 @@
       "ferrara",
       "laquila",
       "marche",
+      "milano-bicocca",
       "padova",
       "perugia",
       "pisa",
@@ -248,8 +260,8 @@
       "politecnico-milano",
       "trento"
     ],
-    "source_records": 197,
-    "official_source_supported_fields": 399,
+    "source_records": 217,
+    "official_source_supported_fields": 445,
     "verification_statuses": [
       "CONFIRMED",
       "NOT_YET_PUBLISHED",

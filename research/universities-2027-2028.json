@@ -778,29 +778,159 @@
     "country": "Italy",
     "official_website": "https://www.unimib.it/",
     "international_admissions_url": "https://en.unimib.it/study/information-international-students/access-students-international-qualification",
-    "application_portal_url": null,
+    "application_portal_url": "https://apply.unimib.it/",
     "contact_email": null,
-    "contact_url": "https://en.unimib.it/study/information-international-students/access-students-international-qualification",
+    "contact_url": "https://en.unimib.it/community/contacts",
     "cycle_status": "REQUIRES_VERIFICATION",
     "research_stage": "PARTIALLY_RESEARCHED",
-    "research_summary": "The international qualifications page describes changes from 2027/28; program calls and dates need review.",
+    "research_summary": "The international admissions page confirms country-specific entry requirements will apply in 2027/28. Six prior tracker leads are matched to 2026/27 course material; current-cycle first-year offers, course calls, fees and scholarships remain unconfirmed.",
     "coverage": {
       "official_website_visited": "complete",
       "international_admissions_page_examined": "partial",
-      "bachelors_admissions_examined": "not_started",
-      "masters_admissions_examined": "not_started",
-      "english_programs_examined": "not_started",
-      "fees_examined": "not_started",
-      "scholarships_examined": "not_started",
+      "bachelors_admissions_examined": "partial",
+      "masters_admissions_examined": "partial",
+      "english_programs_examined": "partial",
+      "fees_examined": "partial",
+      "scholarships_examined": "partial",
       "non_eu_requirements_examined": "partial",
-      "application_deadlines_examined": "not_started",
-      "program_level_review": "not_started"
+      "application_deadlines_examined": "partial",
+      "program_level_review": "partial"
     },
     "source_ids": [
-      "SRC-BICOCCA-2027"
+      "SRC-BICOCCA-2027",
+      "SRC-BICOCCA-ENGLISH-PROGRAMS",
+      "SRC-BICOCCA-SCIENCE-MSC-CATALOGUE-2026",
+      "SRC-BICOCCA-AI-BSC-COURSE-2026",
+      "SRC-BICOCCA-AI-BSC-CALL-2026",
+      "SRC-BICOCCA-AI-BSC-FAQ-2026",
+      "SRC-BICOCCA-AI-MSC-COURSE-2026",
+      "SRC-BICOCCA-AI-MSC-CALL-2026",
+      "SRC-BICOCCA-ASTRO-COURSE-2026",
+      "SRC-BICOCCA-ASTRO-CALL-2026",
+      "SRC-BICOCCA-DS-COURSE-2026",
+      "SRC-BICOCCA-DS-CALL-2026",
+      "SRC-BICOCCA-INTECO-COURSE-2026",
+      "SRC-BICOCCA-INTECO-CALL-2026",
+      "SRC-BICOCCA-HCAI-COURSE-2026",
+      "SRC-BICOCCA-HCAI-CALL-2026",
+      "SRC-BICOCCA-BISP-2026",
+      "SRC-BICOCCA-FEES-2026",
+      "SRC-BICOCCA-FEES-FAQ-2026",
+      "SRC-BICOCCA-DSU-2026",
+      "SRC-BICOCCA-CONTACT"
     ],
     "last_checked": "2026-11-09",
-    "cycle_facts": {}
+    "cycle_facts": {
+      "application_windows": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-BICOCCA-2027"
+        ],
+        "notes": "No course-specific 2027/28 application windows were identified for the six legacy candidates. Published 2026/27 course dates are retained separately as prior-cycle evidence."
+      },
+      "application_fee_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-BICOCCA-2027"
+        ],
+        "notes": "No 2027/28 application-fee schedule for the six candidate courses was identified. Prior-cycle course fees are not carried forward."
+      },
+      "international_qualification_process_2027_2028": {
+        "value": {
+          "academic_year": "2027/28",
+          "platform": "apply.unimib.it",
+          "country_specific_entry_requirements": true,
+          "scope": "Applicants with a foreign qualification; the exact requirements depend on the country where the qualification was obtained"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BICOCCA-2027",
+          "SRC-BICOCCA-CONTACT"
+        ],
+        "notes": "The university's 2027/28 international-qualification page confirms country-specific requirements and the apply.unimib.it route. This does not confirm any individual course's 2027/28 intake or deadline."
+      },
+      "previous_cycle_tuition": {
+        "value": {
+          "academic_year": "2026/27",
+          "first_installment_eur": 146,
+          "first_installment_composition": "Advance on regional tax plus stamp duty",
+          "later_contribution": "Variable by ISEE and course area",
+          "international_foreign_income_route": "Foreign-resident students with foreign qualifications follow a fixed tariff based on country of residence and course area",
+          "isee_no_tax_area_up_to_eur": 30000,
+          "isee_merit_conditions": true,
+          "isee_submission_deadline": "2026-11-13"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BICOCCA-FEES-2026",
+          "SRC-BICOCCA-FEES-FAQ-2026"
+        ],
+        "notes": "General 2026/27 fee guidance only. €146 is the first installment, not total tuition; international country/course tariffs and individual charges require a personal fee calculation."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-BICOCCA-FEES-2026",
+          "SRC-BICOCCA-FEES-FAQ-2026"
+        ],
+        "notes": "No 2027/28 fee schedule was identified; prior-cycle first installments, ISEE thresholds and foreign-student tariffs are not carried forward."
+      },
+      "previous_cycle_scholarships": {
+        "value": {
+          "academic_year": "2026/27",
+          "Bicocca_International_Scholarship_Programme": {
+            "eligible_scope": "International students residing abroad with foreign qualifications",
+            "awards_per_listed_masters_course": 5,
+            "gross_eur_per_academic_year": 10000,
+            "tuition_exemption": true,
+            "administrative_and_regional_fees_exempt": false,
+            "listed_masters_courses": [
+              "Data Science",
+              "International Economics",
+              "Artificial Intelligence for Science and Technology",
+              "Astrophysics and Space Physics",
+              "Human-Centered Artificial Intelligence"
+            ]
+          },
+          "regional_DSU": {
+            "call": "2026/27 annual call",
+            "application_opened": "2026-07-07",
+            "deadline": "Varies by benefit in the call"
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BICOCCA-BISP-2026",
+          "SRC-BICOCCA-DSU-2026"
+        ],
+        "notes": "Competitive prior-cycle awards and regional aid only. The BISP call's undergraduate label says 'Artificial Science (LT)', so this evidence does not establish BSc Artificial Intelligence eligibility."
+      },
+      "scholarships_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-BICOCCA-BISP-2026",
+          "SRC-BICOCCA-DSU-2026"
+        ],
+        "notes": "The reviewed BISP and DSU materials cover 2026/27 only. No 2027/28 award call, eligibility, amount or deadline was identified."
+      },
+      "admissions_contact": {
+        "value": {
+          "office": "International Admissions and Welcome Office",
+          "contact_url": "https://en.unimib.it/community/contacts",
+          "application_portal": "https://apply.unimib.it/"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BICOCCA-CONTACT",
+          "SRC-BICOCCA-2027"
+        ],
+        "notes": "Official general route for applicants with foreign qualifications; use the future program call for course-specific requirements and dates."
+      }
+    }
   },
   {
     "id": "marche",

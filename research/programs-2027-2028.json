@@ -2842,42 +2842,229 @@
     "university_id": "milano-bicocca",
     "university": "Università degli Studi di Milano-Bicocca",
     "city": "Milan",
-    "program": "Artificial Intelligence",
+    "program": "Artificial Intelligence for Science and Technology",
     "level": {
       "value": "MSc",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-BICOCCA-AI-MSC-COURSE-2026",
+        "SRC-BICOCCA-AI-MSC-CALL-2026"
+      ],
+      "notes": "Official 2026/27 material identifies this as a MSc; confirm its level in the 2027/28 course offer."
     },
     "language": {
       "value": "English",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-BICOCCA-AI-MSC-COURSE-2026",
+        "SRC-BICOCCA-AI-MSC-CALL-2026"
+      ],
+      "notes": "Official prior-cycle material identifies English as the course language; verify the 2027/28 offer."
     },
     "field": {
       "value": "Computer Science",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-BICOCCA-AI-MSC-COURSE-2026"
+      ],
+      "notes": "Prior-cycle subject classification only; confirm the 2027/28 course record."
     },
     "availability_2027_2028": {
       "value": null,
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
+      "source_ids": [
+        "SRC-BICOCCA-2027",
+        "SRC-BICOCCA-AI-MSC-COURSE-2026",
+        "SRC-BICOCCA-AI-MSC-CALL-2026"
+      ],
+      "notes": "The reviewed 2027/28 international page establishes country-specific foreign-qualification guidance but does not name this course or publish its first-year call. The latest course-specific evidence is 2026/27; no cancellation is inferred."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
-    "facts": {},
-    "source_ids": [],
+    "facts": {
+      "previous_cycle_course_listing": {
+        "value": {
+          "academic_year": "2026/27",
+          "official_name": "Artificial Intelligence for Science and Technology",
+          "level": "MSc",
+          "language": "English"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BICOCCA-AI-MSC-COURSE-2026"
+        ],
+        "notes": "Current course identity and delivery evidence only; this does not confirm a 2027/28 first-year intake."
+      },
+      "previous_cycle_program_requirements": {
+        "value": {
+          "academic_year": "2026/27",
+          "degree": "Bachelor's degree or equivalent",
+          "curricular_credits": {
+            "minimum_total_cfu": 30,
+            "areas": [
+              "Computer science",
+              "Mathematics",
+              "Statistics",
+              "Physics"
+            ]
+          },
+          "english": "B2",
+          "assessment": "Personal-preparation interview"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BICOCCA-AI-MSC-CALL-2026"
+        ],
+        "notes": "Published 2026/27 criteria only; applicants must use the new annual call for current requirements."
+      },
+      "previous_cycle_english_requirement": {
+        "value": {
+          "minimum_level": "B2 CEFR"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BICOCCA-AI-MSC-COURSE-2026",
+          "SRC-BICOCCA-AI-MSC-CALL-2026"
+        ],
+        "notes": "Prior-cycle course language or English threshold only; the 2027/28 call may set different evidence or exemptions."
+      },
+      "previous_cycle_application_windows": {
+        "value": {
+          "academic_year": "2026/27",
+          "italian_qualification_applications": {
+            "start": "2026-03-02",
+            "end": "2026-09-01"
+          },
+          "application_fee_eur": 30
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BICOCCA-AI-MSC-CALL-2026"
+        ],
+        "notes": "These dates and any stated fee are for 2026/27 only and must not be used as 2027/28 deadlines."
+      },
+      "previous_cycle_international_admission": {
+        "value": {
+          "academic_year": "2026/27",
+          "foreign_qualification_platform": "DreamApply / apply.unimib.it",
+          "administrator": "Milano-Bicocca"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BICOCCA-AI-MSC-COURSE-2026",
+          "SRC-BICOCCA-AI-MSC-CALL-2026"
+        ],
+        "notes": "Historical admissions ownership/platform only. Check the course's next annual call and the current foreign-qualification guidance."
+      },
+      "application_windows": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-BICOCCA-2027",
+          "SRC-BICOCCA-AI-MSC-CALL-2026"
+        ],
+        "notes": "No program-specific 2027/28 application window was found; recorded course windows are from 2026/27."
+      },
+      "application_fee_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-BICOCCA-AI-MSC-CALL-2026"
+        ],
+        "notes": "No 2027/28 course application fee was confirmed; any prior-cycle fee is kept in its historical fact."
+      },
+      "program_specific_requirements_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-BICOCCA-2027",
+          "SRC-BICOCCA-AI-MSC-CALL-2026"
+        ],
+        "notes": "No 2027/28 course call or requirements were identified. The university's 2027/28 country-specific qualification page does not confirm these course-level criteria."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-BICOCCA-FEES-2026",
+          "SRC-BICOCCA-FEES-FAQ-2026"
+        ],
+        "notes": "No 2027/28 fee schedule or individual total was identified; prior-cycle general amounts are not carried forward."
+      },
+      "previous_cycle_tuition": {
+        "value": {
+          "academic_year": "2026/27",
+          "first_installment_eur": 146,
+          "later_contribution": "Variable by ISEE and course area",
+          "foreign_qualification_and_foreign_residence": "Fixed tariff based on country of residence and course area"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BICOCCA-FEES-2026",
+          "SRC-BICOCCA-FEES-FAQ-2026"
+        ],
+        "notes": "University-wide historical fee framework, not a course-specific total or 2027/28 quote."
+      },
+      "scholarships_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-BICOCCA-BISP-2026",
+          "SRC-BICOCCA-DSU-2026"
+        ],
+        "notes": "The identified BISP and DSU schemes are for 2026/27 only; no 2027/28 call or award was found."
+      },
+      "acceptance_rate": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-BICOCCA-AI-MSC-COURSE-2026",
+          "SRC-BICOCCA-AI-MSC-CALL-2026"
+        ],
+        "notes": "The reviewed official course and call pages do not provide a complete applicant denominator and admitted count; no acceptance rate is inferred."
+      },
+      "previous_cycle_scholarships": {
+        "value": {
+          "academic_year": "2026/27",
+          "Bicocca_International_Scholarship_Programme": {
+            "competitive_awards_per_listed_course": 5,
+            "gross_eur_per_academic_year": 10000,
+            "tuition_exemption": true,
+            "administrative_and_regional_fees_exempt": false,
+            "eligible_scope": "International students resident abroad with foreign qualifications"
+          },
+          "listed_course": "Yes"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BICOCCA-BISP-2026"
+        ],
+        "notes": "This course is listed in the competitive prior-cycle scheme. No 2027/28 BISP offer is confirmed."
+      }
+    },
+    "source_ids": [
+      "SRC-BICOCCA-2027",
+      "SRC-BICOCCA-ENGLISH-PROGRAMS",
+      "SRC-BICOCCA-AI-MSC-COURSE-2026",
+      "SRC-BICOCCA-AI-MSC-CALL-2026",
+      "SRC-BICOCCA-FEES-2026",
+      "SRC-BICOCCA-FEES-FAQ-2026",
+      "SRC-BICOCCA-BISP-2026",
+      "SRC-BICOCCA-DSU-2026"
+    ],
     "previous_tracker_tags": {
       "level": "MSc",
       "language": "English",
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
-    "previous_cycle_tags": null,
+    "previous_cycle_tags": {
+      "level": "MSc",
+      "language": "English",
+      "field": "Computer Science",
+      "cycle": "2026-2027",
+      "label": "Official 2026/27 course evidence only; 2027/28 first-year intake remains unverified"
+    },
     "last_checked": "2026-11-09"
   },
   {
@@ -2889,38 +3076,231 @@
     "level": {
       "value": "MSc",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-BICOCCA-DS-COURSE-2026",
+        "SRC-BICOCCA-DS-CALL-2026"
+      ],
+      "notes": "Official 2026/27 material identifies this as a MSc; confirm its level in the 2027/28 course offer."
     },
     "language": {
       "value": "English",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-BICOCCA-DS-COURSE-2026",
+        "SRC-BICOCCA-DS-CALL-2026"
+      ],
+      "notes": "Official prior-cycle material identifies English as the course language; verify the 2027/28 offer."
     },
     "field": {
       "value": "Data Science",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-BICOCCA-DS-COURSE-2026"
+      ],
+      "notes": "Prior-cycle subject classification only; confirm the 2027/28 course record."
     },
     "availability_2027_2028": {
       "value": null,
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
+      "source_ids": [
+        "SRC-BICOCCA-2027",
+        "SRC-BICOCCA-DS-COURSE-2026",
+        "SRC-BICOCCA-DS-CALL-2026"
+      ],
+      "notes": "The reviewed 2027/28 international page establishes country-specific foreign-qualification guidance but does not name this course or publish its first-year call. The latest course-specific evidence is 2026/27; no cancellation is inferred."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
-    "facts": {},
-    "source_ids": [],
+    "facts": {
+      "previous_cycle_course_listing": {
+        "value": {
+          "academic_year": "2026/27",
+          "official_name": "Data Science",
+          "level": "MSc",
+          "language": "English"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BICOCCA-DS-COURSE-2026"
+        ],
+        "notes": "Current course identity and delivery evidence only; this does not confirm a 2027/28 first-year intake."
+      },
+      "previous_cycle_program_requirements": {
+        "value": {
+          "academic_year": "2026/27",
+          "degree": "Bachelor's degree",
+          "curricular_credits": {
+            "minimum_total_cfu": 30,
+            "areas": [
+              "Informatics",
+              "Computer engineering",
+              "Statistics",
+              "Mathematics",
+              "Physics"
+            ]
+          },
+          "english": "B2",
+          "assessment": "Personal-preparation interview with computer-science and statistics questions; Italian qualification class/grade route also applies"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BICOCCA-DS-CALL-2026"
+        ],
+        "notes": "Published 2026/27 criteria only; applicants must use the new annual call for current requirements."
+      },
+      "previous_cycle_english_requirement": {
+        "value": {
+          "minimum_level": "B2 CEFR"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BICOCCA-DS-COURSE-2026",
+          "SRC-BICOCCA-DS-CALL-2026"
+        ],
+        "notes": "Prior-cycle course language or English threshold only; the 2027/28 call may set different evidence or exemptions."
+      },
+      "previous_cycle_application_windows": {
+        "value": {
+          "academic_year": "2026/27",
+          "italian_qualification_application_periods": [
+            {
+              "start": "2026-04-01",
+              "end": "2026-05-27"
+            },
+            {
+              "start": "2026-05-29",
+              "end": "2026-09-01"
+            }
+          ],
+          "application_fee_eur": 30
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BICOCCA-DS-CALL-2026"
+        ],
+        "notes": "These dates and any stated fee are for 2026/27 only and must not be used as 2027/28 deadlines."
+      },
+      "previous_cycle_international_admission": {
+        "value": {
+          "academic_year": "2026/27",
+          "foreign_qualification_platform": "apply.unimib.it"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BICOCCA-DS-COURSE-2026",
+          "SRC-BICOCCA-DS-CALL-2026"
+        ],
+        "notes": "Historical admissions ownership/platform only. Check the course's next annual call and the current foreign-qualification guidance."
+      },
+      "application_windows": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-BICOCCA-2027",
+          "SRC-BICOCCA-DS-CALL-2026"
+        ],
+        "notes": "No program-specific 2027/28 application window was found; recorded course windows are from 2026/27."
+      },
+      "application_fee_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-BICOCCA-DS-CALL-2026"
+        ],
+        "notes": "No 2027/28 course application fee was confirmed; any prior-cycle fee is kept in its historical fact."
+      },
+      "program_specific_requirements_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-BICOCCA-2027",
+          "SRC-BICOCCA-DS-CALL-2026"
+        ],
+        "notes": "No 2027/28 course call or requirements were identified. The university's 2027/28 country-specific qualification page does not confirm these course-level criteria."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-BICOCCA-FEES-2026",
+          "SRC-BICOCCA-FEES-FAQ-2026"
+        ],
+        "notes": "No 2027/28 fee schedule or individual total was identified; prior-cycle general amounts are not carried forward."
+      },
+      "previous_cycle_tuition": {
+        "value": {
+          "academic_year": "2026/27",
+          "first_installment_eur": 146,
+          "later_contribution": "Variable by ISEE and course area",
+          "foreign_qualification_and_foreign_residence": "Fixed tariff based on country of residence and course area"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BICOCCA-FEES-2026",
+          "SRC-BICOCCA-FEES-FAQ-2026"
+        ],
+        "notes": "University-wide historical fee framework, not a course-specific total or 2027/28 quote."
+      },
+      "scholarships_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-BICOCCA-BISP-2026",
+          "SRC-BICOCCA-DSU-2026"
+        ],
+        "notes": "The identified BISP and DSU schemes are for 2026/27 only; no 2027/28 call or award was found."
+      },
+      "acceptance_rate": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-BICOCCA-DS-COURSE-2026",
+          "SRC-BICOCCA-DS-CALL-2026"
+        ],
+        "notes": "The reviewed official course and call pages do not provide a complete applicant denominator and admitted count; no acceptance rate is inferred."
+      },
+      "previous_cycle_scholarships": {
+        "value": {
+          "academic_year": "2026/27",
+          "Bicocca_International_Scholarship_Programme": {
+            "competitive_awards_per_listed_course": 5,
+            "gross_eur_per_academic_year": 10000,
+            "tuition_exemption": true,
+            "administrative_and_regional_fees_exempt": false,
+            "eligible_scope": "International students resident abroad with foreign qualifications"
+          },
+          "listed_course": "Yes"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BICOCCA-BISP-2026"
+        ],
+        "notes": "This course is listed in the competitive prior-cycle scheme. No 2027/28 BISP offer is confirmed."
+      }
+    },
+    "source_ids": [
+      "SRC-BICOCCA-2027",
+      "SRC-BICOCCA-ENGLISH-PROGRAMS",
+      "SRC-BICOCCA-DS-COURSE-2026",
+      "SRC-BICOCCA-DS-CALL-2026",
+      "SRC-BICOCCA-FEES-2026",
+      "SRC-BICOCCA-FEES-FAQ-2026",
+      "SRC-BICOCCA-BISP-2026",
+      "SRC-BICOCCA-DSU-2026"
+    ],
     "previous_tracker_tags": {
       "level": "MSc",
       "language": "English",
       "field": "Data Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
-    "previous_cycle_tags": null,
+    "previous_cycle_tags": {
+      "level": "MSc",
+      "language": "English",
+      "field": "Data Science",
+      "cycle": "2026-2027",
+      "label": "Official 2026/27 course evidence only; 2027/28 first-year intake remains unverified"
+    },
     "last_checked": "2026-11-09"
   },
   {
@@ -2932,38 +3312,221 @@
     "level": {
       "value": "MSc",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-BICOCCA-HCAI-COURSE-2026",
+        "SRC-BICOCCA-HCAI-CALL-2026"
+      ],
+      "notes": "Official 2026/27 material identifies this as a MSc; confirm its level in the 2027/28 course offer."
     },
     "language": {
       "value": "English",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-BICOCCA-HCAI-COURSE-2026",
+        "SRC-BICOCCA-HCAI-CALL-2026"
+      ],
+      "notes": "Official prior-cycle material identifies English as the course language; verify the 2027/28 offer."
     },
     "field": {
       "value": "Computer Science",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-BICOCCA-HCAI-COURSE-2026"
+      ],
+      "notes": "Prior-cycle subject classification only; confirm the 2027/28 course record."
     },
     "availability_2027_2028": {
       "value": null,
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
+      "source_ids": [
+        "SRC-BICOCCA-2027",
+        "SRC-BICOCCA-HCAI-COURSE-2026",
+        "SRC-BICOCCA-HCAI-CALL-2026"
+      ],
+      "notes": "The reviewed 2027/28 international page establishes country-specific foreign-qualification guidance but does not name this course or publish its first-year call. The latest course-specific evidence is 2026/27; no cancellation is inferred."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
-    "facts": {},
-    "source_ids": [],
+    "facts": {
+      "previous_cycle_course_listing": {
+        "value": {
+          "academic_year": "2026/27",
+          "official_name": "Human-Centered Artificial Intelligence",
+          "level": "MSc",
+          "language": "English"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BICOCCA-HCAI-COURSE-2026"
+        ],
+        "notes": "Current course identity and delivery evidence only; this does not confirm a 2027/28 first-year intake."
+      },
+      "previous_cycle_program_requirements": {
+        "value": {
+          "academic_year": "2026/27",
+          "admissions_authority": "University of Milan",
+          "criteria": "See the University of Milan's annual course call; the reviewed enrolment page provides dates and administration but not a consolidated criteria summary."
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BICOCCA-HCAI-CALL-2026"
+        ],
+        "notes": "Published 2026/27 criteria only; applicants must use the new annual call for current requirements."
+      },
+      "previous_cycle_english_requirement": {
+        "value": {
+          "course_language": "English",
+          "source": "Official course profile"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BICOCCA-HCAI-COURSE-2026",
+          "SRC-BICOCCA-HCAI-CALL-2026"
+        ],
+        "notes": "Prior-cycle course language or English threshold only; the 2027/28 call may set different evidence or exemptions."
+      },
+      "previous_cycle_application_windows": {
+        "value": {
+          "academic_year": "2026/27",
+          "application_start": "2026-01-22",
+          "application_deadline": "2026-10-30",
+          "enrollment_start": "2026-05-05",
+          "enrollment_deadline": "2027-01-15",
+          "non_eu_visa_applicant_deadline": "2026-04-30"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BICOCCA-HCAI-CALL-2026"
+        ],
+        "notes": "These dates and any stated fee are for 2026/27 only and must not be used as 2027/28 deadlines."
+      },
+      "previous_cycle_international_admission": {
+        "value": {
+          "academic_year": "2026/27",
+          "admissions_authority": "University of Milan",
+          "administrative_headquarters": "University of Milan",
+          "joint_partners": [
+            "Milano-Bicocca",
+            "University of Pavia",
+            "University of Milan"
+          ]
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BICOCCA-HCAI-COURSE-2026",
+          "SRC-BICOCCA-HCAI-CALL-2026"
+        ],
+        "notes": "Historical admissions ownership/platform only. Check the course's next annual call and the current foreign-qualification guidance."
+      },
+      "application_windows": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-BICOCCA-2027",
+          "SRC-BICOCCA-HCAI-CALL-2026"
+        ],
+        "notes": "No program-specific 2027/28 application window was found; recorded course windows are from 2026/27."
+      },
+      "application_fee_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-BICOCCA-HCAI-CALL-2026"
+        ],
+        "notes": "No 2027/28 course application fee was confirmed; any prior-cycle fee is kept in its historical fact."
+      },
+      "program_specific_requirements_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-BICOCCA-2027",
+          "SRC-BICOCCA-HCAI-CALL-2026"
+        ],
+        "notes": "No 2027/28 course call or requirements were identified. The university's 2027/28 country-specific qualification page does not confirm these course-level criteria."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-BICOCCA-FEES-2026",
+          "SRC-BICOCCA-FEES-FAQ-2026"
+        ],
+        "notes": "No 2027/28 fee schedule or individual total was identified; prior-cycle general amounts are not carried forward."
+      },
+      "previous_cycle_tuition": {
+        "value": {
+          "academic_year": "2026/27",
+          "first_installment_eur": 146,
+          "later_contribution": "Variable by ISEE and course area",
+          "foreign_qualification_and_foreign_residence": "Fixed tariff based on country of residence and course area"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BICOCCA-FEES-2026",
+          "SRC-BICOCCA-FEES-FAQ-2026"
+        ],
+        "notes": "University-wide historical fee framework, not a course-specific total or 2027/28 quote."
+      },
+      "scholarships_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-BICOCCA-BISP-2026",
+          "SRC-BICOCCA-DSU-2026"
+        ],
+        "notes": "The identified BISP and DSU schemes are for 2026/27 only; no 2027/28 call or award was found."
+      },
+      "acceptance_rate": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-BICOCCA-HCAI-COURSE-2026",
+          "SRC-BICOCCA-HCAI-CALL-2026"
+        ],
+        "notes": "The reviewed official course and call pages do not provide a complete applicant denominator and admitted count; no acceptance rate is inferred."
+      },
+      "previous_cycle_scholarships": {
+        "value": {
+          "academic_year": "2026/27",
+          "Bicocca_International_Scholarship_Programme": {
+            "competitive_awards_per_listed_course": 5,
+            "gross_eur_per_academic_year": 10000,
+            "tuition_exemption": true,
+            "administrative_and_regional_fees_exempt": false,
+            "eligible_scope": "International students resident abroad with foreign qualifications"
+          },
+          "listed_course": "Yes"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BICOCCA-BISP-2026"
+        ],
+        "notes": "This course is listed in the competitive prior-cycle scheme. No 2027/28 BISP offer is confirmed."
+      }
+    },
+    "source_ids": [
+      "SRC-BICOCCA-2027",
+      "SRC-BICOCCA-ENGLISH-PROGRAMS",
+      "SRC-BICOCCA-HCAI-COURSE-2026",
+      "SRC-BICOCCA-HCAI-CALL-2026",
+      "SRC-BICOCCA-FEES-2026",
+      "SRC-BICOCCA-FEES-FAQ-2026",
+      "SRC-BICOCCA-BISP-2026",
+      "SRC-BICOCCA-DSU-2026"
+    ],
     "previous_tracker_tags": {
       "level": "MSc",
       "language": "English",
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
-    "previous_cycle_tags": null,
+    "previous_cycle_tags": {
+      "level": "MSc",
+      "language": "English",
+      "field": "Computer Science",
+      "cycle": "2026-2027",
+      "label": "Official 2026/27 course evidence only; 2027/28 first-year intake remains unverified"
+    },
     "last_checked": "2026-11-09"
   },
   {
@@ -2975,38 +3538,236 @@
     "level": {
       "value": "BSc",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-BICOCCA-AI-BSC-COURSE-2026",
+        "SRC-BICOCCA-AI-BSC-CALL-2026"
+      ],
+      "notes": "Official 2026/27 material identifies this as a BSc; confirm its level in the 2027/28 course offer."
     },
     "language": {
       "value": "English",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-BICOCCA-AI-BSC-COURSE-2026",
+        "SRC-BICOCCA-AI-BSC-CALL-2026"
+      ],
+      "notes": "Official prior-cycle material identifies English as the course language; verify the 2027/28 offer."
     },
     "field": {
       "value": "Computer Science",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-BICOCCA-AI-BSC-COURSE-2026"
+      ],
+      "notes": "Prior-cycle subject classification only; confirm the 2027/28 course record."
     },
     "availability_2027_2028": {
       "value": null,
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
+      "source_ids": [
+        "SRC-BICOCCA-2027",
+        "SRC-BICOCCA-AI-BSC-COURSE-2026",
+        "SRC-BICOCCA-AI-BSC-CALL-2026"
+      ],
+      "notes": "The reviewed 2027/28 international page establishes country-specific foreign-qualification guidance but does not name this course or publish its first-year call. The latest course-specific evidence is 2026/27; no cancellation is inferred."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
-    "facts": {},
-    "source_ids": [],
+    "facts": {
+      "previous_cycle_course_listing": {
+        "value": {
+          "academic_year": "2026/27",
+          "official_name": "Artificial Intelligence",
+          "level": "BSc",
+          "language": "English"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BICOCCA-AI-BSC-COURSE-2026"
+        ],
+        "notes": "Current course identity and delivery evidence only; this does not confirm a 2027/28 first-year intake."
+      },
+      "previous_cycle_program_requirements": {
+        "value": {
+          "academic_year": "2026/27",
+          "degree": "Three-year inter-university L-31 Bachelor's degree",
+          "selection": "Admission test; CEnT-S or eligible prior English TOLC-I for specified groups; SAT for non-EU applicants residing abroad",
+          "places": {
+            "EU_or_equivalent_or_Italy_resident": 130,
+            "non_EU_abroad": 45,
+            "Marco_Polo": 5
+          },
+          "score_thresholds_from_FAQ": {
+            "CEnT_S_minimum_normalized": 20,
+            "English_TOLC_I_minimum": 21,
+            "SAT_minimum_for_non_EU_abroad": 979
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BICOCCA-AI-BSC-CALL-2026",
+          "SRC-BICOCCA-AI-BSC-FAQ-2026"
+        ],
+        "notes": "Published 2026/27 criteria only; applicants must use the new annual call for current requirements."
+      },
+      "previous_cycle_english_requirement": {
+        "value": {
+          "course_language": "English"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BICOCCA-AI-BSC-COURSE-2026",
+          "SRC-BICOCCA-AI-BSC-CALL-2026"
+        ],
+        "notes": "Prior-cycle course language or English threshold only; the 2027/28 call may set different evidence or exemptions."
+      },
+      "previous_cycle_application_windows": {
+        "value": {
+          "academic_year": "2026/27",
+          "registration_periods": [
+            {
+              "start": "2026-06-09",
+              "end": "2026-06-25"
+            },
+            {
+              "start": "2026-10-05",
+              "end": "2026-10-22"
+            }
+          ],
+          "second_ranking": "2026-11-10",
+          "enrollment_deadline": "2026-11-16"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BICOCCA-AI-BSC-CALL-2026",
+          "SRC-BICOCCA-AI-BSC-FAQ-2026"
+        ],
+        "notes": "These dates and any stated fee are for 2026/27 only and must not be used as 2027/28 deadlines."
+      },
+      "previous_cycle_international_admission": {
+        "value": {
+          "academic_year": "2026/27",
+          "admissions_authority": "University of Pavia",
+          "administrative_headquarters": "University of Pavia",
+          "joint_partners": [
+            "University of Pavia",
+            "Milano-Bicocca",
+            "University of Milan"
+          ],
+          "foreign_qualification_process": "Follow the University of Pavia's annual inter-university call"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BICOCCA-AI-BSC-COURSE-2026",
+          "SRC-BICOCCA-AI-BSC-CALL-2026"
+        ],
+        "notes": "Historical admissions ownership/platform only. Check the course's next annual call and the current foreign-qualification guidance."
+      },
+      "application_windows": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-BICOCCA-2027",
+          "SRC-BICOCCA-AI-BSC-CALL-2026"
+        ],
+        "notes": "No program-specific 2027/28 application window was found; recorded course windows are from 2026/27."
+      },
+      "application_fee_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-BICOCCA-AI-BSC-CALL-2026"
+        ],
+        "notes": "No 2027/28 course application fee was confirmed; any prior-cycle fee is kept in its historical fact."
+      },
+      "program_specific_requirements_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-BICOCCA-2027",
+          "SRC-BICOCCA-AI-BSC-CALL-2026"
+        ],
+        "notes": "No 2027/28 course call or requirements were identified. The university's 2027/28 country-specific qualification page does not confirm these course-level criteria."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-BICOCCA-FEES-2026",
+          "SRC-BICOCCA-FEES-FAQ-2026"
+        ],
+        "notes": "No 2027/28 fee schedule or individual total was identified; prior-cycle general amounts are not carried forward."
+      },
+      "previous_cycle_tuition": {
+        "value": {
+          "academic_year": "2026/27",
+          "first_installment_eur": 146,
+          "later_contribution": "Variable by ISEE and course area",
+          "foreign_qualification_and_foreign_residence": "Fixed tariff based on country of residence and course area"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BICOCCA-FEES-2026",
+          "SRC-BICOCCA-FEES-FAQ-2026"
+        ],
+        "notes": "University-wide historical fee framework, not a course-specific total or 2027/28 quote."
+      },
+      "scholarships_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-BICOCCA-BISP-2026",
+          "SRC-BICOCCA-DSU-2026"
+        ],
+        "notes": "The identified BISP and DSU schemes are for 2026/27 only; no 2027/28 call or award was found."
+      },
+      "acceptance_rate": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-BICOCCA-AI-BSC-COURSE-2026",
+          "SRC-BICOCCA-AI-BSC-CALL-2026"
+        ],
+        "notes": "The reviewed official course and call pages do not provide a complete applicant denominator and admitted count; no acceptance rate is inferred."
+      },
+      "previous_cycle_scholarships": {
+        "value": {
+          "academic_year": "2026/27",
+          "BISP_undergraduate_course_match": "Unclear: the call lists 'Artificial Science (LT)', not this Artificial Intelligence BSc",
+          "regional_DSU": "Annual competitive benefits under the 2026/27 call"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BICOCCA-BISP-2026",
+          "SRC-BICOCCA-DSU-2026"
+        ],
+        "notes": "The BISP wording does not establish this BSc's eligibility. DSU was a separate annual regional competition; neither scheme confirms 2027/28 funding."
+      }
+    },
+    "source_ids": [
+      "SRC-BICOCCA-2027",
+      "SRC-BICOCCA-ENGLISH-PROGRAMS",
+      "SRC-BICOCCA-AI-BSC-COURSE-2026",
+      "SRC-BICOCCA-AI-BSC-CALL-2026",
+      "SRC-BICOCCA-FEES-2026",
+      "SRC-BICOCCA-FEES-FAQ-2026",
+      "SRC-BICOCCA-BISP-2026",
+      "SRC-BICOCCA-DSU-2026",
+      "SRC-BICOCCA-AI-BSC-FAQ-2026"
+    ],
     "previous_tracker_tags": {
       "level": "BSc",
       "language": "English",
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
-    "previous_cycle_tags": null,
+    "previous_cycle_tags": {
+      "level": "BSc",
+      "language": "English",
+      "field": "Computer Science",
+      "cycle": "2026-2027",
+      "label": "Official 2026/27 course evidence only; 2027/28 first-year intake remains unverified"
+    },
     "last_checked": "2026-11-09"
   },
   {
@@ -3018,38 +3779,227 @@
     "level": {
       "value": "MSc",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-BICOCCA-ASTRO-COURSE-2026",
+        "SRC-BICOCCA-ASTRO-CALL-2026"
+      ],
+      "notes": "Official 2026/27 material identifies this as a MSc; confirm its level in the 2027/28 course offer."
     },
     "language": {
       "value": "English",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-BICOCCA-ASTRO-COURSE-2026",
+        "SRC-BICOCCA-ASTRO-CALL-2026"
+      ],
+      "notes": "Official prior-cycle material identifies English as the course language; verify the 2027/28 offer."
     },
     "field": {
       "value": "Sciences",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-BICOCCA-ASTRO-COURSE-2026"
+      ],
+      "notes": "Prior-cycle subject classification only; confirm the 2027/28 course record."
     },
     "availability_2027_2028": {
       "value": null,
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
+      "source_ids": [
+        "SRC-BICOCCA-2027",
+        "SRC-BICOCCA-ASTRO-COURSE-2026",
+        "SRC-BICOCCA-ASTRO-CALL-2026"
+      ],
+      "notes": "The reviewed 2027/28 international page establishes country-specific foreign-qualification guidance but does not name this course or publish its first-year call. The latest course-specific evidence is 2026/27; no cancellation is inferred."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
-    "facts": {},
-    "source_ids": [],
+    "facts": {
+      "previous_cycle_course_listing": {
+        "value": {
+          "academic_year": "2026/27",
+          "official_name": "Astrophysics and Space Physics",
+          "level": "MSc",
+          "language": "English"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BICOCCA-ASTRO-COURSE-2026"
+        ],
+        "notes": "Current course identity and delivery evidence only; this does not confirm a 2027/28 first-year intake."
+      },
+      "previous_cycle_program_requirements": {
+        "value": {
+          "academic_year": "2026/27",
+          "degree": "Suitable Bachelor's degree",
+          "curricular_credits": {
+            "standard_route": "L-30 degree",
+            "other_degree_classes": {
+              "mathematics_minimum_cfu": 18,
+              "physics_minimum_cfu": 18
+            }
+          },
+          "assessment": "Personal-preparation interview; L-30 Physics/Astrophysics/Astronomy graduates with at least 90/110 are exempt"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BICOCCA-ASTRO-CALL-2026"
+        ],
+        "notes": "Published 2026/27 criteria only; applicants must use the new annual call for current requirements."
+      },
+      "previous_cycle_english_requirement": {
+        "value": {
+          "minimum_level": "B2 CEFR"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BICOCCA-ASTRO-COURSE-2026",
+          "SRC-BICOCCA-ASTRO-CALL-2026"
+        ],
+        "notes": "Prior-cycle course language or English threshold only; the 2027/28 call may set different evidence or exemptions."
+      },
+      "previous_cycle_application_windows": {
+        "value": {
+          "academic_year": "2026/27",
+          "italian_qualification_application_periods": [
+            {
+              "start": "2026-04-13",
+              "end": "2026-06-19"
+            },
+            {
+              "start": "2026-06-22",
+              "end": "2026-09-11"
+            }
+          ],
+          "application_fee_eur": 30
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BICOCCA-ASTRO-CALL-2026"
+        ],
+        "notes": "These dates and any stated fee are for 2026/27 only and must not be used as 2027/28 deadlines."
+      },
+      "previous_cycle_international_admission": {
+        "value": {
+          "academic_year": "2026/27",
+          "foreign_qualification_platform": "apply.unimib.it"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BICOCCA-ASTRO-COURSE-2026",
+          "SRC-BICOCCA-ASTRO-CALL-2026"
+        ],
+        "notes": "Historical admissions ownership/platform only. Check the course's next annual call and the current foreign-qualification guidance."
+      },
+      "application_windows": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-BICOCCA-2027",
+          "SRC-BICOCCA-ASTRO-CALL-2026"
+        ],
+        "notes": "No program-specific 2027/28 application window was found; recorded course windows are from 2026/27."
+      },
+      "application_fee_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-BICOCCA-ASTRO-CALL-2026"
+        ],
+        "notes": "No 2027/28 course application fee was confirmed; any prior-cycle fee is kept in its historical fact."
+      },
+      "program_specific_requirements_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-BICOCCA-2027",
+          "SRC-BICOCCA-ASTRO-CALL-2026"
+        ],
+        "notes": "No 2027/28 course call or requirements were identified. The university's 2027/28 country-specific qualification page does not confirm these course-level criteria."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-BICOCCA-FEES-2026",
+          "SRC-BICOCCA-FEES-FAQ-2026"
+        ],
+        "notes": "No 2027/28 fee schedule or individual total was identified; prior-cycle general amounts are not carried forward."
+      },
+      "previous_cycle_tuition": {
+        "value": {
+          "academic_year": "2026/27",
+          "first_installment_eur": 146,
+          "later_contribution": "Variable by ISEE and course area",
+          "foreign_qualification_and_foreign_residence": "Fixed tariff based on country of residence and course area"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BICOCCA-FEES-2026",
+          "SRC-BICOCCA-FEES-FAQ-2026"
+        ],
+        "notes": "University-wide historical fee framework, not a course-specific total or 2027/28 quote."
+      },
+      "scholarships_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-BICOCCA-BISP-2026",
+          "SRC-BICOCCA-DSU-2026"
+        ],
+        "notes": "The identified BISP and DSU schemes are for 2026/27 only; no 2027/28 call or award was found."
+      },
+      "acceptance_rate": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-BICOCCA-ASTRO-COURSE-2026",
+          "SRC-BICOCCA-ASTRO-CALL-2026"
+        ],
+        "notes": "The reviewed official course and call pages do not provide a complete applicant denominator and admitted count; no acceptance rate is inferred."
+      },
+      "previous_cycle_scholarships": {
+        "value": {
+          "academic_year": "2026/27",
+          "Bicocca_International_Scholarship_Programme": {
+            "competitive_awards_per_listed_course": 5,
+            "gross_eur_per_academic_year": 10000,
+            "tuition_exemption": true,
+            "administrative_and_regional_fees_exempt": false,
+            "eligible_scope": "International students resident abroad with foreign qualifications"
+          },
+          "listed_course": "Yes"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BICOCCA-BISP-2026"
+        ],
+        "notes": "This course is listed in the competitive prior-cycle scheme. No 2027/28 BISP offer is confirmed."
+      }
+    },
+    "source_ids": [
+      "SRC-BICOCCA-2027",
+      "SRC-BICOCCA-ENGLISH-PROGRAMS",
+      "SRC-BICOCCA-ASTRO-COURSE-2026",
+      "SRC-BICOCCA-ASTRO-CALL-2026",
+      "SRC-BICOCCA-FEES-2026",
+      "SRC-BICOCCA-FEES-FAQ-2026",
+      "SRC-BICOCCA-BISP-2026",
+      "SRC-BICOCCA-DSU-2026"
+    ],
     "previous_tracker_tags": {
       "level": "MSc",
       "language": "English",
       "field": "Sciences",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
-    "previous_cycle_tags": null,
+    "previous_cycle_tags": {
+      "level": "MSc",
+      "language": "English",
+      "field": "Sciences",
+      "cycle": "2026-2027",
+      "label": "Official 2026/27 course evidence only; 2027/28 first-year intake remains unverified"
+    },
     "last_checked": "2026-11-09"
   },
   {
@@ -3061,38 +4011,220 @@
     "level": {
       "value": "MSc",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-BICOCCA-INTECO-COURSE-2026",
+        "SRC-BICOCCA-INTECO-CALL-2026"
+      ],
+      "notes": "Official 2026/27 material identifies this as a MSc; confirm its level in the 2027/28 course offer."
     },
     "language": {
       "value": "English",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-BICOCCA-INTECO-COURSE-2026",
+        "SRC-BICOCCA-INTECO-CALL-2026"
+      ],
+      "notes": "Official prior-cycle material identifies English as the course language; verify the 2027/28 offer."
     },
     "field": {
       "value": "Economics",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-BICOCCA-INTECO-COURSE-2026"
+      ],
+      "notes": "Prior-cycle subject classification only; confirm the 2027/28 course record."
     },
     "availability_2027_2028": {
       "value": null,
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
+      "source_ids": [
+        "SRC-BICOCCA-2027",
+        "SRC-BICOCCA-INTECO-COURSE-2026",
+        "SRC-BICOCCA-INTECO-CALL-2026"
+      ],
+      "notes": "The reviewed 2027/28 international page establishes country-specific foreign-qualification guidance but does not name this course or publish its first-year call. The latest course-specific evidence is 2026/27; no cancellation is inferred."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
-    "facts": {},
-    "source_ids": [],
+    "facts": {
+      "previous_cycle_course_listing": {
+        "value": {
+          "academic_year": "2026/27",
+          "official_name": "International Economics",
+          "level": "MSc",
+          "language": "English"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BICOCCA-INTECO-COURSE-2026"
+        ],
+        "notes": "Current course identity and delivery evidence only; this does not confirm a 2027/28 first-year intake."
+      },
+      "previous_cycle_program_requirements": {
+        "value": {
+          "academic_year": "2026/27",
+          "degree": "Bachelor's qualification",
+          "english": "B2",
+          "standard_degree_routes": [
+            "L-18",
+            "L-33",
+            "legacy L-17",
+            "legacy L-28"
+          ],
+          "standard_route_grade_minimum": "110/110 for the listed standard classes",
+          "other_degrees": "Assessed in economics/business, mathematics/statistics and law; interview may be required"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BICOCCA-INTECO-CALL-2026"
+        ],
+        "notes": "Published 2026/27 criteria only; applicants must use the new annual call for current requirements."
+      },
+      "previous_cycle_english_requirement": {
+        "value": {
+          "minimum_level": "B2 CEFR"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BICOCCA-INTECO-COURSE-2026",
+          "SRC-BICOCCA-INTECO-CALL-2026"
+        ],
+        "notes": "Prior-cycle course language or English threshold only; the 2027/28 call may set different evidence or exemptions."
+      },
+      "previous_cycle_application_windows": {
+        "value": {
+          "academic_year": "2026/27",
+          "application_start": "2026-04-01",
+          "application_deadline": "2026-09-07",
+          "application_fee": "No fee stated in the reviewed call"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BICOCCA-INTECO-CALL-2026"
+        ],
+        "notes": "These dates and any stated fee are for 2026/27 only and must not be used as 2027/28 deadlines."
+      },
+      "previous_cycle_international_admission": {
+        "value": {
+          "academic_year": "2026/27",
+          "foreign_qualification_platform": "DreamApply / apply.unimib"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BICOCCA-INTECO-COURSE-2026",
+          "SRC-BICOCCA-INTECO-CALL-2026"
+        ],
+        "notes": "Historical admissions ownership/platform only. Check the course's next annual call and the current foreign-qualification guidance."
+      },
+      "application_windows": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-BICOCCA-2027",
+          "SRC-BICOCCA-INTECO-CALL-2026"
+        ],
+        "notes": "No program-specific 2027/28 application window was found; recorded course windows are from 2026/27."
+      },
+      "application_fee_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-BICOCCA-INTECO-CALL-2026"
+        ],
+        "notes": "No 2027/28 course application fee was confirmed; any prior-cycle fee is kept in its historical fact."
+      },
+      "program_specific_requirements_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-BICOCCA-2027",
+          "SRC-BICOCCA-INTECO-CALL-2026"
+        ],
+        "notes": "No 2027/28 course call or requirements were identified. The university's 2027/28 country-specific qualification page does not confirm these course-level criteria."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-BICOCCA-FEES-2026",
+          "SRC-BICOCCA-FEES-FAQ-2026"
+        ],
+        "notes": "No 2027/28 fee schedule or individual total was identified; prior-cycle general amounts are not carried forward."
+      },
+      "previous_cycle_tuition": {
+        "value": {
+          "academic_year": "2026/27",
+          "first_installment_eur": 146,
+          "later_contribution": "Variable by ISEE and course area",
+          "foreign_qualification_and_foreign_residence": "Fixed tariff based on country of residence and course area"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BICOCCA-FEES-2026",
+          "SRC-BICOCCA-FEES-FAQ-2026"
+        ],
+        "notes": "University-wide historical fee framework, not a course-specific total or 2027/28 quote."
+      },
+      "scholarships_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-BICOCCA-BISP-2026",
+          "SRC-BICOCCA-DSU-2026"
+        ],
+        "notes": "The identified BISP and DSU schemes are for 2026/27 only; no 2027/28 call or award was found."
+      },
+      "acceptance_rate": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-BICOCCA-INTECO-COURSE-2026",
+          "SRC-BICOCCA-INTECO-CALL-2026"
+        ],
+        "notes": "The reviewed official course and call pages do not provide a complete applicant denominator and admitted count; no acceptance rate is inferred."
+      },
+      "previous_cycle_scholarships": {
+        "value": {
+          "academic_year": "2026/27",
+          "Bicocca_International_Scholarship_Programme": {
+            "competitive_awards_per_listed_course": 5,
+            "gross_eur_per_academic_year": 10000,
+            "tuition_exemption": true,
+            "administrative_and_regional_fees_exempt": false,
+            "eligible_scope": "International students resident abroad with foreign qualifications"
+          },
+          "listed_course": "Yes"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BICOCCA-BISP-2026"
+        ],
+        "notes": "This course is listed in the competitive prior-cycle scheme. No 2027/28 BISP offer is confirmed."
+      }
+    },
+    "source_ids": [
+      "SRC-BICOCCA-2027",
+      "SRC-BICOCCA-ENGLISH-PROGRAMS",
+      "SRC-BICOCCA-INTECO-COURSE-2026",
+      "SRC-BICOCCA-INTECO-CALL-2026",
+      "SRC-BICOCCA-FEES-2026",
+      "SRC-BICOCCA-FEES-FAQ-2026",
+      "SRC-BICOCCA-BISP-2026",
+      "SRC-BICOCCA-DSU-2026"
+    ],
     "previous_tracker_tags": {
       "level": "MSc",
       "language": "English",
       "field": "Economics",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
-    "previous_cycle_tags": null,
+    "previous_cycle_tags": {
+      "level": "MSc",
+      "language": "English",
+      "field": "Economics",
+      "cycle": "2026-2027",
+      "label": "Official 2026/27 course evidence only; 2027/28 first-year intake remains unverified"
+    },
     "last_checked": "2026-11-09"
   },
   {
