@@ -6,10 +6,11 @@
   "universities_without_initial_official_source_outcome": 0,
   "universities_fully_verified": 0,
   "universities_partially_researched": 34,
-  "universities_with_program_level_research": 14,
+  "universities_with_program_level_research": 15,
   "university_ids_with_program_level_research": [
     "bologna",
     "ca-foscari",
+    "camerino",
     "catania",
     "firenze",
     "messina",
@@ -23,9 +24,8 @@
     "tor-vergata",
     "verona"
   ],
-  "universities_program_level_review_not_started": 20,
+  "universities_program_level_review_not_started": 19,
   "university_ids_with_program_level_review_not_started": [
-    "camerino",
     "ferrara",
     "genova",
     "insubria",
@@ -54,10 +54,14 @@
   "programs_fully_verified": 23,
   "programs_requiring_verification": 164,
   "programs_not_offered_2027_2028": 2,
-  "programs_supported_only_by_previous_cycle": 17,
+  "programs_supported_only_by_previous_cycle": 21,
   "program_ids_supported_only_by_previous_cycle": [
     "discovered-023",
     "discovered-024",
+    "legacy-068",
+    "legacy-069",
+    "legacy-070",
+    "legacy-071",
     "legacy-079",
     "legacy-081",
     "legacy-083",
@@ -109,10 +113,11 @@
     "politecnico-torino",
     "siena"
   ],
-  "universities_with_unavailable_or_conflicting_information": 9,
+  "universities_with_unavailable_or_conflicting_information": 10,
   "university_ids_with_unavailable_or_conflicting_information": [
     "bologna",
     "ca-foscari",
+    "camerino",
     "padova",
     "perugia",
     "pisa",
@@ -121,13 +126,14 @@
     "tor-vergata",
     "trento"
   ],
-  "universities_with_conflicting_sources": 2,
+  "universities_with_conflicting_sources": 3,
   "university_ids_with_conflicting_sources": [
+    "camerino",
     "politecnico-milano",
     "trento"
   ],
-  "source_records": 138,
-  "official_source_supported_fields": 320,
+  "source_records": 152,
+  "official_source_supported_fields": 343,
   "verification_statuses": [
     "CONFIRMED",
     "NOT_YET_PUBLISHED",

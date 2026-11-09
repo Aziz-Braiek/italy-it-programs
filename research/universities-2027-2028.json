@@ -1070,29 +1070,215 @@
     "country": "Italy",
     "official_website": "https://www.unicam.it/",
     "international_admissions_url": "https://international.unicam.it/admissions/faq",
-    "application_portal_url": null,
-    "contact_email": null,
+    "application_portal_url": "https://didattica.unicam.it/",
+    "contact_email": "welcome@unicam.it",
     "contact_url": "https://international.unicam.it/admissions/faq",
     "cycle_status": "REQUIRES_VERIFICATION",
     "research_stage": "PARTIALLY_RESEARCHED",
-    "research_summary": "The official admissions material reviewed is for 2026/27 or general guidance; 2027/28 program-level checks remain outstanding.",
+    "research_summary": "The official 2026/27 English master's list and course profiles match four historic English MSc leads. Course-level requirements are recorded where published; Computer Science and Mathematics curricula and Chemistry naming show official-page discrepancies. 2027/28 first-year availability, admissions, fees and awards remain unconfirmed.",
     "coverage": {
       "official_website_visited": "complete",
       "international_admissions_page_examined": "partial",
       "bachelors_admissions_examined": "not_started",
-      "masters_admissions_examined": "not_started",
-      "english_programs_examined": "not_started",
-      "fees_examined": "not_started",
-      "scholarships_examined": "not_started",
+      "masters_admissions_examined": "partial",
+      "english_programs_examined": "partial",
+      "fees_examined": "partial",
+      "scholarships_examined": "partial",
       "non_eu_requirements_examined": "partial",
-      "application_deadlines_examined": "not_started",
-      "program_level_review": "not_started"
+      "application_deadlines_examined": "partial",
+      "program_level_review": "partial"
     },
     "source_ids": [
-      "SRC-CAMERINO-FAQ"
+      "SRC-CAMERINO-FAQ",
+      "SRC-CAMERINO-ENGLISH-MASTERS",
+      "SRC-CAMERINO-OFFER-2026",
+      "SRC-CAMERINO-CS-PROFILE",
+      "SRC-CAMERINO-CHEM-PROFILE",
+      "SRC-CAMERINO-CHEM-ITALIAN-PROFILE",
+      "SRC-CAMERINO-MATH-PROFILE",
+      "SRC-CAMERINO-PHYSICS-PROFILE",
+      "SRC-CAMERINO-PREADMISSION-2026",
+      "SRC-CAMERINO-PREADMISSION-GUIDE-2026",
+      "SRC-CAMERINO-FOREIGN-FEES",
+      "SRC-CAMERINO-ALLIN-2026",
+      "SRC-CAMERINO-TUITION-2026",
+      "SRC-ERDIS-MARCHE-2026",
+      "SRC-CAMERINO-WELCOMEIN-MSC-2026"
     ],
     "last_checked": "2026-11-09",
-    "cycle_facts": {}
+    "cycle_facts": {
+      "admissions_contact": {
+        "value": {
+          "email": "welcome@unicam.it",
+          "office": "UNICAM Welcome Office"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CAMERINO-FAQ",
+          "SRC-CAMERINO-PREADMISSION-2026"
+        ],
+        "notes": "Official international admissions contact. The FAQ invites EU and non-EU international students to pre-admission; this contact is not a 2027/28 call."
+      },
+      "international_qualification_process": {
+        "value": {
+          "route": "Pre-admission / preliminary curriculum evaluation for international EU and non-EU applicants",
+          "portal": "https://didattica.unicam.it/",
+          "visa_step": "Applicants requiring a study visa continue with Universitaly after a positive evaluation"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CAMERINO-FAQ",
+          "SRC-CAMERINO-PREADMISSION-2026"
+        ],
+        "notes": "General route guidance only; course availability, applicant category rules and 2027/28 process remain to be checked in the next call."
+      },
+      "application_windows": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CAMERINO-PREADMISSION-2026",
+          "SRC-CAMERINO-FAQ"
+        ],
+        "notes": "The pages reviewed provide 2026/27 pre-admission dates or general instructions. No 2027/28 application window or deadline was identified; the sources do not explicitly say that a new call will not be published."
+      },
+      "application_procedure_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CAMERINO-PREADMISSION-2026",
+          "SRC-CAMERINO-FAQ",
+          "SRC-CAMERINO-ENGLISH-MASTERS"
+        ],
+        "notes": "The current international pages describe a closed 2026/27 call and general guidance. A 2027/28 first-year application route for the four MSc candidates was not confirmed."
+      },
+      "non_eu_requirements_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CAMERINO-PREADMISSION-2026",
+          "SRC-CAMERINO-PREADMISSION-GUIDE-2026"
+        ],
+        "notes": "The reviewed visa and pre-admission steps, €20 fee and document instructions are for 2026/27. Do not carry their dates or terms into 2027/28."
+      },
+      "previous_cycle_international_admission": {
+        "value": {
+          "academic_year": "2026/27",
+          "applicants": "International EU and non-EU candidates were invited to preliminary curriculum evaluation",
+          "non_eu_pre_admission_deadline": "2026-03-31",
+          "call_status_as_of_review": "Closed for non-EU applicants",
+          "application_fee_eur": 20,
+          "fee_refundable": false,
+          "english_course_certificate_at_pre_admission": "Cambridge, IELTS or TOEFL optional; the page says not to upload MOI",
+          "after_positive_evaluation": "Not final enrollment; visa applicants continue with Universitaly",
+          "contact": "welcome@unicam.it"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CAMERINO-PREADMISSION-2026",
+          "SRC-CAMERINO-PREADMISSION-GUIDE-2026",
+          "SRC-CAMERINO-FAQ"
+        ],
+        "notes": "Prior-cycle international process only. Course-specific documents can vary, final enrollment is separate, and none of these dates or fees confirms the 2027/28 route."
+      },
+      "foreign_student_fee_framework": {
+        "value": {
+          "country_based_annual_fee_eur": {
+            "particularly_poor_and_developing_countries": 200,
+            "other_non_OECD_countries": 300
+          },
+          "income_based_route": "ISEE-U equalized declaration for specified foreign students",
+          "additional_charges": "Regional higher-education tax and stamp duty"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CAMERINO-FOREIGN-FEES"
+        ],
+        "notes": "The official page does not state an academic year for this framework. Treat it as undated guidance and recheck the 2027/28 fee notice."
+      },
+      "previous_cycle_all_inclusive_package": {
+        "value": {
+          "academic_year": "2026/27",
+          "places_per_named_master": 5,
+          "annual_cost_eur": 6876,
+          "includes": [
+            "University tuition",
+            "Double-room student-hall accommodation October–July",
+            "Two cafeteria meals per day while open",
+            "Local bus",
+            "Sports facilities",
+            "Administrative support"
+          ],
+          "installments": 4
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CAMERINO-ALLIN-2026"
+        ],
+        "notes": "Offer applies to 2026/27 entrants in the named two-year MSc courses. The package is historical and no matching 2027/28 offer is confirmed."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CAMERINO-FOREIGN-FEES",
+          "SRC-CAMERINO-ALLIN-2026",
+          "SRC-CAMERINO-TUITION-2026"
+        ],
+        "notes": "The official foreign-student page lacks a cycle label and the all-inclusive package is for 2026/27. No 2027/28 tuition schedule or package was identified; prior-cycle fees are not carried forward."
+      },
+      "previous_cycle_welcomein_scholarship": {
+        "value": {
+          "academic_year": "2026/27",
+          "awards": 30,
+          "amount_eur_each": 1500,
+          "eligible_group": "First-time year-one entrants to a two-year MSc with an Italian or foreign bachelor’s degree",
+          "application_deadline": "2027-02-18 12:00 Italy time",
+          "route": "Online student portal, Bandi section"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CAMERINO-WELCOMEIN-MSC-2026"
+        ],
+        "notes": "This prior-cycle university merit call is not guaranteed for 2027/28; annual eligibility and call conditions must be rechecked."
+      },
+      "previous_cycle_regional_scholarships": {
+        "value": {
+          "academic_year": "2026/27",
+          "administrator": "ERDIS Marche",
+          "eligible_applicants": "Italian and foreign students at Camerino and other Marche institutions, subject to merit and financial criteria",
+          "application_deadline": "2026-08-28",
+          "application": "Annual online call",
+          "potential_benefits": [
+            "Cash",
+            "Meals",
+            "Accommodation",
+            "Regional tax and university-fee exemptions"
+          ]
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-ERDIS-MARCHE-2026"
+        ],
+        "notes": "Regional competitive support, not a guaranteed Camerino course award. The 2026/27 deadline has passed; exact 2027/28 rules are not yet known."
+      },
+      "regional_scholarships_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-ERDIS-MARCHE-2026"
+        ],
+        "notes": "The latest call page reviewed is for 2026/27 and states that scholarship applications must be submitted annually. No 2027/28 ERDIS call, thresholds or award values were identified."
+      },
+      "scholarships_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CAMERINO-WELCOMEIN-MSC-2026",
+          "SRC-ERDIS-MARCHE-2026"
+        ],
+        "notes": "The latest university MSc and regional scholarship calls reviewed are for 2026/27. No 2027/28 WelcomeInUnicam or ERDIS award call was confirmed; recurrence and amounts are not assumed."
+      }
+    }
   },
   {
     "id": "ferrara",

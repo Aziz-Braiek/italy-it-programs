@@ -1536,14 +1536,17 @@
   {
     "id": "SRC-CAMERINO-FAQ",
     "university_id": "camerino",
-    "title": "Admissions FAQ",
+    "title": "International admissions FAQ",
     "url": "https://international.unicam.it/admissions/faq",
     "source_type": "Official international admissions FAQ",
     "accessed_at": "2026-11-09",
-    "cycle": "2026-2027",
-    "evidence": "General FAQ and prior-cycle information were available; a 2027/28 program-level call was not confirmed in the material reviewed.",
+    "cycle": "general",
+    "evidence": "Says all international students, EU and non-EU, are invited to pre-admission for curriculum evaluation; a positive result is followed by Universitaly pre-enrolment where relevant. Gives the Welcome Office contact and describes visa handling and annual ERDIS aid in general terms. Any timing on the page is not a 2027/28 deadline.",
     "supports": [
-      "university.general_admissions"
+      "university.international_qualification_process",
+      "university.admissions_contact",
+      "university.non_eu_process",
+      "university.scholarships"
     ]
   },
   {
@@ -2067,6 +2070,212 @@
     "evidence": "The study plan for students enrolled in 2026/27 says the second year will activate in 2027/28. This confirms planned second-year teaching for that cohort only and is not a new-entry admission notice.",
     "supports": [
       "program.academic_year_course_offering"
+    ]
+  },
+  {
+    "id": "SRC-CAMERINO-ENGLISH-MASTERS",
+    "university_id": "camerino",
+    "title": "Master’s degrees – international English course list",
+    "url": "https://international.unicam.it/courses/master",
+    "source_type": "Official international degree list",
+    "accessed_at": "2026-11-09",
+    "cycle": "general",
+    "evidence": "Lists two-year, 120-credit master’s degrees and identifies Chemistry, Computer Science (4 curricula), Mathematics and Applications (2 curricula named Advanced Theoretical Mathematics and Applied Engineering Oriented Mathematics), and Physics as English-taught. The page does not specify an academic year, so it supports discovery and course identity only, not a 2027/28 first-year intake.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.name",
+      "program.language",
+      "program.curricula"
+    ]
+  },
+  {
+    "id": "SRC-CAMERINO-OFFER-2026",
+    "university_id": "camerino",
+    "title": "Manifesto degli studi – academic offer and regulations 2026/27",
+    "url": "https://www.unicam.it/didattica/manifesto-degli-studi",
+    "source_type": "Official annual study manifesto",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The official study-manifesto page identifies the 2026/27 academic offer and regulations and links the annual manifesto, course offer and student-benefit documents. It is a prior-cycle source and does not establish 2027/28 new-entry availability.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "university.previous_cycle_admission_structure"
+    ]
+  },
+  {
+    "id": "SRC-CAMERINO-CS-PROFILE",
+    "university_id": "camerino",
+    "title": "Computer Science – official degree profile",
+    "url": "https://sst.unicam.it/corsi/computer-science",
+    "source_type": "Official degree profile",
+    "accessed_at": "2026-11-09",
+    "cycle": "general",
+    "evidence": "Identifies Computer Science as an English-taught LM-18 Master’s in Camerino, two years/120 CFU and open access. The profile names four active curricula (AI, SDT, BIS and MTDC) but later says the course has five curricula; the separate international English master list also says four. This profile does not itself specify an academic year or confirm 2027/28 intake.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_curricula",
+      "program.previous_cycle_language"
+    ]
+  },
+  {
+    "id": "SRC-CAMERINO-CHEM-PROFILE",
+    "university_id": "camerino",
+    "title": "Master’s Degree in Chemistry – official English degree profile",
+    "url": "https://chimica.unicam.it/en/node/87",
+    "source_type": "Official degree profile",
+    "accessed_at": "2026-11-09",
+    "cycle": "general",
+    "evidence": "Identifies a two-year, 120-credit LM-54 Master’s degree in Chemistry in Camerino, with training activities delivered in English. The international English master list also uses Chemistry, while the Italian School page and 2026/27 international package retain the title Chemistry and Advanced Chemical Methodologies; the official materials use both titles. This does not confirm 2027/28 intake.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_course_name_variants",
+      "program.previous_cycle_language"
+    ]
+  },
+  {
+    "id": "SRC-CAMERINO-CHEM-ITALIAN-PROFILE",
+    "university_id": "camerino",
+    "title": "Chemistry and Advanced Chemical Methodologies – official course page",
+    "url": "https://chimica.unicam.it/it/didattica/corso-di-laurea-chemistry-and-advanced-chemical-methodologies-classe-lm-54",
+    "source_type": "Official degree profile",
+    "accessed_at": "2026-11-09",
+    "cycle": "general",
+    "evidence": "The Italian School of Chemistry page identifies Chemistry and Advanced Chemical Methodologies as an LM-54, two-year, 120-CFU course in Camerino and says all educational activities are delivered in English. This differs from the shorter Chemistry title used on the English profile and international English master list; confirm the preferred displayed title in the 2027/28 offer.",
+    "supports": [
+      "program.previous_cycle_course_name_variants",
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_language"
+    ]
+  },
+  {
+    "id": "SRC-CAMERINO-MATH-PROFILE",
+    "university_id": "camerino",
+    "title": "Mathematics and Applications – official degree profile",
+    "url": "https://sst.unicam.it/index.php/corsi/mathematics-and-applications",
+    "source_type": "Official degree profile",
+    "accessed_at": "2026-11-09",
+    "cycle": "general",
+    "evidence": "Identifies Mathematics and Applications as an English-taught LM-40 Master’s in Camerino, two years/120 CFU and open access. It lists three curricula (Pure Mathematics, Mathematics for Industrial Engineering, Mathematics for Analytics and Finance) and says entry requires a Mathematics bachelor’s or another bachelor’s with at least 30 ECTS in Mathematics plus adequate Algebra, Analysis and Geometry; English B1 is required. The international master list instead says two curricula with different names. This does not confirm 2027/28 intake.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_curricula",
+      "program.previous_cycle_program_requirements",
+      "program.previous_cycle_language"
+    ]
+  },
+  {
+    "id": "SRC-CAMERINO-PHYSICS-PROFILE",
+    "university_id": "camerino",
+    "title": "Physics – official degree profile",
+    "url": "https://sst.unicam.it/corsi/physics",
+    "source_type": "Official degree profile",
+    "accessed_at": "2026-11-09",
+    "cycle": "general",
+    "evidence": "Identifies Physics as an English-taught LM-17 Master’s in Camerino, two years/120 CFU and open access. Entry requires a first-level degree or foreign equivalent with at least 70 CFU in Physics subject areas and 30 CFU in Mathematics and Informatics; English B1 is required. The profile is general/current and does not confirm a 2027/28 first-year intake.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_program_requirements",
+      "program.previous_cycle_language"
+    ]
+  },
+  {
+    "id": "SRC-CAMERINO-PREADMISSION-2026",
+    "university_id": "camerino",
+    "title": "Pre-admissions 2026/27 – international applicants",
+    "url": "https://international.unicam.it/admissions/pre-admissions-2026-2027",
+    "source_type": "Official international admissions page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "For 2026/27, the non-EU pre-admission call is closed and the listed deadline was 31 March 2026; EU/equivalent non-visa applicants are directed to welcome@unicam.it. International candidates register in the teaching portal, submit preliminary curriculum evaluation and pay a non-refundable €20 fee. For English courses Cambridge, IELTS or TOEFL documents are optional at pre-admission and MOI certificates are excluded by this page; a positive evaluation is not final enrolment and visa applicants must continue through Universitaly. No 2027/28 route or deadline is confirmed.",
+    "supports": [
+      "university.previous_cycle_international_admission",
+      "university.previous_cycle_application_fee",
+      "university.non_eu_process"
+    ]
+  },
+  {
+    "id": "SRC-CAMERINO-PREADMISSION-GUIDE-2026",
+    "university_id": "camerino",
+    "title": "Pre-admission procedure – official guide 2026/27",
+    "url": "https://international.unicam.it/sites/d7.unicam.it.international/files/_How%20to%20apply%20fro%20preliminary%20evaluation_2627_0.pdf",
+    "source_type": "Official international application procedure PDF",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The guide describes registration, preliminary evaluation and document upload for 2026/27 BSc, MSc and one-tier MSc applicants; mandatory documents and completed €20 payment were required before committee evaluation. It is historical process evidence and does not establish a 2027/28 application route or deadline.",
+    "supports": [
+      "university.previous_cycle_international_admission",
+      "university.previous_cycle_application_fee"
+    ]
+  },
+  {
+    "id": "SRC-CAMERINO-FOREIGN-FEES",
+    "university_id": "camerino",
+    "title": "Fees for foreign students",
+    "url": "https://www.miiscrivo.unicam.it/fees-foreign-students",
+    "source_type": "Official foreign-student tuition guidance",
+    "accessed_at": "2026-11-09",
+    "cycle": "general",
+    "evidence": "The page describes income-based ISEE-U equalised assessment for specified foreign applicants, fixed annual fees of €200 for students from designated particularly poor/developing countries and €300 for non-OECD countries outside that list, with regional tax and stamp duty added. It also describes a €6,876 all-inclusive option. The page does not label these amounts with an academic year; do not treat them as 2027/28 fees.",
+    "supports": [
+      "university.foreign_student_fee_framework",
+      "university.previous_cycle_tuition"
+    ]
+  },
+  {
+    "id": "SRC-CAMERINO-ALLIN-2026",
+    "university_id": "camerino",
+    "title": "Lump-sum enrollment package for international MSc students 2026/27",
+    "url": "https://international.unicam.it/admissions/lump-sum-enrollment-payment",
+    "source_type": "Official international tuition and accommodation offer",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "For 2026/27, the University advertised five places per named two-year MSc, including Chemistry and Advanced Chemical Methodologies, Computer Science, Mathematics and Applications, and Physics. The package costs €6,876 per academic year and includes tuition, double-room accommodation October–July, two meals per day while the canteen is open, local bus, sports facilities and administrative support, payable in four instalments. Historical offer only; no 2027/28 package is confirmed.",
+    "supports": [
+      "university.previous_cycle_all_inclusive_package",
+      "program.previous_cycle_all_inclusive_package"
+    ]
+  },
+  {
+    "id": "SRC-CAMERINO-TUITION-2026",
+    "university_id": "camerino",
+    "title": "University tuition and student contributions 2026/27",
+    "url": "https://www.unicam.it/laureato/segreterie-studenti/tasse",
+    "source_type": "Official university tuition page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The University fee page publishes 2026/27 contribution rules and installment details. Amounts depend on ISEE-U and other eligibility conditions; its all-inclusive domestic offer is not treated as an international flat rate. No 2027/28 fee schedule was identified.",
+    "supports": [
+      "university.previous_cycle_tuition",
+      "university.tuition_2027_2028"
+    ]
+  },
+  {
+    "id": "SRC-ERDIS-MARCHE-2026",
+    "university_id": "camerino",
+    "title": "ERDIS Marche scholarship call service – 2026/27",
+    "url": "https://erdis.it/servizi/servizio-dettaglio/3161252",
+    "source_type": "Official regional scholarship service and call page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "ERDIS identifies Italian and foreign students at Camerino and other Marche universities as eligible to apply subject to merit and financial criteria. The 2026/27 deadline was 28 August 2026; applications are annual and online, and awards may include cash, meals, accommodation and tuition/tax exemptions. No 2027/28 call is confirmed.",
+    "supports": [
+      "university.previous_cycle_regional_scholarships",
+      "university.regional_scholarships_2027_2028",
+      "program.previous_cycle_scholarships"
+    ]
+  },
+  {
+    "id": "SRC-CAMERINO-WELCOMEIN-MSC-2026",
+    "university_id": "camerino",
+    "title": "WELCOMEINUNICAM scholarships for two-year Master’s students 2026/27",
+    "url": "https://www.unicam.it/avvisi/41688",
+    "source_type": "Official university scholarship notice",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The University announced 30 WELCOMEINUNICAM awards of €1,500 each for first-time entrants with an Italian or foreign bachelor’s degree enrolling in year one of a two-year MSc in 2026/27. The application deadline was 18 February 2027 at 12:00 through the student portal. This is a prior-cycle notice, not a 2027/28 award commitment.",
+    "supports": [
+      "university.previous_cycle_welcomein_scholarship",
+      "program.previous_cycle_scholarships"
     ]
   }
 ]

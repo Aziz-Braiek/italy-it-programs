@@ -80,6 +80,11 @@
       "id": "ca-foscari-catalogue-and-2027-28-admission-review",
       "status": "partial",
       "result": "Checked the official 2026/27 English programme list and course profiles against all Ca' Foscari tracker leads; source-linked ten prior-cycle course profiles and entry requirements for the reviewed bachelor's and master's records. Corrected Hospitality Innovation and e-Tourism from the legacy MSc label to the official BSc level, and documented that the catalogue lists Digital Management only as a BSc, not a separate MSc. Confirmed 2027/28 international applications begin in December 2026 and the university announced 8 BSc and 20 MSc Honours awards of €10,000/year; exact admission and scholarship calls remain pending. Recorded 2026/27 tuition and Veneto regional-aid conditions as historical only. Buddhism and Asian Religions remains the only separate Ca' Foscari program confirmed for a 2027/28 first-year intake; the other candidate rows remain pending."
+    },
+    {
+      "id": "camerino-english-masters-and-2026-27-prior-cycle-review",
+      "status": "partial",
+      "result": "Checked the official international master list and course profiles for Computer Science, Chemistry, Mathematics and Applications, and Physics. Recorded prior-cycle degree classes, English delivery, available academic entry requirements, a 2026/27 €6,876 international housing/tuition package, the €20 international pre-admission fee and deadline, WelcomeInUnicam and ERDIS Marche scholarship context. Logged the official curriculum-count discrepancies for Computer Science and Mathematics and conflicting Chemistry course titles. No 2027/28 first-year calls, deadlines, tuition amounts or scholarship awards were confirmed; all four candidate intakes remain pending."
     }
   ],
   "counts": {
@@ -90,10 +95,11 @@
     "universities_without_initial_official_source_outcome": 0,
     "universities_fully_verified": 0,
     "universities_partially_researched": 34,
-    "universities_with_program_level_research": 14,
+    "universities_with_program_level_research": 15,
     "university_ids_with_program_level_research": [
       "bologna",
       "ca-foscari",
+      "camerino",
       "catania",
       "firenze",
       "messina",
@@ -107,9 +113,8 @@
       "tor-vergata",
       "verona"
     ],
-    "universities_program_level_review_not_started": 20,
+    "universities_program_level_review_not_started": 19,
     "university_ids_with_program_level_review_not_started": [
-      "camerino",
       "ferrara",
       "genova",
       "insubria",
@@ -138,10 +143,14 @@
     "programs_fully_verified": 23,
     "programs_requiring_verification": 164,
     "programs_not_offered_2027_2028": 2,
-    "programs_supported_only_by_previous_cycle": 17,
+    "programs_supported_only_by_previous_cycle": 21,
     "program_ids_supported_only_by_previous_cycle": [
       "discovered-023",
       "discovered-024",
+      "legacy-068",
+      "legacy-069",
+      "legacy-070",
+      "legacy-071",
       "legacy-079",
       "legacy-081",
       "legacy-083",
@@ -193,10 +202,11 @@
       "politecnico-torino",
       "siena"
     ],
-    "universities_with_unavailable_or_conflicting_information": 9,
+    "universities_with_unavailable_or_conflicting_information": 10,
     "university_ids_with_unavailable_or_conflicting_information": [
       "bologna",
       "ca-foscari",
+      "camerino",
       "padova",
       "perugia",
       "pisa",
@@ -205,13 +215,14 @@
       "tor-vergata",
       "trento"
     ],
-    "universities_with_conflicting_sources": 2,
+    "universities_with_conflicting_sources": 3,
     "university_ids_with_conflicting_sources": [
+      "camerino",
       "politecnico-milano",
       "trento"
     ],
-    "source_records": 138,
-    "official_source_supported_fields": 320,
+    "source_records": 152,
+    "official_source_supported_fields": 343,
     "verification_statuses": [
       "CONFIRMED",
       "NOT_YET_PUBLISHED",

@@ -3104,38 +3104,209 @@
     "level": {
       "value": "MSc",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-CAMERINO-ENGLISH-MASTERS",
+        "SRC-CAMERINO-CS-PROFILE",
+        "SRC-CAMERINO-OFFER-2026"
+      ],
+      "notes": "The latest official English master list and profile identify this as an MSc, but they are general or prior-cycle evidence and do not confirm level for a 2027/28 first-year intake."
     },
     "language": {
       "value": "English",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-CAMERINO-ENGLISH-MASTERS",
+        "SRC-CAMERINO-CS-PROFILE",
+        "SRC-CAMERINO-OFFER-2026"
+      ],
+      "notes": "The official list/profile identifies English delivery in the latest material reviewed; 2027/28 language remains to be rechecked against the new offer."
     },
     "field": {
       "value": "Computer Science",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-CAMERINO-ENGLISH-MASTERS",
+        "SRC-CAMERINO-CS-PROFILE",
+        "SRC-CAMERINO-OFFER-2026"
+      ],
+      "notes": "The official program identity supports this field in the latest material reviewed; the 2027/28 listing remains unconfirmed."
     },
     "availability_2027_2028": {
       "value": null,
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
+      "source_ids": [
+        "SRC-CAMERINO-ENGLISH-MASTERS",
+        "SRC-CAMERINO-CS-PROFILE",
+        "SRC-CAMERINO-OFFER-2026",
+        "SRC-CAMERINO-PREADMISSION-2026"
+      ],
+      "notes": "The reviewed official course list/profile and international pre-admission information are general or for 2026/27. No 2027/28 first-year intake for this course was identified; no cancellation is inferred."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
-    "facts": {},
-    "source_ids": [],
+    "facts": {
+      "previous_cycle_course_listing": {
+        "value": {
+          "academic_year": "Latest official material reviewed; includes 2026/27 annual offer context",
+          "official_name": "Computer Science",
+          "degree": "Laurea Magistrale / Master of Science",
+          "degree_class": "LM-18",
+          "duration_years": 2,
+          "credits": 120,
+          "location": "Camerino",
+          "language": "English"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CAMERINO-ENGLISH-MASTERS",
+          "SRC-CAMERINO-CS-PROFILE",
+          "SRC-CAMERINO-OFFER-2026"
+        ],
+        "notes": "Latest official page and course profile evidence; the international master list does not specify an academic year, while the annual offer page reviewed is 2026/27. This does not confirm a 2027/28 new-entry intake."
+      },
+      "application_windows": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CAMERINO-PREADMISSION-2026",
+          "SRC-CAMERINO-FAQ"
+        ],
+        "notes": "No program-specific 2027/28 application dates were found. The 2026/27 pre-admission deadline is retained at university level as historical evidence."
+      },
+      "program_specific_requirements_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CAMERINO-CS-PROFILE",
+          "SRC-CAMERINO-PREADMISSION-2026"
+        ],
+        "notes": "No program-specific 2027/28 admission notice or annual requirements were identified."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CAMERINO-FOREIGN-FEES",
+          "SRC-CAMERINO-ALLIN-2026",
+          "SRC-CAMERINO-TUITION-2026"
+        ],
+        "notes": "The reviewed foreign-fee page is not cycle-labelled and the published all-inclusive package is for 2026/27; no 2027/28 amount or package is confirmed."
+      },
+      "previous_cycle_all_inclusive_package": {
+        "value": {
+          "academic_year": "2026/27",
+          "places_per_named_master": 5,
+          "annual_cost_eur": 6876,
+          "includes": [
+            "Tuition",
+            "Double-room accommodation October–July",
+            "Two cafeteria meals per day while open",
+            "Local bus",
+            "Sports facilities",
+            "Administrative support"
+          ],
+          "installments": 4
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CAMERINO-ALLIN-2026"
+        ],
+        "notes": "A 2026/27 international package for this named two-year MSc; it is not a 2027/28 fee or promise of available places."
+      },
+      "previous_cycle_scholarships": {
+        "value": {
+          "academic_year": "2026/27",
+          "WelcomeInUnicam": {
+            "awards": 30,
+            "amount_eur_each": 1500,
+            "application_deadline": "2027-02-18 12:00 Italy time",
+            "scope": "First-year entrants to any two-year MSc, including students with foreign bachelor’s degrees"
+          },
+          "ERDIS_Marche": {
+            "scope": "Competitive regional merit- and income-based aid",
+            "application_deadline": "2026-08-28"
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CAMERINO-ALLIN-2026",
+          "SRC-CAMERINO-WELCOMEIN-MSC-2026",
+          "SRC-ERDIS-MARCHE-2026"
+        ],
+        "notes": "Historical 2026/27 university and regional aid only. Eligibility, deadlines and amounts are annual; no 2027/28 call is confirmed."
+      },
+      "acceptance_rate": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-CAMERINO-CS-PROFILE"
+        ],
+        "notes": "The reviewed course pages do not publish applicant/admitted-student counts or an acceptance rate; no selectivity estimate is inferred."
+      },
+      "previous_cycle_curricula": {
+        "value": {
+          "named_curricula": [
+            "Artificial Intelligence (AI)",
+            "Software Development and Technologies (SDT)",
+            "Business Information Systems (BIS)",
+            "Methodologies and Technologies for Digital Communication (MTDC)"
+          ],
+          "official_count_conflict": {
+            "international_master_list_count": 4,
+            "profile_active_list_count": 4,
+            "profile_prose_count": 5,
+            "profile_prose_detail": "The profile lists four named active curricula, then says five curricula can be chosen."
+          }
+        },
+        "status": "CONFLICTING_SOURCES",
+        "source_ids": [
+          "SRC-CAMERINO-ENGLISH-MASTERS",
+          "SRC-CAMERINO-CS-PROFILE"
+        ],
+        "notes": "The current profile's named list contains four curricula, but its later prose says five; the international master list also says four. The exact official count needs clarification."
+      },
+      "previous_cycle_program_requirements": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CAMERINO-CS-PROFILE"
+        ],
+        "notes": "The reviewed profile does not give a complete course-specific academic entry requirement; check the program guide and current annual admission notice."
+      },
+      "previous_cycle_english_requirement": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CAMERINO-CS-PROFILE"
+        ],
+        "notes": "The course is described as English-taught, but the reviewed profile does not state an English proficiency level or accepted evidence."
+      }
+    },
+    "source_ids": [
+      "SRC-CAMERINO-ENGLISH-MASTERS",
+      "SRC-CAMERINO-CS-PROFILE",
+      "SRC-CAMERINO-OFFER-2026",
+      "SRC-CAMERINO-PREADMISSION-2026",
+      "SRC-CAMERINO-FAQ",
+      "SRC-CAMERINO-FOREIGN-FEES",
+      "SRC-CAMERINO-ALLIN-2026",
+      "SRC-CAMERINO-TUITION-2026",
+      "SRC-CAMERINO-WELCOMEIN-MSC-2026",
+      "SRC-ERDIS-MARCHE-2026"
+    ],
     "previous_tracker_tags": {
       "level": "MSc",
       "language": "English",
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
-    "previous_cycle_tags": null,
+    "previous_cycle_tags": {
+      "level": "MSc",
+      "language": "English",
+      "field": "Computer Science",
+      "cycle": "2026-2027",
+      "label": "Latest official course listing/profile is general or prior-cycle evidence only"
+    },
     "last_checked": "2026-11-09"
   },
   {
@@ -3143,42 +3314,205 @@
     "university_id": "camerino",
     "university": "Università di Camerino",
     "city": "Camerino",
-    "program": "Chemistry and Advanced Chemical Methodologies",
+    "program": "Chemistry",
     "level": {
       "value": "MSc",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-CAMERINO-ENGLISH-MASTERS",
+        "SRC-CAMERINO-CHEM-PROFILE",
+        "SRC-CAMERINO-OFFER-2026"
+      ],
+      "notes": "The latest official English master list and profile identify this as an MSc, but they are general or prior-cycle evidence and do not confirm level for a 2027/28 first-year intake."
     },
     "language": {
       "value": "English",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-CAMERINO-ENGLISH-MASTERS",
+        "SRC-CAMERINO-CHEM-PROFILE",
+        "SRC-CAMERINO-OFFER-2026"
+      ],
+      "notes": "The official list/profile identifies English delivery in the latest material reviewed; 2027/28 language remains to be rechecked against the new offer."
     },
     "field": {
-      "value": "Sciences",
+      "value": "Chemistry",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-CAMERINO-ENGLISH-MASTERS",
+        "SRC-CAMERINO-CHEM-PROFILE",
+        "SRC-CAMERINO-OFFER-2026"
+      ],
+      "notes": "The official program identity supports this field in the latest material reviewed; the 2027/28 listing remains unconfirmed."
     },
     "availability_2027_2028": {
       "value": null,
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
+      "source_ids": [
+        "SRC-CAMERINO-ENGLISH-MASTERS",
+        "SRC-CAMERINO-CHEM-PROFILE",
+        "SRC-CAMERINO-OFFER-2026",
+        "SRC-CAMERINO-PREADMISSION-2026"
+      ],
+      "notes": "The reviewed official course list/profile and international pre-admission information are general or for 2026/27. No 2027/28 first-year intake for this course was identified; no cancellation is inferred."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
-    "facts": {},
-    "source_ids": [],
+    "facts": {
+      "previous_cycle_course_listing": {
+        "value": {
+          "academic_year": "Latest official material reviewed; includes 2026/27 annual offer context",
+          "official_name": "Chemistry",
+          "degree": "Laurea Magistrale / Master of Science",
+          "degree_class": "LM-54",
+          "duration_years": 2,
+          "credits": 120,
+          "location": "Camerino",
+          "language": "English"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CAMERINO-ENGLISH-MASTERS",
+          "SRC-CAMERINO-CHEM-PROFILE",
+          "SRC-CAMERINO-OFFER-2026"
+        ],
+        "notes": "Latest official page and course profile evidence; the international master list does not specify an academic year, while the annual offer page reviewed is 2026/27. This does not confirm a 2027/28 new-entry intake."
+      },
+      "application_windows": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CAMERINO-PREADMISSION-2026",
+          "SRC-CAMERINO-FAQ"
+        ],
+        "notes": "No program-specific 2027/28 application dates were found. The 2026/27 pre-admission deadline is retained at university level as historical evidence."
+      },
+      "program_specific_requirements_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CAMERINO-CHEM-PROFILE",
+          "SRC-CAMERINO-PREADMISSION-2026"
+        ],
+        "notes": "No program-specific 2027/28 admission notice or annual requirements were identified."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CAMERINO-FOREIGN-FEES",
+          "SRC-CAMERINO-ALLIN-2026",
+          "SRC-CAMERINO-TUITION-2026"
+        ],
+        "notes": "The reviewed foreign-fee page is not cycle-labelled and the published all-inclusive package is for 2026/27; no 2027/28 amount or package is confirmed."
+      },
+      "previous_cycle_all_inclusive_package": {
+        "value": {
+          "academic_year": "2026/27",
+          "places_per_named_master": 5,
+          "annual_cost_eur": 6876,
+          "includes": [
+            "Tuition",
+            "Double-room accommodation October–July",
+            "Two cafeteria meals per day while open",
+            "Local bus",
+            "Sports facilities",
+            "Administrative support"
+          ],
+          "installments": 4
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CAMERINO-ALLIN-2026"
+        ],
+        "notes": "A 2026/27 international package for this named two-year MSc; it is not a 2027/28 fee or promise of available places."
+      },
+      "previous_cycle_scholarships": {
+        "value": {
+          "academic_year": "2026/27",
+          "WelcomeInUnicam": {
+            "awards": 30,
+            "amount_eur_each": 1500,
+            "application_deadline": "2027-02-18 12:00 Italy time",
+            "scope": "First-year entrants to any two-year MSc, including students with foreign bachelor’s degrees"
+          },
+          "ERDIS_Marche": {
+            "scope": "Competitive regional merit- and income-based aid",
+            "application_deadline": "2026-08-28"
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CAMERINO-ALLIN-2026",
+          "SRC-CAMERINO-WELCOMEIN-MSC-2026",
+          "SRC-ERDIS-MARCHE-2026"
+        ],
+        "notes": "Historical 2026/27 university and regional aid only. Eligibility, deadlines and amounts are annual; no 2027/28 call is confirmed."
+      },
+      "acceptance_rate": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-CAMERINO-CHEM-PROFILE"
+        ],
+        "notes": "The reviewed course pages do not publish applicant/admitted-student counts or an acceptance rate; no selectivity estimate is inferred."
+      },
+      "previous_cycle_course_name_variants": {
+        "value": {
+          "english_profile_and_master_list": "Chemistry",
+          "italian_school_page_and_2026_27_package": "Chemistry and Advanced Chemical Methodologies"
+        },
+        "status": "CONFLICTING_SOURCES",
+        "source_ids": [
+          "SRC-CAMERINO-ENGLISH-MASTERS",
+          "SRC-CAMERINO-CHEM-PROFILE",
+          "SRC-CAMERINO-CHEM-ITALIAN-PROFILE",
+          "SRC-CAMERINO-ALLIN-2026"
+        ],
+        "notes": "Official University pages use both Chemistry and Chemistry and Advanced Chemical Methodologies for the LM-54 course. The latest English master list uses the shorter title; verify the preferred 2027/28 display name."
+      },
+      "previous_cycle_program_requirements": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CAMERINO-CHEM-PROFILE"
+        ],
+        "notes": "The reviewed profile does not give a complete course-specific academic entry requirement; check the program guide and current annual admission notice."
+      },
+      "previous_cycle_english_requirement": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CAMERINO-CHEM-PROFILE"
+        ],
+        "notes": "The course is described as English-taught, but the reviewed profile does not state an English proficiency level or accepted evidence."
+      }
+    },
+    "source_ids": [
+      "SRC-CAMERINO-ENGLISH-MASTERS",
+      "SRC-CAMERINO-CHEM-PROFILE",
+      "SRC-CAMERINO-OFFER-2026",
+      "SRC-CAMERINO-PREADMISSION-2026",
+      "SRC-CAMERINO-FAQ",
+      "SRC-CAMERINO-FOREIGN-FEES",
+      "SRC-CAMERINO-ALLIN-2026",
+      "SRC-CAMERINO-TUITION-2026",
+      "SRC-CAMERINO-WELCOMEIN-MSC-2026",
+      "SRC-ERDIS-MARCHE-2026"
+    ],
     "previous_tracker_tags": {
       "level": "MSc",
       "language": "English",
       "field": "Sciences",
-      "label": "Previous tracker classification — not reverified for 2027/28"
+      "label": "Previous tracker used the longer Chemistry and Advanced Chemical Methodologies title"
     },
-    "previous_cycle_tags": null,
+    "previous_cycle_tags": {
+      "level": "MSc",
+      "language": "English",
+      "field": "Chemistry",
+      "cycle": "2026-2027",
+      "label": "Latest official course listing/profile is general or prior-cycle evidence only"
+    },
     "last_checked": "2026-11-09"
   },
   {
@@ -3190,38 +3524,219 @@
     "level": {
       "value": "MSc",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-CAMERINO-ENGLISH-MASTERS",
+        "SRC-CAMERINO-MATH-PROFILE",
+        "SRC-CAMERINO-OFFER-2026"
+      ],
+      "notes": "The latest official English master list and profile identify this as an MSc, but they are general or prior-cycle evidence and do not confirm level for a 2027/28 first-year intake."
     },
     "language": {
       "value": "English",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-CAMERINO-ENGLISH-MASTERS",
+        "SRC-CAMERINO-MATH-PROFILE",
+        "SRC-CAMERINO-OFFER-2026"
+      ],
+      "notes": "The official list/profile identifies English delivery in the latest material reviewed; 2027/28 language remains to be rechecked against the new offer."
     },
     "field": {
-      "value": "Sciences",
+      "value": "Mathematics",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-CAMERINO-ENGLISH-MASTERS",
+        "SRC-CAMERINO-MATH-PROFILE",
+        "SRC-CAMERINO-OFFER-2026"
+      ],
+      "notes": "The official program identity supports this field in the latest material reviewed; the 2027/28 listing remains unconfirmed."
     },
     "availability_2027_2028": {
       "value": null,
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
+      "source_ids": [
+        "SRC-CAMERINO-ENGLISH-MASTERS",
+        "SRC-CAMERINO-MATH-PROFILE",
+        "SRC-CAMERINO-OFFER-2026",
+        "SRC-CAMERINO-PREADMISSION-2026"
+      ],
+      "notes": "The reviewed official course list/profile and international pre-admission information are general or for 2026/27. No 2027/28 first-year intake for this course was identified; no cancellation is inferred."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
-    "facts": {},
-    "source_ids": [],
+    "facts": {
+      "previous_cycle_course_listing": {
+        "value": {
+          "academic_year": "Latest official material reviewed; includes 2026/27 annual offer context",
+          "official_name": "Mathematics and Applications",
+          "degree": "Laurea Magistrale / Master of Science",
+          "degree_class": "LM-40",
+          "duration_years": 2,
+          "credits": 120,
+          "location": "Camerino",
+          "language": "English"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CAMERINO-ENGLISH-MASTERS",
+          "SRC-CAMERINO-MATH-PROFILE",
+          "SRC-CAMERINO-OFFER-2026"
+        ],
+        "notes": "Latest official page and course profile evidence; the international master list does not specify an academic year, while the annual offer page reviewed is 2026/27. This does not confirm a 2027/28 new-entry intake."
+      },
+      "application_windows": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CAMERINO-PREADMISSION-2026",
+          "SRC-CAMERINO-FAQ"
+        ],
+        "notes": "No program-specific 2027/28 application dates were found. The 2026/27 pre-admission deadline is retained at university level as historical evidence."
+      },
+      "program_specific_requirements_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CAMERINO-MATH-PROFILE",
+          "SRC-CAMERINO-PREADMISSION-2026"
+        ],
+        "notes": "No program-specific 2027/28 admission notice or annual requirements were identified."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CAMERINO-FOREIGN-FEES",
+          "SRC-CAMERINO-ALLIN-2026",
+          "SRC-CAMERINO-TUITION-2026"
+        ],
+        "notes": "The reviewed foreign-fee page is not cycle-labelled and the published all-inclusive package is for 2026/27; no 2027/28 amount or package is confirmed."
+      },
+      "previous_cycle_all_inclusive_package": {
+        "value": {
+          "academic_year": "2026/27",
+          "places_per_named_master": 5,
+          "annual_cost_eur": 6876,
+          "includes": [
+            "Tuition",
+            "Double-room accommodation October–July",
+            "Two cafeteria meals per day while open",
+            "Local bus",
+            "Sports facilities",
+            "Administrative support"
+          ],
+          "installments": 4
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CAMERINO-ALLIN-2026"
+        ],
+        "notes": "A 2026/27 international package for this named two-year MSc; it is not a 2027/28 fee or promise of available places."
+      },
+      "previous_cycle_scholarships": {
+        "value": {
+          "academic_year": "2026/27",
+          "WelcomeInUnicam": {
+            "awards": 30,
+            "amount_eur_each": 1500,
+            "application_deadline": "2027-02-18 12:00 Italy time",
+            "scope": "First-year entrants to any two-year MSc, including students with foreign bachelor’s degrees"
+          },
+          "ERDIS_Marche": {
+            "scope": "Competitive regional merit- and income-based aid",
+            "application_deadline": "2026-08-28"
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CAMERINO-ALLIN-2026",
+          "SRC-CAMERINO-WELCOMEIN-MSC-2026",
+          "SRC-ERDIS-MARCHE-2026"
+        ],
+        "notes": "Historical 2026/27 university and regional aid only. Eligibility, deadlines and amounts are annual; no 2027/28 call is confirmed."
+      },
+      "acceptance_rate": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-CAMERINO-MATH-PROFILE"
+        ],
+        "notes": "The reviewed course pages do not publish applicant/admitted-student counts or an acceptance rate; no selectivity estimate is inferred."
+      },
+      "previous_cycle_curricula": {
+        "value": {
+          "international_master_list": {
+            "count": 2,
+            "names": [
+              "Advanced Theoretical Mathematics",
+              "Applied Engineering Oriented Mathematics"
+            ]
+          },
+          "course_profile": {
+            "count": 3,
+            "names": [
+              "Pure Mathematics",
+              "Mathematics for Industrial Engineering",
+              "Mathematics for Analytics and Finance"
+            ]
+          }
+        },
+        "status": "CONFLICTING_SOURCES",
+        "source_ids": [
+          "SRC-CAMERINO-ENGLISH-MASTERS",
+          "SRC-CAMERINO-MATH-PROFILE"
+        ],
+        "notes": "The official international master's list gives two curricula and the course profile lists three with different names. The current 2027/28 structure needs confirmation."
+      },
+      "previous_cycle_program_requirements": {
+        "value": {
+          "academic_year": "Latest course profile material; not cycle-specific",
+          "requirements": {
+            "qualifying_degree": "Bachelor's degree in Mathematics, or another Bachelor's degree with at least 30 ECTS in Mathematics",
+            "additional_preparation": "Adequate knowledge of Algebra, Analysis and Geometry",
+            "english": "At least B1 CEFR"
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CAMERINO-MATH-PROFILE"
+        ],
+        "notes": "These are published course-profile requirements from the latest official material reviewed and are not confirmed for a 2027/28 admission call."
+      },
+      "previous_cycle_english_requirement": {
+        "value": "At least B1 CEFR",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CAMERINO-MATH-PROFILE"
+        ],
+        "notes": "Course-profile English level only; verify any certificate rules and current cycle requirements in the 2027/28 call."
+      }
+    },
+    "source_ids": [
+      "SRC-CAMERINO-ENGLISH-MASTERS",
+      "SRC-CAMERINO-MATH-PROFILE",
+      "SRC-CAMERINO-OFFER-2026",
+      "SRC-CAMERINO-PREADMISSION-2026",
+      "SRC-CAMERINO-FAQ",
+      "SRC-CAMERINO-FOREIGN-FEES",
+      "SRC-CAMERINO-ALLIN-2026",
+      "SRC-CAMERINO-TUITION-2026",
+      "SRC-CAMERINO-WELCOMEIN-MSC-2026",
+      "SRC-ERDIS-MARCHE-2026"
+    ],
     "previous_tracker_tags": {
       "level": "MSc",
       "language": "English",
       "field": "Sciences",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
-    "previous_cycle_tags": null,
+    "previous_cycle_tags": {
+      "level": "MSc",
+      "language": "English",
+      "field": "Mathematics",
+      "cycle": "2026-2027",
+      "label": "Latest official course listing/profile is general or prior-cycle evidence only"
+    },
     "last_checked": "2026-11-09"
   },
   {
@@ -3233,38 +3748,197 @@
     "level": {
       "value": "MSc",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-CAMERINO-ENGLISH-MASTERS",
+        "SRC-CAMERINO-PHYSICS-PROFILE",
+        "SRC-CAMERINO-OFFER-2026"
+      ],
+      "notes": "The latest official English master list and profile identify this as an MSc, but they are general or prior-cycle evidence and do not confirm level for a 2027/28 first-year intake."
     },
     "language": {
       "value": "English",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-CAMERINO-ENGLISH-MASTERS",
+        "SRC-CAMERINO-PHYSICS-PROFILE",
+        "SRC-CAMERINO-OFFER-2026"
+      ],
+      "notes": "The official list/profile identifies English delivery in the latest material reviewed; 2027/28 language remains to be rechecked against the new offer."
     },
     "field": {
-      "value": "Sciences",
+      "value": "Physics",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-CAMERINO-ENGLISH-MASTERS",
+        "SRC-CAMERINO-PHYSICS-PROFILE",
+        "SRC-CAMERINO-OFFER-2026"
+      ],
+      "notes": "The official program identity supports this field in the latest material reviewed; the 2027/28 listing remains unconfirmed."
     },
     "availability_2027_2028": {
       "value": null,
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
+      "source_ids": [
+        "SRC-CAMERINO-ENGLISH-MASTERS",
+        "SRC-CAMERINO-PHYSICS-PROFILE",
+        "SRC-CAMERINO-OFFER-2026",
+        "SRC-CAMERINO-PREADMISSION-2026"
+      ],
+      "notes": "The reviewed official course list/profile and international pre-admission information are general or for 2026/27. No 2027/28 first-year intake for this course was identified; no cancellation is inferred."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
-    "facts": {},
-    "source_ids": [],
+    "facts": {
+      "previous_cycle_course_listing": {
+        "value": {
+          "academic_year": "Latest official material reviewed; includes 2026/27 annual offer context",
+          "official_name": "Physics",
+          "degree": "Laurea Magistrale / Master of Science",
+          "degree_class": "LM-17",
+          "duration_years": 2,
+          "credits": 120,
+          "location": "Camerino",
+          "language": "English"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CAMERINO-ENGLISH-MASTERS",
+          "SRC-CAMERINO-PHYSICS-PROFILE",
+          "SRC-CAMERINO-OFFER-2026"
+        ],
+        "notes": "Latest official page and course profile evidence; the international master list does not specify an academic year, while the annual offer page reviewed is 2026/27. This does not confirm a 2027/28 new-entry intake."
+      },
+      "application_windows": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CAMERINO-PREADMISSION-2026",
+          "SRC-CAMERINO-FAQ"
+        ],
+        "notes": "No program-specific 2027/28 application dates were found. The 2026/27 pre-admission deadline is retained at university level as historical evidence."
+      },
+      "program_specific_requirements_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CAMERINO-PHYSICS-PROFILE",
+          "SRC-CAMERINO-PREADMISSION-2026"
+        ],
+        "notes": "No program-specific 2027/28 admission notice or annual requirements were identified."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CAMERINO-FOREIGN-FEES",
+          "SRC-CAMERINO-ALLIN-2026",
+          "SRC-CAMERINO-TUITION-2026"
+        ],
+        "notes": "The reviewed foreign-fee page is not cycle-labelled and the published all-inclusive package is for 2026/27; no 2027/28 amount or package is confirmed."
+      },
+      "previous_cycle_all_inclusive_package": {
+        "value": {
+          "academic_year": "2026/27",
+          "places_per_named_master": 5,
+          "annual_cost_eur": 6876,
+          "includes": [
+            "Tuition",
+            "Double-room accommodation October–July",
+            "Two cafeteria meals per day while open",
+            "Local bus",
+            "Sports facilities",
+            "Administrative support"
+          ],
+          "installments": 4
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CAMERINO-ALLIN-2026"
+        ],
+        "notes": "A 2026/27 international package for this named two-year MSc; it is not a 2027/28 fee or promise of available places."
+      },
+      "previous_cycle_scholarships": {
+        "value": {
+          "academic_year": "2026/27",
+          "WelcomeInUnicam": {
+            "awards": 30,
+            "amount_eur_each": 1500,
+            "application_deadline": "2027-02-18 12:00 Italy time",
+            "scope": "First-year entrants to any two-year MSc, including students with foreign bachelor’s degrees"
+          },
+          "ERDIS_Marche": {
+            "scope": "Competitive regional merit- and income-based aid",
+            "application_deadline": "2026-08-28"
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CAMERINO-ALLIN-2026",
+          "SRC-CAMERINO-WELCOMEIN-MSC-2026",
+          "SRC-ERDIS-MARCHE-2026"
+        ],
+        "notes": "Historical 2026/27 university and regional aid only. Eligibility, deadlines and amounts are annual; no 2027/28 call is confirmed."
+      },
+      "acceptance_rate": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-CAMERINO-PHYSICS-PROFILE"
+        ],
+        "notes": "The reviewed course pages do not publish applicant/admitted-student counts or an acceptance rate; no selectivity estimate is inferred."
+      },
+      "previous_cycle_program_requirements": {
+        "value": {
+          "academic_year": "Latest course profile material; not cycle-specific",
+          "requirements": {
+            "qualifying_degree": "First-level degree or equivalent foreign qualification",
+            "curricular_credits": {
+              "physics_minimum_cfu": 70,
+              "mathematics_and_informatics_minimum_cfu": 30
+            },
+            "english": "At least B1 CEFR"
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CAMERINO-PHYSICS-PROFILE"
+        ],
+        "notes": "These are published course-profile requirements from the latest official material reviewed and are not confirmed for a 2027/28 admission call."
+      },
+      "previous_cycle_english_requirement": {
+        "value": "At least B1 CEFR",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CAMERINO-PHYSICS-PROFILE"
+        ],
+        "notes": "Course-profile English level only; verify any certificate rules and current cycle requirements in the 2027/28 call."
+      }
+    },
+    "source_ids": [
+      "SRC-CAMERINO-ENGLISH-MASTERS",
+      "SRC-CAMERINO-PHYSICS-PROFILE",
+      "SRC-CAMERINO-OFFER-2026",
+      "SRC-CAMERINO-PREADMISSION-2026",
+      "SRC-CAMERINO-FAQ",
+      "SRC-CAMERINO-FOREIGN-FEES",
+      "SRC-CAMERINO-ALLIN-2026",
+      "SRC-CAMERINO-TUITION-2026",
+      "SRC-CAMERINO-WELCOMEIN-MSC-2026",
+      "SRC-ERDIS-MARCHE-2026"
+    ],
     "previous_tracker_tags": {
       "level": "MSc",
       "language": "English",
       "field": "Sciences",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
-    "previous_cycle_tags": null,
+    "previous_cycle_tags": {
+      "level": "MSc",
+      "language": "English",
+      "field": "Physics",
+      "cycle": "2026-2027",
+      "label": "Latest official course listing/profile is general or prior-cycle evidence only"
+    },
     "last_checked": "2026-11-09"
   },
   {
