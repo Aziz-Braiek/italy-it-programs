@@ -1699,15 +1699,163 @@
   {
     "id": "SRC-UNIVPM-INTL",
     "university_id": "marche",
-    "title": "Non-EU students applying for a visa",
-    "url": "https://www.international.univpm.it/become-a-student/enrolment/non-eu-students-applying-for-a-visa/",
+    "title": "International admissions – AY 2026/27",
+    "url": "https://www.international.univpm.it/international-admissions/",
     "source_type": "Official international admissions page",
     "accessed_at": "2026-11-09",
     "cycle": "2026-2027",
-    "evidence": "Official international site describes visa-applicant steps and refers to program-specific procedures; reviewed pages focus on 2026/27.",
+    "evidence": "The page explicitly limits the pre-evaluation procedure to AY 2026/27, lists up to two program applications with a €10 fee per application, and gives category-specific calls from December 2025 through November 2026. Non-EU applicants requiring visas proceed through Universitaly after positive evaluation; the visa pre-enrolment deadline shown is 30 November 2026. These procedures and dates are prior-cycle evidence only.",
     "supports": [
-      "university.general_admissions",
-      "university.non_eu_process"
+      "university.previous_cycle_application_windows",
+      "university.previous_cycle_application_fee",
+      "university.previous_cycle_non_eu_process"
+    ]
+  },
+  {
+    "id": "SRC-UNIVPM-DS-PROFILE-2026",
+    "university_id": "marche",
+    "title": "Data Science for Economics, Business and Finance – UnivPM Orienta",
+    "url": "https://www.orienta.univpm.it/en/our-courses/economics/data-science-for-economics-business-and-finance/",
+    "source_type": "Official course profile",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 profile identifies Data Science for Finance and Economics as a curriculum within Data Science for Economics, Business and Finance (LM-DATA), fully taught in English, open access with knowledge assessment, based in Ancona. The profile describes on-site lectures; a separate annual faculty notice specifies a delivery exception for this curriculum in 2026/27. This is not a 2027/28 new-entry confirmation.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_language",
+      "program.previous_cycle_access_type",
+      "program.previous_cycle_delivery"
+    ]
+  },
+  {
+    "id": "SRC-UNIVPM-DS-CATALOGUE-2026",
+    "university_id": "marche",
+    "title": "Data Science for Economics, Business and Finance – 2026/27 catalogue",
+    "url": "https://www.econ.univpm.it/EM31_EM33",
+    "source_type": "Official faculty course catalogue",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 Faculty catalogue lists the Data Science for Economics, Business and Finance Master's with LM-56 R, LM-91 R and LM-DATA classifications, and open access. The Finance and Economics name is a curriculum of this wider MSc, not a separately listed degree.",
+    "supports": [
+      "program.previous_cycle_course_listing"
+    ]
+  },
+  {
+    "id": "SRC-UNIVPM-DS-ENTRY-2026",
+    "university_id": "marche",
+    "title": "Entry requirements for Master's degree courses – Faculty of Economics",
+    "url": "https://www.univpm.it/Entra/Ingegneria/Cittadini_non_comunitari_residenti_all_estero_-_Segreteria_studenti_Economia/Ammissione_CLM_Economia/Entry_requirements_for_Master_s_degree_courses_-_Faculty_of_Economics",
+    "source_type": "Official course admissions page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The AY 2026/27 page lists the Data Science for Economics and Enterprises degree, including the Data Science for Finance and Economics curriculum, and states that curricular requirements and adequacy of preparation are verified for Master's applicants. Detailed curriculum and credit criteria are retained from the official prior-year regulation as historical context.",
+    "supports": [
+      "program.previous_cycle_admission",
+      "program.previous_cycle_requirements"
+    ]
+  },
+  {
+    "id": "SRC-UNIVPM-DS-REG-2025",
+    "university_id": "marche",
+    "title": "Data Science for Economics, Business and Finance – teaching regulations 2025/26",
+    "url": "https://www.econ.univpm.it/sites/www.econ.univpm.it/files/economia/DSEBF%20-%20REGOLAMENTO%20DIDATTICO%20DEI%20CORSI%20DI%20STUDIO%202025-2026_0.pdf",
+    "source_type": "Official course regulation",
+    "accessed_at": "2026-11-09",
+    "cycle": "2025-2026",
+    "evidence": "The prior-year regulation specifies a suitable first-cycle qualification, named Italian degree-class routes or curricular credits, individual preparation assessment and B2 English. It lists a threshold of 12 CFU in ICT/mathematical-statistical subjects and 12 CFU in economics/statistics/business-related sectors for applicants following the curricular-credit route. Its grade/interview provisions are specific to the 2025/26 regulation and must not be carried forward as current rules.",
+    "supports": [
+      "program.previous_cycle_regulatory_requirements"
+    ]
+  },
+  {
+    "id": "SRC-UNIVPM-DS-ENGLISH-2026",
+    "university_id": "marche",
+    "title": "Language requirements for programs taught in English",
+    "url": "https://www.international.univpm.it/english-language-requirement/",
+    "source_type": "Official language requirements page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The international office states that students entering English-taught programs must demonstrate English at CEFR B2 through recognized certification or accepted documentation. Program-specific acceptable evidence and exemptions must be checked in the annual course procedure.",
+    "supports": [
+      "program.previous_cycle_english_requirement"
+    ]
+  },
+  {
+    "id": "SRC-UNIVPM-DS-DELIVERY-2026",
+    "university_id": "marche",
+    "title": "Teaching activity methods AY 2026/27 – Faculty of Economics",
+    "url": "https://www.econ.univpm.it/node/15075",
+    "source_type": "Official annual teaching-delivery notice",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The Faculty's 2026/27 notice says the Data Science for Finance and Economics curriculum's lessons are provided by streaming or asynchronously as recorded lectures; examinations and graduation sessions remain in person. This annual exception is scoped to 2026/27 and differs from the generic course profile's on-site label.",
+    "supports": [
+      "program.previous_cycle_delivery"
+    ]
+  },
+  {
+    "id": "SRC-UNIVPM-FEES-2026",
+    "university_id": "marche",
+    "title": "Tuition and fees AY 2026/27",
+    "url": "https://www.univpm.it/Entra/Services_for_students/Scholarships_and_Opportunities/Tasse_e_agevolazioni/Tasse_e_contributi/Tuition_and_Fees",
+    "source_type": "Official tuition information",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The first 2026/27 installment is €156 (€140 regional tax and €16 stamp duty); later installments depend on the degree course and ISEE, which must be authorized by 5 November 2026. The amount is not a complete annual tuition quote and is not valid as a 2027/28 estimate.",
+    "supports": [
+      "university.previous_cycle_tuition"
+    ]
+  },
+  {
+    "id": "SRC-UNIVPM-MSC-AWARD-2026",
+    "university_id": "marche",
+    "title": "40 scholarships for first-year open-access Master's students 2026/27",
+    "url": "https://www.univpm.it/Entra/Services_for_students/Scholarships_and_Opportunities/Scholarships/Call_40_scholarships_students_enrolled_free_access_master_degree_course_2026",
+    "source_type": "Official university scholarship call",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The university offered 40 competitive gross awards of €2,000 for first-time enrollees in an open-access Master's in 2026/27. Eligibility included a Bachelor's result from 90/110 to 110/110 with honours and valid 2026 ISEE; the application period ran 15 July–17 November 2026. This general award was not guaranteed to any individual program and does not establish a 2027/28 call.",
+    "supports": [
+      "university.previous_cycle_scholarships"
+    ]
+  },
+  {
+    "id": "SRC-ERDIS-MARCHE-UNIVPM-2026",
+    "university_id": "marche",
+    "title": "ERDIS Marche scholarship call 2026/27",
+    "url": "https://erdis.it/notizie/3615023/pubblicato-bando-borsa-studio-erdis-marche-2026",
+    "source_type": "Official regional scholarship call",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "ERDIS Marche opened its annual regional scholarship call for 2026/27 to students at Marche universities, including international students subject to the annual eligibility criteria. Online applications ran 14 July–28 August 2026; regional aid may include scholarship and student services under the call. This does not confirm 2027/28 rules or awards.",
+    "supports": [
+      "university.previous_cycle_regional_scholarships"
+    ]
+  },
+  {
+    "id": "SRC-ERDIS-MARCHE-AID",
+    "university_id": "marche",
+    "title": "ERDIS Marche scholarships and benefits",
+    "url": "https://erdis.it/servizi/servizio-dettaglio/3161252",
+    "source_type": "Official regional student-aid service",
+    "accessed_at": "2026-11-09",
+    "cycle": "general",
+    "evidence": "ERDIS describes annual competitive aid for students enrolled at universities in Marche, with benefits including financial awards and possible meals/accommodation subject to eligibility and call conditions. It states that applications must be renewed each academic year.",
+    "supports": [
+      "university.regional_scholarship_structure"
+    ]
+  },
+  {
+    "id": "SRC-UNIVPM-CONTACT",
+    "university_id": "marche",
+    "title": "Useful contacts – International UnivPM",
+    "url": "https://www.international.univpm.it/first-week-at-univpm/useful-contacts-3/",
+    "source_type": "Official admissions contact page",
+    "accessed_at": "2026-11-09",
+    "cycle": "general",
+    "evidence": "The International Students' Admission Office page lists official contact channels, including the Economics-area phone number. General contact information only; the current call should be used to confirm 2027/28 procedures.",
+    "supports": [
+      "university.admissions_contact"
     ]
   },
   {

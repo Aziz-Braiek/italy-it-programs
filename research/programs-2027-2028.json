@@ -4319,42 +4319,287 @@
     "university_id": "marche",
     "university": "Università Politecnica delle Marche",
     "city": "Ancona",
-    "program": "Data Science for Finance and Economics",
+    "program": "Data Science for Finance and Economics (curriculum)",
     "level": {
-      "value": "MSc",
+      "value": "MSc curriculum",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-UNIVPM-DS-PROFILE-2026",
+        "SRC-UNIVPM-DS-CATALOGUE-2026"
+      ],
+      "notes": "The 2026/27 sources place this track within the broader Data Science for Economics, Business and Finance Master's. A 2027/28 course listing has not been identified."
     },
     "language": {
       "value": "English",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-UNIVPM-DS-PROFILE-2026"
+      ],
+      "notes": "The curriculum was fully English-taught in 2026/27; its 2027/28 delivery has not been confirmed."
     },
     "field": {
       "value": "Data Science",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-UNIVPM-DS-PROFILE-2026"
+      ],
+      "notes": "Prior-cycle curriculum identity in applied finance and economics only; verify the next official course offer."
     },
     "availability_2027_2028": {
       "value": null,
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
+      "source_ids": [
+        "SRC-UNIVPM-DS-PROFILE-2026",
+        "SRC-UNIVPM-DS-CATALOGUE-2026",
+        "SRC-UNIVPM-DS-ENTRY-2026",
+        "SRC-UNIVPM-DS-REG-2025",
+        "SRC-UNIVPM-DS-ENGLISH-2026"
+      ],
+      "notes": "Official sources reviewed list the curriculum for 2026/27 only. No 2027/28 first-year offer or call was identified on 9 November 2026; no cancellation is inferred."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
-    "facts": {},
-    "source_ids": [],
+    "facts": {
+      "previous_cycle_course_listing": {
+        "value": {
+          "academic_year": "2026/27",
+          "official_degree": "Data Science for Economics, Business and Finance",
+          "curriculum": "Data Science for Finance and Economics",
+          "degree_classifications": [
+            "LM-DATA",
+            "LM-56 R",
+            "LM-91 R"
+          ],
+          "duration_years": 2,
+          "credits": 120,
+          "location": "Ancona",
+          "language": "Fully offered in English",
+          "access": "Open access; adequacy of knowledge assessed",
+          "curriculum_is_separate_degree": false
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIVPM-DS-PROFILE-2026",
+          "SRC-UNIVPM-DS-CATALOGUE-2026"
+        ],
+        "notes": "This is a curriculum within the wider Master's, not a separately listed degree. All details are limited to the 2026/27 catalogue."
+      },
+      "previous_cycle_program_requirements": {
+        "value": {
+          "academic_year": "2025/26 regulation; admissions page also lists the track in 2026/27",
+          "qualification": "Suitable Bachelor's degree or recognized equivalent foreign qualification",
+          "curricular_credit_route": {
+            "informatics_mathematics_and_statistics": {
+              "minimum_credits": 12,
+              "areas": [
+                "MAT-01",
+                "MAT-05",
+                "MAT-06",
+                "MAT-08",
+                "MAT-09",
+                "INF-01",
+                "ING-INF/05",
+                "SECS-S/01",
+                "SECS-S/03",
+                "SECS-S/06",
+                "SECS-P/05"
+              ]
+            },
+            "economics_statistics_and_business": {
+              "minimum_credits": 12,
+              "areas": [
+                "SECS-P/01",
+                "SECS-P/02",
+                "SECS-P/05",
+                "SECS-P/06",
+                "SECS-P/07",
+                "SECS-P/08",
+                "ING-IND/35"
+              ]
+            }
+          },
+          "preparation_assessment": "Individual assessment by course committee",
+          "prior_regulation_grade_rule": "2025/26 regulation treated preparation as acquired above 85/110; candidates at or below that grade were subject to a successful interview"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIVPM-DS-REG-2025",
+          "SRC-UNIVPM-DS-ENTRY-2026"
+        ],
+        "notes": "Historical criteria only. Verify current subject-sector equivalencies, credit thresholds and grade/interview rules in the 2027/28 annual regulation."
+      },
+      "previous_cycle_english_requirement": {
+        "value": {
+          "academic_year": "2026/27",
+          "minimum_level": "B2 CEFR",
+          "evidence": "Recognized certificate or other documentation accepted by UnivPM; course-specific rules apply"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIVPM-DS-ENGLISH-2026",
+          "SRC-UNIVPM-INTL"
+        ],
+        "notes": "Prior-cycle language evidence only; confirm accepted certificates, exemptions and any changes for 2027/28."
+      },
+      "previous_cycle_delivery": {
+        "value": {
+          "academic_year": "2026/27",
+          "lectures": "Streaming or asynchronous recorded lessons for the Finance and Economics curriculum",
+          "exams": "In person",
+          "profile_note": "Generic course profile says on-site; the annual Faculty notice supplies this curriculum-specific exception"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIVPM-DS-PROFILE-2026",
+          "SRC-UNIVPM-DS-DELIVERY-2026"
+        ],
+        "notes": "Annual delivery arrangement for 2026/27 only; do not assume it continues in 2027/28."
+      },
+      "application_windows": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-UNIVPM-INTL",
+          "SRC-UNIVPM-DS-ENTRY-2026"
+        ],
+        "notes": "No 2027/28 program-specific application calendar was identified. The university-wide international windows in the source are for 2026/27 only."
+      },
+      "previous_cycle_international_admission": {
+        "value": {
+          "academic_year": "2026/27",
+          "applicant_scope": "Applicants holding a foreign qualification",
+          "assessment": "Curricular and language requirements, adequacy of personal preparation and qualification correspondence/authenticity",
+          "maximum_program_applications": 2,
+          "application_fee_eur_per_program": 10,
+          "visa_route": "Universitaly after positive pre-evaluation for non-EU applicants requiring a visa"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIVPM-INTL",
+          "SRC-UNIVPM-DS-ENTRY-2026"
+        ],
+        "notes": "International procedure and fee are prior-cycle evidence; use the future annual call for current requirements and dates."
+      },
+      "program_specific_requirements_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-UNIVPM-DS-ENTRY-2026",
+          "SRC-UNIVPM-DS-REG-2025"
+        ],
+        "notes": "No 2027/28 course regulation or admissions notice was identified. The prior-cycle entry criteria are retained separately."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-UNIVPM-FEES-2026"
+        ],
+        "notes": "No 2027/28 tuition schedule was identified; the 2026/27 €156 first installment is not a total-cost quote."
+      },
+      "previous_cycle_tuition": {
+        "value": {
+          "academic_year": "2026/27",
+          "fixed_first_installment_eur": 156,
+          "composition": {
+            "regional_tax_eur": 140,
+            "stamp_duty_eur": 16
+          },
+          "variable_installments": "Depend on course and ISEE"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIVPM-FEES-2026"
+        ],
+        "notes": "University-wide prior-cycle fee information; not a course-specific total or 2027/28 estimate."
+      },
+      "application_fee_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-UNIVPM-INTL"
+        ],
+        "notes": "The 2026/27 international pre-evaluation fee was €10 per submitted program; no 2027/28 application fee was identified."
+      },
+      "previous_cycle_scholarships": {
+        "value": {
+          "academic_year": "2026/27",
+          "open_access_masters_award": {
+            "awards": 40,
+            "gross_eur_each": 2000,
+            "criteria": "First-time open-access Master's enrollee; Bachelor's mark 90/110–110/110 with honours; valid 2026 ISEE",
+            "deadline": "2026-11-17 13:00 Italy time"
+          },
+          "ERDIS_Marche": {
+            "deadline": "2026-08-28",
+            "competitive": true,
+            "benefits": "Regional scholarship and services under annual eligibility rules"
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIVPM-MSC-AWARD-2026",
+          "SRC-ERDIS-MARCHE-UNIVPM-2026",
+          "SRC-ERDIS-MARCHE-AID"
+        ],
+        "notes": "Competitive general and regional schemes for 2026/27; neither guarantees funding for this curriculum. No 2027/28 award is confirmed."
+      },
+      "scholarships_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-UNIVPM-MSC-AWARD-2026",
+          "SRC-ERDIS-MARCHE-UNIVPM-2026"
+        ],
+        "notes": "No 2027/28 university or ERDIS scholarship call was identified; next-cycle eligibility, amounts and dates remain unknown."
+      },
+      "admissions_contact": {
+        "value": {
+          "contact_url": "https://www.international.univpm.it/first-week-at-univpm/useful-contacts-3/",
+          "economics_area_phone": "+39 071 220 2458"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIVPM-CONTACT"
+        ],
+        "notes": "Official general admissions contact route; this is not a course-specific 2027/28 call."
+      },
+      "acceptance_rate": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-UNIVPM-DS-ENTRY-2026"
+        ],
+        "notes": "The reviewed official pages do not publish a complete applicant and admitted-student denominator; no acceptance rate is estimated."
+      }
+    },
+    "source_ids": [
+      "SRC-UNIVPM-DS-PROFILE-2026",
+      "SRC-UNIVPM-DS-CATALOGUE-2026",
+      "SRC-UNIVPM-DS-ENTRY-2026",
+      "SRC-UNIVPM-DS-REG-2025",
+      "SRC-UNIVPM-DS-ENGLISH-2026",
+      "SRC-UNIVPM-DS-DELIVERY-2026",
+      "SRC-UNIVPM-INTL",
+      "SRC-UNIVPM-FEES-2026",
+      "SRC-UNIVPM-MSC-AWARD-2026",
+      "SRC-ERDIS-MARCHE-UNIVPM-2026",
+      "SRC-ERDIS-MARCHE-AID",
+      "SRC-UNIVPM-CONTACT"
+    ],
     "previous_tracker_tags": {
       "level": "MSc",
       "language": "English",
       "field": "Data Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
-    "previous_cycle_tags": null,
+    "previous_cycle_tags": {
+      "level": "MSc curriculum",
+      "language": "English",
+      "field": "Data Science",
+      "cycle": "2026-2027",
+      "label": "Official 2026/27 curriculum evidence; 2027/28 new-entry availability is unverified"
+    },
     "last_checked": "2026-11-09"
   },
   {

@@ -100,6 +100,11 @@
       "id": "laquila-computer-science-2026-27-prior-cycle-review",
       "status": "partial",
       "result": "Checked UnivAQ's official 2026/27 Computer Science course sheet, LM-18 regulation, international degree catalogue and closed foreign-degree selection call. Recorded the two-year English MSc profile, L-31/26 and curricular-credit requirements, B2 English, committee assessment, PICA deadline and fee for the 2026 cohort, plus current-cycle tuition guidance, international travel grants, UNICORE refugee aid and ADSU scholarship/residence calls. No 2027/28 new-entry call, dates, tuition schedule or scholarship call was identified; the program remains pending and no acceptance rate is inferred from the eligible-candidate list."
+    },
+    {
+      "id": "marche-data-science-finance-and-economics-2026-27-prior-cycle-review",
+      "status": "partial",
+      "result": "Matched the historical Data Science for Finance and Economics lead to its official status as a curriculum within UnivPM's Data Science for Economics, Business and Finance MSc. Recorded 2026/27 English-language course evidence, prior-year curricular and B2 requirements, faculty-specific streaming/asynchronous delivery, international pre-evaluation procedure, tuition structure and competitive UnivPM/ERDIS aid. No 2027/28 new-entry listing, application dates, fee schedule or scholarship call was identified; availability remains pending."
     }
   ],
   "counts": {
@@ -110,7 +115,7 @@
     "universities_without_initial_official_source_outcome": 0,
     "universities_fully_verified": 0,
     "universities_partially_researched": 34,
-    "universities_with_program_level_research": 18,
+    "universities_with_program_level_research": 19,
     "university_ids_with_program_level_research": [
       "bologna",
       "ca-foscari",
@@ -120,6 +125,7 @@
       "firenze",
       "insubria",
       "laquila",
+      "marche",
       "messina",
       "napoli-federico-ii",
       "padova",
@@ -131,10 +137,9 @@
       "tor-vergata",
       "verona"
     ],
-    "universities_program_level_review_not_started": 16,
+    "universities_program_level_review_not_started": 15,
     "university_ids_with_program_level_review_not_started": [
       "genova",
-      "marche",
       "milano-bicocca",
       "milano-statale",
       "modena-reggio",
@@ -158,7 +163,7 @@
     "programs_fully_verified": 23,
     "programs_requiring_verification": 164,
     "programs_not_offered_2027_2028": 2,
-    "programs_supported_only_by_previous_cycle": 24,
+    "programs_supported_only_by_previous_cycle": 25,
     "program_ids_supported_only_by_previous_cycle": [
       "discovered-023",
       "discovered-024",
@@ -166,6 +171,7 @@
       "legacy-069",
       "legacy-070",
       "legacy-071",
+      "legacy-078",
       "legacy-079",
       "legacy-080",
       "legacy-081",
@@ -220,13 +226,14 @@
       "politecnico-torino",
       "siena"
     ],
-    "universities_with_unavailable_or_conflicting_information": 12,
+    "universities_with_unavailable_or_conflicting_information": 13,
     "university_ids_with_unavailable_or_conflicting_information": [
       "bologna",
       "ca-foscari",
       "camerino",
       "ferrara",
       "laquila",
+      "marche",
       "padova",
       "perugia",
       "pisa",
@@ -241,8 +248,8 @@
       "politecnico-milano",
       "trento"
     ],
-    "source_records": 186,
-    "official_source_supported_fields": 386,
+    "source_records": 197,
+    "official_source_supported_fields": 399,
     "verification_statuses": [
       "CONFIRMED",
       "NOT_YET_PUBLISHED",

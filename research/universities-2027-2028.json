@@ -812,30 +812,191 @@
     "region": "Marche",
     "country": "Italy",
     "official_website": "https://www.univpm.it/",
-    "international_admissions_url": "https://www.international.univpm.it/become-a-student/enrolment/non-eu-students-applying-for-a-visa/",
+    "international_admissions_url": "https://www.international.univpm.it/international-admissions/",
     "application_portal_url": null,
     "contact_email": null,
-    "contact_url": "https://www.international.univpm.it/become-a-student/enrolment/non-eu-students-applying-for-a-visa/",
+    "contact_url": "https://www.international.univpm.it/first-week-at-univpm/useful-contacts-3/",
     "cycle_status": "REQUIRES_VERIFICATION",
     "research_stage": "PARTIALLY_RESEARCHED",
-    "research_summary": "The official international site currently centers on 2026/27 admissions; program-level 2027/28 availability and calls remain outstanding.",
+    "research_summary": "Official sources list the Data Science for Finance and Economics curriculum under the broader English MSc for 2026/27. No 2027/28 first-year listing or call was identified; admissions dates, fees and awards remain unconfirmed for the new cycle.",
     "coverage": {
       "official_website_visited": "complete",
       "international_admissions_page_examined": "partial",
       "bachelors_admissions_examined": "not_started",
-      "masters_admissions_examined": "not_started",
-      "english_programs_examined": "not_started",
-      "fees_examined": "not_started",
-      "scholarships_examined": "not_started",
+      "masters_admissions_examined": "partial",
+      "english_programs_examined": "partial",
+      "fees_examined": "partial",
+      "scholarships_examined": "partial",
       "non_eu_requirements_examined": "partial",
-      "application_deadlines_examined": "not_started",
-      "program_level_review": "not_started"
+      "application_deadlines_examined": "partial",
+      "program_level_review": "partial"
     },
     "source_ids": [
-      "SRC-UNIVPM-INTL"
+      "SRC-UNIVPM-INTL",
+      "SRC-UNIVPM-DS-PROFILE-2026",
+      "SRC-UNIVPM-DS-CATALOGUE-2026",
+      "SRC-UNIVPM-DS-ENTRY-2026",
+      "SRC-UNIVPM-DS-REG-2025",
+      "SRC-UNIVPM-DS-ENGLISH-2026",
+      "SRC-UNIVPM-DS-DELIVERY-2026",
+      "SRC-UNIVPM-FEES-2026",
+      "SRC-UNIVPM-MSC-AWARD-2026",
+      "SRC-ERDIS-MARCHE-UNIVPM-2026",
+      "SRC-ERDIS-MARCHE-AID",
+      "SRC-UNIVPM-CONTACT"
     ],
     "last_checked": "2026-11-09",
-    "cycle_facts": {}
+    "cycle_facts": {
+      "application_windows": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-UNIVPM-INTL"
+        ],
+        "notes": "The current international admissions page only covers 2026/27. No 2027/28 UnivPM or program-specific application window was identified; this is not treated as a cancellation."
+      },
+      "application_fee_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-UNIVPM-INTL"
+        ],
+        "notes": "The €10 fee applied to each foreign-qualification pre-evaluation application in the 2026/27 process only. No 2027/28 application fee was identified."
+      },
+      "previous_cycle_application_windows": {
+        "value": {
+          "academic_year": "2026/27",
+          "maximum_program_applications": 2,
+          "application_fee_eur_per_program": 10,
+          "calls": [
+            {
+              "label": "1st",
+              "start": "2025-12-16",
+              "end": "2026-01-30",
+              "eligible_group": "All international applicants; free-access programs"
+            },
+            {
+              "label": "2nd",
+              "start": "2026-03-01",
+              "end": "2026-04-30",
+              "eligible_group": "All international applicants; free-access programs"
+            },
+            {
+              "label": "3rd",
+              "start": "2026-06-08",
+              "end": "2026-06-30",
+              "eligible_group": "All international applicants; free- and restricted-access programs"
+            },
+            {
+              "label": "4th",
+              "start": "2026-07-01",
+              "end": "2026-07-31",
+              "eligible_group": "Applicants from listed countries only"
+            },
+            {
+              "label": "5th",
+              "start": "2026-07-15",
+              "end": "2026-11-05",
+              "eligible_group": "EU/equivalent for all programs; non-EU visa applicants only for Medicine"
+            }
+          ],
+          "universitaly_visa_deadline": "2026-11-30"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIVPM-INTL"
+        ],
+        "notes": "These were the foreign-qualification pre-evaluation windows for 2026/27 and do not establish application dates or eligibility for 2027/28."
+      },
+      "previous_cycle_non_eu_process": {
+        "value": {
+          "academic_year": "2026/27",
+          "applicant_scope": "International applicants holding a foreign qualification",
+          "pre_evaluation": "UnivPM pre-evaluation; maximum two programs; €10 per application",
+          "visa_applicants": "After positive assessment, non-EU applicants requiring a study visa submit pre-enrolment through Universitaly",
+          "universitaly_deadline": "2026-11-30"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIVPM-INTL"
+        ],
+        "notes": "Prior-cycle foreign-qualification route only. The page explicitly says it applies to AY 2026/27 and prior pre-evaluations cannot be deferred."
+      },
+      "previous_cycle_tuition": {
+        "value": {
+          "academic_year": "2026/27",
+          "first_installment_eur": 156,
+          "components": {
+            "regional_tax_eur": 140,
+            "stamp_duty_eur": 16
+          },
+          "later_installments": "Variable by course and ISEE",
+          "isee_consent_deadline": "2026-11-05"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIVPM-FEES-2026"
+        ],
+        "notes": "The €156 is only the fixed first installment, not a total tuition quote. The 2027/28 schedule and values are unconfirmed."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-UNIVPM-FEES-2026"
+        ],
+        "notes": "The latest annual fee page reviewed is for 2026/27. No 2027/28 fee schedule or course-specific total was identified."
+      },
+      "previous_cycle_scholarships": {
+        "value": {
+          "academic_year": "2026/27",
+          "university_open_access_masters_award": {
+            "awards": 40,
+            "gross_eur_each": 2000,
+            "eligibility": "First-time UnivPM open-access Master's enrollment; Bachelor's grade 90/110 to 110/110 with honours; valid 2026 ISEE",
+            "application_period": {
+              "start": "2026-07-15",
+              "end": "2026-11-17",
+              "deadline_time": "13:00 Italy time"
+            }
+          },
+          "ERDIS_Marche": {
+            "application_period": {
+              "start": "2026-07-14",
+              "end": "2026-08-28"
+            },
+            "benefits": "Competitive regional student aid and services subject to annual financial, merit and documentation criteria"
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIVPM-MSC-AWARD-2026",
+          "SRC-ERDIS-MARCHE-UNIVPM-2026",
+          "SRC-ERDIS-MARCHE-AID"
+        ],
+        "notes": "Competitive university and regional schemes from 2026/27; not guaranteed to this program or applicant. The regional application must be renewed annually."
+      },
+      "scholarships_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-UNIVPM-MSC-AWARD-2026",
+          "SRC-ERDIS-MARCHE-UNIVPM-2026"
+        ],
+        "notes": "The university award and ERDIS call reviewed are for 2026/27. No 2027/28 award count, amount, eligibility or deadline was identified."
+      },
+      "admissions_contact": {
+        "value": {
+          "contact_url": "https://www.international.univpm.it/first-week-at-univpm/useful-contacts-3/",
+          "economics_area_phone": "+39 071 220 2458"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIVPM-CONTACT"
+        ],
+        "notes": "General International Students' Admission Office contact information; verify program-specific questions against the new cycle's call."
+      }
+    }
   },
   {
     "id": "catania",
