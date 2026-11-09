@@ -1570,7 +1570,7 @@
     "source_type": "Official international admissions page",
     "accessed_at": "2026-11-09",
     "cycle": "general",
-    "evidence": "Official general international admissions guidance; detailed 2027/28 program-specific calls remain to be reviewed.",
+    "evidence": "Official general international admissions guidance and route to annual calls; it does not establish a 2027/28 Computer Science call or deadline.",
     "supports": [
       "university.general_admissions"
     ]
@@ -2595,6 +2595,181 @@
     "supports": [
       "university.general_student_contact",
       "program.course_contact"
+    ]
+  },
+  {
+    "id": "SRC-LAQUILA-CS-PROFILE-2026",
+    "university_id": "laquila",
+    "title": "Computer Science – official course sheet 2026/27",
+    "url": "https://www.univaq.it/en/section.php?id=1670&idcorso=2279&lang_s=en",
+    "source_type": "Official degree profile",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The official course sheet identifies Computer Science as a two-year LM-18 Master's in L'Aquila, taught in English, with open admission subject to assessment of personal competencies and skills. It is prior-cycle evidence and does not confirm a 2027/28 first-year intake.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_language",
+      "program.previous_cycle_access_type"
+    ]
+  },
+  {
+    "id": "SRC-LAQUILA-CS-REGULATIONS-2026",
+    "university_id": "laquila",
+    "title": "Computer Science LM-18 teaching regulations 2026/27",
+    "url": "https://www.univaq.it/include/utilities/blob.php?id=2279&item=regolamento&table=off_0809",
+    "source_type": "Official annual course regulation",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "Article 5 lists L-31/legacy class 26 or another qualifying degree with 48 CFU in INF-01/A or IINF-05/A and 12 CFU in the named mathematics sectors, and written/oral English at B2. The regulation describes the 2026/27 curriculum; required courses are in English while some optional courses may be in Italian. Prior-cycle criteria only.",
+    "supports": [
+      "program.previous_cycle_program_requirements",
+      "program.previous_cycle_english_requirement",
+      "program.previous_cycle_course_listing"
+    ]
+  },
+  {
+    "id": "SRC-LAQUILA-CS-INTERNATIONAL-CALL-2026",
+    "university_id": "laquila",
+    "title": "Selection call for international Master's applicants, cohort 2026",
+    "url": "https://www.univaq.it/en/include/utilities/blob.php?id=7704&item=file&table=allegato",
+    "source_type": "Official international Master's selection call",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The foreign-degree selection call for 2026/27 included Computer Science. It required a foreign Bachelor's degree of at least three years, B2 English (with an accepted certificate less than four years old or stated exemptions), and applied through PICA by 25 February 2026 at 13:00 Italy time with a €20 fee. Applicants could select up to two course rankings. The call is closed prior-cycle evidence; after selection, visa applicants were directed to Universitaly.",
+    "supports": [
+      "program.previous_cycle_international_admission",
+      "program.previous_cycle_application_window",
+      "program.previous_cycle_non_eu_admission",
+      "program.previous_cycle_application_fee"
+    ]
+  },
+  {
+    "id": "SRC-LAQUILA-ENGLISH-COURSES-2026",
+    "university_id": "laquila",
+    "title": "International degree courses 2026/27",
+    "url": "https://www.univaq.it/en/section.php?id=540&lang=en&lang_s=en&order=corso",
+    "source_type": "Official degree catalogue",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 official English international-degree catalogue lists Computer Science as a two-year second-cycle LM-18 course. The catalogue is prior-cycle evidence and does not confirm a 2027/28 first-year intake.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "university.previous_cycle_english_programs"
+    ]
+  },
+  {
+    "id": "SRC-LAQUILA-FEES-2026",
+    "university_id": "laquila",
+    "title": "Tuition and student contributions 2026/27",
+    "url": "https://www.univaq.it/section.php?id=55.&lang_s=it",
+    "source_type": "Official annual tuition guidance",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "For 2026/27 the fixed initial payment was €156 (regional tax plus stamp duty); the annual COA varied with household income/ISEE and other eligibility conditions. The page set the ISEE authorization deadline at 20 December 2026 and payment dates through January–May 2027. These are historical annual rules, not 2027/28 tuition values.",
+    "supports": [
+      "university.previous_cycle_tuition",
+      "university.tuition_2027_2028",
+      "program.previous_cycle_tuition"
+    ]
+  },
+  {
+    "id": "SRC-LAQUILA-FEES-FAQ",
+    "university_id": "laquila",
+    "title": "Student contribution FAQ – international student provisions",
+    "url": "https://www.univaq.it/section.php?id=829",
+    "source_type": "Official university tuition FAQ",
+    "accessed_at": "2026-11-09",
+    "cycle": "general",
+    "evidence": "The FAQ explains that students with foreign family income may request equivalent ISEE; specified low-human-development-country students with a foreign entry qualification, refugees, Italian-government scholarship recipients, joint/multiple-degree students and ADSU scholarship recipients may qualify to pay the €156 fixed amount under the stated conditions. Recheck the annual fee guide for 2027/28 eligibility and values.",
+    "supports": [
+      "university.previous_cycle_tuition",
+      "university.international_fee_rules"
+    ]
+  },
+  {
+    "id": "SRC-LAQUILA-INTL-CALLS-2026",
+    "university_id": "laquila",
+    "title": "Calls for international students 2026/27",
+    "url": "https://www.univaq.it/en/section.php?id=2062&lang=en",
+    "source_type": "Official international scholarships and admissions calls index",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The University's 2026/27 index lists the foreign-degree English-Master's admission call, the ADSU residence call and 50 contributions toward travel and installation costs for foreign students intending to enroll in English-taught Master's programs. The published deadlines were 25 February, 27 July and 9 July 2026 respectively. No 2027/28 calls are established by this page.",
+    "supports": [
+      "university.previous_cycle_international_calls",
+      "university.previous_cycle_scholarships",
+      "university.scholarships_2027_2028"
+    ]
+  },
+  {
+    "id": "SRC-LAQUILA-TRAVEL-GRANT-2026",
+    "university_id": "laquila",
+    "title": "Travel and installation contributions for international Master's students 2026/27",
+    "url": "https://www.univaq.it/en/section.php?id=2062&lang=en",
+    "source_type": "Official international student grant call index",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The University listed 50 competitive contributions to student travel and installation costs for foreign students intending to enroll in English-taught Master's programs in 2026/27, with a 9 July 2026 deadline. The index does not publish an amount in the reviewed summary and does not establish an award for new 2027/28 entrants.",
+    "supports": [
+      "university.previous_cycle_international_scholarships",
+      "program.previous_cycle_scholarships"
+    ]
+  },
+  {
+    "id": "SRC-LAQUILA-UNICORE-2026",
+    "university_id": "laquila",
+    "title": "UNICORE 8.0 scholarship call 2026/27",
+    "url": "https://www.univaq.it/en/include/utilities/blob.php?id=7982&item=file&table=allegato",
+    "source_type": "Official targeted international scholarship call",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The targeted call offered one scholarship for an eligible refugee student residing in a listed country to enter an English-taught second-cycle degree, including Computer Science, in 2026/27. It described €4,800 per year from the University and additional partner benefits, with renewal into 2027/28 subject to merit. This is not a general scholarship or a new 2027/28-entry award.",
+    "supports": [
+      "university.previous_cycle_targeted_scholarships",
+      "program.previous_cycle_scholarships"
+    ]
+  },
+  {
+    "id": "SRC-ADSU-LAQUILA-BDS-2026",
+    "university_id": "laquila",
+    "title": "ADSU L'Aquila scholarship call 2026/27",
+    "url": "https://adsuaq.org/2026/07/16/bando-borse-di-studio-a-a-2026-2027/",
+    "source_type": "Official regional scholarship call",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "ADSU published its annual 2026/27 competitive scholarship call for students at the University of L'Aquila and other local institutions. The application deadline was 31 August 2026. This is general regional student aid subject to the annual call and eligibility rules; it is not a guaranteed Computer Science award or a 2027/28 call.",
+    "supports": [
+      "university.previous_cycle_regional_scholarships",
+      "university.scholarships_2027_2028",
+      "program.previous_cycle_scholarships"
+    ]
+  },
+  {
+    "id": "SRC-ADSU-LAQUILA-RESIDENCE-2026",
+    "university_id": "laquila",
+    "title": "ADSU L'Aquila student residence call 2026/27",
+    "url": "https://adsuaq.org/2026/06/24/bando-studentato-a-a-2026-2027/",
+    "source_type": "Official regional student residence call",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The regional agency's 2026/27 residence call awarded student beds through an online competition, with a 27 July 2026 deadline. The call is annual and does not establish a 2027/28 housing or scholarship offer.",
+    "supports": [
+      "university.previous_cycle_student_housing",
+      "university.previous_cycle_regional_scholarships"
+    ]
+  },
+  {
+    "id": "SRC-LAQUILA-CS-RANKING-2026",
+    "university_id": "laquila",
+    "title": "Computer Science international admissions ranking 2026/27",
+    "url": "https://www.univaq.it/en/include/utilities/blob.php?id=8163&item=file&table=allegato",
+    "source_type": "Official selection outcome",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The University published the list of candidates eligible to enroll in the English-taught Computer Science Master's program for 2026/27. The list is an outcome for one call and does not provide a complete applicant denominator or an acceptance rate.",
+    "supports": [
+      "program.previous_cycle_admission_outcome",
+      "program.acceptance_rate"
     ]
   }
 ]

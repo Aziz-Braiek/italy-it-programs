@@ -964,28 +964,228 @@
     "official_website": "https://www.univaq.it/",
     "international_admissions_url": "https://www.univaq.it/en/section.php?id=2065&lang_s=en",
     "application_portal_url": null,
-    "contact_email": null,
+    "contact_email": "international.students@univaq.it",
     "contact_url": "https://www.univaq.it/en/section.php?id=2065&lang_s=en",
     "cycle_status": "REQUIRES_VERIFICATION",
     "research_stage": "PARTIALLY_RESEARCHED",
-    "research_summary": "International admissions page identified; cycle-specific program-level calls remain outstanding.",
+    "research_summary": "Official 2026/27 Computer Science course, regulation and international selection sources are recorded as prior-cycle evidence. No 2027/28 first-year call, dates, tuition schedule or scholarship call was identified; the candidate remains pending.",
     "coverage": {
       "official_website_visited": "complete",
       "international_admissions_page_examined": "partial",
       "bachelors_admissions_examined": "not_started",
-      "masters_admissions_examined": "not_started",
-      "english_programs_examined": "not_started",
-      "fees_examined": "not_started",
-      "scholarships_examined": "not_started",
+      "masters_admissions_examined": "partial",
+      "english_programs_examined": "partial",
+      "fees_examined": "partial",
+      "scholarships_examined": "partial",
       "non_eu_requirements_examined": "partial",
-      "application_deadlines_examined": "not_started",
-      "program_level_review": "not_started"
+      "application_deadlines_examined": "partial",
+      "program_level_review": "partial"
     },
     "source_ids": [
-      "SRC-LAQUILA-INTL"
+      "SRC-LAQUILA-INTL",
+      "SRC-LAQUILA-CS-PROFILE-2026",
+      "SRC-LAQUILA-CS-REGULATIONS-2026",
+      "SRC-LAQUILA-CS-INTERNATIONAL-CALL-2026",
+      "SRC-LAQUILA-ENGLISH-COURSES-2026",
+      "SRC-LAQUILA-FEES-2026",
+      "SRC-LAQUILA-FEES-FAQ",
+      "SRC-LAQUILA-INTL-CALLS-2026",
+      "SRC-LAQUILA-TRAVEL-GRANT-2026",
+      "SRC-LAQUILA-UNICORE-2026",
+      "SRC-ADSU-LAQUILA-BDS-2026",
+      "SRC-ADSU-LAQUILA-RESIDENCE-2026",
+      "SRC-LAQUILA-CS-RANKING-2026"
     ],
     "last_checked": "2026-11-09",
-    "cycle_facts": {}
+    "cycle_facts": {
+      "application_windows": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-LAQUILA-CS-INTERNATIONAL-CALL-2026",
+          "SRC-LAQUILA-INTL"
+        ],
+        "notes": "No 2027/28 Computer Science call or application dates were identified. The 25 February 2026 PICA deadline belongs to the closed 2026 cohort call and is not projected forward."
+      },
+      "application_fee_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-LAQUILA-CS-INTERNATIONAL-CALL-2026"
+        ],
+        "notes": "The €20 fee was part of the closed international selection call for 2026/27. No 2027/28 course application fee was identified."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-LAQUILA-FEES-2026",
+          "SRC-LAQUILA-FEES-FAQ"
+        ],
+        "notes": "The latest annual guide reviewed is for 2026/27: it sets €156 in fixed registration charges plus a variable COA. No 2027/28 fee guide was identified; previous-cycle amounts and exemptions are not carried forward."
+      },
+      "scholarships_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-LAQUILA-INTL-CALLS-2026",
+          "SRC-ADSU-LAQUILA-BDS-2026",
+          "SRC-LAQUILA-UNICORE-2026"
+        ],
+        "notes": "The reviewed international grant and targeted UNICORE offer, plus the regional ADSU competition, are 2026/27 schemes. No 2027/28 call, eligibility thresholds or awards were identified."
+      },
+      "previous_cycle_application_windows": {
+        "value": [
+          {
+            "academic_year": "2026/27",
+            "route": "PICA international selection call for applicants with foreign Bachelor's degrees to English-taught Master's programs, including Computer Science",
+            "deadline": "2026-02-25",
+            "deadline_time": "13:00 Italy time",
+            "fee_eur": 20
+          }
+        ],
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-LAQUILA-CS-INTERNATIONAL-CALL-2026"
+        ],
+        "notes": "This route and deadline applied to the 2026 cohort only. The call was not a 2027/28 application schedule for all applicants."
+      },
+      "previous_cycle_international_masters_admission": {
+        "value": {
+          "academic_year": "2026/27",
+          "eligible_degree": "Foreign Bachelor's degree of at least three years, suitable for Master's-level studies",
+          "english": "B2; the call accepted a certificate less than four years old and specified exemptions for English-medium prior education or native speakers",
+          "portal": "PICA",
+          "maximum_course_rankings": 2,
+          "application_deadline": "2026-02-25",
+          "application_deadline_time": "13:00 Italy time",
+          "application_fee_eur": 20,
+          "requested_materials": [
+            "CV",
+            "degree and transcript",
+            "course descriptions",
+            "motivation letter",
+            "up to two references",
+            "English-language evidence",
+            "identity document"
+          ],
+          "selection": "Titles or titles plus interview; criteria set by the selection committee"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-LAQUILA-CS-INTERNATIONAL-CALL-2026"
+        ],
+        "notes": "Closed prior-cycle selection for foreign-degree applicants to English-taught MSc programs. Do not treat its dates, fee or requirements as 2027/28 terms."
+      },
+      "previous_cycle_non_eu_process": {
+        "value": {
+          "academic_year": "2026/27",
+          "university_selection": "Apply through PICA in the foreign-degree English-Master's selection call",
+          "after_selection": "Complete Universitaly pre-enrolment for study-visa processing, followed by university enrollment steps",
+          "application_deadline": "2026-02-25",
+          "application_deadline_time": "13:00 Italy time",
+          "application_fee_eur": 20
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-LAQUILA-CS-INTERNATIONAL-CALL-2026"
+        ],
+        "notes": "Historical international admission steps only. No 2027/28 call or visa-applicant timeline is confirmed."
+      },
+      "previous_cycle_tuition": {
+        "value": {
+          "academic_year": "2026/27",
+          "fixed_initial_payment_eur": 156,
+          "fixed_payment_components": [
+            "Regional tax",
+            "Stamp duty"
+          ],
+          "annual_university_COA": "Variable; depends on ISEE/family economic circumstances and applicable reductions or exemptions",
+          "ISEE_authorization_deadline": "2026-12-20",
+          "fixed_payment_window": {
+            "start": "2026-07-18",
+            "end": "2026-10-31"
+          },
+          "COA_payment_deadlines": [
+            "2027-01-31",
+            "2027-03-31",
+            "2027-05-31"
+          ],
+          "international_student_guidance": "Equivalent ISEE may be requested for eligible foreign family-income cases; separate conditional exemptions or lowest-bracket rules apply to specified categories"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-LAQUILA-FEES-2026",
+          "SRC-LAQUILA-FEES-FAQ"
+        ],
+        "notes": "These are 2026/27 payment and assessment rules, not a 2027/28 tuition quote. The €156 is not the total annual cost for every student."
+      },
+      "previous_cycle_international_scholarships": {
+        "value": {
+          "academic_year": "2026/27",
+          "travel_and_installation_contributions": {
+            "number": 50,
+            "eligible_group": "Foreign students intending to enroll in English-taught Master's degrees",
+            "deadline": "2026-07-09",
+            "amount": "Not stated in the reviewed call index"
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-LAQUILA-TRAVEL-GRANT-2026"
+        ],
+        "notes": "Competitive prior-cycle grants; the listing does not confirm Computer Science-specific awards or 2027/28 recurrence."
+      },
+      "previous_cycle_targeted_scholarship": {
+        "value": {
+          "academic_year": "2026/27",
+          "scheme": "UNICORE 8.0",
+          "awards": 1,
+          "eligible_group": "Eligible refugee student residing in a listed country entering an English-taught second-cycle degree, including Computer Science",
+          "university_component_eur_per_year": 4800,
+          "renewal": "May continue into 2027/28 subject to merit; this is a second-year continuation for the 2026/27 entrant, not a new 2027/28 entry award",
+          "additional_benefits": [
+            "Travel support",
+            "Accommodation",
+            "Meals",
+            "Insurance",
+            "Residence-permit support"
+          ]
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-LAQUILA-UNICORE-2026"
+        ],
+        "notes": "Highly restricted targeted offer for eligible refugees and the 2026/27 cohort; not a general scholarship promise."
+      },
+      "previous_cycle_regional_scholarships": {
+        "value": {
+          "academic_year": "2026/27",
+          "provider": "ADSU L'Aquila",
+          "benefit": "Competitive need-based student scholarship; separate student-residence competition",
+          "scholarship_application_deadline": "2026-08-31",
+          "student_residence_deadline": "2026-07-27",
+          "eligibility": "Subject to annual financial, merit and documentation requirements"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-ADSU-LAQUILA-BDS-2026",
+          "SRC-ADSU-LAQUILA-RESIDENCE-2026"
+        ],
+        "notes": "Regional aid is not course-specific or guaranteed; deadlines and rules are for 2026/27 only."
+      },
+      "admissions_contact": {
+        "value": {
+          "email": "international.students@univaq.it",
+          "office": "International Students / admissions office"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-LAQUILA-CS-RANKING-2026"
+        ],
+        "notes": "Official contact shown on the published Computer Science international selection outcome; verify the current office route before applying."
+      }
+    }
   },
   {
     "id": "insubria",

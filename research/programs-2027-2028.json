@@ -6110,38 +6110,309 @@
     "level": {
       "value": "MSc",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-LAQUILA-CS-PROFILE-2026",
+        "SRC-LAQUILA-ENGLISH-COURSES-2026"
+      ],
+      "notes": "Official 2026/27 sources identify an LM-18 Master's; the 2027/28 level and new-entry intake remain to be confirmed."
     },
     "language": {
       "value": "English",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-LAQUILA-CS-PROFILE-2026",
+        "SRC-LAQUILA-CS-REGULATIONS-2026"
+      ],
+      "notes": "The course was taught in English in 2026/27; confirm delivery in the 2027/28 course offer."
     },
     "field": {
       "value": "Computer Science",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-LAQUILA-CS-PROFILE-2026",
+        "SRC-LAQUILA-ENGLISH-COURSES-2026"
+      ],
+      "notes": "Official prior-cycle course identity; a 2027/28 listing is not yet confirmed."
     },
     "availability_2027_2028": {
       "value": null,
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
+      "source_ids": [
+        "SRC-LAQUILA-CS-PROFILE-2026",
+        "SRC-LAQUILA-ENGLISH-COURSES-2026",
+        "SRC-LAQUILA-CS-INTERNATIONAL-CALL-2026"
+      ],
+      "notes": "The reviewed course sheet, catalogue and foreign-degree selection call concern 2026/27. No 2027/28 first-year intake was identified on 9 November 2026; no cancellation is inferred."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
-    "facts": {},
-    "source_ids": [],
+    "facts": {
+      "previous_cycle_course_listing": {
+        "value": {
+          "academic_year": "2026/27",
+          "official_name": "Computer Science",
+          "degree": "Laurea Magistrale / Master's Degree",
+          "degree_class": "LM-18",
+          "duration_years": 2,
+          "location": "L'Aquila",
+          "language": "English",
+          "access": "Open admission with assessment of personal competencies and skills",
+          "international_degree_course": true,
+          "curriculum_language": "Required courses in English; some optional courses may be Italian"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-LAQUILA-CS-PROFILE-2026",
+          "SRC-LAQUILA-CS-REGULATIONS-2026",
+          "SRC-LAQUILA-ENGLISH-COURSES-2026"
+        ],
+        "notes": "Course identity and teaching format are established for 2026/27 only; this does not confirm a 2027/28 new-entry intake."
+      },
+      "previous_cycle_program_requirements": {
+        "value": {
+          "academic_year": "2026/27",
+          "qualifying_degrees": [
+            "Italian L-31 or legacy class 26 Bachelor's degree"
+          ],
+          "other_degree_curricular_credits": {
+            "computer_science": {
+              "minimum_credits": 48,
+              "sectors": [
+                "INF-01/A",
+                "IINF-05/A"
+              ]
+            },
+            "mathematics": {
+              "minimum_credits": 12,
+              "sectors": [
+                "MATH-01/A",
+                "MATH-02/A",
+                "MATH-02/B",
+                "MATH-03/A",
+                "MATH-03/B",
+                "MATH-04/A",
+                "MATH-05/A",
+                "MATH-06/A"
+              ]
+            }
+          },
+          "english_requirement": "Written and oral English at B2"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-LAQUILA-CS-REGULATIONS-2026"
+        ],
+        "notes": "The official 2026/27 teaching regulation is prior-cycle criteria. Verify sector equivalencies and requirements in the future annual regulation."
+      },
+      "previous_cycle_english_requirement": {
+        "value": {
+          "academic_year": "2026/27",
+          "minimum_level": "B2",
+          "skills": "Written and oral English",
+          "course_language": "English",
+          "certificate_note": "The international selection call specified accepted certificates under four years old and listed exemptions for English-medium prior education or native speakers"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-LAQUILA-CS-REGULATIONS-2026",
+          "SRC-LAQUILA-CS-INTERNATIONAL-CALL-2026"
+        ],
+        "notes": "Course and international selection language criteria from 2026/27; the 2027/28 threshold and evidence rules are not yet confirmed."
+      },
+      "previous_cycle_admission_assessment": {
+        "value": {
+          "academic_year": "2026/27",
+          "standard_course_access": "Open admission subject to assessment of curricular requirements and personal competencies",
+          "foreign_degree_selection": "Committee evaluation of qualifications; selection could be based on titles or titles plus interview, with criteria set by the committee"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-LAQUILA-CS-PROFILE-2026",
+          "SRC-LAQUILA-CS-REGULATIONS-2026",
+          "SRC-LAQUILA-CS-INTERNATIONAL-CALL-2026"
+        ],
+        "notes": "The foreign-degree selection call is a distinct route and cohort-specific procedure; neither pathway confirms 2027/28 requirements."
+      },
+      "application_windows": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-LAQUILA-CS-INTERNATIONAL-CALL-2026"
+        ],
+        "notes": "No 2027/28 Computer Science application window was found. The 25 February 2026 deadline belongs to the closed selection for the 2026 cohort."
+      },
+      "previous_cycle_application_window": {
+        "value": {
+          "academic_year": "2026/27",
+          "applicant_scope": "Applicants with a foreign Bachelor's degree applying to English-taught Master's courses",
+          "route": "PICA cohort selection",
+          "deadline": "2026-02-25",
+          "deadline_time": "13:00 Italy time",
+          "fee_eur": 20
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-LAQUILA-CS-INTERNATIONAL-CALL-2026"
+        ],
+        "notes": "A prior-cycle international selection deadline, not a 2027/28 or all-applicant schedule."
+      },
+      "previous_cycle_international_admission": {
+        "value": {
+          "academic_year": "2026/27",
+          "eligible_degree": "Foreign Bachelor's degree of at least three years and suitable for Master's studies",
+          "application_platform": "PICA",
+          "maximum_ranked_courses": 2,
+          "deadline": "2026-02-25",
+          "deadline_time": "13:00 Italy time",
+          "non_refundable_fee_eur": 20,
+          "application_documents": [
+            "CV",
+            "degree and transcript",
+            "course descriptions",
+            "motivation letter",
+            "up to two references",
+            "English evidence",
+            "identity document"
+          ],
+          "selection": "Titles or titles plus interview; criteria fixed by the committee"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-LAQUILA-CS-INTERNATIONAL-CALL-2026"
+        ],
+        "notes": "Closed 2026-cohort route for foreign-degree applicants; requirements, fee and dates must be checked again for 2027/28."
+      },
+      "previous_cycle_non_eu_admission": {
+        "value": {
+          "academic_year": "2026/27",
+          "university_evaluation": "PICA foreign-degree selection call",
+          "after_selection": "Universitaly pre-enrolment for admission and study-visa processing",
+          "deadline": "2026-02-25",
+          "deadline_time": "13:00 Italy time",
+          "application_fee_eur": 20
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-LAQUILA-CS-INTERNATIONAL-CALL-2026"
+        ],
+        "notes": "Historical visa-applicant procedure only; new cycle steps and deadlines remain unconfirmed."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-LAQUILA-FEES-2026",
+          "SRC-LAQUILA-FEES-FAQ"
+        ],
+        "notes": "No 2027/28 fee guide was identified. The latest annual source gives 2026/27 charges only."
+      },
+      "previous_cycle_tuition": {
+        "value": {
+          "academic_year": "2026/27",
+          "fixed_registration_payment_eur": 156,
+          "components": [
+            "Regional tax",
+            "Stamp duty"
+          ],
+          "variable_university_contribution": "COA varies by household income/ISEE, study progress and eligible reductions or exemptions",
+          "isee_authorization_deadline": "2026-12-20",
+          "fixed_payment_window": {
+            "start": "2026-07-18",
+            "end": "2026-10-31"
+          },
+          "COA_payment_dates": [
+            "2027-01-31",
+            "2027-03-31",
+            "2027-05-31"
+          ],
+          "foreign_income": "Eligible international students may request equivalent ISEE; the FAQ describes conditional lowest-bracket or fixed-payment cases for specified categories"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-LAQUILA-FEES-2026",
+          "SRC-LAQUILA-FEES-FAQ"
+        ],
+        "notes": "Prior-cycle tuition framework only. €156 is the fixed initial payment and not each student's total annual cost; do not carry values or exemptions into 2027/28."
+      },
+      "application_fee_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-LAQUILA-CS-INTERNATIONAL-CALL-2026"
+        ],
+        "notes": "The €20 PICA fee applied to a closed 2026/27 foreign-degree selection call; no 2027/28 fee has been identified."
+      },
+      "previous_cycle_scholarships": {
+        "value": {
+          "academic_year": "2026/27",
+          "international_travel_and_installation": {
+            "contributions": 50,
+            "eligible_group": "Foreign applicants intending to enroll in English-taught Master's degrees",
+            "deadline": "2026-07-09",
+            "published_amount": "Not stated in the reviewed official call index"
+          },
+          "UNICORE_8_0": {
+            "awards": 1,
+            "eligible_group": "Eligible refugee student in a listed country entering an English MSc including Computer Science",
+            "university_component_eur_per_year": 4800,
+            "renewal": "For the 2027/28 second year subject to merit; not a new-entry 2027/28 award"
+          },
+          "regional_ADSU": {
+            "scholarship_deadline": "2026-08-31",
+            "residence_deadline": "2026-07-27",
+            "benefit_types": [
+              "Competitive scholarship",
+              "Student residence"
+            ]
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-LAQUILA-TRAVEL-GRANT-2026",
+          "SRC-LAQUILA-UNICORE-2026",
+          "SRC-ADSU-LAQUILA-BDS-2026",
+          "SRC-ADSU-LAQUILA-RESIDENCE-2026"
+        ],
+        "notes": "Prior-cycle aid schemes have distinct eligibility and competition rules. None confirms a general or Computer Science-specific 2027/28 scholarship."
+      },
+      "acceptance_rate": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-LAQUILA-CS-RANKING-2026",
+          "SRC-LAQUILA-CS-INTERNATIONAL-CALL-2026"
+        ],
+        "notes": "The University published eligible candidates but no complete applicant denominator or official acceptance rate; no estimate is inferred."
+      }
+    },
+    "source_ids": [
+      "SRC-LAQUILA-CS-PROFILE-2026",
+      "SRC-LAQUILA-CS-REGULATIONS-2026",
+      "SRC-LAQUILA-ENGLISH-COURSES-2026",
+      "SRC-LAQUILA-CS-INTERNATIONAL-CALL-2026",
+      "SRC-LAQUILA-INTL",
+      "SRC-LAQUILA-FEES-2026",
+      "SRC-LAQUILA-FEES-FAQ",
+      "SRC-LAQUILA-INTL-CALLS-2026",
+      "SRC-LAQUILA-TRAVEL-GRANT-2026",
+      "SRC-LAQUILA-UNICORE-2026",
+      "SRC-ADSU-LAQUILA-BDS-2026",
+      "SRC-ADSU-LAQUILA-RESIDENCE-2026",
+      "SRC-LAQUILA-CS-RANKING-2026"
+    ],
     "previous_tracker_tags": {
       "level": "MSc",
       "language": "English",
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
-    "previous_cycle_tags": null,
+    "previous_cycle_tags": {
+      "level": "MSc",
+      "language": "English",
+      "field": "Computer Science",
+      "cycle": "2026-2027",
+      "label": "Official course, regulation and international selection evidence is for 2026/27; new-entry availability for 2027/28 is unverified"
+    },
     "last_checked": "2026-11-09"
   },
   {
