@@ -1341,21 +1341,28 @@
     "contact_url": "https://www.unipr.it/en/node/106538",
     "cycle_status": "NOT_YET_PUBLISHED",
     "research_stage": "PARTIALLY_RESEARCHED",
-    "research_summary": "Official 2027/28 page asks international students to register interest and says admissions procedures will be communicated when available.",
+    "research_summary": "The official 2027/28 international page says application procedures will be communicated when available. The 2026/27 catalogue lists Data Science for Management as a two-year English LM-Data course with open access subject to requirements verification; its current-cycle intake, admission terms, fees and scholarships remain unverified.",
     "coverage": {
       "official_website_visited": "complete",
       "international_admissions_page_examined": "partial",
       "bachelors_admissions_examined": "not_started",
-      "masters_admissions_examined": "not_started",
-      "english_programs_examined": "not_started",
-      "fees_examined": "not_started",
-      "scholarships_examined": "not_started",
+      "masters_admissions_examined": "partial",
+      "english_programs_examined": "partial",
+      "fees_examined": "partial",
+      "scholarships_examined": "partial",
       "non_eu_requirements_examined": "partial",
       "application_deadlines_examined": "partial",
-      "program_level_review": "not_started"
+      "program_level_review": "partial"
     },
     "source_ids": [
-      "SRC-PARMA-2027"
+      "SRC-PARMA-2027",
+      "SRC-PARMA-DSM-PROFILE-2026",
+      "SRC-PARMA-DSM-REQUIREMENTS-2025",
+      "SRC-PARMA-NON-EU-CALL-2026",
+      "SRC-PARMA-FEES-2026",
+      "SRC-PARMA-INTL-FEES-2026",
+      "SRC-PARMA-ERGO-INTL-2026",
+      "SRC-PARMA-LATAM-2026"
     ],
     "last_checked": "2026-11-09",
     "cycle_facts": {

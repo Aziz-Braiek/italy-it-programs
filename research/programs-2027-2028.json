@@ -3692,38 +3692,186 @@
     "level": {
       "value": "MSc",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-PARMA-DSM-PROFILE-2026"
+      ],
+      "notes": "Listed as a second-cycle degree in the 2026/27 guide; 2027/28 level remains to be confirmed."
     },
     "language": {
       "value": "English",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-PARMA-DSM-PROFILE-2026"
+      ],
+      "notes": "The Department guide describes the 2026/27 course as taught entirely in English; the 2027/28 course listing remains to be confirmed."
     },
     "field": {
       "value": "Data Science",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-PARMA-DSM-PROFILE-2026"
+      ],
+      "notes": "The 2026/27 official title and study plan identify the prior-cycle field; current-cycle classification remains pending."
     },
     "availability_2027_2028": {
       "value": null,
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
+      "source_ids": [
+        "SRC-PARMA-2027",
+        "SRC-PARMA-DSM-PROFILE-2026",
+        "SRC-PARMA-NON-EU-CALL-2026"
+      ],
+      "notes": "The 2027/28 international page asks students to register interest and says admission procedures will be communicated when available. Course-specific profile, call and admission evidence reviewed is for 2026/27 or the 2025 regulation version; new-entry availability for 2027/28 is unconfirmed."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
-    "facts": {},
-    "source_ids": [],
+    "facts": {
+      "previous_cycle_course_listing": {
+        "value": {
+          "academic_year": "2026/27",
+          "degree": "Second-cycle degree",
+          "degree_class": "LM Data Science",
+          "duration_years": 2,
+          "credits": 120,
+          "location": "Parma",
+          "language": "English",
+          "access": "Open access with verification of requirements",
+          "attendance": "Not mandatory"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PARMA-DSM-PROFILE-2026"
+        ],
+        "notes": "Official Department guide details refer to 2026/27 and do not confirm a new 2027/28 first-year intake."
+      },
+      "previous_cycle_2025_regulatory_requirements": {
+        "value": {
+          "regulation_version": "2025",
+          "degree_requirement": "Three-year degree or foreign equivalent recognized by the University",
+          "standard_curricular_route": [
+            "Italian degree class L-33 (Economics) or L-18 (Economics and Business Management), or equivalent",
+            "English at least B1"
+          ],
+          "other_degree_route": {
+            "minimum_total_cfu": 30,
+            "subminimums_cfu": {
+              "economics": 9,
+              "business_and_management": 6,
+              "mathematics_statistics_or_computing": 9,
+              "statistics": 6
+            }
+          },
+          "individual_preparation": "Assessed through interview/test; foreign-degree equivalence assessed by the course commission",
+          "listed_english_evidence": [
+            "IELTS 5.5",
+            "TOEFL iBT 60",
+            "Cambridge First or Business Vantage",
+            "Trinity ISE II",
+            "specified TOEIC subscores"
+          ]
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PARMA-DSM-REQUIREMENTS-2025"
+        ],
+        "notes": "These are from the 2025-version regulations only. Treat them as historical context, not current 2026/27 or 2027/28 entry criteria; the annual course call and current course site control."
+      },
+      "previous_cycle_international_admission_route": {
+        "value": {
+          "academic_year": "2026/27",
+          "applicant_scope": "Non-EU applicants requiring a study visa",
+          "english_taught_masters_call_opened": "2026-01-15",
+          "route": "University admissions portal; check the chosen degree's own procedure and deadline"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PARMA-NON-EU-CALL-2026"
+        ],
+        "notes": "University-wide prior-cycle opening date only. This page does not supply the Data Science for Management deadline or establish a 2027/28 route."
+      },
+      "previous_cycle_tuition": {
+        "value": {
+          "academic_year": "2026/27",
+          "first_installment_eur": 156,
+          "approximate_personalized_annual_contribution_eur": {
+            "min": 0,
+            "max": 2000
+          },
+          "components": {
+            "regional_tax_eur": 140,
+            "stamp_duty_eur": 16
+          },
+          "calculation_factors": [
+            "financial situation/ISEE",
+            "merit",
+            "enrollment seniority",
+            "disciplinary area"
+          ],
+          "program_disciplinary_area": "Humanities-social"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PARMA-FEES-2026",
+          "SRC-PARMA-INTL-FEES-2026"
+        ],
+        "notes": "The amount varies by applicant circumstances and is not a fixed program fee. These 2026/27 figures must not be carried forward as 2027/28 tuition."
+      },
+      "previous_cycle_scholarships": {
+        "value": {
+          "academic_year": "2026/27",
+          "regional_agency": "ER.GO Emilia-Romagna",
+          "benefits": "Competitive regional scholarships, accommodation and other benefits may be available",
+          "application": "Annual call; international applicants provide household foreign-income documentation",
+          "program_specific_award": "No dedicated award for Data Science for Management confirmed in the sources reviewed"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PARMA-ERGO-INTL-2026"
+        ],
+        "notes": "General regional benefit information only. Amounts, eligibility and deadlines are defined in the annual ER.GO call; this is not a guaranteed award or a 2027/28 scholarship notice."
+      },
+      "previous_cycle_scholarship_exclusions": {
+        "value": {
+          "academic_year": "2026/27",
+          "call": "Study in Parma – LATAM Scholarships",
+          "reason_not_applicable": "Restricted to eligible Latin American applicants with B2 Italian applying to Italian-taught Master's programmes; Data Science for Management is taught in English",
+          "benefit_if_eligible": {
+            "gross_eur_per_year": 8000,
+            "duration_years": 2,
+            "tuition_exemption": true
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PARMA-LATAM-2026",
+          "SRC-PARMA-DSM-PROFILE-2026"
+        ],
+        "notes": "This prior-cycle award call does not apply to this English-taught course; it is recorded as an exclusion, not as available program funding."
+      }
+    },
+    "source_ids": [
+      "SRC-PARMA-2027",
+      "SRC-PARMA-DSM-PROFILE-2026",
+      "SRC-PARMA-DSM-REQUIREMENTS-2025",
+      "SRC-PARMA-NON-EU-CALL-2026",
+      "SRC-PARMA-FEES-2026",
+      "SRC-PARMA-INTL-FEES-2026",
+      "SRC-PARMA-ERGO-INTL-2026",
+      "SRC-PARMA-LATAM-2026"
+    ],
     "previous_tracker_tags": {
       "level": "MSc",
       "language": "English",
       "field": "Data Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
-    "previous_cycle_tags": null,
+    "previous_cycle_tags": {
+      "level": "MSc",
+      "language": "English",
+      "field": "Data Science",
+      "cycle": "2026-2027",
+      "label": "Latest official course listing is for 2026/27"
+    },
     "last_checked": "2026-11-09"
   },
   {

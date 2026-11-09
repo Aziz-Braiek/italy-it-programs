@@ -1037,6 +1037,101 @@
     ]
   },
   {
+    "id": "SRC-PARMA-DSM-PROFILE-2026",
+    "university_id": "parma",
+    "title": "Data Science for Management – Department of Economics and Management guide 2026/27",
+    "url": "https://www.unipr.it/sites/default/files/2026-04/Dipartimento%20di%20Scienze%20economiche%20e%20aziendali_04-2026.pdf",
+    "source_type": "Official departmental degree guide",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The Department guide lists Data Science for Management as a second-cycle degree, two years, LM Data Science class, based in Parma, taught entirely in English, open access with verification of requirements and non-mandatory attendance. Its listed first- and second-year plan totals 120 ECTS. These 2026/27 details do not confirm a 2027/28 new-entry intake.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_access_type",
+      "program.previous_cycle_language",
+      "program.previous_cycle_duration"
+    ]
+  },
+  {
+    "id": "SRC-PARMA-DSM-REQUIREMENTS-2025",
+    "university_id": "parma",
+    "title": "Data Science for Management – 2025 admission regulations",
+    "url": "https://sea.unipr.it/sites/sea/files/2025-09/Sistema_AQ%20Didattica%20SEA_ver2025_finOK.pdf",
+    "source_type": "Official departmental regulations",
+    "accessed_at": "2026-11-09",
+    "cycle": "2025",
+    "evidence": "The 2025-version regulations for LM-DATA require a suitable three-year degree or recognized foreign equivalent, curriculum requirements, individual preparation assessment and English at least B1. Italian graduates with L-18/L-33 or equivalent meet the stated degree-class route; other classes need at least 30 CFU in named economics/business/statistics/mathematics/computing sectors with sub-minima of 9 CFU economics, 6 business, 9 quantitative or computing and 6 statistics. The document lists English evidence routes including IELTS 5.5, TOEFL iBT 60, Cambridge First/Business Vantage, Trinity ISE II or specified TOEIC subscores, and says individual preparation is checked by interview/test. Foreign qualifications are assessed for equivalence. This is a prior-version regulation, not verified 2026/27 or 2027/28 admission guidance.",
+    "supports": [
+      "program.previous_cycle_2025_regulatory_requirements"
+    ]
+  },
+  {
+    "id": "SRC-PARMA-NON-EU-CALL-2026",
+    "university_id": "parma",
+    "title": "Call 26/27 – non-EU future students",
+    "url": "https://www.unipr.it/en/node/110637",
+    "source_type": "Official international admissions page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "For non-EU applicants requiring a study visa, the university says English-taught Master's calls were available and admission opened 15 January 2026. The page directs applicants to degree-specific procedures and does not give Data Science for Management's own deadline or establish 2027/28 dates.",
+    "supports": [
+      "program.previous_cycle_international_admission_route",
+      "program.previous_cycle_application_opening"
+    ]
+  },
+  {
+    "id": "SRC-PARMA-FEES-2026",
+    "university_id": "parma",
+    "title": "Tuition and university contributions – 2026/27",
+    "url": "https://www.unipr.it/tasse-e-contributi-universitari-studenti-e-studentesse-tempo-pieno-26-27",
+    "source_type": "Official university fees page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 fee page lists Data Science for Management and places it in the humanities-social area. The annual charge consists of a €140 regional tax, €16 virtual stamp and a personalized university contribution based on merit, enrollment seniority, disciplinary area and ISEE. The course-specific contribution is not a single fixed amount; this is prior-cycle information and not a 2027/28 quote.",
+    "supports": [
+      "program.previous_cycle_tuition"
+    ]
+  },
+  {
+    "id": "SRC-PARMA-INTL-FEES-2026",
+    "university_id": "parma",
+    "title": "Fees, scholarships and benefits for international students",
+    "url": "https://www.unipr.it/en/tasse-borse-di-studio-e-agevolazioni-studenti-e-studentesse-internazionali",
+    "source_type": "Official international fees guidance",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The university's international-student fees guidance for the 2026/27 cycle states a €156 first instalment (regional tax and stamp duty) and an approximate €0–€2,000 personalized annual tuition contribution depending on financial circumstances and study area. The amount is not a fixed Data Science for Management quote and is not a 2027/28 estimate.",
+    "supports": [
+      "program.previous_cycle_tuition"
+    ]
+  },
+  {
+    "id": "SRC-PARMA-ERGO-INTL-2026",
+    "university_id": "parma",
+    "title": "ER.GO scholarship and other benefits for international students",
+    "url": "https://www.unipr.it/en/node/112081",
+    "source_type": "Official international student funding guidance",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The university identifies ER.GO as Emilia-Romagna's higher-education benefits agency. International students may apply for competitive regional scholarships, accommodation and other benefits; applications for the annual call begin when it is published, with household financial documents uploaded through the ER.GO dossier. Amounts, eligibility and deadlines are defined by each call, so no program-specific award or 2027/28 award is implied.",
+    "supports": [
+      "program.previous_cycle_scholarships"
+    ]
+  },
+  {
+    "id": "SRC-PARMA-LATAM-2026",
+    "university_id": "parma",
+    "title": "Study in Parma – LATAM Scholarships 2026/27",
+    "url": "https://www.unipr.it/en/node/111492",
+    "source_type": "Official scholarship call",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 call offers five competitive awards of €8,000 gross per year for up to two years plus a tuition exemption to eligible Latin American applicants, but requires B2 Italian and admission to an Italian-taught Master's programme. Data Science for Management is taught in English, so this specific call does not apply to it.",
+    "supports": [
+      "program.previous_cycle_scholarship_exclusions"
+    ]
+  },
+  {
     "id": "SRC-PALERMO-2027",
     "university_id": "palermo",
     "title": "Before Applying – FAQ International Students",

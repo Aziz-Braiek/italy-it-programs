@@ -60,6 +60,11 @@
       "id": "siena-applied-mathematics-cycle-and-scholarship-review",
       "status": "partial",
       "result": "Recorded the official 2026/27 Applied Mathematics degree profile and program overview, retained its prior-cycle international scholarship context with the course allocation caveat, and marked the general foreign-degree application route as needing a fresh cycle-specific call. Siena's official calendar says 2027/28 dates and deadlines are not finalized; new-entry availability remains unverified."
+    },
+    {
+      "id": "parma-data-science-for-management-prior-cycle-review",
+      "status": "partial",
+      "result": "Recorded the official 2026/27 English LM-Data profile, historical 2025 admission criteria, prior-cycle non-EU call opening, variable 2026/27 tuition and ER.GO funding context; excluded the Italian-only LATAM award from this English program. Parma's 2027/28 international page says procedures will be communicated when available, so new-entry availability and current terms remain pending."
     }
   ],
   "counts": {
@@ -70,7 +75,7 @@
     "universities_without_initial_official_source_outcome": 0,
     "universities_fully_verified": 0,
     "universities_partially_researched": 34,
-    "universities_with_program_level_research": 10,
+    "universities_with_program_level_research": 11,
     "university_ids_with_program_level_research": [
       "bologna",
       "catania",
@@ -78,12 +83,13 @@
       "messina",
       "napoli-federico-ii",
       "padova",
+      "parma",
       "pisa",
       "siena",
       "tor-vergata",
       "verona"
     ],
-    "universities_program_level_review_not_started": 24,
+    "universities_program_level_review_not_started": 23,
     "university_ids_with_program_level_review_not_started": [
       "ca-foscari",
       "camerino",
@@ -96,7 +102,6 @@
       "milano-statale",
       "modena-reggio",
       "palermo",
-      "parma",
       "pavia",
       "perugia",
       "politecnico-bari",
@@ -118,9 +123,10 @@
     "programs_fully_verified": 23,
     "programs_requiring_verification": 163,
     "programs_not_offered_2027_2028": 2,
-    "programs_supported_only_by_previous_cycle": 3,
+    "programs_supported_only_by_previous_cycle": 4,
     "program_ids_supported_only_by_previous_cycle": [
       "discovered-023",
+      "legacy-079",
       "legacy-081",
       "legacy-084"
     ],
@@ -173,8 +179,8 @@
       "politecnico-milano",
       "trento"
     ],
-    "source_records": 97,
-    "official_source_supported_fields": 252,
+    "source_records": 104,
+    "official_source_supported_fields": 258,
     "verification_statuses": [
       "CONFIRMED",
       "NOT_YET_PUBLISHED",

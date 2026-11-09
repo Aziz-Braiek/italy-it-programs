@@ -114,6 +114,15 @@ assert.match(sienaProgramHtml, /LM-40/);
 assert.match(sienaProgramHtml, /Scholarships \(2026\/27\)/);
 assert.match(sienaProgramHtml, /Two different courses within Area D/);
 assert.match(sienaProgramHtml, /does not confirm whether Applied Mathematics will admit a new first-year cohort/);
+getElementById("search").value = "Università degli Studi di Parma";
+getElementById("search").dispatch("input");
+const parmaProgramHtml = getElementById("program-grid").innerHTML;
+assert.match(parmaProgramHtml, /Università degli Studi di Parma/);
+assert.match(parmaProgramHtml, /2027\/28 program availability/);
+assert.match(parmaProgramHtml, /Requirements under the 2025 regulations/);
+assert.doesNotMatch(parmaProgramHtml, /Course requirements \(2026\/27\)/);
+assert.match(parmaProgramHtml, /These are from the 2025-version regulations only/);
+assert.match(parmaProgramHtml, /first installment eur: 156/);
 getElementById("search").value = "";
 getElementById("search").dispatch("input");
 
