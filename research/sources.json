@@ -48,6 +48,122 @@
     ]
   },
   {
+    "id": "SRC-POLIMI-BSC-2027",
+    "university_id": "politecnico-milano",
+    "title": "Engineering BSc enrolment – 2027/28",
+    "url": "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-programmes/engineering/enrolment",
+    "source_type": "Official admissions and enrolment page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "Publishes the 2027/28 Engineering BSc enrolment calendar: first phase 3 May–10 June 2027 (limited eligibility and excludes English-taught programmes); the second phase has preferences due 17 June followed by rankings and enrolment dates through 30 June; the third phase has preferences due 22 July and rankings through 4 August; the fourth phase has preferences due 26 August and rankings through 8 September. The first tuition instalment is €880.04, with ISEE-based reductions possible. Dates are CEST.",
+    "supports": [
+      "university.bachelor_application_windows",
+      "university.bachelor_first_installment",
+      "university.isee_reductions"
+    ]
+  },
+  {
+    "id": "SRC-POLIMI-ENGLISH-2027",
+    "university_id": "politecnico-milano",
+    "title": "Documents required by the Admissions Office – English certification",
+    "url": "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/application/list-of-documents-required-by-the-admissions-office",
+    "source_type": "Official international admissions requirements page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "Gives 2027/28 English certificate scores for MSc applicants: TOEFL iBT at least 78 for tests through 20 Jan 2026 and at least 4.5 from 21 Jan 2026; TOEIC at least 785 Listening/Reading and 310 Speaking/Writing; IELTS at least 6; specified Cambridge, Trinity, Pearson and LanguageCert scores. Applicants whose bachelor’s was taught in English for at least three years may be exempt if their university certifies at least 75% of courses were in English.",
+    "supports": [
+      "university.english_certificates",
+      "university.masters_entry"
+    ]
+  },
+  {
+    "id": "SRC-POLITO-HYSET-2027",
+    "university_id": "politecnico-torino",
+    "title": "HySET applications open for the 2027–2029 edition",
+    "url": "https://hysetmaster.polito.it/news/join-hyset-applications-open-for-2027-29",
+    "source_type": "Official joint-master admissions announcement",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "Official announcement says the fifth HySET edition covers academic years 2027–2029 and opened 1 October 2026; the application deadline is 15 November 2026. HySET is jointly coordinated by Politecnico di Torino and Politecnico di Milano with international consortium partners.",
+    "supports": [
+      "program.availability",
+      "program.name",
+      "program.application_window"
+    ]
+  },
+  {
+    "id": "SRC-POLITO-HYSET-REQ-2027",
+    "university_id": "politecnico-torino",
+    "title": "HySET admission requirements",
+    "url": "https://hysetmaster.polito.it/admission-requirements",
+    "source_type": "Official joint-master admission requirements",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "Requires a relevant bachelor’s degree of at least 180 ECTS in listed engineering/science fields; minimum English evidence is TOEFL iBT 90 with at least 21 in each section, IELTS 6.5 overall with at least 6.0 each section, or Cambridge 160 (higher threshold for a TU/e destination). Selection is scored on academic achievements, background relevance, references/video, and experience. The current page states a 2027–29 call is open.",
+    "supports": [
+      "program.requirements",
+      "program.english_requirement",
+      "program.selection_criteria"
+    ]
+  },
+  {
+    "id": "SRC-POLITO-HYSET-CURRICULUM",
+    "university_id": "politecnico-torino",
+    "title": "HySET programme structure and awarded degrees",
+    "url": "https://hysetmaster.polito.it/hyset-in-a-nutshell",
+    "source_type": "Official joint-master programme page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "Describes a 120-ECTS four-semester master’s, with first-year entry allocated between Politecnico di Torino and Politecnico di Milano and second-year mobility to a consortium partner. Depending on the partner route, students earn two master’s degrees; the programme focuses on the hydrogen value chain.",
+    "supports": [
+      "program.level",
+      "program.duration",
+      "program.campus",
+      "program.degree_awards"
+    ]
+  },
+  {
+    "id": "SRC-POLITO-HYSET-ENGLISH",
+    "university_id": "politecnico-torino",
+    "title": "HySET frequently asked questions – language of instruction",
+    "url": "https://hysetmaster.polito.it/faq",
+    "source_type": "Official joint-master FAQ",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "States that the entire HySET programme is taught in English.",
+    "supports": [
+      "program.language"
+    ]
+  },
+  {
+    "id": "SRC-POLITO-HYSET-FEES-2027",
+    "university_id": "politecnico-torino",
+    "title": "HySET continuation beyond 2026 – funding and admissions",
+    "url": "https://hysetmaster.polito.it/news/programme-continuation-beyond-2026-funding-and-admissions",
+    "source_type": "Official joint-master funding update",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "States that funding for the 2027 cohort had not yet been secured and future scholarships depend on a successful external funding award; scholarship availability is not guaranteed. The separate self-funded page states annual fees of €4,500 for European students and €9,000 for non-European students.",
+    "supports": [
+      "program.scholarships",
+      "program.tuition"
+    ]
+  },
+  {
+    "id": "SRC-POLITO-HYSET-SELF-FUNDED",
+    "university_id": "politecnico-torino",
+    "title": "HySET self-funded students – tuition fees",
+    "url": "https://hysetmaster.polito.it/self-funded-students",
+    "source_type": "Official joint-master tuition page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "Lists self-funded tuition as €4,500 per year (€9,000 total) for European students and €9,000 per year (€18,000 total) for non-European students; living costs and travel between partner universities are excluded. Payment details/deadlines are to be provided later.",
+    "supports": [
+      "program.tuition",
+      "program.payment_structure"
+    ]
+  },
+  {
     "id": "SRC-PISA-CALL-2027",
     "university_id": "pisa",
     "title": "International admissions call 2027/28 – English MSc programs",
@@ -139,6 +255,183 @@
       "university.application_window_expected",
       "university.application_fee",
       "university.english_requirement"
+    ]
+  },
+  {
+    "id": "SRC-UNITRENTO-28DIGITAL-2027",
+    "university_id": "trento",
+    "title": "28DIGITAL Master School at UniTrento – technical majors and 2027/28 intake",
+    "url": "https://www.disi.unitn.it/eit-digital",
+    "source_type": "Official department and program admissions page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "Describes the UniTrento 28DIGITAL offer as two-year, 120-ECTS double-degree master’s study with technical majors in Information Engineering (Cloud and Network Infrastructures and HPC; Intelligent Chips and Systems), Computer Science (Cyber Security, Data Science, Fintech, Human-Computer Interaction & Design with extended reality), and Artificial Intelligence Systems (Artificial Intelligence with Affective Computing). For the 2027/28 intake it lists three application periods: 31 Oct–11 Feb open to EU/EEA/CH and non-EU applicants; 11 Feb–15 Apr open to EU/EEA/CH and non-EU Italian residents, with visa timing limitations; and 15 Apr–1 Jun open to EU/EEA/CH and non-EU Italian residents. The page says not all trajectories may be available in period two, central selection is handled by 28DIGITAL, and consortium scholarships are first-come-first-served. UniTrento's additional double-degree scholarships are for second-year entrants who receive no other 28DIGITAL grant; their call is indicatively published in August.",
+    "supports": [
+      "program.duration",
+      "program.technical_major",
+      "program.application_windows",
+      "program.admissions_route",
+      "program.scholarships"
+    ]
+  },
+  {
+    "id": "SRC-28DIGITAL-ADMISSIONS-2027",
+    "university_id": "trento",
+    "title": "28DIGITAL Master School – 2027 admission dates and criteria",
+    "url": "https://masterschool.28digital.eu/admissions",
+    "source_type": "Official joint-master admissions page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "Lists 2027 application periods as 30 Oct 2026–31 Jan 2027, 1 Feb–18 Apr 2027 and 19 Apr–31 May 2027, with applicant-category/visa restrictions by round. States all 28DIGITAL programmes are taught in English; applicants need a relevant bachelor’s degree of at least 180 ECTS and English proficiency, generally IELTS 6.5 with section minimums or TOEFL iBT scores depending on test scale/date. The University of Trento department’s 2027/28 intake page publishes different round boundaries; treat the university-level date comparison as conflicting and use each programme’s central portal before applying.",
+    "supports": [
+      "program.availability",
+      "program.language",
+      "program.requirements",
+      "program.application_windows",
+      "program.admissions_route"
+    ]
+  },
+  {
+    "id": "SRC-28DIGITAL-FEES-2027",
+    "university_id": "trento",
+    "title": "28DIGITAL Master School – tuition fees and scholarships",
+    "url": "https://masterschool.28digital.eu/admissions/fees",
+    "source_type": "Official joint-master fees and funding page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "Lists €75 non-refundable application fee per application, €250 non-refundable registration deposit credited to first-semester tuition, and tuition of €6,000 per academic year for EU/EEA citizens or €18,000 for non-EU/EEA citizens. General merit-based awards include full or half tuition waivers; additional excellence scholarships with living allowance are restricted to EU/EEA and associated-country citizens in selected programs. Period 1, 2 and 3 tuition-payment expected deadlines are 31 May, 30 June and 19 July 2027, respectively.",
+    "supports": [
+      "program.application_fee",
+      "program.registration_fee",
+      "program.tuition",
+      "program.scholarships",
+      "program.tuition_payment_deadline"
+    ]
+  },
+  {
+    "id": "SRC-28DIGITAL-CYBER-2027",
+    "university_id": "trento",
+    "title": "Cyber Security (CSES) – 28DIGITAL Master School",
+    "url": "https://masterschool.28digital.eu/cyber-security",
+    "source_type": "Official joint-master program page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "Describes the two-year Cyber Security master’s track, names the University of Trento as a partner, gives relevant bachelor fields and states the 2027 first-period deadline is 31 January. The programme page says central 28DIGITAL selection applies.",
+    "supports": [
+      "program.name",
+      "program.level",
+      "program.availability",
+      "program.requirements",
+      "program.application_deadline",
+      "program.duration"
+    ]
+  },
+  {
+    "id": "SRC-28DIGITAL-DSC-2027",
+    "university_id": "trento",
+    "title": "Data Science (DSC) – 28DIGITAL Master School",
+    "url": "https://masterschool.28digital.eu/data-science",
+    "source_type": "Official joint-master program page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "Describes the Data Science master’s, two-year entry/exit double-degree structure, relevant bachelor fields, at least 60 ECTS in computer science/computer architecture and 30 ECTS in mathematics, and the 2027 first-period deadline of 31 January. UniTrento lists itself as an exit point for this track.",
+    "supports": [
+      "program.name",
+      "program.level",
+      "program.availability",
+      "program.requirements",
+      "program.application_deadline",
+      "program.duration"
+    ]
+  },
+  {
+    "id": "SRC-28DIGITAL-FINTECH-2027",
+    "university_id": "trento",
+    "title": "Fintech (FT) – 28DIGITAL Master School",
+    "url": "https://masterschool.28digital.eu/fintech",
+    "source_type": "Official joint-master program page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "Describes the Fintech master’s, relevant bachelor fields, two-year mobility structure and 2027 first-period deadline of 31 January. UniTrento lists itself as an entry and exit point for this track.",
+    "supports": [
+      "program.name",
+      "program.level",
+      "program.availability",
+      "program.requirements",
+      "program.application_deadline",
+      "program.duration"
+    ]
+  },
+  {
+    "id": "SRC-28DIGITAL-HCIDXR-2027",
+    "university_id": "trento",
+    "title": "Human-Computer Interaction and Design with Extended Reality (HCID/XR)",
+    "url": "https://masterschool.28digital.eu/human-computer-interaction-and-design-with-extended-reality",
+    "source_type": "Official joint-master program page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "Describes the double-degree master’s, relevant bachelor fields and experience, and the 2027 first-period deadline of 31 January. UniTrento lists itself as an exit point for this track.",
+    "supports": [
+      "program.name",
+      "program.level",
+      "program.availability",
+      "program.requirements",
+      "program.application_deadline",
+      "program.duration"
+    ]
+  },
+  {
+    "id": "SRC-28DIGITAL-CLOUD-2027",
+    "university_id": "trento",
+    "title": "Cloud and Networking Infrastructure and HPC (CNIHPC)",
+    "url": "https://masterschool.28digital.eu/cloud-and-networking-infrastructure-and-hpc",
+    "source_type": "Official joint-master program page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "Describes the two-year double-degree master’s, relevant bachelor preparation and the 2027 first-period deadline of 31 January. UniTrento lists itself as an entry and exit point for this track.",
+    "supports": [
+      "program.name",
+      "program.level",
+      "program.availability",
+      "program.requirements",
+      "program.application_deadline",
+      "program.duration"
+    ]
+  },
+  {
+    "id": "SRC-28DIGITAL-ICS-2027",
+    "university_id": "trento",
+    "title": "Intelligent Chips and Systems (ICS) – 28DIGITAL Master School",
+    "url": "https://masterschool.28digital.eu/intelligent-chips-and-systems",
+    "source_type": "Official joint-master program page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "Describes the two-year master's, relevant bachelor fields, minimum 40 ECTS in ICT and 20 ECTS in mathematics, and the 2027 first-period deadline of 31 January. UniTrento lists itself as an exit point for this track.",
+    "supports": [
+      "program.name",
+      "program.level",
+      "program.availability",
+      "program.requirements",
+      "program.application_deadline",
+      "program.duration"
+    ]
+  },
+  {
+    "id": "SRC-28DIGITAL-AIAC-2027",
+    "university_id": "trento",
+    "title": "Artificial Intelligence with Affective Computing (AIAC)",
+    "url": "https://masterschool.28digital.eu/artificial-intelligence-with-affective-computing",
+    "source_type": "Official joint-master program page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "Describes the two-year double-degree master's, relevant bachelor fields and expected background in programming, algorithms, mathematics and statistics, and the 2027 first-period deadline of 31 January. UniTrento lists itself as an entry and exit point for this track.",
+    "supports": [
+      "program.name",
+      "program.level",
+      "program.availability",
+      "program.requirements",
+      "program.application_deadline",
+      "program.duration"
     ]
   },
   {
@@ -399,10 +692,24 @@
     "source_type": "Official admissions page",
     "accessed_at": "2026-11-09",
     "cycle": "2027-2028",
-    "evidence": "Official page says 2027/28 bachelor calls are being finalized and will be published soon; it also notes that CISIA tests will be used from 2027/28.",
+    "evidence": "Official page says 2027/28 bachelor calls are being finalized and will be published soon; the call page says Polito joins CISIA for 2027/28.",
     "supports": [
       "university.bachelor_deadline_status",
       "university.admission_test"
+    ]
+  },
+  {
+    "id": "SRC-POLITO-BSC-TEST-2027",
+    "university_id": "politecnico-torino",
+    "title": "Admission test – Bachelor's programmes, 2027/28",
+    "url": "https://www.polito.it/en/education/applying-studying-graduating/admissions-and-enrolment/bachelor-s-degree-programmes/admission-test",
+    "source_type": "Official admissions test page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "For 2027/28, confirms Polito will use CISIA-administered tests and accept only in-person TOLC@UNI and CEnT@UNI tests at Polito or another participating university; remote TOLC@CASA and CEnT@CASA tests are not accepted. The official selection call is still forthcoming.",
+    "supports": [
+      "university.admission_test",
+      "university.bachelor_call"
     ]
   },
   {

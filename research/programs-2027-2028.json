@@ -8283,7 +8283,7 @@
     "last_checked": "2026-11-09"
   },
   {
-    "id": "discovered-011",
+    "id": "discovered-012",
     "university_id": "bologna",
     "university": "Università di Bologna",
     "city": "Bologna",
@@ -8361,6 +8361,2179 @@
     },
     "source_ids": [
       "SRC-BOLOGNA-CLE-2027"
+    ],
+    "previous_tracker_tags": null,
+    "last_checked": "2026-11-09"
+  },
+  {
+    "id": "discovered-013",
+    "university_id": "trento",
+    "university": "Università degli Studi di Trento",
+    "city": "Trento",
+    "program": "Cyber Security (CSES) – 28DIGITAL Master’s track",
+    "level": {
+      "value": "MSc",
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-UNITRENTO-28DIGITAL-2027",
+        "SRC-28DIGITAL-ADMISSIONS-2027",
+        "SRC-28DIGITAL-FEES-2027",
+        "SRC-28DIGITAL-CYBER-2027"
+      ],
+      "notes": null
+    },
+    "language": {
+      "value": "English",
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-UNITRENTO-28DIGITAL-2027",
+        "SRC-28DIGITAL-ADMISSIONS-2027",
+        "SRC-28DIGITAL-FEES-2027",
+        "SRC-28DIGITAL-CYBER-2027"
+      ],
+      "notes": null
+    },
+    "field": {
+      "value": "Computer Science",
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-UNITRENTO-28DIGITAL-2027",
+        "SRC-28DIGITAL-ADMISSIONS-2027",
+        "SRC-28DIGITAL-FEES-2027",
+        "SRC-28DIGITAL-CYBER-2027"
+      ],
+      "notes": null
+    },
+    "availability_2027_2028": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-UNITRENTO-28DIGITAL-2027",
+        "SRC-28DIGITAL-ADMISSIONS-2027",
+        "SRC-28DIGITAL-FEES-2027",
+        "SRC-28DIGITAL-CYBER-2027"
+      ],
+      "notes": null
+    },
+    "overall_status": "CONFIRMED",
+    "discovery_source": "newly_discovered",
+    "facts": {
+      "curriculum": {
+        "value": "Computer Science",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNITRENTO-28DIGITAL-2027",
+          "SRC-28DIGITAL-CYBER-2027"
+        ],
+        "notes": null
+      },
+      "duration": {
+        "value": "2 years / 120 ECTS; double degree with mandatory mobility between entry and exit universities",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNITRENTO-28DIGITAL-2027",
+          "SRC-28DIGITAL-CYBER-2027"
+        ],
+        "notes": null
+      },
+      "unitrento_role": {
+        "value": "Entry and exit",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNITRENTO-28DIGITAL-2027"
+        ],
+        "notes": null
+      },
+      "application_route": {
+        "value": "Central 28DIGITAL Master School application portal",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNITRENTO-28DIGITAL-2027",
+          "SRC-28DIGITAL-ADMISSIONS-2027"
+        ],
+        "notes": null
+      },
+      "application_windows": {
+        "value": {
+          "unitrento_department_page": [
+            {
+              "label": "Period 1",
+              "start": "2026-10-31",
+              "end": "2027-02-11",
+              "eligible_group": "EU/EEA/CH and non-EU applicants"
+            },
+            {
+              "label": "Period 2",
+              "start": "2027-02-11",
+              "end": "2027-04-15",
+              "eligible_group": "EU/EEA/CH and non-EU applicants residing in Italy; visa timing limits apply"
+            },
+            {
+              "label": "Period 3",
+              "start": "2027-04-15",
+              "end": "2027-06-01",
+              "eligible_group": "EU/EEA/CH and non-EU applicants residing in Italy"
+            }
+          ],
+          "central_28digital_admissions_page": [
+            {
+              "label": "Period 1",
+              "start": "2026-10-30",
+              "end": "2027-01-31",
+              "eligible_group": "EU/EEA/CH and non-EU applicants; primarily aimed at applicants needing a study residence permit"
+            },
+            {
+              "label": "Period 2",
+              "start": "2027-02-01",
+              "end": "2027-04-18",
+              "eligible_group": "Primarily EU and applicants not requiring a study permit"
+            },
+            {
+              "label": "Period 3",
+              "start": "2027-04-19",
+              "end": "2027-05-31",
+              "eligible_group": "EU and applicants not requiring a study permit"
+            }
+          ]
+        },
+        "status": "CONFLICTING_SOURCES",
+        "source_ids": [
+          "SRC-UNITRENTO-28DIGITAL-2027",
+          "SRC-28DIGITAL-ADMISSIONS-2027"
+        ],
+        "notes": "The official UniTrento department page gives different round boundaries from the central 28DIGITAL admissions page. Each individual track page confirms the first-period deadline of 31 January 2027; verify the specific chosen pathway in the central application portal."
+      },
+      "application_deadline": {
+        "value": {
+          "end": "2027-01-31",
+          "time": "23:59 CET",
+          "period": "1"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-CYBER-2027"
+        ],
+        "notes": "The individual track page confirms period 1; the UniTrento department page gives a conflicting period-1 end date."
+      },
+      "application_fee": {
+        "value": {
+          "amount_eur": 75,
+          "per": "submitted application",
+          "refundable": false
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-FEES-2027"
+        ],
+        "notes": null
+      },
+      "registration_fee": {
+        "value": {
+          "amount_eur": 250,
+          "per": "accepted offer",
+          "refundable": false,
+          "credited_to": "first-semester tuition"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-FEES-2027"
+        ],
+        "notes": null
+      },
+      "tuition": {
+        "value": {
+          "application_fee_eur": 75,
+          "application_fee_refundable": false,
+          "registration_deposit_eur": 250,
+          "registration_deposit_refundable": false,
+          "registration_deposit_credited_to": "first semester tuition",
+          "annual_tuition_eur": {
+            "EU_EEA": 6000,
+            "non_EU_EEA": 18000
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-FEES-2027"
+        ],
+        "notes": "Tuition is stated per academic year. British citizens applying from 1 January 2021 onward are charged the non-EU rate."
+      },
+      "english_requirement": {
+        "value": {
+          "IELTS_Academic": "overall 6.5; no section below 6.0; speaking and writing at least 6.5",
+          "TOEFL_iBT_after_2026_01_21": "at least 4.5 total and each section; writing at least 5.0",
+          "TOEFL_iBT_before_2026_01_21": "at least 92 total; 21 each section; speaking at least 23; writing at least 24",
+          "waiver": "degree taught in English at a university in USA, Canada, UK, Ireland, Australia or New Zealand"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-ADMISSIONS-2027"
+        ],
+        "notes": null
+      },
+      "requirements": {
+        "value": {
+          "minimum_bachelor_ects": 180,
+          "eligible_bachelor_fields": [
+            "Computer Science",
+            "Information Systems",
+            "Mathematics",
+            "Electrical Engineering"
+          ],
+          "relevant_experience": "may be considered"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-ADMISSIONS-2027",
+          "SRC-28DIGITAL-CYBER-2027"
+        ],
+        "notes": null
+      },
+      "scholarships": {
+        "value": {
+          "merit_awards": [
+            "full tuition waiver",
+            "half tuition waiver"
+          ],
+          "excellence_awards": {
+            "tuition": "full tuition waiver",
+            "living_allowance": "based on average living costs in study country",
+            "eligibility": "EU/EEA and associated-country citizens in selected programs"
+          },
+          "application": "apply through the 28DIGITAL portal with the program application",
+          "unitrento_mobility_award_eur_range": [
+            2500,
+            4500
+          ],
+          "unitrento_mobility_award_eligibility": "UniTrento entry students during second year abroad"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-FEES-2027"
+        ],
+        "notes": "Scholarships are competitive and eligibility/combination rules vary by award and partner university; amounts are not guaranteed to every admitted student."
+      },
+      "available_places": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-28DIGITAL-CYBER-2027"
+        ],
+        "notes": "No seat count is published on the reviewed track page."
+      },
+      "acceptance_rate": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-28DIGITAL-CYBER-2027"
+        ],
+        "notes": "No applicant or admission totals are published from which to calculate a rate."
+      }
+    },
+    "source_ids": [
+      "SRC-UNITRENTO-28DIGITAL-2027",
+      "SRC-28DIGITAL-ADMISSIONS-2027",
+      "SRC-28DIGITAL-FEES-2027",
+      "SRC-28DIGITAL-CYBER-2027"
+    ],
+    "previous_tracker_tags": null,
+    "last_checked": "2026-11-09"
+  },
+  {
+    "id": "discovered-014",
+    "university_id": "trento",
+    "university": "Università degli Studi di Trento",
+    "city": "Trento",
+    "program": "Data Science (DSC) – 28DIGITAL Master’s track",
+    "level": {
+      "value": "MSc",
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-UNITRENTO-28DIGITAL-2027",
+        "SRC-28DIGITAL-ADMISSIONS-2027",
+        "SRC-28DIGITAL-FEES-2027",
+        "SRC-28DIGITAL-DSC-2027"
+      ],
+      "notes": null
+    },
+    "language": {
+      "value": "English",
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-UNITRENTO-28DIGITAL-2027",
+        "SRC-28DIGITAL-ADMISSIONS-2027",
+        "SRC-28DIGITAL-FEES-2027",
+        "SRC-28DIGITAL-DSC-2027"
+      ],
+      "notes": null
+    },
+    "field": {
+      "value": "Computer Science",
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-UNITRENTO-28DIGITAL-2027",
+        "SRC-28DIGITAL-ADMISSIONS-2027",
+        "SRC-28DIGITAL-FEES-2027",
+        "SRC-28DIGITAL-DSC-2027"
+      ],
+      "notes": null
+    },
+    "availability_2027_2028": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-UNITRENTO-28DIGITAL-2027",
+        "SRC-28DIGITAL-ADMISSIONS-2027",
+        "SRC-28DIGITAL-FEES-2027",
+        "SRC-28DIGITAL-DSC-2027"
+      ],
+      "notes": null
+    },
+    "overall_status": "CONFIRMED",
+    "discovery_source": "newly_discovered",
+    "facts": {
+      "curriculum": {
+        "value": "Data Science",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNITRENTO-28DIGITAL-2027",
+          "SRC-28DIGITAL-DSC-2027"
+        ],
+        "notes": null
+      },
+      "duration": {
+        "value": "2 years / 120 ECTS; double degree with mandatory mobility between entry and exit universities",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNITRENTO-28DIGITAL-2027",
+          "SRC-28DIGITAL-DSC-2027"
+        ],
+        "notes": null
+      },
+      "unitrento_role": {
+        "value": "Exit",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNITRENTO-28DIGITAL-2027"
+        ],
+        "notes": null
+      },
+      "application_route": {
+        "value": "Central 28DIGITAL Master School application portal",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNITRENTO-28DIGITAL-2027",
+          "SRC-28DIGITAL-ADMISSIONS-2027"
+        ],
+        "notes": null
+      },
+      "application_windows": {
+        "value": {
+          "unitrento_department_page": [
+            {
+              "label": "Period 1",
+              "start": "2026-10-31",
+              "end": "2027-02-11",
+              "eligible_group": "EU/EEA/CH and non-EU applicants"
+            },
+            {
+              "label": "Period 2",
+              "start": "2027-02-11",
+              "end": "2027-04-15",
+              "eligible_group": "EU/EEA/CH and non-EU applicants residing in Italy; visa timing limits apply"
+            },
+            {
+              "label": "Period 3",
+              "start": "2027-04-15",
+              "end": "2027-06-01",
+              "eligible_group": "EU/EEA/CH and non-EU applicants residing in Italy"
+            }
+          ],
+          "central_28digital_admissions_page": [
+            {
+              "label": "Period 1",
+              "start": "2026-10-30",
+              "end": "2027-01-31",
+              "eligible_group": "EU/EEA/CH and non-EU applicants; primarily aimed at applicants needing a study residence permit"
+            },
+            {
+              "label": "Period 2",
+              "start": "2027-02-01",
+              "end": "2027-04-18",
+              "eligible_group": "Primarily EU and applicants not requiring a study permit"
+            },
+            {
+              "label": "Period 3",
+              "start": "2027-04-19",
+              "end": "2027-05-31",
+              "eligible_group": "EU and applicants not requiring a study permit"
+            }
+          ]
+        },
+        "status": "CONFLICTING_SOURCES",
+        "source_ids": [
+          "SRC-UNITRENTO-28DIGITAL-2027",
+          "SRC-28DIGITAL-ADMISSIONS-2027"
+        ],
+        "notes": "The official UniTrento department page gives different round boundaries from the central 28DIGITAL admissions page. Each individual track page confirms the first-period deadline of 31 January 2027; verify the specific chosen pathway in the central application portal."
+      },
+      "application_deadline": {
+        "value": {
+          "end": "2027-01-31",
+          "time": "23:59 CET",
+          "period": "1"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-DSC-2027"
+        ],
+        "notes": "The individual track page confirms period 1; the UniTrento department page gives a conflicting period-1 end date."
+      },
+      "application_fee": {
+        "value": {
+          "amount_eur": 75,
+          "per": "submitted application",
+          "refundable": false
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-FEES-2027"
+        ],
+        "notes": null
+      },
+      "registration_fee": {
+        "value": {
+          "amount_eur": 250,
+          "per": "accepted offer",
+          "refundable": false,
+          "credited_to": "first-semester tuition"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-FEES-2027"
+        ],
+        "notes": null
+      },
+      "tuition": {
+        "value": {
+          "application_fee_eur": 75,
+          "application_fee_refundable": false,
+          "registration_deposit_eur": 250,
+          "registration_deposit_refundable": false,
+          "registration_deposit_credited_to": "first semester tuition",
+          "annual_tuition_eur": {
+            "EU_EEA": 6000,
+            "non_EU_EEA": 18000
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-FEES-2027"
+        ],
+        "notes": "Tuition is stated per academic year. British citizens applying from 1 January 2021 onward are charged the non-EU rate."
+      },
+      "english_requirement": {
+        "value": {
+          "IELTS_Academic": "overall 6.5; no section below 6.0; speaking and writing at least 6.5",
+          "TOEFL_iBT_after_2026_01_21": "at least 4.5 total and each section; writing at least 5.0",
+          "TOEFL_iBT_before_2026_01_21": "at least 92 total; 21 each section; speaking at least 23; writing at least 24",
+          "waiver": "degree taught in English at a university in USA, Canada, UK, Ireland, Australia or New Zealand"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-ADMISSIONS-2027"
+        ],
+        "notes": null
+      },
+      "requirements": {
+        "value": {
+          "minimum_bachelor_ects": 180,
+          "eligible_bachelor_fields": [
+            "Computer Science",
+            "Information Systems",
+            "Mathematics",
+            "Statistics",
+            "Electrical Engineering/Electronics"
+          ],
+          "minimum_computer_science_ects": 60,
+          "minimum_mathematics_ects": 30
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-ADMISSIONS-2027",
+          "SRC-28DIGITAL-DSC-2027"
+        ],
+        "notes": null
+      },
+      "scholarships": {
+        "value": {
+          "merit_awards": [
+            "full tuition waiver",
+            "half tuition waiver"
+          ],
+          "excellence_awards": {
+            "tuition": "full tuition waiver",
+            "living_allowance": "based on average living costs in study country",
+            "eligibility": "EU/EEA and associated-country citizens in selected programs"
+          },
+          "application": "apply through the 28DIGITAL portal with the program application",
+          "unitrento_mobility_award_eur_range": [
+            2500,
+            4500
+          ],
+          "unitrento_mobility_award_eligibility": "UniTrento entry students during second year abroad"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-FEES-2027"
+        ],
+        "notes": "Scholarships are competitive and eligibility/combination rules vary by award and partner university; amounts are not guaranteed to every admitted student."
+      },
+      "available_places": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-28DIGITAL-DSC-2027"
+        ],
+        "notes": "No seat count is published on the reviewed track page."
+      },
+      "acceptance_rate": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-28DIGITAL-DSC-2027"
+        ],
+        "notes": "No applicant or admission totals are published from which to calculate a rate."
+      }
+    },
+    "source_ids": [
+      "SRC-UNITRENTO-28DIGITAL-2027",
+      "SRC-28DIGITAL-ADMISSIONS-2027",
+      "SRC-28DIGITAL-FEES-2027",
+      "SRC-28DIGITAL-DSC-2027"
+    ],
+    "previous_tracker_tags": null,
+    "last_checked": "2026-11-09"
+  },
+  {
+    "id": "discovered-015",
+    "university_id": "trento",
+    "university": "Università degli Studi di Trento",
+    "city": "Trento",
+    "program": "Fintech (FT) – 28DIGITAL Master’s track",
+    "level": {
+      "value": "MSc",
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-UNITRENTO-28DIGITAL-2027",
+        "SRC-28DIGITAL-ADMISSIONS-2027",
+        "SRC-28DIGITAL-FEES-2027",
+        "SRC-28DIGITAL-FINTECH-2027"
+      ],
+      "notes": null
+    },
+    "language": {
+      "value": "English",
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-UNITRENTO-28DIGITAL-2027",
+        "SRC-28DIGITAL-ADMISSIONS-2027",
+        "SRC-28DIGITAL-FEES-2027",
+        "SRC-28DIGITAL-FINTECH-2027"
+      ],
+      "notes": null
+    },
+    "field": {
+      "value": "Computer Science",
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-UNITRENTO-28DIGITAL-2027",
+        "SRC-28DIGITAL-ADMISSIONS-2027",
+        "SRC-28DIGITAL-FEES-2027",
+        "SRC-28DIGITAL-FINTECH-2027"
+      ],
+      "notes": null
+    },
+    "availability_2027_2028": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-UNITRENTO-28DIGITAL-2027",
+        "SRC-28DIGITAL-ADMISSIONS-2027",
+        "SRC-28DIGITAL-FEES-2027",
+        "SRC-28DIGITAL-FINTECH-2027"
+      ],
+      "notes": null
+    },
+    "overall_status": "CONFIRMED",
+    "discovery_source": "newly_discovered",
+    "facts": {
+      "curriculum": {
+        "value": "Finance and Technology",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNITRENTO-28DIGITAL-2027",
+          "SRC-28DIGITAL-FINTECH-2027"
+        ],
+        "notes": null
+      },
+      "duration": {
+        "value": "2 years / 120 ECTS; double degree with mandatory mobility between entry and exit universities",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNITRENTO-28DIGITAL-2027",
+          "SRC-28DIGITAL-FINTECH-2027"
+        ],
+        "notes": null
+      },
+      "unitrento_role": {
+        "value": "Entry and exit",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNITRENTO-28DIGITAL-2027"
+        ],
+        "notes": null
+      },
+      "application_route": {
+        "value": "Central 28DIGITAL Master School application portal",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNITRENTO-28DIGITAL-2027",
+          "SRC-28DIGITAL-ADMISSIONS-2027"
+        ],
+        "notes": null
+      },
+      "application_windows": {
+        "value": {
+          "unitrento_department_page": [
+            {
+              "label": "Period 1",
+              "start": "2026-10-31",
+              "end": "2027-02-11",
+              "eligible_group": "EU/EEA/CH and non-EU applicants"
+            },
+            {
+              "label": "Period 2",
+              "start": "2027-02-11",
+              "end": "2027-04-15",
+              "eligible_group": "EU/EEA/CH and non-EU applicants residing in Italy; visa timing limits apply"
+            },
+            {
+              "label": "Period 3",
+              "start": "2027-04-15",
+              "end": "2027-06-01",
+              "eligible_group": "EU/EEA/CH and non-EU applicants residing in Italy"
+            }
+          ],
+          "central_28digital_admissions_page": [
+            {
+              "label": "Period 1",
+              "start": "2026-10-30",
+              "end": "2027-01-31",
+              "eligible_group": "EU/EEA/CH and non-EU applicants; primarily aimed at applicants needing a study residence permit"
+            },
+            {
+              "label": "Period 2",
+              "start": "2027-02-01",
+              "end": "2027-04-18",
+              "eligible_group": "Primarily EU and applicants not requiring a study permit"
+            },
+            {
+              "label": "Period 3",
+              "start": "2027-04-19",
+              "end": "2027-05-31",
+              "eligible_group": "EU and applicants not requiring a study permit"
+            }
+          ]
+        },
+        "status": "CONFLICTING_SOURCES",
+        "source_ids": [
+          "SRC-UNITRENTO-28DIGITAL-2027",
+          "SRC-28DIGITAL-ADMISSIONS-2027"
+        ],
+        "notes": "The official UniTrento department page gives different round boundaries from the central 28DIGITAL admissions page. Each individual track page confirms the first-period deadline of 31 January 2027; verify the specific chosen pathway in the central application portal."
+      },
+      "application_deadline": {
+        "value": {
+          "end": "2027-01-31",
+          "time": "23:59 CET",
+          "period": "1"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-FINTECH-2027"
+        ],
+        "notes": "The individual track page confirms period 1; the UniTrento department page gives a conflicting period-1 end date."
+      },
+      "application_fee": {
+        "value": {
+          "amount_eur": 75,
+          "per": "submitted application",
+          "refundable": false
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-FEES-2027"
+        ],
+        "notes": null
+      },
+      "registration_fee": {
+        "value": {
+          "amount_eur": 250,
+          "per": "accepted offer",
+          "refundable": false,
+          "credited_to": "first-semester tuition"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-FEES-2027"
+        ],
+        "notes": null
+      },
+      "tuition": {
+        "value": {
+          "application_fee_eur": 75,
+          "application_fee_refundable": false,
+          "registration_deposit_eur": 250,
+          "registration_deposit_refundable": false,
+          "registration_deposit_credited_to": "first semester tuition",
+          "annual_tuition_eur": {
+            "EU_EEA": 6000,
+            "non_EU_EEA": 18000
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-FEES-2027"
+        ],
+        "notes": "Tuition is stated per academic year. British citizens applying from 1 January 2021 onward are charged the non-EU rate."
+      },
+      "english_requirement": {
+        "value": {
+          "IELTS_Academic": "overall 6.5; no section below 6.0; speaking and writing at least 6.5",
+          "TOEFL_iBT_after_2026_01_21": "at least 4.5 total and each section; writing at least 5.0",
+          "TOEFL_iBT_before_2026_01_21": "at least 92 total; 21 each section; speaking at least 23; writing at least 24",
+          "waiver": "degree taught in English at a university in USA, Canada, UK, Ireland, Australia or New Zealand"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-ADMISSIONS-2027"
+        ],
+        "notes": null
+      },
+      "requirements": {
+        "value": {
+          "minimum_bachelor_ects": 180,
+          "eligible_bachelor_fields": [
+            "Computer Science",
+            "Telecommunication Engineering",
+            "Information Systems",
+            "Mathematics",
+            "Statistics",
+            "Electrical Engineering/Electronics",
+            "Information Technology",
+            "Software Engineering",
+            "Business Informatics",
+            "Business Administration and Finance with strong computer science component"
+          ],
+          "relevant_experience": "may be considered"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-ADMISSIONS-2027",
+          "SRC-28DIGITAL-FINTECH-2027"
+        ],
+        "notes": null
+      },
+      "scholarships": {
+        "value": {
+          "merit_awards": [
+            "full tuition waiver",
+            "half tuition waiver"
+          ],
+          "excellence_awards": {
+            "tuition": "full tuition waiver",
+            "living_allowance": "based on average living costs in study country",
+            "eligibility": "EU/EEA and associated-country citizens in selected programs"
+          },
+          "application": "apply through the 28DIGITAL portal with the program application",
+          "unitrento_mobility_award_eur_range": [
+            2500,
+            4500
+          ],
+          "unitrento_mobility_award_eligibility": "UniTrento entry students during second year abroad"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-FEES-2027"
+        ],
+        "notes": "Scholarships are competitive and eligibility/combination rules vary by award and partner university; amounts are not guaranteed to every admitted student."
+      },
+      "available_places": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-28DIGITAL-FINTECH-2027"
+        ],
+        "notes": "No seat count is published on the reviewed track page."
+      },
+      "acceptance_rate": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-28DIGITAL-FINTECH-2027"
+        ],
+        "notes": "No applicant or admission totals are published from which to calculate a rate."
+      }
+    },
+    "source_ids": [
+      "SRC-UNITRENTO-28DIGITAL-2027",
+      "SRC-28DIGITAL-ADMISSIONS-2027",
+      "SRC-28DIGITAL-FEES-2027",
+      "SRC-28DIGITAL-FINTECH-2027"
+    ],
+    "previous_tracker_tags": null,
+    "last_checked": "2026-11-09"
+  },
+  {
+    "id": "discovered-016",
+    "university_id": "trento",
+    "university": "Università degli Studi di Trento",
+    "city": "Trento",
+    "program": "Human-Computer Interaction and Design with Extended Reality (HCID/XR) – 28DIGITAL track",
+    "level": {
+      "value": "MSc",
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-UNITRENTO-28DIGITAL-2027",
+        "SRC-28DIGITAL-ADMISSIONS-2027",
+        "SRC-28DIGITAL-FEES-2027",
+        "SRC-28DIGITAL-HCIDXR-2027"
+      ],
+      "notes": null
+    },
+    "language": {
+      "value": "English",
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-UNITRENTO-28DIGITAL-2027",
+        "SRC-28DIGITAL-ADMISSIONS-2027",
+        "SRC-28DIGITAL-FEES-2027",
+        "SRC-28DIGITAL-HCIDXR-2027"
+      ],
+      "notes": null
+    },
+    "field": {
+      "value": "Computer Science",
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-UNITRENTO-28DIGITAL-2027",
+        "SRC-28DIGITAL-ADMISSIONS-2027",
+        "SRC-28DIGITAL-FEES-2027",
+        "SRC-28DIGITAL-HCIDXR-2027"
+      ],
+      "notes": null
+    },
+    "availability_2027_2028": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-UNITRENTO-28DIGITAL-2027",
+        "SRC-28DIGITAL-ADMISSIONS-2027",
+        "SRC-28DIGITAL-FEES-2027",
+        "SRC-28DIGITAL-HCIDXR-2027"
+      ],
+      "notes": null
+    },
+    "overall_status": "CONFIRMED",
+    "discovery_source": "newly_discovered",
+    "facts": {
+      "curriculum": {
+        "value": "Human-Computer Interaction",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNITRENTO-28DIGITAL-2027",
+          "SRC-28DIGITAL-HCIDXR-2027"
+        ],
+        "notes": null
+      },
+      "duration": {
+        "value": "2 years / 120 ECTS; double degree with mandatory mobility between entry and exit universities",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNITRENTO-28DIGITAL-2027",
+          "SRC-28DIGITAL-HCIDXR-2027"
+        ],
+        "notes": null
+      },
+      "unitrento_role": {
+        "value": "Exit",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNITRENTO-28DIGITAL-2027"
+        ],
+        "notes": null
+      },
+      "application_route": {
+        "value": "Central 28DIGITAL Master School application portal",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNITRENTO-28DIGITAL-2027",
+          "SRC-28DIGITAL-ADMISSIONS-2027"
+        ],
+        "notes": null
+      },
+      "application_windows": {
+        "value": {
+          "unitrento_department_page": [
+            {
+              "label": "Period 1",
+              "start": "2026-10-31",
+              "end": "2027-02-11",
+              "eligible_group": "EU/EEA/CH and non-EU applicants"
+            },
+            {
+              "label": "Period 2",
+              "start": "2027-02-11",
+              "end": "2027-04-15",
+              "eligible_group": "EU/EEA/CH and non-EU applicants residing in Italy; visa timing limits apply"
+            },
+            {
+              "label": "Period 3",
+              "start": "2027-04-15",
+              "end": "2027-06-01",
+              "eligible_group": "EU/EEA/CH and non-EU applicants residing in Italy"
+            }
+          ],
+          "central_28digital_admissions_page": [
+            {
+              "label": "Period 1",
+              "start": "2026-10-30",
+              "end": "2027-01-31",
+              "eligible_group": "EU/EEA/CH and non-EU applicants; primarily aimed at applicants needing a study residence permit"
+            },
+            {
+              "label": "Period 2",
+              "start": "2027-02-01",
+              "end": "2027-04-18",
+              "eligible_group": "Primarily EU and applicants not requiring a study permit"
+            },
+            {
+              "label": "Period 3",
+              "start": "2027-04-19",
+              "end": "2027-05-31",
+              "eligible_group": "EU and applicants not requiring a study permit"
+            }
+          ]
+        },
+        "status": "CONFLICTING_SOURCES",
+        "source_ids": [
+          "SRC-UNITRENTO-28DIGITAL-2027",
+          "SRC-28DIGITAL-ADMISSIONS-2027"
+        ],
+        "notes": "The official UniTrento department page gives different round boundaries from the central 28DIGITAL admissions page. Each individual track page confirms the first-period deadline of 31 January 2027; verify the specific chosen pathway in the central application portal."
+      },
+      "application_deadline": {
+        "value": {
+          "end": "2027-01-31",
+          "time": "23:59 CET",
+          "period": "1"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-HCIDXR-2027"
+        ],
+        "notes": "The individual track page confirms period 1; the UniTrento department page gives a conflicting period-1 end date."
+      },
+      "application_fee": {
+        "value": {
+          "amount_eur": 75,
+          "per": "submitted application",
+          "refundable": false
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-FEES-2027"
+        ],
+        "notes": null
+      },
+      "registration_fee": {
+        "value": {
+          "amount_eur": 250,
+          "per": "accepted offer",
+          "refundable": false,
+          "credited_to": "first-semester tuition"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-FEES-2027"
+        ],
+        "notes": null
+      },
+      "tuition": {
+        "value": {
+          "application_fee_eur": 75,
+          "application_fee_refundable": false,
+          "registration_deposit_eur": 250,
+          "registration_deposit_refundable": false,
+          "registration_deposit_credited_to": "first semester tuition",
+          "annual_tuition_eur": {
+            "EU_EEA": 6000,
+            "non_EU_EEA": 18000
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-FEES-2027"
+        ],
+        "notes": "Tuition is stated per academic year. British citizens applying from 1 January 2021 onward are charged the non-EU rate."
+      },
+      "english_requirement": {
+        "value": {
+          "IELTS_Academic": "overall 6.5; no section below 6.0; speaking and writing at least 6.5",
+          "TOEFL_iBT_after_2026_01_21": "at least 4.5 total and each section; writing at least 5.0",
+          "TOEFL_iBT_before_2026_01_21": "at least 92 total; 21 each section; speaking at least 23; writing at least 24",
+          "waiver": "degree taught in English at a university in USA, Canada, UK, Ireland, Australia or New Zealand"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-ADMISSIONS-2027"
+        ],
+        "notes": null
+      },
+      "requirements": {
+        "value": {
+          "minimum_bachelor_ects": 180,
+          "eligible_bachelor_fields": [
+            "Computer Science",
+            "Information Systems",
+            "Interaction Design",
+            "Cognitive Science",
+            "Engineering"
+          ],
+          "relevant_experience": "HCI, UX or XR experience may be considered"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-ADMISSIONS-2027",
+          "SRC-28DIGITAL-HCIDXR-2027"
+        ],
+        "notes": null
+      },
+      "scholarships": {
+        "value": {
+          "merit_awards": [
+            "full tuition waiver",
+            "half tuition waiver"
+          ],
+          "excellence_awards": {
+            "tuition": "full tuition waiver",
+            "living_allowance": "based on average living costs in study country",
+            "eligibility": "EU/EEA and associated-country citizens in selected programs"
+          },
+          "application": "apply through the 28DIGITAL portal with the program application",
+          "unitrento_mobility_award_eur_range": [
+            2500,
+            4500
+          ],
+          "unitrento_mobility_award_eligibility": "UniTrento entry students during second year abroad"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-FEES-2027"
+        ],
+        "notes": "Scholarships are competitive and eligibility/combination rules vary by award and partner university; amounts are not guaranteed to every admitted student."
+      },
+      "available_places": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-28DIGITAL-HCIDXR-2027"
+        ],
+        "notes": "No seat count is published on the reviewed track page."
+      },
+      "acceptance_rate": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-28DIGITAL-HCIDXR-2027"
+        ],
+        "notes": "No applicant or admission totals are published from which to calculate a rate."
+      }
+    },
+    "source_ids": [
+      "SRC-UNITRENTO-28DIGITAL-2027",
+      "SRC-28DIGITAL-ADMISSIONS-2027",
+      "SRC-28DIGITAL-FEES-2027",
+      "SRC-28DIGITAL-HCIDXR-2027"
+    ],
+    "previous_tracker_tags": null,
+    "last_checked": "2026-11-09"
+  },
+  {
+    "id": "discovered-017",
+    "university_id": "trento",
+    "university": "Università degli Studi di Trento",
+    "city": "Trento",
+    "program": "Cloud and Networking Infrastructure and HPC (CNIHPC) – 28DIGITAL track",
+    "level": {
+      "value": "MSc",
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-UNITRENTO-28DIGITAL-2027",
+        "SRC-28DIGITAL-ADMISSIONS-2027",
+        "SRC-28DIGITAL-FEES-2027",
+        "SRC-28DIGITAL-CLOUD-2027"
+      ],
+      "notes": null
+    },
+    "language": {
+      "value": "English",
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-UNITRENTO-28DIGITAL-2027",
+        "SRC-28DIGITAL-ADMISSIONS-2027",
+        "SRC-28DIGITAL-FEES-2027",
+        "SRC-28DIGITAL-CLOUD-2027"
+      ],
+      "notes": null
+    },
+    "field": {
+      "value": "Engineering",
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-UNITRENTO-28DIGITAL-2027",
+        "SRC-28DIGITAL-ADMISSIONS-2027",
+        "SRC-28DIGITAL-FEES-2027",
+        "SRC-28DIGITAL-CLOUD-2027"
+      ],
+      "notes": null
+    },
+    "availability_2027_2028": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-UNITRENTO-28DIGITAL-2027",
+        "SRC-28DIGITAL-ADMISSIONS-2027",
+        "SRC-28DIGITAL-FEES-2027",
+        "SRC-28DIGITAL-CLOUD-2027"
+      ],
+      "notes": null
+    },
+    "overall_status": "CONFIRMED",
+    "discovery_source": "newly_discovered",
+    "facts": {
+      "curriculum": {
+        "value": "Computer Engineering",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNITRENTO-28DIGITAL-2027",
+          "SRC-28DIGITAL-CLOUD-2027"
+        ],
+        "notes": null
+      },
+      "duration": {
+        "value": "2 years / 120 ECTS; double degree with mandatory mobility between entry and exit universities",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNITRENTO-28DIGITAL-2027",
+          "SRC-28DIGITAL-CLOUD-2027"
+        ],
+        "notes": null
+      },
+      "unitrento_role": {
+        "value": "Entry and exit",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNITRENTO-28DIGITAL-2027"
+        ],
+        "notes": null
+      },
+      "application_route": {
+        "value": "Central 28DIGITAL Master School application portal",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNITRENTO-28DIGITAL-2027",
+          "SRC-28DIGITAL-ADMISSIONS-2027"
+        ],
+        "notes": null
+      },
+      "application_windows": {
+        "value": {
+          "unitrento_department_page": [
+            {
+              "label": "Period 1",
+              "start": "2026-10-31",
+              "end": "2027-02-11",
+              "eligible_group": "EU/EEA/CH and non-EU applicants"
+            },
+            {
+              "label": "Period 2",
+              "start": "2027-02-11",
+              "end": "2027-04-15",
+              "eligible_group": "EU/EEA/CH and non-EU applicants residing in Italy; visa timing limits apply"
+            },
+            {
+              "label": "Period 3",
+              "start": "2027-04-15",
+              "end": "2027-06-01",
+              "eligible_group": "EU/EEA/CH and non-EU applicants residing in Italy"
+            }
+          ],
+          "central_28digital_admissions_page": [
+            {
+              "label": "Period 1",
+              "start": "2026-10-30",
+              "end": "2027-01-31",
+              "eligible_group": "EU/EEA/CH and non-EU applicants; primarily aimed at applicants needing a study residence permit"
+            },
+            {
+              "label": "Period 2",
+              "start": "2027-02-01",
+              "end": "2027-04-18",
+              "eligible_group": "Primarily EU and applicants not requiring a study permit"
+            },
+            {
+              "label": "Period 3",
+              "start": "2027-04-19",
+              "end": "2027-05-31",
+              "eligible_group": "EU and applicants not requiring a study permit"
+            }
+          ]
+        },
+        "status": "CONFLICTING_SOURCES",
+        "source_ids": [
+          "SRC-UNITRENTO-28DIGITAL-2027",
+          "SRC-28DIGITAL-ADMISSIONS-2027"
+        ],
+        "notes": "The official UniTrento department page gives different round boundaries from the central 28DIGITAL admissions page. Each individual track page confirms the first-period deadline of 31 January 2027; verify the specific chosen pathway in the central application portal."
+      },
+      "application_deadline": {
+        "value": {
+          "end": "2027-01-31",
+          "time": "23:59 CET",
+          "period": "1"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-CLOUD-2027"
+        ],
+        "notes": "The individual track page confirms period 1; the UniTrento department page gives a conflicting period-1 end date."
+      },
+      "application_fee": {
+        "value": {
+          "amount_eur": 75,
+          "per": "submitted application",
+          "refundable": false
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-FEES-2027"
+        ],
+        "notes": null
+      },
+      "registration_fee": {
+        "value": {
+          "amount_eur": 250,
+          "per": "accepted offer",
+          "refundable": false,
+          "credited_to": "first-semester tuition"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-FEES-2027"
+        ],
+        "notes": null
+      },
+      "tuition": {
+        "value": {
+          "application_fee_eur": 75,
+          "application_fee_refundable": false,
+          "registration_deposit_eur": 250,
+          "registration_deposit_refundable": false,
+          "registration_deposit_credited_to": "first semester tuition",
+          "annual_tuition_eur": {
+            "EU_EEA": 6000,
+            "non_EU_EEA": 18000
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-FEES-2027"
+        ],
+        "notes": "Tuition is stated per academic year. British citizens applying from 1 January 2021 onward are charged the non-EU rate."
+      },
+      "english_requirement": {
+        "value": {
+          "IELTS_Academic": "overall 6.5; no section below 6.0; speaking and writing at least 6.5",
+          "TOEFL_iBT_after_2026_01_21": "at least 4.5 total and each section; writing at least 5.0",
+          "TOEFL_iBT_before_2026_01_21": "at least 92 total; 21 each section; speaking at least 23; writing at least 24",
+          "waiver": "degree taught in English at a university in USA, Canada, UK, Ireland, Australia or New Zealand"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-ADMISSIONS-2027"
+        ],
+        "notes": null
+      },
+      "requirements": {
+        "value": {
+          "minimum_bachelor_ects": 180,
+          "eligible_bachelor_fields": [
+            "Computer Science",
+            "Computer Engineering",
+            "Electrical/Electronic Engineering",
+            "Information Systems",
+            "related fields"
+          ],
+          "expected_background": [
+            "mathematics",
+            "computer science foundations",
+            "computer architecture"
+          ]
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-ADMISSIONS-2027",
+          "SRC-28DIGITAL-CLOUD-2027"
+        ],
+        "notes": null
+      },
+      "scholarships": {
+        "value": {
+          "merit_awards": [
+            "full tuition waiver",
+            "half tuition waiver"
+          ],
+          "excellence_awards": {
+            "tuition": "full tuition waiver",
+            "living_allowance": "based on average living costs in study country",
+            "eligibility": "EU/EEA and associated-country citizens in selected programs"
+          },
+          "application": "apply through the 28DIGITAL portal with the program application",
+          "unitrento_mobility_award_eur_range": [
+            2500,
+            4500
+          ],
+          "unitrento_mobility_award_eligibility": "UniTrento entry students during second year abroad"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-FEES-2027"
+        ],
+        "notes": "Scholarships are competitive and eligibility/combination rules vary by award and partner university; amounts are not guaranteed to every admitted student."
+      },
+      "available_places": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-28DIGITAL-CLOUD-2027"
+        ],
+        "notes": "No seat count is published on the reviewed track page."
+      },
+      "acceptance_rate": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-28DIGITAL-CLOUD-2027"
+        ],
+        "notes": "No applicant or admission totals are published from which to calculate a rate."
+      }
+    },
+    "source_ids": [
+      "SRC-UNITRENTO-28DIGITAL-2027",
+      "SRC-28DIGITAL-ADMISSIONS-2027",
+      "SRC-28DIGITAL-FEES-2027",
+      "SRC-28DIGITAL-CLOUD-2027"
+    ],
+    "previous_tracker_tags": null,
+    "last_checked": "2026-11-09"
+  },
+  {
+    "id": "discovered-018",
+    "university_id": "trento",
+    "university": "Università degli Studi di Trento",
+    "city": "Trento",
+    "program": "Intelligent Chips and Systems (ICS) – 28DIGITAL track",
+    "level": {
+      "value": "MSc",
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-UNITRENTO-28DIGITAL-2027",
+        "SRC-28DIGITAL-ADMISSIONS-2027",
+        "SRC-28DIGITAL-FEES-2027",
+        "SRC-28DIGITAL-ICS-2027"
+      ],
+      "notes": null
+    },
+    "language": {
+      "value": "English",
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-UNITRENTO-28DIGITAL-2027",
+        "SRC-28DIGITAL-ADMISSIONS-2027",
+        "SRC-28DIGITAL-FEES-2027",
+        "SRC-28DIGITAL-ICS-2027"
+      ],
+      "notes": null
+    },
+    "field": {
+      "value": "Engineering",
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-UNITRENTO-28DIGITAL-2027",
+        "SRC-28DIGITAL-ADMISSIONS-2027",
+        "SRC-28DIGITAL-FEES-2027",
+        "SRC-28DIGITAL-ICS-2027"
+      ],
+      "notes": null
+    },
+    "availability_2027_2028": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-UNITRENTO-28DIGITAL-2027",
+        "SRC-28DIGITAL-ADMISSIONS-2027",
+        "SRC-28DIGITAL-FEES-2027",
+        "SRC-28DIGITAL-ICS-2027"
+      ],
+      "notes": null
+    },
+    "overall_status": "CONFIRMED",
+    "discovery_source": "newly_discovered",
+    "facts": {
+      "curriculum": {
+        "value": "Electrical and Computer Engineering",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNITRENTO-28DIGITAL-2027",
+          "SRC-28DIGITAL-ICS-2027"
+        ],
+        "notes": null
+      },
+      "duration": {
+        "value": "2 years / 120 ECTS; double degree with mandatory mobility between entry and exit universities",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNITRENTO-28DIGITAL-2027",
+          "SRC-28DIGITAL-ICS-2027"
+        ],
+        "notes": null
+      },
+      "unitrento_role": {
+        "value": "Exit",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNITRENTO-28DIGITAL-2027"
+        ],
+        "notes": null
+      },
+      "application_route": {
+        "value": "Central 28DIGITAL Master School application portal",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNITRENTO-28DIGITAL-2027",
+          "SRC-28DIGITAL-ADMISSIONS-2027"
+        ],
+        "notes": null
+      },
+      "application_windows": {
+        "value": {
+          "unitrento_department_page": [
+            {
+              "label": "Period 1",
+              "start": "2026-10-31",
+              "end": "2027-02-11",
+              "eligible_group": "EU/EEA/CH and non-EU applicants"
+            },
+            {
+              "label": "Period 2",
+              "start": "2027-02-11",
+              "end": "2027-04-15",
+              "eligible_group": "EU/EEA/CH and non-EU applicants residing in Italy; visa timing limits apply"
+            },
+            {
+              "label": "Period 3",
+              "start": "2027-04-15",
+              "end": "2027-06-01",
+              "eligible_group": "EU/EEA/CH and non-EU applicants residing in Italy"
+            }
+          ],
+          "central_28digital_admissions_page": [
+            {
+              "label": "Period 1",
+              "start": "2026-10-30",
+              "end": "2027-01-31",
+              "eligible_group": "EU/EEA/CH and non-EU applicants; primarily aimed at applicants needing a study residence permit"
+            },
+            {
+              "label": "Period 2",
+              "start": "2027-02-01",
+              "end": "2027-04-18",
+              "eligible_group": "Primarily EU and applicants not requiring a study permit"
+            },
+            {
+              "label": "Period 3",
+              "start": "2027-04-19",
+              "end": "2027-05-31",
+              "eligible_group": "EU and applicants not requiring a study permit"
+            }
+          ]
+        },
+        "status": "CONFLICTING_SOURCES",
+        "source_ids": [
+          "SRC-UNITRENTO-28DIGITAL-2027",
+          "SRC-28DIGITAL-ADMISSIONS-2027"
+        ],
+        "notes": "The official UniTrento department page gives different round boundaries from the central 28DIGITAL admissions page. Each individual track page confirms the first-period deadline of 31 January 2027; verify the specific chosen pathway in the central application portal."
+      },
+      "application_deadline": {
+        "value": {
+          "end": "2027-01-31",
+          "time": "23:59 CET",
+          "period": "1"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-ICS-2027"
+        ],
+        "notes": "The individual track page confirms period 1; the UniTrento department page gives a conflicting period-1 end date."
+      },
+      "application_fee": {
+        "value": {
+          "amount_eur": 75,
+          "per": "submitted application",
+          "refundable": false
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-FEES-2027"
+        ],
+        "notes": null
+      },
+      "registration_fee": {
+        "value": {
+          "amount_eur": 250,
+          "per": "accepted offer",
+          "refundable": false,
+          "credited_to": "first-semester tuition"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-FEES-2027"
+        ],
+        "notes": null
+      },
+      "tuition": {
+        "value": {
+          "application_fee_eur": 75,
+          "application_fee_refundable": false,
+          "registration_deposit_eur": 250,
+          "registration_deposit_refundable": false,
+          "registration_deposit_credited_to": "first semester tuition",
+          "annual_tuition_eur": {
+            "EU_EEA": 6000,
+            "non_EU_EEA": 18000
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-FEES-2027"
+        ],
+        "notes": "Tuition is stated per academic year. British citizens applying from 1 January 2021 onward are charged the non-EU rate."
+      },
+      "english_requirement": {
+        "value": {
+          "IELTS_Academic": "overall 6.5; no section below 6.0; speaking and writing at least 6.5",
+          "TOEFL_iBT_after_2026_01_21": "at least 4.5 total and each section; writing at least 5.0",
+          "TOEFL_iBT_before_2026_01_21": "at least 92 total; 21 each section; speaking at least 23; writing at least 24",
+          "waiver": "degree taught in English at a university in USA, Canada, UK, Ireland, Australia or New Zealand"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-ADMISSIONS-2027"
+        ],
+        "notes": null
+      },
+      "requirements": {
+        "value": {
+          "minimum_bachelor_ects": 180,
+          "eligible_bachelor_fields": [
+            "Computer Science",
+            "Electrical Engineering",
+            "Computer Engineering",
+            "Software Engineering",
+            "Mechatronics",
+            "Mathematics",
+            "related fields"
+          ],
+          "minimum_ict_ects": 40,
+          "minimum_mathematics_ects": 20
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-ADMISSIONS-2027",
+          "SRC-28DIGITAL-ICS-2027"
+        ],
+        "notes": null
+      },
+      "scholarships": {
+        "value": {
+          "merit_awards": [
+            "full tuition waiver",
+            "half tuition waiver"
+          ],
+          "excellence_awards": {
+            "tuition": "full tuition waiver",
+            "living_allowance": "based on average living costs in study country",
+            "eligibility": "EU/EEA and associated-country citizens in selected programs"
+          },
+          "application": "apply through the 28DIGITAL portal with the program application",
+          "unitrento_mobility_award_eur_range": [
+            2500,
+            4500
+          ],
+          "unitrento_mobility_award_eligibility": "UniTrento entry students during second year abroad"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-FEES-2027"
+        ],
+        "notes": "Scholarships are competitive and eligibility/combination rules vary by award and partner university; amounts are not guaranteed to every admitted student."
+      },
+      "available_places": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-28DIGITAL-ICS-2027"
+        ],
+        "notes": "No seat count is published on the reviewed track page."
+      },
+      "acceptance_rate": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-28DIGITAL-ICS-2027"
+        ],
+        "notes": "No applicant or admission totals are published from which to calculate a rate."
+      }
+    },
+    "source_ids": [
+      "SRC-UNITRENTO-28DIGITAL-2027",
+      "SRC-28DIGITAL-ADMISSIONS-2027",
+      "SRC-28DIGITAL-FEES-2027",
+      "SRC-28DIGITAL-ICS-2027"
+    ],
+    "previous_tracker_tags": null,
+    "last_checked": "2026-11-09"
+  },
+  {
+    "id": "discovered-019",
+    "university_id": "trento",
+    "university": "Università degli Studi di Trento",
+    "city": "Trento",
+    "program": "Artificial Intelligence with Affective Computing (AIAC) – 28DIGITAL track",
+    "level": {
+      "value": "MSc",
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-UNITRENTO-28DIGITAL-2027",
+        "SRC-28DIGITAL-ADMISSIONS-2027",
+        "SRC-28DIGITAL-FEES-2027",
+        "SRC-28DIGITAL-AIAC-2027"
+      ],
+      "notes": null
+    },
+    "language": {
+      "value": "English",
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-UNITRENTO-28DIGITAL-2027",
+        "SRC-28DIGITAL-ADMISSIONS-2027",
+        "SRC-28DIGITAL-FEES-2027",
+        "SRC-28DIGITAL-AIAC-2027"
+      ],
+      "notes": null
+    },
+    "field": {
+      "value": "Artificial Intelligence",
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-UNITRENTO-28DIGITAL-2027",
+        "SRC-28DIGITAL-ADMISSIONS-2027",
+        "SRC-28DIGITAL-FEES-2027",
+        "SRC-28DIGITAL-AIAC-2027"
+      ],
+      "notes": null
+    },
+    "availability_2027_2028": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-UNITRENTO-28DIGITAL-2027",
+        "SRC-28DIGITAL-ADMISSIONS-2027",
+        "SRC-28DIGITAL-FEES-2027",
+        "SRC-28DIGITAL-AIAC-2027"
+      ],
+      "notes": null
+    },
+    "overall_status": "CONFIRMED",
+    "discovery_source": "newly_discovered",
+    "facts": {
+      "curriculum": {
+        "value": "Artificial Intelligence",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNITRENTO-28DIGITAL-2027",
+          "SRC-28DIGITAL-AIAC-2027"
+        ],
+        "notes": null
+      },
+      "duration": {
+        "value": "2 years / 120 ECTS; double degree with mandatory mobility between entry and exit universities",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNITRENTO-28DIGITAL-2027",
+          "SRC-28DIGITAL-AIAC-2027"
+        ],
+        "notes": null
+      },
+      "unitrento_role": {
+        "value": "Entry and exit",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNITRENTO-28DIGITAL-2027"
+        ],
+        "notes": null
+      },
+      "application_route": {
+        "value": "Central 28DIGITAL Master School application portal",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNITRENTO-28DIGITAL-2027",
+          "SRC-28DIGITAL-ADMISSIONS-2027"
+        ],
+        "notes": null
+      },
+      "application_windows": {
+        "value": {
+          "unitrento_department_page": [
+            {
+              "label": "Period 1",
+              "start": "2026-10-31",
+              "end": "2027-02-11",
+              "eligible_group": "EU/EEA/CH and non-EU applicants"
+            },
+            {
+              "label": "Period 2",
+              "start": "2027-02-11",
+              "end": "2027-04-15",
+              "eligible_group": "EU/EEA/CH and non-EU applicants residing in Italy; visa timing limits apply"
+            },
+            {
+              "label": "Period 3",
+              "start": "2027-04-15",
+              "end": "2027-06-01",
+              "eligible_group": "EU/EEA/CH and non-EU applicants residing in Italy"
+            }
+          ],
+          "central_28digital_admissions_page": [
+            {
+              "label": "Period 1",
+              "start": "2026-10-30",
+              "end": "2027-01-31",
+              "eligible_group": "EU/EEA/CH and non-EU applicants; primarily aimed at applicants needing a study residence permit"
+            },
+            {
+              "label": "Period 2",
+              "start": "2027-02-01",
+              "end": "2027-04-18",
+              "eligible_group": "Primarily EU and applicants not requiring a study permit"
+            },
+            {
+              "label": "Period 3",
+              "start": "2027-04-19",
+              "end": "2027-05-31",
+              "eligible_group": "EU and applicants not requiring a study permit"
+            }
+          ]
+        },
+        "status": "CONFLICTING_SOURCES",
+        "source_ids": [
+          "SRC-UNITRENTO-28DIGITAL-2027",
+          "SRC-28DIGITAL-ADMISSIONS-2027"
+        ],
+        "notes": "The official UniTrento department page gives different round boundaries from the central 28DIGITAL admissions page. Each individual track page confirms the first-period deadline of 31 January 2027; verify the specific chosen pathway in the central application portal."
+      },
+      "application_deadline": {
+        "value": {
+          "end": "2027-01-31",
+          "time": "23:59 CET",
+          "period": "1"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-AIAC-2027"
+        ],
+        "notes": "The individual track page confirms period 1; the UniTrento department page gives a conflicting period-1 end date."
+      },
+      "application_fee": {
+        "value": {
+          "amount_eur": 75,
+          "per": "submitted application",
+          "refundable": false
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-FEES-2027"
+        ],
+        "notes": null
+      },
+      "registration_fee": {
+        "value": {
+          "amount_eur": 250,
+          "per": "accepted offer",
+          "refundable": false,
+          "credited_to": "first-semester tuition"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-FEES-2027"
+        ],
+        "notes": null
+      },
+      "tuition": {
+        "value": {
+          "application_fee_eur": 75,
+          "application_fee_refundable": false,
+          "registration_deposit_eur": 250,
+          "registration_deposit_refundable": false,
+          "registration_deposit_credited_to": "first semester tuition",
+          "annual_tuition_eur": {
+            "EU_EEA": 6000,
+            "non_EU_EEA": 18000
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-FEES-2027"
+        ],
+        "notes": "Tuition is stated per academic year. British citizens applying from 1 January 2021 onward are charged the non-EU rate."
+      },
+      "english_requirement": {
+        "value": {
+          "IELTS_Academic": "overall 6.5; no section below 6.0; speaking and writing at least 6.5",
+          "TOEFL_iBT_after_2026_01_21": "at least 4.5 total and each section; writing at least 5.0",
+          "TOEFL_iBT_before_2026_01_21": "at least 92 total; 21 each section; speaking at least 23; writing at least 24",
+          "waiver": "degree taught in English at a university in USA, Canada, UK, Ireland, Australia or New Zealand"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-ADMISSIONS-2027"
+        ],
+        "notes": null
+      },
+      "requirements": {
+        "value": {
+          "minimum_bachelor_ects": 180,
+          "eligible_bachelor_fields": [
+            "Computer Science",
+            "Data Science",
+            "Electrical Engineering",
+            "Information Technology",
+            "Cognitive Science",
+            "related fields"
+          ],
+          "expected_background": [
+            "programming",
+            "algorithms",
+            "mathematics",
+            "statistics"
+          ]
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-ADMISSIONS-2027",
+          "SRC-28DIGITAL-AIAC-2027"
+        ],
+        "notes": null
+      },
+      "scholarships": {
+        "value": {
+          "merit_awards": [
+            "full tuition waiver",
+            "half tuition waiver"
+          ],
+          "excellence_awards": {
+            "tuition": "full tuition waiver",
+            "living_allowance": "based on average living costs in study country",
+            "eligibility": "EU/EEA and associated-country citizens in selected programs"
+          },
+          "application": "apply through the 28DIGITAL portal with the program application",
+          "unitrento_mobility_award_eur_range": [
+            2500,
+            4500
+          ],
+          "unitrento_mobility_award_eligibility": "UniTrento entry students during second year abroad"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-FEES-2027"
+        ],
+        "notes": "Scholarships are competitive and eligibility/combination rules vary by award and partner university; amounts are not guaranteed to every admitted student."
+      },
+      "available_places": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-28DIGITAL-AIAC-2027"
+        ],
+        "notes": "No seat count is published on the reviewed track page."
+      },
+      "acceptance_rate": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-28DIGITAL-AIAC-2027"
+        ],
+        "notes": "No applicant or admission totals are published from which to calculate a rate."
+      }
+    },
+    "source_ids": [
+      "SRC-UNITRENTO-28DIGITAL-2027",
+      "SRC-28DIGITAL-ADMISSIONS-2027",
+      "SRC-28DIGITAL-FEES-2027",
+      "SRC-28DIGITAL-AIAC-2027"
+    ],
+    "previous_tracker_tags": null,
+    "last_checked": "2026-11-09"
+  },
+  {
+    "id": "discovered-020",
+    "university_id": "politecnico-torino",
+    "university": "Politecnico di Torino",
+    "city": "Turin",
+    "program": "Hydrogen Systems and Enabling Technologies (HySET Erasmus Mundus Joint Master)",
+    "level": {
+      "value": "MSc",
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-POLITO-HYSET-2027",
+        "SRC-POLITO-HYSET-REQ-2027",
+        "SRC-POLITO-HYSET-CURRICULUM",
+        "SRC-POLITO-HYSET-ENGLISH",
+        "SRC-POLITO-HYSET-FEES-2027",
+        "SRC-POLITO-HYSET-SELF-FUNDED"
+      ],
+      "notes": null
+    },
+    "language": {
+      "value": "English",
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-POLITO-HYSET-2027",
+        "SRC-POLITO-HYSET-REQ-2027",
+        "SRC-POLITO-HYSET-CURRICULUM",
+        "SRC-POLITO-HYSET-ENGLISH",
+        "SRC-POLITO-HYSET-FEES-2027",
+        "SRC-POLITO-HYSET-SELF-FUNDED"
+      ],
+      "notes": null
+    },
+    "field": {
+      "value": "Energy Engineering",
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-POLITO-HYSET-2027",
+        "SRC-POLITO-HYSET-REQ-2027",
+        "SRC-POLITO-HYSET-CURRICULUM",
+        "SRC-POLITO-HYSET-ENGLISH",
+        "SRC-POLITO-HYSET-FEES-2027",
+        "SRC-POLITO-HYSET-SELF-FUNDED"
+      ],
+      "notes": null
+    },
+    "availability_2027_2028": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-POLITO-HYSET-2027",
+        "SRC-POLITO-HYSET-REQ-2027",
+        "SRC-POLITO-HYSET-CURRICULUM",
+        "SRC-POLITO-HYSET-ENGLISH",
+        "SRC-POLITO-HYSET-FEES-2027",
+        "SRC-POLITO-HYSET-SELF-FUNDED"
+      ],
+      "notes": null
+    },
+    "overall_status": "CONFIRMED",
+    "discovery_source": "newly_discovered",
+    "facts": {
+      "duration": {
+        "value": "2 years / 120 ECTS",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-POLITO-HYSET-CURRICULUM"
+        ],
+        "notes": null
+      },
+      "curriculum": {
+        "value": "Hydrogen value chain; consortium mobility across Politecnico di Torino, Politecnico di Milano and partner universities",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-POLITO-HYSET-CURRICULUM"
+        ],
+        "notes": null
+      },
+      "application_route": {
+        "value": "Apply@PoliTO portal; Politecnico di Torino coordinates document review",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-POLITO-HYSET-2027",
+          "SRC-POLITO-HYSET-REQ-2027"
+        ],
+        "notes": null
+      },
+      "application_windows": {
+        "value": [
+          {
+            "start": "2026-10-01",
+            "end": "2026-11-15",
+            "end_time": "23:59 CET",
+            "eligible_group": "Applicants worldwide"
+          }
+        ],
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-POLITO-HYSET-2027"
+        ],
+        "notes": "The current 2027–29 intake notice gives the exact close time."
+      },
+      "application_deadline": {
+        "value": {
+          "date": "2026-11-15",
+          "time": "23:59 CET"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-POLITO-HYSET-2027"
+        ],
+        "notes": null
+      },
+      "requirements": {
+        "value": {
+          "minimum_bachelor_ects": 180,
+          "eligible_fields": [
+            "Mechanical Engineering",
+            "Energy Engineering",
+            "Chemical Engineering or Chemistry",
+            "Electrical Engineering",
+            "Aeronautical Engineering",
+            "Physics",
+            "Industrial Engineering"
+          ],
+          "additional_background": "Applicants in Physics, Chemistry, Aeronautical Engineering or Electrical Engineering must show thermodynamics, heat transfer and fluid mechanics; a stronger chemistry background is required for the TU/e destination."
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-POLITO-HYSET-REQ-2027"
+        ],
+        "notes": null
+      },
+      "english_requirement": {
+        "value": {
+          "TOEFL_iBT": "90 total, minimum 21 each section",
+          "IELTS": "6.5 overall, minimum 6.0 each section",
+          "Cambridge_CAE": "160; 180 with minimum 169 each section for TU/e destination",
+          "waiver": "Only for qualifying nationals of English-speaking countries taught and evaluated in English"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-POLITO-HYSET-REQ-2027"
+        ],
+        "notes": null
+      },
+      "selection_criteria": {
+        "value": {
+          "scoring": "100 points maximum",
+          "academic_achievements": "up to 30 points; page references GPA at least 3.0/4.0 in the scoring description",
+          "previous_study_relevance": "up to 30 points",
+          "recommendations_and_video": "up to 15 points",
+          "experience_and_awards": "up to 25 points",
+          "interview": "may be requested"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-POLITO-HYSET-REQ-2027"
+        ],
+        "notes": "The GPA reference appears within the scored academic-achievements criterion; the source does not present it as a separate universal minimum eligibility rule."
+      },
+      "application_fee": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-POLITO-HYSET-2027"
+        ],
+        "notes": "No application fee is stated in the reviewed 2027–29 call pages."
+      },
+      "tuition": {
+        "value": {
+          "self_funded_eur_per_year": {
+            "European": 4500,
+            "non_European": 9000
+          },
+          "total_for_two_years_eur": {
+            "European": 9000,
+            "non_European": 18000
+          },
+          "living_and_travel": "excluded"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-POLITO-HYSET-SELF-FUNDED"
+        ],
+        "notes": null
+      },
+      "payment_structure": {
+        "value": "May be paid in full or in instalments; payment method and deadlines will be provided later.",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-POLITO-HYSET-SELF-FUNDED"
+        ],
+        "notes": null
+      },
+      "scholarships": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-POLITO-HYSET-FEES-2027"
+        ],
+        "notes": "External funding for the 2027 cohort had not been secured as of the official funding update; Erasmus Mundus scholarships are not guaranteed. The self-funded route remains available."
+      },
+      "available_places": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-POLITO-HYSET-REQ-2027"
+        ],
+        "notes": "The programme says places are limited but the reviewed official pages do not give a seat count."
+      },
+      "acceptance_rate": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-POLITO-HYSET-REQ-2027"
+        ],
+        "notes": "The reviewed official pages do not publish applicant and admission totals."
+      }
+    },
+    "source_ids": [
+      "SRC-POLITO-HYSET-2027",
+      "SRC-POLITO-HYSET-REQ-2027",
+      "SRC-POLITO-HYSET-CURRICULUM",
+      "SRC-POLITO-HYSET-ENGLISH",
+      "SRC-POLITO-HYSET-FEES-2027",
+      "SRC-POLITO-HYSET-SELF-FUNDED"
     ],
     "previous_tracker_tags": null,
     "last_checked": "2026-11-09"

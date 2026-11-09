@@ -95,13 +95,13 @@
     "contact_url": "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/deadlines",
     "cycle_status": "CONFIRMED",
     "research_stage": "PARTIALLY_RESEARCHED",
-    "research_summary": "Official 2027/28 MSc application windows are published; program-by-program availability and requirements remain to be checked.",
+    "research_summary": "Official 2027/28 MSc windows, Engineering BSc enrolment phases, first instalment amount and English-certificate scores are recorded; the 17 historic program rows still need individual checks.",
     "coverage": {
       "official_website_visited": "complete",
       "international_admissions_page_examined": "partial",
-      "bachelors_admissions_examined": "not_started",
+      "bachelors_admissions_examined": "partial",
       "masters_admissions_examined": "partial",
-      "english_programs_examined": "not_started",
+      "english_programs_examined": "partial",
       "fees_examined": "partial",
       "scholarships_examined": "not_started",
       "non_eu_requirements_examined": "partial",
@@ -109,7 +109,9 @@
       "program_level_review": "not_started"
     },
     "source_ids": [
-      "SRC-POLIMI-DEADLINES-2027"
+      "SRC-POLIMI-DEADLINES-2027",
+      "SRC-POLIMI-BSC-2027",
+      "SRC-POLIMI-ENGLISH-2027"
     ],
     "last_checked": "2026-11-09",
     "cycle_facts": {
@@ -151,6 +153,58 @@
           "SRC-POLIMI-DEADLINES-2027"
         ],
         "notes": null
+      },
+      "bachelor_enrolment_schedule": {
+        "value": [
+          {
+            "label": "Phase 1 (restricted eligibility; excludes English-taught programmes)",
+            "start": "2027-05-03",
+            "end": "2027-06-10"
+          },
+          {
+            "label": "Phase 2 preference deadline",
+            "end": "2027-06-17"
+          },
+          {
+            "label": "Phase 3 preference deadline",
+            "end": "2027-07-22"
+          },
+          {
+            "label": "Phase 4 preference deadline",
+            "end": "2027-08-26"
+          }
+        ],
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-POLIMI-BSC-2027"
+        ],
+        "notes": "The page also lists ranking and enrolment deadlines after each preference phase; this is not a single university-wide BSc application deadline."
+      },
+      "bachelor_first_installment_eur": {
+        "value": 880.04,
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-POLIMI-BSC-2027"
+        ],
+        "notes": "First tuition instalment only, not total annual tuition; ISEE-based reductions may apply."
+      },
+      "masters_english_certificates": {
+        "value": {
+          "TOEFL_iBT": "at least 78 for tests taken through 2026-01-20; at least 4.5 from 2026-01-21",
+          "TOEIC": "at least 785 Listening/Reading and 310 Speaking/Writing",
+          "IELTS": "at least 6",
+          "Cambridge": "First grade B; Advanced or Proficiency grade C",
+          "Trinity": "at least ISE II",
+          "Pearson_PTE": "at least 59",
+          "Pearson_PEIC": "at least 59",
+          "LanguageCert": "at least B2 Communicator (4 skills)",
+          "English_medium_exemption": "Bachelor's taught in English for at least 3 years with university certification that at least 75% of courses were in English"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-POLIMI-ENGLISH-2027"
+        ],
+        "notes": null
       }
     }
   },
@@ -170,7 +224,7 @@
     "contact_url": "https://www.polito.it/en/education/applying-studying-graduating/admissions-and-enrolment/bachelor-s-degree-programmes/calls-for-application-regulations-and-ranking-lists",
     "cycle_status": "REQUIRES_VERIFICATION",
     "research_stage": "PARTIALLY_RESEARCHED",
-    "research_summary": "Official bachelor-call page says 2027/28 calls are being finalized; one special joint master call is not representative of the degree catalogue.",
+    "research_summary": "The 2027/29 HySET joint master intake and November deadline are confirmed; Polito’s broader 2027/28 degree catalogue and its other program records still need review. For bachelor’s access, Polito confirms in-person TOLC@UNI or CEnT@UNI tests; the detailed call is pending.",
     "coverage": {
       "official_website_visited": "complete",
       "international_admissions_page_examined": "partial",
@@ -184,7 +238,14 @@
       "program_level_review": "not_started"
     },
     "source_ids": [
-      "SRC-POLITO-2027"
+      "SRC-POLITO-HYSET-2027",
+      "SRC-POLITO-HYSET-REQ-2027",
+      "SRC-POLITO-HYSET-CURRICULUM",
+      "SRC-POLITO-HYSET-ENGLISH",
+      "SRC-POLITO-HYSET-FEES-2027",
+      "SRC-POLITO-HYSET-SELF-FUNDED",
+      "SRC-POLITO-2027",
+      "SRC-POLITO-BSC-TEST-2027"
     ],
     "last_checked": "2026-11-09",
     "cycle_facts": {
@@ -192,9 +253,28 @@
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
-          "SRC-POLITO-2027"
+          "SRC-POLITO-2027",
+          "SRC-POLITO-BSC-TEST-2027"
         ],
-        "notes": "Official page says 2027/28 calls are being finalized and will be published soon."
+        "notes": "Official page says 2027/28 calls are being finalized and will be published soon; detailed dates and selection rules are not yet published."
+      },
+      "bachelor_admission_test": {
+        "value": {
+          "accepted_tests": [
+            "TOLC@UNI",
+            "CEnT@UNI"
+          ],
+          "delivery": "in person only",
+          "not_accepted": [
+            "TOLC@CASA",
+            "CEnT@CASA"
+          ]
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-POLITO-BSC-TEST-2027"
+        ],
+        "notes": "Applies to Bachelor's admission from 2027/28. The detailed call remains pending."
       }
     }
   },
@@ -606,7 +686,7 @@
     "contact_url": "https://www.unibo.it/en/study/how-to-apply",
     "cycle_status": "REQUIRES_VERIFICATION",
     "research_stage": "PARTIALLY_RESEARCHED",
-    "research_summary": "A 2027/28 call is confirmed for the Erasmus Mundus CLE joint master's degree; broader degree-program calls remain outstanding.",
+    "research_summary": "A 2027/28 call is confirmed for the Erasmus Mundus CLE and the English Intelligent Embedded Systems 28DIGITAL track; the rest of the degree inventory remains under review.",
     "coverage": {
       "official_website_visited": "complete",
       "international_admissions_page_examined": "partial",
@@ -1361,13 +1441,13 @@
     "contact_url": "https://www.unitn.it/en/international/coming-unitrento/admission-how-it-works",
     "cycle_status": "REQUIRES_VERIFICATION",
     "research_stage": "PARTIALLY_RESEARCHED",
-    "research_summary": "The general page describes typical December-to-March rounds; specific 2027/28 calls need individual review. A special RIT first-cycle opportunity is cycle-specific.",
+    "research_summary": "Seven 28DIGITAL master's tracks have 2027/28 evidence; the department and central consortium pages disagree on application-round boundaries. Other listed degrees remain under review.",
     "coverage": {
       "official_website_visited": "complete",
       "international_admissions_page_examined": "partial",
       "bachelors_admissions_examined": "not_started",
       "masters_admissions_examined": "not_started",
-      "english_programs_examined": "not_started",
+      "english_programs_examined": "partial",
       "fees_examined": "partial",
       "scholarships_examined": "partial",
       "non_eu_requirements_examined": "partial",
@@ -1375,10 +1455,95 @@
       "program_level_review": "not_started"
     },
     "source_ids": [
+      "SRC-UNITRENTO-28DIGITAL-2027",
+      "SRC-28DIGITAL-ADMISSIONS-2027",
+      "SRC-28DIGITAL-FEES-2027",
+      "SRC-28DIGITAL-CYBER-2027",
+      "SRC-28DIGITAL-DSC-2027",
+      "SRC-28DIGITAL-FINTECH-2027",
+      "SRC-28DIGITAL-HCIDXR-2027",
+      "SRC-28DIGITAL-CLOUD-2027",
+      "SRC-28DIGITAL-ICS-2027",
+      "SRC-28DIGITAL-AIAC-2027",
       "SRC-UNITN-INTL"
     ],
     "last_checked": "2026-11-09",
-    "cycle_facts": {}
+    "cycle_facts": {
+      "28digital_application_windows": {
+        "value": {
+          "unitrento_department_page": [
+            {
+              "label": "Period 1",
+              "start": "2026-10-31",
+              "end": "2027-02-11",
+              "eligible_group": "EU/EEA/CH and non-EU citizens"
+            },
+            {
+              "label": "Period 2",
+              "start": "2027-02-11",
+              "end": "2027-04-15",
+              "eligible_group": "EU/EEA/CH and non-EU applicants residing in Italy; not recommended for study-visa applicants; some trajectories may be unavailable"
+            },
+            {
+              "label": "Period 3",
+              "start": "2027-04-15",
+              "end": "2027-06-01",
+              "eligible_group": "EU/EEA/CH and non-EU applicants residing in Italy"
+            }
+          ],
+          "central_28digital_admissions_page": [
+            {
+              "label": "Period 1",
+              "start": "2026-10-30",
+              "end": "2027-01-31",
+              "eligible_group": "EU/EEA/CH and non-EU applicants; primarily aimed at study-visa applicants"
+            },
+            {
+              "label": "Period 2",
+              "start": "2027-02-01",
+              "end": "2027-04-18",
+              "eligible_group": "Primarily EU and applicants who do not need a study permit; non-EU applicants may face visa timing constraints"
+            },
+            {
+              "label": "Period 3",
+              "start": "2027-04-19",
+              "end": "2027-05-31",
+              "eligible_group": "EU and applicants who do not need a study permit"
+            }
+          ]
+        },
+        "status": "CONFLICTING_SOURCES",
+        "source_ids": [
+          "SRC-UNITRENTO-28DIGITAL-2027",
+          "SRC-28DIGITAL-ADMISSIONS-2027"
+        ],
+        "notes": "The University's department page and central 28DIGITAL admissions page publish different round boundaries for the same 2027/28 intake. Individual 28DIGITAL track pages confirm the period-one deadline of 31 January 2027. Check the central application portal for the specific track and entry/exit university before applying."
+      },
+      "28digital_scholarships": {
+        "value": {
+          "consortium_awards": "full or half tuition waivers; some selected programmes offer full waiver plus living allowance for eligible EU/EEA/associated-country citizens",
+          "unitrento_mobility_scholarships_eur_range": [
+            2500,
+            4500
+          ],
+          "unitrento_awards": "for UniTrento entry students in the second year abroad; eligibility and combination rules apply",
+          "next_call": "eligible applicants contacted around August"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-28DIGITAL-FEES-2027"
+        ],
+        "notes": "Awards are conditional and not guaranteed; check the specific partner, programme and call conditions."
+      },
+      "28digital_admissions_contact": {
+        "value": "eitmaster@unitn.it",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNITRENTO-28DIGITAL-2027"
+        ],
+        "notes": "This is the 28DIGITAL program contact, not the university-wide admissions office."
+      }
+    }
   },
   {
     "id": "trieste",

@@ -17,6 +17,7 @@ archive = json.loads((R / "archive" / "legacy-programs.json").read_text(encoding
 assert len(universities) == 34, f"expected 34 universities, got {len(universities)}"
 assert len({u["id"] for u in universities}) == len(universities), "duplicate university IDs"
 assert len(programs) >= len(archive), "active program records dropped archived candidates"
+assert len({p["id"] for p in programs}) == len(programs), "duplicate program IDs"
 assert sum(p["discovery_source"] == "previous_tracker" for p in programs) == len(archive), "not all legacy listings are retained"
 keys = [(p["university_id"], p["program"].casefold(), p["level"]["value"]) for p in programs]
 assert len(set(keys)) == len(keys), "duplicate university/program/level records"
@@ -65,7 +66,15 @@ assert coverage["universities_fully_verified"] == 0
 assert coverage["programs_fully_verified"] == len(confirmed_programs)
 assert coverage["programs_cycle_availability_confirmed"] == sum(p["availability_2027_2028"]["status"] == "CONFIRMED" for p in programs)
 assert coverage["source_records"] == len(sources)
-assert coverage["universities_with_conflicting_sources"] == 0
+conflicting_universities = {
+    p["university_id"] for p in programs
+    if any(f["status"] == "CONFLICTING_SOURCES" for f in p.get("facts", {}).values())
+} | {
+    u["id"] for u in universities
+    if any(f["status"] == "CONFLICTING_SOURCES" for f in u.get("cycle_facts", {}).values())
+}
+assert coverage["universities_with_conflicting_sources"] == len(conflicting_universities)
+assert coverage["university_ids_with_conflicting_sources"] == sorted(conflicting_universities)
 assert coverage["universities_with_deadlines_or_calls_explicitly_not_yet_published"] == len(coverage["university_ids_with_deadlines_or_calls_explicitly_not_yet_published"])
 
 print("DATA AUDIT PASSED")
