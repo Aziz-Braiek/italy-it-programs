@@ -54,7 +54,7 @@ UNIVERSITIES = [
     ("trento", "Università degli Studi di Trento", "Trento", "Trentino-Alto Adige", "https://www.unitn.it/en", "https://www.unitn.it/en/international/coming-unitrento/admission-how-it-works", "REQUIRES_VERIFICATION", "Seven 28DIGITAL master's tracks have 2027/28 evidence; the department and central consortium pages disagree on application-round boundaries. Other listed degrees remain under review."),
     ("trieste", "Università degli Studi di Trieste", "Trieste", "Friuli-Venezia Giulia", "https://portale.units.it/en", "https://portale.units.it/en/study/application", "REQUIRES_VERIFICATION", "The application page is general; 2027/28 program calls, fees and dates remain outstanding."),
     ("udine", "Università degli Studi di Udine", "Udine", "Friuli-Venezia Giulia", "https://www.uniud.it/en", "https://www.uniud.it/en/education/info-for/how-to-apply/how-to-apply?set_language=en", "REQUIRES_VERIFICATION", "The official page says detailed yearly rules are published in the June Prospectus; 2027/28 program availability and calls remain outstanding."),
-    ("verona", "Università degli Studi di Verona", "Verona", "Veneto", "https://www.univr.it/en/", "https://www.univr.it/en/our-services/international-degree-seeking-students", "REQUIRES_VERIFICATION", "The reviewed official page gives 2026/27 international MSc application information; 2027/28 programs and calls remain outstanding."),
+    ("verona", "Università degli Studi di Verona", "Verona", "Veneto", "https://www.univr.it/en/", "https://www.univr.it/en/our-services/international-degree-seeking-students", "REQUIRES_VERIFICATION", "The Biology for Translational Research and Precision Medicine MSc is listed in 2026/27 sources, and its 2026/27 admission routes, eligibility and scholarship call are documented as prior-cycle evidence. Its study plan activates year two in 2027/28 for the 2026/27 cohort; a new 2027/28 first-year intake and terms remain unverified."),
 ]
 
 ALIASES = {
@@ -182,6 +182,11 @@ SOURCES = [
     {"id":"SRC-PAVIA-ENG-INTL","university_id":"pavia","title":"International Applications – Faculty of Engineering","url":"https://webing.unipv.eu/home/international/international-applications/","source_type":"Official faculty admissions page","accessed_at":AS_OF,"cycle":"general","evidence":"Describes evaluation of foreign applications to English-taught engineering master's programs; faculty-specific, not the full 2027/28 university catalog.","supports":["university.general_admissions","university.master_entry"]},
     {"id":"SRC-UDINE-APPLY","university_id":"udine","title":"How to apply","url":"https://www.uniud.it/en/education/info-for/how-to-apply/how-to-apply?set_language=en","source_type":"Official admissions page","accessed_at":AS_OF,"cycle":"general","evidence":"States that annual rules, deadlines and tests are listed in the prospectus published each June; non-EU applicants follow pre-enrolment and course-level reserved-place procedures.","supports":["university.admission_structure","university.non_eu_process"]},
     {"id":"SRC-VERONA-INTL","university_id":"verona","title":"International degree-seeking students","url":"https://www.univr.it/en/our-services/international-degree-seeking-students","source_type":"Official international admissions page","accessed_at":AS_OF,"cycle":"2026-2027","evidence":"Reviewed page states 2026/27 international master's call status; it does not confirm 2027/28 program availability or deadlines.","supports":["university.previous_cycle_process","university.non_eu_process"]},
+    {"id":"SRC-VERONA-BIOLOGY-PROFILE-2026","university_id":"verona","title":"Biology for Translational Research and Precision Medicine – course profile","url":"https://corsi.univr.it/?ent=cs&id=1337&lang=en","source_type":"Official degree profile","accessed_at":AS_OF,"cycle":"2026-2027","evidence":"The profile identifies a two-year Master's degree, class LM-6 R, taught in English in Verona, with limited entry by qualifications. The displayed profile is for 2026/27 and does not establish a 2027/28 first-year intake.","supports":["program.previous_cycle_course_listing"]},
+    {"id":"SRC-VERONA-BIOLOGY-ADMISSION-2026","university_id":"verona","title":"Biology for Translational Research and Precision Medicine – 2026/27 admissions","url":"https://corsi.univr.it/?aa=2026%2F2027&ent=cs&id=1337&lang=en&menu=iscriversi&tab=comeiscriversi","source_type":"Official degree admissions page","accessed_at":AS_OF,"cycle":"2026-2027","evidence":"For 2026/27, the course page lists 35 total places, 5 reserved for specified non-EU applicants, qualification-based selection, applications 1 July–31 August 2026 by 10:00 Italian time, first ranking on 18 September 2026 and a €50 admission fee. These are prior-cycle values.","supports":["program.previous_cycle_course_admission","program.previous_cycle_deadline","program.previous_cycle_application_fee"]},
+    {"id":"SRC-VERONA-BIOLOGY-REQUIREMENTS-2026","university_id":"verona","title":"Biology for Translational Research and Precision Medicine – admission requirements","url":"https://corsi.univr.it/?ent=cs&id=1337&lang=en&menu=iscriversi&tab=requisiti","source_type":"Official degree admission requirements page","accessed_at":AS_OF,"cycle":"2026-2027","evidence":"The reviewed page is for 2026/27. It describes qualifying biology/biotechnology and other degree classes or specified science credits, an English B2 requirement with listed exemptions, and a separate set of criteria for applicants with degrees earned abroad; it does not confirm 2027/28 requirements.","supports":["program.previous_cycle_program_requirements"]},
+    {"id":"SRC-VERONA-BIOLOGY-INTERNATIONAL-CALL-2026","university_id":"verona","title":"International admission call – Biology for Translational Research and Precision Medicine, 2026/27","url":"https://cdn.docs.univr.it/documenti/Albo/allegatialbo/allegatialbo162487.pdf","source_type":"Official international admission call PDF","accessed_at":AS_OF,"cycle":"2026-2027","evidence":"Separate 2026/27 call for applicants with a foreign degree, non-Italian citizenship and no residence in Italy: 5 reserved places; relevant first-level degree; weighted CGPA above 81%; English B2 or a prior English-taught qualification; application 2 February–31 March 2026 at 15:00 Italian time; €50 pre-admission fee. It also lists one €8,000 gross/year scholarship with tuition exemption and four €1,000 flat-rate contributions for two academic years. This is historical evidence and must not be added to or assumed for 2027/28.","supports":["program.previous_cycle_non_eu_admission","program.previous_cycle_scholarships"]},
+    {"id":"SRC-VERONA-BIOLOGY-STUDY-PLAN-2027","university_id":"verona","title":"Biology for Translational Research and Precision Medicine – 2026/27 cohort study plan","url":"https://www.corsi.univr.it/?aa=2026%2F2027&codins=4S011598&discr=null&discrCd=null&ent=cs&id=1337&idOi=227756&lang=en&menu=studiare&tab=Insegnamenti","source_type":"Official degree study plan","accessed_at":AS_OF,"cycle":"2026-2027","evidence":"The study plan for students enrolled in 2026/27 says the second year will activate in 2027/28. This confirms planned second-year teaching for that cohort only and is not a new-entry admission notice.","supports":["program.academic_year_course_offering"]},
 ]
 
 SOURCE_BY_ID = {s["id"]: s for s in SOURCES}
@@ -226,13 +231,13 @@ def build():
             "official_website_visited": "complete",
             "international_admissions_page_examined": "partial" if src else "not_started",
             "bachelors_admissions_examined": "partial" if uid in {"padova", "politecnico-milano", "politecnico-bari", "politecnico-torino", "firenze", "tor-vergata", "messina", "catania"} else "not_started",
-            "masters_admissions_examined": "partial" if uid in {"padova", "politecnico-milano", "pisa", "firenze", "napoli-federico-ii", "tor-vergata", "messina", "genova", "catania"} else "not_started",
-            "english_programs_examined": "partial" if uid in {"padova", "politecnico-milano", "pisa", "firenze", "tor-vergata", "bologna", "genova", "trento", "messina", "catania"} else "not_started",
-            "fees_examined": "partial" if uid in {"politecnico-milano", "pisa", "tor-vergata", "messina", "genova", "trento", "catania"} else "not_started",
-            "scholarships_examined": "partial" if uid in {"pisa", "messina", "trento", "bologna", "politecnico-milano", "catania"} else "not_started",
+            "masters_admissions_examined": "partial" if uid in {"padova", "politecnico-milano", "pisa", "firenze", "napoli-federico-ii", "tor-vergata", "messina", "genova", "catania", "verona"} else "not_started",
+            "english_programs_examined": "partial" if uid in {"padova", "politecnico-milano", "pisa", "firenze", "tor-vergata", "bologna", "genova", "trento", "messina", "catania", "verona"} else "not_started",
+            "fees_examined": "partial" if uid in {"politecnico-milano", "pisa", "tor-vergata", "messina", "genova", "trento", "catania", "verona"} else "not_started",
+            "scholarships_examined": "partial" if uid in {"pisa", "messina", "trento", "bologna", "politecnico-milano", "catania", "verona"} else "not_started",
             "non_eu_requirements_examined": "partial" if src else "not_started",
-            "application_deadlines_examined": "partial" if cycle_status in {"CONFIRMED", "NOT_YET_PUBLISHED"} or uid in {"genova", "politecnico-torino", "politecnico-bari", "catania"} else "not_started",
-            "program_level_review": "partial" if uid in {"padova", "pisa", "firenze", "napoli-federico-ii", "tor-vergata", "bologna", "messina", "catania"} else "not_started",
+            "application_deadlines_examined": "partial" if cycle_status in {"CONFIRMED", "NOT_YET_PUBLISHED"} or uid in {"genova", "politecnico-torino", "politecnico-bari", "catania", "verona"} else "not_started",
+            "program_level_review": "partial" if uid in {"padova", "pisa", "firenze", "napoli-federico-ii", "tor-vergata", "bologna", "messina", "catania", "verona"} else "not_started",
         }
         relevant_sources = [s["id"] for s in SOURCES if s.get("university_id") == uid]
         if not relevant_sources:
@@ -554,6 +559,28 @@ def build():
     }
     programs.append(catania_ds)
 
+    # Verona's current course, selection, non-EU call and funding evidence is
+    # for 2026/27. Keep those facts clearly historical; the 2027/28 study-plan
+    # entry is second-year teaching for the old cohort, not a first-year intake.
+    verona_biology = next(p for p in programs if p["id"] == "legacy-084")
+    verona_profile_sources = ["SRC-VERONA-BIOLOGY-PROFILE-2026", "SRC-VERONA-BIOLOGY-ADMISSION-2026"]
+    verona_biology["program"] = "Biology for Translational Research and Precision Medicine"
+    verona_biology["level"] = fact("MSc", "REQUIRES_VERIFICATION", ["SRC-VERONA-BIOLOGY-PROFILE-2026"], "Officially listed for 2026/27; the degree level still needs 2027/28 confirmation.")
+    verona_biology["language"] = fact("English", "REQUIRES_VERIFICATION", ["SRC-VERONA-BIOLOGY-PROFILE-2026"], "Officially listed for 2026/27; the 2027/28 teaching language remains unverified.")
+    verona_biology["field"] = fact("Biology", "REQUIRES_VERIFICATION", ["SRC-VERONA-BIOLOGY-PROFILE-2026"], "The official 2026/27 course title and profile identify the prior-cycle subject area; the 2027/28 record remains pending.")
+    verona_biology["availability_2027_2028"] = fact(None, "REQUIRES_VERIFICATION", verona_profile_sources + ["SRC-VERONA-BIOLOGY-REQUIREMENTS-2026", "SRC-VERONA-BIOLOGY-INTERNATIONAL-CALL-2026", "SRC-VERONA-BIOLOGY-STUDY-PLAN-2027"], "The sources reviewed for first-year admissions are for 2026/27. The study plan says year two activates in 2027/28 for students enrolled in 2026/27; it does not confirm a new 2027/28 first-year intake.")
+    verona_biology["overall_status"] = "REQUIRES_VERIFICATION"
+    verona_biology["source_ids"] = ["SRC-VERONA-BIOLOGY-PROFILE-2026", "SRC-VERONA-BIOLOGY-ADMISSION-2026", "SRC-VERONA-BIOLOGY-REQUIREMENTS-2026", "SRC-VERONA-BIOLOGY-INTERNATIONAL-CALL-2026", "SRC-VERONA-BIOLOGY-STUDY-PLAN-2027"]
+    verona_biology["previous_cycle_tags"] = {"level":"MSc", "language":"English", "field":"Biology", "cycle":"2026-2027", "label":"Latest official 2026/27 listing"}
+    verona_biology["facts"] = {
+        "previous_cycle_course_listing": fact({"degree":"Master's degree","duration_years":2,"class":"LM-6 R","language":"English","city":"Verona","admission":"Limited entry by qualifications"}, "CONFIRMED", ["SRC-VERONA-BIOLOGY-PROFILE-2026"], "These profile details are for 2026/27 only; they do not confirm a new 2027/28 intake."),
+        "previous_cycle_course_admission": fact({"academic_year":"2026/27","total_places":35,"reserved_places_for_specified_non_eu_applicants":5,"selection":"Qualifications, no entrance test","application_window":"1 July–31 August 2026, by 10:00 Italian time","first_ranking":"18 September 2026","application_fee_eur":50}, "CONFIRMED", ["SRC-VERONA-BIOLOGY-ADMISSION-2026"], "This is the general 2026/27 course procedure. Its 5 reserved places are not additive to the separately published abroad-applicant route; neither route establishes 2027/28 terms."),
+        "previous_cycle_program_requirements": fact(["2026/27: L-13, L-2 or SNT/03 degree (or equivalent); applicants with other degree classes could qualify through specified science-sector credits.", "English B2, with stated exemptions including an English-taught qualifying degree.", "For the separate foreign-degree, non-Italian-citizen and non-resident route, the 2026/27 call required a related biology, biotechnology, biochemistry, molecular biology, chemistry, biophysics or bioinformatics first degree; weighted CGPA above 81%; and English B2 or a prior English-taught qualification."], "CONFIRMED", ["SRC-VERONA-BIOLOGY-REQUIREMENTS-2026", "SRC-VERONA-BIOLOGY-INTERNATIONAL-CALL-2026"], "Prior-cycle eligibility only. Use the future 2027/28 course call for current entry rules."),
+        "previous_cycle_non_eu_admission": fact({"academic_year":"2026/27","eligible_scope":"Foreign degree, non-Italian citizenship and not resident in Italy","reserved_places":5,"application_window":"2 February–31 March 2026, by 15:00 Italian time","pre_admission_fee_eur":50}, "CONFIRMED", ["SRC-VERONA-BIOLOGY-INTERNATIONAL-CALL-2026"], "This is a separate 2026/27 call for a defined abroad-applicant group. Do not combine its dates or seats with the general course page, and do not infer that the route recurs in 2027/28."),
+        "previous_cycle_scholarships": fact({"academic_year":"2026/27","one_award":{"gross_eur_per_academic_year":8000,"duration_academic_years":2,"tuition_exemption":True},"four_flat_rate_contributions":{"amount_eur":1000,"duration_academic_years":2,"eligibility":"Non-EU applicants"}}, "CONFIRMED", ["SRC-VERONA-BIOLOGY-INTERNATIONAL-CALL-2026"], "The award and four contributions were announced for eligible 2026/27 entrants only; the source does not establish a 2027/28 scholarship call."),
+        "academic_year_course_offering": fact({"academic_year":"2027/28","year_of_course":2,"enrollment_cohort":"2026/27"}, "CONFIRMED", ["SRC-VERONA-BIOLOGY-STUDY-PLAN-2027"], "Confirms planned second-year teaching for students enrolled in 2026/27. This is not evidence of new first-year admission in 2027/28."),
+    }
+
     verified = [p for p in programs if p["overall_status"] == "CONFIRMED"]
     level_counts = Counter(p["level"]["value"] for p in verified)
     fully_verified_count = len(verified)
@@ -581,20 +608,31 @@ def build():
         u["id"] for u in uni_rows
         if any(f.get("status") == "CONFLICTING_SOURCES" for f in u.get("cycle_facts", {}).values())
     }
+    program_review_partial = sorted(u["id"] for u in uni_rows if u["coverage"]["program_level_review"] == "partial")
+    program_review_not_started = sorted(u["id"] for u in uni_rows if u["coverage"]["program_level_review"] == "not_started")
+    previous_cycle_only = [p for p in programs if p.get("previous_cycle_tags") and p["availability_2027_2028"]["status"] != "CONFIRMED"]
     coverage = {
         "academic_year": CYCLE,
         "as_of": AS_OF,
         "original_universities": len({ALIASES[p["university"]] for p in old}),
         "universities_researched": len(uni_rows),
+        "universities_without_initial_official_source_outcome": sum(not u["source_ids"] for u in uni_rows),
         "universities_fully_verified": 0,
         "universities_partially_researched": len(uni_rows),
+        "universities_with_program_level_research": len(program_review_partial),
+        "university_ids_with_program_level_research": program_review_partial,
+        "universities_program_level_review_not_started": len(program_review_not_started),
+        "university_ids_with_program_level_review_not_started": program_review_not_started,
         "program_records": len(programs),
         "prior_tracker_programs_archived": len(old),
         "newly_discovered_programs": len(programs)-len(old),
         "programs_cycle_availability_confirmed": cycle_availability_count,
+        "programs_availability_pending": sum(p["availability_2027_2028"]["status"] != "CONFIRMED" for p in programs),
         "programs_fully_verified": fully_verified_count,
         "programs_requiring_verification": sum(p["overall_status"] == "REQUIRES_VERIFICATION" for p in programs),
         "programs_not_offered_2027_2028": programs_not_offered,
+        "programs_supported_only_by_previous_cycle": len(previous_cycle_only),
+        "program_ids_supported_only_by_previous_cycle": sorted(p["id"] for p in previous_cycle_only),
         "bsc_programs_verified": level_counts.get("BSc",0),
         "msc_programs_verified": level_counts.get("MSc",0),
         "universities_with_confirmed_deadline_windows": len(deadlines),
@@ -644,6 +682,7 @@ def build():
             {"id":"polimi-admissions-scholarships-and-fees","status":"partial","result":"Recorded the official 2027/28 MSc schedules and €50/€150 application fees, the deadline-page Engineering schedule discrepancy, 2027/28 international merit scholarships, English certificate requirements, CEnT-S timing and pending BSc call, current contact pathway, and the fact that the reviewed tuition page still covers 2026/27. The 17 historic program rows remain pending individual 2027/28 checks."},
             {"id":"unime-data-science-cycle-outcome","status":"partial","result":"Verified official Data Science MSc coursework in English during AY 2027/28 for the 2026/27 cohort and attached the university-wide international application windows and €40 fee with explicit scope notes. A new 2027/28 entrant call and course-specific requirements remain unconfirmed."},
             {"id":"catania-data-science-course-replacement-and-prior-cycle-review","status":"partial","result":"Confirmed that Data Science for Management was replaced by Data Science from 2022/23; recorded the successor MSc, English language, LM/DATA class and 2026/27 non-EU call evidence as prior-cycle only. Reviewed Bachelor's admissions, current fees and international scholarship pages; no 2027/28 call, deadlines, fees or scholarship award was identified, so the successor intake remains unverified."},
+            {"id":"verona-biology-2026-27-course-and-admissions-review","status":"partial","result":"Recorded the official 2026/27 Biology for Translational Research and Precision Medicine profile, general admissions route, entry requirements, separate abroad-applicant call and scholarships. The 2027/28 study plan activates year two for the 2026/27 cohort only; first-year intake and current terms remain unverified."},
         ],
         "counts": coverage,
     }
@@ -660,19 +699,23 @@ def build():
         "",
         f"- Universities in the original application: **{coverage['original_universities']}**",
         f"- Universities with an official-source outcome documented: **{coverage['universities_researched']}**",
+        f"- Universities without an initial official-source outcome: **{coverage['universities_without_initial_official_source_outcome']}**",
         f"- Universities fully verified across the requested program and admissions fields: **{coverage['universities_fully_verified']}**",
         f"- Universities partially researched: **{coverage['universities_partially_researched']}**",
+        f"- Universities with program-level review started: **{coverage['universities_with_program_level_research']}**; program-level review not started: **{coverage['universities_program_level_review_not_started']}**",
         f"- Program records: **{coverage['program_records']}** ({coverage['prior_tracker_programs_archived']} archived prior listings + {coverage['newly_discovered_programs']} discoveries)",
         f"- Program availabilities named in 2027/28 official sources: **{coverage['programs_cycle_availability_confirmed']}**",
+        f"- Program availability still pending: **{coverage['programs_availability_pending']}**",
         f"- Program offers with core name, level, language and cycle availability verified: **{coverage['programs_fully_verified']}** ({coverage['bsc_programs_verified']} BSc, {coverage['msc_programs_verified']} MSc)",
         f"- Program records still requiring verification: **{coverage['programs_requiring_verification']}**; programs explicitly confirmed not offered in 2027/28: **{coverage['programs_not_offered_2027_2028']}**",
+        f"- Candidate programs with official evidence limited to a previous cycle: **{coverage['programs_supported_only_by_previous_cycle']}**",
         f"- Universities with at least one confirmed date-specific 2027/28 application window in reviewed material: **{coverage['universities_with_confirmed_deadline_windows']}**",
         f"- Universities with admissions deadlines or calls explicitly marked not yet published: **{coverage['universities_with_deadlines_or_calls_explicitly_not_yet_published']}**",
         f"- Universities with at least one cycle field not yet published (including non-deadline fields): **{coverage['universities_with_explicit_not_yet_published_fields']}**",
         f"- Universities with an unavailable or conflicting researched program/university field: **{coverage['universities_with_unavailable_or_conflicting_information']}**; conflicting official sources: **{coverage['universities_with_conflicting_sources']}**",
         f"- Official source records: **{coverage['source_records']}**; source-backed confirmed fields: **{coverage['official_source_supported_fields']}**",
         "",
-        "Program counts distinguish an availability confirmation from a fully verified program record. CLE at Bologna has a 2027/28 call page but its instruction language is still unverified. The UniTrento 28DIGITAL tracks are core-verified from their individual 2027/28 pages, while a round-calendar conflict between the University department and central 28DIGITAL pages remains visible in the application data. CORES at UniGe is a planned 2027/28 joint master, but the university says its proposal remains under evaluation. Messina's Data Science catalogue confirms English-taught second-year coursework during 2027/28 for the 2026/27 cohort; the 2027/28 new-entry intake remains unverified. Catania's former Data Science for Management course is marked discontinued based on the university's 2022/23 replacement notice. The successor Data Science MSc is separately listed as an unverified 2027/28 candidate because the latest official course page and non-EU call reviewed are for 2026/27.",
+        "Program counts distinguish an availability confirmation from a fully verified program record. CLE at Bologna has a 2027/28 call page but its instruction language is still unverified. The UniTrento 28DIGITAL tracks are core-verified from their individual 2027/28 pages, while a round-calendar conflict between the University department and central 28DIGITAL pages remains visible in the application data. CORES at UniGe is a planned 2027/28 joint master, but the university says its proposal remains under evaluation. Messina's Data Science catalogue confirms English-taught second-year coursework during 2027/28 for the 2026/27 cohort; the 2027/28 new-entry intake remains unverified. Catania's former Data Science for Management course is marked discontinued based on the university's 2022/23 replacement notice. The successor Data Science MSc is separately listed as an unverified 2027/28 candidate because the latest official course page and non-EU call reviewed are for 2026/27. Verona's Biology for Translational Research and Precision Medicine MSc has 2026/27 course and admissions evidence; its 2027/28 study plan concerns only year two for that earlier cohort, so new-entry availability remains pending.",
         "",
         "## Programs with core 2027/28 details confirmed",
         "",
@@ -684,6 +727,11 @@ def build():
         source_titles = [source_map[sid]["title"] for sid in p["source_ids"] if sid in source_map]
         source_links = "; ".join(f"[{title}]({source_map[sid]['url']})" for sid in p["source_ids"] if sid in source_map for title in [source_map[sid]["title"]])
         lines.append(f"| {p['university']} | {p['program']} | {p['level']['value']} | {p['language']['value']} | {', '.join(fact_names) or 'Cycle availability, name, level and language'} | {source_links} |")
+    if previous_cycle_only:
+        lines += ["", "## Candidate programs supported only by previous-cycle evidence", "", "These records retain explicit historical program details, but none confirms 2027/28 new-entry availability.", ""]
+        for p in previous_cycle_only:
+            source_links = "; ".join(f"[{source_map[sid]['title']}]({source_map[sid]['url']})" for sid in p["source_ids"] if sid in source_map)
+            lines.append(f"- **{p['university']} — {p['program']}** — latest official course/admissions evidence is for 2026/27. {source_links}")
     not_offered = [p for p in programs if p["overall_status"] == "NOT_APPLICABLE"]
     if not_offered:
         lines += ["", "## Programs confirmed not offered in 2027/28", ""]

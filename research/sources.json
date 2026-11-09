@@ -1307,5 +1307,73 @@
       "university.previous_cycle_process",
       "university.non_eu_process"
     ]
+  },
+  {
+    "id": "SRC-VERONA-BIOLOGY-PROFILE-2026",
+    "university_id": "verona",
+    "title": "Biology for Translational Research and Precision Medicine – course profile",
+    "url": "https://corsi.univr.it/?ent=cs&id=1337&lang=en",
+    "source_type": "Official degree profile",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The profile identifies a two-year Master's degree, class LM-6 R, taught in English in Verona, with limited entry by qualifications. The displayed profile is for 2026/27 and does not establish a 2027/28 first-year intake.",
+    "supports": [
+      "program.previous_cycle_course_listing"
+    ]
+  },
+  {
+    "id": "SRC-VERONA-BIOLOGY-ADMISSION-2026",
+    "university_id": "verona",
+    "title": "Biology for Translational Research and Precision Medicine – 2026/27 admissions",
+    "url": "https://corsi.univr.it/?aa=2026%2F2027&ent=cs&id=1337&lang=en&menu=iscriversi&tab=comeiscriversi",
+    "source_type": "Official degree admissions page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "For 2026/27, the course page lists 35 total places, 5 reserved for specified non-EU applicants, qualification-based selection, applications 1 July–31 August 2026 by 10:00 Italian time, first ranking on 18 September 2026 and a €50 admission fee. These are prior-cycle values.",
+    "supports": [
+      "program.previous_cycle_course_admission",
+      "program.previous_cycle_deadline",
+      "program.previous_cycle_application_fee"
+    ]
+  },
+  {
+    "id": "SRC-VERONA-BIOLOGY-REQUIREMENTS-2026",
+    "university_id": "verona",
+    "title": "Biology for Translational Research and Precision Medicine – admission requirements",
+    "url": "https://corsi.univr.it/?ent=cs&id=1337&lang=en&menu=iscriversi&tab=requisiti",
+    "source_type": "Official degree admission requirements page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The reviewed page is for 2026/27. It describes qualifying biology/biotechnology and other degree classes or specified science credits, an English B2 requirement with listed exemptions, and a separate set of criteria for applicants with degrees earned abroad; it does not confirm 2027/28 requirements.",
+    "supports": [
+      "program.previous_cycle_program_requirements"
+    ]
+  },
+  {
+    "id": "SRC-VERONA-BIOLOGY-INTERNATIONAL-CALL-2026",
+    "university_id": "verona",
+    "title": "International admission call – Biology for Translational Research and Precision Medicine, 2026/27",
+    "url": "https://cdn.docs.univr.it/documenti/Albo/allegatialbo/allegatialbo162487.pdf",
+    "source_type": "Official international admission call PDF",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "Separate 2026/27 call for applicants with a foreign degree, non-Italian citizenship and no residence in Italy: 5 reserved places; relevant first-level degree; weighted CGPA above 81%; English B2 or a prior English-taught qualification; application 2 February–31 March 2026 at 15:00 Italian time; €50 pre-admission fee. It also lists one €8,000 gross/year scholarship with tuition exemption and four €1,000 flat-rate contributions for two academic years. This is historical evidence and must not be added to or assumed for 2027/28.",
+    "supports": [
+      "program.previous_cycle_non_eu_admission",
+      "program.previous_cycle_scholarships"
+    ]
+  },
+  {
+    "id": "SRC-VERONA-BIOLOGY-STUDY-PLAN-2027",
+    "university_id": "verona",
+    "title": "Biology for Translational Research and Precision Medicine – 2026/27 cohort study plan",
+    "url": "https://www.corsi.univr.it/?aa=2026%2F2027&codins=4S011598&discr=null&discrCd=null&ent=cs&id=1337&idOi=227756&lang=en&menu=studiare&tab=Insegnamenti",
+    "source_type": "Official degree study plan",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The study plan for students enrolled in 2026/27 says the second year will activate in 2027/28. This confirms planned second-year teaching for that cohort only and is not a new-entry admission notice.",
+    "supports": [
+      "program.academic_year_course_offering"
+    ]
   }
 ]

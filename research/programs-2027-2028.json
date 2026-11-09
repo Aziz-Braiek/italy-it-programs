@@ -3903,42 +3903,157 @@
     "university_id": "verona",
     "university": "Università degli Studi di Verona",
     "city": "Verona",
-    "program": "Biology for Translational Research",
+    "program": "Biology for Translational Research and Precision Medicine",
     "level": {
       "value": "MSc",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-VERONA-BIOLOGY-PROFILE-2026"
+      ],
+      "notes": "Officially listed for 2026/27; the degree level still needs 2027/28 confirmation."
     },
     "language": {
       "value": "English",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-VERONA-BIOLOGY-PROFILE-2026"
+      ],
+      "notes": "Officially listed for 2026/27; the 2027/28 teaching language remains unverified."
     },
     "field": {
-      "value": "Sciences",
+      "value": "Biology",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-VERONA-BIOLOGY-PROFILE-2026"
+      ],
+      "notes": "The official 2026/27 course title and profile identify the prior-cycle subject area; the 2027/28 record remains pending."
     },
     "availability_2027_2028": {
       "value": null,
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
+      "source_ids": [
+        "SRC-VERONA-BIOLOGY-PROFILE-2026",
+        "SRC-VERONA-BIOLOGY-ADMISSION-2026",
+        "SRC-VERONA-BIOLOGY-REQUIREMENTS-2026",
+        "SRC-VERONA-BIOLOGY-INTERNATIONAL-CALL-2026",
+        "SRC-VERONA-BIOLOGY-STUDY-PLAN-2027"
+      ],
+      "notes": "The sources reviewed for first-year admissions are for 2026/27. The study plan says year two activates in 2027/28 for students enrolled in 2026/27; it does not confirm a new 2027/28 first-year intake."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
-    "facts": {},
-    "source_ids": [],
+    "facts": {
+      "previous_cycle_course_listing": {
+        "value": {
+          "degree": "Master's degree",
+          "duration_years": 2,
+          "class": "LM-6 R",
+          "language": "English",
+          "city": "Verona",
+          "admission": "Limited entry by qualifications"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-VERONA-BIOLOGY-PROFILE-2026"
+        ],
+        "notes": "These profile details are for 2026/27 only; they do not confirm a new 2027/28 intake."
+      },
+      "previous_cycle_course_admission": {
+        "value": {
+          "academic_year": "2026/27",
+          "total_places": 35,
+          "reserved_places_for_specified_non_eu_applicants": 5,
+          "selection": "Qualifications, no entrance test",
+          "application_window": "1 July–31 August 2026, by 10:00 Italian time",
+          "first_ranking": "18 September 2026",
+          "application_fee_eur": 50
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-VERONA-BIOLOGY-ADMISSION-2026"
+        ],
+        "notes": "This is the general 2026/27 course procedure. Its 5 reserved places are not additive to the separately published abroad-applicant route; neither route establishes 2027/28 terms."
+      },
+      "previous_cycle_program_requirements": {
+        "value": [
+          "2026/27: L-13, L-2 or SNT/03 degree (or equivalent); applicants with other degree classes could qualify through specified science-sector credits.",
+          "English B2, with stated exemptions including an English-taught qualifying degree.",
+          "For the separate foreign-degree, non-Italian-citizen and non-resident route, the 2026/27 call required a related biology, biotechnology, biochemistry, molecular biology, chemistry, biophysics or bioinformatics first degree; weighted CGPA above 81%; and English B2 or a prior English-taught qualification."
+        ],
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-VERONA-BIOLOGY-REQUIREMENTS-2026",
+          "SRC-VERONA-BIOLOGY-INTERNATIONAL-CALL-2026"
+        ],
+        "notes": "Prior-cycle eligibility only. Use the future 2027/28 course call for current entry rules."
+      },
+      "previous_cycle_non_eu_admission": {
+        "value": {
+          "academic_year": "2026/27",
+          "eligible_scope": "Foreign degree, non-Italian citizenship and not resident in Italy",
+          "reserved_places": 5,
+          "application_window": "2 February–31 March 2026, by 15:00 Italian time",
+          "pre_admission_fee_eur": 50
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-VERONA-BIOLOGY-INTERNATIONAL-CALL-2026"
+        ],
+        "notes": "This is a separate 2026/27 call for a defined abroad-applicant group. Do not combine its dates or seats with the general course page, and do not infer that the route recurs in 2027/28."
+      },
+      "previous_cycle_scholarships": {
+        "value": {
+          "academic_year": "2026/27",
+          "one_award": {
+            "gross_eur_per_academic_year": 8000,
+            "duration_academic_years": 2,
+            "tuition_exemption": true
+          },
+          "four_flat_rate_contributions": {
+            "amount_eur": 1000,
+            "duration_academic_years": 2,
+            "eligibility": "Non-EU applicants"
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-VERONA-BIOLOGY-INTERNATIONAL-CALL-2026"
+        ],
+        "notes": "The award and four contributions were announced for eligible 2026/27 entrants only; the source does not establish a 2027/28 scholarship call."
+      },
+      "academic_year_course_offering": {
+        "value": {
+          "academic_year": "2027/28",
+          "year_of_course": 2,
+          "enrollment_cohort": "2026/27"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-VERONA-BIOLOGY-STUDY-PLAN-2027"
+        ],
+        "notes": "Confirms planned second-year teaching for students enrolled in 2026/27. This is not evidence of new first-year admission in 2027/28."
+      }
+    },
+    "source_ids": [
+      "SRC-VERONA-BIOLOGY-PROFILE-2026",
+      "SRC-VERONA-BIOLOGY-ADMISSION-2026",
+      "SRC-VERONA-BIOLOGY-REQUIREMENTS-2026",
+      "SRC-VERONA-BIOLOGY-INTERNATIONAL-CALL-2026",
+      "SRC-VERONA-BIOLOGY-STUDY-PLAN-2027"
+    ],
     "previous_tracker_tags": {
       "level": "MSc",
       "language": "English",
       "field": "Sciences",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
-    "previous_cycle_tags": null,
+    "previous_cycle_tags": {
+      "level": "MSc",
+      "language": "English",
+      "field": "Biology",
+      "cycle": "2026-2027",
+      "label": "Latest official 2026/27 listing"
+    },
     "last_checked": "2026-11-09"
   },
   {

@@ -23,6 +23,7 @@ keys = [(p["university_id"], p["program"].casefold(), p["level"]["value"]) for p
 assert len(set(keys)) == len(keys), "duplicate university/program/level records"
 assert len({s["id"] for s in sources}) == len(sources), "duplicate source IDs"
 source_ids = {s["id"] for s in sources}
+source_by_id = {s["id"]: s for s in sources}
 uni_ids = {u["id"] for u in universities}
 assert {u["id"] for u in universities if u["source_ids"]} == uni_ids, "a university lacks an official source record"
 assert all(p["university_id"] in uni_ids for p in programs), "program refers to an unknown university"
@@ -45,6 +46,8 @@ for p in programs:
     if p.get("previous_cycle_tags"):
         tags = p["previous_cycle_tags"]
         assert tags.get("cycle") and tags["cycle"] != coverage["academic_year"], f"previous-cycle tags use the active academic year: {p['program']}"
+        assert p["overall_status"] != "CONFIRMED", f"previous-cycle-only tags promoted the full program to current-cycle confirmed: {p['program']}"
+        assert availability["status"] != "CONFIRMED", f"previous-cycle-only evidence confirms active-cycle availability: {p['program']}"
         for key in ("level", "language", "field"):
             assert tags.get(key) == p[key]["value"], f"previous-cycle tag mismatch: {p['program']} / {key}"
             assert p[key]["status"] != "CONFIRMED", f"previous-cycle-only tag is incorrectly confirmed for the active cycle: {p['program']} / {key}"
@@ -65,6 +68,9 @@ for p in programs:
         if item["status"] == "CONFIRMED":
             assert item["source_ids"], f"confirmed field has no source: {p['program']} / {key}"
         assert all(sid in source_ids for sid in item.get("source_ids", [])), f"unknown source ID in {p['program']} / {key}"
+        if key.startswith("previous_cycle_"):
+            assert item.get("notes"), f"prior-cycle fact lacks a scope note: {p['program']} / {key}"
+            assert all(source_by_id[sid].get("cycle") != coverage["academic_year"] for sid in item.get("source_ids", [])), f"prior-cycle fact cites an active-cycle source: {p['program']} / {key}"
     forbidden = {"tuition", "app_fee", "gpa_cat", "gpa_detail", "deadline_display", "deadline_iso", "tier", "acceptance_rate", "last_verified"}
     assert not (forbidden & p.keys()), f"legacy display fields leaked into active record: {p['program']}"
 
@@ -80,11 +86,22 @@ for u in universities:
 
 assert coverage["program_records"] == len(programs)
 assert coverage["universities_researched"] == len(universities)
+assert coverage["universities_without_initial_official_source_outcome"] == sum(not u["source_ids"] for u in universities)
 assert coverage["universities_fully_verified"] == 0
+partial_program_review = sorted(u["id"] for u in universities if u["coverage"]["program_level_review"] == "partial")
+not_started_program_review = sorted(u["id"] for u in universities if u["coverage"]["program_level_review"] == "not_started")
+assert coverage["universities_with_program_level_research"] == len(partial_program_review)
+assert coverage["university_ids_with_program_level_research"] == partial_program_review
+assert coverage["universities_program_level_review_not_started"] == len(not_started_program_review)
+assert coverage["university_ids_with_program_level_review_not_started"] == not_started_program_review
 assert coverage["programs_fully_verified"] == len(confirmed_programs)
 assert coverage["programs_cycle_availability_confirmed"] == sum(p["availability_2027_2028"]["status"] == "CONFIRMED" and p["availability_2027_2028"]["value"] is True for p in programs)
+assert coverage["programs_availability_pending"] == sum(p["availability_2027_2028"]["status"] != "CONFIRMED" for p in programs)
 assert coverage["programs_requiring_verification"] == sum(p["overall_status"] == "REQUIRES_VERIFICATION" for p in programs)
 assert coverage["programs_not_offered_2027_2028"] == sum(p["overall_status"] == "NOT_APPLICABLE" for p in programs)
+previous_cycle_only = sorted(p["id"] for p in programs if p.get("previous_cycle_tags") and p["availability_2027_2028"]["status"] != "CONFIRMED")
+assert coverage["programs_supported_only_by_previous_cycle"] == len(previous_cycle_only)
+assert coverage["program_ids_supported_only_by_previous_cycle"] == previous_cycle_only
 assert coverage["source_records"] == len(sources)
 conflicting_universities = {
     p["university_id"] for p in programs

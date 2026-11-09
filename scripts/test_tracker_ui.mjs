@@ -90,6 +90,20 @@ assert.match(messinaProgramHtml, /10 February–17 March 2026 and a \u20ac10 fee
 assert.match(messinaProgramHtml, /The latest official course and English-MSc call evidence located is for 2026\/27/);
 assert.match(dataText.find((element) => element.attrs["data-en"]?.includes("Latest official listing"))?.attrs["data-en"] ?? "", /do not confirm 2027–28 availability/);
 assert.match(dataText.find((element) => element.attrs["data-it"]?.includes("Ultima scheda ufficiale"))?.attrs["data-it"] ?? "", /non confermano la disponibilità per il 2027–28/);
+
+getElementById("search").value = "Biology for Translational Research and Precision Medicine";
+getElementById("search").dispatch("input");
+const veronaProgramHtml = getElementById("program-grid").innerHTML;
+assert.match(veronaProgramHtml, /Universit\u00e0 degli Studi di Verona/);
+assert.match(veronaProgramHtml, /Latest official listing \(2026\/27\)/);
+assert.match(veronaProgramHtml, /Course admissions \(2026\/27\)/);
+assert.match(veronaProgramHtml, /Course requirements \(2026\/27\)/);
+assert.match(veronaProgramHtml, /Non-EU admission \u2013 prior cycle/);
+assert.match(veronaProgramHtml, /Scholarships \(2026\/27\)/);
+assert.match(veronaProgramHtml, /2 February\u201331 March 2026/);
+assert.match(veronaProgramHtml, /The study plan says year two activates in 2027\/28 for students enrolled in 2026\/27/);
+assert.match(veronaProgramHtml, /does not confirm a new 2027\/28 first-year intake/);
+assert.match(veronaProgramHtml, /class=\"status pending\"/);
 getElementById("search").value = "";
 getElementById("search").dispatch("input");
 

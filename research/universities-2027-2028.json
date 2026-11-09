@@ -1843,21 +1843,26 @@
     "contact_url": "https://www.univr.it/en/our-services/international-degree-seeking-students",
     "cycle_status": "REQUIRES_VERIFICATION",
     "research_stage": "PARTIALLY_RESEARCHED",
-    "research_summary": "The reviewed official page gives 2026/27 international MSc application information; 2027/28 programs and calls remain outstanding.",
+    "research_summary": "The Biology for Translational Research and Precision Medicine MSc is listed in 2026/27 sources, and its 2026/27 admission routes, eligibility and scholarship call are documented as prior-cycle evidence. Its study plan activates year two in 2027/28 for the 2026/27 cohort; a new 2027/28 first-year intake and terms remain unverified.",
     "coverage": {
       "official_website_visited": "complete",
       "international_admissions_page_examined": "partial",
       "bachelors_admissions_examined": "not_started",
-      "masters_admissions_examined": "not_started",
-      "english_programs_examined": "not_started",
-      "fees_examined": "not_started",
-      "scholarships_examined": "not_started",
+      "masters_admissions_examined": "partial",
+      "english_programs_examined": "partial",
+      "fees_examined": "partial",
+      "scholarships_examined": "partial",
       "non_eu_requirements_examined": "partial",
-      "application_deadlines_examined": "not_started",
-      "program_level_review": "not_started"
+      "application_deadlines_examined": "partial",
+      "program_level_review": "partial"
     },
     "source_ids": [
-      "SRC-VERONA-INTL"
+      "SRC-VERONA-INTL",
+      "SRC-VERONA-BIOLOGY-PROFILE-2026",
+      "SRC-VERONA-BIOLOGY-ADMISSION-2026",
+      "SRC-VERONA-BIOLOGY-REQUIREMENTS-2026",
+      "SRC-VERONA-BIOLOGY-INTERNATIONAL-CALL-2026",
+      "SRC-VERONA-BIOLOGY-STUDY-PLAN-2027"
     ],
     "last_checked": "2026-11-09",
     "cycle_facts": {}
