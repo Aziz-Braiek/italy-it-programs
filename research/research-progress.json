@@ -1,0 +1,92 @@
+{
+  "academic_year": "2027-2028",
+  "as_of": "2026-11-09",
+  "branch": "upgrade/2027-2028-research",
+  "phase": "research_and_data_model_in_progress",
+  "next_actions": [
+    "Review each of the 34 universities' complete official BSc and MSc offers.",
+    "Verify every candidate program's 2027/28 availability, language and applicant eligibility.",
+    "Collect fees, scholarships, application routes, contacts and field-specific requirements from official 2027/28 notices.",
+    "Recheck sources that currently say information is not yet published.",
+    "Run data and UI quality checks, deploy a preview, then repeat research/QA before any production deployment."
+  ],
+  "completed_batches": [
+    {
+      "id": "baseline-and-archive",
+      "status": "complete",
+      "result": "Archived all 165 prior program rows and mapped the original 34 universities."
+    },
+    {
+      "id": "official-2027-28-initial-batch",
+      "status": "partial",
+      "result": "Recorded 34 university research outcomes, source-linked 13 program offers, and explicitly marked outstanding program rows."
+    }
+  ],
+  "counts": {
+    "academic_year": "2027-2028",
+    "as_of": "2026-11-09",
+    "original_universities": 34,
+    "universities_researched": 34,
+    "universities_fully_verified": 0,
+    "universities_partially_researched": 34,
+    "program_records": 177,
+    "prior_tracker_programs_archived": 165,
+    "newly_discovered_programs": 12,
+    "programs_cycle_availability_confirmed": 16,
+    "programs_fully_verified": 15,
+    "programs_requiring_verification": 162,
+    "bsc_programs_verified": 1,
+    "msc_programs_verified": 14,
+    "universities_with_confirmed_deadline_windows": 5,
+    "university_ids_with_confirmed_deadline_windows": [
+      "messina",
+      "padova",
+      "pisa",
+      "politecnico-milano",
+      "tor-vergata"
+    ],
+    "universities_with_explicit_not_yet_published_fields": 7,
+    "university_ids_with_explicit_not_yet_published_fields": [
+      "ca-foscari",
+      "palermo",
+      "parma",
+      "pisa",
+      "politecnico-bari",
+      "politecnico-torino",
+      "siena"
+    ],
+    "universities_with_deadlines_or_calls_explicitly_not_yet_published": 6,
+    "university_ids_with_deadlines_or_calls_explicitly_not_yet_published": [
+      "ca-foscari",
+      "palermo",
+      "parma",
+      "politecnico-bari",
+      "politecnico-torino",
+      "siena"
+    ],
+    "universities_with_unavailable_or_conflicting_information": 4,
+    "university_ids_with_unavailable_or_conflicting_information": [
+      "bologna",
+      "padova",
+      "pisa",
+      "tor-vergata"
+    ],
+    "universities_with_conflicting_sources": 0,
+    "source_records": 47,
+    "official_source_supported_fields": 104,
+    "verification_statuses": [
+      "CONFIRMED",
+      "NOT_YET_PUBLISHED",
+      "UNAVAILABLE",
+      "REQUIRES_VERIFICATION",
+      "CONFLICTING_SOURCES",
+      "NOT_APPLICABLE"
+    ],
+    "limitations": [
+      "A homepage or admissions overview does not count as complete program research.",
+      "Program availability is counted as confirmed only when an official 2027/28 source names the degree and supports its level and language.",
+      "The historic tracker contained estimates and prior-cycle fees, deadlines, GPA labels, tiers and acceptance claims; these remain only in the archive and are not active facts.",
+      "No university is marked fully verified until its complete relevant BSc/MSc offer and the required fields have been checked program by program."
+    ]
+  }
+}

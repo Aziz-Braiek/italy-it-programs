@@ -1,0 +1,692 @@
+[
+  {
+    "id": "SRC-PADUA-INTL-2027",
+    "university_id": "padova",
+    "title": "Admission of international students – How to apply",
+    "url": "https://www.unipd.it/en/ammissione-studenti-internazionali",
+    "source_type": "Official international admissions page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "First application call for most programs opens 15 September 2026 and closes 15 November 2026; bachelor's entry normally requires 12 years of schooling; master's applicants need a relevant bachelor’s degree and program-specific requirements; English-taught degrees use apply.unipd.it.",
+    "supports": [
+      "university.application_window",
+      "university.non_eu_process",
+      "university.bachelor_entry",
+      "university.master_entry"
+    ]
+  },
+  {
+    "id": "SRC-PADUA-PROGRAMS-2027",
+    "university_id": "padova",
+    "title": "International students – 2027/28 applications (DiSSGeA)",
+    "url": "https://www.dissgea.unipd.it/en/en/international-students-202728-applications",
+    "source_type": "Official department admissions page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "Lists History (Bachelor’s), Classical Languages and Literatures and Ancient History, Historical Sciences, Landscape Studies, Religious Studies, Local Development and Mobility Studies, and gives calls 15 Sep–15 Nov 2026, 1 Dec 2026–1 Mar 2027, and 1 Apr–1 Jun 2027 for EU and non-EU residents in Italy only.",
+    "supports": [
+      "program.availability",
+      "program.name",
+      "program.level",
+      "program.language",
+      "program.deadlines"
+    ]
+  },
+  {
+    "id": "SRC-POLIMI-DEADLINES-2027",
+    "university_id": "politecnico-milano",
+    "title": "Deadlines – Admission to Laurea Magistrale with foreign qualification",
+    "url": "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/deadlines",
+    "source_type": "Official admissions deadlines page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "For MSc September 2027 intake, general application periods include 1 Oct–1 Dec 2026 early-bird and 12–28 Jan 2027; an additional 1–18 Mar 2027 call is restricted to EEA applicants and eligible non-EEA residents in Italy. Fees are €50 early-bird or €150 standard, for up to two programs. Architecture/Design has a separate cycle section.",
+    "supports": [
+      "university.application_window",
+      "university.application_fee",
+      "university.non_eu_process"
+    ]
+  },
+  {
+    "id": "SRC-PISA-CALL-2027",
+    "university_id": "pisa",
+    "title": "International admissions call 2027/28 – English MSc programs",
+    "url": "https://didattica.di.unipi.it/wp-content/uploads/sites/2/2026/11/Bando2026_corsi_internazionali.pdf",
+    "source_type": "Official PDF admission call",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "Department call lists MSc Computer Science, Data Science and Business Informatics, and Informatics for Digital Health. For non-EU applicants residing abroad it gives an application deadline of 1 February 2027 (Anywhere on Earth), notification on 1 March 2027, and a €30 fee per application (up to two). Tuition for 2027/28 is not specified; the call says annual fees are usually announced in June. No seats or acceptance rates are published in this call.",
+    "supports": [
+      "program.availability",
+      "program.deadline",
+      "program.application_fee",
+      "program.competitiveness",
+      "university.tuition"
+    ]
+  },
+  {
+    "id": "SRC-PISA-CS",
+    "university_id": "pisa",
+    "title": "Master programme in Computer Science",
+    "url": "https://didattica.di.unipi.it/en/master-programme-in-computer-science/",
+    "source_type": "Official program page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "Official page describes the English-taught MSc Computer Science and links to international admissions. Cycle availability is confirmed separately by the 2027/28 department call.",
+    "supports": [
+      "program.name",
+      "program.level",
+      "program.language"
+    ]
+  },
+  {
+    "id": "SRC-PISA-DSBI",
+    "university_id": "pisa",
+    "title": "Master programme in Data Science and Business Informatics",
+    "url": "https://didattica.di.unipi.it/en/master-programme-in-data-science-and-business-informatics/",
+    "source_type": "Official program page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "Official page describes the English-taught MSc. Cycle availability is confirmed separately by the 2027/28 department call.",
+    "supports": [
+      "program.name",
+      "program.level",
+      "program.language"
+    ]
+  },
+  {
+    "id": "SRC-PISA-DH",
+    "university_id": "pisa",
+    "title": "Master programme in Informatics for Digital Health",
+    "url": "https://didattica.di.unipi.it/en/master-programme-in-informatics-for-digital-health/",
+    "source_type": "Official program page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "Describes an English-taught open-admission MSc and links to foreign-student enrollment for AY 2027/28. The department call confirms cycle availability.",
+    "supports": [
+      "program.name",
+      "program.level",
+      "program.language",
+      "program.access_type"
+    ]
+  },
+  {
+    "id": "SRC-UNIME-2027",
+    "university_id": "messina",
+    "title": "Application and Admission – 2027/28",
+    "url": "https://international.unime.it/study-us/application-and-admission",
+    "source_type": "Official international admissions page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "Publishes 2027/28 application rounds for international candidates and a €40 fee for up to two program applications; English certificates are generally B2 unless exempt; program details and eligibility must be checked individually.",
+    "supports": [
+      "university.application_window",
+      "university.application_fee",
+      "university.english_requirement",
+      "university.non_eu_process"
+    ]
+  },
+  {
+    "id": "SRC-UNIGE-2027",
+    "university_id": "genova",
+    "title": "UniGeApply International Admissions",
+    "url": "https://unige.it/en/international-enrolment",
+    "source_type": "Official international admissions page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "2027/28 non-EU visa preselection is expected mid-December 2026 through end-March 2027; exact dates await publication. €30 fee covers up to two assessment applications. English-taught programs do not require Italian.",
+    "supports": [
+      "university.application_window_expected",
+      "university.application_fee",
+      "university.english_requirement"
+    ]
+  },
+  {
+    "id": "SRC-CA-FOSCARI-2027",
+    "university_id": "ca-foscari",
+    "title": "Preliminary evaluation of international qualifications",
+    "url": "https://www.unive.it/pag/12520",
+    "source_type": "Official international admissions page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "States that applications for international qualifications seeking 2027/28 bachelor’s or master’s admission start in December 2026; exact calls and dates are to be published later.",
+    "supports": [
+      "university.application_opening",
+      "university.non_eu_process"
+    ]
+  },
+  {
+    "id": "SRC-CA-FOSCARI-BUDDHISM-2027",
+    "university_id": "ca-foscari",
+    "title": "Buddhism and Asian Religions – programme and 2027/28 admission",
+    "url": "https://www.unive.it/web/en/21007/home",
+    "source_type": "Official program page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "States that the MSc activates in 2027/28; level MSc, LM-64, Venice, English, two years/120 credits and open admission. The admission page says detailed 2027/28 procedures and deadlines will be updated in March 2027; the enrolment page requires B2 English and adequate preparation.",
+    "supports": [
+      "program.availability",
+      "program.name",
+      "program.level",
+      "program.language",
+      "program.duration",
+      "program.access_type",
+      "program.requirements",
+      "program.deadline_status"
+    ]
+  },
+  {
+    "id": "SRC-CA-FOSCARI-SCHOLARSHIPS-2027",
+    "university_id": "ca-foscari",
+    "title": "Financial aid for high-achieving international students",
+    "url": "https://www.unive.it/pag/19545",
+    "source_type": "Official scholarship page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "For 2027/28 lists 8 bachelor scholarships of €10,000/year for three years and 20 master’s scholarships of €10,000/year for two years. Ranking factors include CGPA at least 85%, motivational video, reference letters and language evidence; the complete call with exact deadlines is expected in late fall.",
+    "supports": [
+      "university.scholarships",
+      "university.scholarship_eligibility",
+      "university.scholarship_deadline_status"
+    ]
+  },
+  {
+    "id": "SRC-TORVERGATA-MECH-2027",
+    "university_id": "tor-vergata",
+    "title": "Admission A.Y. 2027-28 – Mechatronics Engineering",
+    "url": "https://mechatronics.uniroma2.it/how-to-apply-for-mechatronics/admission-a-y-2027-28/",
+    "source_type": "Official program admission page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "MSc Mechatronics Engineering, two years/120 credits, taught in English; lists non-EU visa applicant windows 9–27 Nov 2026, 11–25 Jan 2027, 8–22 Feb 2027 and resident window 5 Jul–6 Sep 2027; €30 application fee, 60 non-EU-abroad seats plus 4 Marco Polo places, B2 English, curricular requirements and document list.",
+    "supports": [
+      "program.availability",
+      "program.name",
+      "program.level",
+      "program.language",
+      "program.duration",
+      "program.deadlines",
+      "program.application_fee",
+      "program.seats",
+      "program.requirements"
+    ]
+  },
+  {
+    "id": "SRC-TORVERGATA-MECH-LANGUAGE",
+    "university_id": "tor-vergata",
+    "title": "Aims and scopes – Mechatronics Engineering",
+    "url": "https://mechatronics.uniroma2.it/about-us/aims-and-scopes/",
+    "source_type": "Official program page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "States the program is taught entirely in English; the current cycle-specific admission page separately confirms 2027/28 availability.",
+    "supports": [
+      "program.language"
+    ]
+  },
+  {
+    "id": "SRC-UNIFI-SST-2027",
+    "university_id": "firenze",
+    "title": "Enrollment (a.y. 2027/28) – Software: Science and Technology",
+    "url": "https://www.sst.unifi.it/index.php?func=viewpage&module=CMpro&newlang=eng&pageid=168",
+    "source_type": "Official program admission page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "Program page specifies open admission for the 2027/28 MSc, bachelor’s qualification, country-specific grade threshold, 24 ECTS in CS/Computer Engineering and 24 ECTS in Mathematics/Physics/Statistics, B2 English evidence and possible interview.",
+    "supports": [
+      "program.availability",
+      "program.name",
+      "program.level",
+      "program.access_type",
+      "program.requirements",
+      "program.english_requirement"
+    ]
+  },
+  {
+    "id": "SRC-UNIFI-SST-LANGUAGE",
+    "university_id": "firenze",
+    "title": "Course presentation – Software: Science and Technology",
+    "url": "https://www.sst.unifi.it/index.php?func=viewpage&module=CMpro&newlang=eng&pageid=167",
+    "source_type": "Official program page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "States the MSc is entirely delivered in English and has two-year duration/120 CFU.",
+    "supports": [
+      "program.language",
+      "program.duration"
+    ]
+  },
+  {
+    "id": "SRC-UNINA-CHE-2027",
+    "university_id": "napoli-federico-ii",
+    "title": "Notice for International Students – AY 2027/2028, MSc Chemical Engineering",
+    "url": "https://www.dicmapi.unina.it/ingegneria-chimica/notice-for-international-students-academic-year-2027-2028-msc-chemical-engineering/",
+    "source_type": "Official program admission notice",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "States international pre-evaluation opens 10 January 2027; Universitaly opens from February/March 2027; exact dates and deadlines to follow.",
+    "supports": [
+      "program.availability",
+      "program.deadline",
+      "program.application_opening"
+    ]
+  },
+  {
+    "id": "SRC-UNINA-CHE-PROGRAM",
+    "university_id": "napoli-federico-ii",
+    "title": "Master’s Degree in Chemical Engineering",
+    "url": "https://www.dicmapi.unina.it/mag_ingchim/masters-degree-in-chemical-engineering/?lang=en",
+    "source_type": "Official program page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "Identifies the MSc in Chemical Engineering (LM-22), Napoli campus, and Italian/English language; English curricula include Product Engineering and Sustainable Engineering.",
+    "supports": [
+      "program.name",
+      "program.level",
+      "program.language",
+      "program.location"
+    ]
+  },
+  {
+    "id": "SRC-BOLOGNA-CLE-2027",
+    "university_id": "bologna",
+    "title": "Application – Erasmus Mundus CLE",
+    "url": "https://cle.unibo.it/pages/23/presentazione-della-domanda/lang/en",
+    "source_type": "Official joint-master program admission page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "Publishes AY 2027/28 application intakes from November 2026 to February 2027 and March to April 2027, with results in March and May. Exact day-level deadlines are not supplied on the reviewed page.",
+    "supports": [
+      "program.availability",
+      "program.application_windows"
+    ]
+  },
+  {
+    "id": "SRC-UNIBO-CSE-2027",
+    "university_id": "bologna",
+    "title": "Computer Science and Engineering – admissions and requirements",
+    "url": "https://corsi.unibo.it/2cycle/ComputerScienceEngineering/how-to-enrol",
+    "source_type": "Official degree-program admission page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "Identifies the MSc and its Intelligent Embedded Systems curriculum as English-taught, with a Bologna-managed local track (15 places) and a 28Digital track (10 places) managed by 28Digital. The shared curricular entry requirements include a relevant first-cycle degree or specified 42 ECTS including at least 18 ECTS in computer science/engineering; B2 English is required for Intelligent Embedded Systems. The 28Digital track is open for 2027/28.",
+    "supports": [
+      "program.name",
+      "program.level",
+      "program.language",
+      "program.requirements",
+      "program.seats",
+      "program.availability"
+    ]
+  },
+  {
+    "id": "SRC-UNIBO-28DIGITAL-2027",
+    "university_id": "bologna",
+    "title": "Intelligent Embedded Systems – 28Digital track",
+    "url": "https://corsi.unibo.it/magistrale/IngegneriaScienzeInformatiche/curriculum-intelligent-embedded-systems-28digital-track",
+    "source_type": "Official degree-program admission page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "For a.y. 2027/28, the English Intelligent Embedded Systems 28Digital track has three application sessions: 30 Oct 2026–31 Jan 2027 for EU/EEA/CH and non-EU applicants; 1 Feb–18 Apr 2027 primarily for EU/EEA/CH and applicants not requiring a residence permit; and 19 Apr–31 May 2027 only for EU/EEA/CH and non-EU applicants not requiring a study visa. Admissions are managed directly by 28Digital. The 28Digital track combines a first-year entry university and a different-country second-year exit university, and grants a double degree plus a 28Digital certificate.",
+    "supports": [
+      "program.availability",
+      "program.language",
+      "program.application_windows",
+      "program.admissions_route",
+      "program.degree_structure"
+    ]
+  },
+  {
+    "id": "SRC-SIENA-2027",
+    "university_id": "siena",
+    "title": "International Students Admissions – Information Portal",
+    "url": "https://admission.unisi.it/",
+    "source_type": "Official admissions portal",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "States the next 2027/28 international admissions intake opens in November 2026; detailed deadlines are not yet published on the reviewed page.",
+    "supports": [
+      "university.application_opening",
+      "university.deadline_status"
+    ]
+  },
+  {
+    "id": "SRC-PARMA-2027",
+    "university_id": "parma",
+    "title": "Admissions for a.y. 2027-2028 – Let’s keep in touch!",
+    "url": "https://www.unipr.it/en/node/106538",
+    "source_type": "Official international admissions update",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "Asks international applicants interested in AY 2027/28 to register interest and states that admissions procedures will be communicated once available.",
+    "supports": [
+      "university.deadline_status",
+      "university.admissions_status"
+    ]
+  },
+  {
+    "id": "SRC-PALERMO-2027",
+    "university_id": "palermo",
+    "title": "Before Applying – FAQ International Students",
+    "url": "https://www.unipa.it/mobilita/en/useful-information/faq-international-students/faq-international-students-p2/before-applying/index.html",
+    "source_type": "Official international admissions FAQ",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "Explicitly says exact 2027/28 admission dates have not yet been published; explains that requirements and selection procedures vary by program.",
+    "supports": [
+      "university.deadline_status",
+      "university.program_requirements"
+    ]
+  },
+  {
+    "id": "SRC-POLIBA-2027",
+    "university_id": "politecnico-bari",
+    "title": "Admissions to first-level degree courses",
+    "url": "https://www.poliba.it/en/ammissioni-corsi-di-laurea-di-1deg-livello",
+    "source_type": "Official admissions page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "The official page says 2027/28 admission call instructions for first-level degrees will be published in February 2027.",
+    "supports": [
+      "university.bachelor_deadline_status"
+    ]
+  },
+  {
+    "id": "SRC-POLITO-2027",
+    "university_id": "politecnico-torino",
+    "title": "Calls for application, regulations and ranking lists – Bachelor's",
+    "url": "https://www.polito.it/en/education/applying-studying-graduating/admissions-and-enrolment/bachelor-s-degree-programmes/calls-for-application-regulations-and-ranking-lists",
+    "source_type": "Official admissions page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "Official page says 2027/28 bachelor calls are being finalized and will be published soon; it also notes that CISIA tests will be used from 2027/28.",
+    "supports": [
+      "university.bachelor_deadline_status",
+      "university.admission_test"
+    ]
+  },
+  {
+    "id": "SRC-BICOCCA-2027",
+    "university_id": "milano-bicocca",
+    "title": "Access for students with an international qualification",
+    "url": "https://en.unimib.it/study/information-international-students/access-students-international-qualification",
+    "source_type": "Official international admissions page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "Notes 2027/28-specific country-dependent entry requirements; program calls and dates require individual review.",
+    "supports": [
+      "university.international_qualification"
+    ]
+  },
+  {
+    "id": "SRC-UNIPG-INTL",
+    "university_id": "perugia",
+    "title": "Becoming a UniPG student",
+    "url": "https://www.unipg.it/en/international-students/becoming-a-unipg-student",
+    "source_type": "Official international admissions page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The reviewed page still describes 2026 visa-applicant pre-evaluation windows; it does not establish 2027/28 deadlines.",
+    "supports": [
+      "university.previous_cycle_process"
+    ]
+  },
+  {
+    "id": "SRC-CAMERINO-FAQ",
+    "university_id": "camerino",
+    "title": "Admissions FAQ",
+    "url": "https://international.unicam.it/admissions/faq",
+    "source_type": "Official international admissions FAQ",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "General FAQ and prior-cycle information were available; a 2027/28 program-level call was not confirmed in the material reviewed.",
+    "supports": [
+      "university.general_admissions"
+    ]
+  },
+  {
+    "id": "SRC-TRIESTE-APPLY",
+    "university_id": "trieste",
+    "title": "Application",
+    "url": "https://portale.units.it/en/study/application",
+    "source_type": "Official admissions page",
+    "accessed_at": "2026-11-09",
+    "cycle": "general",
+    "evidence": "General international application instructions; no program-specific 2027/28 deadline was confirmed in the material reviewed.",
+    "supports": [
+      "university.general_admissions"
+    ]
+  },
+  {
+    "id": "SRC-LAQUILA-INTL",
+    "university_id": "laquila",
+    "title": "International students",
+    "url": "https://www.univaq.it/en/section.php?id=2065&lang_s=en",
+    "source_type": "Official international admissions page",
+    "accessed_at": "2026-11-09",
+    "cycle": "general",
+    "evidence": "Official general international admissions guidance; detailed 2027/28 program-specific calls remain to be reviewed.",
+    "supports": [
+      "university.general_admissions"
+    ]
+  },
+  {
+    "id": "SRC-SALERNO-INTL",
+    "university_id": "salerno",
+    "title": "Enrolment – Non-EU citizens abroad",
+    "url": "https://web.unisa.it/en/teaching/enrollment/non-eu-citizens-abroad",
+    "source_type": "Official non-EU admissions page",
+    "accessed_at": "2026-11-09",
+    "cycle": "general",
+    "evidence": "Official non-EU application guidance; the page reviewed does not establish a complete 2027/28 degree-program schedule.",
+    "supports": [
+      "university.non_eu_process"
+    ]
+  },
+  {
+    "id": "SRC-SAPIENZA-INTL",
+    "university_id": "sapienza",
+    "title": "International Students Office",
+    "url": "https://www.uniroma1.it/it/pagina/segreteria-studenti-internazionali",
+    "source_type": "Official international admissions page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The cycle-specific information reviewed is for 2026/27; the 2027/28 program calls remain outstanding.",
+    "supports": [
+      "university.previous_cycle_process"
+    ]
+  },
+  {
+    "id": "SRC-CATANIA-INTL",
+    "university_id": "catania",
+    "title": "International Students",
+    "url": "https://www.unict.it/en/node/5251",
+    "source_type": "Official international admissions page",
+    "accessed_at": "2026-11-09",
+    "cycle": "general",
+    "evidence": "University page directs international students to degree-specific procedures and notes that rules and deadlines vary by program; no 2027/28 program facts are confirmed here.",
+    "supports": [
+      "university.general_admissions"
+    ]
+  },
+  {
+    "id": "SRC-MILANO-ENROL",
+    "university_id": "milano-statale",
+    "title": "Enrolment",
+    "url": "https://www.unimi.it/en/study/enrolment",
+    "source_type": "Official admissions page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The reviewed page describes 2026/27 admissions and explains that annual calls set requirements, tests, places, rankings and enrollment procedures.",
+    "supports": [
+      "university.previous_cycle_process",
+      "university.admission_structure"
+    ]
+  },
+  {
+    "id": "SRC-UNITO-INTL",
+    "university_id": "torino",
+    "title": "Application for international students",
+    "url": "https://www.en.unito.it/studying-unito/international-degree-seeking-students/application-international-students",
+    "source_type": "Official international admissions page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The reviewed page lists 2026/27 application rounds and a €60 fee; values are retained only as prior-cycle context and are not copied into the active dataset.",
+    "supports": [
+      "university.previous_cycle_process"
+    ]
+  },
+  {
+    "id": "SRC-UNITN-INTL",
+    "university_id": "trento",
+    "title": "Admission: how it works",
+    "url": "https://www.unitn.it/en/international/coming-unitrento/admission-how-it-works",
+    "source_type": "Official international admissions page",
+    "accessed_at": "2026-11-09",
+    "cycle": "general",
+    "evidence": "General guidance says visa-applicant calls are program-specific and typically run December–March; it describes ranked selection, merit-based fee brackets and scholarship/accommodation procedures, but does not confirm individual 2027/28 programs.",
+    "supports": [
+      "university.non_eu_process",
+      "university.scholarships_general",
+      "university.fees_general"
+    ]
+  },
+  {
+    "id": "SRC-UNIFI-INTL",
+    "university_id": "firenze",
+    "title": "Pre-enrolment and study-visa application",
+    "url": "https://www.unifi.it/en/study-us/your-learning-path/start-your-enrolment/international-students/pre-enrolment-and-study",
+    "source_type": "Official international admissions page",
+    "accessed_at": "2026-11-09",
+    "cycle": "general",
+    "evidence": "Explains visa applicants’ general procedure; not a full 2027/28 program deadline source.",
+    "supports": [
+      "university.non_eu_process"
+    ]
+  },
+  {
+    "id": "SRC-UNIPI-ENGLISH",
+    "university_id": "pisa",
+    "title": "Degrees offered in English",
+    "url": "https://didattica.di.unipi.it/en/internazionale/degrees-offered-in-english/",
+    "source_type": "Official program catalogue page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "Department’s English-program directory; the 2027/28 call is the source of cycle-specific availability and dates.",
+    "supports": [
+      "university.english_programs"
+    ]
+  },
+  {
+    "id": "SRC-ROMATRE-INTL",
+    "university_id": "roma-tre",
+    "title": "International Students Admission",
+    "url": "https://orientamento.uniroma3.it/en/about-roma-tre/international-students-admissions/",
+    "source_type": "Official international admissions page",
+    "accessed_at": "2026-11-09",
+    "cycle": "general",
+    "evidence": "Describes international admission steps for first- and second-cycle courses; a reviewed guide is for 2026/27, so no 2027/28 dates are inferred.",
+    "supports": [
+      "university.general_admissions",
+      "university.non_eu_process"
+    ]
+  },
+  {
+    "id": "SRC-UNIVPM-INTL",
+    "university_id": "marche",
+    "title": "Non-EU students applying for a visa",
+    "url": "https://www.international.univpm.it/become-a-student/enrolment/non-eu-students-applying-for-a-visa/",
+    "source_type": "Official international admissions page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "Official international site describes visa-applicant steps and refers to program-specific procedures; reviewed pages focus on 2026/27.",
+    "supports": [
+      "university.general_admissions",
+      "university.non_eu_process"
+    ]
+  },
+  {
+    "id": "SRC-INSUBRIA-INTL",
+    "university_id": "insubria",
+    "title": "Enrolment of non-EU students residing abroad",
+    "url": "https://www.uninsubria.it/servizi/vivere-insubria/immatricolarsi-e-iscriversi/immatricolazioni/studenti-non-ue-residenti",
+    "source_type": "Official international admissions page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "Page gives 2026/27 application and document deadlines and does not establish 2027/28 program-level dates.",
+    "supports": [
+      "university.previous_cycle_process",
+      "university.non_eu_process"
+    ]
+  },
+  {
+    "id": "SRC-FERRARA-INTL",
+    "university_id": "ferrara",
+    "title": "Enrol in a post-graduate course",
+    "url": "https://www.unife.it/en/come-to-study/enroll/how-to-enroll/arrival-enrolment/enrol-in-a-post-graduate-course",
+    "source_type": "Official international admissions page",
+    "accessed_at": "2026-11-09",
+    "cycle": "general",
+    "evidence": "General guidance for international applicants to postgraduate courses; no 2027/28 catalog or cycle-specific deadline is stated on this page.",
+    "supports": [
+      "university.general_admissions",
+      "university.non_eu_process"
+    ]
+  },
+  {
+    "id": "SRC-UNIMORE-INTL",
+    "university_id": "modena-reggio",
+    "title": "Foreign study qualification",
+    "url": "https://www.unimore.it/en/internationalisation/foreign-qualification",
+    "source_type": "Official international admissions page",
+    "accessed_at": "2026-11-09",
+    "cycle": "general",
+    "evidence": "Explains foreign-qualification procedures and directs candidates to degree-specific calls; no 2027/28 catalog or deadline is established here.",
+    "supports": [
+      "university.general_admissions",
+      "university.non_eu_process"
+    ]
+  },
+  {
+    "id": "SRC-PAVIA-ENG-INTL",
+    "university_id": "pavia",
+    "title": "International Applications – Faculty of Engineering",
+    "url": "https://webing.unipv.eu/home/international/international-applications/",
+    "source_type": "Official faculty admissions page",
+    "accessed_at": "2026-11-09",
+    "cycle": "general",
+    "evidence": "Describes evaluation of foreign applications to English-taught engineering master's programs; faculty-specific, not the full 2027/28 university catalog.",
+    "supports": [
+      "university.general_admissions",
+      "university.master_entry"
+    ]
+  },
+  {
+    "id": "SRC-UDINE-APPLY",
+    "university_id": "udine",
+    "title": "How to apply",
+    "url": "https://www.uniud.it/en/education/info-for/how-to-apply/how-to-apply?set_language=en",
+    "source_type": "Official admissions page",
+    "accessed_at": "2026-11-09",
+    "cycle": "general",
+    "evidence": "States that annual rules, deadlines and tests are listed in the prospectus published each June; non-EU applicants follow pre-enrolment and course-level reserved-place procedures.",
+    "supports": [
+      "university.admission_structure",
+      "university.non_eu_process"
+    ]
+  },
+  {
+    "id": "SRC-VERONA-INTL",
+    "university_id": "verona",
+    "title": "International degree-seeking students",
+    "url": "https://www.univr.it/en/our-services/international-degree-seeking-students",
+    "source_type": "Official international admissions page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "Reviewed page states 2026/27 international master's call status; it does not confirm 2027/28 program availability or deadlines.",
+    "supports": [
+      "university.previous_cycle_process",
+      "university.non_eu_process"
+    ]
+  }
+]

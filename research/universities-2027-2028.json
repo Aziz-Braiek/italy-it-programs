@@ -1,0 +1,1488 @@
+[
+  {
+    "id": "napoli-federico-ii",
+    "name": "Università degli Studi di Napoli Federico II",
+    "aliases": [
+      "Federico II Napoli"
+    ],
+    "city": "Naples",
+    "region": "Campania",
+    "country": "Italy",
+    "official_website": "https://www.unina.it/",
+    "international_admissions_url": "https://www.international.unina.it/education/admission-regulation/",
+    "application_portal_url": null,
+    "contact_email": null,
+    "contact_url": "https://www.international.unina.it/education/admission-regulation/",
+    "cycle_status": "REQUIRES_VERIFICATION",
+    "research_stage": "PARTIALLY_RESEARCHED",
+    "research_summary": "A program-specific 2027/28 notice was found for Chemical Engineering; remaining historical program rows need individual checks.",
+    "coverage": {
+      "official_website_visited": "complete",
+      "international_admissions_page_examined": "partial",
+      "bachelors_admissions_examined": "not_started",
+      "masters_admissions_examined": "partial",
+      "english_programs_examined": "not_started",
+      "fees_examined": "not_started",
+      "scholarships_examined": "not_started",
+      "non_eu_requirements_examined": "partial",
+      "application_deadlines_examined": "not_started",
+      "program_level_review": "partial"
+    },
+    "source_ids": [
+      "SRC-UNINA-CHE-2027",
+      "SRC-UNINA-CHE-PROGRAM"
+    ],
+    "last_checked": "2026-11-09",
+    "cycle_facts": {}
+  },
+  {
+    "id": "politecnico-bari",
+    "name": "Politecnico di Bari",
+    "aliases": [
+      "Politecnico di Bari"
+    ],
+    "city": "Bari",
+    "region": "Apulia",
+    "country": "Italy",
+    "official_website": "https://www.poliba.it/",
+    "international_admissions_url": "https://www.poliba.it/en/ammissioni-corsi-di-laurea-di-1deg-livello",
+    "application_portal_url": null,
+    "contact_email": null,
+    "contact_url": "https://www.poliba.it/en/ammissioni-corsi-di-laurea-di-1deg-livello",
+    "cycle_status": "REQUIRES_VERIFICATION",
+    "research_stage": "PARTIALLY_RESEARCHED",
+    "research_summary": "The official admissions page says 2027/28 first-cycle call instructions are expected in February 2027; program inventory is pending.",
+    "coverage": {
+      "official_website_visited": "complete",
+      "international_admissions_page_examined": "partial",
+      "bachelors_admissions_examined": "partial",
+      "masters_admissions_examined": "not_started",
+      "english_programs_examined": "not_started",
+      "fees_examined": "not_started",
+      "scholarships_examined": "not_started",
+      "non_eu_requirements_examined": "partial",
+      "application_deadlines_examined": "partial",
+      "program_level_review": "not_started"
+    },
+    "source_ids": [
+      "SRC-POLIBA-2027"
+    ],
+    "last_checked": "2026-11-09",
+    "cycle_facts": {
+      "bachelor_call": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-POLIBA-2027"
+        ],
+        "notes": "Official page says instructions for 2027/28 first-level calls will be published in February 2027."
+      }
+    }
+  },
+  {
+    "id": "politecnico-milano",
+    "name": "Politecnico di Milano",
+    "aliases": [
+      "Politecnico di Milano"
+    ],
+    "city": "Milan",
+    "region": "Lombardy",
+    "country": "Italy",
+    "official_website": "https://www.polimi.it/",
+    "international_admissions_url": "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/deadlines",
+    "application_portal_url": null,
+    "contact_email": null,
+    "contact_url": "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/deadlines",
+    "cycle_status": "CONFIRMED",
+    "research_stage": "PARTIALLY_RESEARCHED",
+    "research_summary": "Official 2027/28 MSc application windows are published; program-by-program availability and requirements remain to be checked.",
+    "coverage": {
+      "official_website_visited": "complete",
+      "international_admissions_page_examined": "partial",
+      "bachelors_admissions_examined": "not_started",
+      "masters_admissions_examined": "partial",
+      "english_programs_examined": "not_started",
+      "fees_examined": "partial",
+      "scholarships_examined": "not_started",
+      "non_eu_requirements_examined": "partial",
+      "application_deadlines_examined": "partial",
+      "program_level_review": "not_started"
+    },
+    "source_ids": [
+      "SRC-POLIMI-DEADLINES-2027"
+    ],
+    "last_checked": "2026-11-09",
+    "cycle_facts": {
+      "application_windows": {
+        "value": [
+          {
+            "label": "Early bird",
+            "start": "2026-10-01",
+            "end": "2026-12-01",
+            "eligible_group": "Most September 2027 MSc applicants; see study-area rules"
+          },
+          {
+            "label": "Regular",
+            "start": "2027-01-12",
+            "end": "2027-01-28",
+            "eligible_group": "Most September 2027 MSc applicants; see study-area rules"
+          },
+          {
+            "label": "Additional",
+            "start": "2027-03-01",
+            "end": "2027-03-18",
+            "eligible_group": "EEA and eligible non-EEA residents in Italy only"
+          }
+        ],
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-POLIMI-DEADLINES-2027"
+        ],
+        "notes": "Study-area exceptions apply; Architecture/Design has its own section."
+      },
+      "application_fee": {
+        "value": {
+          "early_bird_eur": 50,
+          "standard_eur": 150,
+          "program_limit": 2
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-POLIMI-DEADLINES-2027"
+        ],
+        "notes": null
+      }
+    }
+  },
+  {
+    "id": "politecnico-torino",
+    "name": "Politecnico di Torino",
+    "aliases": [
+      "Politecnico di Torino"
+    ],
+    "city": "Turin",
+    "region": "Piedmont",
+    "country": "Italy",
+    "official_website": "https://www.polito.it/",
+    "international_admissions_url": "https://www.polito.it/en/education/applying-studying-graduating/admissions-and-enrolment/bachelor-s-degree-programmes/calls-for-application-regulations-and-ranking-lists",
+    "application_portal_url": null,
+    "contact_email": null,
+    "contact_url": "https://www.polito.it/en/education/applying-studying-graduating/admissions-and-enrolment/bachelor-s-degree-programmes/calls-for-application-regulations-and-ranking-lists",
+    "cycle_status": "REQUIRES_VERIFICATION",
+    "research_stage": "PARTIALLY_RESEARCHED",
+    "research_summary": "Official bachelor-call page says 2027/28 calls are being finalized; one special joint master call is not representative of the degree catalogue.",
+    "coverage": {
+      "official_website_visited": "complete",
+      "international_admissions_page_examined": "partial",
+      "bachelors_admissions_examined": "partial",
+      "masters_admissions_examined": "not_started",
+      "english_programs_examined": "not_started",
+      "fees_examined": "not_started",
+      "scholarships_examined": "not_started",
+      "non_eu_requirements_examined": "partial",
+      "application_deadlines_examined": "partial",
+      "program_level_review": "not_started"
+    },
+    "source_ids": [
+      "SRC-POLITO-2027"
+    ],
+    "last_checked": "2026-11-09",
+    "cycle_facts": {
+      "bachelor_call": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-POLITO-2027"
+        ],
+        "notes": "Official page says 2027/28 calls are being finalized and will be published soon."
+      }
+    }
+  },
+  {
+    "id": "roma-tre",
+    "name": "Università degli Studi Roma Tre",
+    "aliases": [
+      "Roma Tre"
+    ],
+    "city": "Rome",
+    "region": "Lazio",
+    "country": "Italy",
+    "official_website": "https://www.uniroma3.it/",
+    "international_admissions_url": "https://orientamento.uniroma3.it/en/about-roma-tre/international-students-admissions/",
+    "application_portal_url": null,
+    "contact_email": null,
+    "contact_url": "https://orientamento.uniroma3.it/en/about-roma-tre/international-students-admissions/",
+    "cycle_status": "REQUIRES_VERIFICATION",
+    "research_stage": "PARTIALLY_RESEARCHED",
+    "research_summary": "The official material reviewed covers international admission steps and a 2026/27 guide; 2027/28 degree-level calls remain outstanding.",
+    "coverage": {
+      "official_website_visited": "complete",
+      "international_admissions_page_examined": "partial",
+      "bachelors_admissions_examined": "not_started",
+      "masters_admissions_examined": "not_started",
+      "english_programs_examined": "not_started",
+      "fees_examined": "not_started",
+      "scholarships_examined": "not_started",
+      "non_eu_requirements_examined": "partial",
+      "application_deadlines_examined": "not_started",
+      "program_level_review": "not_started"
+    },
+    "source_ids": [
+      "SRC-ROMATRE-INTL"
+    ],
+    "last_checked": "2026-11-09",
+    "cycle_facts": {}
+  },
+  {
+    "id": "sapienza",
+    "name": "Sapienza Università di Roma",
+    "aliases": [
+      "Sapienza Università di Roma"
+    ],
+    "city": "Rome",
+    "region": "Lazio",
+    "country": "Italy",
+    "official_website": "https://www.uniroma1.it/",
+    "international_admissions_url": "https://www.uniroma1.it/en/pagina/international-admissions",
+    "application_portal_url": null,
+    "contact_email": null,
+    "contact_url": "https://www.uniroma1.it/en/pagina/international-admissions",
+    "cycle_status": "REQUIRES_VERIFICATION",
+    "research_stage": "PARTIALLY_RESEARCHED",
+    "research_summary": "The international admissions material reviewed is still for 2026/27; 2027/28 program-level checks remain outstanding.",
+    "coverage": {
+      "official_website_visited": "complete",
+      "international_admissions_page_examined": "partial",
+      "bachelors_admissions_examined": "not_started",
+      "masters_admissions_examined": "not_started",
+      "english_programs_examined": "not_started",
+      "fees_examined": "not_started",
+      "scholarships_examined": "not_started",
+      "non_eu_requirements_examined": "partial",
+      "application_deadlines_examined": "not_started",
+      "program_level_review": "not_started"
+    },
+    "source_ids": [
+      "SRC-SAPIENZA-INTL"
+    ],
+    "last_checked": "2026-11-09",
+    "cycle_facts": {}
+  },
+  {
+    "id": "tor-vergata",
+    "name": "Università degli Studi di Roma Tor Vergata",
+    "aliases": [
+      "Tor Vergata Roma"
+    ],
+    "city": "Rome",
+    "region": "Lazio",
+    "country": "Italy",
+    "official_website": "https://web.uniroma2.it/",
+    "international_admissions_url": "https://mechatronics.uniroma2.it/how-to-apply-for-mechatronics/admission-a-y-2027-28/",
+    "application_portal_url": null,
+    "contact_email": null,
+    "contact_url": "https://mechatronics.uniroma2.it/how-to-apply-for-mechatronics/admission-a-y-2027-28/",
+    "cycle_status": "CONFIRMED",
+    "research_stage": "PARTIALLY_RESEARCHED",
+    "research_summary": "The Mechatronics Engineering MSc has a detailed official 2027/28 call; the historic Computer Science row remains unverified.",
+    "coverage": {
+      "official_website_visited": "complete",
+      "international_admissions_page_examined": "partial",
+      "bachelors_admissions_examined": "partial",
+      "masters_admissions_examined": "partial",
+      "english_programs_examined": "partial",
+      "fees_examined": "partial",
+      "scholarships_examined": "not_started",
+      "non_eu_requirements_examined": "partial",
+      "application_deadlines_examined": "partial",
+      "program_level_review": "partial"
+    },
+    "source_ids": [
+      "SRC-TORVERGATA-MECH-2027",
+      "SRC-TORVERGATA-MECH-LANGUAGE"
+    ],
+    "last_checked": "2026-11-09",
+    "cycle_facts": {}
+  },
+  {
+    "id": "ca-foscari",
+    "name": "Università Ca' Foscari Venezia",
+    "aliases": [
+      "Università Ca' Foscari Venezia"
+    ],
+    "city": "Venice",
+    "region": "Veneto",
+    "country": "Italy",
+    "official_website": "https://www.unive.it/",
+    "international_admissions_url": "https://www.unive.it/web/en/21001/admission-and-enrolment-with-an-international-qualification",
+    "application_portal_url": null,
+    "contact_email": null,
+    "contact_url": "https://www.unive.it/web/en/21001/admission-and-enrolment-with-an-international-qualification",
+    "cycle_status": "CONFIRMED",
+    "research_stage": "PARTIALLY_RESEARCHED",
+    "research_summary": "Official international qualification page states that 2027/28 applications open in December 2026; exact windows and program calls are pending.",
+    "coverage": {
+      "official_website_visited": "complete",
+      "international_admissions_page_examined": "partial",
+      "bachelors_admissions_examined": "not_started",
+      "masters_admissions_examined": "not_started",
+      "english_programs_examined": "not_started",
+      "fees_examined": "not_started",
+      "scholarships_examined": "not_started",
+      "non_eu_requirements_examined": "partial",
+      "application_deadlines_examined": "partial",
+      "program_level_review": "not_started"
+    },
+    "source_ids": [
+      "SRC-CA-FOSCARI-2027",
+      "SRC-CA-FOSCARI-BUDDHISM-2027",
+      "SRC-CA-FOSCARI-SCHOLARSHIPS-2027"
+    ],
+    "last_checked": "2026-11-09",
+    "cycle_facts": {
+      "application_opening": {
+        "value": "2026-12",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-2027"
+        ],
+        "notes": "Exact 2027/28 application periods were not yet listed."
+      },
+      "application_deadlines": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-2027"
+        ],
+        "notes": null
+      },
+      "honours_scholarships": {
+        "value": {
+          "bachelor_awards": 8,
+          "bachelor_eur_per_year": 10000,
+          "bachelor_years": 3,
+          "master_awards": 20,
+          "master_eur_per_year": 10000,
+          "master_years": 2,
+          "minimum_cgpa_percent": 85,
+          "ranking_factors": [
+            "CGPA",
+            "motivational video",
+            "reference letter(s)",
+            "language certification"
+          ]
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CA-FOSCARI-SCHOLARSHIPS-2027"
+        ],
+        "notes": "The complete 2027/28 call, including deadlines and detailed conditions, was expected in late fall 2026."
+      }
+    }
+  },
+  {
+    "id": "milano-bicocca",
+    "name": "Università degli Studi di Milano-Bicocca",
+    "aliases": [
+      "Università Milano-Bicocca"
+    ],
+    "city": "Milan",
+    "region": "Lombardy",
+    "country": "Italy",
+    "official_website": "https://www.unimib.it/",
+    "international_admissions_url": "https://en.unimib.it/study/information-international-students/access-students-international-qualification",
+    "application_portal_url": null,
+    "contact_email": null,
+    "contact_url": "https://en.unimib.it/study/information-international-students/access-students-international-qualification",
+    "cycle_status": "REQUIRES_VERIFICATION",
+    "research_stage": "PARTIALLY_RESEARCHED",
+    "research_summary": "The international qualifications page describes changes from 2027/28; program calls and dates need review.",
+    "coverage": {
+      "official_website_visited": "complete",
+      "international_admissions_page_examined": "partial",
+      "bachelors_admissions_examined": "not_started",
+      "masters_admissions_examined": "not_started",
+      "english_programs_examined": "not_started",
+      "fees_examined": "not_started",
+      "scholarships_examined": "not_started",
+      "non_eu_requirements_examined": "partial",
+      "application_deadlines_examined": "not_started",
+      "program_level_review": "not_started"
+    },
+    "source_ids": [
+      "SRC-BICOCCA-2027"
+    ],
+    "last_checked": "2026-11-09",
+    "cycle_facts": {}
+  },
+  {
+    "id": "marche",
+    "name": "Università Politecnica delle Marche",
+    "aliases": [
+      "Università Politecnica delle Marche"
+    ],
+    "city": "Ancona",
+    "region": "Marche",
+    "country": "Italy",
+    "official_website": "https://www.univpm.it/",
+    "international_admissions_url": "https://www.international.univpm.it/become-a-student/enrolment/non-eu-students-applying-for-a-visa/",
+    "application_portal_url": null,
+    "contact_email": null,
+    "contact_url": "https://www.international.univpm.it/become-a-student/enrolment/non-eu-students-applying-for-a-visa/",
+    "cycle_status": "REQUIRES_VERIFICATION",
+    "research_stage": "PARTIALLY_RESEARCHED",
+    "research_summary": "The official international site currently centers on 2026/27 admissions; program-level 2027/28 availability and calls remain outstanding.",
+    "coverage": {
+      "official_website_visited": "complete",
+      "international_admissions_page_examined": "partial",
+      "bachelors_admissions_examined": "not_started",
+      "masters_admissions_examined": "not_started",
+      "english_programs_examined": "not_started",
+      "fees_examined": "not_started",
+      "scholarships_examined": "not_started",
+      "non_eu_requirements_examined": "partial",
+      "application_deadlines_examined": "not_started",
+      "program_level_review": "not_started"
+    },
+    "source_ids": [
+      "SRC-UNIVPM-INTL"
+    ],
+    "last_checked": "2026-11-09",
+    "cycle_facts": {}
+  },
+  {
+    "id": "catania",
+    "name": "Università degli Studi di Catania",
+    "aliases": [
+      "Università degli Studi di Catania"
+    ],
+    "city": "Catania",
+    "region": "Sicily",
+    "country": "Italy",
+    "official_website": "https://www.unict.it/",
+    "international_admissions_url": "https://www.unict.it/en/node/5251",
+    "application_portal_url": null,
+    "contact_email": null,
+    "contact_url": "https://www.unict.it/en/node/5251",
+    "cycle_status": "REQUIRES_VERIFICATION",
+    "research_stage": "PARTIALLY_RESEARCHED",
+    "research_summary": "Official international admissions information is general or for earlier cycles; historical programs require cycle-specific verification.",
+    "coverage": {
+      "official_website_visited": "complete",
+      "international_admissions_page_examined": "partial",
+      "bachelors_admissions_examined": "not_started",
+      "masters_admissions_examined": "not_started",
+      "english_programs_examined": "not_started",
+      "fees_examined": "not_started",
+      "scholarships_examined": "not_started",
+      "non_eu_requirements_examined": "partial",
+      "application_deadlines_examined": "not_started",
+      "program_level_review": "not_started"
+    },
+    "source_ids": [
+      "SRC-CATANIA-INTL"
+    ],
+    "last_checked": "2026-11-09",
+    "cycle_facts": {}
+  },
+  {
+    "id": "milano-statale",
+    "name": "Università degli Studi di Milano",
+    "aliases": [
+      "Università degli Studi di Milano"
+    ],
+    "city": "Milan",
+    "region": "Lombardy",
+    "country": "Italy",
+    "official_website": "https://www.unimi.it/",
+    "international_admissions_url": "https://www.unimi.it/en/study/enrolment",
+    "application_portal_url": null,
+    "contact_email": null,
+    "contact_url": "https://www.unimi.it/en/study/enrolment",
+    "cycle_status": "REQUIRES_VERIFICATION",
+    "research_stage": "PARTIALLY_RESEARCHED",
+    "research_summary": "The official enrolment page reviewed describes 2026/27 procedures; 2027/28 program calls need review.",
+    "coverage": {
+      "official_website_visited": "complete",
+      "international_admissions_page_examined": "partial",
+      "bachelors_admissions_examined": "not_started",
+      "masters_admissions_examined": "not_started",
+      "english_programs_examined": "not_started",
+      "fees_examined": "not_started",
+      "scholarships_examined": "not_started",
+      "non_eu_requirements_examined": "partial",
+      "application_deadlines_examined": "not_started",
+      "program_level_review": "not_started"
+    },
+    "source_ids": [
+      "SRC-MILANO-ENROL"
+    ],
+    "last_checked": "2026-11-09",
+    "cycle_facts": {}
+  },
+  {
+    "id": "laquila",
+    "name": "Università degli Studi dell'Aquila",
+    "aliases": [
+      "Università dell'Aquila"
+    ],
+    "city": "L'Aquila",
+    "region": "Abruzzo",
+    "country": "Italy",
+    "official_website": "https://www.univaq.it/",
+    "international_admissions_url": "https://www.univaq.it/en/section.php?id=2065&lang_s=en",
+    "application_portal_url": null,
+    "contact_email": null,
+    "contact_url": "https://www.univaq.it/en/section.php?id=2065&lang_s=en",
+    "cycle_status": "REQUIRES_VERIFICATION",
+    "research_stage": "PARTIALLY_RESEARCHED",
+    "research_summary": "International admissions page identified; cycle-specific program-level calls remain outstanding.",
+    "coverage": {
+      "official_website_visited": "complete",
+      "international_admissions_page_examined": "partial",
+      "bachelors_admissions_examined": "not_started",
+      "masters_admissions_examined": "not_started",
+      "english_programs_examined": "not_started",
+      "fees_examined": "not_started",
+      "scholarships_examined": "not_started",
+      "non_eu_requirements_examined": "partial",
+      "application_deadlines_examined": "not_started",
+      "program_level_review": "not_started"
+    },
+    "source_ids": [
+      "SRC-LAQUILA-INTL"
+    ],
+    "last_checked": "2026-11-09",
+    "cycle_facts": {}
+  },
+  {
+    "id": "insubria",
+    "name": "Università degli Studi dell'Insubria",
+    "aliases": [
+      "Università dell'Insubria"
+    ],
+    "city": "Varese",
+    "region": "Lombardy",
+    "country": "Italy",
+    "official_website": "https://www.uninsubria.it/",
+    "international_admissions_url": "https://www.uninsubria.it/servizi/vivere-insubria/immatricolarsi-e-iscriversi/immatricolazioni/studenti-non-ue-residenti",
+    "application_portal_url": null,
+    "contact_email": null,
+    "contact_url": "https://www.uninsubria.it/servizi/vivere-insubria/immatricolarsi-e-iscriversi/immatricolazioni/studenti-non-ue-residenti",
+    "cycle_status": "REQUIRES_VERIFICATION",
+    "research_stage": "PARTIALLY_RESEARCHED",
+    "research_summary": "The non-EU page reviewed describes the prior cycle; 2027/28 offer and program requirements remain outstanding.",
+    "coverage": {
+      "official_website_visited": "complete",
+      "international_admissions_page_examined": "partial",
+      "bachelors_admissions_examined": "not_started",
+      "masters_admissions_examined": "not_started",
+      "english_programs_examined": "not_started",
+      "fees_examined": "not_started",
+      "scholarships_examined": "not_started",
+      "non_eu_requirements_examined": "partial",
+      "application_deadlines_examined": "not_started",
+      "program_level_review": "not_started"
+    },
+    "source_ids": [
+      "SRC-INSUBRIA-INTL"
+    ],
+    "last_checked": "2026-11-09",
+    "cycle_facts": {}
+  },
+  {
+    "id": "bologna",
+    "name": "Università di Bologna",
+    "aliases": [
+      "Università di Bologna"
+    ],
+    "city": "Bologna",
+    "region": "Emilia-Romagna",
+    "country": "Italy",
+    "official_website": "https://www.unibo.it/",
+    "international_admissions_url": "https://www.unibo.it/en/study/how-to-apply",
+    "application_portal_url": null,
+    "contact_email": null,
+    "contact_url": "https://www.unibo.it/en/study/how-to-apply",
+    "cycle_status": "REQUIRES_VERIFICATION",
+    "research_stage": "PARTIALLY_RESEARCHED",
+    "research_summary": "A 2027/28 call is confirmed for the Erasmus Mundus CLE joint master's degree; broader degree-program calls remain outstanding.",
+    "coverage": {
+      "official_website_visited": "complete",
+      "international_admissions_page_examined": "partial",
+      "bachelors_admissions_examined": "not_started",
+      "masters_admissions_examined": "not_started",
+      "english_programs_examined": "partial",
+      "fees_examined": "not_started",
+      "scholarships_examined": "partial",
+      "non_eu_requirements_examined": "partial",
+      "application_deadlines_examined": "not_started",
+      "program_level_review": "partial"
+    },
+    "source_ids": [
+      "SRC-BOLOGNA-CLE-2027",
+      "SRC-UNIBO-CSE-2027",
+      "SRC-UNIBO-28DIGITAL-2027"
+    ],
+    "last_checked": "2026-11-09",
+    "cycle_facts": {}
+  },
+  {
+    "id": "camerino",
+    "name": "Università di Camerino",
+    "aliases": [
+      "Università di Camerino"
+    ],
+    "city": "Camerino",
+    "region": "Marche",
+    "country": "Italy",
+    "official_website": "https://www.unicam.it/",
+    "international_admissions_url": "https://international.unicam.it/admissions/faq",
+    "application_portal_url": null,
+    "contact_email": null,
+    "contact_url": "https://international.unicam.it/admissions/faq",
+    "cycle_status": "REQUIRES_VERIFICATION",
+    "research_stage": "PARTIALLY_RESEARCHED",
+    "research_summary": "The official admissions material reviewed is for 2026/27 or general guidance; 2027/28 program-level checks remain outstanding.",
+    "coverage": {
+      "official_website_visited": "complete",
+      "international_admissions_page_examined": "partial",
+      "bachelors_admissions_examined": "not_started",
+      "masters_admissions_examined": "not_started",
+      "english_programs_examined": "not_started",
+      "fees_examined": "not_started",
+      "scholarships_examined": "not_started",
+      "non_eu_requirements_examined": "partial",
+      "application_deadlines_examined": "not_started",
+      "program_level_review": "not_started"
+    },
+    "source_ids": [
+      "SRC-CAMERINO-FAQ"
+    ],
+    "last_checked": "2026-11-09",
+    "cycle_facts": {}
+  },
+  {
+    "id": "ferrara",
+    "name": "Università degli Studi di Ferrara",
+    "aliases": [
+      "Università di Ferrara"
+    ],
+    "city": "Ferrara",
+    "region": "Emilia-Romagna",
+    "country": "Italy",
+    "official_website": "https://www.unife.it/",
+    "international_admissions_url": "https://www.unife.it/en/come-to-study/enroll/how-to-enroll/arrival-enrolment/enrol-in-a-post-graduate-course",
+    "application_portal_url": null,
+    "contact_email": null,
+    "contact_url": "https://www.unife.it/en/come-to-study/enroll/how-to-enroll/arrival-enrolment/enrol-in-a-post-graduate-course",
+    "cycle_status": "REQUIRES_VERIFICATION",
+    "research_stage": "PARTIALLY_RESEARCHED",
+    "research_summary": "Official international postgraduate enrollment guidance was identified, but 2027/28 calls and current program availability remain outstanding.",
+    "coverage": {
+      "official_website_visited": "complete",
+      "international_admissions_page_examined": "partial",
+      "bachelors_admissions_examined": "not_started",
+      "masters_admissions_examined": "not_started",
+      "english_programs_examined": "not_started",
+      "fees_examined": "not_started",
+      "scholarships_examined": "not_started",
+      "non_eu_requirements_examined": "partial",
+      "application_deadlines_examined": "not_started",
+      "program_level_review": "not_started"
+    },
+    "source_ids": [
+      "SRC-FERRARA-INTL"
+    ],
+    "last_checked": "2026-11-09",
+    "cycle_facts": {}
+  },
+  {
+    "id": "firenze",
+    "name": "Università degli Studi di Firenze",
+    "aliases": [
+      "Università di Firenze"
+    ],
+    "city": "Florence",
+    "region": "Tuscany",
+    "country": "Italy",
+    "official_website": "https://www.unifi.it/",
+    "international_admissions_url": "https://www.sst.unifi.it/index.php?func=viewpage&module=CMpro&newlang=eng&pageid=168",
+    "application_portal_url": null,
+    "contact_email": null,
+    "contact_url": "https://www.sst.unifi.it/index.php?func=viewpage&module=CMpro&newlang=eng&pageid=168",
+    "cycle_status": "CONFIRMED",
+    "research_stage": "PARTIALLY_RESEARCHED",
+    "research_summary": "The Software: Science and Technology MSc page gives specific 2027/28 admission requirements; the other historical programs still need verification.",
+    "coverage": {
+      "official_website_visited": "complete",
+      "international_admissions_page_examined": "partial",
+      "bachelors_admissions_examined": "partial",
+      "masters_admissions_examined": "partial",
+      "english_programs_examined": "partial",
+      "fees_examined": "not_started",
+      "scholarships_examined": "not_started",
+      "non_eu_requirements_examined": "partial",
+      "application_deadlines_examined": "partial",
+      "program_level_review": "partial"
+    },
+    "source_ids": [
+      "SRC-UNIFI-SST-2027",
+      "SRC-UNIFI-SST-LANGUAGE",
+      "SRC-UNIFI-INTL"
+    ],
+    "last_checked": "2026-11-09",
+    "cycle_facts": {}
+  },
+  {
+    "id": "genova",
+    "name": "Università degli Studi di Genova",
+    "aliases": [
+      "Università di Genova"
+    ],
+    "city": "Genoa",
+    "region": "Liguria",
+    "country": "Italy",
+    "official_website": "https://unige.it/en",
+    "international_admissions_url": "https://unige.it/en/international-enrolment",
+    "application_portal_url": null,
+    "contact_email": null,
+    "contact_url": "https://unige.it/en/international-enrolment",
+    "cycle_status": "REQUIRES_VERIFICATION",
+    "research_stage": "PARTIALLY_RESEARCHED",
+    "research_summary": "2027/28 visa preselection is expected mid-December 2026 to end-March 2027, but exact dates are pending; €30 fee covers up to two assessments.",
+    "coverage": {
+      "official_website_visited": "complete",
+      "international_admissions_page_examined": "partial",
+      "bachelors_admissions_examined": "not_started",
+      "masters_admissions_examined": "partial",
+      "english_programs_examined": "partial",
+      "fees_examined": "partial",
+      "scholarships_examined": "not_started",
+      "non_eu_requirements_examined": "partial",
+      "application_deadlines_examined": "partial",
+      "program_level_review": "not_started"
+    },
+    "source_ids": [
+      "SRC-UNIGE-2027"
+    ],
+    "last_checked": "2026-11-09",
+    "cycle_facts": {
+      "application_windows": {
+        "value": [
+          {
+            "label": "Visa preselection (expected)",
+            "start": "2026-12-15",
+            "end": "2027-03-31",
+            "eligible_group": "Non-EU visa applicants",
+            "exact_dates": false
+          }
+        ],
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-UNIGE-2027"
+        ],
+        "notes": "The page labels these dates expected; exact opening and closing dates were not yet published."
+      },
+      "application_fee": {
+        "value": {
+          "amount_eur": 30,
+          "maximum_assessment_applications": 2
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIGE-2027"
+        ],
+        "notes": null
+      }
+    }
+  },
+  {
+    "id": "messina",
+    "name": "Università degli Studi di Messina",
+    "aliases": [
+      "Università di Messina"
+    ],
+    "city": "Messina",
+    "region": "Sicily",
+    "country": "Italy",
+    "official_website": "https://international.unime.it/",
+    "international_admissions_url": "https://international.unime.it/study-us/application-and-admission",
+    "application_portal_url": null,
+    "contact_email": null,
+    "contact_url": "https://international.unime.it/study-us/application-and-admission",
+    "cycle_status": "CONFIRMED",
+    "research_stage": "PARTIALLY_RESEARCHED",
+    "research_summary": "Official 2027/28 international calls publish multiple application windows and a €40 fee for up to two applications; program-specific eligibility remains to be checked.",
+    "coverage": {
+      "official_website_visited": "complete",
+      "international_admissions_page_examined": "partial",
+      "bachelors_admissions_examined": "not_started",
+      "masters_admissions_examined": "partial",
+      "english_programs_examined": "not_started",
+      "fees_examined": "partial",
+      "scholarships_examined": "partial",
+      "non_eu_requirements_examined": "partial",
+      "application_deadlines_examined": "partial",
+      "program_level_review": "not_started"
+    },
+    "source_ids": [
+      "SRC-UNIME-2027"
+    ],
+    "last_checked": "2026-11-09",
+    "cycle_facts": {
+      "application_windows": {
+        "value": [
+          {
+            "label": "Early Bird visa applicants",
+            "start": "2026-12-01",
+            "end": "2026-12-20",
+            "eligible_group": "Non-EU study-visa applicants with final documents"
+          },
+          {
+            "label": "Second call",
+            "start": "2027-02-02",
+            "end": "2027-03-19",
+            "eligible_group": "Visa applicants"
+          },
+          {
+            "label": "Third call",
+            "start": "2027-04-08",
+            "end": "2027-05-08",
+            "eligible_group": "Visa applicants"
+          },
+          {
+            "label": "Semestre Aperto",
+            "start": "2027-05-18",
+            "end": "2027-06-15",
+            "eligible_group": "Selected single-cycle degree programs"
+          },
+          {
+            "label": "Medicine and Surgery (IMAT)",
+            "start": "2027-07-01",
+            "end": "2027-07-22",
+            "eligible_group": "English Medicine applicants"
+          },
+          {
+            "label": "Non-visa applicants",
+            "start": "2027-07-06",
+            "end": "2027-11-13",
+            "eligible_group": "Applicants who do not need a study visa"
+          }
+        ],
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIME-2027"
+        ],
+        "notes": "Program and applicant-category rules differ; use the live official call before applying."
+      },
+      "application_fee": {
+        "value": {
+          "amount_eur": 40,
+          "maximum_applications": 2,
+          "refundable": false
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIME-2027"
+        ],
+        "notes": null
+      }
+    }
+  },
+  {
+    "id": "modena-reggio",
+    "name": "Università degli Studi di Modena e Reggio Emilia",
+    "aliases": [
+      "Università di Modena e Reggio Emilia"
+    ],
+    "city": "Modena",
+    "region": "Emilia-Romagna",
+    "country": "Italy",
+    "official_website": "https://www.unimore.it/",
+    "international_admissions_url": "https://www.unimore.it/en/internationalisation/foreign-qualification",
+    "application_portal_url": null,
+    "contact_email": null,
+    "contact_url": "https://www.unimore.it/en/internationalisation/foreign-qualification",
+    "cycle_status": "REQUIRES_VERIFICATION",
+    "research_stage": "PARTIALLY_RESEARCHED",
+    "research_summary": "Official international-qualification guidance explains the degree-specific call process; individual 2027/28 calls require further review.",
+    "coverage": {
+      "official_website_visited": "complete",
+      "international_admissions_page_examined": "partial",
+      "bachelors_admissions_examined": "not_started",
+      "masters_admissions_examined": "not_started",
+      "english_programs_examined": "not_started",
+      "fees_examined": "not_started",
+      "scholarships_examined": "not_started",
+      "non_eu_requirements_examined": "partial",
+      "application_deadlines_examined": "not_started",
+      "program_level_review": "not_started"
+    },
+    "source_ids": [
+      "SRC-UNIMORE-INTL"
+    ],
+    "last_checked": "2026-11-09",
+    "cycle_facts": {}
+  },
+  {
+    "id": "padova",
+    "name": "Università degli Studi di Padova",
+    "aliases": [
+      "Università di Padova"
+    ],
+    "city": "Padua",
+    "region": "Veneto",
+    "country": "Italy",
+    "official_website": "https://www.unipd.it/en/",
+    "international_admissions_url": "https://www.unipd.it/en/ammissione-studenti-internazionali",
+    "application_portal_url": null,
+    "contact_email": null,
+    "contact_url": "https://www.unipd.it/en/ammissione-studenti-internazionali",
+    "cycle_status": "CONFIRMED",
+    "research_stage": "PARTIALLY_RESEARCHED",
+    "research_summary": "The 2027/28 international application calls are published; seven program listings on the source page have been verified, while the historic entries remain under review.",
+    "coverage": {
+      "official_website_visited": "complete",
+      "international_admissions_page_examined": "partial",
+      "bachelors_admissions_examined": "partial",
+      "masters_admissions_examined": "partial",
+      "english_programs_examined": "partial",
+      "fees_examined": "not_started",
+      "scholarships_examined": "not_started",
+      "non_eu_requirements_examined": "partial",
+      "application_deadlines_examined": "partial",
+      "program_level_review": "partial"
+    },
+    "source_ids": [
+      "SRC-PADUA-INTL-2027",
+      "SRC-PADUA-PROGRAMS-2027"
+    ],
+    "last_checked": "2026-11-09",
+    "cycle_facts": {
+      "application_windows": {
+        "value": [
+          {
+            "label": "Call 1",
+            "start": "2026-09-15",
+            "end": "2026-11-15",
+            "eligible_group": "Most degree programs; check individual course call"
+          },
+          {
+            "label": "Call 2",
+            "start": "2026-12-01",
+            "end": "2027-03-01",
+            "eligible_group": "Most degree programs; check individual course call"
+          },
+          {
+            "label": "Call 3",
+            "start": "2027-04-01",
+            "end": "2027-06-01",
+            "eligible_group": "EU and non-EU applicants residing in Italy only"
+          }
+        ],
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADUA-INTL-2027"
+        ],
+        "notes": "The general page says the first call applies to most degree programs; individual programs may differ."
+      }
+    }
+  },
+  {
+    "id": "palermo",
+    "name": "Università degli Studi di Palermo",
+    "aliases": [
+      "Università di Palermo"
+    ],
+    "city": "Palermo",
+    "region": "Sicily",
+    "country": "Italy",
+    "official_website": "https://www.unipa.it/",
+    "international_admissions_url": "https://www.unipa.it/mobilita/en/useful-information/faq-international-students/faq-international-students-p2/before-applying/index.html",
+    "application_portal_url": null,
+    "contact_email": null,
+    "contact_url": "https://www.unipa.it/mobilita/en/useful-information/faq-international-students/faq-international-students-p2/before-applying/index.html",
+    "cycle_status": "NOT_YET_PUBLISHED",
+    "research_stage": "PARTIALLY_RESEARCHED",
+    "research_summary": "Official FAQ explicitly says exact 2027/28 application dates have not yet been published.",
+    "coverage": {
+      "official_website_visited": "complete",
+      "international_admissions_page_examined": "partial",
+      "bachelors_admissions_examined": "not_started",
+      "masters_admissions_examined": "not_started",
+      "english_programs_examined": "not_started",
+      "fees_examined": "not_started",
+      "scholarships_examined": "not_started",
+      "non_eu_requirements_examined": "partial",
+      "application_deadlines_examined": "partial",
+      "program_level_review": "not_started"
+    },
+    "source_ids": [
+      "SRC-PALERMO-2027"
+    ],
+    "last_checked": "2026-11-09",
+    "cycle_facts": {
+      "application_deadlines": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-PALERMO-2027"
+        ],
+        "notes": "The official FAQ explicitly says exact 2027/28 dates have not yet been published."
+      }
+    }
+  },
+  {
+    "id": "parma",
+    "name": "Università degli Studi di Parma",
+    "aliases": [
+      "Università di Parma"
+    ],
+    "city": "Parma",
+    "region": "Emilia-Romagna",
+    "country": "Italy",
+    "official_website": "https://www.unipr.it/en",
+    "international_admissions_url": "https://www.unipr.it/en/node/106538",
+    "application_portal_url": null,
+    "contact_email": null,
+    "contact_url": "https://www.unipr.it/en/node/106538",
+    "cycle_status": "NOT_YET_PUBLISHED",
+    "research_stage": "PARTIALLY_RESEARCHED",
+    "research_summary": "Official 2027/28 page asks international students to register interest and says admissions procedures will be communicated when available.",
+    "coverage": {
+      "official_website_visited": "complete",
+      "international_admissions_page_examined": "partial",
+      "bachelors_admissions_examined": "not_started",
+      "masters_admissions_examined": "not_started",
+      "english_programs_examined": "not_started",
+      "fees_examined": "not_started",
+      "scholarships_examined": "not_started",
+      "non_eu_requirements_examined": "partial",
+      "application_deadlines_examined": "partial",
+      "program_level_review": "not_started"
+    },
+    "source_ids": [
+      "SRC-PARMA-2027"
+    ],
+    "last_checked": "2026-11-09",
+    "cycle_facts": {
+      "application_procedure": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-PARMA-2027"
+        ],
+        "notes": "The official page says application procedures will be communicated when available."
+      }
+    }
+  },
+  {
+    "id": "pavia",
+    "name": "Università degli Studi di Pavia",
+    "aliases": [
+      "Università di Pavia"
+    ],
+    "city": "Pavia",
+    "region": "Lombardy",
+    "country": "Italy",
+    "official_website": "https://www.unipv.eu/",
+    "international_admissions_url": "https://webing.unipv.eu/home/international/international-applications/",
+    "application_portal_url": null,
+    "contact_email": null,
+    "contact_url": "https://webing.unipv.eu/home/international/international-applications/",
+    "cycle_status": "REQUIRES_VERIFICATION",
+    "research_stage": "PARTIALLY_RESEARCHED",
+    "research_summary": "Official engineering-faculty international application guidance was examined; the full 2027/28 catalog and calls need review.",
+    "coverage": {
+      "official_website_visited": "complete",
+      "international_admissions_page_examined": "partial",
+      "bachelors_admissions_examined": "not_started",
+      "masters_admissions_examined": "not_started",
+      "english_programs_examined": "not_started",
+      "fees_examined": "not_started",
+      "scholarships_examined": "not_started",
+      "non_eu_requirements_examined": "partial",
+      "application_deadlines_examined": "not_started",
+      "program_level_review": "not_started"
+    },
+    "source_ids": [
+      "SRC-PAVIA-ENG-INTL"
+    ],
+    "last_checked": "2026-11-09",
+    "cycle_facts": {}
+  },
+  {
+    "id": "perugia",
+    "name": "Università degli Studi di Perugia",
+    "aliases": [
+      "Università di Perugia"
+    ],
+    "city": "Perugia",
+    "region": "Umbria",
+    "country": "Italy",
+    "official_website": "https://www.unipg.it/",
+    "international_admissions_url": "https://www.unipg.it/en/international-students/becoming-a-unipg-student",
+    "application_portal_url": null,
+    "contact_email": null,
+    "contact_url": "https://www.unipg.it/en/international-students/becoming-a-unipg-student",
+    "cycle_status": "REQUIRES_VERIFICATION",
+    "research_stage": "PARTIALLY_RESEARCHED",
+    "research_summary": "The official page reviewed still contains 2026 visa procedures; 2027/28 program-level requirements and deadlines remain outstanding.",
+    "coverage": {
+      "official_website_visited": "complete",
+      "international_admissions_page_examined": "partial",
+      "bachelors_admissions_examined": "not_started",
+      "masters_admissions_examined": "not_started",
+      "english_programs_examined": "not_started",
+      "fees_examined": "not_started",
+      "scholarships_examined": "not_started",
+      "non_eu_requirements_examined": "partial",
+      "application_deadlines_examined": "not_started",
+      "program_level_review": "not_started"
+    },
+    "source_ids": [
+      "SRC-UNIPG-INTL"
+    ],
+    "last_checked": "2026-11-09",
+    "cycle_facts": {}
+  },
+  {
+    "id": "pisa",
+    "name": "Università di Pisa",
+    "aliases": [
+      "Università di Pisa"
+    ],
+    "city": "Pisa",
+    "region": "Tuscany",
+    "country": "Italy",
+    "official_website": "https://www.unipi.it/",
+    "international_admissions_url": "https://didattica.di.unipi.it/en/internazionale/degrees-offered-in-english/",
+    "application_portal_url": null,
+    "contact_email": null,
+    "contact_url": "https://didattica.di.unipi.it/en/internazionale/degrees-offered-in-english/",
+    "cycle_status": "CONFIRMED",
+    "research_stage": "PARTIALLY_RESEARCHED",
+    "research_summary": "A department call for three English-taught MSc programs publishes 2027/28 eligibility, dates and a €30 application fee; this does not verify all University of Pisa programs.",
+    "coverage": {
+      "official_website_visited": "complete",
+      "international_admissions_page_examined": "partial",
+      "bachelors_admissions_examined": "not_started",
+      "masters_admissions_examined": "partial",
+      "english_programs_examined": "partial",
+      "fees_examined": "partial",
+      "scholarships_examined": "partial",
+      "non_eu_requirements_examined": "partial",
+      "application_deadlines_examined": "partial",
+      "program_level_review": "partial"
+    },
+    "source_ids": [
+      "SRC-PISA-CALL-2027",
+      "SRC-PISA-CS",
+      "SRC-PISA-DSBI",
+      "SRC-PISA-DH",
+      "SRC-UNIPI-ENGLISH"
+    ],
+    "last_checked": "2026-11-09",
+    "cycle_facts": {
+      "application_windows": {
+        "value": [
+          {
+            "label": "Non-EU abroad department call",
+            "start": null,
+            "end": "2027-02-01",
+            "eligible_group": "Non-EU applicants residing abroad to the three named English MSc programs",
+            "timezone": "Anywhere on Earth"
+          }
+        ],
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PISA-CALL-2027"
+        ],
+        "notes": "Call result date is 2027-03-01. This is a department call, not the entire university offer."
+      },
+      "application_fee": {
+        "value": {
+          "amount_eur": 30,
+          "per": "application",
+          "maximum_applications": 2
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PISA-CALL-2027"
+        ],
+        "notes": null
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-PISA-CALL-2027"
+        ],
+        "notes": "The call says annual fees are usually published in June; the listed 2026/27 range is not carried forward."
+      }
+    }
+  },
+  {
+    "id": "salerno",
+    "name": "Università degli Studi di Salerno",
+    "aliases": [
+      "Università di Salerno"
+    ],
+    "city": "Fisciano",
+    "region": "Campania",
+    "country": "Italy",
+    "official_website": "https://www.unisa.it/",
+    "international_admissions_url": "https://web.unisa.it/en/teaching/enrollment/non-eu-citizens-abroad",
+    "application_portal_url": null,
+    "contact_email": null,
+    "contact_url": "https://web.unisa.it/en/teaching/enrollment/non-eu-citizens-abroad",
+    "cycle_status": "REQUIRES_VERIFICATION",
+    "research_stage": "PARTIALLY_RESEARCHED",
+    "research_summary": "The official non-EU guidance reviewed is not a cycle-specific 2027/28 call; program checks remain outstanding.",
+    "coverage": {
+      "official_website_visited": "complete",
+      "international_admissions_page_examined": "partial",
+      "bachelors_admissions_examined": "not_started",
+      "masters_admissions_examined": "not_started",
+      "english_programs_examined": "not_started",
+      "fees_examined": "not_started",
+      "scholarships_examined": "not_started",
+      "non_eu_requirements_examined": "partial",
+      "application_deadlines_examined": "not_started",
+      "program_level_review": "not_started"
+    },
+    "source_ids": [
+      "SRC-SALERNO-INTL"
+    ],
+    "last_checked": "2026-11-09",
+    "cycle_facts": {}
+  },
+  {
+    "id": "siena",
+    "name": "Università degli Studi di Siena",
+    "aliases": [
+      "Università di Siena"
+    ],
+    "city": "Siena",
+    "region": "Tuscany",
+    "country": "Italy",
+    "official_website": "https://www.unisi.it/",
+    "international_admissions_url": "https://admission.unisi.it/",
+    "application_portal_url": null,
+    "contact_email": null,
+    "contact_url": "https://admission.unisi.it/",
+    "cycle_status": "NOT_YET_PUBLISHED",
+    "research_stage": "PARTIALLY_RESEARCHED",
+    "research_summary": "The official portal says 2027/28 intake opens in November 2026; exact application deadlines and course-specific calls are not published yet.",
+    "coverage": {
+      "official_website_visited": "complete",
+      "international_admissions_page_examined": "partial",
+      "bachelors_admissions_examined": "not_started",
+      "masters_admissions_examined": "not_started",
+      "english_programs_examined": "not_started",
+      "fees_examined": "not_started",
+      "scholarships_examined": "not_started",
+      "non_eu_requirements_examined": "partial",
+      "application_deadlines_examined": "partial",
+      "program_level_review": "not_started"
+    },
+    "source_ids": [
+      "SRC-SIENA-2027"
+    ],
+    "last_checked": "2026-11-09",
+    "cycle_facts": {
+      "application_opening": {
+        "value": "2026-11",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-SIENA-2027"
+        ],
+        "notes": "The portal announces a November 2026 opening; precise dates are not yet listed."
+      },
+      "application_deadlines": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-SIENA-2027"
+        ],
+        "notes": null
+      }
+    }
+  },
+  {
+    "id": "torino",
+    "name": "Università degli Studi di Torino",
+    "aliases": [
+      "Università di Torino"
+    ],
+    "city": "Turin",
+    "region": "Piedmont",
+    "country": "Italy",
+    "official_website": "https://www.unito.it/",
+    "international_admissions_url": "https://www.en.unito.it/studying-unito/international-degree-seeking-students/application-international-students",
+    "application_portal_url": null,
+    "contact_email": null,
+    "contact_url": "https://www.en.unito.it/studying-unito/international-degree-seeking-students/application-international-students",
+    "cycle_status": "REQUIRES_VERIFICATION",
+    "research_stage": "PARTIALLY_RESEARCHED",
+    "research_summary": "The international application page reviewed is for 2026/27; 2027/28 course inventory, fees and deadlines need review.",
+    "coverage": {
+      "official_website_visited": "complete",
+      "international_admissions_page_examined": "partial",
+      "bachelors_admissions_examined": "not_started",
+      "masters_admissions_examined": "not_started",
+      "english_programs_examined": "not_started",
+      "fees_examined": "not_started",
+      "scholarships_examined": "not_started",
+      "non_eu_requirements_examined": "partial",
+      "application_deadlines_examined": "not_started",
+      "program_level_review": "not_started"
+    },
+    "source_ids": [
+      "SRC-UNITO-INTL"
+    ],
+    "last_checked": "2026-11-09",
+    "cycle_facts": {}
+  },
+  {
+    "id": "trento",
+    "name": "Università degli Studi di Trento",
+    "aliases": [
+      "Università di Trento"
+    ],
+    "city": "Trento",
+    "region": "Trentino-Alto Adige",
+    "country": "Italy",
+    "official_website": "https://www.unitn.it/en",
+    "international_admissions_url": "https://www.unitn.it/en/international/coming-unitrento/admission-how-it-works",
+    "application_portal_url": null,
+    "contact_email": null,
+    "contact_url": "https://www.unitn.it/en/international/coming-unitrento/admission-how-it-works",
+    "cycle_status": "REQUIRES_VERIFICATION",
+    "research_stage": "PARTIALLY_RESEARCHED",
+    "research_summary": "The general page describes typical December-to-March rounds; specific 2027/28 calls need individual review. A special RIT first-cycle opportunity is cycle-specific.",
+    "coverage": {
+      "official_website_visited": "complete",
+      "international_admissions_page_examined": "partial",
+      "bachelors_admissions_examined": "not_started",
+      "masters_admissions_examined": "not_started",
+      "english_programs_examined": "not_started",
+      "fees_examined": "partial",
+      "scholarships_examined": "partial",
+      "non_eu_requirements_examined": "partial",
+      "application_deadlines_examined": "not_started",
+      "program_level_review": "not_started"
+    },
+    "source_ids": [
+      "SRC-UNITN-INTL"
+    ],
+    "last_checked": "2026-11-09",
+    "cycle_facts": {}
+  },
+  {
+    "id": "trieste",
+    "name": "Università degli Studi di Trieste",
+    "aliases": [
+      "Università di Trieste"
+    ],
+    "city": "Trieste",
+    "region": "Friuli-Venezia Giulia",
+    "country": "Italy",
+    "official_website": "https://portale.units.it/en",
+    "international_admissions_url": "https://portale.units.it/en/study/application",
+    "application_portal_url": null,
+    "contact_email": null,
+    "contact_url": "https://portale.units.it/en/study/application",
+    "cycle_status": "REQUIRES_VERIFICATION",
+    "research_stage": "PARTIALLY_RESEARCHED",
+    "research_summary": "The application page is general; 2027/28 program calls, fees and dates remain outstanding.",
+    "coverage": {
+      "official_website_visited": "complete",
+      "international_admissions_page_examined": "partial",
+      "bachelors_admissions_examined": "not_started",
+      "masters_admissions_examined": "not_started",
+      "english_programs_examined": "not_started",
+      "fees_examined": "not_started",
+      "scholarships_examined": "not_started",
+      "non_eu_requirements_examined": "partial",
+      "application_deadlines_examined": "not_started",
+      "program_level_review": "not_started"
+    },
+    "source_ids": [
+      "SRC-TRIESTE-APPLY"
+    ],
+    "last_checked": "2026-11-09",
+    "cycle_facts": {}
+  },
+  {
+    "id": "udine",
+    "name": "Università degli Studi di Udine",
+    "aliases": [
+      "Università di Udine"
+    ],
+    "city": "Udine",
+    "region": "Friuli-Venezia Giulia",
+    "country": "Italy",
+    "official_website": "https://www.uniud.it/en",
+    "international_admissions_url": "https://www.uniud.it/en/education/info-for/how-to-apply/how-to-apply?set_language=en",
+    "application_portal_url": null,
+    "contact_email": null,
+    "contact_url": "https://www.uniud.it/en/education/info-for/how-to-apply/how-to-apply?set_language=en",
+    "cycle_status": "REQUIRES_VERIFICATION",
+    "research_stage": "PARTIALLY_RESEARCHED",
+    "research_summary": "The official page says detailed yearly rules are published in the June Prospectus; 2027/28 program availability and calls remain outstanding.",
+    "coverage": {
+      "official_website_visited": "complete",
+      "international_admissions_page_examined": "partial",
+      "bachelors_admissions_examined": "not_started",
+      "masters_admissions_examined": "not_started",
+      "english_programs_examined": "not_started",
+      "fees_examined": "not_started",
+      "scholarships_examined": "not_started",
+      "non_eu_requirements_examined": "partial",
+      "application_deadlines_examined": "not_started",
+      "program_level_review": "not_started"
+    },
+    "source_ids": [
+      "SRC-UDINE-APPLY"
+    ],
+    "last_checked": "2026-11-09",
+    "cycle_facts": {}
+  },
+  {
+    "id": "verona",
+    "name": "Università degli Studi di Verona",
+    "aliases": [
+      "Università di Verona"
+    ],
+    "city": "Verona",
+    "region": "Veneto",
+    "country": "Italy",
+    "official_website": "https://www.univr.it/en/",
+    "international_admissions_url": "https://www.univr.it/en/our-services/international-degree-seeking-students",
+    "application_portal_url": null,
+    "contact_email": null,
+    "contact_url": "https://www.univr.it/en/our-services/international-degree-seeking-students",
+    "cycle_status": "REQUIRES_VERIFICATION",
+    "research_stage": "PARTIALLY_RESEARCHED",
+    "research_summary": "The reviewed official page gives 2026/27 international MSc application information; 2027/28 programs and calls remain outstanding.",
+    "coverage": {
+      "official_website_visited": "complete",
+      "international_admissions_page_examined": "partial",
+      "bachelors_admissions_examined": "not_started",
+      "masters_admissions_examined": "not_started",
+      "english_programs_examined": "not_started",
+      "fees_examined": "not_started",
+      "scholarships_examined": "not_started",
+      "non_eu_requirements_examined": "partial",
+      "application_deadlines_examined": "not_started",
+      "program_level_review": "not_started"
+    },
+    "source_ids": [
+      "SRC-VERONA-INTL"
+    ],
+    "last_checked": "2026-11-09",
+    "cycle_facts": {}
+  }
+]
