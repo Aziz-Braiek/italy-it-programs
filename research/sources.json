@@ -1436,10 +1436,126 @@
     "source_type": "Official faculty admissions page",
     "accessed_at": "2026-11-09",
     "cycle": "general",
-    "evidence": "Describes evaluation of foreign applications to English-taught engineering master's programs; faculty-specific, not the full 2027/28 university catalog.",
+    "evidence": "For foreign applicants to English-taught engineering master's programs, the teaching committee evaluates the academic career and may require a test (usually in September); non-EU applicants need a visa/pre-enrolment, and Computer Engineering applicants must accept an offer. The faculty says it accepts a limited number of non-student applicants per course and gives priority to applicants who accept offers. General faculty guidance; no course-specific 2027/28 call.",
     "supports": [
       "university.general_admissions",
-      "university.master_entry"
+      "university.master_entry",
+      "university.non_eu_process",
+      "program.admissions_route"
+    ]
+  },
+  {
+    "id": "SRC-PAVIA-MASTERS-2027",
+    "university_id": "pavia",
+    "title": "How to apply to Master’s degree programs – 2027/28 calendar",
+    "url": "https://en.unipv.it/en/education/bachelors-and-masters-degree-programs/how-apply/how-apply-masters-degree-programs",
+    "source_type": "Official Master’s application calendar",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "For non-restricted-access Master’s programs, the 2027/28 application windows are 12–18 Nov 2026, 12–20 Jan 2027, 12–22 Mar 2027, 6–12 Jun 2027, and 1–8 Sep 2027. In March and June, non-EU applicants abroad may apply only if spots remain; the September window is for EU and non-EU residents in Italy. The application fee is €35. Restricted-access programs have their own calls and schedules; check the program category and portal listing. These university-wide rules do not confirm Computer Engineering’s 2027/28 intake or category.",
+    "supports": [
+      "university.application_windows",
+      "university.application_fee",
+      "university.masters_admissions"
+    ]
+  },
+  {
+    "id": "SRC-PAVIA-CE-PROFILE-2026",
+    "university_id": "pavia",
+    "title": "Computer Engineering – official course profile and 2026/27 plan",
+    "url": "https://en.unipv.it/en/education/bachelors-and-masters-degree-programs/second-cycle-degree-course/computer-engineering",
+    "source_type": "Official degree profile",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "Lists Computer Engineering as a second-cycle degree, two years, taught entirely in English, LM-32 Computer Systems Engineering, Engineering area, Pavia, and free access. The linked study plan is explicitly for enrollment year 2026/27; this is prior-cycle course evidence and does not establish a 2027/28 first-year intake.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_language",
+      "program.previous_cycle_access_type"
+    ]
+  },
+  {
+    "id": "SRC-PAVIA-CE-REGULATIONS-2026",
+    "university_id": "pavia",
+    "title": "Computer Engineering course regulations 2026/27",
+    "url": "https://gestionedidattica.unipv.it/index.php/file/2026REGDIDEN06431.pdf",
+    "source_type": "Official course regulations PDF",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 regulations require a recognized qualifying degree, at least 36 basic and 45 specific advanced CFU (81 total across listed subject areas), English at B2, and suitable engineering preparation. The preparation may be assessed in sessions in September–October or January–February; some applicants can be exempt from the assessment based on marks. Foreign qualifications are evaluated case by case. These criteria and dates are prior-cycle regulations, not confirmed 2027/28 conditions.",
+    "supports": [
+      "program.previous_cycle_program_requirements",
+      "program.previous_cycle_english_requirement",
+      "program.previous_cycle_assessment"
+    ]
+  },
+  {
+    "id": "SRC-PAVIA-FEES-2026",
+    "university_id": "pavia",
+    "title": "Non-EU prospective students – 2026/27 fees",
+    "url": "https://en.unipv.it/en/education/bachelors-and-masters-degree-programs/fees-and-funding/fees/prospective-students/non-eu-students",
+    "source_type": "Official fees guidance",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "For 2026/27, non-EU students can use a citizenship- and study-area-based flat rate of €390–€4,550 per year without financial documents, or submit financial documents for family-income-based fees. Applicants seeking EDiSU benefits must use the income-based route. The page links the 2026/27 fee table; no 2027/28 amounts are stated.",
+    "supports": [
+      "university.previous_cycle_tuition",
+      "university.non_eu_fees"
+    ]
+  },
+  {
+    "id": "SRC-PAVIA-FLAT-RATE-2026",
+    "university_id": "pavia",
+    "title": "Flat-rate tuition brackets 2026/27",
+    "url": "https://en.unipv.it/sites/sten/files/2026-05/Fla%20Rate%20brackets%20a.y.%202026-27.pdf",
+    "source_type": "Official fee schedule PDF",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "For the 2026/27 non-EU flat-rate schedule, the science-area annual amounts are €390, €1,520, or €4,550 for country brackets 1, 2, and 3. Computer Engineering is in the Engineering area. Country bracket and fee-area classification determine the applicable amount; these are not 2027/28 tuition values.",
+    "supports": [
+      "program.previous_cycle_tuition"
+    ]
+  },
+  {
+    "id": "SRC-PAVIA-EDISU-2026",
+    "university_id": "pavia",
+    "title": "EDiSU ordinary scholarship call 2026/27",
+    "url": "https://www.edisu.pv.it/en/services/call-for-ordinary-scholarship/",
+    "source_type": "Official regional scholarship call",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The annual 2026/27 call was open to Italian, EU and foreign students, including incoming applicants who intended to apply to Pavia; eligibility depended on income and merit, and funding determined which eligible students became beneficiaries. The 15 September 2026 deadline has passed. Amounts vary by income/geographic status; the official call gives up to €8,248 including a daily meal for eligible off-site students, with different structures for EDiSU college residents. This is regional, not Computer Engineering-specific, and does not establish a 2027/28 award.",
+    "supports": [
+      "program.previous_cycle_scholarships",
+      "university.previous_cycle_scholarships"
+    ]
+  },
+  {
+    "id": "SRC-PAVIA-FINANCIAL-SUPPORT-2026",
+    "university_id": "pavia",
+    "title": "Financial support for international students",
+    "url": "https://en.unipv.it/it/node/1170",
+    "source_type": "Official university financial support page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The page describes annual EDiSU calls with possible accommodation, one meal per day and an income-based cash amount; it lists the 2026/27 call deadlines and names separate subject scholarships for Civil Engineering for Mitigation of Risk and Environmental Engineering REACH, not Computer Engineering. No dedicated Computer Engineering scholarship is identified on this page; no 2027/28 award is inferred.",
+    "supports": [
+      "program.previous_cycle_scholarships",
+      "program.previous_cycle_scholarship_exclusions"
+    ]
+  },
+  {
+    "id": "SRC-PAVIA-EXEMPTIONS-2026",
+    "university_id": "pavia",
+    "title": "Tuition exemptions and incentives 2026/27",
+    "url": "https://en.unipv.it/en/education/bachelors-and-masters-degree-programs/fees-and-funding/fees/exemptions-and-incentives",
+    "source_type": "Official fee exemption and incentive guidance",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "For 2026/27, EDiSU scholarship beneficiaries and eligible non-beneficiaries receive automatic exemption from the all-inclusive tuition fee; equivalent ISEE up to €32,000 also qualifies for full all-inclusive-fee exemption. The page lists a €450 incentive under 2025/26 rules for selected classes including LM-32, but that prior-year award is not a 2026/27 or 2027/28 promise. No 2027/28 rules are stated.",
+    "supports": [
+      "program.previous_cycle_fee_exemptions",
+      "program.previous_cycle_scholarship_context"
     ]
   },
   {

@@ -1386,30 +1386,107 @@
     "region": "Lombardy",
     "country": "Italy",
     "official_website": "https://www.unipv.eu/",
-    "international_admissions_url": "https://webing.unipv.eu/home/international/international-applications/",
+    "international_admissions_url": "https://en.unipv.it/en/education/bachelors-and-masters-degree-programs/how-apply/how-apply-masters-degree-programs",
     "application_portal_url": null,
     "contact_email": null,
-    "contact_url": "https://webing.unipv.eu/home/international/international-applications/",
+    "contact_url": "https://en.unipv.it/en/education/bachelors-and-masters-degree-programs/how-apply/how-apply-masters-degree-programs",
     "cycle_status": "REQUIRES_VERIFICATION",
     "research_stage": "PARTIALLY_RESEARCHED",
-    "research_summary": "Official engineering-faculty international application guidance was examined; the full 2027/28 catalog and calls need review.",
+    "research_summary": "The official 2027/28 calendar gives university-wide windows and a €35 fee for non-restricted Master's programs. Computer Engineering is documented in 2026/27 course and admission sources only; its 2027/28 intake and application category remain unconfirmed.",
     "coverage": {
       "official_website_visited": "complete",
       "international_admissions_page_examined": "partial",
       "bachelors_admissions_examined": "not_started",
-      "masters_admissions_examined": "not_started",
-      "english_programs_examined": "not_started",
-      "fees_examined": "not_started",
-      "scholarships_examined": "not_started",
+      "masters_admissions_examined": "partial",
+      "english_programs_examined": "partial",
+      "fees_examined": "partial",
+      "scholarships_examined": "partial",
       "non_eu_requirements_examined": "partial",
-      "application_deadlines_examined": "not_started",
-      "program_level_review": "not_started"
+      "application_deadlines_examined": "partial",
+      "program_level_review": "partial"
     },
     "source_ids": [
-      "SRC-PAVIA-ENG-INTL"
+      "SRC-PAVIA-ENG-INTL",
+      "SRC-PAVIA-MASTERS-2027",
+      "SRC-PAVIA-CE-PROFILE-2026",
+      "SRC-PAVIA-CE-REGULATIONS-2026",
+      "SRC-PAVIA-FEES-2026",
+      "SRC-PAVIA-FLAT-RATE-2026",
+      "SRC-PAVIA-EDISU-2026",
+      "SRC-PAVIA-FINANCIAL-SUPPORT-2026",
+      "SRC-PAVIA-EXEMPTIONS-2026"
     ],
     "last_checked": "2026-11-09",
-    "cycle_facts": {}
+    "cycle_facts": {
+      "application_windows": {
+        "value": [
+          {
+            "label": "Window 1",
+            "start": "2026-11-12",
+            "end": "2026-11-18",
+            "eligible_group": "Non-restricted Master’s programs; check the individual program category"
+          },
+          {
+            "label": "Window 2",
+            "start": "2027-01-12",
+            "end": "2027-01-20",
+            "eligible_group": "Non-restricted Master’s programs; check the individual program category"
+          },
+          {
+            "label": "Window 3",
+            "start": "2027-03-12",
+            "end": "2027-03-22",
+            "eligible_group": "EU and non-EU residents in Italy; non-EU abroad only if spots remain; non-restricted Master’s programs"
+          },
+          {
+            "label": "Window 4",
+            "start": "2027-06-06",
+            "end": "2027-06-12",
+            "eligible_group": "EU and non-EU residents in Italy; non-EU abroad only if spots remain; non-restricted Master’s programs"
+          },
+          {
+            "label": "Window 5",
+            "start": "2027-09-01",
+            "end": "2027-09-08",
+            "eligible_group": "EU and non-EU residents in Italy only; non-restricted Master’s programs"
+          }
+        ],
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PAVIA-MASTERS-2027"
+        ],
+        "notes": "These are university-wide 2027/28 windows for non-restricted Master’s programs. Check whether Computer Engineering’s 2027/28 call is active and follows this category before relying on a date."
+      },
+      "application_fee": {
+        "value": {
+          "amount": "€35",
+          "per": "application"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PAVIA-MASTERS-2027"
+        ],
+        "notes": "The €35 fee is stated for the non-restricted Master’s application procedure; the course’s 2027/28 category and intake remain to be confirmed."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-PAVIA-FEES-2026",
+          "SRC-PAVIA-FLAT-RATE-2026"
+        ],
+        "notes": "The latest official fee schedule reviewed is for 2026/27, including non-EU flat rates based on citizenship and study area. No 2027/28 tuition values were identified; prior-cycle amounts are not carried forward."
+      },
+      "international_scholarships_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-PAVIA-EDISU-2026",
+          "SRC-PAVIA-FINANCIAL-SUPPORT-2026"
+        ],
+        "notes": "The reviewed EDiSU and financial-support pages describe annual 2026/27 awards and list separate subject scholarships for other courses. No Computer Engineering-specific or 2027/28 scholarship call was identified."
+      }
+    }
   },
   {
     "id": "perugia",

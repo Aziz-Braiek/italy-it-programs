@@ -4415,38 +4415,269 @@
     "level": {
       "value": "MSc",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-PAVIA-CE-PROFILE-2026"
+      ],
+      "notes": "Officially listed as a second-cycle degree for 2026/27; 2027/28 level remains to be confirmed."
     },
     "language": {
       "value": "English",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-PAVIA-CE-PROFILE-2026"
+      ],
+      "notes": "The 2026/27 profile says all courses are taught in English; 2027/28 teaching language remains unconfirmed."
     },
     "field": {
-      "value": "Computer Science",
+      "value": "Computer Engineering",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-PAVIA-CE-PROFILE-2026"
+      ],
+      "notes": "The 2026/27 profile identifies LM-32 Computer Systems Engineering; current-cycle classification remains pending."
     },
     "availability_2027_2028": {
       "value": null,
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
+      "source_ids": [
+        "SRC-PAVIA-MASTERS-2027",
+        "SRC-PAVIA-CE-PROFILE-2026",
+        "SRC-PAVIA-CE-REGULATIONS-2026"
+      ],
+      "notes": "A university-wide 2027/28 calendar is published for non-restricted Master’s programs, but the available Computer Engineering profile and course regulations are for 2026/27. The 2027/28 course intake and application category have not been confirmed."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
-    "facts": {},
-    "source_ids": [],
+    "facts": {
+      "previous_cycle_course_listing": {
+        "value": {
+          "academic_year": "2026/27",
+          "degree": "Second-cycle degree",
+          "degree_class": "LM-32 Computer Systems Engineering",
+          "duration_years": 2,
+          "credits": 120,
+          "location": "Pavia",
+          "language": "English",
+          "access": "Free access",
+          "teaching_method": "Conventional"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PAVIA-CE-PROFILE-2026"
+        ],
+        "notes": "Official profile and study plan refer to 2026/27 only; they do not confirm a first-year intake in 2027/28."
+      },
+      "application_windows": {
+        "value": [
+          {
+            "label": "Window 1",
+            "start": "2026-11-12",
+            "end": "2026-11-18",
+            "eligible_group": "Non-restricted Master’s programs; check the individual program category"
+          },
+          {
+            "label": "Window 2",
+            "start": "2027-01-12",
+            "end": "2027-01-20",
+            "eligible_group": "Non-restricted Master’s programs; check the individual program category"
+          },
+          {
+            "label": "Window 3",
+            "start": "2027-03-12",
+            "end": "2027-03-22",
+            "eligible_group": "EU and non-EU residents in Italy; non-EU abroad only if spots remain; non-restricted Master’s programs"
+          },
+          {
+            "label": "Window 4",
+            "start": "2027-06-06",
+            "end": "2027-06-12",
+            "eligible_group": "EU and non-EU residents in Italy; non-EU abroad only if spots remain; non-restricted Master’s programs"
+          },
+          {
+            "label": "Window 5",
+            "start": "2027-09-01",
+            "end": "2027-09-08",
+            "eligible_group": "EU and non-EU residents in Italy only; non-restricted Master’s programs"
+          }
+        ],
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PAVIA-MASTERS-2027"
+        ],
+        "notes": "These are university-wide 2027/28 windows for non-restricted Master’s programs. Verify that Computer Engineering is active and follows this category before relying on a date."
+      },
+      "application_fee": {
+        "value": {
+          "amount": "€35",
+          "per": "application"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PAVIA-MASTERS-2027"
+        ],
+        "notes": "The fee is stated for the non-restricted Master’s route. Computer Engineering’s 2027/28 category and intake remain unconfirmed."
+      },
+      "previous_cycle_program_requirements": {
+        "value": {
+          "academic_year": "2026/27",
+          "qualifying_degree": "Recognized three-year or five-year degree, university diploma, or foreign qualification accepted under applicable rules",
+          "curricular_credits": {
+            "basic_cfu": 36,
+            "specific_advanced_cfu": 45,
+            "total_cfu": 81,
+            "subject_areas": "As specified in the course regulations"
+          },
+          "personal_preparation": [
+            "English at B2 CEFR",
+            "Solid engineering fundamentals and theoretical/practical knowledge in advanced engineering disciplines"
+          ],
+          "assessment": "Academic preparation assessment; foreign degree backgrounds evaluated case by case; exemptions may apply based on prior marks",
+          "assessment_sessions": "September–October and January–February (2026/27 regulations)"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PAVIA-CE-REGULATIONS-2026"
+        ],
+        "notes": "These are 2026/27 course-regulation requirements. Do not use them as 2027/28 entry criteria until a new call or regulation confirms them."
+      },
+      "previous_cycle_english_requirement": {
+        "value": {
+          "academic_year": "2026/27",
+          "level": "B2 CEFR",
+          "examples_of_accepted_evidence": [
+            "Cambridge English First / B2, minimum 160",
+            "IELTS, minimum 5.5",
+            "TOEFL iBT, minimum 77",
+            "TOEIC Listening/Reading 785 plus Speaking/Writing 310",
+            "PTE Academic, minimum 59",
+            "Oxford Test of English B2, minimum 111",
+            "Trinity ISE II (all modules)"
+          ],
+          "possible_exemptions": [
+            "Documented 3 CFU English exam or university-level course taught in English",
+            "Documented degree from a country where English is a main language or from an English-medium institution"
+          ]
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PAVIA-CE-REGULATIONS-2026"
+        ],
+        "notes": "Certificate names and minimum scores are from the 2026/27 regulations and may change for 2027/28."
+      },
+      "previous_cycle_international_admission_route": {
+        "value": {
+          "route": "Teaching Committee review of international academic record; an assessment test may be required",
+          "non_eu": "Study visa and pre-enrolment required",
+          "offer": "Computer Engineering applicants must accept the offer; limited non-student applicants per course, with priority for those accepting offers"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PAVIA-ENG-INTL"
+        ],
+        "notes": "General Faculty of Engineering guidance; no 2027/28 Computer Engineering call or course-specific deadline is confirmed."
+      },
+      "previous_cycle_tuition": {
+        "value": {
+          "academic_year": "2026/27",
+          "non_eu_flat_rate": {
+            "basis": "Citizenship and study-area bracket",
+            "science_area_bracket_eur": [
+              390,
+              1520,
+              4550
+            ],
+            "annual_amount_varies_by_country_bracket": true
+          },
+          "non_eu_income_based_option": "Available on submission of financial documentation; required for EDiSU benefits",
+          "eu_income_based_option": "ISEE/equivalent ISEE based; automatic all-inclusive-fee exemption at ISEE up to €32,000"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PAVIA-FEES-2026",
+          "SRC-PAVIA-FLAT-RATE-2026",
+          "SRC-PAVIA-EXEMPTIONS-2026"
+        ],
+        "notes": "Prior-cycle fee arrangements only. Exact non-EU flat rate depends on citizenship bracket; no 2027/28 tuition schedule was identified."
+      },
+      "previous_cycle_scholarships": {
+        "value": {
+          "academic_year": "2026/27",
+          "regional_agency": "EDiSU Pavia",
+          "eligible_applicants": "Italian, EU and foreign students; income and merit criteria apply",
+          "benefits": [
+            "Cash amount by income tier and geographic status",
+            "One meal per day",
+            "EDiSU accommodation option for eligible off-site students"
+          ],
+          "maximum_off_site_total_including_meal_eur": 8248,
+          "application_deadline": "2026-09-15 15:00 Italy time",
+          "program_specific_award": "No Computer Engineering-specific award identified in the reviewed current financial-support page"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PAVIA-EDISU-2026",
+          "SRC-PAVIA-FINANCIAL-SUPPORT-2026"
+        ],
+        "notes": "This is a regional, competitive 2026/27 benefit, not a guaranteed Computer Engineering grant. Its deadline has passed; no 2027/28 EDiSU call or program-specific scholarship is confirmed."
+      },
+      "previous_cycle_fee_exemptions": {
+        "value": {
+          "academic_year": "2026/27",
+          "automatic_all_inclusive_fee_exemption": [
+            "EDiSU scholarship beneficiaries",
+            "Eligible non-beneficiaries meeting EDiSU competition requirements",
+            "Students with equivalent ISEE up to €32,000"
+          ]
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PAVIA-EXEMPTIONS-2026"
+        ],
+        "notes": "These rules are published for 2026/27 only and must not be assumed for 2027/28."
+      },
+      "tuition": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-PAVIA-FEES-2026",
+          "SRC-PAVIA-FLAT-RATE-2026"
+        ],
+        "notes": "No 2027/28 tuition amount was identified; only the 2026/27 schedule is available in the reviewed sources."
+      },
+      "scholarships": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-PAVIA-EDISU-2026",
+          "SRC-PAVIA-FINANCIAL-SUPPORT-2026"
+        ],
+        "notes": "The reviewed call is for 2026/27. Check for the annual 2027/28 EDiSU call; no course-specific award has been confirmed."
+      }
+    },
+    "source_ids": [
+      "SRC-PAVIA-MASTERS-2027",
+      "SRC-PAVIA-CE-PROFILE-2026",
+      "SRC-PAVIA-CE-REGULATIONS-2026",
+      "SRC-PAVIA-ENG-INTL",
+      "SRC-PAVIA-FEES-2026",
+      "SRC-PAVIA-FLAT-RATE-2026",
+      "SRC-PAVIA-EDISU-2026",
+      "SRC-PAVIA-FINANCIAL-SUPPORT-2026",
+      "SRC-PAVIA-EXEMPTIONS-2026"
+    ],
     "previous_tracker_tags": {
       "level": "MSc",
       "language": "English",
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
-    "previous_cycle_tags": null,
+    "previous_cycle_tags": {
+      "level": "MSc",
+      "language": "English",
+      "field": "Computer Engineering",
+      "cycle": "2026-2027",
+      "label": "Latest official course listing and regulations are for 2026/27"
+    },
     "last_checked": "2026-11-09"
   },
   {

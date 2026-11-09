@@ -6,7 +6,7 @@
   "universities_without_initial_official_source_outcome": 0,
   "universities_fully_verified": 0,
   "universities_partially_researched": 34,
-  "universities_with_program_level_research": 11,
+  "universities_with_program_level_research": 12,
   "university_ids_with_program_level_research": [
     "bologna",
     "catania",
@@ -15,12 +15,13 @@
     "napoli-federico-ii",
     "padova",
     "parma",
+    "pavia",
     "pisa",
     "siena",
     "tor-vergata",
     "verona"
   ],
-  "universities_program_level_review_not_started": 23,
+  "universities_program_level_review_not_started": 22,
   "university_ids_with_program_level_review_not_started": [
     "ca-foscari",
     "camerino",
@@ -33,7 +34,6 @@
     "milano-statale",
     "modena-reggio",
     "palermo",
-    "pavia",
     "perugia",
     "politecnico-bari",
     "politecnico-milano",
@@ -54,20 +54,22 @@
   "programs_fully_verified": 23,
   "programs_requiring_verification": 163,
   "programs_not_offered_2027_2028": 2,
-  "programs_supported_only_by_previous_cycle": 4,
+  "programs_supported_only_by_previous_cycle": 5,
   "program_ids_supported_only_by_previous_cycle": [
     "discovered-023",
     "legacy-079",
     "legacy-081",
-    "legacy-084"
+    "legacy-084",
+    "legacy-088"
   ],
   "bsc_programs_verified": 1,
   "msc_programs_verified": 22,
-  "universities_with_confirmed_deadline_windows": 8,
+  "universities_with_confirmed_deadline_windows": 9,
   "university_ids_with_confirmed_deadline_windows": [
     "bologna",
     "messina",
     "padova",
+    "pavia",
     "pisa",
     "politecnico-milano",
     "politecnico-torino",
@@ -110,8 +112,8 @@
     "politecnico-milano",
     "trento"
   ],
-  "source_records": 104,
-  "official_source_supported_fields": 258,
+  "source_records": 112,
+  "official_source_supported_fields": 269,
   "verification_statuses": [
     "CONFIRMED",
     "NOT_YET_PUBLISHED",
