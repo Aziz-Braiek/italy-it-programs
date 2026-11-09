@@ -69,6 +69,7 @@ assert.match(universityHtml, /Admissions contact/);
 assert.match(universityHtml, /Merit Based Call for Applications/);
 assert.match(universityHtml, /The official catalogue shows Data Science MSc coursework taught in 2027\/28 for the 2026\/27 cohort/);
 assert.match(universityHtml, /Course Catalogue – Data Science, Big Data \(ICT curriculum\), 2027\/28/);
+assert.match(universityHtml, /calendar says dates and deadlines have not yet been finalized/);
 
 const status = getElementById("status-filter");
 status.value = "REQUIRES_VERIFICATION";
@@ -104,6 +105,15 @@ assert.match(veronaProgramHtml, /2 February\u201331 March 2026/);
 assert.match(veronaProgramHtml, /The study plan says year two activates in 2027\/28 for students enrolled in 2026\/27/);
 assert.match(veronaProgramHtml, /does not confirm a new 2027\/28 first-year intake/);
 assert.match(veronaProgramHtml, /class=\"status pending\"/);
+getElementById("search").value = "Applied Mathematics";
+getElementById("search").dispatch("input");
+const sienaProgramHtml = getElementById("program-grid").innerHTML;
+assert.match(sienaProgramHtml, /Universit\u00e0 degli Studi di Siena/);
+assert.match(sienaProgramHtml, /Latest official listing \(2026\/27\)/);
+assert.match(sienaProgramHtml, /LM-40/);
+assert.match(sienaProgramHtml, /Scholarships \(2026\/27\)/);
+assert.match(sienaProgramHtml, /Two different courses within Area D/);
+assert.match(sienaProgramHtml, /does not confirm whether Applied Mathematics will admit a new first-year cohort/);
 getElementById("search").value = "";
 getElementById("search").dispatch("input");
 

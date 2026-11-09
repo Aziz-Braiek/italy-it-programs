@@ -1566,21 +1566,26 @@
     "contact_url": "https://admission.unisi.it/",
     "cycle_status": "NOT_YET_PUBLISHED",
     "research_stage": "PARTIALLY_RESEARCHED",
-    "research_summary": "The official portal says 2027/28 intake opens in November 2026; exact application deadlines and course-specific calls are not published yet.",
+    "research_summary": "The official calendar says 2027/28 dates and deadlines are not finalized. Applied Mathematics is documented in 2026/27 degree and scholarship sources; a new 2027/28 course intake, program-specific admissions requirements, fees and awards remain unverified.",
     "coverage": {
       "official_website_visited": "complete",
       "international_admissions_page_examined": "partial",
       "bachelors_admissions_examined": "not_started",
-      "masters_admissions_examined": "not_started",
-      "english_programs_examined": "not_started",
+      "masters_admissions_examined": "partial",
+      "english_programs_examined": "partial",
       "fees_examined": "not_started",
-      "scholarships_examined": "not_started",
+      "scholarships_examined": "partial",
       "non_eu_requirements_examined": "partial",
       "application_deadlines_examined": "partial",
-      "program_level_review": "not_started"
+      "program_level_review": "partial"
     },
     "source_ids": [
-      "SRC-SIENA-2027"
+      "SRC-SIENA-2027",
+      "SRC-SIENA-CALENDAR-2027",
+      "SRC-SIENA-AM-PROFILE-2026",
+      "SRC-SIENA-AM-PROGRAM",
+      "SRC-SIENA-AM-APPLY",
+      "SRC-SIENA-EXCELLENCE-2026"
     ],
     "last_checked": "2026-11-09",
     "cycle_facts": {
@@ -1596,9 +1601,10 @@
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
-          "SRC-SIENA-2027"
+          "SRC-SIENA-2027",
+          "SRC-SIENA-CALENDAR-2027"
         ],
-        "notes": null
+        "notes": "The official 2027/28 calendar says dates and deadlines have not yet been finalized; applicant categories and degree programs can have different windows."
       }
     }
   },

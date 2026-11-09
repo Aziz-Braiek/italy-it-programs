@@ -3778,38 +3778,111 @@
     "level": {
       "value": "MSc",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-SIENA-AM-PROFILE-2026"
+      ],
+      "notes": "Listed as a second-cycle degree in 2026/27; 2027/28 program level remains unverified."
     },
     "language": {
       "value": "English",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-SIENA-AM-PROFILE-2026",
+        "SRC-SIENA-AM-PROGRAM"
+      ],
+      "notes": "The official profile and course page identify English delivery in prior-cycle/general material; 2027/28 delivery remains unverified."
     },
     "field": {
-      "value": "Sciences",
+      "value": "Mathematics",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-SIENA-AM-PROFILE-2026",
+        "SRC-SIENA-AM-PROGRAM"
+      ],
+      "notes": "The 2026/27 official profile classifies the course in Physics, Engineering and Mathematics; current-cycle classification remains pending."
     },
     "availability_2027_2028": {
       "value": null,
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
+      "source_ids": [
+        "SRC-SIENA-AM-PROFILE-2026",
+        "SRC-SIENA-AM-PROGRAM",
+        "SRC-SIENA-CALENDAR-2027"
+      ],
+      "notes": "The official degree listing reviewed is for 2026/27. The university says the 2027/28 calendar is not finalized, but this does not confirm whether Applied Mathematics will admit a new first-year cohort."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
-    "facts": {},
-    "source_ids": [],
+    "facts": {
+      "previous_cycle_course_listing": {
+        "value": {
+          "academic_year": "2026/27",
+          "degree": "Second cycle degree (Laurea Magistrale)",
+          "degree_class": "LM-40",
+          "duration_years": 2,
+          "credits": 120,
+          "location": "Siena",
+          "language": "English",
+          "access": "Open access",
+          "curricula": [
+            "Mathematical Methodologies",
+            "Mathematical Models"
+          ]
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-SIENA-AM-PROFILE-2026",
+          "SRC-SIENA-AM-PROGRAM"
+        ],
+        "notes": "Official profile details are from 2026/27 or general course information and do not establish a new 2027/28 intake."
+      },
+      "general_international_application_route": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-SIENA-AM-APPLY"
+        ],
+        "notes": "The department page describes applications for candidates with non-Italian degrees through apply.unisi.it and lists a CV, transcript, English evidence and identity document. Its January–May timing is phrased as usual, and its test note references 2017/18; neither is treated as a current 2027/28 deadline or requirement."
+      },
+      "previous_cycle_scholarships": {
+        "value": {
+          "academic_year": "2026/27",
+          "eligible_program": "Applied Mathematics was listed among seven Area D English-taught MSc courses",
+          "area_D_awards": 2,
+          "award_allocation": "Two different courses within Area D; no award is specifically promised to Applied Mathematics",
+          "gross_eur_per_year": 6000,
+          "initial_duration_years": 1,
+          "renewable_for_second_year": true,
+          "applicant_scope": "Non-Italian citizenship and entry qualification earned outside Italy",
+          "deadline": "2026-05-26"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-SIENA-EXCELLENCE-2026"
+        ],
+        "notes": "This was a 2026/27 multi-program scholarship call. Applied Mathematics was eligible within Area D, but the page does not allocate an award to this program; no 2027/28 scholarship call is confirmed."
+      }
+    },
+    "source_ids": [
+      "SRC-SIENA-AM-PROFILE-2026",
+      "SRC-SIENA-AM-PROGRAM",
+      "SRC-SIENA-AM-APPLY",
+      "SRC-SIENA-EXCELLENCE-2026",
+      "SRC-SIENA-CALENDAR-2027"
+    ],
     "previous_tracker_tags": {
       "level": "MSc",
       "language": "English",
       "field": "Sciences",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
-    "previous_cycle_tags": null,
+    "previous_cycle_tags": {
+      "level": "MSc",
+      "language": "English",
+      "field": "Mathematics",
+      "cycle": "2026-2027",
+      "label": "Latest official 2026/27 listing"
+    },
     "last_checked": "2026-11-09"
   },
   {

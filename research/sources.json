@@ -956,6 +956,73 @@
     ]
   },
   {
+    "id": "SRC-SIENA-CALENDAR-2027",
+    "university_id": "siena",
+    "title": "Admission Calendar – 2027/28 status",
+    "url": "https://admission.unisi.it/?p=3003",
+    "source_type": "Official international admissions calendar",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "Explicitly says 2027/28 dates and deadlines have not yet been finalized. The calendar is organized by degree program and applicant category; the page does not yet supply Applied Mathematics dates or confirm its new-entry intake.",
+    "supports": [
+      "university.application_deadlines",
+      "university.deadline_status"
+    ]
+  },
+  {
+    "id": "SRC-SIENA-AM-PROFILE-2026",
+    "university_id": "siena",
+    "title": "Applied Mathematics – 2026/27 degree profile",
+    "url": "https://en.unisi.it/ugov/degree/120546",
+    "source_type": "Official degree catalogue",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "Lists Applied Mathematics as a 2026/27 second-cycle degree in Siena, 2 years/120 credits, taught in English, with open access. It is a prior-cycle listing and not a 2027/28 new-entry notice.",
+    "supports": [
+      "program.previous_cycle_course_listing"
+    ]
+  },
+  {
+    "id": "SRC-SIENA-AM-PROGRAM",
+    "university_id": "siena",
+    "title": "Applied Mathematics – program overview",
+    "url": "https://applied-mathematics.unisi.it/en",
+    "source_type": "Official degree program page",
+    "accessed_at": "2026-11-09",
+    "cycle": "general",
+    "evidence": "Program page describes the English-taught MSc, LM-40, two-year duration, 120 credits and Mathematical Methodologies and Mathematical Models curricula. It does not name the 2027/28 entry cycle.",
+    "supports": [
+      "program.previous_cycle_course_listing"
+    ]
+  },
+  {
+    "id": "SRC-SIENA-AM-APPLY",
+    "university_id": "siena",
+    "title": "Applied Mathematics – how to apply",
+    "url": "https://applied-mathematics.unisi.it/en/applyenroll/how-apply",
+    "source_type": "Official degree admissions page",
+    "accessed_at": "2026-11-09",
+    "cycle": "general",
+    "evidence": "Gives a general route for applicants with a non-Italian degree via apply.unisi.it, lists documents including CV and transcript, and describes degree-background assessment. It says applications can usually be submitted January–May and contains an admission-test note dating from 2017/18; neither is treated as a current 2027/28 deadline or requirement without a new call.",
+    "supports": [
+      "program.general_international_application_route",
+      "program.general_admission_requirements"
+    ]
+  },
+  {
+    "id": "SRC-SIENA-EXCELLENCE-2026",
+    "university_id": "siena",
+    "title": "Siena International Excellence Scholarships – 2026/27 call",
+    "url": "https://www.unisi.it/call-applications-siena-international-excellence-scholarships-2026-2027",
+    "source_type": "Official scholarship call page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "For 2026/27, offers five €6,000 gross annual scholarships for one year, renewable for a second year, to international students with non-Italian citizenship and qualifications earned outside Italy. Area D has two awards for two different courses among seven listed English-taught master’s, including Applied Mathematics; the page does not allocate one award specifically to this program. Application deadline was 26 May 2026.",
+    "supports": [
+      "program.previous_cycle_scholarships"
+    ]
+  },
+  {
     "id": "SRC-PARMA-2027",
     "university_id": "parma",
     "title": "Admissions for a.y. 2027-2028 – Let’s keep in touch!",

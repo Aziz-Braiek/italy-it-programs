@@ -6,7 +6,7 @@
   "universities_without_initial_official_source_outcome": 0,
   "universities_fully_verified": 0,
   "universities_partially_researched": 34,
-  "universities_with_program_level_research": 9,
+  "universities_with_program_level_research": 10,
   "university_ids_with_program_level_research": [
     "bologna",
     "catania",
@@ -15,10 +15,11 @@
     "napoli-federico-ii",
     "padova",
     "pisa",
+    "siena",
     "tor-vergata",
     "verona"
   ],
-  "universities_program_level_review_not_started": 25,
+  "universities_program_level_review_not_started": 24,
   "university_ids_with_program_level_review_not_started": [
     "ca-foscari",
     "camerino",
@@ -40,7 +41,6 @@
     "roma-tre",
     "salerno",
     "sapienza",
-    "siena",
     "torino",
     "trento",
     "trieste",
@@ -54,9 +54,10 @@
   "programs_fully_verified": 23,
   "programs_requiring_verification": 163,
   "programs_not_offered_2027_2028": 2,
-  "programs_supported_only_by_previous_cycle": 2,
+  "programs_supported_only_by_previous_cycle": 3,
   "program_ids_supported_only_by_previous_cycle": [
     "discovered-023",
+    "legacy-081",
     "legacy-084"
   ],
   "bsc_programs_verified": 1,
@@ -108,8 +109,8 @@
     "politecnico-milano",
     "trento"
   ],
-  "source_records": 92,
-  "official_source_supported_fields": 250,
+  "source_records": 97,
+  "official_source_supported_fields": 252,
   "verification_statuses": [
     "CONFIRMED",
     "NOT_YET_PUBLISHED",
