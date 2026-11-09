@@ -390,6 +390,143 @@
     ]
   },
   {
+    "id": "SRC-UNICT-DSM-LEGACY",
+    "university_id": "catania",
+    "title": "Data Science for Management – course page and replacement notice",
+    "url": "https://www.dei.unict.it/corsi/lm-91",
+    "source_type": "Official historical degree page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2022-2023",
+    "evidence": "The official course page states that starting October 2022 (AY 2022/23), Data Science for Management would be replaced by the new Data Science course and enrollment for 2022/23 would be possible only in the new course.",
+    "supports": [
+      "program.historical_course_status",
+      "program.replacement"
+    ]
+  },
+  {
+    "id": "SRC-UNICT-DS-PROGRAM-2026",
+    "university_id": "catania",
+    "title": "Data Science – 2026/27 degree page",
+    "url": "https://www.unict.it/en/node/32509",
+    "source_type": "Official degree page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "Lists Data Science for Academic Year 2026/27 as a two-year Master's Degree, class LM/DATA, taught in English, at Catania. This is prior-cycle evidence only and does not confirm the 2027/28 intake.",
+    "supports": [
+      "program.name",
+      "program.level",
+      "program.duration",
+      "program.language",
+      "program.location"
+    ]
+  },
+  {
+    "id": "SRC-UNICT-ENGLISH-MASTERS-2026",
+    "university_id": "catania",
+    "title": "Master's Degree programmes taught in English",
+    "url": "https://www.unict.it/en/node/25736",
+    "source_type": "Official English-taught degree inventory and admissions page",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "Lists ten English-taught Master's Degree courses including Data Science (LM-DATA), and states that the non-EU abroad call for the 2026/27 academic year is published. This page does not publish a 2027/28 call.",
+    "supports": [
+      "university.english_program_inventory",
+      "program.name",
+      "program.language",
+      "university.latest_published_call_cycle"
+    ]
+  },
+  {
+    "id": "SRC-UNICT-MASTER-CALLS-INDEX",
+    "university_id": "catania",
+    "title": "Master's admissions call archive",
+    "url": "https://www.unict.it/ammissioni-ai-corsi-di-laurea-magistrale/numero-programmato",
+    "source_type": "Official admissions call archive",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The archive page displays 2026/27 as its latest listed academic year (including the non-EU English-taught Master's call) and older calls; no 2027/28 Master's call is listed on the page checked on 9 November 2026. The page does not explicitly state that a 2027/28 call will not be published.",
+    "supports": [
+      "university.application_call_archive",
+      "university.latest_published_call_cycle"
+    ]
+  },
+  {
+    "id": "SRC-UNICT-MASTER-ADMISSION-2026",
+    "university_id": "catania",
+    "title": "First-year admission procedure for non-programmed two-year Master's courses, 2026/27",
+    "url": "https://www.unict.it/it/corsi-numero-non-programmato/2026-2027/procedura-di-ammissione-al-1%C2%B0-anno-corsi-di-laurea-magistrale",
+    "source_type": "Official Master's admissions procedure",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 procedure lists Data Science (LM-DATA) among the two-year Master's courses. It is a prior-cycle admissions source and cannot establish a 2027/28 intake or deadline.",
+    "supports": [
+      "program.name",
+      "program.level",
+      "program.admissions_route"
+    ]
+  },
+  {
+    "id": "SRC-UNICT-DS-CALL-2026",
+    "university_id": "catania",
+    "title": "Public selection for admission of non-EU students abroad to English-taught Master's degrees, 2026/27",
+    "url": "https://www.unict.it/it/corsi-numero-programmato/2026-2027/public-selection-admission-non-eu-students-living-abroad-english",
+    "source_type": "Official non-EU admissions call",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 selection lists Data Science (LM-DATA), for non-EU students living abroad applying to the first year of ten English-taught Master's degrees. It gives an application period of 10 February–17 March 2026, a €10 fee per course, and selection based on qualifications and, where applicable, an interview or test. These conditions apply to the prior cycle only; the table does not publish places for Data Science.",
+    "supports": [
+      "program.prior_cycle_admission",
+      "program.application_window",
+      "program.application_fee",
+      "program.selection_criteria",
+      "program.available_places"
+    ]
+  },
+  {
+    "id": "SRC-UNICT-BACHELORS-INTERNATIONAL-2026",
+    "university_id": "catania",
+    "title": "Bachelor's Degrees – international qualification requirements",
+    "url": "https://www.unict.it/it/node/1304",
+    "source_type": "Official Bachelor's admissions guidance",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "Guidance reviewed for 2026/27 states general first-cycle entry requires a foreign secondary qualification after at least 12 years of schooling, suitable comparable-country access and any required country entrance exam; it describes B2 Italian or an accepted test for non-EU students and a 31 July 2026 Universitaly pre-enrolment deadline. These prior-cycle procedures are not carried forward to 2027/28.",
+    "supports": [
+      "university.bachelor_entry",
+      "university.non_eu_process",
+      "university.bachelor_application_deadline"
+    ]
+  },
+  {
+    "id": "SRC-UNICT-FEES-2026",
+    "university_id": "catania",
+    "title": "Manifesto degli studi and student contribution rules, 2026/27",
+    "url": "https://www.unict.it/en/node/32717",
+    "source_type": "Official fee and student-regulations publication notice",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The latest fee-regulation notice located is for 2026/27. It reports contributions up to €2,150 for regular students meeting credit conditions and €2,350 for irregular students, with 2026/27 installment dates; none of these amounts or dates is treated as a 2027/28 fee schedule.",
+    "supports": [
+      "university.prior_cycle_tuition",
+      "university.tuition_publication_status",
+      "university.fee_conditions"
+    ]
+  },
+  {
+    "id": "SRC-UNICT-SCHOLARSHIPS-2026",
+    "university_id": "catania",
+    "title": "University of Catania Scholarships 2026/27",
+    "url": "https://www.unict.it/it/node/31838",
+    "source_type": "Official international scholarship call notice",
+    "accessed_at": "2026-11-09",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 call offered five two-year scholarships of €2,000 per year for each of ten English-taught Master's degrees, including Data Science, with a 17 March 2026 deadline for non-EU applicants living abroad. This is prior-cycle information and no recurring 2027/28 award is inferred.",
+    "supports": [
+      "university.prior_cycle_scholarships",
+      "university.scholarship_publication_status"
+    ]
+  },
+  {
     "id": "SRC-UNIGE-2027",
     "university_id": "genova",
     "title": "UniGeApply International Admissions",

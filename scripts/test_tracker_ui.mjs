@@ -54,11 +54,11 @@ vm.runInNewContext(script, { document, fetch, console, Date, Promise });
 await new Promise((resolve) => setTimeout(resolve, 50));
 
 assert.equal(getElementById("stat-universities").textContent, "34", getElementById("program-grid").innerHTML);
-assert.equal(getElementById("stat-programs").textContent, "187");
+assert.equal(getElementById("stat-programs").textContent, "188");
 assert.equal(getElementById("stat-confirmed").textContent, "23");
 assert.equal(getElementById("stat-deadlines").textContent, "8");
 assert.match(getElementById("notice-count").textContent, /^163 /);
-assert.match(getElementById("program-count").textContent, /^23 \/ 187 /);
+assert.match(getElementById("program-count").textContent, /^23 \/ 188 /);
 assert.doesNotMatch(getElementById("program-grid").innerHTML, /legacy-001/);
 const universityHtml = getElementById("university-grid").innerHTML;
 assert.match(universityHtml, /Engineering application windows/);
@@ -83,6 +83,13 @@ assert.match(messinaProgramHtml, /Academic-year course offering/);
 assert.match(messinaProgramHtml, /university-wide 2027\/28 international application calls/);
 assert.match(messinaProgramHtml, /€40 for up to two program applications/);
 assert.match(messinaProgramHtml, /English/);
+assert.match(messinaProgramHtml, /Universit\u00e0 degli Studi di Catania/);
+assert.match(messinaProgramHtml, /Latest official listing \(2026\/27\)/);
+assert.match(messinaProgramHtml, /The official course listing and admission evidence reviewed is from 2026\/27/);
+assert.match(messinaProgramHtml, /10 February–17 March 2026 and a \u20ac10 fee per course/);
+assert.match(messinaProgramHtml, /The latest official course and English-MSc call evidence located is for 2026\/27/);
+assert.match(dataText.find((element) => element.attrs["data-en"]?.includes("Latest official listing"))?.attrs["data-en"] ?? "", /do not confirm 2027–28 availability/);
+assert.match(dataText.find((element) => element.attrs["data-it"]?.includes("Ultima scheda ufficiale"))?.attrs["data-it"] ?? "", /non confermano la disponibilità per il 2027–28/);
 getElementById("search").value = "";
 getElementById("search").dispatch("input");
 
@@ -103,7 +110,9 @@ status.value = "NOT_APPLICABLE";
 status.dispatch("change");
 assert.match(getElementById("program-grid").innerHTML, /Maritime Science and Technology/);
 assert.match(getElementById("program-grid").innerHTML, /will not be offered in 2027–28/);
-assert.equal((getElementById("program-grid").innerHTML.match(/<article class="card/g) ?? []).length, 1);
+assert.match(getElementById("program-grid").innerHTML, /Data Science for Management/);
+assert.match(getElementById("program-grid").innerHTML, /Replaced by Data Science from AY 2022\/23/);
+assert.equal((getElementById("program-grid").innerHTML.match(/<article class="card/g) ?? []).length, 2);
 
 status.value = "all";
 getElementById("search").value = "Hydrogen";
@@ -116,6 +125,6 @@ getElementById("language-toggle").dispatch("click");
 assert.equal(document.documentElement.lang, "it");
 assert.match(getElementById("status-chip").textContent, /campi supportati da fonti ufficiali/);
 assert.match(getElementById("language-toggle").textContent, /EN/);
-assert.ok(dataText.some((element) => element.innerHTML.includes("Solo i tag indicati come")));
+assert.ok(dataText.some((element) => element.innerHTML.includes("Le etichette ‘Tag del tracker precedente’")));
 
 console.log("TRACKER UI TESTS PASSED");

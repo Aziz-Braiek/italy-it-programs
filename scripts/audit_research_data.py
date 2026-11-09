@@ -26,6 +26,7 @@ source_ids = {s["id"] for s in sources}
 uni_ids = {u["id"] for u in universities}
 assert {u["id"] for u in universities if u["source_ids"]} == uni_ids, "a university lacks an official source record"
 assert all(p["university_id"] in uni_ids for p in programs), "program refers to an unknown university"
+assert all(s.get("university_id") in uni_ids for s in sources), "source refers to an unknown university"
 
 confirmed_programs = [p for p in programs if p["overall_status"] == "CONFIRMED"]
 for p in programs:
@@ -36,6 +37,17 @@ for p in programs:
         if item["status"] == "CONFIRMED":
             assert item["source_ids"], f"confirmed field has no source: {p['program']} / {key}"
         assert all(sid in source_ids for sid in item.get("source_ids", [])), f"unknown source ID in {p['program']} / {key}"
+    availability = p["availability_2027_2028"]
+    if availability["status"] == "CONFIRMED":
+        assert isinstance(availability["value"], bool), f"confirmed availability must be true or false: {p['program']}"
+    else:
+        assert availability["value"] is None, f"pending availability must be null, not interpreted as false: {p['program']}"
+    if p.get("previous_cycle_tags"):
+        tags = p["previous_cycle_tags"]
+        assert tags.get("cycle") and tags["cycle"] != coverage["academic_year"], f"previous-cycle tags use the active academic year: {p['program']}"
+        for key in ("level", "language", "field"):
+            assert tags.get(key) == p[key]["value"], f"previous-cycle tag mismatch: {p['program']} / {key}"
+            assert p[key]["status"] != "CONFIRMED", f"previous-cycle-only tag is incorrectly confirmed for the active cycle: {p['program']} / {key}"
     if p["overall_status"] == "CONFIRMED":
         assert p["availability_2027_2028"]["status"] == "CONFIRMED"
         assert p["availability_2027_2028"]["value"] is True
@@ -45,6 +57,8 @@ for p in programs:
         assert p["availability_2027_2028"]["value"] is not True or p["availability_2027_2028"]["status"] == "CONFIRMED"
         if p["availability_2027_2028"]["status"] == "CONFIRMED":
             assert p["source_ids"], f"cycle-confirmed program missing sources for unresolved fields: {p['program']}"
+    if p["overall_status"] == "NOT_APPLICABLE":
+        assert availability["status"] == "CONFIRMED" and availability["value"] is False, f"discontinued/not-offered record lacks a sourced false availability: {p['program']}"
     assert all(sid in source_ids for sid in p.get("source_ids", [])), f"unknown source for {p['program']}"
     for key, item in p.get("facts", {}).items():
         assert item["status"] in VALID, f"invalid field status: {p['program']} / {key}"

@@ -45,6 +45,11 @@
       "id": "unime-data-science-cycle-outcome",
       "status": "partial",
       "result": "Verified official Data Science MSc coursework in English during AY 2027/28 for the 2026/27 cohort and attached the university-wide international application windows and €40 fee with explicit scope notes. A new 2027/28 entrant call and course-specific requirements remain unconfirmed."
+    },
+    {
+      "id": "catania-data-science-course-replacement-and-prior-cycle-review",
+      "status": "partial",
+      "result": "Confirmed that Data Science for Management was replaced by Data Science from 2022/23; recorded the successor MSc, English language, LM/DATA class and 2026/27 non-EU call evidence as prior-cycle only. Reviewed Bachelor's admissions, current fees and international scholarship pages; no 2027/28 call, deadlines, fees or scholarship award was identified, so the successor intake remains unverified."
     }
   ],
   "counts": {
@@ -54,13 +59,13 @@
     "universities_researched": 34,
     "universities_fully_verified": 0,
     "universities_partially_researched": 34,
-    "program_records": 187,
+    "program_records": 188,
     "prior_tracker_programs_archived": 165,
-    "newly_discovered_programs": 22,
+    "newly_discovered_programs": 23,
     "programs_cycle_availability_confirmed": 24,
     "programs_fully_verified": 23,
     "programs_requiring_verification": 163,
-    "programs_not_offered_2027_2028": 1,
+    "programs_not_offered_2027_2028": 2,
     "bsc_programs_verified": 1,
     "msc_programs_verified": 22,
     "universities_with_confirmed_deadline_windows": 8,
@@ -110,8 +115,8 @@
       "politecnico-milano",
       "trento"
     ],
-    "source_records": 78,
-    "official_source_supported_fields": 242,
+    "source_records": 87,
+    "official_source_supported_fields": 244,
     "verification_statuses": [
       "CONFIRMED",
       "NOT_YET_PUBLISHED",

@@ -706,24 +706,69 @@
     "contact_url": "https://www.unict.it/en/node/5251",
     "cycle_status": "REQUIRES_VERIFICATION",
     "research_stage": "PARTIALLY_RESEARCHED",
-    "research_summary": "Official international admissions information is general or for earlier cycles; historical programs require cycle-specific verification.",
+    "research_summary": "Official sources show Data Science for Management was replaced by the Data Science MSc from 2022/23. Current course, English-program and admission evidence is for 2026/27; no 2027/28 program call, dates, tuition or scholarship call was identified, so the successor intake remains unverified.",
     "coverage": {
       "official_website_visited": "complete",
       "international_admissions_page_examined": "partial",
-      "bachelors_admissions_examined": "not_started",
-      "masters_admissions_examined": "not_started",
-      "english_programs_examined": "not_started",
-      "fees_examined": "not_started",
-      "scholarships_examined": "not_started",
+      "bachelors_admissions_examined": "partial",
+      "masters_admissions_examined": "partial",
+      "english_programs_examined": "partial",
+      "fees_examined": "partial",
+      "scholarships_examined": "partial",
       "non_eu_requirements_examined": "partial",
-      "application_deadlines_examined": "not_started",
-      "program_level_review": "not_started"
+      "application_deadlines_examined": "partial",
+      "program_level_review": "partial"
     },
     "source_ids": [
+      "SRC-UNICT-DSM-LEGACY",
+      "SRC-UNICT-DS-PROGRAM-2026",
+      "SRC-UNICT-ENGLISH-MASTERS-2026",
+      "SRC-UNICT-MASTER-CALLS-INDEX",
+      "SRC-UNICT-MASTER-ADMISSION-2026",
+      "SRC-UNICT-DS-CALL-2026",
+      "SRC-UNICT-BACHELORS-INTERNATIONAL-2026",
+      "SRC-UNICT-FEES-2026",
+      "SRC-UNICT-SCHOLARSHIPS-2026",
       "SRC-CATANIA-INTL"
     ],
     "last_checked": "2026-11-09",
-    "cycle_facts": {}
+    "cycle_facts": {
+      "application_windows": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-UNICT-MASTER-CALLS-INDEX",
+          "SRC-UNICT-DS-CALL-2026"
+        ],
+        "notes": "The latest official Master's call located is for 2026/27, whose non-EU English-MSc window was 10 February–17 March 2026 with a €10 fee per course. No 2027/28 call or dates were listed in the official archive checked on 9 November 2026; the archive does not explicitly say a new call will not be published, so the 2027/28 status remains unverified."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-UNICT-FEES-2026"
+        ],
+        "notes": "The latest fee rules located are for 2026/27 (up to €2,150 for regular students meeting credit conditions and €2,350 for irregular students). No 2027/28 fee schedule was identified, and prior-year amounts are not carried forward."
+      },
+      "international_scholarships_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-UNICT-SCHOLARSHIPS-2026"
+        ],
+        "notes": "The official 2026/27 call offered five two-year €2,000-per-year awards for each of ten English-taught Master's degrees, including Data Science, for non-EU applicants abroad. No 2027/28 call was identified; recurrence is not assumed."
+      },
+      "non_eu_requirements_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-CATANIA-INTL",
+          "SRC-UNICT-BACHELORS-INTERNATIONAL-2026",
+          "SRC-UNICT-DS-CALL-2026"
+        ],
+        "notes": "Official guidance routes international students to degree-specific procedures. The reviewed Bachelor's and English-MSc requirements are for 2026/27 and do not establish 2027/28 rules."
+      }
+    }
   },
   {
     "id": "milano-statale",

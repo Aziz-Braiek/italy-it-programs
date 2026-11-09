@@ -24,7 +24,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -39,6 +39,7 @@
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -66,7 +67,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -81,6 +82,7 @@
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -108,7 +110,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -123,6 +125,7 @@
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -150,7 +153,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -165,6 +168,7 @@
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -192,7 +196,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -207,6 +211,7 @@
       "field": "Engineering",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -234,7 +239,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -249,6 +254,7 @@
       "field": "Engineering",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -276,7 +282,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -291,6 +297,7 @@
       "field": "Engineering",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -318,7 +325,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -333,6 +340,7 @@
       "field": "Design",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -360,7 +368,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -375,6 +383,7 @@
       "field": "Architecture",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -402,7 +411,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -417,6 +426,7 @@
       "field": "Design",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -444,7 +454,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -459,6 +469,7 @@
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -486,7 +497,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -501,6 +512,7 @@
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -528,7 +540,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -543,6 +555,7 @@
       "field": "Data Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -570,7 +583,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -585,6 +598,7 @@
       "field": "Engineering",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -612,7 +626,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -627,6 +641,7 @@
       "field": "Engineering",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -654,7 +669,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -669,6 +684,7 @@
       "field": "Engineering",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -696,7 +712,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -711,6 +727,7 @@
       "field": "Engineering",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -738,7 +755,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -753,6 +770,7 @@
       "field": "Architecture",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -780,7 +798,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -795,6 +813,7 @@
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -936,6 +955,7 @@
       "SRC-UNIBO-28DIGITAL-2027"
     ],
     "previous_tracker_tags": null,
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -963,7 +983,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -978,6 +998,7 @@
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -1005,7 +1026,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -1020,6 +1041,7 @@
       "field": "Data Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -1047,7 +1069,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -1062,6 +1084,7 @@
       "field": "Engineering",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -1089,7 +1112,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -1104,6 +1127,7 @@
       "field": "Engineering",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -1131,7 +1155,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -1146,6 +1170,7 @@
       "field": "Economics",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -1173,7 +1198,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -1188,6 +1213,7 @@
       "field": "Economics",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -1215,7 +1241,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -1230,6 +1256,7 @@
       "field": "Medicine",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -1257,7 +1284,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -1272,6 +1299,7 @@
       "field": "Economics",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -1299,7 +1327,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -1314,6 +1342,7 @@
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -1341,7 +1370,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -1356,6 +1385,7 @@
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -1383,7 +1413,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -1398,6 +1428,7 @@
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -1425,7 +1456,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -1440,6 +1471,7 @@
       "field": "Data Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -1467,7 +1499,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -1482,6 +1514,7 @@
       "field": "Engineering",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -1509,7 +1542,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -1524,6 +1557,7 @@
       "field": "Engineering",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -1551,7 +1585,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -1566,6 +1600,7 @@
       "field": "Medicine",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -1593,7 +1628,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -1608,6 +1643,7 @@
       "field": "Psychology",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -1635,7 +1671,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -1650,6 +1686,7 @@
       "field": "Sciences",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -1677,7 +1714,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -1692,6 +1729,7 @@
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -1719,7 +1757,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -1734,6 +1772,7 @@
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -1761,7 +1800,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -1776,6 +1815,7 @@
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -1803,7 +1843,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -1818,6 +1858,7 @@
       "field": "Data Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -1845,7 +1886,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -1860,6 +1901,7 @@
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -1887,7 +1929,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -1902,6 +1944,7 @@
       "field": "Engineering",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -1929,7 +1972,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -1944,6 +1987,7 @@
       "field": "Engineering",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -1971,7 +2015,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -1986,6 +2030,7 @@
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -2013,7 +2058,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -2028,6 +2073,7 @@
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -2055,7 +2101,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -2070,6 +2116,7 @@
       "field": "Data Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -2097,7 +2144,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -2112,6 +2159,7 @@
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -2139,7 +2187,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -2154,6 +2202,7 @@
       "field": "Psychology",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -2181,7 +2230,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -2196,6 +2245,7 @@
       "field": "Law",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -2223,7 +2273,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -2238,6 +2288,7 @@
       "field": "Law",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -2338,6 +2389,7 @@
       "SRC-PISA-CS"
     ],
     "previous_tracker_tags": null,
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -2365,7 +2417,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -2380,6 +2432,7 @@
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -2407,7 +2460,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -2422,6 +2475,7 @@
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -2522,6 +2576,7 @@
       "SRC-PISA-DSBI"
     ],
     "previous_tracker_tags": null,
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -2549,7 +2604,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -2564,6 +2619,7 @@
       "field": "Engineering",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -2591,7 +2647,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -2606,6 +2662,7 @@
       "field": "Engineering",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -2633,7 +2690,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -2648,6 +2705,7 @@
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -2675,7 +2733,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -2690,6 +2748,7 @@
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -2717,7 +2776,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -2732,6 +2791,7 @@
       "field": "Data Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -2759,7 +2819,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -2774,6 +2834,7 @@
       "field": "Sciences",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -2801,7 +2862,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -2816,6 +2877,7 @@
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -2843,7 +2905,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -2858,6 +2920,7 @@
       "field": "Data Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -2885,7 +2948,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -2900,6 +2963,7 @@
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -2927,7 +2991,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -2942,6 +3006,7 @@
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -2969,7 +3034,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -2984,6 +3049,7 @@
       "field": "Sciences",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -3011,7 +3077,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -3026,6 +3092,7 @@
       "field": "Economics",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -3053,7 +3120,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -3068,6 +3135,7 @@
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -3095,7 +3163,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -3110,6 +3178,7 @@
       "field": "Sciences",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -3137,7 +3206,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -3152,6 +3221,7 @@
       "field": "Sciences",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -3179,7 +3249,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -3194,6 +3264,7 @@
       "field": "Sciences",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -3221,7 +3292,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -3236,6 +3307,7 @@
       "field": "Data Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -3263,7 +3335,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -3278,6 +3350,7 @@
       "field": "Sciences",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -3305,7 +3378,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -3320,6 +3393,7 @@
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -3347,7 +3421,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -3362,6 +3436,7 @@
       "field": "Engineering",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -3504,6 +3579,7 @@
       "field": "Data Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -3532,20 +3608,36 @@
     },
     "availability_2027_2028": {
       "value": false,
-      "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-UNICT-DSM-LEGACY",
+        "SRC-UNICT-DS-PROGRAM-2026"
+      ],
+      "notes": "The official course page says Data Science for Management was replaced by the new Data Science course starting in AY 2022/23, with new enrollment only in the replacement course. It is therefore not an active 2027/28 intake; the successor is tracked separately."
     },
-    "overall_status": "REQUIRES_VERIFICATION",
+    "overall_status": "NOT_APPLICABLE",
     "discovery_source": "previous_tracker",
-    "facts": {},
-    "source_ids": [],
+    "facts": {
+      "course_replacement": {
+        "value": "Replaced by Data Science from AY 2022/23",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNICT-DSM-LEGACY"
+        ],
+        "notes": "The current official Data Science listing is tracked in a separate candidate record; its 2027/28 intake is not yet verified."
+      }
+    },
+    "source_ids": [
+      "SRC-UNICT-DSM-LEGACY",
+      "SRC-UNICT-DS-PROGRAM-2026"
+    ],
     "previous_tracker_tags": {
       "level": "MSc",
       "language": "English",
       "field": "Data Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -3573,7 +3665,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -3588,6 +3680,7 @@
       "field": "Data Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -3615,7 +3708,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -3630,6 +3723,7 @@
       "field": "Data Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -3657,7 +3751,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -3672,6 +3766,7 @@
       "field": "Sciences",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -3699,7 +3794,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -3714,6 +3809,7 @@
       "field": "Sciences",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -3741,7 +3837,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -3756,6 +3852,7 @@
       "field": "Economics",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -3783,7 +3880,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -3798,6 +3895,7 @@
       "field": "Economics",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -3825,7 +3923,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -3840,6 +3938,7 @@
       "field": "Sciences",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -3867,7 +3966,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -3882,6 +3981,7 @@
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -3909,7 +4009,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -3924,6 +4024,7 @@
       "field": "Data Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -3951,7 +4052,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -3966,6 +4067,7 @@
       "field": "Architecture",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -3993,7 +4095,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -4008,6 +4110,7 @@
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -4035,7 +4138,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -4050,6 +4153,7 @@
       "field": "Engineering",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -4077,7 +4181,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -4092,6 +4196,7 @@
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -4119,7 +4224,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -4134,6 +4239,7 @@
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -4161,7 +4267,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -4176,6 +4282,7 @@
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -4203,7 +4310,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -4218,6 +4325,7 @@
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -4245,7 +4353,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -4260,6 +4368,7 @@
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -4287,7 +4396,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -4302,6 +4411,7 @@
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -4329,7 +4439,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -4344,6 +4454,7 @@
       "field": "Engineering",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -4371,7 +4482,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -4386,6 +4497,7 @@
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -4413,7 +4525,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -4428,6 +4540,7 @@
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -4455,7 +4568,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -4470,6 +4583,7 @@
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -4497,7 +4611,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -4512,6 +4626,7 @@
       "field": "Data Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -4539,7 +4654,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -4554,6 +4669,7 @@
       "field": "Economics",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -4581,7 +4697,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -4596,6 +4712,7 @@
       "field": "Economics",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -4623,7 +4740,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -4638,6 +4755,7 @@
       "field": "Law",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -4665,7 +4783,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -4680,6 +4798,7 @@
       "field": "Economics",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -4707,7 +4826,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -4722,6 +4841,7 @@
       "field": "Economics",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -4749,7 +4869,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -4764,6 +4884,7 @@
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -4791,7 +4912,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -4806,6 +4927,7 @@
       "field": "Sciences",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -4833,7 +4955,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -4848,6 +4970,7 @@
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -4875,7 +4998,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -4890,6 +5013,7 @@
       "field": "Data Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -4917,7 +5041,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -4932,6 +5056,7 @@
       "field": "Economics",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -4959,7 +5084,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -4974,6 +5099,7 @@
       "field": "Economics",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -5001,7 +5127,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -5016,6 +5142,7 @@
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -5043,7 +5170,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -5058,6 +5185,7 @@
       "field": "Economics",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -5085,7 +5213,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -5100,6 +5228,7 @@
       "field": "Economics",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -5127,7 +5256,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -5142,6 +5271,7 @@
       "field": "Law",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -5169,7 +5299,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -5184,6 +5314,7 @@
       "field": "Sciences",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -5211,7 +5342,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -5226,6 +5357,7 @@
       "field": "Engineering",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -5253,7 +5385,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -5268,6 +5400,7 @@
       "field": "Engineering",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -5295,7 +5428,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -5310,6 +5443,7 @@
       "field": "Economics",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -5337,7 +5471,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -5352,6 +5486,7 @@
       "field": "Law",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -5379,7 +5514,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -5394,6 +5529,7 @@
       "field": "Sciences",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -5421,7 +5557,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -5436,6 +5572,7 @@
       "field": "Architecture",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -5463,7 +5600,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -5478,6 +5615,7 @@
       "field": "Medicine",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -5505,7 +5643,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -5520,6 +5658,7 @@
       "field": "Engineering",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -5613,6 +5752,7 @@
       "SRC-UNIFI-SST-LANGUAGE"
     ],
     "previous_tracker_tags": null,
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -5640,7 +5780,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -5655,6 +5795,7 @@
       "field": "Economics",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -5682,7 +5823,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -5697,6 +5838,7 @@
       "field": "Economics",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -5724,7 +5866,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -5739,6 +5881,7 @@
       "field": "Engineering",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -5766,7 +5909,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -5781,6 +5924,7 @@
       "field": "Architecture",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -5808,7 +5952,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -5823,6 +5967,7 @@
       "field": "Law",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -5850,7 +5995,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -5865,6 +6010,7 @@
       "field": "Economics",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -5892,7 +6038,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -5907,6 +6053,7 @@
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -5934,7 +6081,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -5949,6 +6096,7 @@
       "field": "Data Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -5976,7 +6124,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -5991,6 +6139,7 @@
       "field": "Engineering",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -6018,7 +6167,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -6033,6 +6182,7 @@
       "field": "Engineering",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -6060,7 +6210,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -6075,6 +6225,7 @@
       "field": "Engineering",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -6102,7 +6253,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -6117,6 +6268,7 @@
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -6144,7 +6296,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -6159,6 +6311,7 @@
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -6186,7 +6339,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -6201,6 +6354,7 @@
       "field": "Economics",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -6228,7 +6382,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -6243,6 +6397,7 @@
       "field": "Engineering",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -6270,7 +6425,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -6285,6 +6440,7 @@
       "field": "Engineering",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -6312,7 +6468,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -6327,6 +6483,7 @@
       "field": "Engineering",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -6354,7 +6511,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -6369,6 +6526,7 @@
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -6396,7 +6554,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -6411,6 +6569,7 @@
       "field": "Design",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -6438,7 +6597,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -6453,6 +6612,7 @@
       "field": "Architecture",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -6480,7 +6640,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -6495,6 +6655,7 @@
       "field": "Engineering",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -6522,7 +6683,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -6537,6 +6698,7 @@
       "field": "Engineering",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -6564,7 +6726,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -6579,6 +6741,7 @@
       "field": "Economics",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -6606,7 +6769,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -6621,6 +6784,7 @@
       "field": "Medicine",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -6648,7 +6812,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -6663,6 +6827,7 @@
       "field": "Law",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -6690,7 +6855,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -6705,6 +6870,7 @@
       "field": "Psychology",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -6732,7 +6898,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -6747,6 +6913,7 @@
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -6774,7 +6941,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -6789,6 +6956,7 @@
       "field": "Medicine",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -6816,7 +6984,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -6831,6 +6999,7 @@
       "field": "Engineering",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -6858,7 +7027,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -6873,6 +7042,7 @@
       "field": "Law",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -6900,7 +7070,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -6915,6 +7085,7 @@
       "field": "Psychology",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -6942,7 +7113,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -6957,6 +7128,7 @@
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -6984,7 +7156,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -6999,6 +7171,7 @@
       "field": "Economics",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -7026,7 +7199,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -7041,6 +7214,7 @@
       "field": "Psychology",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -7068,7 +7242,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -7083,6 +7257,7 @@
       "field": "Psychology",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -7110,7 +7285,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -7125,6 +7300,7 @@
       "field": "Engineering",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -7152,7 +7328,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -7167,6 +7343,7 @@
       "field": "Sciences",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -7194,7 +7371,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -7209,6 +7386,7 @@
       "field": "Sciences",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -7236,7 +7414,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -7251,6 +7429,7 @@
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -7278,7 +7457,7 @@
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
@@ -7293,6 +7472,7 @@
       "field": "Psychology",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -7393,6 +7573,7 @@
       "SRC-PISA-DH"
     ],
     "previous_tracker_tags": null,
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -7489,6 +7670,7 @@
       "SRC-PADUA-PROGRAMS-2027"
     ],
     "previous_tracker_tags": null,
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -7585,6 +7767,7 @@
       "SRC-PADUA-PROGRAMS-2027"
     ],
     "previous_tracker_tags": null,
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -7681,6 +7864,7 @@
       "SRC-PADUA-PROGRAMS-2027"
     ],
     "previous_tracker_tags": null,
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -7777,6 +7961,7 @@
       "SRC-PADUA-PROGRAMS-2027"
     ],
     "previous_tracker_tags": null,
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -7873,6 +8058,7 @@
       "SRC-PADUA-PROGRAMS-2027"
     ],
     "previous_tracker_tags": null,
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -7969,6 +8155,7 @@
       "SRC-PADUA-PROGRAMS-2027"
     ],
     "previous_tracker_tags": null,
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -8065,6 +8252,7 @@
       "SRC-PADUA-PROGRAMS-2027"
     ],
     "previous_tracker_tags": null,
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -8161,6 +8349,7 @@
       "SRC-UNINA-CHE-PROGRAM"
     ],
     "previous_tracker_tags": null,
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -8292,6 +8481,7 @@
       "SRC-TORVERGATA-MECH-LANGUAGE"
     ],
     "previous_tracker_tags": null,
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -8380,6 +8570,7 @@
       "SRC-CA-FOSCARI-BUDDHISM-2027"
     ],
     "previous_tracker_tags": null,
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -8463,6 +8654,7 @@
       "SRC-BOLOGNA-CLE-2027"
     ],
     "previous_tracker_tags": null,
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -8737,6 +8929,7 @@
       "SRC-28DIGITAL-CYBER-2027"
     ],
     "previous_tracker_tags": null,
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -9013,6 +9206,7 @@
       "SRC-28DIGITAL-DSC-2027"
     ],
     "previous_tracker_tags": null,
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -9293,6 +9487,7 @@
       "SRC-28DIGITAL-FINTECH-2027"
     ],
     "previous_tracker_tags": null,
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -9568,6 +9763,7 @@
       "SRC-28DIGITAL-HCIDXR-2027"
     ],
     "previous_tracker_tags": null,
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -9847,6 +10043,7 @@
       "SRC-28DIGITAL-CLOUD-2027"
     ],
     "previous_tracker_tags": null,
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -10125,6 +10322,7 @@
       "SRC-28DIGITAL-ICS-2027"
     ],
     "previous_tracker_tags": null,
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -10406,6 +10604,7 @@
       "SRC-28DIGITAL-AIAC-2027"
     ],
     "previous_tracker_tags": null,
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -10636,6 +10835,7 @@
       "SRC-POLITO-HYSET-SELF-FUNDED"
     ],
     "previous_tracker_tags": null,
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -10677,6 +10877,7 @@
       "SRC-UNIGE-MST-2027"
     ],
     "previous_tracker_tags": null,
+    "previous_cycle_tags": null,
     "last_checked": "2026-11-09"
   },
   {
@@ -10751,6 +10952,111 @@
     },
     "source_ids": [],
     "previous_tracker_tags": null,
+    "previous_cycle_tags": null,
+    "last_checked": "2026-11-09"
+  },
+  {
+    "id": "discovered-023",
+    "university_id": "catania",
+    "university": "Università degli Studi di Catania",
+    "city": "Catania",
+    "program": "Data Science",
+    "level": {
+      "value": "MSc",
+      "status": "REQUIRES_VERIFICATION",
+      "source_ids": [
+        "SRC-UNICT-DS-PROGRAM-2026",
+        "SRC-UNICT-MASTER-ADMISSION-2026"
+      ],
+      "notes": "Confirmed in the official 2026/27 listing; not independently confirmed for 2027/28."
+    },
+    "language": {
+      "value": "English",
+      "status": "REQUIRES_VERIFICATION",
+      "source_ids": [
+        "SRC-UNICT-DS-PROGRAM-2026",
+        "SRC-UNICT-ENGLISH-MASTERS-2026"
+      ],
+      "notes": "Confirmed in official 2026/27 pages; not independently confirmed for 2027/28."
+    },
+    "field": {
+      "value": "Data Science",
+      "status": "REQUIRES_VERIFICATION",
+      "source_ids": [
+        "SRC-UNICT-DS-PROGRAM-2026"
+      ],
+      "notes": "Official 2026/27 course name; the 2027/28 successor offer remains unverified."
+    },
+    "availability_2027_2028": {
+      "value": null,
+      "status": "REQUIRES_VERIFICATION",
+      "source_ids": [
+        "SRC-UNICT-DS-PROGRAM-2026",
+        "SRC-UNICT-ENGLISH-MASTERS-2026",
+        "SRC-UNICT-MASTER-CALLS-INDEX"
+      ],
+      "notes": "The latest official course and English-MSc call evidence located is for 2026/27. No 2027/28 first-year intake or program call was identified on the pages checked on 9 November 2026; absence from the reviewed pages is not treated as an explicit cancellation or publication statement."
+    },
+    "overall_status": "REQUIRES_VERIFICATION",
+    "discovery_source": "newly_discovered",
+    "facts": {
+      "previous_cycle_course_listing": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-UNICT-DS-PROGRAM-2026",
+          "SRC-UNICT-ENGLISH-MASTERS-2026"
+        ],
+        "notes": "Latest official listing reviewed is 2026/27: Data Science, two-year Master's Degree (LM/DATA), taught in English in Catania. These prior-cycle descriptors do not confirm the 2027/28 offer."
+      },
+      "previous_cycle_non_eu_admission": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-UNICT-DS-CALL-2026"
+        ],
+        "notes": "The 2026/27 call included Data Science for non-EU applicants living abroad, with an application period of 10 February–17 March 2026 and a €10 fee per course. The call used title assessment and, where applicable, an interview or test. No 2027/28 rules or dates are confirmed by this prior-cycle source."
+      },
+      "program_specific_requirements": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-UNICT-DS-CALL-2026",
+          "SRC-UNICT-MASTER-ADMISSION-2026"
+        ],
+        "notes": "The reviewed course-level admission annexes and procedures are for 2026/27. 2027/28 curricular requirements, language evidence, selection details and applicant eligibility remain to be checked."
+      },
+      "application_fee": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-UNICT-DS-CALL-2026"
+        ],
+        "notes": "The official prior-cycle non-EU call charged €10 per course application in 2026/27; this is not presented as the 2027/28 fee."
+      },
+      "available_places": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-UNICT-DS-CALL-2026"
+        ],
+        "notes": "The 2026/27 call table leaves the Data Science places field blank. No 2027/28 places have been identified."
+      }
+    },
+    "source_ids": [
+      "SRC-UNICT-DS-PROGRAM-2026",
+      "SRC-UNICT-ENGLISH-MASTERS-2026",
+      "SRC-UNICT-MASTER-ADMISSION-2026",
+      "SRC-UNICT-DS-CALL-2026"
+    ],
+    "previous_tracker_tags": null,
+    "previous_cycle_tags": {
+      "level": "MSc",
+      "language": "English",
+      "field": "Data Science",
+      "cycle": "2026-2027",
+      "label": "Latest official 2026/27 listing"
+    },
     "last_checked": "2026-11-09"
   }
 ]
