@@ -3372,32 +3372,132 @@
     "program": "Data Science",
     "level": {
       "value": "MSc",
-      "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-UNIME-DS-COURSE-ICT-2027",
+        "SRC-UNIME-DS-COURSE-ECONOMY-2027"
+      ],
       "notes": null
     },
     "language": {
       "value": "English",
-      "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-UNIME-DS-COURSE-ICT-2027",
+        "SRC-UNIME-DS-COURSE-ECONOMY-2027"
+      ],
       "notes": null
     },
     "field": {
       "value": "Data Science",
-      "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-UNIME-DS-COURSE-ICT-2027",
+        "SRC-UNIME-DS-COURSE-ECONOMY-2027"
+      ],
       "notes": null
     },
     "availability_2027_2028": {
-      "value": false,
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
+      "source_ids": [
+        "SRC-UNIME-DS-COURSE-ICT-2027",
+        "SRC-UNIME-DS-COURSE-ECONOMY-2027",
+        "SRC-UNIME-2027"
+      ],
+      "notes": "The catalogue confirms second-year courses taught in 2027/28 for students enrolled in 2026/27. The 2027/28 calls do not name Data Science individually, so admission of a new first-year cohort and program-specific eligibility remain unconfirmed."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
-    "facts": {},
-    "source_ids": [],
+    "facts": {
+      "academic_year_course_offering": {
+        "value": {
+          "academic_year": "2027/28",
+          "course": "Big Data (ICT curriculum); Big Data and Artificial Intelligence (Economy curriculum)",
+          "year_of_course": 2,
+          "enrollment_cohort": "2026/27"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIME-DS-COURSE-ICT-2027",
+          "SRC-UNIME-DS-COURSE-ECONOMY-2027"
+        ],
+        "notes": "Confirms current second-year teaching only; it does not establish that first-year admission is open for 2027/28."
+      },
+      "application_windows": {
+        "value": [
+          {
+            "label": "Early Bird visa applicants",
+            "start": "2026-12-01",
+            "end": "2026-12-20",
+            "eligible_group": "Non-EU study-visa applicants with final documents"
+          },
+          {
+            "label": "Second call",
+            "start": "2027-02-02",
+            "end": "2027-03-19",
+            "eligible_group": "Visa applicants"
+          },
+          {
+            "label": "Third call",
+            "start": "2027-04-08",
+            "end": "2027-05-08",
+            "eligible_group": "Visa applicants"
+          },
+          {
+            "label": "Semestre Aperto",
+            "start": "2027-05-18",
+            "end": "2027-06-15",
+            "eligible_group": "Selected single-cycle degree programs"
+          },
+          {
+            "label": "Medicine and Surgery (IMAT)",
+            "start": "2027-07-01",
+            "end": "2027-07-22",
+            "eligible_group": "English Medicine applicants"
+          },
+          {
+            "label": "Non-visa applicants",
+            "start": "2027-07-06",
+            "end": "2027-11-13",
+            "eligible_group": "Applicants who do not need a study visa"
+          }
+        ],
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIME-2027"
+        ],
+        "notes": "These are university-wide 2027/28 international application calls for degree categories. The call page does not name Data Science or establish its new-cohort intake."
+      },
+      "application_fee": {
+        "value": {
+          "amount_eur": 40,
+          "maximum_applications": 2,
+          "refundable": false
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIME-2027"
+        ],
+        "notes": "University-wide pre-evaluation fee: €40 for up to two program applications; no separate Data Science fee is stated."
+      },
+      "program_specific_requirements": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-UNIME-2027"
+        ],
+        "notes": "The 2027/28 call directs applicants to the chosen program's entry requirements. No Data Science-specific 2027/28 admission requirements or new-cohort call were identified."
+      }
+    },
+    "source_ids": [
+      "SRC-UNIME-DS-COURSE-ICT-2027",
+      "SRC-UNIME-DS-COURSE-ECONOMY-2027",
+      "SRC-UNIME-2027",
+      "SRC-UNIME-ENGLISH-PROGRAMS",
+      "SRC-UNIME-MASTERS-PROGRAMS",
+      "SRC-UNIME-DS-PAGE"
+    ],
     "previous_tracker_tags": {
       "level": "MSc",
       "language": "English",

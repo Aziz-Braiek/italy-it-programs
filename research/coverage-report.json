@@ -61,8 +61,8 @@
     "politecnico-milano",
     "trento"
   ],
-  "source_records": 73,
-  "official_source_supported_fields": 236,
+  "source_records": 78,
+  "official_source_supported_fields": 242,
   "verification_statuses": [
     "CONFIRMED",
     "NOT_YET_PUBLISHED",

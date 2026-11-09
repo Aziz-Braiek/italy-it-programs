@@ -1055,21 +1055,26 @@
     "contact_url": "https://international.unime.it/study-us/application-and-admission",
     "cycle_status": "CONFIRMED",
     "research_stage": "PARTIALLY_RESEARCHED",
-    "research_summary": "Official 2027/28 international calls publish multiple application windows and a €40 fee for up to two applications; program-specific eligibility remains to be checked.",
+    "research_summary": "Official 2027/28 international calls publish multiple application windows and a €40 fee for up to two applications. The official catalogue shows Data Science MSc coursework taught in 2027/28 for the 2026/27 cohort; a new 2027/28 first-year intake and its program-specific conditions still need confirmation.",
     "coverage": {
       "official_website_visited": "complete",
       "international_admissions_page_examined": "partial",
-      "bachelors_admissions_examined": "not_started",
+      "bachelors_admissions_examined": "partial",
       "masters_admissions_examined": "partial",
-      "english_programs_examined": "not_started",
+      "english_programs_examined": "partial",
       "fees_examined": "partial",
       "scholarships_examined": "partial",
       "non_eu_requirements_examined": "partial",
       "application_deadlines_examined": "partial",
-      "program_level_review": "not_started"
+      "program_level_review": "partial"
     },
     "source_ids": [
-      "SRC-UNIME-2027"
+      "SRC-UNIME-2027",
+      "SRC-UNIME-DS-COURSE-ICT-2027",
+      "SRC-UNIME-DS-COURSE-ECONOMY-2027",
+      "SRC-UNIME-ENGLISH-PROGRAMS",
+      "SRC-UNIME-MASTERS-PROGRAMS",
+      "SRC-UNIME-DS-PAGE"
     ],
     "last_checked": "2026-11-09",
     "cycle_facts": {

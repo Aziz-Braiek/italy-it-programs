@@ -312,6 +312,84 @@
     ]
   },
   {
+    "id": "SRC-UNIME-DS-COURSE-ICT-2027",
+    "university_id": "messina",
+    "title": "Course Catalogue – Data Science, Big Data (ICT curriculum), 2027/28",
+    "url": "https://unime.coursecatalogue.cineca.it/af/2027?ad=A001855&annoOrdinamento=2026&coorte=2026&corso=9237R&linguaCC=EN&pds=110",
+    "source_type": "Official online course catalogue",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "Names DATA SCIENCE as a Master or equivalent second-cycle course, taught in English in Messina. The page is for Year 2, enrollment cohort 2026/27, and lists Big Data for academic year 2027/28; it confirms ongoing second-year teaching, not a new first-year intake for 2027/28.",
+    "supports": [
+      "program.name",
+      "program.level",
+      "program.language",
+      "program.academic_year_course_offering"
+    ]
+  },
+  {
+    "id": "SRC-UNIME-DS-COURSE-ECONOMY-2027",
+    "university_id": "messina",
+    "title": "Course Catalogue – Data Science, Big Data and Artificial Intelligence (Economy curriculum), 2027/28",
+    "url": "https://unime.coursecatalogue.cineca.it/af/2027?ad=A001898&annoOrdinamento=2026&coorte=2026&corso=9237R&linguaCC=EN&pds=120",
+    "source_type": "Official online course catalogue",
+    "accessed_at": "2026-11-09",
+    "cycle": "2027-2028",
+    "evidence": "Names DATA SCIENCE as a Master or equivalent second-cycle course, taught in English in Messina. The page is for Year 2, enrollment cohort 2026/27, and lists Big Data and Artificial Intelligence for academic year 2027/28; it confirms ongoing second-year teaching, not a new first-year intake for 2027/28.",
+    "supports": [
+      "program.name",
+      "program.level",
+      "program.language",
+      "program.academic_year_course_offering"
+    ]
+  },
+  {
+    "id": "SRC-UNIME-ENGLISH-PROGRAMS",
+    "university_id": "messina",
+    "title": "English-taught Programmes",
+    "url": "https://international.unime.it/study-us/english-taught-programmes",
+    "source_type": "Official English-taught degree inventory",
+    "accessed_at": "2026-11-09",
+    "cycle": "general",
+    "evidence": "Current official English-programme inventory includes the Master's Degree in Data Science and describes its ICT, economics and forensics options. The page does not specify a 2027/28 admission intake.",
+    "supports": [
+      "university.english_program_inventory",
+      "program.name",
+      "program.language"
+    ]
+  },
+  {
+    "id": "SRC-UNIME-MASTERS-PROGRAMS",
+    "university_id": "messina",
+    "title": "Master's Degree Programmes",
+    "url": "https://international.unime.it/study-us/masters-degrees",
+    "source_type": "Official degree inventory",
+    "accessed_at": "2026-11-09",
+    "cycle": "general",
+    "evidence": "Current official master's inventory lists Data Science as an English-taught degree in Messina. The page explains that enrolment requires curricular-requirement and personal-preparation review, including an admission letter after international pre-evaluation; it does not specify the 2027/28 intake.",
+    "supports": [
+      "university.masters_program_inventory",
+      "program.name",
+      "program.language",
+      "program.admissions_route"
+    ]
+  },
+  {
+    "id": "SRC-UNIME-DS-PAGE",
+    "university_id": "messina",
+    "title": "Data Science – Official degree page",
+    "url": "https://international.unime.it/didattica/corsi-di-laurea-magistrale/data-science",
+    "source_type": "Official degree page",
+    "accessed_at": "2026-11-09",
+    "cycle": "general",
+    "evidence": "Current official degree page describes the Data Science master's course and study plan, with access requirements presented on the page. It is not dated for the 2027/28 first-year intake and cannot alone confirm 2027/28 admission requirements or availability.",
+    "supports": [
+      "program.name",
+      "program.study_plan",
+      "program.requirements"
+    ]
+  },
+  {
     "id": "SRC-UNIGE-2027",
     "university_id": "genova",
     "title": "UniGeApply International Admissions",

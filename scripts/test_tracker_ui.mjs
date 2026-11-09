@@ -67,8 +67,25 @@ assert.match(universityHtml, /International merit scholarships/);
 assert.match(universityHtml, /2027\/28 tuition/);
 assert.match(universityHtml, /Admissions contact/);
 assert.match(universityHtml, /Merit Based Call for Applications/);
+assert.match(universityHtml, /The official catalogue shows Data Science MSc coursework taught in 2027\/28 for the 2026\/27 cohort/);
+assert.match(universityHtml, /Course Catalogue – Data Science, Big Data \(ICT curriculum\), 2027\/28/);
 
 const status = getElementById("status-filter");
+status.value = "REQUIRES_VERIFICATION";
+status.dispatch("change");
+getElementById("search").value = "Data Science";
+getElementById("search").dispatch("input");
+const messinaProgramHtml = getElementById("program-grid").innerHTML;
+assert.match(messinaProgramHtml, /Università degli Studi di Messina/);
+assert.match(messinaProgramHtml, /2027\/28 program availability/);
+assert.match(messinaProgramHtml, /The catalogue confirms second-year courses taught in 2027\/28/);
+assert.match(messinaProgramHtml, /Academic-year course offering/);
+assert.match(messinaProgramHtml, /university-wide 2027\/28 international application calls/);
+assert.match(messinaProgramHtml, /€40 for up to two program applications/);
+assert.match(messinaProgramHtml, /English/);
+getElementById("search").value = "";
+getElementById("search").dispatch("input");
+
 status.value = "CONFLICTING_SOURCES";
 status.dispatch("change");
 const conflictHtml = getElementById("program-grid").innerHTML;
@@ -99,5 +116,6 @@ getElementById("language-toggle").dispatch("click");
 assert.equal(document.documentElement.lang, "it");
 assert.match(getElementById("status-chip").textContent, /campi supportati da fonti ufficiali/);
 assert.match(getElementById("language-toggle").textContent, /EN/);
+assert.ok(dataText.some((element) => element.innerHTML.includes("Solo i tag indicati come")));
 
 console.log("TRACKER UI TESTS PASSED");

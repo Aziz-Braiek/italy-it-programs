@@ -40,6 +40,11 @@
       "id": "polimi-admissions-scholarships-and-fees",
       "status": "partial",
       "result": "Recorded the official 2027/28 MSc schedules and €50/€150 application fees, the deadline-page Engineering schedule discrepancy, 2027/28 international merit scholarships, English certificate requirements, CEnT-S timing and pending BSc call, current contact pathway, and the fact that the reviewed tuition page still covers 2026/27. The 17 historic program rows remain pending individual 2027/28 checks."
+    },
+    {
+      "id": "unime-data-science-cycle-outcome",
+      "status": "partial",
+      "result": "Verified official Data Science MSc coursework in English during AY 2027/28 for the 2026/27 cohort and attached the university-wide international application windows and €40 fee with explicit scope notes. A new 2027/28 entrant call and course-specific requirements remain unconfirmed."
     }
   ],
   "counts": {
@@ -105,8 +110,8 @@
       "politecnico-milano",
       "trento"
     ],
-    "source_records": 73,
-    "official_source_supported_fields": 236,
+    "source_records": 78,
+    "official_source_supported_fields": 242,
     "verification_statuses": [
       "CONFIRMED",
       "NOT_YET_PUBLISHED",

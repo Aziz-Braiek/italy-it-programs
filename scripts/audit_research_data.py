@@ -30,7 +30,12 @@ assert all(p["university_id"] in uni_ids for p in programs), "program refers to 
 confirmed_programs = [p for p in programs if p["overall_status"] == "CONFIRMED"]
 for p in programs:
     assert p["overall_status"] in VALID
-    assert p["availability_2027_2028"]["status"] in VALID
+    for key in ("level", "language", "field", "availability_2027_2028"):
+        item = p[key]
+        assert item["status"] in VALID, f"invalid field status: {p['program']} / {key}"
+        if item["status"] == "CONFIRMED":
+            assert item["source_ids"], f"confirmed field has no source: {p['program']} / {key}"
+        assert all(sid in source_ids for sid in item.get("source_ids", [])), f"unknown source ID in {p['program']} / {key}"
     if p["overall_status"] == "CONFIRMED":
         assert p["availability_2027_2028"]["status"] == "CONFIRMED"
         assert p["availability_2027_2028"]["value"] is True
@@ -38,10 +43,9 @@ for p in programs:
         assert all(sid in source_ids for sid in p["source_ids"]), f"unknown source for {p['program']}"
     else:
         assert p["availability_2027_2028"]["value"] is not True or p["availability_2027_2028"]["status"] == "CONFIRMED"
-        if p["availability_2027_2028"]["status"] != "CONFIRMED":
-            assert not p["source_ids"], f"unverified candidate implies program-level source evidence: {p['program']}"
-        else:
+        if p["availability_2027_2028"]["status"] == "CONFIRMED":
             assert p["source_ids"], f"cycle-confirmed program missing sources for unresolved fields: {p['program']}"
+    assert all(sid in source_ids for sid in p.get("source_ids", [])), f"unknown source for {p['program']}"
     for key, item in p.get("facts", {}).items():
         assert item["status"] in VALID, f"invalid field status: {p['program']} / {key}"
         if item["status"] == "CONFIRMED":
