@@ -15,6 +15,16 @@ from pathlib import Path
 import research_genova
 import research_modena
 import research_palermo
+import research_romatre
+import research_salerno
+import research_trieste
+import research_udine
+import research_poliba
+import research_polimi
+import research_polito
+import research_sapienza
+import research_unito
+import research_trento
 
 ROOT = Path(__file__).resolve().parents[1]
 RESEARCH = ROOT / "research"
@@ -28,7 +38,7 @@ UNIVERSITIES = [
     ("napoli-federico-ii", "Università degli Studi di Napoli Federico II", "Naples", "Campania", "https://www.unina.it/", "https://www.international.unina.it/education/admission-regulation/", "REQUIRES_VERIFICATION", "A program-specific 2027/28 notice was found for Chemical Engineering; remaining historical program rows need individual checks."),
     ("politecnico-bari", "Politecnico di Bari", "Bari", "Apulia", "https://www.poliba.it/", "https://www.poliba.it/en/ammissioni-corsi-di-laurea-di-1deg-livello", "REQUIRES_VERIFICATION", "The official admissions page says 2027/28 first-cycle call instructions are expected in February 2027; program inventory is pending."),
     ("politecnico-milano", "Politecnico di Milano", "Milan", "Lombardy", "https://www.polimi.it/", "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/deadlines", "CONFIRMED", "2027/28 MSc application windows, merit scholarships, English requirements and Engineering BSc test/enrolment details are recorded. The official page has an Engineering deadline discrepancy, the current fee schedule is 2026/27, and all 17 historic program rows still need individual cycle checks."),
-    ("politecnico-torino", "Politecnico di Torino", "Turin", "Piedmont", "https://www.polito.it/", "https://www.polito.it/en/education/applying-studying-graduating/admissions-and-enrolment/bachelor-s-degree-programmes/calls-for-application-regulations-and-ranking-lists", "REQUIRES_VERIFICATION", "The 2027/29 HySET joint master intake and November deadline are confirmed; Polito’s broader 2027/28 degree catalogue and its other program records still need review. For bachelor’s access, Polito confirms in-person TOLC@UNI or CEnT@UNI tests; the detailed call is pending."),
+    ("politecnico-torino", "Politecnico di Torino", "Turin", "Piedmont", "https://www.polito.it/", "https://www.polito.it/en/education/applying-studying-graduating/admissions-and-enrolment/bachelor-s-degree-programmes/calls-for-application-regulations-and-ranking-lists", "REQUIRES_VERIFICATION", "The 2027/29 HySET joint master intake and November deadline are confirmed; the 2026/27 Master's catalogue was matched against all eight legacy candidates and one interdisciplinary digital option. The 2027/28 MSc first-year offer, deadlines, tuition and scholarships remain pending. For bachelor's access, Polito confirms in-person TOLC@UNI or CEnT@UNI tests; the detailed call is pending."),
     ("roma-tre", "Università degli Studi Roma Tre", "Rome", "Lazio", "https://www.uniroma3.it/", "https://orientamento.uniroma3.it/en/about-roma-tre/international-students-admissions/", "REQUIRES_VERIFICATION", "The official material reviewed covers international admission steps and a 2026/27 guide; 2027/28 degree-level calls remain outstanding."),
     ("sapienza", "Sapienza Università di Roma", "Rome", "Lazio", "https://www.uniroma1.it/", "https://www.uniroma1.it/en/pagina/international-admissions", "REQUIRES_VERIFICATION", "The international admissions material reviewed is still for 2026/27; 2027/28 program-level checks remain outstanding."),
     ("tor-vergata", "Università degli Studi di Roma Tor Vergata", "Rome", "Lazio", "https://web.uniroma2.it/", "https://mechatronics.uniroma2.it/how-to-apply-for-mechatronics/admission-a-y-2027-28/", "CONFIRMED", "The Mechatronics Engineering MSc has a detailed official 2027/28 call; the historic Computer Science row remains unverified."),
@@ -54,8 +64,8 @@ UNIVERSITIES = [
     ("pisa", "Università di Pisa", "Pisa", "Tuscany", "https://www.unipi.it/", "https://didattica.di.unipi.it/en/internazionale/degrees-offered-in-english/", "CONFIRMED", "A department call for three English-taught MSc programs publishes 2027/28 eligibility, dates and a €30 application fee; this does not verify all University of Pisa programs."),
     ("salerno", "Università degli Studi di Salerno", "Fisciano", "Campania", "https://www.unisa.it/", "https://web.unisa.it/en/teaching/enrollment/non-eu-citizens-abroad", "REQUIRES_VERIFICATION", "The official non-EU guidance reviewed is not a cycle-specific 2027/28 call; program checks remain outstanding."),
     ("siena", "Università degli Studi di Siena", "Siena", "Tuscany", "https://www.unisi.it/", "https://admission.unisi.it/", "NOT_YET_PUBLISHED", "The official calendar says 2027/28 dates and deadlines are not finalized. Applied Mathematics is documented in 2026/27 degree and scholarship sources; a new 2027/28 course intake, program-specific admissions requirements, fees and awards remain unverified."),
-    ("torino", "Università degli Studi di Torino", "Turin", "Piedmont", "https://www.unito.it/", "https://www.en.unito.it/studying-unito/international-degree-seeking-students/application-international-students", "REQUIRES_VERIFICATION", "The international application page reviewed is for 2026/27; 2027/28 course inventory, fees and deadlines need review."),
-    ("trento", "Università degli Studi di Trento", "Trento", "Trentino-Alto Adige", "https://www.unitn.it/en", "https://www.unitn.it/en/international/coming-unitrento/admission-how-it-works", "REQUIRES_VERIFICATION", "Seven 28DIGITAL master's tracks have 2027/28 evidence; the department and central consortium pages disagree on application-round boundaries. Other listed degrees remain under review."),
+    ("torino", "Università degli Studi di Torino", "Turin", "Piedmont", "https://www.unito.it/", "https://www.en.unito.it/studying-unito/international-degree-seeking-students/application-international-students", "REQUIRES_VERIFICATION", "All nine English-taught legacy candidates have official 2026/27 profiles and historic admissions context. No 2027/28 first-year intake, deadlines, fees or new-entry scholarships were confirmed; EFDS retains an official access-classification conflict."),
+    ("trento", "Università degli Studi di Trento", "Trento", "Trentino-Alto Adige", "https://www.unitn.it/en", "https://www.unitn.it/en/international/coming-unitrento/admission-how-it-works", "REQUIRES_VERIFICATION", "Reviewed all seven legacy programme rows against official 2026/27 course and admissions sources; no 2027/28 new-entry call was confirmed. Seven separate 28DIGITAL master's tracks have 2027/28 evidence, with conflicting round boundaries between official department and consortium pages."),
     ("trieste", "Università degli Studi di Trieste", "Trieste", "Friuli-Venezia Giulia", "https://portale.units.it/en", "https://portale.units.it/en/study/application", "REQUIRES_VERIFICATION", "The application page is general; 2027/28 program calls, fees and dates remain outstanding."),
     ("udine", "Università degli Studi di Udine", "Udine", "Friuli-Venezia Giulia", "https://www.uniud.it/en", "https://www.uniud.it/en/education/info-for/how-to-apply/how-to-apply?set_language=en", "REQUIRES_VERIFICATION", "The official page says detailed yearly rules are published in the June Prospectus; 2027/28 program availability and calls remain outstanding."),
     ("verona", "Università degli Studi di Verona", "Verona", "Veneto", "https://www.univr.it/en/", "https://www.univr.it/en/our-services/international-degree-seeking-students", "REQUIRES_VERIFICATION", "The Biology for Translational Research and Precision Medicine MSc is listed in 2026/27 sources, and its 2026/27 admission routes, eligibility and scholarship call are documented as prior-cycle evidence. Its study plan activates year two in 2027/28 for the 2026/27 cohort; a new 2027/28 first-year intake and terms remain unverified."),
@@ -348,6 +358,21 @@ SOURCES.extend([
 SOURCES.extend(research_genova.SOURCES)
 SOURCES.extend(research_modena.SOURCES)
 SOURCES.extend(research_palermo.SOURCES)
+SOURCES.extend(research_romatre.SOURCES)
+SOURCES.extend(research_salerno.SOURCES)
+SOURCES.extend(research_trieste.SOURCES)
+SOURCES.extend(research_udine.SOURCES)
+SOURCES.extend(research_poliba.SOURCES)
+SOURCES.extend(research_polimi.SOURCES)
+SOURCES.extend(research_polito.SOURCES)
+SOURCES.extend(research_sapienza.SOURCES)
+SOURCES.extend(research_unito.SOURCES)
+SOURCES.extend(research_trento.SOURCES)
+next(s for s in SOURCES if s["id"] == "SRC-UDINE-APPLY")["accessed_at"] = research_udine.CHECKED
+next(s for s in SOURCES if s["id"] == "SRC-POLIBA-2027")["accessed_at"] = research_poliba.CHECKED
+next(s for s in SOURCES if s["id"] == "SRC-SAPIENZA-INTL")["accessed_at"] = research_sapienza.CHECKED
+next(s for s in SOURCES if s["id"] == "SRC-UNITO-INTL")["accessed_at"] = research_unito.CHECKED
+next(s for s in SOURCES if s["id"] == "SRC-UNITN-INTL")["accessed_at"] = research_trento.CHECKED
 next(s for s in SOURCES if s["id"] == "SRC-UNIGE-2027")["accessed_at"] = research_genova.CHECKED
 next(s for s in SOURCES if s["id"] == "SRC-PALERMO-2027")["accessed_at"] = research_palermo.CHECKED
 SOURCE_BY_ID = {s["id"]: s for s in SOURCES}
@@ -391,14 +416,14 @@ def build():
         coverage = {
             "official_website_visited": "complete",
             "international_admissions_page_examined": "partial" if src else "not_started",
-            "bachelors_admissions_examined": "partial" if uid in {"padova", "politecnico-milano", "politecnico-bari", "politecnico-torino", "firenze", "tor-vergata", "messina", "catania", "perugia", "ca-foscari", "ferrara", "milano-bicocca"} else "not_started",
-            "masters_admissions_examined": "partial" if uid in {"padova", "politecnico-milano", "pisa", "firenze", "tor-vergata", "messina", "genova", "catania", "verona", "siena", "parma", "pavia", "perugia", "ca-foscari", "camerino", "ferrara", "insubria", "laquila", "marche", "milano-bicocca", "milano-statale"} else "not_started",
-            "english_programs_examined": "partial" if uid in {"padova", "politecnico-milano", "pisa", "firenze", "tor-vergata", "bologna", "genova", "trento", "messina", "catania", "verona", "siena", "parma", "pavia", "perugia", "ca-foscari", "camerino", "ferrara", "insubria", "laquila", "marche", "milano-bicocca", "milano-statale"} else "not_started",
-            "fees_examined": "partial" if uid in {"politecnico-milano", "pisa", "tor-vergata", "messina", "genova", "trento", "catania", "verona", "parma", "pavia", "perugia", "ca-foscari", "camerino", "ferrara", "insubria", "laquila", "marche", "milano-bicocca", "milano-statale"} else "not_started",
-            "scholarships_examined": "partial" if uid in {"pisa", "messina", "trento", "bologna", "politecnico-milano", "catania", "verona", "siena", "parma", "pavia", "perugia", "ca-foscari", "camerino", "ferrara", "insubria", "laquila", "marche", "milano-bicocca", "milano-statale"} else "not_started",
+            "bachelors_admissions_examined": "partial" if uid in {"padova", "politecnico-milano", "politecnico-bari", "politecnico-torino", "firenze", "tor-vergata", "messina", "catania", "perugia", "ca-foscari", "ferrara", "milano-bicocca", "torino", "trento"} else "not_started",
+            "masters_admissions_examined": "partial" if uid in {"padova", "politecnico-milano", "pisa", "firenze", "tor-vergata", "messina", "genova", "catania", "verona", "siena", "parma", "pavia", "perugia", "ca-foscari", "camerino", "ferrara", "insubria", "laquila", "marche", "milano-bicocca", "milano-statale", "torino", "trento"} else "not_started",
+            "english_programs_examined": "partial" if uid in {"padova", "politecnico-milano", "pisa", "firenze", "tor-vergata", "bologna", "genova", "trento", "messina", "catania", "verona", "siena", "parma", "pavia", "perugia", "ca-foscari", "camerino", "ferrara", "insubria", "laquila", "marche", "milano-bicocca", "milano-statale", "torino"} else "not_started",
+            "fees_examined": "partial" if uid in {"politecnico-milano", "pisa", "tor-vergata", "messina", "genova", "trento", "catania", "verona", "parma", "pavia", "perugia", "ca-foscari", "camerino", "ferrara", "insubria", "laquila", "marche", "milano-bicocca", "milano-statale", "torino"} else "not_started",
+            "scholarships_examined": "partial" if uid in {"pisa", "messina", "trento", "bologna", "politecnico-milano", "catania", "verona", "siena", "parma", "pavia", "perugia", "ca-foscari", "camerino", "ferrara", "insubria", "laquila", "marche", "milano-bicocca", "milano-statale", "torino"} else "not_started",
             "non_eu_requirements_examined": "partial" if src else "not_started",
-            "application_deadlines_examined": "partial" if cycle_status in {"CONFIRMED", "NOT_YET_PUBLISHED"} or uid in {"genova", "politecnico-torino", "politecnico-bari", "catania", "verona", "pavia", "perugia", "camerino", "ferrara", "insubria", "laquila", "marche", "milano-bicocca", "milano-statale"} else "not_started",
-            "program_level_review": "partial" if uid in {"padova", "pisa", "firenze", "napoli-federico-ii", "tor-vergata", "bologna", "messina", "catania", "verona", "siena", "parma", "pavia", "perugia", "ca-foscari", "camerino", "ferrara", "insubria", "laquila", "marche", "milano-bicocca", "milano-statale"} else "not_started",
+            "application_deadlines_examined": "partial" if cycle_status in {"CONFIRMED", "NOT_YET_PUBLISHED"} or uid in {"genova", "politecnico-torino", "politecnico-bari", "catania", "verona", "pavia", "perugia", "camerino", "ferrara", "insubria", "laquila", "marche", "milano-bicocca", "milano-statale", "torino", "trento"} else "not_started",
+            "program_level_review": "partial" if uid in {"padova", "pisa", "firenze", "napoli-federico-ii", "tor-vergata", "bologna", "messina", "catania", "verona", "siena", "parma", "pavia", "perugia", "ca-foscari", "camerino", "ferrara", "insubria", "laquila", "marche", "milano-bicocca", "milano-statale", "torino"} else "not_started",
         }
         relevant_sources = [s["id"] for s in SOURCES if s.get("university_id") == uid]
         if not relevant_sources:
@@ -1315,9 +1340,22 @@ def build():
         else:
             program["facts"]["previous_cycle_scholarships"] = fact({"academic_year":"2026/27","BISP_undergraduate_course_match":"Unclear: the call lists 'Artificial Science (LT)', not this Artificial Intelligence BSc","regional_DSU":"Annual competitive benefits under the 2026/27 call"}, "CONFIRMED", ["SRC-BICOCCA-BISP-2026", "SRC-BICOCCA-DSU-2026"], "The BISP wording does not establish this BSc's eligibility. DSU was a separate annual regional competition; neither scheme confirms 2027/28 funding.")
 
+    programs.append(make_program("discovered-026", "sapienza", "Engineering in Computer Science and Artificial Intelligence", "MSc", "English", "Computer Engineering and Artificial Intelligence", "REQUIRES_VERIFICATION", ["SRC-SAPIENZA-ENGCSAI-COURSE-2026"], discovery="newly_discovered", city="Rome"))
+    programs.append(make_program("discovered-027", "sapienza", "Finance and Insurance", "MSc", "Italian and English curricula", "Finance and Insurance", "REQUIRES_VERIFICATION", ["SRC-SAPIENZA-FINANCE-INSURANCE-2026"], discovery="newly_discovered", city="Rome"))
+    programs.append(make_program("discovered-028", "politecnico-torino", "Digital Skills for Sustainable Societal Transitions", "MSc", "English", "Digital Skills and Societal Transitions (interdisciplinary)", "REQUIRES_VERIFICATION", ["SRC-POLITO-DIGITAL-SKILLS-2026"], discovery="newly_discovered", city="Turin"))
     research_genova.apply(uni_rows, programs, fact)
     research_modena.apply(uni_rows, programs, fact)
     research_palermo.apply(uni_rows, programs, fact)
+    research_romatre.apply(uni_rows, programs, fact)
+    research_salerno.apply(uni_rows, programs, fact)
+    research_trieste.apply(uni_rows, programs, fact)
+    research_udine.apply(uni_rows, programs, fact)
+    research_poliba.apply(uni_rows, programs, fact)
+    research_polimi.apply(uni_rows, programs, fact)
+    research_polito.apply(uni_rows, programs, fact)
+    research_sapienza.apply(uni_rows, programs, fact)
+    research_unito.apply(uni_rows, programs, fact)
+    research_trento.apply(uni_rows, programs, fact)
     verified = [p for p in programs if p["overall_status"] == "CONFIRMED"]
     level_counts = Counter(p["level"]["value"] for p in verified)
     fully_verified_count = len(verified)
@@ -1414,6 +1452,16 @@ def build():
             research_genova.BATCH,
             research_modena.BATCH,
             research_palermo.BATCH,
+            research_romatre.BATCH,
+            research_salerno.BATCH,
+            research_trieste.BATCH,
+            research_udine.BATCH,
+            research_poliba.BATCH,
+            research_polimi.BATCH,
+            research_polito.BATCH,
+            research_sapienza.BATCH,
+            research_unito.BATCH,
+            research_trento.BATCH,
             {"id":"baseline-and-archive","status":"complete","result":"Archived all 165 prior program rows and mapped the original 34 universities."},
             {"id":"official-2027-28-initial-batch","status":"partial","result":"Recorded 34 university research outcomes, source-linked 14 core program offers, and explicitly marked outstanding program rows."},
             {"id":"official-2027-28-program-batch-2","status":"partial","result":"Verified the Bologna Intelligent Embedded Systems 28Digital track and seven UniTrento 28DIGITAL tracks; recorded program costs, requirements and a documented conflict between official round calendars."},
@@ -1481,6 +1529,26 @@ def build():
         research_modena.REPORT,
         "",
         research_palermo.REPORT,
+        "",
+        research_romatre.REPORT,
+        "",
+        research_salerno.REPORT,
+        "",
+        research_trieste.REPORT,
+        "",
+        research_udine.REPORT,
+        "",
+        research_poliba.REPORT,
+        "",
+        research_polimi.REPORT,
+        "",
+        research_polito.REPORT,
+        "",
+        research_sapienza.REPORT,
+        "",
+        research_unito.REPORT,
+        "",
+        research_trento.REPORT,
         "",
         "## Programs with core 2027/28 details confirmed",
         "",

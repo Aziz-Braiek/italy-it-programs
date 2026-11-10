@@ -166,7 +166,7 @@
         if(level!=="all"&&pLevel!==level)return false;
         if(university!=="all"&&p.university_id!==university)return false;
         var pLanguage=confirmed?p.language.value:(tag.language||p.language.value);
-        var languageGroup=pLanguage==="English"?"English":pLanguage==="Italian"?"Italian":pLanguage&&pLanguage.indexOf("/")>=0?"Mixed":"Unknown";
+        var languageGroup=pLanguage==="English"?"English":pLanguage==="Italian"?"Italian":pLanguage&&(pLanguage.indexOf("/")>=0||/italian.*english|english.*italian/i.test(pLanguage))?"Mixed":"Unknown";
         if(language!=="all"&&languageGroup!==language)return false;
         var hay=[p.program,p.university,p.city,p.field&&p.field.value,tag.field,tag.language].join(" ").toLowerCase();
         return !q||hay.indexOf(q)>=0

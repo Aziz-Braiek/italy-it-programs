@@ -1468,7 +1468,7 @@
     "title": "Admissions to first-level degree courses",
     "url": "https://www.poliba.it/en/ammissioni-corsi-di-laurea-di-1deg-livello",
     "source_type": "Official admissions page",
-    "accessed_at": "2026-11-09",
+    "accessed_at": "2026-11-10",
     "cycle": "2027-2028",
     "evidence": "The official page says 2027/28 admission call instructions for first-level degrees will be published in February 2027.",
     "supports": [
@@ -1878,7 +1878,7 @@
     "title": "International Students Office",
     "url": "https://www.uniroma1.it/it/pagina/segreteria-studenti-internazionali",
     "source_type": "Official international admissions page",
-    "accessed_at": "2026-11-09",
+    "accessed_at": "2026-11-10",
     "cycle": "2026-2027",
     "evidence": "The cycle-specific information reviewed is for 2026/27; the 2027/28 program calls remain outstanding.",
     "supports": [
@@ -2137,7 +2137,7 @@
     "title": "Application for international students",
     "url": "https://www.en.unito.it/studying-unito/international-degree-seeking-students/application-international-students",
     "source_type": "Official international admissions page",
-    "accessed_at": "2026-11-09",
+    "accessed_at": "2026-11-10",
     "cycle": "2026-2027",
     "evidence": "The reviewed page lists 2026/27 application rounds and a €60 fee; values are retained only as prior-cycle context and are not copied into the active dataset.",
     "supports": [
@@ -2150,7 +2150,7 @@
     "title": "Admission: how it works",
     "url": "https://www.unitn.it/en/international/coming-unitrento/admission-how-it-works",
     "source_type": "Official international admissions page",
-    "accessed_at": "2026-11-09",
+    "accessed_at": "2026-11-10",
     "cycle": "general",
     "evidence": "General guidance says visa-applicant calls are program-specific and typically run December–March; it describes ranked selection, merit-based fee brackets and scholarship/accommodation procedures, but does not confirm individual 2027/28 programs.",
     "supports": [
@@ -2633,7 +2633,7 @@
     "title": "How to apply",
     "url": "https://www.uniud.it/en/education/info-for/how-to-apply/how-to-apply?set_language=en",
     "source_type": "Official admissions page",
-    "accessed_at": "2026-11-09",
+    "accessed_at": "2026-11-10",
     "cycle": "general",
     "evidence": "States that annual rules, deadlines and tests are listed in the prospectus published each June; non-EU applicants follow pre-enrolment and course-level reserved-place procedures.",
     "supports": [
@@ -4306,6 +4306,2300 @@
     "evidence": "The regulation's decree and text expressly state AY 2024/25. The current index labels this link as a 2025/26 regulation in force for 2026/27, creating a document-label mismatch. The PDF alone cannot confirm next-cycle exemptions.",
     "supports": [
       "university.fee_regulation_discrepancy"
+    ]
+  },
+  {
+    "id": "SRC-ROMATRE-MSC-CATALOGUE-2026",
+    "university_id": "roma-tre",
+    "title": "Corsi di laurea magistrale – A.A. 2026/2027",
+    "url": "https://www.uniroma3.it/didattica/lauree-ws-lm/",
+    "source_type": "Official university page",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Annual inventory lists eleven distinct Engineering MSc degrees across two departments; no unique degree named only Engineering is identified. The list and linked admission calls concern 2026/27.",
+    "supports": [
+      "university.previous_cycle_master_inventory",
+      "program.identity_review"
+    ]
+  },
+  {
+    "id": "SRC-ROMATRE-BSC-CATALOGUE-2026",
+    "university_id": "roma-tre",
+    "title": "Corsi di laurea – A.A. 2026/2027",
+    "url": "https://www.uniroma3.it/didattica/lauree-ws-l/",
+    "source_type": "Official university page",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Bachelor inventory and admission links explicitly cover 2026/27. Includes Computer and Artificial Intelligence Engineering L-8 with restricted local access; BSc procedures are separate from the generic MSc lead.",
+    "supports": [
+      "university.previous_cycle_bachelor_inventory",
+      "university.previous_cycle_bachelor_admissions"
+    ]
+  },
+  {
+    "id": "SRC-ROMATRE-ENGLISH-INVENTORY",
+    "university_id": "roma-tre",
+    "title": "Offerta formativa in lingua inglese e doppi titoli",
+    "url": "https://www.uniroma3.it/internazionale/studiare-a-roma-tre/corsi-in-inglese/",
+    "source_type": "Official university page",
+    "accessed_at": "2026-11-10",
+    "cycle": "general",
+    "evidence": "Undated central list includes Sustainable Coastal and Ocean Engineering and Biomedical Engineering as entire English degrees, and Applied Artificial Intelligence / Wireless Technologies as English curricula within Telecommunications Engineering. English-course evidence does not identify the generic legacy Engineering MSc.",
+    "supports": [
+      "university.general_english_offer",
+      "program.identity_review"
+    ]
+  },
+  {
+    "id": "SRC-ROMATRE-SCOE-PROFILE-2026",
+    "university_id": "roma-tre",
+    "title": "Sustainable Coastal and Ocean Engineering LM-23",
+    "url": "https://www.uniroma3.it/didattica/lauree-ws-lm/sustainable-coastal-and-ocean-engineering-lm-23/",
+    "source_type": "Official university page",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Profile identifies a separate English-taught, two-year/120-CFU, open-access LM-23 degree at Ostia, with 16 November 2026 enrollment deadline. This is one possible Engineering degree, not an established match to legacy-096.",
+    "supports": [
+      "university.previous_cycle_english_course_examples",
+      "program.identity_review"
+    ]
+  },
+  {
+    "id": "SRC-ROMATRE-BIOMED-PROFILE-2026",
+    "university_id": "roma-tre",
+    "title": "Biomedical Engineering LM-21",
+    "url": "https://www.uniroma3.it/didattica/lauree-ws-lm/biomedical-engineering-lm-21/",
+    "source_type": "Official university page",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Profile identifies a separate English-taught, two-year/120-CFU, open-access LM-21 degree in Rome. Annual dates are 15 September 2026 for assessment (supplementary 15 December), 16 November enrollment and 31 March 2027 conditional enrollment. No match to the generic legacy lead is established.",
+    "supports": [
+      "university.previous_cycle_english_course_examples",
+      "program.identity_review"
+    ]
+  },
+  {
+    "id": "SRC-ROMATRE-AEROSPACE-PROFILE-2026",
+    "university_id": "roma-tre",
+    "title": "Ingegneria Aerospaziale LM-20",
+    "url": "https://www.uniroma3.it/didattica/lauree-ws-l/ingegneria-aerospaziale-lm-20/",
+    "source_type": "Official university page",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Central profile labels the two-year/120-CFU Aerospace MSc language Italian/English. This differs from the department's English-course list; exact English-only pathway needs verification and no generic lead is assigned to it.",
+    "supports": [
+      "university.previous_cycle_english_course_examples",
+      "program.identity_review"
+    ]
+  },
+  {
+    "id": "SRC-ROMATRE-ENGINEERING-ENGLISH",
+    "university_id": "roma-tre",
+    "title": "Corsi in lingua straniera – Engineering department",
+    "url": "https://ingegneriacivileinformaticatecnologieaeronautiche.uniroma3.it/en/didattica/corsi-in-lingua-straniera/",
+    "source_type": "Official university page",
+    "accessed_at": "2026-11-10",
+    "cycle": "general",
+    "evidence": "Department page dated 1 September 2026 describes Sustainable Coastal and Ocean Engineering and Aerospace Engineering MSc courses as offered in English; central Aerospace profile instead says Italian/English.",
+    "supports": [
+      "university.general_english_offer",
+      "university.language_source_discrepancy"
+    ]
+  },
+  {
+    "id": "SRC-ROMATRE-INTERNATIONAL-CURRENT",
+    "university_id": "roma-tre",
+    "title": "International Students – current central guidance",
+    "url": "https://www.uniroma3.it/int/education/international-students/",
+    "source_type": "Official university page",
+    "accessed_at": "2026-11-10",
+    "cycle": "mixed",
+    "evidence": "Current page links 2026/27 course calls and a national circular valid for 2026/27 and 2027/28. Its own Universitaly deadline is explicitly 15 September 2026; university pre-enrollment approval does not guarantee a consular visa.",
+    "supports": [
+      "university.general_admissions",
+      "university.previous_cycle_international_deadline",
+      "university.non_eu_process"
+    ]
+  },
+  {
+    "id": "SRC-ROMATRE-FOREIGN-GUIDE-2026",
+    "university_id": "roma-tre",
+    "title": "How to apply – students with foreign qualifications 2026/27",
+    "url": "https://www.uniroma3.it/int/wp-content/uploads/file_locked/2026/06/GUIDE-HOW-TO-APPLY-ENG-2026-27.pdf",
+    "source_type": "Official PDF call or regulation",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Prior-cycle guide requires at least 12 school years for bachelor entry and a relevant first-cycle degree for MSc entry. GOMP assessment uses degree/transcript and detailed syllabi, translation/authenticity evidence as applicable; visa applicants also use Universitaly, then original-document verification. The introduction retains an outdated 2025/26 national-reference line.",
+    "supports": [
+      "university.previous_cycle_foreign_qualification_route",
+      "university.previous_cycle_bachelor_requirements",
+      "university.previous_cycle_master_requirements"
+    ]
+  },
+  {
+    "id": "SRC-ROMATRE-MSC-CALL-2026",
+    "university_id": "roma-tre",
+    "title": "Bando Lauree Magistrali 2026/27 – Engineering sections",
+    "url": "https://www.uniroma3.it/wp-content/uploads/file_locked/2026/06/Bando_Lauree_magistrali_2026-27.pdf",
+    "source_type": "Official PDF call or regulation",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Engineering sections require a suitable first-cycle/equivalent degree, course-regulation curricular requirements and prior-career assessment. B2 English is stated for Sustainable Coastal/Ocean, Aerospace and Biomedical. The annual call distinguishes a 70-euro Italian language test and a 60-euro supplementary assessment surcharge; neither establishes a generic 2027/28 application fee.",
+    "supports": [
+      "university.previous_cycle_master_admissions",
+      "university.previous_cycle_language_requirements",
+      "university.previous_cycle_test_and_late_fees"
+    ]
+  },
+  {
+    "id": "SRC-ROMATRE-NATIONAL-CIRCULAR-2026-2028",
+    "university_id": "roma-tre",
+    "title": "National international-student procedures 2026/27 and 2027/28",
+    "url": "https://universitaly-private.cineca.it/uploads/universitaly-pubblico/Circolare_2026-2027_studenti_internazionali.pdf",
+    "source_type": "Official PDF call or regulation",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027;2027-2028",
+    "evidence": "Circular has explicit biennial validity. For degree courses the 2027/28 national visa-application outer deadline is 31 October 2027; universities may set earlier dates. Visa pre-enrollment uses Universitaly. Non-Italian courses require certification of their teaching language rather than an Italian test; visa-stage non-native language evidence must cover four skills at least at B2. This does not confirm any Roma Tre course intake.",
+    "supports": [
+      "university.national_visa_framework_2027_2028",
+      "university.national_language_framework_2027_2028"
+    ]
+  },
+  {
+    "id": "SRC-ROMATRE-FEES-2026",
+    "university_id": "roma-tre",
+    "title": "Tasse e contributi universitari",
+    "url": "https://portalestudente.uniroma3.it/tasse/tasse/",
+    "source_type": "Official university page",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Page states 2026/27 regional tax of 140 euros plus 16-euro stamp duty, with a separate income/course-dependent annual university contribution. One to four installments depend on the fee band; first-year payment deadlines come from the admission call. The fixed 156 euros is not normal total tuition.",
+    "supports": [
+      "university.previous_cycle_tuition",
+      "university.fee_conditions"
+    ]
+  },
+  {
+    "id": "SRC-ROMATRE-FEE-REGULATION-2026",
+    "university_id": "roma-tre",
+    "title": "Regolamento Tasse – DR 70/2026",
+    "url": "https://portalestudente.uniroma3.it/wp-content/uploads/sites/2/file_locked/2026/01/Regolamento-tasse-DR-70_2026.pdf",
+    "source_type": "Official PDF call or regulation",
+    "accessed_at": "2026-11-10",
+    "cycle": "general",
+    "evidence": "Current regulation applies from 2025/26 and was updated in January 2026. Contribution and exemptions depend on ISEE, course and career conditions; the foreign-income route uses ISEE Parificato through the agreed CAF. Its general continuing rules are not a dedicated 2027/28 annual fee schedule.",
+    "supports": [
+      "university.general_fee_framework",
+      "university.general_foreign_income_fees"
+    ]
+  },
+  {
+    "id": "SRC-ROMATRE-ISEE-2026",
+    "university_id": "roma-tre",
+    "title": "Presentazione ISEE",
+    "url": "https://portalestudente.uniroma3.it/tasse/presentazione-isee/",
+    "source_type": "Official university page",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "2026/27 first-year students have 60 days from enrollment to present ISEE. Missing ISEE normally means the highest contribution bracket. Eligible foreign-income/nonresident households use the Personal CAF/CAF CISL process; even DiSCo winners with foreign income must submit the required declaration.",
+    "supports": [
+      "university.previous_cycle_fee_reductions",
+      "university.previous_cycle_foreign_income_fees"
+    ]
+  },
+  {
+    "id": "SRC-ROMATRE-DISCO-CALL-2026",
+    "university_id": "roma-tre",
+    "title": "DiSCo – 2026/27 right-to-study competition announcement",
+    "url": "https://laziodisco.it/on-line-il-bando-diritto-allo-studio-2026-2027/",
+    "source_type": "Official university page",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Regional provider's 10 June 2026 announcement covers students at Lazio institutions and scholarships, accommodation, meals and other benefits. Application first phase ran 10 June–22 July 2026 at noon; enrollment could be completed by 10 February 2027. This is the prior-cycle competition, not a 2027/28 award call.",
+    "supports": [
+      "university.previous_cycle_scholarships",
+      "university.previous_cycle_scholarship_windows"
+    ]
+  },
+  {
+    "id": "SRC-ROMATRE-DISCO-ELIGIBILITY-2026",
+    "university_id": "roma-tre",
+    "title": "DiSCo – Bando Diritto allo Studio 2026/27",
+    "url": "https://laziodisco.it/wp-content/uploads/2026/06/BANDO-DIRITTO-ALLO-STUDIO-26-27-1.pdf",
+    "source_type": "Official PDF call or regulation",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Official indexed call extract states scholarship ISEE/ISEEUP ceiling 28,339.88 euros and ISPE/ISPEUP ceiling 61,608.48 euros; exceeding either excludes the applicant. Full PDF retrieval returned HTTP 403 in this review, so detailed awards and documentation were not exhaustively verified.",
+    "supports": [
+      "university.previous_cycle_scholarship_eligibility"
+    ]
+  },
+  {
+    "id": "SRC-ROMATRE-CONTACT-CURRENT",
+    "university_id": "roma-tre",
+    "title": "International Students Office – contact details",
+    "url": "https://www.uniroma3.it/int/education/international-students/international-students-office/",
+    "source_type": "Official university page",
+    "accessed_at": "2026-11-10",
+    "cycle": "general",
+    "evidence": "Current International Students Office supports foreign-qualification pre-enrollment, admission and enrollment. Relevant email is international.admissions@uniroma3.it; address Via Ostiense 133, Tower B, 00154 Rome. This supersedes the older orientation page's foreign-qualification email/address for current contact purposes.",
+    "supports": [
+      "university.contact"
+    ]
+  },
+  {
+    "id": "SRC-ROMATRE-UNICORE-2026-COHORT",
+    "university_id": "roma-tre",
+    "title": "UNICORE 8.0 – two refugee scholarships for 2026/27 entrants",
+    "url": "https://apps.uniroma3.it/ateneo/memo/files/pub_allegato_27f76020-905f-42b6-9c25-f6cb5e3f49e3.pdf",
+    "source_type": "Official PDF call or regulation",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Closed refugee-only call admitted two 2026/27 MSc entrants; support extends to 2027/28 subject to renewal. Applications ran 2 March–17 April 2026 noon UTC+2. Benefits include fee exemption, housing and meals. Renewal needs 25 CFU by 10 August 2027. This is not a new 2027/28 entrant competition.",
+    "supports": [
+      "university.previous_cycle_targeted_scholarships",
+      "university.previous_cohort_2027_2028_continuation"
+    ]
+  },
+  {
+    "id": "SRC-SALERNO-CATALOGUE-2026",
+    "university_id": "salerno",
+    "title": "Enrolment course inventory 2026/27",
+    "url": "https://web.unisa.it/didattica/immatricolazioni/scegli-uno-dei-nostri",
+    "source_type": "Official university page",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The page explicitly welcomes applicants to 2026/27. Computer Science/Informatica NF225 is an LM-18 Master's with Italian and English teaching; the L-31 Bachelor's is Italian. Course-specific enrolment links control requirements. This does not confirm a 2027/28 first-year offer.",
+    "supports": [
+      "university.previous_cycle_course_inventory",
+      "university.previous_cycle_bachelor_inventory",
+      "program.previous_cycle_course_listing",
+      "program.language"
+    ]
+  },
+  {
+    "id": "SRC-SALERNO-ENGLISH-OFFER-2026",
+    "university_id": "salerno",
+    "title": "International teaching: degrees in English 2026/27",
+    "url": "https://web.unisa.it/en/teaching/international-teaching/postgraduate-degrees",
+    "source_type": "Official university page",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The explicit 2026/27 inventory lists Computer Science NF225 as English/Italian, rather than identifying every curriculum as English. It lists other BSc, MSc, postgraduate master and PhD categories separately. No new 2027/28 course offer is established.",
+    "supports": [
+      "university.previous_cycle_english_programs",
+      "program.previous_cycle_language"
+    ]
+  },
+  {
+    "id": "SRC-SALERNO-CS-REGULATION-2026",
+    "university_id": "salerno",
+    "title": "Computer Science NF225 course regulation, cohort 2026/27",
+    "url": "https://corsi.unisa.it/uploads/rescue/__regolamenti-cds/2026/NF225.pdf",
+    "source_type": "Official course regulation PDF",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The course's regulation index labels this PDF NF225 cohort 2026/27. It establishes LM-18, two years/120 CFU, five curricula, L-31/L-8 entry or at least 45 CFU in INFO-01/A and IINF-05/A for other classes, individual foreign-curriculum assessment, and readiness assessment. The L-31/L-8 test exemption requires at least 85/110. Its 2026/27 IoT curriculum table marks technical teaching Engl. The English-language examination's B2 learning target is not a universal B2 admission-certificate requirement.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_requirements",
+      "program.previous_cycle_curricula",
+      "program.previous_cycle_language"
+    ]
+  },
+  {
+    "id": "SRC-SALERNO-CS-ENGLISH-TRACK",
+    "university_id": "salerno",
+    "title": "Computer Science: English Internet of Things curriculum",
+    "url": "https://corsi.unisa.it/informatica-magistrale/en/home",
+    "source_type": "Official university page",
+    "accessed_at": "2026-11-10",
+    "cycle": "general",
+    "evidence": "The course describes five specializations and explicitly says Internet of Things is fully English and lasts two years. This undated presentation is corroborated by the named 2026/27 regulation and is not evidence of a 2027/28 intake.",
+    "supports": [
+      "program.curriculum",
+      "program.language",
+      "program.duration"
+    ]
+  },
+  {
+    "id": "SRC-SALERNO-CS-ADMISSION-2026",
+    "university_id": "salerno",
+    "title": "Computer Science enrolment: foreign applicants",
+    "url": "https://corsi.unisa.it/informatica-magistrale/en/enrollment",
+    "source_type": "Official university page",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Applications for 2026/27 are now closed. Relevant Bachelor's preparation and at least 45 computing ECTS are assessed individually. Non-EU applications start on Universitaly; emailed dossiers are not assessed. Positive documentary assessment leads to a compulsory remote C++/Java/database-query quiz and interview. Two interview no-shows cause rejection. Applicants without B2 Italian enter the English IoT curriculum. English evidence may be in CV/academic records; an officially English-taught previous degree avoids further certification under this guidance, while consulates may require a certificate. Contact: international_incoming@cs.unisa.it.",
+    "supports": [
+      "program.previous_cycle_international_admission",
+      "program.previous_cycle_requirements",
+      "program.previous_cycle_language",
+      "program.contact"
+    ]
+  },
+  {
+    "id": "SRC-SALERNO-CS-ENROLMENT-2026",
+    "university_id": "salerno",
+    "title": "Computer Science: enrolment and assessment timing",
+    "url": "https://corsi.unisa.it/informatica-magistrale/immatricolazioni",
+    "source_type": "Official university page",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The course page states Master's enrolment 15 July 2026–1 March 2027, ESSE3 registration, assessment in September/February and academic contact gvitiello@unisa.it. One curricular bullet incorrectly names the separate Cloud/Security degree; the NF225 regulation and English Computer Science admission page provide independent course-specific requirements. The general enrolment period is not the earlier non-EU Universitaly deadline.",
+    "supports": [
+      "program.previous_cycle_enrollment_dates",
+      "program.previous_cycle_assessment_timing",
+      "program.contact"
+    ]
+  },
+  {
+    "id": "SRC-SALERNO-CS-UNIVERSITALY-DEADLINE-2026",
+    "university_id": "salerno",
+    "title": "Universitaly pre-enrolment deadline: 30 September 2026",
+    "url": "https://www.di.unisa.it/unisa-rescue-page/dettaglio/id/1401/module/475/row/30421/universitaly-pre-enrolment-application-deadline-september-30-2026",
+    "source_type": "Official university page",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The Computer Science department notice published 25 September 2026 states Universitaly pre-enrolment is accepted until 30 September 2026 and later applications will not be assessed. This deadline belongs to the closed 2026/27 intake.",
+    "supports": [
+      "program.previous_cycle_application_deadline"
+    ]
+  },
+  {
+    "id": "SRC-SALERNO-NON-EU-2026",
+    "university_id": "salerno",
+    "title": "Non-EU citizens abroad: qualification and visa route",
+    "url": "https://web.unisa.it/en/teaching/enrollment/non-eu-citizens-abroad",
+    "source_type": "Official university page",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "University guidance uses Universitaly for non-EU applicants abroad, university qualification evaluation and subsequent consular visa processing. It mentions November 2026 and also retains an older March 2025 opening reference, so it is not a 2027/28 schedule. Bachelor's qualifications normally follow 12 years of schooling. Italian-taught degree applicants require B2 Italian or the indicated test unless exempt. Recognition documentation may include ENIC-NARIC, an official foreign institution's evidence or a Declaration of Value.",
+    "supports": [
+      "university.non_eu_process",
+      "university.previous_cycle_bachelor_requirements",
+      "university.foreign_qualification_documents"
+    ]
+  },
+  {
+    "id": "SRC-SALERNO-FEES-2026",
+    "university_id": "salerno",
+    "title": "Tuition and contributions 2026/27",
+    "url": "https://web.unisa.it/didattica/segreteria/tasse-e-contributi",
+    "source_type": "Official university page",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The fee page explicitly covers 2026/27 and links the annual fee regulation. The no-tax-area COA exemption has an ISEE ceiling of 30,000 euros and statutory progress/enrolment conditions; payment is through pagoPA in ESSE3. This is not a 2027/28 fee publication.",
+    "supports": [
+      "university.previous_cycle_tuition",
+      "program.previous_cycle_tuition"
+    ]
+  },
+  {
+    "id": "SRC-SALERNO-FEE-REGULATION-2026",
+    "university_id": "salerno",
+    "title": "Student contribution regulation 2026/27",
+    "url": "https://web.unisa.it/uploads/rescue/251/791/regolamento-in-materia-di-contribuzione-studentesca-a.a.-2026-27.pdf",
+    "source_type": "Official tuition regulation PDF",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The official PDF was fetched directly with HTTP 200 and parsed after the page's relative link resolved incorrectly in the web tool. Fees comprise income/progress-dependent COA, stamp and regional tax. Regional tax is 130/151/173 euros; foreign-resident households ordinarily use 151 euros. Non-EU non-residents normally use COA band III or band I for listed low-human-development countries, unless eligible ISEE or hardship rules apply. Stamp is 16 euros; foreign-qualification first-year third instalment, if due, is 53 euros. General access-test contribution is 15 euros subject to course exceptions, not a verified IoT prescreening fee. First-year open-access MSc enrolment is due 1 March 2027.",
+    "supports": [
+      "university.previous_cycle_tuition",
+      "university.previous_cycle_fee_exemptions",
+      "university.previous_cycle_test_contribution",
+      "program.previous_cycle_tuition"
+    ]
+  },
+  {
+    "id": "SRC-SALERNO-SCHOLARSHIP-NOTICE-2026",
+    "university_id": "salerno",
+    "title": "UNISA Scholarship 2026/27: latest deadline and ranking notice",
+    "url": "https://web.unisa.it/international/bandi/mobilita-in-ingresso?anno=2026&bando=14294",
+    "source_type": "Official university page",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The university lists 48 scholarships for non-EU international Master's applicants for 2026/27. The latest extended Universitaly submission deadline is 30 June 2026 at 23:59, followed by July rankings. This extension supersedes the original May deadline in the call. The competition is closed.",
+    "supports": [
+      "university.previous_cycle_scholarships",
+      "university.previous_cycle_scholarship_window"
+    ]
+  },
+  {
+    "id": "SRC-SALERNO-SCHOLARSHIP-CALL-2026",
+    "university_id": "salerno",
+    "title": "UNISA Scholarship call 2026/27",
+    "url": "https://web.unisa.it/uploads/rescue/167/14294/call-for-applications-unisa-scholarship-2026-2027.pdf",
+    "source_type": "Official scholarship call PDF",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The call is for 48 non-EU students resident abroad with suitable foreign degrees. Annual value is 8,000 euros: 1,800 cash after enrolment/payment plus room/board valued at 6,200 for 12 months from 1 October 2026. Required dossier includes CV, B2 language evidence, degree/transcripts, syllabi, two references and the incompatibility declaration. Renewal requires 27 credits by 15 September 2027; its 2027/28 reference is the second year of the 2026/27 intake. It is incompatible with MAECI and duplicate room/board benefits; ADISURC cash-only benefits may be sought under the rules. Tuition and regional payment obligations remain.",
+    "supports": [
+      "university.previous_cycle_scholarships",
+      "program.previous_cycle_scholarships"
+    ]
+  },
+  {
+    "id": "SRC-SALERNO-ADISURC-NOTICE-2026",
+    "university_id": "salerno",
+    "title": "ADISURC scholarship and accommodation competition 2026/27",
+    "url": "https://adisurcampania.it/notizie/approvazione-bando-di-concorso-20262027",
+    "source_type": "Official regional scholarship notice",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Published 24 July 2026: the regional competition closed 10 September 2026 at 12:00. Apply through the ADISURC student reserved area; foreign applicants can obtain registration credentials. The notice links the call and CAF/ISEE-equivalent documentation. The competition is not a 2027/28 award.",
+    "supports": [
+      "university.previous_cycle_regional_scholarship_window"
+    ]
+  },
+  {
+    "id": "SRC-SALERNO-ADISURC-CALL-2026",
+    "university_id": "salerno",
+    "title": "ADISURC regional scholarship call 2026/27, English PDF",
+    "url": "https://adisurcampania.it/sites/default/files/2026-07/Bando%20di%20Concorso%20a.a.%202026.27_ENG.pdf",
+    "source_type": "Official regional scholarship call PDF",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "University of Salerno students are eligible subject to enrolment, merit and financial requirements. ISEE ceiling is 25,500 euros and numeric ISPE ceiling 54,000 euros. Foreign-household ISEEUP must reach ADISURC by 31 March 2027. Base awards at ISEE up to 17,000 euros are 7,171.11 off-site, 4,190.71 commuter and 2,890.16 on-site; service deductions, higher-income reductions and eligible uplifts apply. First years normally need 20 credits by 10 August 2027 for full preservation, or by 30 November for half. Benefits are conditional and do not establish 2027/28 awards.",
+    "supports": [
+      "university.previous_cycle_scholarships",
+      "program.previous_cycle_scholarships"
+    ]
+  },
+  {
+    "id": "SRC-SALERNO-CONTACT",
+    "university_id": "salerno",
+    "title": "Internationalisation office contacts",
+    "url": "https://web.unisa.it/international/contatti",
+    "source_type": "Official university page",
+    "accessed_at": "2026-11-10",
+    "cycle": "general",
+    "evidence": "General international enquiries: erasmus@unisa.it. UNISA Scholarship: unisascholarship@unisa.it. The page also lists distinct Erasmus incoming/outgoing contacts and a helpdesk for enrolled students; these are separate from the Computer Science assessment committee's address.",
+    "supports": [
+      "university.contact"
+    ]
+  },
+  {
+    "id": "SRC-SALERNO-CS-CONTACT",
+    "university_id": "salerno",
+    "title": "Computer Science student and teaching offices",
+    "url": "https://corsi.unisa.it/informatica-magistrale/contatti",
+    "source_type": "Official university page",
+    "accessed_at": "2026-11-10",
+    "cycle": "general",
+    "evidence": "Computer Science career administration: carrierestudenti.di@unisa.it. Teaching office: didattica.di@unisa.it. Both link the student Help Desk.",
+    "supports": [
+      "program.contact"
+    ]
+  },
+  {
+    "id": "SRC-SALERNO-CS-CAMPUS",
+    "university_id": "salerno",
+    "title": "Computer Science teaching facilities",
+    "url": "https://corsi.unisa.it/informatica-magistrale/strutture-didattiche",
+    "source_type": "Official university page",
+    "accessed_at": "2026-11-10",
+    "cycle": "general",
+    "evidence": "The course facilities page locates main classrooms and laboratories in F2/F3/F4 on the Fisciano campus; the shared inventory also includes Avellino facilities. It does not establish a 2027/28 campus change or promise remote attendance.",
+    "supports": [
+      "program.location"
+    ]
+  },
+  {
+    "id": "SRC-SALERNO-NATIONAL-VISA-2027",
+    "university_id": "salerno",
+    "title": "Universitaly national international-student procedures 2026/27 and 2027/28",
+    "url": "https://www.universitaly.it/it/studenti-stranieri",
+    "source_type": "Official ministry / Universitaly guidance",
+    "accessed_at": "2026-11-10",
+    "cycle": "2027-2028",
+    "evidence": "The national page expressly covers 2026/27 and 2027/28. The 2027/28 outer deadline for degree-study visa applications is 31 October 2027, with institutions allowed to set earlier course deadlines. Universitaly is the official free visa-pre-enrolment portal; admission/validation does not guarantee a visa. This does not publish a Salerno course application window or a new first-year offer.",
+    "supports": [
+      "university.national_visa_deadline_2027_2028",
+      "university.non_eu_process"
+    ]
+  },
+  {
+    "id": "SRC-TRIESTE-CATALOGUE-2026",
+    "university_id": "trieste",
+    "title": "UniTS educational offer 2026/27",
+    "url": "https://portale.units.it/it/studiare/offerta-formativa",
+    "source_type": "Official course catalogue",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The inventory is explicitly 2026/27. Its Physics and AI/data-science subject sections link current MSc profiles. The general portal says MSc enrolment closes 30 March 2027, whereas the course admission pages say 31 March; retain this discrepancy. No 2027/28 first-year offer is established.",
+    "supports": [
+      "university.previous_cycle_course_inventory",
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_deadline_conflict"
+    ]
+  },
+  {
+    "id": "SRC-TRIESTE-PHYSICS-PROFILE",
+    "university_id": "trieste",
+    "title": "Physics MSc official profile",
+    "url": "https://degree.units.it/en/0320107301800010",
+    "source_type": "Official university guidance",
+    "accessed_at": "2026-11-10",
+    "cycle": "general",
+    "evidence": "Physics is a two-year, 120-CFU LM-17 R MSc in Trieste, mainly classroom teaching, non-competitive admission with preparation assessment, and languages English and Italian. It is not an English-only degree. Reviewed with the explicitly 2026/27 admission page; no 2027/28 new-entry offer is verified.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.language",
+      "program.duration",
+      "program.location"
+    ]
+  },
+  {
+    "id": "SRC-TRIESTE-PHYSICS-ADMISSION-2026",
+    "university_id": "trieste",
+    "title": "Physics MSc: how to apply 2026/27",
+    "url": "https://degree.units.it/en/0320107301800010/how-apply",
+    "source_type": "Official course admission guidance",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The page is explicitly 2026/27. L-30/equivalent degree or a Bachelor with at least 15 CFU in MAT/05, MAT/03, INF/01 and 30 in FIS/01-04; English B2. Preparation is sufficient at degree grade at least 90/110 when requirements are met; otherwise committee review and possible interview. Assessment applications 20 April 2026–29 January 2027; enrolment 20 April 2026–31 March 2027. ESSE3 documents include ID, qualification/exams self-declaration, Excel questionnaire and language evidence. Foreign qualifications additionally follow international procedures.",
+    "supports": [
+      "program.previous_cycle_requirements",
+      "program.previous_cycle_application_windows"
+    ]
+  },
+  {
+    "id": "SRC-TRIESTE-PHYSICS-ITALIAN-2026",
+    "university_id": "trieste",
+    "title": "Atmospheric Physics 965DF syllabus 2026/27",
+    "url": "https://degree.units.it/en/0320107301800010/students-area/taught-courses/2026/121073/2026/3/10809/2026",
+    "source_type": "Official course-unit syllabus",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 first-year Atmospheric Physics unit, within Physics of Complex Systems, Climate and Finance, specifies Italian teaching in Trieste. This corroborates the programme profile's English-and-Italian language label and does not establish any 2027/28 first-year intake.",
+    "supports": [
+      "program.previous_cycle_language_scope"
+    ]
+  },
+  {
+    "id": "SRC-TRIESTE-PHYSICS-CONTACT",
+    "university_id": "trieste",
+    "title": "Physics MSc bodies and representatives",
+    "url": "https://degree.units.it/en/0320107301800010/bodies-and-representatives",
+    "source_type": "Official university guidance",
+    "accessed_at": "2026-11-10",
+    "cycle": "general",
+    "evidence": "Physics teaching secretariat: didattica.df@units.it. The course coordinator is Luigi Rigon. This general contact page does not establish next-cycle admission conditions.",
+    "supports": [
+      "program.contact"
+    ]
+  },
+  {
+    "id": "SRC-TRIESTE-DSSC-FORMER",
+    "university_id": "trieste",
+    "title": "MIGe Informatics Section teaching: former DSSC programme",
+    "url": "https://sites.google.com/view/informatics-mige/teaching",
+    "source_type": "Official department-section teaching page",
+    "accessed_at": "2026-11-10",
+    "cycle": "historical",
+    "evidence": "University of Trieste MIGe Informatics Section teaching page, last updated 29 July 2026, identifies Data Science and Scientific Computing as a former programme: started 2017, dismissed 2023, replaced by Data Science and Artificial Intelligence and Scientific and Data-Intensive Computing. The page is identified as the Informatics Section site in UniTS Moodle tutoring guidance. Preserve the former course separately from its successors.",
+    "supports": [
+      "program.historical_course_status",
+      "program.replacement"
+    ]
+  },
+  {
+    "id": "SRC-TRIESTE-INFORMATICS-IDENTITY",
+    "university_id": "trieste",
+    "title": "UniTS MIGe tutoring: Informatics Section site",
+    "url": "https://moodle2.units.it/course/section.php?id=170336",
+    "source_type": "Official university guidance",
+    "accessed_at": "2026-11-10",
+    "cycle": "general",
+    "evidence": "UniTS-hosted MIGe tutor resources explicitly identify https://sites.google.com/view/informatics-mige/ as the Informatics Section website and provide the department teaching-secretariat contact didattica.dmg@units.it. This corroborates the institutional identity of the former-programme notice.",
+    "supports": [
+      "program.source_authority",
+      "program.contact"
+    ]
+  },
+  {
+    "id": "SRC-TRIESTE-DSSC-CALL-2022",
+    "university_id": "trieste",
+    "title": "DSSC MSc admission call 2022/23",
+    "url": "https://corsi.units.it/sites/default/files/dssc_call_2022_0.pdf",
+    "source_type": "Official historical admission call PDF",
+    "accessed_at": "2026-11-10",
+    "cycle": "2022-2023",
+    "evidence": "The historical 2022/23 call identifies DSSC as an English-taught two-year inter-university LM-44 MSc with Trieste/Udine and SISSA/ICTP collaboration, restricted admission, a Bachelor or equivalent with at least 80/110 and at least 60 ECTS in listed scientific disciplines. These are historical terms, not current admissions.",
+    "supports": [
+      "program.historical_course_listing",
+      "program.historical_requirements"
+    ]
+  },
+  {
+    "id": "SRC-TRIESTE-DSSC-MANIFESTO-2022",
+    "university_id": "trieste",
+    "title": "UniTS degree inventory 2022/23",
+    "url": "https://www.units.it/sites/default/files/media/documenti/pdf_manifesto_2022.pdf",
+    "source_type": "Official historical course inventory PDF",
+    "accessed_at": "2026-11-10",
+    "cycle": "2022-2023",
+    "evidence": "The 2022/23 official inventory lists Data Science and Scientific Computing, joint with Udine, administrative enrolment at Trieste, English, blended teaching and collaboration with SISSA/ICTP. Its curricula were Artificial Intelligence and Machine Learning, Computational Science and Engineering, and Data Science and Applications. This confirms the legacy identity, not a new offer.",
+    "supports": [
+      "program.historical_course_listing"
+    ]
+  },
+  {
+    "id": "SRC-TRIESTE-DSAI-PROFILE",
+    "university_id": "trieste",
+    "title": "Data Science and Artificial Intelligence MSc official profile",
+    "url": "https://degree.units.it/en/0320107313600001",
+    "source_type": "Official university guidance",
+    "accessed_at": "2026-11-10",
+    "cycle": "general",
+    "evidence": "DSAI is a two-year, 120-CFU, English-taught blended MSc in Trieste, LM Data, with non-competitive admission subject to preparation assessment. Five curricula: Economy and Society; Health and Life Sciences; Industry and Digital Twins; Foundations of AI and Machine Learning; High Performance Computing for DSAI. Reviewed with 2026/27 admissions, not a 2027/28 course call.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.curricula"
+    ]
+  },
+  {
+    "id": "SRC-TRIESTE-DSAI-UGOV-2026",
+    "university_id": "trieste",
+    "title": "SM38 Data Science and Artificial Intelligence: 2026 catalogue record",
+    "url": "https://portale.units.it/it/ugov/course/second_level_degree-2026-10681",
+    "source_type": "Official course catalogue record",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The official 2026 catalogue record identifies SM38 DSAI as a two-year English MSc in Trieste, LM-Data, free access with pre-enrolment verification. This is a successor course distinct from former DSSC, and establishes only the 2026/27 listing.",
+    "supports": [
+      "program.previous_cycle_course_listing"
+    ]
+  },
+  {
+    "id": "SRC-TRIESTE-DSAI-ADMISSION-2026",
+    "university_id": "trieste",
+    "title": "DSAI MSc: how to apply 2026/27",
+    "url": "https://degree.units.it/en/0320107313600001/how-apply",
+    "source_type": "Official course admission guidance",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Explicit 2026/27 guidance requires a Bachelor, at least 30 CFU across the listed mathematical, computing, engineering, physics, statistics, quantitative-economics or molecular-biology/genetics sectors, including at least 9 mathematical CFU, and English B2. Board assessment considers academic background, grade and course content; an interview may test mathematics, computing and statistics. Foreign-degree applicants first apply through apply.units.it, then complete the emailed course form, then ESSE3 only after a positive Board decision. Assessment 20 April 2026–29 January 2027; enrolment through 31 March 2027.",
+    "supports": [
+      "program.previous_cycle_requirements",
+      "program.previous_cycle_application_windows"
+    ]
+  },
+  {
+    "id": "SRC-TRIESTE-SDIC-NON-OFFER",
+    "university_id": "trieste",
+    "title": "Scientific and Data-Intensive Computing: no first-year admission",
+    "url": "https://degree.units.it/en/0320107304500001",
+    "source_type": "Official university guidance",
+    "accessed_at": "2026-11-10",
+    "cycle": "general",
+    "evidence": "Official profile states the course is no longer on offer and applications to first year are not possible. Second/subsequent-year admission with credit recognition is a separate route. It identifies an English two-year LM-44 MSc, Trieste/Udine collaboration and blended teaching. Do not interpret continuing cohorts as a new 2027/28 first-year offer.",
+    "supports": [
+      "program.successor_context",
+      "program.no_first_year_admission"
+    ]
+  },
+  {
+    "id": "SRC-TRIESTE-INTERNATIONAL-2026",
+    "university_id": "trieste",
+    "title": "Degree seekers: 2026/27 assessment rounds and application fee",
+    "url": "https://portale.units.it/en/international/destination-units/degree-seekers",
+    "source_type": "Official university guidance",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Last updated 2 October 2026. Foreign-qualification assessment for 2026/27 used apply.units.it: 15 December 2025–15 January 2026; 15 February–30 April 2026; EU/equivalent-only round until 2 October 2026. Fee EUR40 for up to three programmes. No 2027/28 university assessment calendar or fee was identified.",
+    "supports": [
+      "university.previous_cycle_application_windows",
+      "university.previous_cycle_application_fee"
+    ]
+  },
+  {
+    "id": "SRC-TRIESTE-VISA-PROCESS",
+    "university_id": "trieste",
+    "title": "UniTS pre-enrolment for visa applicants",
+    "url": "https://portale.units.it/en/international/destination-units/degree-seekers/pre-enrollment-visa-applicants",
+    "source_type": "Official university guidance",
+    "accessed_at": "2026-11-10",
+    "cycle": "general",
+    "evidence": "Non-EU residents abroad needing a visa must check available quotas, obtain positive assessment on ApplyNow, pre-enrol through Universitaly, complete the course's enrolment/payment requirements and upload the residence-permit application receipt after arrival. Contact international.students@amm.units.it. Admission does not guarantee a visa. Undated annual process guidance is not a 2027/28 course offer.",
+    "supports": [
+      "university.general_admissions",
+      "university.non_eu_process",
+      "university.contact"
+    ]
+  },
+  {
+    "id": "SRC-TRIESTE-FOREIGN-DOCUMENTS",
+    "university_id": "trieste",
+    "title": "International students: required documents",
+    "url": "https://portale.units.it/en/international/destination-units/degree-seekers/documents",
+    "source_type": "Official university guidance",
+    "accessed_at": "2026-11-10",
+    "cycle": "general",
+    "evidence": "Updated 24 July 2025. Bachelor entry normally requires a qualifying diploma after at least 12 school years. MSc entry requires Bachelor/equivalent, transcript or EU Diploma Supplement, and official course descriptions. Translate non-Italian/non-English documents; legalization/apostille rules have stated country exceptions. UniTS says a DOV is not needed; CIMEA comparability may be requested in special cases. Follow individual assessment instructions for originals and language proof.",
+    "supports": [
+      "university.general_admissions",
+      "university.bachelor_entry",
+      "university.master_entry",
+      "university.foreign_qualification_documents"
+    ]
+  },
+  {
+    "id": "SRC-TRIESTE-PUBLISHED-QUOTAS",
+    "university_id": "trieste",
+    "title": "UniTS published visa quota table: updated 16 January 2026",
+    "url": "https://portale.units.it/en/international/destination-units/degree-seekers/quotas-and-reassignments-students-applying-visa",
+    "source_type": "Official university guidance",
+    "accessed_at": "2026-11-10",
+    "cycle": "general",
+    "evidence": "The quota table, last updated 16 January 2026, lists DSAI MSc 25 places and Physics MSc 10 including 2 Marco Polo places. The visible table does not state an academic year. Record only dated published-table context; do not relabel these figures as 2027/28 quotas or derive an acceptance rate.",
+    "supports": [
+      "program.published_quota_context"
+    ]
+  },
+  {
+    "id": "SRC-TRIESTE-NATIONAL-PROCEDURES-2026-2028",
+    "university_id": "trieste",
+    "title": "Ministerial international-student procedures 2026/27 and 2027/28",
+    "url": "https://portale.units.it/sites/default/files/2026-05/Circolare%202026-2027%20studenti_internazionali_EN_0.pdf",
+    "source_type": "Official ministerial procedure PDF hosted by university",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027 and 2027-2028",
+    "evidence": "Ministerial memorandum valid for both 2026/27 and 2027/28: visa pre-enrolment uses Universitaly; the national last date to lodge a 2027/28 degree-study visa application is 31 October 2027, while universities may set earlier dates. A type-D entrant must apply for a residence permit within eight working days. This is a national framework, not a UniTS course application window or intake confirmation; Italian original prevails.",
+    "supports": [
+      "university.national_visa_framework_2027_2028"
+    ]
+  },
+  {
+    "id": "SRC-TRIESTE-FEES-2026",
+    "university_id": "trieste",
+    "title": "University fees 2026/27",
+    "url": "https://portale.units.it/en/study/university-fees/bachelor-master-degrees-and-one-cycle-master-degrees",
+    "source_type": "Official university guidance",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The university page's 2026/27 framework has income/residence-dependent tuition, stamp duty and regional tax. Italy residents use timely ISEE Universita; residents abroad use flat reduced fees. MSc first-window instalments: 19 December 2026, 31 March and 28 May 2027; second-window: 31 March, 28 May and 15 June 2027, subject to course-specific first-enrolment deadlines. Payment is through PagoPA/ESSE3. ARDiS exemptions are applied after official eligibility lists. Fee-office contact tasse.studenti@amm.units.it.",
+    "supports": [
+      "university.previous_cycle_tuition",
+      "university.previous_cycle_payment_dates",
+      "university.fee_contact"
+    ]
+  },
+  {
+    "id": "SRC-TRIESTE-FEES-NOTICE-2026",
+    "university_id": "trieste",
+    "title": "Fee notice 2026/27",
+    "url": "https://repo.units.it/docs/units_CdL_tasse-avvisoTasse_en.2026-2027.pdf",
+    "source_type": "Official university fee regulation PDF",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 notice sets first-year initial instalment EUR250 (16 stamp, 120 initial regional tax, 114 tuition). Abroad residents meeting progress/duration requirements pay EUR800 tuition plus EUR160 regional tax and EUR16 stamp; failure adds 20% to tuition (EUR960). Italy-resident qualifying ISEE up to EUR30,000 gives zero tuition; above EUR75,000/no ISEE tuition is EUR2,900, or EUR3,195 without progress/duration eligibility. Timely ISEE is required. These are annual conditional rates, not 2027/28 fees.",
+    "supports": [
+      "university.previous_cycle_tuition",
+      "program.previous_cycle_tuition",
+      "university.fee_conditions"
+    ]
+  },
+  {
+    "id": "SRC-TRIESTE-ARDIS-2026",
+    "university_id": "trieste",
+    "title": "ARDiS regional university benefits 2026/27",
+    "url": "https://www.ardis.fvg.it/contenuti.php?id=268&view=page",
+    "source_type": "Official regional scholarship guidance",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "2026/27 regional benefit applications opened 15 July 2026 at 10:00; deadlines are 13:00 Italy time by benefit. University enrolment, merit and economic requirements apply together; ISEE ceiling EUR28,339.88 and ISPE ceiling EUR61,608.48. Foreign-household cases need ISEE parificato through affiliated CAF. Trieste contact info.trieste@ardis.fvg.it. No 2027/28 competition is established.",
+    "supports": [
+      "university.previous_cycle_scholarships",
+      "university.previous_cycle_scholarship_window"
+    ]
+  },
+  {
+    "id": "SRC-TRIESTE-ARDIS-CALL-2026",
+    "university_id": "trieste",
+    "title": "ARDiS unified call updated 14 October 2026",
+    "url": "https://www.ardis.fvg.it/upload/schede/1792050426.pdf",
+    "source_type": "Official regional scholarship call PDF",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "2026/27 scholarship deadline 17 September 2026 at 13:00 CEST; first-year housing deadline 27 August. Standard gross scholarship amounts: off-site EUR7,171.11, commuter EUR4,190.71, on-site EUR2,890.16; income thresholds reduce or increase amounts, with separate STEM-women provisions. Housing charges are deducted from scholarship for assigned accommodation, so gross figures are not all cash. First-years need the call's 20-CFU merit condition to retain full benefits. Foreign-income documentation and incompatible-award rules apply.",
+    "supports": [
+      "university.previous_cycle_scholarships",
+      "program.previous_cycle_scholarships"
+    ]
+  },
+  {
+    "id": "SRC-TRIESTE-ENROLMENT-PORTAL",
+    "university_id": "trieste",
+    "title": "Bachelor's and master's enrolment: ESSE3",
+    "url": "https://portale.units.it/en/study/application",
+    "source_type": "Official university guidance",
+    "accessed_at": "2026-11-10",
+    "cycle": "general",
+    "evidence": "UniTS directs applicants to degree-specific requirements and says foreign qualifications/visa applicants must first follow international procedures. ESSE3 is used for test/preparation registrations, enrolment applications and fee payments. ApplyNow is the separate foreign-qualification assessment portal.",
+    "supports": [
+      "university.application_portal",
+      "university.general_admissions"
+    ]
+  },
+  {
+    "id": "SRC-UDINE-CS-PROFILE-2026",
+    "university_id": "udine",
+    "title": "Computer Science MSc course profile",
+    "url": "https://www.uniud.it/en/education/offer/courses/scientific-area/mathematics-computer-sciences-multimedia-physics/master-degree-courses-graduate-120-ects/computer-science/computer-science?set_language=en",
+    "source_type": "Official university page",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Official profile identifies Computer Science as an unrestricted-access, two-year 120-credit LM-18 Master's degree in Udine. The language of instruction is Italian. This is course identity and 2026/27 context, not confirmation of a 2027/28 first-year intake.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_language"
+    ]
+  },
+  {
+    "id": "SRC-UDINE-CS-REQ-2026",
+    "university_id": "udine",
+    "title": "Computer Science course admission requirements",
+    "url": "https://www.uniud.it/it/didattica/corsi/area-scientifica/scienze-matematiche-informatiche-multimediali-fisiche/laurea-magistrale/informatica/iscrizione/conoscenze-requisiti-accesso/main?set_language=it",
+    "source_type": "Official university page",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Applicants need a suitable three-year degree. Curricular eligibility is an L-31 or L-8 degree (or former classes 26 or 9), or at least 24 CFU in relevant computer-science and mathematics subjects. A committee checks preparation and English at approximately B2; an interview or test may be required, except the page exempts graduates with at least 90/110. Listed 2026 dates are 9 July–5 October, with a justified-motives extension to 30 April 2027.",
+    "supports": [
+      "program.previous_cycle_program_requirements",
+      "program.previous_cycle_application_windows",
+      "program.previous_cycle_language_requirements"
+    ]
+  },
+  {
+    "id": "SRC-UDINE-SCIENCE-MANIFESTO-2026",
+    "university_id": "udine",
+    "title": "Mathematics, Computer Science and Physics study prospectus 2026/27",
+    "url": "https://www.uniud.it/it/didattica/segreteria-studenti/manifesto-degli-studi/scienze-matematiche-informatiche-multimediali-fisiche",
+    "source_type": "Official study prospectus PDF",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The official faculty prospectus lists Informatica LM-18 among active Master's courses and explicitly says it is taught in Italian. It gives course-specific admission rules and dates; its 2027/28 offering is not established.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_language",
+      "program.previous_cycle_application_windows"
+    ]
+  },
+  {
+    "id": "SRC-UDINE-FOREIGN-QUALIFICATIONS-2026",
+    "university_id": "udine",
+    "title": "Additional Notice for applicants with foreign qualifications 2026/27",
+    "url": "https://www.uniud.it/en/uniud-international/International_Students/ammissione-non-ue/prima-arrivo-ue/documentazione/manifesto-aggiuntivo-extra-ue_eng.pdf",
+    "source_type": "Official international admissions notice PDF",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "For second-cycle courses taught in Italian or English, non-EU residents and/or holders of foreign qualifications used Elix-Forms pre-evaluation from 1 February to 31 May 2026, with a non-refundable €20 fee and academic review within 30 working days. Successful applicants then used Universitaly; the 2026/27 pre-enrolment deadline was 30 June 2026. Applicants to Italian-taught courses needed Italian B2. These are closed prior-cycle terms only.",
+    "supports": [
+      "program.previous_cycle_international_admission",
+      "program.previous_cycle_application_windows",
+      "program.previous_cycle_application_fee",
+      "program.previous_cycle_language_requirements",
+      "university.previous_cycle_non_eu_process"
+    ]
+  },
+  {
+    "id": "SRC-UDINE-INTERNATIONAL-GUIDANCE",
+    "university_id": "udine",
+    "title": "Admission requirements for applicants with foreign qualifications",
+    "url": "https://www.uniud.it/en/uniud-international/International_Students/ammissione-non-ue/prima-arrivo-ue/iscrizioni-con-titolo-di-studio-estero",
+    "source_type": "Official university page",
+    "accessed_at": "2026-11-10",
+    "cycle": "general",
+    "evidence": "The University directs foreign-degree Master's applicants to the Additional Notice for the relevant academic year, its annual prospectus and the course's own requirements. The page specifies the Additional Notice available at review as 2026/27 and gives the Elix-Forms assessment dates for that cycle; it does not publish 2027/28 course deadlines.",
+    "supports": [
+      "university.general_admissions",
+      "university.non_eu_process",
+      "program.previous_cycle_international_admission"
+    ]
+  },
+  {
+    "id": "SRC-UDINE-FEES-2026",
+    "university_id": "udine",
+    "title": "Additional Notice on tuition, contributions and exemptions 2026/27",
+    "url": "https://www.uniud.it/it/didattica/area-servizi-studenti/servizi-studenti/diritto-allo-studio/tasse_merito/tasse-riduzioni-esoneri/allegati/avviso_aggiuntivo_2026-27",
+    "source_type": "Official tuition regulation PDF",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 notice sets the annual university contribution from €0 to €2,000, stamp duty €16 and regional tax €120–€160, subject to conditions and exemptions; payment is normally in three instalments. It is a prior-cycle framework, not a 2027/28 quote.",
+    "supports": [
+      "university.previous_cycle_tuition",
+      "program.previous_cycle_tuition",
+      "university.fee_conditions"
+    ]
+  },
+  {
+    "id": "SRC-UDINE-FEES-INTERNATIONAL-2026",
+    "university_id": "udine",
+    "title": "Useful information for international students: fees and benefits",
+    "url": "https://www.uniud.it/en/uniud-international/International_Students/ammissione-non-ue/prima-arrivo-ue/informazioni-utili?set_language=en",
+    "source_type": "Official university page",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The international-student page reports 2026/27 fees between €16 and €2,076 and three instalments. The University's separate tuition page reports €16–€2,026, and its 2026/27 Additional Notice gives conditional components rather than that same range. The published totals differ; retain the discrepancy and do not choose a single total.",
+    "supports": [
+      "university.previous_cycle_tuition",
+      "program.previous_cycle_tuition",
+      "university.fee_conditions"
+    ]
+  },
+  {
+    "id": "SRC-UDINE-ARDIS-2026",
+    "university_id": "udine",
+    "title": "ARDiS Unified Call for regional student benefits 2026/27",
+    "url": "https://ardis.fvg.it/contenuti.php?id=268&view=page",
+    "source_type": "Official regional scholarship call",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The call covers eligible students at Udine and Trieste. It requires enrollment plus economic and merit eligibility; foreign households use ISEE parificato. The 2026/27 ISEE and ISPE ceilings were €28,339.88 and €61,608.48. Awards and housing are competitive annual benefits, not guaranteed course-specific grants.",
+    "supports": [
+      "university.previous_cycle_scholarships",
+      "program.previous_cycle_scholarships",
+      "university.regional_aid"
+    ]
+  },
+  {
+    "id": "SRC-UDINE-ARDIS-DEADLINES-2026",
+    "university_id": "udine",
+    "title": "ARDiS 2026/27 application opening and deadlines",
+    "url": "https://www.ardis.fvg.it/contenuti.php?id=11366&tipo=archivio&view=news",
+    "source_type": "Official regional scholarship notice",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Online regional-benefit applications opened 15 July 2026. The scholarship deadline was 17 September at 13:00; new-student housing applications closed 27 August at 13:00. These are closed prior-cycle dates only.",
+    "supports": [
+      "university.previous_cycle_scholarship_windows",
+      "program.previous_cycle_scholarships"
+    ]
+  },
+  {
+    "id": "SRC-POLIBA-CENG-PROFILE-2026",
+    "university_id": "politecnico-bari",
+    "title": "Computer Engineering MSc profile",
+    "url": "https://www.poliba.it/laurea-magistrale-ingegneria-informatica",
+    "source_type": "Official university page",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The official profile lists the two-year English-taught Computer Engineering Master's at Bari. Current curricula are Artificial Intelligence and Data Science, Cybersecurity and Cloud, and Cyberphysical Systems. This is prior-cycle profile evidence only.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_language"
+    ]
+  },
+  {
+    "id": "SRC-POLIBA-CENG-REG-2026",
+    "university_id": "politecnico-bari",
+    "title": "Computer Engineering teaching regulations 2026/27",
+    "url": "https://www.poliba.it/sites/default/files/regolamenti/regolamentodidattico/LM/Reg.LM32.ComputerScienceEng.A.Y.2026-27.pdf",
+    "source_type": "Official course regulation PDF",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Regulation identifies Class LM-32, 120 ECTS, two-year standard duration, English instruction, and three curricula. Admission requires a suitable bachelor's degree, at least 48 ECTS in listed engineering, computing, mathematics, physics and related areas, adequate preparation and English B2. Admission may require curricular integrations completed before entry; no educational debt is permitted.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_program_requirements",
+      "program.previous_cycle_language_requirements"
+    ]
+  },
+  {
+    "id": "SRC-POLIBA-MSC-ADMISSIONS-2026",
+    "university_id": "politecnico-bari",
+    "title": "Admission to two-year Master's degrees 2026/27",
+    "url": "https://www.poliba.it/en/ammissioni-corsi-di-laurea-di-2deg-livello",
+    "source_type": "Official university page",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The mandatory prior-to-enrolment Esse3 process accepted one MSc preference per candidate after the bachelor's degree. 2026/27 application windows ran 28 July–15 September, then monthly windows through 10 May 2027. Eligibility checks covered the degree, curricular CFU, individual preparation and required English level. Eligible applicants enrolled 22 September 2026–20 May 2027; admission and enrollment are separate stages.",
+    "supports": [
+      "program.previous_cycle_application_windows",
+      "program.previous_cycle_international_admission",
+      "program.previous_cycle_application_fee",
+      "program.previous_cycle_program_requirements"
+    ]
+  },
+  {
+    "id": "SRC-POLIBA-INTL-QUALIFICATIONS-2026",
+    "university_id": "politecnico-bari",
+    "title": "General overview for international candidates 2026/27",
+    "url": "https://www.poliba.it/en/general-overview",
+    "source_type": "Official university page",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Foreign-qualification evaluation requires academic records and proof of qualification authenticity. Visa applicants also submit Universitaly pre-enrolment; the 2026/27 page states a national visa-application outer date of 30 November 2026. Computer Engineering is an English-taught MSc, so foreign candidates use the Master's Esse3 assessment route and English evidence; Italian B2 applies to programmes taught in Italian. These are 2026/27 procedures only.",
+    "supports": [
+      "university.previous_cycle_non_eu_process",
+      "program.previous_cycle_international_admission",
+      "program.previous_cycle_application_windows",
+      "program.previous_cycle_language_requirements"
+    ]
+  },
+  {
+    "id": "SRC-POLIBA-B2-2026",
+    "university_id": "politecnico-bari",
+    "title": "English B2 assessment for Master's degrees 2026/27",
+    "url": "https://www.poliba.it/en/inglese-b2-lauree-magistrali",
+    "source_type": "Official university page",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Computer Engineering is included in the 2026/27 Master's language-assessment list. The online English test has 30 questions, lasts 15 minutes and requires at least 21/30; applicants may register up to three working days before published test sessions. This calendar is prior-cycle only.",
+    "supports": [
+      "program.previous_cycle_language_requirements",
+      "program.previous_cycle_application_windows"
+    ]
+  },
+  {
+    "id": "SRC-POLIBA-FEES-2026",
+    "university_id": "politecnico-bari",
+    "title": "Tuition and fee information 2026/27",
+    "url": "https://poliba.it/en/didattica/tasse",
+    "source_type": "Official university page",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 calculator is ISEE-based and does not include merit reductions, exemptions or penalties. The initial enrollment installment is €136 (€120 regional tax plus €16 stamp duty); the regional contribution is adjusted at T2 according to the eligible ISEE. The annual all-inclusive contribution depends on the fee regulation and student circumstances.",
+    "supports": [
+      "university.previous_cycle_tuition",
+      "program.previous_cycle_tuition",
+      "university.fee_conditions"
+    ]
+  },
+  {
+    "id": "SRC-POLIBA-FEE-REG-2026",
+    "university_id": "politecnico-bari",
+    "title": "Student fees and contributions regulations 2026/27",
+    "url": "https://poliba.it/sites/default/files/Tasse/Regolamento_contribuzione_studentesca_Politecnico_di_Bari_26_27_.pdf",
+    "source_type": "Official tuition regulation PDF",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The annual all-inclusive contribution is income- and eligibility-dependent; it is zero in the no-tax area at ISEE ≤€26,000 when applicable criteria are satisfied and is capped at €2,257.60 for ISEE ≥€90,000 or absent eligible ISEE, before any late-payment or study-progress penalties. ADISU regional tax and €16 stamp duty are separate; normal contributions are divided across four payments. Merit and aid exemptions have additional conditions.",
+    "supports": [
+      "university.previous_cycle_tuition",
+      "program.previous_cycle_tuition",
+      "university.fee_conditions"
+    ]
+  },
+  {
+    "id": "SRC-ADISU-PUGLIA-2026",
+    "university_id": "politecnico-bari",
+    "title": "ADISU Puglia benefits and scholarship call 2026/27",
+    "url": "https://adisupuglia.it/pagina106703_borse-di-studio.html/",
+    "source_type": "Official regional scholarship call",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The regional annual benefits call covered eligible students at the Polytechnic University of Bari. Degree-course applications ran 14 July–13 August 2026, noon, online. Awards and services are competitive and subject to the call's economic, merit, enrollment and documentation criteria; no Computer Engineering award is guaranteed.",
+    "supports": [
+      "university.previous_cycle_scholarships",
+      "program.previous_cycle_scholarships",
+      "university.regional_aid"
+    ]
+  },
+  {
+    "id": "SRC-POLIBA-SCHOLARSHIPS-2026",
+    "university_id": "politecnico-bari",
+    "title": "PoliBa scholarships and international-student support",
+    "url": "https://www.poliba.it/en/borse-di-studio",
+    "source_type": "Official university page",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The official index lists 2026/27 merit, international-student and other calls. Merit lists shown are for enrolled students and the previous cycle; do not treat them as first-year guarantees. It also records a 2026/27 one-scholarship call for Palestinian students resident in Gaza, restricted to candidates already admitted to an MSc and not compatible with ADISU aid.",
+    "supports": [
+      "university.previous_cycle_scholarships",
+      "program.previous_cycle_scholarships"
+    ]
+  },
+  {
+    "id": "SRC-POLIBA-PALESTINE-SCHOLARSHIP-2026",
+    "university_id": "politecnico-bari",
+    "title": "Targeted scholarship for Palestinian students from Gaza 2026/27",
+    "url": "https://www.poliba.it/sites/default/files/Borse%20di%20studio/D.R.%20Bando%20borsa%20di%20studio%20Palestina_signed_signed-signed.pdf",
+    "source_type": "Official targeted international scholarship call PDF",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The call offered one €22,000 gross award across two years to a Palestinian student resident in Gaza already admitted to a 2026/27 Poliba MSc. It includes €11,000 gross per year, full fee exemption and arrival/psychological support. Deadline was 23 October 2026. Second-year payment requires at least 12 CFU by 31 July 2027 and enrollment in 2027/28; the scholarship is incompatible with ADISU aid and is not a general 2027/28 new-entry award.",
+    "supports": [
+      "university.previous_cycle_targeted_scholarships",
+      "university.previous_cohort_2027_2028_continuation",
+      "program.previous_cycle_scholarships"
+    ]
+  },
+  {
+    "id": "SRC-POLIMI-MSC-LIST-2026",
+    "university_id": "politecnico-milano",
+    "title": "Master of Science programme catalogue",
+    "url": "https://www.polimi.it/en/education/laurea-magistrale-programmes",
+    "source_type": "Official programme catalogue",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The official catalogue lists 45 Laurea Magistrale programmes, including Computer Science and Engineering, Cyber Risk Strategy and Governance, High Performance Computing Engineering, Biomedical Engineering, Mechanical Engineering, Aeronautical Engineering, Space Engineering, Design & Engineering, Architecture, Communication Design and Civil Engineering. It lists no standalone MSc named Artificial Intelligence or Aerospace Engineering. The list is current catalogue evidence, not a named 2027/28 first-year intake notice.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_course_identity"
+    ]
+  },
+  {
+    "id": "SRC-POLIMI-CSE-2026",
+    "university_id": "politecnico-milano",
+    "title": "Computer Science and Engineering MSc profile",
+    "url": "https://www.polimi.it/en/education/laurea-programmes/programme-detail/computer-science-and-engineering",
+    "source_type": "Official course profile",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Identifies a two-year English-taught Master of Science at Milano Leonardo. The course is 120 ECTS and offers Computer Science and Engineering, Business and Innovation, and Artificial Intelligence study plans. Foreign-degree applicants need a comparable first-cycle qualification and their academic background is assessed against programme criteria; the profile is not a 2027/28 first-year offer.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_program_requirements"
+    ]
+  },
+  {
+    "id": "SRC-POLIMI-CYBER-2025",
+    "university_id": "politecnico-milano",
+    "title": "Cyber Risk Strategy and Governance MSc profile",
+    "url": "https://www.polimi.it/en/education/laurea-magistrale-programmes/programme-detail/cyber-risk-strategy-and-governance",
+    "source_type": "Official course profile",
+    "accessed_at": "2026-11-10",
+    "cycle": "2025-2026",
+    "evidence": "The official page expressly says its information is for 2025/26 and may change in 2026/27. It identifies a two-year English MSc at the Milan partner-university campus, delivered with Bocconi. Foreign-degree applicants are evaluated competitively by a joint committee using transcript, curriculum and motivation letter; the page says there are no fixed admission criteria. This historical profile does not prove 2026/27 or 2027/28 intake.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_program_requirements"
+    ]
+  },
+  {
+    "id": "SRC-POLIMI-HPC-2026",
+    "university_id": "politecnico-milano",
+    "title": "High Performance Computing Engineering MSc profile",
+    "url": "https://www.polimi.it/en/education/laurea-programmes/programme-detail/high-performance-computing-engineering",
+    "source_type": "Official course profile",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Identifies a two-year English MSc at Milano Leonardo. Foreign applicants need an equivalent Bachelor’s degree in Computer Science/Engineering, Mathematical Engineering or a related field. The official profile specifies at least 20 ECTS in Computer Science/Computer Engineering, 20 ECTS in Mathematics/Statistics and 10 ECTS in Physics, with committee assessment and possible additional requirements.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_program_requirements",
+      "program.previous_cycle_language_requirements"
+    ]
+  },
+  {
+    "id": "SRC-POLIMI-BIOMED-MSC-2026",
+    "university_id": "politecnico-milano",
+    "title": "Biomedical Engineering MSc profile",
+    "url": "https://www.polimi.it/en/education/laurea-magistrale-programmes/programme-detail/biomedical-engineering-1",
+    "source_type": "Official course profile",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Identifies a two-year LM-21 Master of Science at Milano Leonardo taught in Italian or English. Foreign-degree applicants need an equivalent Bachelor’s qualification and relevant engineering preparation; eligibility is evaluated from the prior academic career under the programme rules. This corrects the previous tracker’s English-only label for the prior-cycle course.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_program_requirements",
+      "program.previous_cycle_language_requirements"
+    ]
+  },
+  {
+    "id": "SRC-POLIMI-MECH-2025",
+    "university_id": "politecnico-milano",
+    "title": "Mechanical Engineering MSc profile",
+    "url": "https://www.polimi.it/en/education/laurea-magistrale-programmes/programme-detail/mechanical-engineering-1",
+    "source_type": "Official course profile",
+    "accessed_at": "2026-11-10",
+    "cycle": "2025-2026",
+    "evidence": "The official profile identifies a two-year English-taught MSc with campuses in Lecco, Piacenza and Milano Bovisa. The page states that its information refers to 2025/26 and may change in 2026/27; annual admission and course conditions must therefore be rechecked.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_program_requirements"
+    ]
+  },
+  {
+    "id": "SRC-POLIMI-AERONAUTICAL-2026",
+    "university_id": "politecnico-milano",
+    "title": "Aeronautical Engineering MSc profile",
+    "url": "https://www.polimi.it/en/education/laurea-programmes/programme-detail/aeronautical-engineering",
+    "source_type": "Official course profile",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Identifies a two-year English MSc at Milano Bovisa. Applicants with a foreign Bachelor’s qualification need comparable first-cycle study and adequate preparation in mathematics, physics and aerospace or mechanical engineering; a committee evaluates the academic curriculum and performance. This is a distinct named programme from the Italian Aerospace Engineering BSc and Space Engineering MSc.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_program_requirements",
+      "program.previous_cycle_language_requirements"
+    ]
+  },
+  {
+    "id": "SRC-POLIMI-SPACE-2026",
+    "university_id": "politecnico-milano",
+    "title": "Space Engineering MSc profile",
+    "url": "https://www.polimi.it/en/education/laurea-magistrale-programmes/programme-detail/space-engineering",
+    "source_type": "Official course profile",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Identifies a separate two-year English-taught Space Engineering MSc. Foreign applicants need a comparable first-level qualification and relevant mathematical, physical and aerospace/mechanical preparation. It is not the same name as the prior tracker’s generic Aerospace Engineering MSc lead.",
+    "supports": [
+      "program.previous_cycle_course_identity",
+      "program.previous_cycle_course_listing"
+    ]
+  },
+  {
+    "id": "SRC-POLIMI-DESIGNENG-2025",
+    "university_id": "politecnico-milano",
+    "title": "Design & Engineering MSc profile",
+    "url": "https://www.polimi.it/en/education/laurea-programmes/programme-detail/design-engineering",
+    "source_type": "Official course profile",
+    "accessed_at": "2026-11-10",
+    "cycle": "2025-2026",
+    "evidence": "Identifies a two-year English MSc at Milano Bovisa. The page expressly describes 2025/26 information and warns it may change in 2026/27. It gives foreign applicants’ degree-field and disciplinary-credit expectations and states admission is subject to individual-preparation assessment and a merit ranking; annual deadlines and rules still need checking.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_program_requirements",
+      "program.previous_cycle_language_requirements"
+    ]
+  },
+  {
+    "id": "SRC-POLIMI-ARCH-MSC-2026",
+    "university_id": "politecnico-milano",
+    "title": "Architecture MSc profile",
+    "url": "https://www.polimi.it/en/education/laurea-programmes/programme-detail/architecture",
+    "source_type": "Official course profile",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Identifies a two-year MSc at Milano Leonardo taught in Italian or English. Its admission profile requires a Bachelor’s degree in Architecture and a portfolio. Language and specialisation depend on the chosen study plan; the old English-only tag is too broad.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_program_requirements",
+      "program.previous_cycle_language_requirements"
+    ]
+  },
+  {
+    "id": "SRC-POLIMI-COMM-DESIGN-2026",
+    "university_id": "politecnico-milano",
+    "title": "Communication Design MSc profile",
+    "url": "https://www.polimi.it/en/education/laurea-magistrale-programmes/programme-detail/communication-design-1",
+    "source_type": "Official course profile",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Identifies a two-year MSc at Milano Bovisa taught in Italian or English. Foreign-degree candidates need a comparable first-cycle design or related qualification; programme-board review, individual preparation/ranking and at least B2 English are described on the course page. This corrects the previous tracker’s English-only label.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_program_requirements",
+      "program.previous_cycle_language_requirements"
+    ]
+  },
+  {
+    "id": "SRC-POLIMI-AERO-BSC-2026",
+    "university_id": "politecnico-milano",
+    "title": "Ingegneria Aerospaziale bachelor’s profile",
+    "url": "https://www.polimi.it/formazione/corsi-di-laurea/dettaglio-corso/ingegneria-aerospaziale",
+    "source_type": "Official course profile",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Identifies Ingegneria Aerospaziale as a three-year Italian Laurea (BSc equivalent), L-9, at Milano Bovisa. First-year admission is through the annual engineering admission process; the profile does not publish the 2027/28 named offer or call.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_language_requirements"
+    ]
+  },
+  {
+    "id": "SRC-POLIMI-BIOMED-BSC-2026",
+    "university_id": "politecnico-milano",
+    "title": "Ingegneria Biomedica bachelor’s profile",
+    "url": "https://www.polimi.it/formazione/corsi-di-laurea/dettaglio-corso/ingegneria-biomedica",
+    "source_type": "Official course profile",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Identifies a three-year Italian Laurea, classes L-8/L-9, with the 2026/27 first year at Milano Bovisa and later years at Milano Leonardo. This is the BSc and must remain separate from the similarly named MSc. The 2027/28 first-year call is not established by this course profile.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_language_requirements"
+    ]
+  },
+  {
+    "id": "SRC-POLIMI-MGMT-BSC-2026",
+    "university_id": "politecnico-milano",
+    "title": "Ingegneria Gestionale bachelor’s profile",
+    "url": "https://www.polimi.it/formazione/corsi-di-laurea/dettaglio-corso/ingegneria-gestionale",
+    "source_type": "Official course profile",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Identifies a three-year Italian Laurea, classes L-8/L-9, at Cremona and Milano Bovisa. Programme access uses the Engineering admission process and annual call; current profile does not establish a 2027/28 programme-specific first-year offer.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_language_requirements"
+    ]
+  },
+  {
+    "id": "SRC-POLIMI-COMP-BSC-2026",
+    "university_id": "politecnico-milano",
+    "title": "Ingegneria Informatica bachelor’s profile",
+    "url": "https://dynamicpoli.polimi.it/formazione/corsi-di-laurea/dettaglio-corso/ingegneria-informatica",
+    "source_type": "Official course profile",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Identifies a three-year Italian Laurea, class L-8, at Milano Leonardo and Cremona. The course page describes the BSc-level computer-engineering degree, distinct from the Computer Science and Engineering MSc. Annual Engineering access tests and calls apply; this page is not a 2027/28 course offer.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_language_requirements"
+    ]
+  },
+  {
+    "id": "SRC-POLIMI-INTERIOR-BSC-2026",
+    "university_id": "politecnico-milano",
+    "title": "Design degli Interni bachelor’s profile",
+    "url": "https://www.polimi.it/formazione/corsi-di-laurea/dettaglio-corso/design-degli-interni",
+    "source_type": "Official course profile",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Identifies a three-year Italian Laurea, class L-4, at Milano Bovisa. It is a design BSc with its own admission route; the 2027/28 call, places and deadlines are not published in this profile.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_language_requirements"
+    ]
+  },
+  {
+    "id": "SRC-POLIMI-ARCH-BSC-2026",
+    "university_id": "politecnico-milano",
+    "title": "Progettazione dell'Architettura bachelor’s profile",
+    "url": "https://www.polimi.it/formazione/corsi-di-laurea/dettaglio-corso/progettazione-dellarchitettura",
+    "source_type": "Official course profile",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Identifies a three-year Laurea, class L-17, at Milano Leonardo, Piacenza and Mantova. The page lists Italian or English delivery, correcting the previous tracker’s Italian-only tag. This BSc is distinct from the two-year Architecture MSc.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_language_requirements"
+    ]
+  },
+  {
+    "id": "SRC-POLIMI-CIVIL-MSC-2026",
+    "university_id": "politecnico-milano",
+    "title": "Ingegneria Civile – Civil Engineering MSc profile",
+    "url": "https://www.polimi.it/formazione/corsi-di-laurea/dettaglio-corso/ingegneria-civile-civil-engineering",
+    "source_type": "Official course profile",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Identifies a two-year LM-23 MSc at Milano Leonardo taught in Italian or English depending on the study plan: Geotechnics and Structures use English, while the other plans are mainly in Italian. Programme-specific admission is based on the previous academic curriculum and annual rules.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_program_requirements",
+      "program.previous_cycle_language_requirements"
+    ]
+  },
+  {
+    "id": "SRC-POLITO-MSC-CATALOGUE-2026",
+    "university_id": "politecnico-torino",
+    "title": "Master's degree programme catalogue",
+    "url": "https://www.polito.it/en/education/master-s-degree-programmes",
+    "source_type": "Official programme catalogue",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The official master's catalogue lists the reviewed degree pages as available programmes. The individual profiles identify academic year 2026/2027; this catalogue does not establish a first-year offer for 2027/28.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_course_identity"
+    ]
+  },
+  {
+    "id": "SRC-POLITO-MSC-ADMISSIONS-2026",
+    "university_id": "politecnico-torino",
+    "title": "Admissions and enrolment – Master's degree programmes",
+    "url": "https://www.polito.it/en/education/applying-studying-graduating/admissions-and-enrolment/master-s-degree-programmes",
+    "source_type": "Official admissions page",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Polito states that its master's programmes last two full-time academic years and total 120 ECTS. The listed special selection calls are for 2026/27; the reviewed page does not name the general 2027/28 candidate-course calls.",
+    "supports": [
+      "program.duration",
+      "program.ects",
+      "university.master_admissions_2027_2028"
+    ]
+  },
+  {
+    "id": "SRC-POLITO-MSC-FOREIGN-2026",
+    "university_id": "politecnico-torino",
+    "title": "Applicants with a non-Italian qualification – Master's degree programmes",
+    "url": "https://www.polito.it/en/education/applying-studying-graduating/admissions-and-enrolment/master-s-degree-programmes/applicants-with-a-non-italian-qualification",
+    "source_type": "Official international admissions page",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "For the 2026/27 cycle, applicants need a foreign first-cycle degree giving access to second-cycle study, suitable academic performance, programme-specific curricular requirements and language evidence. English-taught programmes require English B2; Italian or mixed Italian/English programmes require English B2 and Italian B2. Applicants can select up to two programmes. The page gives 2026/27 calls (including a third call restricted to EU and non-EU residents in Italy) and a €50 application fee; these are historical and do not set 2027/28 dates or fees.",
+    "supports": [
+      "program.previous_cycle_program_requirements",
+      "program.previous_cycle_english_requirement",
+      "program.previous_cycle_application_windows",
+      "program.previous_cycle_application_fee",
+      "program.application_windows",
+      "program.application_fee_2027_2028"
+    ]
+  },
+  {
+    "id": "SRC-POLITO-MSC-ENTRY-ANNEX-2026",
+    "university_id": "politecnico-torino",
+    "title": "2026/27 entry requirements for Master's programmes",
+    "url": "https://www.polito.it/sites/default/files/2026-03/Annex%201_TABELLA%20REQUISITI%20LM%202627.pdf",
+    "source_type": "Official PDF admission requirements",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The official one-page annex gives course-specific language minima and recommended academic backgrounds. It lists IELTS 5.5 for the English routes of Automotive Engineering, Computer Engineering, Cybersecurity Engineering, Data Science and Engineering, ICT Engineering for Smart Societies, Quantum Engineering and Architecture Construction City. Recommended backgrounds vary by course; these are recommendations, not stated as automatic eligibility rules. Digital Skills lists Information Technology and Computer Sciences among its recommended backgrounds. The annex is not a 2027/28 requirements document.",
+    "supports": [
+      "program.previous_cycle_program_requirements",
+      "program.previous_cycle_english_requirement"
+    ]
+  },
+  {
+    "id": "SRC-POLITO-TUITION-2026",
+    "university_id": "politecnico-torino",
+    "title": "Tuition fees and EDISU scholarships",
+    "url": "https://www.polito.it/en/education/services-and-life-at-politecnico/right-to-education-and-tuition-fees/tuition-fees",
+    "source_type": "Official tuition and aid page",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The official page links the 2026/27 tuition regulation applicable to master's students and identifies ISEE/ISEE Parificato procedures for reductions. It links EDISU Piemonte benefits for 2026/27. No 2027/28 fee regulation or course-specific scholarship amount is recorded by this source.",
+    "supports": [
+      "program.previous_cycle_tuition",
+      "program.previous_cycle_scholarships",
+      "program.tuition_2027_2028",
+      "program.scholarships_2027_2028"
+    ]
+  },
+  {
+    "id": "SRC-POLITO-COMPUTER-2026",
+    "university_id": "politecnico-torino",
+    "title": "Computer Engineering MSc profile",
+    "url": "https://www.polito.it/en/education/master-s-degree-programmes/computer-engineering",
+    "source_type": "Official course profile",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The profile identifies a 2026/27 Master's degree, Italian and English delivery, LM-32 and Main Campus.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_course_identity",
+      "program.previous_cycle_program_requirements"
+    ]
+  },
+  {
+    "id": "SRC-POLITO-CYBER-2026",
+    "university_id": "politecnico-torino",
+    "title": "Cybersecurity Engineering MSc profile",
+    "url": "https://www.polito.it/en/education/master-s-degree-programmes/cybersecurity-engineering",
+    "source_type": "Official course profile",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The profile identifies a 2026/27 English Master's degree, LM-32 and Main Campus.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_course_identity",
+      "program.previous_cycle_program_requirements"
+    ]
+  },
+  {
+    "id": "SRC-POLITO-DATA-2026",
+    "university_id": "politecnico-torino",
+    "title": "Data Science and Engineering MSc profile",
+    "url": "https://www.polito.it/en/education/master-s-degree-programmes/data-science-and-engineering",
+    "source_type": "Official course profile",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The profile identifies a 2026/27 English Master's degree, LM-32 and Main Campus.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_course_identity",
+      "program.previous_cycle_program_requirements"
+    ]
+  },
+  {
+    "id": "SRC-POLITO-AUTO-2026",
+    "university_id": "politecnico-torino",
+    "title": "Automotive Engineering MSc profile",
+    "url": "https://www.polito.it/en/education/master-s-degree-programmes/automotive-engineering",
+    "source_type": "Official course profile",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The profile identifies a 2026/27 English Master's degree, LM-33 and the Mirafiori campus.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_course_identity",
+      "program.previous_cycle_program_requirements"
+    ]
+  },
+  {
+    "id": "SRC-POLITO-AERO-2026",
+    "university_id": "politecnico-torino",
+    "title": "Aerospace Engineering MSc profile",
+    "url": "https://www.polito.it/en/education/master-s-degree-programmes/aerospace-engineering",
+    "source_type": "Official course profile",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The profile identifies a 2026/27 Italian Master's degree, LM-20 and Main Campus.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_course_identity",
+      "program.previous_cycle_program_requirements"
+    ]
+  },
+  {
+    "id": "SRC-POLITO-ICT-2026",
+    "university_id": "politecnico-torino",
+    "title": "ICT Engineering for Smart Societies MSc profile",
+    "url": "https://www.polito.it/en/education/master-s-degree-programmes/ict-engineering-for-smart-societies",
+    "source_type": "Official course profile",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The profile identifies a 2026/27 English Master's degree, LM-27 and Main Campus. It says the title changed from ICT for Smart Societies starting in 2025/26.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_course_identity",
+      "program.previous_cycle_program_requirements"
+    ]
+  },
+  {
+    "id": "SRC-POLITO-QUANTUM-2026",
+    "university_id": "politecnico-torino",
+    "title": "Quantum Engineering MSc profile",
+    "url": "https://www.polito.it/en/education/master-s-degree-programmes/quantum-engineering",
+    "source_type": "Official course profile",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The profile identifies a 2026/27 English Master's degree, LM-29 and Main Campus.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_course_identity",
+      "program.previous_cycle_program_requirements"
+    ]
+  },
+  {
+    "id": "SRC-POLITO-ARCHCC-2026",
+    "university_id": "politecnico-torino",
+    "title": "Architecture Construction City MSc profile",
+    "url": "https://www.polito.it/en/education/master-s-degree-programmes/architecture-construction-city",
+    "source_type": "Official course profile",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The profile identifies a 2026/27 Master's degree, Italian and English delivery, LM-4 and Castello del Valentino.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_course_identity",
+      "program.previous_cycle_program_requirements"
+    ]
+  },
+  {
+    "id": "SRC-POLITO-DIGITAL-SKILLS-2026",
+    "university_id": "politecnico-torino",
+    "title": "Digital Skills for Sustainable Societal Transitions MSc profile",
+    "url": "https://www.polito.it/en/education/master-s-degree-programmes/digital-skills-for-sustainable-societal-transitions",
+    "source_type": "Official course profile",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The profile identifies a 2026/27 English Master's degree, LM-91 and Castello del Valentino. Its overview describes programming, database management, data elaboration, business management and sustainable-transition contexts.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_course_identity",
+      "program.previous_cycle_program_requirements"
+    ]
+  },
+  {
+    "id": "SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026",
+    "university_id": "sapienza",
+    "title": "Programmes in English and 2026/27 pre-selection",
+    "url": "https://www.uniroma1.it/en/en/admissions",
+    "source_type": "Official university page",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "English-taught degree applicants used MoveIN pre-selection. The 2026/27 cycle opened 22 December 2025; the non-EU visa-applicant deadline was 15 May 2026, the EU/equivalent deadline was 31 July 2026, and Universitaly pre-enrolment was due 30 June 2026. A candidate could submit up to two applications. Pre-selection was only one step and did not guarantee final admission. No 2027/28 first-year schedule is stated on the reviewed page.",
+    "supports": [
+      "university.previous_cycle_admission_process",
+      "university.previous_cycle_application_windows",
+      "program.previous_cycle_application_windows"
+    ]
+  },
+  {
+    "id": "SRC-SAPIENZA-MOVEIN-REQUIREMENTS-2026",
+    "university_id": "sapienza",
+    "title": "English-program academic and language requirements 2026/27",
+    "url": "https://www.uniroma1.it/sites/default/files/field_file_allegati/academic_requirements_movein_2026-2027_web_1.pdf",
+    "source_type": "Official admissions requirements PDF",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The official PDF lists 2026/27 English bachelor’s and master’s programs and gives program-specific prior-cycle entry requirements. It lists Computer Science, Artificial Intelligence and Robotics, Cybersecurity, Data Science, Applied Computer Science and Artificial Intelligence, and Sustainable Building Engineering among the tracker’s matches. Requirements and scores belong to 2026/27 only.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_program_requirements",
+      "program.previous_cycle_language_requirements"
+    ]
+  },
+  {
+    "id": "SRC-SAPIENZA-INTL-OFFICE-2026",
+    "university_id": "sapienza",
+    "title": "International Student Office admissions procedures 2026/27",
+    "url": "https://www.uniroma1.it/en/node/24774",
+    "source_type": "Official university page",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 procedure distinguishes EU/equivalent candidates from non-EU applicants residing abroad. English-course applicants requiring a study visa needed the MoveIN pre-acceptance letter and Universitaly pre-enrolment by 30 June 2026; final admission still depended on the individual course call, qualification verification, visa, and completed enrollment. Foreign qualifications were reviewed for authenticity and comparability. Italian-taught programs required certified Italian B2 for non-EU applicants abroad who needed a visa.",
+    "supports": [
+      "university.previous_cycle_non_eu_process",
+      "university.previous_cycle_foreign_qualification_review",
+      "program.previous_cycle_international_admission"
+    ]
+  },
+  {
+    "id": "SRC-SAPIENZA-ENGCSAI-COURSE-2026",
+    "university_id": "sapienza",
+    "title": "Engineering in Computer Science and Artificial Intelligence course regulations 2026/27",
+    "url": "https://corsidilaurea.uniroma1.it/en/timeview/2026/33515/organization",
+    "source_type": "Official course regulations",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The archived 2026/27 catalogue identifies the two-year, 120-ECTS LM-32 MSc, taught exclusively in English. Admission required a suitable bachelor’s degree, at least 60 recognized ECTS across defined scientific and engineering areas (including at least 24 basic-science and 36 engineering/computing credits, with specified sub-minima), and English B2; a committee assessed preparation and could interview applicants.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_program_requirements",
+      "program.previous_cycle_language_requirements"
+    ]
+  },
+  {
+    "id": "SRC-SAPIENZA-AERONAUTICAL-2026",
+    "university_id": "sapienza",
+    "title": "Aeronautical Engineering course profile 2026/27",
+    "url": "https://corsidilaurea.uniroma1.it/it/course/33483",
+    "source_type": "Official course catalogue",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 catalogue identifies Ingegneria aeronautica - Aeronautical engineering as a two-year LM-20 Master’s degree in Rome with Italian and English listed as languages of instruction. This bilingual course is not the separate Space and Astronautical Engineering program.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_language"
+    ]
+  },
+  {
+    "id": "SRC-SAPIENZA-MEDICINE-2026",
+    "university_id": "sapienza",
+    "title": "Medicine and Surgery course catalogue entries 2026/27",
+    "url": "https://corsidilaurea.uniroma1.it/it/solr-offerta-formativa-t?search_api_views_fulltext=Medicina+e+chirurgia",
+    "source_type": "Official course catalogue",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 catalogue lists several single-cycle LM-41 Medicine and Surgery courses at separate campuses. It lists one distinct English-taught course, Medicine and Surgery F, as a six-year program. The legacy candidate does not identify its campus or track, so the English and Italian variants are not merged.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_language"
+    ]
+  },
+  {
+    "id": "SRC-SAPIENZA-AEROSPACE-BSC-2026",
+    "university_id": "sapienza",
+    "title": "Aerospace Engineering bachelor’s course profile 2026/27",
+    "url": "https://corsidilaurea.uniroma1.it/it/corso/2023/30837/cds",
+    "source_type": "Official course catalogue",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 catalogue identifies Ingegneria Aerospaziale as a three-year L-9 bachelor’s degree in Rome, taught in Italian, with an entry test.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_language"
+    ]
+  },
+  {
+    "id": "SRC-SAPIENZA-POLITICAL-SCIENCE-2026",
+    "university_id": "sapienza",
+    "title": "Political Science and International Relations bachelor’s profile 2026/27",
+    "url": "https://corsidilaurea.uniroma1.it/it/course/33618",
+    "source_type": "Official course catalogue",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 catalogue identifies Scienze politiche e relazioni internazionali as a three-year L-36 bachelor’s degree in Rome, taught in Italian. Its entry route is a test to verify knowledge.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_language"
+    ]
+  },
+  {
+    "id": "SRC-SAPIENZA-PSYCHOLOGY-2026",
+    "university_id": "sapienza",
+    "title": "Psychology and Health bachelor’s profile 2026/27",
+    "url": "https://corsidilaurea.uniroma1.it/it/course/33570",
+    "source_type": "Official course catalogue",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 catalogue identifies Psicologia e Salute as a three-year L-24 bachelor’s degree in Rome, taught in Italian and with an admission test.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_language"
+    ]
+  },
+  {
+    "id": "SRC-SAPIENZA-ECONOMICS-FINANCE-2026",
+    "university_id": "sapienza",
+    "title": "Economics and Finance bachelor’s listing 2026/27",
+    "url": "https://corsidilaurea.uniroma1.it/en/timeview/2026/34177/organization",
+    "source_type": "Official course catalogue",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The same-name 2026/27 course is Economia e finanza, an L-33 three-year bachelor’s program, not the MSc classification in the previous tracker. The catalogue lists Italian and English, but this does not establish that the entire course is English-taught. The match to the old MSc lead is unresolved.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_language"
+    ]
+  },
+  {
+    "id": "SRC-SAPIENZA-FINANCE-INSURANCE-2026",
+    "university_id": "sapienza",
+    "title": "Finance and Insurance Master’s profile 2026/27",
+    "url": "https://www.corsidilaurea.uniroma1.it/en/course/33439",
+    "source_type": "Official course catalogue",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The separate 2026/27 Finance and Insurance program is a two-year LM-16 Master’s degree in Rome. The catalogue lists Italian and English curricula/language, so it is not represented as entirely English-taught. It is tracked separately from the same-name Economia e finanza L-33 bachelor’s course.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_language"
+    ]
+  },
+  {
+    "id": "SRC-SAPIENZA-INGINFO-ARCHIVE-2024",
+    "university_id": "sapienza",
+    "title": "Ingegneria Informatica historical course archive",
+    "url": "https://corsidilaurea.uniroma1.it/sites/default/files/archive/2024/30430.pdf",
+    "source_type": "Official archived course regulation PDF",
+    "accessed_at": "2026-11-10",
+    "cycle": "2024-2025",
+    "evidence": "The archived official document identifies the earlier Ingegneria Informatica as an LM-32 two-year Master’s degree. This is older than the immediate prior cycle and does not establish a 2026/27 or 2027/28 offer. The 2026/27 English Engineering in Computer Science and Artificial Intelligence course is tracked separately pending proof of course succession.",
+    "supports": [
+      "program.historical_course_reference"
+    ]
+  },
+  {
+    "id": "SRC-SAPIENZA-FEES-2026",
+    "university_id": "sapienza",
+    "title": "Tuition, payment and foreign-income guidance 2026/27",
+    "url": "https://www.uniroma1.it/en/pagina/tuition-fees-and-benefits",
+    "source_type": "Official university page",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 tuition page describes ISEE-based reductions, three installments of 30%, 35% and 35%, the ordinary fee framework and foreign-income rules. These are annual rules and the amount depends on course area and individual circumstances.",
+    "supports": [
+      "university.previous_cycle_tuition",
+      "program.previous_cycle_tuition",
+      "university.fee_conditions"
+    ]
+  },
+  {
+    "id": "SRC-SAPIENZA-FEE-TABLE-2026",
+    "university_id": "sapienza",
+    "title": "Standard registration-fee amounts for 2026/27",
+    "url": "https://www.uniroma1.it/en/node/29732",
+    "source_type": "Official university page",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The listed standard total for the Information Engineering, Computer Science and Statistics faculty group is €2,924 in three installments. For students declaring foreign income, the page lists fixed contribution bands of €300, €700 or €1,500 by country group. These categories and amounts should not be combined into an individual quote without checking the student’s course, residence, income and exemptions.",
+    "supports": [
+      "university.previous_cycle_tuition",
+      "program.previous_cycle_tuition",
+      "university.fee_conditions"
+    ]
+  },
+  {
+    "id": "SRC-SAPIENZA-APPLICATION-FEE-2026",
+    "university_id": "sapienza",
+    "title": "MoveIN pre-selection application fee 2026/27",
+    "url": "https://www.uniroma1.it/it/pagina/international-admissions-2026-2027",
+    "source_type": "Official university page",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The official admissions information states a €30 fee for each pre-selection application, up to two applications per candidate and intake, with no waiver. The general International Student Office separately describes a €10 course requirement-assessment payment for applicable Master’s routes; these are different processes.",
+    "supports": [
+      "university.previous_cycle_application_fee",
+      "program.previous_cycle_application_fee"
+    ]
+  },
+  {
+    "id": "SRC-SAPIENZA-WANTED-BEST-2026",
+    "university_id": "sapienza",
+    "title": "Wanted the Best merit scholarship call 2026/27",
+    "url": "https://www.uniroma1.it/en/pagina/scholarships-meritorious-students-italian-and-international-universities",
+    "source_type": "Official scholarship call",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 call offered 85 two-year awards of €3,000 gross per year to students enrolling in a Sapienza Master’s after earning their first degree at another Italian university with a grade from 105/110 to 110/110 cum laude. Deadline: 30 October 2026. It is not a general award for applicants whose prior degree is from abroad.",
+    "supports": [
+      "university.previous_cycle_scholarships",
+      "program.previous_cycle_scholarships"
+    ]
+  },
+  {
+    "id": "SRC-SAPIENZA-DISCO-LAZIO-2026",
+    "university_id": "sapienza",
+    "title": "DiSCo Lazio Right to Education call 2026/27",
+    "url": "https://laziodisco.it/on-line-il-bando-diritto-allo-studio-2026-2027/?lang=en",
+    "source_type": "Official regional scholarship call",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The regional competitive call covered students at Lazio universities, including Sapienza, and offered scholarships, housing, mobility grants and other benefits subject to the annual economic and merit rules. The application deadline was extended to 23 July 2026 at 20:00; corrections in the second phase closed 11 August. It is prior-cycle regional aid, not a guaranteed Sapienza or program award.",
+    "supports": [
+      "university.previous_cycle_regional_aid",
+      "university.previous_cycle_scholarships",
+      "program.previous_cycle_scholarships"
+    ]
+  },
+  {
+    "id": "SRC-UNITO-EN-PROGRAMS-2026",
+    "university_id": "torino",
+    "title": "Degree programs in English, academic year 2026–2027",
+    "url": "https://en.unito.it/studying-unito/programs/degree-programs/degree-programs-english",
+    "source_type": "Official English-degree catalogue",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The official English-program page labels its list as AY 2026–2027 and includes the reviewed English Bachelor's and Master's candidates. This prior-year list does not establish a 2027/28 first-year offer.",
+    "supports": [
+      "university.previous_cycle_english_program_inventory",
+      "program.previous_cycle_course_listing"
+    ]
+  },
+  {
+    "id": "SRC-UNITO-AIHPC-2026",
+    "university_id": "torino",
+    "title": "Artificial Intelligence and High Performance Computing Technologies",
+    "url": "https://en.unito.it/studying-unito/programs/degree-programs/artificial-intelligence-and-high-performance-computing",
+    "source_type": "Official degree profile",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Identifies the English-taught LM-18 Master's, two years/120 ECTS, in Turin; the 2026/27 entry profile requires L-31 or equivalent, 48 relevant CFU in INFO-01/A and/or IINF-05/A, at least 18 mathematics CFU, and personal-preparation assessment. Any 2027/28 year-two coursework is for an earlier cohort, not proof of a new first-year intake.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_program_requirements"
+    ]
+  },
+  {
+    "id": "SRC-UNITO-STOCH-2026",
+    "university_id": "torino",
+    "title": "Stochastics and Data Science",
+    "url": "https://en.unito.it/studying-unito/programs/degree-programs/stochastics-and-data-science",
+    "source_type": "Official degree profile",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Identifies an English-taught LM-40 R Master's, two years/120 ECTS, in Turin with free access and assessment; prior-cycle curricular rules specify at least 36 CFU across listed quantitative and related subject areas. The profile's 2027/28 course year concerns second-year study for the 2026/27 cohort.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_program_requirements"
+    ]
+  },
+  {
+    "id": "SRC-UNITO-ECON-MSC-2026",
+    "university_id": "torino",
+    "title": "Economics Master's degree",
+    "url": "https://en.unito.it/studying-unito/programs/degree-programs/economics-0",
+    "source_type": "Official degree profile",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Identifies an English-taught LM-56 R Master's, two years/120 ECTS, in Turin with free access subject to curricular and personal-preparation review; the page describes application during the prior cycle only.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_program_requirements"
+    ]
+  },
+  {
+    "id": "SRC-UNITO-BUSADMIN-2026",
+    "university_id": "torino",
+    "title": "Business Administration Master's degree",
+    "url": "https://en.unito.it/studying-unito/programs/degree-programs/business-administration-3",
+    "source_type": "Official degree profile",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Identifies an English-taught LM-77 R Master's, two years/120 ECTS, in Turin; access is locally programmed and includes a selection test. The restricted classification excludes the course from the 2026/27 unrestricted Talents4UniTO award call.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_program_requirements",
+      "program.previous_cycle_scholarship_eligibility"
+    ]
+  },
+  {
+    "id": "SRC-UNITO-LTDH-2026",
+    "university_id": "torino",
+    "title": "Language Technologies and Digital Humanities",
+    "url": "https://en.unito.it/studying-unito/programs/degree-programs/language-technologies-and-digital-humanities",
+    "source_type": "Official degree profile",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Identifies an English-taught LM-43 R Master's, two years/120 ECTS, in Turin with curricular and preparation assessment; the course lists 18 CFU across designated information-technology and humanities sectors. Its displayed 2027/28 year-two modules do not confirm new first-year entry.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_program_requirements"
+    ]
+  },
+  {
+    "id": "SRC-UNITO-BM-BSC-2026",
+    "university_id": "torino",
+    "title": "Business and Management Bachelor's degree",
+    "url": "https://en.unito.it/studying-unito/programs/degree-programs/business-management",
+    "source_type": "Official degree profile",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Identifies an English-taught L-18 R Bachelor's, three years/180 ECTS, in Turin; the 2026/27 route uses SAT selection and a ranking under the annual call.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_program_requirements"
+    ]
+  },
+  {
+    "id": "SRC-UNITO-EFDS-BSC-2026",
+    "university_id": "torino",
+    "title": "Economics and Finance with Data Science Bachelor's degree",
+    "url": "https://en.unito.it/studying-unito/programs/degree-programs/economics-and-finance-data-science",
+    "source_type": "Official degree profile",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Identifies an English-taught L-33 R Bachelor's, three years/180 ECTS, in Turin. The page's summary describes local programmed access while its requirements text describes open access; see the separate 2026/27 Rector's SAT call for the quota and ranking procedure.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_access_classification"
+    ]
+  },
+  {
+    "id": "SRC-UNITO-GLTLS-2026",
+    "university_id": "torino",
+    "title": "Global Law and Transnational Legal Studies",
+    "url": "https://en.unito.it/studying-unito/programs/degree-programs/global-law-and-transnational-legal-studies",
+    "source_type": "Official degree profile",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Identifies an English-taught L-14 R Bachelor's, three years/180 ECTS, in Turin with free access under the prior-cycle profile; TOLC-SU/TARM and English B2 requirements are listed.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_program_requirements"
+    ]
+  },
+  {
+    "id": "SRC-UNITO-MOLBIOTECH-2026",
+    "university_id": "torino",
+    "title": "Molecular Biotechnology",
+    "url": "https://en.unito.it/studying-unito/programs/degree-programs/molecular-biotechnology",
+    "source_type": "Official degree profile",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Identifies an English-taught LM-9 R Master's, two years/120 ECTS, in Turin. Prior-cycle requirements include at least 50 CFU in listed biology/chemistry areas, 10 CFU in physics/mathematics/statistics/informatics, English B2 and preparation assessment. Displayed year-two 2027/28 activities belong to the prior cohort.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_program_requirements"
+    ]
+  },
+  {
+    "id": "SRC-UNITO-MASTER-ADMISSIONS-2026",
+    "university_id": "torino",
+    "title": "International applications for degree-seeking students, AY 2026–2027",
+    "url": "https://www.en.unito.it/studying-unito/international-degree-seeking-students/application-international-students",
+    "source_type": "Official international admissions page",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The official page explicitly labels the procedure AY 2026–2027. Foreign-qualification applicants used Apply@UniTo, could select up to two programs, and paid €60. It lists prior-cycle postgraduate and undergraduate application windows and distinguishes programs with their own procedures; no 2027/28 dates are provided here.",
+    "supports": [
+      "university.previous_cycle_international_admission",
+      "university.previous_cycle_application_windows",
+      "program.previous_cycle_application_fee"
+    ]
+  },
+  {
+    "id": "SRC-UNITO-FEES-INTL-2026",
+    "university_id": "torino",
+    "title": "Tuition fees for international students",
+    "url": "https://www.en.unito.it/studying-unito/tuition-fees/tuition-fees-international-students",
+    "source_type": "Official international tuition page",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "For 2026/27, foreign students residing abroad are charged under country GDP-PPP bands; the first instalment is €156 (€16 stamp duty plus €140 regional tax), with comprehensive contributions of €500, €600, €700, €800, €1,000 or €1,500 by band. Eligibility, ISEE pathways, country categories and possible extra course contributions affect the total; this is historical, not a 2027/28 schedule.",
+    "supports": [
+      "university.previous_cycle_tuition",
+      "program.previous_cycle_tuition"
+    ]
+  },
+  {
+    "id": "SRC-UNITO-FEES-ADD-2026",
+    "university_id": "torino",
+    "title": "Courses with additional contributions",
+    "url": "https://www.unito.it/didattica/tasse/corsi-con-contributi-aggiuntivi",
+    "source_type": "Official additional-contribution table",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 additional-contribution table lists Business and Management Bachelor's and Business Administration Master's with an extra contribution ranging from €400 to €5,100 by ISEE/GDP-PPP band. This is an additional contribution, not total tuition, and is not carried into 2027/28.",
+    "supports": [
+      "program.previous_cycle_additional_contribution"
+    ]
+  },
+  {
+    "id": "SRC-UNITO-TALENTS-2026",
+    "university_id": "torino",
+    "title": "Talents4UniTO call for applications AY 2026–2027",
+    "url": "https://en.unito.it/sites/sten/files/documenti/2026-01/bando_talents4unito_2026_2027_en.pdf",
+    "source_type": "Official scholarship call PDF",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The prior-cycle call offers 40 competitive two-year awards of €20,000 total (€10,000 each year) to eligible non-Italian citizens residing abroad with foreign qualifications entering the first year of eligible unrestricted English-taught Master's programs. It lists AI/HPC, Economics, Language Technologies and Digital Humanities, Molecular Biotechnology, and Stochastics and Data Science among eligible programs; Business Administration is excluded as restricted-access. Its AY 2027/28 clause covers renewal by existing 2026/27 awardees entering year two, not new first-year awards.",
+    "supports": [
+      "university.previous_cycle_scholarships",
+      "program.previous_cycle_scholarship_eligibility"
+    ]
+  },
+  {
+    "id": "SRC-UNITO-SAT-BACHELOR-2026",
+    "university_id": "torino",
+    "title": "Admission call for selected Bachelor's degrees using SAT, AY 2026–2027",
+    "url": "https://en.unito.it/sites/sten/files/document/2026-04/bando_SME_triennali_SAT_2026_2027.pdf",
+    "source_type": "Official Rector's selection call PDF",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 call confirms a SAT-based preregistration and ranking with finite quotas. Business and Management quotas are 200 domestic/EU/equivalent residents, 40 non-EU visa applicants and 10 Marco Polo places; Economics and Finance with Data Science quotas are 195, 50 and 5. Procedure 1 preregistration was 1–19 June 2026 with SAT valid by 6 June; procedure 2 was 1 July–14 September 2026 with SAT valid by 12 September. Economics and Finance with Data Science used a Math score threshold in the first procedure. Historical figures only.",
+    "supports": [
+      "program.previous_cycle_application_windows",
+      "program.previous_cycle_places",
+      "program.previous_cycle_selection"
+    ]
+  },
+  {
+    "id": "SRC-UNITN-CS-PROFILE-2026",
+    "university_id": "trento",
+    "title": "Computer Science Master's degree",
+    "url": "https://corsi.unitn.it/en/computer-science-master",
+    "source_type": "Official degree profile",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Identifies a two-year/120-ECTS English MSc in class LM-18, based in Trento; European/equivalent applicants had a 2026/27 admission request through 12 November 2026. The 2027/28 new-first-year offer is not established by this profile.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_course_identity"
+    ]
+  },
+  {
+    "id": "SRC-UNITN-AIS-PROFILE-2026",
+    "university_id": "trento",
+    "title": "Artificial Intelligence Systems Master's degree",
+    "url": "https://corsi.unitn.it/en/artificial-intelligence-systems",
+    "source_type": "Official degree profile",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Identifies an English-taught two-year/120-ECTS MSc in class LM-32 in Trento, with free access for European/equivalent applicants subject to requirements; its published European request window is for 2026/27.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_course_identity"
+    ]
+  },
+  {
+    "id": "SRC-UNITN-DS-PROFILE-2026",
+    "university_id": "trento",
+    "title": "Data Science Master's degree",
+    "url": "https://corsi.unitn.it/en/data-science",
+    "source_type": "Official degree profile",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Identifies the English-taught two-year/120-ECTS programmed MSc in class LM-DATA, located at the Sociology Building in Trento. The official course call for 2026/27 sets 56 places, including eight for non-EU applicants abroad.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_course_identity"
+    ]
+  },
+  {
+    "id": "SRC-UNITN-HCI-PROFILE-2026",
+    "university_id": "trento",
+    "title": "Human-Computer Interaction Master's degree",
+    "url": "https://corsi.unitn.it/en/human-computer-interaction",
+    "source_type": "Official degree profile",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Identifies the English-taught two-year/120-ECTS programmed Master's in Rovereto; the official 2026/27 call identifies class LM-55 R, 35 total places and 20 places reserved for non-EU applicants abroad.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_course_identity"
+    ]
+  },
+  {
+    "id": "SRC-UNITN-COGSCI-PROFILE-2026",
+    "university_id": "trento",
+    "title": "Cognitive Science Master's degree",
+    "url": "https://corsi.unitn.it/en/cognitive-science",
+    "source_type": "Official degree profile",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Identifies the English-taught two-year/120-ECTS programmed Master's in class LM-55 at Palazzo Fedrigotti in Rovereto, with three study tracks; the annual call is for 2026/27.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_course_identity"
+    ]
+  },
+  {
+    "id": "SRC-UNITN-ISS-PROFILE-2026",
+    "university_id": "trento",
+    "title": "International Security Studies Master's degree",
+    "url": "https://corsi.unitn.it/en/international-security-studies",
+    "source_type": "Official degree profile",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Identifies the English-taught two-year/120-ECTS programmed joint LM-52 R Master's awarded by UniTrento and Scuola Superiore Sant’Anna; first year in Trento and second year in Pisa. A distinct Erasmus Mundus programme, Security, Intelligence and Strategic Studies, is not the same course.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_course_identity"
+    ]
+  },
+  {
+    "id": "SRC-UNITN-CEILS-PROFILE-2026",
+    "university_id": "trento",
+    "title": "Comparative, European and International Legal Studies Bachelor's degree",
+    "url": "https://corsi.unitn.it/en/comparative-european-and-international-legal-studies",
+    "source_type": "Official degree profile",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "Identifies the entirely English-taught three-year/180-ECTS Bachelor's in class L-14 R at the Faculty of Law in Trento; 2026/27 access is programmed and requires an admission test.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_course_identity"
+    ]
+  },
+  {
+    "id": "SRC-UNITN-DISI-CALL-2026",
+    "university_id": "trento",
+    "title": "DISI Master's admission call for non-European citizens abroad, AY 2026–2027",
+    "url": "https://corsi.unitn.it/sites/cds/files/2025-12/admission-call-master-disi-26-27.pdf",
+    "source_type": "Official Rector's admission call PDF",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 call covers English-taught DISI Master's degrees and sets the non-EU abroad deadline at 4 March 2026, 12:00 CET, €30 per application, academic evaluation and ranking, possible interview, Universitaly pre-enrolment, and course-specific seat/credit rules. It lists 60 call positions each for Computer Science and Artificial Intelligence Systems, with 20 EIT-selected places within each. Tuition for non-EU students is score-based up to €10,000 per year; first-year bands are waiver at 90+, €1,000 at 70–89.99, €3,000 at 60–69.99 and €6,500 at 50–59.99. Top candidates scoring at least 70 may receive competitive tuition-exempting scholarships; counts are announced with rankings. These terms are historical only.",
+    "supports": [
+      "program.previous_cycle_program_requirements",
+      "program.previous_cycle_application_windows",
+      "program.previous_cycle_application_fee",
+      "program.previous_cycle_tuition",
+      "program.previous_cycle_scholarships"
+    ]
+  },
+  {
+    "id": "SRC-UNITN-DS-CALL-2026",
+    "university_id": "trento",
+    "title": "Data Science Master's admission call AY 2026–2027",
+    "url": "https://corsi.unitn.it/sites/cds/files/2025-12/bando-ammissione-lm-data-science-26-27.pdf",
+    "source_type": "Official Rector's admission call PDF",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The call sets 56 seats total including eight reserved to non-EU applicants abroad; first-call allocation was 20 European/equivalent and eight non-EU, followed by 28 European/equivalent places. Applications ran 17 December 2025–4 March 2026 and 1 April–29 May 2026, with €30 fee. Non-EU tuition capped at €6,000/year, reduced by admission score; top non-EU candidates scoring at least 90 may receive a competitive scholarship. Curricular prerequisites, committee evaluation and optional interview are specified. Historical only.",
+    "supports": [
+      "program.previous_cycle_program_requirements",
+      "program.previous_cycle_places",
+      "program.previous_cycle_application_windows",
+      "program.previous_cycle_application_fee",
+      "program.previous_cycle_tuition",
+      "program.previous_cycle_scholarships"
+    ]
+  },
+  {
+    "id": "SRC-UNITN-HCI-CALL-2026",
+    "university_id": "trento",
+    "title": "Human-Computer Interaction Master's admission call AY 2026–2027",
+    "url": "https://corsi.unitn.it/sites/cds/files/2025-12/bando-ammissione-lm-human-computer-interaction-non-eu-26-27.pdf",
+    "source_type": "Official Rector's admission call PDF",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 call identifies class LM-55, 35 places including 20 reserved for non-EU candidates abroad, 50 relevant CFU, English instruction and selection based on qualifications with a possible interview. Non-EU tuition is capped at €10,000/year and reduced by score; top candidates scoring at least 90 may receive a competitive tuition-exempting award. The European/equivalent application page showed 9 February–29 May 2026 and €30 fee. Prior-cycle only.",
+    "supports": [
+      "program.previous_cycle_program_requirements",
+      "program.previous_cycle_places",
+      "program.previous_cycle_application_windows",
+      "program.previous_cycle_application_fee",
+      "program.previous_cycle_tuition",
+      "program.previous_cycle_scholarships"
+    ]
+  },
+  {
+    "id": "SRC-UNITN-COGSCI-CALL-2026",
+    "university_id": "trento",
+    "title": "Cognitive Science Master's admission call AY 2026–2027",
+    "url": "https://corsi.unitn.it/sites/cds/files/2025-12/admission-call-master-cognitive-science-26-27.pdf",
+    "source_type": "Official Rector's admission call PDF",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The call limits 2026/27 entry to 80 places, including 35 reserved to non-EU applicants abroad; priority reserves are six places per each of three tracks for each applicant category. The non-EU application period ran 17 December 2025–4 March 2026; the European/equivalent period ran 9 February–29 May 2026; fee €30. Selection evaluates academic background, relevance and statement of purpose, with interview possible. Non-EU fee cap €6,000/year, score-based reductions and competitive scholarships for top applicants scoring at least 70. Prior-cycle only.",
+    "supports": [
+      "program.previous_cycle_program_requirements",
+      "program.previous_cycle_places",
+      "program.previous_cycle_selection",
+      "program.previous_cycle_application_windows",
+      "program.previous_cycle_application_fee",
+      "program.previous_cycle_tuition",
+      "program.previous_cycle_scholarships"
+    ]
+  },
+  {
+    "id": "SRC-UNITN-ISS-CALL-2026",
+    "university_id": "trento",
+    "title": "International Security Studies non-European admission call AY 2026–2027",
+    "url": "https://corsi.unitn.it/sites/cds/files/2025-12/bando-ammissione-lm-miss-non-eu-26-27.pdf",
+    "source_type": "Official Rector's admission call PDF",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 non-EU abroad call reserves five places; application deadline 4 March 2026, fee €30, results by 30 April and confirmation fee €100. It requires 60 equivalent credits across at least two listed subject areas, relevant background, minimum GPA 24/30 or 75%, English B2 and a second language. Non-EU tuition capped at €10,000/year and score-based; top candidates scoring at least 90 may receive a competitive tuition-exempting scholarship. Prior-cycle only.",
+    "supports": [
+      "program.previous_cycle_program_requirements",
+      "program.previous_cycle_places",
+      "program.previous_cycle_application_windows",
+      "program.previous_cycle_application_fee",
+      "program.previous_cycle_tuition",
+      "program.previous_cycle_scholarships"
+    ]
+  },
+  {
+    "id": "SRC-UNITN-CEILS-CALL-2026",
+    "university_id": "trento",
+    "title": "Comparative, European and International Legal Studies admission information AY 2026–2027",
+    "url": "https://corsi.unitn.it/en/comparative-european-and-international-legal-studies/enrollment/admission-and-enrollment",
+    "source_type": "Official Bachelor's admission page and call",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 page publishes two tests (23 March online and 14 May in person), a €35 application fee, and links the annual call and rankings. The linked call sets 60 seats in session one (50 European/equivalent, 10 non-EU) and 25 in session two for European/equivalent candidates only; selection requires an eligible diploma, English B2 and passing the University test. Dates and places are prior-cycle only.",
+    "supports": [
+      "program.previous_cycle_program_requirements",
+      "program.previous_cycle_places",
+      "program.previous_cycle_application_windows",
+      "program.previous_cycle_application_fee"
+    ]
+  },
+  {
+    "id": "SRC-UNITN-EN-ADMISSIONS",
+    "university_id": "trento",
+    "title": "Admission to courses taught in English",
+    "url": "https://www.unitn.it/en/admission-courses-taught-english",
+    "source_type": "Official international admissions guidance",
+    "accessed_at": "2026-11-10",
+    "cycle": "general",
+    "evidence": "Official guidance says non-EU candidates abroad must follow the annual call for the selected course, submit online, upload required documents and complete Universitaly pre-enrolment after admission. Calls are program-specific; the page does not give named 2027/28 first-year calls for the reviewed legacy courses.",
+    "supports": [
+      "university.international_admissions",
+      "university.non_eu_process",
+      "program.application_route"
+    ]
+  },
+  {
+    "id": "SRC-UNITN-GENERAL-ADMISSIONS",
+    "university_id": "trento",
+    "title": "Admission: how it works",
+    "url": "https://www.unitn.it/en/international/coming-unitrento/admission-how-it-works",
+    "source_type": "Official international admissions guidance",
+    "accessed_at": "2026-11-10",
+    "cycle": "general",
+    "evidence": "General guidance describes program-specific non-EU selection calls, ranked allocation of reserved places, score-based tuition brackets for English Master's programs and competitive score-based scholarship/accommodation processes. It does not confirm 2027/28 course calls for the seven reviewed legacy rows.",
+    "supports": [
+      "university.non_eu_process",
+      "university.fees_general",
+      "university.scholarships_general"
+    ]
+  },
+  {
+    "id": "SRC-UNITN-FEES-NEU-2026",
+    "university_id": "trento",
+    "title": "Tuition fees for non-EU citizens",
+    "url": "https://www.unitn.it/en/study/fees-scholarships-accommodation/tuition-fees/non-eu-citizens",
+    "source_type": "Official tuition guidance",
+    "accessed_at": "2026-11-10",
+    "cycle": "2026-2027",
+    "evidence": "UniTrento explains that fees for non-EU citizens residing outside Italy are based on admission merit and the score obtained in the admission test; programme-specific annual regulations define the brackets and awards. This is general context, not one fixed 2027/28 amount.",
+    "supports": [
+      "university.previous_cycle_tuition",
+      "program.previous_cycle_tuition"
     ]
   }
 ]

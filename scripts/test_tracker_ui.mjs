@@ -54,12 +54,12 @@ vm.runInNewContext(script, { document, fetch, console, Date, Promise });
 await new Promise((resolve) => setTimeout(resolve, 50));
 
 assert.equal(getElementById("stat-universities").textContent, "34", getElementById("program-grid").innerHTML);
-assert.equal(getElementById("stat-programs").textContent, "189");
+assert.equal(getElementById("stat-programs").textContent, "193");
 assert.equal(getElementById("stat-confirmed").textContent, "23");
 assert.equal(getElementById("stat-deadlines").textContent, "9");
 assert.equal(getElementById("research-date").textContent, "10 Nov 2026");
-assert.match(getElementById("notice-count").textContent, /^164 /);
-assert.match(getElementById("program-count").textContent, /^23 \/ 189 /);
+assert.match(getElementById("notice-count").textContent, /^167 /);
+assert.match(getElementById("program-count").textContent, /^23 \/ 193 /);
 assert.doesNotMatch(getElementById("program-grid").innerHTML, /legacy-001/);
 const universityHtml = getElementById("university-grid").innerHTML;
 assert.match(universityHtml, /Engineering application windows/);
@@ -75,6 +75,23 @@ assert.match(universityHtml, /calendar says dates and deadlines have not yet bee
 const status = getElementById("status-filter");
 status.value = "REQUIRES_VERIFICATION";
 status.dispatch("change");
+getElementById("university-filter").value = "politecnico-torino";
+getElementById("university-filter").dispatch("change");
+getElementById("level-filter").value = "MSc";
+getElementById("level-filter").dispatch("change");
+getElementById("language-filter").value = "Mixed";
+getElementById("language-filter").dispatch("change");
+const politoMixedPrograms = getElementById("program-grid").innerHTML;
+assert.equal((politoMixedPrograms.match(/<article class="card/g) ?? []).length, 2);
+assert.match(politoMixedPrograms, /Computer Engineering/);
+assert.match(politoMixedPrograms, /Architecture Construction City/);
+assert.match(politoMixedPrograms, /Italian and English/);
+getElementById("language-filter").value = "all";
+getElementById("language-filter").dispatch("change");
+getElementById("university-filter").value = "all";
+getElementById("university-filter").dispatch("change");
+getElementById("level-filter").value = "all";
+getElementById("level-filter").dispatch("change");
 getElementById("search").value = "Data Science";
 getElementById("search").dispatch("input");
 const messinaProgramHtml = getElementById("program-grid").innerHTML;
@@ -351,7 +368,8 @@ const conflictHtml = getElementById("program-grid").innerHTML;
 assert.match(conflictHtml, /Cyber Security \(CSES\)/);
 assert.doesNotMatch(conflictHtml, /\[object Object\]/);
 assert.match(conflictHtml, /31 Jan 2027/);
-assert.equal((conflictHtml.match(/class="status conflicting"/g) ?? []).length, 10);
+assert.match(conflictHtml, /Università degli Studi di Udine/);
+assert.equal((conflictHtml.match(/class="status conflicting"/g) ?? []).length, 18);
 
 status.value = "NOT_YET_PUBLISHED";
 status.dispatch("change");
@@ -364,7 +382,7 @@ assert.match(getElementById("program-grid").innerHTML, /Maritime Science and Tec
 assert.match(getElementById("program-grid").innerHTML, /will not be offered in 2027–28/);
 assert.match(getElementById("program-grid").innerHTML, /Data Science for Management/);
 assert.match(getElementById("program-grid").innerHTML, /Replaced by Data Science from AY 2022\/23/);
-assert.equal((getElementById("program-grid").innerHTML.match(/<article class="card/g) ?? []).length, 2);
+assert.equal((getElementById("program-grid").innerHTML.match(/<article class="card/g) ?? []).length, 3);
 
 status.value = "all";
 getElementById("search").value = "Hydrogen";

@@ -50,7 +50,7 @@ for p in programs:
         tags = p["previous_cycle_tags"]
         assert tags.get("cycle") and tags["cycle"] != coverage["academic_year"], f"previous-cycle tags use the active academic year: {p['program']}"
         assert p["overall_status"] != "CONFIRMED", f"previous-cycle-only tags promoted the full program to current-cycle confirmed: {p['program']}"
-        assert availability["status"] != "CONFIRMED", f"previous-cycle-only evidence confirms active-cycle availability: {p['program']}"
+        assert availability["status"] != "CONFIRMED" or availability["value"] is False, f"previous-cycle-only evidence confirms an active-cycle offer: {p['program']}"
         for key in ("level", "language", "field"):
             assert tags.get(key) == p[key]["value"], f"previous-cycle tag mismatch: {p['program']} / {key}"
             assert p[key]["status"] != "CONFIRMED", f"previous-cycle-only tag is incorrectly confirmed for the active cycle: {p['program']} / {key}"

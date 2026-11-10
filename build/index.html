@@ -26,7 +26,7 @@
       <div class="eyebrow" data-en="Academic year 2027–2028 · International applicants" data-it="Anno accademico 2027–2028 · Candidati internazionali">Academic year 2027–2028 · International applicants</div>
       <h1 data-en="Italy University <span>Tracker</span>" data-it="Tracker <span>Università Italiane</span>">Italy University <span>Tracker</span></h1>
       <p class="lede" data-en="A source-linked view of admissions information published so far, with unverified prior listings and unanswered questions clearly marked." data-it="Informazioni di ammissione con fonti ufficiali, con le voci precedenti non ancora verificate e le informazioni mancanti indicate chiaramente.">A source-linked view of admissions information published so far, with unverified prior listings and unanswered questions clearly marked.</p>
-      <div class="meta"><span class="chip"><b data-en="Research checked" data-it="Ricerca aggiornata">Research checked</b> · 9 Nov 2026</span><span class="chip" id="status-chip">Loading source-linked data…</span></div>
+      <div class="meta"><span class="chip"><b data-en="Latest research update" data-it="Ultimo aggiornamento della ricerca">Latest research update</b> · <time id="research-date">10 Nov 2026</time></span><span class="chip" id="status-chip">Loading source-linked data…</span></div>
     </header>
 
     <div class="notice" role="note">
@@ -50,6 +50,8 @@
         <div class="control-row">
           <label class="search"><span class="sr" data-en="Search programs" data-it="Cerca corsi">Search programs</span><input id="search" type="search" placeholder="Search university, city, program…" autocomplete="off"></label>
           <select class="select" id="level-filter" aria-label="Degree level"><option value="all">All levels</option><option value="BSc">Bachelor's</option><option value="MSc">Master's</option></select>
+          <select class="select" id="university-filter" aria-label="University"><option value="all">All universities</option></select>
+          <select class="select" id="language-filter" aria-label="Teaching language"><option value="all">All languages</option><option value="English">English</option><option value="Italian">Italian</option><option value="Mixed">Italian / English</option><option value="Unknown">Language pending</option></select>
           <select class="select" id="status-filter" aria-label="Verification status"><option value="all">All statuses</option><option value="CONFIRMED">Confirmed</option><option value="REQUIRES_VERIFICATION">Requires verification</option><option value="CONFLICTING_SOURCES">Conflicting sources</option><option value="NOT_YET_PUBLISHED">Not yet announced</option><option value="UNAVAILABLE">Unavailable</option><option value="NOT_APPLICABLE">Not offered</option></select>
           <select class="select" id="sort-filter" aria-label="Sort programs"><option value="status">Sort: verification</option><option value="university">Sort: university</option><option value="name">Sort: program name</option></select>
           <label class="check"><input id="include-pending" type="checkbox"><span data-en="Include unverified candidates" data-it="Includi i corsi non verificati">Include unverified candidates</span></label>
@@ -82,8 +84,8 @@
     "use strict";
     var programs=[], universities=[], sources={}, lang="en";
     var labels={
-      en:{all:"All",confirmed:"Confirmed",verify:"Requires verification",unpublished:"Not yet announced for 2027–28",unavailable:"Unavailable in reviewed source",conflicting:"Official sources conflict",notApplicable:"Not applicable",notOffered:"Not offered in 2027–28",previous:"Previous tracker tag",candidate:"Some program and admissions details remain unverified; previous-tracker tags are identified.",notOfferedNote:"Official notice confirms this program will not be offered in 2027–28.",confirmedNote:"Program availability and core details have official 2027–28 evidence.",official:"Official admissions page",sources:"Official sources",noresults:"No program records match these filters.",researching:"Research underway",published:"2027–28 information published",univPending:"Not yet announced for 2027–28",details:"Research checklist and sources",programs:"program records",city:"City",region:"Region",window:"Application windows",fee:"Application fee",registrationFee:"Registration fee",seats:"Available places",requirements:"Requirements",duration:"Duration",deadline:"Application deadline",tuition:"Tuition",places:"Available places",rate:"Acceptance rate",english:"English requirement",field:"Field",programAvailability:"2027/28 program availability",courseOffering:"Academic-year course offering",level:"Degree",language:"Language",track:"Program track",route:"Application route",role:"UniTrento role",scholarships:"Scholarships",certificates:"Accepted English certificates",more:"and",status:"Status",notStarted:"Not started",partial:"Partial",complete:"Complete",checked:"Checked 9 Nov 2026",openOfficial:"Official university page",evidence:"Evidence",cycle:"2027–28 status"},
-      it:{all:"Tutti",confirmed:"Confermato",verify:"Da verificare",unpublished:"Non ancora pubblicato per il 2027–28",unavailable:"Non disponibile nella fonte consultata",conflicting:"Fonti ufficiali in conflitto",notApplicable:"Non applicabile",notOffered:"Non attivato nel 2027–28",previous:"Tag del tracker precedente",candidate:"Alcuni dati sul corso e sull’ammissione restano da verificare; i tag del tracker precedente sono indicati come tali.",notOfferedNote:"La comunicazione ufficiale conferma che il corso non sarà offerto nel 2027–28.",confirmedNote:"Disponibilità e dati principali supportati da fonti ufficiali 2027–28.",official:"Pagina ufficiale di ammissione",sources:"Fonti ufficiali",noresults:"Nessun corso corrisponde ai filtri.",researching:"Ricerca in corso",published:"Informazioni 2027–28 pubblicate",univPending:"Non ancora pubblicato per il 2027–28",details:"Lista di verifica e fonti",programs:"schede corso",city:"Città",region:"Regione",window:"Finestre di candidatura",fee:"Tassa di candidatura",registrationFee:"Quota di iscrizione",seats:"Posti disponibili",requirements:"Requisiti",duration:"Durata",deadline:"Scadenza",tuition:"Tasse universitarie",places:"Posti disponibili",rate:"Tasso di ammissione",english:"Requisito inglese",field:"Area",programAvailability:"Disponibilità del corso 2027/28",courseOffering:"Attività didattiche dell’anno accademico",level:"Livello",language:"Lingua",track:"Curriculum",route:"Procedura di candidatura",role:"Ruolo di UniTrento",scholarships:"Borse di studio",certificates:"Certificazioni di inglese accettate",more:"e",status:"Stato",notStarted:"Da iniziare",partial:"Parziale",complete:"Completato",checked:"Aggiornato 9 nov 2026",openOfficial:"Pagina ufficiale dell'ateneo",evidence:"Evidenza",cycle:"Stato 2027–28"}
+      en:{all:"All",confirmed:"Confirmed",verify:"Requires verification",unpublished:"Not yet announced for 2027–28",unavailable:"Unavailable in reviewed source",conflicting:"Official sources conflict",notApplicable:"Not applicable",notOffered:"Not offered in 2027–28",previous:"Previous tracker tag",candidate:"Some program and admissions details remain unverified; previous-tracker tags are identified.",notOfferedNote:"Official notice confirms this program will not be offered in 2027–28.",confirmedNote:"Program availability and core details have official 2027–28 evidence.",official:"Official admissions page",sources:"Official sources",noresults:"No program records match these filters.",researching:"Research underway",published:"2027–28 information published",univPending:"Not yet announced for 2027–28",details:"Research checklist and sources",programs:"program records",city:"City",region:"Region",window:"Application windows",fee:"Application fee",registrationFee:"Registration fee",seats:"Available places",requirements:"Requirements",duration:"Duration",deadline:"Application deadline",tuition:"Tuition",places:"Available places",rate:"Acceptance rate",english:"English requirement",field:"Field",programAvailability:"2027/28 program availability",courseOffering:"Academic-year course offering",level:"Degree",language:"Language",track:"Program track",route:"Application route",role:"UniTrento role",scholarships:"Scholarships",certificates:"Accepted English certificates",more:"and",status:"Status",notStarted:"Not started",partial:"Partial",complete:"Complete",checked:"Updated",openOfficial:"Official university page",evidence:"Evidence",cycle:"2027–28 status"},
+      it:{all:"Tutti",confirmed:"Confermato",verify:"Da verificare",unpublished:"Non ancora pubblicato per il 2027–28",unavailable:"Non disponibile nella fonte consultata",conflicting:"Fonti ufficiali in conflitto",notApplicable:"Non applicabile",notOffered:"Non attivato nel 2027–28",previous:"Tag del tracker precedente",candidate:"Alcuni dati sul corso e sull’ammissione restano da verificare; i tag del tracker precedente sono indicati come tali.",notOfferedNote:"La comunicazione ufficiale conferma che il corso non sarà offerto nel 2027–28.",confirmedNote:"Disponibilità e dati principali supportati da fonti ufficiali 2027–28.",official:"Pagina ufficiale di ammissione",sources:"Fonti ufficiali",noresults:"Nessun corso corrisponde ai filtri.",researching:"Ricerca in corso",published:"Informazioni 2027–28 pubblicate",univPending:"Non ancora pubblicato per il 2027–28",details:"Lista di verifica e fonti",programs:"schede corso",city:"Città",region:"Regione",window:"Finestre di candidatura",fee:"Tassa di candidatura",registrationFee:"Quota di iscrizione",seats:"Posti disponibili",requirements:"Requisiti",duration:"Durata",deadline:"Scadenza",tuition:"Tasse universitarie",places:"Posti disponibili",rate:"Tasso di ammissione",english:"Requisito inglese",field:"Area",programAvailability:"Disponibilità del corso 2027/28",courseOffering:"Attività didattiche dell’anno accademico",level:"Livello",language:"Lingua",track:"Curriculum",route:"Procedura di candidatura",role:"Ruolo di UniTrento",scholarships:"Borse di studio",certificates:"Certificazioni di inglese accettate",more:"e",status:"Stato",notStarted:"Da iniziare",partial:"Parziale",complete:"Completato",checked:"Aggiornato",openOfficial:"Pagina ufficiale dell'ateneo",evidence:"Evidenza",cycle:"Stato 2027–28"}
     };
     labels.en.previousCycle="Latest official listing (2026/27)";
     labels.it.previousCycle="Ultima scheda ufficiale (2026/27)";
@@ -99,13 +101,15 @@
       if(v==null)return "";
       if(Array.isArray(v))return v.map(valueText).join("; ");
       if(typeof v==="object"){
-        if(v.start||v.end){var range=(v.start?formatDate(v.start):"")+((v.end?" – "+formatDate(v.end):""));return (v.label?v.label+": ":"")+range+(v.eligible_group?" ("+v.eligible_group+")":"")+(v.time?" · "+v.time:"")}
+        if(v.start||v.end){var range=(v.start?formatDate(v.start):"")+((v.end?" – "+formatDate(v.end):""));var extra=Object.keys(v).filter(function(k){return ["start","end","label","eligible_group","time"].indexOf(k)<0}).map(function(k){return k.replace(/_/g," ")+": "+valueText(v[k])}).join(" · ");return (v.label?v.label+": ":"")+range+(v.eligible_group?" ("+v.eligible_group+")":"")+(v.time?" · "+v.time:"")+(extra?" · "+extra:"")}
         return Object.keys(v).map(function(k){return k.replace(/_/g," ")+": "+valueText(v[k])}).join(" · ")
       }
       return /^\d{4}-\d{2}-\d{2}$/.test(String(v))?formatDate(String(v)):String(v)
     }
     function renderFact(key,f){
       var value=f.value;
+      var label=keyLabel(key);
+      if(key.indexOf("previous_cycle_")===0&&value&&typeof value==="object"&&/^\d{4}\/\d{2}$/.test(value.academic_year))label=label.replace("2026/27",value.academic_year);
       var text=statusLabel(f.status);
       if(f.status==="CONFIRMED"&&value!=null)text=valueText(value);
       else if(f.status==="NOT_YET_PUBLISHED")text=t("unpublished");
@@ -113,7 +117,7 @@
       else if(f.status==="CONFLICTING_SOURCES")text=t("conflicting")+(value==null?"":": "+valueText(value));
       else if(f.status==="NOT_APPLICABLE")text=t("notApplicable");
       var note=f.notes?'<div class="place">'+esc(f.notes)+'</div>':"";
-      return '<div class="fact"><strong>'+esc(keyLabel(key))+':</strong> '+esc(text)+note+'</div>'
+      return '<div class="fact"><strong>'+esc(label)+':</strong> '+esc(text)+note+'</div>'
     }
     function makeSourceLinks(ids){
       var unique=(ids||[]).filter(function(id,i,a){return a.indexOf(id)===i&&sources[id]});
@@ -147,6 +151,8 @@
     function programFilter(){
       var q=document.getElementById("search").value.trim().toLowerCase();
       var level=document.getElementById("level-filter").value;
+      var university=document.getElementById("university-filter").value;
+      var language=document.getElementById("language-filter").value;
       var status=document.getElementById("status-filter").value;
       var include=document.getElementById("include-pending").checked;
       var rows=programs.filter(function(p){
@@ -156,8 +162,12 @@
         if(status==="CONFIRMED"&&!confirmed)return false;
         if(["REQUIRES_VERIFICATION","CONFLICTING_SOURCES","NOT_YET_PUBLISHED","UNAVAILABLE","NOT_APPLICABLE"].indexOf(status)>=0&&fieldStatuses.indexOf(status)<0)return false;
         var tag=p.previous_cycle_tags||p.previous_tracker_tags||{};
-        var pLevel=confirmed?p.level.value:tag.level;
+        var pLevel=confirmed?p.level.value:(tag.level||p.level.value);
         if(level!=="all"&&pLevel!==level)return false;
+        if(university!=="all"&&p.university_id!==university)return false;
+        var pLanguage=confirmed?p.language.value:(tag.language||p.language.value);
+        var languageGroup=pLanguage==="English"?"English":pLanguage==="Italian"?"Italian":pLanguage&&(pLanguage.indexOf("/")>=0||/italian.*english|english.*italian/i.test(pLanguage))?"Mixed":"Unknown";
+        if(language!=="all"&&languageGroup!==language)return false;
         var hay=[p.program,p.university,p.city,p.field&&p.field.value,tag.field,tag.language].join(" ").toLowerCase();
         return !q||hay.indexOf(q)>=0
       });
@@ -171,6 +181,18 @@
       document.getElementById("program-grid").innerHTML=rows.length?rows.map(renderProgram).join(""):'<div class="empty">'+esc(t("noresults"))+'</div>'
     }
     function factStatusText(status){return status==="complete"?t("complete"):status==="partial"?t("partial"):t("notStarted")}
+    function renderUniversityGrid(){
+      var selected=document.getElementById("university-filter").value;
+      document.getElementById("university-grid").innerHTML=universities.filter(function(u){return selected==="all"||u.id===selected}).map(renderUniversity).join("")
+    }
+    function populateFilters(){
+      var university=document.getElementById("university-filter"), selected=university.value||"all";
+      university.innerHTML='<option value="all">'+(lang==="it"?"Tutti gli atenei":"All universities")+'</option>'+universities.slice().sort(function(a,b){return a.name.localeCompare(b.name)}).map(function(u){return '<option value="'+esc(u.id)+'">'+esc(u.name)+'</option>'}).join("");
+      university.value=selected;
+      var language=document.getElementById("language-filter"), chosen=language.value||"all";
+      language.innerHTML='<option value="all">'+(lang==="it"?"Tutte le lingue":"All languages")+'</option><option value="English">'+(lang==="it"?"Inglese":"English")+'</option><option value="Italian">'+(lang==="it"?"Italiano":"Italian")+'</option><option value="Mixed">Italiano / English</option><option value="Unknown">'+(lang==="it"?"Lingua da verificare":"Language pending")+'</option>';
+      language.value=chosen;
+    }
     function renderUniversity(u){
       var count=programs.filter(function(p){return p.university_id===u.id}).length;
       var cycleLabel=u.cycle_status==="NOT_YET_PUBLISHED"?t("univPending"):(u.cycle_status==="CONFIRMED"?t("published"):t("researching"));
@@ -197,7 +219,9 @@
       document.getElementById("stat-programs").textContent=programs.length;
       document.getElementById("stat-confirmed").textContent=confirmed.length;
       document.getElementById("stat-deadlines").textContent=Object.keys(deadlineIds).length;
-      document.getElementById("status-chip").textContent=countConfirmedFields()+" "+(lang==="it"?"campi supportati da fonti ufficiali":"fields supported by official sources")+" · "+t("checked");
+      var latestCheck=universities.map(function(u){return u.last_checked||""}).sort().pop();
+      document.getElementById("research-date").textContent=formatDate(latestCheck);
+      document.getElementById("status-chip").textContent=countConfirmedFields()+" "+(lang==="it"?"campi supportati da fonti ufficiali":"fields supported by official sources")+" · "+t("checked")+" "+formatDate(latestCheck);
       document.getElementById("notice-count").textContent=needingReview+" "+(lang==="it"?"voci attendono verifiche specifiche del corso.":"program records still need program-specific verification.")
     }
     function applyLanguage(){
@@ -211,16 +235,17 @@
       status.options[0].text=lang==="en"?"All statuses":"Tutti gli stati";status.options[1].text=t("confirmed");status.options[2].text=t("verify");status.options[3].text=t("conflicting");status.options[4].text=t("unpublished");status.options[5].text=t("unavailable");status.options[6].text=t("notOffered");
       var sort=document.getElementById("sort-filter");
       sort.options[0].text=lang==="en"?"Sort: verification":"Ordina: verifica";sort.options[1].text=lang==="en"?"Sort: university":"Ordina: ateneo";sort.options[2].text=lang==="en"?"Sort: program name":"Ordina: corso";
-      updateStats();programFilter();document.getElementById("university-grid").innerHTML=universities.map(renderUniversity).join("")
+      populateFilters();updateStats();programFilter();renderUniversityGrid()
     }
     document.getElementById("language-toggle").addEventListener("click",function(){lang=lang==="en"?"it":"en";applyLanguage()});
-    ["search","level-filter","status-filter","sort-filter","include-pending"].forEach(function(id){document.getElementById(id).addEventListener(id==="search"?"input":"change",programFilter)});
+    ["search","level-filter","language-filter","status-filter","sort-filter","include-pending"].forEach(function(id){document.getElementById(id).addEventListener(id==="search"?"input":"change",programFilter)});
+    document.getElementById("university-filter").addEventListener("change",function(){programFilter();renderUniversityGrid()});
     Promise.all([fetch("/research/programs-2027-2028.json"),fetch("/research/universities-2027-2028.json"),fetch("/research/sources.json")]).then(function(responses){
       if(responses.some(function(r){return !r.ok}))throw new Error("Research data could not be loaded");
       return Promise.all(responses.map(function(r){return r.json()}))
     }).then(function(data){
       programs=data[0];universities=data[1];data[2].forEach(function(s){sources[s.id]=s});
-      updateStats();programFilter();document.getElementById("university-grid").innerHTML=universities.map(renderUniversity).join("")
+      populateFilters();updateStats();programFilter();renderUniversityGrid()
     }).catch(function(err){
       document.getElementById("program-grid").innerHTML='<div class="error">Could not load the structured research files. Serve this page from the project web server and check the JSON endpoints.<br><small>'+esc(err.message)+'</small></div>';
       document.getElementById("university-grid").innerHTML=""
