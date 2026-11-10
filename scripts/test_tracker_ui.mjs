@@ -323,7 +323,7 @@ status.value = "NOT_APPLICABLE";
 status.dispatch("change");
 assert.match(getElementById("program-grid").innerHTML, /Maritime Science and Technology/);
 assert.equal((getElementById("program-grid").innerHTML.match(/<article class="card/g) ?? []).length, 1);
-status.value = "all";
+status.value = "REQUIRES_VERIFICATION";
 getElementById("university-filter").value = "all";
 getElementById("university-filter").dispatch("change");
 getElementById("level-filter").value = "all";
