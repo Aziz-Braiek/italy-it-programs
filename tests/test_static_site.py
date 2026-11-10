@@ -69,8 +69,8 @@ class StaticSiteTests(unittest.TestCase):
         parsed = parse(homepage)
         cards = [attrs for tag, attrs in parsed.tags if tag == "article" and "program-card" in (attrs.get("class") or "")]
         universities = [attrs for tag, attrs in parsed.tags if tag == "article" and "university-card" in (attrs.get("class") or "")]
-        self.assertEqual(len(cards), 193)
-        self.assertEqual(len(universities), 34)
+        self.assertEqual(len(cards), len(self.programs))
+        self.assertEqual(len(universities), len(self.universities))
         page_text = "".join(parsed.text)
         for record in self.programs:
             self.assertIn(f'id="program-{record["id"]}"', homepage)
@@ -89,8 +89,13 @@ class StaticSiteTests(unittest.TestCase):
 
     def test_program_status_and_historical_evidence_are_labeled(self) -> None:
         homepage = read("index.html")
-        self.assertEqual(sum(p["overall_status"] == "CONFIRMED" for p in self.programs), 23)
-        self.assertEqual(sum(p["overall_status"] == "REQUIRES_VERIFICATION" for p in self.programs), 167)
+        cards = [attrs for tag, attrs in parse(homepage).tags if tag == "article" and "program-card" in (attrs.get("class") or "")]
+        for status in ("CONFIRMED", "REQUIRES_VERIFICATION", "NOT_APPLICABLE"):
+            self.assertEqual(
+                sum(attrs.get("data-status") == status for attrs in cards),
+                sum(program["overall_status"] == status for program in self.programs),
+                f"homepage card status count matches the research data for {status}",
+            )
         self.assertIn("Available for 2027/28", homepage)
         self.assertIn("Awaiting 2027/28 confirmation", homepage)
         self.assertIn("Earlier listing:", homepage)
@@ -174,7 +179,10 @@ class StaticSiteTests(unittest.TestCase):
         self.assertIn('"@type": "Dataset"', homepage)
         self.assertNotIn('"@type": "Course"', homepage)
         sitemap = read("sitemap.xml")
-        self.assertEqual(sitemap.count("<url>"), 62)
+        self.assertEqual(
+            sitemap.count("<url>"),
+            len(self.universities) + sum(program["overall_status"] == "CONFIRMED" for program in self.programs) + 5,
+        )
         for university in self.universities:
             self.assertIn(f"/universities/{university['id']}/", sitemap)
         for program in self.programs:

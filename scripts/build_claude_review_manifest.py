@@ -11,7 +11,7 @@ from typing import Any
 
 ROOT = Path(__file__).resolve().parents[1]
 RESEARCH = ROOT / "research"
-AS_OF = "2026-11-10"
+AS_OF = "2026-11-11"
 BASE_URL = "https://italy-it-programs.vercel.app"
 NEEDS_REVIEW = {"REQUIRES_VERIFICATION", "NOT_YET_PUBLISHED", "UNAVAILABLE", "CONFLICTING_SOURCES"}
 
@@ -53,11 +53,9 @@ def source_to_summary(source: dict[str, Any]) -> dict[str, Any]:
         "accessed_at": source.get("accessed_at"),
         "evidence": source.get("evidence"),
         "supports": source.get("supports", []),
-        "refresh_status": "pending",
-        "refresh_checked_at": None,
-        "refresh_http_status": None,
-        "refresh_effective_url": None,
-        "refresh_notes": None,
+        "refresh_status": (source.get("browser_check") or {}).get("outcome") or (source.get("url_check") or {}).get("outcome") or "pending",
+        "url_check": source.get("url_check"),
+        "browser_check": source.get("browser_check"),
     }
 
 
@@ -215,7 +213,54 @@ def main() -> None:
                     checklist.append(f"  - `{item['field']}` — `{item['status']}` — {md_escape(item.get('notes'))}")
             checklist.append("")
 
+    unique_url_checks = {source.get("url"): source.get("url_check") for source in sources if source.get("url_check")}
+    url_outcomes: dict[str, int] = {}
+    for check in unique_url_checks.values():
+        url_outcomes[check.get("outcome", "unknown")] = url_outcomes.get(check.get("outcome", "unknown"), 0) + 1
+    checklist.extend([
+        "## Source URL recheck results",
+        "",
+        f"Checked {len(unique_url_checks)} unique URLs representing {sum(1 for source in sources if source.get('url_check'))} source records on {AS_OF}. Unique URL outcomes: {url_outcomes}. HTTP 404/410 outcomes are listed as broken; TLS, timeout, and remote-disconnect cases remain inconclusive.",
+        "",
+        "### Redirected sources",
+        "",
+    ])
+    for source in sources:
+        check = source.get("url_check") or {}
+        if check.get("outcome") == "redirected":
+            checklist.append(f"- `{source['id']}` — [{md_escape(source.get('title'))}]({source.get('url')}) → {check.get('effective_url')} (HTTP {check.get('http_status')}).")
+    checklist.extend(["", "### Inconclusive source URLs", ""])
+    for source in sources:
+        check = source.get("url_check") or {}
+        browser_check = source.get("browser_check") or {}
+        if check.get("outcome") in {"inconclusive", "access_limited"} and browser_check.get("outcome") != "accessible":
+            note = browser_check.get("note") or check.get("error") or "No successful direct response was recorded."
+            checklist.append(f"- `{source['id']}` — [{md_escape(source.get('title'))}]({source.get('url')}) — direct check inconclusive; {md_escape(note)}")
+    checklist.append("")
+
     source_manifest = [source_to_summary(source) for source in sources]
+    unique_checks = {source.get("url"): source.get("url_check") for source in sources if source.get("url_check")}
+    outcomes: dict[str, int] = {}
+    for check in unique_checks.values():
+        outcomes[check.get("outcome", "unknown")] = outcomes.get(check.get("outcome", "unknown"), 0) + 1
+    inconclusive_sources = [
+        {
+            "source_id": source["id"],
+            "url": source.get("url"),
+            "direct_http_outcome": (source.get("url_check") or {}).get("outcome"),
+            "browser_outcome": (source.get("browser_check") or {}).get("outcome"),
+            "direct_http_error": (source.get("url_check") or {}).get("error"),
+            "note": (source.get("browser_check") or {}).get("note") or "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification.",
+        }
+        for source in sources
+        if (source.get("url_check") or {}).get("outcome") in {"inconclusive", "access_limited"}
+        and (source.get("browser_check") or {}).get("outcome") != "accessible"
+    ]
+    redirected_sources = [
+        {"source_id": source["id"], "url": source.get("url"), "effective_url": (source.get("url_check") or {}).get("effective_url")}
+        for source in sources
+        if (source.get("url_check") or {}).get("outcome") == "redirected"
+    ]
     manifest = {
         "metadata": {
             "academic_year": "2027-2028",
@@ -225,16 +270,25 @@ def main() -> None:
             "website": BASE_URL,
             "review_status": "in_progress",
             "counts": {"universities": len(universities), "programs": len(programs), "sources": len(sources)},
-            "previous_snapshot_inconclusive_url_checks": "Approximately 100 checks were inconclusive in the previous audit; individual URL outcomes must be re-evaluated and recorded below.",
+            "previous_snapshot_inconclusive_url_checks": "The prior audit reported approximately 100 inconclusive checks. This refresh rechecked every unique URL and preserves the response by source record below.",
+            "current_url_audit": {
+                "checked_at": AS_OF,
+                "source_records": len(sources),
+                "unique_urls_checked": len(unique_checks),
+                "unique_url_outcomes": outcomes,
+                "redirected_source_records": redirected_sources,
+                "remaining_inconclusive_source_records": inconclusive_sources,
+                "confirmed_404_or_410_source_records": [source["id"] for source in sources if (source.get("url_check") or {}).get("outcome") == "broken"],
+            },
         },
         "universities": manifest_universities,
         "programs": manifest_programs,
         "sources": source_manifest,
-        "previously_inconclusive_url_checks": [],
+        "previously_inconclusive_url_checks": inconclusive_sources,
         "review_log": [],
     }
     (RESEARCH / "claude-review-manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    (RESEARCH / "claude-review-checklist.md").write_text("\n".join(checklist) + "\n", encoding="utf-8")
+    (RESEARCH / "claude-review-checklist.md").write_text("\n".join(checklist).rstrip() + "\n", encoding="utf-8")
     print(f"Wrote review manifest with {len(universities)} universities, {len(programs)} programs, and {len(sources)} sources.")
 
 

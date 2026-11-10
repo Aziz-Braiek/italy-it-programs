@@ -9,6 +9,11 @@ const screenshotDir = resolve(process.env.SCREENSHOT_DIR || "work/qa/v2-release-
 mkdirSync(screenshotDir, { recursive: true });
 const moduleUrl = new URL("../work/qa/playwright-tools/node_modules/playwright-core/index.mjs", import.meta.url);
 const { chromium } = await import(pathToFileURL(moduleUrl.pathname.replace(/^\/(?:([A-Za-z]:))/, "$1")).href);
+const researchPrograms = JSON.parse(readFileSync(new URL("../research/programs-2027-2028.json", import.meta.url), "utf8"));
+const researchUniversities = JSON.parse(readFileSync(new URL("../research/universities-2027-2028.json", import.meta.url), "utf8"));
+const totalPrograms = researchPrograms.length;
+const confirmedPrograms = researchPrograms.filter((program) => program.overall_status === "CONFIRMED").length;
+const totalUniversities = researchUniversities.length;
 const browser = await chromium.launch({ headless: true, executablePath: process.env.EDGE_PATH || "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe" });
 const consoleErrors = [];
 const pageErrors = [];
@@ -22,9 +27,9 @@ try {
   const noJsResponse = await noJs.goto(baseUrl, { waitUntil: "networkidle" });
   assert.equal(noJsResponse?.status(), 200, "preview homepage responds with HTTP 200 without JavaScript");
   assert.equal(new URL(noJs.url()).origin, origin, "preview does not redirect to a different origin or access gate");
-  assert.equal(await noJs.locator("[data-program-card]").count(), 193, "no-JS HTML contains all 193 program records");
-  assert.equal(await noJs.locator("[data-university-card]").count(), 34, "no-JS HTML contains all 34 universities");
-  assert.equal(await noJs.locator(".program-card:not([hidden])").count(), 193, "no-JS mode keeps every program visible");
+  assert.equal(await noJs.locator("[data-program-card]").count(), totalPrograms, "no-JS HTML contains every program record");
+  assert.equal(await noJs.locator("[data-university-card]").count(), totalUniversities, "no-JS HTML contains every university");
+  assert.equal(await noJs.locator(".program-card:not([hidden])").count(), totalPrograms, "no-JS mode keeps every program visible");
   assert.ok((await noJs.locator("h1").textContent())?.includes("Italy"), "no-JS mode keeps the page heading");
   await noJsContext.close();
 
@@ -37,9 +42,9 @@ try {
 
   const homeResponse = await page.goto(baseUrl, { waitUntil: "networkidle" });
   assert.equal(homeResponse?.status(), 200);
-  await page.waitForFunction(() => document.querySelector("#result-count")?.textContent.includes("23 programs"));
-  assert.equal(await page.locator("[data-program-card]").count(), 193);
-  assert.equal(await page.locator("[data-university-card]").count(), 34);
+  await page.waitForFunction((count) => document.querySelector("#result-count")?.textContent.includes(`${count} programs`), confirmedPrograms);
+  assert.equal(await page.locator("[data-program-card]").count(), totalPrograms);
+  assert.equal(await page.locator("[data-university-card]").count(), totalUniversities);
   assert.equal(await page.locator(".program-card:not([hidden])").count(), 18, "confirmed program list paginates at 18 cards");
   assert.equal(await page.locator(".program-card:not([hidden])[data-status='CONFIRMED']").count(), 18);
   assert.equal(await page.locator("#pagination").isVisible(), true);
@@ -54,7 +59,7 @@ try {
   const sitemap = await page.request.get(`${origin}/sitemap.xml`);
   assert.equal(sitemap.status(), 200);
   const sitemapText = await sitemap.text();
-  assert.equal((sitemapText.match(/<url>/g) || []).length, 62);
+  assert.equal((sitemapText.match(/<url>/g) || []).length, totalUniversities + confirmedPrograms + 5);
   assert.ok(sitemapText.includes("/universities/bologna/"));
   assert.ok(sitemapText.includes("/programs/legacy-020/"));
   const robots = await page.request.get(`${origin}/robots.txt`);
@@ -157,7 +162,7 @@ try {
   assert.deepEqual(pageErrors, [], "browser has no uncaught exceptions");
   assert.deepEqual(failedSameOriginRequests, [], "no same-origin network requests failed");
   assert.deepEqual(badSameOriginResponses, [], "no same-origin request returned an HTTP error");
-  console.log(`LIVE PREVIEW PASSED ${baseUrl} — HTTP 200; 34 universities; 193 programs; no-JS fallback; search, filters, sorting, favorites, comparison, CSV, 3-event ICS; university/program pages; SEO; keyboard; 390px mobile. Screenshots: ${screenshotDir}`);
+  console.log(`LIVE PREVIEW PASSED ${baseUrl} — HTTP 200; ${totalUniversities} universities; ${totalPrograms} programs; ${confirmedPrograms} confirmed; no-JS fallback; search, filters, sorting, favorites, comparison, CSV, 3-event ICS; university/program pages; SEO; keyboard; 390px mobile. Screenshots: ${screenshotDir}`);
   await context.close();
 } finally {
   await browser.close();

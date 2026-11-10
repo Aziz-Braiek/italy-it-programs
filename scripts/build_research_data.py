@@ -25,11 +25,12 @@ import research_polito
 import research_sapienza
 import research_unito
 import research_trento
+import research_final_refresh
 
 ROOT = Path(__file__).resolve().parents[1]
 RESEARCH = ROOT / "research"
 AS_OF = "2026-11-09"
-SNAPSHOT_AS_OF = "2026-11-10"
+SNAPSHOT_AS_OF = "2026-11-11"
 CYCLE = "2027-2028"
 
 
@@ -368,6 +369,7 @@ SOURCES.extend(research_polito.SOURCES)
 SOURCES.extend(research_sapienza.SOURCES)
 SOURCES.extend(research_unito.SOURCES)
 SOURCES.extend(research_trento.SOURCES)
+SOURCES.extend(research_final_refresh.SOURCES)
 next(s for s in SOURCES if s["id"] == "SRC-UDINE-APPLY")["accessed_at"] = research_udine.CHECKED
 next(s for s in SOURCES if s["id"] == "SRC-POLIBA-2027")["accessed_at"] = research_poliba.CHECKED
 next(s for s in SOURCES if s["id"] == "SRC-SAPIENZA-INTL")["accessed_at"] = research_sapienza.CHECKED
@@ -409,6 +411,13 @@ def make_program(pid, uid, name, level, language, field, status, evidence_source
 def build():
     RESEARCH.mkdir(exist_ok=True)
     (RESEARCH / "archive").mkdir(exist_ok=True)
+    progress_path = RESEARCH / "research-progress.json"
+    previous_progress = json.loads(progress_path.read_text(encoding="utf-8")) if progress_path.exists() else {}
+    sources_path = RESEARCH / "sources.json"
+    previous_sources = {
+        source["id"]: source
+        for source in json.loads(sources_path.read_text(encoding="utf-8"))
+    } if sources_path.exists() else {}
     old = json.loads((RESEARCH / "archive" / "legacy-programs.json").read_text(encoding="utf-8-sig"))
     uni_rows = []
     for uid, name, city, region, homepage, admissions, cycle_status, note in UNIVERSITIES:
@@ -1356,6 +1365,7 @@ def build():
     research_sapienza.apply(uni_rows, programs, fact)
     research_unito.apply(uni_rows, programs, fact)
     research_trento.apply(uni_rows, programs, fact)
+    research_final_refresh.apply(programs, fact, make_program)
     verified = [p for p in programs if p["overall_status"] == "CONFIRMED"]
     level_counts = Counter(p["level"]["value"] for p in verified)
     fully_verified_count = len(verified)
@@ -1435,12 +1445,21 @@ def build():
         ],
     }
 
+    # Keep independently recorded reachability and browser checks across rebuilds.
+    # A changed URL must be checked again instead of inheriting an old outcome.
+    for source in SOURCES:
+        previous = previous_sources.get(source["id"])
+        if previous and previous.get("url") == source.get("url"):
+            for key in ("url_check", "browser_check"):
+                if key in previous:
+                    source[key] = previous[key]
+
     (RESEARCH / "sources.json").write_text(json.dumps(SOURCES, ensure_ascii=False, indent=2)+"\n",encoding="utf-8")
     (RESEARCH / "universities-2027-2028.json").write_text(json.dumps(uni_rows, ensure_ascii=False, indent=2)+"\n",encoding="utf-8")
     (RESEARCH / "programs-2027-2028.json").write_text(json.dumps(programs, ensure_ascii=False, indent=2)+"\n",encoding="utf-8")
     (RESEARCH / "coverage-report.json").write_text(json.dumps(coverage, ensure_ascii=False, indent=2)+"\n",encoding="utf-8")
     progress = {
-        "academic_year": CYCLE, "as_of": SNAPSHOT_AS_OF, "branch": "upgrade/2027-2028-research",
+        "academic_year": CYCLE, "as_of": SNAPSHOT_AS_OF, "branch": previous_progress.get("branch", "upgrade/2027-2028-research"),
         "phase": "research_and_data_model_in_progress", "next_actions": [
             "Review each of the 34 universities' complete official BSc and MSc offers.",
             "Verify every candidate program's 2027/28 availability, language and applicant eligibility.",
@@ -1483,9 +1502,17 @@ def build():
             {"id":"marche-data-science-finance-and-economics-2026-27-prior-cycle-review","status":"partial","result":"Matched the historical Data Science for Finance and Economics lead to its official status as a curriculum within UnivPM's Data Science for Economics, Business and Finance MSc. Recorded 2026/27 English-language course evidence, prior-year curricular and B2 requirements, faculty-specific streaming/asynchronous delivery, international pre-evaluation procedure, tuition structure and competitive UnivPM/ERDIS aid. No 2027/28 new-entry listing, application dates, fee schedule or scholarship call was identified; availability remains pending."},
             {"id":"milano-bicocca-program-and-international-admissions-review","status":"partial","result":"Checked all six Bicocca legacy leads against official course profiles, English-program listings and 2026/27 course calls. Corrected the MSc title to Artificial Intelligence for Science and Technology; recorded course-specific prior-cycle requirements and dates, and noted that the joint AI BSc is administered by Pavia while the joint Human-Centered AI MSc is administered by the University of Milan. The 2027/28 international qualification page confirms country-specific entry requirements and apply.unimib.it, but no candidate course's new-entry offer or call. Recorded 2026/27 fees and scholarship context with the BISP undergraduate naming mismatch; no 2027/28 course windows, fees or awards were confirmed."},
             {"id":"milano-statale-masters-and-2026-27-course-review","status":"partial","result":"Checked four legacy Master's leads against the University of Milan's 2026/27 catalogue, course profiles and admission notices. Corrected Computer Science from English-only to Italian/English and recorded the same Artificial Intelligence for Science and Technology inter-university degree already tracked at Bicocca, which is its administrative headquarters. Matched Data Science for Economics and Health and the joint Bioinformatics for Computational Genomics MSc, with course-specific prior-cycle requirements, application dates, fees and international routes. Recorded the 2026/27 €156 first tuition instalment, country/course-area fee framework, university and European Futures awards, and regional DSU. No 2027/28 first-entry calls, dates, fee schedule or scholarship calls were identified."},
+            research_final_refresh.BATCH,
         ],
         "counts": coverage,
     }
+    # Carry forward completed research and source-audit batches written after
+    # the generator's original batch list, without duplicating regenerated ones.
+    generated_batch_ids = {batch.get("id") for batch in progress["completed_batches"]}
+    for batch in previous_progress.get("completed_batches", []):
+        if batch.get("id") not in generated_batch_ids:
+            progress["completed_batches"].append(batch)
+            generated_batch_ids.add(batch.get("id"))
     (RESEARCH / "research-progress.json").write_text(json.dumps(progress, ensure_ascii=False, indent=2)+"\n",encoding="utf-8")
     source_map = {s["id"]: s for s in SOURCES}
     lines = [

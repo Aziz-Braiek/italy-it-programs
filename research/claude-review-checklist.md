@@ -1,8 +1,8 @@
 # Claude Browser independent review checklist
 
-Prepared 2026-11-10 for academic year 2027/28. Review each record against official university pages, calls, portals, regulations, and PDFs.
+Prepared 2026-11-11 for academic year 2027/28. Review each record against official university pages, calls, portals, regulations, and PDFs.
 
-Snapshot inventory: 34 universities, 193 program records, 454 source records.
+Snapshot inventory: 34 universities, 199 program records, 559 source records.
 
 ## Review rules
 
@@ -27,106 +27,198 @@ Official university-level sources:
 
 - [ ] `SRC-UNINA-CHE-2027` — [Notice for International Students – AY 2027/2028, MSc Chemical Engineering](https://www.dicmapi.unina.it/ingegneria-chimica/notice-for-international-students-academic-year-2027-2028-msc-chemical-engineering/) (cycle: 2027-2028; checked in prior snapshot: 2026-11-09)
 - [ ] `SRC-UNINA-CHE-PROGRAM` — [Master’s Degree in Chemical Engineering](https://www.dicmapi.unina.it/mag_ingchim/masters-degree-in-chemical-engineering/?lang=en) (cycle: 2027-2028; checked in prior snapshot: 2026-11-09)
+- [ ] `SRC-UNINA-COMPUTER-SCIENCE-2025` — [Computer Science – official programme overview](https://informatica.dieti.unina.it/index.php/en/degree-programs/degree-programs-overview) (cycle: 2025-2026; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNINA-DATA-SCIENCE-GUIDE-2026` — [Data Science – 2026/27 official student guide](https://www.orientamento.unina.it/corsidistudio/data-science-eng/) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNINA-DATA-SCIENCE-ADMISSIONS-2026` — [Data Science – official admission requirements](https://data-science.dieti.unina.it/index.php/studying-with-us/information-to-apply) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNINA-MOVE-2026` — [Autonomous Vehicle Engineering (MOVE) – 2026/27 course and admissions page](https://move.dii.unina.it/) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNINA-MOVE-PROFILE-2025` — [Autonomous Vehicle Engineering – official programme brochure](https://www.dii.unina.it/source/brochures-cds/magistrale/MOVE_eng.pdf) (cycle: 2020-2021; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNINA-INDUSTRIAL-BIOENGINEERING-2026` — [Industrial Bioengineering – 2026/27 official student guide](https://www.orientamento.unina.it/corsidistudio/industrial-bio-engineering/) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNINA-ECONOMICS-FINANCE-2026` — [Economics and Finance (LMEF) – official English Master's profile](https://www.orientamento.unina.it/corsidistudio/economics-and-finance-eng/) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNINA-ECONOMICS-FINANCE-DEPT-2026` — [Economics and Finance – Department of Economics and Statistics degree list](https://www.dises.unina.it/en_GB/il-dipartimento/presentazione) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNINA-INTERNATIONAL-RELATIONS-2026` — [International Relations (English) – official degree guide](https://www.orientamento.unina.it/corsidistudio/international-relations-eng/) (cycle: 2024-2025; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNINA-QUANTUM-2025` — [Quantum Science and Engineering – official course guide](https://www.orientamento.unina.it/corsidistudio/quantum-science-and-engineering/) (cycle: 2025-2026; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNINA-QUANTUM-PROFILE-2025` — [Quantum Science and Engineering – official programme and course links](https://www.qst.unina.it/index.php/education/) (cycle: general; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNINA-ARCH-HERITAGE-2025` — [Architecture and Heritage – official course catalogue and admission rules](https://www.corsi.unina.it/DB2/home) (cycle: 2024-2025; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNINA-ARCH-HERITAGE-REG-2024` — [Architecture and Heritage – official didactic regulation](https://www.diarc.archer.unina.it/images/ARCHER_2024-25_DidacticRegulations_CdS_ENGL_2023_SA_DM96_v6.pdf) (cycle: 2024-2025; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNINA-MED-ENGLISH-2025` — [Medicine and Surgery in English – official single-cycle degree regulation](https://www.medicina.unina.it/pdf/P11/SMA-2024.pdf) (cycle: 2025-2026; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNINA-MED-ENGLISH-2026` — [Federico II 2026/27 healthcare-course semester-filter announcement](https://www.unina.it/en/w/semestre-filtro-2026/27-al-via-le-lezioni-per-i-corsi-di-area-sanitaria) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNINA-CIVIL-ENV-BSC-2026` — [Civil and Environmental Engineering BSc – official 2026/27 admission page](https://www.civil-environmental.unina.it/admission/) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 
 #### Computer Science — `legacy-085`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-085/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/napoli-federico-ii/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-UNINA-COMPUTER-SCIENCE-2025` — [Computer Science – official programme overview](https://informatica.dieti.unina.it/index.php/en/degree-programs/degree-programs-overview) (cycle: 2025-2026; prior check: 2026-11-10)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
 #### Data Science — `legacy-086`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-086/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/napoli-federico-ii/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-UNINA-DATA-SCIENCE-ADMISSIONS-2026` — [Data Science – official admission requirements](https://data-science.dieti.unina.it/index.php/studying-with-us/information-to-apply) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-UNINA-DATA-SCIENCE-GUIDE-2026` — [Data Science – 2026/27 official student guide](https://www.orientamento.unina.it/corsidistudio/data-science-eng/) (cycle: 2026-2027; prior check: 2026-11-10)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
-#### Autonomous Vehicle Engineering — `legacy-117`
+#### Autonomous Vehicle Engineering (MOVE) — `legacy-117`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-117/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/napoli-federico-ii/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-UNINA-MOVE-2026` — [Autonomous Vehicle Engineering (MOVE) – 2026/27 course and admissions page](https://move.dii.unina.it/) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-UNINA-MOVE-PROFILE-2025` — [Autonomous Vehicle Engineering – official programme brochure](https://www.dii.unina.it/source/brochures-cds/magistrale/MOVE_eng.pdf) (cycle: 2020-2021; prior check: 2026-11-10)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
 #### Industrial Bioengineering — `legacy-118`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-118/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/napoli-federico-ii/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-UNINA-INDUSTRIAL-BIOENGINEERING-2026` — [Industrial Bioengineering – 2026/27 official student guide](https://www.orientamento.unina.it/corsidistudio/industrial-bio-engineering/) (cycle: 2026-2027; prior check: 2026-11-10)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
-#### Economics and Finance — `legacy-119`
+#### Economics and Finance (LMEF) — `legacy-119`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-119/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/napoli-federico-ii/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-UNINA-ECONOMICS-FINANCE-2026` — [Economics and Finance (LMEF) – official English Master's profile](https://www.orientamento.unina.it/corsidistudio/economics-and-finance-eng/) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-UNINA-ECONOMICS-FINANCE-DEPT-2026` — [Economics and Finance – Department of Economics and Statistics degree list](https://www.dises.unina.it/en_GB/il-dipartimento/presentazione) (cycle: 2026-2027; prior check: 2026-11-10)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
-#### International Relations — `legacy-120`
+#### International Relations (English-taught MSc) — `legacy-120`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-120/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/napoli-federico-ii/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-UNINA-INTERNATIONAL-RELATIONS-2026` — [International Relations (English) – official degree guide](https://www.orientamento.unina.it/corsidistudio/international-relations-eng/) (cycle: 2024-2025; prior check: 2026-11-10)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
 #### Quantum Science and Engineering — `legacy-121`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-121/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/napoli-federico-ii/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-UNINA-QUANTUM-2025` — [Quantum Science and Engineering – official course guide](https://www.orientamento.unina.it/corsidistudio/quantum-science-and-engineering/) (cycle: 2025-2026; prior check: 2026-11-10)
+- [ ] `SRC-UNINA-QUANTUM-PROFILE-2025` — [Quantum Science and Engineering – official programme and course links](https://www.qst.unina.it/index.php/education/) (cycle: general; prior check: 2026-11-10)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
-#### Architecture & Heritage — `legacy-122`
+#### Architecture and Heritage — `legacy-122`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-122/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/napoli-federico-ii/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-UNINA-ARCH-HERITAGE-2025` — [Architecture and Heritage – official course catalogue and admission rules](https://www.corsi.unina.it/DB2/home) (cycle: 2024-2025; prior check: 2026-11-10)
+- [ ] `SRC-UNINA-ARCH-HERITAGE-REG-2024` — [Architecture and Heritage – official didactic regulation](https://www.diarc.archer.unina.it/images/ARCHER_2024-25_DidacticRegulations_CdS_ENGL_2023_SA_DM96_v6.pdf) (cycle: 2024-2025; prior check: 2026-11-10)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
-#### Medicine and Surgery — `legacy-123`
+#### Medicine and Surgery in English (single-cycle degree) — `legacy-123`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-123/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/napoli-federico-ii/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-UNINA-MED-ENGLISH-2026` — [Federico II 2026/27 healthcare-course semester-filter announcement](https://www.unina.it/en/w/semestre-filtro-2026/27-al-via-le-lezioni-per-i-corsi-di-area-sanitaria) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-UNINA-MED-ENGLISH-2025` — [Medicine and Surgery in English – official single-cycle degree regulation](https://www.medicina.unina.it/pdf/P11/SMA-2024.pdf) (cycle: 2025-2026; prior check: 2026-11-10)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
 #### Civil and Environmental Engineering — `legacy-124`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-124/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/napoli-federico-ii/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-UNINA-CIVIL-ENV-BSC-2026` — [Civil and Environmental Engineering BSc – official 2026/27 admission page](https://www.civil-environmental.unina.it/admission/) (cycle: 2026-2027; prior check: 2026-11-10)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
 #### Chemical Engineering — `discovered-009`
 
@@ -229,28 +321,30 @@ Official university-level sources:
 - [ ] `SRC-POLIMI-INTERIOR-BSC-2026` — [Design degli Interni bachelor’s profile](https://www.polimi.it/formazione/corsi-di-laurea/dettaglio-corso/design-degli-interni) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-POLIMI-ARCH-BSC-2026` — [Progettazione dell'Architettura bachelor’s profile](https://www.polimi.it/formazione/corsi-di-laurea/dettaglio-corso/progettazione-dellarchitettura) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-POLIMI-CIVIL-MSC-2026` — [Ingegneria Civile – Civil Engineering MSc profile](https://www.polimi.it/formazione/corsi-di-laurea/dettaglio-corso/ingegneria-civile-civil-engineering) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-POLIMI-28DIGITAL-APPLICATIONS-2027` — [28DIGITAL – Polimi entry applications for AY 2027/28](https://www.mastereit.polimi.it/international-applications/) (cycle: 2027-2028; checked in prior snapshot: 2026-11-11)
 
 #### Computer Science and Engineering — `legacy-001`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `CONFIRMED` | Last checked: `2026-11-11`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-001/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/politecnico-milano/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-POLIMI-CSE-2026` — [Computer Science and Engineering MSc profile](https://www.polimi.it/en/education/laurea-programmes/programme-detail/computer-science-and-engineering) (cycle: 2026-2027; prior check: 2026-11-10)
 - [ ] `SRC-POLIMI-MSC-LIST-2026` — [Master of Science programme catalogue](https://www.polimi.it/en/education/laurea-magistrale-programmes) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-POLIMI-28DIGITAL-APPLICATIONS-2027` — [28DIGITAL – Polimi entry applications for AY 2027/28](https://www.mastereit.polimi.it/international-applications/) (cycle: 2027-2028; prior check: 2026-11-11)
 - [ ] `SRC-POLIMI-DEADLINES-2027` — [Deadlines – Admission to Laurea Magistrale with foreign qualification](https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/deadlines) (cycle: 2027-2028; prior check: 2026-11-09)
 - [ ] `SRC-POLIMI-ENGLISH-2027` — [Documents required by the Admissions Office – English certification](https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/application/list-of-documents-required-by-the-admissions-office) (cycle: 2027-2028; prior check: 2026-11-09)
 - [ ] `SRC-POLIMI-SCHOLARSHIPS-2027` — [Merit Based Call for Applications – A.Y. 2027–2028](https://www.polimi.it/fileadmin/user_upload/futuri_studenti/borse-di-studio/Merit_Based_Call_For_Applications_a.y._2027-2028.pdf) (cycle: 2027-2028; prior check: 2026-11-09)
 Known source conflicts in current data:
-  - `facts.application_windows` — The official 2027/28 general MSc schedule ends the second period on 28 January 2027, while the Engineering subsection is labelled 2026/27 but describes September 2027 intake and ends on 25 February. Await a course-level clarification.
+  - `facts.application_windows` — The general Polimi page still gives a general 2027/28 end date of 28 January and an Engineering subsection labelled 2026/27 with a 25 February end date for September 2027 intake. The 28DIGITAL-specific page confirms 25 February for this special pathway only; it does not resolve the course-wide Engineering deadline for non-28DIGITAL applicants.
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The official course page/catalogue reviewed provides prior-cycle course identity, while the 2027/28 university-level call calendar does not name this programme's first-year offer. No discontinuation is confirmed.
   - `facts.program_specific_requirements_2027_2028` — `REQUIRES_VERIFICATION` — No 2027/28 programme-specific admission regulation or call for this candidate was identified in this batch.
-  - `facts.application_windows` — `CONFLICTING_SOURCES` — The official 2027/28 general MSc schedule ends the second period on 28 January 2027, while the Engineering subsection is labelled 2026/27 but describes September 2027 intake and ends on 25 February. Await a course-level clarification.
+  - `facts.application_windows` — `CONFLICTING_SOURCES` — The general Polimi page still gives a general 2027/28 end date of 28 January and an Engineering subsection labelled 2026/27 with a 25 February end date for September 2027 intake. The 28DIGITAL-specific page confirms 25 February for this special pathway only; it does not resolve the course-wide Engineering deadline for non-28DIGITAL applicants.
   - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — The reviewed fee page publishes 2026/27 amounts only; no 2027/28 course tuition is confirmed.
   - `facts.scholarships_2027_2028` — `REQUIRES_VERIFICATION` — A university-level merit scholarship call exists for first-year English-taught MSc applicants, but this candidate's 2027/28 intake and exact course/tier eligibility are not confirmed.
   - `facts.acceptance_rate` — `UNAVAILABLE` — No official comparable applicant and admitted-student totals were found for this candidate; no acceptance rate is inferred.
+  - `facts.28digital_local_application_window_italian_degree` — `NOT_YET_PUBLISHED` — For degrees obtained in Italy, the page says successful 28DIGITAL applicants assigned to Polimi will be invited to submit the local application in July–August 2027; exact dates are to be published in spring.
 
 #### Cyber Risk Strategy and Governance — `legacy-002`
 
@@ -295,25 +389,26 @@ Currently missing or unpublished fields:
 
 #### High Performance Computing Engineering — `legacy-004`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `CONFIRMED` | Last checked: `2026-11-11`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-004/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/politecnico-milano/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-POLIMI-HPC-2026` — [High Performance Computing Engineering MSc profile](https://www.polimi.it/en/education/laurea-programmes/programme-detail/high-performance-computing-engineering) (cycle: 2026-2027; prior check: 2026-11-10)
 - [ ] `SRC-POLIMI-MSC-LIST-2026` — [Master of Science programme catalogue](https://www.polimi.it/en/education/laurea-magistrale-programmes) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-POLIMI-28DIGITAL-APPLICATIONS-2027` — [28DIGITAL – Polimi entry applications for AY 2027/28](https://www.mastereit.polimi.it/international-applications/) (cycle: 2027-2028; prior check: 2026-11-11)
 - [ ] `SRC-POLIMI-DEADLINES-2027` — [Deadlines – Admission to Laurea Magistrale with foreign qualification](https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/deadlines) (cycle: 2027-2028; prior check: 2026-11-09)
 - [ ] `SRC-POLIMI-ENGLISH-2027` — [Documents required by the Admissions Office – English certification](https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/application/list-of-documents-required-by-the-admissions-office) (cycle: 2027-2028; prior check: 2026-11-09)
 - [ ] `SRC-POLIMI-SCHOLARSHIPS-2027` — [Merit Based Call for Applications – A.Y. 2027–2028](https://www.polimi.it/fileadmin/user_upload/futuri_studenti/borse-di-studio/Merit_Based_Call_For_Applications_a.y._2027-2028.pdf) (cycle: 2027-2028; prior check: 2026-11-09)
 Known source conflicts in current data:
-  - `facts.application_windows` — The official 2027/28 general MSc schedule ends the second period on 28 January 2027, while the Engineering subsection is labelled 2026/27 but describes September 2027 intake and ends on 25 February. Await a course-level clarification.
+  - `facts.application_windows` — The general Polimi page still gives a general 2027/28 end date of 28 January and an Engineering subsection labelled 2026/27 with a 25 February end date for September 2027 intake. The 28DIGITAL-specific page confirms 25 February for this special pathway only; it does not resolve the course-wide Engineering deadline for non-28DIGITAL applicants.
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The official course page/catalogue reviewed provides prior-cycle course identity, while the 2027/28 university-level call calendar does not name this programme's first-year offer. No discontinuation is confirmed.
   - `facts.program_specific_requirements_2027_2028` — `REQUIRES_VERIFICATION` — No 2027/28 programme-specific admission regulation or call for this candidate was identified in this batch.
-  - `facts.application_windows` — `CONFLICTING_SOURCES` — The official 2027/28 general MSc schedule ends the second period on 28 January 2027, while the Engineering subsection is labelled 2026/27 but describes September 2027 intake and ends on 25 February. Await a course-level clarification.
+  - `facts.application_windows` — `CONFLICTING_SOURCES` — The general Polimi page still gives a general 2027/28 end date of 28 January and an Engineering subsection labelled 2026/27 with a 25 February end date for September 2027 intake. The 28DIGITAL-specific page confirms 25 February for this special pathway only; it does not resolve the course-wide Engineering deadline for non-28DIGITAL applicants.
   - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — The reviewed fee page publishes 2026/27 amounts only; no 2027/28 course tuition is confirmed.
   - `facts.scholarships_2027_2028` — `REQUIRES_VERIFICATION` — A university-level merit scholarship call exists for first-year English-taught MSc applicants, but this candidate's 2027/28 intake and exact course/tier eligibility are not confirmed.
   - `facts.acceptance_rate` — `UNAVAILABLE` — No official comparable applicant and admitted-student totals were found for this candidate; no acceptance rate is inferred.
+  - `facts.28digital_local_application_window_italian_degree` — `NOT_YET_PUBLISHED` — For degrees obtained in Italy, the page says successful 28DIGITAL applicants assigned to Polimi will be invited to submit the local application in July–August 2027; exact dates are to be published in spring.
 
 #### Biomedical Engineering — `legacy-005`
 
@@ -606,6 +701,9 @@ Official university-level sources:
 - [ ] `SRC-POLITO-QUANTUM-2026` — [Quantum Engineering MSc profile](https://www.polito.it/en/education/master-s-degree-programmes/quantum-engineering) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-POLITO-ARCHCC-2026` — [Architecture Construction City MSc profile](https://www.polito.it/en/education/master-s-degree-programmes/architecture-construction-city) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-POLITO-DIGITAL-SKILLS-2026` — [Digital Skills for Sustainable Societal Transitions MSc profile](https://www.polito.it/en/education/master-s-degree-programmes/digital-skills-for-sustainable-societal-transitions) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-POLITO-MATHEMATICAL-ENGINEERING-PROFILE-2026` — [Mathematical Engineering – official programme profile](https://www.polito.it/en/education/master-s-degree-programmes/mathematical-engineering) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-POLITO-MATHEMATICAL-ENGINEERING-ENGLISH-TRACK-2027` — [Mathematical Engineering – planned English study track from 2027/28](https://www.polito.it/en/education/master-s-degree-programmes/mathematical-engineering/guidelines) (cycle: 2027-2028; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-POLITO-MATHEMATICAL-ENGINEERING-SCHOLARSHIP-2027` — [Mathematical Engineering scholarships for foreign-degree students – AY 2027/28](https://www.polito.it/en/education/services-and-life-at-politecnico/right-to-education-and-tuition-fees/scholarships-and-awards?tipo_borsa=S) (cycle: 2027-2028; checked in prior snapshot: 2026-11-11)
 
 #### Computer Engineering — `legacy-011`
 
@@ -823,6 +921,23 @@ Currently missing or unpublished fields:
   - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — The official tuition page reviewed links the 2026/27 regulation; no 2027/28 schedule or programme-specific amount was confirmed.
   - `facts.scholarships_2027_2028` — `REQUIRES_VERIFICATION` — No 2027/28 course-specific scholarship or EDISU award was confirmed in the reviewed sources.
   - `facts.acceptance_rate` — `UNAVAILABLE` — No complete official applicant denominator and admitted-student count was found. The profile's uncapped-admission label is not an acceptance rate.
+
+#### Mathematical Engineering – planned English-taught track — `discovered-030`
+
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `CONFIRMED` | Last checked: `2026-11-11`
+- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-030/
+- [ ] University page: https://italy-it-programs.vercel.app/universities/politecnico-torino/
+- [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
+Official linked sources to revisit:
+- [ ] `SRC-POLITO-MATHEMATICAL-ENGINEERING-PROFILE-2026` — [Mathematical Engineering – official programme profile](https://www.polito.it/en/education/master-s-degree-programmes/mathematical-engineering) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-POLITO-MATHEMATICAL-ENGINEERING-ENGLISH-TRACK-2027` — [Mathematical Engineering – planned English study track from 2027/28](https://www.polito.it/en/education/master-s-degree-programmes/mathematical-engineering/guidelines) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-POLITO-MATHEMATICAL-ENGINEERING-SCHOLARSHIP-2027` — [Mathematical Engineering scholarships for foreign-degree students – AY 2027/28](https://www.polito.it/en/education/services-and-life-at-politecnico/right-to-education-and-tuition-fees/scholarships-and-awards?tipo_borsa=S) (cycle: 2027-2028; prior check: 2026-11-11)
+Currently missing or unpublished fields:
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — No degree admission dates were found in the reviewed sources; the published dates above apply only to the scholarship call.
+  - `facts.program_specific_requirements_2027_2028` — `REQUIRES_VERIFICATION` — The scholarship call references compliance with the programme's admission requirements but does not set out the detailed 2027/28 course-specific requirements.
+  - `facts.application_fee_2027_2028` — `REQUIRES_VERIFICATION` — The reviewed 2027/28 sources do not state a degree application fee.
+  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — No programme-specific 2027/28 tuition amount was found in the reviewed sources.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — No applicant and admission counts were found; no acceptance rate is inferred from the three scholarships.
 
 ### Università degli Studi Roma Tre (Rome) — `roma-tre`
 
@@ -1220,16 +1335,26 @@ Official university-level sources:
 
 - [ ] `SRC-TORVERGATA-MECH-2027` — [Admission A.Y. 2027-28 – Mechatronics Engineering](https://mechatronics.uniroma2.it/how-to-apply-for-mechatronics/admission-a-y-2027-28/) (cycle: 2027-2028; checked in prior snapshot: 2026-11-09)
 - [ ] `SRC-TORVERGATA-MECH-LANGUAGE` — [Aims and scopes – Mechatronics Engineering](https://mechatronics.uniroma2.it/about-us/aims-and-scopes/) (cycle: 2027-2028; checked in prior snapshot: 2026-11-09)
+- [ ] `SRC-ROMA2-COMPUTER-SCIENCE-MSC-2026` — [Computer Science – official Tor Vergata MSc catalogue entry](https://web.uniroma2.it/en/contenuto/computer_science-93169) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-ROMA2-COMPUTER-SCIENCE-REGULATIONS-2026` — [Computer Science – official Master's regulations](https://informatica.uniroma2.it/en/home/magistrale/il-corso/regulations/) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 
 #### Computer Science — `legacy-095`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-095/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/tor-vergata/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-ROMA2-COMPUTER-SCIENCE-REGULATIONS-2026` — [Computer Science – official Master's regulations](https://informatica.uniroma2.it/en/home/magistrale/il-corso/regulations/) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-ROMA2-COMPUTER-SCIENCE-MSC-2026` — [Computer Science – official Tor Vergata MSc catalogue entry](https://web.uniroma2.it/en/contenuto/computer_science-93169) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-11. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-11; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
 #### Mechatronics Engineering — `discovered-010`
 
@@ -2033,16 +2158,58 @@ Official university-level sources:
 - [ ] `SRC-BOLOGNA-CLE-2027` — [Application – Erasmus Mundus CLE](https://cle.unibo.it/pages/23/presentazione-della-domanda/lang/en) (cycle: 2027-2028; checked in prior snapshot: 2026-11-09)
 - [ ] `SRC-UNIBO-CSE-2027` — [Computer Science and Engineering – admissions and requirements](https://corsi.unibo.it/2cycle/ComputerScienceEngineering/how-to-enrol) (cycle: 2027-2028; checked in prior snapshot: 2026-11-09)
 - [ ] `SRC-UNIBO-28DIGITAL-2027` — [Intelligent Embedded Systems – 28Digital track](https://corsi.unibo.it/magistrale/IngegneriaScienzeInformatiche/curriculum-intelligent-embedded-systems-28digital-track) (cycle: 2027-2028; checked in prior snapshot: 2026-11-09)
+- [ ] `SRC-UNIBO-GRENFIN-2027-PROFILE` — [Greening Energy Market and Finance – official degree profile](https://corsi.unibo.it/2cycle/GreeningEnergyMarketFinance) (cycle: 2027-2028; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIBO-GRENFIN-2027-CALL` — [Greening Energy Market and Finance – AY 2027/28 admission notice](https://corsi.unibo.it/s/3394/p/en/enrolling-grenfin/avvisolm-grenfin-emjm-27-28_en-2-prot.pdf/@@download/file/AvvisoLM-GrEnFIn-EMJM-27-28_EN-2-PROT.pdf) (cycle: 2027-2028; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIBO-AI-PROFILE-2026` — [Artificial Intelligence – official degree profile](https://corsi.unibo.it/2cycle/artificial-intelligence/) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIBO-AI-ADMISSIONS-2026` — [Artificial Intelligence – 2026/27 admission requirements and call](https://corsi.unibo.it/2cycle/artificial-intelligence/how-to-enrol) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIBO-DHDK-PROFILE-2026` — [Digital Humanities and Digital Knowledge – official degree profile](https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge/) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIBO-DHDK-ADMISSIONS-2026` — [Digital Humanities and Digital Knowledge – 2026/27 admission page](https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge/how-to-enrol) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIBO-BA-CURRICULUM-2026` — [Business Analytics – official curriculum profile](https://corsi.unibo.it/2cycle/BusinessAnalytics/overview) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIBO-BA-CURRICULUM-PARENT-2026` — [Statistics, Economics and Business – parent degree profile](https://corsi.unibo.it/2cycle/StatisticsEconomicsBusiness) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIBO-MES-PROFILE-2026` — [Mechanical Engineering for Sustainability – official degree profile](https://corsi.unibo.it/2cycle/MechanicalEngineering-Forli) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIBO-MES-ADMISSIONS-2026` — [Mechanical Engineering for Sustainability – 2026/27 admission page](https://corsi.unibo.it/2cycle/MechanicalEngineering-Forli/how-to-enrol) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIBO-CLABE-PROFILE-2026` — [Business and Economics (CLaBE) – official degree profile](https://corsi.unibo.it/1cycle/CLaBE/Presentation) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIBO-CLEF-PROFILE-2026` — [Economics and Finance (CLEF) – official degree profile](https://corsi.unibo.it/1cycle/EconomicsFinance/overview) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIBO-CLEF-ADMISSIONS-2026` — [Economics and Finance – 2026/27 admission notice](https://corsi.unibo.it/s/3394/p/en/enrolling-clef/bando-clef-etac_a-a-2026-2027.pdf/@@download/file/Bando%20CLEF%20-ETAC_a.a.%202026-2027.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIBO-MED-EN-PROFILE-2026` — [Medicine and Surgery – English-taught single-cycle course profile](https://corsi.unibo.it/singlecycle/MedicineAndSurgery/overview) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIBO-MED-IT-PROFILE-2026` — [Medicina e chirurgia – Italian-taught single-cycle course profile](https://corsi.unibo.it/magistralecu/MedicinaChirurgia) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIBO-BBS-AI-MFG-2027` — [Global MBA in AI and Manufacturing – 2027/28 admissions schedule](https://www.bbs.unibo.it/en/global-mba/ai-and-manufacturing-2/) (cycle: 2027-2028; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIBO-BBS-GREEN-MGMT-2026` — [Green Management and Sustainable Businesses – BBS professional master](https://www.bbs.unibo.it/en/master-fulltime/business-management-green-management-and-sustainable-businesses/) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIBO-GESTIONALE-BSC-2026` — [Ingegneria gestionale – Bologna bachelor's profile](https://corsi.unibo.it/laurea/IngegneriaGestionale) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIBO-ECON-COMMERCIO-2026` — [Economia e commercio – official degree profile at Forlì](https://corsi.unibo.it/laurea/EconomiaCommercio) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIBO-MED-IT-ENROL-2026` — [Medicina e chirurgia – Italian course admission procedure](https://corsi.unibo.it/magistralecu/MedicinaChirurgia/iscriversi-al-corso) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIBO-LAW-2026` — [Giurisprudenza – Bologna single-cycle degree profile and 2026/27 regulation](https://corsi.unibo.it/magistralecu/Giurisprudenza-Bologna/esplora-il-corso) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIBO-COMMUNICATION-2026` — [Scienze della comunicazione – Bologna bachelor's profile](https://corsi.unibo.it/laurea/ScienzeComunicazione) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIBO-ING-INF-MSC-2026` — [Ingegneria informatica – Bologna MSc profile and admission page](https://corsi.unibo.it/magistrale/ingegneriainformatica/index.html) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIBO-ING-INF-ADMISSIONS-2026` — [Ingegneria informatica – 2026/27 admission requirements](https://corsi.unibo.it/magistrale/ingegneriainformatica/iscriversi-al-corso) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIBO-BA-BBS-2026` — [Business Analytics and Data Science – BBS professional-master classification](https://www.bbs.unibo.it/en/professional-masters-programs/) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIBO-GIURISPRUDENZA-REG-2026` — [Giurisprudenza – 2026/27 Bologna degree regulation](https://corsi.unibo.it/magistralecu/Giurisprudenza-Bologna/il-corso/all-e-regolamento-parte-normativa-26-27.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIBO-AI-MFG-2026-27-MASTER` — [AI and Manufacturing – Global MBA official course entry](https://www.unibo.it/en/study/phd-professional-masters-specialisation-schools-and-other-programmes/professional-master/2026-2027/global-master-in-business-administration-4) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIBO-MED-EN-2026-CALL` — [Medicine and Surgery – English course admission information](https://corsi.unibo.it/singlecycle/MedicineAndSurgery) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026` — [Economia e commercio – official Forlì campus course page](https://corsi.unibo.it/laurea/EconomiaCommercio/sedute-di-laurea) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIBO-REGULAR-COURSES-2026` — [University of Bologna regular degree course catalogue](https://corsi.unibo.it/) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIBO-CLABE-PROGRAM-CODE-2026` — [Business and Economics – official course code and programme profile](https://corsi.unibo.it/1cycle/CLaBE/prospects) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIBO-DHDK-CALL-2026` — [Digital Humanities and Digital Knowledge – AY 2026/27 admission call](https://corsi.unibo.it/s/3391/p/en/digital-humanities-and-digital-knowledge-dhdk/call-dhdk-2026.pdf/@@download/file/Call%20DHDK%202026.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIBO-COMM-ADMISSION-2026` — [Scienze della comunicazione – 2026/27 admissions page](https://corsi.unibo.it/laurea/ScienzeComunicazione/iscriversi-al-corso) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIBO-LAW-COURSE-2026` — [Giurisprudenza – 2026/27 programme regulation](https://corsi.unibo.it/magistralecu/Giurisprudenza-Bologna/il-corso/all-e-regolamento-parte-normativa-26-27.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 
-#### Artificial Intelligence — `legacy-019`
+#### Artificial intelligence — `legacy-019`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-019/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-UNIBO-AI-ADMISSIONS-2026` — [Artificial Intelligence – 2026/27 admission requirements and call](https://corsi.unibo.it/2cycle/artificial-intelligence/how-to-enrol) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-UNIBO-AI-PROFILE-2026` — [Artificial Intelligence – official degree profile](https://corsi.unibo.it/2cycle/artificial-intelligence/) (cycle: 2026-2027; prior check: 2026-11-10)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
 #### Computer Science and Engineering — Intelligent Embedded Systems (28Digital track) — `legacy-020`
 
@@ -2060,143 +2227,254 @@ Currently missing or unpublished fields:
 
 #### Digital Humanities and Digital Knowledge — `legacy-021`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-021/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-UNIBO-DHDK-CALL-2026` — [Digital Humanities and Digital Knowledge – AY 2026/27 admission call](https://corsi.unibo.it/s/3391/p/en/digital-humanities-and-digital-knowledge-dhdk/call-dhdk-2026.pdf/@@download/file/Call%20DHDK%202026.pdf) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-UNIBO-DHDK-ADMISSIONS-2026` — [Digital Humanities and Digital Knowledge – 2026/27 admission page](https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge/how-to-enrol) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-UNIBO-DHDK-PROFILE-2026` — [Digital Humanities and Digital Knowledge – official degree profile](https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge/) (cycle: 2026-2027; prior check: 2026-11-10)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
-#### Business Analytics and Data Science — `legacy-022`
+#### Statistics, Economics and Business — Business Analytics curriculum — `legacy-022`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-022/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-UNIBO-BA-CURRICULUM-2026` — [Business Analytics – official curriculum profile](https://corsi.unibo.it/2cycle/BusinessAnalytics/overview) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-UNIBO-BA-BBS-2026` — [Business Analytics and Data Science – BBS professional-master classification](https://www.bbs.unibo.it/en/professional-masters-programs/) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-UNIBO-BA-CURRICULUM-PARENT-2026` — [Statistics, Economics and Business – parent degree profile](https://corsi.unibo.it/2cycle/StatisticsEconomicsBusiness) (cycle: 2026-2027; prior check: 2026-11-10)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
-#### AI and Manufacturing — `legacy-023`
+#### Global MBA in AI and Manufacturing (Bologna Business School) — `legacy-023`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `CONFIRMED` | Last checked: `2026-11-10`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-023/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-UNIBO-AI-MFG-2026-27-MASTER` — [AI and Manufacturing – Global MBA official course entry](https://www.unibo.it/en/study/phd-professional-masters-specialisation-schools-and-other-programmes/professional-master/2026-2027/global-master-in-business-administration-4) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-UNIBO-BBS-AI-MFG-2027` — [Global MBA in AI and Manufacturing – 2027/28 admissions schedule](https://www.bbs.unibo.it/en/global-mba/ai-and-manufacturing-2/) (cycle: 2027-2028; prior check: 2026-11-10)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `facts.application_deadline` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28; the BBS page says detailed instructions will be published later.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — The page describes selection by academic profile, tests and interview, but the detailed 2027/28 notice has not yet been published.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — The programme page says high-ranking candidates may be eligible for a scholarship, but 2027/28 award amount and terms are not published.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The programme page does not publish the applicant denominator and admitted count; no acceptance rate is inferred.
 
 #### Mechanical Engineering for Sustainability — `legacy-024`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-024/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-UNIBO-MES-ADMISSIONS-2026` — [Mechanical Engineering for Sustainability – 2026/27 admission page](https://corsi.unibo.it/2cycle/MechanicalEngineering-Forli/how-to-enrol) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-UNIBO-MES-PROFILE-2026` — [Mechanical Engineering for Sustainability – official degree profile](https://corsi.unibo.it/2cycle/MechanicalEngineering-Forli) (cycle: 2026-2027; prior check: 2026-11-10)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
-#### Business and Economics — `legacy-025`
+#### Business and Economics (CLaBE) — `legacy-025`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-025/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-UNIBO-CLABE-PROGRAM-CODE-2026` — [Business and Economics – official course code and programme profile](https://corsi.unibo.it/1cycle/CLaBE/prospects) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-UNIBO-CLABE-PROFILE-2026` — [Business and Economics (CLaBE) – official degree profile](https://corsi.unibo.it/1cycle/CLaBE/Presentation) (cycle: 2026-2027; prior check: 2026-11-10)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
-#### Economics and Finance — `legacy-026`
+#### Economics and Finance (CLEF) — `legacy-026`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-026/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-UNIBO-CLEF-ADMISSIONS-2026` — [Economics and Finance – 2026/27 admission notice](https://corsi.unibo.it/s/3394/p/en/enrolling-clef/bando-clef-etac_a-a-2026-2027.pdf/@@download/file/Bando%20CLEF%20-ETAC_a.a.%202026-2027.pdf) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-UNIBO-CLEF-PROFILE-2026` — [Economics and Finance (CLEF) – official degree profile](https://corsi.unibo.it/1cycle/EconomicsFinance/overview) (cycle: 2026-2027; prior check: 2026-11-10)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
-#### Medicine and Surgery — `legacy-027`
+#### Medicine and Surgery (English-taught single-cycle degree) — `legacy-027`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-027/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-UNIBO-MED-EN-2026-CALL` — [Medicine and Surgery – English course admission information](https://corsi.unibo.it/singlecycle/MedicineAndSurgery) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-UNIBO-MED-EN-PROFILE-2026` — [Medicine and Surgery – English-taught single-cycle course profile](https://corsi.unibo.it/singlecycle/MedicineAndSurgery/overview) (cycle: 2026-2027; prior check: 2026-11-10)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
-#### Green Management and Sustainable Businesses — `legacy-028`
+#### Business Management — Green Management and Sustainable Businesses (BBS professional-master track) — `legacy-028`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-028/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-UNIBO-BBS-GREEN-MGMT-2026` — [Green Management and Sustainable Businesses – BBS professional master](https://www.bbs.unibo.it/en/master-fulltime/business-management-green-management-and-sustainable-businesses/) (cycle: 2026-2027; prior check: 2026-11-10)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
-#### Ingegneria Gestionale — `legacy-147`
+#### Ingegneria gestionale — `legacy-147`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-147/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-UNIBO-GESTIONALE-BSC-2026` — [Ingegneria gestionale – Bologna bachelor's profile](https://corsi.unibo.it/laurea/IngegneriaGestionale) (cycle: 2026-2027; prior check: 2026-11-10)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
-#### Economia e Commercio — `legacy-148`
+#### Economia e commercio — `legacy-148`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-148/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026` — [Economia e commercio – official Forlì campus course page](https://corsi.unibo.it/laurea/EconomiaCommercio/sedute-di-laurea) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-UNIBO-ECON-COMMERCIO-2026` — [Economia e commercio – official degree profile at Forlì](https://corsi.unibo.it/laurea/EconomiaCommercio) (cycle: 2026-2027; prior check: 2026-11-10)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
-#### Medicina e Chirurgia — `legacy-149`
+#### Medicina e chirurgia — `legacy-149`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-149/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-UNIBO-MED-IT-ENROL-2026` — [Medicina e chirurgia – Italian course admission procedure](https://corsi.unibo.it/magistralecu/MedicinaChirurgia/iscriversi-al-corso) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-UNIBO-MED-IT-PROFILE-2026` — [Medicina e chirurgia – Italian-taught single-cycle course profile](https://corsi.unibo.it/magistralecu/MedicinaChirurgia) (cycle: 2026-2027; prior check: 2026-11-10)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
 #### Giurisprudenza — `legacy-150`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-150/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-UNIBO-GIURISPRUDENZA-REG-2026` — [Giurisprudenza – 2026/27 Bologna degree regulation](https://corsi.unibo.it/magistralecu/Giurisprudenza-Bologna/il-corso/all-e-regolamento-parte-normativa-26-27.pdf) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-UNIBO-LAW-2026` — [Giurisprudenza – Bologna single-cycle degree profile and 2026/27 regulation](https://corsi.unibo.it/magistralecu/Giurisprudenza-Bologna/esplora-il-corso) (cycle: 2026-2027; prior check: 2026-11-10)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
-#### Scienze della Comunicazione — `legacy-151`
+#### Scienze della comunicazione — `legacy-151`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-151/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-UNIBO-COMM-ADMISSION-2026` — [Scienze della comunicazione – 2026/27 admissions page](https://corsi.unibo.it/laurea/ScienzeComunicazione/iscriversi-al-corso) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-UNIBO-COMMUNICATION-2026` — [Scienze della comunicazione – Bologna bachelor's profile](https://corsi.unibo.it/laurea/ScienzeComunicazione) (cycle: 2026-2027; prior check: 2026-11-10)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
-#### Ingegneria Informatica — `legacy-152`
+#### Ingegneria informatica — `legacy-152`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-152/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-UNIBO-ING-INF-ADMISSIONS-2026` — [Ingegneria informatica – 2026/27 admission requirements](https://corsi.unibo.it/magistrale/ingegneriainformatica/iscriversi-al-corso) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-UNIBO-ING-INF-MSC-2026` — [Ingegneria informatica – Bologna MSc profile and admission page](https://corsi.unibo.it/magistrale/ingegneriainformatica/index.html) (cycle: 2026-2027; prior check: 2026-11-10)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
 #### Cultures Littéraires Européennes (CLE) Erasmus Mundus Joint Master — `discovered-012`
 
@@ -2209,6 +2487,19 @@ Official linked sources to revisit:
 Currently missing or unpublished fields:
   - `facts.language` — `REQUIRES_VERIFICATION` — The reviewed call does not state the language of instruction.
   - `facts.application_fee` — `REQUIRES_VERIFICATION` — The reviewed 2027/28 page does not establish an application fee.
+
+#### Greening Energy Market and Finance (GrEnFIn Erasmus Mundus Joint Master) — `discovered-029`
+
+- [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-10`
+- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-029/
+- [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
+- [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
+Official linked sources to revisit:
+- [ ] `SRC-UNIBO-GRENFIN-2027-CALL` — [Greening Energy Market and Finance – AY 2027/28 admission notice](https://corsi.unibo.it/s/3394/p/en/enrolling-grenfin/avvisolm-grenfin-emjm-27-28_en-2-prot.pdf/@@download/file/AvvisoLM-GrEnFIn-EMJM-27-28_EN-2-PROT.pdf) (cycle: 2027-2028; prior check: 2026-11-10)
+- [ ] `SRC-UNIBO-GRENFIN-2027-PROFILE` — [Greening Energy Market and Finance – official degree profile](https://corsi.unibo.it/2cycle/GreeningEnergyMarketFinance) (cycle: 2027-2028; prior check: 2026-11-10)
+Currently missing or unpublished fields:
+  - `facts.application_fee_2027_2028` — `UNAVAILABLE` — The 2027/28 official admission notice does not state an application fee.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The notice gives a maximum of 51 places but no applicant denominator; no acceptance rate is inferred.
 
 ### Università di Camerino (Camerino) — `camerino`
 
@@ -2408,16 +2699,38 @@ Official university-level sources:
 - [ ] `SRC-UNIFI-SST-2027` — [Enrollment (a.y. 2027/28) – Software: Science and Technology](https://www.sst.unifi.it/index.php?func=viewpage&module=CMpro&newlang=eng&pageid=168) (cycle: 2027-2028; checked in prior snapshot: 2026-11-09)
 - [ ] `SRC-UNIFI-SST-LANGUAGE` — [Course presentation – Software: Science and Technology](https://www.sst.unifi.it/index.php?func=viewpage&module=CMpro&newlang=eng&pageid=167) (cycle: 2027-2028; checked in prior snapshot: 2026-11-09)
 - [ ] `SRC-UNIFI-INTL` — [Pre-enrolment and study-visa application](https://www.unifi.it/en/study-us/your-learning-path/start-your-enrolment/international-students/pre-enrolment-and-study) (cycle: general; checked in prior snapshot: 2026-11-09)
+- [ ] `SRC-UNIFI-ARCHITECTURE-MSC-2026` — [Architecture – official degree profile and 2026/27 study plan](https://www.unifi.it/en/study-us/degree-programs/second-cycle-degree/architecture) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-UNIFI-ARCH-ICAD-2026` — [Architectural Design (iCAD) – official English curriculum and admission page](https://www.icad.unifi.it/vp-238-presentation.html) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-UNIFI-FINANCE-RISK-MSC-2026` — [Finance and Risk Management – official degree profile and 2026/27 plan](https://www.unifi.it/en/study-us/degree-programs/second-cycle-degree/finance-and-risk-management) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-UNIFI-FINANCE-RISK-ADMISSION-2026` — [Finance and Risk Management – official admission requirements](https://www.frm.unifi.it/p107.html) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-UNIFI-ECON-DEV-MSC-2026` — [Economics and Development – official degree profile and 2026/27 plan](https://www.unifi.it/en/study-us/degree-programs/second-cycle-degree/economics-and-development) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-UNIFI-GEOENGINEERING-MSC-2026` — [Geoengineering – official degree profile and 2026/27 study plan](https://www.unifi.it/en/study-us/degree-programs/second-cycle-degree/geoengineering) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-UNIFI-GEOENGINEERING-ENROLMENT-2026` — [Geoengineering – 2026/27 official enrollment instructions](https://www.ing-gem.unifi.it/p143.html) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-UNIFI-URBAN-PLANNING-MSC-2026` — [Urban and Regional Planning and Design for Sustainability – official profile](https://www.unifi.it/en/study-us/degree-programs/second-cycle-degree/urban-and-regional-planning-and-design-sustainability) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-UNIFI-URBAN-PLANNING-ADMISSION-2025` — [Urban and Regional Planning and Design for Sustainability – official admission information](https://www.clurpd.unifi.it/vp-173-enrolment.html) (cycle: 2025-2026; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-UNIFI-RISE-MSC-2026` — [International Relations and European Studies – official 2026/27 course profile](https://www.unifi.it/en/study-us/degree-programs/second-cycle-degree/international-relations-and-european-studies) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-UNIFI-RISE-ENGLISH-PATHWAY-2026` — [RISE – English-only study pathway and 2026/27 study plan](https://www.rise.unifi.it/index.php?func=viewpage&module=CMpro&newlang=eng&pageid=540) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-UNIFI-RISE-ADMISSION-2026` — [RISE – 2026/27 admission requirements for non-Italian degrees](https://www.rise.unifi.it/index.php?func=viewpage&module=CMpro&newlang=eng&pageid=435) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-UNIFI-SUSBUS-BSC-2026` — [Sustainable Business for Societal Challenges – official degree profile](https://www.unifi.it/en/study-us/degree-programs/first-cycle-degree/sustainable-business-societal-challenges) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-UNIFI-SUSBUS-CALL-2026` — [Sustainable Business for Societal Challenges – official 2026/27 admission calls](https://www.unifi.it/en/node/9897) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 
-#### Architecture — `legacy-087`
+#### Architecture — Architectural Design (iCAD) curriculum — `legacy-087`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-087/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/firenze/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-UNIFI-ARCH-ICAD-2026` — [Architectural Design (iCAD) – official English curriculum and admission page](https://www.icad.unifi.it/vp-238-presentation.html) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-UNIFI-ARCHITECTURE-MSC-2026` — [Architecture – official degree profile and 2026/27 study plan](https://www.unifi.it/en/study-us/degree-programs/second-cycle-degree/architecture) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-11. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-11; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
 #### Software: Science and Technology — `legacy-125`
 
@@ -2434,63 +2747,111 @@ Currently missing or unpublished fields:
 
 #### Finance and Risk Management — `legacy-126`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-126/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/firenze/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-UNIFI-FINANCE-RISK-ADMISSION-2026` — [Finance and Risk Management – official admission requirements](https://www.frm.unifi.it/p107.html) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-UNIFI-FINANCE-RISK-MSC-2026` — [Finance and Risk Management – official degree profile and 2026/27 plan](https://www.unifi.it/en/study-us/degree-programs/second-cycle-degree/finance-and-risk-management) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-11. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-11; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
 #### Economics and Development — `legacy-127`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-127/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/firenze/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-UNIFI-ECON-DEV-MSC-2026` — [Economics and Development – official degree profile and 2026/27 plan](https://www.unifi.it/en/study-us/degree-programs/second-cycle-degree/economics-and-development) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-11. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-11; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
 #### Geoengineering — `legacy-128`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-128/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/firenze/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-UNIFI-GEOENGINEERING-MSC-2026` — [Geoengineering – official degree profile and 2026/27 study plan](https://www.unifi.it/en/study-us/degree-programs/second-cycle-degree/geoengineering) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-UNIFI-GEOENGINEERING-ENROLMENT-2026` — [Geoengineering – 2026/27 official enrollment instructions](https://www.ing-gem.unifi.it/p143.html) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-11. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-11; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
-#### Urban and Regional Planning — `legacy-129`
+#### Urban and Regional Planning and Design for Sustainability — English-taught curriculum — `legacy-129`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-129/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/firenze/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-UNIFI-URBAN-PLANNING-ADMISSION-2025` — [Urban and Regional Planning and Design for Sustainability – official admission information](https://www.clurpd.unifi.it/vp-173-enrolment.html) (cycle: 2025-2026; prior check: 2026-11-11)
+- [ ] `SRC-UNIFI-URBAN-PLANNING-MSC-2026` — [Urban and Regional Planning and Design for Sustainability – official profile](https://www.unifi.it/en/study-us/degree-programs/second-cycle-degree/urban-and-regional-planning-and-design-sustainability) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-11. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-11; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
-#### Intl Relations and European Studies — `legacy-130`
+#### International Relations and European Studies — English-only pathway — `legacy-130`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-130/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/firenze/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-UNIFI-RISE-ADMISSION-2026` — [RISE – 2026/27 admission requirements for non-Italian degrees](https://www.rise.unifi.it/index.php?func=viewpage&module=CMpro&newlang=eng&pageid=435) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-UNIFI-RISE-MSC-2026` — [International Relations and European Studies – official 2026/27 course profile](https://www.unifi.it/en/study-us/degree-programs/second-cycle-degree/international-relations-and-european-studies) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-UNIFI-RISE-ENGLISH-PATHWAY-2026` — [RISE – English-only study pathway and 2026/27 study plan](https://www.rise.unifi.it/index.php?func=viewpage&module=CMpro&newlang=eng&pageid=540) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-11. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-11; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
 #### Sustainable Business for Societal Challenges — `legacy-131`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-131/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/firenze/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-UNIFI-SUSBUS-BSC-2026` — [Sustainable Business for Societal Challenges – official degree profile](https://www.unifi.it/en/study-us/degree-programs/first-cycle-degree/sustainable-business-societal-challenges) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-UNIFI-SUSBUS-CALL-2026` — [Sustainable Business for Societal Challenges – official 2026/27 admission calls](https://www.unifi.it/en/node/9897) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-11. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-11; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
 ### Università degli Studi di Genova (Genoa) — `genova`
 
@@ -2927,166 +3288,315 @@ Official university-level sources:
 
 - [ ] `SRC-PADUA-INTL-2027` — [Admission of international students – How to apply](https://www.unipd.it/en/ammissione-studenti-internazionali) (cycle: 2027-2028; checked in prior snapshot: 2026-11-09)
 - [ ] `SRC-PADUA-PROGRAMS-2027` — [International students – 2027/28 applications (DiSSGeA)](https://www.dissgea.unipd.it/en/en/international-students-202728-applications) (cycle: 2027-2028; checked in prior snapshot: 2026-11-09)
+- [ ] `SRC-PADUA-PHYSICS-DATA-PROFILE` — [Physics of Data – official degree profile](https://www.unipd.it/en/corsi-di-laurea/physics-data) (cycle: general; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-PADUA-PHYSICS-DATA-REQUIREMENTS` — [Physics of Data – admission requirements](https://pod.dfa.unipd.it/requirement/) (cycle: general; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-PADUA-PHYSICS-DATA-2027-CALL` — [Physics of Data – 2027/28 first call for international students](https://pod.dfa.unipd.it/the-first-call-for-international-students/) (cycle: 2027-2028; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-PADUA-SCIENCE-MSC-CATALOGUE-2026` — [Master's degree courses of the School of Science – AY 2026/27](https://www.unipd.it/en/node/79192) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-PADUA-STUDY-ENGLISH-APPLY-2027` — [Study in English – How to apply](https://www.unipd.it/en/studiare-inglese-come-fare-domanda) (cycle: 2027-2028; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-PADOVA-ENGLISH-MSC-CATALOGUE-2026` — [Padua official English-taught Master's programme catalogue](https://www.unipd.it/en/corsi-laurea-magistrale-lingua-inglese) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-PADOVA-ENG-MSC-ADMISSIONS-2026` — [School of Engineering Master's admission inventory – AY 2026/27](https://www.unipd.it/en/ammissioni-ing-magistrali) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-PADOVA-COMPUTER-ENGINEERING-2026` — [Computer Engineering – official English-taught degree listing](https://www.unipd.it/en/corsi-laurea-magistrale-lingua-inglese) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-PADOVA-COMPUTER-SCIENCE-2026` — [Computer Science – official School of Science catalogue](https://www.scienze.unipd.it/en/courses/how-to-apply/) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-PADOVA-CYBERSECURITY-2026` — [Cybersecurity – official 2026/27 Master's course and admissions page](https://cybersecurity.math.unipd.it/study-plan/) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-PADOVA-DATA-SCIENCE-2026` — [Data Science – official degree profile and 2026/27 admission page](https://datascience.math.unipd.it/admission/) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-PADOVA-AEROSPACE-MSC-2026` — [Aerospace Engineering – official Master's programme profile](https://academics.dii.unipd.it/aerospaceengineering/msc-degree-in-aerospace-engineering/) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-PADOVA-INFORMATION-ENGINEERING-BSC-2026` — [Information Engineering – official degree profile](https://www.unipd.it/en/corsi-di-laurea/information-engineering) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-PADOVA-PSYCHOLOGICAL-SCIENCE-BSC-2026` — [Psychological Science – current Padua English BSc profile](https://www.unipd.it/corsi-di-laurea/psychological-science) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-PADOVA-MEDICINE-2026` — [Medicine and Surgery – current English single-cycle degree admissions guide](https://www.unipd.it/en/studiare-inglese-come-fare-domanda) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-PADOVA-PSYCHOLOGY-MSC-2026` — [Padua Italian-taught psychology Master's admissions catalogue – AY 2026/27](https://www.unipd.it/ammissioni-psi-magistrali-linguaitaliana) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-PADOVA-CLINICAL-PSYCHOLOGY-2026` — [Psicologia clinica – official current degree profile](https://www.unipd.it/corsi-di-laurea/psicologia-clinica) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-PADOVA-DEVELOPMENTAL-PSYCHOLOGY-2026` — [Psicologia dello sviluppo e dell'educazione – official current degree profile](https://psicologia.unipd.it/offerta-didattica/lauree-magistrali?key=PS2975&ordinamento=2025&tipo=LM) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-PADOVA-MANAGEMENT-ENGINEERING-2026` — [Ingegneria gestionale – official Master's course profile](https://www.unipd.it/corsi-di-laurea-magistrali/ingegneria-gestionale) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-PADOVA-AGRICULTURAL-SCIENCES-2026` — [Scienze e tecnologie agrarie – official programme profile](https://www.unipd.it/de/node/79184) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-PADOVA-MOLECULAR-BIOLOGY-BSC-2026` — [Biologia Molecolare – official bachelor's degree profile](https://biologia-molecolare.biologia.unipd.it/index.php?id=170) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-PADOVA-COMPUTER-ENGINEERING-BSC-2026` — [Ingegneria informatica – official bachelor's degree profile](https://www.unipd.it/corsi-di-laurea/ingegneria-informatica) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-PADOVA-COGNITIVE-PSYCHOLOGY-BSC-2026` — [Scienze psicologiche cognitive e psicobiologiche – official bachelor's profile](https://www.unipd.it/corsi-di-laurea/scienze-psicologiche-cognitive-e-psicobiologiche) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-PADOVA-PSYCHOLOGY-MSC-FULL-2026` — [School of Psychology Master's programmes – active official catalogue](https://www.psicologia.unipd.it/offerta-didattica/corsi-di-laurea-magistrale?tipo=LM) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-PADOVA-AGRARIAN-MSC-COURSES-2026` — [School of Agriculture and Veterinary Medicine active Master's courses – AY 2026/27](https://www.agrariamedicinaveterinaria.unipd.it/corsi/corsi-di-laurea-magistrale) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-PADOVA-MANAGEMENT-ENGINEERING-COURSE-2026` — [Ingegneria gestionale – official course profile and campus](https://www.unipd.it/corsi-di-laurea-magistrali/ingegneria-gestionale) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-PADOVA-MOLECULAR-BIOLOGY-BSC-ADMISSION-2026` — [Biologia Molecolare – 2026/27 School of Science bachelor's admissions](https://www.scienze.unipd.it/come-iscriversi-l-2627/) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-PADOVA-SCIENCE-MSC-2026` — [School of Science English Master's admission catalogue – AY 2026/27](https://www.scienze.unipd.it/en/courses/english-language/master-degree/2627/) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027` — [Degree programmes held in English – proposed 2027/28 BSc additions](https://www.unipd.it/en/corsi-laurea-lingua-inglese) (cycle: 2027-2028; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-PADUA-ARQUS-PHYSICS-TECH-2026` — [Arqus joint Bachelor's Programme in Physics for Technology – development agreement](https://www.unipd.it/en/arqus/news/rettrice-partecipa-consiglio-rettori-alleanza-europea-arqus) (cycle: general; checked in prior snapshot: 2026-11-11)
 
 #### Computer Engineering — `legacy-029`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-029/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-PADOVA-COMPUTER-ENGINEERING-2026` — [Computer Engineering – official English-taught degree listing](https://www.unipd.it/en/corsi-laurea-magistrale-lingua-inglese) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-PADOVA-ENG-MSC-ADMISSIONS-2026` — [School of Engineering Master's admission inventory – AY 2026/27](https://www.unipd.it/en/ammissioni-ing-magistrali) (cycle: 2026-2027; prior check: 2026-11-10)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
 #### Computer Science — `legacy-030`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-030/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-PADOVA-COMPUTER-SCIENCE-2026` — [Computer Science – official School of Science catalogue](https://www.scienze.unipd.it/en/courses/how-to-apply/) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-PADOVA-SCIENCE-MSC-2026` — [School of Science English Master's admission catalogue – AY 2026/27](https://www.scienze.unipd.it/en/courses/english-language/master-degree/2627/) (cycle: 2026-2027; prior check: 2026-11-10)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
 #### Cybersecurity — `legacy-031`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-031/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-PADOVA-CYBERSECURITY-2026` — [Cybersecurity – official 2026/27 Master's course and admissions page](https://cybersecurity.math.unipd.it/study-plan/) (cycle: 2026-2027; prior check: 2026-11-10)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
 #### Data Science — `legacy-032`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-032/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-PADOVA-DATA-SCIENCE-2026` — [Data Science – official degree profile and 2026/27 admission page](https://datascience.math.unipd.it/admission/) (cycle: 2026-2027; prior check: 2026-11-10)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
 #### Information Engineering — `legacy-033`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-033/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-PADOVA-INFORMATION-ENGINEERING-BSC-2026` — [Information Engineering – official degree profile](https://www.unipd.it/en/corsi-di-laurea/information-engineering) (cycle: 2026-2027; prior check: 2026-11-10)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
 #### Aerospace Engineering — `legacy-034`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-034/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-PADOVA-ENG-MSC-ADMISSIONS-2026` — [School of Engineering Master's admission inventory – AY 2026/27](https://www.unipd.it/en/ammissioni-ing-magistrali) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-PADOVA-AEROSPACE-MSC-2026` — [Aerospace Engineering – official Master's programme profile](https://academics.dii.unipd.it/aerospaceengineering/msc-degree-in-aerospace-engineering/) (cycle: 2026-2027; prior check: 2026-11-10)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
-#### Medicine and Surgery — `legacy-035`
+#### Medicine and Surgery (single-cycle degree) — `legacy-035`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-035/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-PADOVA-MEDICINE-2026` — [Medicine and Surgery – current English single-cycle degree admissions guide](https://www.unipd.it/en/studiare-inglese-come-fare-domanda) (cycle: 2026-2027; prior check: 2026-11-10)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
 #### Psychological Science — `legacy-036`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-036/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-PADOVA-PSYCHOLOGICAL-SCIENCE-BSC-2026` — [Psychological Science – current Padua English BSc profile](https://www.unipd.it/corsi-di-laurea/psychological-science) (cycle: 2026-2027; prior check: 2026-11-10)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
 #### Physics of Data — `legacy-037`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-10`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-037/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-PADUA-SCIENCE-MSC-CATALOGUE-2026` — [Master's degree courses of the School of Science – AY 2026/27](https://www.unipd.it/en/node/79192) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-PADUA-PHYSICS-DATA-REQUIREMENTS` — [Physics of Data – admission requirements](https://pod.dfa.unipd.it/requirement/) (cycle: general; prior check: 2026-11-10)
+- [ ] `SRC-PADUA-PHYSICS-DATA-2027-CALL` — [Physics of Data – 2027/28 first call for international students](https://pod.dfa.unipd.it/the-first-call-for-international-students/) (cycle: 2027-2028; prior check: 2026-11-10)
+- [ ] `SRC-PADUA-PHYSICS-DATA-PROFILE` — [Physics of Data – official degree profile](https://www.unipd.it/en/corsi-di-laurea/physics-data) (cycle: general; prior check: 2026-11-10)
+- [ ] `SRC-PADUA-STUDY-ENGLISH-APPLY-2027` — [Study in English – How to apply](https://www.unipd.it/en/studiare-inglese-come-fare-domanda) (cycle: 2027-2028; prior check: 2026-11-10)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — No 2027/28 tuition amount is stated in the programme-specific call notice.
+  - `facts.scholarships_2027_2028` — `REQUIRES_VERIFICATION` — No programme-specific 2027/28 scholarship terms were stated in the first-call notice reviewed.
+  - `facts.program_specific_requirements_2027_2028` — `REQUIRES_VERIFICATION` — The call confirms the named programme and international intake but refers applicants to the portal for the full requirements; the page's current B2 and subject-background details need confirmation in the 2027/28 application factsheet.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — No applicant and admission counts are published in the first-call notice; no rate is inferred.
 
-#### Psicologia Clinica — `legacy-159`
+#### Psicologia clinica — `legacy-159`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-159/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-PADOVA-PSYCHOLOGY-MSC-2026` — [Padua Italian-taught psychology Master's admissions catalogue – AY 2026/27](https://www.unipd.it/ammissioni-psi-magistrali-linguaitaliana) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-PADOVA-CLINICAL-PSYCHOLOGY-2026` — [Psicologia clinica – official current degree profile](https://www.unipd.it/corsi-di-laurea/psicologia-clinica) (cycle: 2026-2027; prior check: 2026-11-10)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
-#### Psicologia dello Sviluppo e dell'Educazione — `legacy-160`
+#### Psicologia dello sviluppo e dell'educazione — `legacy-160`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-160/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-PADOVA-PSYCHOLOGY-MSC-2026` — [Padua Italian-taught psychology Master's admissions catalogue – AY 2026/27](https://www.unipd.it/ammissioni-psi-magistrali-linguaitaliana) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-PADOVA-DEVELOPMENTAL-PSYCHOLOGY-2026` — [Psicologia dello sviluppo e dell'educazione – official current degree profile](https://psicologia.unipd.it/offerta-didattica/lauree-magistrali?key=PS2975&ordinamento=2025&tipo=LM) (cycle: 2026-2027; prior check: 2026-11-10)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
-#### Ingegneria Gestionale — `legacy-161`
+#### Ingegneria gestionale — Management Engineering English-taught track — `legacy-161`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-161/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-PADOVA-ENG-MSC-ADMISSIONS-2026` — [School of Engineering Master's admission inventory – AY 2026/27](https://www.unipd.it/en/ammissioni-ing-magistrali) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-PADOVA-MANAGEMENT-ENGINEERING-2026` — [Ingegneria gestionale – official Master's course profile](https://www.unipd.it/corsi-di-laurea-magistrali/ingegneria-gestionale) (cycle: 2026-2027; prior check: 2026-11-10)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
-#### Scienze e Tecnologie Agrarie — `legacy-162`
+#### Scienze e tecnologie agrarie — `legacy-162`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-162/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-PADOVA-AGRICULTURAL-SCIENCES-2026` — [Scienze e tecnologie agrarie – official programme profile](https://www.unipd.it/de/node/79184) (cycle: 2026-2027; prior check: 2026-11-10)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
 #### Biologia Molecolare — `legacy-163`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-163/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-PADOVA-MOLECULAR-BIOLOGY-BSC-2026` — [Biologia Molecolare – official bachelor's degree profile](https://biologia-molecolare.biologia.unipd.it/index.php?id=170) (cycle: 2026-2027; prior check: 2026-11-10)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
-#### Ingegneria Informatica — `legacy-164`
+#### Ingegneria informatica — `legacy-164`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-164/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-PADOVA-COMPUTER-ENGINEERING-BSC-2026` — [Ingegneria informatica – official bachelor's degree profile](https://www.unipd.it/corsi-di-laurea/ingegneria-informatica) (cycle: 2026-2027; prior check: 2026-11-10)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
-#### Scienze Psicologiche Cognitive e Psicobiologiche — `legacy-165`
+#### Scienze psicologiche cognitive e psicobiologiche — `legacy-165`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-165/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-PADOVA-COGNITIVE-PSYCHOLOGY-BSC-2026` — [Scienze psicologiche cognitive e psicobiologiche – official bachelor's profile](https://www.unipd.it/corsi-di-laurea/scienze-psicologiche-cognitive-e-psicobiologiche) (cycle: 2026-2027; prior check: 2026-11-10)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
 #### History — `discovered-002`
 
@@ -3178,6 +3688,73 @@ Currently missing or unpublished fields:
   - `facts.program_specific_requirements` — `REQUIRES_VERIFICATION` — Course-specific requirements were not included in the reviewed call summary.
   - `facts.tuition` — `REQUIRES_VERIFICATION` — Program-specific 2027/28 tuition and individual eligibility need review.
   - `facts.acceptance_rate` — `UNAVAILABLE` — No acceptance rate is stated in this call listing.
+
+#### Management, Finance and Business Analytics (proposed 2027/28) — `discovered-031`
+
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-11`
+- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-031/
+- [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
+- [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
+Official linked sources to revisit:
+- [ ] `SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027` — [Degree programmes held in English – proposed 2027/28 BSc additions](https://www.unipd.it/en/corsi-laurea-lingua-inglese) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-INTL-2027` — [Admission of international students – How to apply](https://www.unipd.it/en/ammissione-studenti-internazionali) (cycle: 2027-2028; prior check: 2026-11-09)
+Currently missing or unpublished fields:
+  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The university lists the programme for 2027/28 but explicitly says it is still to be approved. No course-specific 2027/28 call was identified.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — The University has general 2027/28 international calls for most courses, but the proposed degree itself is awaiting approval and no course-specific admission window or inclusion in those calls was identified.
+  - `facts.program_specific_requirements_2027_2028` — `REQUIRES_VERIFICATION` — No approved course regulations or programme-specific entry requirements have been published in the reviewed source.
+  - `facts.application_fee_2027_2028` — `REQUIRES_VERIFICATION` — No programme-specific application fee is confirmed for this unapproved proposal.
+  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — No course-specific 2027/28 fee is confirmed for this unapproved proposal.
+  - `facts.scholarships_2027_2028` — `REQUIRES_VERIFICATION` — No programme-specific 2027/28 scholarship call is confirmed.
+
+#### Food Safety for Global Health (proposed 2027/28) — `discovered-032`
+
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-11`
+- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-032/
+- [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
+- [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
+Official linked sources to revisit:
+- [ ] `SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027` — [Degree programmes held in English – proposed 2027/28 BSc additions](https://www.unipd.it/en/corsi-laurea-lingua-inglese) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-INTL-2027` — [Admission of international students – How to apply](https://www.unipd.it/en/ammissione-studenti-internazionali) (cycle: 2027-2028; prior check: 2026-11-09)
+Currently missing or unpublished fields:
+  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The university lists the programme for 2027/28 but explicitly says it is still to be approved. No course-specific 2027/28 call was identified.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — The University has general 2027/28 international calls for most courses, but the proposed degree itself is awaiting approval and no course-specific admission window or inclusion in those calls was identified.
+  - `facts.program_specific_requirements_2027_2028` — `REQUIRES_VERIFICATION` — No approved course regulations or programme-specific entry requirements have been published in the reviewed source.
+  - `facts.application_fee_2027_2028` — `REQUIRES_VERIFICATION` — No programme-specific application fee is confirmed for this unapproved proposal.
+  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — No course-specific 2027/28 fee is confirmed for this unapproved proposal.
+  - `facts.scholarships_2027_2028` — `REQUIRES_VERIFICATION` — No programme-specific 2027/28 scholarship call is confirmed.
+
+#### Innovative Technologies in Agriculture (proposed 2027/28) — `discovered-033`
+
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-11`
+- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-033/
+- [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
+- [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
+Official linked sources to revisit:
+- [ ] `SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027` — [Degree programmes held in English – proposed 2027/28 BSc additions](https://www.unipd.it/en/corsi-laurea-lingua-inglese) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-INTL-2027` — [Admission of international students – How to apply](https://www.unipd.it/en/ammissione-studenti-internazionali) (cycle: 2027-2028; prior check: 2026-11-09)
+Currently missing or unpublished fields:
+  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The university lists the programme for 2027/28 but explicitly says it is still to be approved. No course-specific 2027/28 call was identified.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — The University has general 2027/28 international calls for most courses, but the proposed degree itself is awaiting approval and no course-specific admission window or inclusion in those calls was identified.
+  - `facts.program_specific_requirements_2027_2028` — `REQUIRES_VERIFICATION` — No approved course regulations or programme-specific entry requirements have been published in the reviewed source.
+  - `facts.application_fee_2027_2028` — `REQUIRES_VERIFICATION` — No programme-specific application fee is confirmed for this unapproved proposal.
+  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — No course-specific 2027/28 fee is confirmed for this unapproved proposal.
+  - `facts.scholarships_2027_2028` — `REQUIRES_VERIFICATION` — No programme-specific 2027/28 scholarship call is confirmed.
+
+#### Physics for Technology (planned Arqus joint Bachelor's) — `discovered-034`
+
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-11`
+- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-034/
+- [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
+- [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
+Official linked sources to revisit:
+- [ ] `SRC-PADUA-ARQUS-PHYSICS-TECH-2026` — [Arqus joint Bachelor's Programme in Physics for Technology – development agreement](https://www.unipd.it/en/arqus/news/rettrice-partecipa-consiglio-rettori-alleanza-europea-arqus) (cycle: general; prior check: 2026-11-11)
+Currently missing or unpublished fields:
+  - `language` — `REQUIRES_VERIFICATION` — The 2027/28 English-language degree catalogue does not list Physics for Technology; the Arqus development announcement does not state teaching language.
+  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The source confirms a consortium development agreement only. It gives no launch cycle, admission call or approval/accreditation status.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — No application window or launch academic year is given in the programme-development announcement.
+  - `facts.program_specific_requirements_2027_2028` — `REQUIRES_VERIFICATION` — No approved programme regulation or admission requirements have been published in the reviewed source.
+  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — No applicable programme fee or tuition structure is published in the reviewed source.
+  - `facts.scholarships_2027_2028` — `REQUIRES_VERIFICATION` — No programme-specific scholarship call is published in the reviewed source.
 
 ### Università degli Studi di Palermo (Palermo) — `palermo`
 
@@ -3406,6 +3983,11 @@ Official university-level sources:
 - [ ] `SRC-PISA-DSBI` — [Master programme in Data Science and Business Informatics](https://didattica.di.unipi.it/en/master-programme-in-data-science-and-business-informatics/) (cycle: 2027-2028; checked in prior snapshot: 2026-11-09)
 - [ ] `SRC-PISA-DH` — [Master programme in Informatics for Digital Health](https://didattica.di.unipi.it/en/master-programme-in-informatics-for-digital-health/) (cycle: 2027-2028; checked in prior snapshot: 2026-11-09)
 - [ ] `SRC-UNIPI-ENGLISH` — [Degrees offered in English](https://didattica.di.unipi.it/en/internazionale/degrees-offered-in-english/) (cycle: 2027-2028; checked in prior snapshot: 2026-11-09)
+- [ ] `SRC-UNIPI-MSC-CATALOGUE-2026` — [University of Pisa official Master's degree catalogue](https://www.unipi.it/didattica/corsi/lauree-magistrali/) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIPI-CYBERSECURITY-2026` — [Cybersecurity – official two-year English MSc admission page](https://cysec.unipi.it/?page_id=253) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIPI-AIDE-2026` — [Artificial Intelligence and Data Engineering – official English programme profile](https://computer.ing.unipi.it/en/masters-degree-in-artificial-intelligence-and-data-engineering/) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIPI-BIONICS-2026` — [Bionics Engineering – official Pisa Master's profile](https://www.unipi.it/didattica/corsi/lauree-magistrali/bionics-engineering-wber-lm/) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIPI-NUCLEAR-2026` — [Nuclear Engineering – official course identity in Pisa degree documentation](https://nucleare.ing.unipi.it/images/files/SUA_2023.pdf) (cycle: 2023-2024; checked in prior snapshot: 2026-11-10)
 
 #### Computer Science — `legacy-052`
 
@@ -3423,23 +4005,38 @@ Currently missing or unpublished fields:
 
 #### Cybersecurity — `legacy-053`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-053/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/pisa/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-UNIPI-MSC-CATALOGUE-2026` — [University of Pisa official Master's degree catalogue](https://www.unipi.it/didattica/corsi/lauree-magistrali/) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-UNIPI-CYBERSECURITY-2026` — [Cybersecurity – official two-year English MSc admission page](https://cysec.unipi.it/?page_id=253) (cycle: 2026-2027; prior check: 2026-11-10)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
 #### Artificial Intelligence and Data Engineering — `legacy-054`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-054/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/pisa/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-UNIPI-AIDE-2026` — [Artificial Intelligence and Data Engineering – official English programme profile](https://computer.ing.unipi.it/en/masters-degree-in-artificial-intelligence-and-data-engineering/) (cycle: 2026-2027; prior check: 2026-11-10)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
 #### Data Science and Business Informatics — `legacy-055`
 
@@ -3457,23 +4054,39 @@ Currently missing or unpublished fields:
 
 #### Bionics Engineering — `legacy-056`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-056/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/pisa/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-UNIPI-MSC-CATALOGUE-2026` — [University of Pisa official Master's degree catalogue](https://www.unipi.it/didattica/corsi/lauree-magistrali/) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-UNIPI-BIONICS-2026` — [Bionics Engineering – official Pisa Master's profile](https://www.unipi.it/didattica/corsi/lauree-magistrali/bionics-engineering-wber-lm/) (cycle: 2026-2027; prior check: 2026-11-10)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
 #### Nuclear Engineering — `legacy-057`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-057/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/pisa/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
-- [ ] No official source is currently linked to this program; locate an individual course page or call.
+Official linked sources to revisit:
+- [ ] `SRC-UNIPI-MSC-CATALOGUE-2026` — [University of Pisa official Master's degree catalogue](https://www.unipi.it/didattica/corsi/lauree-magistrali/) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-UNIPI-NUCLEAR-2026` — [Nuclear Engineering – official course identity in Pisa degree documentation](https://nucleare.ing.unipi.it/images/files/SUA_2023.pdf) (cycle: 2023-2024; prior check: 2026-11-10)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
 #### Informatics for Digital Health — `discovered-001`
 
@@ -4316,3 +4929,34 @@ Official linked sources to revisit:
 Currently missing or unpublished fields:
   - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The sources reviewed for first-year admissions are for 2026/27. The study plan says year two activates in 2027/28 for students enrolled in 2026/27; it does not confirm a new 2027/28 first-year intake.
 
+## Source URL recheck results
+
+Checked 545 unique URLs representing 559 source records on 2026-11-11. Unique URL outcomes: {'accessible': 511, 'redirected': 13, 'inconclusive': 21}. HTTP 404/410 outcomes are listed as broken; TLS, timeout, and remote-disconnect cases remain inconclusive.
+
+### Redirected sources
+
+- `SRC-CA-FOSCARI-DM-BSC-2026` — [Digital Management – Bachelor's programme profile](https://www.unive.it/degree/etr7) → https://www.unive.it/web/en/12527/home (HTTP 200).
+- `SRC-CA-FOSCARI-EB-BSC-2026` — [Economics and Business – Bachelor's programme profile](https://www.unive.it/degree/etr9) → https://www.unive.it/web/en/12621/home (HTTP 200).
+- `SRC-CA-FOSCARI-DABS-MSC-2026` — [Data Analytics for Business and Society – Master's programme profile](https://www.unive.it/degree/emr14) → https://www.unive.it/web/en/12709/home (HTTP 200).
+- `SRC-CA-FOSCARI-EFS-MSC-2026` — [Economics, Finance and Sustainability – Master's programme profile](https://www.unive.it/degree/emr15) → https://www.unive.it/web/en/12859/home (HTTP 200).
+- `SRC-CA-FOSCARI-IM-MSC-2026` — [International Management – Master's programme profile](https://www.unive.it/degree/emr18) → https://www.unive.it/web/en/13100/home (HTTP 200).
+- `SRC-CA-FOSCARI-CIR-MSC-2026` — [Comparative International Relations – Master's programme profile](https://www.unive.it/degree/lmr60) → https://www.unive.it/web/en/14372/home (HTTP 200).
+- `SRC-CA-FOSCARI-CS-BSC-2026` — [Computer Science – Bachelor's programme profile](https://www.unive.it/degree/ctr3) → https://www.unive.it/web/en/12090/home (HTTP 200).
+- `SRC-CA-FOSCARI-CSIT-MSC-2026` — [Computer Science and Information Technology – Master's programme profile](https://www.unive.it/degree/cm90) → https://www.unive.it/web/en/7056/home (HTTP 200).
+- `SRC-CA-FOSCARI-HOSP-BSC-2026` — [Hospitality Innovation and e-Tourism – Bachelor's programme profile](https://www.unive.it/degree/ctr9) → https://www.unive.it/web/en/12132/home (HTTP 200).
+- `SRC-CA-FOSCARI-PIES-BSC-2026` — [Philosophy, International and Economic Studies – Bachelor's programme profile](https://www.unive.it/degree/ltr6) → https://www.unive.it/web/en/11777/home (HTTP 200).
+- `SRC-UDINE-SCIENCE-MANIFESTO-2026` — [Mathematics, Computer Science and Physics study prospectus 2026/27](https://www.uniud.it/it/didattica/segreteria-studenti/manifesto-degli-studi/scienze-matematiche-informatiche-multimediali-fisiche) → https://www.uniud.it/it/didattica/segreteria-studenti/manifesti-degli-studi/main-pdf/scienze-matematiche-informatiche-multimediali-fisiche (HTTP 206).
+- `SRC-POLIBA-FEE-REG-2026` — [Student fees and contributions regulations 2026/27](https://poliba.it/sites/default/files/Tasse/Regolamento_contribuzione_studentesca_Politecnico_di_Bari_26_27_.pdf) → https://www.poliba.it/sites/default/files/Tasse/Regolamento_contribuzione_studentesca_Politecnico_di_Bari_26_27_.pdf (HTTP 206).
+- `SRC-UNIBO-REGULAR-COURSES-2026` — [University of Bologna regular degree course catalogue](https://corsi.unibo.it/) → https://www.unibo.it/it/studiare (HTTP 200).
+
+### Inconclusive source URLs
+
+- `SRC-CAMERINO-FOREIGN-FEES` — [Fees for foreign students](https://www.miiscrivo.unicam.it/fees-foreign-students) — direct check inconclusive; Content fetch timed out; direct HTTPS check also failed TLS validation. Do not classify as broken.
+- `SRC-TRIESTE-DSSC-CALL-2022` — [DSSC MSc admission call 2022/23](https://corsi.units.it/sites/default/files/dssc_call_2022_0.pdf) — direct check inconclusive; Content fetch did not access the 2022 PDF; direct HTTPS check also failed TLS validation. Do not classify as broken.
+- `SRC-PADOVA-COMPUTER-SCIENCE-2026` — [Computer Science – official School of Science catalogue](https://www.scienze.unipd.it/en/courses/how-to-apply/) — direct check inconclusive; SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)
+- `SRC-PADOVA-PSYCHOLOGY-MSC-FULL-2026` — [School of Psychology Master's programmes – active official catalogue](https://www.psicologia.unipd.it/offerta-didattica/corsi-di-laurea-magistrale?tipo=LM) — direct check inconclusive; No successful direct response was recorded.
+- `SRC-PADOVA-MOLECULAR-BIOLOGY-BSC-ADMISSION-2026` — [Biologia Molecolare – 2026/27 School of Science bachelor's admissions](https://www.scienze.unipd.it/come-iscriversi-l-2627/) — direct check inconclusive; SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)
+- `SRC-PADOVA-SCIENCE-MSC-2026` — [School of Science English Master's admission catalogue – AY 2026/27](https://www.scienze.unipd.it/en/courses/english-language/master-degree/2627/) — direct check inconclusive; SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)
+- `SRC-UNINA-ECONOMICS-FINANCE-DEPT-2026` — [Economics and Finance – Department of Economics and Statistics degree list](https://www.dises.unina.it/en_GB/il-dipartimento/presentazione) — direct check inconclusive; SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)
+- `SRC-UNINA-ARCH-HERITAGE-REG-2024` — [Architecture and Heritage – official didactic regulation](https://www.diarc.archer.unina.it/images/ARCHER_2024-25_DidacticRegulations_CdS_ENGL_2023_SA_DM96_v6.pdf) — direct check inconclusive; SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)
+- `SRC-UNINA-CIVIL-ENV-BSC-2026` — [Civil and Environmental Engineering BSc – official 2026/27 admission page](https://www.civil-environmental.unina.it/admission/) — direct check inconclusive; SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1007)

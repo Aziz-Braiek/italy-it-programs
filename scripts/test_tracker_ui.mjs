@@ -3,6 +3,13 @@ import { readFile } from "node:fs/promises";
 import vm from "node:vm";
 
 const html = await readFile(new URL("../index.html", import.meta.url), "utf8");
+const programs = JSON.parse(await readFile(new URL("../research/programs-2027-2028.json", import.meta.url), "utf8"));
+const universities = JSON.parse(await readFile(new URL("../research/universities-2027-2028.json", import.meta.url), "utf8"));
+const confirmedRows = programs.filter((program) => program.overall_status === "CONFIRMED");
+const requiringReview = programs.filter((program) => program.overall_status === "REQUIRES_VERIFICATION").length;
+const latestUniversityCheck = universities.map((university) => university.last_checked || "").sort().pop();
+const formattedResearchDate = new Intl.DateTimeFormat("en-GB", { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" })
+  .format(new Date(`${latestUniversityCheck}T00:00:00Z`));
 const script = html.match(/<script>([\s\S]*?)<\/script>/)?.[1];
 assert.ok(script, "tracker inline script exists");
 const escapeHtml = (value) => String(value ?? "").replace(/[&<>"']/g, (character) => ({
@@ -56,16 +63,14 @@ const fetch = async (url) => {
 vm.runInNewContext(script, { document, fetch, console, Date, Promise });
 await new Promise((resolve) => setTimeout(resolve, 50));
 
-assert.equal(getElementById("stat-universities").textContent, "34", getElementById("program-grid").innerHTML);
-assert.equal(getElementById("stat-programs").textContent, "193");
-assert.equal(getElementById("stat-confirmed").textContent, "23");
+assert.equal(getElementById("stat-universities").textContent, String(universities.length), getElementById("program-grid").innerHTML);
+assert.equal(getElementById("stat-programs").textContent, String(programs.length));
+assert.equal(getElementById("stat-confirmed").textContent, String(confirmedRows.length));
 assert.equal(getElementById("stat-deadlines").textContent, "9");
-assert.equal(getElementById("research-date").textContent, "10 Nov 2026");
-assert.match(getElementById("notice-count").textContent, /^167 /);
-assert.match(getElementById("program-count").textContent, /^23 \/ 193 /);
+assert.equal(getElementById("research-date").textContent, formattedResearchDate);
+assert.match(getElementById("notice-count").textContent, new RegExp(`^${requiringReview} `));
+assert.match(getElementById("program-count").textContent, new RegExp(`^${confirmedRows.length} \/ ${programs.length} `));
 assert.doesNotMatch(getElementById("program-grid").innerHTML, /legacy-001/);
-const confirmedRows = JSON.parse(await readFile(new URL("../research/programs-2027-2028.json", import.meta.url), "utf8"))
-  .filter((program) => program.overall_status === "CONFIRMED");
 const sort = getElementById("sort-filter");
 sort.value = "name";
 sort.dispatch("change");

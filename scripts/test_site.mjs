@@ -7,6 +7,11 @@ import { pathToFileURL } from "node:url";
 const root = resolve(new URL("../dist/", import.meta.url).pathname.replace(/^\/(?:([A-Za-z]:))/, "$1"));
 const playwrightPath = new URL("../work/qa/playwright-tools/node_modules/playwright-core/index.mjs", import.meta.url);
 const { chromium } = await import(pathToFileURL(playwrightPath.pathname.replace(/^\/(?:([A-Za-z]:))/, "$1")).href);
+const researchPrograms = JSON.parse(readFileSync(new URL("../research/programs-2027-2028.json", import.meta.url), "utf8"));
+const researchUniversities = JSON.parse(readFileSync(new URL("../research/universities-2027-2028.json", import.meta.url), "utf8"));
+const totalPrograms = researchPrograms.length;
+const confirmedPrograms = researchPrograms.filter((program) => program.overall_status === "CONFIRMED").length;
+const totalUniversities = researchUniversities.length;
 const mimeTypes = { ".html": "text/html; charset=utf-8", ".css": "text/css; charset=utf-8", ".js": "text/javascript; charset=utf-8", ".json": "application/json; charset=utf-8", ".png": "image/png", ".xml": "application/xml; charset=utf-8", ".txt": "text/plain; charset=utf-8" };
 
 const server = createServer((request, response) => {
@@ -36,10 +41,10 @@ try {
   const noJsContext = await browser.newContext({ javaScriptEnabled: false, viewport: { width: 1365, height: 900 } });
   const noJs = await noJsContext.newPage();
   await noJs.goto(baseUrl, { waitUntil: "networkidle" });
-  assert.equal(await noJs.locator("[data-program-card]").count(), 193, "all program entries are in the initial HTML with JavaScript disabled");
-  assert.equal(await noJs.locator("[data-university-card]").count(), 34, "all universities are in the initial HTML with JavaScript disabled");
-  assert.equal(await noJs.locator(".program-card:not([hidden])").count(), 193, "static fallback exposes every entry");
-  assert.equal(await noJs.locator("[data-program-card][data-status='CONFIRMED']").count(), 23);
+  assert.equal(await noJs.locator("[data-program-card]").count(), totalPrograms, "all program entries are in the initial HTML with JavaScript disabled");
+  assert.equal(await noJs.locator("[data-university-card]").count(), totalUniversities, "all universities are in the initial HTML with JavaScript disabled");
+  assert.equal(await noJs.locator(".program-card:not([hidden])").count(), totalPrograms, "static fallback exposes every entry");
+  assert.equal(await noJs.locator("[data-program-card][data-status='CONFIRMED']").count(), confirmedPrograms);
   await noJs.close();
   await noJsContext.close();
 
@@ -48,7 +53,7 @@ try {
   page.on("console", (message) => { if (message.type() === "error") consoleErrors.push(message.text()); });
   page.on("pageerror", (error) => pageErrors.push(error.message));
   await page.goto(baseUrl, { waitUntil: "networkidle" });
-  await page.waitForFunction(() => document.querySelector("#result-count")?.textContent.includes("23 programs"));
+  await page.waitForFunction((count) => document.querySelector("#result-count")?.textContent.includes(`${count} programs`), confirmedPrograms);
   assert.equal(await page.locator(".program-card:not([hidden])").count(), 18, "enhanced results are paginated");
   assert.equal(await page.locator(".program-card:not([hidden])[data-status='CONFIRMED']").count(), 18, "pending candidates are not initially mixed into confirmed offers");
   assert.equal(await page.locator("#pagination").isVisible(), true);
@@ -176,7 +181,7 @@ try {
   const htmlSize = statSync(join(root, "index.html")).size;
   const cssSize = statSync(join(root, "assets", "site.css")).size;
   const jsSize = statSync(join(root, "assets", "site.js")).size;
-  console.log(`BROWSER TESTS PASSED — static fallback: 193 programs, 34 universities; JS: 23 confirmed initially; desktop and 390px mobile checked; home HTML ${htmlSize} bytes, CSS ${cssSize} bytes, JS ${jsSize} bytes.`);
+  console.log(`BROWSER TESTS PASSED — static fallback: ${totalPrograms} programs, ${totalUniversities} universities; JS: ${confirmedPrograms} confirmed initially; desktop and 390px mobile checked; home HTML ${htmlSize} bytes, CSS ${cssSize} bytes, JS ${jsSize} bytes.`);
   await context.close();
 } finally {
   await browser.close();
