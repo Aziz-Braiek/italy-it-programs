@@ -50,6 +50,8 @@
         <div class="control-row">
           <label class="search"><span class="sr" data-en="Search programs" data-it="Cerca corsi">Search programs</span><input id="search" type="search" placeholder="Search university, city, program…" autocomplete="off"></label>
           <select class="select" id="level-filter" aria-label="Degree level"><option value="all">All levels</option><option value="BSc">Bachelor's</option><option value="MSc">Master's</option></select>
+          <select class="select" id="university-filter" aria-label="University"><option value="all">All universities</option></select>
+          <select class="select" id="language-filter" aria-label="Teaching language"><option value="all">All languages</option><option value="English">English</option><option value="Italian">Italian</option><option value="Mixed">Italian / English</option><option value="Unknown">Language pending</option></select>
           <select class="select" id="status-filter" aria-label="Verification status"><option value="all">All statuses</option><option value="CONFIRMED">Confirmed</option><option value="REQUIRES_VERIFICATION">Requires verification</option><option value="CONFLICTING_SOURCES">Conflicting sources</option><option value="NOT_YET_PUBLISHED">Not yet announced</option><option value="UNAVAILABLE">Unavailable</option><option value="NOT_APPLICABLE">Not offered</option></select>
           <select class="select" id="sort-filter" aria-label="Sort programs"><option value="status">Sort: verification</option><option value="university">Sort: university</option><option value="name">Sort: program name</option></select>
           <label class="check"><input id="include-pending" type="checkbox"><span data-en="Include unverified candidates" data-it="Includi i corsi non verificati">Include unverified candidates</span></label>
@@ -149,6 +151,8 @@
     function programFilter(){
       var q=document.getElementById("search").value.trim().toLowerCase();
       var level=document.getElementById("level-filter").value;
+      var university=document.getElementById("university-filter").value;
+      var language=document.getElementById("language-filter").value;
       var status=document.getElementById("status-filter").value;
       var include=document.getElementById("include-pending").checked;
       var rows=programs.filter(function(p){
@@ -160,6 +164,10 @@
         var tag=p.previous_cycle_tags||p.previous_tracker_tags||{};
         var pLevel=confirmed?p.level.value:tag.level;
         if(level!=="all"&&pLevel!==level)return false;
+        if(university!=="all"&&p.university_id!==university)return false;
+        var pLanguage=confirmed?p.language.value:(tag.language||p.language.value);
+        var languageGroup=pLanguage==="English"?"English":pLanguage==="Italian"?"Italian":pLanguage&&pLanguage.indexOf("/")>=0?"Mixed":"Unknown";
+        if(language!=="all"&&languageGroup!==language)return false;
         var hay=[p.program,p.university,p.city,p.field&&p.field.value,tag.field,tag.language].join(" ").toLowerCase();
         return !q||hay.indexOf(q)>=0
       });
@@ -173,6 +181,18 @@
       document.getElementById("program-grid").innerHTML=rows.length?rows.map(renderProgram).join(""):'<div class="empty">'+esc(t("noresults"))+'</div>'
     }
     function factStatusText(status){return status==="complete"?t("complete"):status==="partial"?t("partial"):t("notStarted")}
+    function renderUniversityGrid(){
+      var selected=document.getElementById("university-filter").value;
+      document.getElementById("university-grid").innerHTML=universities.filter(function(u){return selected==="all"||u.id===selected}).map(renderUniversity).join("")
+    }
+    function populateFilters(){
+      var university=document.getElementById("university-filter"), selected=university.value||"all";
+      university.innerHTML='<option value="all">'+(lang==="it"?"Tutti gli atenei":"All universities")+'</option>'+universities.slice().sort(function(a,b){return a.name.localeCompare(b.name)}).map(function(u){return '<option value="'+esc(u.id)+'">'+esc(u.name)+'</option>'}).join("");
+      university.value=selected;
+      var language=document.getElementById("language-filter"), chosen=language.value||"all";
+      language.innerHTML='<option value="all">'+(lang==="it"?"Tutte le lingue":"All languages")+'</option><option value="English">'+(lang==="it"?"Inglese":"English")+'</option><option value="Italian">'+(lang==="it"?"Italiano":"Italian")+'</option><option value="Mixed">Italiano / English</option><option value="Unknown">'+(lang==="it"?"Lingua da verificare":"Language pending")+'</option>';
+      language.value=chosen;
+    }
     function renderUniversity(u){
       var count=programs.filter(function(p){return p.university_id===u.id}).length;
       var cycleLabel=u.cycle_status==="NOT_YET_PUBLISHED"?t("univPending"):(u.cycle_status==="CONFIRMED"?t("published"):t("researching"));
@@ -215,16 +235,17 @@
       status.options[0].text=lang==="en"?"All statuses":"Tutti gli stati";status.options[1].text=t("confirmed");status.options[2].text=t("verify");status.options[3].text=t("conflicting");status.options[4].text=t("unpublished");status.options[5].text=t("unavailable");status.options[6].text=t("notOffered");
       var sort=document.getElementById("sort-filter");
       sort.options[0].text=lang==="en"?"Sort: verification":"Ordina: verifica";sort.options[1].text=lang==="en"?"Sort: university":"Ordina: ateneo";sort.options[2].text=lang==="en"?"Sort: program name":"Ordina: corso";
-      updateStats();programFilter();document.getElementById("university-grid").innerHTML=universities.map(renderUniversity).join("")
+      populateFilters();updateStats();programFilter();renderUniversityGrid()
     }
     document.getElementById("language-toggle").addEventListener("click",function(){lang=lang==="en"?"it":"en";applyLanguage()});
-    ["search","level-filter","status-filter","sort-filter","include-pending"].forEach(function(id){document.getElementById(id).addEventListener(id==="search"?"input":"change",programFilter)});
+    ["search","level-filter","language-filter","status-filter","sort-filter","include-pending"].forEach(function(id){document.getElementById(id).addEventListener(id==="search"?"input":"change",programFilter)});
+    document.getElementById("university-filter").addEventListener("change",function(){programFilter();renderUniversityGrid()});
     Promise.all([fetch("/research/programs-2027-2028.json"),fetch("/research/universities-2027-2028.json"),fetch("/research/sources.json")]).then(function(responses){
       if(responses.some(function(r){return !r.ok}))throw new Error("Research data could not be loaded");
       return Promise.all(responses.map(function(r){return r.json()}))
     }).then(function(data){
       programs=data[0];universities=data[1];data[2].forEach(function(s){sources[s.id]=s});
-      updateStats();programFilter();document.getElementById("university-grid").innerHTML=universities.map(renderUniversity).join("")
+      populateFilters();updateStats();programFilter();renderUniversityGrid()
     }).catch(function(err){
       document.getElementById("program-grid").innerHTML='<div class="error">Could not load the structured research files. Serve this page from the project web server and check the JSON endpoints.<br><small>'+esc(err.message)+'</small></div>';
       document.getElementById("university-grid").innerHTML=""
