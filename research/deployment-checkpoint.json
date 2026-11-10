@@ -19,26 +19,31 @@
     "node_version": "24.x"
   },
   "preview": {
-    "commit": "d637c0c3e2cd793d60e3455d38510a8c95fca297",
-    "branch": "upgrade/2027-2028-research",
-    "deployment_id": "7iq2LfaEE6PJqDbwFEjpqf2hsUQd",
+    "commit": "55ec2d0789f110959cda53299682e24bee16f944",
+    "branch": "upgrade/v2-website",
+    "deployment_id": "E5WEqJkPN",
     "status": "Ready",
-    "url": "https://italy-it-programs-eqq8ao5yx-azizbraaiek-7011s-projects.vercel.app/",
-    "validated": true,
+    "url": "https://italy-it-programs-2ce3mb83z-azizbraaiek-7011s-projects.vercel.app/",
+    "validated": false,
     "checks": [
-      "Vercel deployment is Ready and linked to commit d637c0c Cover tracker program sorting.",
-      "Preview header reports academic year 2027–2028; dataset reports 34 universities, 193 records, 23 confirmed offers, 9 universities with confirmed date windows, 454 sources and 982 source-supported fields.",
-      "Research builder and data audit passed; UI regression tests pass, including university and program-name sorting.",
-      "Local static server loaded the same 193-record data; desktop 1920x1080 inspected; responsive 390x844 mobile inspected and document/body scroll width equalled the 390px viewport.",
-      "Trento search with unverified candidates enabled showed all 14 records: seven pending legacy degrees and seven separate confirmed 28DIGITAL tracks.",
-      "Vercel preview commit is pushed to GitHub branch upgrade/2027-2028-research."
+      "Vercel deployment is Ready and linked to V2 commit 55ec2d0 on upgrade/v2-website.",
+      "Direct preview browser validation hit Vercel access protection; full browser validation was run against the public production deployment."
     ]
   },
   "production": {
     "url": "https://italy-it-programs.vercel.app/",
-    "branch": "upgrade/2027-2028-research",
-    "commit": "d637c0c3e2cd793d60e3455d38510a8c95fca297",
-    "upgrade_deployed": false,
-    "reason": "V1 is live at the existing production URL from upgrade/2027-2028-research at commit d637c0c3e2cd793d60e3455d38510a8c95fca297. V2 on upgrade/v2-website is being validated before promotion. The user previously completed the Vercel identity verification prompt."
+    "branch": "master",
+    "commit": "55ec2d0789f110959cda53299682e24bee16f944",
+    "upgrade_deployed": true,
+    "checked_at": "2026-11-10",
+    "http_status": 200,
+    "verification": {
+      "program_cards": 193,
+      "university_cards": 34,
+      "dark_theme_control": true,
+      "playwright_live_suite": "passed",
+      "screenshot_directory": "work/qa/v2-release-production"
+    },
+    "reason": "V2 was promoted to the configured production branch, master, after release validation. The public production deployment returned HTTP 200 and passed the live Edge/Playwright checks, including dark theme, JavaScript-off content, applicant controls, exports, SEO, keyboard navigation and mobile layout."
   }
 }

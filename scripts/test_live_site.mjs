@@ -103,7 +103,10 @@ try {
   assert.ok(readFileSync(await csv.path(), "utf8").includes(firstProgramName), "CSV export includes the saved program");
 
   await firstCard.locator(".favorite-button").click();
+  await page.locator("#search").fill("Intelligent Embedded Systems");
+  await page.waitForTimeout(120);
   const multiWindowCard = page.locator('.program-card[data-program-id="legacy-020"]');
+  assert.equal(await multiWindowCard.isVisible(), true, "calendar test locates its target program even when pagination hides it by default");
   await multiWindowCard.locator(".favorite-button").click();
   const icsPromise = page.waitForEvent("download");
   await page.locator("#export-ics").click();

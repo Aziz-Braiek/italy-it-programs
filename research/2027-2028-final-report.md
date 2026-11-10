@@ -1,6 +1,6 @@
 # Italy University Tracker — 2027–2028 research report
 
-**Research snapshot checked 2026-11-10. Individual sources retain their actual review dates. V1 is live at the existing production URL; the V2 website improvement is in progress on `upgrade/v2-website`. The research itself remains partial, and pending program details must not be read as current admission offers.**
+**Research snapshot checked 2026-11-10. Individual sources retain their actual review dates. V2 is live at the existing production URL from commit `55ec2d0789f110959cda53299682e24bee16f944` on `master`. The research itself remains partial, and pending program details must not be read as current admission offers.**
 
 This report is a saved research checkpoint, not a completion claim. All 34 original universities are retained. The active dataset separates official cycle evidence from previous tracker leads; the latter no longer carry old deadlines, fees, tuition, GPA labels, tiers or acceptance estimates.
 
