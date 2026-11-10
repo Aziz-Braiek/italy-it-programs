@@ -4,17 +4,19 @@
   const $ = (selector, root = document) => root.querySelector(selector);
   const $$ = (selector, root = document) => Array.from(root.querySelectorAll(selector));
   const PAGE_SIZE = 18;
-  const storageKeys = { favorites: "itu-tracker-favorites-v2", language: "itu-tracker-language-v2" };
+  const storageKeys = { favorites: "itu-tracker-favorites-v2", language: "itu-tracker-language-v2", theme: "itu-tracker-theme-v2" };
   let pageNumber = 1;
   let compareIds = [];
   let favoriteIds = loadJson(storageKeys.favorites, []);
   let showFavorites = false;
   let language = loadJson(storageKeys.language, "en");
+  let theme = "light";
+  try { if (localStorage.getItem(storageKeys.theme) === "dark") theme = "dark"; } catch (_error) { /* The light theme remains the safe default. */ }
 
   const copy = {
     en: {
       navPrograms: "Programs", navUniversities: "Universities", navGuide: "Application guide", navAbout: "About",
-      languageLabel: "Change language to Italian", sectionPrograms: "Programs", sectionUniversities: "Universities in this tracker",
+      languageLabel: "Change language to Italian", themeToDark: "Switch to dark theme", themeToLight: "Switch to light theme", sectionPrograms: "Programs", sectionUniversities: "Universities in this tracker",
       search: "Search", degree: "Degree level", university: "University", city: "City or region", language: "Teaching language",
       field: "Field of study", status: "Program status", dates: "Application dates", tuition: "Tuition information",
       scholarships: "Scholarship information", sort: "Sort by", pending: "Show programs awaiting confirmation",
@@ -29,7 +31,7 @@
     },
     it: {
       navPrograms: "Corsi", navUniversities: "Università", navGuide: "Guida alle candidature", navAbout: "Informazioni",
-      languageLabel: "Passa all’interfaccia in inglese", sectionPrograms: "Corsi", sectionUniversities: "Università nel tracker",
+      languageLabel: "Passa all’interfaccia in inglese", themeToDark: "Passa al tema scuro", themeToLight: "Passa al tema chiaro", sectionPrograms: "Corsi", sectionUniversities: "Università nel tracker",
       search: "Cerca", degree: "Livello di laurea", university: "Università", city: "Città o regione", language: "Lingua di insegnamento",
       field: "Area di studio", status: "Stato del corso", dates: "Date di candidatura", tuition: "Informazioni sulle tasse",
       scholarships: "Informazioni sulle borse", sort: "Ordina per", pending: "Mostra i corsi in attesa di conferma",
@@ -64,6 +66,22 @@
 
   function escapeHtml(value) {
     return String(value).replace(/[&<>"']/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[char]);
+  }
+
+  function applyTheme() {
+    const dark = theme === "dark";
+    const dictionary = copy[language] || copy.en;
+    document.documentElement.dataset.theme = theme;
+    const colorScheme = $('meta[name="color-scheme"]');
+    if (colorScheme) colorScheme.content = theme;
+    const button = $("#theme-toggle");
+    if (button) {
+      const label = dark ? dictionary.themeToLight : dictionary.themeToDark;
+      button.textContent = dark ? "☀" : "☾";
+      button.setAttribute("aria-label", label);
+      button.setAttribute("title", label);
+      button.setAttribute("aria-pressed", String(dark));
+    }
   }
 
   function applyLanguage() {
@@ -107,6 +125,7 @@
       button.setAttribute("aria-pressed", String(language === "it"));
     }
     document.documentElement.lang = language;
+    applyTheme();
     $$(".favorite-button").forEach(updateFavoriteButton);
     $$(".compare-button").forEach(updateCompareButton);
   }
@@ -118,6 +137,16 @@
       saveJson(storageKeys.language, language);
       applyLanguage();
       announce(language === "it" ? "Interfaccia in italiano. I nomi dei corsi e i testi delle fonti restano nella lingua originale." : "English interface. Program names and source text remain in their original language.");
+    });
+  }
+
+  const themeToggle = $("#theme-toggle");
+  if (themeToggle) {
+    themeToggle.addEventListener("click", () => {
+      theme = theme === "dark" ? "light" : "dark";
+      try { localStorage.setItem(storageKeys.theme, theme); } catch (_error) { /* Theme remains available for this page if storage is disabled. */ }
+      applyTheme();
+      announce(theme === "dark" ? "Dark theme enabled." : "Light theme enabled.");
     });
   }
 

@@ -129,6 +129,16 @@ try {
   await page.locator("#language-toggle").click();
   assert.equal(await page.locator("html").getAttribute("lang"), "en");
 
+  await page.locator("#theme-toggle").click();
+  assert.equal(await page.locator("html").getAttribute("data-theme"), "dark");
+  assert.equal(await page.locator("#theme-toggle").getAttribute("aria-pressed"), "true");
+  assert.equal(await page.locator("body").evaluate((body) => getComputedStyle(body).backgroundColor), "rgb(17, 26, 38)");
+  assert.equal(await page.locator(".hero .button-primary").evaluate((button) => getComputedStyle(button).color), "rgb(16, 35, 63)", "primary button text keeps dark-on-light contrast in dark theme");
+  await page.reload({ waitUntil: "networkidle" });
+  assert.equal(await page.locator("html").getAttribute("data-theme"), "dark", "dark theme preference persists across reloads");
+  await page.locator("#theme-toggle").click();
+  assert.equal(await page.locator("html").getAttribute("data-theme"), "light");
+
   await page.locator("#university-search").fill("Rome");
   const universityCount = await page.locator("#university-count").textContent();
   assert.match(universityCount || "", /universit/i);
@@ -155,6 +165,11 @@ try {
     return Boolean(name);
   }));
   assert.equal(accessibleControls, true, "interactive controls have an accessible name");
+  await page.locator("#theme-toggle").click();
+  assert.equal(await page.locator("html").getAttribute("data-theme"), "dark");
+  const darkDimensions = await page.evaluate(() => ({ viewport: document.documentElement.clientWidth, body: document.body.scrollWidth, document: document.documentElement.scrollWidth }));
+  assert.equal(darkDimensions.body, darkDimensions.viewport, "dark mobile body has no horizontal overflow");
+  assert.equal(darkDimensions.document, darkDimensions.viewport, "dark mobile document has no horizontal overflow");
 
   assert.deepEqual(consoleErrors, [], "browser console has no errors");
   assert.deepEqual(pageErrors, [], "browser reports no uncaught exceptions");

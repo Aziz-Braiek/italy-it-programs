@@ -155,6 +155,18 @@ class StaticSiteTests(unittest.TestCase):
         for behavior in ("history.replaceState", "localStorage", "text/calendar", "text/csv", "showModal", "Next confirmed application date"):
             self.assertIn(behavior, js)
 
+    def test_accessible_dark_theme_toggle_is_generated(self) -> None:
+        homepage = read("index.html")
+        self.assertIn('id="theme-toggle"', homepage)
+        self.assertIn('aria-label="Switch to dark theme"', homepage)
+        self.assertIn('itu-tracker-theme-v2', homepage)
+        css = (DIST / "assets" / "site.css").read_text(encoding="utf-8")
+        self.assertIn('html[data-theme="dark"]', css)
+        self.assertIn('--canvas: #111a26', css)
+        javascript = (DIST / "assets" / "site.js").read_text(encoding="utf-8")
+        self.assertIn('aria-pressed', javascript)
+        self.assertIn('themeToLight', javascript)
+
     def test_seo_canonical_sitemap_and_robots(self) -> None:
         homepage = read("index.html")
         for token in ('name="description"', 'rel="canonical"', 'property="og:image"', 'name="twitter:card"', 'application/ld+json'):
