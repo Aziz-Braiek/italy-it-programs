@@ -8649,43 +8649,323 @@
     "university_id": "palermo",
     "university": "Università degli Studi di Palermo",
     "city": "Palermo",
-    "program": "CS and Artificial Intelligence",
+    "program": "Computer Science and Artificial Intelligence",
     "level": {
       "value": "MSc",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-PALERMO-CATALOGUE-2026",
+        "SRC-PALERMO-CSAI-LANGUAGE"
+      ],
+      "notes": "Official prior-cycle course listing and undated description only; confirm the 2027/28 new-entry offer."
     },
     "language": {
       "value": "English",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-PALERMO-CATALOGUE-2026",
+        "SRC-PALERMO-CSAI-LANGUAGE"
+      ],
+      "notes": "Official prior-cycle course listing and undated description only; confirm the 2027/28 new-entry offer."
     },
     "field": {
       "value": "Computer Science",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-PALERMO-CATALOGUE-2026",
+        "SRC-PALERMO-CSAI-LANGUAGE"
+      ],
+      "notes": "Official prior-cycle course listing and undated description only; confirm the 2027/28 new-entry offer."
     },
     "availability_2027_2028": {
       "value": null,
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
+      "source_ids": [
+        "SRC-PALERMO-2027",
+        "SRC-PALERMO-CSAI-PLAN-2026",
+        "SRC-PALERMO-CSAI-TEACHING-2027"
+      ],
+      "notes": "The newest first-year plan is 2026/27. A 2027/28 subject assignment confirms planned teaching activity, but contains no first-year cohort or admission offer. Exact 2027/28 application dates are expressly unpublished."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
-    "facts": {},
-    "source_ids": [],
+    "facts": {
+      "previous_cycle_course_listing": {
+        "value": {
+          "academic_year": "2026/27",
+          "official_name": "Computer Science and Artificial Intelligence",
+          "course_code": "2323",
+          "level": "MSc",
+          "language": "English",
+          "degree_class": "LM-18",
+          "duration_years": 2,
+          "ects": 120,
+          "campus": "Palermo",
+          "access": "Open access subject to curricular and personal-preparation verification"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PALERMO-CATALOGUE-2026",
+          "SRC-PALERMO-CSAI-PLAN-2026",
+          "SRC-PALERMO-CSAI-LANGUAGE",
+          "SRC-PALERMO-MASTERS-2026"
+        ],
+        "notes": "Named previous-cycle offer and current undated course description only. The legacy abbreviated name has been expanded to the official title."
+      },
+      "previous_cycle_program_requirements": {
+        "value": {
+          "academic_year": "2025/26",
+          "degree_routes": [
+            "L-31 Computing",
+            "L-35 Mathematics",
+            "L-8 Information Engineering",
+            "L-41 Statistics",
+            "L-30 Physics",
+            "Other Italian Bachelor/Master with at least 6 ECTS Mathematics/Physics and 12 ECTS Computing",
+            "Recognised equivalent foreign qualification"
+          ],
+          "english": "B2 CEFR",
+          "assessment": "For graduates outside L-31, basic Mathematics and Computing interview with the coordinator or teachers"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PALERMO-CSAI-REG-2025",
+          "SRC-PALERMO-CSAI-PROFILE"
+        ],
+        "notes": "The regulation explicitly covers the 2025/26 cohort. Its curricular routes and B2 threshold are repeated on the undated course profile; they have not been verified as 2027/28 criteria."
+      },
+      "academic_year_2027_2028_teaching": {
+        "value": {
+          "subject": "Information Retrieval and Natural Language Processing",
+          "ects": 6,
+          "academic_year": "2027/28",
+          "source_kind": "Official teacher assignment"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PALERMO-CSAI-TEACHING-2027"
+        ],
+        "notes": "An individual subject's academic-year assignment does not identify the entrant cohort or establish a 2027/28 first-year intake."
+      },
+      "English_certificate_guidance": {
+        "value": {
+          "general_page": {
+            "IELTS_Academic": 5.5,
+            "TOEFL_iBT": 72,
+            "PTE": 46
+          },
+          "certificate_alternative": "The 2026/27 Extra-EU page accepts MOI, while the general language page does not repeat that exemption"
+        },
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-PALERMO-LANGUAGE",
+          "SRC-PALERMO-NON-EU-2026"
+        ],
+        "notes": "These sources do not establish course-specific 2027/28 accepted evidence. Confirm the annual call before relying on any certificate threshold or MOI waiver."
+      },
+      "previous_cycle_application_windows": {
+        "value": {
+          "academic_year": "2026/27",
+          "first_international_msc_call": {
+            "start": "2026-01-15",
+            "end": "2026-03-15",
+            "fee_eur": 0
+          },
+          "second_international_msc_call": {
+            "start": "2026-04-15",
+            "end": "2026-07-20"
+          },
+          "Universitaly_deadline": "2026-08-23",
+          "Universitaly_scope": "Candidates already holding a started UniPa portal application",
+          "personal_knowledge_interview_deadline": "2026-11-30"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PALERMO-NON-EU-2026",
+          "SRC-PALERMO-MSC-FIRST-CALL-2026"
+        ],
+        "notes": "These dates apply to the prior-cycle international non-EU abroad route. They are not 2027/28 application dates."
+      },
+      "previous_cycle_international_admission": {
+        "value": {
+          "academic_year": "2026/27",
+          "English_MSc_route": "UniPa Student Portal application, administrative and course-coordinator evaluation, then Universitaly pre-enrolment for study-visa applicants",
+          "documents": [
+            "Passport",
+            "Photo",
+            "Bachelor's degree",
+            "Transcript of Records",
+            "English-language evidence",
+            "CV"
+          ],
+          "foreign_qualification": "Original legalised degree with DOV or accepted CIMEA/Diploma Supplement alternative, as required",
+          "EU_or_equivalent_route": "UniPa portal, admission letter and personal-knowledge interview including English assessment"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PALERMO-NON-EU-2026",
+          "SRC-PALERMO-EU-ROUTE"
+        ],
+        "notes": "Prior-cycle international process plus undated EU guidance. The new annual procedure and course requirements must be checked."
+      },
+      "previous_cycle_tuition": {
+        "value": {
+          "academic_year": "2026/27",
+          "non_eu_resident_abroad_country_tariff_eur": {
+            "B2A": 211,
+            "B2B": 267,
+            "other": 378
+          },
+          "alternative": "ISEE parificato income-based contribution",
+          "fixed_charges_eur": 156,
+          "fixed_charges_components": {
+            "regional_tax_eur": 140,
+            "stamp_eur": 16
+          },
+          "scientific_area_gross_contribution_eur_range": [
+            370,
+            2914
+          ],
+          "gross_table_conditions": "Before applicable exemptions and reductions; the contribution excludes fixed regional tax/stamp charges",
+          "installment_percent": [
+            40,
+            30,
+            30
+          ],
+          "first_installment_for_open_MSc": "Upon enrolment",
+          "third_installment_deadline": "2027-02-28"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PALERMO-FOREIGN-FEES-2026",
+          "SRC-PALERMO-FEE-TABLE-2026",
+          "SRC-PALERMO-FEES-2026"
+        ],
+        "notes": "University-wide previous-cycle framework. Country tariffs apply to the specified foreign-resident non-EU category. €156 is the fixed component, not total income-based tuition. The English page mislabels this sum as regional tax in its flat-rate paragraph; the annual table gives €140 tax plus €16 stamp."
+      },
+      "previous_cycle_scholarships": {
+        "value": {
+          "academic_year": "2026/27",
+          "regional_provider": "ERSU Palermo",
+          "application_window": "5 June–22 July 2026, 14:00 Italy time",
+          "ISEE_ceiling_eur": 23000,
+          "ISPE_ceiling_eur": 52500,
+          "conditions": "Enrollment, merit, economic eligibility, residence classification and available funding under the annual call",
+          "benefits": "Monetary award, meals and possible housing; service values are deducted from the gross award",
+          "example": {
+            "ISEE_band_eur": "11,500–15,333.33",
+            "off_site_gross_base_eur": 7171.11,
+            "cash_if_both_housing_and_meals_are_provided_eur": 4271.11
+          },
+          "foreign_income": "ISEE parificato and required identity/residence documentation; international regularisation deadline 30 November 2026"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-ERSU-PALERMO-CALL-2026",
+          "SRC-PALERMO-SCHOLARSHIPS-2026"
+        ],
+        "notes": "Closed prior-cycle regional competition. Eligibility does not guarantee an award, and its amounts or thresholds are not projected into 2027/28."
+      },
+      "application_windows": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-PALERMO-2027"
+        ],
+        "notes": "Exact 2027/28 application dates have not been published. The prior-cycle windows must not be used for this intake."
+      },
+      "application_fee_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-PALERMO-MSC-FIRST-CALL-2026"
+        ],
+        "notes": "Only the first 2026/27 international MSc call was expressly free. No 2027/28 application fee was identified."
+      },
+      "program_specific_requirements_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-PALERMO-CSAI-REG-2025",
+          "SRC-PALERMO-CSAI-PROFILE"
+        ],
+        "notes": "No new 2027/28 course requirements or available places were identified."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-PALERMO-FEE-TABLE-2026",
+          "SRC-PALERMO-FEE-REG-INDEX-2026"
+        ],
+        "notes": "The latest annual contribution table is 2026/27. No 2027/28 amount, exemption or payment calendar is confirmed."
+      },
+      "scholarships_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-PALERMO-SCHOLARSHIPS-2026",
+          "SRC-ERSU-PALERMO-CALL-2026"
+        ],
+        "notes": "The reviewed university list and ERSU call concern 2026/27 or older and targeted schemes. No 2027/28 call or recurring award is inferred."
+      },
+      "acceptance_rate": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-PALERMO-CSAI-PROFILE",
+          "SRC-PALERMO-CATALOGUE-2026"
+        ],
+        "notes": "No official comparable applicant and admitted totals were identified. Open access does not establish an acceptance percentage."
+      },
+      "course_contact": {
+        "value": {
+          "email": "cicsi@unipa.it",
+          "office": "Department of Mathematics and Computer Science, Via Archirafi 34, Palermo"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PALERMO-CSAI-PROFILE"
+        ],
+        "notes": "Current course-office contact; international credential questions go to internationalstudents@unipa.it."
+      }
+    },
+    "source_ids": [
+      "SRC-PALERMO-2027",
+      "SRC-PALERMO-CATALOGUE-2026",
+      "SRC-PALERMO-CSAI-PLAN-2026",
+      "SRC-PALERMO-CSAI-PROFILE",
+      "SRC-PALERMO-CSAI-LANGUAGE",
+      "SRC-PALERMO-CSAI-REG-2025",
+      "SRC-PALERMO-CSAI-TEACHING-2027",
+      "SRC-PALERMO-MASTERS-2026",
+      "SRC-PALERMO-INTL-CONTACT",
+      "SRC-PALERMO-NON-EU-2026",
+      "SRC-PALERMO-MSC-FIRST-CALL-2026",
+      "SRC-PALERMO-EU-ROUTE",
+      "SRC-PALERMO-LANGUAGE",
+      "SRC-PALERMO-FOREIGN-FEES-2026",
+      "SRC-PALERMO-FEE-TABLE-2026",
+      "SRC-PALERMO-FEES-2026",
+      "SRC-PALERMO-FEE-REG-INDEX-2026",
+      "SRC-PALERMO-SCHOLARSHIPS-2026",
+      "SRC-ERSU-PALERMO-CALL-2026",
+      "SRC-PALERMO-FEE-REG-2024"
+    ],
     "previous_tracker_tags": {
       "level": "MSc",
       "language": "English",
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
-    "previous_cycle_tags": null,
-    "last_checked": "2026-11-09"
+    "previous_cycle_tags": {
+      "level": "MSc",
+      "language": "English",
+      "field": "Computer Science",
+      "cycle": "2026-2027",
+      "label": "Official 2026/27 course evidence only; 2027/28 first-year intake remains unverified"
+    },
+    "last_checked": "2026-11-10"
   },
   {
     "id": "legacy-092",
@@ -9182,39 +9462,303 @@
     "level": {
       "value": "MSc",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-UNIMORE-CE-PROFILE-2026"
+      ],
+      "notes": "Official 2026/27 course identity only; confirm the 2027/28 offer and teaching language."
     },
     "language": {
-      "value": "English",
+      "value": "Italian",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-UNIMORE-CE-PROFILE-2026"
+      ],
+      "notes": "Official 2026/27 course identity only; confirm the 2027/28 offer and teaching language."
     },
     "field": {
-      "value": "Computer Science",
+      "value": "Computer Engineering",
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": null
+      "source_ids": [
+        "SRC-UNIMORE-CE-PROFILE-2026"
+      ],
+      "notes": "Official 2026/27 course identity only; confirm the 2027/28 offer and teaching language."
     },
     "availability_2027_2028": {
       "value": null,
       "status": "REQUIRES_VERIFICATION",
-      "source_ids": [],
-      "notes": "This program appears in the prior tracker or a discovery source, but its full 2027/28 offer has not been confirmed."
+      "source_ids": [
+        "SRC-UNIMORE-CATALOGUE-2026",
+        "SRC-UNIMORE-CE-PROFILE-2026",
+        "SRC-UNIMORE-CE-CALL-2026"
+      ],
+      "notes": "The current named catalogue listing and course call reviewed are for 2026/27. No 2027/28 first-year offer was identified; no discontinuation is inferred."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
-    "facts": {},
-    "source_ids": [],
+    "facts": {
+      "previous_cycle_course_listing": {
+        "value": {
+          "academic_year": "2026/27",
+          "official_name": "Computer Engineering",
+          "course_code": "20-362",
+          "level": "MSc",
+          "language": "Italian",
+          "duration_years": 2,
+          "degree_class": "LM-32",
+          "campus": "Modena",
+          "access": "Open access subject to curriculum and personal-preparation assessment"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIMORE-CE-PROFILE-2026",
+          "SRC-UNIMORE-CATALOGUE-2026"
+        ],
+        "notes": "The official Italian and English web profiles both classify teaching as Italian. This verifies the 2026/27 listing only."
+      },
+      "previous_cycle_program_requirements": {
+        "value": {
+          "academic_year": "2026/27",
+          "degree": "Three-year degree or recognized equivalent",
+          "Italian_qualification_curricular_credits": {
+            "minimum_total_cfu": 90,
+            "mathematics_physics_minimum_cfu": 30,
+            "computing_information_engineering_minimum_cfu": 57,
+            "of_which_computing_computer_engineering_minimum_cfu": 18,
+            "English_minimum_cfu": 3
+          },
+          "Italian_degree_readiness": "At least 85/110 satisfies the titles-based preparation check",
+          "foreign_degree_score": "Final grade, or weighted mean if unavailable, strictly above three quarters of the scale maximum",
+          "foreign_qualification_assessment": "Academic-record evaluation and possible interview",
+          "Italian_language": "Test required unless exempt",
+          "English": "Adequate to use technical texts and attend seminars; the call states no B2 admission-certificate threshold"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIMORE-CE-CALL-2026"
+        ],
+        "notes": "2026/27 call requirements only. Grade thresholds differ by qualification route; no GPA conversion or 2027/28 threshold is inferred."
+      },
+      "previous_cycle_curricula": {
+        "value": [
+          "Cloud and Cyber Security",
+          "Data Engineering and Analytics"
+        ],
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIMORE-CE-DEPARTMENT"
+        ],
+        "notes": "The department describes these tracks from 2023/24; confirm the new offer's curricula."
+      },
+      "previous_cycle_application_windows": {
+        "value": {
+          "academic_year": "2026/27",
+          "assessment_deadline": "2026-12-14",
+          "qualifying_degree_deadline": "2026-12-18",
+          "enrollment_start": "2026-07-08",
+          "enrollment_deadline": "2026-12-22"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIMORE-CE-CALL-2026"
+        ],
+        "notes": "All dates belong to the 2026/27 procedure and must not be used as 2027/28 deadlines."
+      },
+      "previous_cycle_international_admission": {
+        "value": {
+          "academic_year": "2026/27",
+          "assessment_portal": "ESSE3",
+          "visa_pre_enrolment": "Universitaly",
+          "documents": [
+            "Qualification and transcript",
+            "Detailed exam syllabi",
+            "CV",
+            "Optional motivation letter",
+            "Required language, recognition and identity documents at enrollment"
+          ],
+          "course_admissions_email": "admissions-inginf@unimore.it",
+          "course_registrar_email": "segrstud.ingegneria@unimore.it"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIMORE-CE-CALL-2026",
+          "SRC-UNIMORE-FOREIGN-QUALIFICATION"
+        ],
+        "notes": "Prior-cycle course process and general qualification guidance only; admission assessment does not replace Universitaly and visa processing."
+      },
+      "previous_cycle_available_places": {
+        "value": {
+          "academic_year": "2026/27",
+          "non_EU_resident_abroad_reserved": 10
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIMORE-CE-CALL-2026"
+        ],
+        "notes": "Reserved prior-cycle quota only; no 2027/28 quota or acceptance rate is established."
+      },
+      "previous_cycle_application_fee": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-UNIMORE-CE-CALL-2026"
+        ],
+        "notes": "The reviewed 2026/27 MSc call states no specific application fee; no zero-fee assumption is made."
+      },
+      "previous_cycle_tuition": {
+        "value": {
+          "academic_year": "2026/27",
+          "first_installment_eur": 159.67,
+          "fixed_components_eur": {
+            "regional_tax": 140,
+            "stamp_duty": 16,
+            "accident_insurance": 1.9,
+            "civil_liability_insurance": 1.77
+          },
+          "Computer_Engineering_MSc_maximum_annual_total_eur": 2290,
+          "specified_fuori_corso_maximum_total_eur": 2540,
+          "maximum_includes_fixed_components": true,
+          "ordinary_installments": 4,
+          "first_year_open_access_MSc_payment_dates": [
+            "2026-12-22",
+            "2026-12-22",
+            "2027-03-01",
+            "2027-04-30"
+          ],
+          "reductions": "Income/ISEE, progress, exemptions and timely benefit application determine the actual contribution",
+          "first_year_No_Tax_Area": "ISEE at most 30,000 euros under the regulation; first-year applicants have no merit condition",
+          "income_based_reduction_ceiling_ISEE_eur": 60000,
+          "foreign_income": "Eligible non-EU students with income/assets abroad may use country notional ISEE or submit complete translated/legalized financial documents",
+          "first_year_MSc_fee_reduction_deadline": "2026-12-22 16:00 Italy time"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIMORE-FEES-2026",
+          "SRC-UNIMORE-FEE-REGULATION-2026",
+          "SRC-UNIMORE-FLAT-TAX-2026",
+          "SRC-UNIMORE-ISEE-2026"
+        ],
+        "notes": "Prior-cycle framework only. The 159.67 euro first payment is not normal total annual tuition. Maximum amounts include the fixed charges; reductions and foreign-income schemes have eligibility conditions."
+      },
+      "previous_cycle_scholarships": {
+        "value": {
+          "academic_year": "2026/27",
+          "ERGO": {
+            "provider": "ER.GO Emilia-Romagna",
+            "application_start": "2026-06-23",
+            "application_deadline": "2026-08-24 16:00 Italy time",
+            "ISEE_ceiling_eur": 25000,
+            "ISPE_ceiling_eur": 50000,
+            "eligibility": "Annual enrollment, economic and merit requirements; both financial indicators must qualify",
+            "benefits": "Competitive scholarship, meals and housing under the annual call",
+            "lowest_income_band_ISEE_ceiling_eur": 16666.67,
+            "example_awards_lowest_income_band_eur": {
+              "off_site": 7171.11,
+              "commuting": 4190.71,
+              "on_site": 2890.16
+            },
+            "amount_conditions": "Amounts include any meal-service conversion; higher ISEE bands have lower awards, and residence status requires the call's documentation",
+            "foreign_income": "Annual household income/assets documentation must be submitted under the call"
+          },
+          "Top_Student_fee_exemption": {
+            "prior_degree_score_for_MSc": "110/110",
+            "foreign_grade_equivalence": "Not specified on the reviewed page",
+            "outside_Emilia_Romagna_resident_total_eur": 159.67,
+            "Emilia_Romagna_resident_total_eur": 859.67,
+            "MSc_application_deadline": "2026-12-22 16:00 Italy time",
+            "income_requirement": "No ISEE condition; qualifying prior mark and other annual rules apply"
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIMORE-ERGO-2026",
+          "SRC-UNIMORE-ERGO-THRESHOLDS-2026",
+          "SRC-UNIMORE-TOP-STUDENT-2026"
+        ],
+        "notes": "Prior-cycle regional competition and conditional first-year fee exemptions only. Awards are subject to the annual rules; no 2027/28 award or foreign-grade conversion is inferred."
+      },
+      "application_windows": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-UNIMORE-CATALOGUE-2026",
+          "SRC-UNIMORE-CE-CALL-2026"
+        ],
+        "notes": "No 2027/28 Computer Engineering course call or application window was identified. The 14 and 22 December 2026 deadlines belong to 2026/27."
+      },
+      "application_fee_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-UNIMORE-CE-CALL-2026"
+        ],
+        "notes": "No 2027/28 application fee was identified. The reviewed 2026/27 course call does not state a specific assessment-application fee; no zero-fee assumption is made."
+      },
+      "program_specific_requirements_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-UNIMORE-CE-CALL-2026",
+          "SRC-UNIMORE-CATALOGUE-2026"
+        ],
+        "notes": "No 2027/28 course call, selection requirements or places were identified."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-UNIMORE-FEES-2026",
+          "SRC-UNIMORE-FEE-REGULATION-2026"
+        ],
+        "notes": "No 2027/28 tuition schedule was identified. All recorded amounts and payment dates apply to 2026/27."
+      },
+      "scholarships_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-UNIMORE-ERGO-2026",
+          "SRC-UNIMORE-TOP-STUDENT-2026"
+        ],
+        "notes": "No 2027/28 scholarship or fee-exemption call was identified. The reviewed ER.GO and Top Student schemes apply to 2026/27."
+      },
+      "acceptance_rate": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-UNIMORE-CE-PROFILE-2026",
+          "SRC-UNIMORE-CE-CALL-2026"
+        ],
+        "notes": "No complete comparable applicant and admitted totals were identified; no acceptance rate is calculated."
+      }
+    },
+    "source_ids": [
+      "SRC-UNIMORE-CATALOGUE-2026",
+      "SRC-UNIMORE-CE-PROFILE-2026",
+      "SRC-UNIMORE-CE-CALL-2026",
+      "SRC-UNIMORE-CE-DEPARTMENT",
+      "SRC-UNIMORE-FOREIGN-QUALIFICATION",
+      "SRC-UNIMORE-FEES-2026",
+      "SRC-UNIMORE-FEE-REGULATION-2026",
+      "SRC-UNIMORE-FLAT-TAX-2026",
+      "SRC-UNIMORE-ISEE-2026",
+      "SRC-UNIMORE-TOP-STUDENT-2026",
+      "SRC-UNIMORE-ERGO-2026",
+      "SRC-UNIMORE-ERGO-THRESHOLDS-2026",
+      "SRC-UNIMORE-CONTACT"
+    ],
     "previous_tracker_tags": {
       "level": "MSc",
       "language": "English",
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
-    "previous_cycle_tags": null,
-    "last_checked": "2026-11-09"
+    "previous_cycle_tags": {
+      "level": "MSc",
+      "language": "Italian",
+      "field": "Computer Engineering",
+      "cycle": "2026-2027",
+      "label": "Official 2026/27 course evidence only; 2027/28 first-year intake remains unverified"
+    },
+    "last_checked": "2026-11-10"
   },
   {
     "id": "legacy-098",

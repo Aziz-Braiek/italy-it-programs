@@ -13,6 +13,8 @@ from collections import Counter
 from datetime import date
 from pathlib import Path
 import research_genova
+import research_modena
+import research_palermo
 
 ROOT = Path(__file__).resolve().parents[1]
 RESEARCH = ROOT / "research"
@@ -344,7 +346,10 @@ SOURCES.extend([
 ])
 
 SOURCES.extend(research_genova.SOURCES)
+SOURCES.extend(research_modena.SOURCES)
+SOURCES.extend(research_palermo.SOURCES)
 next(s for s in SOURCES if s["id"] == "SRC-UNIGE-2027")["accessed_at"] = research_genova.CHECKED
+next(s for s in SOURCES if s["id"] == "SRC-PALERMO-2027")["accessed_at"] = research_palermo.CHECKED
 SOURCE_BY_ID = {s["id"]: s for s in SOURCES}
 UNI_BY_ID = {u[0]: u for u in UNIVERSITIES}
 
@@ -1311,6 +1316,8 @@ def build():
             program["facts"]["previous_cycle_scholarships"] = fact({"academic_year":"2026/27","BISP_undergraduate_course_match":"Unclear: the call lists 'Artificial Science (LT)', not this Artificial Intelligence BSc","regional_DSU":"Annual competitive benefits under the 2026/27 call"}, "CONFIRMED", ["SRC-BICOCCA-BISP-2026", "SRC-BICOCCA-DSU-2026"], "The BISP wording does not establish this BSc's eligibility. DSU was a separate annual regional competition; neither scheme confirms 2027/28 funding.")
 
     research_genova.apply(uni_rows, programs, fact)
+    research_modena.apply(uni_rows, programs, fact)
+    research_palermo.apply(uni_rows, programs, fact)
     verified = [p for p in programs if p["overall_status"] == "CONFIRMED"]
     level_counts = Counter(p["level"]["value"] for p in verified)
     fully_verified_count = len(verified)
@@ -1405,6 +1412,8 @@ def build():
         ],
         "completed_batches": [
             research_genova.BATCH,
+            research_modena.BATCH,
+            research_palermo.BATCH,
             {"id":"baseline-and-archive","status":"complete","result":"Archived all 165 prior program rows and mapped the original 34 universities."},
             {"id":"official-2027-28-initial-batch","status":"partial","result":"Recorded 34 university research outcomes, source-linked 14 core program offers, and explicitly marked outstanding program rows."},
             {"id":"official-2027-28-program-batch-2","status":"partial","result":"Verified the Bologna Intelligent Embedded Systems 28Digital track and seven UniTrento 28DIGITAL tracks; recorded program costs, requirements and a documented conflict between official round calendars."},
@@ -1468,6 +1477,10 @@ def build():
         "The University of Milan's 2026/27 catalogue and admission pages match four legacy Master's leads. Computer Science is taught in Italian and English, not only English. Artificial Intelligence for Science and Technology is the same joint LM-91 degree tracked under Milano-Bicocca, where the administrative headquarters and admissions are based. Data Science for Economics and Health is an English-taught LM-Data degree, and Bioinformatics for Computational Genomics is an English-taught joint LM-8 with Politecnico di Milano. Prior-cycle course requirements, €30 application fees where stated, admissions windows, foreign-qualification route, 2026/27 fee structure and university/European Futures/DSU funding are recorded. No 2027/28 new-entry calls, dates, fees or awards were confirmed for these leads.",
         "",
         research_genova.REPORT,
+        "",
+        research_modena.REPORT,
+        "",
+        research_palermo.REPORT,
         "",
         "## Programs with core 2027/28 details confirmed",
         "",

@@ -17,6 +17,16 @@
       "result": "Matched all ten Genoa legacy leads to official 2026/27 course profiles and admission guidance. Corrected Computer Science BSc and Business Administration BSc to Italian; matched English Computer Engineering BSc to Imperia and Energy Engineering MSc to Savona. Recorded course requirements and the prior-cycle UniGeApply process, variable tuition, ISEE and ALiSEO scholarship eligibility. Rechecked the expected mid-December 2026 to end-March 2027 visa preselection and €30 fee for up to two assessments; exact dates remain unpublished. Individual 2027/28 course offers, fees and scholarships remain pending. Maritime Science and Technology remains explicitly not offered; CORES is still a planned joint degree awaiting formal intake details."
     },
     {
+      "id": "modena-computer-engineering-course-and-admissions-review",
+      "status": "partial",
+      "result": "Matched the sole Modena-Reggio legacy candidate to the official 2026/27 Computer Engineering LM-32 MSc in Modena and corrected its language from English to Italian. Recorded prior-cycle curricular requirements, foreign-degree scoring, language rules, course assessment and enrollment dates, 10 reserved non-EU abroad places, ESSE3/Universitaly procedures, fee schedule and ER.GO/Top Student eligibility. No 2027/28 first-year offer, course call, fee schedule or scholarship call was identified; current intake and conditions remain pending."
+    },
+    {
+      "id": "palermo-computer-science-ai-program-and-international-admissions-review",
+      "status": "partial",
+      "result": "Reviewed the sole legacy MSc candidate individually. Official 2026/27 offer lists Computer Science and Artificial Intelligence (LM-18), with English delivery and historical requirements. Official 2027/28 subject assignments are evidence of teaching only; first-year intake is not confirmed. The international FAQ expressly says exact 2027/28 application dates are unpublished. Fee and scholarship material remains 2026/27; document and deadline discrepancies are recorded. Expanded the legacy abbreviated course name and recorded historical academic requirements, UniPa/Universitaly routes, flat-country or income-based tuition options and ERSU eligibility. Flagged the conflicting second instalment dates and the mislabelled fee-regulation link."
+    },
+    {
       "id": "baseline-and-archive",
       "status": "complete",
       "result": "Archived all 165 prior program rows and mapped the original 34 universities."
@@ -130,7 +140,7 @@
     "universities_without_initial_official_source_outcome": 0,
     "universities_fully_verified": 0,
     "universities_partially_researched": 34,
-    "universities_with_program_level_research": 22,
+    "universities_with_program_level_research": 24,
     "university_ids_with_program_level_research": [
       "bologna",
       "ca-foscari",
@@ -145,8 +155,10 @@
       "messina",
       "milano-bicocca",
       "milano-statale",
+      "modena-reggio",
       "napoli-federico-ii",
       "padova",
+      "palermo",
       "parma",
       "pavia",
       "perugia",
@@ -155,10 +167,8 @@
       "tor-vergata",
       "verona"
     ],
-    "universities_program_level_review_not_started": 12,
+    "universities_program_level_review_not_started": 10,
     "university_ids_with_program_level_review_not_started": [
-      "modena-reggio",
-      "palermo",
       "politecnico-bari",
       "politecnico-milano",
       "politecnico-torino",
@@ -178,7 +188,7 @@
     "programs_fully_verified": 23,
     "programs_requiring_verification": 164,
     "programs_not_offered_2027_2028": 2,
-    "programs_supported_only_by_previous_cycle": 45,
+    "programs_supported_only_by_previous_cycle": 47,
     "program_ids_supported_only_by_previous_cycle": [
       "discovered-023",
       "discovered-024",
@@ -206,7 +216,9 @@
       "legacy-084",
       "legacy-088",
       "legacy-089",
+      "legacy-091",
       "legacy-092",
+      "legacy-097",
       "legacy-098",
       "legacy-099",
       "legacy-100",
@@ -261,7 +273,7 @@
       "politecnico-torino",
       "siena"
     ],
-    "universities_with_unavailable_or_conflicting_information": 16,
+    "universities_with_unavailable_or_conflicting_information": 18,
     "university_ids_with_unavailable_or_conflicting_information": [
       "bologna",
       "ca-foscari",
@@ -272,7 +284,9 @@
       "marche",
       "milano-bicocca",
       "milano-statale",
+      "modena-reggio",
       "padova",
+      "palermo",
       "perugia",
       "pisa",
       "politecnico-milano",
@@ -280,14 +294,15 @@
       "tor-vergata",
       "trento"
     ],
-    "universities_with_conflicting_sources": 3,
+    "universities_with_conflicting_sources": 4,
     "university_ids_with_conflicting_sources": [
       "camerino",
+      "palermo",
       "politecnico-milano",
       "trento"
     ],
-    "source_records": 263,
-    "official_source_supported_fields": 547,
+    "source_records": 296,
+    "official_source_supported_fields": 570,
     "verification_statuses": [
       "CONFIRMED",
       "NOT_YET_PUBLISHED",
