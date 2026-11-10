@@ -1,14 +1,14 @@
 {
   "academic_year": "2027-2028",
   "as_of": "2026-11-10",
-  "branch": "upgrade/2027-2028-research",
-  "phase": "research_and_data_model_in_progress",
+  "branch": "research/final-2027-2028-refresh",
+  "phase": "comprehensive_refresh_in_progress",
   "next_actions": [
-    "Review each of the 34 universities' complete official BSc and MSc offers.",
-    "Verify every candidate program's 2027/28 availability, language and applicant eligibility.",
-    "Collect fees, scholarships, application routes, contacts and field-specific requirements from official 2027/28 notices.",
-    "Recheck sources that currently say information is not yet published.",
-    "Run data and UI quality checks, deploy a preview, then repeat research/QA before any production deployment."
+    "Recheck all 454 source URLs in bounded batches; preserve redirects, failures, and inconclusive outcomes.",
+    "Revisit official university admissions and course pages for new 2027/28 calls, dates, fees, requirements, and scholarships.",
+    "Review all 193 program records individually and update current-cycle evidence without promoting prior-cycle facts.",
+    "Update research JSON, university/program outcomes, source records, and reports in reviewable batches.",
+    "Build the site, audit data, run requested tests, validate a Vercel preview, and only then promote to production."
   ],
   "completed_batches": [
     {
@@ -180,6 +180,11 @@
       "id": "milano-statale-masters-and-2026-27-course-review",
       "status": "partial",
       "result": "Checked four legacy Master's leads against the University of Milan's 2026/27 catalogue, course profiles and admission notices. Corrected Computer Science from English-only to Italian/English and recorded the same Artificial Intelligence for Science and Technology inter-university degree already tracked at Bicocca, which is its administrative headquarters. Matched Data Science for Economics and Health and the joint Bioinformatics for Computational Genomics MSc, with course-specific prior-cycle requirements, application dates, fees and international routes. Recorded the 2026/27 €156 first tuition instalment, country/course-area fee framework, university and European Futures awards, and regional DSU. No 2027/28 first-entry calls, dates, fee schedule or scholarship calls were identified."
+    },
+    {
+      "id": "claude-independent-review-inventory",
+      "status": "complete",
+      "result": "Created a review manifest and checklist covering all 34 universities, 193 programs, and 454 existing official source records. The checklist exposes current unresolved fields and conflicts; all refresh outcomes remain pending until evidence is checked."
     }
   ],
   "counts": {
