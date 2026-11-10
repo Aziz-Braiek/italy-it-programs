@@ -284,6 +284,21 @@ assert.match(getElementById("university-grid").innerHTML, /No 2027\/28 applicati
 assert.match(getElementById("university-grid").innerHTML, /first installment eur: 156/);
 assert.match(getElementById("university-grid").innerHTML, /awards: 1055/);
 assert.match(getElementById("university-grid").innerHTML, /apply\.unimi\.it/);
+getElementById("search").value = "Genova";
+getElementById("search").dispatch("input");
+const genovaProgramHtml = getElementById("program-grid").innerHTML;
+const genovaUniHtml = getElementById("university-grid").innerHTML.split('<article class="uni-card">').find(card => card.includes('<h3>Università degli Studi di Genova</h3>'));
+assert.ok(genovaUniHtml);
+assert.equal((genovaProgramHtml.match(/<article class="card/g) ?? []).length, 12);
+assert.match(genovaProgramHtml, /campus: Imperia/);
+assert.match(genovaProgramHtml, /campus: Savona/);
+assert.match(genovaProgramHtml, /English web translation is not evidence of English teaching/);
+assert.match(genovaProgramHtml, /2027\/28 UniGeApply visa-applicant preselection/);
+assert.match(genovaUniHtml, /visa preselection is expected from mid-December 2026 to end-March 2027/);
+assert.doesNotMatch(genovaUniHtml, /15 Dec 2026/);
+assert.match(genovaUniHtml, /€136 is the first installment, not total tuition/);
+assert.match(genovaUniHtml, /ISEE or ISEEUP ceiling eur: 28339/);
+assert.match(genovaUniHtml, /sass@unige\.it/);
 getElementById("search").value = "";
 getElementById("search").dispatch("input");
 

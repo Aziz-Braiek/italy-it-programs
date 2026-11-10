@@ -12,10 +12,12 @@ import shutil
 from collections import Counter
 from datetime import date
 from pathlib import Path
+import research_genova
 
 ROOT = Path(__file__).resolve().parents[1]
 RESEARCH = ROOT / "research"
 AS_OF = "2026-11-09"
+SNAPSHOT_AS_OF = "2026-11-10"
 CYCLE = "2027-2028"
 
 
@@ -341,6 +343,8 @@ SOURCES.extend([
     {"id":"SRC-LAQUILA-CS-RANKING-2026","university_id":"laquila","title":"Computer Science international admissions ranking 2026/27","url":"https://www.univaq.it/en/include/utilities/blob.php?id=8163&item=file&table=allegato","source_type":"Official selection outcome","accessed_at":AS_OF,"cycle":"2026-2027","evidence":"The University published the list of candidates eligible to enroll in the English-taught Computer Science Master's program for 2026/27. The list is an outcome for one call and does not provide a complete applicant denominator or an acceptance rate.","supports":["program.previous_cycle_admission_outcome","program.acceptance_rate"]}
 ])
 
+SOURCES.extend(research_genova.SOURCES)
+next(s for s in SOURCES if s["id"] == "SRC-UNIGE-2027")["accessed_at"] = research_genova.CHECKED
 SOURCE_BY_ID = {s["id"]: s for s in SOURCES}
 UNI_BY_ID = {u[0]: u for u in UNIVERSITIES}
 
@@ -1306,6 +1310,7 @@ def build():
         else:
             program["facts"]["previous_cycle_scholarships"] = fact({"academic_year":"2026/27","BISP_undergraduate_course_match":"Unclear: the call lists 'Artificial Science (LT)', not this Artificial Intelligence BSc","regional_DSU":"Annual competitive benefits under the 2026/27 call"}, "CONFIRMED", ["SRC-BICOCCA-BISP-2026", "SRC-BICOCCA-DSU-2026"], "The BISP wording does not establish this BSc's eligibility. DSU was a separate annual regional competition; neither scheme confirms 2027/28 funding.")
 
+    research_genova.apply(uni_rows, programs, fact)
     verified = [p for p in programs if p["overall_status"] == "CONFIRMED"]
     level_counts = Counter(p["level"]["value"] for p in verified)
     fully_verified_count = len(verified)
@@ -1338,7 +1343,7 @@ def build():
     previous_cycle_only = [p for p in programs if p.get("previous_cycle_tags") and p["availability_2027_2028"]["status"] != "CONFIRMED"]
     coverage = {
         "academic_year": CYCLE,
-        "as_of": AS_OF,
+        "as_of": SNAPSHOT_AS_OF,
         "original_universities": len({ALIASES[p["university"]] for p in old}),
         "universities_researched": len(uni_rows),
         "universities_without_initial_official_source_outcome": sum(not u["source_ids"] for u in uni_rows),
@@ -1390,7 +1395,7 @@ def build():
     (RESEARCH / "programs-2027-2028.json").write_text(json.dumps(programs, ensure_ascii=False, indent=2)+"\n",encoding="utf-8")
     (RESEARCH / "coverage-report.json").write_text(json.dumps(coverage, ensure_ascii=False, indent=2)+"\n",encoding="utf-8")
     progress = {
-        "academic_year": CYCLE, "as_of": AS_OF, "branch": "upgrade/2027-2028-research",
+        "academic_year": CYCLE, "as_of": SNAPSHOT_AS_OF, "branch": "upgrade/2027-2028-research",
         "phase": "research_and_data_model_in_progress", "next_actions": [
             "Review each of the 34 universities' complete official BSc and MSc offers.",
             "Verify every candidate program's 2027/28 availability, language and applicant eligibility.",
@@ -1399,6 +1404,7 @@ def build():
             "Run data and UI quality checks, deploy a preview, then repeat research/QA before any production deployment.",
         ],
         "completed_batches": [
+            research_genova.BATCH,
             {"id":"baseline-and-archive","status":"complete","result":"Archived all 165 prior program rows and mapped the original 34 universities."},
             {"id":"official-2027-28-initial-batch","status":"partial","result":"Recorded 34 university research outcomes, source-linked 14 core program offers, and explicitly marked outstanding program rows."},
             {"id":"official-2027-28-program-batch-2","status":"partial","result":"Verified the Bologna Intelligent Embedded Systems 28Digital track and seven UniTrento 28DIGITAL tracks; recorded program costs, requirements and a documented conflict between official round calendars."},
@@ -1428,7 +1434,7 @@ def build():
     lines = [
         "# Italy University Tracker — 2027–2028 research report",
         "",
-        f"**Interim snapshot, checked {AS_OF}. The research and website upgrade remain in progress.**",
+        f"**Interim snapshot, checked {SNAPSHOT_AS_OF}. Individual sources retain their actual review dates. The research and website upgrade remain in progress.**",
         "",
         "This report is a saved research checkpoint, not a completion claim. All 34 original universities are retained. The active dataset separates official cycle evidence from previous tracker leads; the latter no longer carry old deadlines, fees, tuition, GPA labels, tiers or acceptance estimates.",
         "",
@@ -1460,6 +1466,8 @@ def build():
         "Università Politecnica delle Marche lists Data Science for Finance and Economics as a curriculum in its Data Science for Economics, Business and Finance MSc, rather than as a separate degree. The official 2026/27 profile says the curriculum is fully English, open access subject to knowledge assessment, and based in Ancona. The previous-year regulation, international procedure, €156 fixed first installment, €2,000 open-access Master's award and ERDIS Marche call are stored as prior-cycle context. A faculty notice scoped to 2026/27 specifies streaming or asynchronous lessons for this curriculum, while the general course profile says on-site. No 2027/28 new-entry listing or call was identified, so current availability and terms remain pending.",
         "Milano-Bicocca's 2027/28 international-qualification page confirms country-specific entry requirements and the apply.unimib.it route. Six candidate programs have official 2026/27 course evidence: Artificial Intelligence for Science and Technology, Data Science, Human-Centered Artificial Intelligence, Artificial Intelligence BSc, Astrophysics and Space Physics, and International Economics. The AI BSc admissions are administered by Pavia; Human-Centered AI MSc admissions are administered by the University of Milan. Prior-cycle requirements, dates, fees and scholarships are retained with annual-scope notes, including the BISP call's ambiguous undergraduate label. No candidate's 2027/28 first-year offer, course deadlines, fees or awards has been confirmed.",
         "The University of Milan's 2026/27 catalogue and admission pages match four legacy Master's leads. Computer Science is taught in Italian and English, not only English. Artificial Intelligence for Science and Technology is the same joint LM-91 degree tracked under Milano-Bicocca, where the administrative headquarters and admissions are based. Data Science for Economics and Health is an English-taught LM-Data degree, and Bioinformatics for Computational Genomics is an English-taught joint LM-8 with Politecnico di Milano. Prior-cycle course requirements, €30 application fees where stated, admissions windows, foreign-qualification route, 2026/27 fee structure and university/European Futures/DSU funding are recorded. No 2027/28 new-entry calls, dates, fees or awards were confirmed for these leads.",
+        "",
+        research_genova.REPORT,
         "",
         "## Programs with core 2027/28 details confirmed",
         "",

@@ -1,6 +1,6 @@
 {
   "academic_year": "2027-2028",
-  "as_of": "2026-11-09",
+  "as_of": "2026-11-10",
   "branch": "upgrade/2027-2028-research",
   "phase": "research_and_data_model_in_progress",
   "next_actions": [
@@ -11,6 +11,11 @@
     "Run data and UI quality checks, deploy a preview, then repeat research/QA before any production deployment."
   ],
   "completed_batches": [
+    {
+      "id": "genova-catalogue-programs-and-international-admissions-review",
+      "status": "partial",
+      "result": "Matched all ten Genoa legacy leads to official 2026/27 course profiles and admission guidance. Corrected Computer Science BSc and Business Administration BSc to Italian; matched English Computer Engineering BSc to Imperia and Energy Engineering MSc to Savona. Recorded course requirements and the prior-cycle UniGeApply process, variable tuition, ISEE and ALiSEO scholarship eligibility. Rechecked the expected mid-December 2026 to end-March 2027 visa preselection and €30 fee for up to two assessments; exact dates remain unpublished. Individual 2027/28 course offers, fees and scholarships remain pending. Maritime Science and Technology remains explicitly not offered; CORES is still a planned joint degree awaiting formal intake details."
+    },
     {
       "id": "baseline-and-archive",
       "status": "complete",
@@ -119,13 +124,13 @@
   ],
   "counts": {
     "academic_year": "2027-2028",
-    "as_of": "2026-11-09",
+    "as_of": "2026-11-10",
     "original_universities": 34,
     "universities_researched": 34,
     "universities_without_initial_official_source_outcome": 0,
     "universities_fully_verified": 0,
     "universities_partially_researched": 34,
-    "universities_with_program_level_research": 21,
+    "universities_with_program_level_research": 22,
     "university_ids_with_program_level_research": [
       "bologna",
       "ca-foscari",
@@ -133,6 +138,7 @@
       "catania",
       "ferrara",
       "firenze",
+      "genova",
       "insubria",
       "laquila",
       "marche",
@@ -149,9 +155,8 @@
       "tor-vergata",
       "verona"
     ],
-    "universities_program_level_review_not_started": 13,
+    "universities_program_level_review_not_started": 12,
     "university_ids_with_program_level_review_not_started": [
-      "genova",
       "modena-reggio",
       "palermo",
       "politecnico-bari",
@@ -173,7 +178,7 @@
     "programs_fully_verified": 23,
     "programs_requiring_verification": 164,
     "programs_not_offered_2027_2028": 2,
-    "programs_supported_only_by_previous_cycle": 35,
+    "programs_supported_only_by_previous_cycle": 45,
     "program_ids_supported_only_by_previous_cycle": [
       "discovered-023",
       "discovered-024",
@@ -191,6 +196,8 @@
       "legacy-069",
       "legacy-070",
       "legacy-071",
+      "legacy-074",
+      "legacy-075",
       "legacy-078",
       "legacy-079",
       "legacy-080",
@@ -209,7 +216,15 @@
       "legacy-104",
       "legacy-105",
       "legacy-106",
-      "legacy-107"
+      "legacy-107",
+      "legacy-132",
+      "legacy-133",
+      "legacy-134",
+      "legacy-135",
+      "legacy-136",
+      "legacy-137",
+      "legacy-138",
+      "legacy-139"
     ],
     "bsc_programs_verified": 1,
     "msc_programs_verified": 22,
@@ -246,12 +261,13 @@
       "politecnico-torino",
       "siena"
     ],
-    "universities_with_unavailable_or_conflicting_information": 15,
+    "universities_with_unavailable_or_conflicting_information": 16,
     "university_ids_with_unavailable_or_conflicting_information": [
       "bologna",
       "ca-foscari",
       "camerino",
       "ferrara",
+      "genova",
       "laquila",
       "marche",
       "milano-bicocca",
@@ -270,8 +286,8 @@
       "politecnico-milano",
       "trento"
     ],
-    "source_records": 232,
-    "official_source_supported_fields": 482,
+    "source_records": 263,
+    "official_source_supported_fields": 547,
     "verification_statuses": [
       "CONFIRMED",
       "NOT_YET_PUBLISHED",

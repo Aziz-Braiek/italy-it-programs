@@ -3,6 +3,7 @@
 import json
 from collections import Counter
 from pathlib import Path
+from datetime import date
 
 ROOT = Path(__file__).resolve().parents[1]
 R = ROOT / "research"
@@ -25,6 +26,8 @@ assert len({s["id"] for s in sources}) == len(sources), "duplicate source IDs"
 source_ids = {s["id"] for s in sources}
 source_by_id = {s["id"]: s for s in sources}
 uni_ids = {u["id"] for u in universities}
+for s in sources:
+    assert date.fromisoformat(s["accessed_at"]) <= date.fromisoformat(coverage["as_of"]), f"source checked after snapshot date: {s['id']}"
 assert {u["id"] for u in universities if u["source_ids"]} == uni_ids, "a university lacks an official source record"
 assert all(p["university_id"] in uni_ids for p in programs), "program refers to an unknown university"
 assert all(s.get("university_id") in uni_ids for s in sources), "source refers to an unknown university"
@@ -83,6 +86,10 @@ for u in universities:
         if item["status"] == "CONFIRMED":
             assert item["source_ids"], f"confirmed university field has no source: {u['name']} / {key}"
         assert all(sid in source_ids for sid in item.get("source_ids", []))
+        if key == "application_windows" and isinstance(item.get("value"), list):
+            for window in item["value"]:
+                if window.get("exact_dates") is False:
+                    assert not window.get("start") and not window.get("end"), f"approximate window contains invented exact dates: {u['name']}"
 
 assert coverage["program_records"] == len(programs)
 assert coverage["universities_researched"] == len(universities)

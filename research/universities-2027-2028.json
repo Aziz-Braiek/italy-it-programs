@@ -2334,38 +2334,69 @@
     "country": "Italy",
     "official_website": "https://unige.it/en",
     "international_admissions_url": "https://unige.it/en/international-enrolment",
-    "application_portal_url": null,
-    "contact_email": null,
-    "contact_url": "https://unige.it/en/international-enrolment",
+    "application_portal_url": "https://servizionline.unige.it/web-studenti2/en/",
+    "contact_email": "sass@unige.it",
+    "contact_url": "https://unige.it/en/welcoming-international-students",
     "cycle_status": "REQUIRES_VERIFICATION",
     "research_stage": "PARTIALLY_RESEARCHED",
-    "research_summary": "An official notice says the BSc Maritime Science and Technology will not run in 2027/28. UniGe also announced the planned 2027/28 start of CORES, a new joint MSc whose proposal remains under evaluation; admissions details are pending. Visa preselection dates and fees are also tracked at university level.",
+    "research_summary": "Genoa's ten legacy course leads now have official 2026/27 profiles and course-specific admission guidance. Computer Science BSc and Business Administration BSc are Italian-taught; English Computer Engineering BSc is at Imperia, while Energy Engineering MSc is at Savona. The 2027/28 visa preselection is expected from mid-December 2026 to end-March 2027, with €30 for up to two assessments and exact dates still pending. This university-level notice does not verify individual course intakes. The 2026/27 €136 initial tuition installment excludes the variable contribution and any regional-tax adjustment; ALiSEO awards require annual economic, enrollment and merit eligibility. No individual 2027/28 offer or new fee/scholarship call was identified for these ten leads. The separate Maritime non-offer notice and planned CORES status remain recorded.",
     "coverage": {
       "official_website_visited": "complete",
       "international_admissions_page_examined": "partial",
-      "bachelors_admissions_examined": "not_started",
+      "bachelors_admissions_examined": "partial",
       "masters_admissions_examined": "partial",
       "english_programs_examined": "partial",
       "fees_examined": "partial",
-      "scholarships_examined": "not_started",
+      "scholarships_examined": "partial",
       "non_eu_requirements_examined": "partial",
       "application_deadlines_examined": "partial",
-      "program_level_review": "not_started"
+      "program_level_review": "partial"
     },
     "source_ids": [
       "SRC-UNIGE-2027",
       "SRC-UNIGE-MST-2027",
-      "SRC-UNIGE-CORES-2027"
+      "SRC-UNIGE-CORES-2027",
+      "SRC-UNIGE-CATALOGUE-2026",
+      "SRC-UNIGE-APPLY-2026",
+      "SRC-UNIGE-FEES-2026",
+      "SRC-UNIGE-ISEE-2026",
+      "SRC-UNIGE-BENEFITS",
+      "SRC-ALISEO-CALL-2026",
+      "SRC-ALISEO-DATES-2026",
+      "SRC-UNIGE-CONTACT",
+      "SRC-UNIGE-CE-BSC-ASSESSMENT-2026",
+      "SRC-UNIGE-CS-BSC-ASSESSMENT",
+      "SRC-UNIGE-CE-MSC-ASSESSMENT",
+      "SRC-UNIGE-11964-PROFILE-2026",
+      "SRC-UNIGE-11964-ADMISSION",
+      "SRC-UNIGE-11963-PROFILE-2026",
+      "SRC-UNIGE-11963-ADMISSION",
+      "SRC-UNIGE-11965-PROFILE-2026",
+      "SRC-UNIGE-11965-ADMISSION",
+      "SRC-UNIGE-11937-PROFILE-2026",
+      "SRC-UNIGE-11937-ADMISSION",
+      "SRC-UNIGE-11933-PROFILE-2026",
+      "SRC-UNIGE-11933-ADMISSION",
+      "SRC-UNIGE-11970-PROFILE-2026",
+      "SRC-UNIGE-11970-ADMISSION",
+      "SRC-UNIGE-11917-PROFILE-2026",
+      "SRC-UNIGE-11917-ADMISSION",
+      "SRC-UNIGE-11896-PROFILE-2026",
+      "SRC-UNIGE-11896-ADMISSION",
+      "SRC-UNIGE-12133-PROFILE-2026",
+      "SRC-UNIGE-12133-ADMISSION",
+      "SRC-UNIGE-11871-PROFILE-2026",
+      "SRC-UNIGE-11871-ADMISSION"
     ],
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-10",
     "cycle_facts": {
       "application_windows": {
         "value": [
           {
             "label": "Visa preselection (expected)",
-            "start": "2026-12-15",
-            "end": "2027-03-31",
-            "eligible_group": "Non-EU visa applicants",
+            "expected_opening": "Mid-December 2026",
+            "expected_closure": "End of March 2027",
+            "eligible_group": "Visa applicants with non-Italian qualifications",
             "exact_dates": false
           }
         ],
@@ -2373,18 +2404,122 @@
         "source_ids": [
           "SRC-UNIGE-2027"
         ],
-        "notes": "The page labels these dates expected; exact opening and closing dates were not yet published."
+        "notes": "The official 2027/28 notice gives approximate months only; exact opening and closing dates remain unpublished."
       },
       "application_fee": {
         "value": {
           "amount_eur": 30,
-          "maximum_assessment_applications": 2
+          "maximum_assessment_applications": 2,
+          "scope": "2027/28 UniGeApply visa-applicant preselection"
         },
         "status": "CONFIRMED",
         "source_ids": [
           "SRC-UNIGE-2027"
         ],
         "notes": null
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-UNIGE-FEES-2026"
+        ],
+        "notes": "No 2027/28 tuition schedule was identified. €136 is the previous cycle's initial fixed payment, not the annual cost."
+      },
+      "scholarships_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-ALISEO-CALL-2026",
+          "SRC-ALISEO-DATES-2026"
+        ],
+        "notes": "The reviewed regional scholarship call covers 2026/27. No 2027/28 call, thresholds or award values were identified."
+      },
+      "previous_cycle_application_windows": {
+        "value": {
+          "academic_year": "2026/27",
+          "visa_preselection": {
+            "start": "2025-11-26",
+            "end": "2026-03-20",
+            "Computer_Engineering_BSc_early_closure": "2026-03-08"
+          },
+          "resident_selection": {
+            "start": "2026-04-09",
+            "MSc_end": "2026-08-28",
+            "BSc_end": "2026-09-25"
+          },
+          "exceptions": "Restricted courses follow dedicated calls"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIGE-APPLY-2026"
+        ],
+        "notes": "These closed 2026/27 assessment windows are historical context only."
+      },
+      "previous_cycle_international_process": {
+        "value": {
+          "academic_year": "2026/27",
+          "foreign_qualification_assessment": "UniGeApply",
+          "visa_pre_enrolment": "Universitaly after successful assessment",
+          "visa_applicant_fee_eur": 30,
+          "maximum_assessment_requests": 2,
+          "resident_spring_assessment": "Free",
+          "course_assessment": "Separate course requirements and readiness checks apply"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIGE-APPLY-2026"
+        ],
+        "notes": "Prior-cycle qualification and visa route only; recheck 2027/28 documentation and course procedures."
+      },
+      "previous_cycle_tuition": {
+        "value": {
+          "academic_year": "2026/27",
+          "first_installment_eur": 136,
+          "stamp_duty_eur": 16,
+          "minimum_regional_tax_eur": 120,
+          "variable_university_contribution_eur_range": [
+            0,
+            3300
+          ],
+          "conditions": "ISEE-U or eligible equivalent ISEE, fee class, course group, full/part-time enrollment and exemptions",
+          "installments": 3,
+          "second_installment_deadline": "2026-12-10",
+          "third_installment_deadline": "2027-06-23"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIGE-FEES-2026",
+          "SRC-UNIGE-ISEE-2026"
+        ],
+        "notes": "University-wide 2026/27 framework. €136 is the first installment, not total tuition; the contribution range excludes stamp and regional tax and depends on eligibility."
+      },
+      "previous_cycle_scholarships": {
+        "value": {
+          "academic_year": "2026/27",
+          "ALiSEO": {
+            "application_window": "15 June–31 July 2026, 12:00",
+            "ISEE_or_ISEEUP_ceiling_eur": 28339,
+            "ISPEU_or_ISPEUP_ceiling_eur": 61608,
+            "eligibility": "Enrollment, economic and merit requirements in the annual call",
+            "benefits": "Income/status-dependent cash, meal and possible housing; the gross amount includes service values",
+            "foreign_income": "Equivalent-ISEE documentation under the call"
+          },
+          "university_fee_reductions": {
+            "first_year_highest_entry_qualification_mark_eur": 200,
+            "later_year_merit_brackets_eur": [
+              400,
+              200
+            ]
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-ALISEO-CALL-2026",
+          "SRC-ALISEO-DATES-2026",
+          "SRC-UNIGE-BENEFITS"
+        ],
+        "notes": "Closed prior-cycle regional competition and current fee-reduction guidance only; awards are conditional, not guaranteed or confirmed for 2027/28."
       }
     }
   },
