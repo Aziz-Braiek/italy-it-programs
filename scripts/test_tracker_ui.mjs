@@ -5,6 +5,9 @@ import vm from "node:vm";
 const html = await readFile(new URL("../index.html", import.meta.url), "utf8");
 const script = html.match(/<script>([\s\S]*?)<\/script>/)?.[1];
 assert.ok(script, "tracker inline script exists");
+const escapeHtml = (value) => String(value ?? "").replace(/[&<>"']/g, (character) => ({
+  "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
+})[character]);
 
 const dataFiles = {
   "/research/programs-2027-2028.json": "../research/programs-2027-2028.json",
@@ -61,6 +64,30 @@ assert.equal(getElementById("research-date").textContent, "10 Nov 2026");
 assert.match(getElementById("notice-count").textContent, /^167 /);
 assert.match(getElementById("program-count").textContent, /^23 \/ 193 /);
 assert.doesNotMatch(getElementById("program-grid").innerHTML, /legacy-001/);
+const confirmedRows = JSON.parse(await readFile(new URL("../research/programs-2027-2028.json", import.meta.url), "utf8"))
+  .filter((program) => program.overall_status === "CONFIRMED");
+const sort = getElementById("sort-filter");
+sort.value = "name";
+sort.dispatch("change");
+const sortedByName = getElementById("program-grid").innerHTML;
+assert.deepEqual(
+  [...sortedByName.matchAll(/<h3>(.*?)<\/h3>/g)].map(([, title]) => title),
+  [...confirmedRows].sort((a, b) => a.program.localeCompare(b.program)).map((program) => escapeHtml(program.program)),
+  "program-name sort follows the confirmed records",
+);
+sort.value = "university";
+sort.dispatch("change");
+const sortedByUniversity = getElementById("program-grid").innerHTML;
+assert.deepEqual(
+  [...sortedByUniversity.matchAll(/<h3>(.*?)<\/h3><div class="university">([^<]+) <span class="place">/g)]
+    .map(([, title, university]) => [title, university]),
+  [...confirmedRows]
+    .sort((a, b) => a.university.localeCompare(b.university) || a.program.localeCompare(b.program))
+    .map((program) => [escapeHtml(program.program), escapeHtml(program.university)]),
+  "university sort groups confirmed records and then sorts program names",
+);
+sort.value = "status";
+sort.dispatch("change");
 const universityHtml = getElementById("university-grid").innerHTML;
 assert.match(universityHtml, /Engineering application windows/);
 assert.match(universityHtml, /Official sources conflict/);
