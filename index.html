@@ -101,7 +101,7 @@
       if(v==null)return "";
       if(Array.isArray(v))return v.map(valueText).join("; ");
       if(typeof v==="object"){
-        if(v.start||v.end){var range=(v.start?formatDate(v.start):"")+((v.end?" – "+formatDate(v.end):""));return (v.label?v.label+": ":"")+range+(v.eligible_group?" ("+v.eligible_group+")":"")+(v.time?" · "+v.time:"")}
+        if(v.start||v.end){var range=(v.start?formatDate(v.start):"")+((v.end?" – "+formatDate(v.end):""));var extra=Object.keys(v).filter(function(k){return ["start","end","label","eligible_group","time"].indexOf(k)<0}).map(function(k){return k.replace(/_/g," ")+": "+valueText(v[k])}).join(" · ");return (v.label?v.label+": ":"")+range+(v.eligible_group?" ("+v.eligible_group+")":"")+(v.time?" · "+v.time:"")+(extra?" · "+extra:"")}
         return Object.keys(v).map(function(k){return k.replace(/_/g," ")+": "+valueText(v[k])}).join(" · ")
       }
       return /^\d{4}-\d{2}-\d{2}$/.test(String(v))?formatDate(String(v)):String(v)
@@ -162,7 +162,7 @@
         if(status==="CONFIRMED"&&!confirmed)return false;
         if(["REQUIRES_VERIFICATION","CONFLICTING_SOURCES","NOT_YET_PUBLISHED","UNAVAILABLE","NOT_APPLICABLE"].indexOf(status)>=0&&fieldStatuses.indexOf(status)<0)return false;
         var tag=p.previous_cycle_tags||p.previous_tracker_tags||{};
-        var pLevel=confirmed?p.level.value:tag.level;
+        var pLevel=confirmed?p.level.value:(tag.level||p.level.value);
         if(level!=="all"&&pLevel!==level)return false;
         if(university!=="all"&&p.university_id!==university)return false;
         var pLanguage=confirmed?p.language.value:(tag.language||p.language.value);
