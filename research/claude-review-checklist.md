@@ -2,7 +2,7 @@
 
 Prepared 2026-11-11 for academic year 2027/28. Review each record against official university pages, calls, portals, regulations, and PDFs.
 
-Snapshot inventory: 34 universities, 199 program records, 559 source records.
+Snapshot inventory: 34 universities, 201 program records, 561 source records.
 
 ## Review rules
 
@@ -3286,7 +3286,7 @@ Currently missing or unpublished fields:
 
 Official university-level sources:
 
-- [ ] `SRC-PADUA-INTL-2027` — [Admission of international students – How to apply](https://www.unipd.it/en/ammissione-studenti-internazionali) (cycle: 2027-2028; checked in prior snapshot: 2026-11-09)
+- [ ] `SRC-PADUA-INTL-2027` — [Admission of international students – How to apply](https://www.unipd.it/en/ammissione-studenti-internazionali) (cycle: 2027-2028; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-PADUA-PROGRAMS-2027` — [International students – 2027/28 applications (DiSSGeA)](https://www.dissgea.unipd.it/en/en/international-students-202728-applications) (cycle: 2027-2028; checked in prior snapshot: 2026-11-09)
 - [ ] `SRC-PADUA-PHYSICS-DATA-PROFILE` — [Physics of Data – official degree profile](https://www.unipd.it/en/corsi-di-laurea/physics-data) (cycle: general; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-PADUA-PHYSICS-DATA-REQUIREMENTS` — [Physics of Data – admission requirements](https://pod.dfa.unipd.it/requirement/) (cycle: general; checked in prior snapshot: 2026-11-10)
@@ -3316,7 +3316,9 @@ Official university-level sources:
 - [ ] `SRC-PADOVA-MANAGEMENT-ENGINEERING-COURSE-2026` — [Ingegneria gestionale – official course profile and campus](https://www.unipd.it/corsi-di-laurea-magistrali/ingegneria-gestionale) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-PADOVA-MOLECULAR-BIOLOGY-BSC-ADMISSION-2026` — [Biologia Molecolare – 2026/27 School of Science bachelor's admissions](https://www.scienze.unipd.it/come-iscriversi-l-2627/) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-PADOVA-SCIENCE-MSC-2026` — [School of Science English Master's admission catalogue – AY 2026/27](https://www.scienze.unipd.it/en/courses/english-language/master-degree/2627/) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
-- [ ] `SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027` — [Degree programmes held in English – proposed 2027/28 BSc additions](https://www.unipd.it/en/corsi-laurea-lingua-inglese) (cycle: 2027-2028; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027` — [Degree programmes held in English – proposed 2027/28 BSc and MSc additions](https://www.unipd.it/en/corsi-laurea-lingua-inglese) (cycle: 2027-2028; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-PADUA-STATISTICAL-SCIENCE-PROFILE-2027` — [Statistical Science – Department programme profile and projected start](https://www.stat.unipd.it/en/statistical-science) (cycle: 2027-2028; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-PADUA-STATISTICAL-SCIENCE-ENTRY-REQUIREMENTS` — [Statistical Science – Department entry-requirements page](https://www.stat.unipd.it/en/statistical-science/entry-requirements) (cycle: general; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-PADUA-ARQUS-PHYSICS-TECH-2026` — [Arqus joint Bachelor's Programme in Physics for Technology – development agreement](https://www.unipd.it/en/arqus/news/rettrice-partecipa-consiglio-rettori-alleanza-europea-arqus) (cycle: general; checked in prior snapshot: 2026-11-11)
 
 #### Computer Engineering — `legacy-029`
@@ -3696,8 +3698,8 @@ Currently missing or unpublished fields:
 - [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
-- [ ] `SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027` — [Degree programmes held in English – proposed 2027/28 BSc additions](https://www.unipd.it/en/corsi-laurea-lingua-inglese) (cycle: 2027-2028; prior check: 2026-11-11)
-- [ ] `SRC-PADUA-INTL-2027` — [Admission of international students – How to apply](https://www.unipd.it/en/ammissione-studenti-internazionali) (cycle: 2027-2028; prior check: 2026-11-09)
+- [ ] `SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027` — [Degree programmes held in English – proposed 2027/28 BSc and MSc additions](https://www.unipd.it/en/corsi-laurea-lingua-inglese) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-INTL-2027` — [Admission of international students – How to apply](https://www.unipd.it/en/ammissione-studenti-internazionali) (cycle: 2027-2028; prior check: 2026-11-11)
 Currently missing or unpublished fields:
   - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The university lists the programme for 2027/28 but explicitly says it is still to be approved. No course-specific 2027/28 call was identified.
   - `facts.application_windows` — `NOT_YET_PUBLISHED` — The University has general 2027/28 international calls for most courses, but the proposed degree itself is awaiting approval and no course-specific admission window or inclusion in those calls was identified.
@@ -3713,8 +3715,8 @@ Currently missing or unpublished fields:
 - [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
-- [ ] `SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027` — [Degree programmes held in English – proposed 2027/28 BSc additions](https://www.unipd.it/en/corsi-laurea-lingua-inglese) (cycle: 2027-2028; prior check: 2026-11-11)
-- [ ] `SRC-PADUA-INTL-2027` — [Admission of international students – How to apply](https://www.unipd.it/en/ammissione-studenti-internazionali) (cycle: 2027-2028; prior check: 2026-11-09)
+- [ ] `SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027` — [Degree programmes held in English – proposed 2027/28 BSc and MSc additions](https://www.unipd.it/en/corsi-laurea-lingua-inglese) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-INTL-2027` — [Admission of international students – How to apply](https://www.unipd.it/en/ammissione-studenti-internazionali) (cycle: 2027-2028; prior check: 2026-11-11)
 Currently missing or unpublished fields:
   - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The university lists the programme for 2027/28 but explicitly says it is still to be approved. No course-specific 2027/28 call was identified.
   - `facts.application_windows` — `NOT_YET_PUBLISHED` — The University has general 2027/28 international calls for most courses, but the proposed degree itself is awaiting approval and no course-specific admission window or inclusion in those calls was identified.
@@ -3730,8 +3732,8 @@ Currently missing or unpublished fields:
 - [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
-- [ ] `SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027` — [Degree programmes held in English – proposed 2027/28 BSc additions](https://www.unipd.it/en/corsi-laurea-lingua-inglese) (cycle: 2027-2028; prior check: 2026-11-11)
-- [ ] `SRC-PADUA-INTL-2027` — [Admission of international students – How to apply](https://www.unipd.it/en/ammissione-studenti-internazionali) (cycle: 2027-2028; prior check: 2026-11-09)
+- [ ] `SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027` — [Degree programmes held in English – proposed 2027/28 BSc and MSc additions](https://www.unipd.it/en/corsi-laurea-lingua-inglese) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-INTL-2027` — [Admission of international students – How to apply](https://www.unipd.it/en/ammissione-studenti-internazionali) (cycle: 2027-2028; prior check: 2026-11-11)
 Currently missing or unpublished fields:
   - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The university lists the programme for 2027/28 but explicitly says it is still to be approved. No course-specific 2027/28 call was identified.
   - `facts.application_windows` — `NOT_YET_PUBLISHED` — The University has general 2027/28 international calls for most courses, but the proposed degree itself is awaiting approval and no course-specific admission window or inclusion in those calls was identified.
@@ -3739,6 +3741,46 @@ Currently missing or unpublished fields:
   - `facts.application_fee_2027_2028` — `REQUIRES_VERIFICATION` — No programme-specific application fee is confirmed for this unapproved proposal.
   - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — No course-specific 2027/28 fee is confirmed for this unapproved proposal.
   - `facts.scholarships_2027_2028` — `REQUIRES_VERIFICATION` — No programme-specific 2027/28 scholarship call is confirmed.
+
+#### Data Analytics and Decision Support (proposed 2027/28) — `discovered-035`
+
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-11`
+- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-035/
+- [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
+- [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
+Official linked sources to revisit:
+- [ ] `SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027` — [Degree programmes held in English – proposed 2027/28 BSc and MSc additions](https://www.unipd.it/en/corsi-laurea-lingua-inglese) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-INTL-2027` — [Admission of international students – How to apply](https://www.unipd.it/en/ammissione-studenti-internazionali) (cycle: 2027-2028; prior check: 2026-11-11)
+Currently missing or unpublished fields:
+  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The University catalogue marks the proposed programme as awaiting approval. For Statistical Science, the Department's projected September 2027 start does not establish approval or a confirmed first-year intake.
+  - `facts.department_projected_profile` — `REQUIRES_VERIFICATION` — No department-level programme profile has been identified; verify whether a separate proposal specification is published.
+  - `facts.proposed_admission_requirements` — `REQUIRES_VERIFICATION` — No approved course admission requirements have been identified; verify when the proposal is approved.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — The University-level 2027/28 application calls cover most courses but do not confirm that this unapproved proposal is included; no programme-specific call or deadline was found.
+  - `facts.program_specific_requirements_2027_2028` — `REQUIRES_VERIFICATION` — No approved annual programme regulation or 2027/28 course-specific requirements are available.
+  - `facts.application_fee_2027_2028` — `REQUIRES_VERIFICATION` — No programme-specific 2027/28 application fee is confirmed for this unapproved proposal.
+  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — No programme-specific 2027/28 tuition amount is confirmed.
+  - `facts.scholarships_2027_2028` — `REQUIRES_VERIFICATION` — No programme-specific 2027/28 scholarship call or eligibility is confirmed.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — No applicant and admitted-student totals are published; no acceptance rate is inferred.
+
+#### Statistical Science (proposed 2027/28) — `discovered-036`
+
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-11`
+- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-036/
+- [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
+- [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
+Official linked sources to revisit:
+- [ ] `SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027` — [Degree programmes held in English – proposed 2027/28 BSc and MSc additions](https://www.unipd.it/en/corsi-laurea-lingua-inglese) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-STATISTICAL-SCIENCE-ENTRY-REQUIREMENTS` — [Statistical Science – Department entry-requirements page](https://www.stat.unipd.it/en/statistical-science/entry-requirements) (cycle: general; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-STATISTICAL-SCIENCE-PROFILE-2027` — [Statistical Science – Department programme profile and projected start](https://www.stat.unipd.it/en/statistical-science) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-INTL-2027` — [Admission of international students – How to apply](https://www.unipd.it/en/ammissione-studenti-internazionali) (cycle: 2027-2028; prior check: 2026-11-11)
+Currently missing or unpublished fields:
+  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The University catalogue marks the proposed programme as awaiting approval. For Statistical Science, the Department's projected September 2027 start does not establish approval or a confirmed first-year intake.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — The University-level 2027/28 application calls cover most courses but do not confirm that this unapproved proposal is included; no programme-specific call or deadline was found.
+  - `facts.program_specific_requirements_2027_2028` — `REQUIRES_VERIFICATION` — No approved annual programme regulation or 2027/28 course-specific requirements are available.
+  - `facts.application_fee_2027_2028` — `REQUIRES_VERIFICATION` — No programme-specific 2027/28 application fee is confirmed for this unapproved proposal.
+  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — No programme-specific 2027/28 tuition amount is confirmed.
+  - `facts.scholarships_2027_2028` — `REQUIRES_VERIFICATION` — No programme-specific 2027/28 scholarship call or eligibility is confirmed.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — No applicant and admitted-student totals are published; no acceptance rate is inferred.
 
 #### Physics for Technology (planned Arqus joint Bachelor's) — `discovered-034`
 
@@ -4931,7 +4973,7 @@ Currently missing or unpublished fields:
 
 ## Source URL recheck results
 
-Checked 545 unique URLs representing 559 source records on 2026-11-11. Unique URL outcomes: {'accessible': 511, 'redirected': 13, 'inconclusive': 21}. HTTP 404/410 outcomes are listed as broken; TLS, timeout, and remote-disconnect cases remain inconclusive.
+Checked 547 unique URLs representing 561 source records on 2026-11-11. Unique URL outcomes: {'accessible': 513, 'redirected': 13, 'inconclusive': 21}. HTTP 404/410 outcomes are listed as broken; TLS, timeout, and remote-disconnect cases remain inconclusive.
 
 ### Redirected sources
 

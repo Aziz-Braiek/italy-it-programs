@@ -8,16 +8,16 @@
     "review_status": "in_progress",
     "counts": {
       "universities": 34,
-      "programs": 199,
-      "sources": 559
+      "programs": 201,
+      "sources": 561
     },
     "previous_snapshot_inconclusive_url_checks": "The prior audit reported approximately 100 inconclusive checks. This refresh rechecked every unique URL and preserves the response by source record below.",
     "current_url_audit": {
       "checked_at": "2026-11-11",
-      "source_records": 559,
-      "unique_urls_checked": 545,
+      "source_records": 561,
+      "unique_urls_checked": 547,
       "unique_url_outcomes": {
-        "accessible": 511,
+        "accessible": 513,
         "redirected": 13,
         "inconclusive": 21
       },
@@ -14937,6 +14937,8 @@
         "SRC-PADOVA-MOLECULAR-BIOLOGY-BSC-ADMISSION-2026",
         "SRC-PADOVA-SCIENCE-MSC-2026",
         "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+        "SRC-PADUA-STATISTICAL-SCIENCE-PROFILE-2027",
+        "SRC-PADUA-STATISTICAL-SCIENCE-ENTRY-REQUIREMENTS",
         "SRC-PADUA-ARQUS-PHYSICS-TECH-2026"
       ],
       "source_urls": [
@@ -14946,8 +14948,8 @@
           "url": "https://www.unipd.it/en/ammissione-studenti-internazionali",
           "source_type": "Official international admissions page",
           "cycle": "2027-2028",
-          "accessed_at": "2026-11-09",
-          "evidence": "First application call for most programs opens 15 September 2026 and closes 15 November 2026; bachelor's entry normally requires 12 years of schooling; master's applicants need a relevant bachelor’s degree and program-specific requirements; English-taught degrees use apply.unipd.it.",
+          "accessed_at": "2026-11-11",
+          "evidence": "Reviewed 11 November 2026: the international admissions page says the first application call for most programs opened 15 September 2026 and closes 15 November 2026. Applicants use apply.unipd.it except Medicine and Surgery; the page directs applicants to programme-specific requirements. The generic call does not prove inclusion or a deadline for an unapproved proposed programme.",
           "supports": [
             "university.application_window",
             "university.non_eu_process",
@@ -16054,12 +16056,12 @@
         },
         {
           "id": "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
-          "title": "Degree programmes held in English – proposed 2027/28 BSc additions",
+          "title": "Degree programmes held in English – proposed 2027/28 BSc and MSc additions",
           "url": "https://www.unipd.it/en/corsi-laurea-lingua-inglese",
           "source_type": "Official English-language course catalogue",
           "cycle": "2027-2028",
           "accessed_at": "2026-11-11",
-          "evidence": "Under the English-taught Bachelor's Degree Programmes section, Padua lists Management, Finance and Business Analytics; Food Safety for Global Health; and Innovative Technologies in Agriculture as new 2027/2028 programmes, each explicitly marked 'to be approved'. This confirms the planned level and intended English offer, not final accreditation, first-year intake, or course-specific admission terms.",
+          "evidence": "The English-degree catalogue lists three new 2027/28 Bachelor's proposals (Management, Finance and Business Analytics; Food Safety for Global Health; Innovative Technologies in Agriculture), each marked 'to be approved'. In the School of Science English Master's list, Data Analytics and Decision Support is marked as a new 2027/28 programme 'to be approved', and Statistical Sciences is also marked 'to be approved'. These are proposed entries, not confirmation of final approval, first-year intake, or course-specific admission terms.",
           "supports": [
             "program.planned_course_listing",
             "program.planned_level",
@@ -16083,6 +16085,82 @@
             "pdf_signature": null,
             "has_2027_marker": true,
             "bytes_read": 131072,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-PADUA-STATISTICAL-SCIENCE-PROFILE-2027",
+          "title": "Statistical Science – Department programme profile and projected start",
+          "url": "https://www.stat.unipd.it/en/statistical-science",
+          "source_type": "Official department programme profile",
+          "cycle": "2027-2028",
+          "accessed_at": "2026-11-11",
+          "evidence": "The Department profile describes a two-year English-taught Master's programme, 120 ECTS, full-time and on campus, and gives an expected start date of 27 September 2027. The University English Master's catalogue separately marks Statistical Sciences as 'to be approved'; the Department's projected start is therefore treated as a plan, not proof of approval or a confirmed 2027/28 intake. No application-call link was present in the fetched page HTML.",
+          "supports": [
+            "program.proposed_course_identity",
+            "program.proposed_level",
+            "program.proposed_language",
+            "program.proposed_duration",
+            "program.proposed_ects",
+            "program.projected_start_date"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.stat.unipd.it/en/statistical-science",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": "no-cache, must-revalidate",
+            "age": "0",
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Statistical Science | Department of Statistical Sciences | Università di Padova",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 35625,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-PADUA-STATISTICAL-SCIENCE-ENTRY-REQUIREMENTS",
+          "title": "Statistical Science – Department entry-requirements page",
+          "url": "https://www.stat.unipd.it/en/statistical-science/entry-requirements",
+          "source_type": "Official department entry-requirements page",
+          "cycle": "general",
+          "accessed_at": "2026-11-11",
+          "evidence": "The page gives preliminary-looking entry criteria, including subject-credit and 85/110 thresholds for Italian-degree applicants, B2 English and a three-year Bachelor's degree; its international-applicant section does not provide a complete course-specific checklist. It is not labelled for AY 2027/28, and the degree proposal remains marked 'to be approved' in the University catalogue. Do not use these criteria as confirmed 2027/28 rules.",
+          "supports": [
+            "program.proposed_admission_requirements",
+            "program.proposed_language_requirement"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.stat.unipd.it/en/statistical-science/entry-requirements",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": "no-cache, must-revalidate",
+            "age": "0",
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Entry requirements | Department of Statistical Sciences | Università di Padova",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 33451,
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
@@ -16155,6 +16233,8 @@
         "discovered-031",
         "discovered-032",
         "discovered-033",
+        "discovered-035",
+        "discovered-036",
         "discovered-034"
       ],
       "refresh_status": "pending",
@@ -79683,12 +79763,12 @@
       "official_program_source_urls": [
         {
           "id": "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
-          "title": "Degree programmes held in English – proposed 2027/28 BSc additions",
+          "title": "Degree programmes held in English – proposed 2027/28 BSc and MSc additions",
           "url": "https://www.unipd.it/en/corsi-laurea-lingua-inglese",
           "source_type": "Official English-language course catalogue",
           "cycle": "2027-2028",
           "accessed_at": "2026-11-11",
-          "evidence": "Under the English-taught Bachelor's Degree Programmes section, Padua lists Management, Finance and Business Analytics; Food Safety for Global Health; and Innovative Technologies in Agriculture as new 2027/2028 programmes, each explicitly marked 'to be approved'. This confirms the planned level and intended English offer, not final accreditation, first-year intake, or course-specific admission terms.",
+          "evidence": "The English-degree catalogue lists three new 2027/28 Bachelor's proposals (Management, Finance and Business Analytics; Food Safety for Global Health; Innovative Technologies in Agriculture), each marked 'to be approved'. In the School of Science English Master's list, Data Analytics and Decision Support is marked as a new 2027/28 programme 'to be approved', and Statistical Sciences is also marked 'to be approved'. These are proposed entries, not confirmation of final approval, first-year intake, or course-specific admission terms.",
           "supports": [
             "program.planned_course_listing",
             "program.planned_level",
@@ -79725,8 +79805,8 @@
           "url": "https://www.unipd.it/en/ammissione-studenti-internazionali",
           "source_type": "Official international admissions page",
           "cycle": "2027-2028",
-          "accessed_at": "2026-11-09",
-          "evidence": "First application call for most programs opens 15 September 2026 and closes 15 November 2026; bachelor's entry normally requires 12 years of schooling; master's applicants need a relevant bachelor’s degree and program-specific requirements; English-taught degrees use apply.unipd.it.",
+          "accessed_at": "2026-11-11",
+          "evidence": "Reviewed 11 November 2026: the international admissions page says the first application call for most programs opened 15 September 2026 and closes 15 November 2026. Applicants use apply.unipd.it except Medicine and Surgery; the page directs applicants to programme-specific requirements. The generic call does not prove inclusion or a deadline for an unapproved proposed programme.",
           "supports": [
             "university.application_window",
             "university.non_eu_process",
@@ -79928,12 +80008,12 @@
       "official_program_source_urls": [
         {
           "id": "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
-          "title": "Degree programmes held in English – proposed 2027/28 BSc additions",
+          "title": "Degree programmes held in English – proposed 2027/28 BSc and MSc additions",
           "url": "https://www.unipd.it/en/corsi-laurea-lingua-inglese",
           "source_type": "Official English-language course catalogue",
           "cycle": "2027-2028",
           "accessed_at": "2026-11-11",
-          "evidence": "Under the English-taught Bachelor's Degree Programmes section, Padua lists Management, Finance and Business Analytics; Food Safety for Global Health; and Innovative Technologies in Agriculture as new 2027/2028 programmes, each explicitly marked 'to be approved'. This confirms the planned level and intended English offer, not final accreditation, first-year intake, or course-specific admission terms.",
+          "evidence": "The English-degree catalogue lists three new 2027/28 Bachelor's proposals (Management, Finance and Business Analytics; Food Safety for Global Health; Innovative Technologies in Agriculture), each marked 'to be approved'. In the School of Science English Master's list, Data Analytics and Decision Support is marked as a new 2027/28 programme 'to be approved', and Statistical Sciences is also marked 'to be approved'. These are proposed entries, not confirmation of final approval, first-year intake, or course-specific admission terms.",
           "supports": [
             "program.planned_course_listing",
             "program.planned_level",
@@ -79970,8 +80050,8 @@
           "url": "https://www.unipd.it/en/ammissione-studenti-internazionali",
           "source_type": "Official international admissions page",
           "cycle": "2027-2028",
-          "accessed_at": "2026-11-09",
-          "evidence": "First application call for most programs opens 15 September 2026 and closes 15 November 2026; bachelor's entry normally requires 12 years of schooling; master's applicants need a relevant bachelor’s degree and program-specific requirements; English-taught degrees use apply.unipd.it.",
+          "accessed_at": "2026-11-11",
+          "evidence": "Reviewed 11 November 2026: the international admissions page says the first application call for most programs opened 15 September 2026 and closes 15 November 2026. Applicants use apply.unipd.it except Medicine and Surgery; the page directs applicants to programme-specific requirements. The generic call does not prove inclusion or a deadline for an unapproved proposed programme.",
           "supports": [
             "university.application_window",
             "university.non_eu_process",
@@ -80173,12 +80253,12 @@
       "official_program_source_urls": [
         {
           "id": "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
-          "title": "Degree programmes held in English – proposed 2027/28 BSc additions",
+          "title": "Degree programmes held in English – proposed 2027/28 BSc and MSc additions",
           "url": "https://www.unipd.it/en/corsi-laurea-lingua-inglese",
           "source_type": "Official English-language course catalogue",
           "cycle": "2027-2028",
           "accessed_at": "2026-11-11",
-          "evidence": "Under the English-taught Bachelor's Degree Programmes section, Padua lists Management, Finance and Business Analytics; Food Safety for Global Health; and Innovative Technologies in Agriculture as new 2027/2028 programmes, each explicitly marked 'to be approved'. This confirms the planned level and intended English offer, not final accreditation, first-year intake, or course-specific admission terms.",
+          "evidence": "The English-degree catalogue lists three new 2027/28 Bachelor's proposals (Management, Finance and Business Analytics; Food Safety for Global Health; Innovative Technologies in Agriculture), each marked 'to be approved'. In the School of Science English Master's list, Data Analytics and Decision Support is marked as a new 2027/28 programme 'to be approved', and Statistical Sciences is also marked 'to be approved'. These are proposed entries, not confirmation of final approval, first-year intake, or course-specific admission terms.",
           "supports": [
             "program.planned_course_listing",
             "program.planned_level",
@@ -80215,8 +80295,8 @@
           "url": "https://www.unipd.it/en/ammissione-studenti-internazionali",
           "source_type": "Official international admissions page",
           "cycle": "2027-2028",
-          "accessed_at": "2026-11-09",
-          "evidence": "First application call for most programs opens 15 September 2026 and closes 15 November 2026; bachelor's entry normally requires 12 years of schooling; master's applicants need a relevant bachelor’s degree and program-specific requirements; English-taught degrees use apply.unipd.it.",
+          "accessed_at": "2026-11-11",
+          "evidence": "Reviewed 11 November 2026: the international admissions page says the first application call for most programs opened 15 September 2026 and closes 15 November 2026. Applicants use apply.unipd.it except Medicine and Surgery; the page directs applicants to programme-specific requirements. The generic call does not prove inclusion or a deadline for an unapproved proposed programme.",
           "supports": [
             "university.application_window",
             "university.non_eu_process",
@@ -80384,6 +80464,689 @@
       "known_source_conflicts": [],
       "source_ids": [
         "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+        "SRC-PADUA-INTL-2027"
+      ],
+      "previous_cycle_tags": null,
+      "refresh_status": "pending",
+      "refresh_checked_at": null,
+      "refresh_outcome": null
+    },
+    {
+      "id": "discovered-035",
+      "university_id": "padova",
+      "university": "Università degli Studi di Padova",
+      "city": "Padua",
+      "program": "Data Analytics and Decision Support (proposed 2027/28)",
+      "level": {
+        "value": "MSc (proposed)",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+        ],
+        "notes": "The official catalogue places this candidate under English-taught Master's programmes but explicitly marks it as awaiting approval; no approved course regulation is published."
+      },
+      "language": {
+        "value": "English (proposed)",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+        ],
+        "notes": "The official English-degree catalogue lists the proposal under Master's programmes taught in English; for Statistical Science the Department page independently describes English delivery. Approval and the final course offer remain pending."
+      },
+      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-035/",
+      "university_page_url": "https://italy-it-programs.vercel.app/universities/padova/",
+      "official_program_source_urls": [
+        {
+          "id": "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+          "title": "Degree programmes held in English – proposed 2027/28 BSc and MSc additions",
+          "url": "https://www.unipd.it/en/corsi-laurea-lingua-inglese",
+          "source_type": "Official English-language course catalogue",
+          "cycle": "2027-2028",
+          "accessed_at": "2026-11-11",
+          "evidence": "The English-degree catalogue lists three new 2027/28 Bachelor's proposals (Management, Finance and Business Analytics; Food Safety for Global Health; Innovative Technologies in Agriculture), each marked 'to be approved'. In the School of Science English Master's list, Data Analytics and Decision Support is marked as a new 2027/28 programme 'to be approved', and Statistical Sciences is also marked 'to be approved'. These are proposed entries, not confirmation of final approval, first-year intake, or course-specific admission terms.",
+          "supports": [
+            "program.planned_course_listing",
+            "program.planned_level",
+            "program.planned_language",
+            "program.approval_status"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.unipd.it/en/corsi-laurea-lingua-inglese",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Bachelor's, Master's degree and Single-cycle Master's degree programme in English | Università di Padova",
+            "pdf_signature": null,
+            "has_2027_marker": true,
+            "bytes_read": 131072,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-PADUA-INTL-2027",
+          "title": "Admission of international students – How to apply",
+          "url": "https://www.unipd.it/en/ammissione-studenti-internazionali",
+          "source_type": "Official international admissions page",
+          "cycle": "2027-2028",
+          "accessed_at": "2026-11-11",
+          "evidence": "Reviewed 11 November 2026: the international admissions page says the first application call for most programs opened 15 September 2026 and closes 15 November 2026. Applicants use apply.unipd.it except Medicine and Surgery; the page directs applicants to programme-specific requirements. The generic call does not prove inclusion or a deadline for an unapproved proposed programme.",
+          "supports": [
+            "university.application_window",
+            "university.non_eu_process",
+            "university.bachelor_entry",
+            "university.master_entry"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.unipd.it/en/ammissione-studenti-internazionali",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": null,
+            "pdf_signature": null,
+            "has_2027_marker": true,
+            "bytes_read": 131072,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-10",
+            "method": "GET"
+          },
+          "browser_check": null
+        }
+      ],
+      "availability_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+        ],
+        "notes": "The University catalogue marks the proposed programme as awaiting approval. For Statistical Science, the Department's projected September 2027 start does not establish approval or a confirmed first-year intake."
+      },
+      "existing_overall_status": "REQUIRES_VERIFICATION",
+      "existing_last_checked": "2026-11-11",
+      "fields_needing_review": [
+        {
+          "field": "field",
+          "status": "REQUIRES_VERIFICATION",
+          "value": "Data analytics and decision support",
+          "notes": "Editorial subject classification based on the proposed name; no approved course specification is available.",
+          "source_ids": [
+            "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+          ]
+        },
+        {
+          "field": "availability_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "The University catalogue marks the proposed programme as awaiting approval. For Statistical Science, the Department's projected September 2027 start does not establish approval or a confirmed first-year intake.",
+          "source_ids": [
+            "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+          ]
+        },
+        {
+          "field": "facts.department_projected_profile",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "No department-level programme profile has been identified; verify whether a separate proposal specification is published.",
+          "source_ids": [
+            "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+          ]
+        },
+        {
+          "field": "facts.proposed_admission_requirements",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "No approved course admission requirements have been identified; verify when the proposal is approved.",
+          "source_ids": [
+            "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+          ]
+        },
+        {
+          "field": "facts.application_windows",
+          "status": "NOT_YET_PUBLISHED",
+          "value": null,
+          "notes": "The University-level 2027/28 application calls cover most courses but do not confirm that this unapproved proposal is included; no programme-specific call or deadline was found.",
+          "source_ids": [
+            "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+            "SRC-PADUA-INTL-2027"
+          ]
+        },
+        {
+          "field": "facts.program_specific_requirements_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "No approved annual programme regulation or 2027/28 course-specific requirements are available.",
+          "source_ids": [
+            "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+          ]
+        },
+        {
+          "field": "facts.application_fee_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "No programme-specific 2027/28 application fee is confirmed for this unapproved proposal.",
+          "source_ids": [
+            "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+          ]
+        },
+        {
+          "field": "facts.tuition_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "No programme-specific 2027/28 tuition amount is confirmed.",
+          "source_ids": [
+            "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+          ]
+        },
+        {
+          "field": "facts.scholarships_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "No programme-specific 2027/28 scholarship call or eligibility is confirmed.",
+          "source_ids": [
+            "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+          ]
+        },
+        {
+          "field": "facts.acceptance_rate",
+          "status": "UNAVAILABLE",
+          "value": null,
+          "notes": "No applicant and admitted-student totals are published; no acceptance rate is inferred.",
+          "source_ids": [
+            "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+          ]
+        }
+      ],
+      "missing_fields": [
+        {
+          "field": "availability_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "The University catalogue marks the proposed programme as awaiting approval. For Statistical Science, the Department's projected September 2027 start does not establish approval or a confirmed first-year intake.",
+          "source_ids": [
+            "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+          ]
+        },
+        {
+          "field": "facts.department_projected_profile",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "No department-level programme profile has been identified; verify whether a separate proposal specification is published.",
+          "source_ids": [
+            "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+          ]
+        },
+        {
+          "field": "facts.proposed_admission_requirements",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "No approved course admission requirements have been identified; verify when the proposal is approved.",
+          "source_ids": [
+            "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+          ]
+        },
+        {
+          "field": "facts.application_windows",
+          "status": "NOT_YET_PUBLISHED",
+          "value": null,
+          "notes": "The University-level 2027/28 application calls cover most courses but do not confirm that this unapproved proposal is included; no programme-specific call or deadline was found.",
+          "source_ids": [
+            "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+            "SRC-PADUA-INTL-2027"
+          ]
+        },
+        {
+          "field": "facts.program_specific_requirements_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "No approved annual programme regulation or 2027/28 course-specific requirements are available.",
+          "source_ids": [
+            "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+          ]
+        },
+        {
+          "field": "facts.application_fee_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "No programme-specific 2027/28 application fee is confirmed for this unapproved proposal.",
+          "source_ids": [
+            "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+          ]
+        },
+        {
+          "field": "facts.tuition_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "No programme-specific 2027/28 tuition amount is confirmed.",
+          "source_ids": [
+            "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+          ]
+        },
+        {
+          "field": "facts.scholarships_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "No programme-specific 2027/28 scholarship call or eligibility is confirmed.",
+          "source_ids": [
+            "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+          ]
+        },
+        {
+          "field": "facts.acceptance_rate",
+          "status": "UNAVAILABLE",
+          "value": null,
+          "notes": "No applicant and admitted-student totals are published; no acceptance rate is inferred.",
+          "source_ids": [
+            "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+          ]
+        }
+      ],
+      "known_source_conflicts": [],
+      "source_ids": [
+        "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+        "SRC-PADUA-INTL-2027"
+      ],
+      "previous_cycle_tags": null,
+      "refresh_status": "pending",
+      "refresh_checked_at": null,
+      "refresh_outcome": null
+    },
+    {
+      "id": "discovered-036",
+      "university_id": "padova",
+      "university": "Università degli Studi di Padova",
+      "city": "Padua",
+      "program": "Statistical Science (proposed 2027/28)",
+      "level": {
+        "value": "MSc (proposed)",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+        ],
+        "notes": "The official catalogue places this candidate under English-taught Master's programmes but explicitly marks it as awaiting approval; no approved course regulation is published."
+      },
+      "language": {
+        "value": "English (proposed)",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+          "SRC-PADUA-STATISTICAL-SCIENCE-PROFILE-2027"
+        ],
+        "notes": "The official English-degree catalogue lists the proposal under Master's programmes taught in English; for Statistical Science the Department page independently describes English delivery. Approval and the final course offer remain pending."
+      },
+      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-036/",
+      "university_page_url": "https://italy-it-programs.vercel.app/universities/padova/",
+      "official_program_source_urls": [
+        {
+          "id": "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+          "title": "Degree programmes held in English – proposed 2027/28 BSc and MSc additions",
+          "url": "https://www.unipd.it/en/corsi-laurea-lingua-inglese",
+          "source_type": "Official English-language course catalogue",
+          "cycle": "2027-2028",
+          "accessed_at": "2026-11-11",
+          "evidence": "The English-degree catalogue lists three new 2027/28 Bachelor's proposals (Management, Finance and Business Analytics; Food Safety for Global Health; Innovative Technologies in Agriculture), each marked 'to be approved'. In the School of Science English Master's list, Data Analytics and Decision Support is marked as a new 2027/28 programme 'to be approved', and Statistical Sciences is also marked 'to be approved'. These are proposed entries, not confirmation of final approval, first-year intake, or course-specific admission terms.",
+          "supports": [
+            "program.planned_course_listing",
+            "program.planned_level",
+            "program.planned_language",
+            "program.approval_status"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.unipd.it/en/corsi-laurea-lingua-inglese",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Bachelor's, Master's degree and Single-cycle Master's degree programme in English | Università di Padova",
+            "pdf_signature": null,
+            "has_2027_marker": true,
+            "bytes_read": 131072,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-PADUA-STATISTICAL-SCIENCE-ENTRY-REQUIREMENTS",
+          "title": "Statistical Science – Department entry-requirements page",
+          "url": "https://www.stat.unipd.it/en/statistical-science/entry-requirements",
+          "source_type": "Official department entry-requirements page",
+          "cycle": "general",
+          "accessed_at": "2026-11-11",
+          "evidence": "The page gives preliminary-looking entry criteria, including subject-credit and 85/110 thresholds for Italian-degree applicants, B2 English and a three-year Bachelor's degree; its international-applicant section does not provide a complete course-specific checklist. It is not labelled for AY 2027/28, and the degree proposal remains marked 'to be approved' in the University catalogue. Do not use these criteria as confirmed 2027/28 rules.",
+          "supports": [
+            "program.proposed_admission_requirements",
+            "program.proposed_language_requirement"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.stat.unipd.it/en/statistical-science/entry-requirements",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": "no-cache, must-revalidate",
+            "age": "0",
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Entry requirements | Department of Statistical Sciences | Università di Padova",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 33451,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-PADUA-STATISTICAL-SCIENCE-PROFILE-2027",
+          "title": "Statistical Science – Department programme profile and projected start",
+          "url": "https://www.stat.unipd.it/en/statistical-science",
+          "source_type": "Official department programme profile",
+          "cycle": "2027-2028",
+          "accessed_at": "2026-11-11",
+          "evidence": "The Department profile describes a two-year English-taught Master's programme, 120 ECTS, full-time and on campus, and gives an expected start date of 27 September 2027. The University English Master's catalogue separately marks Statistical Sciences as 'to be approved'; the Department's projected start is therefore treated as a plan, not proof of approval or a confirmed 2027/28 intake. No application-call link was present in the fetched page HTML.",
+          "supports": [
+            "program.proposed_course_identity",
+            "program.proposed_level",
+            "program.proposed_language",
+            "program.proposed_duration",
+            "program.proposed_ects",
+            "program.projected_start_date"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.stat.unipd.it/en/statistical-science",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": "no-cache, must-revalidate",
+            "age": "0",
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Statistical Science | Department of Statistical Sciences | Università di Padova",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 35625,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-PADUA-INTL-2027",
+          "title": "Admission of international students – How to apply",
+          "url": "https://www.unipd.it/en/ammissione-studenti-internazionali",
+          "source_type": "Official international admissions page",
+          "cycle": "2027-2028",
+          "accessed_at": "2026-11-11",
+          "evidence": "Reviewed 11 November 2026: the international admissions page says the first application call for most programs opened 15 September 2026 and closes 15 November 2026. Applicants use apply.unipd.it except Medicine and Surgery; the page directs applicants to programme-specific requirements. The generic call does not prove inclusion or a deadline for an unapproved proposed programme.",
+          "supports": [
+            "university.application_window",
+            "university.non_eu_process",
+            "university.bachelor_entry",
+            "university.master_entry"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.unipd.it/en/ammissione-studenti-internazionali",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": null,
+            "pdf_signature": null,
+            "has_2027_marker": true,
+            "bytes_read": 131072,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-10",
+            "method": "GET"
+          },
+          "browser_check": null
+        }
+      ],
+      "availability_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+          "SRC-PADUA-STATISTICAL-SCIENCE-PROFILE-2027",
+          "SRC-PADUA-STATISTICAL-SCIENCE-ENTRY-REQUIREMENTS"
+        ],
+        "notes": "The University catalogue marks the proposed programme as awaiting approval. For Statistical Science, the Department's projected September 2027 start does not establish approval or a confirmed first-year intake."
+      },
+      "existing_overall_status": "REQUIRES_VERIFICATION",
+      "existing_last_checked": "2026-11-11",
+      "fields_needing_review": [
+        {
+          "field": "field",
+          "status": "REQUIRES_VERIFICATION",
+          "value": "Statistics and data science",
+          "notes": "Editorial subject classification based on the proposed name; no approved course specification is available.",
+          "source_ids": [
+            "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+            "SRC-PADUA-STATISTICAL-SCIENCE-PROFILE-2027",
+            "SRC-PADUA-STATISTICAL-SCIENCE-ENTRY-REQUIREMENTS"
+          ]
+        },
+        {
+          "field": "availability_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "The University catalogue marks the proposed programme as awaiting approval. For Statistical Science, the Department's projected September 2027 start does not establish approval or a confirmed first-year intake.",
+          "source_ids": [
+            "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+            "SRC-PADUA-STATISTICAL-SCIENCE-PROFILE-2027",
+            "SRC-PADUA-STATISTICAL-SCIENCE-ENTRY-REQUIREMENTS"
+          ]
+        },
+        {
+          "field": "facts.department_projected_profile",
+          "status": "REQUIRES_VERIFICATION",
+          "value": {
+            "academic_year": "2027/28 (projected)",
+            "duration_years": 2,
+            "ects": 120,
+            "attendance": "Full-time, on campus",
+            "language": "English",
+            "expected_start": "2027-09-27"
+          },
+          "notes": "The Department profile publishes a projected start and course details, but the central English Master's catalogue still labels the proposal as awaiting approval. Treat all profile details as provisional.",
+          "source_ids": [
+            "SRC-PADUA-STATISTICAL-SCIENCE-PROFILE-2027"
+          ]
+        },
+        {
+          "field": "facts.proposed_admission_requirements",
+          "status": "REQUIRES_VERIFICATION",
+          "value": {
+            "italian_degree_applicants": "Department page lists at least 35 ECTS in specified subject sectors, including 15 ECTS in MATH-03/A, a final mark of at least 85/110, a three-year degree and English B2; these criteria are not cycle-labelled.",
+            "international_degree_applicants": "No complete course-specific requirement checklist is published in the reviewed page."
+          },
+          "notes": "Provisional, undated Department information only; do not present these thresholds as approved 2027/28 admission rules.",
+          "source_ids": [
+            "SRC-PADUA-STATISTICAL-SCIENCE-ENTRY-REQUIREMENTS"
+          ]
+        },
+        {
+          "field": "facts.application_windows",
+          "status": "NOT_YET_PUBLISHED",
+          "value": null,
+          "notes": "The University-level 2027/28 application calls cover most courses but do not confirm that this unapproved proposal is included; no programme-specific call or deadline was found.",
+          "source_ids": [
+            "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+            "SRC-PADUA-INTL-2027",
+            "SRC-PADUA-STATISTICAL-SCIENCE-PROFILE-2027"
+          ]
+        },
+        {
+          "field": "facts.program_specific_requirements_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "No approved annual programme regulation or 2027/28 course-specific requirements are available.",
+          "source_ids": [
+            "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+            "SRC-PADUA-STATISTICAL-SCIENCE-PROFILE-2027",
+            "SRC-PADUA-STATISTICAL-SCIENCE-ENTRY-REQUIREMENTS"
+          ]
+        },
+        {
+          "field": "facts.application_fee_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "No programme-specific 2027/28 application fee is confirmed for this unapproved proposal.",
+          "source_ids": [
+            "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+          ]
+        },
+        {
+          "field": "facts.tuition_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "No programme-specific 2027/28 tuition amount is confirmed.",
+          "source_ids": [
+            "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+          ]
+        },
+        {
+          "field": "facts.scholarships_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "No programme-specific 2027/28 scholarship call or eligibility is confirmed.",
+          "source_ids": [
+            "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+          ]
+        },
+        {
+          "field": "facts.acceptance_rate",
+          "status": "UNAVAILABLE",
+          "value": null,
+          "notes": "No applicant and admitted-student totals are published; no acceptance rate is inferred.",
+          "source_ids": [
+            "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+          ]
+        }
+      ],
+      "missing_fields": [
+        {
+          "field": "availability_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "The University catalogue marks the proposed programme as awaiting approval. For Statistical Science, the Department's projected September 2027 start does not establish approval or a confirmed first-year intake.",
+          "source_ids": [
+            "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+            "SRC-PADUA-STATISTICAL-SCIENCE-PROFILE-2027",
+            "SRC-PADUA-STATISTICAL-SCIENCE-ENTRY-REQUIREMENTS"
+          ]
+        },
+        {
+          "field": "facts.application_windows",
+          "status": "NOT_YET_PUBLISHED",
+          "value": null,
+          "notes": "The University-level 2027/28 application calls cover most courses but do not confirm that this unapproved proposal is included; no programme-specific call or deadline was found.",
+          "source_ids": [
+            "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+            "SRC-PADUA-INTL-2027",
+            "SRC-PADUA-STATISTICAL-SCIENCE-PROFILE-2027"
+          ]
+        },
+        {
+          "field": "facts.program_specific_requirements_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "No approved annual programme regulation or 2027/28 course-specific requirements are available.",
+          "source_ids": [
+            "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+            "SRC-PADUA-STATISTICAL-SCIENCE-PROFILE-2027",
+            "SRC-PADUA-STATISTICAL-SCIENCE-ENTRY-REQUIREMENTS"
+          ]
+        },
+        {
+          "field": "facts.application_fee_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "No programme-specific 2027/28 application fee is confirmed for this unapproved proposal.",
+          "source_ids": [
+            "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+          ]
+        },
+        {
+          "field": "facts.tuition_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "No programme-specific 2027/28 tuition amount is confirmed.",
+          "source_ids": [
+            "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+          ]
+        },
+        {
+          "field": "facts.scholarships_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "No programme-specific 2027/28 scholarship call or eligibility is confirmed.",
+          "source_ids": [
+            "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+          ]
+        },
+        {
+          "field": "facts.acceptance_rate",
+          "status": "UNAVAILABLE",
+          "value": null,
+          "notes": "No applicant and admitted-student totals are published; no acceptance rate is inferred.",
+          "source_ids": [
+            "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+          ]
+        }
+      ],
+      "known_source_conflicts": [],
+      "source_ids": [
+        "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+        "SRC-PADUA-STATISTICAL-SCIENCE-PROFILE-2027",
+        "SRC-PADUA-STATISTICAL-SCIENCE-ENTRY-REQUIREMENTS",
         "SRC-PADUA-INTL-2027"
       ],
       "previous_cycle_tags": null,
@@ -98381,8 +99144,8 @@
       "url": "https://www.unipd.it/en/ammissione-studenti-internazionali",
       "source_type": "Official international admissions page",
       "cycle": "2027-2028",
-      "accessed_at": "2026-11-09",
-      "evidence": "First application call for most programs opens 15 September 2026 and closes 15 November 2026; bachelor's entry normally requires 12 years of schooling; master's applicants need a relevant bachelor’s degree and program-specific requirements; English-taught degrees use apply.unipd.it.",
+      "accessed_at": "2026-11-11",
+      "evidence": "Reviewed 11 November 2026: the international admissions page says the first application call for most programs opened 15 September 2026 and closes 15 November 2026. Applicants use apply.unipd.it except Medicine and Surgery; the page directs applicants to programme-specific requirements. The generic call does not prove inclusion or a deadline for an unapproved proposed programme.",
       "supports": [
         "university.application_window",
         "university.non_eu_process",
@@ -118929,12 +119692,12 @@
     },
     {
       "id": "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
-      "title": "Degree programmes held in English – proposed 2027/28 BSc additions",
+      "title": "Degree programmes held in English – proposed 2027/28 BSc and MSc additions",
       "url": "https://www.unipd.it/en/corsi-laurea-lingua-inglese",
       "source_type": "Official English-language course catalogue",
       "cycle": "2027-2028",
       "accessed_at": "2026-11-11",
-      "evidence": "Under the English-taught Bachelor's Degree Programmes section, Padua lists Management, Finance and Business Analytics; Food Safety for Global Health; and Innovative Technologies in Agriculture as new 2027/2028 programmes, each explicitly marked 'to be approved'. This confirms the planned level and intended English offer, not final accreditation, first-year intake, or course-specific admission terms.",
+      "evidence": "The English-degree catalogue lists three new 2027/28 Bachelor's proposals (Management, Finance and Business Analytics; Food Safety for Global Health; Innovative Technologies in Agriculture), each marked 'to be approved'. In the School of Science English Master's list, Data Analytics and Decision Support is marked as a new 2027/28 programme 'to be approved', and Statistical Sciences is also marked 'to be approved'. These are proposed entries, not confirmation of final approval, first-year intake, or course-specific admission terms.",
       "supports": [
         "program.planned_course_listing",
         "program.planned_level",
@@ -118958,6 +119721,82 @@
         "pdf_signature": null,
         "has_2027_marker": true,
         "bytes_read": 131072,
+        "outcome": "accessible",
+        "error": null,
+        "checked_at": "2026-11-11",
+        "method": "GET"
+      },
+      "browser_check": null
+    },
+    {
+      "id": "SRC-PADUA-STATISTICAL-SCIENCE-PROFILE-2027",
+      "title": "Statistical Science – Department programme profile and projected start",
+      "url": "https://www.stat.unipd.it/en/statistical-science",
+      "source_type": "Official department programme profile",
+      "cycle": "2027-2028",
+      "accessed_at": "2026-11-11",
+      "evidence": "The Department profile describes a two-year English-taught Master's programme, 120 ECTS, full-time and on campus, and gives an expected start date of 27 September 2027. The University English Master's catalogue separately marks Statistical Sciences as 'to be approved'; the Department's projected start is therefore treated as a plan, not proof of approval or a confirmed 2027/28 intake. No application-call link was present in the fetched page HTML.",
+      "supports": [
+        "program.proposed_course_identity",
+        "program.proposed_level",
+        "program.proposed_language",
+        "program.proposed_duration",
+        "program.proposed_ects",
+        "program.projected_start_date"
+      ],
+      "refresh_status": "accessible",
+      "url_check": {
+        "http_status": 200,
+        "effective_url": "https://www.stat.unipd.it/en/statistical-science",
+        "content_type": "text/html; charset=utf-8",
+        "content_length_header": null,
+        "etag": null,
+        "last_modified": null,
+        "cache_control": "no-cache, must-revalidate",
+        "age": "0",
+        "x_vercel_cache": null,
+        "x_vercel_id": null,
+        "location": null,
+        "observed_title": "Statistical Science | Department of Statistical Sciences | Università di Padova",
+        "pdf_signature": null,
+        "has_2027_marker": false,
+        "bytes_read": 35625,
+        "outcome": "accessible",
+        "error": null,
+        "checked_at": "2026-11-11",
+        "method": "GET"
+      },
+      "browser_check": null
+    },
+    {
+      "id": "SRC-PADUA-STATISTICAL-SCIENCE-ENTRY-REQUIREMENTS",
+      "title": "Statistical Science – Department entry-requirements page",
+      "url": "https://www.stat.unipd.it/en/statistical-science/entry-requirements",
+      "source_type": "Official department entry-requirements page",
+      "cycle": "general",
+      "accessed_at": "2026-11-11",
+      "evidence": "The page gives preliminary-looking entry criteria, including subject-credit and 85/110 thresholds for Italian-degree applicants, B2 English and a three-year Bachelor's degree; its international-applicant section does not provide a complete course-specific checklist. It is not labelled for AY 2027/28, and the degree proposal remains marked 'to be approved' in the University catalogue. Do not use these criteria as confirmed 2027/28 rules.",
+      "supports": [
+        "program.proposed_admission_requirements",
+        "program.proposed_language_requirement"
+      ],
+      "refresh_status": "accessible",
+      "url_check": {
+        "http_status": 200,
+        "effective_url": "https://www.stat.unipd.it/en/statistical-science/entry-requirements",
+        "content_type": "text/html; charset=utf-8",
+        "content_length_header": null,
+        "etag": null,
+        "last_modified": null,
+        "cache_control": "no-cache, must-revalidate",
+        "age": "0",
+        "x_vercel_cache": null,
+        "x_vercel_id": null,
+        "location": null,
+        "observed_title": "Entry requirements | Department of Statistical Sciences | Università di Padova",
+        "pdf_signature": null,
+        "has_2027_marker": false,
+        "bytes_read": 33451,
         "outcome": "accessible",
         "error": null,
         "checked_at": "2026-11-11",

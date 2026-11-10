@@ -853,11 +853,27 @@ SOURCES = [
     },
     {
         "id": "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
-        "university_id": "padova", "title": "Degree programmes held in English – proposed 2027/28 BSc additions",
+        "university_id": "padova", "title": "Degree programmes held in English – proposed 2027/28 BSc and MSc additions",
         "url": "https://www.unipd.it/en/corsi-laurea-lingua-inglese",
         "source_type": "Official English-language course catalogue", "accessed_at": "2026-11-11", "cycle": "2027-2028",
-        "evidence": "Under the English-taught Bachelor's Degree Programmes section, Padua lists Management, Finance and Business Analytics; Food Safety for Global Health; and Innovative Technologies in Agriculture as new 2027/2028 programmes, each explicitly marked 'to be approved'. This confirms the planned level and intended English offer, not final accreditation, first-year intake, or course-specific admission terms.",
+        "evidence": "The English-degree catalogue lists three new 2027/28 Bachelor's proposals (Management, Finance and Business Analytics; Food Safety for Global Health; Innovative Technologies in Agriculture), each marked 'to be approved'. In the School of Science English Master's list, Data Analytics and Decision Support is marked as a new 2027/28 programme 'to be approved', and Statistical Sciences is also marked 'to be approved'. These are proposed entries, not confirmation of final approval, first-year intake, or course-specific admission terms.",
         "supports": ["program.planned_course_listing", "program.planned_level", "program.planned_language", "program.approval_status"],
+    },
+    {
+        "id": "SRC-PADUA-STATISTICAL-SCIENCE-PROFILE-2027",
+        "university_id": "padova", "title": "Statistical Science – Department programme profile and projected start",
+        "url": "https://www.stat.unipd.it/en/statistical-science",
+        "source_type": "Official department programme profile", "accessed_at": "2026-11-11", "cycle": "2027-2028",
+        "evidence": "The Department profile describes a two-year English-taught Master's programme, 120 ECTS, full-time and on campus, and gives an expected start date of 27 September 2027. The University English Master's catalogue separately marks Statistical Sciences as 'to be approved'; the Department's projected start is therefore treated as a plan, not proof of approval or a confirmed 2027/28 intake. No application-call link was present in the fetched page HTML.",
+        "supports": ["program.proposed_course_identity", "program.proposed_level", "program.proposed_language", "program.proposed_duration", "program.proposed_ects", "program.projected_start_date"],
+    },
+    {
+        "id": "SRC-PADUA-STATISTICAL-SCIENCE-ENTRY-REQUIREMENTS",
+        "university_id": "padova", "title": "Statistical Science – Department entry-requirements page",
+        "url": "https://www.stat.unipd.it/en/statistical-science/entry-requirements",
+        "source_type": "Official department entry-requirements page", "accessed_at": "2026-11-11", "cycle": "general",
+        "evidence": "The page gives preliminary-looking entry criteria, including subject-credit and 85/110 thresholds for Italian-degree applicants, B2 English and a three-year Bachelor's degree; its international-applicant section does not provide a complete course-specific checklist. It is not labelled for AY 2027/28, and the degree proposal remains marked 'to be approved' in the University catalogue. Do not use these criteria as confirmed 2027/28 rules.",
+        "supports": ["program.proposed_admission_requirements", "program.proposed_language_requirement"],
     },
     {
         "id": "SRC-PADUA-ARQUS-PHYSICS-TECH-2026",
@@ -872,7 +888,7 @@ SOURCES = [
 BATCH = {
     "id": "physics-of-data-2027-28-call-and-grenfin-joint-master",
     "status": "partial",
-    "result": "Added Padua's named 2027/28 Physics of Data international intake and first-call deadline, its English-degree €60 non-refundable application fee and prior-cycle course requirements. Added three Padua English-taught Bachelor's proposals announced for 2027/28 and marked pending approval; recorded Arqus Physics for Technology only as a joint-programme development lead with cycle and language unresolved. Added Bologna's 2027/28 GrEnFIn Erasmus Mundus Joint Master with exact dates, 51-place maximum, B2/selection rules and up to 18 competitive scholarships. Added PoliTO Mathematical Engineering as a 2027/28 discovery supported by its admissions-linked scholarship call; separately recorded that the planned all-English track remains pending approval and that scholarship dates are not degree admission deadlines. Added Polimi's named 2027/28 28DIGITAL pathway for Computer Science and Engineering (T2A) and High Performance Computing Engineering, with the separate local application, applicant-category deadlines and fee. Linked individual official 2026/27 course profiles for 14 Bologna rows, 15 Padua rows and four Pisa rows that previously had no source IDs. Corrected the Bologna AI and Manufacturing lead to a 2027/28 Global MBA, identified Business Analytics as a curriculum, corrected BBS professional-master classifications, corrected Bologna's Forlì campus for Economia e commercio, corrected Medicine and Giurisprudenza to single-cycle degrees, recorded Padua's Medicine campus move to Venice, and corrected several Padua programme language/course-identity classifications. Added official programme and admission evidence for all 10 previously unlinked Federico II rows, all seven University of Florence rows, and Tor Vergata Computer Science. Corrected Florence Architecture and Urban Planning to curriculum-level records, set Urban Planning's campus to Prato, scoped the RISE English-only route as an optional pathway, corrected Tor Vergata Computer Science to Italian, and preserved 2026/27 admissions data as historical facts only. Records remain pending for 2027/28 unless a named-cycle intake source was found; future-cycle deadlines, tuition, fees and scholarships are not copied forward.",
+    "result": "Added Padua's named 2027/28 Physics of Data international intake and first-call deadline, its English-degree €60 non-refundable application fee and prior-cycle course requirements. Added three Padua English-taught Bachelor's proposals announced for 2027/28 and marked pending approval; recorded Arqus Physics for Technology only as a joint-programme development lead with cycle and language unresolved. The latest official English-degree catalogue also identifies two proposed English Master's candidates: Data Analytics and Decision Support and Statistical Science, each marked as awaiting approval; the Department page gives Statistical Science a projected September 2027 start and preliminary requirements, which remain unconfirmed against the central approval status and annual admissions call. Added Bologna's 2027/28 GrEnFIn Erasmus Mundus Joint Master with exact dates, 51-place maximum, B2/selection rules and up to 18 competitive scholarships. Added PoliTO Mathematical Engineering as a 2027/28 discovery supported by its admissions-linked scholarship call; separately recorded that the planned all-English track remains pending approval and that scholarship dates are not degree admission deadlines. Added Polimi's named 2027/28 28DIGITAL pathway for Computer Science and Engineering (T2A) and High Performance Computing Engineering, with the separate local application, applicant-category deadlines and fee. Linked individual official 2026/27 course profiles for 14 Bologna rows, 15 Padua rows and four Pisa rows that previously had no source IDs. Corrected the Bologna AI and Manufacturing lead to a 2027/28 Global MBA, identified Business Analytics as a curriculum, corrected BBS professional-master classifications, corrected Bologna's Forlì campus for Economia e commercio, corrected Medicine and Giurisprudenza to single-cycle degrees, recorded Padua's Medicine campus move to Venice, and corrected several Padua programme language/course-identity classifications. Added official programme and admission evidence for all 10 previously unlinked Federico II rows, all seven University of Florence rows, and Tor Vergata Computer Science. Corrected Florence Architecture and Urban Planning to curriculum-level records, set Urban Planning's campus to Prato, scoped the RISE English-only route as an optional pathway, corrected Tor Vergata Computer Science to Italian, and preserved 2026/27 admissions data as historical facts only. Rebuilt the 201-program dataset, 561-source inventory, report, Claude checklist and manifest; the data audit passed, all 12 static-site tests passed, the UI regression test passed after fixing proposed programme records leaking into the 'Not offered' filter, and desktop/mobile browser tests passed. No Vercel preview or production deployment was triggered while research remains partial.",
 }
 
 
@@ -1388,6 +1404,63 @@ def apply(
             "scholarships_2027_2028": fact(None, "REQUIRES_VERIFICATION", [padua_planned_source], "No programme-specific 2027/28 scholarship call is confirmed."),
         }
         candidate["source_ids"] = [padua_planned_source, "SRC-PADUA-INTL-2027"]
+        candidate["last_checked"] = "2026-11-11"
+        programs.append(candidate)
+
+    padua_master_candidates = [
+        ("discovered-035", "Data Analytics and Decision Support (proposed 2027/28)", "Data Analytics and Decision Support", "Data analytics and decision support", "School of Science English Master's catalogue; explicitly marked as a new 2027/28 programme to be approved."),
+        ("discovered-036", "Statistical Science (proposed 2027/28)", "Statistical Science", "Statistics and data science", "School of Science English Master's catalogue marks Statistical Sciences as to be approved; the Department profile describes an English Master's programme with a projected September 2027 start, which remains a plan pending central approval."),
+    ]
+    statistical_profile = "SRC-PADUA-STATISTICAL-SCIENCE-PROFILE-2027"
+    statistical_requirements = "SRC-PADUA-STATISTICAL-SCIENCE-ENTRY-REQUIREMENTS"
+    for pid, title, proposed_name, field_value, approval_note in padua_master_candidates:
+        source_ids = [padua_planned_source]
+        if pid == "discovered-036":
+            source_ids.extend([statistical_profile, statistical_requirements])
+        candidate = make_program(
+            pid, "padova", title, "MSc (proposed)", "English (proposed)", field_value,
+            "REQUIRES_VERIFICATION", source_ids, city="Padua", discovery="newly_discovered",
+        )
+        candidate["program"] = title
+        candidate["level"] = fact("MSc (proposed)", "CONFIRMED", [padua_planned_source],
+            "The official catalogue places this candidate under English-taught Master's programmes but explicitly marks it as awaiting approval; no approved course regulation is published.")
+        candidate["language"] = fact("English (proposed)", "CONFIRMED", [padua_planned_source] + ([statistical_profile] if pid == "discovered-036" else []),
+            "The official English-degree catalogue lists the proposal under Master's programmes taught in English; for Statistical Science the Department page independently describes English delivery. Approval and the final course offer remain pending.")
+        candidate["field"] = fact(field_value, "REQUIRES_VERIFICATION", source_ids,
+            "Editorial subject classification based on the proposed name; no approved course specification is available.")
+        candidate["availability_2027_2028"] = fact(None, "REQUIRES_VERIFICATION", source_ids,
+            "The University catalogue marks the proposed programme as awaiting approval. For Statistical Science, the Department's projected September 2027 start does not establish approval or a confirmed first-year intake.")
+        candidate["facts"] = {
+            "official_planned_course_listing_2027_2028": fact(
+                {"academic_year":"2027/28", "proposed_name":proposed_name, "proposed_level":"Master's degree", "listed_in_english_degree_catalogue":True, "approval_status":"To be approved"},
+                "CONFIRMED", [padua_planned_source], approval_note,
+            ),
+            "department_projected_profile": fact(
+                {"academic_year":"2027/28 (projected)", "duration_years":2, "ects":120, "attendance":"Full-time, on campus", "language":"English", "expected_start":"2027-09-27"} if pid == "discovered-036" else None,
+                "REQUIRES_VERIFICATION",
+                [statistical_profile] if pid == "discovered-036" else [padua_planned_source],
+                "The Department profile publishes a projected start and course details, but the central English Master's catalogue still labels the proposal as awaiting approval. Treat all profile details as provisional." if pid == "discovered-036" else "No department-level programme profile has been identified; verify whether a separate proposal specification is published.",
+            ),
+            "proposed_admission_requirements": fact(
+                {"italian_degree_applicants":"Department page lists at least 35 ECTS in specified subject sectors, including 15 ECTS in MATH-03/A, a final mark of at least 85/110, a three-year degree and English B2; these criteria are not cycle-labelled.", "international_degree_applicants":"No complete course-specific requirement checklist is published in the reviewed page."} if pid == "discovered-036" else None,
+                "REQUIRES_VERIFICATION",
+                [statistical_requirements] if pid == "discovered-036" else [padua_planned_source],
+                "Provisional, undated Department information only; do not present these thresholds as approved 2027/28 admission rules." if pid == "discovered-036" else "No approved course admission requirements have been identified; verify when the proposal is approved.",
+            ),
+            "application_windows": fact(None, "NOT_YET_PUBLISHED", [padua_planned_source, "SRC-PADUA-INTL-2027"] + ([statistical_profile] if pid == "discovered-036" else []),
+                "The University-level 2027/28 application calls cover most courses but do not confirm that this unapproved proposal is included; no programme-specific call or deadline was found."),
+            "program_specific_requirements_2027_2028": fact(None, "REQUIRES_VERIFICATION", source_ids,
+                "No approved annual programme regulation or 2027/28 course-specific requirements are available."),
+            "application_fee_2027_2028": fact(None, "REQUIRES_VERIFICATION", [padua_planned_source],
+                "No programme-specific 2027/28 application fee is confirmed for this unapproved proposal."),
+            "tuition_2027_2028": fact(None, "REQUIRES_VERIFICATION", [padua_planned_source],
+                "No programme-specific 2027/28 tuition amount is confirmed."),
+            "scholarships_2027_2028": fact(None, "REQUIRES_VERIFICATION", [padua_planned_source],
+                "No programme-specific 2027/28 scholarship call or eligibility is confirmed."),
+            "acceptance_rate": fact(None, "UNAVAILABLE", [padua_planned_source],
+                "No applicant and admitted-student totals are published; no acceptance rate is inferred."),
+        }
+        candidate["source_ids"] = list(dict.fromkeys(source_ids + ["SRC-PADUA-INTL-2027"]))
         candidate["last_checked"] = "2026-11-11"
         programs.append(candidate)
 

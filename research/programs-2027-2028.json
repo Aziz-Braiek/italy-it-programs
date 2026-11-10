@@ -36053,6 +36053,284 @@
     "last_checked": "2026-11-11"
   },
   {
+    "id": "discovered-035",
+    "university_id": "padova",
+    "university": "Università degli Studi di Padova",
+    "city": "Padua",
+    "program": "Data Analytics and Decision Support (proposed 2027/28)",
+    "level": {
+      "value": "MSc (proposed)",
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+      ],
+      "notes": "The official catalogue places this candidate under English-taught Master's programmes but explicitly marks it as awaiting approval; no approved course regulation is published."
+    },
+    "language": {
+      "value": "English (proposed)",
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+      ],
+      "notes": "The official English-degree catalogue lists the proposal under Master's programmes taught in English; for Statistical Science the Department page independently describes English delivery. Approval and the final course offer remain pending."
+    },
+    "field": {
+      "value": "Data analytics and decision support",
+      "status": "REQUIRES_VERIFICATION",
+      "source_ids": [
+        "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+      ],
+      "notes": "Editorial subject classification based on the proposed name; no approved course specification is available."
+    },
+    "availability_2027_2028": {
+      "value": null,
+      "status": "REQUIRES_VERIFICATION",
+      "source_ids": [
+        "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+      ],
+      "notes": "The University catalogue marks the proposed programme as awaiting approval. For Statistical Science, the Department's projected September 2027 start does not establish approval or a confirmed first-year intake."
+    },
+    "overall_status": "REQUIRES_VERIFICATION",
+    "discovery_source": "newly_discovered",
+    "facts": {
+      "official_planned_course_listing_2027_2028": {
+        "value": {
+          "academic_year": "2027/28",
+          "proposed_name": "Data Analytics and Decision Support",
+          "proposed_level": "Master's degree",
+          "listed_in_english_degree_catalogue": true,
+          "approval_status": "To be approved"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+        ],
+        "notes": "School of Science English Master's catalogue; explicitly marked as a new 2027/28 programme to be approved."
+      },
+      "department_projected_profile": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+        ],
+        "notes": "No department-level programme profile has been identified; verify whether a separate proposal specification is published."
+      },
+      "proposed_admission_requirements": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+        ],
+        "notes": "No approved course admission requirements have been identified; verify when the proposal is approved."
+      },
+      "application_windows": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+          "SRC-PADUA-INTL-2027"
+        ],
+        "notes": "The University-level 2027/28 application calls cover most courses but do not confirm that this unapproved proposal is included; no programme-specific call or deadline was found."
+      },
+      "program_specific_requirements_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+        ],
+        "notes": "No approved annual programme regulation or 2027/28 course-specific requirements are available."
+      },
+      "application_fee_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+        ],
+        "notes": "No programme-specific 2027/28 application fee is confirmed for this unapproved proposal."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+        ],
+        "notes": "No programme-specific 2027/28 tuition amount is confirmed."
+      },
+      "scholarships_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+        ],
+        "notes": "No programme-specific 2027/28 scholarship call or eligibility is confirmed."
+      },
+      "acceptance_rate": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+        ],
+        "notes": "No applicant and admitted-student totals are published; no acceptance rate is inferred."
+      }
+    },
+    "source_ids": [
+      "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+      "SRC-PADUA-INTL-2027"
+    ],
+    "previous_tracker_tags": null,
+    "previous_cycle_tags": null,
+    "last_checked": "2026-11-11"
+  },
+  {
+    "id": "discovered-036",
+    "university_id": "padova",
+    "university": "Università degli Studi di Padova",
+    "city": "Padua",
+    "program": "Statistical Science (proposed 2027/28)",
+    "level": {
+      "value": "MSc (proposed)",
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+      ],
+      "notes": "The official catalogue places this candidate under English-taught Master's programmes but explicitly marks it as awaiting approval; no approved course regulation is published."
+    },
+    "language": {
+      "value": "English (proposed)",
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+        "SRC-PADUA-STATISTICAL-SCIENCE-PROFILE-2027"
+      ],
+      "notes": "The official English-degree catalogue lists the proposal under Master's programmes taught in English; for Statistical Science the Department page independently describes English delivery. Approval and the final course offer remain pending."
+    },
+    "field": {
+      "value": "Statistics and data science",
+      "status": "REQUIRES_VERIFICATION",
+      "source_ids": [
+        "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+        "SRC-PADUA-STATISTICAL-SCIENCE-PROFILE-2027",
+        "SRC-PADUA-STATISTICAL-SCIENCE-ENTRY-REQUIREMENTS"
+      ],
+      "notes": "Editorial subject classification based on the proposed name; no approved course specification is available."
+    },
+    "availability_2027_2028": {
+      "value": null,
+      "status": "REQUIRES_VERIFICATION",
+      "source_ids": [
+        "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+        "SRC-PADUA-STATISTICAL-SCIENCE-PROFILE-2027",
+        "SRC-PADUA-STATISTICAL-SCIENCE-ENTRY-REQUIREMENTS"
+      ],
+      "notes": "The University catalogue marks the proposed programme as awaiting approval. For Statistical Science, the Department's projected September 2027 start does not establish approval or a confirmed first-year intake."
+    },
+    "overall_status": "REQUIRES_VERIFICATION",
+    "discovery_source": "newly_discovered",
+    "facts": {
+      "official_planned_course_listing_2027_2028": {
+        "value": {
+          "academic_year": "2027/28",
+          "proposed_name": "Statistical Science",
+          "proposed_level": "Master's degree",
+          "listed_in_english_degree_catalogue": true,
+          "approval_status": "To be approved"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+        ],
+        "notes": "School of Science English Master's catalogue marks Statistical Sciences as to be approved; the Department profile describes an English Master's programme with a projected September 2027 start, which remains a plan pending central approval."
+      },
+      "department_projected_profile": {
+        "value": {
+          "academic_year": "2027/28 (projected)",
+          "duration_years": 2,
+          "ects": 120,
+          "attendance": "Full-time, on campus",
+          "language": "English",
+          "expected_start": "2027-09-27"
+        },
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-PADUA-STATISTICAL-SCIENCE-PROFILE-2027"
+        ],
+        "notes": "The Department profile publishes a projected start and course details, but the central English Master's catalogue still labels the proposal as awaiting approval. Treat all profile details as provisional."
+      },
+      "proposed_admission_requirements": {
+        "value": {
+          "italian_degree_applicants": "Department page lists at least 35 ECTS in specified subject sectors, including 15 ECTS in MATH-03/A, a final mark of at least 85/110, a three-year degree and English B2; these criteria are not cycle-labelled.",
+          "international_degree_applicants": "No complete course-specific requirement checklist is published in the reviewed page."
+        },
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-PADUA-STATISTICAL-SCIENCE-ENTRY-REQUIREMENTS"
+        ],
+        "notes": "Provisional, undated Department information only; do not present these thresholds as approved 2027/28 admission rules."
+      },
+      "application_windows": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+          "SRC-PADUA-INTL-2027",
+          "SRC-PADUA-STATISTICAL-SCIENCE-PROFILE-2027"
+        ],
+        "notes": "The University-level 2027/28 application calls cover most courses but do not confirm that this unapproved proposal is included; no programme-specific call or deadline was found."
+      },
+      "program_specific_requirements_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+          "SRC-PADUA-STATISTICAL-SCIENCE-PROFILE-2027",
+          "SRC-PADUA-STATISTICAL-SCIENCE-ENTRY-REQUIREMENTS"
+        ],
+        "notes": "No approved annual programme regulation or 2027/28 course-specific requirements are available."
+      },
+      "application_fee_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+        ],
+        "notes": "No programme-specific 2027/28 application fee is confirmed for this unapproved proposal."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+        ],
+        "notes": "No programme-specific 2027/28 tuition amount is confirmed."
+      },
+      "scholarships_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+        ],
+        "notes": "No programme-specific 2027/28 scholarship call or eligibility is confirmed."
+      },
+      "acceptance_rate": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+        ],
+        "notes": "No applicant and admitted-student totals are published; no acceptance rate is inferred."
+      }
+    },
+    "source_ids": [
+      "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+      "SRC-PADUA-STATISTICAL-SCIENCE-PROFILE-2027",
+      "SRC-PADUA-STATISTICAL-SCIENCE-ENTRY-REQUIREMENTS",
+      "SRC-PADUA-INTL-2027"
+    ],
+    "previous_tracker_tags": null,
+    "previous_cycle_tags": null,
+    "last_checked": "2026-11-11"
+  },
+  {
     "id": "discovered-034",
     "university_id": "padova",
     "university": "Università degli Studi di Padova",

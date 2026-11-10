@@ -184,7 +184,7 @@
     {
       "id": "physics-of-data-2027-28-call-and-grenfin-joint-master",
       "status": "partial",
-      "result": "Added Padua's named 2027/28 Physics of Data international intake and first-call deadline, its English-degree €60 non-refundable application fee and prior-cycle course requirements. Added three Padua English-taught Bachelor's proposals announced for 2027/28 and marked pending approval; recorded Arqus Physics for Technology only as a joint-programme development lead with cycle and language unresolved. Added Bologna's 2027/28 GrEnFIn Erasmus Mundus Joint Master with exact dates, 51-place maximum, B2/selection rules and up to 18 competitive scholarships. Added PoliTO Mathematical Engineering as a 2027/28 discovery supported by its admissions-linked scholarship call; separately recorded that the planned all-English track remains pending approval and that scholarship dates are not degree admission deadlines. Added Polimi's named 2027/28 28DIGITAL pathway for Computer Science and Engineering (T2A) and High Performance Computing Engineering, with the separate local application, applicant-category deadlines and fee. Linked individual official 2026/27 course profiles for 14 Bologna rows, 15 Padua rows and four Pisa rows that previously had no source IDs. Corrected the Bologna AI and Manufacturing lead to a 2027/28 Global MBA, identified Business Analytics as a curriculum, corrected BBS professional-master classifications, corrected Bologna's Forlì campus for Economia e commercio, corrected Medicine and Giurisprudenza to single-cycle degrees, recorded Padua's Medicine campus move to Venice, and corrected several Padua programme language/course-identity classifications. Added official programme and admission evidence for all 10 previously unlinked Federico II rows, all seven University of Florence rows, and Tor Vergata Computer Science. Corrected Florence Architecture and Urban Planning to curriculum-level records, set Urban Planning's campus to Prato, scoped the RISE English-only route as an optional pathway, corrected Tor Vergata Computer Science to Italian, and preserved 2026/27 admissions data as historical facts only. Records remain pending for 2027/28 unless a named-cycle intake source was found; future-cycle deadlines, tuition, fees and scholarships are not copied forward."
+      "result": "Added Padua's named 2027/28 Physics of Data international intake and first-call deadline, its English-degree €60 non-refundable application fee and prior-cycle course requirements. Added three Padua English-taught Bachelor's proposals announced for 2027/28 and marked pending approval; recorded Arqus Physics for Technology only as a joint-programme development lead with cycle and language unresolved. The latest official English-degree catalogue also identifies two proposed English Master's candidates: Data Analytics and Decision Support and Statistical Science, each marked as awaiting approval; the Department page gives Statistical Science a projected September 2027 start and preliminary requirements, which remain unconfirmed against the central approval status and annual admissions call. Added Bologna's 2027/28 GrEnFIn Erasmus Mundus Joint Master with exact dates, 51-place maximum, B2/selection rules and up to 18 competitive scholarships. Added PoliTO Mathematical Engineering as a 2027/28 discovery supported by its admissions-linked scholarship call; separately recorded that the planned all-English track remains pending approval and that scholarship dates are not degree admission deadlines. Added Polimi's named 2027/28 28DIGITAL pathway for Computer Science and Engineering (T2A) and High Performance Computing Engineering, with the separate local application, applicant-category deadlines and fee. Linked individual official 2026/27 course profiles for 14 Bologna rows, 15 Padua rows and four Pisa rows that previously had no source IDs. Corrected the Bologna AI and Manufacturing lead to a 2027/28 Global MBA, identified Business Analytics as a curriculum, corrected BBS professional-master classifications, corrected Bologna's Forlì campus for Economia e commercio, corrected Medicine and Giurisprudenza to single-cycle degrees, recorded Padua's Medicine campus move to Venice, and corrected several Padua programme language/course-identity classifications. Added official programme and admission evidence for all 10 previously unlinked Federico II rows, all seven University of Florence rows, and Tor Vergata Computer Science. Corrected Florence Architecture and Urban Planning to curriculum-level records, set Urban Planning's campus to Prato, scoped the RISE English-only route as an optional pathway, corrected Tor Vergata Computer Science to Italian, and preserved 2026/27 admissions data as historical facts only. Rebuilt the 201-program dataset, 561-source inventory, report, Claude checklist and manifest; the data audit passed, all 12 static-site tests passed, the UI regression test passed after fixing proposed programme records leaking into the 'Not offered' filter, and desktop/mobile browser tests passed. No Vercel preview or production deployment was triggered while research remains partial."
     },
     {
       "id": "claude-independent-review-inventory",
@@ -199,7 +199,7 @@
     {
       "id": "official-source-url-recheck-and-browser-review-2026-11-11",
       "status": "partial",
-      "result": "Rechecked the added Polito Mathematical Engineering, Polimi 28DIGITAL, Padua English-degree proposal and Arqus Physics for Technology source URLs; all newly added URLs returned HTTP 200. Current direct audit covers 545 unique URLs across 559 source records: 511 accessible, 13 redirected, 21 inconclusive and 0 confirmed broken. Twelve of the TLS-inconclusive sources were separately opened and inspected through the official content fetcher: ten Camerino pages/PDFs, one Trieste historical catalogue PDF, and one Federico II Quantum Science and Engineering page. These retain direct-HTTP inconclusive status but have separate accessible browser/content outcomes. Nine direct-inconclusive URLs still lack successful browser/content verification. Do not classify TLS or timeout failures as dead links."
+      "result": "Extended the direct HTTP audit by checking two new official Statistical Science URLs; both returned HTTP 200. Current audit covers 547 unique URLs across 561 source records: 513 accessible, 13 redirected, 21 inconclusive and 0 confirmed broken. Twelve direct-HTTP inconclusive sources were separately opened and inspected through the official content fetcher: ten Camerino pages/PDFs, one Trieste historical catalogue PDF, and one Federico II Quantum Science and Engineering page. These retain their direct-HTTP inconclusive status but have separate accessible browser/content outcomes. Nine direct-inconclusive URLs still lack successful browser/content verification. Do not classify TLS errors or timeouts as dead links."
     }
   ],
   "counts": {
@@ -249,13 +249,13 @@
     ],
     "universities_program_level_review_not_started": 0,
     "university_ids_with_program_level_review_not_started": [],
-    "program_records": 199,
+    "program_records": 201,
     "prior_tracker_programs_archived": 165,
-    "newly_discovered_programs": 34,
+    "newly_discovered_programs": 36,
     "programs_cycle_availability_confirmed": 30,
-    "programs_availability_pending": 166,
+    "programs_availability_pending": 168,
     "programs_fully_verified": 25,
-    "programs_requiring_verification": 171,
+    "programs_requiring_verification": 173,
     "programs_not_offered_2027_2028": 3,
     "programs_supported_only_by_previous_cycle": 157,
     "program_ids_supported_only_by_previous_cycle": [
@@ -492,8 +492,8 @@
       "trento",
       "udine"
     ],
-    "source_records": 559,
-    "official_source_supported_fields": 1106,
+    "source_records": 561,
+    "official_source_supported_fields": 1112,
     "verification_statuses": [
       "CONFIRMED",
       "NOT_YET_PUBLISHED",
