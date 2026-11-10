@@ -2,7 +2,7 @@
 
 CHECKED = "2026-11-10"
 ENGLISH_ADMISSIONS = "https://www.uniroma1.it/en/en/admissions"
-MOVEIN_REQUIREMENTS = "https://www.uniroma1.it/sites/default/files/field_file_allegati/academic_requirements_movein_2026-2027_web_1.pdf"
+MOVEIN_REQUIREMENTS = "https://www.uniroma1.it/sites/default/files/field_file_allegati/academic_requirements_movein_2026-2027_web.pdf"
 INTERNATIONAL_OFFICE = "https://www.uniroma1.it/en/node/24774"
 FEES = "https://www.uniroma1.it/en/pagina/tuition-fees-and-benefits"
 FEE_TABLE = "https://www.uniroma1.it/en/node/29732"
