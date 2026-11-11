@@ -2038,6 +2038,12 @@ BATCH39 = {
     "result": "Reviewed discovered-023, Data Science at Catania, against the official current course overview, the 2026/27 degree profile, ordinary Master's admission procedure and course annex, the separate 2026/27 non-EU-abroad call and its Data Science annex, the admissions-call archive and the Department's current admissions notice. Confirmed the latest year-labelled course as a two-year, 120-credit English-taught LM/DATA degree in Catania with data-analysis/modelling and data-driven-application paths. The 2026/27 ordinary route listed eligible bachelor classes L-7, L-8, L-9, L-18, L-30, L-31, L-33, L-35 and L-41 (or equivalents); other backgrounds needed 9 CFU across MAT-06/SECS-S/01 and 9 CFU across INF/01/ING-INF/05. A 90/110 degree result or 24/30 current average met the stated preparation benchmark; other cases could receive individual curriculum review and interview/test. English B2 was required, with Italian B2 for non-native speakers before the final examination. That route's 2026/27 application period was 6 July–2 September 2026, with 30 June foreign-title pre-evaluation for specified resident applicants. The distinct non-EU-abroad call ran 10 February–17 March 2026 at €10 per course; Data Science assessment weights were curriculum 60, prior-study relevance 25, data-treatment/analysis experience 10 and reference 5, with a separate €75 post-offer confirmation payment. Its course row did not specify places. The 2026/27 call also allowed a narrowly defined visa-related deferral into 2027/28 without another selection for already admitted candidates, but did not transfer their scholarship. The official Department notice says the next extra-EU call will be in February 2027, consistent with the overview's annual February call for the next academic year; exact 2027/28 dates, course terms, places, fee, tuition and scholarships remain unpublished. Fresh no-cache GETs returned HTTP 200 for the official HTML pages and HTTP 206 with valid PDF signatures for the ordinary procedure, ordinary course annex and non-EU call. No Vercel or production changes were made.",
 }
 
+BATCH40 = {
+    "id": "perugia-engineering-management-bsc-test-route-discrepancy-audit",
+    "status": "partial",
+    "result": "Rechecked discovered-024, Perugia's English-taught Engineering Management BSc, against the Department's current entrance-test page, the course page, the 2026/27 international visa route and the official 2026/27 catalogue. The newest Department test page (updated 26 October 2026) lists Engineering Management among BScs that require a basic-preparation test and accepts TOLC-I or CEnT-S; pass thresholds are TOLC-I 14/50 across Mathematics, Logic, Sciences and Verbal Comprehension plus 7/20 Mathematics, or CEnT-S 10/35 across Mathematics, Reasoning on Texts and Data and Physics plus 5/15 Mathematics. Taking a test is mandatory, but falling below threshold assigns OFA rather than barring enrollment; not taking a test blocks the first Mathematics exam. The course page, last updated 19 October, still lists TOLC-I, SAT and ACT, while the separate non-EU visa PICA page explicitly allows CEnT-S, TOLC-I or SAT and requires a suitable B2 certificate. The differing SAT/ACT lists are preserved as a documented source conflict with applicant-route context; the 2027/28 call must settle applicable tests. The official catalogue and course pages remain for 2026/27, and no new 2027/28 intake, test schedule, application window, fee or scholarship terms were confirmed. Fresh no-cache GETs returned HTTP 200 for the course page, test page, international admissions page and catalogue. No Vercel or production changes were made.",
+}
+
 SOURCE_RECHECKS = {
     "SRC-UNIBO-AI-PROFILE-2026": {
         "accessed_at": "2026-11-11",
@@ -2504,6 +2510,62 @@ SOURCE_RECHECKS.update({
             "observed_title": None, "pdf_signature": True, "has_2027_marker": True,
             "bytes_read": 4096, "outcome": "accessible", "error": None,
             "checked_at": "2026-11-11", "method": "GET with Range: bytes=0-4095 and Cache-Control/Pragma no-cache (Python urllib)",
+        },
+    },
+})
+
+SOURCE_RECHECKS.update({
+    "SRC-UNIPG-EM-BSC-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://ing.unipg.it/en/courses/engineering-management/first-cycle-degree-course",
+            "content_type": "text/html; charset=utf-8", "content_length_header": None,
+            "etag": None, "last_modified": "Wed, 11 Nov 2026 14:44:08 GMT",
+            "cache_control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+            "age": None, "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Engineering Management - First cycle degree course - Department of Engineering",
+            "pdf_signature": None, "has_2027_marker": True, "bytes_read": 73864,
+            "outcome": "accessible", "error": None, "checked_at": "2026-11-11",
+            "method": "Full GET with Cache-Control: no-cache, no-store, max-age=0 and Pragma: no-cache (Python urllib)",
+        },
+    },
+    "SRC-UNIPG-ENTRY-TESTS-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://ing.unipg.it/didattica/corsi-di-studio/test-di-ingresso",
+            "content_type": "text/html; charset=utf-8", "content_length_header": None,
+            "etag": None, "last_modified": "Wed, 11 Nov 2026 14:44:08 GMT",
+            "cache_control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+            "age": None, "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Test di ingresso - Dipartimento di Ingegneria", "pdf_signature": None,
+            "has_2027_marker": False, "bytes_read": 67115, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "Full GET with Cache-Control: no-cache, no-store, max-age=0 and Pragma: no-cache (Python urllib)",
+        },
+    },
+    "SRC-UNIPG-INTL": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://www.unipg.it/en/international-students/becoming-a-unipg-student",
+            "content_type": "text/html; charset=utf-8", "content_length_header": None,
+            "etag": None, "last_modified": "Wed, 11 Nov 2026 14:44:08 GMT",
+            "cache_control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+            "age": None, "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Becoming a UniPG student - Università degli Studi di Perugia", "pdf_signature": None,
+            "has_2027_marker": True, "bytes_read": 61106, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "Full GET with Cache-Control: no-cache, no-store, max-age=0 and Pragma: no-cache (Python urllib)",
+        },
+    },
+    "SRC-UNIPG-CATALOGUE-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://www.unipg.it/didattica/corsi-di-laurea-e-laurea-magistrale/archivio/offerta-formativa-2026-27?annoregolamento=2026&cerca=&classe=&dipartimento=516600&lingua=&nomecorso=&ricerca=on&sede=&tipocorso=",
+            "content_type": "text/html; charset=utf-8", "content_length_header": None,
+            "etag": None, "last_modified": "Wed, 11 Nov 2026 14:44:08 GMT",
+            "cache_control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+            "age": None, "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Offerta Formativa 2026/27", "pdf_signature": None,
+            "has_2027_marker": True, "bytes_read": 122691, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "Full GET with Cache-Control: no-cache, no-store, max-age=0 and Pragma: no-cache (Python urllib)",
         },
     },
 })

@@ -276,19 +276,20 @@
     "trieste",
     "udine"
   ],
-  "universities_with_conflicting_sources": 8,
+  "universities_with_conflicting_sources": 9,
   "university_ids_with_conflicting_sources": [
     "bologna",
     "camerino",
     "palermo",
+    "perugia",
     "politecnico-milano",
     "roma-tre",
     "torino",
     "trento",
     "udine"
   ],
-  "source_records": 665,
-  "official_source_supported_fields": 1429,
+  "source_records": 666,
+  "official_source_supported_fields": 1428,
   "verification_statuses": [
     "CONFIRMED",
     "NOT_YET_PUBLISHED",

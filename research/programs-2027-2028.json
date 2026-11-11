@@ -40245,44 +40245,100 @@
         "value": {
           "academic_year": "2026/27",
           "qualifying_degree": "Secondary school diploma or equivalent recognized foreign qualification",
-          "mandatory_assessment": "Basic preparation test in mathematics, logic and verbal comprehension",
-          "course_page_test_options": {
-            "TOLC-I": {
-              "minimum_total_excluding_English": 14,
-              "minimum_math": 7
-            },
-            "SAT": {
-              "minimum_total": 700,
-              "minimum_math": 350
-            },
-            "ACT": {
-              "minimum_total": 16,
-              "minimum_math": 15
-            }
+          "mandatory_assessment": "A basic preparation test in mathematics, logic and verbal comprehension is mandatory for Engineering BSc entrants",
+          "latest_department_test_page_updated": "26 October 2026",
+          "ordinary_route_test_options": [
+            "TOLC-I",
+            "CEnT-S"
+          ],
+          "TOLC-I_thresholds": {
+            "total_excluding_English_minimum": 14,
+            "total_sections": [
+              "Mathematics",
+              "Logic",
+              "Sciences",
+              "Verbal Comprehension"
+            ],
+            "mathematics_minimum": 7,
+            "mathematics_maximum": 20
           },
-          "below_threshold": "Enrollment may remain possible with Additional Educational Requirements (OFA), which must be completed in the first year"
+          "CEnT-S_thresholds": {
+            "total_minimum": 10,
+            "total_sections": [
+              "Mathematics",
+              "Reasoning on Texts and Data",
+              "Physics"
+            ],
+            "total_maximum": 35,
+            "mathematics_minimum": 5,
+            "mathematics_maximum": 15
+          },
+          "below_threshold": "Enrollment is still possible with OFA; the assessment is not binding for enrollment. Not taking a test blocks the first Mathematics exam until the obligation is fulfilled."
         },
         "status": "CONFIRMED",
         "source_ids": [
+          "SRC-UNIPG-ENTRY-TESTS-2026",
           "SRC-UNIPG-EM-BSC-2026"
         ],
-        "notes": "These requirements are from the current 2026/27/general course guidance and should be rechecked against the 2027/28 call."
+        "notes": "The current Department test page governs the ordinary 2026 test guidance. The course page contains older test alternatives that are recorded separately as a source discrepancy; 2027/28 conditions remain unverified."
       },
       "previous_cycle_admission_tests": {
         "value": {
-          "international_visa_applicant_tests": "CEnT-S, TOLC-I or SAT had to be provided with the 2026/27 PICA application",
-          "course_page_tests": [
-            "TOLC-I",
-            "SAT",
-            "ACT"
-          ]
+          "academic_year": "2026/27",
+          "ordinary_department_test_page_updated_26_October_2026": {
+            "tests": [
+              "TOLC-I",
+              "CEnT-S"
+            ],
+            "test_mandatory": true
+          },
+          "visa_applicant_PICA_route": {
+            "tests": [
+              "CEnT-S",
+              "TOLC-I",
+              "SAT"
+            ],
+            "submission_mandatory": true
+          },
+          "course_page_alternatives": {
+            "tests": [
+              "TOLC-I",
+              "SAT",
+              "ACT"
+            ],
+            "listed_thresholds": {
+              "TOLC-I": {
+                "minimum_total_excluding_English": 14,
+                "minimum_math": 7
+              },
+              "SAT": {
+                "minimum_total": 700,
+                "minimum_math": 350
+              },
+              "ACT": {
+                "minimum_total": 16,
+                "minimum_math": 15
+              }
+            }
+          }
         },
-        "status": "CONFIRMED",
+        "status": "CONFLICTING_SOURCES",
         "source_ids": [
+          "SRC-UNIPG-ENTRY-TESTS-2026",
           "SRC-UNIPG-EM-BSC-2026",
           "SRC-UNIPG-INTL"
         ],
-        "notes": "The international PICA page and course page describe different applicant contexts; use the 2027/28 call for the applicable test options and scores."
+        "notes": "Applicant route matters: the international PICA page explicitly accepts CEnT-S, TOLC-I or SAT for visa applicants; the Department's newer general test page lists TOLC-I/CEnT-S for all Engineering BScs; the 19 October course page still lists SAT/ACT as well. The updated page does not list ACT, so confirm any 2026/27 exception with the current call/secretariat. Do not carry these options into 2027/28."
+      },
+      "admission_tests_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-UNIPG-ENTRY-TESTS-2026",
+          "SRC-UNIPG-EM-BSC-2026",
+          "SRC-UNIPG-INTL"
+        ],
+        "notes": "The latest Department test schedule gives 2026 sessions and the visa admissions page is for 2026/27. No 2027/28 test options, thresholds or schedule were identified."
       },
       "previous_cycle_english_requirement": {
         "value": {
@@ -40428,6 +40484,7 @@
     "source_ids": [
       "SRC-UNIPG-CATALOGUE-2026",
       "SRC-UNIPG-EM-BSC-2026",
+      "SRC-UNIPG-ENTRY-TESTS-2026",
       "SRC-UNIPG-INTL",
       "SRC-UNIPG-FEES-2026",
       "SRC-UNIPG-ADISU-2026",
