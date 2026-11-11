@@ -20982,5 +20982,107 @@
       "observed_title": "Master Full Time | BBS",
       "notes": "Official programme page retrieved and examined for 2027/28 availability and current programme terms."
     }
+  },
+  {
+    "id": "SRC-BBS-FINANCE-AI-2027",
+    "university_id": "bologna",
+    "title": "Finance – Finance and Artificial Intelligence – 2027/28 BBS Professional Master",
+    "url": "https://www.bbs.unibo.it/en/master-fulltime/finance-and-ai-2/",
+    "source_type": "Official Bologna Business School programme and admissions page",
+    "accessed_at": "2026-11-11",
+    "cycle": "2027-2028",
+    "evidence": "The BBS page explicitly advertises 2027/28 applications opening soon, four selection rounds between March and September 2027, and an October 2027 start. It identifies Finance and Artificial Intelligence as a one-year, full-time, English-language, 60-ECTS Professional Master delivered in Bologna with the University of Bologna Department of Management (DISA). The annual call is pending. The page currently displays €14,800 tuition, €4,000 and €6,000 partial awards, B2 English, a Bachelor's degree, selection tests/interview and a €60 application fee; it does not label these as 2027/28 terms, so they remain current displayed information pending the annual call.",
+    "supports": [
+      "program.name",
+      "program.level",
+      "program.language",
+      "program.location",
+      "program.duration",
+      "program.credits",
+      "program.program_type",
+      "program.availability_2027_2028",
+      "program.selection_period_2027_2028",
+      "program.current_published_fees",
+      "program.current_published_requirements"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://www.bbs.unibo.it/en/master-fulltime/finance-and-ai-2/",
+      "content_type": "text/html; charset=UTF-8",
+      "content_length_header": null,
+      "etag": null,
+      "last_modified": null,
+      "cache_control": null,
+      "age": null,
+      "x_vercel_cache": null,
+      "x_vercel_id": null,
+      "location": null,
+      "observed_title": "Master Fintech (Full Time) | BBS Italy",
+      "pdf_signature": null,
+      "has_2027_marker": true,
+      "bytes_read": 179806,
+      "outcome": "accessible",
+      "error": null,
+      "checked_at": "2026-11-11",
+      "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
+    },
+    "browser_check": {
+      "outcome": "accessible",
+      "checked_at": "2026-11-11",
+      "method": "Codex web reader open",
+      "observed_title": "Master Fintech (Full Time) | BBS Italy",
+      "notes": "Official programme page retrieved and examined for 2027/28 selection calendar, degree type, delivery and current displayed costs/requirements."
+    }
+  },
+  {
+    "id": "SRC-BBS-MARKETING-ANALYTICS-AI-2027",
+    "university_id": "bologna",
+    "title": "Marketing Management – Analytics and AI for Marketing – 2027/28 BBS track",
+    "url": "https://www.bbs.unibo.it/en/master-fulltime/analytics-and-ai-for-marketing/",
+    "source_type": "Official Bologna Business School programme and admissions page",
+    "accessed_at": "2026-11-11",
+    "cycle": "2027-2028",
+    "evidence": "The BBS page explicitly advertises 2027/28 applications opening soon, four selection rounds between March and September 2027, and an October 2027 start. It identifies Analytics and AI for Marketing as a track within the Marketing Management first-level Professional Master, not as a separate Laurea Magistrale or stand-alone degree. The track is full-time, English-language, 12 months and 60 ECTS at the BBS campus in Bologna, run with the University of Bologna Department of Management (DISA). The annual call is pending. The page currently displays €14,800 tuition, €4,000 and €6,000 partial awards, B2 English, a Bachelor's degree, selection tests/interview and a €60 application fee; these are not labelled as 2027/28 terms and remain current displayed information pending the annual call.",
+    "supports": [
+      "program.name",
+      "program.level",
+      "program.language",
+      "program.location",
+      "program.duration",
+      "program.credits",
+      "program.program_type",
+      "program.availability_2027_2028",
+      "program.selection_period_2027_2028",
+      "program.current_published_fees",
+      "program.current_published_requirements"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://www.bbs.unibo.it/en/master-fulltime/analytics-and-ai-for-marketing/",
+      "content_type": "text/html; charset=UTF-8",
+      "content_length_header": null,
+      "etag": null,
+      "last_modified": null,
+      "cache_control": null,
+      "age": null,
+      "x_vercel_cache": null,
+      "x_vercel_id": null,
+      "location": null,
+      "observed_title": "Marketing Management - Analytics and AI for Marketing | BBS Italy",
+      "pdf_signature": null,
+      "has_2027_marker": true,
+      "bytes_read": 177732,
+      "outcome": "accessible",
+      "error": null,
+      "checked_at": "2026-11-11",
+      "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
+    },
+    "browser_check": {
+      "outcome": "accessible",
+      "checked_at": "2026-11-11",
+      "method": "Codex web reader open",
+      "observed_title": "Marketing Management - Analytics and AI for Marketing | BBS Italy",
+      "notes": "Official programme page retrieved and examined for 2027/28 selection calendar, degree type, delivery and current displayed costs/requirements."
+    }
   }
 ]

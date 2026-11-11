@@ -242,6 +242,11 @@
       "result": "Retried the five still-unresolved official URLs using curl.exe with redirect following and Cache-Control: no-cache. Padua Psychology again returned HTTP 500 (text/html; 6,306 response bytes), confirming a reproducible server-side service error rather than a broken/not-found URL. The other four requests did not reach an HTTP response: Camerino's fee portal failed certificate hostname verification (SEC_E_WRONG_PRINCIPAL), Padua Astrophysics admissions reset the connection, Federico II Quantum Science's certificate was reported revoked (CRYPT_E_REVOKED), and Federico II Civil and Environmental Engineering's certificate was expired (SEC_E_CERT_EXPIRED). All five remain inconclusive; none is marked broken. Source records preserve the latest client/method and response detail. No site, DNS, cache or deployment changes were made."
     },
     {
+      "id": "bbs-finance-ai-and-marketing-analytics-2027-28",
+      "status": "partial",
+      "result": "Continued the BBS professional-master catalogue review and added discovered-043 Finance – Finance and Artificial Intelligence and discovered-044 Marketing Management – Analytics and AI for Marketing. Both official pages explicitly advertise the 2027/28 intake, four selection rounds between March and September 2027, and an October 2027 start. Finance and Artificial Intelligence is a first-level Professional Master; Analytics and AI for Marketing is a track within the Marketing Management first-level Professional Master, not a separate Laurea Magistrale. Both pages identify English-language, full-time, 12-month, 60-ECTS delivery in Bologna with the University of Bologna Department of Management (DISA). Exact dates and the annual call remain pending. The current displayed €14,800 fee, €60 application fee, B2/degree/test requirements and partial scholarship terms are explicitly kept separate from 2027/28 confirmed fields. Fresh PowerShell GET requests with Cache-Control: no-cache returned HTTP 200 for both pages (179,806 and 177,732 response bytes)."
+    },
+    {
       "id": "claude-independent-review-inventory",
       "status": "complete",
       "result": "Created a review manifest and checklist covering all 34 universities, 193 programs, and 454 existing official source records. The checklist exposes current unresolved fields and conflicts; all refresh outcomes remain pending until evidence is checked."
@@ -304,12 +309,12 @@
     ],
     "universities_program_level_review_not_started": 0,
     "university_ids_with_program_level_review_not_started": [],
-    "program_records": 207,
+    "program_records": 209,
     "prior_tracker_programs_archived": 165,
-    "newly_discovered_programs": 42,
-    "programs_cycle_availability_confirmed": 37,
+    "newly_discovered_programs": 44,
+    "programs_cycle_availability_confirmed": 39,
     "programs_availability_pending": 167,
-    "programs_fully_verified": 32,
+    "programs_fully_verified": 34,
     "programs_requiring_verification": 172,
     "programs_not_offered_2027_2028": 3,
     "programs_supported_only_by_previous_cycle": 156,
@@ -548,8 +553,8 @@
       "trento",
       "udine"
     ],
-    "source_records": 581,
-    "official_source_supported_fields": 1204,
+    "source_records": 583,
+    "official_source_supported_fields": 1226,
     "verification_statuses": [
       "CONFIRMED",
       "NOT_YET_PUBLISHED",

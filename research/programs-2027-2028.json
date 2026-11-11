@@ -37975,10 +37975,10 @@
         "source_ids": [
           "SRC-BBS-DSBA-2027"
         ],
-        "notes": "The official BBS page states the course type, duration, English language, full-time format, and 2027/28 start. BBS describes the programme as a first-level Professional Master, not a Laurea Magistrale."
+        "notes": "The official BBS page states the course type, duration, English language, full-time format, and 2027/28 start. The marketing option is a track within the parent Marketing Management Professional Master, not a separate Laurea Magistrale."
       },
       "program_type": {
-        "value": "First-level Professional Master offered by Bologna Business School in collaboration with the University of Bologna",
+        "value": "First-level Professional Master; offered by Bologna Business School in collaboration with the University of Bologna",
         "status": "CONFIRMED",
         "source_ids": [
           "SRC-BBS-DSBA-2027"
@@ -38179,10 +38179,10 @@
         "source_ids": [
           "SRC-BBS-AI-MANAGEMENT-2027"
         ],
-        "notes": "The official BBS page states the course type, duration, English language, full-time format, and 2027/28 start. BBS describes the programme as a first-level Professional Master, not a Laurea Magistrale."
+        "notes": "The official BBS page states the course type, duration, English language, full-time format, and 2027/28 start. The marketing option is a track within the parent Marketing Management Professional Master, not a separate Laurea Magistrale."
       },
       "program_type": {
-        "value": "First-level Professional Master offered by Bologna Business School in collaboration with the University of Bologna",
+        "value": "First-level Professional Master; offered by Bologna Business School in collaboration with the University of Bologna",
         "status": "CONFIRMED",
         "source_ids": [
           "SRC-BBS-AI-MANAGEMENT-2027"
@@ -38384,10 +38384,10 @@
         "source_ids": [
           "SRC-BBS-ENTREPRENEURIAL-FINANCE-2027"
         ],
-        "notes": "The official BBS page states the course type, duration, English language, full-time format, and 2027/28 start. BBS describes the programme as a first-level Professional Master, not a Laurea Magistrale."
+        "notes": "The official BBS page states the course type, duration, English language, full-time format, and 2027/28 start. The marketing option is a track within the parent Marketing Management Professional Master, not a separate Laurea Magistrale."
       },
       "program_type": {
-        "value": "First-level Professional Master offered by Bologna Business School in collaboration with the University of Bologna",
+        "value": "First-level Professional Master; offered by Bologna Business School in collaboration with the University of Bologna",
         "status": "CONFIRMED",
         "source_ids": [
           "SRC-BBS-ENTREPRENEURIAL-FINANCE-2027"
@@ -38526,6 +38526,416 @@
     },
     "source_ids": [
       "SRC-BBS-ENTREPRENEURIAL-FINANCE-2027"
+    ],
+    "previous_tracker_tags": null,
+    "previous_cycle_tags": null,
+    "last_checked": "2026-11-11"
+  },
+  {
+    "id": "discovered-043",
+    "university_id": "bologna",
+    "university": "Università di Bologna",
+    "city": "Bologna",
+    "program": "Finance – Finance and Artificial Intelligence",
+    "level": {
+      "value": "Professional Master's (First Level)",
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-BBS-FINANCE-AI-2027"
+      ],
+      "notes": null
+    },
+    "language": {
+      "value": "English",
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-BBS-FINANCE-AI-2027"
+      ],
+      "notes": null
+    },
+    "field": {
+      "value": "Finance, Artificial Intelligence and FinTech",
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-BBS-FINANCE-AI-2027"
+      ],
+      "notes": null
+    },
+    "availability_2027_2028": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-BBS-FINANCE-AI-2027"
+      ],
+      "notes": "BBS explicitly advertises this programme for 2027/28 with an October 2027 start. This confirms the named intake, not the detailed annual admission call or its eventual terms."
+    },
+    "overall_status": "CONFIRMED",
+    "discovery_source": "newly_discovered",
+    "facts": {
+      "official_course_listing_2027_2028": {
+        "value": {
+          "academic_year": "2027/28",
+          "official_name": "Finance – Finance and Artificial Intelligence",
+          "programme_type": "First-level Professional Master",
+          "duration_months": 12,
+          "credits_ects": 60,
+          "language": "English",
+          "format": "Full-time",
+          "campus": "Bologna Business School, Bologna",
+          "collaborating_department": "Department of Management (DISA)",
+          "learning_hours": 1500
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BBS-FINANCE-AI-2027"
+        ],
+        "notes": "The official BBS page states the course type, duration, English language, full-time format, and 2027/28 start. The marketing option is a track within the parent Marketing Management Professional Master, not a separate Laurea Magistrale."
+      },
+      "program_type": {
+        "value": "First-level Professional Master; offered by Bologna Business School in collaboration with the University of Bologna",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BBS-FINANCE-AI-2027"
+        ],
+        "notes": null
+      },
+      "selection_period_2027_2028": {
+        "value": {
+          "applications": "Opening soon",
+          "selection_rounds": 4,
+          "period_start": "2027-03",
+          "period_end": "2027-09",
+          "start_date": "2027-10",
+          "detailed_call": "Not yet published"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BBS-FINANCE-AI-2027"
+        ],
+        "notes": "BBS publishes the month range and number of selection rounds for 2027/28, but has not yet published the specific application opening dates, round deadlines, or annual call."
+      },
+      "application_windows": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-BBS-FINANCE-AI-2027"
+        ],
+        "notes": "The 2027/28 selection is announced for four rounds between March and September 2027, but exact application opening dates and deadlines are not yet published."
+      },
+      "application_deadline": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-BBS-FINANCE-AI-2027"
+        ],
+        "notes": "Exact 2027/28 round deadlines will be published in the forthcoming BBS Call for Applications."
+      },
+      "current_published_application_terms": {
+        "value": {
+          "application_route": "University of Bologna Studenti Online; First Level Master",
+          "selection_fee_eur": 60,
+          "current_page_status": "Displayed on the programme page but not labelled for AY 2027/28"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BBS-FINANCE-AI-2027"
+        ],
+        "notes": "Current displayed application instructions and fee may be replaced by the forthcoming 2027/28 call; do not treat the €60 amount or these instructions as confirmed cycle terms."
+      },
+      "application_fee_2027_2028": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-BBS-FINANCE-AI-2027"
+        ],
+        "notes": "The programme page displays a €60 selection fee but does not identify it as the 2027/28 fee. Confirm the amount in the annual call."
+      },
+      "current_published_requirements": {
+        "value": {
+          "qualifying_degree": "First-cycle Bachelor's degree by the enrollment deadline of the selected round",
+          "english": "Minimum B2",
+          "selection": [
+            "Online aptitude test",
+            "English-language test",
+            "Motivational interview in English"
+          ],
+          "cycle_label": "Not stated; current displayed requirements"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BBS-FINANCE-AI-2027"
+        ],
+        "notes": "These are the requirements currently shown on the BBS page; the page says the 2027/28 call and application instructions are forthcoming, so the new-cycle terms require confirmation."
+      },
+      "program_specific_requirements_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-BBS-FINANCE-AI-2027"
+        ],
+        "notes": "The annual call is pending. The current page shows a bachelor's degree, B2 English and selection tests/interview but does not label these detailed rules for 2027/28."
+      },
+      "tuition_currently_displayed": {
+        "value": {
+          "amount_eur": 14800,
+          "vat_free": true,
+          "cycle_label": "Not stated; current displayed tuition"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BBS-FINANCE-AI-2027"
+        ],
+        "notes": "The programme page displays €14,800 but does not state that this is the 2027/28 tuition. Check the annual call before presenting it as the new-cycle amount."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-BBS-FINANCE-AI-2027"
+        ],
+        "notes": "The current programme page displays €14,800 without a 2027/28 cycle label; the annual call and applicable fee remain pending."
+      },
+      "scholarships_currently_displayed": {
+        "value": {
+          "partial_awards_per_round_eur": [
+            4000,
+            6000
+          ],
+          "full_scholarships": "Not available per current page",
+          "university_dsu_ergo": "Not eligible per current page",
+          "inps": "Separate call publication date not yet set",
+          "cycle_label": "Not stated for 2027/28"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BBS-FINANCE-AI-2027"
+        ],
+        "notes": "These are currently displayed general BBS Professional Master funding terms; 2027/28 eligibility, amounts, availability and deadlines require confirmation in the annual call."
+      },
+      "scholarships_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-BBS-FINANCE-AI-2027"
+        ],
+        "notes": "The page displays current general partial-award schemes but does not confirm 2027/28 scholarship amounts or terms."
+      },
+      "acceptance_rate": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-BBS-FINANCE-AI-2027"
+        ],
+        "notes": "No applicant and admission counts are published; no acceptance rate is inferred."
+      }
+    },
+    "source_ids": [
+      "SRC-BBS-FINANCE-AI-2027"
+    ],
+    "previous_tracker_tags": null,
+    "previous_cycle_tags": null,
+    "last_checked": "2026-11-11"
+  },
+  {
+    "id": "discovered-044",
+    "university_id": "bologna",
+    "university": "Università di Bologna",
+    "city": "Bologna",
+    "program": "Marketing Management – Analytics and AI for Marketing",
+    "level": {
+      "value": "Professional Master's track (First Level)",
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-BBS-MARKETING-ANALYTICS-AI-2027"
+      ],
+      "notes": null
+    },
+    "language": {
+      "value": "English",
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-BBS-MARKETING-ANALYTICS-AI-2027"
+      ],
+      "notes": null
+    },
+    "field": {
+      "value": "Marketing analytics and artificial intelligence",
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-BBS-MARKETING-ANALYTICS-AI-2027"
+      ],
+      "notes": null
+    },
+    "availability_2027_2028": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-BBS-MARKETING-ANALYTICS-AI-2027"
+      ],
+      "notes": "BBS explicitly advertises this programme for 2027/28 with an October 2027 start. This confirms the named intake, not the detailed annual admission call or its eventual terms."
+    },
+    "overall_status": "CONFIRMED",
+    "discovery_source": "newly_discovered",
+    "facts": {
+      "official_course_listing_2027_2028": {
+        "value": {
+          "academic_year": "2027/28",
+          "official_name": "Marketing Management – Analytics and AI for Marketing",
+          "programme_type": "Track within the first-level Professional Master in Marketing Management",
+          "duration_months": 12,
+          "credits_ects": 60,
+          "language": "English",
+          "format": "Full-time",
+          "campus": "Bologna Business School, Bologna",
+          "collaborating_department": "Department of Management (DISA)",
+          "learning_hours": 1500
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BBS-MARKETING-ANALYTICS-AI-2027"
+        ],
+        "notes": "The official BBS page states the course type, duration, English language, full-time format, and 2027/28 start. The marketing option is a track within the parent Marketing Management Professional Master, not a separate Laurea Magistrale."
+      },
+      "program_type": {
+        "value": "Track within the first-level Professional Master in Marketing Management; offered by Bologna Business School in collaboration with the University of Bologna",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BBS-MARKETING-ANALYTICS-AI-2027"
+        ],
+        "notes": null
+      },
+      "selection_period_2027_2028": {
+        "value": {
+          "applications": "Opening soon",
+          "selection_rounds": 4,
+          "period_start": "2027-03",
+          "period_end": "2027-09",
+          "start_date": "2027-10",
+          "detailed_call": "Not yet published"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BBS-MARKETING-ANALYTICS-AI-2027"
+        ],
+        "notes": "BBS publishes the month range and number of selection rounds for 2027/28, but has not yet published the specific application opening dates, round deadlines, or annual call."
+      },
+      "application_windows": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-BBS-MARKETING-ANALYTICS-AI-2027"
+        ],
+        "notes": "The 2027/28 selection is announced for four rounds between March and September 2027, but exact application opening dates and deadlines are not yet published."
+      },
+      "application_deadline": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-BBS-MARKETING-ANALYTICS-AI-2027"
+        ],
+        "notes": "Exact 2027/28 round deadlines will be published in the forthcoming BBS Call for Applications."
+      },
+      "current_published_application_terms": {
+        "value": {
+          "application_route": "University of Bologna Studenti Online; First Level Master",
+          "selection_fee_eur": 60,
+          "current_page_status": "Displayed on the programme page but not labelled for AY 2027/28"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BBS-MARKETING-ANALYTICS-AI-2027"
+        ],
+        "notes": "Current displayed application instructions and fee may be replaced by the forthcoming 2027/28 call; do not treat the €60 amount or these instructions as confirmed cycle terms."
+      },
+      "application_fee_2027_2028": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-BBS-MARKETING-ANALYTICS-AI-2027"
+        ],
+        "notes": "The programme page displays a €60 selection fee but does not identify it as the 2027/28 fee. Confirm the amount in the annual call."
+      },
+      "current_published_requirements": {
+        "value": {
+          "qualifying_degree": "First-cycle Bachelor's degree by the enrollment deadline of the selected round",
+          "english": "Minimum B2",
+          "selection": [
+            "Online aptitude test",
+            "English-language test",
+            "Motivational interview in English"
+          ],
+          "cycle_label": "Not stated; current displayed requirements"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BBS-MARKETING-ANALYTICS-AI-2027"
+        ],
+        "notes": "These are the requirements currently shown on the BBS page; the page says the 2027/28 call and application instructions are forthcoming, so the new-cycle terms require confirmation."
+      },
+      "program_specific_requirements_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-BBS-MARKETING-ANALYTICS-AI-2027"
+        ],
+        "notes": "The annual call is pending. The current page shows a bachelor's degree, B2 English and selection tests/interview but does not label these detailed rules for 2027/28."
+      },
+      "tuition_currently_displayed": {
+        "value": {
+          "amount_eur": 14800,
+          "vat_free": true,
+          "cycle_label": "Not stated; current displayed tuition"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BBS-MARKETING-ANALYTICS-AI-2027"
+        ],
+        "notes": "The programme page displays €14,800 but does not state that this is the 2027/28 tuition. Check the annual call before presenting it as the new-cycle amount."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-BBS-MARKETING-ANALYTICS-AI-2027"
+        ],
+        "notes": "The current programme page displays €14,800 without a 2027/28 cycle label; the annual call and applicable fee remain pending."
+      },
+      "scholarships_currently_displayed": {
+        "value": {
+          "partial_awards_per_round_eur": [
+            4000,
+            6000
+          ],
+          "full_scholarships": "Not available per current page",
+          "university_dsu_ergo": "Not eligible per current page",
+          "inps": "Separate call publication date not yet set",
+          "cycle_label": "Not stated for 2027/28"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BBS-MARKETING-ANALYTICS-AI-2027"
+        ],
+        "notes": "These are currently displayed general BBS Professional Master funding terms; 2027/28 eligibility, amounts, availability and deadlines require confirmation in the annual call."
+      },
+      "scholarships_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-BBS-MARKETING-ANALYTICS-AI-2027"
+        ],
+        "notes": "The page displays current general partial-award schemes but does not confirm 2027/28 scholarship amounts or terms."
+      },
+      "acceptance_rate": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-BBS-MARKETING-ANALYTICS-AI-2027"
+        ],
+        "notes": "No applicant and admission counts are published; no acceptance rate is inferred."
+      }
+    },
+    "source_ids": [
+      "SRC-BBS-MARKETING-ANALYTICS-AI-2027"
     ],
     "previous_tracker_tags": null,
     "previous_cycle_tags": null,

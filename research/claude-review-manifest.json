@@ -8,16 +8,16 @@
     "review_status": "in_progress",
     "counts": {
       "universities": 34,
-      "programs": 207,
-      "sources": 581
+      "programs": 209,
+      "sources": 583
     },
     "previous_snapshot_inconclusive_url_checks": "The prior audit reported approximately 100 inconclusive checks. This refresh rechecked every unique URL and preserves the response by source record below.",
     "current_url_audit": {
       "checked_at": "2026-11-11",
-      "source_records": 581,
-      "unique_urls_checked": 566,
+      "source_records": 583,
+      "unique_urls_checked": 568,
       "unique_url_outcomes": {
-        "accessible": 547,
+        "accessible": 549,
         "redirected": 13,
         "inconclusive": 5,
         "broken": 1
@@ -9392,7 +9392,9 @@
         "SRC-UNIBO-LAW-COURSE-2026",
         "SRC-BBS-DSBA-2027",
         "SRC-BBS-AI-MANAGEMENT-2027",
-        "SRC-BBS-ENTREPRENEURIAL-FINANCE-2027"
+        "SRC-BBS-ENTREPRENEURIAL-FINANCE-2027",
+        "SRC-BBS-FINANCE-AI-2027",
+        "SRC-BBS-MARKETING-ANALYTICS-AI-2027"
       ],
       "source_urls": [
         {
@@ -10942,6 +10944,108 @@
             "observed_title": "Master Full Time | BBS",
             "notes": "Official programme page retrieved and examined for 2027/28 availability and current programme terms."
           }
+        },
+        {
+          "id": "SRC-BBS-FINANCE-AI-2027",
+          "title": "Finance – Finance and Artificial Intelligence – 2027/28 BBS Professional Master",
+          "url": "https://www.bbs.unibo.it/en/master-fulltime/finance-and-ai-2/",
+          "source_type": "Official Bologna Business School programme and admissions page",
+          "cycle": "2027-2028",
+          "accessed_at": "2026-11-11",
+          "evidence": "The BBS page explicitly advertises 2027/28 applications opening soon, four selection rounds between March and September 2027, and an October 2027 start. It identifies Finance and Artificial Intelligence as a one-year, full-time, English-language, 60-ECTS Professional Master delivered in Bologna with the University of Bologna Department of Management (DISA). The annual call is pending. The page currently displays €14,800 tuition, €4,000 and €6,000 partial awards, B2 English, a Bachelor's degree, selection tests/interview and a €60 application fee; it does not label these as 2027/28 terms, so they remain current displayed information pending the annual call.",
+          "supports": [
+            "program.name",
+            "program.level",
+            "program.language",
+            "program.location",
+            "program.duration",
+            "program.credits",
+            "program.program_type",
+            "program.availability_2027_2028",
+            "program.selection_period_2027_2028",
+            "program.current_published_fees",
+            "program.current_published_requirements"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.bbs.unibo.it/en/master-fulltime/finance-and-ai-2/",
+            "content_type": "text/html; charset=UTF-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": null,
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Master Fintech (Full Time) | BBS Italy",
+            "pdf_signature": null,
+            "has_2027_marker": true,
+            "bytes_read": 179806,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
+          },
+          "browser_check": {
+            "outcome": "accessible",
+            "checked_at": "2026-11-11",
+            "method": "Codex web reader open",
+            "observed_title": "Master Fintech (Full Time) | BBS Italy",
+            "notes": "Official programme page retrieved and examined for 2027/28 selection calendar, degree type, delivery and current displayed costs/requirements."
+          }
+        },
+        {
+          "id": "SRC-BBS-MARKETING-ANALYTICS-AI-2027",
+          "title": "Marketing Management – Analytics and AI for Marketing – 2027/28 BBS track",
+          "url": "https://www.bbs.unibo.it/en/master-fulltime/analytics-and-ai-for-marketing/",
+          "source_type": "Official Bologna Business School programme and admissions page",
+          "cycle": "2027-2028",
+          "accessed_at": "2026-11-11",
+          "evidence": "The BBS page explicitly advertises 2027/28 applications opening soon, four selection rounds between March and September 2027, and an October 2027 start. It identifies Analytics and AI for Marketing as a track within the Marketing Management first-level Professional Master, not as a separate Laurea Magistrale or stand-alone degree. The track is full-time, English-language, 12 months and 60 ECTS at the BBS campus in Bologna, run with the University of Bologna Department of Management (DISA). The annual call is pending. The page currently displays €14,800 tuition, €4,000 and €6,000 partial awards, B2 English, a Bachelor's degree, selection tests/interview and a €60 application fee; these are not labelled as 2027/28 terms and remain current displayed information pending the annual call.",
+          "supports": [
+            "program.name",
+            "program.level",
+            "program.language",
+            "program.location",
+            "program.duration",
+            "program.credits",
+            "program.program_type",
+            "program.availability_2027_2028",
+            "program.selection_period_2027_2028",
+            "program.current_published_fees",
+            "program.current_published_requirements"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.bbs.unibo.it/en/master-fulltime/analytics-and-ai-for-marketing/",
+            "content_type": "text/html; charset=UTF-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": null,
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Marketing Management - Analytics and AI for Marketing | BBS Italy",
+            "pdf_signature": null,
+            "has_2027_marker": true,
+            "bytes_read": 177732,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
+          },
+          "browser_check": {
+            "outcome": "accessible",
+            "checked_at": "2026-11-11",
+            "method": "Codex web reader open",
+            "observed_title": "Marketing Management - Analytics and AI for Marketing | BBS Italy",
+            "notes": "Official programme page retrieved and examined for 2027/28 selection calendar, degree type, delivery and current displayed costs/requirements."
+          }
         }
       ],
       "program_ids": [
@@ -10965,7 +11069,9 @@
         "discovered-029",
         "discovered-040",
         "discovered-041",
-        "discovered-042"
+        "discovered-042",
+        "discovered-043",
+        "discovered-044"
       ],
       "refresh_status": "pending",
       "refresh_checked_at": null,
@@ -62869,6 +62975,458 @@
       "known_source_conflicts": [],
       "source_ids": [
         "SRC-BBS-ENTREPRENEURIAL-FINANCE-2027"
+      ],
+      "previous_cycle_tags": null,
+      "refresh_status": "pending",
+      "refresh_checked_at": null,
+      "refresh_outcome": null
+    },
+    {
+      "id": "discovered-043",
+      "university_id": "bologna",
+      "university": "Università di Bologna",
+      "city": "Bologna",
+      "program": "Finance – Finance and Artificial Intelligence",
+      "level": {
+        "value": "Professional Master's (First Level)",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BBS-FINANCE-AI-2027"
+        ],
+        "notes": null
+      },
+      "language": {
+        "value": "English",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BBS-FINANCE-AI-2027"
+        ],
+        "notes": null
+      },
+      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-043/",
+      "university_page_url": "https://italy-it-programs.vercel.app/universities/bologna/",
+      "official_program_source_urls": [
+        {
+          "id": "SRC-BBS-FINANCE-AI-2027",
+          "title": "Finance – Finance and Artificial Intelligence – 2027/28 BBS Professional Master",
+          "url": "https://www.bbs.unibo.it/en/master-fulltime/finance-and-ai-2/",
+          "source_type": "Official Bologna Business School programme and admissions page",
+          "cycle": "2027-2028",
+          "accessed_at": "2026-11-11",
+          "evidence": "The BBS page explicitly advertises 2027/28 applications opening soon, four selection rounds between March and September 2027, and an October 2027 start. It identifies Finance and Artificial Intelligence as a one-year, full-time, English-language, 60-ECTS Professional Master delivered in Bologna with the University of Bologna Department of Management (DISA). The annual call is pending. The page currently displays €14,800 tuition, €4,000 and €6,000 partial awards, B2 English, a Bachelor's degree, selection tests/interview and a €60 application fee; it does not label these as 2027/28 terms, so they remain current displayed information pending the annual call.",
+          "supports": [
+            "program.name",
+            "program.level",
+            "program.language",
+            "program.location",
+            "program.duration",
+            "program.credits",
+            "program.program_type",
+            "program.availability_2027_2028",
+            "program.selection_period_2027_2028",
+            "program.current_published_fees",
+            "program.current_published_requirements"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.bbs.unibo.it/en/master-fulltime/finance-and-ai-2/",
+            "content_type": "text/html; charset=UTF-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": null,
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Master Fintech (Full Time) | BBS Italy",
+            "pdf_signature": null,
+            "has_2027_marker": true,
+            "bytes_read": 179806,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
+          },
+          "browser_check": {
+            "outcome": "accessible",
+            "checked_at": "2026-11-11",
+            "method": "Codex web reader open",
+            "observed_title": "Master Fintech (Full Time) | BBS Italy",
+            "notes": "Official programme page retrieved and examined for 2027/28 selection calendar, degree type, delivery and current displayed costs/requirements."
+          }
+        }
+      ],
+      "availability_2027_2028": {
+        "value": true,
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BBS-FINANCE-AI-2027"
+        ],
+        "notes": "BBS explicitly advertises this programme for 2027/28 with an October 2027 start. This confirms the named intake, not the detailed annual admission call or its eventual terms."
+      },
+      "existing_overall_status": "CONFIRMED",
+      "existing_last_checked": "2026-11-11",
+      "fields_needing_review": [
+        {
+          "field": "facts.application_windows",
+          "status": "NOT_YET_PUBLISHED",
+          "value": null,
+          "notes": "The 2027/28 selection is announced for four rounds between March and September 2027, but exact application opening dates and deadlines are not yet published.",
+          "source_ids": [
+            "SRC-BBS-FINANCE-AI-2027"
+          ]
+        },
+        {
+          "field": "facts.application_deadline",
+          "status": "NOT_YET_PUBLISHED",
+          "value": null,
+          "notes": "Exact 2027/28 round deadlines will be published in the forthcoming BBS Call for Applications.",
+          "source_ids": [
+            "SRC-BBS-FINANCE-AI-2027"
+          ]
+        },
+        {
+          "field": "facts.application_fee_2027_2028",
+          "status": "NOT_YET_PUBLISHED",
+          "value": null,
+          "notes": "The programme page displays a €60 selection fee but does not identify it as the 2027/28 fee. Confirm the amount in the annual call.",
+          "source_ids": [
+            "SRC-BBS-FINANCE-AI-2027"
+          ]
+        },
+        {
+          "field": "facts.program_specific_requirements_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "The annual call is pending. The current page shows a bachelor's degree, B2 English and selection tests/interview but does not label these detailed rules for 2027/28.",
+          "source_ids": [
+            "SRC-BBS-FINANCE-AI-2027"
+          ]
+        },
+        {
+          "field": "facts.tuition_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "The current programme page displays €14,800 without a 2027/28 cycle label; the annual call and applicable fee remain pending.",
+          "source_ids": [
+            "SRC-BBS-FINANCE-AI-2027"
+          ]
+        },
+        {
+          "field": "facts.scholarships_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "The page displays current general partial-award schemes but does not confirm 2027/28 scholarship amounts or terms.",
+          "source_ids": [
+            "SRC-BBS-FINANCE-AI-2027"
+          ]
+        },
+        {
+          "field": "facts.acceptance_rate",
+          "status": "UNAVAILABLE",
+          "value": null,
+          "notes": "No applicant and admission counts are published; no acceptance rate is inferred.",
+          "source_ids": [
+            "SRC-BBS-FINANCE-AI-2027"
+          ]
+        }
+      ],
+      "missing_fields": [
+        {
+          "field": "facts.application_windows",
+          "status": "NOT_YET_PUBLISHED",
+          "value": null,
+          "notes": "The 2027/28 selection is announced for four rounds between March and September 2027, but exact application opening dates and deadlines are not yet published.",
+          "source_ids": [
+            "SRC-BBS-FINANCE-AI-2027"
+          ]
+        },
+        {
+          "field": "facts.application_deadline",
+          "status": "NOT_YET_PUBLISHED",
+          "value": null,
+          "notes": "Exact 2027/28 round deadlines will be published in the forthcoming BBS Call for Applications.",
+          "source_ids": [
+            "SRC-BBS-FINANCE-AI-2027"
+          ]
+        },
+        {
+          "field": "facts.application_fee_2027_2028",
+          "status": "NOT_YET_PUBLISHED",
+          "value": null,
+          "notes": "The programme page displays a €60 selection fee but does not identify it as the 2027/28 fee. Confirm the amount in the annual call.",
+          "source_ids": [
+            "SRC-BBS-FINANCE-AI-2027"
+          ]
+        },
+        {
+          "field": "facts.program_specific_requirements_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "The annual call is pending. The current page shows a bachelor's degree, B2 English and selection tests/interview but does not label these detailed rules for 2027/28.",
+          "source_ids": [
+            "SRC-BBS-FINANCE-AI-2027"
+          ]
+        },
+        {
+          "field": "facts.tuition_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "The current programme page displays €14,800 without a 2027/28 cycle label; the annual call and applicable fee remain pending.",
+          "source_ids": [
+            "SRC-BBS-FINANCE-AI-2027"
+          ]
+        },
+        {
+          "field": "facts.scholarships_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "The page displays current general partial-award schemes but does not confirm 2027/28 scholarship amounts or terms.",
+          "source_ids": [
+            "SRC-BBS-FINANCE-AI-2027"
+          ]
+        },
+        {
+          "field": "facts.acceptance_rate",
+          "status": "UNAVAILABLE",
+          "value": null,
+          "notes": "No applicant and admission counts are published; no acceptance rate is inferred.",
+          "source_ids": [
+            "SRC-BBS-FINANCE-AI-2027"
+          ]
+        }
+      ],
+      "known_source_conflicts": [],
+      "source_ids": [
+        "SRC-BBS-FINANCE-AI-2027"
+      ],
+      "previous_cycle_tags": null,
+      "refresh_status": "pending",
+      "refresh_checked_at": null,
+      "refresh_outcome": null
+    },
+    {
+      "id": "discovered-044",
+      "university_id": "bologna",
+      "university": "Università di Bologna",
+      "city": "Bologna",
+      "program": "Marketing Management – Analytics and AI for Marketing",
+      "level": {
+        "value": "Professional Master's track (First Level)",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BBS-MARKETING-ANALYTICS-AI-2027"
+        ],
+        "notes": null
+      },
+      "language": {
+        "value": "English",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BBS-MARKETING-ANALYTICS-AI-2027"
+        ],
+        "notes": null
+      },
+      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-044/",
+      "university_page_url": "https://italy-it-programs.vercel.app/universities/bologna/",
+      "official_program_source_urls": [
+        {
+          "id": "SRC-BBS-MARKETING-ANALYTICS-AI-2027",
+          "title": "Marketing Management – Analytics and AI for Marketing – 2027/28 BBS track",
+          "url": "https://www.bbs.unibo.it/en/master-fulltime/analytics-and-ai-for-marketing/",
+          "source_type": "Official Bologna Business School programme and admissions page",
+          "cycle": "2027-2028",
+          "accessed_at": "2026-11-11",
+          "evidence": "The BBS page explicitly advertises 2027/28 applications opening soon, four selection rounds between March and September 2027, and an October 2027 start. It identifies Analytics and AI for Marketing as a track within the Marketing Management first-level Professional Master, not as a separate Laurea Magistrale or stand-alone degree. The track is full-time, English-language, 12 months and 60 ECTS at the BBS campus in Bologna, run with the University of Bologna Department of Management (DISA). The annual call is pending. The page currently displays €14,800 tuition, €4,000 and €6,000 partial awards, B2 English, a Bachelor's degree, selection tests/interview and a €60 application fee; these are not labelled as 2027/28 terms and remain current displayed information pending the annual call.",
+          "supports": [
+            "program.name",
+            "program.level",
+            "program.language",
+            "program.location",
+            "program.duration",
+            "program.credits",
+            "program.program_type",
+            "program.availability_2027_2028",
+            "program.selection_period_2027_2028",
+            "program.current_published_fees",
+            "program.current_published_requirements"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.bbs.unibo.it/en/master-fulltime/analytics-and-ai-for-marketing/",
+            "content_type": "text/html; charset=UTF-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": null,
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Marketing Management - Analytics and AI for Marketing | BBS Italy",
+            "pdf_signature": null,
+            "has_2027_marker": true,
+            "bytes_read": 177732,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
+          },
+          "browser_check": {
+            "outcome": "accessible",
+            "checked_at": "2026-11-11",
+            "method": "Codex web reader open",
+            "observed_title": "Marketing Management - Analytics and AI for Marketing | BBS Italy",
+            "notes": "Official programme page retrieved and examined for 2027/28 selection calendar, degree type, delivery and current displayed costs/requirements."
+          }
+        }
+      ],
+      "availability_2027_2028": {
+        "value": true,
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BBS-MARKETING-ANALYTICS-AI-2027"
+        ],
+        "notes": "BBS explicitly advertises this programme for 2027/28 with an October 2027 start. This confirms the named intake, not the detailed annual admission call or its eventual terms."
+      },
+      "existing_overall_status": "CONFIRMED",
+      "existing_last_checked": "2026-11-11",
+      "fields_needing_review": [
+        {
+          "field": "facts.application_windows",
+          "status": "NOT_YET_PUBLISHED",
+          "value": null,
+          "notes": "The 2027/28 selection is announced for four rounds between March and September 2027, but exact application opening dates and deadlines are not yet published.",
+          "source_ids": [
+            "SRC-BBS-MARKETING-ANALYTICS-AI-2027"
+          ]
+        },
+        {
+          "field": "facts.application_deadline",
+          "status": "NOT_YET_PUBLISHED",
+          "value": null,
+          "notes": "Exact 2027/28 round deadlines will be published in the forthcoming BBS Call for Applications.",
+          "source_ids": [
+            "SRC-BBS-MARKETING-ANALYTICS-AI-2027"
+          ]
+        },
+        {
+          "field": "facts.application_fee_2027_2028",
+          "status": "NOT_YET_PUBLISHED",
+          "value": null,
+          "notes": "The programme page displays a €60 selection fee but does not identify it as the 2027/28 fee. Confirm the amount in the annual call.",
+          "source_ids": [
+            "SRC-BBS-MARKETING-ANALYTICS-AI-2027"
+          ]
+        },
+        {
+          "field": "facts.program_specific_requirements_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "The annual call is pending. The current page shows a bachelor's degree, B2 English and selection tests/interview but does not label these detailed rules for 2027/28.",
+          "source_ids": [
+            "SRC-BBS-MARKETING-ANALYTICS-AI-2027"
+          ]
+        },
+        {
+          "field": "facts.tuition_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "The current programme page displays €14,800 without a 2027/28 cycle label; the annual call and applicable fee remain pending.",
+          "source_ids": [
+            "SRC-BBS-MARKETING-ANALYTICS-AI-2027"
+          ]
+        },
+        {
+          "field": "facts.scholarships_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "The page displays current general partial-award schemes but does not confirm 2027/28 scholarship amounts or terms.",
+          "source_ids": [
+            "SRC-BBS-MARKETING-ANALYTICS-AI-2027"
+          ]
+        },
+        {
+          "field": "facts.acceptance_rate",
+          "status": "UNAVAILABLE",
+          "value": null,
+          "notes": "No applicant and admission counts are published; no acceptance rate is inferred.",
+          "source_ids": [
+            "SRC-BBS-MARKETING-ANALYTICS-AI-2027"
+          ]
+        }
+      ],
+      "missing_fields": [
+        {
+          "field": "facts.application_windows",
+          "status": "NOT_YET_PUBLISHED",
+          "value": null,
+          "notes": "The 2027/28 selection is announced for four rounds between March and September 2027, but exact application opening dates and deadlines are not yet published.",
+          "source_ids": [
+            "SRC-BBS-MARKETING-ANALYTICS-AI-2027"
+          ]
+        },
+        {
+          "field": "facts.application_deadline",
+          "status": "NOT_YET_PUBLISHED",
+          "value": null,
+          "notes": "Exact 2027/28 round deadlines will be published in the forthcoming BBS Call for Applications.",
+          "source_ids": [
+            "SRC-BBS-MARKETING-ANALYTICS-AI-2027"
+          ]
+        },
+        {
+          "field": "facts.application_fee_2027_2028",
+          "status": "NOT_YET_PUBLISHED",
+          "value": null,
+          "notes": "The programme page displays a €60 selection fee but does not identify it as the 2027/28 fee. Confirm the amount in the annual call.",
+          "source_ids": [
+            "SRC-BBS-MARKETING-ANALYTICS-AI-2027"
+          ]
+        },
+        {
+          "field": "facts.program_specific_requirements_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "The annual call is pending. The current page shows a bachelor's degree, B2 English and selection tests/interview but does not label these detailed rules for 2027/28.",
+          "source_ids": [
+            "SRC-BBS-MARKETING-ANALYTICS-AI-2027"
+          ]
+        },
+        {
+          "field": "facts.tuition_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "The current programme page displays €14,800 without a 2027/28 cycle label; the annual call and applicable fee remain pending.",
+          "source_ids": [
+            "SRC-BBS-MARKETING-ANALYTICS-AI-2027"
+          ]
+        },
+        {
+          "field": "facts.scholarships_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "The page displays current general partial-award schemes but does not confirm 2027/28 scholarship amounts or terms.",
+          "source_ids": [
+            "SRC-BBS-MARKETING-ANALYTICS-AI-2027"
+          ]
+        },
+        {
+          "field": "facts.acceptance_rate",
+          "status": "UNAVAILABLE",
+          "value": null,
+          "notes": "No applicant and admission counts are published; no acceptance rate is inferred.",
+          "source_ids": [
+            "SRC-BBS-MARKETING-ANALYTICS-AI-2027"
+          ]
+        }
+      ],
+      "known_source_conflicts": [],
+      "source_ids": [
+        "SRC-BBS-MARKETING-ANALYTICS-AI-2027"
       ],
       "previous_cycle_tags": null,
       "refresh_status": "pending",
@@ -126266,6 +126824,108 @@
         "method": "Codex web reader open",
         "observed_title": "Master Full Time | BBS",
         "notes": "Official programme page retrieved and examined for 2027/28 availability and current programme terms."
+      }
+    },
+    {
+      "id": "SRC-BBS-FINANCE-AI-2027",
+      "title": "Finance – Finance and Artificial Intelligence – 2027/28 BBS Professional Master",
+      "url": "https://www.bbs.unibo.it/en/master-fulltime/finance-and-ai-2/",
+      "source_type": "Official Bologna Business School programme and admissions page",
+      "cycle": "2027-2028",
+      "accessed_at": "2026-11-11",
+      "evidence": "The BBS page explicitly advertises 2027/28 applications opening soon, four selection rounds between March and September 2027, and an October 2027 start. It identifies Finance and Artificial Intelligence as a one-year, full-time, English-language, 60-ECTS Professional Master delivered in Bologna with the University of Bologna Department of Management (DISA). The annual call is pending. The page currently displays €14,800 tuition, €4,000 and €6,000 partial awards, B2 English, a Bachelor's degree, selection tests/interview and a €60 application fee; it does not label these as 2027/28 terms, so they remain current displayed information pending the annual call.",
+      "supports": [
+        "program.name",
+        "program.level",
+        "program.language",
+        "program.location",
+        "program.duration",
+        "program.credits",
+        "program.program_type",
+        "program.availability_2027_2028",
+        "program.selection_period_2027_2028",
+        "program.current_published_fees",
+        "program.current_published_requirements"
+      ],
+      "refresh_status": "accessible",
+      "url_check": {
+        "http_status": 200,
+        "effective_url": "https://www.bbs.unibo.it/en/master-fulltime/finance-and-ai-2/",
+        "content_type": "text/html; charset=UTF-8",
+        "content_length_header": null,
+        "etag": null,
+        "last_modified": null,
+        "cache_control": null,
+        "age": null,
+        "x_vercel_cache": null,
+        "x_vercel_id": null,
+        "location": null,
+        "observed_title": "Master Fintech (Full Time) | BBS Italy",
+        "pdf_signature": null,
+        "has_2027_marker": true,
+        "bytes_read": 179806,
+        "outcome": "accessible",
+        "error": null,
+        "checked_at": "2026-11-11",
+        "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
+      },
+      "browser_check": {
+        "outcome": "accessible",
+        "checked_at": "2026-11-11",
+        "method": "Codex web reader open",
+        "observed_title": "Master Fintech (Full Time) | BBS Italy",
+        "notes": "Official programme page retrieved and examined for 2027/28 selection calendar, degree type, delivery and current displayed costs/requirements."
+      }
+    },
+    {
+      "id": "SRC-BBS-MARKETING-ANALYTICS-AI-2027",
+      "title": "Marketing Management – Analytics and AI for Marketing – 2027/28 BBS track",
+      "url": "https://www.bbs.unibo.it/en/master-fulltime/analytics-and-ai-for-marketing/",
+      "source_type": "Official Bologna Business School programme and admissions page",
+      "cycle": "2027-2028",
+      "accessed_at": "2026-11-11",
+      "evidence": "The BBS page explicitly advertises 2027/28 applications opening soon, four selection rounds between March and September 2027, and an October 2027 start. It identifies Analytics and AI for Marketing as a track within the Marketing Management first-level Professional Master, not as a separate Laurea Magistrale or stand-alone degree. The track is full-time, English-language, 12 months and 60 ECTS at the BBS campus in Bologna, run with the University of Bologna Department of Management (DISA). The annual call is pending. The page currently displays €14,800 tuition, €4,000 and €6,000 partial awards, B2 English, a Bachelor's degree, selection tests/interview and a €60 application fee; these are not labelled as 2027/28 terms and remain current displayed information pending the annual call.",
+      "supports": [
+        "program.name",
+        "program.level",
+        "program.language",
+        "program.location",
+        "program.duration",
+        "program.credits",
+        "program.program_type",
+        "program.availability_2027_2028",
+        "program.selection_period_2027_2028",
+        "program.current_published_fees",
+        "program.current_published_requirements"
+      ],
+      "refresh_status": "accessible",
+      "url_check": {
+        "http_status": 200,
+        "effective_url": "https://www.bbs.unibo.it/en/master-fulltime/analytics-and-ai-for-marketing/",
+        "content_type": "text/html; charset=UTF-8",
+        "content_length_header": null,
+        "etag": null,
+        "last_modified": null,
+        "cache_control": null,
+        "age": null,
+        "x_vercel_cache": null,
+        "x_vercel_id": null,
+        "location": null,
+        "observed_title": "Marketing Management - Analytics and AI for Marketing | BBS Italy",
+        "pdf_signature": null,
+        "has_2027_marker": true,
+        "bytes_read": 177732,
+        "outcome": "accessible",
+        "error": null,
+        "checked_at": "2026-11-11",
+        "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
+      },
+      "browser_check": {
+        "outcome": "accessible",
+        "checked_at": "2026-11-11",
+        "method": "Codex web reader open",
+        "observed_title": "Marketing Management - Analytics and AI for Marketing | BBS Italy",
+        "notes": "Official programme page retrieved and examined for 2027/28 selection calendar, degree type, delivery and current displayed costs/requirements."
       }
     }
   ],

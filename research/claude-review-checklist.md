@@ -2,7 +2,7 @@
 
 Prepared 2026-11-11 for academic year 2027/28. Review each record against official university pages, calls, portals, regulations, and PDFs.
 
-Snapshot inventory: 34 universities, 207 program records, 581 source records.
+Snapshot inventory: 34 universities, 209 program records, 583 source records.
 
 ## Review rules
 
@@ -2195,6 +2195,8 @@ Official university-level sources:
 - [ ] `SRC-BBS-DSBA-2027` — [Data Science and Business Analytics – 2027/28 BBS Professional Master](https://www.bbs.unibo.it/en/master-fulltime/master-in-data-science-2/) (cycle: 2027-2028; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-BBS-AI-MANAGEMENT-2027` — [Artificial Intelligence for Management – 2027/28 BBS Professional Master](https://www.bbs.unibo.it/en/master-fulltime/artificial-intelligence-2/) (cycle: 2027-2028; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-BBS-ENTREPRENEURIAL-FINANCE-2027` — [Finance – Entrepreneurial Finance – 2027/28 BBS Professional Master](https://www.bbs.unibo.it/en/master-fulltime/entrepreneurial-finance/) (cycle: 2027-2028; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-BBS-FINANCE-AI-2027` — [Finance – Finance and Artificial Intelligence – 2027/28 BBS Professional Master](https://www.bbs.unibo.it/en/master-fulltime/finance-and-ai-2/) (cycle: 2027-2028; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-BBS-MARKETING-ANALYTICS-AI-2027` — [Marketing Management – Analytics and AI for Marketing – 2027/28 BBS track](https://www.bbs.unibo.it/en/master-fulltime/analytics-and-ai-for-marketing/) (cycle: 2027-2028; checked in prior snapshot: 2026-11-11)
 
 #### Artificial intelligence — `legacy-019`
 
@@ -2546,6 +2548,40 @@ Currently missing or unpublished fields:
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-BBS-ENTREPRENEURIAL-FINANCE-2027` — [Finance – Entrepreneurial Finance – 2027/28 BBS Professional Master](https://www.bbs.unibo.it/en/master-fulltime/entrepreneurial-finance/) (cycle: 2027-2028; prior check: 2026-11-11)
+Currently missing or unpublished fields:
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — The 2027/28 selection is announced for four rounds between March and September 2027, but exact application opening dates and deadlines are not yet published.
+  - `facts.application_deadline` — `NOT_YET_PUBLISHED` — Exact 2027/28 round deadlines will be published in the forthcoming BBS Call for Applications.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — The programme page displays a €60 selection fee but does not identify it as the 2027/28 fee. Confirm the amount in the annual call.
+  - `facts.program_specific_requirements_2027_2028` — `REQUIRES_VERIFICATION` — The annual call is pending. The current page shows a bachelor's degree, B2 English and selection tests/interview but does not label these detailed rules for 2027/28.
+  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — The current programme page displays €14,800 without a 2027/28 cycle label; the annual call and applicable fee remain pending.
+  - `facts.scholarships_2027_2028` — `REQUIRES_VERIFICATION` — The page displays current general partial-award schemes but does not confirm 2027/28 scholarship amounts or terms.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — No applicant and admission counts are published; no acceptance rate is inferred.
+
+#### Finance – Finance and Artificial Intelligence — `discovered-043`
+
+- [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-11`
+- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-043/
+- [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
+- [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
+Official linked sources to revisit:
+- [ ] `SRC-BBS-FINANCE-AI-2027` — [Finance – Finance and Artificial Intelligence – 2027/28 BBS Professional Master](https://www.bbs.unibo.it/en/master-fulltime/finance-and-ai-2/) (cycle: 2027-2028; prior check: 2026-11-11)
+Currently missing or unpublished fields:
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — The 2027/28 selection is announced for four rounds between March and September 2027, but exact application opening dates and deadlines are not yet published.
+  - `facts.application_deadline` — `NOT_YET_PUBLISHED` — Exact 2027/28 round deadlines will be published in the forthcoming BBS Call for Applications.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — The programme page displays a €60 selection fee but does not identify it as the 2027/28 fee. Confirm the amount in the annual call.
+  - `facts.program_specific_requirements_2027_2028` — `REQUIRES_VERIFICATION` — The annual call is pending. The current page shows a bachelor's degree, B2 English and selection tests/interview but does not label these detailed rules for 2027/28.
+  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — The current programme page displays €14,800 without a 2027/28 cycle label; the annual call and applicable fee remain pending.
+  - `facts.scholarships_2027_2028` — `REQUIRES_VERIFICATION` — The page displays current general partial-award schemes but does not confirm 2027/28 scholarship amounts or terms.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — No applicant and admission counts are published; no acceptance rate is inferred.
+
+#### Marketing Management – Analytics and AI for Marketing — `discovered-044`
+
+- [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-11`
+- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-044/
+- [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
+- [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
+Official linked sources to revisit:
+- [ ] `SRC-BBS-MARKETING-ANALYTICS-AI-2027` — [Marketing Management – Analytics and AI for Marketing – 2027/28 BBS track](https://www.bbs.unibo.it/en/master-fulltime/analytics-and-ai-for-marketing/) (cycle: 2027-2028; prior check: 2026-11-11)
 Currently missing or unpublished fields:
   - `facts.application_windows` — `NOT_YET_PUBLISHED` — The 2027/28 selection is announced for four rounds between March and September 2027, but exact application opening dates and deadlines are not yet published.
   - `facts.application_deadline` — `NOT_YET_PUBLISHED` — Exact 2027/28 round deadlines will be published in the forthcoming BBS Call for Applications.
@@ -5165,7 +5201,7 @@ Currently missing or unpublished fields:
 
 ## Source URL recheck results
 
-Checked 566 unique URLs representing 581 source records on 2026-11-11. Unique URL outcomes: {'accessible': 547, 'redirected': 13, 'inconclusive': 5, 'broken': 1}. HTTP 404/410 outcomes are listed as broken; TLS, timeout, and remote-disconnect cases remain inconclusive.
+Checked 568 unique URLs representing 583 source records on 2026-11-11. Unique URL outcomes: {'accessible': 549, 'redirected': 13, 'inconclusive': 5, 'broken': 1}. HTTP 404/410 outcomes are listed as broken; TLS, timeout, and remote-disconnect cases remain inconclusive.
 
 ### Redirected sources
 

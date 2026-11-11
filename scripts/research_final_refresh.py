@@ -1091,6 +1091,28 @@ SOURCES = [
         "evidence": "The BBS programme page explicitly advertises 2027/28 applications opening soon, four selection rounds between March and September 2027, and an October 2027 start. It identifies the course as a one-year, full-time, English-language, 60-ECTS Professional Master delivered in Bologna in collaboration with the University of Bologna Department of Management (DISA). The detailed annual call is pending. The page currently displays a €14,800 tuition fee, partial awards of €4,000 and €6,000, B2 English, a first-cycle degree, tests and interview, and a €60 selection fee; these are not labelled as 2027/28 terms and are retained only as current displayed information pending the annual call.",
         "supports": ["program.name", "program.level", "program.language", "program.location", "program.duration", "program.credits", "program.program_type", "program.availability_2027_2028", "program.selection_period_2027_2028", "program.current_published_fees", "program.current_published_requirements"],
     },
+    {
+        "id": "SRC-BBS-FINANCE-AI-2027",
+        "university_id": "bologna",
+        "title": "Finance – Finance and Artificial Intelligence – 2027/28 BBS Professional Master",
+        "url": "https://www.bbs.unibo.it/en/master-fulltime/finance-and-ai-2/",
+        "source_type": "Official Bologna Business School programme and admissions page",
+        "accessed_at": "2026-11-11",
+        "cycle": "2027-2028",
+        "evidence": "The BBS page explicitly advertises 2027/28 applications opening soon, four selection rounds between March and September 2027, and an October 2027 start. It identifies Finance and Artificial Intelligence as a one-year, full-time, English-language, 60-ECTS Professional Master delivered in Bologna with the University of Bologna Department of Management (DISA). The annual call is pending. The page currently displays €14,800 tuition, €4,000 and €6,000 partial awards, B2 English, a Bachelor's degree, selection tests/interview and a €60 application fee; it does not label these as 2027/28 terms, so they remain current displayed information pending the annual call.",
+        "supports": ["program.name", "program.level", "program.language", "program.location", "program.duration", "program.credits", "program.program_type", "program.availability_2027_2028", "program.selection_period_2027_2028", "program.current_published_fees", "program.current_published_requirements"],
+    },
+    {
+        "id": "SRC-BBS-MARKETING-ANALYTICS-AI-2027",
+        "university_id": "bologna",
+        "title": "Marketing Management – Analytics and AI for Marketing – 2027/28 BBS track",
+        "url": "https://www.bbs.unibo.it/en/master-fulltime/analytics-and-ai-for-marketing/",
+        "source_type": "Official Bologna Business School programme and admissions page",
+        "accessed_at": "2026-11-11",
+        "cycle": "2027-2028",
+        "evidence": "The BBS page explicitly advertises 2027/28 applications opening soon, four selection rounds between March and September 2027, and an October 2027 start. It identifies Analytics and AI for Marketing as a track within the Marketing Management first-level Professional Master, not as a separate Laurea Magistrale or stand-alone degree. The track is full-time, English-language, 12 months and 60 ECTS at the BBS campus in Bologna, run with the University of Bologna Department of Management (DISA). The annual call is pending. The page currently displays €14,800 tuition, €4,000 and €6,000 partial awards, B2 English, a Bachelor's degree, selection tests/interview and a €60 application fee; these are not labelled as 2027/28 terms and remain current displayed information pending the annual call.",
+        "supports": ["program.name", "program.level", "program.language", "program.location", "program.duration", "program.credits", "program.program_type", "program.availability_2027_2028", "program.selection_period_2027_2028", "program.current_published_fees", "program.current_published_requirements"],
+    },
 ]
 
 BATCH = {
@@ -1163,6 +1185,12 @@ BATCH12 = {
     "id": "source-audit-curl-retry-five-remaining-inconclusives",
     "status": "partial",
     "result": "Retried the five still-unresolved official URLs using curl.exe with redirect following and Cache-Control: no-cache. Padua Psychology again returned HTTP 500 (text/html; 6,306 response bytes), confirming a reproducible server-side service error rather than a broken/not-found URL. The other four requests did not reach an HTTP response: Camerino's fee portal failed certificate hostname verification (SEC_E_WRONG_PRINCIPAL), Padua Astrophysics admissions reset the connection, Federico II Quantum Science's certificate was reported revoked (CRYPT_E_REVOKED), and Federico II Civil and Environmental Engineering's certificate was expired (SEC_E_CERT_EXPIRED). All five remain inconclusive; none is marked broken. Source records preserve the latest client/method and response detail. No site, DNS, cache or deployment changes were made.",
+}
+
+BATCH13 = {
+    "id": "bbs-finance-ai-and-marketing-analytics-2027-28",
+    "status": "partial",
+    "result": "Continued the BBS professional-master catalogue review and added discovered-043 Finance – Finance and Artificial Intelligence and discovered-044 Marketing Management – Analytics and AI for Marketing. Both official pages explicitly advertise the 2027/28 intake, four selection rounds between March and September 2027, and an October 2027 start. Finance and Artificial Intelligence is a first-level Professional Master; Analytics and AI for Marketing is a track within the Marketing Management first-level Professional Master, not a separate Laurea Magistrale. Both pages identify English-language, full-time, 12-month, 60-ECTS delivery in Bologna with the University of Bologna Department of Management (DISA). Exact dates and the annual call remain pending. The current displayed €14,800 fee, €60 application fee, B2/degree/test requirements and partial scholarship terms are explicitly kept separate from 2027/28 confirmed fields. Fresh PowerShell GET requests with Cache-Control: no-cache returned HTTP 200 for both pages (179,806 and 177,732 response bytes).",
 }
 
 
@@ -2059,14 +2087,16 @@ def apply(
     programs.append(computer_engineering)
 
     bbs_programs = [
-        ("discovered-040", "Data Science and Business Analytics", "Data Science and Business Analytics", "SRC-BBS-DSBA-2027", "Department of Computer Science and Engineering (DISI)", 1500),
-        ("discovered-041", "Artificial Intelligence for Management", "Artificial Intelligence for Business Management", "SRC-BBS-AI-MANAGEMENT-2027", "Department of Computer Science and Engineering (DISI)", None),
-        ("discovered-042", "Finance – Entrepreneurial Finance", "Entrepreneurial Finance and FinTech", "SRC-BBS-ENTREPRENEURIAL-FINANCE-2027", "Department of Management (DISA)", 1500),
+        ("discovered-040", "Data Science and Business Analytics", "Data Science and Business Analytics", "SRC-BBS-DSBA-2027", "Department of Computer Science and Engineering (DISI)", 1500, "First-level Professional Master", "Professional Master's (First Level)"),
+        ("discovered-041", "Artificial Intelligence for Management", "Artificial Intelligence for Business Management", "SRC-BBS-AI-MANAGEMENT-2027", "Department of Computer Science and Engineering (DISI)", None, "First-level Professional Master", "Professional Master's (First Level)"),
+        ("discovered-042", "Finance – Entrepreneurial Finance", "Entrepreneurial Finance and FinTech", "SRC-BBS-ENTREPRENEURIAL-FINANCE-2027", "Department of Management (DISA)", 1500, "First-level Professional Master", "Professional Master's (First Level)"),
+        ("discovered-043", "Finance – Finance and Artificial Intelligence", "Finance, Artificial Intelligence and FinTech", "SRC-BBS-FINANCE-AI-2027", "Department of Management (DISA)", 1500, "First-level Professional Master", "Professional Master's (First Level)"),
+        ("discovered-044", "Marketing Management – Analytics and AI for Marketing", "Marketing analytics and artificial intelligence", "SRC-BBS-MARKETING-ANALYTICS-AI-2027", "Department of Management (DISA)", 1500, "Track within the first-level Professional Master in Marketing Management", "Professional Master's track (First Level)"),
     ]
-    for pid, title, field_name, source_id, department, learning_hours in bbs_programs:
+    for pid, title, field_name, source_id, department, learning_hours, programme_type, level_label in bbs_programs:
         sources = [source_id]
         program = make_program(
-            pid, "bologna", title, "Professional Master's (First Level)", "English", field_name,
+            pid, "bologna", title, level_label, "English", field_name,
             "CONFIRMED", sources, city="Bologna", discovery="newly_discovered",
         )
         program["availability_2027_2028"] = fact(
@@ -2075,11 +2105,11 @@ def apply(
         )
         program["facts"] = {
             "official_course_listing_2027_2028": fact(
-                {"academic_year":"2027/28", "official_name":title, "programme_type":"First-level Professional Master", "duration_months":12, "credits_ects":60, "language":"English", "format":"Full-time", "campus":"Bologna Business School, Bologna", "collaborating_department":department, **({"learning_hours":learning_hours} if learning_hours else {})},
+                {"academic_year":"2027/28", "official_name":title, "programme_type":programme_type, "duration_months":12, "credits_ects":60, "language":"English", "format":"Full-time", "campus":"Bologna Business School, Bologna", "collaborating_department":department, **({"learning_hours":learning_hours} if learning_hours else {})},
                 "CONFIRMED", sources,
-                "The official BBS page states the course type, duration, English language, full-time format, and 2027/28 start. BBS describes the programme as a first-level Professional Master, not a Laurea Magistrale.",
+                "The official BBS page states the course type, duration, English language, full-time format, and 2027/28 start. The marketing option is a track within the parent Marketing Management Professional Master, not a separate Laurea Magistrale.",
             ),
-            "program_type": fact("First-level Professional Master offered by Bologna Business School in collaboration with the University of Bologna", "CONFIRMED", sources),
+            "program_type": fact(programme_type + "; offered by Bologna Business School in collaboration with the University of Bologna", "CONFIRMED", sources),
             "selection_period_2027_2028": fact(
                 {"applications":"Opening soon", "selection_rounds":4, "period_start":"2027-03", "period_end":"2027-09", "start_date":"2027-10", "detailed_call":"Not yet published"},
                 "CONFIRMED", sources,
