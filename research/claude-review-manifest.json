@@ -17,9 +17,9 @@
       "source_records": 581,
       "unique_urls_checked": 566,
       "unique_url_outcomes": {
-        "accessible": 536,
+        "accessible": 547,
         "redirected": 13,
-        "inconclusive": 16,
+        "inconclusive": 5,
         "broken": 1
       },
       "redirected_source_records": [
@@ -95,7 +95,7 @@
           "url": "https://www.miiscrivo.unicam.it/fees-foreign-students",
           "direct_http_outcome": "inconclusive",
           "browser_outcome": "inconclusive",
-          "direct_http_error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
+          "direct_http_error": "curl.exe (60): Schannel SNI/hostname certificate validation failed: SEC_E_WRONG_PRINCIPAL; no HTTP response received.",
           "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
         },
         {
@@ -103,7 +103,7 @@
           "url": "https://astrophysics-and-cosmology.dfa.unipd.it/masters-degree/application-and-admission-requirements/",
           "direct_http_outcome": "inconclusive",
           "browser_outcome": "inconclusive",
-          "direct_http_error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
+          "direct_http_error": "curl.exe (35): connection reset before an HTTP response.",
           "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
         },
         {
@@ -119,7 +119,7 @@
           "url": "https://www.qst.unina.it/index.php/education/",
           "direct_http_outcome": "inconclusive",
           "browser_outcome": "inconclusive",
-          "direct_http_error": "TimeoutError: timed out",
+          "direct_http_error": "curl.exe (35): Schannel certificate status check failed; certificate reported revoked (CRYPT_E_REVOKED); no HTTP response received.",
           "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
         },
         {
@@ -127,7 +127,7 @@
           "url": "https://www.civil-environmental.unina.it/admission/",
           "direct_http_outcome": "inconclusive",
           "browser_outcome": "inconclusive",
-          "direct_http_error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1007)",
+          "direct_http_error": "curl.exe (35): Schannel certificate check failed; certificate reported expired (SEC_E_CERT_EXPIRED); no HTTP response received.",
           "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
         }
       ],
@@ -652,7 +652,7 @@
           "refresh_status": "inconclusive",
           "url_check": {
             "http_status": null,
-            "effective_url": null,
+            "effective_url": "https://www.qst.unina.it/index.php/education/",
             "content_type": null,
             "content_length_header": null,
             "etag": null,
@@ -667,10 +667,9 @@
             "has_2027_marker": null,
             "bytes_read": 0,
             "outcome": "inconclusive",
-            "error": "TimeoutError: timed out",
-            "retried": true,
+            "error": "curl.exe (35): Schannel certificate status check failed; certificate reported revoked (CRYPT_E_REVOKED); no HTTP response received.",
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "curl.exe GET -L; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -852,7 +851,7 @@
           "refresh_status": "inconclusive",
           "url_check": {
             "http_status": null,
-            "effective_url": null,
+            "effective_url": "https://www.civil-environmental.unina.it/admission/",
             "content_type": null,
             "content_length_header": null,
             "etag": null,
@@ -867,10 +866,9 @@
             "has_2027_marker": null,
             "bytes_read": 0,
             "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1007)",
-            "retried": true,
+            "error": "curl.exe (35): Schannel certificate check failed; certificate reported expired (SEC_E_CERT_EXPIRED); no HTTP response received.",
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "curl.exe GET -L; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -11032,9 +11030,9 @@
           ],
           "refresh_status": "accessible",
           "url_check": {
-            "http_status": null,
-            "effective_url": null,
-            "content_type": null,
+            "http_status": 200,
+            "effective_url": "https://international.unicam.it/admissions/faq",
+            "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
@@ -11043,15 +11041,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "FAQ | University of Camerino",
             "pdf_signature": null,
             "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
-            "retried": true,
+            "bytes_read": 29293,
+            "outcome": "accessible",
+            "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -11077,9 +11074,9 @@
           ],
           "refresh_status": "accessible",
           "url_check": {
-            "http_status": null,
-            "effective_url": null,
-            "content_type": null,
+            "http_status": 200,
+            "effective_url": "https://international.unicam.it/courses/master",
+            "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
@@ -11088,15 +11085,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "Master | University of Camerino",
             "pdf_signature": null,
             "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
-            "retried": true,
+            "bytes_read": 25958,
+            "outcome": "accessible",
+            "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -11157,9 +11153,9 @@
           ],
           "refresh_status": "accessible",
           "url_check": {
-            "http_status": null,
-            "effective_url": null,
-            "content_type": null,
+            "http_status": 200,
+            "effective_url": "https://sst.unicam.it/corsi/computer-science",
+            "content_type": "text/html; charset=UTF-8",
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
@@ -11168,15 +11164,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "Computer Science | Scuola di Scienze e Tecnologie",
             "pdf_signature": null,
             "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
-            "retried": true,
+            "bytes_read": 54464,
+            "outcome": "accessible",
+            "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -11201,9 +11196,9 @@
           ],
           "refresh_status": "accessible",
           "url_check": {
-            "http_status": null,
-            "effective_url": null,
-            "content_type": null,
+            "http_status": 200,
+            "effective_url": "https://chimica.unicam.it/en/node/87",
+            "content_type": "text/html; charset=UTF-8",
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
@@ -11212,15 +11207,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "Master's Degree in Chemistry | Sezione di Chimica",
             "pdf_signature": null,
             "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
-            "retried": true,
+            "bytes_read": 33907,
+            "outcome": "accessible",
+            "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -11245,9 +11239,9 @@
           ],
           "refresh_status": "accessible",
           "url_check": {
-            "http_status": null,
-            "effective_url": null,
-            "content_type": null,
+            "http_status": 200,
+            "effective_url": "https://chimica.unicam.it/it/didattica/corso-di-laurea-chemistry-and-advanced-chemical-methodologies-classe-lm-54",
+            "content_type": "text/html; charset=UTF-8",
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
@@ -11256,15 +11250,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "Corso di laurea in Chemistry and Advanced Chemical Methodologies - Classe LM-54 | Sezione di Chimica",
             "pdf_signature": null,
             "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
-            "retried": true,
+            "bytes_read": 32009,
+            "outcome": "accessible",
+            "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -11290,9 +11283,9 @@
           ],
           "refresh_status": "accessible",
           "url_check": {
-            "http_status": null,
-            "effective_url": null,
-            "content_type": null,
+            "http_status": 200,
+            "effective_url": "https://sst.unicam.it/index.php/corsi/mathematics-and-applications",
+            "content_type": "text/html; charset=UTF-8",
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
@@ -11301,15 +11294,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "Mathematics and applications | Scuola di Scienze e Tecnologie",
             "pdf_signature": null,
             "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
-            "retried": true,
+            "bytes_read": 52823,
+            "outcome": "accessible",
+            "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -11334,9 +11326,9 @@
           ],
           "refresh_status": "accessible",
           "url_check": {
-            "http_status": null,
-            "effective_url": null,
-            "content_type": null,
+            "http_status": 200,
+            "effective_url": "https://sst.unicam.it/corsi/physics",
+            "content_type": "text/html; charset=UTF-8",
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
@@ -11345,15 +11337,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "Physics | Scuola di Scienze e Tecnologie",
             "pdf_signature": null,
             "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
-            "retried": true,
+            "bytes_read": 55758,
+            "outcome": "accessible",
+            "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -11378,9 +11369,9 @@
           ],
           "refresh_status": "accessible",
           "url_check": {
-            "http_status": null,
-            "effective_url": null,
-            "content_type": null,
+            "http_status": 200,
+            "effective_url": "https://international.unicam.it/admissions/pre-admissions-2026-2027",
+            "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
@@ -11389,15 +11380,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "PRE-ADMISSIONS 2026-2027 | University of Camerino",
             "pdf_signature": null,
             "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
-            "retried": true,
+            "bytes_read": 26511,
+            "outcome": "accessible",
+            "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -11421,9 +11411,9 @@
           ],
           "refresh_status": "accessible",
           "url_check": {
-            "http_status": null,
-            "effective_url": null,
-            "content_type": null,
+            "http_status": 200,
+            "effective_url": "https://international.unicam.it/sites/d7.unicam.it.international/files/_How%20to%20apply%20fro%20preliminary%20evaluation_2627_0.pdf",
+            "content_type": "application/pdf",
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
@@ -11433,14 +11423,13 @@
             "x_vercel_id": null,
             "location": null,
             "observed_title": null,
-            "pdf_signature": null,
+            "pdf_signature": true,
             "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
-            "retried": true,
+            "bytes_read": 629808,
+            "outcome": "accessible",
+            "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET with byte range for PDF sources"
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -11465,7 +11454,7 @@
           "refresh_status": "inconclusive",
           "url_check": {
             "http_status": null,
-            "effective_url": null,
+            "effective_url": "https://www.miiscrivo.unicam.it/fees-foreign-students",
             "content_type": null,
             "content_length_header": null,
             "etag": null,
@@ -11480,10 +11469,9 @@
             "has_2027_marker": null,
             "bytes_read": 0,
             "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
-            "retried": true,
+            "error": "curl.exe (60): Schannel SNI/hostname certificate validation failed: SEC_E_WRONG_PRINCIPAL; no HTTP response received.",
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "curl.exe GET -L; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -11506,9 +11494,9 @@
           ],
           "refresh_status": "accessible",
           "url_check": {
-            "http_status": null,
-            "effective_url": null,
-            "content_type": null,
+            "http_status": 200,
+            "effective_url": "https://international.unicam.it/admissions/lump-sum-enrollment-payment",
+            "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
@@ -11517,15 +11505,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "LUMP SUM ENROLLMENT PAYMENT | University of Camerino",
             "pdf_signature": null,
             "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
-            "retried": true,
+            "bytes_read": 29807,
+            "outcome": "accessible",
+            "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -15226,7 +15213,7 @@
           "refresh_status": "inconclusive",
           "url_check": {
             "http_status": null,
-            "effective_url": null,
+            "effective_url": "https://astrophysics-and-cosmology.dfa.unipd.it/masters-degree/application-and-admission-requirements/",
             "content_type": null,
             "content_length_header": null,
             "etag": null,
@@ -15241,10 +15228,9 @@
             "has_2027_marker": null,
             "bytes_read": 0,
             "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
-            "retried": true,
+            "error": "curl.exe (35): connection reset before an HTTP response.",
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "curl.exe GET -L; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -22454,9 +22440,9 @@
           ],
           "refresh_status": "accessible",
           "url_check": {
-            "http_status": null,
-            "effective_url": null,
-            "content_type": null,
+            "http_status": 200,
+            "effective_url": "https://www.units.it/sites/default/files/media/documenti/pdf_manifesto_2022.pdf",
+            "content_type": "application/pdf",
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
@@ -22466,14 +22452,13 @@
             "x_vercel_id": null,
             "location": null,
             "observed_title": null,
-            "pdf_signature": null,
+            "pdf_signature": true,
             "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
-            "retried": true,
+            "bytes_read": 1398382,
+            "outcome": "accessible",
+            "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET with byte range for PDF sources"
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -25404,7 +25389,7 @@
           "refresh_status": "inconclusive",
           "url_check": {
             "http_status": null,
-            "effective_url": null,
+            "effective_url": "https://www.qst.unina.it/index.php/education/",
             "content_type": null,
             "content_length_header": null,
             "etag": null,
@@ -25419,10 +25404,9 @@
             "has_2027_marker": null,
             "bytes_read": 0,
             "outcome": "inconclusive",
-            "error": "TimeoutError: timed out",
-            "retried": true,
+            "error": "curl.exe (35): Schannel certificate status check failed; certificate reported revoked (CRYPT_E_REVOKED); no HTTP response received.",
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "curl.exe GET -L; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -26289,7 +26273,7 @@
           "refresh_status": "inconclusive",
           "url_check": {
             "http_status": null,
-            "effective_url": null,
+            "effective_url": "https://www.civil-environmental.unina.it/admission/",
             "content_type": null,
             "content_length_header": null,
             "etag": null,
@@ -26304,10 +26288,9 @@
             "has_2027_marker": null,
             "bytes_read": 0,
             "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1007)",
-            "retried": true,
+            "error": "curl.exe (35): Schannel certificate check failed; certificate reported expired (SEC_E_CERT_EXPIRED); no HTTP response received.",
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "curl.exe GET -L; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -62972,9 +62955,9 @@
           ],
           "refresh_status": "accessible",
           "url_check": {
-            "http_status": null,
-            "effective_url": null,
-            "content_type": null,
+            "http_status": 200,
+            "effective_url": "https://sst.unicam.it/corsi/computer-science",
+            "content_type": "text/html; charset=UTF-8",
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
@@ -62983,15 +62966,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "Computer Science | Scuola di Scienze e Tecnologie",
             "pdf_signature": null,
             "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
-            "retried": true,
+            "bytes_read": 54464,
+            "outcome": "accessible",
+            "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -63017,9 +62999,9 @@
           ],
           "refresh_status": "accessible",
           "url_check": {
-            "http_status": null,
-            "effective_url": null,
-            "content_type": null,
+            "http_status": 200,
+            "effective_url": "https://international.unicam.it/courses/master",
+            "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
@@ -63028,15 +63010,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "Master | University of Camerino",
             "pdf_signature": null,
             "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
-            "retried": true,
+            "bytes_read": 25958,
+            "outcome": "accessible",
+            "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -63060,9 +63041,9 @@
           ],
           "refresh_status": "accessible",
           "url_check": {
-            "http_status": null,
-            "effective_url": null,
-            "content_type": null,
+            "http_status": 200,
+            "effective_url": "https://international.unicam.it/admissions/lump-sum-enrollment-payment",
+            "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
@@ -63071,15 +63052,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "LUMP SUM ENROLLMENT PAYMENT | University of Camerino",
             "pdf_signature": null,
             "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
-            "retried": true,
+            "bytes_read": 29807,
+            "outcome": "accessible",
+            "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -63178,9 +63158,9 @@
           ],
           "refresh_status": "accessible",
           "url_check": {
-            "http_status": null,
-            "effective_url": null,
-            "content_type": null,
+            "http_status": 200,
+            "effective_url": "https://international.unicam.it/admissions/faq",
+            "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
@@ -63189,15 +63169,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "FAQ | University of Camerino",
             "pdf_signature": null,
             "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
-            "retried": true,
+            "bytes_read": 29293,
+            "outcome": "accessible",
+            "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -63222,9 +63201,9 @@
           ],
           "refresh_status": "accessible",
           "url_check": {
-            "http_status": null,
-            "effective_url": null,
-            "content_type": null,
+            "http_status": 200,
+            "effective_url": "https://international.unicam.it/admissions/pre-admissions-2026-2027",
+            "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
@@ -63233,15 +63212,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "PRE-ADMISSIONS 2026-2027 | University of Camerino",
             "pdf_signature": null,
             "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
-            "retried": true,
+            "bytes_read": 26511,
+            "outcome": "accessible",
+            "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -63266,7 +63244,7 @@
           "refresh_status": "inconclusive",
           "url_check": {
             "http_status": null,
-            "effective_url": null,
+            "effective_url": "https://www.miiscrivo.unicam.it/fees-foreign-students",
             "content_type": null,
             "content_length_header": null,
             "etag": null,
@@ -63281,10 +63259,9 @@
             "has_2027_marker": null,
             "bytes_read": 0,
             "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
-            "retried": true,
+            "error": "curl.exe (60): Schannel SNI/hostname certificate validation failed: SEC_E_WRONG_PRINCIPAL; no HTTP response received.",
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "curl.exe GET -L; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -63671,9 +63648,9 @@
           ],
           "refresh_status": "accessible",
           "url_check": {
-            "http_status": null,
-            "effective_url": null,
-            "content_type": null,
+            "http_status": 200,
+            "effective_url": "https://chimica.unicam.it/en/node/87",
+            "content_type": "text/html; charset=UTF-8",
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
@@ -63682,15 +63659,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "Master's Degree in Chemistry | Sezione di Chimica",
             "pdf_signature": null,
             "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
-            "retried": true,
+            "bytes_read": 33907,
+            "outcome": "accessible",
+            "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -63716,9 +63692,9 @@
           ],
           "refresh_status": "accessible",
           "url_check": {
-            "http_status": null,
-            "effective_url": null,
-            "content_type": null,
+            "http_status": 200,
+            "effective_url": "https://international.unicam.it/courses/master",
+            "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
@@ -63727,15 +63703,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "Master | University of Camerino",
             "pdf_signature": null,
             "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
-            "retried": true,
+            "bytes_read": 25958,
+            "outcome": "accessible",
+            "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -63759,9 +63734,9 @@
           ],
           "refresh_status": "accessible",
           "url_check": {
-            "http_status": null,
-            "effective_url": null,
-            "content_type": null,
+            "http_status": 200,
+            "effective_url": "https://international.unicam.it/admissions/lump-sum-enrollment-payment",
+            "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
@@ -63770,15 +63745,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "LUMP SUM ENROLLMENT PAYMENT | University of Camerino",
             "pdf_signature": null,
             "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
-            "retried": true,
+            "bytes_read": 29807,
+            "outcome": "accessible",
+            "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -63877,9 +63851,9 @@
           ],
           "refresh_status": "accessible",
           "url_check": {
-            "http_status": null,
-            "effective_url": null,
-            "content_type": null,
+            "http_status": 200,
+            "effective_url": "https://international.unicam.it/admissions/faq",
+            "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
@@ -63888,15 +63862,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "FAQ | University of Camerino",
             "pdf_signature": null,
             "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
-            "retried": true,
+            "bytes_read": 29293,
+            "outcome": "accessible",
+            "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -63921,9 +63894,9 @@
           ],
           "refresh_status": "accessible",
           "url_check": {
-            "http_status": null,
-            "effective_url": null,
-            "content_type": null,
+            "http_status": 200,
+            "effective_url": "https://international.unicam.it/admissions/pre-admissions-2026-2027",
+            "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
@@ -63932,15 +63905,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "PRE-ADMISSIONS 2026-2027 | University of Camerino",
             "pdf_signature": null,
             "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
-            "retried": true,
+            "bytes_read": 26511,
+            "outcome": "accessible",
+            "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -63965,7 +63937,7 @@
           "refresh_status": "inconclusive",
           "url_check": {
             "http_status": null,
-            "effective_url": null,
+            "effective_url": "https://www.miiscrivo.unicam.it/fees-foreign-students",
             "content_type": null,
             "content_length_header": null,
             "etag": null,
@@ -63980,10 +63952,9 @@
             "has_2027_marker": null,
             "bytes_read": 0,
             "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
-            "retried": true,
+            "error": "curl.exe (60): Schannel SNI/hostname certificate validation failed: SEC_E_WRONG_PRINCIPAL; no HTTP response received.",
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "curl.exe GET -L; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -64319,9 +64290,9 @@
           ],
           "refresh_status": "accessible",
           "url_check": {
-            "http_status": null,
-            "effective_url": null,
-            "content_type": null,
+            "http_status": 200,
+            "effective_url": "https://sst.unicam.it/index.php/corsi/mathematics-and-applications",
+            "content_type": "text/html; charset=UTF-8",
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
@@ -64330,15 +64301,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "Mathematics and applications | Scuola di Scienze e Tecnologie",
             "pdf_signature": null,
             "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
-            "retried": true,
+            "bytes_read": 52823,
+            "outcome": "accessible",
+            "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -64400,9 +64370,9 @@
           ],
           "refresh_status": "accessible",
           "url_check": {
-            "http_status": null,
-            "effective_url": null,
-            "content_type": null,
+            "http_status": 200,
+            "effective_url": "https://international.unicam.it/courses/master",
+            "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
@@ -64411,15 +64381,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "Master | University of Camerino",
             "pdf_signature": null,
             "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
-            "retried": true,
+            "bytes_read": 25958,
+            "outcome": "accessible",
+            "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -64443,9 +64412,9 @@
           ],
           "refresh_status": "accessible",
           "url_check": {
-            "http_status": null,
-            "effective_url": null,
-            "content_type": null,
+            "http_status": 200,
+            "effective_url": "https://international.unicam.it/admissions/lump-sum-enrollment-payment",
+            "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
@@ -64454,15 +64423,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "LUMP SUM ENROLLMENT PAYMENT | University of Camerino",
             "pdf_signature": null,
             "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
-            "retried": true,
+            "bytes_read": 29807,
+            "outcome": "accessible",
+            "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -64561,9 +64529,9 @@
           ],
           "refresh_status": "accessible",
           "url_check": {
-            "http_status": null,
-            "effective_url": null,
-            "content_type": null,
+            "http_status": 200,
+            "effective_url": "https://international.unicam.it/admissions/faq",
+            "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
@@ -64572,15 +64540,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "FAQ | University of Camerino",
             "pdf_signature": null,
             "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
-            "retried": true,
+            "bytes_read": 29293,
+            "outcome": "accessible",
+            "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -64605,9 +64572,9 @@
           ],
           "refresh_status": "accessible",
           "url_check": {
-            "http_status": null,
-            "effective_url": null,
-            "content_type": null,
+            "http_status": 200,
+            "effective_url": "https://international.unicam.it/admissions/pre-admissions-2026-2027",
+            "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
@@ -64616,15 +64583,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "PRE-ADMISSIONS 2026-2027 | University of Camerino",
             "pdf_signature": null,
             "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
-            "retried": true,
+            "bytes_read": 26511,
+            "outcome": "accessible",
+            "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -64649,7 +64615,7 @@
           "refresh_status": "inconclusive",
           "url_check": {
             "http_status": null,
-            "effective_url": null,
+            "effective_url": "https://www.miiscrivo.unicam.it/fees-foreign-students",
             "content_type": null,
             "content_length_header": null,
             "etag": null,
@@ -64664,10 +64630,9 @@
             "has_2027_marker": null,
             "bytes_read": 0,
             "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
-            "retried": true,
+            "error": "curl.exe (60): Schannel SNI/hostname certificate validation failed: SEC_E_WRONG_PRINCIPAL; no HTTP response received.",
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "curl.exe GET -L; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -64988,9 +64953,9 @@
           ],
           "refresh_status": "accessible",
           "url_check": {
-            "http_status": null,
-            "effective_url": null,
-            "content_type": null,
+            "http_status": 200,
+            "effective_url": "https://sst.unicam.it/corsi/physics",
+            "content_type": "text/html; charset=UTF-8",
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
@@ -64999,15 +64964,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "Physics | Scuola di Scienze e Tecnologie",
             "pdf_signature": null,
             "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
-            "retried": true,
+            "bytes_read": 55758,
+            "outcome": "accessible",
+            "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -65069,9 +65033,9 @@
           ],
           "refresh_status": "accessible",
           "url_check": {
-            "http_status": null,
-            "effective_url": null,
-            "content_type": null,
+            "http_status": 200,
+            "effective_url": "https://international.unicam.it/courses/master",
+            "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
@@ -65080,15 +65044,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "Master | University of Camerino",
             "pdf_signature": null,
             "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
-            "retried": true,
+            "bytes_read": 25958,
+            "outcome": "accessible",
+            "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -65112,9 +65075,9 @@
           ],
           "refresh_status": "accessible",
           "url_check": {
-            "http_status": null,
-            "effective_url": null,
-            "content_type": null,
+            "http_status": 200,
+            "effective_url": "https://international.unicam.it/admissions/lump-sum-enrollment-payment",
+            "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
@@ -65123,15 +65086,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "LUMP SUM ENROLLMENT PAYMENT | University of Camerino",
             "pdf_signature": null,
             "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
-            "retried": true,
+            "bytes_read": 29807,
+            "outcome": "accessible",
+            "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -65230,9 +65192,9 @@
           ],
           "refresh_status": "accessible",
           "url_check": {
-            "http_status": null,
-            "effective_url": null,
-            "content_type": null,
+            "http_status": 200,
+            "effective_url": "https://international.unicam.it/admissions/faq",
+            "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
@@ -65241,15 +65203,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "FAQ | University of Camerino",
             "pdf_signature": null,
             "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
-            "retried": true,
+            "bytes_read": 29293,
+            "outcome": "accessible",
+            "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -65274,9 +65235,9 @@
           ],
           "refresh_status": "accessible",
           "url_check": {
-            "http_status": null,
-            "effective_url": null,
-            "content_type": null,
+            "http_status": 200,
+            "effective_url": "https://international.unicam.it/admissions/pre-admissions-2026-2027",
+            "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
@@ -65285,15 +65246,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "PRE-ADMISSIONS 2026-2027 | University of Camerino",
             "pdf_signature": null,
             "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
-            "retried": true,
+            "bytes_read": 26511,
+            "outcome": "accessible",
+            "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -65318,7 +65278,7 @@
           "refresh_status": "inconclusive",
           "url_check": {
             "http_status": null,
-            "effective_url": null,
+            "effective_url": "https://www.miiscrivo.unicam.it/fees-foreign-students",
             "content_type": null,
             "content_length_header": null,
             "etag": null,
@@ -65333,10 +65293,9 @@
             "has_2027_marker": null,
             "bytes_read": 0,
             "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
-            "retried": true,
+            "error": "curl.exe (60): Schannel SNI/hostname certificate validation failed: SEC_E_WRONG_PRINCIPAL; no HTTP response received.",
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "curl.exe GET -L; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -86016,7 +85975,7 @@
           "refresh_status": "inconclusive",
           "url_check": {
             "http_status": null,
-            "effective_url": null,
+            "effective_url": "https://astrophysics-and-cosmology.dfa.unipd.it/masters-degree/application-and-admission-requirements/",
             "content_type": null,
             "content_length_header": null,
             "etag": null,
@@ -86031,10 +85990,9 @@
             "has_2027_marker": null,
             "bytes_read": 0,
             "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
-            "retried": true,
+            "error": "curl.exe (35): connection reset before an HTTP response.",
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "curl.exe GET -L; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -102023,9 +101981,9 @@
           ],
           "refresh_status": "accessible",
           "url_check": {
-            "http_status": null,
-            "effective_url": null,
-            "content_type": null,
+            "http_status": 200,
+            "effective_url": "https://www.units.it/sites/default/files/media/documenti/pdf_manifesto_2022.pdf",
+            "content_type": "application/pdf",
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
@@ -102035,14 +101993,13 @@
             "x_vercel_id": null,
             "location": null,
             "observed_title": null,
-            "pdf_signature": null,
+            "pdf_signature": true,
             "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
-            "retried": true,
+            "bytes_read": 1398382,
+            "outcome": "accessible",
+            "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET with byte range for PDF sources"
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -109245,9 +109202,9 @@
       ],
       "refresh_status": "accessible",
       "url_check": {
-        "http_status": null,
-        "effective_url": null,
-        "content_type": null,
+        "http_status": 200,
+        "effective_url": "https://international.unicam.it/admissions/faq",
+        "content_type": "text/html; charset=utf-8",
         "content_length_header": null,
         "etag": null,
         "last_modified": null,
@@ -109256,15 +109213,14 @@
         "x_vercel_cache": null,
         "x_vercel_id": null,
         "location": null,
-        "observed_title": null,
+        "observed_title": "FAQ | University of Camerino",
         "pdf_signature": null,
         "has_2027_marker": null,
-        "bytes_read": 0,
-        "outcome": "inconclusive",
-        "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
-        "retried": true,
+        "bytes_read": 29293,
+        "outcome": "accessible",
+        "error": null,
         "checked_at": "2026-11-11",
-        "method": "GET"
+        "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
       },
       "browser_check": {
         "checked_at": "2026-11-11",
@@ -111566,9 +111522,9 @@
       ],
       "refresh_status": "accessible",
       "url_check": {
-        "http_status": null,
-        "effective_url": null,
-        "content_type": null,
+        "http_status": 200,
+        "effective_url": "https://international.unicam.it/courses/master",
+        "content_type": "text/html; charset=utf-8",
         "content_length_header": null,
         "etag": null,
         "last_modified": null,
@@ -111577,15 +111533,14 @@
         "x_vercel_cache": null,
         "x_vercel_id": null,
         "location": null,
-        "observed_title": null,
+        "observed_title": "Master | University of Camerino",
         "pdf_signature": null,
         "has_2027_marker": null,
-        "bytes_read": 0,
-        "outcome": "inconclusive",
-        "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
-        "retried": true,
+        "bytes_read": 25958,
+        "outcome": "accessible",
+        "error": null,
         "checked_at": "2026-11-11",
-        "method": "GET"
+        "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
       },
       "browser_check": {
         "checked_at": "2026-11-11",
@@ -111646,9 +111601,9 @@
       ],
       "refresh_status": "accessible",
       "url_check": {
-        "http_status": null,
-        "effective_url": null,
-        "content_type": null,
+        "http_status": 200,
+        "effective_url": "https://sst.unicam.it/corsi/computer-science",
+        "content_type": "text/html; charset=UTF-8",
         "content_length_header": null,
         "etag": null,
         "last_modified": null,
@@ -111657,15 +111612,14 @@
         "x_vercel_cache": null,
         "x_vercel_id": null,
         "location": null,
-        "observed_title": null,
+        "observed_title": "Computer Science | Scuola di Scienze e Tecnologie",
         "pdf_signature": null,
         "has_2027_marker": null,
-        "bytes_read": 0,
-        "outcome": "inconclusive",
-        "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
-        "retried": true,
+        "bytes_read": 54464,
+        "outcome": "accessible",
+        "error": null,
         "checked_at": "2026-11-11",
-        "method": "GET"
+        "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
       },
       "browser_check": {
         "checked_at": "2026-11-11",
@@ -111690,9 +111644,9 @@
       ],
       "refresh_status": "accessible",
       "url_check": {
-        "http_status": null,
-        "effective_url": null,
-        "content_type": null,
+        "http_status": 200,
+        "effective_url": "https://chimica.unicam.it/en/node/87",
+        "content_type": "text/html; charset=UTF-8",
         "content_length_header": null,
         "etag": null,
         "last_modified": null,
@@ -111701,15 +111655,14 @@
         "x_vercel_cache": null,
         "x_vercel_id": null,
         "location": null,
-        "observed_title": null,
+        "observed_title": "Master's Degree in Chemistry | Sezione di Chimica",
         "pdf_signature": null,
         "has_2027_marker": null,
-        "bytes_read": 0,
-        "outcome": "inconclusive",
-        "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
-        "retried": true,
+        "bytes_read": 33907,
+        "outcome": "accessible",
+        "error": null,
         "checked_at": "2026-11-11",
-        "method": "GET"
+        "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
       },
       "browser_check": {
         "checked_at": "2026-11-11",
@@ -111734,9 +111687,9 @@
       ],
       "refresh_status": "accessible",
       "url_check": {
-        "http_status": null,
-        "effective_url": null,
-        "content_type": null,
+        "http_status": 200,
+        "effective_url": "https://chimica.unicam.it/it/didattica/corso-di-laurea-chemistry-and-advanced-chemical-methodologies-classe-lm-54",
+        "content_type": "text/html; charset=UTF-8",
         "content_length_header": null,
         "etag": null,
         "last_modified": null,
@@ -111745,15 +111698,14 @@
         "x_vercel_cache": null,
         "x_vercel_id": null,
         "location": null,
-        "observed_title": null,
+        "observed_title": "Corso di laurea in Chemistry and Advanced Chemical Methodologies - Classe LM-54 | Sezione di Chimica",
         "pdf_signature": null,
         "has_2027_marker": null,
-        "bytes_read": 0,
-        "outcome": "inconclusive",
-        "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
-        "retried": true,
+        "bytes_read": 32009,
+        "outcome": "accessible",
+        "error": null,
         "checked_at": "2026-11-11",
-        "method": "GET"
+        "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
       },
       "browser_check": {
         "checked_at": "2026-11-11",
@@ -111779,9 +111731,9 @@
       ],
       "refresh_status": "accessible",
       "url_check": {
-        "http_status": null,
-        "effective_url": null,
-        "content_type": null,
+        "http_status": 200,
+        "effective_url": "https://sst.unicam.it/index.php/corsi/mathematics-and-applications",
+        "content_type": "text/html; charset=UTF-8",
         "content_length_header": null,
         "etag": null,
         "last_modified": null,
@@ -111790,15 +111742,14 @@
         "x_vercel_cache": null,
         "x_vercel_id": null,
         "location": null,
-        "observed_title": null,
+        "observed_title": "Mathematics and applications | Scuola di Scienze e Tecnologie",
         "pdf_signature": null,
         "has_2027_marker": null,
-        "bytes_read": 0,
-        "outcome": "inconclusive",
-        "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
-        "retried": true,
+        "bytes_read": 52823,
+        "outcome": "accessible",
+        "error": null,
         "checked_at": "2026-11-11",
-        "method": "GET"
+        "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
       },
       "browser_check": {
         "checked_at": "2026-11-11",
@@ -111823,9 +111774,9 @@
       ],
       "refresh_status": "accessible",
       "url_check": {
-        "http_status": null,
-        "effective_url": null,
-        "content_type": null,
+        "http_status": 200,
+        "effective_url": "https://sst.unicam.it/corsi/physics",
+        "content_type": "text/html; charset=UTF-8",
         "content_length_header": null,
         "etag": null,
         "last_modified": null,
@@ -111834,15 +111785,14 @@
         "x_vercel_cache": null,
         "x_vercel_id": null,
         "location": null,
-        "observed_title": null,
+        "observed_title": "Physics | Scuola di Scienze e Tecnologie",
         "pdf_signature": null,
         "has_2027_marker": null,
-        "bytes_read": 0,
-        "outcome": "inconclusive",
-        "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
-        "retried": true,
+        "bytes_read": 55758,
+        "outcome": "accessible",
+        "error": null,
         "checked_at": "2026-11-11",
-        "method": "GET"
+        "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
       },
       "browser_check": {
         "checked_at": "2026-11-11",
@@ -111867,9 +111817,9 @@
       ],
       "refresh_status": "accessible",
       "url_check": {
-        "http_status": null,
-        "effective_url": null,
-        "content_type": null,
+        "http_status": 200,
+        "effective_url": "https://international.unicam.it/admissions/pre-admissions-2026-2027",
+        "content_type": "text/html; charset=utf-8",
         "content_length_header": null,
         "etag": null,
         "last_modified": null,
@@ -111878,15 +111828,14 @@
         "x_vercel_cache": null,
         "x_vercel_id": null,
         "location": null,
-        "observed_title": null,
+        "observed_title": "PRE-ADMISSIONS 2026-2027 | University of Camerino",
         "pdf_signature": null,
         "has_2027_marker": null,
-        "bytes_read": 0,
-        "outcome": "inconclusive",
-        "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
-        "retried": true,
+        "bytes_read": 26511,
+        "outcome": "accessible",
+        "error": null,
         "checked_at": "2026-11-11",
-        "method": "GET"
+        "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
       },
       "browser_check": {
         "checked_at": "2026-11-11",
@@ -111910,9 +111859,9 @@
       ],
       "refresh_status": "accessible",
       "url_check": {
-        "http_status": null,
-        "effective_url": null,
-        "content_type": null,
+        "http_status": 200,
+        "effective_url": "https://international.unicam.it/sites/d7.unicam.it.international/files/_How%20to%20apply%20fro%20preliminary%20evaluation_2627_0.pdf",
+        "content_type": "application/pdf",
         "content_length_header": null,
         "etag": null,
         "last_modified": null,
@@ -111922,14 +111871,13 @@
         "x_vercel_id": null,
         "location": null,
         "observed_title": null,
-        "pdf_signature": null,
+        "pdf_signature": true,
         "has_2027_marker": null,
-        "bytes_read": 0,
-        "outcome": "inconclusive",
-        "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
-        "retried": true,
+        "bytes_read": 629808,
+        "outcome": "accessible",
+        "error": null,
         "checked_at": "2026-11-11",
-        "method": "GET with byte range for PDF sources"
+        "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
       },
       "browser_check": {
         "checked_at": "2026-11-11",
@@ -111954,7 +111902,7 @@
       "refresh_status": "inconclusive",
       "url_check": {
         "http_status": null,
-        "effective_url": null,
+        "effective_url": "https://www.miiscrivo.unicam.it/fees-foreign-students",
         "content_type": null,
         "content_length_header": null,
         "etag": null,
@@ -111969,10 +111917,9 @@
         "has_2027_marker": null,
         "bytes_read": 0,
         "outcome": "inconclusive",
-        "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
-        "retried": true,
+        "error": "curl.exe (60): Schannel SNI/hostname certificate validation failed: SEC_E_WRONG_PRINCIPAL; no HTTP response received.",
         "checked_at": "2026-11-11",
-        "method": "GET"
+        "method": "curl.exe GET -L; Cache-Control: no-cache"
       },
       "browser_check": {
         "checked_at": "2026-11-11",
@@ -111995,9 +111942,9 @@
       ],
       "refresh_status": "accessible",
       "url_check": {
-        "http_status": null,
-        "effective_url": null,
-        "content_type": null,
+        "http_status": 200,
+        "effective_url": "https://international.unicam.it/admissions/lump-sum-enrollment-payment",
+        "content_type": "text/html; charset=utf-8",
         "content_length_header": null,
         "etag": null,
         "last_modified": null,
@@ -112006,15 +111953,14 @@
         "x_vercel_cache": null,
         "x_vercel_id": null,
         "location": null,
-        "observed_title": null,
+        "observed_title": "LUMP SUM ENROLLMENT PAYMENT | University of Camerino",
         "pdf_signature": null,
         "has_2027_marker": null,
-        "bytes_read": 0,
-        "outcome": "inconclusive",
-        "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
-        "retried": true,
+        "bytes_read": 29807,
+        "outcome": "accessible",
+        "error": null,
         "checked_at": "2026-11-11",
-        "method": "GET"
+        "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
       },
       "browser_check": {
         "checked_at": "2026-11-11",
@@ -117279,9 +117225,9 @@
       ],
       "refresh_status": "accessible",
       "url_check": {
-        "http_status": null,
-        "effective_url": null,
-        "content_type": null,
+        "http_status": 200,
+        "effective_url": "https://www.units.it/sites/default/files/media/documenti/pdf_manifesto_2022.pdf",
+        "content_type": "application/pdf",
         "content_length_header": null,
         "etag": null,
         "last_modified": null,
@@ -117291,14 +117237,13 @@
         "x_vercel_id": null,
         "location": null,
         "observed_title": null,
-        "pdf_signature": null,
+        "pdf_signature": true,
         "has_2027_marker": null,
-        "bytes_read": 0,
-        "outcome": "inconclusive",
-        "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
-        "retried": true,
+        "bytes_read": 1398382,
+        "outcome": "accessible",
+        "error": null,
         "checked_at": "2026-11-11",
-        "method": "GET with byte range for PDF sources"
+        "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
       },
       "browser_check": {
         "checked_at": "2026-11-11",
@@ -121509,7 +121454,7 @@
       "refresh_status": "inconclusive",
       "url_check": {
         "http_status": null,
-        "effective_url": null,
+        "effective_url": "https://astrophysics-and-cosmology.dfa.unipd.it/masters-degree/application-and-admission-requirements/",
         "content_type": null,
         "content_length_header": null,
         "etag": null,
@@ -121524,10 +121469,9 @@
         "has_2027_marker": null,
         "bytes_read": 0,
         "outcome": "inconclusive",
-        "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
-        "retried": true,
+        "error": "curl.exe (35): connection reset before an HTTP response.",
         "checked_at": "2026-11-11",
-        "method": "GET"
+        "method": "curl.exe GET -L; Cache-Control: no-cache"
       },
       "browser_check": {
         "checked_at": "2026-11-11",
@@ -124451,7 +124395,7 @@
       "refresh_status": "inconclusive",
       "url_check": {
         "http_status": null,
-        "effective_url": null,
+        "effective_url": "https://www.qst.unina.it/index.php/education/",
         "content_type": null,
         "content_length_header": null,
         "etag": null,
@@ -124466,10 +124410,9 @@
         "has_2027_marker": null,
         "bytes_read": 0,
         "outcome": "inconclusive",
-        "error": "TimeoutError: timed out",
-        "retried": true,
+        "error": "curl.exe (35): Schannel certificate status check failed; certificate reported revoked (CRYPT_E_REVOKED); no HTTP response received.",
         "checked_at": "2026-11-11",
-        "method": "GET"
+        "method": "curl.exe GET -L; Cache-Control: no-cache"
       },
       "browser_check": {
         "checked_at": "2026-11-11",
@@ -124651,7 +124594,7 @@
       "refresh_status": "inconclusive",
       "url_check": {
         "http_status": null,
-        "effective_url": null,
+        "effective_url": "https://www.civil-environmental.unina.it/admission/",
         "content_type": null,
         "content_length_header": null,
         "etag": null,
@@ -124666,10 +124609,9 @@
         "has_2027_marker": null,
         "bytes_read": 0,
         "outcome": "inconclusive",
-        "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1007)",
-        "retried": true,
+        "error": "curl.exe (35): Schannel certificate check failed; certificate reported expired (SEC_E_CERT_EXPIRED); no HTTP response received.",
         "checked_at": "2026-11-11",
-        "method": "GET"
+        "method": "curl.exe GET -L; Cache-Control: no-cache"
       },
       "browser_check": {
         "checked_at": "2026-11-11",
@@ -126333,7 +126275,7 @@
       "url": "https://www.miiscrivo.unicam.it/fees-foreign-students",
       "direct_http_outcome": "inconclusive",
       "browser_outcome": "inconclusive",
-      "direct_http_error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
+      "direct_http_error": "curl.exe (60): Schannel SNI/hostname certificate validation failed: SEC_E_WRONG_PRINCIPAL; no HTTP response received.",
       "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
     },
     {
@@ -126341,7 +126283,7 @@
       "url": "https://astrophysics-and-cosmology.dfa.unipd.it/masters-degree/application-and-admission-requirements/",
       "direct_http_outcome": "inconclusive",
       "browser_outcome": "inconclusive",
-      "direct_http_error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
+      "direct_http_error": "curl.exe (35): connection reset before an HTTP response.",
       "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
     },
     {
@@ -126357,7 +126299,7 @@
       "url": "https://www.qst.unina.it/index.php/education/",
       "direct_http_outcome": "inconclusive",
       "browser_outcome": "inconclusive",
-      "direct_http_error": "TimeoutError: timed out",
+      "direct_http_error": "curl.exe (35): Schannel certificate status check failed; certificate reported revoked (CRYPT_E_REVOKED); no HTTP response received.",
       "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
     },
     {
@@ -126365,7 +126307,7 @@
       "url": "https://www.civil-environmental.unina.it/admission/",
       "direct_http_outcome": "inconclusive",
       "browser_outcome": "inconclusive",
-      "direct_http_error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1007)",
+      "direct_http_error": "curl.exe (35): Schannel certificate check failed; certificate reported expired (SEC_E_CERT_EXPIRED); no HTTP response received.",
       "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
     }
   ],

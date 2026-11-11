@@ -1153,6 +1153,18 @@ BATCH10 = {
     "result": "Retried nine official URLs that remained inconclusive after the independent content-reader review using Windows PowerShell Invoke-WebRequest GET with Cache-Control: no-cache. Four sources returned direct HTTP 200: the Padua School of Science How to Apply page (35,355 bytes), Molecular Biology Bachelor's admission page (54,743 bytes), English-language Master's catalogue for AY 2026/27 (66,513 bytes), and Federico II Architecture and Heritage 2024/25 regulations PDF (300,389 bytes, application/pdf). These are historical/general cycle sources and remain labelled as such; their direct reachability does not make their facts current for 2027/28. Five sources remain inconclusive: Camerino foreign-fee portal and Padua Astrophysics admissions page failed TLS validation; the Padua Psychology course index returned HTTP 500 Service unavailable; Federico II Quantum Science timed out/failed TLS; Federico II Civil and Environmental Engineering admissions failed TLS validation. None of these five is classified broken. No programme or infrastructure changes were made.",
 }
 
+BATCH11 = {
+    "id": "source-audit-alt-client-camerino-and-trieste",
+    "status": "partial",
+    "result": "Rechecked the 11 official sources whose content had been retrieved by the Codex web reader but whose Python direct-HTTP checks remained inconclusive. Windows PowerShell Invoke-WebRequest GET with Cache-Control: no-cache returned HTTP 200 for all 10 Camerino pages/PDFs (FAQ, Master's catalogue, Computer Science, two Chemistry profiles, Mathematics and Applications, Physics, 2026/27 pre-admission page and guide, and lump-sum payment page) and Trieste's 2022 manifesto PDF. The two PDFs returned application/pdf and their first five bytes were %PDF-. Each source record now distinguishes its direct HTTP 200 result from the earlier browser-reader retrieval. These older-cycle/general pages retain their original cycle labels and are not promoted to 2027/28 evidence. The five remaining direct-HTTP-inconclusive official URLs are still not classified as broken: Camerino foreign-student fees, Padua Astrophysics admissions (TLS), Padua Psychology course index (HTTP 500), Federico II Quantum Science (TLS/timeout), and Federico II Civil and Environmental Engineering admission (TLS).",
+}
+
+BATCH12 = {
+    "id": "source-audit-curl-retry-five-remaining-inconclusives",
+    "status": "partial",
+    "result": "Retried the five still-unresolved official URLs using curl.exe with redirect following and Cache-Control: no-cache. Padua Psychology again returned HTTP 500 (text/html; 6,306 response bytes), confirming a reproducible server-side service error rather than a broken/not-found URL. The other four requests did not reach an HTTP response: Camerino's fee portal failed certificate hostname verification (SEC_E_WRONG_PRINCIPAL), Padua Astrophysics admissions reset the connection, Federico II Quantum Science's certificate was reported revoked (CRYPT_E_REVOKED), and Federico II Civil and Environmental Engineering's certificate was expired (SEC_E_CERT_EXPIRED). All five remain inconclusive; none is marked broken. Source records preserve the latest client/method and response detail. No site, DNS, cache or deployment changes were made.",
+}
+
 
 def _fact(value: Any, status: str, source_ids: list[str], notes: str | None = None) -> dict[str, Any]:
     return {"value": value, "status": status, "source_ids": source_ids, "notes": notes}
