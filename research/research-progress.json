@@ -262,6 +262,11 @@
       "result": "Rechecked the University of Bologna Artificial Intelligence degree profile and programme-enrolment page. The profile identifies an English-taught two-year MSc in Bologna, classes LM-18/LM-32, open access with a skills assessment, and DISI as the department. The enrolment page still links only the 2026/27 call and labels its admission requirements as a summary of that cycle; it contains no 2027/28 call or named 2027/28 intake. Current course identity is retained as 2026/27 evidence, while 2027/28 availability, dates, requirements, application fees, tuition and scholarships remain unconfirmed. Independent fresh PowerShell GETs with Cache-Control and Pragma no-cache returned HTTP 200 (304,424 and 345,713 bytes); neither response contained a 2027/28 marker."
     },
     {
+      "id": "unibo-dhdk-profile-2026-27-call-and-next-cycle-review",
+      "status": "partial",
+      "result": "Rechecked the University of Bologna Digital Humanities and Digital Knowledge profile, enrolment page and official 24-page 2026/27 admission notice. Confirmed the current profile as the English-taught LM-43 MSc in Bologna, open access with an assessment, under FICLIT. The currently linked 2026/27 notice has three expired application windows (11 March–2 April, 27 April–28 May, and 10 August–3 September 2026), online interviews, results from 15 April / 10 June / 11 September respectively, and matriculation by 19 November 2026. Its historical entry requirements include a qualifying degree, 24 relevant ECTS including at least 6 in Computer Science/Data Processing Systems, English B2, and an online interview; 2026/27 tuition is €157.04 fixed plus an ISEE-variable amount with a programme-dependent maximum. The live enrolment page links only that expired call; no 2027/28 intake, dates or terms are published. Those historical details are explicitly cycle-tagged and not carried forward. Fresh no-cache PowerShell/curl GETs returned HTTP 200 for all three sources (305,142; 343,603; and 554,964 bytes)."
+    },
+    {
       "id": "claude-independent-review-inventory",
       "status": "complete",
       "result": "Created a review manifest and checklist covering all 34 universities, 193 programs, and 454 existing official source records. The checklist exposes current unresolved fields and conflicts; all refresh outcomes remain pending until evidence is checked."
@@ -567,7 +572,7 @@
       "udine"
     ],
     "source_records": 583,
-    "official_source_supported_fields": 1238,
+    "official_source_supported_fields": 1241,
     "verification_statuses": [
       "CONFIRMED",
       "NOT_YET_PUBLISHED",

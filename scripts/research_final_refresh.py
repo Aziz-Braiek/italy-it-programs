@@ -125,16 +125,16 @@ SOURCES = [
         "id": "SRC-UNIBO-DHDK-PROFILE-2026",
         "university_id": "bologna", "title": "Digital Humanities and Digital Knowledge – official degree profile",
         "url": "https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge/",
-        "source_type": "Official degree programme profile", "accessed_at": "2026-11-10", "cycle": "2026-2027",
-        "evidence": "Official Bologna profile for the English-taught second-cycle Digital Humanities and Digital Knowledge degree in Bologna.",
+        "source_type": "Official degree programme profile", "accessed_at": "2026-11-11", "cycle": "2026-2027",
+        "evidence": "Checked 11 November 2026: identifies Digital Humanities and Digital Knowledge as an English-taught second-cycle programme in Bologna, LM-43, open access with an assessment, under the Department of Classical Philology and Italian Studies (FICLIT). This current profile does not name a 2027/28 intake.",
         "supports": ["program.name", "program.level", "program.language", "program.location"],
     },
     {
         "id": "SRC-UNIBO-DHDK-ADMISSIONS-2026",
         "university_id": "bologna", "title": "Digital Humanities and Digital Knowledge – 2026/27 admission page",
         "url": "https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge/how-to-enrol",
-        "source_type": "Official programme admission page", "accessed_at": "2026-11-10", "cycle": "2026-2027",
-        "evidence": "Links the expired 2026/27 admission call and describes qualification, interview and admission procedures. No 2027/28 call was linked on the reviewed page.",
+        "source_type": "Official programme admission page", "accessed_at": "2026-11-11", "cycle": "2026-2027",
+        "evidence": "Checked 11 November 2026: links only the expired 2026/27 call and describes the current admission summary. The current programme page contains no 2027/28 call or named intake.",
         "supports": ["program.previous_cycle_program_requirements", "program.previous_cycle_application_route"],
     },
     {
@@ -341,8 +341,8 @@ SOURCES = [
         "id": "SRC-UNIBO-DHDK-CALL-2026",
         "university_id": "bologna", "title": "Digital Humanities and Digital Knowledge – AY 2026/27 admission call",
         "url": "https://corsi.unibo.it/s/3391/p/en/digital-humanities-and-digital-knowledge-dhdk/call-dhdk-2026.pdf/@@download/file/Call%20DHDK%202026.pdf",
-        "source_type": "Official programme admission notice PDF", "accessed_at": "2026-11-10", "cycle": "2026-2027",
-        "evidence": "Admission notice explicitly names the Second Cycle Degree Programme in Digital Humanities and Digital Knowledge for AY 2026/27; not evidence for 2027/28.",
+        "source_type": "Official programme admission notice PDF", "accessed_at": "2026-11-11", "cycle": "2026-2027",
+        "evidence": "The 24-page notice explicitly names the degree for AY 2026/27. It specifies three expired application rounds, an online interview, curricular-credit and English B2 requirements, and the 2026/27 tuition structure; it is historical evidence only and does not establish 2027/28 availability or terms.",
         "supports": ["program.previous_cycle_course_listing", "program.previous_cycle_admission"],
     },
     {
@@ -1211,6 +1211,12 @@ BATCH16 = {
     "result": "Rechecked the University of Bologna Artificial Intelligence degree profile and programme-enrolment page. The profile identifies an English-taught two-year MSc in Bologna, classes LM-18/LM-32, open access with a skills assessment, and DISI as the department. The enrolment page still links only the 2026/27 call and labels its admission requirements as a summary of that cycle; it contains no 2027/28 call or named 2027/28 intake. Current course identity is retained as 2026/27 evidence, while 2027/28 availability, dates, requirements, application fees, tuition and scholarships remain unconfirmed. Independent fresh PowerShell GETs with Cache-Control and Pragma no-cache returned HTTP 200 (304,424 and 345,713 bytes); neither response contained a 2027/28 marker.",
 }
 
+BATCH17 = {
+    "id": "unibo-dhdk-profile-2026-27-call-and-next-cycle-review",
+    "status": "partial",
+    "result": "Rechecked the University of Bologna Digital Humanities and Digital Knowledge profile, enrolment page and official 24-page 2026/27 admission notice. Confirmed the current profile as the English-taught LM-43 MSc in Bologna, open access with an assessment, under FICLIT. The currently linked 2026/27 notice has three expired application windows (11 March–2 April, 27 April–28 May, and 10 August–3 September 2026), online interviews, results from 15 April / 10 June / 11 September respectively, and matriculation by 19 November 2026. Its historical entry requirements include a qualifying degree, 24 relevant ECTS including at least 6 in Computer Science/Data Processing Systems, English B2, and an online interview; 2026/27 tuition is €157.04 fixed plus an ISEE-variable amount with a programme-dependent maximum. The live enrolment page links only that expired call; no 2027/28 intake, dates or terms are published. Those historical details are explicitly cycle-tagged and not carried forward. Fresh no-cache PowerShell/curl GETs returned HTTP 200 for all three sources (305,142; 343,603; and 554,964 bytes).",
+}
+
 SOURCE_RECHECKS = {
     "SRC-UNIBO-AI-PROFILE-2026": {
         "accessed_at": "2026-11-11",
@@ -1258,6 +1264,78 @@ SOURCE_RECHECKS = {
             "error": None,
             "checked_at": "2026-11-11",
             "method": "GET with Cache-Control and Pragma no-cache (PowerShell)",
+        },
+    },
+    "SRC-UNIBO-DHDK-PROFILE-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200,
+            "effective_url": "https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge/",
+            "content_type": "text/html;charset=utf-8",
+            "content_length_header": None,
+            "etag": None,
+            "last_modified": None,
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "21",
+            "x_vercel_cache": None,
+            "x_vercel_id": None,
+            "location": None,
+            "observed_title": "Digital Humanities and Digital Knowledge - Laurea Magistrale - Bologna",
+            "pdf_signature": None,
+            "has_2027_marker": False,
+            "bytes_read": 305142,
+            "outcome": "accessible",
+            "error": None,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)",
+        },
+    },
+    "SRC-UNIBO-DHDK-ADMISSIONS-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200,
+            "effective_url": "https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge/how-to-enrol",
+            "content_type": "text/html;charset=utf-8",
+            "content_length_header": None,
+            "etag": None,
+            "last_modified": None,
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "71",
+            "x_vercel_cache": None,
+            "x_vercel_id": None,
+            "location": None,
+            "observed_title": "Programme enrolment: requirements, deadlines and methods — Digital Humanities and Digital Knowledge - Laurea Magistrale - Bologna",
+            "pdf_signature": None,
+            "has_2027_marker": False,
+            "bytes_read": 343603,
+            "outcome": "accessible",
+            "error": None,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)",
+        },
+    },
+    "SRC-UNIBO-DHDK-CALL-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200,
+            "effective_url": "https://corsi.unibo.it/s/3391/p/en/digital-humanities-and-digital-knowledge-dhdk/call-dhdk-2026.pdf/@@download/file/Call%20DHDK%202026.pdf",
+            "content_type": "application/pdf",
+            "content_length_header": None,
+            "etag": None,
+            "last_modified": "Fri, 20 Feb 2026 10:54:26 GMT",
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "28",
+            "x_vercel_cache": None,
+            "x_vercel_id": None,
+            "location": None,
+            "observed_title": None,
+            "pdf_signature": True,
+            "has_2027_marker": False,
+            "bytes_read": 554964,
+            "outcome": "accessible",
+            "error": None,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)",
         },
     },
 }
@@ -1370,6 +1448,36 @@ def apply_legacy_course_reviews(programs: list[dict[str, Any]], fact: Callable[.
     prior(by_id["legacy-019"], official_name="Artificial intelligence", level="MSc", language="English",
           field="Artificial Intelligence", source_ids=["SRC-UNIBO-AI-PROFILE-2026", "SRC-UNIBO-AI-ADMISSIONS-2026"],
           cycle="2026-2027", checked_at="2026-11-11")
+
+    prior(by_id["legacy-021"], official_name="Digital Humanities and Digital Knowledge", level="MSc", language="English",
+          field="Digital Humanities", source_ids=["SRC-UNIBO-DHDK-PROFILE-2026", "SRC-UNIBO-DHDK-ADMISSIONS-2026", "SRC-UNIBO-DHDK-CALL-2026"],
+          cycle="2026-2027", checked_at="2026-11-11")
+    dhdk = by_id["legacy-021"]
+    dhdk_call = "SRC-UNIBO-DHDK-CALL-2026"
+    dhdk["facts"]["previous_cycle_application_windows"] = _fact(
+        [
+            {"intake": 1, "opening": "2026-03-11", "deadline": "2026-04-02", "results_from": "2026-04-15", "interview_window": ["2026-04-20", "2026-05-08"]},
+            {"intake": 2, "opening": "2026-04-27", "deadline": "2026-05-28", "results_from": "2026-06-10", "interview_window": ["2026-06-15", "2026-07-03"]},
+            {"intake": 3, "opening": "2026-08-10", "deadline": "2026-09-03", "results_from": "2026-09-11", "interview_window": ["2026-09-17", "2026-09-25"]},
+        ],
+        "CONFIRMED", [dhdk_call],
+        "These deadlines and interview windows are from the official 2026/27 notice and are expired. The notice sets matriculation by 19 November 2026 for all three intakes. They are not 2027/28 dates.",
+    )
+    dhdk["facts"]["previous_cycle_program_requirements"] = _fact(
+        {"qualification":"First-cycle degree or suitable foreign equivalent", "italian_degree_classes":["L-1", "L-3", "L-5", "L-8", "L-10", "L-11", "L-12", "L-15", "L-19", "L-20", "L-31", "L-42", "L-43"], "curricular_credits":"At least 24 ECTS across the listed humanities, language, cultural-heritage and computing subject areas, including at least 6 ECTS in INF/01 or ING-INF/05 for Italian degrees", "english":"CEFR B2", "assessment":"Remote oral interview on prior digital-humanities experience and compulsory/suggested readings"},
+        "CONFIRMED", [dhdk_call],
+        "Historical 2026/27 entry rules. Foreign degrees are assessed as equivalent; this detail must be rechecked against the forthcoming 2027/28 notice.",
+    )
+    dhdk["facts"]["previous_cycle_tuition"] = _fact(
+        {"academic_year":"2026/27", "fixed_fee_eur":157.04, "variable_fee":"ISEE-based; maximum varies by programme", "programme_maximum_published_in_notice":False},
+        "CONFIRMED", [dhdk_call],
+        "Historical 2026/27 tuition framework only. The notice directs students to the annual fee page and does not state the programme-specific maximum; do not present this as 2027/28 tuition.",
+    )
+    dhdk["facts"]["application_fee_2026_2027"] = _fact(
+        None, "UNAVAILABLE", [dhdk_call],
+        "The reviewed 2026/27 admission notice does not state a programme-specific application fee; no amount is inferred.",
+    )
+    dhdk["last_checked"] = "2026-11-11"
 
     business_analytics = by_id["legacy-022"]
     business_analytics_sources = ["SRC-UNIBO-BA-CURRICULUM-2026", "SRC-UNIBO-BA-CURRICULUM-PARENT-2026", "SRC-UNIBO-BA-BBS-2026"]

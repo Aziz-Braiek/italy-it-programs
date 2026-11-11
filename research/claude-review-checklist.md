@@ -2162,8 +2162,8 @@ Official university-level sources:
 - [ ] `SRC-UNIBO-GRENFIN-2027-CALL` — [Greening Energy Market and Finance – AY 2027/28 admission notice](https://corsi.unibo.it/s/3394/p/en/enrolling-grenfin/avvisolm-grenfin-emjm-27-28_en-2-prot.pdf/@@download/file/AvvisoLM-GrEnFIn-EMJM-27-28_EN-2-PROT.pdf) (cycle: 2027-2028; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-UNIBO-AI-PROFILE-2026` — [Artificial Intelligence – official degree profile](https://corsi.unibo.it/2cycle/artificial-intelligence/) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-UNIBO-AI-ADMISSIONS-2026` — [Artificial Intelligence – 2026/27 admission requirements and call](https://corsi.unibo.it/2cycle/artificial-intelligence/how-to-enrol) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
-- [ ] `SRC-UNIBO-DHDK-PROFILE-2026` — [Digital Humanities and Digital Knowledge – official degree profile](https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge/) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
-- [ ] `SRC-UNIBO-DHDK-ADMISSIONS-2026` — [Digital Humanities and Digital Knowledge – 2026/27 admission page](https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge/how-to-enrol) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIBO-DHDK-PROFILE-2026` — [Digital Humanities and Digital Knowledge – official degree profile](https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge/) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-UNIBO-DHDK-ADMISSIONS-2026` — [Digital Humanities and Digital Knowledge – 2026/27 admission page](https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge/how-to-enrol) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-UNIBO-BA-CURRICULUM-2026` — [Business Analytics – current official curriculum profile](https://corsi.unibo.it/2cycle/BusinessAnalytics/overview) (cycle: general; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-UNIBO-BA-CURRICULUM-PARENT-2026` — [Statistics, Economics and Business – current parent degree profile](https://corsi.unibo.it/2cycle/StatisticsEconomicsBusiness) (cycle: general; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-UNIBO-MES-PROFILE-2026` — [Mechanical Engineering for Sustainability – official degree profile](https://corsi.unibo.it/2cycle/MechanicalEngineering-Forli) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
@@ -2189,7 +2189,7 @@ Official university-level sources:
 - [ ] `SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026` — [Economia e commercio – official Forlì campus course page](https://corsi.unibo.it/laurea/EconomiaCommercio/sedute-di-laurea) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-UNIBO-REGULAR-COURSES-2026` — [University of Bologna regular degree course catalogue](https://corsi.unibo.it/) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-UNIBO-CLABE-PROGRAM-CODE-2026` — [Business and Economics – official course code and programme profile](https://corsi.unibo.it/1cycle/CLaBE/prospects) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
-- [ ] `SRC-UNIBO-DHDK-CALL-2026` — [Digital Humanities and Digital Knowledge – AY 2026/27 admission call](https://corsi.unibo.it/s/3391/p/en/digital-humanities-and-digital-knowledge-dhdk/call-dhdk-2026.pdf/@@download/file/Call%20DHDK%202026.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIBO-DHDK-CALL-2026` — [Digital Humanities and Digital Knowledge – AY 2026/27 admission call](https://corsi.unibo.it/s/3391/p/en/digital-humanities-and-digital-knowledge-dhdk/call-dhdk-2026.pdf/@@download/file/Call%20DHDK%202026.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-UNIBO-COMM-ADMISSION-2026` — [Scienze della comunicazione – 2026/27 admissions page](https://corsi.unibo.it/laurea/ScienzeComunicazione/iscriversi-al-corso) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-UNIBO-LAW-COURSE-2026` — [Giurisprudenza – 2026/27 programme regulation](https://corsi.unibo.it/magistralecu/Giurisprudenza-Bologna/il-corso/all-e-regolamento-parte-normativa-26-27.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-BBS-DSBA-2027` — [Data Science and Business Analytics – 2027/28 BBS Professional Master](https://www.bbs.unibo.it/en/master-fulltime/master-in-data-science-2/) (cycle: 2027-2028; checked in prior snapshot: 2026-11-11)
@@ -2232,22 +2232,23 @@ Currently missing or unpublished fields:
 
 #### Digital Humanities and Digital Knowledge — `legacy-021`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-021/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
-- [ ] `SRC-UNIBO-DHDK-CALL-2026` — [Digital Humanities and Digital Knowledge – AY 2026/27 admission call](https://corsi.unibo.it/s/3391/p/en/digital-humanities-and-digital-knowledge-dhdk/call-dhdk-2026.pdf/@@download/file/Call%20DHDK%202026.pdf) (cycle: 2026-2027; prior check: 2026-11-10)
-- [ ] `SRC-UNIBO-DHDK-ADMISSIONS-2026` — [Digital Humanities and Digital Knowledge – 2026/27 admission page](https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge/how-to-enrol) (cycle: 2026-2027; prior check: 2026-11-10)
-- [ ] `SRC-UNIBO-DHDK-PROFILE-2026` — [Digital Humanities and Digital Knowledge – official degree profile](https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge/) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-UNIBO-DHDK-CALL-2026` — [Digital Humanities and Digital Knowledge – AY 2026/27 admission call](https://corsi.unibo.it/s/3391/p/en/digital-humanities-and-digital-knowledge-dhdk/call-dhdk-2026.pdf/@@download/file/Call%20DHDK%202026.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-UNIBO-DHDK-ADMISSIONS-2026` — [Digital Humanities and Digital Knowledge – 2026/27 admission page](https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge/how-to-enrol) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-UNIBO-DHDK-PROFILE-2026` — [Digital Humanities and Digital Knowledge – official degree profile](https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge/) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
-  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
-  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
-  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
-  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
-  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-11. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-11; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; annual university and regional calls still need checking.
   - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
+  - `facts.application_fee_2026_2027` — `UNAVAILABLE` — The reviewed 2026/27 admission notice does not state a programme-specific application fee; no amount is inferred.
 
 #### Statistics, Economics and Business — Business Analytics curriculum — `legacy-022`
 

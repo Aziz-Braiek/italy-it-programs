@@ -9677,8 +9677,8 @@
           "url": "https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge/",
           "source_type": "Official degree programme profile",
           "cycle": "2026-2027",
-          "accessed_at": "2026-11-10",
-          "evidence": "Official Bologna profile for the English-taught second-cycle Digital Humanities and Digital Knowledge degree in Bologna.",
+          "accessed_at": "2026-11-11",
+          "evidence": "Checked 11 November 2026: identifies Digital Humanities and Digital Knowledge as an English-taught second-cycle programme in Bologna, LM-43, open access with an assessment, under the Department of Classical Philology and Italian Studies (FICLIT). This current profile does not name a 2027/28 intake.",
           "supports": [
             "program.name",
             "program.level",
@@ -9693,19 +9693,19 @@
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
-            "cache_control": "max-age=0, s-maxage=0, must-revalidate",
-            "age": "1834",
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "21",
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
             "observed_title": "Digital Humanities and Digital Knowledge - Laurea Magistrale - Bologna",
             "pdf_signature": null,
             "has_2027_marker": false,
-            "bytes_read": 131072,
+            "bytes_read": 305142,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
-            "method": "GET"
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)"
           },
           "browser_check": null
         },
@@ -9715,8 +9715,8 @@
           "url": "https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge/how-to-enrol",
           "source_type": "Official programme admission page",
           "cycle": "2026-2027",
-          "accessed_at": "2026-11-10",
-          "evidence": "Links the expired 2026/27 admission call and describes qualification, interview and admission procedures. No 2027/28 call was linked on the reviewed page.",
+          "accessed_at": "2026-11-11",
+          "evidence": "Checked 11 November 2026: links only the expired 2026/27 call and describes the current admission summary. The current programme page contains no 2027/28 call or named intake.",
           "supports": [
             "program.previous_cycle_program_requirements",
             "program.previous_cycle_application_route"
@@ -9729,19 +9729,19 @@
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
-            "cache_control": "max-age=0, s-maxage=0, must-revalidate",
-            "age": "3485",
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "71",
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
             "observed_title": "Programme enrolment: requirements, deadlines and methods — Digital Humanities and Digital Knowledge - Laurea Magistrale - Bologna",
             "pdf_signature": null,
             "has_2027_marker": false,
-            "bytes_read": 131072,
+            "bytes_read": 343603,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
-            "method": "GET"
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)"
           },
           "browser_check": null
         },
@@ -10713,33 +10713,33 @@
           "url": "https://corsi.unibo.it/s/3391/p/en/digital-humanities-and-digital-knowledge-dhdk/call-dhdk-2026.pdf/@@download/file/Call%20DHDK%202026.pdf",
           "source_type": "Official programme admission notice PDF",
           "cycle": "2026-2027",
-          "accessed_at": "2026-11-10",
-          "evidence": "Admission notice explicitly names the Second Cycle Degree Programme in Digital Humanities and Digital Knowledge for AY 2026/27; not evidence for 2027/28.",
+          "accessed_at": "2026-11-11",
+          "evidence": "The 24-page notice explicitly names the degree for AY 2026/27. It specifies three expired application rounds, an online interview, curricular-credit and English B2 requirements, and the 2026/27 tuition structure; it is historical evidence only and does not establish 2027/28 availability or terms.",
           "supports": [
             "program.previous_cycle_course_listing",
             "program.previous_cycle_admission"
           ],
           "refresh_status": "accessible",
           "url_check": {
-            "http_status": 206,
+            "http_status": 200,
             "effective_url": "https://corsi.unibo.it/s/3391/p/en/digital-humanities-and-digital-knowledge-dhdk/call-dhdk-2026.pdf/@@download/file/Call%20DHDK%202026.pdf",
             "content_type": "application/pdf",
-            "content_length_header": "4096",
+            "content_length_header": null,
             "etag": null,
             "last_modified": "Fri, 20 Feb 2026 10:54:26 GMT",
-            "cache_control": "max-age=0, s-maxage=0, must-revalidate",
-            "age": "3485",
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "28",
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
             "observed_title": null,
             "pdf_signature": true,
-            "has_2027_marker": null,
-            "bytes_read": 4096,
+            "has_2027_marker": false,
+            "bytes_read": 554964,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
-            "method": "GET with byte range for PDF sources"
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)"
           },
           "browser_check": null
         },
@@ -57840,33 +57840,33 @@
           "url": "https://corsi.unibo.it/s/3391/p/en/digital-humanities-and-digital-knowledge-dhdk/call-dhdk-2026.pdf/@@download/file/Call%20DHDK%202026.pdf",
           "source_type": "Official programme admission notice PDF",
           "cycle": "2026-2027",
-          "accessed_at": "2026-11-10",
-          "evidence": "Admission notice explicitly names the Second Cycle Degree Programme in Digital Humanities and Digital Knowledge for AY 2026/27; not evidence for 2027/28.",
+          "accessed_at": "2026-11-11",
+          "evidence": "The 24-page notice explicitly names the degree for AY 2026/27. It specifies three expired application rounds, an online interview, curricular-credit and English B2 requirements, and the 2026/27 tuition structure; it is historical evidence only and does not establish 2027/28 availability or terms.",
           "supports": [
             "program.previous_cycle_course_listing",
             "program.previous_cycle_admission"
           ],
           "refresh_status": "accessible",
           "url_check": {
-            "http_status": 206,
+            "http_status": 200,
             "effective_url": "https://corsi.unibo.it/s/3391/p/en/digital-humanities-and-digital-knowledge-dhdk/call-dhdk-2026.pdf/@@download/file/Call%20DHDK%202026.pdf",
             "content_type": "application/pdf",
-            "content_length_header": "4096",
+            "content_length_header": null,
             "etag": null,
             "last_modified": "Fri, 20 Feb 2026 10:54:26 GMT",
-            "cache_control": "max-age=0, s-maxage=0, must-revalidate",
-            "age": "3485",
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "28",
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
             "observed_title": null,
             "pdf_signature": true,
-            "has_2027_marker": null,
-            "bytes_read": 4096,
+            "has_2027_marker": false,
+            "bytes_read": 554964,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
-            "method": "GET with byte range for PDF sources"
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)"
           },
           "browser_check": null
         },
@@ -57876,8 +57876,8 @@
           "url": "https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge/how-to-enrol",
           "source_type": "Official programme admission page",
           "cycle": "2026-2027",
-          "accessed_at": "2026-11-10",
-          "evidence": "Links the expired 2026/27 admission call and describes qualification, interview and admission procedures. No 2027/28 call was linked on the reviewed page.",
+          "accessed_at": "2026-11-11",
+          "evidence": "Checked 11 November 2026: links only the expired 2026/27 call and describes the current admission summary. The current programme page contains no 2027/28 call or named intake.",
           "supports": [
             "program.previous_cycle_program_requirements",
             "program.previous_cycle_application_route"
@@ -57890,19 +57890,19 @@
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
-            "cache_control": "max-age=0, s-maxage=0, must-revalidate",
-            "age": "3485",
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "71",
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
             "observed_title": "Programme enrolment: requirements, deadlines and methods — Digital Humanities and Digital Knowledge - Laurea Magistrale - Bologna",
             "pdf_signature": null,
             "has_2027_marker": false,
-            "bytes_read": 131072,
+            "bytes_read": 343603,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
-            "method": "GET"
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)"
           },
           "browser_check": null
         },
@@ -57912,8 +57912,8 @@
           "url": "https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge/",
           "source_type": "Official degree programme profile",
           "cycle": "2026-2027",
-          "accessed_at": "2026-11-10",
-          "evidence": "Official Bologna profile for the English-taught second-cycle Digital Humanities and Digital Knowledge degree in Bologna.",
+          "accessed_at": "2026-11-11",
+          "evidence": "Checked 11 November 2026: identifies Digital Humanities and Digital Knowledge as an English-taught second-cycle programme in Bologna, LM-43, open access with an assessment, under the Department of Classical Philology and Italian Studies (FICLIT). This current profile does not name a 2027/28 intake.",
           "supports": [
             "program.name",
             "program.level",
@@ -57928,19 +57928,19 @@
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
-            "cache_control": "max-age=0, s-maxage=0, must-revalidate",
-            "age": "1834",
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "21",
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
             "observed_title": "Digital Humanities and Digital Knowledge - Laurea Magistrale - Bologna",
             "pdf_signature": null,
             "has_2027_marker": false,
-            "bytes_read": 131072,
+            "bytes_read": 305142,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
-            "method": "GET"
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)"
           },
           "browser_check": null
         }
@@ -57953,10 +57953,10 @@
           "SRC-UNIBO-DHDK-ADMISSIONS-2026",
           "SRC-UNIBO-DHDK-CALL-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued."
+        "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-11. This does not mean discontinued."
       },
       "existing_overall_status": "REQUIRES_VERIFICATION",
-      "existing_last_checked": "2026-11-10",
+      "existing_last_checked": "2026-11-11",
       "fields_needing_review": [
         {
           "field": "level",
@@ -57995,7 +57995,7 @@
           "field": "availability_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.",
+          "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-11. This does not mean discontinued.",
           "source_ids": [
             "SRC-UNIBO-DHDK-PROFILE-2026",
             "SRC-UNIBO-DHDK-ADMISSIONS-2026",
@@ -58006,7 +58006,7 @@
           "field": "facts.application_windows",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.",
+          "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-11; do not reuse 2026/27 dates.",
           "source_ids": [
             "SRC-UNIBO-DHDK-PROFILE-2026",
             "SRC-UNIBO-DHDK-ADMISSIONS-2026",
@@ -58017,7 +58017,7 @@
           "field": "facts.application_fee_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.",
+          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; check the annual call and application portal.",
           "source_ids": [
             "SRC-UNIBO-DHDK-PROFILE-2026",
             "SRC-UNIBO-DHDK-ADMISSIONS-2026",
@@ -58028,7 +58028,7 @@
           "field": "facts.program_specific_requirements_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.",
+          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; any 2026/27 criteria are historical only.",
           "source_ids": [
             "SRC-UNIBO-DHDK-PROFILE-2026",
             "SRC-UNIBO-DHDK-ADMISSIONS-2026",
@@ -58039,7 +58039,7 @@
           "field": "facts.tuition_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.",
+          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; do not carry forward prior-cycle amounts.",
           "source_ids": [
             "SRC-UNIBO-DHDK-PROFILE-2026",
             "SRC-UNIBO-DHDK-ADMISSIONS-2026",
@@ -58050,7 +58050,7 @@
           "field": "facts.scholarships_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.",
+          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; annual university and regional calls still need checking.",
           "source_ids": [
             "SRC-UNIBO-DHDK-PROFILE-2026",
             "SRC-UNIBO-DHDK-ADMISSIONS-2026",
@@ -58065,6 +58065,15 @@
           "source_ids": [
             "SRC-UNIBO-DHDK-PROFILE-2026",
             "SRC-UNIBO-DHDK-ADMISSIONS-2026",
+            "SRC-UNIBO-DHDK-CALL-2026"
+          ]
+        },
+        {
+          "field": "facts.application_fee_2026_2027",
+          "status": "UNAVAILABLE",
+          "value": null,
+          "notes": "The reviewed 2026/27 admission notice does not state a programme-specific application fee; no amount is inferred.",
+          "source_ids": [
             "SRC-UNIBO-DHDK-CALL-2026"
           ]
         }
@@ -58074,7 +58083,7 @@
           "field": "availability_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.",
+          "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-11. This does not mean discontinued.",
           "source_ids": [
             "SRC-UNIBO-DHDK-PROFILE-2026",
             "SRC-UNIBO-DHDK-ADMISSIONS-2026",
@@ -58085,7 +58094,7 @@
           "field": "facts.application_windows",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.",
+          "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-11; do not reuse 2026/27 dates.",
           "source_ids": [
             "SRC-UNIBO-DHDK-PROFILE-2026",
             "SRC-UNIBO-DHDK-ADMISSIONS-2026",
@@ -58096,7 +58105,7 @@
           "field": "facts.application_fee_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.",
+          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; check the annual call and application portal.",
           "source_ids": [
             "SRC-UNIBO-DHDK-PROFILE-2026",
             "SRC-UNIBO-DHDK-ADMISSIONS-2026",
@@ -58107,7 +58116,7 @@
           "field": "facts.program_specific_requirements_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.",
+          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; any 2026/27 criteria are historical only.",
           "source_ids": [
             "SRC-UNIBO-DHDK-PROFILE-2026",
             "SRC-UNIBO-DHDK-ADMISSIONS-2026",
@@ -58118,7 +58127,7 @@
           "field": "facts.tuition_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.",
+          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; do not carry forward prior-cycle amounts.",
           "source_ids": [
             "SRC-UNIBO-DHDK-PROFILE-2026",
             "SRC-UNIBO-DHDK-ADMISSIONS-2026",
@@ -58129,7 +58138,7 @@
           "field": "facts.scholarships_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.",
+          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; annual university and regional calls still need checking.",
           "source_ids": [
             "SRC-UNIBO-DHDK-PROFILE-2026",
             "SRC-UNIBO-DHDK-ADMISSIONS-2026",
@@ -58144,6 +58153,15 @@
           "source_ids": [
             "SRC-UNIBO-DHDK-PROFILE-2026",
             "SRC-UNIBO-DHDK-ADMISSIONS-2026",
+            "SRC-UNIBO-DHDK-CALL-2026"
+          ]
+        },
+        {
+          "field": "facts.application_fee_2026_2027",
+          "status": "UNAVAILABLE",
+          "value": null,
+          "notes": "The reviewed 2026/27 admission notice does not state a programme-specific application fee; no amount is inferred.",
+          "source_ids": [
             "SRC-UNIBO-DHDK-CALL-2026"
           ]
         }
@@ -122360,8 +122378,8 @@
       "url": "https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge/",
       "source_type": "Official degree programme profile",
       "cycle": "2026-2027",
-      "accessed_at": "2026-11-10",
-      "evidence": "Official Bologna profile for the English-taught second-cycle Digital Humanities and Digital Knowledge degree in Bologna.",
+      "accessed_at": "2026-11-11",
+      "evidence": "Checked 11 November 2026: identifies Digital Humanities and Digital Knowledge as an English-taught second-cycle programme in Bologna, LM-43, open access with an assessment, under the Department of Classical Philology and Italian Studies (FICLIT). This current profile does not name a 2027/28 intake.",
       "supports": [
         "program.name",
         "program.level",
@@ -122376,19 +122394,19 @@
         "content_length_header": null,
         "etag": null,
         "last_modified": null,
-        "cache_control": "max-age=0, s-maxage=0, must-revalidate",
-        "age": "1834",
+        "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+        "age": "21",
         "x_vercel_cache": null,
         "x_vercel_id": null,
         "location": null,
         "observed_title": "Digital Humanities and Digital Knowledge - Laurea Magistrale - Bologna",
         "pdf_signature": null,
         "has_2027_marker": false,
-        "bytes_read": 131072,
+        "bytes_read": 305142,
         "outcome": "accessible",
         "error": null,
-        "checked_at": "2026-11-10",
-        "method": "GET"
+        "checked_at": "2026-11-11",
+        "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)"
       },
       "browser_check": null
     },
@@ -122398,8 +122416,8 @@
       "url": "https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge/how-to-enrol",
       "source_type": "Official programme admission page",
       "cycle": "2026-2027",
-      "accessed_at": "2026-11-10",
-      "evidence": "Links the expired 2026/27 admission call and describes qualification, interview and admission procedures. No 2027/28 call was linked on the reviewed page.",
+      "accessed_at": "2026-11-11",
+      "evidence": "Checked 11 November 2026: links only the expired 2026/27 call and describes the current admission summary. The current programme page contains no 2027/28 call or named intake.",
       "supports": [
         "program.previous_cycle_program_requirements",
         "program.previous_cycle_application_route"
@@ -122412,19 +122430,19 @@
         "content_length_header": null,
         "etag": null,
         "last_modified": null,
-        "cache_control": "max-age=0, s-maxage=0, must-revalidate",
-        "age": "3485",
+        "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+        "age": "71",
         "x_vercel_cache": null,
         "x_vercel_id": null,
         "location": null,
         "observed_title": "Programme enrolment: requirements, deadlines and methods — Digital Humanities and Digital Knowledge - Laurea Magistrale - Bologna",
         "pdf_signature": null,
         "has_2027_marker": false,
-        "bytes_read": 131072,
+        "bytes_read": 343603,
         "outcome": "accessible",
         "error": null,
-        "checked_at": "2026-11-10",
-        "method": "GET"
+        "checked_at": "2026-11-11",
+        "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)"
       },
       "browser_check": null
     },
@@ -123396,33 +123414,33 @@
       "url": "https://corsi.unibo.it/s/3391/p/en/digital-humanities-and-digital-knowledge-dhdk/call-dhdk-2026.pdf/@@download/file/Call%20DHDK%202026.pdf",
       "source_type": "Official programme admission notice PDF",
       "cycle": "2026-2027",
-      "accessed_at": "2026-11-10",
-      "evidence": "Admission notice explicitly names the Second Cycle Degree Programme in Digital Humanities and Digital Knowledge for AY 2026/27; not evidence for 2027/28.",
+      "accessed_at": "2026-11-11",
+      "evidence": "The 24-page notice explicitly names the degree for AY 2026/27. It specifies three expired application rounds, an online interview, curricular-credit and English B2 requirements, and the 2026/27 tuition structure; it is historical evidence only and does not establish 2027/28 availability or terms.",
       "supports": [
         "program.previous_cycle_course_listing",
         "program.previous_cycle_admission"
       ],
       "refresh_status": "accessible",
       "url_check": {
-        "http_status": 206,
+        "http_status": 200,
         "effective_url": "https://corsi.unibo.it/s/3391/p/en/digital-humanities-and-digital-knowledge-dhdk/call-dhdk-2026.pdf/@@download/file/Call%20DHDK%202026.pdf",
         "content_type": "application/pdf",
-        "content_length_header": "4096",
+        "content_length_header": null,
         "etag": null,
         "last_modified": "Fri, 20 Feb 2026 10:54:26 GMT",
-        "cache_control": "max-age=0, s-maxage=0, must-revalidate",
-        "age": "3485",
+        "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+        "age": "28",
         "x_vercel_cache": null,
         "x_vercel_id": null,
         "location": null,
         "observed_title": null,
         "pdf_signature": true,
-        "has_2027_marker": null,
-        "bytes_read": 4096,
+        "has_2027_marker": false,
+        "bytes_read": 554964,
         "outcome": "accessible",
         "error": null,
-        "checked_at": "2026-11-10",
-        "method": "GET with byte range for PDF sources"
+        "checked_at": "2026-11-11",
+        "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)"
       },
       "browser_check": null
     },

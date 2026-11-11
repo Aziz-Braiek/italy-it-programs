@@ -3934,7 +3934,7 @@
         "SRC-UNIBO-DHDK-ADMISSIONS-2026",
         "SRC-UNIBO-DHDK-CALL-2026"
       ],
-      "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued."
+      "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-11. This does not mean discontinued."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
@@ -3962,7 +3962,7 @@
           "SRC-UNIBO-DHDK-ADMISSIONS-2026",
           "SRC-UNIBO-DHDK-CALL-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates."
+        "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-11; do not reuse 2026/27 dates."
       },
       "application_fee_2027_2028": {
         "value": null,
@@ -3972,7 +3972,7 @@
           "SRC-UNIBO-DHDK-ADMISSIONS-2026",
           "SRC-UNIBO-DHDK-CALL-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal."
+        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; check the annual call and application portal."
       },
       "program_specific_requirements_2027_2028": {
         "value": null,
@@ -3982,7 +3982,7 @@
           "SRC-UNIBO-DHDK-ADMISSIONS-2026",
           "SRC-UNIBO-DHDK-CALL-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only."
+        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; any 2026/27 criteria are historical only."
       },
       "tuition_2027_2028": {
         "value": null,
@@ -3992,7 +3992,7 @@
           "SRC-UNIBO-DHDK-ADMISSIONS-2026",
           "SRC-UNIBO-DHDK-CALL-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts."
+        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; do not carry forward prior-cycle amounts."
       },
       "scholarships_2027_2028": {
         "value": null,
@@ -4002,7 +4002,7 @@
           "SRC-UNIBO-DHDK-ADMISSIONS-2026",
           "SRC-UNIBO-DHDK-CALL-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking."
+        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; annual university and regional calls still need checking."
       },
       "acceptance_rate": {
         "value": null,
@@ -4013,6 +4013,94 @@
           "SRC-UNIBO-DHDK-CALL-2026"
         ],
         "notes": "The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred."
+      },
+      "previous_cycle_application_windows": {
+        "value": [
+          {
+            "intake": 1,
+            "opening": "2026-03-11",
+            "deadline": "2026-04-02",
+            "results_from": "2026-04-15",
+            "interview_window": [
+              "2026-04-20",
+              "2026-05-08"
+            ]
+          },
+          {
+            "intake": 2,
+            "opening": "2026-04-27",
+            "deadline": "2026-05-28",
+            "results_from": "2026-06-10",
+            "interview_window": [
+              "2026-06-15",
+              "2026-07-03"
+            ]
+          },
+          {
+            "intake": 3,
+            "opening": "2026-08-10",
+            "deadline": "2026-09-03",
+            "results_from": "2026-09-11",
+            "interview_window": [
+              "2026-09-17",
+              "2026-09-25"
+            ]
+          }
+        ],
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-DHDK-CALL-2026"
+        ],
+        "notes": "These deadlines and interview windows are from the official 2026/27 notice and are expired. The notice sets matriculation by 19 November 2026 for all three intakes. They are not 2027/28 dates."
+      },
+      "previous_cycle_program_requirements": {
+        "value": {
+          "qualification": "First-cycle degree or suitable foreign equivalent",
+          "italian_degree_classes": [
+            "L-1",
+            "L-3",
+            "L-5",
+            "L-8",
+            "L-10",
+            "L-11",
+            "L-12",
+            "L-15",
+            "L-19",
+            "L-20",
+            "L-31",
+            "L-42",
+            "L-43"
+          ],
+          "curricular_credits": "At least 24 ECTS across the listed humanities, language, cultural-heritage and computing subject areas, including at least 6 ECTS in INF/01 or ING-INF/05 for Italian degrees",
+          "english": "CEFR B2",
+          "assessment": "Remote oral interview on prior digital-humanities experience and compulsory/suggested readings"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-DHDK-CALL-2026"
+        ],
+        "notes": "Historical 2026/27 entry rules. Foreign degrees are assessed as equivalent; this detail must be rechecked against the forthcoming 2027/28 notice."
+      },
+      "previous_cycle_tuition": {
+        "value": {
+          "academic_year": "2026/27",
+          "fixed_fee_eur": 157.04,
+          "variable_fee": "ISEE-based; maximum varies by programme",
+          "programme_maximum_published_in_notice": false
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-DHDK-CALL-2026"
+        ],
+        "notes": "Historical 2026/27 tuition framework only. The notice directs students to the annual fee page and does not state the programme-specific maximum; do not present this as 2027/28 tuition."
+      },
+      "application_fee_2026_2027": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-UNIBO-DHDK-CALL-2026"
+        ],
+        "notes": "The reviewed 2026/27 admission notice does not state a programme-specific application fee; no amount is inferred."
       }
     },
     "source_ids": [
@@ -4033,7 +4121,7 @@
       "cycle": "2026-2027",
       "label": "Official course identity checked for 2026/2027; 2027/28 first-year intake and terms remain unconfirmed"
     },
-    "last_checked": "2026-11-10"
+    "last_checked": "2026-11-11"
   },
   {
     "id": "legacy-022",
