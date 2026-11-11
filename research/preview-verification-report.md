@@ -19,6 +19,8 @@ The ordinary preview URL redirects to Vercel login. A deployment-specific sharea
 
 The project retains Vercel Authentication with `ssoProtection.enabled=true` and `deploymentType=all_except_custom_domains`. Password and trusted-IP settings were read before and after sharing and are unchanged. No project-wide protection switch, domain exception, project automation bypass, production alias or production deployment was changed. Only this immutable preview has been shared.
 
+A separate content-fetch tool returned an inaccessible/internal-error result for the root and `legacy-020` page with the complete share query. It supplied no HTTP response establishing the cause. Claude Web's own fetcher has not been tested. Fresh browser and cookie-enabled HTTP access are verified; access by every AI fetcher is not. The package therefore includes all 243 verified detail-page HTML snapshots and 34 university text snapshots for upload alongside the datasets when a fetcher cannot open the preview. Each HTML snapshot is checked against the captured live response hash after LF normalization.
+
 ## Saved-data and build checks
 
 The data build, data audit, manifest generation and static build all passed. Regenerating the research snapshot at 3030be1 produced zero tracked changes. Manifest inventories cover every stable program, university and source ID; all linked source IDs resolve. All 209 program pages and 34 university pages exist locally.
@@ -53,4 +55,4 @@ Before/after production homepage SHA-256 is unchanged: `79c61d9233ef944dbae52114
 
 ## Package checks
 
-Independent package validation covers ZIP CRC, SHA-256 inventories, byte-identical saved research files, 34 self-contained university batches, all 209 program IDs exactly once, all 700 source records and cross-university source references. The derived checklist, manifest and inventory preserve the share query on individual page links. The issue index includes 1,921 unresolved/verification fields, 26 classified conflicts, one broken source, three inconclusive sources and 13 redirects. The final package must be regenerated after the handoff commit so provenance identifies the saved files.
+Independent package validation covers ZIP CRC, SHA-256 inventories, byte-identical saved research files, 34 self-contained university batches, all 209 program IDs exactly once, all 700 source records and cross-university source references. The derived checklist, manifest and inventory preserve the share query on individual page links. Website HTML snapshots are matched to the 243 live detail-page hashes and grouped into 34 text uploads. The issue index includes 1,921 unresolved/verification fields, 26 classified conflicts, one broken source, three inconclusive sources and 13 redirects. The final package must be regenerated after the handoff commit so provenance identifies the saved files.

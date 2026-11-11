@@ -19,7 +19,9 @@ Use `review/claude-review-manifest-preview.json` and `review/claude-review-check
 
 The issue index includes 1,921 fields marked unresolved or requiring verification, 26 classified source conflicts, one broken historical source, three inconclusive source checks and 13 redirects. These are review priorities, not a list of independently confirmed errors. Use the package's discrepancy response template to return a record ID, field path, current value, proposed correction, applicable academic year, evidence URL, verification date, confidence and severity for each finding.
 
-The full archive is approximately 2.6 MB. The largest university upload JSON is approximately 0.60 MiB. Upload the extracted JSON files in manageable batches; the ZIP is the delivery container. Save each completed batch's findings before continuing. Preserve all stable IDs and distinguish a published 2027/28 first-year intake from teaching of an earlier cohort during 2027/28.
+Fresh browser access and HTTP clients with cookie support passed, but a separate content-fetch tool could not open the complete share URL. Its failure does not establish the cause or predict Claude Web's access. If Claude cannot fetch a preview page, upload the matching `website-snapshots/<university-id>.txt` alongside its university JSON. These files contain the displayed text of all 243 detail pages with stable IDs and page hashes. Exact HTML snapshots are also provided in `website-html/`; their LF-normalized SHA-256 hashes were matched against the live responses. This fallback allows comparison of the website's displayed content without weakening project security.
+
+The largest university dataset JSON is approximately 0.60 MiB. The package README records exact output sizes. Upload the extracted files in manageable batches; the ZIP is the delivery container. Save each completed batch's findings before continuing. Preserve all stable IDs and distinguish a published 2027/28 first-year intake from teaching of an earlier cohort during 2027/28.
 
 ## Reproducing the package
 
