@@ -17868,9 +17868,9 @@
       "program.previous_cycle_application_route"
     ],
     "url_check": {
-      "http_status": null,
-      "effective_url": null,
-      "content_type": null,
+      "http_status": 200,
+      "effective_url": "https://www.scienze.unipd.it/en/courses/how-to-apply/",
+      "content_type": "text/html; charset=utf-8",
       "content_length_header": null,
       "etag": null,
       "last_modified": null,
@@ -17879,15 +17879,14 @@
       "x_vercel_cache": null,
       "x_vercel_id": null,
       "location": null,
-      "observed_title": null,
+      "observed_title": "Scuola di Scienze: How to Apply",
       "pdf_signature": null,
       "has_2027_marker": null,
-      "bytes_read": 0,
-      "outcome": "inconclusive",
-      "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
-      "retried": true,
+      "bytes_read": 35355,
+      "outcome": "accessible",
+      "error": null,
       "checked_at": "2026-11-11",
-      "method": "GET"
+      "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
     },
     "browser_check": {
       "checked_at": "2026-11-11",
@@ -18530,9 +18529,9 @@
       "program.previous_cycle_access"
     ],
     "url_check": {
-      "http_status": null,
-      "effective_url": null,
-      "content_type": null,
+      "http_status": 200,
+      "effective_url": "https://www.scienze.unipd.it/come-iscriversi-l-2627/",
+      "content_type": "text/html; charset=utf-8",
       "content_length_header": null,
       "etag": null,
       "last_modified": null,
@@ -18541,15 +18540,14 @@
       "x_vercel_cache": null,
       "x_vercel_id": null,
       "location": null,
-      "observed_title": null,
+      "observed_title": "Scuola di Scienze: Laurea Triennale A.A. 2026/2027",
       "pdf_signature": null,
       "has_2027_marker": null,
-      "bytes_read": 0,
-      "outcome": "inconclusive",
-      "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
-      "retried": true,
+      "bytes_read": 54743,
+      "outcome": "accessible",
+      "error": null,
       "checked_at": "2026-11-11",
-      "method": "GET"
+      "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
     },
     "browser_check": {
       "checked_at": "2026-11-11",
@@ -18572,9 +18570,9 @@
       "program.previous_cycle_admission"
     ],
     "url_check": {
-      "http_status": null,
-      "effective_url": null,
-      "content_type": null,
+      "http_status": 200,
+      "effective_url": "https://www.scienze.unipd.it/en/courses/english-language/master-degree/2627/",
+      "content_type": "text/html; charset=utf-8",
       "content_length_header": null,
       "etag": null,
       "last_modified": null,
@@ -18583,15 +18581,14 @@
       "x_vercel_cache": null,
       "x_vercel_id": null,
       "location": null,
-      "observed_title": null,
+      "observed_title": "Scuola di Scienze: A.Y. 2026/2027",
       "pdf_signature": null,
       "has_2027_marker": null,
-      "bytes_read": 0,
-      "outcome": "inconclusive",
-      "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
-      "retried": true,
+      "bytes_read": 66513,
+      "outcome": "accessible",
+      "error": null,
       "checked_at": "2026-11-11",
-      "method": "GET"
+      "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
     },
     "browser_check": {
       "checked_at": "2026-11-11",
@@ -19248,9 +19245,9 @@
       "program.previous_cycle_program_requirements"
     ],
     "url_check": {
-      "http_status": null,
-      "effective_url": null,
-      "content_type": null,
+      "http_status": 200,
+      "effective_url": "https://www.diarc.archer.unina.it/images/ARCHER_2024-25_DidacticRegulations_CdS_ENGL_2023_SA_DM96_v6.pdf",
+      "content_type": "application/pdf",
       "content_length_header": null,
       "etag": null,
       "last_modified": null,
@@ -19260,14 +19257,13 @@
       "x_vercel_id": null,
       "location": null,
       "observed_title": null,
-      "pdf_signature": null,
+      "pdf_signature": true,
       "has_2027_marker": null,
-      "bytes_read": 0,
-      "outcome": "inconclusive",
-      "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
-      "retried": true,
+      "bytes_read": 300389,
+      "outcome": "accessible",
+      "error": null,
       "checked_at": "2026-11-11",
-      "method": "GET with byte range for PDF sources"
+      "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
     },
     "browser_check": {
       "checked_at": "2026-11-11",

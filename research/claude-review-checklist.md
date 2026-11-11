@@ -5165,7 +5165,7 @@ Currently missing or unpublished fields:
 
 ## Source URL recheck results
 
-Checked 566 unique URLs representing 581 source records on 2026-11-11. Unique URL outcomes: {'accessible': 532, 'redirected': 13, 'inconclusive': 20, 'broken': 1}. HTTP 404/410 outcomes are listed as broken; TLS, timeout, and remote-disconnect cases remain inconclusive.
+Checked 566 unique URLs representing 581 source records on 2026-11-11. Unique URL outcomes: {'accessible': 536, 'redirected': 13, 'inconclusive': 16, 'broken': 1}. HTTP 404/410 outcomes are listed as broken; TLS, timeout, and remote-disconnect cases remain inconclusive.
 
 ### Redirected sources
 
@@ -5187,10 +5187,6 @@ Checked 566 unique URLs representing 581 source records on 2026-11-11. Unique UR
 
 - `SRC-CAMERINO-FOREIGN-FEES` — [Fees for foreign students](https://www.miiscrivo.unicam.it/fees-foreign-students) — direct check inconclusive; SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)
 - `SRC-PADUA-ASTROPHYSICS-2027-CALL` — [Astrophysics and Cosmology – 2027/28 international application call and requirements](https://astrophysics-and-cosmology.dfa.unipd.it/masters-degree/application-and-admission-requirements/) — direct check inconclusive; SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)
-- `SRC-PADOVA-COMPUTER-SCIENCE-2026` — [Computer Science – official School of Science catalogue](https://www.scienze.unipd.it/en/courses/how-to-apply/) — direct check inconclusive; SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)
 - `SRC-PADOVA-PSYCHOLOGY-MSC-FULL-2026` — [School of Psychology Master's programmes – active official catalogue](https://www.psicologia.unipd.it/offerta-didattica/corsi-di-laurea-magistrale?tipo=LM) — direct check inconclusive; No successful direct response was recorded.
-- `SRC-PADOVA-MOLECULAR-BIOLOGY-BSC-ADMISSION-2026` — [Biologia Molecolare – 2026/27 School of Science bachelor's admissions](https://www.scienze.unipd.it/come-iscriversi-l-2627/) — direct check inconclusive; SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)
-- `SRC-PADOVA-SCIENCE-MSC-2026` — [School of Science English Master's admission catalogue – AY 2026/27](https://www.scienze.unipd.it/en/courses/english-language/master-degree/2627/) — direct check inconclusive; SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)
 - `SRC-UNINA-QUANTUM-PROFILE-2025` — [Quantum Science and Engineering – official programme and course links](https://www.qst.unina.it/index.php/education/) — direct check inconclusive; TimeoutError: timed out
-- `SRC-UNINA-ARCH-HERITAGE-REG-2024` — [Architecture and Heritage – official didactic regulation](https://www.diarc.archer.unina.it/images/ARCHER_2024-25_DidacticRegulations_CdS_ENGL_2023_SA_DM96_v6.pdf) — direct check inconclusive; SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)
 - `SRC-UNINA-CIVIL-ENV-BSC-2026` — [Civil and Environmental Engineering BSc – official 2026/27 admission page](https://www.civil-environmental.unina.it/admission/) — direct check inconclusive; SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1007)

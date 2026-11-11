@@ -17,9 +17,9 @@
       "source_records": 581,
       "unique_urls_checked": 566,
       "unique_url_outcomes": {
-        "accessible": 532,
+        "accessible": 536,
         "redirected": 13,
-        "inconclusive": 20,
+        "inconclusive": 16,
         "broken": 1
       },
       "redirected_source_records": [
@@ -107,14 +107,6 @@
           "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
         },
         {
-          "source_id": "SRC-PADOVA-COMPUTER-SCIENCE-2026",
-          "url": "https://www.scienze.unipd.it/en/courses/how-to-apply/",
-          "direct_http_outcome": "inconclusive",
-          "browser_outcome": "inconclusive",
-          "direct_http_error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
-          "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
-        },
-        {
           "source_id": "SRC-PADOVA-PSYCHOLOGY-MSC-FULL-2026",
           "url": "https://www.psicologia.unipd.it/offerta-didattica/corsi-di-laurea-magistrale?tipo=LM",
           "direct_http_outcome": "inconclusive",
@@ -123,35 +115,11 @@
           "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
         },
         {
-          "source_id": "SRC-PADOVA-MOLECULAR-BIOLOGY-BSC-ADMISSION-2026",
-          "url": "https://www.scienze.unipd.it/come-iscriversi-l-2627/",
-          "direct_http_outcome": "inconclusive",
-          "browser_outcome": "inconclusive",
-          "direct_http_error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
-          "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
-        },
-        {
-          "source_id": "SRC-PADOVA-SCIENCE-MSC-2026",
-          "url": "https://www.scienze.unipd.it/en/courses/english-language/master-degree/2627/",
-          "direct_http_outcome": "inconclusive",
-          "browser_outcome": "inconclusive",
-          "direct_http_error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
-          "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
-        },
-        {
           "source_id": "SRC-UNINA-QUANTUM-PROFILE-2025",
           "url": "https://www.qst.unina.it/index.php/education/",
           "direct_http_outcome": "inconclusive",
           "browser_outcome": "inconclusive",
           "direct_http_error": "TimeoutError: timed out",
-          "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
-        },
-        {
-          "source_id": "SRC-UNINA-ARCH-HERITAGE-REG-2024",
-          "url": "https://www.diarc.archer.unina.it/images/ARCHER_2024-25_DidacticRegulations_CdS_ENGL_2023_SA_DM96_v6.pdf",
-          "direct_http_outcome": "inconclusive",
-          "browser_outcome": "inconclusive",
-          "direct_http_error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
           "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
         },
         {
@@ -763,11 +731,11 @@
             "program.previous_cycle_language",
             "program.previous_cycle_program_requirements"
           ],
-          "refresh_status": "inconclusive",
+          "refresh_status": "accessible",
           "url_check": {
-            "http_status": null,
-            "effective_url": null,
-            "content_type": null,
+            "http_status": 200,
+            "effective_url": "https://www.diarc.archer.unina.it/images/ARCHER_2024-25_DidacticRegulations_CdS_ENGL_2023_SA_DM96_v6.pdf",
+            "content_type": "application/pdf",
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
@@ -777,14 +745,13 @@
             "x_vercel_id": null,
             "location": null,
             "observed_title": null,
-            "pdf_signature": null,
+            "pdf_signature": true,
             "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
-            "retried": true,
+            "bytes_read": 300389,
+            "outcome": "accessible",
+            "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET with byte range for PDF sources"
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -15591,11 +15558,11 @@
             "program.previous_cycle_course_listing",
             "program.previous_cycle_application_route"
           ],
-          "refresh_status": "inconclusive",
+          "refresh_status": "accessible",
           "url_check": {
-            "http_status": null,
-            "effective_url": null,
-            "content_type": null,
+            "http_status": 200,
+            "effective_url": "https://www.scienze.unipd.it/en/courses/how-to-apply/",
+            "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
@@ -15604,15 +15571,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "Scuola di Scienze: How to Apply",
             "pdf_signature": null,
             "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
-            "retried": true,
+            "bytes_read": 35355,
+            "outcome": "accessible",
+            "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -16269,11 +16235,11 @@
             "program.previous_cycle_admission",
             "program.previous_cycle_access"
           ],
-          "refresh_status": "inconclusive",
+          "refresh_status": "accessible",
           "url_check": {
-            "http_status": null,
-            "effective_url": null,
-            "content_type": null,
+            "http_status": 200,
+            "effective_url": "https://www.scienze.unipd.it/come-iscriversi-l-2627/",
+            "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
@@ -16282,15 +16248,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "Scuola di Scienze: Laurea Triennale A.A. 2026/2027",
             "pdf_signature": null,
             "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
-            "retried": true,
+            "bytes_read": 54743,
+            "outcome": "accessible",
+            "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -16311,11 +16276,11 @@
             "program.previous_cycle_course_listing",
             "program.previous_cycle_admission"
           ],
-          "refresh_status": "inconclusive",
+          "refresh_status": "accessible",
           "url_check": {
-            "http_status": null,
-            "effective_url": null,
-            "content_type": null,
+            "http_status": 200,
+            "effective_url": "https://www.scienze.unipd.it/en/courses/english-language/master-degree/2627/",
+            "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
@@ -16324,15 +16289,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "Scuola di Scienze: A.Y. 2026/2027",
             "pdf_signature": null,
             "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
-            "retried": true,
+            "bytes_read": 66513,
+            "outcome": "accessible",
+            "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -25748,11 +25712,11 @@
             "program.previous_cycle_language",
             "program.previous_cycle_program_requirements"
           ],
-          "refresh_status": "inconclusive",
+          "refresh_status": "accessible",
           "url_check": {
-            "http_status": null,
-            "effective_url": null,
-            "content_type": null,
+            "http_status": 200,
+            "effective_url": "https://www.diarc.archer.unina.it/images/ARCHER_2024-25_DidacticRegulations_CdS_ENGL_2023_SA_DM96_v6.pdf",
+            "content_type": "application/pdf",
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
@@ -25762,14 +25726,13 @@
             "x_vercel_id": null,
             "location": null,
             "observed_title": null,
-            "pdf_signature": null,
+            "pdf_signature": true,
             "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
-            "retried": true,
+            "bytes_read": 300389,
+            "outcome": "accessible",
+            "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET with byte range for PDF sources"
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -76461,11 +76424,11 @@
             "program.previous_cycle_course_listing",
             "program.previous_cycle_application_route"
           ],
-          "refresh_status": "inconclusive",
+          "refresh_status": "accessible",
           "url_check": {
-            "http_status": null,
-            "effective_url": null,
-            "content_type": null,
+            "http_status": 200,
+            "effective_url": "https://www.scienze.unipd.it/en/courses/how-to-apply/",
+            "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
@@ -76474,15 +76437,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "Scuola di Scienze: How to Apply",
             "pdf_signature": null,
             "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
-            "retried": true,
+            "bytes_read": 35355,
+            "outcome": "accessible",
+            "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -76503,11 +76465,11 @@
             "program.previous_cycle_course_listing",
             "program.previous_cycle_admission"
           ],
-          "refresh_status": "inconclusive",
+          "refresh_status": "accessible",
           "url_check": {
-            "http_status": null,
-            "effective_url": null,
-            "content_type": null,
+            "http_status": 200,
+            "effective_url": "https://www.scienze.unipd.it/en/courses/english-language/master-degree/2627/",
+            "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
@@ -76516,15 +76478,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "Scuola di Scienze: A.Y. 2026/2027",
             "pdf_signature": null,
             "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
-            "retried": true,
+            "bytes_read": 66513,
+            "outcome": "accessible",
+            "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -123161,11 +123122,11 @@
         "program.previous_cycle_course_listing",
         "program.previous_cycle_application_route"
       ],
-      "refresh_status": "inconclusive",
+      "refresh_status": "accessible",
       "url_check": {
-        "http_status": null,
-        "effective_url": null,
-        "content_type": null,
+        "http_status": 200,
+        "effective_url": "https://www.scienze.unipd.it/en/courses/how-to-apply/",
+        "content_type": "text/html; charset=utf-8",
         "content_length_header": null,
         "etag": null,
         "last_modified": null,
@@ -123174,15 +123135,14 @@
         "x_vercel_cache": null,
         "x_vercel_id": null,
         "location": null,
-        "observed_title": null,
+        "observed_title": "Scuola di Scienze: How to Apply",
         "pdf_signature": null,
         "has_2027_marker": null,
-        "bytes_read": 0,
-        "outcome": "inconclusive",
-        "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
-        "retried": true,
+        "bytes_read": 35355,
+        "outcome": "accessible",
+        "error": null,
         "checked_at": "2026-11-11",
-        "method": "GET"
+        "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
       },
       "browser_check": {
         "checked_at": "2026-11-11",
@@ -123839,11 +123799,11 @@
         "program.previous_cycle_admission",
         "program.previous_cycle_access"
       ],
-      "refresh_status": "inconclusive",
+      "refresh_status": "accessible",
       "url_check": {
-        "http_status": null,
-        "effective_url": null,
-        "content_type": null,
+        "http_status": 200,
+        "effective_url": "https://www.scienze.unipd.it/come-iscriversi-l-2627/",
+        "content_type": "text/html; charset=utf-8",
         "content_length_header": null,
         "etag": null,
         "last_modified": null,
@@ -123852,15 +123812,14 @@
         "x_vercel_cache": null,
         "x_vercel_id": null,
         "location": null,
-        "observed_title": null,
+        "observed_title": "Scuola di Scienze: Laurea Triennale A.A. 2026/2027",
         "pdf_signature": null,
         "has_2027_marker": null,
-        "bytes_read": 0,
-        "outcome": "inconclusive",
-        "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
-        "retried": true,
+        "bytes_read": 54743,
+        "outcome": "accessible",
+        "error": null,
         "checked_at": "2026-11-11",
-        "method": "GET"
+        "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
       },
       "browser_check": {
         "checked_at": "2026-11-11",
@@ -123881,11 +123840,11 @@
         "program.previous_cycle_course_listing",
         "program.previous_cycle_admission"
       ],
-      "refresh_status": "inconclusive",
+      "refresh_status": "accessible",
       "url_check": {
-        "http_status": null,
-        "effective_url": null,
-        "content_type": null,
+        "http_status": 200,
+        "effective_url": "https://www.scienze.unipd.it/en/courses/english-language/master-degree/2627/",
+        "content_type": "text/html; charset=utf-8",
         "content_length_header": null,
         "etag": null,
         "last_modified": null,
@@ -123894,15 +123853,14 @@
         "x_vercel_cache": null,
         "x_vercel_id": null,
         "location": null,
-        "observed_title": null,
+        "observed_title": "Scuola di Scienze: A.Y. 2026/2027",
         "pdf_signature": null,
         "has_2027_marker": null,
-        "bytes_read": 0,
-        "outcome": "inconclusive",
-        "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
-        "retried": true,
+        "bytes_read": 66513,
+        "outcome": "accessible",
+        "error": null,
         "checked_at": "2026-11-11",
-        "method": "GET"
+        "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
       },
       "browser_check": {
         "checked_at": "2026-11-11",
@@ -124572,11 +124530,11 @@
         "program.previous_cycle_language",
         "program.previous_cycle_program_requirements"
       ],
-      "refresh_status": "inconclusive",
+      "refresh_status": "accessible",
       "url_check": {
-        "http_status": null,
-        "effective_url": null,
-        "content_type": null,
+        "http_status": 200,
+        "effective_url": "https://www.diarc.archer.unina.it/images/ARCHER_2024-25_DidacticRegulations_CdS_ENGL_2023_SA_DM96_v6.pdf",
+        "content_type": "application/pdf",
         "content_length_header": null,
         "etag": null,
         "last_modified": null,
@@ -124586,14 +124544,13 @@
         "x_vercel_id": null,
         "location": null,
         "observed_title": null,
-        "pdf_signature": null,
+        "pdf_signature": true,
         "has_2027_marker": null,
-        "bytes_read": 0,
-        "outcome": "inconclusive",
-        "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
-        "retried": true,
+        "bytes_read": 300389,
+        "outcome": "accessible",
+        "error": null,
         "checked_at": "2026-11-11",
-        "method": "GET with byte range for PDF sources"
+        "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
       },
       "browser_check": {
         "checked_at": "2026-11-11",
@@ -126388,14 +126345,6 @@
       "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
     },
     {
-      "source_id": "SRC-PADOVA-COMPUTER-SCIENCE-2026",
-      "url": "https://www.scienze.unipd.it/en/courses/how-to-apply/",
-      "direct_http_outcome": "inconclusive",
-      "browser_outcome": "inconclusive",
-      "direct_http_error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
-      "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
-    },
-    {
       "source_id": "SRC-PADOVA-PSYCHOLOGY-MSC-FULL-2026",
       "url": "https://www.psicologia.unipd.it/offerta-didattica/corsi-di-laurea-magistrale?tipo=LM",
       "direct_http_outcome": "inconclusive",
@@ -126404,35 +126353,11 @@
       "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
     },
     {
-      "source_id": "SRC-PADOVA-MOLECULAR-BIOLOGY-BSC-ADMISSION-2026",
-      "url": "https://www.scienze.unipd.it/come-iscriversi-l-2627/",
-      "direct_http_outcome": "inconclusive",
-      "browser_outcome": "inconclusive",
-      "direct_http_error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
-      "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
-    },
-    {
-      "source_id": "SRC-PADOVA-SCIENCE-MSC-2026",
-      "url": "https://www.scienze.unipd.it/en/courses/english-language/master-degree/2627/",
-      "direct_http_outcome": "inconclusive",
-      "browser_outcome": "inconclusive",
-      "direct_http_error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
-      "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
-    },
-    {
       "source_id": "SRC-UNINA-QUANTUM-PROFILE-2025",
       "url": "https://www.qst.unina.it/index.php/education/",
       "direct_http_outcome": "inconclusive",
       "browser_outcome": "inconclusive",
       "direct_http_error": "TimeoutError: timed out",
-      "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
-    },
-    {
-      "source_id": "SRC-UNINA-ARCH-HERITAGE-REG-2024",
-      "url": "https://www.diarc.archer.unina.it/images/ARCHER_2024-25_DidacticRegulations_CdS_ENGL_2023_SA_DM96_v6.pdf",
-      "direct_http_outcome": "inconclusive",
-      "browser_outcome": "inconclusive",
-      "direct_http_error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
       "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
     },
     {
