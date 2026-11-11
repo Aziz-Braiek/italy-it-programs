@@ -109,16 +109,16 @@ SOURCES = [
         "id": "SRC-UNIBO-AI-PROFILE-2026",
         "university_id": "bologna", "title": "Artificial Intelligence – official degree profile",
         "url": "https://corsi.unibo.it/2cycle/artificial-intelligence/",
-        "source_type": "Official degree programme profile", "accessed_at": "2026-11-10", "cycle": "2026-2027",
-        "evidence": "Lists the English-taught two-year MSc in Bologna, classes LM-18/LM-32 and open access with assessment; profile is current course evidence, not a 2027/28 intake call.",
+        "source_type": "Official degree programme profile", "accessed_at": "2026-11-11", "cycle": "2026-2027",
+        "evidence": "Checked 11 November 2026: identifies an English-taught two-year MSc in Bologna, classes LM-18/LM-32, open access with a skills assessment, and the Department of Computer Science and Engineering (DISI). The profile does not name a 2027/28 intake.",
         "supports": ["program.name", "program.level", "program.language", "program.location", "program.access"],
     },
     {
         "id": "SRC-UNIBO-AI-ADMISSIONS-2026",
         "university_id": "bologna", "title": "Artificial Intelligence – 2026/27 admission requirements and call",
         "url": "https://corsi.unibo.it/2cycle/artificial-intelligence/how-to-enrol",
-        "source_type": "Official programme admission page", "accessed_at": "2026-11-10", "cycle": "2026-2027",
-        "evidence": "The page links the 2026/27 call and specifies degree-background, English B2 and personal-preparation assessment requirements. No 2027/28 call is linked on the reviewed page.",
+        "source_type": "Official programme admission page", "accessed_at": "2026-11-11", "cycle": "2026-2027",
+        "evidence": "Checked 11 November 2026: the current enrolment page links the 2026/27 call and describes degree-background, English B2, Italian-language and personal-preparation assessment requirements. No 2027/28 call or named intake is linked on the reviewed page.",
         "supports": ["program.previous_cycle_program_requirements", "program.previous_cycle_english_requirement", "program.previous_cycle_application_route"],
     },
     {
@@ -1205,6 +1205,63 @@ BATCH15 = {
     "result": "Reopened the University of Bologna's official Statistics, Economics and Business parent-degree page and its Business Analytics curriculum profile. Confirmed the current LM-82 parent degree is in Bologna, open access, with Italian/English delivery; Business Analytics is a two-year English curriculum and not a separate degree, with all curriculum courses taught in English. Fresh PowerShell GET requests with Cache-Control: no-cache returned HTTP 200 for both pages (285,258 and 298,449 bytes). Neither page contains 2027/28 admissions information, so the exact 2027/28 intake, application dates, fees and requirements remain pending. Updated the existing record with current course identity while keeping its 2027/28 availability unconfirmed and preserving the separate BBS Professional Master classification.",
 }
 
+BATCH16 = {
+    "id": "unibo-artificial-intelligence-profile-and-admissions-recheck",
+    "status": "partial",
+    "result": "Rechecked the University of Bologna Artificial Intelligence degree profile and programme-enrolment page. The profile identifies an English-taught two-year MSc in Bologna, classes LM-18/LM-32, open access with a skills assessment, and DISI as the department. The enrolment page still links only the 2026/27 call and labels its admission requirements as a summary of that cycle; it contains no 2027/28 call or named 2027/28 intake. Current course identity is retained as 2026/27 evidence, while 2027/28 availability, dates, requirements, application fees, tuition and scholarships remain unconfirmed. Independent fresh PowerShell GETs with Cache-Control and Pragma no-cache returned HTTP 200 (304,424 and 345,713 bytes); neither response contained a 2027/28 marker.",
+}
+
+SOURCE_RECHECKS = {
+    "SRC-UNIBO-AI-PROFILE-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200,
+            "effective_url": "https://corsi.unibo.it/2cycle/artificial-intelligence/",
+            "content_type": "text/html;charset=utf-8",
+            "content_length_header": None,
+            "etag": None,
+            "last_modified": None,
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "137",
+            "x_vercel_cache": None,
+            "x_vercel_id": None,
+            "location": None,
+            "observed_title": "Artificial intelligence - Laurea Magistrale - Bologna",
+            "pdf_signature": None,
+            "has_2027_marker": False,
+            "bytes_read": 304424,
+            "outcome": "accessible",
+            "error": None,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell)",
+        },
+    },
+    "SRC-UNIBO-AI-ADMISSIONS-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200,
+            "effective_url": "https://corsi.unibo.it/2cycle/artificial-intelligence/how-to-enrol",
+            "content_type": "text/html;charset=utf-8",
+            "content_length_header": None,
+            "etag": None,
+            "last_modified": None,
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "633",
+            "x_vercel_cache": None,
+            "x_vercel_id": None,
+            "location": None,
+            "observed_title": "Programme enrolment: requirements, deadlines and methods — Artificial intelligence - Laurea Magistrale - Bologna",
+            "pdf_signature": None,
+            "has_2027_marker": False,
+            "bytes_read": 345713,
+            "outcome": "accessible",
+            "error": None,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell)",
+        },
+    },
+}
+
 
 def _fact(value: Any, status: str, source_ids: list[str], notes: str | None = None) -> dict[str, Any]:
     return {"value": value, "status": status, "source_ids": source_ids, "notes": notes}
@@ -1309,6 +1366,10 @@ def apply_legacy_course_reviews(programs: list[dict[str, Any]], fact: Callable[.
             continue
         prior(by_id[pid], official_name=name, level=level, language=language, field=field_name,
               source_ids=sources, city=city, program_type=program_type)
+
+    prior(by_id["legacy-019"], official_name="Artificial intelligence", level="MSc", language="English",
+          field="Artificial Intelligence", source_ids=["SRC-UNIBO-AI-PROFILE-2026", "SRC-UNIBO-AI-ADMISSIONS-2026"],
+          cycle="2026-2027", checked_at="2026-11-11")
 
     business_analytics = by_id["legacy-022"]
     business_analytics_sources = ["SRC-UNIBO-BA-CURRICULUM-2026", "SRC-UNIBO-BA-CURRICULUM-PARENT-2026", "SRC-UNIBO-BA-BBS-2026"]

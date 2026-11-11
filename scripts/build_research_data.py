@@ -1475,6 +1475,8 @@ def build():
             for key in ("url_check", "browser_check"):
                 if key in previous:
                     source[key] = previous[key]
+        if source["id"] in research_final_refresh.SOURCE_RECHECKS:
+            source.update(research_final_refresh.SOURCE_RECHECKS[source["id"]])
 
     (RESEARCH / "sources.json").write_text(json.dumps(SOURCES, ensure_ascii=False, indent=2)+"\n",encoding="utf-8")
     (RESEARCH / "universities-2027-2028.json").write_text(json.dumps(uni_rows, ensure_ascii=False, indent=2)+"\n",encoding="utf-8")
@@ -1539,6 +1541,7 @@ def build():
             research_final_refresh.BATCH13,
             research_final_refresh.BATCH14,
             research_final_refresh.BATCH15,
+            research_final_refresh.BATCH16,
         ],
         "counts": coverage,
     }

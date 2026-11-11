@@ -2160,8 +2160,8 @@ Official university-level sources:
 - [ ] `SRC-UNIBO-28DIGITAL-2027` — [Intelligent Embedded Systems – 28Digital track](https://corsi.unibo.it/magistrale/IngegneriaScienzeInformatiche/curriculum-intelligent-embedded-systems-28digital-track) (cycle: 2027-2028; checked in prior snapshot: 2026-11-09)
 - [ ] `SRC-UNIBO-GRENFIN-2027-PROFILE` — [Greening Energy Market and Finance – official degree profile](https://corsi.unibo.it/2cycle/GreeningEnergyMarketFinance) (cycle: 2027-2028; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-UNIBO-GRENFIN-2027-CALL` — [Greening Energy Market and Finance – AY 2027/28 admission notice](https://corsi.unibo.it/s/3394/p/en/enrolling-grenfin/avvisolm-grenfin-emjm-27-28_en-2-prot.pdf/@@download/file/AvvisoLM-GrEnFIn-EMJM-27-28_EN-2-PROT.pdf) (cycle: 2027-2028; checked in prior snapshot: 2026-11-10)
-- [ ] `SRC-UNIBO-AI-PROFILE-2026` — [Artificial Intelligence – official degree profile](https://corsi.unibo.it/2cycle/artificial-intelligence/) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
-- [ ] `SRC-UNIBO-AI-ADMISSIONS-2026` — [Artificial Intelligence – 2026/27 admission requirements and call](https://corsi.unibo.it/2cycle/artificial-intelligence/how-to-enrol) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIBO-AI-PROFILE-2026` — [Artificial Intelligence – official degree profile](https://corsi.unibo.it/2cycle/artificial-intelligence/) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-UNIBO-AI-ADMISSIONS-2026` — [Artificial Intelligence – 2026/27 admission requirements and call](https://corsi.unibo.it/2cycle/artificial-intelligence/how-to-enrol) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-UNIBO-DHDK-PROFILE-2026` — [Digital Humanities and Digital Knowledge – official degree profile](https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge/) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-UNIBO-DHDK-ADMISSIONS-2026` — [Digital Humanities and Digital Knowledge – 2026/27 admission page](https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge/how-to-enrol) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-UNIBO-BA-CURRICULUM-2026` — [Business Analytics – current official curriculum profile](https://corsi.unibo.it/2cycle/BusinessAnalytics/overview) (cycle: general; checked in prior snapshot: 2026-11-11)
@@ -2200,20 +2200,20 @@ Official university-level sources:
 
 #### Artificial intelligence — `legacy-019`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-019/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
-- [ ] `SRC-UNIBO-AI-ADMISSIONS-2026` — [Artificial Intelligence – 2026/27 admission requirements and call](https://corsi.unibo.it/2cycle/artificial-intelligence/how-to-enrol) (cycle: 2026-2027; prior check: 2026-11-10)
-- [ ] `SRC-UNIBO-AI-PROFILE-2026` — [Artificial Intelligence – official degree profile](https://corsi.unibo.it/2cycle/artificial-intelligence/) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-UNIBO-AI-ADMISSIONS-2026` — [Artificial Intelligence – 2026/27 admission requirements and call](https://corsi.unibo.it/2cycle/artificial-intelligence/how-to-enrol) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-UNIBO-AI-PROFILE-2026` — [Artificial Intelligence – official degree profile](https://corsi.unibo.it/2cycle/artificial-intelligence/) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
-  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
-  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
-  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
-  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
-  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-11. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-11; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; annual university and regional calls still need checking.
   - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
 #### Computer Science and Engineering — Intelligent Embedded Systems (28Digital track) — `legacy-020`
