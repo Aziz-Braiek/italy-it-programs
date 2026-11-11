@@ -8,16 +8,16 @@
     "review_status": "in_progress",
     "counts": {
       "universities": 34,
-      "programs": 203,
-      "sources": 575
+      "programs": 204,
+      "sources": 578
     },
     "previous_snapshot_inconclusive_url_checks": "The prior audit reported approximately 100 inconclusive checks. This refresh rechecked every unique URL and preserves the response by source record below.",
     "current_url_audit": {
       "checked_at": "2026-11-11",
-      "source_records": 575,
-      "unique_urls_checked": 561,
+      "source_records": 578,
+      "unique_urls_checked": 563,
       "unique_url_outcomes": {
-        "accessible": 526,
+        "accessible": 528,
         "redirected": 13,
         "inconclusive": 22
       },
@@ -18405,7 +18405,10 @@
         "SRC-UNIPI-CYBERSECURITY-2026",
         "SRC-UNIPI-AIDE-2026",
         "SRC-UNIPI-BIONICS-2026",
-        "SRC-UNIPI-NUCLEAR-2026"
+        "SRC-UNIPI-NUCLEAR-2026",
+        "SRC-UNIPI-INFO-ENG-2027-CALL",
+        "SRC-UNIPI-AIDE-COURSE-PROFILE",
+        "SRC-UNIPI-COMPUTER-ENGINEERING-PROFILE"
       ],
       "source_urls": [
         {
@@ -18688,8 +18691,8 @@
             "effective_url": "https://computer.ing.unipi.it/en/masters-degree-in-artificial-intelligence-and-data-engineering/",
             "content_type": "text/html; charset=UTF-8",
             "content_length_header": "204017",
-            "etag": "\"31cf1-65ff2d6cadc66\"",
-            "last_modified": "Tue, 10 Nov 2026 21:34:10 GMT",
+            "etag": "\"31cf1-65ff5266b79a6\"",
+            "last_modified": "Wed, 11 Nov 2026 00:19:36 GMT",
             "cache_control": "max-age=3600, public",
             "age": null,
             "x_vercel_cache": null,
@@ -18701,7 +18704,7 @@
             "bytes_read": 131072,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
+            "checked_at": "2026-11-11",
             "method": "GET"
           },
           "browser_check": null
@@ -18781,6 +18784,131 @@
             "method": "GET with byte range for PDF sources"
           },
           "browser_check": null
+        },
+        {
+          "id": "SRC-UNIPI-INFO-ENG-2027-CALL",
+          "title": "Department of Information Engineering – 2027/28 international MSc admission call",
+          "url": "https://computer.ing.unipi.it/call-for-international-students/",
+          "source_type": "Official department admission call and requirements page",
+          "cycle": "2027-2028",
+          "accessed_at": "2026-11-11",
+          "evidence": "The Department's current call explicitly invites applicants holding foreign qualifications for 2027/28 entry to two English-taught MSc programs: Computer Engineering and Artificial Intelligence and Data Engineering. Deadline: 1 February 2027 at 23:59 GMT; tentative results date 12 March 2027; €30 per application, up to two applications through applymscenglish.unipi.it. The call requires a three-year BSc/equivalent with computer hardware/software preparation, algorithms/programming, computer architecture, operating systems, networks and databases, strong mathematics and English B2; applicants needing a visa must provide an internationally recognised four-skill B2 certificate (a Medium of Instruction letter is insufficient). It lists required documents, selection steps, financial-aid schemes, and states 2027/28 tuition is expected around June 2027 while MAECI and Invest Your Talent scholarship calls are not yet announced.",
+          "supports": [
+            "program.availability_2027_2028",
+            "program.application_windows",
+            "program.application_fee_2027_2028",
+            "program.application_route",
+            "program.program_specific_requirements_2027_2028",
+            "program.english_language_requirement_2027_2028",
+            "program.application_documents",
+            "program.selection_process",
+            "program.tuition_2027_2028",
+            "program.scholarships_2027_2028"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://computer.ing.unipi.it/call-for-international-students/",
+            "content_type": "text/html; charset=UTF-8",
+            "content_length_header": "131673",
+            "etag": "\"20259-65ff53f308ed4\"",
+            "last_modified": "Wed, 11 Nov 2026 00:26:32 GMT",
+            "cache_control": "max-age=3600, public",
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Call for international students – Ingegneria Informatica, Università di Pisa",
+            "pdf_signature": null,
+            "has_2027_marker": true,
+            "bytes_read": 131072,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-UNIPI-AIDE-COURSE-PROFILE",
+          "title": "Artificial Intelligence and Data Engineering – current official MSc profile",
+          "url": "https://computer.ing.unipi.it/en/masters-degree-in-artificial-intelligence-and-data-engineering/",
+          "source_type": "Official Department degree programme profile",
+          "cycle": "general",
+          "accessed_at": "2026-11-11",
+          "evidence": "The current Department profile identifies Artificial Intelligence and Data Engineering as an LM-32 Master's degree in Pisa. It describes delivery as English/Italian: compulsory activities are in English, and English-taught credits suffice to complete the degree without Italian; some remedial basic Computer Engineering courses are only in Italian. The profile supports current course identity and language scope; the separate named 2027/28 Department call is the evidence for new-entry availability and its foreign-degree route.",
+          "supports": [
+            "program.name",
+            "program.level",
+            "program.language",
+            "program.location",
+            "program.degree_class",
+            "program.course_structure"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://computer.ing.unipi.it/en/masters-degree-in-artificial-intelligence-and-data-engineering/",
+            "content_type": "text/html; charset=UTF-8",
+            "content_length_header": "204017",
+            "etag": "\"31cf1-65ff5266b79a6\"",
+            "last_modified": "Wed, 11 Nov 2026 00:19:36 GMT",
+            "cache_control": "max-age=3600, public",
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Master’s Degree in Artificial Intelligence and Data Engineering – Ingegneria Informatica, Università di Pisa",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 131072,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-UNIPI-COMPUTER-ENGINEERING-PROFILE",
+          "title": "Computer Engineering – current official MSc profile",
+          "url": "https://computer.ing.unipi.it/en/masters-degree-in-computer-engineering/",
+          "source_type": "Official Department degree programme profile",
+          "cycle": "general",
+          "accessed_at": "2026-11-11",
+          "evidence": "The official Department profile identifies Computer Engineering as an English-taught Master's degree in the LM-32 class, based in Pisa, with open access subject to skills assessment. It lists Cloud/Network Infrastructure and Services, Cyber-Physical Systems, and Cybersecurity study tracks. The linked 2027/28 foreign-qualification call separately establishes the current intake and applicant-category deadlines.",
+          "supports": [
+            "program.name",
+            "program.level",
+            "program.language",
+            "program.location",
+            "program.degree_class",
+            "program.tracks",
+            "program.access"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://computer.ing.unipi.it/en/masters-degree-in-computer-engineering/",
+            "content_type": "text/html; charset=UTF-8",
+            "content_length_header": null,
+            "etag": "\"f17ac582169b2ab6ababee450d8d6410\"",
+            "last_modified": "Wed, 11 Nov 2026 00:45:45 GMT",
+            "cache_control": "max-age=3600, public",
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Laurea Magistrale in Computer Engineering – Ingegneria Informatica, Università di Pisa",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 131072,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET"
+          },
+          "browser_check": null
         }
       ],
       "program_ids": [
@@ -18790,7 +18918,8 @@
         "legacy-055",
         "legacy-056",
         "legacy-057",
-        "discovered-001"
+        "discovered-001",
+        "discovered-039"
       ],
       "refresh_status": "pending",
       "refresh_checked_at": null,
@@ -88768,19 +88897,21 @@
       "program": "Artificial Intelligence and Data Engineering",
       "level": {
         "value": "MSc",
-        "status": "REQUIRES_VERIFICATION",
+        "status": "CONFIRMED",
         "source_ids": [
-          "SRC-UNIPI-AIDE-2026"
+          "SRC-UNIPI-AIDE-COURSE-PROFILE",
+          "SRC-UNIPI-INFO-ENG-2027-CALL"
         ],
-        "notes": "Official course identity is confirmed for the 2026/2027 catalogue; this value is not promoted to 2027/28 without a named-cycle source."
+        "notes": null
       },
       "language": {
-        "value": "English/Italian (required courses in English)",
-        "status": "REQUIRES_VERIFICATION",
+        "value": "English/Italian (required courses in English; Italian not required to complete the degree)",
+        "status": "CONFIRMED",
         "source_ids": [
-          "SRC-UNIPI-AIDE-2026"
+          "SRC-UNIPI-AIDE-COURSE-PROFILE",
+          "SRC-UNIPI-INFO-ENG-2027-CALL"
         ],
-        "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
+        "notes": null
       },
       "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-054/",
       "university_page_url": "https://italy-it-programs.vercel.app/universities/pisa/",
@@ -88804,8 +88935,8 @@
             "effective_url": "https://computer.ing.unipi.it/en/masters-degree-in-artificial-intelligence-and-data-engineering/",
             "content_type": "text/html; charset=UTF-8",
             "content_length_header": "204017",
-            "etag": "\"31cf1-65ff2d6cadc66\"",
-            "last_modified": "Tue, 10 Nov 2026 21:34:10 GMT",
+            "etag": "\"31cf1-65ff5266b79a6\"",
+            "last_modified": "Wed, 11 Nov 2026 00:19:36 GMT",
             "cache_control": "max-age=3600, public",
             "age": null,
             "x_vercel_cache": null,
@@ -88817,190 +88948,168 @@
             "bytes_read": 131072,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
+            "checked_at": "2026-11-11",
+            "method": "GET"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-UNIPI-AIDE-COURSE-PROFILE",
+          "title": "Artificial Intelligence and Data Engineering – current official MSc profile",
+          "url": "https://computer.ing.unipi.it/en/masters-degree-in-artificial-intelligence-and-data-engineering/",
+          "source_type": "Official Department degree programme profile",
+          "cycle": "general",
+          "accessed_at": "2026-11-11",
+          "evidence": "The current Department profile identifies Artificial Intelligence and Data Engineering as an LM-32 Master's degree in Pisa. It describes delivery as English/Italian: compulsory activities are in English, and English-taught credits suffice to complete the degree without Italian; some remedial basic Computer Engineering courses are only in Italian. The profile supports current course identity and language scope; the separate named 2027/28 Department call is the evidence for new-entry availability and its foreign-degree route.",
+          "supports": [
+            "program.name",
+            "program.level",
+            "program.language",
+            "program.location",
+            "program.degree_class",
+            "program.course_structure"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://computer.ing.unipi.it/en/masters-degree-in-artificial-intelligence-and-data-engineering/",
+            "content_type": "text/html; charset=UTF-8",
+            "content_length_header": "204017",
+            "etag": "\"31cf1-65ff5266b79a6\"",
+            "last_modified": "Wed, 11 Nov 2026 00:19:36 GMT",
+            "cache_control": "max-age=3600, public",
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Master’s Degree in Artificial Intelligence and Data Engineering – Ingegneria Informatica, Università di Pisa",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 131072,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-UNIPI-INFO-ENG-2027-CALL",
+          "title": "Department of Information Engineering – 2027/28 international MSc admission call",
+          "url": "https://computer.ing.unipi.it/call-for-international-students/",
+          "source_type": "Official department admission call and requirements page",
+          "cycle": "2027-2028",
+          "accessed_at": "2026-11-11",
+          "evidence": "The Department's current call explicitly invites applicants holding foreign qualifications for 2027/28 entry to two English-taught MSc programs: Computer Engineering and Artificial Intelligence and Data Engineering. Deadline: 1 February 2027 at 23:59 GMT; tentative results date 12 March 2027; €30 per application, up to two applications through applymscenglish.unipi.it. The call requires a three-year BSc/equivalent with computer hardware/software preparation, algorithms/programming, computer architecture, operating systems, networks and databases, strong mathematics and English B2; applicants needing a visa must provide an internationally recognised four-skill B2 certificate (a Medium of Instruction letter is insufficient). It lists required documents, selection steps, financial-aid schemes, and states 2027/28 tuition is expected around June 2027 while MAECI and Invest Your Talent scholarship calls are not yet announced.",
+          "supports": [
+            "program.availability_2027_2028",
+            "program.application_windows",
+            "program.application_fee_2027_2028",
+            "program.application_route",
+            "program.program_specific_requirements_2027_2028",
+            "program.english_language_requirement_2027_2028",
+            "program.application_documents",
+            "program.selection_process",
+            "program.tuition_2027_2028",
+            "program.scholarships_2027_2028"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://computer.ing.unipi.it/call-for-international-students/",
+            "content_type": "text/html; charset=UTF-8",
+            "content_length_header": "131673",
+            "etag": "\"20259-65ff53f308ed4\"",
+            "last_modified": "Wed, 11 Nov 2026 00:26:32 GMT",
+            "cache_control": "max-age=3600, public",
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Call for international students – Ingegneria Informatica, Università di Pisa",
+            "pdf_signature": null,
+            "has_2027_marker": true,
+            "bytes_read": 131072,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
             "method": "GET"
           },
           "browser_check": null
         }
       ],
       "availability_2027_2028": {
-        "value": null,
-        "status": "NOT_YET_PUBLISHED",
+        "value": true,
+        "status": "CONFIRMED",
         "source_ids": [
-          "SRC-UNIPI-AIDE-2026"
+          "SRC-UNIPI-INFO-ENG-2027-CALL"
         ],
-        "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued."
+        "notes": "The named 2027/28 Department call confirms an intake for applicants with foreign qualifications. It does not confirm the separate admission procedure for Italian qualifications."
       },
-      "existing_overall_status": "REQUIRES_VERIFICATION",
-      "existing_last_checked": "2026-11-10",
+      "existing_overall_status": "CONFIRMED",
+      "existing_last_checked": "2026-11-11",
       "fields_needing_review": [
-        {
-          "field": "level",
-          "status": "REQUIRES_VERIFICATION",
-          "value": "MSc",
-          "notes": "Official course identity is confirmed for the 2026/2027 catalogue; this value is not promoted to 2027/28 without a named-cycle source.",
-          "source_ids": [
-            "SRC-UNIPI-AIDE-2026"
-          ]
-        },
-        {
-          "field": "language",
-          "status": "REQUIRES_VERIFICATION",
-          "value": "English/Italian (required courses in English)",
-          "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record.",
-          "source_ids": [
-            "SRC-UNIPI-AIDE-2026"
-          ]
-        },
-        {
-          "field": "field",
-          "status": "REQUIRES_VERIFICATION",
-          "value": "Artificial Intelligence and Data Engineering",
-          "notes": "Course subject identity is based on current official profile/catalogue evidence; next-cycle catalogue not yet verified.",
-          "source_ids": [
-            "SRC-UNIPI-AIDE-2026"
-          ]
-        },
-        {
-          "field": "availability_2027_2028",
-          "status": "NOT_YET_PUBLISHED",
-          "value": null,
-          "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.",
-          "source_ids": [
-            "SRC-UNIPI-AIDE-2026"
-          ]
-        },
-        {
-          "field": "facts.application_windows",
-          "status": "NOT_YET_PUBLISHED",
-          "value": null,
-          "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.",
-          "source_ids": [
-            "SRC-UNIPI-AIDE-2026"
-          ]
-        },
-        {
-          "field": "facts.application_fee_2027_2028",
-          "status": "NOT_YET_PUBLISHED",
-          "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.",
-          "source_ids": [
-            "SRC-UNIPI-AIDE-2026"
-          ]
-        },
-        {
-          "field": "facts.program_specific_requirements_2027_2028",
-          "status": "NOT_YET_PUBLISHED",
-          "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.",
-          "source_ids": [
-            "SRC-UNIPI-AIDE-2026"
-          ]
-        },
         {
           "field": "facts.tuition_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.",
+          "notes": "The official call says 2027/28 fees are set annually and usually announced in June for the following academic year; 2026/27 amounts are historical only.",
           "source_ids": [
-            "SRC-UNIPI-AIDE-2026"
+            "SRC-UNIPI-INFO-ENG-2027-CALL"
           ]
         },
         {
           "field": "facts.scholarships_2027_2028",
-          "status": "NOT_YET_PUBLISHED",
-          "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.",
+          "status": "REQUIRES_VERIFICATION",
+          "value": {
+            "DSU_Tuscany": "Regional right-to-study support; consult the separate annual DSU call",
+            "MAECI": "The 2027/28 call is not yet announced",
+            "Invest_Your_Talent_in_Italy": "For selected countries; the 2027/28 call is not yet announced",
+            "UniPi_merit_award": "Potential second-year award for the student with the best first-year academic performance; at least 45 CFU by 30 September 2028",
+            "selection_guarantee": "Admission does not guarantee any scholarship"
+          },
+          "notes": "The call identifies these support routes but gives no confirmed course-specific 2027/28 award, amount or eligibility. It explicitly says the MAECI and Invest Your Talent in Italy 2027/28 calls have not been announced; DSU uses a separate annual call and the UniPi merit award is a later second-year competition.",
           "source_ids": [
-            "SRC-UNIPI-AIDE-2026"
+            "SRC-UNIPI-INFO-ENG-2027-CALL"
           ]
         },
         {
           "field": "facts.acceptance_rate",
           "status": "UNAVAILABLE",
           "value": null,
-          "notes": "The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.",
+          "notes": "No applicant denominator or admitted-student count is published; no acceptance rate is inferred.",
           "source_ids": [
-            "SRC-UNIPI-AIDE-2026"
+            "SRC-UNIPI-INFO-ENG-2027-CALL"
           ]
         }
       ],
       "missing_fields": [
         {
-          "field": "availability_2027_2028",
-          "status": "NOT_YET_PUBLISHED",
-          "value": null,
-          "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.",
-          "source_ids": [
-            "SRC-UNIPI-AIDE-2026"
-          ]
-        },
-        {
-          "field": "facts.application_windows",
-          "status": "NOT_YET_PUBLISHED",
-          "value": null,
-          "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.",
-          "source_ids": [
-            "SRC-UNIPI-AIDE-2026"
-          ]
-        },
-        {
-          "field": "facts.application_fee_2027_2028",
-          "status": "NOT_YET_PUBLISHED",
-          "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.",
-          "source_ids": [
-            "SRC-UNIPI-AIDE-2026"
-          ]
-        },
-        {
-          "field": "facts.program_specific_requirements_2027_2028",
-          "status": "NOT_YET_PUBLISHED",
-          "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.",
-          "source_ids": [
-            "SRC-UNIPI-AIDE-2026"
-          ]
-        },
-        {
           "field": "facts.tuition_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.",
+          "notes": "The official call says 2027/28 fees are set annually and usually announced in June for the following academic year; 2026/27 amounts are historical only.",
           "source_ids": [
-            "SRC-UNIPI-AIDE-2026"
-          ]
-        },
-        {
-          "field": "facts.scholarships_2027_2028",
-          "status": "NOT_YET_PUBLISHED",
-          "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.",
-          "source_ids": [
-            "SRC-UNIPI-AIDE-2026"
+            "SRC-UNIPI-INFO-ENG-2027-CALL"
           ]
         },
         {
           "field": "facts.acceptance_rate",
           "status": "UNAVAILABLE",
           "value": null,
-          "notes": "The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.",
+          "notes": "No applicant denominator or admitted-student count is published; no acceptance rate is inferred.",
           "source_ids": [
-            "SRC-UNIPI-AIDE-2026"
+            "SRC-UNIPI-INFO-ENG-2027-CALL"
           ]
         }
       ],
       "known_source_conflicts": [],
       "source_ids": [
-        "SRC-UNIPI-AIDE-2026"
+        "SRC-UNIPI-AIDE-2026",
+        "SRC-UNIPI-AIDE-COURSE-PROFILE",
+        "SRC-UNIPI-INFO-ENG-2027-CALL"
       ],
-      "previous_cycle_tags": {
-        "level": "MSc",
-        "language": "English/Italian (required courses in English)",
-        "field": "Artificial Intelligence and Data Engineering",
-        "cycle": "2026-2027",
-        "label": "Official course identity checked for 2026/2027; 2027/28 first-year intake and terms remain unconfirmed"
-      },
+      "previous_cycle_tags": null,
       "refresh_status": "pending",
       "refresh_checked_at": null,
       "refresh_outcome": null
@@ -89974,6 +90083,194 @@
       "source_ids": [
         "SRC-PISA-CALL-2027",
         "SRC-PISA-DH"
+      ],
+      "previous_cycle_tags": null,
+      "refresh_status": "pending",
+      "refresh_checked_at": null,
+      "refresh_outcome": null
+    },
+    {
+      "id": "discovered-039",
+      "university_id": "pisa",
+      "university": "Università di Pisa",
+      "city": "Pisa",
+      "program": "Computer Engineering",
+      "level": {
+        "value": "MSc",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIPI-COMPUTER-ENGINEERING-PROFILE",
+          "SRC-UNIPI-INFO-ENG-2027-CALL"
+        ],
+        "notes": null
+      },
+      "language": {
+        "value": "English",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIPI-COMPUTER-ENGINEERING-PROFILE",
+          "SRC-UNIPI-INFO-ENG-2027-CALL"
+        ],
+        "notes": null
+      },
+      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-039/",
+      "university_page_url": "https://italy-it-programs.vercel.app/universities/pisa/",
+      "official_program_source_urls": [
+        {
+          "id": "SRC-UNIPI-INFO-ENG-2027-CALL",
+          "title": "Department of Information Engineering – 2027/28 international MSc admission call",
+          "url": "https://computer.ing.unipi.it/call-for-international-students/",
+          "source_type": "Official department admission call and requirements page",
+          "cycle": "2027-2028",
+          "accessed_at": "2026-11-11",
+          "evidence": "The Department's current call explicitly invites applicants holding foreign qualifications for 2027/28 entry to two English-taught MSc programs: Computer Engineering and Artificial Intelligence and Data Engineering. Deadline: 1 February 2027 at 23:59 GMT; tentative results date 12 March 2027; €30 per application, up to two applications through applymscenglish.unipi.it. The call requires a three-year BSc/equivalent with computer hardware/software preparation, algorithms/programming, computer architecture, operating systems, networks and databases, strong mathematics and English B2; applicants needing a visa must provide an internationally recognised four-skill B2 certificate (a Medium of Instruction letter is insufficient). It lists required documents, selection steps, financial-aid schemes, and states 2027/28 tuition is expected around June 2027 while MAECI and Invest Your Talent scholarship calls are not yet announced.",
+          "supports": [
+            "program.availability_2027_2028",
+            "program.application_windows",
+            "program.application_fee_2027_2028",
+            "program.application_route",
+            "program.program_specific_requirements_2027_2028",
+            "program.english_language_requirement_2027_2028",
+            "program.application_documents",
+            "program.selection_process",
+            "program.tuition_2027_2028",
+            "program.scholarships_2027_2028"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://computer.ing.unipi.it/call-for-international-students/",
+            "content_type": "text/html; charset=UTF-8",
+            "content_length_header": "131673",
+            "etag": "\"20259-65ff53f308ed4\"",
+            "last_modified": "Wed, 11 Nov 2026 00:26:32 GMT",
+            "cache_control": "max-age=3600, public",
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Call for international students – Ingegneria Informatica, Università di Pisa",
+            "pdf_signature": null,
+            "has_2027_marker": true,
+            "bytes_read": 131072,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-UNIPI-COMPUTER-ENGINEERING-PROFILE",
+          "title": "Computer Engineering – current official MSc profile",
+          "url": "https://computer.ing.unipi.it/en/masters-degree-in-computer-engineering/",
+          "source_type": "Official Department degree programme profile",
+          "cycle": "general",
+          "accessed_at": "2026-11-11",
+          "evidence": "The official Department profile identifies Computer Engineering as an English-taught Master's degree in the LM-32 class, based in Pisa, with open access subject to skills assessment. It lists Cloud/Network Infrastructure and Services, Cyber-Physical Systems, and Cybersecurity study tracks. The linked 2027/28 foreign-qualification call separately establishes the current intake and applicant-category deadlines.",
+          "supports": [
+            "program.name",
+            "program.level",
+            "program.language",
+            "program.location",
+            "program.degree_class",
+            "program.tracks",
+            "program.access"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://computer.ing.unipi.it/en/masters-degree-in-computer-engineering/",
+            "content_type": "text/html; charset=UTF-8",
+            "content_length_header": null,
+            "etag": "\"f17ac582169b2ab6ababee450d8d6410\"",
+            "last_modified": "Wed, 11 Nov 2026 00:45:45 GMT",
+            "cache_control": "max-age=3600, public",
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Laurea Magistrale in Computer Engineering – Ingegneria Informatica, Università di Pisa",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 131072,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET"
+          },
+          "browser_check": null
+        }
+      ],
+      "availability_2027_2028": {
+        "value": true,
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIPI-INFO-ENG-2027-CALL"
+        ],
+        "notes": "The named 2027/28 Department call confirms an intake for applicants with foreign qualifications. It does not confirm the separate admission procedure for Italian qualifications."
+      },
+      "existing_overall_status": "CONFIRMED",
+      "existing_last_checked": "2026-11-11",
+      "fields_needing_review": [
+        {
+          "field": "facts.tuition_2027_2028",
+          "status": "NOT_YET_PUBLISHED",
+          "value": null,
+          "notes": "The official call says 2027/28 fees are set annually and usually announced in June for the following academic year; 2026/27 amounts are historical only.",
+          "source_ids": [
+            "SRC-UNIPI-INFO-ENG-2027-CALL"
+          ]
+        },
+        {
+          "field": "facts.scholarships_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": {
+            "DSU_Tuscany": "Regional right-to-study support; consult the separate annual DSU call",
+            "MAECI": "The 2027/28 call is not yet announced",
+            "Invest_Your_Talent_in_Italy": "For selected countries; the 2027/28 call is not yet announced",
+            "UniPi_merit_award": "Potential second-year award for the student with the best first-year academic performance; at least 45 CFU by 30 September 2028",
+            "selection_guarantee": "Admission does not guarantee any scholarship"
+          },
+          "notes": "The call identifies these support routes but gives no confirmed course-specific 2027/28 award, amount or eligibility. It explicitly says the MAECI and Invest Your Talent in Italy 2027/28 calls have not been announced; DSU uses a separate annual call and the UniPi merit award is a later second-year competition.",
+          "source_ids": [
+            "SRC-UNIPI-INFO-ENG-2027-CALL"
+          ]
+        },
+        {
+          "field": "facts.acceptance_rate",
+          "status": "UNAVAILABLE",
+          "value": null,
+          "notes": "No applicant denominator or admitted-student count is published; no acceptance rate is inferred.",
+          "source_ids": [
+            "SRC-UNIPI-INFO-ENG-2027-CALL"
+          ]
+        }
+      ],
+      "missing_fields": [
+        {
+          "field": "facts.tuition_2027_2028",
+          "status": "NOT_YET_PUBLISHED",
+          "value": null,
+          "notes": "The official call says 2027/28 fees are set annually and usually announced in June for the following academic year; 2026/27 amounts are historical only.",
+          "source_ids": [
+            "SRC-UNIPI-INFO-ENG-2027-CALL"
+          ]
+        },
+        {
+          "field": "facts.acceptance_rate",
+          "status": "UNAVAILABLE",
+          "value": null,
+          "notes": "No applicant denominator or admitted-student count is published; no acceptance rate is inferred.",
+          "source_ids": [
+            "SRC-UNIPI-INFO-ENG-2027-CALL"
+          ]
+        }
+      ],
+      "known_source_conflicts": [],
+      "source_ids": [
+        "SRC-UNIPI-COMPUTER-ENGINEERING-PROFILE",
+        "SRC-UNIPI-INFO-ENG-2027-CALL"
       ],
       "previous_cycle_tags": null,
       "refresh_status": "pending",
@@ -122934,8 +123231,8 @@
         "effective_url": "https://computer.ing.unipi.it/en/masters-degree-in-artificial-intelligence-and-data-engineering/",
         "content_type": "text/html; charset=UTF-8",
         "content_length_header": "204017",
-        "etag": "\"31cf1-65ff2d6cadc66\"",
-        "last_modified": "Tue, 10 Nov 2026 21:34:10 GMT",
+        "etag": "\"31cf1-65ff5266b79a6\"",
+        "last_modified": "Wed, 11 Nov 2026 00:19:36 GMT",
         "cache_control": "max-age=3600, public",
         "age": null,
         "x_vercel_cache": null,
@@ -122947,7 +123244,7 @@
         "bytes_read": 131072,
         "outcome": "accessible",
         "error": null,
-        "checked_at": "2026-11-10",
+        "checked_at": "2026-11-11",
         "method": "GET"
       },
       "browser_check": null
@@ -125012,6 +125309,131 @@
         "x_vercel_id": null,
         "location": null,
         "observed_title": "Degree policy - EPOG Visit our LinkedIn linkedin facebook pinterest youtube rss twitter instagram",
+        "pdf_signature": null,
+        "has_2027_marker": false,
+        "bytes_read": 131072,
+        "outcome": "accessible",
+        "error": null,
+        "checked_at": "2026-11-11",
+        "method": "GET"
+      },
+      "browser_check": null
+    },
+    {
+      "id": "SRC-UNIPI-INFO-ENG-2027-CALL",
+      "title": "Department of Information Engineering – 2027/28 international MSc admission call",
+      "url": "https://computer.ing.unipi.it/call-for-international-students/",
+      "source_type": "Official department admission call and requirements page",
+      "cycle": "2027-2028",
+      "accessed_at": "2026-11-11",
+      "evidence": "The Department's current call explicitly invites applicants holding foreign qualifications for 2027/28 entry to two English-taught MSc programs: Computer Engineering and Artificial Intelligence and Data Engineering. Deadline: 1 February 2027 at 23:59 GMT; tentative results date 12 March 2027; €30 per application, up to two applications through applymscenglish.unipi.it. The call requires a three-year BSc/equivalent with computer hardware/software preparation, algorithms/programming, computer architecture, operating systems, networks and databases, strong mathematics and English B2; applicants needing a visa must provide an internationally recognised four-skill B2 certificate (a Medium of Instruction letter is insufficient). It lists required documents, selection steps, financial-aid schemes, and states 2027/28 tuition is expected around June 2027 while MAECI and Invest Your Talent scholarship calls are not yet announced.",
+      "supports": [
+        "program.availability_2027_2028",
+        "program.application_windows",
+        "program.application_fee_2027_2028",
+        "program.application_route",
+        "program.program_specific_requirements_2027_2028",
+        "program.english_language_requirement_2027_2028",
+        "program.application_documents",
+        "program.selection_process",
+        "program.tuition_2027_2028",
+        "program.scholarships_2027_2028"
+      ],
+      "refresh_status": "accessible",
+      "url_check": {
+        "http_status": 200,
+        "effective_url": "https://computer.ing.unipi.it/call-for-international-students/",
+        "content_type": "text/html; charset=UTF-8",
+        "content_length_header": "131673",
+        "etag": "\"20259-65ff53f308ed4\"",
+        "last_modified": "Wed, 11 Nov 2026 00:26:32 GMT",
+        "cache_control": "max-age=3600, public",
+        "age": null,
+        "x_vercel_cache": null,
+        "x_vercel_id": null,
+        "location": null,
+        "observed_title": "Call for international students – Ingegneria Informatica, Università di Pisa",
+        "pdf_signature": null,
+        "has_2027_marker": true,
+        "bytes_read": 131072,
+        "outcome": "accessible",
+        "error": null,
+        "checked_at": "2026-11-11",
+        "method": "GET"
+      },
+      "browser_check": null
+    },
+    {
+      "id": "SRC-UNIPI-AIDE-COURSE-PROFILE",
+      "title": "Artificial Intelligence and Data Engineering – current official MSc profile",
+      "url": "https://computer.ing.unipi.it/en/masters-degree-in-artificial-intelligence-and-data-engineering/",
+      "source_type": "Official Department degree programme profile",
+      "cycle": "general",
+      "accessed_at": "2026-11-11",
+      "evidence": "The current Department profile identifies Artificial Intelligence and Data Engineering as an LM-32 Master's degree in Pisa. It describes delivery as English/Italian: compulsory activities are in English, and English-taught credits suffice to complete the degree without Italian; some remedial basic Computer Engineering courses are only in Italian. The profile supports current course identity and language scope; the separate named 2027/28 Department call is the evidence for new-entry availability and its foreign-degree route.",
+      "supports": [
+        "program.name",
+        "program.level",
+        "program.language",
+        "program.location",
+        "program.degree_class",
+        "program.course_structure"
+      ],
+      "refresh_status": "accessible",
+      "url_check": {
+        "http_status": 200,
+        "effective_url": "https://computer.ing.unipi.it/en/masters-degree-in-artificial-intelligence-and-data-engineering/",
+        "content_type": "text/html; charset=UTF-8",
+        "content_length_header": "204017",
+        "etag": "\"31cf1-65ff5266b79a6\"",
+        "last_modified": "Wed, 11 Nov 2026 00:19:36 GMT",
+        "cache_control": "max-age=3600, public",
+        "age": null,
+        "x_vercel_cache": null,
+        "x_vercel_id": null,
+        "location": null,
+        "observed_title": "Master’s Degree in Artificial Intelligence and Data Engineering – Ingegneria Informatica, Università di Pisa",
+        "pdf_signature": null,
+        "has_2027_marker": false,
+        "bytes_read": 131072,
+        "outcome": "accessible",
+        "error": null,
+        "checked_at": "2026-11-11",
+        "method": "GET"
+      },
+      "browser_check": null
+    },
+    {
+      "id": "SRC-UNIPI-COMPUTER-ENGINEERING-PROFILE",
+      "title": "Computer Engineering – current official MSc profile",
+      "url": "https://computer.ing.unipi.it/en/masters-degree-in-computer-engineering/",
+      "source_type": "Official Department degree programme profile",
+      "cycle": "general",
+      "accessed_at": "2026-11-11",
+      "evidence": "The official Department profile identifies Computer Engineering as an English-taught Master's degree in the LM-32 class, based in Pisa, with open access subject to skills assessment. It lists Cloud/Network Infrastructure and Services, Cyber-Physical Systems, and Cybersecurity study tracks. The linked 2027/28 foreign-qualification call separately establishes the current intake and applicant-category deadlines.",
+      "supports": [
+        "program.name",
+        "program.level",
+        "program.language",
+        "program.location",
+        "program.degree_class",
+        "program.tracks",
+        "program.access"
+      ],
+      "refresh_status": "accessible",
+      "url_check": {
+        "http_status": 200,
+        "effective_url": "https://computer.ing.unipi.it/en/masters-degree-in-computer-engineering/",
+        "content_type": "text/html; charset=UTF-8",
+        "content_length_header": null,
+        "etag": "\"f17ac582169b2ab6ababee450d8d6410\"",
+        "last_modified": "Wed, 11 Nov 2026 00:45:45 GMT",
+        "cache_control": "max-age=3600, public",
+        "age": null,
+        "x_vercel_cache": null,
+        "x_vercel_id": null,
+        "location": null,
+        "observed_title": "Laurea Magistrale in Computer Engineering – Ingegneria Informatica, Università di Pisa",
         "pdf_signature": null,
         "has_2027_marker": false,
         "bytes_read": 131072,

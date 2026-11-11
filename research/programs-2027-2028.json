@@ -9777,37 +9777,40 @@
     "program": "Artificial Intelligence and Data Engineering",
     "level": {
       "value": "MSc",
-      "status": "REQUIRES_VERIFICATION",
+      "status": "CONFIRMED",
       "source_ids": [
-        "SRC-UNIPI-AIDE-2026"
+        "SRC-UNIPI-AIDE-COURSE-PROFILE",
+        "SRC-UNIPI-INFO-ENG-2027-CALL"
       ],
-      "notes": "Official course identity is confirmed for the 2026/2027 catalogue; this value is not promoted to 2027/28 without a named-cycle source."
+      "notes": null
     },
     "language": {
-      "value": "English/Italian (required courses in English)",
-      "status": "REQUIRES_VERIFICATION",
+      "value": "English/Italian (required courses in English; Italian not required to complete the degree)",
+      "status": "CONFIRMED",
       "source_ids": [
-        "SRC-UNIPI-AIDE-2026"
+        "SRC-UNIPI-AIDE-COURSE-PROFILE",
+        "SRC-UNIPI-INFO-ENG-2027-CALL"
       ],
-      "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
+      "notes": null
     },
     "field": {
       "value": "Artificial Intelligence and Data Engineering",
-      "status": "REQUIRES_VERIFICATION",
+      "status": "CONFIRMED",
       "source_ids": [
-        "SRC-UNIPI-AIDE-2026"
+        "SRC-UNIPI-AIDE-COURSE-PROFILE",
+        "SRC-UNIPI-INFO-ENG-2027-CALL"
       ],
-      "notes": "Course subject identity is based on current official profile/catalogue evidence; next-cycle catalogue not yet verified."
+      "notes": null
     },
     "availability_2027_2028": {
-      "value": null,
-      "status": "NOT_YET_PUBLISHED",
+      "value": true,
+      "status": "CONFIRMED",
       "source_ids": [
-        "SRC-UNIPI-AIDE-2026"
+        "SRC-UNIPI-INFO-ENG-2027-CALL"
       ],
-      "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued."
+      "notes": "The named 2027/28 Department call confirms an intake for applicants with foreign qualifications. It does not confirm the separate admission procedure for Italian qualifications."
     },
-    "overall_status": "REQUIRES_VERIFICATION",
+    "overall_status": "CONFIRMED",
     "discovery_source": "previous_tracker",
     "facts": {
       "previous_cycle_course_listing": {
@@ -9824,56 +9827,193 @@
         "notes": "Official course profile/catalogue evidence is cycle-scoped to 2026/2027 and does not establish 2027/28 first-year admission."
       },
       "application_windows": {
-        "value": null,
-        "status": "NOT_YET_PUBLISHED",
-        "source_ids": [
-          "SRC-UNIPI-AIDE-2026"
+        "value": [
+          {
+            "start": null,
+            "end": "2027-02-01",
+            "deadline_time": "23:59 GMT (strict)",
+            "round": "2027/28 Department of Information Engineering international MSc call",
+            "eligible_group": "Applicants with a foreign qualification (Bachelor's degree obtained from a non-Italian institution); this call does not establish the separate Italian-qualification application process."
+          }
         ],
-        "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates."
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIPI-INFO-ENG-2027-CALL"
+        ],
+        "notes": "The Department has not published an opening date on the call page. Deadline is strictly 1 February 2027 at 23:59 GMT; the portal lists 12 March 2027 as a tentative results date."
       },
       "application_fee_2027_2028": {
-        "value": null,
-        "status": "NOT_YET_PUBLISHED",
+        "value": {
+          "amount_eur": 30,
+          "per": "application",
+          "maximum_applications": 2
+        },
+        "status": "CONFIRMED",
         "source_ids": [
-          "SRC-UNIPI-AIDE-2026"
+          "SRC-UNIPI-INFO-ENG-2027-CALL"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal."
+        "notes": null
       },
       "program_specific_requirements_2027_2028": {
-        "value": null,
-        "status": "NOT_YET_PUBLISHED",
+        "value": {
+          "prior_degree": "BSc or equivalent first-cycle degree after at least three years of study",
+          "required_subjects": [
+            "Algorithms and programming",
+            "Computer architecture",
+            "Operating systems",
+            "Computer networks",
+            "Database systems"
+          ],
+          "mathematics": "Strong background required",
+          "related_engineering": "Electronics, telecommunications, automation and management engineering are favorably considered",
+          "professional_qualifications": "Purely technical/professional qualifications are not accepted",
+          "english": "CEFR B2",
+          "selection": "Committee assesses academic performance, subject alignment and CV; online tests or interviews may be used, followed by a final online interview for shortlisted applicants"
+        },
+        "status": "CONFIRMED",
         "source_ids": [
-          "SRC-UNIPI-AIDE-2026"
+          "SRC-UNIPI-INFO-ENG-2027-CALL"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only."
+        "notes": null
       },
       "tuition_2027_2028": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
-          "SRC-UNIPI-AIDE-2026"
+          "SRC-UNIPI-INFO-ENG-2027-CALL"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts."
+        "notes": "The official call says 2027/28 fees are set annually and usually announced in June for the following academic year; 2026/27 amounts are historical only."
       },
       "scholarships_2027_2028": {
-        "value": null,
-        "status": "NOT_YET_PUBLISHED",
+        "value": {
+          "DSU_Tuscany": "Regional right-to-study support; consult the separate annual DSU call",
+          "MAECI": "The 2027/28 call is not yet announced",
+          "Invest_Your_Talent_in_Italy": "For selected countries; the 2027/28 call is not yet announced",
+          "UniPi_merit_award": "Potential second-year award for the student with the best first-year academic performance; at least 45 CFU by 30 September 2028",
+          "selection_guarantee": "Admission does not guarantee any scholarship"
+        },
+        "status": "REQUIRES_VERIFICATION",
         "source_ids": [
-          "SRC-UNIPI-AIDE-2026"
+          "SRC-UNIPI-INFO-ENG-2027-CALL"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking."
+        "notes": "The call identifies these support routes but gives no confirmed course-specific 2027/28 award, amount or eligibility. It explicitly says the MAECI and Invest Your Talent in Italy 2027/28 calls have not been announced; DSU uses a separate annual call and the UniPi merit award is a later second-year competition."
       },
       "acceptance_rate": {
         "value": null,
         "status": "UNAVAILABLE",
         "source_ids": [
-          "SRC-UNIPI-AIDE-2026"
+          "SRC-UNIPI-INFO-ENG-2027-CALL"
         ],
-        "notes": "The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred."
+        "notes": "No applicant denominator or admitted-student count is published; no acceptance rate is inferred."
+      },
+      "official_course_profile_2027_2028": {
+        "value": {
+          "degree_class": "LM-32 - Computer systems engineering",
+          "campus": "Pisa",
+          "language": "English/Italian",
+          "required_courses_language": "English",
+          "italian_required": "No"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIPI-AIDE-COURSE-PROFILE",
+          "SRC-UNIPI-INFO-ENG-2027-CALL"
+        ],
+        "notes": null
+      },
+      "applicant_scope_2027_2028": {
+        "value": {
+          "confirmed_group": "Applicants with a foreign qualification (Bachelor's obtained from a non-Italian institution)",
+          "domestic_degree_route": "Not verified in this refresh"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIPI-INFO-ENG-2027-CALL"
+        ],
+        "notes": null
+      },
+      "application_deadline": {
+        "value": {
+          "end": "2027-02-01",
+          "time": "23:59 GMT (strict)",
+          "applies_to": "Applicants with a foreign qualification (Bachelor's degree obtained from a non-Italian institution); this call does not establish the separate Italian-qualification application process.",
+          "selection_results": "12 March 2027 (tentative)"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIPI-INFO-ENG-2027-CALL"
+        ],
+        "notes": null
+      },
+      "application_fee": {
+        "value": {
+          "amount_eur": 30,
+          "per": "application",
+          "maximum_applications": 2
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIPI-INFO-ENG-2027-CALL"
+        ],
+        "notes": null
+      },
+      "application_route": {
+        "value": "https://applymscenglish.unipi.it/",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIPI-INFO-ENG-2027-CALL"
+        ],
+        "notes": null
+      },
+      "english_language_requirement_2027_2028": {
+        "value": {
+          "minimum": "CEFR B2",
+          "visa_applicants": "Submit a certificate from an internationally recognised institution covering listening, reading, speaking and writing",
+          "medium_of_instruction_letter_sufficient": false
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIPI-INFO-ENG-2027-CALL"
+        ],
+        "notes": null
+      },
+      "application_documents_2027_2028": {
+        "value": [
+          "B2 English certificate from an internationally recognised institution",
+          "Degree certificate if graduated and academic transcripts in English/Italian or translated into one of those languages, showing at least three years of study",
+          "Valid passport copy",
+          "Complete CV including education and relevant experience"
+        ],
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIPI-INFO-ENG-2027-CALL"
+        ],
+        "notes": null
+      },
+      "selection_process_2027_2028": {
+        "value": {
+          "committee_assessment": [
+            "Undergraduate academic performance in country context",
+            "Match between prior coursework and the programs",
+            "CV and relevant experience"
+          ],
+          "possible_steps": [
+            "Online test or interview",
+            "Final online interview for successful applicants"
+          ],
+          "results_date": "12 March 2027 (tentative)"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIPI-INFO-ENG-2027-CALL"
+        ],
+        "notes": null
       }
     },
     "source_ids": [
-      "SRC-UNIPI-AIDE-2026"
+      "SRC-UNIPI-AIDE-2026",
+      "SRC-UNIPI-AIDE-COURSE-PROFILE",
+      "SRC-UNIPI-INFO-ENG-2027-CALL"
     ],
     "previous_tracker_tags": {
       "level": "MSc",
@@ -9881,14 +10021,8 @@
       "field": "Computer Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
-    "previous_cycle_tags": {
-      "level": "MSc",
-      "language": "English/Italian (required courses in English)",
-      "field": "Artificial Intelligence and Data Engineering",
-      "cycle": "2026-2027",
-      "label": "Official course identity checked for 2026/2027; 2027/28 first-year intake and terms remain unconfirmed"
-    },
-    "last_checked": "2026-11-10"
+    "previous_cycle_tags": null,
+    "last_checked": "2026-11-11"
   },
   {
     "id": "legacy-055",
@@ -37537,6 +37671,247 @@
       "SRC-EPOG-SCHOLARSHIPS",
       "SRC-EPOG-TUITION-FEES",
       "SRC-EPOG-DEGREE-POLICY"
+    ],
+    "previous_tracker_tags": null,
+    "previous_cycle_tags": null,
+    "last_checked": "2026-11-11"
+  },
+  {
+    "id": "discovered-039",
+    "university_id": "pisa",
+    "university": "Università di Pisa",
+    "city": "Pisa",
+    "program": "Computer Engineering",
+    "level": {
+      "value": "MSc",
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-UNIPI-COMPUTER-ENGINEERING-PROFILE",
+        "SRC-UNIPI-INFO-ENG-2027-CALL"
+      ],
+      "notes": null
+    },
+    "language": {
+      "value": "English",
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-UNIPI-COMPUTER-ENGINEERING-PROFILE",
+        "SRC-UNIPI-INFO-ENG-2027-CALL"
+      ],
+      "notes": null
+    },
+    "field": {
+      "value": "Computer Engineering",
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-UNIPI-COMPUTER-ENGINEERING-PROFILE",
+        "SRC-UNIPI-INFO-ENG-2027-CALL"
+      ],
+      "notes": null
+    },
+    "availability_2027_2028": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-UNIPI-INFO-ENG-2027-CALL"
+      ],
+      "notes": "The named 2027/28 Department call confirms an intake for applicants with foreign qualifications. It does not confirm the separate admission procedure for Italian qualifications."
+    },
+    "overall_status": "CONFIRMED",
+    "discovery_source": "newly_discovered",
+    "facts": {
+      "official_course_profile_2027_2028": {
+        "value": {
+          "degree_class": "LM-32 - Computer Engineering",
+          "duration_years": 2,
+          "campus": "Pisa",
+          "language": "English",
+          "access": "Open access with skills assessment",
+          "tracks": [
+            "Cloud and Network Infrastructures and Services",
+            "Cyber-Physical Systems",
+            "Cybersecurity"
+          ]
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIPI-COMPUTER-ENGINEERING-PROFILE",
+          "SRC-UNIPI-INFO-ENG-2027-CALL"
+        ],
+        "notes": null
+      },
+      "applicant_scope_2027_2028": {
+        "value": {
+          "confirmed_group": "Applicants with a foreign qualification (Bachelor's obtained from a non-Italian institution)",
+          "domestic_degree_route": "Not verified in this refresh"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIPI-INFO-ENG-2027-CALL"
+        ],
+        "notes": null
+      },
+      "application_windows": {
+        "value": [
+          {
+            "start": null,
+            "end": "2027-02-01",
+            "deadline_time": "23:59 GMT (strict)",
+            "round": "2027/28 Department of Information Engineering international MSc call",
+            "eligible_group": "Applicants with a foreign qualification (Bachelor's degree obtained from a non-Italian institution); this call does not establish the separate Italian-qualification application process."
+          }
+        ],
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIPI-INFO-ENG-2027-CALL"
+        ],
+        "notes": "The Department has not published an opening date on the call page. Deadline is strictly 1 February 2027 at 23:59 GMT; the portal lists 12 March 2027 as a tentative results date."
+      },
+      "application_deadline": {
+        "value": {
+          "end": "2027-02-01",
+          "time": "23:59 GMT (strict)",
+          "applies_to": "Applicants with a foreign qualification (Bachelor's degree obtained from a non-Italian institution); this call does not establish the separate Italian-qualification application process.",
+          "selection_results": "12 March 2027 (tentative)"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIPI-INFO-ENG-2027-CALL"
+        ],
+        "notes": null
+      },
+      "application_fee": {
+        "value": {
+          "amount_eur": 30,
+          "per": "application",
+          "maximum_applications": 2
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIPI-INFO-ENG-2027-CALL"
+        ],
+        "notes": null
+      },
+      "application_fee_2027_2028": {
+        "value": {
+          "amount_eur": 30,
+          "per": "application",
+          "maximum_applications": 2
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIPI-INFO-ENG-2027-CALL"
+        ],
+        "notes": null
+      },
+      "application_route": {
+        "value": "https://applymscenglish.unipi.it/",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIPI-INFO-ENG-2027-CALL"
+        ],
+        "notes": null
+      },
+      "program_specific_requirements_2027_2028": {
+        "value": {
+          "prior_degree": "BSc or equivalent first-cycle degree after at least three years of study",
+          "required_subjects": [
+            "Algorithms and programming",
+            "Computer architecture",
+            "Operating systems",
+            "Computer networks",
+            "Database systems"
+          ],
+          "mathematics": "Strong background required",
+          "related_engineering": "Electronics, telecommunications, automation and management engineering are favorably considered",
+          "professional_qualifications": "Purely technical/professional qualifications are not accepted",
+          "english": "CEFR B2",
+          "selection": "Committee assesses academic performance, subject alignment and CV; online tests or interviews may be used, followed by a final online interview for shortlisted applicants"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIPI-INFO-ENG-2027-CALL"
+        ],
+        "notes": null
+      },
+      "english_language_requirement_2027_2028": {
+        "value": {
+          "minimum": "CEFR B2",
+          "visa_applicants": "Submit a certificate from an internationally recognised institution covering listening, reading, speaking and writing",
+          "medium_of_instruction_letter_sufficient": false
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIPI-INFO-ENG-2027-CALL"
+        ],
+        "notes": null
+      },
+      "application_documents_2027_2028": {
+        "value": [
+          "B2 English certificate from an internationally recognised institution",
+          "Degree certificate if graduated and academic transcripts in English/Italian or translated into one of those languages, showing at least three years of study",
+          "Valid passport copy",
+          "Complete CV including education and relevant experience"
+        ],
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIPI-INFO-ENG-2027-CALL"
+        ],
+        "notes": null
+      },
+      "selection_process_2027_2028": {
+        "value": {
+          "committee_assessment": [
+            "Undergraduate academic performance in country context",
+            "Match between prior coursework and the programs",
+            "CV and relevant experience"
+          ],
+          "possible_steps": [
+            "Online test or interview",
+            "Final online interview for successful applicants"
+          ],
+          "results_date": "12 March 2027 (tentative)"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIPI-INFO-ENG-2027-CALL"
+        ],
+        "notes": null
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-UNIPI-INFO-ENG-2027-CALL"
+        ],
+        "notes": "The official call says 2027/28 fees are set annually and usually announced in June for the following academic year; 2026/27 amounts are historical only."
+      },
+      "scholarships_2027_2028": {
+        "value": {
+          "DSU_Tuscany": "Regional right-to-study support; consult the separate annual DSU call",
+          "MAECI": "The 2027/28 call is not yet announced",
+          "Invest_Your_Talent_in_Italy": "For selected countries; the 2027/28 call is not yet announced",
+          "UniPi_merit_award": "Potential second-year award for the student with the best first-year academic performance; at least 45 CFU by 30 September 2028",
+          "selection_guarantee": "Admission does not guarantee any scholarship"
+        },
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-UNIPI-INFO-ENG-2027-CALL"
+        ],
+        "notes": "The call identifies these support routes but gives no confirmed course-specific 2027/28 award, amount or eligibility. It explicitly says the MAECI and Invest Your Talent in Italy 2027/28 calls have not been announced; DSU uses a separate annual call and the UniPi merit award is a later second-year competition."
+      },
+      "acceptance_rate": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-UNIPI-INFO-ENG-2027-CALL"
+        ],
+        "notes": "No applicant denominator or admitted-student count is published; no acceptance rate is inferred."
+      }
+    },
+    "source_ids": [
+      "SRC-UNIPI-COMPUTER-ENGINEERING-PROFILE",
+      "SRC-UNIPI-INFO-ENG-2027-CALL"
     ],
     "previous_tracker_tags": null,
     "previous_cycle_tags": null,

@@ -2,7 +2,7 @@
 
 Prepared 2026-11-11 for academic year 2027/28. Review each record against official university pages, calls, portals, regulations, and PDFs.
 
-Snapshot inventory: 34 universities, 203 program records, 575 source records.
+Snapshot inventory: 34 universities, 204 program records, 578 source records.
 
 ## Review rules
 
@@ -4130,6 +4130,9 @@ Official university-level sources:
 - [ ] `SRC-UNIPI-AIDE-2026` — [Artificial Intelligence and Data Engineering – official English programme profile](https://computer.ing.unipi.it/en/masters-degree-in-artificial-intelligence-and-data-engineering/) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-UNIPI-BIONICS-2026` — [Bionics Engineering – official Pisa Master's profile](https://www.unipi.it/didattica/corsi/lauree-magistrali/bionics-engineering-wber-lm/) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-UNIPI-NUCLEAR-2026` — [Nuclear Engineering – official course identity in Pisa degree documentation](https://nucleare.ing.unipi.it/images/files/SUA_2023.pdf) (cycle: 2023-2024; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIPI-INFO-ENG-2027-CALL` — [Department of Information Engineering – 2027/28 international MSc admission call](https://computer.ing.unipi.it/call-for-international-students/) (cycle: 2027-2028; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-UNIPI-AIDE-COURSE-PROFILE` — [Artificial Intelligence and Data Engineering – current official MSc profile](https://computer.ing.unipi.it/en/masters-degree-in-artificial-intelligence-and-data-engineering/) (cycle: general; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-UNIPI-COMPUTER-ENGINEERING-PROFILE` — [Computer Engineering – current official MSc profile](https://computer.ing.unipi.it/en/masters-degree-in-computer-engineering/) (cycle: general; checked in prior snapshot: 2026-11-11)
 
 #### Computer Science — `legacy-052`
 
@@ -4165,20 +4168,17 @@ Currently missing or unpublished fields:
 
 #### Artificial Intelligence and Data Engineering — `legacy-054`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
+- [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-11`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-054/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/pisa/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNIPI-AIDE-2026` — [Artificial Intelligence and Data Engineering – official English programme profile](https://computer.ing.unipi.it/en/masters-degree-in-artificial-intelligence-and-data-engineering/) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-UNIPI-AIDE-COURSE-PROFILE` — [Artificial Intelligence and Data Engineering – current official MSc profile](https://computer.ing.unipi.it/en/masters-degree-in-artificial-intelligence-and-data-engineering/) (cycle: general; prior check: 2026-11-11)
+- [ ] `SRC-UNIPI-INFO-ENG-2027-CALL` — [Department of Information Engineering – 2027/28 international MSc admission call](https://computer.ing.unipi.it/call-for-international-students/) (cycle: 2027-2028; prior check: 2026-11-11)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
-  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
-  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
-  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
-  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
-  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
-  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — The official call says 2027/28 fees are set annually and usually announced in June for the following academic year; 2026/27 amounts are historical only.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — No applicant denominator or admitted-student count is published; no acceptance rate is inferred.
 
 #### Data Science and Business Informatics — `legacy-055`
 
@@ -4243,6 +4243,19 @@ Currently missing or unpublished fields:
   - `facts.tuition` — `NOT_YET_PUBLISHED` — 2027/28 tuition was not published in the call.
   - `facts.available_places` — `UNAVAILABLE` — No seat count is stated in the reviewed call.
   - `facts.acceptance_rate` — `UNAVAILABLE` — No acceptance rate is stated in the reviewed call.
+
+#### Computer Engineering — `discovered-039`
+
+- [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-11`
+- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-039/
+- [ ] University page: https://italy-it-programs.vercel.app/universities/pisa/
+- [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
+Official linked sources to revisit:
+- [ ] `SRC-UNIPI-INFO-ENG-2027-CALL` — [Department of Information Engineering – 2027/28 international MSc admission call](https://computer.ing.unipi.it/call-for-international-students/) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-UNIPI-COMPUTER-ENGINEERING-PROFILE` — [Computer Engineering – current official MSc profile](https://computer.ing.unipi.it/en/masters-degree-in-computer-engineering/) (cycle: general; prior check: 2026-11-11)
+Currently missing or unpublished fields:
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — The official call says 2027/28 fees are set annually and usually announced in June for the following academic year; 2026/27 amounts are historical only.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — No applicant denominator or admitted-student count is published; no acceptance rate is inferred.
 
 ### Università degli Studi di Salerno (Fisciano) — `salerno`
 
@@ -5098,7 +5111,7 @@ Currently missing or unpublished fields:
 
 ## Source URL recheck results
 
-Checked 561 unique URLs representing 575 source records on 2026-11-11. Unique URL outcomes: {'accessible': 526, 'redirected': 13, 'inconclusive': 22}. HTTP 404/410 outcomes are listed as broken; TLS, timeout, and remote-disconnect cases remain inconclusive.
+Checked 563 unique URLs representing 578 source records on 2026-11-11. Unique URL outcomes: {'accessible': 528, 'redirected': 13, 'inconclusive': 22}. HTTP 404/410 outcomes are listed as broken; TLS, timeout, and remote-disconnect cases remain inconclusive.
 
 ### Redirected sources
 

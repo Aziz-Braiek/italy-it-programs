@@ -212,6 +212,11 @@
       "result": "Added UniTo's English-taught Economic Analysis and Policy LM-56 R MSc as newly discovered candidate discovered-038. The University course profile confirms its two-year degree identity and Turin location; the EPOG consortium's live 2027–2029 call and application platform confirm an active 2027/28-entry route, with applications closing 27 January 2027 at 13:00 Europe/Paris. The course is a multi-partner Erasmus Mundus joint master, and the degree-policy matrix confirms a University of Turin award only for Major A and Minor C2 pathway combinations. Recorded the 180-ECTS prior-degree threshold, 24 ECTS economics plus 6 ECTS statistics/econometrics, English C1/equivalent, statement, two references and application route. Preserved the conflict that UniTo's central course profile says 18 CFU economics + 6 statistics, while its EAP checklist and EPOG call say 24 ECTS + 6. Published EPOG scholarship terms (€1,400/month for both years and tuition/insurance coverage) and the general fee policy (€1,000/year under the stated personal-income threshold; potentially €9,600/year above it) are recorded with cycle-specific award count and 2027/28 tuition confirmation still pending. No application fee is stated in the official pages reviewed; the amount remains unverified and no standard UniTo fee was copied to the consortium route. Production and preview remain untouched while the full research audit continues."
     },
     {
+      "id": "pisa-information-engineering-2027-28-intake-and-degree-discovery",
+      "status": "partial",
+      "result": "Rechecked the University of Pisa Department of Information Engineering's live foreign-qualification call. The 2027/28 call names two English-taught MScs—Computer Engineering and Artificial Intelligence and Data Engineering—so added Computer Engineering as discovered-039 and promoted the existing Artificial Intelligence and Data Engineering row from pending to confirmed for applicants with foreign degrees. Both have a 1 February 2027, 23:59 GMT deadline, tentative 12 March results, €30/application (up to two) and the applymscenglish.unipi.it route. Recorded the common three-year degree, subject preparation, mathematics, B2 English, required documents and competitive review process, with visa-specific English-certificate conditions. The current Computer Engineering and AIDE profiles preserve their separate language and track details. The call says the 2027/28 tuition schedule is expected around June 2027; MAECI and Invest Your Talent calls for 2027/28 are not yet announced, and scholarship eligibility/award terms still need verification. The older tracker Computer Science row is separate and remains correctly named: Pisa's CS Department call explicitly names that degree independently. Production and preview remain untouched while the full research audit continues."
+    },
+    {
       "id": "claude-independent-review-inventory",
       "status": "complete",
       "result": "Created a review manifest and checklist covering all 34 universities, 193 programs, and 454 existing official source records. The checklist exposes current unresolved fields and conflicts; all refresh outcomes remain pending until evidence is checked."
@@ -274,15 +279,15 @@
     ],
     "universities_program_level_review_not_started": 0,
     "university_ids_with_program_level_review_not_started": [],
-    "program_records": 203,
+    "program_records": 204,
     "prior_tracker_programs_archived": 165,
-    "newly_discovered_programs": 38,
-    "programs_cycle_availability_confirmed": 32,
-    "programs_availability_pending": 168,
-    "programs_fully_verified": 27,
-    "programs_requiring_verification": 173,
+    "newly_discovered_programs": 39,
+    "programs_cycle_availability_confirmed": 34,
+    "programs_availability_pending": 167,
+    "programs_fully_verified": 29,
+    "programs_requiring_verification": 172,
     "programs_not_offered_2027_2028": 3,
-    "programs_supported_only_by_previous_cycle": 157,
+    "programs_supported_only_by_previous_cycle": 156,
     "program_ids_supported_only_by_previous_cycle": [
       "discovered-023",
       "discovered-024",
@@ -337,7 +342,6 @@
       "legacy-050",
       "legacy-051",
       "legacy-053",
-      "legacy-054",
       "legacy-056",
       "legacy-057",
       "legacy-058",
@@ -443,7 +447,7 @@
       "legacy-165"
     ],
     "bsc_programs_verified": 1,
-    "msc_programs_verified": 26,
+    "msc_programs_verified": 28,
     "universities_with_confirmed_deadline_windows": 10,
     "university_ids_with_confirmed_deadline_windows": [
       "bologna",
@@ -519,8 +523,8 @@
       "trento",
       "udine"
     ],
-    "source_records": 575,
-    "official_source_supported_fields": 1141,
+    "source_records": 578,
+    "official_source_supported_fields": 1171,
     "verification_statuses": [
       "CONFIRMED",
       "NOT_YET_PUBLISHED",

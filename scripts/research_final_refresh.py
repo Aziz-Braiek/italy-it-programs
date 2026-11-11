@@ -1025,6 +1025,39 @@ SOURCES = [
         "evidence": "The EPOG degree policy confirms that the two-year 120-ECTS programme awards joint or multiple degrees based on the institutions attended in year one and year two. Its award matrix lists University of Turin's Master's in Economic Analysis and Policy for Major A and Minor C2 pathway combinations only. This is a multi-partner joint programme; a Turin degree is conditional on the selected pathway and mobility, not guaranteed for every EPOG applicant.",
         "supports": ["program.joint_degree_pathways", "program.mobility", "program.degree_award"],
     },
+    {
+        "id": "SRC-UNIPI-INFO-ENG-2027-CALL",
+        "university_id": "pisa",
+        "title": "Department of Information Engineering – 2027/28 international MSc admission call",
+        "url": "https://computer.ing.unipi.it/call-for-international-students/",
+        "source_type": "Official department admission call and requirements page",
+        "accessed_at": "2026-11-11",
+        "cycle": "2027-2028",
+        "evidence": "The Department's current call explicitly invites applicants holding foreign qualifications for 2027/28 entry to two English-taught MSc programs: Computer Engineering and Artificial Intelligence and Data Engineering. Deadline: 1 February 2027 at 23:59 GMT; tentative results date 12 March 2027; €30 per application, up to two applications through applymscenglish.unipi.it. The call requires a three-year BSc/equivalent with computer hardware/software preparation, algorithms/programming, computer architecture, operating systems, networks and databases, strong mathematics and English B2; applicants needing a visa must provide an internationally recognised four-skill B2 certificate (a Medium of Instruction letter is insufficient). It lists required documents, selection steps, financial-aid schemes, and states 2027/28 tuition is expected around June 2027 while MAECI and Invest Your Talent scholarship calls are not yet announced.",
+        "supports": ["program.availability_2027_2028", "program.application_windows", "program.application_fee_2027_2028", "program.application_route", "program.program_specific_requirements_2027_2028", "program.english_language_requirement_2027_2028", "program.application_documents", "program.selection_process", "program.tuition_2027_2028", "program.scholarships_2027_2028"],
+    },
+    {
+        "id": "SRC-UNIPI-AIDE-COURSE-PROFILE",
+        "university_id": "pisa",
+        "title": "Artificial Intelligence and Data Engineering – current official MSc profile",
+        "url": "https://computer.ing.unipi.it/en/masters-degree-in-artificial-intelligence-and-data-engineering/",
+        "source_type": "Official Department degree programme profile",
+        "accessed_at": "2026-11-11",
+        "cycle": "general",
+        "evidence": "The current Department profile identifies Artificial Intelligence and Data Engineering as an LM-32 Master's degree in Pisa. It describes delivery as English/Italian: compulsory activities are in English, and English-taught credits suffice to complete the degree without Italian; some remedial basic Computer Engineering courses are only in Italian. The profile supports current course identity and language scope; the separate named 2027/28 Department call is the evidence for new-entry availability and its foreign-degree route.",
+        "supports": ["program.name", "program.level", "program.language", "program.location", "program.degree_class", "program.course_structure"],
+    },
+    {
+        "id": "SRC-UNIPI-COMPUTER-ENGINEERING-PROFILE",
+        "university_id": "pisa",
+        "title": "Computer Engineering – current official MSc profile",
+        "url": "https://computer.ing.unipi.it/en/masters-degree-in-computer-engineering/",
+        "source_type": "Official Department degree programme profile",
+        "accessed_at": "2026-11-11",
+        "cycle": "general",
+        "evidence": "The official Department profile identifies Computer Engineering as an English-taught Master's degree in the LM-32 class, based in Pisa, with open access subject to skills assessment. It lists Cloud/Network Infrastructure and Services, Cyber-Physical Systems, and Cybersecurity study tracks. The linked 2027/28 foreign-qualification call separately establishes the current intake and applicant-category deadlines.",
+        "supports": ["program.name", "program.level", "program.language", "program.location", "program.degree_class", "program.tracks", "program.access"],
+    },
 ]
 
 BATCH = {
@@ -1061,6 +1094,12 @@ BATCH6 = {
     "id": "unito-economic-analysis-and-policy-epog-2027-29-intake-discovery",
     "status": "partial",
     "result": "Added UniTo's English-taught Economic Analysis and Policy LM-56 R MSc as newly discovered candidate discovered-038. The University course profile confirms its two-year degree identity and Turin location; the EPOG consortium's live 2027–2029 call and application platform confirm an active 2027/28-entry route, with applications closing 27 January 2027 at 13:00 Europe/Paris. The course is a multi-partner Erasmus Mundus joint master, and the degree-policy matrix confirms a University of Turin award only for Major A and Minor C2 pathway combinations. Recorded the 180-ECTS prior-degree threshold, 24 ECTS economics plus 6 ECTS statistics/econometrics, English C1/equivalent, statement, two references and application route. Preserved the conflict that UniTo's central course profile says 18 CFU economics + 6 statistics, while its EAP checklist and EPOG call say 24 ECTS + 6. Published EPOG scholarship terms (€1,400/month for both years and tuition/insurance coverage) and the general fee policy (€1,000/year under the stated personal-income threshold; potentially €9,600/year above it) are recorded with cycle-specific award count and 2027/28 tuition confirmation still pending. No application fee is stated in the official pages reviewed; the amount remains unverified and no standard UniTo fee was copied to the consortium route. Production and preview remain untouched while the full research audit continues.",
+}
+
+BATCH7 = {
+    "id": "pisa-information-engineering-2027-28-intake-and-degree-discovery",
+    "status": "partial",
+    "result": "Rechecked the University of Pisa Department of Information Engineering's live foreign-qualification call. The 2027/28 call names two English-taught MScs—Computer Engineering and Artificial Intelligence and Data Engineering—so added Computer Engineering as discovered-039 and promoted the existing Artificial Intelligence and Data Engineering row from pending to confirmed for applicants with foreign degrees. Both have a 1 February 2027, 23:59 GMT deadline, tentative 12 March results, €30/application (up to two) and the applymscenglish.unipi.it route. Recorded the common three-year degree, subject preparation, mathematics, B2 English, required documents and competitive review process, with visa-specific English-certificate conditions. The current Computer Engineering and AIDE profiles preserve their separate language and track details. The call says the 2027/28 tuition schedule is expected around June 2027; MAECI and Invest Your Talent calls for 2027/28 are not yet announced, and scholarship eligibility/award terms still need verification. The older tracker Computer Science row is separate and remains correctly named: Pisa's CS Department call explicitly names that degree independently. Production and preview remain untouched while the full research audit continues.",
 }
 
 
@@ -1853,3 +1892,105 @@ def apply(
             "The official programme page says the 2027/28 annual call will be published in November 2026; as checked on 11 November the page still links the 2026/27 call. Confirm final eligibility, application/selection process and renewal criteria when the new notice appears.",
         )
         program["source_ids"] = list(dict.fromkeys(program["source_ids"] + padua_scholarship_sources))
+
+    pisa_call = "SRC-UNIPI-INFO-ENG-2027-CALL"
+    aide_profile = "SRC-UNIPI-AIDE-COURSE-PROFILE"
+    computer_engineering_profile = "SRC-UNIPI-COMPUTER-ENGINEERING-PROFILE"
+    pisa_requirement_value = {
+        "prior_degree": "BSc or equivalent first-cycle degree after at least three years of study",
+        "required_subjects": ["Algorithms and programming", "Computer architecture", "Operating systems", "Computer networks", "Database systems"],
+        "mathematics": "Strong background required",
+        "related_engineering": "Electronics, telecommunications, automation and management engineering are favorably considered",
+        "professional_qualifications": "Purely technical/professional qualifications are not accepted",
+        "english": "CEFR B2",
+        "selection": "Committee assesses academic performance, subject alignment and CV; online tests or interviews may be used, followed by a final online interview for shortlisted applicants",
+    }
+    pisa_documents = [
+        "B2 English certificate from an internationally recognised institution",
+        "Degree certificate if graduated and academic transcripts in English/Italian or translated into one of those languages, showing at least three years of study",
+        "Valid passport copy",
+        "Complete CV including education and relevant experience",
+    ]
+    pisa_applicant_group = "Applicants with a foreign qualification (Bachelor's degree obtained from a non-Italian institution); this call does not establish the separate Italian-qualification application process."
+    pisa_application_windows = [{
+        "start": None,
+        "end": "2027-02-01",
+        "deadline_time": "23:59 GMT (strict)",
+        "round": "2027/28 Department of Information Engineering international MSc call",
+        "eligible_group": pisa_applicant_group,
+    }]
+    pisa_application_deadline = {
+        "end": "2027-02-01",
+        "time": "23:59 GMT (strict)",
+        "applies_to": pisa_applicant_group,
+        "selection_results": "12 March 2027 (tentative)",
+    }
+    pisa_fee = {"amount_eur": 30, "per": "application", "maximum_applications": 2}
+    pisa_current_support = {
+        "DSU_Tuscany": "Regional right-to-study support; consult the separate annual DSU call",
+        "MAECI": "The 2027/28 call is not yet announced",
+        "Invest_Your_Talent_in_Italy": "For selected countries; the 2027/28 call is not yet announced",
+        "UniPi_merit_award": "Potential second-year award for the student with the best first-year academic performance; at least 45 CFU by 30 September 2028",
+        "selection_guarantee": "Admission does not guarantee any scholarship",
+    }
+
+    aide = next(program for program in programs if program.get("id") == "legacy-054")
+    aide["level"] = fact("MSc", "CONFIRMED", [aide_profile, pisa_call])
+    aide["language"] = fact("English/Italian (required courses in English; Italian not required to complete the degree)", "CONFIRMED", [aide_profile, pisa_call])
+    aide["field"] = fact("Artificial Intelligence and Data Engineering", "CONFIRMED", [aide_profile, pisa_call])
+    aide["availability_2027_2028"] = fact(
+        True, "CONFIRMED", [pisa_call],
+        "The named 2027/28 Department call confirms an intake for applicants with foreign qualifications. It does not confirm the separate admission procedure for Italian qualifications.",
+    )
+    aide["overall_status"] = "CONFIRMED"
+    aide["facts"].update({
+        "official_course_profile_2027_2028": fact({"degree_class":"LM-32 - Computer systems engineering", "campus":"Pisa", "language":"English/Italian", "required_courses_language":"English", "italian_required":"No"}, "CONFIRMED", [aide_profile, pisa_call]),
+        "applicant_scope_2027_2028": fact({"confirmed_group":"Applicants with a foreign qualification (Bachelor's obtained from a non-Italian institution)", "domestic_degree_route":"Not verified in this refresh"}, "CONFIRMED", [pisa_call]),
+        "application_windows": fact(pisa_application_windows, "CONFIRMED", [pisa_call], "The Department has not published an opening date on the call page. Deadline is strictly 1 February 2027 at 23:59 GMT; the portal lists 12 March 2027 as a tentative results date."),
+        "application_deadline": fact(pisa_application_deadline, "CONFIRMED", [pisa_call]),
+        "application_fee": fact(pisa_fee, "CONFIRMED", [pisa_call]),
+        "application_fee_2027_2028": fact(pisa_fee, "CONFIRMED", [pisa_call]),
+        "application_route": fact("https://applymscenglish.unipi.it/", "CONFIRMED", [pisa_call]),
+        "program_specific_requirements_2027_2028": fact(pisa_requirement_value, "CONFIRMED", [pisa_call]),
+        "english_language_requirement_2027_2028": fact({"minimum":"CEFR B2", "visa_applicants":"Submit a certificate from an internationally recognised institution covering listening, reading, speaking and writing", "medium_of_instruction_letter_sufficient":False}, "CONFIRMED", [pisa_call]),
+        "application_documents_2027_2028": fact(pisa_documents, "CONFIRMED", [pisa_call]),
+        "selection_process_2027_2028": fact({"committee_assessment":["Undergraduate academic performance in country context", "Match between prior coursework and the programs", "CV and relevant experience"], "possible_steps":["Online test or interview", "Final online interview for successful applicants"], "results_date":"12 March 2027 (tentative)"}, "CONFIRMED", [pisa_call]),
+        "tuition_2027_2028": fact(None, "NOT_YET_PUBLISHED", [pisa_call], "The official call says 2027/28 fees are set annually and usually announced in June for the following academic year; 2026/27 amounts are historical only."),
+        "scholarships_2027_2028": fact(pisa_current_support, "REQUIRES_VERIFICATION", [pisa_call], "The call identifies these support routes but gives no confirmed course-specific 2027/28 award, amount or eligibility. It explicitly says the MAECI and Invest Your Talent in Italy 2027/28 calls have not been announced; DSU uses a separate annual call and the UniPi merit award is a later second-year competition."),
+        "acceptance_rate": fact(None, "UNAVAILABLE", [pisa_call], "No applicant denominator or admitted-student count is published; no acceptance rate is inferred."),
+    })
+    aide["source_ids"] = list(dict.fromkeys(aide.get("source_ids", []) + [aide_profile, pisa_call]))
+    aide["last_checked"] = "2026-11-11"
+    aide["previous_cycle_tags"] = None
+
+    computer_engineering = make_program(
+        "discovered-039", "pisa", "Computer Engineering", "MSc", "English",
+        "Computer Engineering", "CONFIRMED", [computer_engineering_profile, pisa_call],
+        city="Pisa", discovery="newly_discovered",
+    )
+    computer_engineering["level"] = fact("MSc", "CONFIRMED", [computer_engineering_profile, pisa_call])
+    computer_engineering["language"] = fact("English", "CONFIRMED", [computer_engineering_profile, pisa_call])
+    computer_engineering["field"] = fact("Computer Engineering", "CONFIRMED", [computer_engineering_profile, pisa_call])
+    computer_engineering["availability_2027_2028"] = fact(
+        True, "CONFIRMED", [pisa_call],
+        "The named 2027/28 Department call confirms an intake for applicants with foreign qualifications. It does not confirm the separate admission procedure for Italian qualifications.",
+    )
+    computer_engineering["facts"] = {
+        "official_course_profile_2027_2028": fact({"degree_class":"LM-32 - Computer Engineering", "duration_years":2, "campus":"Pisa", "language":"English", "access":"Open access with skills assessment", "tracks":["Cloud and Network Infrastructures and Services", "Cyber-Physical Systems", "Cybersecurity"]}, "CONFIRMED", [computer_engineering_profile, pisa_call]),
+        "applicant_scope_2027_2028": fact({"confirmed_group":"Applicants with a foreign qualification (Bachelor's obtained from a non-Italian institution)", "domestic_degree_route":"Not verified in this refresh"}, "CONFIRMED", [pisa_call]),
+        "application_windows": fact(pisa_application_windows, "CONFIRMED", [pisa_call], "The Department has not published an opening date on the call page. Deadline is strictly 1 February 2027 at 23:59 GMT; the portal lists 12 March 2027 as a tentative results date."),
+        "application_deadline": fact(pisa_application_deadline, "CONFIRMED", [pisa_call]),
+        "application_fee": fact(pisa_fee, "CONFIRMED", [pisa_call]),
+        "application_fee_2027_2028": fact(pisa_fee, "CONFIRMED", [pisa_call]),
+        "application_route": fact("https://applymscenglish.unipi.it/", "CONFIRMED", [pisa_call]),
+        "program_specific_requirements_2027_2028": fact(pisa_requirement_value, "CONFIRMED", [pisa_call]),
+        "english_language_requirement_2027_2028": fact({"minimum":"CEFR B2", "visa_applicants":"Submit a certificate from an internationally recognised institution covering listening, reading, speaking and writing", "medium_of_instruction_letter_sufficient":False}, "CONFIRMED", [pisa_call]),
+        "application_documents_2027_2028": fact(pisa_documents, "CONFIRMED", [pisa_call]),
+        "selection_process_2027_2028": fact({"committee_assessment":["Undergraduate academic performance in country context", "Match between prior coursework and the programs", "CV and relevant experience"], "possible_steps":["Online test or interview", "Final online interview for successful applicants"], "results_date":"12 March 2027 (tentative)"}, "CONFIRMED", [pisa_call]),
+        "tuition_2027_2028": fact(None, "NOT_YET_PUBLISHED", [pisa_call], "The official call says 2027/28 fees are set annually and usually announced in June for the following academic year; 2026/27 amounts are historical only."),
+        "scholarships_2027_2028": fact(pisa_current_support, "REQUIRES_VERIFICATION", [pisa_call], "The call identifies these support routes but gives no confirmed course-specific 2027/28 award, amount or eligibility. It explicitly says the MAECI and Invest Your Talent in Italy 2027/28 calls have not been announced; DSU uses a separate annual call and the UniPi merit award is a later second-year competition."),
+        "acceptance_rate": fact(None, "UNAVAILABLE", [pisa_call], "No applicant denominator or admitted-student count is published; no acceptance rate is inferred."),
+    }
+    computer_engineering["last_checked"] = "2026-11-11"
+    computer_engineering["previous_cycle_tags"] = None
+    programs.append(computer_engineering)
