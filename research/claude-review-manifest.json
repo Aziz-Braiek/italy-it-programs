@@ -9,15 +9,15 @@
     "counts": {
       "universities": 34,
       "programs": 209,
-      "sources": 583
+      "sources": 585
     },
     "previous_snapshot_inconclusive_url_checks": "The prior audit reported approximately 100 inconclusive checks. This refresh rechecked every unique URL and preserves the response by source record below.",
     "current_url_audit": {
       "checked_at": "2026-11-11",
-      "source_records": 583,
-      "unique_urls_checked": 568,
+      "source_records": 585,
+      "unique_urls_checked": 570,
       "unique_url_outcomes": {
-        "accessible": 549,
+        "accessible": 551,
         "redirected": 13,
         "inconclusive": 5,
         "broken": 1
@@ -9366,6 +9366,8 @@
         "SRC-UNIBO-BA-CURRICULUM-PARENT-2026",
         "SRC-UNIBO-MES-PROFILE-2026",
         "SRC-UNIBO-MES-ADMISSIONS-2026",
+        "SRC-UNIBO-MES-CALL-2026",
+        "SRC-UNIBO-MES-NOTICE-BOARD-2026",
         "SRC-UNIBO-CLABE-PROFILE-2026",
         "SRC-UNIBO-CLEF-PROFILE-2026",
         "SRC-UNIBO-CLEF-ADMISSIONS-2026",
@@ -9839,8 +9841,8 @@
           "url": "https://corsi.unibo.it/2cycle/MechanicalEngineering-Forli",
           "source_type": "Official degree programme profile",
           "cycle": "2026-2027",
-          "accessed_at": "2026-11-10",
-          "evidence": "Lists the two-year English-taught MSc (LM-33) at Forlì, open access with assessment of personal competencies.",
+          "accessed_at": "2026-11-11",
+          "evidence": "Checked 11 November 2026: identifies Mechanical Engineering for Sustainability as an English-taught LM-33 MSc in Forlì, open access with assessment of personal competencies, in the Department of Industrial Engineering (DIN). The profile does not name a 2027/28 new-entry intake.",
           "supports": [
             "program.name",
             "program.level",
@@ -9856,19 +9858,19 @@
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
-            "cache_control": "max-age=0, s-maxage=0, must-revalidate",
-            "age": "2960",
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "35",
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
             "observed_title": "Mechanical Engineering for Sustainability - Laurea Magistrale - Forlì",
             "pdf_signature": null,
             "has_2027_marker": false,
-            "bytes_read": 131072,
+            "bytes_read": 305461,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
-            "method": "GET"
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)"
           },
           "browser_check": null
         },
@@ -9878,8 +9880,8 @@
           "url": "https://corsi.unibo.it/2cycle/MechanicalEngineering-Forli/how-to-enrol",
           "source_type": "Official programme admission page",
           "cycle": "2026-2027",
-          "accessed_at": "2026-11-10",
-          "evidence": "Links the 2026/27 call and describes relevant degree and curricular-credit requirements. No 2027/28 call was linked on the reviewed page.",
+          "accessed_at": "2026-11-11",
+          "evidence": "Checked 11 November 2026: links the 2026/27 call and displays current course/admission requirements. No 2027/28 new-entry call is linked. The generic page says Italian B2 is also required, while the named 2026/27 call's language section specifies English B2; keep that discrepancy visible and verify the next call.",
           "supports": [
             "program.previous_cycle_program_requirements",
             "program.previous_cycle_application_route"
@@ -9892,19 +9894,93 @@
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
-            "cache_control": "max-age=0, s-maxage=0, must-revalidate",
-            "age": "4428",
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "42",
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
             "observed_title": "Programme enrolment: requirements, deadlines and methods — Mechanical Engineering for Sustainability - Laurea Magistrale - Forlì",
             "pdf_signature": null,
             "has_2027_marker": false,
-            "bytes_read": 131072,
+            "bytes_read": 348728,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
-            "method": "GET"
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-UNIBO-MES-CALL-2026",
+          "title": "Mechanical Engineering for Sustainability – 2026/27 admission call",
+          "url": "https://corsi.unibo.it/s/3427/p/en/programma-enrolment-new/bando-lm-aerospace_ita_2025-26-def-1.pdf/@@download/file/Bando%20LM%20MES%2026-27_ENG.pdf",
+          "source_type": "Official 2026/27 admission call PDF",
+          "cycle": "2026-2027",
+          "accessed_at": "2026-11-11",
+          "evidence": "The 24-page call explicitly names Mechanical Engineering for Sustainability, LM-33, course code 6720, for AY 2026/27. It gives three applicant-group-specific selection intakes, entry-credit and English B2 requirements, interview procedures, and the annual ISEE-based tuition framework. The current 2026/27 call is historical evidence and does not confirm 2027/28 availability or terms.",
+          "supports": [
+            "program.previous_cycle_course_listing",
+            "program.previous_cycle_application_windows",
+            "program.previous_cycle_program_requirements",
+            "program.previous_cycle_tuition"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://corsi.unibo.it/s/3427/p/en/programma-enrolment-new/bando-lm-aerospace_ita_2025-26-def-1.pdf/@@download/file/Bando%20LM%20MES%2026-27_ENG.pdf",
+            "content_type": "application/pdf",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": "Mon, 15 Dec 2025 11:58:26 GMT",
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "0",
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": null,
+            "pdf_signature": true,
+            "has_2027_marker": false,
+            "bytes_read": 582032,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-UNIBO-MES-NOTICE-BOARD-2026",
+          "title": "Mechanical Engineering for Sustainability – current notice board",
+          "url": "https://corsi.unibo.it/2cycle/MechanicalEngineering-Forli/notice-board",
+          "source_type": "Official degree programme notice board",
+          "cycle": "general",
+          "accessed_at": "2026-11-11",
+          "evidence": "Checked 11 November 2026: the board lists an AY 2027/28 Overseas mobility call for current first- and second-year students, not an incoming first-year admission call. The admissions page separately links only the 2026/27 programme call; do not treat the mobility notice as 2027/28 new-entry confirmation.",
+          "supports": [
+            "program.cycle_marker_scope",
+            "program.mobility_not_admission"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://corsi.unibo.it/2cycle/MechanicalEngineering-Forli/notice-board",
+            "content_type": "text/html;charset=utf-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "101",
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Notice board — Mechanical Engineering for Sustainability - Laurea Magistrale - Forlì",
+            "pdf_signature": null,
+            "has_2027_marker": true,
+            "bytes_read": 301355,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell)"
           },
           "browser_check": null
         },
@@ -58764,7 +58840,9 @@
         "status": "REQUIRES_VERIFICATION",
         "source_ids": [
           "SRC-UNIBO-MES-PROFILE-2026",
-          "SRC-UNIBO-MES-ADMISSIONS-2026"
+          "SRC-UNIBO-MES-ADMISSIONS-2026",
+          "SRC-UNIBO-MES-CALL-2026",
+          "SRC-UNIBO-MES-NOTICE-BOARD-2026"
         ],
         "notes": "Official course identity is confirmed for the 2026/2027 catalogue; this value is not promoted to 2027/28 without a named-cycle source."
       },
@@ -58773,7 +58851,9 @@
         "status": "REQUIRES_VERIFICATION",
         "source_ids": [
           "SRC-UNIBO-MES-PROFILE-2026",
-          "SRC-UNIBO-MES-ADMISSIONS-2026"
+          "SRC-UNIBO-MES-ADMISSIONS-2026",
+          "SRC-UNIBO-MES-CALL-2026",
+          "SRC-UNIBO-MES-NOTICE-BOARD-2026"
         ],
         "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
       },
@@ -58781,13 +58861,51 @@
       "university_page_url": "https://italy-it-programs.vercel.app/universities/bologna/",
       "official_program_source_urls": [
         {
+          "id": "SRC-UNIBO-MES-CALL-2026",
+          "title": "Mechanical Engineering for Sustainability – 2026/27 admission call",
+          "url": "https://corsi.unibo.it/s/3427/p/en/programma-enrolment-new/bando-lm-aerospace_ita_2025-26-def-1.pdf/@@download/file/Bando%20LM%20MES%2026-27_ENG.pdf",
+          "source_type": "Official 2026/27 admission call PDF",
+          "cycle": "2026-2027",
+          "accessed_at": "2026-11-11",
+          "evidence": "The 24-page call explicitly names Mechanical Engineering for Sustainability, LM-33, course code 6720, for AY 2026/27. It gives three applicant-group-specific selection intakes, entry-credit and English B2 requirements, interview procedures, and the annual ISEE-based tuition framework. The current 2026/27 call is historical evidence and does not confirm 2027/28 availability or terms.",
+          "supports": [
+            "program.previous_cycle_course_listing",
+            "program.previous_cycle_application_windows",
+            "program.previous_cycle_program_requirements",
+            "program.previous_cycle_tuition"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://corsi.unibo.it/s/3427/p/en/programma-enrolment-new/bando-lm-aerospace_ita_2025-26-def-1.pdf/@@download/file/Bando%20LM%20MES%2026-27_ENG.pdf",
+            "content_type": "application/pdf",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": "Mon, 15 Dec 2025 11:58:26 GMT",
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "0",
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": null,
+            "pdf_signature": true,
+            "has_2027_marker": false,
+            "bytes_read": 582032,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)"
+          },
+          "browser_check": null
+        },
+        {
           "id": "SRC-UNIBO-MES-ADMISSIONS-2026",
           "title": "Mechanical Engineering for Sustainability – 2026/27 admission page",
           "url": "https://corsi.unibo.it/2cycle/MechanicalEngineering-Forli/how-to-enrol",
           "source_type": "Official programme admission page",
           "cycle": "2026-2027",
-          "accessed_at": "2026-11-10",
-          "evidence": "Links the 2026/27 call and describes relevant degree and curricular-credit requirements. No 2027/28 call was linked on the reviewed page.",
+          "accessed_at": "2026-11-11",
+          "evidence": "Checked 11 November 2026: links the 2026/27 call and displays current course/admission requirements. No 2027/28 new-entry call is linked. The generic page says Italian B2 is also required, while the named 2026/27 call's language section specifies English B2; keep that discrepancy visible and verify the next call.",
           "supports": [
             "program.previous_cycle_program_requirements",
             "program.previous_cycle_application_route"
@@ -58800,19 +58918,55 @@
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
-            "cache_control": "max-age=0, s-maxage=0, must-revalidate",
-            "age": "4428",
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "42",
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
             "observed_title": "Programme enrolment: requirements, deadlines and methods — Mechanical Engineering for Sustainability - Laurea Magistrale - Forlì",
             "pdf_signature": null,
             "has_2027_marker": false,
-            "bytes_read": 131072,
+            "bytes_read": 348728,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
-            "method": "GET"
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-UNIBO-MES-NOTICE-BOARD-2026",
+          "title": "Mechanical Engineering for Sustainability – current notice board",
+          "url": "https://corsi.unibo.it/2cycle/MechanicalEngineering-Forli/notice-board",
+          "source_type": "Official degree programme notice board",
+          "cycle": "general",
+          "accessed_at": "2026-11-11",
+          "evidence": "Checked 11 November 2026: the board lists an AY 2027/28 Overseas mobility call for current first- and second-year students, not an incoming first-year admission call. The admissions page separately links only the 2026/27 programme call; do not treat the mobility notice as 2027/28 new-entry confirmation.",
+          "supports": [
+            "program.cycle_marker_scope",
+            "program.mobility_not_admission"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://corsi.unibo.it/2cycle/MechanicalEngineering-Forli/notice-board",
+            "content_type": "text/html;charset=utf-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "101",
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Notice board — Mechanical Engineering for Sustainability - Laurea Magistrale - Forlì",
+            "pdf_signature": null,
+            "has_2027_marker": true,
+            "bytes_read": 301355,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell)"
           },
           "browser_check": null
         },
@@ -58822,8 +58976,8 @@
           "url": "https://corsi.unibo.it/2cycle/MechanicalEngineering-Forli",
           "source_type": "Official degree programme profile",
           "cycle": "2026-2027",
-          "accessed_at": "2026-11-10",
-          "evidence": "Lists the two-year English-taught MSc (LM-33) at Forlì, open access with assessment of personal competencies.",
+          "accessed_at": "2026-11-11",
+          "evidence": "Checked 11 November 2026: identifies Mechanical Engineering for Sustainability as an English-taught LM-33 MSc in Forlì, open access with assessment of personal competencies, in the Department of Industrial Engineering (DIN). The profile does not name a 2027/28 new-entry intake.",
           "supports": [
             "program.name",
             "program.level",
@@ -58839,19 +58993,19 @@
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
-            "cache_control": "max-age=0, s-maxage=0, must-revalidate",
-            "age": "2960",
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "35",
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
             "observed_title": "Mechanical Engineering for Sustainability - Laurea Magistrale - Forlì",
             "pdf_signature": null,
             "has_2027_marker": false,
-            "bytes_read": 131072,
+            "bytes_read": 305461,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
-            "method": "GET"
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)"
           },
           "browser_check": null
         }
@@ -58861,12 +59015,14 @@
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
           "SRC-UNIBO-MES-PROFILE-2026",
-          "SRC-UNIBO-MES-ADMISSIONS-2026"
+          "SRC-UNIBO-MES-ADMISSIONS-2026",
+          "SRC-UNIBO-MES-CALL-2026",
+          "SRC-UNIBO-MES-NOTICE-BOARD-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued."
+        "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-11. This does not mean discontinued."
       },
       "existing_overall_status": "REQUIRES_VERIFICATION",
-      "existing_last_checked": "2026-11-10",
+      "existing_last_checked": "2026-11-11",
       "fields_needing_review": [
         {
           "field": "level",
@@ -58875,7 +59031,9 @@
           "notes": "Official course identity is confirmed for the 2026/2027 catalogue; this value is not promoted to 2027/28 without a named-cycle source.",
           "source_ids": [
             "SRC-UNIBO-MES-PROFILE-2026",
-            "SRC-UNIBO-MES-ADMISSIONS-2026"
+            "SRC-UNIBO-MES-ADMISSIONS-2026",
+            "SRC-UNIBO-MES-CALL-2026",
+            "SRC-UNIBO-MES-NOTICE-BOARD-2026"
           ]
         },
         {
@@ -58885,7 +59043,9 @@
           "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record.",
           "source_ids": [
             "SRC-UNIBO-MES-PROFILE-2026",
-            "SRC-UNIBO-MES-ADMISSIONS-2026"
+            "SRC-UNIBO-MES-ADMISSIONS-2026",
+            "SRC-UNIBO-MES-CALL-2026",
+            "SRC-UNIBO-MES-NOTICE-BOARD-2026"
           ]
         },
         {
@@ -58895,67 +59055,81 @@
           "notes": "Course subject identity is based on current official profile/catalogue evidence; next-cycle catalogue not yet verified.",
           "source_ids": [
             "SRC-UNIBO-MES-PROFILE-2026",
-            "SRC-UNIBO-MES-ADMISSIONS-2026"
+            "SRC-UNIBO-MES-ADMISSIONS-2026",
+            "SRC-UNIBO-MES-CALL-2026",
+            "SRC-UNIBO-MES-NOTICE-BOARD-2026"
           ]
         },
         {
           "field": "availability_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.",
+          "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-11. This does not mean discontinued.",
           "source_ids": [
             "SRC-UNIBO-MES-PROFILE-2026",
-            "SRC-UNIBO-MES-ADMISSIONS-2026"
+            "SRC-UNIBO-MES-ADMISSIONS-2026",
+            "SRC-UNIBO-MES-CALL-2026",
+            "SRC-UNIBO-MES-NOTICE-BOARD-2026"
           ]
         },
         {
           "field": "facts.application_windows",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.",
+          "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-11; do not reuse 2026/27 dates.",
           "source_ids": [
             "SRC-UNIBO-MES-PROFILE-2026",
-            "SRC-UNIBO-MES-ADMISSIONS-2026"
+            "SRC-UNIBO-MES-ADMISSIONS-2026",
+            "SRC-UNIBO-MES-CALL-2026",
+            "SRC-UNIBO-MES-NOTICE-BOARD-2026"
           ]
         },
         {
           "field": "facts.application_fee_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.",
+          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; check the annual call and application portal.",
           "source_ids": [
             "SRC-UNIBO-MES-PROFILE-2026",
-            "SRC-UNIBO-MES-ADMISSIONS-2026"
+            "SRC-UNIBO-MES-ADMISSIONS-2026",
+            "SRC-UNIBO-MES-CALL-2026",
+            "SRC-UNIBO-MES-NOTICE-BOARD-2026"
           ]
         },
         {
           "field": "facts.program_specific_requirements_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.",
+          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; any 2026/27 criteria are historical only.",
           "source_ids": [
             "SRC-UNIBO-MES-PROFILE-2026",
-            "SRC-UNIBO-MES-ADMISSIONS-2026"
+            "SRC-UNIBO-MES-ADMISSIONS-2026",
+            "SRC-UNIBO-MES-CALL-2026",
+            "SRC-UNIBO-MES-NOTICE-BOARD-2026"
           ]
         },
         {
           "field": "facts.tuition_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.",
+          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; do not carry forward prior-cycle amounts.",
           "source_ids": [
             "SRC-UNIBO-MES-PROFILE-2026",
-            "SRC-UNIBO-MES-ADMISSIONS-2026"
+            "SRC-UNIBO-MES-ADMISSIONS-2026",
+            "SRC-UNIBO-MES-CALL-2026",
+            "SRC-UNIBO-MES-NOTICE-BOARD-2026"
           ]
         },
         {
           "field": "facts.scholarships_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.",
+          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; annual university and regional calls still need checking.",
           "source_ids": [
             "SRC-UNIBO-MES-PROFILE-2026",
-            "SRC-UNIBO-MES-ADMISSIONS-2026"
+            "SRC-UNIBO-MES-ADMISSIONS-2026",
+            "SRC-UNIBO-MES-CALL-2026",
+            "SRC-UNIBO-MES-NOTICE-BOARD-2026"
           ]
         },
         {
@@ -58965,7 +59139,31 @@
           "notes": "The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.",
           "source_ids": [
             "SRC-UNIBO-MES-PROFILE-2026",
-            "SRC-UNIBO-MES-ADMISSIONS-2026"
+            "SRC-UNIBO-MES-ADMISSIONS-2026",
+            "SRC-UNIBO-MES-CALL-2026",
+            "SRC-UNIBO-MES-NOTICE-BOARD-2026"
+          ]
+        },
+        {
+          "field": "facts.previous_cycle_language_requirement_conflict",
+          "status": "CONFLICTING_SOURCES",
+          "value": {
+            "current_programme_page": "Italian B2 is also required; international students who lack it must include activities to attain the level",
+            "2026_2027_call": "Section 4.3 specifies English B2; no Italian-language requirement was found in the call"
+          },
+          "notes": "The two official sources differ in their language requirements. The programme page is not explicitly cycle-labelled, while the call is explicitly for 2026/27. Do not resolve this discrepancy by assumption or carry either version into 2027/28.",
+          "source_ids": [
+            "SRC-UNIBO-MES-ADMISSIONS-2026",
+            "SRC-UNIBO-MES-CALL-2026"
+          ]
+        },
+        {
+          "field": "facts.application_fee_2026_2027",
+          "status": "UNAVAILABLE",
+          "value": null,
+          "notes": "The 2026/27 admission call does not state a programme-specific application fee; no amount is inferred.",
+          "source_ids": [
+            "SRC-UNIBO-MES-CALL-2026"
           ]
         }
       ],
@@ -58974,60 +59172,72 @@
           "field": "availability_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.",
+          "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-11. This does not mean discontinued.",
           "source_ids": [
             "SRC-UNIBO-MES-PROFILE-2026",
-            "SRC-UNIBO-MES-ADMISSIONS-2026"
+            "SRC-UNIBO-MES-ADMISSIONS-2026",
+            "SRC-UNIBO-MES-CALL-2026",
+            "SRC-UNIBO-MES-NOTICE-BOARD-2026"
           ]
         },
         {
           "field": "facts.application_windows",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.",
+          "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-11; do not reuse 2026/27 dates.",
           "source_ids": [
             "SRC-UNIBO-MES-PROFILE-2026",
-            "SRC-UNIBO-MES-ADMISSIONS-2026"
+            "SRC-UNIBO-MES-ADMISSIONS-2026",
+            "SRC-UNIBO-MES-CALL-2026",
+            "SRC-UNIBO-MES-NOTICE-BOARD-2026"
           ]
         },
         {
           "field": "facts.application_fee_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.",
+          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; check the annual call and application portal.",
           "source_ids": [
             "SRC-UNIBO-MES-PROFILE-2026",
-            "SRC-UNIBO-MES-ADMISSIONS-2026"
+            "SRC-UNIBO-MES-ADMISSIONS-2026",
+            "SRC-UNIBO-MES-CALL-2026",
+            "SRC-UNIBO-MES-NOTICE-BOARD-2026"
           ]
         },
         {
           "field": "facts.program_specific_requirements_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.",
+          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; any 2026/27 criteria are historical only.",
           "source_ids": [
             "SRC-UNIBO-MES-PROFILE-2026",
-            "SRC-UNIBO-MES-ADMISSIONS-2026"
+            "SRC-UNIBO-MES-ADMISSIONS-2026",
+            "SRC-UNIBO-MES-CALL-2026",
+            "SRC-UNIBO-MES-NOTICE-BOARD-2026"
           ]
         },
         {
           "field": "facts.tuition_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.",
+          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; do not carry forward prior-cycle amounts.",
           "source_ids": [
             "SRC-UNIBO-MES-PROFILE-2026",
-            "SRC-UNIBO-MES-ADMISSIONS-2026"
+            "SRC-UNIBO-MES-ADMISSIONS-2026",
+            "SRC-UNIBO-MES-CALL-2026",
+            "SRC-UNIBO-MES-NOTICE-BOARD-2026"
           ]
         },
         {
           "field": "facts.scholarships_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.",
+          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; annual university and regional calls still need checking.",
           "source_ids": [
             "SRC-UNIBO-MES-PROFILE-2026",
-            "SRC-UNIBO-MES-ADMISSIONS-2026"
+            "SRC-UNIBO-MES-ADMISSIONS-2026",
+            "SRC-UNIBO-MES-CALL-2026",
+            "SRC-UNIBO-MES-NOTICE-BOARD-2026"
           ]
         },
         {
@@ -59037,14 +59247,41 @@
           "notes": "The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.",
           "source_ids": [
             "SRC-UNIBO-MES-PROFILE-2026",
-            "SRC-UNIBO-MES-ADMISSIONS-2026"
+            "SRC-UNIBO-MES-ADMISSIONS-2026",
+            "SRC-UNIBO-MES-CALL-2026",
+            "SRC-UNIBO-MES-NOTICE-BOARD-2026"
+          ]
+        },
+        {
+          "field": "facts.application_fee_2026_2027",
+          "status": "UNAVAILABLE",
+          "value": null,
+          "notes": "The 2026/27 admission call does not state a programme-specific application fee; no amount is inferred.",
+          "source_ids": [
+            "SRC-UNIBO-MES-CALL-2026"
           ]
         }
       ],
-      "known_source_conflicts": [],
+      "known_source_conflicts": [
+        {
+          "field": "facts.previous_cycle_language_requirement_conflict",
+          "status": "CONFLICTING_SOURCES",
+          "value": {
+            "current_programme_page": "Italian B2 is also required; international students who lack it must include activities to attain the level",
+            "2026_2027_call": "Section 4.3 specifies English B2; no Italian-language requirement was found in the call"
+          },
+          "notes": "The two official sources differ in their language requirements. The programme page is not explicitly cycle-labelled, while the call is explicitly for 2026/27. Do not resolve this discrepancy by assumption or carry either version into 2027/28.",
+          "source_ids": [
+            "SRC-UNIBO-MES-ADMISSIONS-2026",
+            "SRC-UNIBO-MES-CALL-2026"
+          ]
+        }
+      ],
       "source_ids": [
         "SRC-UNIBO-MES-PROFILE-2026",
-        "SRC-UNIBO-MES-ADMISSIONS-2026"
+        "SRC-UNIBO-MES-ADMISSIONS-2026",
+        "SRC-UNIBO-MES-CALL-2026",
+        "SRC-UNIBO-MES-NOTICE-BOARD-2026"
       ],
       "previous_cycle_tags": {
         "level": "MSc",
@@ -122540,8 +122777,8 @@
       "url": "https://corsi.unibo.it/2cycle/MechanicalEngineering-Forli",
       "source_type": "Official degree programme profile",
       "cycle": "2026-2027",
-      "accessed_at": "2026-11-10",
-      "evidence": "Lists the two-year English-taught MSc (LM-33) at Forlì, open access with assessment of personal competencies.",
+      "accessed_at": "2026-11-11",
+      "evidence": "Checked 11 November 2026: identifies Mechanical Engineering for Sustainability as an English-taught LM-33 MSc in Forlì, open access with assessment of personal competencies, in the Department of Industrial Engineering (DIN). The profile does not name a 2027/28 new-entry intake.",
       "supports": [
         "program.name",
         "program.level",
@@ -122557,19 +122794,19 @@
         "content_length_header": null,
         "etag": null,
         "last_modified": null,
-        "cache_control": "max-age=0, s-maxage=0, must-revalidate",
-        "age": "2960",
+        "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+        "age": "35",
         "x_vercel_cache": null,
         "x_vercel_id": null,
         "location": null,
         "observed_title": "Mechanical Engineering for Sustainability - Laurea Magistrale - Forlì",
         "pdf_signature": null,
         "has_2027_marker": false,
-        "bytes_read": 131072,
+        "bytes_read": 305461,
         "outcome": "accessible",
         "error": null,
-        "checked_at": "2026-11-10",
-        "method": "GET"
+        "checked_at": "2026-11-11",
+        "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)"
       },
       "browser_check": null
     },
@@ -122579,8 +122816,8 @@
       "url": "https://corsi.unibo.it/2cycle/MechanicalEngineering-Forli/how-to-enrol",
       "source_type": "Official programme admission page",
       "cycle": "2026-2027",
-      "accessed_at": "2026-11-10",
-      "evidence": "Links the 2026/27 call and describes relevant degree and curricular-credit requirements. No 2027/28 call was linked on the reviewed page.",
+      "accessed_at": "2026-11-11",
+      "evidence": "Checked 11 November 2026: links the 2026/27 call and displays current course/admission requirements. No 2027/28 new-entry call is linked. The generic page says Italian B2 is also required, while the named 2026/27 call's language section specifies English B2; keep that discrepancy visible and verify the next call.",
       "supports": [
         "program.previous_cycle_program_requirements",
         "program.previous_cycle_application_route"
@@ -122593,19 +122830,93 @@
         "content_length_header": null,
         "etag": null,
         "last_modified": null,
-        "cache_control": "max-age=0, s-maxage=0, must-revalidate",
-        "age": "4428",
+        "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+        "age": "42",
         "x_vercel_cache": null,
         "x_vercel_id": null,
         "location": null,
         "observed_title": "Programme enrolment: requirements, deadlines and methods — Mechanical Engineering for Sustainability - Laurea Magistrale - Forlì",
         "pdf_signature": null,
         "has_2027_marker": false,
-        "bytes_read": 131072,
+        "bytes_read": 348728,
         "outcome": "accessible",
         "error": null,
-        "checked_at": "2026-11-10",
-        "method": "GET"
+        "checked_at": "2026-11-11",
+        "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)"
+      },
+      "browser_check": null
+    },
+    {
+      "id": "SRC-UNIBO-MES-CALL-2026",
+      "title": "Mechanical Engineering for Sustainability – 2026/27 admission call",
+      "url": "https://corsi.unibo.it/s/3427/p/en/programma-enrolment-new/bando-lm-aerospace_ita_2025-26-def-1.pdf/@@download/file/Bando%20LM%20MES%2026-27_ENG.pdf",
+      "source_type": "Official 2026/27 admission call PDF",
+      "cycle": "2026-2027",
+      "accessed_at": "2026-11-11",
+      "evidence": "The 24-page call explicitly names Mechanical Engineering for Sustainability, LM-33, course code 6720, for AY 2026/27. It gives three applicant-group-specific selection intakes, entry-credit and English B2 requirements, interview procedures, and the annual ISEE-based tuition framework. The current 2026/27 call is historical evidence and does not confirm 2027/28 availability or terms.",
+      "supports": [
+        "program.previous_cycle_course_listing",
+        "program.previous_cycle_application_windows",
+        "program.previous_cycle_program_requirements",
+        "program.previous_cycle_tuition"
+      ],
+      "refresh_status": "accessible",
+      "url_check": {
+        "http_status": 200,
+        "effective_url": "https://corsi.unibo.it/s/3427/p/en/programma-enrolment-new/bando-lm-aerospace_ita_2025-26-def-1.pdf/@@download/file/Bando%20LM%20MES%2026-27_ENG.pdf",
+        "content_type": "application/pdf",
+        "content_length_header": null,
+        "etag": null,
+        "last_modified": "Mon, 15 Dec 2025 11:58:26 GMT",
+        "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+        "age": "0",
+        "x_vercel_cache": null,
+        "x_vercel_id": null,
+        "location": null,
+        "observed_title": null,
+        "pdf_signature": true,
+        "has_2027_marker": false,
+        "bytes_read": 582032,
+        "outcome": "accessible",
+        "error": null,
+        "checked_at": "2026-11-11",
+        "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)"
+      },
+      "browser_check": null
+    },
+    {
+      "id": "SRC-UNIBO-MES-NOTICE-BOARD-2026",
+      "title": "Mechanical Engineering for Sustainability – current notice board",
+      "url": "https://corsi.unibo.it/2cycle/MechanicalEngineering-Forli/notice-board",
+      "source_type": "Official degree programme notice board",
+      "cycle": "general",
+      "accessed_at": "2026-11-11",
+      "evidence": "Checked 11 November 2026: the board lists an AY 2027/28 Overseas mobility call for current first- and second-year students, not an incoming first-year admission call. The admissions page separately links only the 2026/27 programme call; do not treat the mobility notice as 2027/28 new-entry confirmation.",
+      "supports": [
+        "program.cycle_marker_scope",
+        "program.mobility_not_admission"
+      ],
+      "refresh_status": "accessible",
+      "url_check": {
+        "http_status": 200,
+        "effective_url": "https://corsi.unibo.it/2cycle/MechanicalEngineering-Forli/notice-board",
+        "content_type": "text/html;charset=utf-8",
+        "content_length_header": null,
+        "etag": null,
+        "last_modified": null,
+        "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+        "age": "101",
+        "x_vercel_cache": null,
+        "x_vercel_id": null,
+        "location": null,
+        "observed_title": "Notice board — Mechanical Engineering for Sustainability - Laurea Magistrale - Forlì",
+        "pdf_signature": null,
+        "has_2027_marker": true,
+        "bytes_read": 301355,
+        "outcome": "accessible",
+        "error": null,
+        "checked_at": "2026-11-11",
+        "method": "GET with Cache-Control and Pragma no-cache (PowerShell)"
       },
       "browser_check": null
     },

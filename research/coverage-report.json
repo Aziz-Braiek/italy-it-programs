@@ -277,8 +277,9 @@
     "trieste",
     "udine"
   ],
-  "universities_with_conflicting_sources": 7,
+  "universities_with_conflicting_sources": 8,
   "university_ids_with_conflicting_sources": [
+    "bologna",
     "camerino",
     "palermo",
     "politecnico-milano",
@@ -287,8 +288,8 @@
     "trento",
     "udine"
   ],
-  "source_records": 583,
-  "official_source_supported_fields": 1241,
+  "source_records": 585,
+  "official_source_supported_fields": 1245,
   "verification_statuses": [
     "CONFIRMED",
     "NOT_YET_PUBLISHED",

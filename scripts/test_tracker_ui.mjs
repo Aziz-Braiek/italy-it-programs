@@ -401,7 +401,8 @@ assert.match(conflictHtml, /Cyber Security \(CSES\)/);
 assert.doesNotMatch(conflictHtml, /\[object Object\]/);
 assert.match(conflictHtml, /31 Jan 2027/);
 assert.match(conflictHtml, /Università degli Studi di Udine/);
-assert.equal((conflictHtml.match(/class="status conflicting"/g) ?? []).length, 18);
+// The 2026/27 Mechanical Engineering for Sustainability page/call mismatch adds one conflict.
+assert.equal((conflictHtml.match(/class="status conflicting"/g) ?? []).length, 19);
 
 status.value = "NOT_YET_PUBLISHED";
 status.dispatch("change");

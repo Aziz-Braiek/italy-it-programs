@@ -267,6 +267,11 @@
       "result": "Rechecked the University of Bologna Digital Humanities and Digital Knowledge profile, enrolment page and official 24-page 2026/27 admission notice. Confirmed the current profile as the English-taught LM-43 MSc in Bologna, open access with an assessment, under FICLIT. The currently linked 2026/27 notice has three expired application windows (11 March–2 April, 27 April–28 May, and 10 August–3 September 2026), online interviews, results from 15 April / 10 June / 11 September respectively, and matriculation by 19 November 2026. Its historical entry requirements include a qualifying degree, 24 relevant ECTS including at least 6 in Computer Science/Data Processing Systems, English B2, and an online interview; 2026/27 tuition is €157.04 fixed plus an ISEE-variable amount with a programme-dependent maximum. The live enrolment page links only that expired call; no 2027/28 intake, dates or terms are published. Those historical details are explicitly cycle-tagged and not carried forward. Fresh no-cache PowerShell/curl GETs returned HTTP 200 for all three sources (305,142; 343,603; and 554,964 bytes)."
     },
     {
+      "id": "unibo-mechanical-engineering-for-sustainability-2026-27-call-review",
+      "status": "partial",
+      "result": "Rechecked the University of Bologna Mechanical Engineering for Sustainability profile, admission page, 2026/27 call and current notice board. The profile confirms the English-taught LM-33 MSc in Forlì, open access with assessment. The 2026/27 call gives three applicant-group-specific rounds, including a non-EU-abroad intake (11 December 2025–27 January 2026), a second round (2 February–1 April 2026), and a third round (1 June–10 September 2026); the call is expired. It requires relevant degrees and credits (18 ECTS mathematics/computing, 12 physics, 18 mechanical engineering), English B2, and an online preparation interview, with an interview exemption for a specified Italian L-9 Mechanical Engineering degree. The generic enrolment page additionally says Italian B2 is required, while the named 2026/27 call lists English B2 only; this discrepancy is documented as unresolved. The current notice board's 2027/28 reference is an Overseas mobility call for existing students, not new-entry admissions. Fresh no-cache GETs returned HTTP 200 for profile, admissions, call PDF and notice board; the 2027/28 intake, dates, requirements and tuition remain unconfirmed."
+    },
+    {
       "id": "claude-independent-review-inventory",
       "status": "complete",
       "result": "Created a review manifest and checklist covering all 34 universities, 193 programs, and 454 existing official source records. The checklist exposes current unresolved fields and conflicts; all refresh outcomes remain pending until evidence is checked."
@@ -561,8 +566,9 @@
       "trieste",
       "udine"
     ],
-    "universities_with_conflicting_sources": 7,
+    "universities_with_conflicting_sources": 8,
     "university_ids_with_conflicting_sources": [
+      "bologna",
       "camerino",
       "palermo",
       "politecnico-milano",
@@ -571,8 +577,8 @@
       "trento",
       "udine"
     ],
-    "source_records": 583,
-    "official_source_supported_fields": 1241,
+    "source_records": 585,
+    "official_source_supported_fields": 1245,
     "verification_statuses": [
       "CONFIRMED",
       "NOT_YET_PUBLISHED",

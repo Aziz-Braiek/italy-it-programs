@@ -157,17 +157,33 @@ SOURCES = [
         "id": "SRC-UNIBO-MES-PROFILE-2026",
         "university_id": "bologna", "title": "Mechanical Engineering for Sustainability – official degree profile",
         "url": "https://corsi.unibo.it/2cycle/MechanicalEngineering-Forli",
-        "source_type": "Official degree programme profile", "accessed_at": "2026-11-10", "cycle": "2026-2027",
-        "evidence": "Lists the two-year English-taught MSc (LM-33) at Forlì, open access with assessment of personal competencies.",
+        "source_type": "Official degree programme profile", "accessed_at": "2026-11-11", "cycle": "2026-2027",
+        "evidence": "Checked 11 November 2026: identifies Mechanical Engineering for Sustainability as an English-taught LM-33 MSc in Forlì, open access with assessment of personal competencies, in the Department of Industrial Engineering (DIN). The profile does not name a 2027/28 new-entry intake.",
         "supports": ["program.name", "program.level", "program.language", "program.location", "program.access"],
     },
     {
         "id": "SRC-UNIBO-MES-ADMISSIONS-2026",
         "university_id": "bologna", "title": "Mechanical Engineering for Sustainability – 2026/27 admission page",
         "url": "https://corsi.unibo.it/2cycle/MechanicalEngineering-Forli/how-to-enrol",
-        "source_type": "Official programme admission page", "accessed_at": "2026-11-10", "cycle": "2026-2027",
-        "evidence": "Links the 2026/27 call and describes relevant degree and curricular-credit requirements. No 2027/28 call was linked on the reviewed page.",
+        "source_type": "Official programme admission page", "accessed_at": "2026-11-11", "cycle": "2026-2027",
+        "evidence": "Checked 11 November 2026: links the 2026/27 call and displays current course/admission requirements. No 2027/28 new-entry call is linked. The generic page says Italian B2 is also required, while the named 2026/27 call's language section specifies English B2; keep that discrepancy visible and verify the next call.",
         "supports": ["program.previous_cycle_program_requirements", "program.previous_cycle_application_route"],
+    },
+    {
+        "id": "SRC-UNIBO-MES-CALL-2026",
+        "university_id": "bologna", "title": "Mechanical Engineering for Sustainability – 2026/27 admission call",
+        "url": "https://corsi.unibo.it/s/3427/p/en/programma-enrolment-new/bando-lm-aerospace_ita_2025-26-def-1.pdf/@@download/file/Bando%20LM%20MES%2026-27_ENG.pdf",
+        "source_type": "Official 2026/27 admission call PDF", "accessed_at": "2026-11-11", "cycle": "2026-2027",
+        "evidence": "The 24-page call explicitly names Mechanical Engineering for Sustainability, LM-33, course code 6720, for AY 2026/27. It gives three applicant-group-specific selection intakes, entry-credit and English B2 requirements, interview procedures, and the annual ISEE-based tuition framework. The current 2026/27 call is historical evidence and does not confirm 2027/28 availability or terms.",
+        "supports": ["program.previous_cycle_course_listing", "program.previous_cycle_application_windows", "program.previous_cycle_program_requirements", "program.previous_cycle_tuition"],
+    },
+    {
+        "id": "SRC-UNIBO-MES-NOTICE-BOARD-2026",
+        "university_id": "bologna", "title": "Mechanical Engineering for Sustainability – current notice board",
+        "url": "https://corsi.unibo.it/2cycle/MechanicalEngineering-Forli/notice-board",
+        "source_type": "Official degree programme notice board", "accessed_at": "2026-11-11", "cycle": "general",
+        "evidence": "Checked 11 November 2026: the board lists an AY 2027/28 Overseas mobility call for current first- and second-year students, not an incoming first-year admission call. The admissions page separately links only the 2026/27 programme call; do not treat the mobility notice as 2027/28 new-entry confirmation.",
+        "supports": ["program.cycle_marker_scope", "program.mobility_not_admission"],
     },
     {
         "id": "SRC-UNIBO-CLABE-PROFILE-2026",
@@ -1217,6 +1233,12 @@ BATCH17 = {
     "result": "Rechecked the University of Bologna Digital Humanities and Digital Knowledge profile, enrolment page and official 24-page 2026/27 admission notice. Confirmed the current profile as the English-taught LM-43 MSc in Bologna, open access with an assessment, under FICLIT. The currently linked 2026/27 notice has three expired application windows (11 March–2 April, 27 April–28 May, and 10 August–3 September 2026), online interviews, results from 15 April / 10 June / 11 September respectively, and matriculation by 19 November 2026. Its historical entry requirements include a qualifying degree, 24 relevant ECTS including at least 6 in Computer Science/Data Processing Systems, English B2, and an online interview; 2026/27 tuition is €157.04 fixed plus an ISEE-variable amount with a programme-dependent maximum. The live enrolment page links only that expired call; no 2027/28 intake, dates or terms are published. Those historical details are explicitly cycle-tagged and not carried forward. Fresh no-cache PowerShell/curl GETs returned HTTP 200 for all three sources (305,142; 343,603; and 554,964 bytes).",
 }
 
+BATCH18 = {
+    "id": "unibo-mechanical-engineering-for-sustainability-2026-27-call-review",
+    "status": "partial",
+    "result": "Rechecked the University of Bologna Mechanical Engineering for Sustainability profile, admission page, 2026/27 call and current notice board. The profile confirms the English-taught LM-33 MSc in Forlì, open access with assessment. The 2026/27 call gives three applicant-group-specific rounds, including a non-EU-abroad intake (11 December 2025–27 January 2026), a second round (2 February–1 April 2026), and a third round (1 June–10 September 2026); the call is expired. It requires relevant degrees and credits (18 ECTS mathematics/computing, 12 physics, 18 mechanical engineering), English B2, and an online preparation interview, with an interview exemption for a specified Italian L-9 Mechanical Engineering degree. The generic enrolment page additionally says Italian B2 is required, while the named 2026/27 call lists English B2 only; this discrepancy is documented as unresolved. The current notice board's 2027/28 reference is an Overseas mobility call for existing students, not new-entry admissions. Fresh no-cache GETs returned HTTP 200 for profile, admissions, call PDF and notice board; the 2027/28 intake, dates, requirements and tuition remain unconfirmed.",
+}
+
 SOURCE_RECHECKS = {
     "SRC-UNIBO-AI-PROFILE-2026": {
         "accessed_at": "2026-11-11",
@@ -1338,6 +1360,102 @@ SOURCE_RECHECKS = {
             "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)",
         },
     },
+    "SRC-UNIBO-MES-PROFILE-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200,
+            "effective_url": "https://corsi.unibo.it/2cycle/MechanicalEngineering-Forli",
+            "content_type": "text/html;charset=utf-8",
+            "content_length_header": None,
+            "etag": None,
+            "last_modified": None,
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "35",
+            "x_vercel_cache": None,
+            "x_vercel_id": None,
+            "location": None,
+            "observed_title": "Mechanical Engineering for Sustainability - Laurea Magistrale - Forlì",
+            "pdf_signature": None,
+            "has_2027_marker": False,
+            "bytes_read": 305461,
+            "outcome": "accessible",
+            "error": None,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)",
+        },
+    },
+    "SRC-UNIBO-MES-ADMISSIONS-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200,
+            "effective_url": "https://corsi.unibo.it/2cycle/MechanicalEngineering-Forli/how-to-enrol",
+            "content_type": "text/html;charset=utf-8",
+            "content_length_header": None,
+            "etag": None,
+            "last_modified": None,
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "42",
+            "x_vercel_cache": None,
+            "x_vercel_id": None,
+            "location": None,
+            "observed_title": "Programme enrolment: requirements, deadlines and methods — Mechanical Engineering for Sustainability - Laurea Magistrale - Forlì",
+            "pdf_signature": None,
+            "has_2027_marker": False,
+            "bytes_read": 348728,
+            "outcome": "accessible",
+            "error": None,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)",
+        },
+    },
+    "SRC-UNIBO-MES-CALL-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200,
+            "effective_url": "https://corsi.unibo.it/s/3427/p/en/programma-enrolment-new/bando-lm-aerospace_ita_2025-26-def-1.pdf/@@download/file/Bando%20LM%20MES%2026-27_ENG.pdf",
+            "content_type": "application/pdf",
+            "content_length_header": None,
+            "etag": None,
+            "last_modified": "Mon, 15 Dec 2025 11:58:26 GMT",
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "0",
+            "x_vercel_cache": None,
+            "x_vercel_id": None,
+            "location": None,
+            "observed_title": None,
+            "pdf_signature": True,
+            "has_2027_marker": False,
+            "bytes_read": 582032,
+            "outcome": "accessible",
+            "error": None,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)",
+        },
+    },
+    "SRC-UNIBO-MES-NOTICE-BOARD-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200,
+            "effective_url": "https://corsi.unibo.it/2cycle/MechanicalEngineering-Forli/notice-board",
+            "content_type": "text/html;charset=utf-8",
+            "content_length_header": None,
+            "etag": None,
+            "last_modified": None,
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "101",
+            "x_vercel_cache": None,
+            "x_vercel_id": None,
+            "location": None,
+            "observed_title": "Notice board — Mechanical Engineering for Sustainability - Laurea Magistrale - Forlì",
+            "pdf_signature": None,
+            "has_2027_marker": True,
+            "bytes_read": 301355,
+            "outcome": "accessible",
+            "error": None,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell)",
+        },
+    },
 }
 
 
@@ -1423,7 +1541,7 @@ def apply_legacy_course_reviews(programs: list[dict[str, Any]], fact: Callable[.
         ("legacy-019", "Artificial intelligence", "MSc", "English", "Artificial Intelligence", ["SRC-UNIBO-AI-PROFILE-2026", "SRC-UNIBO-AI-ADMISSIONS-2026"]),
         ("legacy-021", "Digital Humanities and Digital Knowledge", "MSc", "English", "Digital Humanities", ["SRC-UNIBO-DHDK-PROFILE-2026", "SRC-UNIBO-DHDK-ADMISSIONS-2026", "SRC-UNIBO-DHDK-CALL-2026"]),
         ("legacy-022", "Statistics, Economics and Business — Business Analytics curriculum", "MSc", "English", "Statistics and Business Analytics", ["SRC-UNIBO-BA-CURRICULUM-2026", "SRC-UNIBO-BA-CURRICULUM-PARENT-2026", "SRC-UNIBO-BA-BBS-2026"], "Bologna", "Curriculum within the parent MSc; not a separate degree programme"),
-        ("legacy-024", "Mechanical Engineering for Sustainability", "MSc", "English", "Mechanical Engineering and Sustainability", ["SRC-UNIBO-MES-PROFILE-2026", "SRC-UNIBO-MES-ADMISSIONS-2026"], "Forlì"),
+        ("legacy-024", "Mechanical Engineering for Sustainability", "MSc", "English", "Mechanical Engineering and Sustainability", ["SRC-UNIBO-MES-PROFILE-2026", "SRC-UNIBO-MES-ADMISSIONS-2026", "SRC-UNIBO-MES-CALL-2026", "SRC-UNIBO-MES-NOTICE-BOARD-2026"], "Forlì"),
         ("legacy-025", "Business and Economics (CLaBE)", "BSc", "English", "Business and Economics", ["SRC-UNIBO-CLABE-PROFILE-2026", "SRC-UNIBO-CLABE-PROGRAM-CODE-2026"]),
         ("legacy-026", "Economics and Finance (CLEF)", "BSc", "English", "Economics and Finance", ["SRC-UNIBO-CLEF-PROFILE-2026", "SRC-UNIBO-CLEF-ADMISSIONS-2026"]),
         ("legacy-027", "Medicine and Surgery (English-taught single-cycle degree)", "Single-cycle Master's (LM-41)", "English", "Medicine and Surgery", ["SRC-UNIBO-MED-EN-PROFILE-2026", "SRC-UNIBO-MED-EN-2026-CALL"]),
@@ -1478,6 +1596,47 @@ def apply_legacy_course_reviews(programs: list[dict[str, Any]], fact: Callable[.
         "The reviewed 2026/27 admission notice does not state a programme-specific application fee; no amount is inferred.",
     )
     dhdk["last_checked"] = "2026-11-11"
+
+    prior(by_id["legacy-024"], official_name="Mechanical Engineering for Sustainability", level="MSc", language="English",
+          field="Mechanical Engineering and Sustainability", source_ids=["SRC-UNIBO-MES-PROFILE-2026", "SRC-UNIBO-MES-ADMISSIONS-2026", "SRC-UNIBO-MES-CALL-2026", "SRC-UNIBO-MES-NOTICE-BOARD-2026"],
+          city="Forlì", cycle="2026-2027", checked_at="2026-11-11")
+    mes = by_id["legacy-024"]
+    mes_call = "SRC-UNIBO-MES-CALL-2026"
+    mes_notice = "SRC-UNIBO-MES-NOTICE-BOARD-2026"
+    mes["facts"]["previous_cycle_application_windows"] = _fact(
+        [
+            {"intake": 1, "applicant_scope":"Non-EU citizens residing abroad", "opening":"2025-12-11", "deadline":"2026-01-27 13:00 CET", "preliminary_results":"2026-02-12", "interview_window":["2026-02-16", "2026-02-19"], "final_results":"2026-03-03", "enrolment_window":["2026-03-03", "2026-04-01"]},
+            {"intake": 2, "applicant_scope":"EU citizens, equivalent non-EU citizens, and non-EU citizens residing abroad", "opening":"2026-02-02", "deadline":"2026-04-01 13:00 CEST", "preliminary_results":"2026-04-14", "interview_window":["2026-04-21", "2026-04-24"], "final_results":"2026-05-05", "enrolment_window":["2026-05-05", "2026-06-01"]},
+            {"intake": 3, "applicant_scope":"EU citizens, equivalent non-EU citizens, and non-EU citizens residing abroad", "opening":"2026-06-01", "deadline":"2026-09-10 13:00 CEST", "preliminary_results":"2026-09-14", "interview_window":["2026-09-16", "2026-09-18"], "final_results":"2026-09-25", "enrolment_window":["2026-09-25", "2026-11-19"]},
+        ],
+        "CONFIRMED", [mes_call],
+        "These three rounds are from the expired 2026/27 call. They are not application windows for 2027/28.",
+    )
+    mes["facts"]["previous_cycle_program_requirements"] = _fact(
+        {"qualification":"Bachelor's degree or equivalent foreign qualification", "eligible_italian_degree_classes":["L-9 Industrial Engineering", "L-8 Information Engineering"], "curricular_credits":{"mathematics_and_computing_ects":18,"physical_sciences_ects":12,"mechanical_engineering_ects":18}, "english":"CEFR B2", "selection":"Curriculum assessment and remote interview; the call exempts holders of a specified Italian L-9 degree titled Mechanical Engineering"},
+        "CONFIRMED", [mes_call],
+        "Historical requirements from the AY 2026/27 call. The admissions page lists English B2 plus Italian B2, but the named-cycle call's language section specifies English B2 only; see the explicit conflict fact. Recheck all requirements against the 2027/28 call.",
+    )
+    mes["facts"]["previous_cycle_language_requirement_conflict"] = _fact(
+        {"current_programme_page":"Italian B2 is also required; international students who lack it must include activities to attain the level", "2026_2027_call":"Section 4.3 specifies English B2; no Italian-language requirement was found in the call"},
+        "CONFLICTING_SOURCES", ["SRC-UNIBO-MES-ADMISSIONS-2026", mes_call],
+        "The two official sources differ in their language requirements. The programme page is not explicitly cycle-labelled, while the call is explicitly for 2026/27. Do not resolve this discrepancy by assumption or carry either version into 2027/28.",
+    )
+    mes["facts"]["previous_cycle_tuition"] = _fact(
+        {"academic_year":"2026/27", "fixed_fee_eur":157.04, "variable_fee":"ISEE-based; maximum varies by programme", "programme_maximum_published_in_call":False},
+        "CONFIRMED", [mes_call],
+        "Historical 2026/27 tuition framework only. The call points to the annual fee page and does not state this programme's maximum contribution; do not present it as 2027/28 tuition.",
+    )
+    mes["facts"]["application_fee_2026_2027"] = _fact(
+        None, "UNAVAILABLE", [mes_call],
+        "The 2026/27 admission call does not state a programme-specific application fee; no amount is inferred.",
+    )
+    mes["facts"]["current_notice_board_2027_2028_mobility"] = _fact(
+        {"notice":"Bando Overseas – study mobility AY 2027/28", "audience":"Current first- and second-year students and graduates", "incoming_first_year_admission":False},
+        "CONFIRMED", [mes_notice],
+        "This 2027/28 notice concerns outgoing study mobility, not admission to the MSc for a new 2027/28 cohort. The programme admission page still links only the 2026/27 call.",
+    )
+    mes["last_checked"] = "2026-11-11"
 
     business_analytics = by_id["legacy-022"]
     business_analytics_sources = ["SRC-UNIBO-BA-CURRICULUM-2026", "SRC-UNIBO-BA-CURRICULUM-PARENT-2026", "SRC-UNIBO-BA-BBS-2026"]
