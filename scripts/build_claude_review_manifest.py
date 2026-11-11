@@ -44,6 +44,14 @@ def walk_facts(value: Any, path: str = "") -> list[dict[str, Any]]:
 
 
 def source_to_summary(source: dict[str, Any]) -> dict[str, Any]:
+    browser_outcome = (source.get("browser_check") or {}).get("outcome")
+    direct_outcome = (source.get("url_check") or {}).get("outcome")
+    if browser_outcome == "accessible":
+        refresh_status = browser_outcome
+    elif direct_outcome in {"accessible", "redirected", "broken", "access_limited"}:
+        refresh_status = direct_outcome
+    else:
+        refresh_status = browser_outcome or direct_outcome or "pending"
     return {
         "id": source["id"],
         "title": source.get("title"),
@@ -53,7 +61,7 @@ def source_to_summary(source: dict[str, Any]) -> dict[str, Any]:
         "accessed_at": source.get("accessed_at"),
         "evidence": source.get("evidence"),
         "supports": source.get("supports", []),
-        "refresh_status": (source.get("browser_check") or {}).get("outcome") or (source.get("url_check") or {}).get("outcome") or "pending",
+        "refresh_status": refresh_status,
         "url_check": source.get("url_check"),
         "browser_check": source.get("browser_check"),
     }

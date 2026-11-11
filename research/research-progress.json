@@ -217,6 +217,16 @@
       "result": "Rechecked the University of Pisa Department of Information Engineering's live foreign-qualification call. The 2027/28 call names two English-taught MScs—Computer Engineering and Artificial Intelligence and Data Engineering—so added Computer Engineering as discovered-039 and promoted the existing Artificial Intelligence and Data Engineering row from pending to confirmed for applicants with foreign degrees. Both have a 1 February 2027, 23:59 GMT deadline, tentative 12 March results, €30/application (up to two) and the applymscenglish.unipi.it route. Recorded the common three-year degree, subject preparation, mathematics, B2 English, required documents and competitive review process, with visa-specific English-certificate conditions. The current Computer Engineering and AIDE profiles preserve their separate language and track details. The call says the 2027/28 tuition schedule is expected around June 2027; MAECI and Invest Your Talent calls for 2027/28 are not yet announced, and scholarship eligibility/award terms still need verification. The older tracker Computer Science row is separate and remains correctly named: Pisa's CS Department call explicitly names that degree independently. Production and preview remain untouched while the full research audit continues."
     },
     {
+      "id": "source-audit-alternate-http-recheck-trieste-and-naples",
+      "status": "partial",
+      "result": "Used an independent Windows PowerShell HTTP client with GET and Cache-Control: no-cache on sources that the Python verifier had left inconclusive. The historical Trieste 2022 DSSC call PDF returned an explicit HTTP 404 Not Found (text/html, 196 bytes); this individual URL is now marked broken, while the other historical programme and discontinuation evidence remains linked. A University of Naples Federico II Department of Economics and Statistics page returned HTTP 200 (47,855 bytes, title 'About us | Department of Economics and Statistics'), so its direct reachability is confirmed despite the local Python TLS-chain failure. The Camerino fee portal still failed TLS validation and remains inconclusive; Padua Psychology's course-list page returned HTTP 500 and remains inconclusive, not broken. The alternate client does not resolve remaining TLS, timeout or server-error cases. The review manifest now prioritizes explicit direct HTTP outcomes over an unsuccessful content-reader attempt when assigning each source's refresh_status. No cache purges, site changes, previews or deployments were made."
+    },
+    {
+      "id": "bbs-professional-masters-2027-28-announcements",
+      "status": "partial",
+      "result": "Reviewed Bologna Business School's official English full-time catalogue and individual programme pages. Added discovered-040 Data Science and Business Analytics, discovered-041 Artificial Intelligence for Management, and discovered-042 Finance – Entrepreneurial Finance because each programme page explicitly advertises AY 2027/28 entry, four selection rounds from March through September 2027, and an October 2027 start. Recorded each as a Professional Master (First Level), not a Laurea Magistrale; the pages identify English, full-time, 12-month delivery, and collaboration with the University of Bologna. Exact application dates and the annual call are not yet published. The displayed €14,800 tuition, €60 selection fee, B2/degree/test requirements and partial scholarship schemes are recorded only as currently published, non-cycle-labelled information; 2027/28 fee, selection terms, detailed entry requirements and scholarship terms remain pending confirmation. Fresh direct PowerShell GET requests with Cache-Control: no-cache returned HTTP 200 for all three programme pages (189,124, 183,598 and 171,618 response bytes respectively)."
+    },
+    {
       "id": "claude-independent-review-inventory",
       "status": "complete",
       "result": "Created a review manifest and checklist covering all 34 universities, 193 programs, and 454 existing official source records. The checklist exposes current unresolved fields and conflicts; all refresh outcomes remain pending until evidence is checked."
@@ -279,12 +289,12 @@
     ],
     "universities_program_level_review_not_started": 0,
     "university_ids_with_program_level_review_not_started": [],
-    "program_records": 204,
+    "program_records": 207,
     "prior_tracker_programs_archived": 165,
-    "newly_discovered_programs": 39,
-    "programs_cycle_availability_confirmed": 34,
+    "newly_discovered_programs": 42,
+    "programs_cycle_availability_confirmed": 37,
     "programs_availability_pending": 167,
-    "programs_fully_verified": 29,
+    "programs_fully_verified": 32,
     "programs_requiring_verification": 172,
     "programs_not_offered_2027_2028": 3,
     "programs_supported_only_by_previous_cycle": 156,
@@ -523,8 +533,8 @@
       "trento",
       "udine"
     ],
-    "source_records": 578,
-    "official_source_supported_fields": 1171,
+    "source_records": 581,
+    "official_source_supported_fields": 1204,
     "verification_statuses": [
       "CONFIRMED",
       "NOT_YET_PUBLISHED",

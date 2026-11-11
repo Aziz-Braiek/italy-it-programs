@@ -2,7 +2,7 @@
 
 Prepared 2026-11-11 for academic year 2027/28. Review each record against official university pages, calls, portals, regulations, and PDFs.
 
-Snapshot inventory: 34 universities, 204 program records, 578 source records.
+Snapshot inventory: 34 universities, 207 program records, 581 source records.
 
 ## Review rules
 
@@ -2192,6 +2192,9 @@ Official university-level sources:
 - [ ] `SRC-UNIBO-DHDK-CALL-2026` — [Digital Humanities and Digital Knowledge – AY 2026/27 admission call](https://corsi.unibo.it/s/3391/p/en/digital-humanities-and-digital-knowledge-dhdk/call-dhdk-2026.pdf/@@download/file/Call%20DHDK%202026.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-UNIBO-COMM-ADMISSION-2026` — [Scienze della comunicazione – 2026/27 admissions page](https://corsi.unibo.it/laurea/ScienzeComunicazione/iscriversi-al-corso) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-UNIBO-LAW-COURSE-2026` — [Giurisprudenza – 2026/27 programme regulation](https://corsi.unibo.it/magistralecu/Giurisprudenza-Bologna/il-corso/all-e-regolamento-parte-normativa-26-27.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-BBS-DSBA-2027` — [Data Science and Business Analytics – 2027/28 BBS Professional Master](https://www.bbs.unibo.it/en/master-fulltime/master-in-data-science-2/) (cycle: 2027-2028; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-BBS-AI-MANAGEMENT-2027` — [Artificial Intelligence for Management – 2027/28 BBS Professional Master](https://www.bbs.unibo.it/en/master-fulltime/artificial-intelligence-2/) (cycle: 2027-2028; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-BBS-ENTREPRENEURIAL-FINANCE-2027` — [Finance – Entrepreneurial Finance – 2027/28 BBS Professional Master](https://www.bbs.unibo.it/en/master-fulltime/entrepreneurial-finance/) (cycle: 2027-2028; checked in prior snapshot: 2026-11-11)
 
 #### Artificial intelligence — `legacy-019`
 
@@ -2500,6 +2503,57 @@ Official linked sources to revisit:
 Currently missing or unpublished fields:
   - `facts.application_fee_2027_2028` — `UNAVAILABLE` — The 2027/28 official admission notice does not state an application fee.
   - `facts.acceptance_rate` — `UNAVAILABLE` — The notice gives a maximum of 51 places but no applicant denominator; no acceptance rate is inferred.
+
+#### Data Science and Business Analytics — `discovered-040`
+
+- [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-11`
+- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-040/
+- [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
+- [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
+Official linked sources to revisit:
+- [ ] `SRC-BBS-DSBA-2027` — [Data Science and Business Analytics – 2027/28 BBS Professional Master](https://www.bbs.unibo.it/en/master-fulltime/master-in-data-science-2/) (cycle: 2027-2028; prior check: 2026-11-11)
+Currently missing or unpublished fields:
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — The 2027/28 selection is announced for four rounds between March and September 2027, but exact application opening dates and deadlines are not yet published.
+  - `facts.application_deadline` — `NOT_YET_PUBLISHED` — Exact 2027/28 round deadlines will be published in the forthcoming BBS Call for Applications.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — The programme page displays a €60 selection fee but does not identify it as the 2027/28 fee. Confirm the amount in the annual call.
+  - `facts.program_specific_requirements_2027_2028` — `REQUIRES_VERIFICATION` — The annual call is pending. The current page shows a bachelor's degree, B2 English and selection tests/interview but does not label these detailed rules for 2027/28.
+  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — The current programme page displays €14,800 without a 2027/28 cycle label; the annual call and applicable fee remain pending.
+  - `facts.scholarships_2027_2028` — `REQUIRES_VERIFICATION` — The page displays current general partial-award schemes but does not confirm 2027/28 scholarship amounts or terms.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — No applicant and admission counts are published; no acceptance rate is inferred.
+
+#### Artificial Intelligence for Management — `discovered-041`
+
+- [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-11`
+- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-041/
+- [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
+- [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
+Official linked sources to revisit:
+- [ ] `SRC-BBS-AI-MANAGEMENT-2027` — [Artificial Intelligence for Management – 2027/28 BBS Professional Master](https://www.bbs.unibo.it/en/master-fulltime/artificial-intelligence-2/) (cycle: 2027-2028; prior check: 2026-11-11)
+Currently missing or unpublished fields:
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — The 2027/28 selection is announced for four rounds between March and September 2027, but exact application opening dates and deadlines are not yet published.
+  - `facts.application_deadline` — `NOT_YET_PUBLISHED` — Exact 2027/28 round deadlines will be published in the forthcoming BBS Call for Applications.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — The programme page displays a €60 selection fee but does not identify it as the 2027/28 fee. Confirm the amount in the annual call.
+  - `facts.program_specific_requirements_2027_2028` — `REQUIRES_VERIFICATION` — The annual call is pending. The current page shows a bachelor's degree, B2 English and selection tests/interview but does not label these detailed rules for 2027/28.
+  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — The current programme page displays €14,800 without a 2027/28 cycle label; the annual call and applicable fee remain pending.
+  - `facts.scholarships_2027_2028` — `REQUIRES_VERIFICATION` — The page displays current general partial-award schemes but does not confirm 2027/28 scholarship amounts or terms.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — No applicant and admission counts are published; no acceptance rate is inferred.
+
+#### Finance – Entrepreneurial Finance — `discovered-042`
+
+- [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-11`
+- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-042/
+- [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
+- [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
+Official linked sources to revisit:
+- [ ] `SRC-BBS-ENTREPRENEURIAL-FINANCE-2027` — [Finance – Entrepreneurial Finance – 2027/28 BBS Professional Master](https://www.bbs.unibo.it/en/master-fulltime/entrepreneurial-finance/) (cycle: 2027-2028; prior check: 2026-11-11)
+Currently missing or unpublished fields:
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — The 2027/28 selection is announced for four rounds between March and September 2027, but exact application opening dates and deadlines are not yet published.
+  - `facts.application_deadline` — `NOT_YET_PUBLISHED` — Exact 2027/28 round deadlines will be published in the forthcoming BBS Call for Applications.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — The programme page displays a €60 selection fee but does not identify it as the 2027/28 fee. Confirm the amount in the annual call.
+  - `facts.program_specific_requirements_2027_2028` — `REQUIRES_VERIFICATION` — The annual call is pending. The current page shows a bachelor's degree, B2 English and selection tests/interview but does not label these detailed rules for 2027/28.
+  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — The current programme page displays €14,800 without a 2027/28 cycle label; the annual call and applicable fee remain pending.
+  - `facts.scholarships_2027_2028` — `REQUIRES_VERIFICATION` — The page displays current general partial-award schemes but does not confirm 2027/28 scholarship amounts or terms.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — No applicant and admission counts are published; no acceptance rate is inferred.
 
 ### Università di Camerino (Camerino) — `camerino`
 
@@ -5111,7 +5165,7 @@ Currently missing or unpublished fields:
 
 ## Source URL recheck results
 
-Checked 563 unique URLs representing 578 source records on 2026-11-11. Unique URL outcomes: {'accessible': 528, 'redirected': 13, 'inconclusive': 22}. HTTP 404/410 outcomes are listed as broken; TLS, timeout, and remote-disconnect cases remain inconclusive.
+Checked 566 unique URLs representing 581 source records on 2026-11-11. Unique URL outcomes: {'accessible': 532, 'redirected': 13, 'inconclusive': 20, 'broken': 1}. HTTP 404/410 outcomes are listed as broken; TLS, timeout, and remote-disconnect cases remain inconclusive.
 
 ### Redirected sources
 
@@ -5131,13 +5185,12 @@ Checked 563 unique URLs representing 578 source records on 2026-11-11. Unique UR
 
 ### Inconclusive source URLs
 
-- `SRC-CAMERINO-FOREIGN-FEES` — [Fees for foreign students](https://www.miiscrivo.unicam.it/fees-foreign-students) — direct check inconclusive; Content fetch timed out; direct HTTPS check also failed TLS validation. Do not classify as broken.
-- `SRC-TRIESTE-DSSC-CALL-2022` — [DSSC MSc admission call 2022/23](https://corsi.units.it/sites/default/files/dssc_call_2022_0.pdf) — direct check inconclusive; Content fetch did not access the 2022 PDF; direct HTTPS check also failed TLS validation. Do not classify as broken.
-- `SRC-PADUA-ASTROPHYSICS-2027-CALL` — [Astrophysics and Cosmology – 2027/28 international application call and requirements](https://astrophysics-and-cosmology.dfa.unipd.it/masters-degree/application-and-admission-requirements/) — direct check inconclusive; Official indexed search content exposed the 2027/28 first call and 15 November 2026 deadline. Direct page content retrieval timed out. The result does not establish that the URL is broken.
-- `SRC-PADOVA-COMPUTER-SCIENCE-2026` — [Computer Science – official School of Science catalogue](https://www.scienze.unipd.it/en/courses/how-to-apply/) — direct check inconclusive; Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken.
-- `SRC-PADOVA-PSYCHOLOGY-MSC-FULL-2026` — [School of Psychology Master's programmes – active official catalogue](https://www.psicologia.unipd.it/offerta-didattica/corsi-di-laurea-magistrale?tipo=LM) — direct check inconclusive; Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken.
-- `SRC-PADOVA-MOLECULAR-BIOLOGY-BSC-ADMISSION-2026` — [Biologia Molecolare – 2026/27 School of Science bachelor's admissions](https://www.scienze.unipd.it/come-iscriversi-l-2627/) — direct check inconclusive; Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken.
-- `SRC-PADOVA-SCIENCE-MSC-2026` — [School of Science English Master's admission catalogue – AY 2026/27](https://www.scienze.unipd.it/en/courses/english-language/master-degree/2627/) — direct check inconclusive; Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken.
-- `SRC-UNINA-ECONOMICS-FINANCE-DEPT-2026` — [Economics and Finance – Department of Economics and Statistics degree list](https://www.dises.unina.it/en_GB/il-dipartimento/presentazione) — direct check inconclusive; Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken.
-- `SRC-UNINA-ARCH-HERITAGE-REG-2024` — [Architecture and Heritage – official didactic regulation](https://www.diarc.archer.unina.it/images/ARCHER_2024-25_DidacticRegulations_CdS_ENGL_2023_SA_DM96_v6.pdf) — direct check inconclusive; Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken.
-- `SRC-UNINA-CIVIL-ENV-BSC-2026` — [Civil and Environmental Engineering BSc – official 2026/27 admission page](https://www.civil-environmental.unina.it/admission/) — direct check inconclusive; Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken.
+- `SRC-CAMERINO-FOREIGN-FEES` — [Fees for foreign students](https://www.miiscrivo.unicam.it/fees-foreign-students) — direct check inconclusive; SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)
+- `SRC-PADUA-ASTROPHYSICS-2027-CALL` — [Astrophysics and Cosmology – 2027/28 international application call and requirements](https://astrophysics-and-cosmology.dfa.unipd.it/masters-degree/application-and-admission-requirements/) — direct check inconclusive; SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)
+- `SRC-PADOVA-COMPUTER-SCIENCE-2026` — [Computer Science – official School of Science catalogue](https://www.scienze.unipd.it/en/courses/how-to-apply/) — direct check inconclusive; SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)
+- `SRC-PADOVA-PSYCHOLOGY-MSC-FULL-2026` — [School of Psychology Master's programmes – active official catalogue](https://www.psicologia.unipd.it/offerta-didattica/corsi-di-laurea-magistrale?tipo=LM) — direct check inconclusive; No successful direct response was recorded.
+- `SRC-PADOVA-MOLECULAR-BIOLOGY-BSC-ADMISSION-2026` — [Biologia Molecolare – 2026/27 School of Science bachelor's admissions](https://www.scienze.unipd.it/come-iscriversi-l-2627/) — direct check inconclusive; SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)
+- `SRC-PADOVA-SCIENCE-MSC-2026` — [School of Science English Master's admission catalogue – AY 2026/27](https://www.scienze.unipd.it/en/courses/english-language/master-degree/2627/) — direct check inconclusive; SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)
+- `SRC-UNINA-QUANTUM-PROFILE-2025` — [Quantum Science and Engineering – official programme and course links](https://www.qst.unina.it/index.php/education/) — direct check inconclusive; TimeoutError: timed out
+- `SRC-UNINA-ARCH-HERITAGE-REG-2024` — [Architecture and Heritage – official didactic regulation](https://www.diarc.archer.unina.it/images/ARCHER_2024-25_DidacticRegulations_CdS_ENGL_2023_SA_DM96_v6.pdf) — direct check inconclusive; SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)
+- `SRC-UNINA-CIVIL-ENV-BSC-2026` — [Civil and Environmental Engineering BSc – official 2026/27 admission page](https://www.civil-environmental.unina.it/admission/) — direct check inconclusive; SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1007)

@@ -8,18 +8,19 @@
     "review_status": "in_progress",
     "counts": {
       "universities": 34,
-      "programs": 204,
-      "sources": 578
+      "programs": 207,
+      "sources": 581
     },
     "previous_snapshot_inconclusive_url_checks": "The prior audit reported approximately 100 inconclusive checks. This refresh rechecked every unique URL and preserves the response by source record below.",
     "current_url_audit": {
       "checked_at": "2026-11-11",
-      "source_records": 578,
-      "unique_urls_checked": 563,
+      "source_records": 581,
+      "unique_urls_checked": 566,
       "unique_url_outcomes": {
-        "accessible": 528,
+        "accessible": 532,
         "redirected": 13,
-        "inconclusive": 22
+        "inconclusive": 20,
+        "broken": 1
       },
       "redirected_source_records": [
         {
@@ -95,15 +96,7 @@
           "direct_http_outcome": "inconclusive",
           "browser_outcome": "inconclusive",
           "direct_http_error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
-          "note": "Content fetch timed out; direct HTTPS check also failed TLS validation. Do not classify as broken."
-        },
-        {
-          "source_id": "SRC-TRIESTE-DSSC-CALL-2022",
-          "url": "https://corsi.units.it/sites/default/files/dssc_call_2022_0.pdf",
-          "direct_http_outcome": "inconclusive",
-          "browser_outcome": "inconclusive",
-          "direct_http_error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
-          "note": "Content fetch did not access the 2022 PDF; direct HTTPS check also failed TLS validation. Do not classify as broken."
+          "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
         },
         {
           "source_id": "SRC-PADUA-ASTROPHYSICS-2027-CALL",
@@ -111,7 +104,7 @@
           "direct_http_outcome": "inconclusive",
           "browser_outcome": "inconclusive",
           "direct_http_error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
-          "note": "Official indexed search content exposed the 2027/28 first call and 15 November 2026 deadline. Direct page content retrieval timed out. The result does not establish that the URL is broken."
+          "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
         },
         {
           "source_id": "SRC-PADOVA-COMPUTER-SCIENCE-2026",
@@ -119,7 +112,7 @@
           "direct_http_outcome": "inconclusive",
           "browser_outcome": "inconclusive",
           "direct_http_error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
-          "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
+          "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
         },
         {
           "source_id": "SRC-PADOVA-PSYCHOLOGY-MSC-FULL-2026",
@@ -127,7 +120,7 @@
           "direct_http_outcome": "inconclusive",
           "browser_outcome": "inconclusive",
           "direct_http_error": null,
-          "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
+          "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
         },
         {
           "source_id": "SRC-PADOVA-MOLECULAR-BIOLOGY-BSC-ADMISSION-2026",
@@ -135,7 +128,7 @@
           "direct_http_outcome": "inconclusive",
           "browser_outcome": "inconclusive",
           "direct_http_error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
-          "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
+          "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
         },
         {
           "source_id": "SRC-PADOVA-SCIENCE-MSC-2026",
@@ -143,15 +136,15 @@
           "direct_http_outcome": "inconclusive",
           "browser_outcome": "inconclusive",
           "direct_http_error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
-          "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
+          "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
         },
         {
-          "source_id": "SRC-UNINA-ECONOMICS-FINANCE-DEPT-2026",
-          "url": "https://www.dises.unina.it/en_GB/il-dipartimento/presentazione",
+          "source_id": "SRC-UNINA-QUANTUM-PROFILE-2025",
+          "url": "https://www.qst.unina.it/index.php/education/",
           "direct_http_outcome": "inconclusive",
           "browser_outcome": "inconclusive",
-          "direct_http_error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
-          "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
+          "direct_http_error": "TimeoutError: timed out",
+          "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
         },
         {
           "source_id": "SRC-UNINA-ARCH-HERITAGE-REG-2024",
@@ -159,7 +152,7 @@
           "direct_http_outcome": "inconclusive",
           "browser_outcome": "inconclusive",
           "direct_http_error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
-          "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
+          "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
         },
         {
           "source_id": "SRC-UNINA-CIVIL-ENV-BSC-2026",
@@ -167,10 +160,12 @@
           "direct_http_outcome": "inconclusive",
           "browser_outcome": "inconclusive",
           "direct_http_error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1007)",
-          "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
+          "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
         }
       ],
-      "confirmed_404_or_410_source_records": []
+      "confirmed_404_or_410_source_records": [
+        "SRC-TRIESTE-DSSC-CALL-2022"
+      ]
     }
   },
   "universities": [
@@ -568,34 +563,34 @@
             "program.corrected_identity",
             "program.program_type"
           ],
-          "refresh_status": "inconclusive",
+          "refresh_status": "accessible",
           "url_check": {
-            "http_status": null,
-            "effective_url": null,
-            "content_type": null,
+            "http_status": 200,
+            "effective_url": "https://www.dises.unina.it/en_GB/il-dipartimento/presentazione",
+            "content_type": "text/html; charset=UTF-8",
             "content_length_header": null,
-            "etag": null,
+            "etag": "\"8f8c5699\"",
             "last_modified": null,
             "cache_control": null,
             "age": null,
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "About us | Department of Economics and Statistics",
             "pdf_signature": null,
-            "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
-            "retried": true,
+            "has_2027_marker": false,
+            "bytes_read": 47855,
+            "outcome": "accessible",
+            "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache",
+            "notes": "Direct GET succeeded through the Windows HTTP client after the Python TLS verifier rejected the certificate chain."
           },
           "browser_check": {
             "checked_at": "2026-11-11",
-            "method": "independent official-source content fetch retry",
             "outcome": "inconclusive",
-            "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
+            "method": "Codex web reader open",
+            "notes": "A web-reader open was attempted but timed out or could not fetch this URL. The direct HTTP record remains inconclusive; the URL is not classified as broken."
           }
         },
         {
@@ -686,7 +681,7 @@
             "program.previous_cycle_course_listing",
             "program.program_type"
           ],
-          "refresh_status": "accessible",
+          "refresh_status": "inconclusive",
           "url_check": {
             "http_status": null,
             "effective_url": null,
@@ -710,11 +705,10 @@
             "method": "GET"
           },
           "browser_check": {
-            "outcome": "accessible",
             "checked_at": "2026-11-11",
-            "method": "Direct official page open with content extraction",
-            "observed_title": "Education – Quantum Science and Technologies @Naples",
-            "note": "Page content was successfully opened and inspected. The separate automated HTTP URL check remains inconclusive due to TLS validation failure; this browser check is not represented as a successful direct HTTP validation."
+            "outcome": "inconclusive",
+            "method": "Codex web reader open",
+            "notes": "A web-reader open was attempted but timed out or could not fetch this URL. The direct HTTP record remains inconclusive; the URL is not classified as broken."
           }
         },
         {
@@ -794,9 +788,9 @@
           },
           "browser_check": {
             "checked_at": "2026-11-11",
-            "method": "independent official-source content fetch retry",
             "outcome": "inconclusive",
-            "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
+            "method": "Codex web reader open",
+            "notes": "A web-reader open was attempted but timed out or could not fetch this URL. The direct HTTP record remains inconclusive; the URL is not classified as broken."
           }
         },
         {
@@ -913,9 +907,9 @@
           },
           "browser_check": {
             "checked_at": "2026-11-11",
-            "method": "independent official-source content fetch retry",
             "outcome": "inconclusive",
-            "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
+            "method": "Codex web reader open",
+            "notes": "A web-reader open was attempted but timed out or could not fetch this URL. The direct HTTP record remains inconclusive; the URL is not classified as broken."
           }
         }
       ],
@@ -9430,7 +9424,10 @@
         "SRC-UNIBO-CLABE-PROGRAM-CODE-2026",
         "SRC-UNIBO-DHDK-CALL-2026",
         "SRC-UNIBO-COMM-ADMISSION-2026",
-        "SRC-UNIBO-LAW-COURSE-2026"
+        "SRC-UNIBO-LAW-COURSE-2026",
+        "SRC-BBS-DSBA-2027",
+        "SRC-BBS-AI-MANAGEMENT-2027",
+        "SRC-BBS-ENTREPRENEURIAL-FINANCE-2027"
       ],
       "source_urls": [
         {
@@ -10828,6 +10825,158 @@
             "method": "GET with byte range for PDF sources"
           },
           "browser_check": null
+        },
+        {
+          "id": "SRC-BBS-DSBA-2027",
+          "title": "Data Science and Business Analytics – 2027/28 BBS Professional Master",
+          "url": "https://www.bbs.unibo.it/en/master-fulltime/master-in-data-science-2/",
+          "source_type": "Official Bologna Business School programme and admissions page",
+          "cycle": "2027-2028",
+          "accessed_at": "2026-11-11",
+          "evidence": "The BBS programme page explicitly advertises 2027/28 applications opening soon, four selection rounds between March and September 2027, and an October 2027 start. It identifies the course as a one-year, full-time, English-language, 60-ECTS Professional Master delivered at the Bologna BBS campus in collaboration with the University of Bologna Department of Computer Science and Engineering (DISI). The detailed annual call is pending. The page currently displays a €14,800 tuition fee, partial awards of €4,000 and €6,000, B2 English, a first-cycle degree, tests and interview, and a €60 selection fee; these are not labelled as 2027/28 terms and are retained only as current displayed information pending the annual call.",
+          "supports": [
+            "program.name",
+            "program.level",
+            "program.language",
+            "program.location",
+            "program.duration",
+            "program.credits",
+            "program.program_type",
+            "program.availability_2027_2028",
+            "program.selection_period_2027_2028",
+            "program.current_published_fees",
+            "program.current_published_requirements"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.bbs.unibo.it/en/master-fulltime/master-in-data-science-2/",
+            "content_type": "text/html; charset=UTF-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": null,
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Master Data Science and Business Analytics (Full Time) | BBS Italy",
+            "pdf_signature": null,
+            "has_2027_marker": true,
+            "bytes_read": 189124,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
+          },
+          "browser_check": {
+            "outcome": "accessible",
+            "checked_at": "2026-11-11",
+            "method": "Codex web reader open",
+            "observed_title": "Master Data Science and Business Analytics (Full Time) | BBS Italy",
+            "notes": "Official programme page retrieved and examined for 2027/28 availability and current programme terms."
+          }
+        },
+        {
+          "id": "SRC-BBS-AI-MANAGEMENT-2027",
+          "title": "Artificial Intelligence for Management – 2027/28 BBS Professional Master",
+          "url": "https://www.bbs.unibo.it/en/master-fulltime/artificial-intelligence-2/",
+          "source_type": "Official Bologna Business School programme and admissions page",
+          "cycle": "2027-2028",
+          "accessed_at": "2026-11-11",
+          "evidence": "The BBS programme page explicitly advertises 2027/28 applications opening soon, four selection rounds between March and September 2027, and an October 2027 start. It identifies the course as a one-year, full-time, English-language Professional Master delivered in Bologna in collaboration with the University of Bologna Department of Computer Science and Engineering (DISI). The detailed annual call is pending. The page currently displays a €14,800 tuition fee, partial awards of €4,000 and €6,000, B2 English, a first-cycle degree, tests and interview, and a €60 selection fee; these are not labelled as 2027/28 terms and are retained only as current displayed information pending the annual call.",
+          "supports": [
+            "program.name",
+            "program.level",
+            "program.language",
+            "program.location",
+            "program.duration",
+            "program.program_type",
+            "program.availability_2027_2028",
+            "program.selection_period_2027_2028",
+            "program.current_published_fees",
+            "program.current_published_requirements"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.bbs.unibo.it/en/master-fulltime/artificial-intelligence-2/",
+            "content_type": "text/html; charset=UTF-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": null,
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Master Artificial Intelligence for Management | BBS Italy",
+            "pdf_signature": null,
+            "has_2027_marker": true,
+            "bytes_read": 183598,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
+          },
+          "browser_check": {
+            "outcome": "accessible",
+            "checked_at": "2026-11-11",
+            "method": "Codex web reader open",
+            "observed_title": "Master Artificial Intelligence for Management | BBS Italy",
+            "notes": "Official programme page retrieved and examined for 2027/28 availability and current programme terms."
+          }
+        },
+        {
+          "id": "SRC-BBS-ENTREPRENEURIAL-FINANCE-2027",
+          "title": "Finance – Entrepreneurial Finance – 2027/28 BBS Professional Master",
+          "url": "https://www.bbs.unibo.it/en/master-fulltime/entrepreneurial-finance/",
+          "source_type": "Official Bologna Business School programme and admissions page",
+          "cycle": "2027-2028",
+          "accessed_at": "2026-11-11",
+          "evidence": "The BBS programme page explicitly advertises 2027/28 applications opening soon, four selection rounds between March and September 2027, and an October 2027 start. It identifies the course as a one-year, full-time, English-language, 60-ECTS Professional Master delivered in Bologna in collaboration with the University of Bologna Department of Management (DISA). The detailed annual call is pending. The page currently displays a €14,800 tuition fee, partial awards of €4,000 and €6,000, B2 English, a first-cycle degree, tests and interview, and a €60 selection fee; these are not labelled as 2027/28 terms and are retained only as current displayed information pending the annual call.",
+          "supports": [
+            "program.name",
+            "program.level",
+            "program.language",
+            "program.location",
+            "program.duration",
+            "program.credits",
+            "program.program_type",
+            "program.availability_2027_2028",
+            "program.selection_period_2027_2028",
+            "program.current_published_fees",
+            "program.current_published_requirements"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.bbs.unibo.it/en/master-fulltime/entrepreneurial-finance/",
+            "content_type": "text/html; charset=UTF-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": null,
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Master Full Time | BBS",
+            "pdf_signature": null,
+            "has_2027_marker": true,
+            "bytes_read": 171618,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
+          },
+          "browser_check": {
+            "outcome": "accessible",
+            "checked_at": "2026-11-11",
+            "method": "Codex web reader open",
+            "observed_title": "Master Full Time | BBS",
+            "notes": "Official programme page retrieved and examined for 2027/28 availability and current programme terms."
+          }
         }
       ],
       "program_ids": [
@@ -10848,7 +10997,10 @@
         "legacy-151",
         "legacy-152",
         "discovered-012",
-        "discovered-029"
+        "discovered-029",
+        "discovered-040",
+        "discovered-041",
+        "discovered-042"
       ],
       "refresh_status": "pending",
       "refresh_checked_at": null,
@@ -10935,11 +11087,11 @@
             "method": "GET"
           },
           "browser_check": {
-            "outcome": "accessible",
             "checked_at": "2026-11-11",
-            "method": "Direct official page open with content extraction",
+            "outcome": "accessible",
+            "method": "Codex web reader open",
             "observed_title": "FAQ | University of Camerino",
-            "note": "Page content was successfully opened and inspected. The separate automated HTTP URL check remains inconclusive due to TLS validation failure; this browser check is not represented as a successful direct HTTP validation."
+            "notes": "Official page/PDF content was retrieved successfully in the web reader. The separate direct HTTP check remains inconclusive because local TLS validation failed; this is not a statement that the underlying HTTP request succeeded."
           }
         },
         {
@@ -10980,11 +11132,11 @@
             "method": "GET"
           },
           "browser_check": {
-            "outcome": "accessible",
             "checked_at": "2026-11-11",
-            "method": "Direct official page open with content extraction",
+            "outcome": "accessible",
+            "method": "Codex web reader open",
             "observed_title": "Master | University of Camerino",
-            "note": "Page content was successfully opened and inspected. The separate automated HTTP URL check remains inconclusive due to TLS validation failure; this browser check is not represented as a successful direct HTTP validation."
+            "notes": "Official page/PDF content was retrieved successfully in the web reader. The separate direct HTTP check remains inconclusive because local TLS validation failed; this is not a statement that the underlying HTTP request succeeded."
           }
         },
         {
@@ -11060,11 +11212,11 @@
             "method": "GET"
           },
           "browser_check": {
-            "outcome": "accessible",
             "checked_at": "2026-11-11",
-            "method": "Direct official page open with content extraction",
+            "outcome": "accessible",
+            "method": "Codex web reader open",
             "observed_title": "Computer Science | Scuola di Scienze e Tecnologie",
-            "note": "Page content was successfully opened and inspected. The separate automated HTTP URL check remains inconclusive due to TLS validation failure; this browser check is not represented as a successful direct HTTP validation."
+            "notes": "Official page/PDF content was retrieved successfully in the web reader. The separate direct HTTP check remains inconclusive because local TLS validation failed; this is not a statement that the underlying HTTP request succeeded."
           }
         },
         {
@@ -11104,11 +11256,11 @@
             "method": "GET"
           },
           "browser_check": {
-            "outcome": "accessible",
             "checked_at": "2026-11-11",
-            "method": "Direct official page open with content extraction",
-            "observed_title": "Master’s Degree in Chemistry | Sezione di Chimica",
-            "note": "Page content was successfully opened and inspected. The separate automated HTTP URL check remains inconclusive due to TLS validation failure; this browser check is not represented as a successful direct HTTP validation."
+            "outcome": "accessible",
+            "method": "Codex web reader open",
+            "observed_title": "Master's Degree in Chemistry | Sezione di Chimica",
+            "notes": "Official page/PDF content was retrieved successfully in the web reader. The separate direct HTTP check remains inconclusive because local TLS validation failed; this is not a statement that the underlying HTTP request succeeded."
           }
         },
         {
@@ -11148,11 +11300,11 @@
             "method": "GET"
           },
           "browser_check": {
-            "outcome": "accessible",
             "checked_at": "2026-11-11",
-            "method": "Direct official page open with content extraction",
+            "outcome": "accessible",
+            "method": "Codex web reader open",
             "observed_title": "Corso di laurea in Chemistry and Advanced Chemical Methodologies",
-            "note": "Page content was successfully opened and inspected. The separate automated HTTP URL check remains inconclusive due to TLS validation failure; this browser check is not represented as a successful direct HTTP validation."
+            "notes": "Official page/PDF content was retrieved successfully in the web reader. The separate direct HTTP check remains inconclusive because local TLS validation failed; this is not a statement that the underlying HTTP request succeeded."
           }
         },
         {
@@ -11193,11 +11345,11 @@
             "method": "GET"
           },
           "browser_check": {
-            "outcome": "accessible",
             "checked_at": "2026-11-11",
-            "method": "Direct official page open with content extraction",
+            "outcome": "accessible",
+            "method": "Codex web reader open",
             "observed_title": "Mathematics and applications | Scuola di Scienze e Tecnologie",
-            "note": "Page content was successfully opened and inspected. The separate automated HTTP URL check remains inconclusive due to TLS validation failure; this browser check is not represented as a successful direct HTTP validation."
+            "notes": "Official page/PDF content was retrieved successfully in the web reader. The separate direct HTTP check remains inconclusive because local TLS validation failed; this is not a statement that the underlying HTTP request succeeded."
           }
         },
         {
@@ -11237,11 +11389,11 @@
             "method": "GET"
           },
           "browser_check": {
-            "outcome": "accessible",
             "checked_at": "2026-11-11",
-            "method": "Direct official page open with content extraction",
+            "outcome": "accessible",
+            "method": "Codex web reader open",
             "observed_title": "Physics | Scuola di Scienze e Tecnologie",
-            "note": "Page content was successfully opened and inspected. The separate automated HTTP URL check remains inconclusive due to TLS validation failure; this browser check is not represented as a successful direct HTTP validation."
+            "notes": "Official page/PDF content was retrieved successfully in the web reader. The separate direct HTTP check remains inconclusive because local TLS validation failed; this is not a statement that the underlying HTTP request succeeded."
           }
         },
         {
@@ -11281,11 +11433,11 @@
             "method": "GET"
           },
           "browser_check": {
-            "outcome": "accessible",
             "checked_at": "2026-11-11",
-            "method": "Direct official page open with content extraction",
+            "outcome": "accessible",
+            "method": "Codex web reader open",
             "observed_title": "PRE-ADMISSIONS 2026-2027 | University of Camerino",
-            "note": "Page content was successfully opened and inspected. The separate automated HTTP URL check remains inconclusive due to TLS validation failure; this browser check is not represented as a successful direct HTTP validation."
+            "notes": "Official page/PDF content was retrieved successfully in the web reader. The separate direct HTTP check remains inconclusive because local TLS validation failed; this is not a statement that the underlying HTTP request succeeded."
           }
         },
         {
@@ -11324,11 +11476,11 @@
             "method": "GET with byte range for PDF sources"
           },
           "browser_check": {
-            "outcome": "accessible",
             "checked_at": "2026-11-11",
-            "method": "Direct official page open with content extraction",
-            "observed_title": "Pre-admission Procedure a.y. 2025/2026 (document content: 2026/2027)",
-            "note": "Page content was successfully opened and inspected. The separate automated HTTP URL check remains inconclusive due to TLS validation failure; this browser check is not represented as a successful direct HTTP validation."
+            "outcome": "accessible",
+            "method": "Codex web reader open",
+            "observed_title": "Pre-admission Procedure a.y. 2025/2026 (PDF title: A.Y. 2026/2027)",
+            "notes": "Official page/PDF content was retrieved successfully in the web reader. The separate direct HTTP check remains inconclusive because local TLS validation failed; this is not a statement that the underlying HTTP request succeeded."
           }
         },
         {
@@ -11367,16 +11519,10 @@
             "method": "GET"
           },
           "browser_check": {
-            "checked_at": "2026-11-10",
-            "method": "independent primary-source content fetch",
+            "checked_at": "2026-11-11",
             "outcome": "inconclusive",
-            "note": "Content fetch timed out; direct HTTPS check also failed TLS validation. Do not classify as broken.",
-            "latest_retry": {
-              "checked_at": "2026-11-11",
-              "method": "independent official-source content fetch retry",
-              "outcome": "inconclusive",
-              "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
-            }
+            "method": "Codex web reader open",
+            "notes": "A web-reader open was attempted but timed out or could not fetch this URL. The direct HTTP record remains inconclusive; the URL is not classified as broken."
           }
         },
         {
@@ -11415,11 +11561,11 @@
             "method": "GET"
           },
           "browser_check": {
-            "outcome": "accessible",
             "checked_at": "2026-11-11",
-            "method": "Direct official page open with content extraction",
+            "outcome": "accessible",
+            "method": "Codex web reader open",
             "observed_title": "LUMP SUM ENROLLMENT PAYMENT | University of Camerino",
-            "note": "Page content was successfully opened and inspected. The separate automated HTTP URL check remains inconclusive due to TLS validation failure; this browser check is not represented as a successful direct HTTP validation."
+            "notes": "Official page/PDF content was retrieved successfully in the web reader. The separate direct HTTP check remains inconclusive because local TLS validation failed; this is not a statement that the underlying HTTP request succeeded."
           }
         },
         {
@@ -15135,9 +15281,9 @@
           },
           "browser_check": {
             "checked_at": "2026-11-11",
-            "method": "official content search result and direct content fetch retry",
             "outcome": "inconclusive",
-            "note": "Official indexed search content exposed the 2027/28 first call and 15 November 2026 deadline. Direct page content retrieval timed out. The result does not establish that the URL is broken."
+            "method": "Codex web reader open",
+            "notes": "A web-reader open was attempted but timed out or could not fetch this URL. The direct HTTP record remains inconclusive; the URL is not classified as broken."
           }
         },
         {
@@ -15470,9 +15616,9 @@
           },
           "browser_check": {
             "checked_at": "2026-11-11",
-            "method": "independent official-source content fetch retry",
             "outcome": "inconclusive",
-            "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
+            "method": "Codex web reader open",
+            "notes": "A web-reader open was attempted but timed out or could not fetch this URL. The direct HTTP record remains inconclusive; the URL is not classified as broken."
           }
         },
         {
@@ -16032,9 +16178,9 @@
           },
           "browser_check": {
             "checked_at": "2026-11-11",
-            "method": "independent official-source content fetch retry",
             "outcome": "inconclusive",
-            "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
+            "method": "Codex web reader open",
+            "notes": "A web-reader open was attempted but timed out or could not fetch this URL. The direct HTTP record remains inconclusive; the URL is not classified as broken."
           }
         },
         {
@@ -16148,9 +16294,9 @@
           },
           "browser_check": {
             "checked_at": "2026-11-11",
-            "method": "independent official-source content fetch retry",
             "outcome": "inconclusive",
-            "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
+            "method": "Codex web reader open",
+            "notes": "A web-reader open was attempted but timed out or could not fetch this URL. The direct HTTP record remains inconclusive; the URL is not classified as broken."
           }
         },
         {
@@ -16190,9 +16336,9 @@
           },
           "browser_check": {
             "checked_at": "2026-11-11",
-            "method": "independent official-source content fetch retry",
             "outcome": "inconclusive",
-            "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
+            "method": "Codex web reader open",
+            "notes": "A web-reader open was attempted but timed out or could not fetch this URL. The direct HTTP record remains inconclusive; the URL is not classified as broken."
           }
         },
         {
@@ -22301,12 +22447,12 @@
             "program.historical_course_listing",
             "program.historical_requirements"
           ],
-          "refresh_status": "inconclusive",
+          "refresh_status": "broken",
           "url_check": {
-            "http_status": null,
-            "effective_url": null,
-            "content_type": null,
-            "content_length_header": null,
+            "http_status": 404,
+            "effective_url": "https://corsi.units.it/sites/default/files/dssc_call_2022_0.pdf",
+            "content_type": "text/html; charset=iso-8859-1",
+            "content_length_header": "196",
             "etag": null,
             "last_modified": null,
             "cache_control": null,
@@ -22314,27 +22460,21 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
-            "pdf_signature": null,
+            "observed_title": "404 Not Found",
+            "pdf_signature": false,
             "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
-            "retried": true,
+            "bytes_read": 196,
+            "outcome": "broken",
+            "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET with byte range for PDF sources"
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache",
+            "notes": "Explicit origin response body: HTTP 404 Not Found, requested URL was not found on the server. This is a historical PDF URL and is retained as provenance, not as a current offer."
           },
           "browser_check": {
-            "checked_at": "2026-11-10",
-            "method": "independent primary-source content fetch",
+            "checked_at": "2026-11-11",
             "outcome": "inconclusive",
-            "note": "Content fetch did not access the 2022 PDF; direct HTTPS check also failed TLS validation. Do not classify as broken.",
-            "latest_retry": {
-              "checked_at": "2026-11-11",
-              "method": "independent official-source content fetch retry",
-              "outcome": "inconclusive",
-              "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
-            }
+            "method": "Codex web reader open",
+            "notes": "A web-reader open was attempted but timed out or could not fetch this URL. The direct HTTP record remains inconclusive; the URL is not classified as broken."
           }
         },
         {
@@ -22372,11 +22512,11 @@
             "method": "GET with byte range for PDF sources"
           },
           "browser_check": {
-            "outcome": "accessible",
             "checked_at": "2026-11-11",
-            "method": "Direct official page open with content extraction",
-            "observed_title": "Layout 1 (official 2022/23 course inventory PDF)",
-            "note": "Page content was successfully opened and inspected. The separate automated HTTP URL check remains inconclusive due to TLS validation failure; this browser check is not represented as a successful direct HTTP validation."
+            "outcome": "accessible",
+            "method": "Codex web reader open",
+            "observed_title": "Layout 1 | University of Trieste 2022 study manifesto (PDF)",
+            "notes": "Official page/PDF content was retrieved successfully in the web reader. The separate direct HTTP check remains inconclusive because local TLS validation failed; this is not a statement that the underlying HTTP request succeeded."
           }
         },
         {
@@ -24742,34 +24882,34 @@
             "program.corrected_identity",
             "program.program_type"
           ],
-          "refresh_status": "inconclusive",
+          "refresh_status": "accessible",
           "url_check": {
-            "http_status": null,
-            "effective_url": null,
-            "content_type": null,
+            "http_status": 200,
+            "effective_url": "https://www.dises.unina.it/en_GB/il-dipartimento/presentazione",
+            "content_type": "text/html; charset=UTF-8",
             "content_length_header": null,
-            "etag": null,
+            "etag": "\"8f8c5699\"",
             "last_modified": null,
             "cache_control": null,
             "age": null,
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "About us | Department of Economics and Statistics",
             "pdf_signature": null,
-            "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
-            "retried": true,
+            "has_2027_marker": false,
+            "bytes_read": 47855,
+            "outcome": "accessible",
+            "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache",
+            "notes": "Direct GET succeeded through the Windows HTTP client after the Python TLS verifier rejected the certificate chain."
           },
           "browser_check": {
             "checked_at": "2026-11-11",
-            "method": "independent official-source content fetch retry",
             "outcome": "inconclusive",
-            "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
+            "method": "Codex web reader open",
+            "notes": "A web-reader open was attempted but timed out or could not fetch this URL. The direct HTTP record remains inconclusive; the URL is not classified as broken."
           }
         }
       ],
@@ -25297,7 +25437,7 @@
             "program.previous_cycle_course_listing",
             "program.program_type"
           ],
-          "refresh_status": "accessible",
+          "refresh_status": "inconclusive",
           "url_check": {
             "http_status": null,
             "effective_url": null,
@@ -25321,11 +25461,10 @@
             "method": "GET"
           },
           "browser_check": {
-            "outcome": "accessible",
             "checked_at": "2026-11-11",
-            "method": "Direct official page open with content extraction",
-            "observed_title": "Education – Quantum Science and Technologies @Naples",
-            "note": "Page content was successfully opened and inspected. The separate automated HTTP URL check remains inconclusive due to TLS validation failure; this browser check is not represented as a successful direct HTTP validation."
+            "outcome": "inconclusive",
+            "method": "Codex web reader open",
+            "notes": "A web-reader open was attempted but timed out or could not fetch this URL. The direct HTTP record remains inconclusive; the URL is not classified as broken."
           }
         }
       ],
@@ -25634,9 +25773,9 @@
           },
           "browser_check": {
             "checked_at": "2026-11-11",
-            "method": "independent official-source content fetch retry",
             "outcome": "inconclusive",
-            "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
+            "method": "Codex web reader open",
+            "notes": "A web-reader open was attempted but timed out or could not fetch this URL. The direct HTTP record remains inconclusive; the URL is not classified as broken."
           }
         }
       ],
@@ -26209,9 +26348,9 @@
           },
           "browser_check": {
             "checked_at": "2026-11-11",
-            "method": "independent official-source content fetch retry",
             "outcome": "inconclusive",
-            "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
+            "method": "Codex web reader open",
+            "notes": "A web-reader open was attempted but timed out or could not fetch this URL. The direct HTTP record remains inconclusive; the URL is not classified as broken."
           }
         }
       ],
@@ -62114,6 +62253,683 @@
       "refresh_outcome": null
     },
     {
+      "id": "discovered-040",
+      "university_id": "bologna",
+      "university": "Università di Bologna",
+      "city": "Bologna",
+      "program": "Data Science and Business Analytics",
+      "level": {
+        "value": "Professional Master's (First Level)",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BBS-DSBA-2027"
+        ],
+        "notes": null
+      },
+      "language": {
+        "value": "English",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BBS-DSBA-2027"
+        ],
+        "notes": null
+      },
+      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-040/",
+      "university_page_url": "https://italy-it-programs.vercel.app/universities/bologna/",
+      "official_program_source_urls": [
+        {
+          "id": "SRC-BBS-DSBA-2027",
+          "title": "Data Science and Business Analytics – 2027/28 BBS Professional Master",
+          "url": "https://www.bbs.unibo.it/en/master-fulltime/master-in-data-science-2/",
+          "source_type": "Official Bologna Business School programme and admissions page",
+          "cycle": "2027-2028",
+          "accessed_at": "2026-11-11",
+          "evidence": "The BBS programme page explicitly advertises 2027/28 applications opening soon, four selection rounds between March and September 2027, and an October 2027 start. It identifies the course as a one-year, full-time, English-language, 60-ECTS Professional Master delivered at the Bologna BBS campus in collaboration with the University of Bologna Department of Computer Science and Engineering (DISI). The detailed annual call is pending. The page currently displays a €14,800 tuition fee, partial awards of €4,000 and €6,000, B2 English, a first-cycle degree, tests and interview, and a €60 selection fee; these are not labelled as 2027/28 terms and are retained only as current displayed information pending the annual call.",
+          "supports": [
+            "program.name",
+            "program.level",
+            "program.language",
+            "program.location",
+            "program.duration",
+            "program.credits",
+            "program.program_type",
+            "program.availability_2027_2028",
+            "program.selection_period_2027_2028",
+            "program.current_published_fees",
+            "program.current_published_requirements"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.bbs.unibo.it/en/master-fulltime/master-in-data-science-2/",
+            "content_type": "text/html; charset=UTF-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": null,
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Master Data Science and Business Analytics (Full Time) | BBS Italy",
+            "pdf_signature": null,
+            "has_2027_marker": true,
+            "bytes_read": 189124,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
+          },
+          "browser_check": {
+            "outcome": "accessible",
+            "checked_at": "2026-11-11",
+            "method": "Codex web reader open",
+            "observed_title": "Master Data Science and Business Analytics (Full Time) | BBS Italy",
+            "notes": "Official programme page retrieved and examined for 2027/28 availability and current programme terms."
+          }
+        }
+      ],
+      "availability_2027_2028": {
+        "value": true,
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BBS-DSBA-2027"
+        ],
+        "notes": "BBS explicitly advertises this programme for 2027/28 with an October 2027 start. This confirms the named intake, not the detailed annual admission call or its eventual terms."
+      },
+      "existing_overall_status": "CONFIRMED",
+      "existing_last_checked": "2026-11-11",
+      "fields_needing_review": [
+        {
+          "field": "facts.application_windows",
+          "status": "NOT_YET_PUBLISHED",
+          "value": null,
+          "notes": "The 2027/28 selection is announced for four rounds between March and September 2027, but exact application opening dates and deadlines are not yet published.",
+          "source_ids": [
+            "SRC-BBS-DSBA-2027"
+          ]
+        },
+        {
+          "field": "facts.application_deadline",
+          "status": "NOT_YET_PUBLISHED",
+          "value": null,
+          "notes": "Exact 2027/28 round deadlines will be published in the forthcoming BBS Call for Applications.",
+          "source_ids": [
+            "SRC-BBS-DSBA-2027"
+          ]
+        },
+        {
+          "field": "facts.application_fee_2027_2028",
+          "status": "NOT_YET_PUBLISHED",
+          "value": null,
+          "notes": "The programme page displays a €60 selection fee but does not identify it as the 2027/28 fee. Confirm the amount in the annual call.",
+          "source_ids": [
+            "SRC-BBS-DSBA-2027"
+          ]
+        },
+        {
+          "field": "facts.program_specific_requirements_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "The annual call is pending. The current page shows a bachelor's degree, B2 English and selection tests/interview but does not label these detailed rules for 2027/28.",
+          "source_ids": [
+            "SRC-BBS-DSBA-2027"
+          ]
+        },
+        {
+          "field": "facts.tuition_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "The current programme page displays €14,800 without a 2027/28 cycle label; the annual call and applicable fee remain pending.",
+          "source_ids": [
+            "SRC-BBS-DSBA-2027"
+          ]
+        },
+        {
+          "field": "facts.scholarships_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "The page displays current general partial-award schemes but does not confirm 2027/28 scholarship amounts or terms.",
+          "source_ids": [
+            "SRC-BBS-DSBA-2027"
+          ]
+        },
+        {
+          "field": "facts.acceptance_rate",
+          "status": "UNAVAILABLE",
+          "value": null,
+          "notes": "No applicant and admission counts are published; no acceptance rate is inferred.",
+          "source_ids": [
+            "SRC-BBS-DSBA-2027"
+          ]
+        }
+      ],
+      "missing_fields": [
+        {
+          "field": "facts.application_windows",
+          "status": "NOT_YET_PUBLISHED",
+          "value": null,
+          "notes": "The 2027/28 selection is announced for four rounds between March and September 2027, but exact application opening dates and deadlines are not yet published.",
+          "source_ids": [
+            "SRC-BBS-DSBA-2027"
+          ]
+        },
+        {
+          "field": "facts.application_deadline",
+          "status": "NOT_YET_PUBLISHED",
+          "value": null,
+          "notes": "Exact 2027/28 round deadlines will be published in the forthcoming BBS Call for Applications.",
+          "source_ids": [
+            "SRC-BBS-DSBA-2027"
+          ]
+        },
+        {
+          "field": "facts.application_fee_2027_2028",
+          "status": "NOT_YET_PUBLISHED",
+          "value": null,
+          "notes": "The programme page displays a €60 selection fee but does not identify it as the 2027/28 fee. Confirm the amount in the annual call.",
+          "source_ids": [
+            "SRC-BBS-DSBA-2027"
+          ]
+        },
+        {
+          "field": "facts.program_specific_requirements_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "The annual call is pending. The current page shows a bachelor's degree, B2 English and selection tests/interview but does not label these detailed rules for 2027/28.",
+          "source_ids": [
+            "SRC-BBS-DSBA-2027"
+          ]
+        },
+        {
+          "field": "facts.tuition_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "The current programme page displays €14,800 without a 2027/28 cycle label; the annual call and applicable fee remain pending.",
+          "source_ids": [
+            "SRC-BBS-DSBA-2027"
+          ]
+        },
+        {
+          "field": "facts.scholarships_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "The page displays current general partial-award schemes but does not confirm 2027/28 scholarship amounts or terms.",
+          "source_ids": [
+            "SRC-BBS-DSBA-2027"
+          ]
+        },
+        {
+          "field": "facts.acceptance_rate",
+          "status": "UNAVAILABLE",
+          "value": null,
+          "notes": "No applicant and admission counts are published; no acceptance rate is inferred.",
+          "source_ids": [
+            "SRC-BBS-DSBA-2027"
+          ]
+        }
+      ],
+      "known_source_conflicts": [],
+      "source_ids": [
+        "SRC-BBS-DSBA-2027"
+      ],
+      "previous_cycle_tags": null,
+      "refresh_status": "pending",
+      "refresh_checked_at": null,
+      "refresh_outcome": null
+    },
+    {
+      "id": "discovered-041",
+      "university_id": "bologna",
+      "university": "Università di Bologna",
+      "city": "Bologna",
+      "program": "Artificial Intelligence for Management",
+      "level": {
+        "value": "Professional Master's (First Level)",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BBS-AI-MANAGEMENT-2027"
+        ],
+        "notes": null
+      },
+      "language": {
+        "value": "English",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BBS-AI-MANAGEMENT-2027"
+        ],
+        "notes": null
+      },
+      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-041/",
+      "university_page_url": "https://italy-it-programs.vercel.app/universities/bologna/",
+      "official_program_source_urls": [
+        {
+          "id": "SRC-BBS-AI-MANAGEMENT-2027",
+          "title": "Artificial Intelligence for Management – 2027/28 BBS Professional Master",
+          "url": "https://www.bbs.unibo.it/en/master-fulltime/artificial-intelligence-2/",
+          "source_type": "Official Bologna Business School programme and admissions page",
+          "cycle": "2027-2028",
+          "accessed_at": "2026-11-11",
+          "evidence": "The BBS programme page explicitly advertises 2027/28 applications opening soon, four selection rounds between March and September 2027, and an October 2027 start. It identifies the course as a one-year, full-time, English-language Professional Master delivered in Bologna in collaboration with the University of Bologna Department of Computer Science and Engineering (DISI). The detailed annual call is pending. The page currently displays a €14,800 tuition fee, partial awards of €4,000 and €6,000, B2 English, a first-cycle degree, tests and interview, and a €60 selection fee; these are not labelled as 2027/28 terms and are retained only as current displayed information pending the annual call.",
+          "supports": [
+            "program.name",
+            "program.level",
+            "program.language",
+            "program.location",
+            "program.duration",
+            "program.program_type",
+            "program.availability_2027_2028",
+            "program.selection_period_2027_2028",
+            "program.current_published_fees",
+            "program.current_published_requirements"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.bbs.unibo.it/en/master-fulltime/artificial-intelligence-2/",
+            "content_type": "text/html; charset=UTF-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": null,
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Master Artificial Intelligence for Management | BBS Italy",
+            "pdf_signature": null,
+            "has_2027_marker": true,
+            "bytes_read": 183598,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
+          },
+          "browser_check": {
+            "outcome": "accessible",
+            "checked_at": "2026-11-11",
+            "method": "Codex web reader open",
+            "observed_title": "Master Artificial Intelligence for Management | BBS Italy",
+            "notes": "Official programme page retrieved and examined for 2027/28 availability and current programme terms."
+          }
+        }
+      ],
+      "availability_2027_2028": {
+        "value": true,
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BBS-AI-MANAGEMENT-2027"
+        ],
+        "notes": "BBS explicitly advertises this programme for 2027/28 with an October 2027 start. This confirms the named intake, not the detailed annual admission call or its eventual terms."
+      },
+      "existing_overall_status": "CONFIRMED",
+      "existing_last_checked": "2026-11-11",
+      "fields_needing_review": [
+        {
+          "field": "facts.application_windows",
+          "status": "NOT_YET_PUBLISHED",
+          "value": null,
+          "notes": "The 2027/28 selection is announced for four rounds between March and September 2027, but exact application opening dates and deadlines are not yet published.",
+          "source_ids": [
+            "SRC-BBS-AI-MANAGEMENT-2027"
+          ]
+        },
+        {
+          "field": "facts.application_deadline",
+          "status": "NOT_YET_PUBLISHED",
+          "value": null,
+          "notes": "Exact 2027/28 round deadlines will be published in the forthcoming BBS Call for Applications.",
+          "source_ids": [
+            "SRC-BBS-AI-MANAGEMENT-2027"
+          ]
+        },
+        {
+          "field": "facts.application_fee_2027_2028",
+          "status": "NOT_YET_PUBLISHED",
+          "value": null,
+          "notes": "The programme page displays a €60 selection fee but does not identify it as the 2027/28 fee. Confirm the amount in the annual call.",
+          "source_ids": [
+            "SRC-BBS-AI-MANAGEMENT-2027"
+          ]
+        },
+        {
+          "field": "facts.program_specific_requirements_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "The annual call is pending. The current page shows a bachelor's degree, B2 English and selection tests/interview but does not label these detailed rules for 2027/28.",
+          "source_ids": [
+            "SRC-BBS-AI-MANAGEMENT-2027"
+          ]
+        },
+        {
+          "field": "facts.tuition_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "The current programme page displays €14,800 without a 2027/28 cycle label; the annual call and applicable fee remain pending.",
+          "source_ids": [
+            "SRC-BBS-AI-MANAGEMENT-2027"
+          ]
+        },
+        {
+          "field": "facts.scholarships_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "The page displays current general partial-award schemes but does not confirm 2027/28 scholarship amounts or terms.",
+          "source_ids": [
+            "SRC-BBS-AI-MANAGEMENT-2027"
+          ]
+        },
+        {
+          "field": "facts.acceptance_rate",
+          "status": "UNAVAILABLE",
+          "value": null,
+          "notes": "No applicant and admission counts are published; no acceptance rate is inferred.",
+          "source_ids": [
+            "SRC-BBS-AI-MANAGEMENT-2027"
+          ]
+        }
+      ],
+      "missing_fields": [
+        {
+          "field": "facts.application_windows",
+          "status": "NOT_YET_PUBLISHED",
+          "value": null,
+          "notes": "The 2027/28 selection is announced for four rounds between March and September 2027, but exact application opening dates and deadlines are not yet published.",
+          "source_ids": [
+            "SRC-BBS-AI-MANAGEMENT-2027"
+          ]
+        },
+        {
+          "field": "facts.application_deadline",
+          "status": "NOT_YET_PUBLISHED",
+          "value": null,
+          "notes": "Exact 2027/28 round deadlines will be published in the forthcoming BBS Call for Applications.",
+          "source_ids": [
+            "SRC-BBS-AI-MANAGEMENT-2027"
+          ]
+        },
+        {
+          "field": "facts.application_fee_2027_2028",
+          "status": "NOT_YET_PUBLISHED",
+          "value": null,
+          "notes": "The programme page displays a €60 selection fee but does not identify it as the 2027/28 fee. Confirm the amount in the annual call.",
+          "source_ids": [
+            "SRC-BBS-AI-MANAGEMENT-2027"
+          ]
+        },
+        {
+          "field": "facts.program_specific_requirements_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "The annual call is pending. The current page shows a bachelor's degree, B2 English and selection tests/interview but does not label these detailed rules for 2027/28.",
+          "source_ids": [
+            "SRC-BBS-AI-MANAGEMENT-2027"
+          ]
+        },
+        {
+          "field": "facts.tuition_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "The current programme page displays €14,800 without a 2027/28 cycle label; the annual call and applicable fee remain pending.",
+          "source_ids": [
+            "SRC-BBS-AI-MANAGEMENT-2027"
+          ]
+        },
+        {
+          "field": "facts.scholarships_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "The page displays current general partial-award schemes but does not confirm 2027/28 scholarship amounts or terms.",
+          "source_ids": [
+            "SRC-BBS-AI-MANAGEMENT-2027"
+          ]
+        },
+        {
+          "field": "facts.acceptance_rate",
+          "status": "UNAVAILABLE",
+          "value": null,
+          "notes": "No applicant and admission counts are published; no acceptance rate is inferred.",
+          "source_ids": [
+            "SRC-BBS-AI-MANAGEMENT-2027"
+          ]
+        }
+      ],
+      "known_source_conflicts": [],
+      "source_ids": [
+        "SRC-BBS-AI-MANAGEMENT-2027"
+      ],
+      "previous_cycle_tags": null,
+      "refresh_status": "pending",
+      "refresh_checked_at": null,
+      "refresh_outcome": null
+    },
+    {
+      "id": "discovered-042",
+      "university_id": "bologna",
+      "university": "Università di Bologna",
+      "city": "Bologna",
+      "program": "Finance – Entrepreneurial Finance",
+      "level": {
+        "value": "Professional Master's (First Level)",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BBS-ENTREPRENEURIAL-FINANCE-2027"
+        ],
+        "notes": null
+      },
+      "language": {
+        "value": "English",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BBS-ENTREPRENEURIAL-FINANCE-2027"
+        ],
+        "notes": null
+      },
+      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-042/",
+      "university_page_url": "https://italy-it-programs.vercel.app/universities/bologna/",
+      "official_program_source_urls": [
+        {
+          "id": "SRC-BBS-ENTREPRENEURIAL-FINANCE-2027",
+          "title": "Finance – Entrepreneurial Finance – 2027/28 BBS Professional Master",
+          "url": "https://www.bbs.unibo.it/en/master-fulltime/entrepreneurial-finance/",
+          "source_type": "Official Bologna Business School programme and admissions page",
+          "cycle": "2027-2028",
+          "accessed_at": "2026-11-11",
+          "evidence": "The BBS programme page explicitly advertises 2027/28 applications opening soon, four selection rounds between March and September 2027, and an October 2027 start. It identifies the course as a one-year, full-time, English-language, 60-ECTS Professional Master delivered in Bologna in collaboration with the University of Bologna Department of Management (DISA). The detailed annual call is pending. The page currently displays a €14,800 tuition fee, partial awards of €4,000 and €6,000, B2 English, a first-cycle degree, tests and interview, and a €60 selection fee; these are not labelled as 2027/28 terms and are retained only as current displayed information pending the annual call.",
+          "supports": [
+            "program.name",
+            "program.level",
+            "program.language",
+            "program.location",
+            "program.duration",
+            "program.credits",
+            "program.program_type",
+            "program.availability_2027_2028",
+            "program.selection_period_2027_2028",
+            "program.current_published_fees",
+            "program.current_published_requirements"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.bbs.unibo.it/en/master-fulltime/entrepreneurial-finance/",
+            "content_type": "text/html; charset=UTF-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": null,
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Master Full Time | BBS",
+            "pdf_signature": null,
+            "has_2027_marker": true,
+            "bytes_read": 171618,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
+          },
+          "browser_check": {
+            "outcome": "accessible",
+            "checked_at": "2026-11-11",
+            "method": "Codex web reader open",
+            "observed_title": "Master Full Time | BBS",
+            "notes": "Official programme page retrieved and examined for 2027/28 availability and current programme terms."
+          }
+        }
+      ],
+      "availability_2027_2028": {
+        "value": true,
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BBS-ENTREPRENEURIAL-FINANCE-2027"
+        ],
+        "notes": "BBS explicitly advertises this programme for 2027/28 with an October 2027 start. This confirms the named intake, not the detailed annual admission call or its eventual terms."
+      },
+      "existing_overall_status": "CONFIRMED",
+      "existing_last_checked": "2026-11-11",
+      "fields_needing_review": [
+        {
+          "field": "facts.application_windows",
+          "status": "NOT_YET_PUBLISHED",
+          "value": null,
+          "notes": "The 2027/28 selection is announced for four rounds between March and September 2027, but exact application opening dates and deadlines are not yet published.",
+          "source_ids": [
+            "SRC-BBS-ENTREPRENEURIAL-FINANCE-2027"
+          ]
+        },
+        {
+          "field": "facts.application_deadline",
+          "status": "NOT_YET_PUBLISHED",
+          "value": null,
+          "notes": "Exact 2027/28 round deadlines will be published in the forthcoming BBS Call for Applications.",
+          "source_ids": [
+            "SRC-BBS-ENTREPRENEURIAL-FINANCE-2027"
+          ]
+        },
+        {
+          "field": "facts.application_fee_2027_2028",
+          "status": "NOT_YET_PUBLISHED",
+          "value": null,
+          "notes": "The programme page displays a €60 selection fee but does not identify it as the 2027/28 fee. Confirm the amount in the annual call.",
+          "source_ids": [
+            "SRC-BBS-ENTREPRENEURIAL-FINANCE-2027"
+          ]
+        },
+        {
+          "field": "facts.program_specific_requirements_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "The annual call is pending. The current page shows a bachelor's degree, B2 English and selection tests/interview but does not label these detailed rules for 2027/28.",
+          "source_ids": [
+            "SRC-BBS-ENTREPRENEURIAL-FINANCE-2027"
+          ]
+        },
+        {
+          "field": "facts.tuition_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "The current programme page displays €14,800 without a 2027/28 cycle label; the annual call and applicable fee remain pending.",
+          "source_ids": [
+            "SRC-BBS-ENTREPRENEURIAL-FINANCE-2027"
+          ]
+        },
+        {
+          "field": "facts.scholarships_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "The page displays current general partial-award schemes but does not confirm 2027/28 scholarship amounts or terms.",
+          "source_ids": [
+            "SRC-BBS-ENTREPRENEURIAL-FINANCE-2027"
+          ]
+        },
+        {
+          "field": "facts.acceptance_rate",
+          "status": "UNAVAILABLE",
+          "value": null,
+          "notes": "No applicant and admission counts are published; no acceptance rate is inferred.",
+          "source_ids": [
+            "SRC-BBS-ENTREPRENEURIAL-FINANCE-2027"
+          ]
+        }
+      ],
+      "missing_fields": [
+        {
+          "field": "facts.application_windows",
+          "status": "NOT_YET_PUBLISHED",
+          "value": null,
+          "notes": "The 2027/28 selection is announced for four rounds between March and September 2027, but exact application opening dates and deadlines are not yet published.",
+          "source_ids": [
+            "SRC-BBS-ENTREPRENEURIAL-FINANCE-2027"
+          ]
+        },
+        {
+          "field": "facts.application_deadline",
+          "status": "NOT_YET_PUBLISHED",
+          "value": null,
+          "notes": "Exact 2027/28 round deadlines will be published in the forthcoming BBS Call for Applications.",
+          "source_ids": [
+            "SRC-BBS-ENTREPRENEURIAL-FINANCE-2027"
+          ]
+        },
+        {
+          "field": "facts.application_fee_2027_2028",
+          "status": "NOT_YET_PUBLISHED",
+          "value": null,
+          "notes": "The programme page displays a €60 selection fee but does not identify it as the 2027/28 fee. Confirm the amount in the annual call.",
+          "source_ids": [
+            "SRC-BBS-ENTREPRENEURIAL-FINANCE-2027"
+          ]
+        },
+        {
+          "field": "facts.program_specific_requirements_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "The annual call is pending. The current page shows a bachelor's degree, B2 English and selection tests/interview but does not label these detailed rules for 2027/28.",
+          "source_ids": [
+            "SRC-BBS-ENTREPRENEURIAL-FINANCE-2027"
+          ]
+        },
+        {
+          "field": "facts.tuition_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "The current programme page displays €14,800 without a 2027/28 cycle label; the annual call and applicable fee remain pending.",
+          "source_ids": [
+            "SRC-BBS-ENTREPRENEURIAL-FINANCE-2027"
+          ]
+        },
+        {
+          "field": "facts.scholarships_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "The page displays current general partial-award schemes but does not confirm 2027/28 scholarship amounts or terms.",
+          "source_ids": [
+            "SRC-BBS-ENTREPRENEURIAL-FINANCE-2027"
+          ]
+        },
+        {
+          "field": "facts.acceptance_rate",
+          "status": "UNAVAILABLE",
+          "value": null,
+          "notes": "No applicant and admission counts are published; no acceptance rate is inferred.",
+          "source_ids": [
+            "SRC-BBS-ENTREPRENEURIAL-FINANCE-2027"
+          ]
+        }
+      ],
+      "known_source_conflicts": [],
+      "source_ids": [
+        "SRC-BBS-ENTREPRENEURIAL-FINANCE-2027"
+      ],
+      "previous_cycle_tags": null,
+      "refresh_status": "pending",
+      "refresh_checked_at": null,
+      "refresh_outcome": null
+    },
+    {
       "id": "legacy-068",
       "university_id": "camerino",
       "university": "Università di Camerino",
@@ -62215,11 +63031,11 @@
             "method": "GET"
           },
           "browser_check": {
-            "outcome": "accessible",
             "checked_at": "2026-11-11",
-            "method": "Direct official page open with content extraction",
+            "outcome": "accessible",
+            "method": "Codex web reader open",
             "observed_title": "Computer Science | Scuola di Scienze e Tecnologie",
-            "note": "Page content was successfully opened and inspected. The separate automated HTTP URL check remains inconclusive due to TLS validation failure; this browser check is not represented as a successful direct HTTP validation."
+            "notes": "Official page/PDF content was retrieved successfully in the web reader. The separate direct HTTP check remains inconclusive because local TLS validation failed; this is not a statement that the underlying HTTP request succeeded."
           }
         },
         {
@@ -62260,11 +63076,11 @@
             "method": "GET"
           },
           "browser_check": {
-            "outcome": "accessible",
             "checked_at": "2026-11-11",
-            "method": "Direct official page open with content extraction",
+            "outcome": "accessible",
+            "method": "Codex web reader open",
             "observed_title": "Master | University of Camerino",
-            "note": "Page content was successfully opened and inspected. The separate automated HTTP URL check remains inconclusive due to TLS validation failure; this browser check is not represented as a successful direct HTTP validation."
+            "notes": "Official page/PDF content was retrieved successfully in the web reader. The separate direct HTTP check remains inconclusive because local TLS validation failed; this is not a statement that the underlying HTTP request succeeded."
           }
         },
         {
@@ -62303,11 +63119,11 @@
             "method": "GET"
           },
           "browser_check": {
-            "outcome": "accessible",
             "checked_at": "2026-11-11",
-            "method": "Direct official page open with content extraction",
+            "outcome": "accessible",
+            "method": "Codex web reader open",
             "observed_title": "LUMP SUM ENROLLMENT PAYMENT | University of Camerino",
-            "note": "Page content was successfully opened and inspected. The separate automated HTTP URL check remains inconclusive due to TLS validation failure; this browser check is not represented as a successful direct HTTP validation."
+            "notes": "Official page/PDF content was retrieved successfully in the web reader. The separate direct HTTP check remains inconclusive because local TLS validation failed; this is not a statement that the underlying HTTP request succeeded."
           }
         },
         {
@@ -62421,11 +63237,11 @@
             "method": "GET"
           },
           "browser_check": {
-            "outcome": "accessible",
             "checked_at": "2026-11-11",
-            "method": "Direct official page open with content extraction",
+            "outcome": "accessible",
+            "method": "Codex web reader open",
             "observed_title": "FAQ | University of Camerino",
-            "note": "Page content was successfully opened and inspected. The separate automated HTTP URL check remains inconclusive due to TLS validation failure; this browser check is not represented as a successful direct HTTP validation."
+            "notes": "Official page/PDF content was retrieved successfully in the web reader. The separate direct HTTP check remains inconclusive because local TLS validation failed; this is not a statement that the underlying HTTP request succeeded."
           }
         },
         {
@@ -62465,11 +63281,11 @@
             "method": "GET"
           },
           "browser_check": {
-            "outcome": "accessible",
             "checked_at": "2026-11-11",
-            "method": "Direct official page open with content extraction",
+            "outcome": "accessible",
+            "method": "Codex web reader open",
             "observed_title": "PRE-ADMISSIONS 2026-2027 | University of Camerino",
-            "note": "Page content was successfully opened and inspected. The separate automated HTTP URL check remains inconclusive due to TLS validation failure; this browser check is not represented as a successful direct HTTP validation."
+            "notes": "Official page/PDF content was retrieved successfully in the web reader. The separate direct HTTP check remains inconclusive because local TLS validation failed; this is not a statement that the underlying HTTP request succeeded."
           }
         },
         {
@@ -62508,16 +63324,10 @@
             "method": "GET"
           },
           "browser_check": {
-            "checked_at": "2026-11-10",
-            "method": "independent primary-source content fetch",
+            "checked_at": "2026-11-11",
             "outcome": "inconclusive",
-            "note": "Content fetch timed out; direct HTTPS check also failed TLS validation. Do not classify as broken.",
-            "latest_retry": {
-              "checked_at": "2026-11-11",
-              "method": "independent official-source content fetch retry",
-              "outcome": "inconclusive",
-              "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
-            }
+            "method": "Codex web reader open",
+            "notes": "A web-reader open was attempted but timed out or could not fetch this URL. The direct HTTP record remains inconclusive; the URL is not classified as broken."
           }
         },
         {
@@ -62920,11 +63730,11 @@
             "method": "GET"
           },
           "browser_check": {
-            "outcome": "accessible",
             "checked_at": "2026-11-11",
-            "method": "Direct official page open with content extraction",
-            "observed_title": "Master’s Degree in Chemistry | Sezione di Chimica",
-            "note": "Page content was successfully opened and inspected. The separate automated HTTP URL check remains inconclusive due to TLS validation failure; this browser check is not represented as a successful direct HTTP validation."
+            "outcome": "accessible",
+            "method": "Codex web reader open",
+            "observed_title": "Master's Degree in Chemistry | Sezione di Chimica",
+            "notes": "Official page/PDF content was retrieved successfully in the web reader. The separate direct HTTP check remains inconclusive because local TLS validation failed; this is not a statement that the underlying HTTP request succeeded."
           }
         },
         {
@@ -62965,11 +63775,11 @@
             "method": "GET"
           },
           "browser_check": {
-            "outcome": "accessible",
             "checked_at": "2026-11-11",
-            "method": "Direct official page open with content extraction",
+            "outcome": "accessible",
+            "method": "Codex web reader open",
             "observed_title": "Master | University of Camerino",
-            "note": "Page content was successfully opened and inspected. The separate automated HTTP URL check remains inconclusive due to TLS validation failure; this browser check is not represented as a successful direct HTTP validation."
+            "notes": "Official page/PDF content was retrieved successfully in the web reader. The separate direct HTTP check remains inconclusive because local TLS validation failed; this is not a statement that the underlying HTTP request succeeded."
           }
         },
         {
@@ -63008,11 +63818,11 @@
             "method": "GET"
           },
           "browser_check": {
-            "outcome": "accessible",
             "checked_at": "2026-11-11",
-            "method": "Direct official page open with content extraction",
+            "outcome": "accessible",
+            "method": "Codex web reader open",
             "observed_title": "LUMP SUM ENROLLMENT PAYMENT | University of Camerino",
-            "note": "Page content was successfully opened and inspected. The separate automated HTTP URL check remains inconclusive due to TLS validation failure; this browser check is not represented as a successful direct HTTP validation."
+            "notes": "Official page/PDF content was retrieved successfully in the web reader. The separate direct HTTP check remains inconclusive because local TLS validation failed; this is not a statement that the underlying HTTP request succeeded."
           }
         },
         {
@@ -63126,11 +63936,11 @@
             "method": "GET"
           },
           "browser_check": {
-            "outcome": "accessible",
             "checked_at": "2026-11-11",
-            "method": "Direct official page open with content extraction",
+            "outcome": "accessible",
+            "method": "Codex web reader open",
             "observed_title": "FAQ | University of Camerino",
-            "note": "Page content was successfully opened and inspected. The separate automated HTTP URL check remains inconclusive due to TLS validation failure; this browser check is not represented as a successful direct HTTP validation."
+            "notes": "Official page/PDF content was retrieved successfully in the web reader. The separate direct HTTP check remains inconclusive because local TLS validation failed; this is not a statement that the underlying HTTP request succeeded."
           }
         },
         {
@@ -63170,11 +63980,11 @@
             "method": "GET"
           },
           "browser_check": {
-            "outcome": "accessible",
             "checked_at": "2026-11-11",
-            "method": "Direct official page open with content extraction",
+            "outcome": "accessible",
+            "method": "Codex web reader open",
             "observed_title": "PRE-ADMISSIONS 2026-2027 | University of Camerino",
-            "note": "Page content was successfully opened and inspected. The separate automated HTTP URL check remains inconclusive due to TLS validation failure; this browser check is not represented as a successful direct HTTP validation."
+            "notes": "Official page/PDF content was retrieved successfully in the web reader. The separate direct HTTP check remains inconclusive because local TLS validation failed; this is not a statement that the underlying HTTP request succeeded."
           }
         },
         {
@@ -63213,16 +64023,10 @@
             "method": "GET"
           },
           "browser_check": {
-            "checked_at": "2026-11-10",
-            "method": "independent primary-source content fetch",
+            "checked_at": "2026-11-11",
             "outcome": "inconclusive",
-            "note": "Content fetch timed out; direct HTTPS check also failed TLS validation. Do not classify as broken.",
-            "latest_retry": {
-              "checked_at": "2026-11-11",
-              "method": "independent official-source content fetch retry",
-              "outcome": "inconclusive",
-              "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
-            }
+            "method": "Codex web reader open",
+            "notes": "A web-reader open was attempted but timed out or could not fetch this URL. The direct HTTP record remains inconclusive; the URL is not classified as broken."
           }
         },
         {
@@ -63574,11 +64378,11 @@
             "method": "GET"
           },
           "browser_check": {
-            "outcome": "accessible",
             "checked_at": "2026-11-11",
-            "method": "Direct official page open with content extraction",
+            "outcome": "accessible",
+            "method": "Codex web reader open",
             "observed_title": "Mathematics and applications | Scuola di Scienze e Tecnologie",
-            "note": "Page content was successfully opened and inspected. The separate automated HTTP URL check remains inconclusive due to TLS validation failure; this browser check is not represented as a successful direct HTTP validation."
+            "notes": "Official page/PDF content was retrieved successfully in the web reader. The separate direct HTTP check remains inconclusive because local TLS validation failed; this is not a statement that the underlying HTTP request succeeded."
           }
         },
         {
@@ -63655,11 +64459,11 @@
             "method": "GET"
           },
           "browser_check": {
-            "outcome": "accessible",
             "checked_at": "2026-11-11",
-            "method": "Direct official page open with content extraction",
+            "outcome": "accessible",
+            "method": "Codex web reader open",
             "observed_title": "Master | University of Camerino",
-            "note": "Page content was successfully opened and inspected. The separate automated HTTP URL check remains inconclusive due to TLS validation failure; this browser check is not represented as a successful direct HTTP validation."
+            "notes": "Official page/PDF content was retrieved successfully in the web reader. The separate direct HTTP check remains inconclusive because local TLS validation failed; this is not a statement that the underlying HTTP request succeeded."
           }
         },
         {
@@ -63698,11 +64502,11 @@
             "method": "GET"
           },
           "browser_check": {
-            "outcome": "accessible",
             "checked_at": "2026-11-11",
-            "method": "Direct official page open with content extraction",
+            "outcome": "accessible",
+            "method": "Codex web reader open",
             "observed_title": "LUMP SUM ENROLLMENT PAYMENT | University of Camerino",
-            "note": "Page content was successfully opened and inspected. The separate automated HTTP URL check remains inconclusive due to TLS validation failure; this browser check is not represented as a successful direct HTTP validation."
+            "notes": "Official page/PDF content was retrieved successfully in the web reader. The separate direct HTTP check remains inconclusive because local TLS validation failed; this is not a statement that the underlying HTTP request succeeded."
           }
         },
         {
@@ -63816,11 +64620,11 @@
             "method": "GET"
           },
           "browser_check": {
-            "outcome": "accessible",
             "checked_at": "2026-11-11",
-            "method": "Direct official page open with content extraction",
+            "outcome": "accessible",
+            "method": "Codex web reader open",
             "observed_title": "FAQ | University of Camerino",
-            "note": "Page content was successfully opened and inspected. The separate automated HTTP URL check remains inconclusive due to TLS validation failure; this browser check is not represented as a successful direct HTTP validation."
+            "notes": "Official page/PDF content was retrieved successfully in the web reader. The separate direct HTTP check remains inconclusive because local TLS validation failed; this is not a statement that the underlying HTTP request succeeded."
           }
         },
         {
@@ -63860,11 +64664,11 @@
             "method": "GET"
           },
           "browser_check": {
-            "outcome": "accessible",
             "checked_at": "2026-11-11",
-            "method": "Direct official page open with content extraction",
+            "outcome": "accessible",
+            "method": "Codex web reader open",
             "observed_title": "PRE-ADMISSIONS 2026-2027 | University of Camerino",
-            "note": "Page content was successfully opened and inspected. The separate automated HTTP URL check remains inconclusive due to TLS validation failure; this browser check is not represented as a successful direct HTTP validation."
+            "notes": "Official page/PDF content was retrieved successfully in the web reader. The separate direct HTTP check remains inconclusive because local TLS validation failed; this is not a statement that the underlying HTTP request succeeded."
           }
         },
         {
@@ -63903,16 +64707,10 @@
             "method": "GET"
           },
           "browser_check": {
-            "checked_at": "2026-11-10",
-            "method": "independent primary-source content fetch",
+            "checked_at": "2026-11-11",
             "outcome": "inconclusive",
-            "note": "Content fetch timed out; direct HTTPS check also failed TLS validation. Do not classify as broken.",
-            "latest_retry": {
-              "checked_at": "2026-11-11",
-              "method": "independent official-source content fetch retry",
-              "outcome": "inconclusive",
-              "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
-            }
+            "method": "Codex web reader open",
+            "notes": "A web-reader open was attempted but timed out or could not fetch this URL. The direct HTTP record remains inconclusive; the URL is not classified as broken."
           }
         },
         {
@@ -64249,11 +65047,11 @@
             "method": "GET"
           },
           "browser_check": {
-            "outcome": "accessible",
             "checked_at": "2026-11-11",
-            "method": "Direct official page open with content extraction",
+            "outcome": "accessible",
+            "method": "Codex web reader open",
             "observed_title": "Physics | Scuola di Scienze e Tecnologie",
-            "note": "Page content was successfully opened and inspected. The separate automated HTTP URL check remains inconclusive due to TLS validation failure; this browser check is not represented as a successful direct HTTP validation."
+            "notes": "Official page/PDF content was retrieved successfully in the web reader. The separate direct HTTP check remains inconclusive because local TLS validation failed; this is not a statement that the underlying HTTP request succeeded."
           }
         },
         {
@@ -64330,11 +65128,11 @@
             "method": "GET"
           },
           "browser_check": {
-            "outcome": "accessible",
             "checked_at": "2026-11-11",
-            "method": "Direct official page open with content extraction",
+            "outcome": "accessible",
+            "method": "Codex web reader open",
             "observed_title": "Master | University of Camerino",
-            "note": "Page content was successfully opened and inspected. The separate automated HTTP URL check remains inconclusive due to TLS validation failure; this browser check is not represented as a successful direct HTTP validation."
+            "notes": "Official page/PDF content was retrieved successfully in the web reader. The separate direct HTTP check remains inconclusive because local TLS validation failed; this is not a statement that the underlying HTTP request succeeded."
           }
         },
         {
@@ -64373,11 +65171,11 @@
             "method": "GET"
           },
           "browser_check": {
-            "outcome": "accessible",
             "checked_at": "2026-11-11",
-            "method": "Direct official page open with content extraction",
+            "outcome": "accessible",
+            "method": "Codex web reader open",
             "observed_title": "LUMP SUM ENROLLMENT PAYMENT | University of Camerino",
-            "note": "Page content was successfully opened and inspected. The separate automated HTTP URL check remains inconclusive due to TLS validation failure; this browser check is not represented as a successful direct HTTP validation."
+            "notes": "Official page/PDF content was retrieved successfully in the web reader. The separate direct HTTP check remains inconclusive because local TLS validation failed; this is not a statement that the underlying HTTP request succeeded."
           }
         },
         {
@@ -64491,11 +65289,11 @@
             "method": "GET"
           },
           "browser_check": {
-            "outcome": "accessible",
             "checked_at": "2026-11-11",
-            "method": "Direct official page open with content extraction",
+            "outcome": "accessible",
+            "method": "Codex web reader open",
             "observed_title": "FAQ | University of Camerino",
-            "note": "Page content was successfully opened and inspected. The separate automated HTTP URL check remains inconclusive due to TLS validation failure; this browser check is not represented as a successful direct HTTP validation."
+            "notes": "Official page/PDF content was retrieved successfully in the web reader. The separate direct HTTP check remains inconclusive because local TLS validation failed; this is not a statement that the underlying HTTP request succeeded."
           }
         },
         {
@@ -64535,11 +65333,11 @@
             "method": "GET"
           },
           "browser_check": {
-            "outcome": "accessible",
             "checked_at": "2026-11-11",
-            "method": "Direct official page open with content extraction",
+            "outcome": "accessible",
+            "method": "Codex web reader open",
             "observed_title": "PRE-ADMISSIONS 2026-2027 | University of Camerino",
-            "note": "Page content was successfully opened and inspected. The separate automated HTTP URL check remains inconclusive due to TLS validation failure; this browser check is not represented as a successful direct HTTP validation."
+            "notes": "Official page/PDF content was retrieved successfully in the web reader. The separate direct HTTP check remains inconclusive because local TLS validation failed; this is not a statement that the underlying HTTP request succeeded."
           }
         },
         {
@@ -64578,16 +65376,10 @@
             "method": "GET"
           },
           "browser_check": {
-            "checked_at": "2026-11-10",
-            "method": "independent primary-source content fetch",
+            "checked_at": "2026-11-11",
             "outcome": "inconclusive",
-            "note": "Content fetch timed out; direct HTTPS check also failed TLS validation. Do not classify as broken.",
-            "latest_retry": {
-              "checked_at": "2026-11-11",
-              "method": "independent official-source content fetch retry",
-              "outcome": "inconclusive",
-              "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
-            }
+            "method": "Codex web reader open",
+            "notes": "A web-reader open was attempted but timed out or could not fetch this URL. The direct HTTP record remains inconclusive; the URL is not classified as broken."
           }
         },
         {
@@ -75694,9 +76486,9 @@
           },
           "browser_check": {
             "checked_at": "2026-11-11",
-            "method": "independent official-source content fetch retry",
             "outcome": "inconclusive",
-            "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
+            "method": "Codex web reader open",
+            "notes": "A web-reader open was attempted but timed out or could not fetch this URL. The direct HTTP record remains inconclusive; the URL is not classified as broken."
           }
         },
         {
@@ -75736,9 +76528,9 @@
           },
           "browser_check": {
             "checked_at": "2026-11-11",
-            "method": "independent official-source content fetch retry",
             "outcome": "inconclusive",
-            "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
+            "method": "Codex web reader open",
+            "notes": "A web-reader open was attempted but timed out or could not fetch this URL. The direct HTTP record remains inconclusive; the URL is not classified as broken."
           }
         },
         {
@@ -85285,9 +86077,9 @@
           },
           "browser_check": {
             "checked_at": "2026-11-11",
-            "method": "official content search result and direct content fetch retry",
             "outcome": "inconclusive",
-            "note": "Official indexed search content exposed the 2027/28 first call and 15 November 2026 deadline. Direct page content retrieval timed out. The result does not establish that the URL is broken."
+            "method": "Codex web reader open",
+            "notes": "A web-reader open was attempted but timed out or could not fetch this URL. The direct HTTP record remains inconclusive; the URL is not classified as broken."
           }
         },
         {
@@ -101227,12 +102019,12 @@
             "program.historical_course_listing",
             "program.historical_requirements"
           ],
-          "refresh_status": "inconclusive",
+          "refresh_status": "broken",
           "url_check": {
-            "http_status": null,
-            "effective_url": null,
-            "content_type": null,
-            "content_length_header": null,
+            "http_status": 404,
+            "effective_url": "https://corsi.units.it/sites/default/files/dssc_call_2022_0.pdf",
+            "content_type": "text/html; charset=iso-8859-1",
+            "content_length_header": "196",
             "etag": null,
             "last_modified": null,
             "cache_control": null,
@@ -101240,27 +102032,21 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
-            "pdf_signature": null,
+            "observed_title": "404 Not Found",
+            "pdf_signature": false,
             "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
-            "retried": true,
+            "bytes_read": 196,
+            "outcome": "broken",
+            "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET with byte range for PDF sources"
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache",
+            "notes": "Explicit origin response body: HTTP 404 Not Found, requested URL was not found on the server. This is a historical PDF URL and is retained as provenance, not as a current offer."
           },
           "browser_check": {
-            "checked_at": "2026-11-10",
-            "method": "independent primary-source content fetch",
+            "checked_at": "2026-11-11",
             "outcome": "inconclusive",
-            "note": "Content fetch did not access the 2022 PDF; direct HTTPS check also failed TLS validation. Do not classify as broken.",
-            "latest_retry": {
-              "checked_at": "2026-11-11",
-              "method": "independent official-source content fetch retry",
-              "outcome": "inconclusive",
-              "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
-            }
+            "method": "Codex web reader open",
+            "notes": "A web-reader open was attempted but timed out or could not fetch this URL. The direct HTTP record remains inconclusive; the URL is not classified as broken."
           }
         },
         {
@@ -101298,11 +102084,11 @@
             "method": "GET with byte range for PDF sources"
           },
           "browser_check": {
-            "outcome": "accessible",
             "checked_at": "2026-11-11",
-            "method": "Direct official page open with content extraction",
-            "observed_title": "Layout 1 (official 2022/23 course inventory PDF)",
-            "note": "Page content was successfully opened and inspected. The separate automated HTTP URL check remains inconclusive due to TLS validation failure; this browser check is not represented as a successful direct HTTP validation."
+            "outcome": "accessible",
+            "method": "Codex web reader open",
+            "observed_title": "Layout 1 | University of Trieste 2022 study manifesto (PDF)",
+            "notes": "Official page/PDF content was retrieved successfully in the web reader. The separate direct HTTP check remains inconclusive because local TLS validation failed; this is not a statement that the underlying HTTP request succeeded."
           }
         },
         {
@@ -108520,11 +109306,11 @@
         "method": "GET"
       },
       "browser_check": {
-        "outcome": "accessible",
         "checked_at": "2026-11-11",
-        "method": "Direct official page open with content extraction",
+        "outcome": "accessible",
+        "method": "Codex web reader open",
         "observed_title": "FAQ | University of Camerino",
-        "note": "Page content was successfully opened and inspected. The separate automated HTTP URL check remains inconclusive due to TLS validation failure; this browser check is not represented as a successful direct HTTP validation."
+        "notes": "Official page/PDF content was retrieved successfully in the web reader. The separate direct HTTP check remains inconclusive because local TLS validation failed; this is not a statement that the underlying HTTP request succeeded."
       }
     },
     {
@@ -110841,11 +111627,11 @@
         "method": "GET"
       },
       "browser_check": {
-        "outcome": "accessible",
         "checked_at": "2026-11-11",
-        "method": "Direct official page open with content extraction",
+        "outcome": "accessible",
+        "method": "Codex web reader open",
         "observed_title": "Master | University of Camerino",
-        "note": "Page content was successfully opened and inspected. The separate automated HTTP URL check remains inconclusive due to TLS validation failure; this browser check is not represented as a successful direct HTTP validation."
+        "notes": "Official page/PDF content was retrieved successfully in the web reader. The separate direct HTTP check remains inconclusive because local TLS validation failed; this is not a statement that the underlying HTTP request succeeded."
       }
     },
     {
@@ -110921,11 +111707,11 @@
         "method": "GET"
       },
       "browser_check": {
-        "outcome": "accessible",
         "checked_at": "2026-11-11",
-        "method": "Direct official page open with content extraction",
+        "outcome": "accessible",
+        "method": "Codex web reader open",
         "observed_title": "Computer Science | Scuola di Scienze e Tecnologie",
-        "note": "Page content was successfully opened and inspected. The separate automated HTTP URL check remains inconclusive due to TLS validation failure; this browser check is not represented as a successful direct HTTP validation."
+        "notes": "Official page/PDF content was retrieved successfully in the web reader. The separate direct HTTP check remains inconclusive because local TLS validation failed; this is not a statement that the underlying HTTP request succeeded."
       }
     },
     {
@@ -110965,11 +111751,11 @@
         "method": "GET"
       },
       "browser_check": {
-        "outcome": "accessible",
         "checked_at": "2026-11-11",
-        "method": "Direct official page open with content extraction",
-        "observed_title": "Master’s Degree in Chemistry | Sezione di Chimica",
-        "note": "Page content was successfully opened and inspected. The separate automated HTTP URL check remains inconclusive due to TLS validation failure; this browser check is not represented as a successful direct HTTP validation."
+        "outcome": "accessible",
+        "method": "Codex web reader open",
+        "observed_title": "Master's Degree in Chemistry | Sezione di Chimica",
+        "notes": "Official page/PDF content was retrieved successfully in the web reader. The separate direct HTTP check remains inconclusive because local TLS validation failed; this is not a statement that the underlying HTTP request succeeded."
       }
     },
     {
@@ -111009,11 +111795,11 @@
         "method": "GET"
       },
       "browser_check": {
-        "outcome": "accessible",
         "checked_at": "2026-11-11",
-        "method": "Direct official page open with content extraction",
+        "outcome": "accessible",
+        "method": "Codex web reader open",
         "observed_title": "Corso di laurea in Chemistry and Advanced Chemical Methodologies",
-        "note": "Page content was successfully opened and inspected. The separate automated HTTP URL check remains inconclusive due to TLS validation failure; this browser check is not represented as a successful direct HTTP validation."
+        "notes": "Official page/PDF content was retrieved successfully in the web reader. The separate direct HTTP check remains inconclusive because local TLS validation failed; this is not a statement that the underlying HTTP request succeeded."
       }
     },
     {
@@ -111054,11 +111840,11 @@
         "method": "GET"
       },
       "browser_check": {
-        "outcome": "accessible",
         "checked_at": "2026-11-11",
-        "method": "Direct official page open with content extraction",
+        "outcome": "accessible",
+        "method": "Codex web reader open",
         "observed_title": "Mathematics and applications | Scuola di Scienze e Tecnologie",
-        "note": "Page content was successfully opened and inspected. The separate automated HTTP URL check remains inconclusive due to TLS validation failure; this browser check is not represented as a successful direct HTTP validation."
+        "notes": "Official page/PDF content was retrieved successfully in the web reader. The separate direct HTTP check remains inconclusive because local TLS validation failed; this is not a statement that the underlying HTTP request succeeded."
       }
     },
     {
@@ -111098,11 +111884,11 @@
         "method": "GET"
       },
       "browser_check": {
-        "outcome": "accessible",
         "checked_at": "2026-11-11",
-        "method": "Direct official page open with content extraction",
+        "outcome": "accessible",
+        "method": "Codex web reader open",
         "observed_title": "Physics | Scuola di Scienze e Tecnologie",
-        "note": "Page content was successfully opened and inspected. The separate automated HTTP URL check remains inconclusive due to TLS validation failure; this browser check is not represented as a successful direct HTTP validation."
+        "notes": "Official page/PDF content was retrieved successfully in the web reader. The separate direct HTTP check remains inconclusive because local TLS validation failed; this is not a statement that the underlying HTTP request succeeded."
       }
     },
     {
@@ -111142,11 +111928,11 @@
         "method": "GET"
       },
       "browser_check": {
-        "outcome": "accessible",
         "checked_at": "2026-11-11",
-        "method": "Direct official page open with content extraction",
+        "outcome": "accessible",
+        "method": "Codex web reader open",
         "observed_title": "PRE-ADMISSIONS 2026-2027 | University of Camerino",
-        "note": "Page content was successfully opened and inspected. The separate automated HTTP URL check remains inconclusive due to TLS validation failure; this browser check is not represented as a successful direct HTTP validation."
+        "notes": "Official page/PDF content was retrieved successfully in the web reader. The separate direct HTTP check remains inconclusive because local TLS validation failed; this is not a statement that the underlying HTTP request succeeded."
       }
     },
     {
@@ -111185,11 +111971,11 @@
         "method": "GET with byte range for PDF sources"
       },
       "browser_check": {
-        "outcome": "accessible",
         "checked_at": "2026-11-11",
-        "method": "Direct official page open with content extraction",
-        "observed_title": "Pre-admission Procedure a.y. 2025/2026 (document content: 2026/2027)",
-        "note": "Page content was successfully opened and inspected. The separate automated HTTP URL check remains inconclusive due to TLS validation failure; this browser check is not represented as a successful direct HTTP validation."
+        "outcome": "accessible",
+        "method": "Codex web reader open",
+        "observed_title": "Pre-admission Procedure a.y. 2025/2026 (PDF title: A.Y. 2026/2027)",
+        "notes": "Official page/PDF content was retrieved successfully in the web reader. The separate direct HTTP check remains inconclusive because local TLS validation failed; this is not a statement that the underlying HTTP request succeeded."
       }
     },
     {
@@ -111228,16 +112014,10 @@
         "method": "GET"
       },
       "browser_check": {
-        "checked_at": "2026-11-10",
-        "method": "independent primary-source content fetch",
+        "checked_at": "2026-11-11",
         "outcome": "inconclusive",
-        "note": "Content fetch timed out; direct HTTPS check also failed TLS validation. Do not classify as broken.",
-        "latest_retry": {
-          "checked_at": "2026-11-11",
-          "method": "independent official-source content fetch retry",
-          "outcome": "inconclusive",
-          "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
-        }
+        "method": "Codex web reader open",
+        "notes": "A web-reader open was attempted but timed out or could not fetch this URL. The direct HTTP record remains inconclusive; the URL is not classified as broken."
       }
     },
     {
@@ -111276,11 +112056,11 @@
         "method": "GET"
       },
       "browser_check": {
-        "outcome": "accessible",
         "checked_at": "2026-11-11",
-        "method": "Direct official page open with content extraction",
+        "outcome": "accessible",
+        "method": "Codex web reader open",
         "observed_title": "LUMP SUM ENROLLMENT PAYMENT | University of Camerino",
-        "note": "Page content was successfully opened and inspected. The separate automated HTTP URL check remains inconclusive due to TLS validation failure; this browser check is not represented as a successful direct HTTP validation."
+        "notes": "Official page/PDF content was retrieved successfully in the web reader. The separate direct HTTP check remains inconclusive because local TLS validation failed; this is not a statement that the underlying HTTP request succeeded."
       }
     },
     {
@@ -116495,12 +117275,12 @@
         "program.historical_course_listing",
         "program.historical_requirements"
       ],
-      "refresh_status": "inconclusive",
+      "refresh_status": "broken",
       "url_check": {
-        "http_status": null,
-        "effective_url": null,
-        "content_type": null,
-        "content_length_header": null,
+        "http_status": 404,
+        "effective_url": "https://corsi.units.it/sites/default/files/dssc_call_2022_0.pdf",
+        "content_type": "text/html; charset=iso-8859-1",
+        "content_length_header": "196",
         "etag": null,
         "last_modified": null,
         "cache_control": null,
@@ -116508,27 +117288,21 @@
         "x_vercel_cache": null,
         "x_vercel_id": null,
         "location": null,
-        "observed_title": null,
-        "pdf_signature": null,
+        "observed_title": "404 Not Found",
+        "pdf_signature": false,
         "has_2027_marker": null,
-        "bytes_read": 0,
-        "outcome": "inconclusive",
-        "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
-        "retried": true,
+        "bytes_read": 196,
+        "outcome": "broken",
+        "error": null,
         "checked_at": "2026-11-11",
-        "method": "GET with byte range for PDF sources"
+        "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache",
+        "notes": "Explicit origin response body: HTTP 404 Not Found, requested URL was not found on the server. This is a historical PDF URL and is retained as provenance, not as a current offer."
       },
       "browser_check": {
-        "checked_at": "2026-11-10",
-        "method": "independent primary-source content fetch",
+        "checked_at": "2026-11-11",
         "outcome": "inconclusive",
-        "note": "Content fetch did not access the 2022 PDF; direct HTTPS check also failed TLS validation. Do not classify as broken.",
-        "latest_retry": {
-          "checked_at": "2026-11-11",
-          "method": "independent official-source content fetch retry",
-          "outcome": "inconclusive",
-          "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
-        }
+        "method": "Codex web reader open",
+        "notes": "A web-reader open was attempted but timed out or could not fetch this URL. The direct HTTP record remains inconclusive; the URL is not classified as broken."
       }
     },
     {
@@ -116566,11 +117340,11 @@
         "method": "GET with byte range for PDF sources"
       },
       "browser_check": {
-        "outcome": "accessible",
         "checked_at": "2026-11-11",
-        "method": "Direct official page open with content extraction",
-        "observed_title": "Layout 1 (official 2022/23 course inventory PDF)",
-        "note": "Page content was successfully opened and inspected. The separate automated HTTP URL check remains inconclusive due to TLS validation failure; this browser check is not represented as a successful direct HTTP validation."
+        "outcome": "accessible",
+        "method": "Codex web reader open",
+        "observed_title": "Layout 1 | University of Trieste 2022 study manifesto (PDF)",
+        "notes": "Official page/PDF content was retrieved successfully in the web reader. The separate direct HTTP check remains inconclusive because local TLS validation failed; this is not a statement that the underlying HTTP request succeeded."
       }
     },
     {
@@ -120796,9 +121570,9 @@
       },
       "browser_check": {
         "checked_at": "2026-11-11",
-        "method": "official content search result and direct content fetch retry",
         "outcome": "inconclusive",
-        "note": "Official indexed search content exposed the 2027/28 first call and 15 November 2026 deadline. Direct page content retrieval timed out. The result does not establish that the URL is broken."
+        "method": "Codex web reader open",
+        "notes": "A web-reader open was attempted but timed out or could not fetch this URL. The direct HTTP record remains inconclusive; the URL is not classified as broken."
       }
     },
     {
@@ -122412,9 +123186,9 @@
       },
       "browser_check": {
         "checked_at": "2026-11-11",
-        "method": "independent official-source content fetch retry",
         "outcome": "inconclusive",
-        "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
+        "method": "Codex web reader open",
+        "notes": "A web-reader open was attempted but timed out or could not fetch this URL. The direct HTTP record remains inconclusive; the URL is not classified as broken."
       }
     },
     {
@@ -122974,9 +123748,9 @@
       },
       "browser_check": {
         "checked_at": "2026-11-11",
-        "method": "independent official-source content fetch retry",
         "outcome": "inconclusive",
-        "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
+        "method": "Codex web reader open",
+        "notes": "A web-reader open was attempted but timed out or could not fetch this URL. The direct HTTP record remains inconclusive; the URL is not classified as broken."
       }
     },
     {
@@ -123090,9 +123864,9 @@
       },
       "browser_check": {
         "checked_at": "2026-11-11",
-        "method": "independent official-source content fetch retry",
         "outcome": "inconclusive",
-        "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
+        "method": "Codex web reader open",
+        "notes": "A web-reader open was attempted but timed out or could not fetch this URL. The direct HTTP record remains inconclusive; the URL is not classified as broken."
       }
     },
     {
@@ -123132,9 +123906,9 @@
       },
       "browser_check": {
         "checked_at": "2026-11-11",
-        "method": "independent official-source content fetch retry",
         "outcome": "inconclusive",
-        "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
+        "method": "Codex web reader open",
+        "notes": "A web-reader open was attempted but timed out or could not fetch this URL. The direct HTTP record remains inconclusive; the URL is not classified as broken."
       }
     },
     {
@@ -123598,34 +124372,34 @@
         "program.corrected_identity",
         "program.program_type"
       ],
-      "refresh_status": "inconclusive",
+      "refresh_status": "accessible",
       "url_check": {
-        "http_status": null,
-        "effective_url": null,
-        "content_type": null,
+        "http_status": 200,
+        "effective_url": "https://www.dises.unina.it/en_GB/il-dipartimento/presentazione",
+        "content_type": "text/html; charset=UTF-8",
         "content_length_header": null,
-        "etag": null,
+        "etag": "\"8f8c5699\"",
         "last_modified": null,
         "cache_control": null,
         "age": null,
         "x_vercel_cache": null,
         "x_vercel_id": null,
         "location": null,
-        "observed_title": null,
+        "observed_title": "About us | Department of Economics and Statistics",
         "pdf_signature": null,
-        "has_2027_marker": null,
-        "bytes_read": 0,
-        "outcome": "inconclusive",
-        "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
-        "retried": true,
+        "has_2027_marker": false,
+        "bytes_read": 47855,
+        "outcome": "accessible",
+        "error": null,
         "checked_at": "2026-11-11",
-        "method": "GET"
+        "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache",
+        "notes": "Direct GET succeeded through the Windows HTTP client after the Python TLS verifier rejected the certificate chain."
       },
       "browser_check": {
         "checked_at": "2026-11-11",
-        "method": "independent official-source content fetch retry",
         "outcome": "inconclusive",
-        "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
+        "method": "Codex web reader open",
+        "notes": "A web-reader open was attempted but timed out or could not fetch this URL. The direct HTTP record remains inconclusive; the URL is not classified as broken."
       }
     },
     {
@@ -123716,7 +124490,7 @@
         "program.previous_cycle_course_listing",
         "program.program_type"
       ],
-      "refresh_status": "accessible",
+      "refresh_status": "inconclusive",
       "url_check": {
         "http_status": null,
         "effective_url": null,
@@ -123740,11 +124514,10 @@
         "method": "GET"
       },
       "browser_check": {
-        "outcome": "accessible",
         "checked_at": "2026-11-11",
-        "method": "Direct official page open with content extraction",
-        "observed_title": "Education – Quantum Science and Technologies @Naples",
-        "note": "Page content was successfully opened and inspected. The separate automated HTTP URL check remains inconclusive due to TLS validation failure; this browser check is not represented as a successful direct HTTP validation."
+        "outcome": "inconclusive",
+        "method": "Codex web reader open",
+        "notes": "A web-reader open was attempted but timed out or could not fetch this URL. The direct HTTP record remains inconclusive; the URL is not classified as broken."
       }
     },
     {
@@ -123824,9 +124597,9 @@
       },
       "browser_check": {
         "checked_at": "2026-11-11",
-        "method": "independent official-source content fetch retry",
         "outcome": "inconclusive",
-        "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
+        "method": "Codex web reader open",
+        "notes": "A web-reader open was attempted but timed out or could not fetch this URL. The direct HTTP record remains inconclusive; the URL is not classified as broken."
       }
     },
     {
@@ -123943,9 +124716,9 @@
       },
       "browser_check": {
         "checked_at": "2026-11-11",
-        "method": "independent official-source content fetch retry",
         "outcome": "inconclusive",
-        "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
+        "method": "Codex web reader open",
+        "notes": "A web-reader open was attempted but timed out or could not fetch this URL. The direct HTTP record remains inconclusive; the URL is not classified as broken."
       }
     },
     {
@@ -125443,6 +126216,158 @@
         "method": "GET"
       },
       "browser_check": null
+    },
+    {
+      "id": "SRC-BBS-DSBA-2027",
+      "title": "Data Science and Business Analytics – 2027/28 BBS Professional Master",
+      "url": "https://www.bbs.unibo.it/en/master-fulltime/master-in-data-science-2/",
+      "source_type": "Official Bologna Business School programme and admissions page",
+      "cycle": "2027-2028",
+      "accessed_at": "2026-11-11",
+      "evidence": "The BBS programme page explicitly advertises 2027/28 applications opening soon, four selection rounds between March and September 2027, and an October 2027 start. It identifies the course as a one-year, full-time, English-language, 60-ECTS Professional Master delivered at the Bologna BBS campus in collaboration with the University of Bologna Department of Computer Science and Engineering (DISI). The detailed annual call is pending. The page currently displays a €14,800 tuition fee, partial awards of €4,000 and €6,000, B2 English, a first-cycle degree, tests and interview, and a €60 selection fee; these are not labelled as 2027/28 terms and are retained only as current displayed information pending the annual call.",
+      "supports": [
+        "program.name",
+        "program.level",
+        "program.language",
+        "program.location",
+        "program.duration",
+        "program.credits",
+        "program.program_type",
+        "program.availability_2027_2028",
+        "program.selection_period_2027_2028",
+        "program.current_published_fees",
+        "program.current_published_requirements"
+      ],
+      "refresh_status": "accessible",
+      "url_check": {
+        "http_status": 200,
+        "effective_url": "https://www.bbs.unibo.it/en/master-fulltime/master-in-data-science-2/",
+        "content_type": "text/html; charset=UTF-8",
+        "content_length_header": null,
+        "etag": null,
+        "last_modified": null,
+        "cache_control": null,
+        "age": null,
+        "x_vercel_cache": null,
+        "x_vercel_id": null,
+        "location": null,
+        "observed_title": "Master Data Science and Business Analytics (Full Time) | BBS Italy",
+        "pdf_signature": null,
+        "has_2027_marker": true,
+        "bytes_read": 189124,
+        "outcome": "accessible",
+        "error": null,
+        "checked_at": "2026-11-11",
+        "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
+      },
+      "browser_check": {
+        "outcome": "accessible",
+        "checked_at": "2026-11-11",
+        "method": "Codex web reader open",
+        "observed_title": "Master Data Science and Business Analytics (Full Time) | BBS Italy",
+        "notes": "Official programme page retrieved and examined for 2027/28 availability and current programme terms."
+      }
+    },
+    {
+      "id": "SRC-BBS-AI-MANAGEMENT-2027",
+      "title": "Artificial Intelligence for Management – 2027/28 BBS Professional Master",
+      "url": "https://www.bbs.unibo.it/en/master-fulltime/artificial-intelligence-2/",
+      "source_type": "Official Bologna Business School programme and admissions page",
+      "cycle": "2027-2028",
+      "accessed_at": "2026-11-11",
+      "evidence": "The BBS programme page explicitly advertises 2027/28 applications opening soon, four selection rounds between March and September 2027, and an October 2027 start. It identifies the course as a one-year, full-time, English-language Professional Master delivered in Bologna in collaboration with the University of Bologna Department of Computer Science and Engineering (DISI). The detailed annual call is pending. The page currently displays a €14,800 tuition fee, partial awards of €4,000 and €6,000, B2 English, a first-cycle degree, tests and interview, and a €60 selection fee; these are not labelled as 2027/28 terms and are retained only as current displayed information pending the annual call.",
+      "supports": [
+        "program.name",
+        "program.level",
+        "program.language",
+        "program.location",
+        "program.duration",
+        "program.program_type",
+        "program.availability_2027_2028",
+        "program.selection_period_2027_2028",
+        "program.current_published_fees",
+        "program.current_published_requirements"
+      ],
+      "refresh_status": "accessible",
+      "url_check": {
+        "http_status": 200,
+        "effective_url": "https://www.bbs.unibo.it/en/master-fulltime/artificial-intelligence-2/",
+        "content_type": "text/html; charset=UTF-8",
+        "content_length_header": null,
+        "etag": null,
+        "last_modified": null,
+        "cache_control": null,
+        "age": null,
+        "x_vercel_cache": null,
+        "x_vercel_id": null,
+        "location": null,
+        "observed_title": "Master Artificial Intelligence for Management | BBS Italy",
+        "pdf_signature": null,
+        "has_2027_marker": true,
+        "bytes_read": 183598,
+        "outcome": "accessible",
+        "error": null,
+        "checked_at": "2026-11-11",
+        "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
+      },
+      "browser_check": {
+        "outcome": "accessible",
+        "checked_at": "2026-11-11",
+        "method": "Codex web reader open",
+        "observed_title": "Master Artificial Intelligence for Management | BBS Italy",
+        "notes": "Official programme page retrieved and examined for 2027/28 availability and current programme terms."
+      }
+    },
+    {
+      "id": "SRC-BBS-ENTREPRENEURIAL-FINANCE-2027",
+      "title": "Finance – Entrepreneurial Finance – 2027/28 BBS Professional Master",
+      "url": "https://www.bbs.unibo.it/en/master-fulltime/entrepreneurial-finance/",
+      "source_type": "Official Bologna Business School programme and admissions page",
+      "cycle": "2027-2028",
+      "accessed_at": "2026-11-11",
+      "evidence": "The BBS programme page explicitly advertises 2027/28 applications opening soon, four selection rounds between March and September 2027, and an October 2027 start. It identifies the course as a one-year, full-time, English-language, 60-ECTS Professional Master delivered in Bologna in collaboration with the University of Bologna Department of Management (DISA). The detailed annual call is pending. The page currently displays a €14,800 tuition fee, partial awards of €4,000 and €6,000, B2 English, a first-cycle degree, tests and interview, and a €60 selection fee; these are not labelled as 2027/28 terms and are retained only as current displayed information pending the annual call.",
+      "supports": [
+        "program.name",
+        "program.level",
+        "program.language",
+        "program.location",
+        "program.duration",
+        "program.credits",
+        "program.program_type",
+        "program.availability_2027_2028",
+        "program.selection_period_2027_2028",
+        "program.current_published_fees",
+        "program.current_published_requirements"
+      ],
+      "refresh_status": "accessible",
+      "url_check": {
+        "http_status": 200,
+        "effective_url": "https://www.bbs.unibo.it/en/master-fulltime/entrepreneurial-finance/",
+        "content_type": "text/html; charset=UTF-8",
+        "content_length_header": null,
+        "etag": null,
+        "last_modified": null,
+        "cache_control": null,
+        "age": null,
+        "x_vercel_cache": null,
+        "x_vercel_id": null,
+        "location": null,
+        "observed_title": "Master Full Time | BBS",
+        "pdf_signature": null,
+        "has_2027_marker": true,
+        "bytes_read": 171618,
+        "outcome": "accessible",
+        "error": null,
+        "checked_at": "2026-11-11",
+        "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
+      },
+      "browser_check": {
+        "outcome": "accessible",
+        "checked_at": "2026-11-11",
+        "method": "Codex web reader open",
+        "observed_title": "Master Full Time | BBS",
+        "notes": "Official programme page retrieved and examined for 2027/28 availability and current programme terms."
+      }
     }
   ],
   "previously_inconclusive_url_checks": [
@@ -125452,15 +126377,7 @@
       "direct_http_outcome": "inconclusive",
       "browser_outcome": "inconclusive",
       "direct_http_error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1007)",
-      "note": "Content fetch timed out; direct HTTPS check also failed TLS validation. Do not classify as broken."
-    },
-    {
-      "source_id": "SRC-TRIESTE-DSSC-CALL-2022",
-      "url": "https://corsi.units.it/sites/default/files/dssc_call_2022_0.pdf",
-      "direct_http_outcome": "inconclusive",
-      "browser_outcome": "inconclusive",
-      "direct_http_error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
-      "note": "Content fetch did not access the 2022 PDF; direct HTTPS check also failed TLS validation. Do not classify as broken."
+      "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
     },
     {
       "source_id": "SRC-PADUA-ASTROPHYSICS-2027-CALL",
@@ -125468,7 +126385,7 @@
       "direct_http_outcome": "inconclusive",
       "browser_outcome": "inconclusive",
       "direct_http_error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
-      "note": "Official indexed search content exposed the 2027/28 first call and 15 November 2026 deadline. Direct page content retrieval timed out. The result does not establish that the URL is broken."
+      "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
     },
     {
       "source_id": "SRC-PADOVA-COMPUTER-SCIENCE-2026",
@@ -125476,7 +126393,7 @@
       "direct_http_outcome": "inconclusive",
       "browser_outcome": "inconclusive",
       "direct_http_error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
-      "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
+      "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
     },
     {
       "source_id": "SRC-PADOVA-PSYCHOLOGY-MSC-FULL-2026",
@@ -125484,7 +126401,7 @@
       "direct_http_outcome": "inconclusive",
       "browser_outcome": "inconclusive",
       "direct_http_error": null,
-      "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
+      "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
     },
     {
       "source_id": "SRC-PADOVA-MOLECULAR-BIOLOGY-BSC-ADMISSION-2026",
@@ -125492,7 +126409,7 @@
       "direct_http_outcome": "inconclusive",
       "browser_outcome": "inconclusive",
       "direct_http_error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
-      "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
+      "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
     },
     {
       "source_id": "SRC-PADOVA-SCIENCE-MSC-2026",
@@ -125500,15 +126417,15 @@
       "direct_http_outcome": "inconclusive",
       "browser_outcome": "inconclusive",
       "direct_http_error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
-      "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
+      "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
     },
     {
-      "source_id": "SRC-UNINA-ECONOMICS-FINANCE-DEPT-2026",
-      "url": "https://www.dises.unina.it/en_GB/il-dipartimento/presentazione",
+      "source_id": "SRC-UNINA-QUANTUM-PROFILE-2025",
+      "url": "https://www.qst.unina.it/index.php/education/",
       "direct_http_outcome": "inconclusive",
       "browser_outcome": "inconclusive",
-      "direct_http_error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
-      "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
+      "direct_http_error": "TimeoutError: timed out",
+      "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
     },
     {
       "source_id": "SRC-UNINA-ARCH-HERITAGE-REG-2024",
@@ -125516,7 +126433,7 @@
       "direct_http_outcome": "inconclusive",
       "browser_outcome": "inconclusive",
       "direct_http_error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
-      "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
+      "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
     },
     {
       "source_id": "SRC-UNINA-CIVIL-ENV-BSC-2026",
@@ -125524,7 +126441,7 @@
       "direct_http_outcome": "inconclusive",
       "browser_outcome": "inconclusive",
       "direct_http_error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1007)",
-      "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
+      "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
     }
   ],
   "review_log": []

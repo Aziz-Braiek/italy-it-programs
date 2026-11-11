@@ -1531,6 +1531,8 @@ def build():
             research_final_refresh.BATCH5,
             research_final_refresh.BATCH6,
             research_final_refresh.BATCH7,
+            research_final_refresh.BATCH8,
+            research_final_refresh.BATCH9,
         ],
         "counts": coverage,
     }

@@ -1058,6 +1058,39 @@ SOURCES = [
         "evidence": "The official Department profile identifies Computer Engineering as an English-taught Master's degree in the LM-32 class, based in Pisa, with open access subject to skills assessment. It lists Cloud/Network Infrastructure and Services, Cyber-Physical Systems, and Cybersecurity study tracks. The linked 2027/28 foreign-qualification call separately establishes the current intake and applicant-category deadlines.",
         "supports": ["program.name", "program.level", "program.language", "program.location", "program.degree_class", "program.tracks", "program.access"],
     },
+    {
+        "id": "SRC-BBS-DSBA-2027",
+        "university_id": "bologna",
+        "title": "Data Science and Business Analytics – 2027/28 BBS Professional Master",
+        "url": "https://www.bbs.unibo.it/en/master-fulltime/master-in-data-science-2/",
+        "source_type": "Official Bologna Business School programme and admissions page",
+        "accessed_at": "2026-11-11",
+        "cycle": "2027-2028",
+        "evidence": "The BBS programme page explicitly advertises 2027/28 applications opening soon, four selection rounds between March and September 2027, and an October 2027 start. It identifies the course as a one-year, full-time, English-language, 60-ECTS Professional Master delivered at the Bologna BBS campus in collaboration with the University of Bologna Department of Computer Science and Engineering (DISI). The detailed annual call is pending. The page currently displays a €14,800 tuition fee, partial awards of €4,000 and €6,000, B2 English, a first-cycle degree, tests and interview, and a €60 selection fee; these are not labelled as 2027/28 terms and are retained only as current displayed information pending the annual call.",
+        "supports": ["program.name", "program.level", "program.language", "program.location", "program.duration", "program.credits", "program.program_type", "program.availability_2027_2028", "program.selection_period_2027_2028", "program.current_published_fees", "program.current_published_requirements"],
+    },
+    {
+        "id": "SRC-BBS-AI-MANAGEMENT-2027",
+        "university_id": "bologna",
+        "title": "Artificial Intelligence for Management – 2027/28 BBS Professional Master",
+        "url": "https://www.bbs.unibo.it/en/master-fulltime/artificial-intelligence-2/",
+        "source_type": "Official Bologna Business School programme and admissions page",
+        "accessed_at": "2026-11-11",
+        "cycle": "2027-2028",
+        "evidence": "The BBS programme page explicitly advertises 2027/28 applications opening soon, four selection rounds between March and September 2027, and an October 2027 start. It identifies the course as a one-year, full-time, English-language Professional Master delivered in Bologna in collaboration with the University of Bologna Department of Computer Science and Engineering (DISI). The detailed annual call is pending. The page currently displays a €14,800 tuition fee, partial awards of €4,000 and €6,000, B2 English, a first-cycle degree, tests and interview, and a €60 selection fee; these are not labelled as 2027/28 terms and are retained only as current displayed information pending the annual call.",
+        "supports": ["program.name", "program.level", "program.language", "program.location", "program.duration", "program.program_type", "program.availability_2027_2028", "program.selection_period_2027_2028", "program.current_published_fees", "program.current_published_requirements"],
+    },
+    {
+        "id": "SRC-BBS-ENTREPRENEURIAL-FINANCE-2027",
+        "university_id": "bologna",
+        "title": "Finance – Entrepreneurial Finance – 2027/28 BBS Professional Master",
+        "url": "https://www.bbs.unibo.it/en/master-fulltime/entrepreneurial-finance/",
+        "source_type": "Official Bologna Business School programme and admissions page",
+        "accessed_at": "2026-11-11",
+        "cycle": "2027-2028",
+        "evidence": "The BBS programme page explicitly advertises 2027/28 applications opening soon, four selection rounds between March and September 2027, and an October 2027 start. It identifies the course as a one-year, full-time, English-language, 60-ECTS Professional Master delivered in Bologna in collaboration with the University of Bologna Department of Management (DISA). The detailed annual call is pending. The page currently displays a €14,800 tuition fee, partial awards of €4,000 and €6,000, B2 English, a first-cycle degree, tests and interview, and a €60 selection fee; these are not labelled as 2027/28 terms and are retained only as current displayed information pending the annual call.",
+        "supports": ["program.name", "program.level", "program.language", "program.location", "program.duration", "program.credits", "program.program_type", "program.availability_2027_2028", "program.selection_period_2027_2028", "program.current_published_fees", "program.current_published_requirements"],
+    },
 ]
 
 BATCH = {
@@ -1100,6 +1133,18 @@ BATCH7 = {
     "id": "pisa-information-engineering-2027-28-intake-and-degree-discovery",
     "status": "partial",
     "result": "Rechecked the University of Pisa Department of Information Engineering's live foreign-qualification call. The 2027/28 call names two English-taught MScs—Computer Engineering and Artificial Intelligence and Data Engineering—so added Computer Engineering as discovered-039 and promoted the existing Artificial Intelligence and Data Engineering row from pending to confirmed for applicants with foreign degrees. Both have a 1 February 2027, 23:59 GMT deadline, tentative 12 March results, €30/application (up to two) and the applymscenglish.unipi.it route. Recorded the common three-year degree, subject preparation, mathematics, B2 English, required documents and competitive review process, with visa-specific English-certificate conditions. The current Computer Engineering and AIDE profiles preserve their separate language and track details. The call says the 2027/28 tuition schedule is expected around June 2027; MAECI and Invest Your Talent calls for 2027/28 are not yet announced, and scholarship eligibility/award terms still need verification. The older tracker Computer Science row is separate and remains correctly named: Pisa's CS Department call explicitly names that degree independently. Production and preview remain untouched while the full research audit continues.",
+}
+
+BATCH8 = {
+    "id": "source-audit-alternate-http-recheck-trieste-and-naples",
+    "status": "partial",
+    "result": "Used an independent Windows PowerShell HTTP client with GET and Cache-Control: no-cache on sources that the Python verifier had left inconclusive. The historical Trieste 2022 DSSC call PDF returned an explicit HTTP 404 Not Found (text/html, 196 bytes); this individual URL is now marked broken, while the other historical programme and discontinuation evidence remains linked. A University of Naples Federico II Department of Economics and Statistics page returned HTTP 200 (47,855 bytes, title 'About us | Department of Economics and Statistics'), so its direct reachability is confirmed despite the local Python TLS-chain failure. The Camerino fee portal still failed TLS validation and remains inconclusive; Padua Psychology's course-list page returned HTTP 500 and remains inconclusive, not broken. The alternate client does not resolve remaining TLS, timeout or server-error cases. The review manifest now prioritizes explicit direct HTTP outcomes over an unsuccessful content-reader attempt when assigning each source's refresh_status. No cache purges, site changes, previews or deployments were made.",
+}
+
+BATCH9 = {
+    "id": "bbs-professional-masters-2027-28-announcements",
+    "status": "partial",
+    "result": "Reviewed Bologna Business School's official English full-time catalogue and individual programme pages. Added discovered-040 Data Science and Business Analytics, discovered-041 Artificial Intelligence for Management, and discovered-042 Finance – Entrepreneurial Finance because each programme page explicitly advertises AY 2027/28 entry, four selection rounds from March through September 2027, and an October 2027 start. Recorded each as a Professional Master (First Level), not a Laurea Magistrale; the pages identify English, full-time, 12-month delivery, and collaboration with the University of Bologna. Exact application dates and the annual call are not yet published. The displayed €14,800 tuition, €60 selection fee, B2/degree/test requirements and partial scholarship schemes are recorded only as currently published, non-cycle-labelled information; 2027/28 fee, selection terms, detailed entry requirements and scholarship terms remain pending confirmation. Fresh direct PowerShell GET requests with Cache-Control: no-cache returned HTTP 200 for all three programme pages (189,124, 183,598 and 171,618 response bytes respectively).",
 }
 
 
@@ -1994,3 +2039,63 @@ def apply(
     computer_engineering["last_checked"] = "2026-11-11"
     computer_engineering["previous_cycle_tags"] = None
     programs.append(computer_engineering)
+
+    bbs_programs = [
+        ("discovered-040", "Data Science and Business Analytics", "Data Science and Business Analytics", "SRC-BBS-DSBA-2027", "Department of Computer Science and Engineering (DISI)", 1500),
+        ("discovered-041", "Artificial Intelligence for Management", "Artificial Intelligence for Business Management", "SRC-BBS-AI-MANAGEMENT-2027", "Department of Computer Science and Engineering (DISI)", None),
+        ("discovered-042", "Finance – Entrepreneurial Finance", "Entrepreneurial Finance and FinTech", "SRC-BBS-ENTREPRENEURIAL-FINANCE-2027", "Department of Management (DISA)", 1500),
+    ]
+    for pid, title, field_name, source_id, department, learning_hours in bbs_programs:
+        sources = [source_id]
+        program = make_program(
+            pid, "bologna", title, "Professional Master's (First Level)", "English", field_name,
+            "CONFIRMED", sources, city="Bologna", discovery="newly_discovered",
+        )
+        program["availability_2027_2028"] = fact(
+            True, "CONFIRMED", sources,
+            "BBS explicitly advertises this programme for 2027/28 with an October 2027 start. This confirms the named intake, not the detailed annual admission call or its eventual terms.",
+        )
+        program["facts"] = {
+            "official_course_listing_2027_2028": fact(
+                {"academic_year":"2027/28", "official_name":title, "programme_type":"First-level Professional Master", "duration_months":12, "credits_ects":60, "language":"English", "format":"Full-time", "campus":"Bologna Business School, Bologna", "collaborating_department":department, **({"learning_hours":learning_hours} if learning_hours else {})},
+                "CONFIRMED", sources,
+                "The official BBS page states the course type, duration, English language, full-time format, and 2027/28 start. BBS describes the programme as a first-level Professional Master, not a Laurea Magistrale.",
+            ),
+            "program_type": fact("First-level Professional Master offered by Bologna Business School in collaboration with the University of Bologna", "CONFIRMED", sources),
+            "selection_period_2027_2028": fact(
+                {"applications":"Opening soon", "selection_rounds":4, "period_start":"2027-03", "period_end":"2027-09", "start_date":"2027-10", "detailed_call":"Not yet published"},
+                "CONFIRMED", sources,
+                "BBS publishes the month range and number of selection rounds for 2027/28, but has not yet published the specific application opening dates, round deadlines, or annual call.",
+            ),
+            "application_windows": fact(None, "NOT_YET_PUBLISHED", sources, "The 2027/28 selection is announced for four rounds between March and September 2027, but exact application opening dates and deadlines are not yet published."),
+            "application_deadline": fact(None, "NOT_YET_PUBLISHED", sources, "Exact 2027/28 round deadlines will be published in the forthcoming BBS Call for Applications."),
+            "current_published_application_terms": fact(
+                {"application_route":"University of Bologna Studenti Online; First Level Master", "selection_fee_eur":60, "current_page_status":"Displayed on the programme page but not labelled for AY 2027/28"},
+                "CONFIRMED", sources,
+                "Current displayed application instructions and fee may be replaced by the forthcoming 2027/28 call; do not treat the €60 amount or these instructions as confirmed cycle terms.",
+            ),
+            "application_fee_2027_2028": fact(None, "NOT_YET_PUBLISHED", sources, "The programme page displays a €60 selection fee but does not identify it as the 2027/28 fee. Confirm the amount in the annual call."),
+            "current_published_requirements": fact(
+                {"qualifying_degree":"First-cycle Bachelor's degree by the enrollment deadline of the selected round", "english":"Minimum B2", "selection":["Online aptitude test", "English-language test", "Motivational interview in English"], "cycle_label":"Not stated; current displayed requirements"},
+                "CONFIRMED", sources,
+                "These are the requirements currently shown on the BBS page; the page says the 2027/28 call and application instructions are forthcoming, so the new-cycle terms require confirmation.",
+            ),
+            "program_specific_requirements_2027_2028": fact(None, "REQUIRES_VERIFICATION", sources, "The annual call is pending. The current page shows a bachelor's degree, B2 English and selection tests/interview but does not label these detailed rules for 2027/28."),
+            "tuition_currently_displayed": fact(
+                {"amount_eur":14800, "vat_free":True, "cycle_label":"Not stated; current displayed tuition"},
+                "CONFIRMED", sources,
+                "The programme page displays €14,800 but does not state that this is the 2027/28 tuition. Check the annual call before presenting it as the new-cycle amount.",
+            ),
+            "tuition_2027_2028": fact(None, "REQUIRES_VERIFICATION", sources, "The current programme page displays €14,800 without a 2027/28 cycle label; the annual call and applicable fee remain pending."),
+            "scholarships_currently_displayed": fact(
+                {"partial_awards_per_round_eur":[4000,6000], "full_scholarships":"Not available per current page", "university_dsu_ergo":"Not eligible per current page", "inps":"Separate call publication date not yet set", "cycle_label":"Not stated for 2027/28"},
+                "CONFIRMED", sources,
+                "These are currently displayed general BBS Professional Master funding terms; 2027/28 eligibility, amounts, availability and deadlines require confirmation in the annual call.",
+            ),
+            "scholarships_2027_2028": fact(None, "REQUIRES_VERIFICATION", sources, "The page displays current general partial-award schemes but does not confirm 2027/28 scholarship amounts or terms."),
+            "acceptance_rate": fact(None, "UNAVAILABLE", sources, "No applicant and admission counts are published; no acceptance rate is inferred."),
+        }
+        program["source_ids"] = sources
+        program["last_checked"] = "2026-11-11"
+        program["previous_cycle_tags"] = None
+        programs.append(program)
