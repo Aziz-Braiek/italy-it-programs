@@ -277,9 +277,25 @@ SOURCES = [
         "id": "SRC-UNIBO-MED-IT-PROFILE-2026",
         "university_id": "bologna", "title": "Medicina e chirurgia – Italian-taught single-cycle course profile",
         "url": "https://corsi.unibo.it/magistralecu/MedicinaChirurgia",
-        "source_type": "Official degree programme profile", "accessed_at": "2026-11-10", "cycle": "2026-2027",
-        "evidence": "Lists the Italian-language Bologna single-cycle degree in Medicine and Surgery, class LM-41 R, with nationally restricted admission.",
+        "source_type": "Official degree programme profile", "accessed_at": "2026-11-11", "cycle": "2026-2027",
+        "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026. The profile identifies Medicine and Surgery as an Italian-taught, six-year Bologna LM-41 national-access single-cycle degree; the 2026/27 catalogue entry lists course code 6733 and 435 places.",
         "supports": ["program.name", "program.level", "program.language", "program.location", "program.access"],
+    },
+    {
+        "id": "SRC-UNIBO-MED-IT-CATALOGUE-2026",
+        "university_id": "bologna", "title": "Medicina e chirurgia – 2026/27 University catalogue entry (code 6733)",
+        "url": "https://www.unibo.it/it/studiare/lauree-e-lauree-magistrali-a-ciclo-unico/corso/2026/6733",
+        "source_type": "Official University of Bologna course catalogue", "accessed_at": "2026-11-11", "cycle": "2026-2027",
+        "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026. The 2026/27 catalogue identifies course 6733 as a six-year Bologna-campus Italian LM-41 R degree with national restricted access and 435 places.",
+        "supports": ["program.previous_cycle_course_listing", "program.previous_cycle_available_places"],
+    },
+    {
+        "id": "SRC-UNIBO-MED-IT-OPEN-SEMESTER-2026",
+        "university_id": "bologna", "title": "University of Bologna – 2026/27 open-semester registration, fees and exam guidance",
+        "url": "https://www.unibo.it/it/studiare/iscrizioni-tasse-e-altre-procedure/iscrizioni-al-semestre-aperto",
+        "source_type": "Official University of Bologna open-semester guidance", "accessed_at": "2026-11-11", "cycle": "2026-2027",
+        "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026. The 2026/27 page expressly scopes the open-semester route to Italian-language Medicine, Dentistry and Veterinary Medicine; it specifies Universitaly registration by 3 August 2026, Bologna Student Online registration by 6 August, the €250 flat contribution and the two national exam dates. It does not establish the 2027/28 procedure.",
+        "supports": ["program.previous_cycle_application_windows", "program.previous_cycle_application_route", "program.previous_cycle_application_fee", "program.previous_cycle_admissions_route_scope"],
     },
     {
         "id": "SRC-UNIBO-BBS-AI-MFG-2027",
@@ -317,9 +333,25 @@ SOURCES = [
         "id": "SRC-UNIBO-MED-IT-ENROL-2026",
         "university_id": "bologna", "title": "Medicina e chirurgia – Italian course admission procedure",
         "url": "https://corsi.unibo.it/magistralecu/MedicinaChirurgia/iscriversi-al-corso",
-        "source_type": "Official programme admission page", "accessed_at": "2026-11-10", "cycle": "2026-2027",
-        "evidence": "Describes the Italian course's 2026/27 access via open semester and national ranking; this is cycle-specific and is not carried into 2027/28.",
-        "supports": ["program.previous_cycle_admission", "program.previous_cycle_application_route"],
+        "source_type": "Official programme admission page", "accessed_at": "2026-11-11", "cycle": "general",
+        "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026. The current page describes the Italian course's 2026/27 open-semester route, admission qualification, language-related international steps, exam timing and national ranking; no new 2027/28 incoming-student call is posted.",
+        "supports": ["program.previous_cycle_admission", "program.previous_cycle_application_route", "program.cycle_marker_scope"],
+    },
+    {
+        "id": "SRC-UNIBO-MED-IT-CALL-2026",
+        "university_id": "bologna", "title": "Medicina e chirurgia – 2026/27 post-semester admission call (Bologna campus)",
+        "url": "https://corsi.unibo.it/s/3317/p/it/iscriversi-al-corso-requisiti-tempi-e-modalita/bando-medicina-odontoiatria-veterinaria-2026-2027.pdf/@@download/file/Bando%20medicina%2C%20odontoiatria%2C%20veterinaria%202026-2027.pdf",
+        "source_type": "Official University of Bologna post-semester admissions call PDF", "accessed_at": "2026-11-11", "cycle": "2026-2027",
+        "evidence": "Fresh no-cache GET returned HTTP 200 with a valid PDF signature on 11 November 2026. The 2026/27 call covers Medicine in Bologna, Forlì and Ravenna after the open semester. For Bologna it lists 425 Italian/EU/equivalent seats plus 10 non-EU-resident-abroad seats, specifies qualifying secondary credentials and B2 English, gives the December 2026 and January 2027 exams and 22 January ranking, and describes the national ranking and enrolment/credit-recovery procedures. These are historical cohort terms, not a 2027/28 call.",
+        "supports": ["program.previous_cycle_course_listing", "program.previous_cycle_available_places", "program.previous_cycle_admission_requirements", "program.previous_cycle_application_windows", "program.previous_cycle_test_scoring", "program.previous_cycle_tuition"],
+    },
+    {
+        "id": "SRC-MUR-ITALIAN-MED-OPEN-SEMESTER",
+        "university_id": "bologna", "title": "MUR – national access rules for Italian-language Medicine",
+        "url": "https://www.mur.gov.it/it/aree-tematiche/universita/lofferta-formativa-titoli-rilasciati/accesso-programmato-cose",
+        "source_type": "Official Ministry of University and Research policy page", "accessed_at": "2026-11-11", "cycle": "general",
+        "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026. MUR says the Italian-language LM-41, LM-46 and LM-42 courses have used the open-semester model from AY 2025/26, with free first-semester access followed by standardized exams and a national ranking; seats are determined annually. This national overview does not confirm a Bologna 2027/28 course intake or its terms.",
+        "supports": ["program.previous_cycle_admissions_route_scope", "program.cycle_marker_scope"],
     },
     {
         "id": "SRC-UNIBO-LAW-2026",
@@ -1377,6 +1409,12 @@ BATCH21 = {
     "result": "Rechecked Bologna's English-taught Medicine and Surgery degree through its 2026/27 profile/catalogue, live enrolment page, official Italian IMAT call, English call summary, certificate annex, MUR decree, open-semester guidance and tuition sources. The cycle-specific entry confirms course code 6264, six-year single-cycle LM-41, Bologna, English delivery and 160 places; the call divides those places into 140 for Italian/EU/equivalent applicants and 20 for non-EU applicants resident abroad. Registration ran 26 August–9 September 2026, the IMAT was on 29 September, and national rankings/enrolment began 26 October. The test had 60 questions in 100 minutes, +1.5/−0.4/0 scoring, a 20-point threshold for the national EU/equivalent quota, and a >0 threshold for the local abroad-resident quota. The call names a qualifying secondary-school credential, optional listed English certificates (B2-level examples; English-medium schooling for at least one year is accepted), and no separate GPA threshold. It requires a test-payment contribution but gives no amount in the reviewed call, so the prior-cycle amount is unavailable. The 2026/27 maximum course contribution is €3,315 plus the €157.04 fixed fee; regional tax, stamp duty and insurance are excluded from that maximum. The current page links only expired 2026/27 material. The open-semester route is scoped to Italian-taught Medicine, while this English degree's prior-cycle call uses IMAT. No 2027/28 English intake or admissions rules are published as of 11 November 2026; availability, test dates, capacity, application fee, tuition and scholarship terms remain pending. Fresh no-cache GETs returned HTTP 200 for all eleven official sources reviewed; all PDF signatures were valid.",
 }
 
+BATCH22 = {
+    "id": "unibo-italian-medicine-2026-27-open-semester-review",
+    "status": "partial",
+    "result": "Updated the Italian-taught Bologna Medicine and Surgery record from the 2026/27 course catalogue, current course admissions page, University open-semester guidance, the newly published 2026/27 course-specific post-semester call and MUR policy page. Confirmed course code 6733, six-year LM-41 R, Bologna, Italian and 435 catalogue places; the current detailed call divides these into 425 Italian/EU/equivalent and 10 non-EU-resident-abroad seats. Historical 2026/27 entry used Universitaly by 3 August and Bologna Student Online by 6 August, a €250 open-semester contribution, three 6-ECTS foundation subjects, 51% attendance, exams on 10 December 2026 and 11 January 2027, and a national ranking published 22 January 2027. Recorded secondary-credential and English B2 conditions, with no separate GPA minimum stated in the reviewed call. The general 2026/27 tuition table provides a €2,244 standard single-cycle maximum-contribution reference; the call says the contribution is ISEE-progressive and offsets the open-semester payment except for the €157.04 first instalment, so no total cost was inferred. The detailed call is specifically a post-semester process for the 2026/27 cohort, not a new 2027/28 intake call. No 2027/28 course intake, deadlines, fee or scholarship terms are published in the sources reviewed. Fresh no-cache GETs returned HTTP 200 for six official pages/PDFs; the admission PDF signature was valid.",
+}
+
 SOURCE_RECHECKS = {
     "SRC-UNIBO-AI-PROFILE-2026": {
         "accessed_at": "2026-11-11",
@@ -1984,6 +2022,86 @@ SOURCE_RECHECKS.update({
     },
 })
 
+SOURCE_RECHECKS.update({
+    "SRC-UNIBO-MED-IT-PROFILE-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://corsi.unibo.it/magistralecu/MedicinaChirurgia",
+            "content_type": "text/html; charset=utf-8", "content_length_header": "303139", "etag": None,
+            "last_modified": None, "cache_control": "must-revalidate, max-age=0, s-maxage=0", "age": "299",
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Medicina e chirurgia - Laurea Magistrale CU - Bologna",
+            "pdf_signature": None, "has_2027_marker": False, "bytes_read": 303139,
+            "outcome": "accessible", "error": None, "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)",
+        },
+    },
+    "SRC-UNIBO-MED-IT-ENROL-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://corsi.unibo.it/magistralecu/MedicinaChirurgia/iscriversi-al-corso",
+            "content_type": "text/html; charset=utf-8", "content_length_header": "334074", "etag": None,
+            "last_modified": None, "cache_control": "must-revalidate, max-age=0, s-maxage=0", "age": "457",
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Iscriversi al Corso: requisiti, tempi e modalità — Medicina e chirurgia - Laurea Magistrale CU - Bologna",
+            "pdf_signature": None, "has_2027_marker": False, "bytes_read": 334074,
+            "outcome": "accessible", "error": None, "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)",
+        },
+    },
+    "SRC-UNIBO-MED-IT-CATALOGUE-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://www.unibo.it/it/studiare/lauree-e-lauree-magistrali-a-ciclo-unico/corso/2026/6733",
+            "content_type": "text/html; charset=utf-8", "content_length_header": "495695", "etag": None,
+            "last_modified": None, "cache_control": "must-revalidate, max-age=0, s-maxage=0", "age": "606",
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Medicina e chirurgia — Università di Bologna",
+            "pdf_signature": None, "has_2027_marker": False, "bytes_read": 495695,
+            "outcome": "accessible", "error": None, "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)",
+        },
+    },
+    "SRC-UNIBO-MED-IT-OPEN-SEMESTER-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://www.unibo.it/it/studiare/iscrizioni-tasse-e-altre-procedure/iscrizioni-al-semestre-aperto",
+            "content_type": "text/html; charset=utf-8", "content_length_header": "505143", "etag": None,
+            "last_modified": None, "cache_control": "must-revalidate, max-age=0, s-maxage=0", "age": "37",
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Semestre aperto: iscrizioni ai corsi di laurea magistrale a ciclo unico di Medicina e Chirurgia, Odontoiatria e Protesi Dentaria, Medicina Veterinaria — Università di Bologna",
+            "pdf_signature": None, "has_2027_marker": False, "bytes_read": 505143,
+            "outcome": "accessible", "error": None, "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)",
+        },
+    },
+    "SRC-UNIBO-MED-IT-CALL-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://corsi.unibo.it/s/3317/p/it/iscriversi-al-corso-requisiti-tempi-e-modalita/bando-medicina-odontoiatria-veterinaria-2026-2027.pdf/@@download/file/Bando%20medicina%2C%20odontoiatria%2C%20veterinaria%202026-2027.pdf",
+            "content_type": "application/pdf", "content_length_header": "711773", "etag": None,
+            "last_modified": "Thu, 05 Nov 2026 14:52:29 GMT", "cache_control": "must-revalidate, max-age=0, s-maxage=0", "age": "76",
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None, "observed_title": None,
+            "pdf_signature": True, "has_2027_marker": False, "bytes_read": 711773,
+            "outcome": "accessible", "error": None, "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)",
+        },
+    },
+    "SRC-MUR-ITALIAN-MED-OPEN-SEMESTER": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://www.mur.gov.it/it/aree-tematiche/universita/lofferta-formativa-titoli-rilasciati/accesso-programmato-cose",
+            "content_type": "text/html; charset=UTF-8", "content_length_header": "194553", "etag": None,
+            "last_modified": "Tue, 10 Nov 2026 16:28:34 GMT", "cache_control": "public, max-age=14400", "age": None,
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Accesso programmato: cos'è | Ministero dell'Università e della Ricerca",
+            "pdf_signature": None, "has_2027_marker": False, "bytes_read": 194553,
+            "outcome": "accessible", "error": None, "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)",
+        },
+    },
+})
+
 
 def _fact(value: Any, status: str, source_ids: list[str], notes: str | None = None) -> dict[str, Any]:
     return {"value": value, "status": status, "source_ids": source_ids, "notes": notes}
@@ -2358,6 +2476,77 @@ def apply_legacy_course_reviews(programs: list[dict[str, Any]], fact: Callable[.
         "The reviewed programme-specific 2026/27 admissions page does not state a dedicated programme scholarship award or amount; general University and ER.GO aid is handled through separate annual calls.",
     )
     med_en["last_checked"] = "2026-11-11"
+
+    med_it_sources = [
+        "SRC-UNIBO-MED-IT-PROFILE-2026", "SRC-UNIBO-MED-IT-CATALOGUE-2026",
+        "SRC-UNIBO-MED-IT-ENROL-2026", "SRC-UNIBO-MED-IT-OPEN-SEMESTER-2026",
+        "SRC-UNIBO-MED-IT-CALL-2026", "SRC-MUR-ITALIAN-MED-OPEN-SEMESTER",
+        "SRC-UNIBO-TUITION-PAGE-2026", "SRC-UNIBO-TUITION-TABLE-2026",
+    ]
+    prior(by_id["legacy-149"], official_name="Medicina e chirurgia", level="Single-cycle Master's (LM-41)", language="Italian",
+          field="Medicine and Surgery", source_ids=med_it_sources, city="Bologna",
+          cycle="2026-2027", checked_at="2026-11-11")
+    med_it = by_id["legacy-149"]
+    med_it_call = "SRC-UNIBO-MED-IT-CALL-2026"
+    med_it_open = "SRC-UNIBO-MED-IT-OPEN-SEMESTER-2026"
+    med_it_enrolment = "SRC-UNIBO-MED-IT-ENROL-2026"
+    med_it_catalogue = "SRC-UNIBO-MED-IT-CATALOGUE-2026"
+    med_it["facts"]["previous_cycle_course_listing"] = _fact(
+        {"academic_year":"2026/27", "official_name":"Medicina e chirurgia", "course_code":"6733", "degree_class":"LM-41 R", "level":"Single-cycle Master's (LM-41)", "duration_years":6, "language":"Italian", "campus":"Bologna", "access":"National restricted access after the open-semester and ranking procedure", "places":435},
+        "CONFIRMED", ["SRC-UNIBO-MED-IT-PROFILE-2026", med_it_catalogue, med_it_call],
+        "Course identity and available seats are from the 2026/27 cycle only; they do not establish a 2027/28 first-year intake or seat count.",
+    )
+    med_it["facts"]["previous_cycle_available_places"] = _fact(
+        {"total":435, "italian_eu_and_non_eu_equivalent":425, "non_eu_resident_abroad":10},
+        "CONFIRMED", [med_it_catalogue, med_it_call],
+        "The 2026/27 catalogue reports 435 places; the later course-specific call provides the 425+10 quota breakdown. These counts are historical and must not be reused for 2027/28.",
+    )
+    med_it["facts"]["previous_cycle_application_windows"] = _fact(
+        [{"academic_year":"2026/27", "route":"Open semester, followed by national ranking", "Universitaly_deadline":"2026-08-03 18:00 Italian time", "Bologna_Studenti_Online_deadline":"2026-08-06 23:59 Italian time", "lectures":"2026-09-01 to 2026-11-18", "exam_sessions":["2026-12-10 08:00", "2027-01-11 08:00"], "ranking_publication":"2027-01-22 16:00", "first_enrolment_or_credit-recovery_window":"2027-01-22 to 2027-01-28", "additional_assignment_for_unassigned_EU_equivalent":"2027-02-02 to 2027-02-05", "later_enrolment_window":"2027-02-08 to 2027-02-10"}],
+        "CONFIRMED", [med_it_open, med_it_call],
+        "Every date is explicitly for the 2026/27 open-semester cohort and must not be copied into 2027/28. Later reassignments and recovery steps depend on candidate category and exam results.",
+    )
+    med_it["facts"]["previous_cycle_admission_requirements"] = _fact(
+        {"school_qualification":"Five-year upper-secondary diploma or recognized equivalent; qualifying four-year diplomas and foreign qualifications are governed by the call's specific rules", "foreign_qualification":"Foreign upper-secondary credential after at least twelve years of schooling and valid for access to Italian higher education", "initial_subject_knowledge":["Biology", "Chemistry", "Physics", "Mathematics"], "course_language":"Italian", "attendance_requirement_for_exams":"At least 51% of the open-semester learning activities in each course, unless attendance is validated", "open_semester_attempt_limit":3, "international_language_step":"Non-EU applicants residing abroad must satisfy the Italian-language requirement before the semester starts", "english_requirement_for_medicine":"B2 English evidence is required for admission to Medicine; the 2026/27 call allows an accepted certificate or a certified prior-course English exam, with an OFA if evidence is not uploaded by the deadline"},
+        "CONFIRMED", [med_it_enrolment, med_it_call],
+        "These are 2026/27 requirements and entry procedures. The Italian-language open semester must not be conflated with the English-taught Medicine and Surgery IMAT route.",
+    )
+    med_it["facts"]["previous_cycle_test_scoring"] = _fact(
+        {"exam_subjects":["Biology", "Chemistry and Biochemistry Preparation", "Physics"], "credits_per_subject":6, "questions_per_subject":31, "question_types":{"multiple_choice":21, "completion":10}, "minutes_per_subject":50, "correct_points":1, "incorrect_points":-0.1, "omitted_points":0, "pass_threshold_each_exam":18, "minimum_for_national_ranking":"At least 18/30 in one subject; the ranking has sections for passing one, two or all three subjects", "maximum_ranking_points":93},
+        "CONFIRMED", [med_it_call, "SRC-UNIBO-MED-IT-OPEN-SEMESTER-2026"],
+        "Exam format and ranking-score rules apply to the 2026/27 national procedure only. Progression to the second semester also requires the necessary credits under the assigned ranking section and course-call deadlines.",
+    )
+    med_it["facts"]["previous_cycle_application_route"] = _fact(
+        {"first_step":"Register on Universitaly and select the open-semester course path and preferred universities", "Bologna_step":"Complete Bologna registration on Studenti Online and pay through PagoPA", "second_semester":"National MUR/CINECA ranking assigns the university seat; complete Bologna matriculation or credit recovery through Studenti Online", "foreign_qualification_documents":"Studenti Online documents and Universitaly visa pre-enrolment when applicable"},
+        "CONFIRMED", [med_it_open, med_it_enrolment, med_it_call],
+        "This is the historical 2026/27 route; the new academic-year call may change portal steps and dates.",
+    )
+    med_it["facts"]["previous_cycle_open_semester_contribution"] = _fact(
+        {"academic_year":"2026/27", "open_semester_flat_contribution_eur":250, "payment_platform":"PagoPA", "full_exemption":{"conditions":["ISEE 2026 at or below €22,000", "specified disability certification"], "refund_if_exempt":True}, "partial_isee_reductions":{"22000.01-24000":80, "24000.01-26000":50, "26000.01-28000":25, "28000.01-30000":10}},
+        "CONFIRMED", [med_it_open],
+        "This is the 2026/27 open-semester contribution, not a 2027/28 application fee or the full annual tuition amount. Eligible exemptions were refunded after payment under the published process.",
+    )
+    med_it["facts"]["previous_cycle_gpa_requirement"] = _fact(
+        "No separate school GPA threshold is stated in the 2026/27 course call; selection for second-semester seats is based on the national ranking built from the open-semester examinations and applicable quota.",
+        "CONFIRMED", [med_it_call],
+        "Historical 2026/27 call only; later-year selection rules must be checked in the annual call.",
+    )
+    med_it["facts"]["previous_cycle_tuition"] = _fact(
+        {"academic_year":"2026/27", "general_single_cycle_max_comprehensive_contribution_reference_eur":2244, "course_specific_maximum_separately_listed":False, "first_installment_eur":157.04, "isee_based_progressive_contribution":True, "open_semester_contribution_offset_against_annual_contribution":True, "first_installment_still_due":True, "separate_charges_in_first_installment":["Regional study tax", "Stamp duty", "Insurance"]},
+        "CONFIRMED", [med_it_call, "SRC-UNIBO-TUITION-PAGE-2026", "SRC-UNIBO-TUITION-TABLE-2026"],
+        "Historical fee framework only. The €2,244 table entry is the general single-cycle reference and course code 6733 is not separately named among the table's higher-contribution exceptions; the open-semester €250 payment is offset against annual contribution except that the €157.04 first instalment remains due. Do not calculate a net total or carry amounts into 2027/28.",
+    )
+    med_it["facts"]["previous_cycle_admissions_route_scope"] = _fact(
+        {"italian_taught_medicine":"Open semester, standardized subject examinations and national ranking from AY 2025/26 under the Italian-language system", "english_taught_medicine":"Separate national IMAT procedure in the 2026/27 call"},
+        "CONFIRMED", ["SRC-MUR-ITALIAN-MED-OPEN-SEMESTER", "SRC-UNIBO-MED-IT-CALL-2026", "SRC-UNIBO-MED-EN-IT-CALL-2026"],
+        "This distinguishes two separate 2026/27 routes; it does not establish 2027/28 rules.",
+    )
+    med_it["facts"]["last_cycle_scholarships"] = _fact(
+        {"course_specific_award":None, "general_support":"The programme page directs applicants to University of Bologna and ER.GO calls for need-based aid and fee benefits"},
+        "UNAVAILABLE", [med_it_enrolment, med_it_open],
+        "No dedicated Medicine-course scholarship award is stated in the reviewed course call; general University and ER.GO benefit calls are separate and must be checked for the relevant year.",
+    )
+    med_it["last_checked"] = "2026-11-11"
 
     business_analytics = by_id["legacy-022"]
     business_analytics_sources = ["SRC-UNIBO-BA-CURRICULUM-2026", "SRC-UNIBO-BA-CURRICULUM-PARENT-2026", "SRC-UNIBO-BA-BBS-2026"]

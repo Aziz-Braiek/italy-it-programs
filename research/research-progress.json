@@ -287,6 +287,11 @@
       "result": "Rechecked Bologna's English-taught Medicine and Surgery degree through its 2026/27 profile/catalogue, live enrolment page, official Italian IMAT call, English call summary, certificate annex, MUR decree, open-semester guidance and tuition sources. The cycle-specific entry confirms course code 6264, six-year single-cycle LM-41, Bologna, English delivery and 160 places; the call divides those places into 140 for Italian/EU/equivalent applicants and 20 for non-EU applicants resident abroad. Registration ran 26 August–9 September 2026, the IMAT was on 29 September, and national rankings/enrolment began 26 October. The test had 60 questions in 100 minutes, +1.5/−0.4/0 scoring, a 20-point threshold for the national EU/equivalent quota, and a >0 threshold for the local abroad-resident quota. The call names a qualifying secondary-school credential, optional listed English certificates (B2-level examples; English-medium schooling for at least one year is accepted), and no separate GPA threshold. It requires a test-payment contribution but gives no amount in the reviewed call, so the prior-cycle amount is unavailable. The 2026/27 maximum course contribution is €3,315 plus the €157.04 fixed fee; regional tax, stamp duty and insurance are excluded from that maximum. The current page links only expired 2026/27 material. The open-semester route is scoped to Italian-taught Medicine, while this English degree's prior-cycle call uses IMAT. No 2027/28 English intake or admissions rules are published as of 11 November 2026; availability, test dates, capacity, application fee, tuition and scholarship terms remain pending. Fresh no-cache GETs returned HTTP 200 for all eleven official sources reviewed; all PDF signatures were valid."
     },
     {
+      "id": "unibo-italian-medicine-2026-27-open-semester-review",
+      "status": "partial",
+      "result": "Updated the Italian-taught Bologna Medicine and Surgery record from the 2026/27 course catalogue, current course admissions page, University open-semester guidance, the newly published 2026/27 course-specific post-semester call and MUR policy page. Confirmed course code 6733, six-year LM-41 R, Bologna, Italian and 435 catalogue places; the current detailed call divides these into 425 Italian/EU/equivalent and 10 non-EU-resident-abroad seats. Historical 2026/27 entry used Universitaly by 3 August and Bologna Student Online by 6 August, a €250 open-semester contribution, three 6-ECTS foundation subjects, 51% attendance, exams on 10 December 2026 and 11 January 2027, and a national ranking published 22 January 2027. Recorded secondary-credential and English B2 conditions, with no separate GPA minimum stated in the reviewed call. The general 2026/27 tuition table provides a €2,244 standard single-cycle maximum-contribution reference; the call says the contribution is ISEE-progressive and offsets the open-semester payment except for the €157.04 first instalment, so no total cost was inferred. The detailed call is specifically a post-semester process for the 2026/27 cohort, not a new 2027/28 intake call. No 2027/28 course intake, deadlines, fee or scholarship terms are published in the sources reviewed. Fresh no-cache GETs returned HTTP 200 for six official pages/PDFs; the admission PDF signature was valid."
+    },
+    {
       "id": "claude-independent-review-inventory",
       "status": "complete",
       "result": "Created a review manifest and checklist covering all 34 universities, 193 programs, and 454 existing official source records. The checklist exposes current unresolved fields and conflicts; all refresh outcomes remain pending until evidence is checked."
@@ -592,8 +597,8 @@
       "trento",
       "udine"
     ],
-    "source_records": 600,
-    "official_source_supported_fields": 1269,
+    "source_records": 604,
+    "official_source_supported_fields": 1278,
     "verification_statuses": [
       "CONFIRMED",
       "NOT_YET_PUBLISHED",
