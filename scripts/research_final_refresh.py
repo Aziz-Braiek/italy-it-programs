@@ -1331,6 +1331,54 @@ SOURCES = [
         "supports": ["program.official_planned_course_listing_2027_2028", "program.program_development_notice", "program.availability_2027_2028"],
     },
     {
+        "id": "SRC-PADUA-FOOD-SAFETY-PROFILE-2027",
+        "university_id": "padova", "title": "Food Safety for Global Health – Department course profile",
+        "url": "https://agrariamedicinaveterinaria.unipd.it/en/courses/bachelors-first-cycle-and-masters-second-cycle-degrees/food-safety-global-health",
+        "source_type": "Official Department course profile", "accessed_at": "2026-11-11", "cycle": "2027-2028 proposed",
+        "evidence": "The School of Agricultural Sciences and Veterinary Medicine describes Food Safety for Global Health as an international Bachelor's degree based in Vicenza, covering food safety, One Health, sustainability and technology. The University's English-degree catalogue separately lists it as a new 2027/28 proposal 'to be approved'; the Department profile does not publish final approval, a first-year call, or annual admission terms.",
+        "supports": ["program.proposed_course_identity", "program.proposed_level", "program.proposed_location", "program.proposed_field", "program.availability_2027_2028"],
+    },
+    {
+        "id": "SRC-PADUA-FOOD-SAFETY-APPLY-2027",
+        "university_id": "padova", "title": "Apply to Food Safety for Global Health",
+        "url": "https://agrariamedicinaveterinaria.unipd.it/en/courses/bachelors-first-cycle-and-masters-second-cycle-degrees/food-safety-global-health/apply-fsh",
+        "source_type": "Official Department application information page", "accessed_at": "2026-11-11", "cycle": "2027-2028 proposed",
+        "evidence": "The dedicated page routes applicants to separate instructions for international and Italian entry qualifications and says the application links will be available around December. On 11 November 2026, it contains no active course-specific application link, deadline, application fee or entry checklist. The degree remains marked 'to be approved' in the central English-degree catalogue.",
+        "supports": ["program.application_windows_2027_2028", "program.application_route_2027_2028", "program.program_specific_requirements_2027_2028", "program.application_fee_2027_2028", "program.availability_2027_2028"],
+    },
+    {
+        "id": "SRC-PADUA-FOOD-SAFETY-OUTLINE-2027",
+        "university_id": "padova", "title": "Food Safety for Global Health – course outline and objectives",
+        "url": "https://agrariamedicinaveterinaria.unipd.it/en/courses/bachelors-first-cycle-and-masters-second-cycle-degrees/food-safety-global-health/fsh-course",
+        "source_type": "Official Department course outline", "accessed_at": "2026-11-11", "cycle": "2027-2028 proposed",
+        "evidence": "The Department describes a blended teaching proposal with around 35% of teaching online and the rest on campus, a common scientific foundation in the first two years, and Food Safety or Global Health study plans in the third year. The same page says its link to complete programme details will be updated. Treat this as provisional course information, not an approved study plan or proof of intake.",
+        "supports": ["program.proposed_course_structure", "program.proposed_delivery", "program.availability_2027_2028"],
+    },
+    {
+        "id": "SRC-PADUA-FOOD-SAFETY-OFA-2026-27",
+        "university_id": "padova", "title": "Additional learning requirements (OFA) 2026/27 – Food Safety for Global Health",
+        "url": "https://agrariamedicinaveterinaria.unipd.it/en/current-students/studying/additional-learning-requirements-ofa",
+        "source_type": "Official School additional-learning-requirements page", "accessed_at": "2026-11-11", "cycle": "2026-2027 page; references 2027-2028 start",
+        "evidence": "The 2026/27 OFA/ALR page names Food Safety for Global Health as starting from academic year 2027/28 and refers to students taking the CEnT-S admission test, with additional learning requirements determined by scores below the thresholds in the admission call. It does not publish a Food Safety-specific admission call, whether CEnT-S is mandatory for this course, minimum admission scores, dates or selection rules. This is preparatory OFA context only.",
+        "supports": ["program.proposed_admission_test_context", "program.availability_2027_2028", "program.program_specific_requirements_2027_2028"],
+    },
+    {
+        "id": "SRC-PADUA-FOOD-SAFETY-CONTACT-2027",
+        "university_id": "padova", "title": "Contact information for Food Safety for Global Health",
+        "url": "https://agrariamedicinaveterinaria.unipd.it/en/courses/bachelors-first-cycle-and-masters-second-cycle-degrees/food-safety-global-health/contact",
+        "source_type": "Official Department course contact page", "accessed_at": "2026-11-11", "cycle": "general",
+        "evidence": "The Department lists cdl.foodsafety@unipd.it for academic enquiries and names the same address for its International Desk contact for prospective and international students. The contact page does not itself publish an admissions call or 2027/28 requirements.",
+        "supports": ["program.program_contact", "program.international_admissions_contact"],
+    },
+    {
+        "id": "SRC-PADUA-FOOD-SAFETY-CREDITS-2027",
+        "university_id": "padova", "title": "Information on credit recognition in Food Safety for Global Health",
+        "url": "https://agrariamedicinaveterinaria.unipd.it/en/information-credits-recognition-food-safety-global-health",
+        "source_type": "Official Department credit-recognition information page", "accessed_at": "2026-11-11", "cycle": "general; course regulations pending",
+        "evidence": "The page describes transfer/advanced-year credit recognition, including a €40 procedure fee and possible second- or third-year entry subject to language, recognized-credit and seat conditions. It says general admission rules will be available in the course regulation, with the link 'available soon'; this is not a first-year 2027/28 call and the course proposal remains pending central approval.",
+        "supports": ["program.proposed_transfer_credit_recognition", "program.program_specific_requirements_2027_2028", "program.available_places_2027_2028"],
+    },
+    {
         "id": "SRC-PADUA-STATISTICAL-SCIENCE-PROFILE-2027",
         "university_id": "padova", "title": "Statistical Science – Department programme profile and projected start",
         "url": "https://www.stat.unipd.it/en/statistical-science",
@@ -2082,6 +2130,12 @@ BATCH44 = {
     "id": "padua-management-finance-business-analytics-proposal-open-day-status",
     "status": "partial",
     "result": "Rechecked discovered-031, the proposed Management, Finance and Business Analytics BSc at the University of Padua. The English-degree catalogue still marks the 2027/28 proposal as awaiting approval. A University and Department open-day notice schedules presentation of the new course for 12 November 2026; the Department says entry requirements, tests, procedures and deadlines are planned discussion topics, but the notices publish no such rules or application call. The University overview lists 15:00–18:00, while the Department page lists registration from 15:00 and the event from 15:30–18:00; this timing difference is retained. Since the event was still in the future at the 11 November check, it does not confirm approval, first-year intake, course requirements, application dates or fees. The candidate remains pending. Fresh no-cache GETs returned HTTP 200 for the English-degree catalogue, University open-day page, Department event page and Padua International Excellence page; the latter still links the 2026/27 call and says 2027/28 call details will be published in November. No production changes were made.",
+}
+
+BATCH45 = {
+    "id": "padua-food-safety-global-health-proposal-and-application-link-review",
+    "status": "partial",
+    "result": "Reviewed discovered-032, Food Safety for Global Health, against the University of Padua's proposed English-degree catalogue and new School of Agricultural Sciences and Veterinary Medicine pages. The central catalogue still marks the 2027/28 English BSc proposal 'to be approved'. Department pages describe an international Bachelor's degree in Vicenza and a provisional outline with around 35% online teaching, a common first-two-year foundation and Food Safety or Global Health study plans in the third year; these are not final approved regulations. The dedicated Apply to FSH page routes Italian and international applicants separately and says application links will be available around December, but on 11 November no active course-specific application link, deadline, fee or entry checklist was published. A 2026/27 OFA page identifies FSH as starting in 2027/28 and mentions CEnT-S in connection with additional learning requirements; it does not establish that CEnT-S is mandatory or publish this course's admissions requirements or selection scores. The course credit page says general course rules are forthcoming and describes a separate €40 prior-credit recognition procedure for transfer/advanced-year cases; that amount is not an application fee. The course contact page lists cdl.foodsafety@unipd.it for academic and international enquiries. Fresh no-cache GETs returned HTTP 200 for all reviewed pages. First-year availability, formal approval, requirements, test obligation, deadlines, application fee, places, tuition and course-specific scholarships remain unconfirmed. No production changes were made.",
 }
 
 SOURCE_RECHECKS = {
@@ -5066,10 +5120,20 @@ def apply(
     ]
     for pid, title, field_name, field_value in planned_padua:
         event_sources = ["SRC-PADUA-MAFBA-OPEN-DAY-2026", "SRC-PADUA-MAFBA-DEPARTMENT-OPEN-DAY-2026"] if pid == "discovered-031" else []
-        listing_sources = [padua_planned_source, *event_sources]
+        food_safety_sources = [
+            "SRC-PADUA-FOOD-SAFETY-PROFILE-2027",
+            "SRC-PADUA-FOOD-SAFETY-APPLY-2027",
+            "SRC-PADUA-FOOD-SAFETY-OUTLINE-2027",
+            "SRC-PADUA-FOOD-SAFETY-OFA-2026-27",
+            "SRC-PADUA-FOOD-SAFETY-CONTACT-2027",
+            "SRC-PADUA-FOOD-SAFETY-CREDITS-2027",
+        ] if pid == "discovered-032" else []
+        listing_sources = [padua_planned_source, *event_sources, *food_safety_sources]
         candidate = make_program(
             pid, "padova", title, "BSc (proposed)", "English (proposed)", field_value,
-            "REQUIRES_VERIFICATION", listing_sources, city="Padua", discovery="newly_discovered",
+            "REQUIRES_VERIFICATION", listing_sources,
+            city="Vicenza" if pid == "discovered-032" else "Padua",
+            discovery="newly_discovered",
         )
         candidate["level"] = fact("BSc (proposed)", "CONFIRMED", [padua_planned_source],
             "The official catalogue places the item under Bachelor's Degree Programmes but explicitly marks it as a new programme awaiting approval.")
@@ -5077,9 +5141,12 @@ def apply(
             "The official page is the English-taught programme catalogue; the individual proposal remains subject to approval.")
         candidate["field"] = fact(field_name, "REQUIRES_VERIFICATION", [padua_planned_source],
             "Field label is an editorial classification from the proposed programme title; no approved course specification is published.")
-        candidate["availability_2027_2028"] = fact(None, "REQUIRES_VERIFICATION", listing_sources,
-            "The university lists the programme for 2027/28 but explicitly says it is still to be approved. No course-specific 2027/28 call was identified. A Department open day is scheduled for 12 November 2026, but as checked on 11 November it has not yet occurred and does not confirm an intake or call." if pid == "discovered-031" else
-            "The university lists the programme for 2027/28 but explicitly says it is still to be approved. No course-specific 2027/28 call was identified.")
+        availability_note = "The university lists the programme for 2027/28 but explicitly says it is still to be approved. No course-specific 2027/28 call was identified."
+        if pid == "discovered-031":
+            availability_note += " A Department open day is scheduled for 12 November 2026, but as checked on 11 November it has not yet occurred and does not confirm an intake or call."
+        elif pid == "discovered-032":
+            availability_note += " The Department now has a course profile and says application links will be available around December, but no active course application link or approved regulation was present on 11 November."
+        candidate["availability_2027_2028"] = fact(None, "REQUIRES_VERIFICATION", listing_sources, availability_note)
         candidate["facts"] = {
             "official_planned_course_listing_2027_2028": fact({"academic_year":"2027/28", "proposed_name":title.split(" (proposed")[0], "proposed_level":"Bachelor's degree", "listed_in_english_degree_catalogue":True, "approval_status":"To be approved"}, "CONFIRMED", listing_sources, "Confirms a published proposal only; it does not confirm accreditation, opening, or first-year admission."),
             "application_windows": fact(None, "NOT_YET_PUBLISHED", [padua_planned_source, "SRC-PADUA-INTL-2027"], "The University has general 2027/28 international calls for most courses, but the proposed degree itself is awaiting approval and no course-specific admission window or inclusion in those calls was identified."),
@@ -5094,6 +5161,48 @@ def apply(
                 {"academic_year": "2027/28 proposed course", "scheduled_date": "2026-11-12", "department": "Economics and Management 'Marco Fanno'", "planned_topics": ["Course presentation", "Entry requirements", "Admission tests", "Admission procedures", "Deadlines"], "event_status_as_checked": "Scheduled; not yet held on 2026-11-11", "published_times": {"University_overview": "15:00–18:00", "Department_notice": "registration from 15:00; event 15:30–18:00"}},
                 "CONFIRMED", event_sources,
                 "This records an official scheduled information event only. The event notices do not themselves publish course regulations or an admission call; no event outcome was available at the time of review.",
+            )
+        elif pid == "discovered-032":
+            candidate["source_ids"] = list(dict.fromkeys(candidate["source_ids"] + food_safety_sources))
+            candidate["facts"]["official_planned_course_listing_2027_2028"] = fact(
+                {"academic_year": "2027/28", "proposed_name": "Food Safety for Global Health", "proposed_level": "Bachelor's degree", "listed_in_english_degree_catalogue": True, "approval_status": "To be approved", "department_profile_campus": "Vicenza"},
+                "CONFIRMED", listing_sources,
+                "Confirms a published proposal and Department profile only. The University catalogue still marks the degree as awaiting approval; no final accreditation, first-year intake or approved study plan is confirmed.",
+            )
+            candidate["facts"]["application_windows"] = fact(
+                None, "NOT_YET_PUBLISHED", [padua_planned_source, "SRC-PADUA-INTL-2027", "SRC-PADUA-FOOD-SAFETY-APPLY-2027"],
+                "The dedicated Apply to FSH page separates Italian- and international-qualification instructions and says the application links will be available around December. As of 11 November 2026, no active course-specific application link, exact deadline or call was published; the proposal remains awaiting approval.",
+            )
+            candidate["facts"]["program_specific_requirements_2027_2028"] = fact(
+                None, "REQUIRES_VERIFICATION", [padua_planned_source, "SRC-PADUA-FOOD-SAFETY-APPLY-2027", "SRC-PADUA-FOOD-SAFETY-CREDITS-2027", "SRC-PADUA-FOOD-SAFETY-OFA-2026-27"],
+                "No approved first-year course regulations or complete 2027/28 entry checklist were found. The credit-recognition page says the course regulation will be available soon. A 2026/27 OFA page mentions CEnT-S context but does not establish whether the test is mandatory for 2027/28 FSH admission.",
+            )
+            candidate["facts"]["application_fee_2027_2028"] = fact(
+                None, "REQUIRES_VERIFICATION", [padua_planned_source, "SRC-PADUA-FOOD-SAFETY-APPLY-2027"],
+                "The Apply to FSH page has no application fee or active course link as of 11 November 2026. No 2027/28 application charge is confirmed.",
+            )
+            candidate["facts"]["available_places_2027_2028"] = fact(
+                None, "REQUIRES_VERIFICATION", [padua_planned_source, "SRC-PADUA-FOOD-SAFETY-PROFILE-2027", "SRC-PADUA-FOOD-SAFETY-CREDITS-2027"],
+                "No 2027/28 first-year quota or intake capacity is published. The Department credit-recognition page discusses available seats for advanced-year transfer entrants only; this does not establish first-year places.",
+            )
+            candidate["facts"]["proposed_course_outline"] = fact(
+                {"delivery_model": "Blended; around 35% online teaching and remaining activities on campus", "course_structure_as_described": {"first_two_years": "Common scientific foundation", "third_year_choices": ["Food Safety", "Global Health"]}},
+                "REQUIRES_VERIFICATION", ["SRC-PADUA-FOOD-SAFETY-PROFILE-2027", "SRC-PADUA-FOOD-SAFETY-OUTLINE-2027"],
+                "Department promotional course-outline information only; the central University catalogue still marks the proposal as awaiting approval and the Department says the full programme details link is to be updated.",
+            )
+            candidate["facts"]["proposed_admission_test_context"] = fact(
+                {"source_page_cycle": "2026/27", "new_course_start_reference": "Food Safety for Global Health starting from academic year 2027/28", "test_mentioned": "CEnT-S admission test", "OFA_scope": "Additional learning requirements are assigned according to scores below thresholds set in the admission call."},
+                "REQUIRES_VERIFICATION", ["SRC-PADUA-FOOD-SAFETY-OFA-2026-27", padua_planned_source],
+                "This is OFA preparation guidance, not an admission call. It does not establish that CEnT-S is mandatory for this course or publish the course's entry score, test date, selection rule or 2027/28 eligibility.",
+            )
+            candidate["facts"]["proposed_transfer_credit_recognition"] = fact(
+                {"procedure_fee_eur": 40, "application_period_pattern": "Annual call opens in June and closes after approximately 30 days", "second_year_entry": "Requires B2 English and recognition of at least 50% of first-year ECTS; subject to available places", "third_year_entry": "Requires B2 English and recognition of at least 67% of first- and second-year ECTS; subject to available places"},
+                "REQUIRES_VERIFICATION", ["SRC-PADUA-FOOD-SAFETY-CREDITS-2027"],
+                "This page concerns transfer or advanced-year credit recognition, not first-year admission. The course regulation is not yet linked, and these general criteria are not confirmed as final 2027/28 rules.",
+            )
+            candidate["facts"]["program_contact"] = fact(
+                {"academic_and_international_enquiries": "cdl.foodsafety@unipd.it"}, "CONFIRMED", ["SRC-PADUA-FOOD-SAFETY-CONTACT-2027"],
+                "The Department contact page lists this email for academic enquiries and for its International Desk contact; it is a contact route, not confirmation of intake or admission terms.",
             )
         candidate["last_checked"] = "2026-11-11"
         programs.append(candidate)
@@ -8169,6 +8278,87 @@ SOURCE_RECHECKS.update({
             "x_vercel_cache": None, "x_vercel_id": None, "location": None,
             "observed_title": "Padua International Excellence Scholarship Programme | Università di Padova",
             "pdf_signature": None, "has_2027_marker": True, "bytes_read": 1449321,
+            "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib)",
+        },
+    },
+})
+
+SOURCE_RECHECKS.update({
+    "SRC-PADUA-FOOD-SAFETY-PROFILE-2027": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://agrariamedicinaveterinaria.unipd.it/en/courses/bachelors-first-cycle-and-masters-second-cycle-degrees/food-safety-global-health",
+            "content_type": "text/html; charset=utf-8", "content_length_header": None,
+            "etag": None, "last_modified": None, "cache_control": "no-cache, must-revalidate", "age": "0",
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Food Safety for Global Health | Università di Padova",
+            "pdf_signature": None, "has_2027_marker": False, "bytes_read": 60384,
+            "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib)",
+        },
+    },
+    "SRC-PADUA-FOOD-SAFETY-APPLY-2027": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://agrariamedicinaveterinaria.unipd.it/en/courses/bachelors-first-cycle-and-masters-second-cycle-degrees/food-safety-global-health/apply-fsh",
+            "content_type": "text/html; charset=utf-8", "content_length_header": None,
+            "etag": None, "last_modified": None, "cache_control": "no-cache, must-revalidate", "age": "0",
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Apply to FSH | Università di Padova",
+            "pdf_signature": None, "has_2027_marker": False, "bytes_read": 55255,
+            "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib)",
+        },
+    },
+    "SRC-PADUA-FOOD-SAFETY-OUTLINE-2027": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://agrariamedicinaveterinaria.unipd.it/en/courses/bachelors-first-cycle-and-masters-second-cycle-degrees/food-safety-global-health/fsh-course",
+            "content_type": "text/html; charset=utf-8", "content_length_header": None,
+            "etag": None, "last_modified": None, "cache_control": "no-cache, must-revalidate", "age": "0",
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "FSH - Course outline and objectives | Università di Padova",
+            "pdf_signature": None, "has_2027_marker": False, "bytes_read": 59565,
+            "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib)",
+        },
+    },
+    "SRC-PADUA-FOOD-SAFETY-OFA-2026-27": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://agrariamedicinaveterinaria.unipd.it/en/current-students/studying/additional-learning-requirements-ofa",
+            "content_type": "text/html; charset=utf-8", "content_length_header": None,
+            "etag": None, "last_modified": None, "cache_control": "no-cache, must-revalidate", "age": "0",
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Additional learning requirements (OFA) | Università di Padova",
+            "pdf_signature": None, "has_2027_marker": True, "bytes_read": 40914,
+            "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib)",
+        },
+    },
+    "SRC-PADUA-FOOD-SAFETY-CONTACT-2027": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://agrariamedicinaveterinaria.unipd.it/en/courses/bachelors-first-cycle-and-masters-second-cycle-degrees/food-safety-global-health/contact",
+            "content_type": "text/html; charset=utf-8", "content_length_header": None,
+            "etag": None, "last_modified": None, "cache_control": "no-cache, must-revalidate", "age": "0",
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Contact info for FSH students | Università di Padova",
+            "pdf_signature": None, "has_2027_marker": False, "bytes_read": 56666,
+            "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib)",
+        },
+    },
+    "SRC-PADUA-FOOD-SAFETY-CREDITS-2027": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://agrariamedicinaveterinaria.unipd.it/en/information-credits-recognition-food-safety-global-health",
+            "content_type": "text/html; charset=utf-8", "content_length_header": "32538",
+            "etag": None, "last_modified": None, "cache_control": "no-cache, must-revalidate", "age": "0",
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Information on credits recognition in Food Safety for Global Health. | Università di Padova",
+            "pdf_signature": None, "has_2027_marker": False, "bytes_read": 32538,
             "outcome": "accessible", "error": None,
             "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib)",
         },

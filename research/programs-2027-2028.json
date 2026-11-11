@@ -42526,7 +42526,7 @@
     "id": "discovered-032",
     "university_id": "padova",
     "university": "Università degli Studi di Padova",
-    "city": "Padua",
+    "city": "Vicenza",
     "program": "Food Safety for Global Health (proposed 2027/28)",
     "level": {
       "value": "BSc (proposed)",
@@ -42556,9 +42556,15 @@
       "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
-        "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+        "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+        "SRC-PADUA-FOOD-SAFETY-PROFILE-2027",
+        "SRC-PADUA-FOOD-SAFETY-APPLY-2027",
+        "SRC-PADUA-FOOD-SAFETY-OUTLINE-2027",
+        "SRC-PADUA-FOOD-SAFETY-OFA-2026-27",
+        "SRC-PADUA-FOOD-SAFETY-CONTACT-2027",
+        "SRC-PADUA-FOOD-SAFETY-CREDITS-2027"
       ],
-      "notes": "The university lists the programme for 2027/28 but explicitly says it is still to be approved. No course-specific 2027/28 call was identified."
+      "notes": "The university lists the programme for 2027/28 but explicitly says it is still to be approved. No course-specific 2027/28 call was identified. The Department now has a course profile and says application links will be available around December, but no active course application link or approved regulation was present on 11 November."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "newly_discovered",
@@ -42569,38 +42575,50 @@
           "proposed_name": "Food Safety for Global Health",
           "proposed_level": "Bachelor's degree",
           "listed_in_english_degree_catalogue": true,
-          "approval_status": "To be approved"
+          "approval_status": "To be approved",
+          "department_profile_campus": "Vicenza"
         },
         "status": "CONFIRMED",
         "source_ids": [
-          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+          "SRC-PADUA-FOOD-SAFETY-PROFILE-2027",
+          "SRC-PADUA-FOOD-SAFETY-APPLY-2027",
+          "SRC-PADUA-FOOD-SAFETY-OUTLINE-2027",
+          "SRC-PADUA-FOOD-SAFETY-OFA-2026-27",
+          "SRC-PADUA-FOOD-SAFETY-CONTACT-2027",
+          "SRC-PADUA-FOOD-SAFETY-CREDITS-2027"
         ],
-        "notes": "Confirms a published proposal only; it does not confirm accreditation, opening, or first-year admission."
+        "notes": "Confirms a published proposal and Department profile only. The University catalogue still marks the degree as awaiting approval; no final accreditation, first-year intake or approved study plan is confirmed."
       },
       "application_windows": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
           "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
-          "SRC-PADUA-INTL-2027"
+          "SRC-PADUA-INTL-2027",
+          "SRC-PADUA-FOOD-SAFETY-APPLY-2027"
         ],
-        "notes": "The University has general 2027/28 international calls for most courses, but the proposed degree itself is awaiting approval and no course-specific admission window or inclusion in those calls was identified."
+        "notes": "The dedicated Apply to FSH page separates Italian- and international-qualification instructions and says the application links will be available around December. As of 11 November 2026, no active course-specific application link, exact deadline or call was published; the proposal remains awaiting approval."
       },
       "program_specific_requirements_2027_2028": {
         "value": null,
         "status": "REQUIRES_VERIFICATION",
         "source_ids": [
-          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+          "SRC-PADUA-FOOD-SAFETY-APPLY-2027",
+          "SRC-PADUA-FOOD-SAFETY-CREDITS-2027",
+          "SRC-PADUA-FOOD-SAFETY-OFA-2026-27"
         ],
-        "notes": "No approved course regulations or programme-specific entry requirements have been published in the reviewed source."
+        "notes": "No approved first-year course regulations or complete 2027/28 entry checklist were found. The credit-recognition page says the course regulation will be available soon. A 2026/27 OFA page mentions CEnT-S context but does not establish whether the test is mandatory for 2027/28 FSH admission."
       },
       "application_fee_2027_2028": {
         "value": null,
         "status": "REQUIRES_VERIFICATION",
         "source_ids": [
-          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+          "SRC-PADUA-FOOD-SAFETY-APPLY-2027"
         ],
-        "notes": "No programme-specific application fee is confirmed for this unapproved proposal."
+        "notes": "The Apply to FSH page has no application fee or active course link as of 11 November 2026. No 2027/28 application charge is confirmed."
       },
       "tuition_2027_2028": {
         "value": null,
@@ -42638,6 +42656,71 @@
         ],
         "notes": "The University approved the scheme for English-taught degree programmes, including new programmes, but this record's 2027/28 intake, final language/approval or course-level inclusion is still pending. Do not show it as a confirmed course award."
       },
+      "available_places_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+          "SRC-PADUA-FOOD-SAFETY-PROFILE-2027",
+          "SRC-PADUA-FOOD-SAFETY-CREDITS-2027"
+        ],
+        "notes": "No 2027/28 first-year quota or intake capacity is published. The Department credit-recognition page discusses available seats for advanced-year transfer entrants only; this does not establish first-year places."
+      },
+      "proposed_course_outline": {
+        "value": {
+          "delivery_model": "Blended; around 35% online teaching and remaining activities on campus",
+          "course_structure_as_described": {
+            "first_two_years": "Common scientific foundation",
+            "third_year_choices": [
+              "Food Safety",
+              "Global Health"
+            ]
+          }
+        },
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-PADUA-FOOD-SAFETY-PROFILE-2027",
+          "SRC-PADUA-FOOD-SAFETY-OUTLINE-2027"
+        ],
+        "notes": "Department promotional course-outline information only; the central University catalogue still marks the proposal as awaiting approval and the Department says the full programme details link is to be updated."
+      },
+      "proposed_admission_test_context": {
+        "value": {
+          "source_page_cycle": "2026/27",
+          "new_course_start_reference": "Food Safety for Global Health starting from academic year 2027/28",
+          "test_mentioned": "CEnT-S admission test",
+          "OFA_scope": "Additional learning requirements are assigned according to scores below thresholds set in the admission call."
+        },
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-PADUA-FOOD-SAFETY-OFA-2026-27",
+          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+        ],
+        "notes": "This is OFA preparation guidance, not an admission call. It does not establish that CEnT-S is mandatory for this course or publish the course's entry score, test date, selection rule or 2027/28 eligibility."
+      },
+      "proposed_transfer_credit_recognition": {
+        "value": {
+          "procedure_fee_eur": 40,
+          "application_period_pattern": "Annual call opens in June and closes after approximately 30 days",
+          "second_year_entry": "Requires B2 English and recognition of at least 50% of first-year ECTS; subject to available places",
+          "third_year_entry": "Requires B2 English and recognition of at least 67% of first- and second-year ECTS; subject to available places"
+        },
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-PADUA-FOOD-SAFETY-CREDITS-2027"
+        ],
+        "notes": "This page concerns transfer or advanced-year credit recognition, not first-year admission. The course regulation is not yet linked, and these general criteria are not confirmed as final 2027/28 rules."
+      },
+      "program_contact": {
+        "value": {
+          "academic_and_international_enquiries": "cdl.foodsafety@unipd.it"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADUA-FOOD-SAFETY-CONTACT-2027"
+        ],
+        "notes": "The Department contact page lists this email for academic enquiries and for its International Desk contact; it is a contact route, not confirmation of intake or admission terms."
+      },
       "scholarship_call_details_2027_2028": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
@@ -42650,6 +42733,12 @@
     "source_ids": [
       "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
       "SRC-PADUA-INTL-2027",
+      "SRC-PADUA-FOOD-SAFETY-PROFILE-2027",
+      "SRC-PADUA-FOOD-SAFETY-APPLY-2027",
+      "SRC-PADUA-FOOD-SAFETY-OUTLINE-2027",
+      "SRC-PADUA-FOOD-SAFETY-OFA-2026-27",
+      "SRC-PADUA-FOOD-SAFETY-CONTACT-2027",
+      "SRC-PADUA-FOOD-SAFETY-CREDITS-2027",
       "SRC-PADUA-TUITION-2026",
       "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
       "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
