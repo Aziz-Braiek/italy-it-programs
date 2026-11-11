@@ -189,9 +189,33 @@ SOURCES = [
         "id": "SRC-UNIBO-CLABE-PROFILE-2026",
         "university_id": "bologna", "title": "Business and Economics (CLaBE) – official degree profile",
         "url": "https://corsi.unibo.it/1cycle/CLaBE/Presentation",
-        "source_type": "Official degree programme profile", "accessed_at": "2026-11-10", "cycle": "2026-2027",
-        "evidence": "Identifies CLaBE as a three-year first-cycle degree taught entirely in English and open to Italian and international students; its enrolment information identifies programme code 6609.",
+        "source_type": "Official degree programme profile", "accessed_at": "2026-11-11", "cycle": "2026-2027",
+        "evidence": "Checked 11 November 2026: identifies CLaBE as a three-year first-cycle degree taught entirely in English and open to Italian and international students; the profile directs applicants to the annual official call.",
         "supports": ["program.name", "program.level", "program.language", "program.location"],
+    },
+    {
+        "id": "SRC-UNIBO-CLABE-ADMISSIONS-2026",
+        "university_id": "bologna", "title": "Business and Economics (CLaBE) – current admission page",
+        "url": "https://corsi.unibo.it/1cycle/CLaBE/how-to-enrol",
+        "source_type": "Official programme admission page", "accessed_at": "2026-11-11", "cycle": "2026-2027",
+        "evidence": "Checked 11 November 2026: links only the expired 2026/27 selection call and gives a current selection summary, including a 190-place cap (special-programme places included), a SAT entrance test and matriculation information for the 2026/27 cohort. It does not link a 2027/28 incoming-student call.",
+        "supports": ["program.previous_cycle_application_route", "program.previous_cycle_seats", "program.previous_cycle_admission"],
+    },
+    {
+        "id": "SRC-UNIBO-CLABE-CALL-2026",
+        "university_id": "bologna", "title": "Business and Economics (CLaBE) – 2026/27 admission call (English translation)",
+        "url": "https://corsi.unibo.it/s/3394/p/en/enrolling-clabe/clabe-clame-call-for-applications-2025_26-1.pdf/@@download/file/CLABE-CLAME%20Call%20for%20Applications%202025_26%20(1).pdf",
+        "source_type": "Official English translation of 2026/27 admission call PDF", "accessed_at": "2026-11-11", "cycle": "2026-2027",
+        "evidence": "The 21-page English translation names Business and Economics (CLaBE), code 6609, L-18, for AY 2026/27. It gives two regular SAT selection intakes plus a possible third, 177 regular places plus 13 special-programme places, a €20 non-refundable application fee, secondary-school eligibility and at least B2 English. The Italian call prevails for legal interpretation. Historical evidence only; it does not confirm the 2027/28 call or terms.",
+        "supports": ["program.previous_cycle_course_listing", "program.previous_cycle_application_windows", "program.previous_cycle_admission", "program.previous_cycle_application_fee", "program.previous_cycle_seats"],
+    },
+    {
+        "id": "SRC-UNIBO-CLABE-NOTICE-BOARD-2026",
+        "university_id": "bologna", "title": "Business and Economics (CLaBE) – current notice board",
+        "url": "https://corsi.unibo.it/1cycle/CLaBE/notice-board",
+        "source_type": "Official degree programme notice board", "accessed_at": "2026-11-11", "cycle": "general",
+        "evidence": "Checked 11 November 2026: the board's 2027/28 Overseas reference is a study-mobility call for current students, not a first-year CLaBE admission call. The admission page separately links only its expired 2026/27 call.",
+        "supports": ["program.cycle_marker_scope", "program.mobility_not_admission"],
     },
     {
         "id": "SRC-UNIBO-CLEF-PROFILE-2026",
@@ -349,8 +373,8 @@ SOURCES = [
         "id": "SRC-UNIBO-CLABE-PROGRAM-CODE-2026",
         "university_id": "bologna", "title": "Business and Economics – official course code and programme profile",
         "url": "https://corsi.unibo.it/1cycle/CLaBE/prospects",
-        "source_type": "Official degree programme page", "accessed_at": "2026-11-10", "cycle": "2026-2027",
-        "evidence": "Names the active Business and Economics degree (CLaBE) and its current course codes; verifies identity without confirming the next academic year's admission call.",
+        "source_type": "Official degree programme page", "accessed_at": "2026-11-11", "cycle": "2026-2027",
+        "evidence": "Checked 11 November 2026: identifies the active Business and Economics degree (CLaBE), tells prospective students to use code 6609, and distinguishes the code assigned after enrolment; verifies course identity without confirming 2027/28 entry.",
         "supports": ["program.corrected_identity", "program.previous_cycle_course_listing"],
     },
     {
@@ -1239,6 +1263,12 @@ BATCH18 = {
     "result": "Rechecked the University of Bologna Mechanical Engineering for Sustainability profile, admission page, 2026/27 call and current notice board. The profile confirms the English-taught LM-33 MSc in Forlì, open access with assessment. The 2026/27 call gives three applicant-group-specific rounds, including a non-EU-abroad intake (11 December 2025–27 January 2026), a second round (2 February–1 April 2026), and a third round (1 June–10 September 2026); the call is expired. It requires relevant degrees and credits (18 ECTS mathematics/computing, 12 physics, 18 mechanical engineering), English B2, and an online preparation interview, with an interview exemption for a specified Italian L-9 Mechanical Engineering degree. The generic enrolment page additionally says Italian B2 is required, while the named 2026/27 call lists English B2 only; this discrepancy is documented as unresolved. The current notice board's 2027/28 reference is an Overseas mobility call for existing students, not new-entry admissions. Fresh no-cache GETs returned HTTP 200 for profile, admissions, call PDF and notice board; the 2027/28 intake, dates, requirements and tuition remain unconfirmed.",
 }
 
+BATCH19 = {
+    "id": "unibo-clabe-2026-27-sat-call-and-next-cycle-review",
+    "status": "partial",
+    "result": "Rechecked the CLaBE profile, course-code page, admission page, linked English 2026/27 call and notice board. Confirmed Business and Economics (CLaBE) is a three-year English-taught Bologna BSc, L-18, prospective-student code 6609. The linked 2026/27 call has two regular SAT-selection intakes and a possible third if places remain, 177 regular seats plus 13 special-programme seats, and a non-refundable €20 fee valid across that call's intakes. The current page links only that expired 2026/27 call. The notice board's 2027/28 reference is Overseas study mobility for current students, not first-year CLaBE admission; 2027/28 intake, dates, seats, SAT thresholds, fee, tuition and aid remain unconfirmed. The PDF is an adapted English translation and states that the Italian call prevails for legal interpretation. Fresh no-cache GETs returned HTTP 200 for all five reviewed pages (283,165; 288,734; 363,283; 601,090; and 296,126 bytes).",
+}
+
 SOURCE_RECHECKS = {
     "SRC-UNIBO-AI-PROFILE-2026": {
         "accessed_at": "2026-11-11",
@@ -1458,6 +1488,129 @@ SOURCE_RECHECKS = {
     },
 }
 
+SOURCE_RECHECKS.update({
+    "SRC-UNIBO-CLABE-PROFILE-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200,
+            "effective_url": "https://corsi.unibo.it/1cycle/CLaBE/Presentation",
+            "content_type": "text/html;charset=utf-8",
+            "content_length_header": None,
+            "etag": None,
+            "last_modified": None,
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "47",
+            "x_vercel_cache": None,
+            "x_vercel_id": None,
+            "location": None,
+            "observed_title": "Presentation — Business and Economics - Laurea - Bologna",
+            "pdf_signature": None,
+            "has_2027_marker": False,
+            "bytes_read": 283165,
+            "outcome": "accessible",
+            "error": None,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)",
+        },
+    },
+    "SRC-UNIBO-CLABE-PROGRAM-CODE-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200,
+            "effective_url": "https://corsi.unibo.it/1cycle/CLaBE/prospects",
+            "content_type": "text/html;charset=utf-8",
+            "content_length_header": None,
+            "etag": None,
+            "last_modified": None,
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "47",
+            "x_vercel_cache": None,
+            "x_vercel_id": None,
+            "location": None,
+            "observed_title": "Prospects — Business and Economics - Laurea - Bologna",
+            "pdf_signature": None,
+            "has_2027_marker": False,
+            "bytes_read": 288734,
+            "outcome": "accessible",
+            "error": None,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)",
+        },
+    },
+    "SRC-UNIBO-CLABE-ADMISSIONS-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200,
+            "effective_url": "https://corsi.unibo.it/1cycle/CLaBE/how-to-enrol",
+            "content_type": "text/html;charset=utf-8",
+            "content_length_header": None,
+            "etag": None,
+            "last_modified": None,
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "43",
+            "x_vercel_cache": None,
+            "x_vercel_id": None,
+            "location": None,
+            "observed_title": "Programme enrolment: requirements, deadlines and methods — Business and Economics - Laurea - Bologna",
+            "pdf_signature": None,
+            "has_2027_marker": False,
+            "bytes_read": 363283,
+            "outcome": "accessible",
+            "error": None,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)",
+        },
+    },
+    "SRC-UNIBO-CLABE-CALL-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200,
+            "effective_url": "https://corsi.unibo.it/s/3394/p/en/enrolling-clabe/clabe-clame-call-for-applications-2025_26-1.pdf/@@download/file/CLABE-CLAME%20Call%20for%20Applications%202025_26%20(1).pdf",
+            "content_type": "application/pdf",
+            "content_length_header": None,
+            "etag": None,
+            "last_modified": None,
+            "cache_control": None,
+            "age": None,
+            "x_vercel_cache": None,
+            "x_vercel_id": None,
+            "location": None,
+            "observed_title": None,
+            "pdf_signature": True,
+            "has_2027_marker": True,
+            "bytes_read": 601090,
+            "outcome": "accessible",
+            "error": None,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)",
+        },
+    },
+    "SRC-UNIBO-CLABE-NOTICE-BOARD-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200,
+            "effective_url": "https://corsi.unibo.it/1cycle/CLaBE/notice-board",
+            "content_type": "text/html;charset=utf-8",
+            "content_length_header": None,
+            "etag": None,
+            "last_modified": None,
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "3143",
+            "x_vercel_cache": None,
+            "x_vercel_id": None,
+            "location": None,
+            "observed_title": "Notice board — Business and Economics - Laurea - Bologna",
+            "pdf_signature": None,
+            "has_2027_marker": True,
+            "bytes_read": 296126,
+            "outcome": "accessible",
+            "error": None,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)",
+        },
+    },
+})
+
 
 def _fact(value: Any, status: str, source_ids: list[str], notes: str | None = None) -> dict[str, Any]:
     return {"value": value, "status": status, "source_ids": source_ids, "notes": notes}
@@ -1542,7 +1695,7 @@ def apply_legacy_course_reviews(programs: list[dict[str, Any]], fact: Callable[.
         ("legacy-021", "Digital Humanities and Digital Knowledge", "MSc", "English", "Digital Humanities", ["SRC-UNIBO-DHDK-PROFILE-2026", "SRC-UNIBO-DHDK-ADMISSIONS-2026", "SRC-UNIBO-DHDK-CALL-2026"]),
         ("legacy-022", "Statistics, Economics and Business — Business Analytics curriculum", "MSc", "English", "Statistics and Business Analytics", ["SRC-UNIBO-BA-CURRICULUM-2026", "SRC-UNIBO-BA-CURRICULUM-PARENT-2026", "SRC-UNIBO-BA-BBS-2026"], "Bologna", "Curriculum within the parent MSc; not a separate degree programme"),
         ("legacy-024", "Mechanical Engineering for Sustainability", "MSc", "English", "Mechanical Engineering and Sustainability", ["SRC-UNIBO-MES-PROFILE-2026", "SRC-UNIBO-MES-ADMISSIONS-2026", "SRC-UNIBO-MES-CALL-2026", "SRC-UNIBO-MES-NOTICE-BOARD-2026"], "Forlì"),
-        ("legacy-025", "Business and Economics (CLaBE)", "BSc", "English", "Business and Economics", ["SRC-UNIBO-CLABE-PROFILE-2026", "SRC-UNIBO-CLABE-PROGRAM-CODE-2026"]),
+        ("legacy-025", "Business and Economics (CLaBE)", "BSc", "English", "Business and Economics", ["SRC-UNIBO-CLABE-PROFILE-2026", "SRC-UNIBO-CLABE-PROGRAM-CODE-2026", "SRC-UNIBO-CLABE-ADMISSIONS-2026", "SRC-UNIBO-CLABE-CALL-2026", "SRC-UNIBO-CLABE-NOTICE-BOARD-2026"]),
         ("legacy-026", "Economics and Finance (CLEF)", "BSc", "English", "Economics and Finance", ["SRC-UNIBO-CLEF-PROFILE-2026", "SRC-UNIBO-CLEF-ADMISSIONS-2026"]),
         ("legacy-027", "Medicine and Surgery (English-taught single-cycle degree)", "Single-cycle Master's (LM-41)", "English", "Medicine and Surgery", ["SRC-UNIBO-MED-EN-PROFILE-2026", "SRC-UNIBO-MED-EN-2026-CALL"]),
         ("legacy-028", "Business Management — Green Management and Sustainable Businesses (BBS professional-master track)", "Professional Master's track", "English", "Sustainable Business and Green Management", ["SRC-UNIBO-BBS-GREEN-MGMT-2026"], "Bologna", "Professional Master's concentration; not a separate MSc/Laurea Magistrale"),
@@ -1637,6 +1790,49 @@ def apply_legacy_course_reviews(programs: list[dict[str, Any]], fact: Callable[.
         "This 2027/28 notice concerns outgoing study mobility, not admission to the MSc for a new 2027/28 cohort. The programme admission page still links only the 2026/27 call.",
     )
     mes["last_checked"] = "2026-11-11"
+
+    clabe_sources = ["SRC-UNIBO-CLABE-PROFILE-2026", "SRC-UNIBO-CLABE-PROGRAM-CODE-2026", "SRC-UNIBO-CLABE-ADMISSIONS-2026", "SRC-UNIBO-CLABE-CALL-2026", "SRC-UNIBO-CLABE-NOTICE-BOARD-2026"]
+    prior(by_id["legacy-025"], official_name="Business and Economics (CLaBE)", level="BSc", language="English",
+          field="Business and Economics", source_ids=clabe_sources, city="Bologna",
+          cycle="2026-2027", checked_at="2026-11-11")
+    clabe = by_id["legacy-025"]
+    clabe_call = "SRC-UNIBO-CLABE-CALL-2026"
+    clabe_notice = "SRC-UNIBO-CLABE-NOTICE-BOARD-2026"
+    clabe["facts"]["previous_cycle_course_listing"] = _fact(
+        {"academic_year":"2026/27", "official_name":"Business and Economics (CLaBE)", "course_code":"6609 for prospective students", "degree_class":"L-18", "level":"BSc", "duration_years":3, "language":"English", "campus":"Bologna", "access":"Limited enrolment through SAT selection"},
+        "CONFIRMED", ["SRC-UNIBO-CLABE-PROFILE-2026", "SRC-UNIBO-CLABE-PROGRAM-CODE-2026", clabe_call],
+        "Course identity and selection details are for 2026/27 only and do not establish a 2027/28 first-year cohort.",
+    )
+    clabe["facts"]["previous_cycle_application_windows"] = _fact(
+        [
+            {"intake":1, "opening":"2026-02-10", "deadline":"2026-05-04 13:00 local time", "sat_score_received_by":"2026-05-04", "ranking":"2026-05-26", "enrolment_window":["2026-05-29", "2026-06-05"], "scope":"Regular first intake"},
+            {"intake":2, "opening":"2026-05-05", "deadline":"2026-07-03 13:00 local time", "sat_score_received_by":"2026-07-03", "ranking":"2026-07-21", "enrolment_window":["2026-07-24", "2026-07-31"], "scope":"Regular second intake"},
+            {"intake":3, "opening":"2026-09-03", "deadline":"2026-09-11 13:00 local time", "sat_score_received_by":"2026-09-11", "ranking":"2026-09-25", "enrolment_window":["2026-09-29", "2026-10-06"], "scope":"Possible extraordinary intake only if places remain"},
+        ],
+        "CONFIRMED", [clabe_call],
+        "These dates are from the expired 2026/27 call and are not 2027/28 application dates.",
+    )
+    clabe["facts"]["previous_cycle_admission_requirements"] = _fact(
+        {"school_qualification":"Five-year upper-secondary diploma or suitable foreign qualification after at least 12 years of schooling", "entrance_test":"Digital SAT General Test; essay is not required", "english":"At least B2; the call treats taking the SAT in English as satisfying the language requirement", "diploma_deadline":"2026-12-31"},
+        "CONFIRMED", [clabe_call],
+        "Historical 2026/27 entry requirements only. The English call is an adapted translation; the Italian call prevails for legal interpretation. Verify the upcoming 2027/28 call.",
+    )
+    clabe["facts"]["previous_cycle_available_places"] = _fact(
+        {"regular_places":177, "special_programme_places":13, "total_including_special_programmes":190, "regular_intake_1":{"eu_or_equivalent":85,"non_eu_abroad":32}, "regular_intake_2":{"eu_or_equivalent":60,"plus_residual_from_intake_1":True}, "possible_intake_3":"Residual places only"},
+        "CONFIRMED", [clabe_call],
+        "The 177 regular positions plus 13 special-programme positions are the AY 2026/27 allocation, not a 2027/28 seat count.",
+    )
+    clabe["facts"]["application_fee_2026_2027"] = _fact(
+        {"amount_eur":20, "refundable":False, "valid_for":"All intakes within the same 2026/27 call"},
+        "CONFIRMED", [clabe_call],
+        "Historical 2026/27 application fee only; do not carry it forward to 2027/28.",
+    )
+    clabe["facts"]["current_notice_board_2027_2028_mobility"] = _fact(
+        {"notice":"Bando Overseas – study mobility AY 2027/28", "audience":"Current first- and second-year students and graduates", "incoming_first_year_admission":False},
+        "CONFIRMED", [clabe_notice],
+        "The 2027/28 reference concerns outgoing study mobility, not admission of new students to CLaBE. The programme admission page still links the expired 2026/27 call.",
+    )
+    clabe["last_checked"] = "2026-11-11"
 
     business_analytics = by_id["legacy-022"]
     business_analytics_sources = ["SRC-UNIBO-BA-CURRICULUM-2026", "SRC-UNIBO-BA-CURRICULUM-PARENT-2026", "SRC-UNIBO-BA-BBS-2026"]

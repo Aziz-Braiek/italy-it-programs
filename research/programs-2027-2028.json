@@ -4709,7 +4709,10 @@
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
         "SRC-UNIBO-CLABE-PROFILE-2026",
-        "SRC-UNIBO-CLABE-PROGRAM-CODE-2026"
+        "SRC-UNIBO-CLABE-PROGRAM-CODE-2026",
+        "SRC-UNIBO-CLABE-ADMISSIONS-2026",
+        "SRC-UNIBO-CLABE-CALL-2026",
+        "SRC-UNIBO-CLABE-NOTICE-BOARD-2026"
       ],
       "notes": "Official course identity is confirmed for the 2026/2027 catalogue; this value is not promoted to 2027/28 without a named-cycle source."
     },
@@ -4718,7 +4721,10 @@
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
         "SRC-UNIBO-CLABE-PROFILE-2026",
-        "SRC-UNIBO-CLABE-PROGRAM-CODE-2026"
+        "SRC-UNIBO-CLABE-PROGRAM-CODE-2026",
+        "SRC-UNIBO-CLABE-ADMISSIONS-2026",
+        "SRC-UNIBO-CLABE-CALL-2026",
+        "SRC-UNIBO-CLABE-NOTICE-BOARD-2026"
       ],
       "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
     },
@@ -4727,7 +4733,10 @@
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
         "SRC-UNIBO-CLABE-PROFILE-2026",
-        "SRC-UNIBO-CLABE-PROGRAM-CODE-2026"
+        "SRC-UNIBO-CLABE-PROGRAM-CODE-2026",
+        "SRC-UNIBO-CLABE-ADMISSIONS-2026",
+        "SRC-UNIBO-CLABE-CALL-2026",
+        "SRC-UNIBO-CLABE-NOTICE-BOARD-2026"
       ],
       "notes": "Course subject identity is based on current official profile/catalogue evidence; next-cycle catalogue not yet verified."
     },
@@ -4736,85 +4745,218 @@
       "status": "NOT_YET_PUBLISHED",
       "source_ids": [
         "SRC-UNIBO-CLABE-PROFILE-2026",
-        "SRC-UNIBO-CLABE-PROGRAM-CODE-2026"
+        "SRC-UNIBO-CLABE-PROGRAM-CODE-2026",
+        "SRC-UNIBO-CLABE-ADMISSIONS-2026",
+        "SRC-UNIBO-CLABE-CALL-2026",
+        "SRC-UNIBO-CLABE-NOTICE-BOARD-2026"
       ],
-      "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued."
+      "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-11. This does not mean discontinued."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
     "facts": {
       "previous_cycle_course_listing": {
         "value": {
-          "academic_year": "2026/2027",
+          "academic_year": "2026/27",
           "official_name": "Business and Economics (CLaBE)",
+          "course_code": "6609 for prospective students",
+          "degree_class": "L-18",
           "level": "BSc",
-          "language": "English"
+          "duration_years": 3,
+          "language": "English",
+          "campus": "Bologna",
+          "access": "Limited enrolment through SAT selection"
         },
         "status": "CONFIRMED",
         "source_ids": [
           "SRC-UNIBO-CLABE-PROFILE-2026",
-          "SRC-UNIBO-CLABE-PROGRAM-CODE-2026"
+          "SRC-UNIBO-CLABE-PROGRAM-CODE-2026",
+          "SRC-UNIBO-CLABE-CALL-2026"
         ],
-        "notes": "Official course profile/catalogue evidence is cycle-scoped to 2026/2027 and does not establish 2027/28 first-year admission."
+        "notes": "Course identity and selection details are for 2026/27 only and do not establish a 2027/28 first-year cohort."
       },
       "application_windows": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
           "SRC-UNIBO-CLABE-PROFILE-2026",
-          "SRC-UNIBO-CLABE-PROGRAM-CODE-2026"
+          "SRC-UNIBO-CLABE-PROGRAM-CODE-2026",
+          "SRC-UNIBO-CLABE-ADMISSIONS-2026",
+          "SRC-UNIBO-CLABE-CALL-2026",
+          "SRC-UNIBO-CLABE-NOTICE-BOARD-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates."
+        "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-11; do not reuse 2026/27 dates."
       },
       "application_fee_2027_2028": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
           "SRC-UNIBO-CLABE-PROFILE-2026",
-          "SRC-UNIBO-CLABE-PROGRAM-CODE-2026"
+          "SRC-UNIBO-CLABE-PROGRAM-CODE-2026",
+          "SRC-UNIBO-CLABE-ADMISSIONS-2026",
+          "SRC-UNIBO-CLABE-CALL-2026",
+          "SRC-UNIBO-CLABE-NOTICE-BOARD-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal."
+        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; check the annual call and application portal."
       },
       "program_specific_requirements_2027_2028": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
           "SRC-UNIBO-CLABE-PROFILE-2026",
-          "SRC-UNIBO-CLABE-PROGRAM-CODE-2026"
+          "SRC-UNIBO-CLABE-PROGRAM-CODE-2026",
+          "SRC-UNIBO-CLABE-ADMISSIONS-2026",
+          "SRC-UNIBO-CLABE-CALL-2026",
+          "SRC-UNIBO-CLABE-NOTICE-BOARD-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only."
+        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; any 2026/27 criteria are historical only."
       },
       "tuition_2027_2028": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
           "SRC-UNIBO-CLABE-PROFILE-2026",
-          "SRC-UNIBO-CLABE-PROGRAM-CODE-2026"
+          "SRC-UNIBO-CLABE-PROGRAM-CODE-2026",
+          "SRC-UNIBO-CLABE-ADMISSIONS-2026",
+          "SRC-UNIBO-CLABE-CALL-2026",
+          "SRC-UNIBO-CLABE-NOTICE-BOARD-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts."
+        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; do not carry forward prior-cycle amounts."
       },
       "scholarships_2027_2028": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
           "SRC-UNIBO-CLABE-PROFILE-2026",
-          "SRC-UNIBO-CLABE-PROGRAM-CODE-2026"
+          "SRC-UNIBO-CLABE-PROGRAM-CODE-2026",
+          "SRC-UNIBO-CLABE-ADMISSIONS-2026",
+          "SRC-UNIBO-CLABE-CALL-2026",
+          "SRC-UNIBO-CLABE-NOTICE-BOARD-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking."
+        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; annual university and regional calls still need checking."
       },
       "acceptance_rate": {
         "value": null,
         "status": "UNAVAILABLE",
         "source_ids": [
           "SRC-UNIBO-CLABE-PROFILE-2026",
-          "SRC-UNIBO-CLABE-PROGRAM-CODE-2026"
+          "SRC-UNIBO-CLABE-PROGRAM-CODE-2026",
+          "SRC-UNIBO-CLABE-ADMISSIONS-2026",
+          "SRC-UNIBO-CLABE-CALL-2026",
+          "SRC-UNIBO-CLABE-NOTICE-BOARD-2026"
         ],
         "notes": "The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred."
+      },
+      "previous_cycle_application_windows": {
+        "value": [
+          {
+            "intake": 1,
+            "opening": "2026-02-10",
+            "deadline": "2026-05-04 13:00 local time",
+            "sat_score_received_by": "2026-05-04",
+            "ranking": "2026-05-26",
+            "enrolment_window": [
+              "2026-05-29",
+              "2026-06-05"
+            ],
+            "scope": "Regular first intake"
+          },
+          {
+            "intake": 2,
+            "opening": "2026-05-05",
+            "deadline": "2026-07-03 13:00 local time",
+            "sat_score_received_by": "2026-07-03",
+            "ranking": "2026-07-21",
+            "enrolment_window": [
+              "2026-07-24",
+              "2026-07-31"
+            ],
+            "scope": "Regular second intake"
+          },
+          {
+            "intake": 3,
+            "opening": "2026-09-03",
+            "deadline": "2026-09-11 13:00 local time",
+            "sat_score_received_by": "2026-09-11",
+            "ranking": "2026-09-25",
+            "enrolment_window": [
+              "2026-09-29",
+              "2026-10-06"
+            ],
+            "scope": "Possible extraordinary intake only if places remain"
+          }
+        ],
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-CLABE-CALL-2026"
+        ],
+        "notes": "These dates are from the expired 2026/27 call and are not 2027/28 application dates."
+      },
+      "previous_cycle_admission_requirements": {
+        "value": {
+          "school_qualification": "Five-year upper-secondary diploma or suitable foreign qualification after at least 12 years of schooling",
+          "entrance_test": "Digital SAT General Test; essay is not required",
+          "english": "At least B2; the call treats taking the SAT in English as satisfying the language requirement",
+          "diploma_deadline": "2026-12-31"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-CLABE-CALL-2026"
+        ],
+        "notes": "Historical 2026/27 entry requirements only. The English call is an adapted translation; the Italian call prevails for legal interpretation. Verify the upcoming 2027/28 call."
+      },
+      "previous_cycle_available_places": {
+        "value": {
+          "regular_places": 177,
+          "special_programme_places": 13,
+          "total_including_special_programmes": 190,
+          "regular_intake_1": {
+            "eu_or_equivalent": 85,
+            "non_eu_abroad": 32
+          },
+          "regular_intake_2": {
+            "eu_or_equivalent": 60,
+            "plus_residual_from_intake_1": true
+          },
+          "possible_intake_3": "Residual places only"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-CLABE-CALL-2026"
+        ],
+        "notes": "The 177 regular positions plus 13 special-programme positions are the AY 2026/27 allocation, not a 2027/28 seat count."
+      },
+      "application_fee_2026_2027": {
+        "value": {
+          "amount_eur": 20,
+          "refundable": false,
+          "valid_for": "All intakes within the same 2026/27 call"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-CLABE-CALL-2026"
+        ],
+        "notes": "Historical 2026/27 application fee only; do not carry it forward to 2027/28."
+      },
+      "current_notice_board_2027_2028_mobility": {
+        "value": {
+          "notice": "Bando Overseas – study mobility AY 2027/28",
+          "audience": "Current first- and second-year students and graduates",
+          "incoming_first_year_admission": false
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-CLABE-NOTICE-BOARD-2026"
+        ],
+        "notes": "The 2027/28 reference concerns outgoing study mobility, not admission of new students to CLaBE. The programme admission page still links the expired 2026/27 call."
       }
     },
     "source_ids": [
       "SRC-UNIBO-CLABE-PROFILE-2026",
-      "SRC-UNIBO-CLABE-PROGRAM-CODE-2026"
+      "SRC-UNIBO-CLABE-PROGRAM-CODE-2026",
+      "SRC-UNIBO-CLABE-ADMISSIONS-2026",
+      "SRC-UNIBO-CLABE-CALL-2026",
+      "SRC-UNIBO-CLABE-NOTICE-BOARD-2026"
     ],
     "previous_tracker_tags": {
       "level": "BSc",
@@ -4829,7 +4971,7 @@
       "cycle": "2026-2027",
       "label": "Official course identity checked for 2026/2027; 2027/28 first-year intake and terms remain unconfirmed"
     },
-    "last_checked": "2026-11-10"
+    "last_checked": "2026-11-11"
   },
   {
     "id": "legacy-026",

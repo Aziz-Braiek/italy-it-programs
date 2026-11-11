@@ -2,7 +2,7 @@
 
 Prepared 2026-11-11 for academic year 2027/28. Review each record against official university pages, calls, portals, regulations, and PDFs.
 
-Snapshot inventory: 34 universities, 209 program records, 585 source records.
+Snapshot inventory: 34 universities, 209 program records, 588 source records.
 
 ## Review rules
 
@@ -2170,7 +2170,10 @@ Official university-level sources:
 - [ ] `SRC-UNIBO-MES-ADMISSIONS-2026` — [Mechanical Engineering for Sustainability – 2026/27 admission page](https://corsi.unibo.it/2cycle/MechanicalEngineering-Forli/how-to-enrol) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-UNIBO-MES-CALL-2026` — [Mechanical Engineering for Sustainability – 2026/27 admission call](https://corsi.unibo.it/s/3427/p/en/programma-enrolment-new/bando-lm-aerospace_ita_2025-26-def-1.pdf/@@download/file/Bando%20LM%20MES%2026-27_ENG.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-UNIBO-MES-NOTICE-BOARD-2026` — [Mechanical Engineering for Sustainability – current notice board](https://corsi.unibo.it/2cycle/MechanicalEngineering-Forli/notice-board) (cycle: general; checked in prior snapshot: 2026-11-11)
-- [ ] `SRC-UNIBO-CLABE-PROFILE-2026` — [Business and Economics (CLaBE) – official degree profile](https://corsi.unibo.it/1cycle/CLaBE/Presentation) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIBO-CLABE-PROFILE-2026` — [Business and Economics (CLaBE) – official degree profile](https://corsi.unibo.it/1cycle/CLaBE/Presentation) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-UNIBO-CLABE-ADMISSIONS-2026` — [Business and Economics (CLaBE) – current admission page](https://corsi.unibo.it/1cycle/CLaBE/how-to-enrol) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-UNIBO-CLABE-CALL-2026` — [Business and Economics (CLaBE) – 2026/27 admission call (English translation)](https://corsi.unibo.it/s/3394/p/en/enrolling-clabe/clabe-clame-call-for-applications-2025_26-1.pdf/@@download/file/CLABE-CLAME%20Call%20for%20Applications%202025_26%20(1).pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-UNIBO-CLABE-NOTICE-BOARD-2026` — [Business and Economics (CLaBE) – current notice board](https://corsi.unibo.it/1cycle/CLaBE/notice-board) (cycle: general; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-UNIBO-CLEF-PROFILE-2026` — [Economics and Finance (CLEF) – official degree profile](https://corsi.unibo.it/1cycle/EconomicsFinance/overview) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-UNIBO-CLEF-ADMISSIONS-2026` — [Economics and Finance – 2026/27 admission notice](https://corsi.unibo.it/s/3394/p/en/enrolling-clef/bando-clef-etac_a-a-2026-2027.pdf/@@download/file/Bando%20CLEF%20-ETAC_a.a.%202026-2027.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-UNIBO-MED-EN-PROFILE-2026` — [Medicine and Surgery – English-taught single-cycle course profile](https://corsi.unibo.it/singlecycle/MedicineAndSurgery/overview) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
@@ -2190,7 +2193,7 @@ Official university-level sources:
 - [ ] `SRC-UNIBO-MED-EN-2026-CALL` — [Medicine and Surgery – English course admission information](https://corsi.unibo.it/singlecycle/MedicineAndSurgery) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026` — [Economia e commercio – official Forlì campus course page](https://corsi.unibo.it/laurea/EconomiaCommercio/sedute-di-laurea) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-UNIBO-REGULAR-COURSES-2026` — [University of Bologna regular degree course catalogue](https://corsi.unibo.it/) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
-- [ ] `SRC-UNIBO-CLABE-PROGRAM-CODE-2026` — [Business and Economics – official course code and programme profile](https://corsi.unibo.it/1cycle/CLaBE/prospects) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIBO-CLABE-PROGRAM-CODE-2026` — [Business and Economics – official course code and programme profile](https://corsi.unibo.it/1cycle/CLaBE/prospects) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-UNIBO-DHDK-CALL-2026` — [Digital Humanities and Digital Knowledge – AY 2026/27 admission call](https://corsi.unibo.it/s/3391/p/en/digital-humanities-and-digital-knowledge-dhdk/call-dhdk-2026.pdf/@@download/file/Call%20DHDK%202026.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-UNIBO-COMM-ADMISSION-2026` — [Scienze della comunicazione – 2026/27 admissions page](https://corsi.unibo.it/laurea/ScienzeComunicazione/iscriversi-al-corso) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-UNIBO-LAW-COURSE-2026` — [Giurisprudenza – 2026/27 programme regulation](https://corsi.unibo.it/magistralecu/Giurisprudenza-Bologna/il-corso/all-e-regolamento-parte-normativa-26-27.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
@@ -2313,20 +2316,23 @@ Currently missing or unpublished fields:
 
 #### Business and Economics (CLaBE) — `legacy-025`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-025/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
-- [ ] `SRC-UNIBO-CLABE-PROGRAM-CODE-2026` — [Business and Economics – official course code and programme profile](https://corsi.unibo.it/1cycle/CLaBE/prospects) (cycle: 2026-2027; prior check: 2026-11-10)
-- [ ] `SRC-UNIBO-CLABE-PROFILE-2026` — [Business and Economics (CLaBE) – official degree profile](https://corsi.unibo.it/1cycle/CLaBE/Presentation) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-UNIBO-CLABE-CALL-2026` — [Business and Economics (CLaBE) – 2026/27 admission call (English translation)](https://corsi.unibo.it/s/3394/p/en/enrolling-clabe/clabe-clame-call-for-applications-2025_26-1.pdf/@@download/file/CLABE-CLAME%20Call%20for%20Applications%202025_26%20(1).pdf) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-UNIBO-CLABE-PROGRAM-CODE-2026` — [Business and Economics – official course code and programme profile](https://corsi.unibo.it/1cycle/CLaBE/prospects) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-UNIBO-CLABE-NOTICE-BOARD-2026` — [Business and Economics (CLaBE) – current notice board](https://corsi.unibo.it/1cycle/CLaBE/notice-board) (cycle: general; prior check: 2026-11-11)
+- [ ] `SRC-UNIBO-CLABE-ADMISSIONS-2026` — [Business and Economics (CLaBE) – current admission page](https://corsi.unibo.it/1cycle/CLaBE/how-to-enrol) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-UNIBO-CLABE-PROFILE-2026` — [Business and Economics (CLaBE) – official degree profile](https://corsi.unibo.it/1cycle/CLaBE/Presentation) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
-  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
-  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
-  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
-  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
-  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-11. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-11; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; annual university and regional calls still need checking.
   - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
 #### Economics and Finance (CLEF) — `legacy-026`
@@ -5209,7 +5215,7 @@ Currently missing or unpublished fields:
 
 ## Source URL recheck results
 
-Checked 570 unique URLs representing 585 source records on 2026-11-11. Unique URL outcomes: {'accessible': 551, 'redirected': 13, 'inconclusive': 5, 'broken': 1}. HTTP 404/410 outcomes are listed as broken; TLS, timeout, and remote-disconnect cases remain inconclusive.
+Checked 573 unique URLs representing 588 source records on 2026-11-11. Unique URL outcomes: {'accessible': 554, 'redirected': 13, 'inconclusive': 5, 'broken': 1}. HTTP 404/410 outcomes are listed as broken; TLS, timeout, and remote-disconnect cases remain inconclusive.
 
 ### Redirected sources
 

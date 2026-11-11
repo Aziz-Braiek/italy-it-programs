@@ -272,6 +272,11 @@
       "result": "Rechecked the University of Bologna Mechanical Engineering for Sustainability profile, admission page, 2026/27 call and current notice board. The profile confirms the English-taught LM-33 MSc in Forlì, open access with assessment. The 2026/27 call gives three applicant-group-specific rounds, including a non-EU-abroad intake (11 December 2025–27 January 2026), a second round (2 February–1 April 2026), and a third round (1 June–10 September 2026); the call is expired. It requires relevant degrees and credits (18 ECTS mathematics/computing, 12 physics, 18 mechanical engineering), English B2, and an online preparation interview, with an interview exemption for a specified Italian L-9 Mechanical Engineering degree. The generic enrolment page additionally says Italian B2 is required, while the named 2026/27 call lists English B2 only; this discrepancy is documented as unresolved. The current notice board's 2027/28 reference is an Overseas mobility call for existing students, not new-entry admissions. Fresh no-cache GETs returned HTTP 200 for profile, admissions, call PDF and notice board; the 2027/28 intake, dates, requirements and tuition remain unconfirmed."
     },
     {
+      "id": "unibo-clabe-2026-27-sat-call-and-next-cycle-review",
+      "status": "partial",
+      "result": "Rechecked the CLaBE profile, course-code page, admission page, linked English 2026/27 call and notice board. Confirmed Business and Economics (CLaBE) is a three-year English-taught Bologna BSc, L-18, prospective-student code 6609. The linked 2026/27 call has two regular SAT-selection intakes and a possible third if places remain, 177 regular seats plus 13 special-programme seats, and a non-refundable €20 fee valid across that call's intakes. The current page links only that expired 2026/27 call. The notice board's 2027/28 reference is Overseas study mobility for current students, not first-year CLaBE admission; 2027/28 intake, dates, seats, SAT thresholds, fee, tuition and aid remain unconfirmed. The PDF is an adapted English translation and states that the Italian call prevails for legal interpretation. Fresh no-cache GETs returned HTTP 200 for all five reviewed pages (283,165; 288,734; 363,283; 601,090; and 296,126 bytes)."
+    },
+    {
       "id": "claude-independent-review-inventory",
       "status": "complete",
       "result": "Created a review manifest and checklist covering all 34 universities, 193 programs, and 454 existing official source records. The checklist exposes current unresolved fields and conflicts; all refresh outcomes remain pending until evidence is checked."
@@ -577,8 +582,8 @@
       "trento",
       "udine"
     ],
-    "source_records": 585,
-    "official_source_supported_fields": 1245,
+    "source_records": 588,
+    "official_source_supported_fields": 1250,
     "verification_statuses": [
       "CONFIRMED",
       "NOT_YET_PUBLISHED",

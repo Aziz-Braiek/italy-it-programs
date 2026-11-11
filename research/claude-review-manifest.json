@@ -9,15 +9,15 @@
     "counts": {
       "universities": 34,
       "programs": 209,
-      "sources": 585
+      "sources": 588
     },
     "previous_snapshot_inconclusive_url_checks": "The prior audit reported approximately 100 inconclusive checks. This refresh rechecked every unique URL and preserves the response by source record below.",
     "current_url_audit": {
       "checked_at": "2026-11-11",
-      "source_records": 585,
-      "unique_urls_checked": 570,
+      "source_records": 588,
+      "unique_urls_checked": 573,
       "unique_url_outcomes": {
-        "accessible": 551,
+        "accessible": 554,
         "redirected": 13,
         "inconclusive": 5,
         "broken": 1
@@ -9369,6 +9369,9 @@
         "SRC-UNIBO-MES-CALL-2026",
         "SRC-UNIBO-MES-NOTICE-BOARD-2026",
         "SRC-UNIBO-CLABE-PROFILE-2026",
+        "SRC-UNIBO-CLABE-ADMISSIONS-2026",
+        "SRC-UNIBO-CLABE-CALL-2026",
+        "SRC-UNIBO-CLABE-NOTICE-BOARD-2026",
         "SRC-UNIBO-CLEF-PROFILE-2026",
         "SRC-UNIBO-CLEF-ADMISSIONS-2026",
         "SRC-UNIBO-MED-EN-PROFILE-2026",
@@ -9990,8 +9993,8 @@
           "url": "https://corsi.unibo.it/1cycle/CLaBE/Presentation",
           "source_type": "Official degree programme profile",
           "cycle": "2026-2027",
-          "accessed_at": "2026-11-10",
-          "evidence": "Identifies CLaBE as a three-year first-cycle degree taught entirely in English and open to Italian and international students; its enrolment information identifies programme code 6609.",
+          "accessed_at": "2026-11-11",
+          "evidence": "Checked 11 November 2026: identifies CLaBE as a three-year first-cycle degree taught entirely in English and open to Italian and international students; the profile directs applicants to the annual official call.",
           "supports": [
             "program.name",
             "program.level",
@@ -10006,19 +10009,131 @@
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
-            "cache_control": "max-age=0, s-maxage=0, must-revalidate",
-            "age": "0",
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "47",
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
             "observed_title": "Presentation — Business and Economics - Laurea - Bologna",
             "pdf_signature": null,
             "has_2027_marker": false,
-            "bytes_read": 131072,
+            "bytes_read": 283165,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
-            "method": "GET"
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-UNIBO-CLABE-ADMISSIONS-2026",
+          "title": "Business and Economics (CLaBE) – current admission page",
+          "url": "https://corsi.unibo.it/1cycle/CLaBE/how-to-enrol",
+          "source_type": "Official programme admission page",
+          "cycle": "2026-2027",
+          "accessed_at": "2026-11-11",
+          "evidence": "Checked 11 November 2026: links only the expired 2026/27 selection call and gives a current selection summary, including a 190-place cap (special-programme places included), a SAT entrance test and matriculation information for the 2026/27 cohort. It does not link a 2027/28 incoming-student call.",
+          "supports": [
+            "program.previous_cycle_application_route",
+            "program.previous_cycle_seats",
+            "program.previous_cycle_admission"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://corsi.unibo.it/1cycle/CLaBE/how-to-enrol",
+            "content_type": "text/html;charset=utf-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "43",
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Programme enrolment: requirements, deadlines and methods — Business and Economics - Laurea - Bologna",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 363283,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-UNIBO-CLABE-CALL-2026",
+          "title": "Business and Economics (CLaBE) – 2026/27 admission call (English translation)",
+          "url": "https://corsi.unibo.it/s/3394/p/en/enrolling-clabe/clabe-clame-call-for-applications-2025_26-1.pdf/@@download/file/CLABE-CLAME%20Call%20for%20Applications%202025_26%20(1).pdf",
+          "source_type": "Official English translation of 2026/27 admission call PDF",
+          "cycle": "2026-2027",
+          "accessed_at": "2026-11-11",
+          "evidence": "The 21-page English translation names Business and Economics (CLaBE), code 6609, L-18, for AY 2026/27. It gives two regular SAT selection intakes plus a possible third, 177 regular places plus 13 special-programme places, a €20 non-refundable application fee, secondary-school eligibility and at least B2 English. The Italian call prevails for legal interpretation. Historical evidence only; it does not confirm the 2027/28 call or terms.",
+          "supports": [
+            "program.previous_cycle_course_listing",
+            "program.previous_cycle_application_windows",
+            "program.previous_cycle_admission",
+            "program.previous_cycle_application_fee",
+            "program.previous_cycle_seats"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://corsi.unibo.it/s/3394/p/en/enrolling-clabe/clabe-clame-call-for-applications-2025_26-1.pdf/@@download/file/CLABE-CLAME%20Call%20for%20Applications%202025_26%20(1).pdf",
+            "content_type": "application/pdf",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": null,
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": null,
+            "pdf_signature": true,
+            "has_2027_marker": true,
+            "bytes_read": 601090,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-UNIBO-CLABE-NOTICE-BOARD-2026",
+          "title": "Business and Economics (CLaBE) – current notice board",
+          "url": "https://corsi.unibo.it/1cycle/CLaBE/notice-board",
+          "source_type": "Official degree programme notice board",
+          "cycle": "general",
+          "accessed_at": "2026-11-11",
+          "evidence": "Checked 11 November 2026: the board's 2027/28 Overseas reference is a study-mobility call for current students, not a first-year CLaBE admission call. The admission page separately links only its expired 2026/27 call.",
+          "supports": [
+            "program.cycle_marker_scope",
+            "program.mobility_not_admission"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://corsi.unibo.it/1cycle/CLaBE/notice-board",
+            "content_type": "text/html;charset=utf-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "3143",
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Notice board — Business and Economics - Laurea - Bologna",
+            "pdf_signature": null,
+            "has_2027_marker": true,
+            "bytes_read": 296126,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)"
           },
           "browser_check": null
         },
@@ -10753,8 +10868,8 @@
           "url": "https://corsi.unibo.it/1cycle/CLaBE/prospects",
           "source_type": "Official degree programme page",
           "cycle": "2026-2027",
-          "accessed_at": "2026-11-10",
-          "evidence": "Names the active Business and Economics degree (CLaBE) and its current course codes; verifies identity without confirming the next academic year's admission call.",
+          "accessed_at": "2026-11-11",
+          "evidence": "Checked 11 November 2026: identifies the active Business and Economics degree (CLaBE), tells prospective students to use code 6609, and distinguishes the code assigned after enrolment; verifies course identity without confirming 2027/28 entry.",
           "supports": [
             "program.corrected_identity",
             "program.previous_cycle_course_listing"
@@ -10767,19 +10882,19 @@
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
-            "cache_control": "max-age=0, s-maxage=0, must-revalidate",
-            "age": "4160",
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "47",
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
             "observed_title": "Prospects — Business and Economics - Laurea - Bologna",
             "pdf_signature": null,
             "has_2027_marker": false,
-            "bytes_read": 131072,
+            "bytes_read": 288734,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
-            "method": "GET"
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)"
           },
           "browser_check": null
         },
@@ -59305,7 +59420,10 @@
         "status": "REQUIRES_VERIFICATION",
         "source_ids": [
           "SRC-UNIBO-CLABE-PROFILE-2026",
-          "SRC-UNIBO-CLABE-PROGRAM-CODE-2026"
+          "SRC-UNIBO-CLABE-PROGRAM-CODE-2026",
+          "SRC-UNIBO-CLABE-ADMISSIONS-2026",
+          "SRC-UNIBO-CLABE-CALL-2026",
+          "SRC-UNIBO-CLABE-NOTICE-BOARD-2026"
         ],
         "notes": "Official course identity is confirmed for the 2026/2027 catalogue; this value is not promoted to 2027/28 without a named-cycle source."
       },
@@ -59314,7 +59432,10 @@
         "status": "REQUIRES_VERIFICATION",
         "source_ids": [
           "SRC-UNIBO-CLABE-PROFILE-2026",
-          "SRC-UNIBO-CLABE-PROGRAM-CODE-2026"
+          "SRC-UNIBO-CLABE-PROGRAM-CODE-2026",
+          "SRC-UNIBO-CLABE-ADMISSIONS-2026",
+          "SRC-UNIBO-CLABE-CALL-2026",
+          "SRC-UNIBO-CLABE-NOTICE-BOARD-2026"
         ],
         "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
       },
@@ -59322,13 +59443,52 @@
       "university_page_url": "https://italy-it-programs.vercel.app/universities/bologna/",
       "official_program_source_urls": [
         {
+          "id": "SRC-UNIBO-CLABE-CALL-2026",
+          "title": "Business and Economics (CLaBE) – 2026/27 admission call (English translation)",
+          "url": "https://corsi.unibo.it/s/3394/p/en/enrolling-clabe/clabe-clame-call-for-applications-2025_26-1.pdf/@@download/file/CLABE-CLAME%20Call%20for%20Applications%202025_26%20(1).pdf",
+          "source_type": "Official English translation of 2026/27 admission call PDF",
+          "cycle": "2026-2027",
+          "accessed_at": "2026-11-11",
+          "evidence": "The 21-page English translation names Business and Economics (CLaBE), code 6609, L-18, for AY 2026/27. It gives two regular SAT selection intakes plus a possible third, 177 regular places plus 13 special-programme places, a €20 non-refundable application fee, secondary-school eligibility and at least B2 English. The Italian call prevails for legal interpretation. Historical evidence only; it does not confirm the 2027/28 call or terms.",
+          "supports": [
+            "program.previous_cycle_course_listing",
+            "program.previous_cycle_application_windows",
+            "program.previous_cycle_admission",
+            "program.previous_cycle_application_fee",
+            "program.previous_cycle_seats"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://corsi.unibo.it/s/3394/p/en/enrolling-clabe/clabe-clame-call-for-applications-2025_26-1.pdf/@@download/file/CLABE-CLAME%20Call%20for%20Applications%202025_26%20(1).pdf",
+            "content_type": "application/pdf",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": null,
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": null,
+            "pdf_signature": true,
+            "has_2027_marker": true,
+            "bytes_read": 601090,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)"
+          },
+          "browser_check": null
+        },
+        {
           "id": "SRC-UNIBO-CLABE-PROGRAM-CODE-2026",
           "title": "Business and Economics – official course code and programme profile",
           "url": "https://corsi.unibo.it/1cycle/CLaBE/prospects",
           "source_type": "Official degree programme page",
           "cycle": "2026-2027",
-          "accessed_at": "2026-11-10",
-          "evidence": "Names the active Business and Economics degree (CLaBE) and its current course codes; verifies identity without confirming the next academic year's admission call.",
+          "accessed_at": "2026-11-11",
+          "evidence": "Checked 11 November 2026: identifies the active Business and Economics degree (CLaBE), tells prospective students to use code 6609, and distinguishes the code assigned after enrolment; verifies course identity without confirming 2027/28 entry.",
           "supports": [
             "program.corrected_identity",
             "program.previous_cycle_course_listing"
@@ -59341,19 +59501,92 @@
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
-            "cache_control": "max-age=0, s-maxage=0, must-revalidate",
-            "age": "4160",
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "47",
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
             "observed_title": "Prospects — Business and Economics - Laurea - Bologna",
             "pdf_signature": null,
             "has_2027_marker": false,
-            "bytes_read": 131072,
+            "bytes_read": 288734,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
-            "method": "GET"
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-UNIBO-CLABE-NOTICE-BOARD-2026",
+          "title": "Business and Economics (CLaBE) – current notice board",
+          "url": "https://corsi.unibo.it/1cycle/CLaBE/notice-board",
+          "source_type": "Official degree programme notice board",
+          "cycle": "general",
+          "accessed_at": "2026-11-11",
+          "evidence": "Checked 11 November 2026: the board's 2027/28 Overseas reference is a study-mobility call for current students, not a first-year CLaBE admission call. The admission page separately links only its expired 2026/27 call.",
+          "supports": [
+            "program.cycle_marker_scope",
+            "program.mobility_not_admission"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://corsi.unibo.it/1cycle/CLaBE/notice-board",
+            "content_type": "text/html;charset=utf-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "3143",
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Notice board — Business and Economics - Laurea - Bologna",
+            "pdf_signature": null,
+            "has_2027_marker": true,
+            "bytes_read": 296126,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-UNIBO-CLABE-ADMISSIONS-2026",
+          "title": "Business and Economics (CLaBE) – current admission page",
+          "url": "https://corsi.unibo.it/1cycle/CLaBE/how-to-enrol",
+          "source_type": "Official programme admission page",
+          "cycle": "2026-2027",
+          "accessed_at": "2026-11-11",
+          "evidence": "Checked 11 November 2026: links only the expired 2026/27 selection call and gives a current selection summary, including a 190-place cap (special-programme places included), a SAT entrance test and matriculation information for the 2026/27 cohort. It does not link a 2027/28 incoming-student call.",
+          "supports": [
+            "program.previous_cycle_application_route",
+            "program.previous_cycle_seats",
+            "program.previous_cycle_admission"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://corsi.unibo.it/1cycle/CLaBE/how-to-enrol",
+            "content_type": "text/html;charset=utf-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "43",
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Programme enrolment: requirements, deadlines and methods — Business and Economics - Laurea - Bologna",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 363283,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)"
           },
           "browser_check": null
         },
@@ -59363,8 +59596,8 @@
           "url": "https://corsi.unibo.it/1cycle/CLaBE/Presentation",
           "source_type": "Official degree programme profile",
           "cycle": "2026-2027",
-          "accessed_at": "2026-11-10",
-          "evidence": "Identifies CLaBE as a three-year first-cycle degree taught entirely in English and open to Italian and international students; its enrolment information identifies programme code 6609.",
+          "accessed_at": "2026-11-11",
+          "evidence": "Checked 11 November 2026: identifies CLaBE as a three-year first-cycle degree taught entirely in English and open to Italian and international students; the profile directs applicants to the annual official call.",
           "supports": [
             "program.name",
             "program.level",
@@ -59379,19 +59612,19 @@
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
-            "cache_control": "max-age=0, s-maxage=0, must-revalidate",
-            "age": "0",
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "47",
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
             "observed_title": "Presentation — Business and Economics - Laurea - Bologna",
             "pdf_signature": null,
             "has_2027_marker": false,
-            "bytes_read": 131072,
+            "bytes_read": 283165,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
-            "method": "GET"
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)"
           },
           "browser_check": null
         }
@@ -59401,12 +59634,15 @@
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
           "SRC-UNIBO-CLABE-PROFILE-2026",
-          "SRC-UNIBO-CLABE-PROGRAM-CODE-2026"
+          "SRC-UNIBO-CLABE-PROGRAM-CODE-2026",
+          "SRC-UNIBO-CLABE-ADMISSIONS-2026",
+          "SRC-UNIBO-CLABE-CALL-2026",
+          "SRC-UNIBO-CLABE-NOTICE-BOARD-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued."
+        "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-11. This does not mean discontinued."
       },
       "existing_overall_status": "REQUIRES_VERIFICATION",
-      "existing_last_checked": "2026-11-10",
+      "existing_last_checked": "2026-11-11",
       "fields_needing_review": [
         {
           "field": "level",
@@ -59415,7 +59651,10 @@
           "notes": "Official course identity is confirmed for the 2026/2027 catalogue; this value is not promoted to 2027/28 without a named-cycle source.",
           "source_ids": [
             "SRC-UNIBO-CLABE-PROFILE-2026",
-            "SRC-UNIBO-CLABE-PROGRAM-CODE-2026"
+            "SRC-UNIBO-CLABE-PROGRAM-CODE-2026",
+            "SRC-UNIBO-CLABE-ADMISSIONS-2026",
+            "SRC-UNIBO-CLABE-CALL-2026",
+            "SRC-UNIBO-CLABE-NOTICE-BOARD-2026"
           ]
         },
         {
@@ -59425,7 +59664,10 @@
           "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record.",
           "source_ids": [
             "SRC-UNIBO-CLABE-PROFILE-2026",
-            "SRC-UNIBO-CLABE-PROGRAM-CODE-2026"
+            "SRC-UNIBO-CLABE-PROGRAM-CODE-2026",
+            "SRC-UNIBO-CLABE-ADMISSIONS-2026",
+            "SRC-UNIBO-CLABE-CALL-2026",
+            "SRC-UNIBO-CLABE-NOTICE-BOARD-2026"
           ]
         },
         {
@@ -59435,67 +59677,88 @@
           "notes": "Course subject identity is based on current official profile/catalogue evidence; next-cycle catalogue not yet verified.",
           "source_ids": [
             "SRC-UNIBO-CLABE-PROFILE-2026",
-            "SRC-UNIBO-CLABE-PROGRAM-CODE-2026"
+            "SRC-UNIBO-CLABE-PROGRAM-CODE-2026",
+            "SRC-UNIBO-CLABE-ADMISSIONS-2026",
+            "SRC-UNIBO-CLABE-CALL-2026",
+            "SRC-UNIBO-CLABE-NOTICE-BOARD-2026"
           ]
         },
         {
           "field": "availability_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.",
+          "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-11. This does not mean discontinued.",
           "source_ids": [
             "SRC-UNIBO-CLABE-PROFILE-2026",
-            "SRC-UNIBO-CLABE-PROGRAM-CODE-2026"
+            "SRC-UNIBO-CLABE-PROGRAM-CODE-2026",
+            "SRC-UNIBO-CLABE-ADMISSIONS-2026",
+            "SRC-UNIBO-CLABE-CALL-2026",
+            "SRC-UNIBO-CLABE-NOTICE-BOARD-2026"
           ]
         },
         {
           "field": "facts.application_windows",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.",
+          "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-11; do not reuse 2026/27 dates.",
           "source_ids": [
             "SRC-UNIBO-CLABE-PROFILE-2026",
-            "SRC-UNIBO-CLABE-PROGRAM-CODE-2026"
+            "SRC-UNIBO-CLABE-PROGRAM-CODE-2026",
+            "SRC-UNIBO-CLABE-ADMISSIONS-2026",
+            "SRC-UNIBO-CLABE-CALL-2026",
+            "SRC-UNIBO-CLABE-NOTICE-BOARD-2026"
           ]
         },
         {
           "field": "facts.application_fee_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.",
+          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; check the annual call and application portal.",
           "source_ids": [
             "SRC-UNIBO-CLABE-PROFILE-2026",
-            "SRC-UNIBO-CLABE-PROGRAM-CODE-2026"
+            "SRC-UNIBO-CLABE-PROGRAM-CODE-2026",
+            "SRC-UNIBO-CLABE-ADMISSIONS-2026",
+            "SRC-UNIBO-CLABE-CALL-2026",
+            "SRC-UNIBO-CLABE-NOTICE-BOARD-2026"
           ]
         },
         {
           "field": "facts.program_specific_requirements_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.",
+          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; any 2026/27 criteria are historical only.",
           "source_ids": [
             "SRC-UNIBO-CLABE-PROFILE-2026",
-            "SRC-UNIBO-CLABE-PROGRAM-CODE-2026"
+            "SRC-UNIBO-CLABE-PROGRAM-CODE-2026",
+            "SRC-UNIBO-CLABE-ADMISSIONS-2026",
+            "SRC-UNIBO-CLABE-CALL-2026",
+            "SRC-UNIBO-CLABE-NOTICE-BOARD-2026"
           ]
         },
         {
           "field": "facts.tuition_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.",
+          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; do not carry forward prior-cycle amounts.",
           "source_ids": [
             "SRC-UNIBO-CLABE-PROFILE-2026",
-            "SRC-UNIBO-CLABE-PROGRAM-CODE-2026"
+            "SRC-UNIBO-CLABE-PROGRAM-CODE-2026",
+            "SRC-UNIBO-CLABE-ADMISSIONS-2026",
+            "SRC-UNIBO-CLABE-CALL-2026",
+            "SRC-UNIBO-CLABE-NOTICE-BOARD-2026"
           ]
         },
         {
           "field": "facts.scholarships_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.",
+          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; annual university and regional calls still need checking.",
           "source_ids": [
             "SRC-UNIBO-CLABE-PROFILE-2026",
-            "SRC-UNIBO-CLABE-PROGRAM-CODE-2026"
+            "SRC-UNIBO-CLABE-PROGRAM-CODE-2026",
+            "SRC-UNIBO-CLABE-ADMISSIONS-2026",
+            "SRC-UNIBO-CLABE-CALL-2026",
+            "SRC-UNIBO-CLABE-NOTICE-BOARD-2026"
           ]
         },
         {
@@ -59505,7 +59768,10 @@
           "notes": "The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.",
           "source_ids": [
             "SRC-UNIBO-CLABE-PROFILE-2026",
-            "SRC-UNIBO-CLABE-PROGRAM-CODE-2026"
+            "SRC-UNIBO-CLABE-PROGRAM-CODE-2026",
+            "SRC-UNIBO-CLABE-ADMISSIONS-2026",
+            "SRC-UNIBO-CLABE-CALL-2026",
+            "SRC-UNIBO-CLABE-NOTICE-BOARD-2026"
           ]
         }
       ],
@@ -59514,60 +59780,78 @@
           "field": "availability_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.",
+          "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-11. This does not mean discontinued.",
           "source_ids": [
             "SRC-UNIBO-CLABE-PROFILE-2026",
-            "SRC-UNIBO-CLABE-PROGRAM-CODE-2026"
+            "SRC-UNIBO-CLABE-PROGRAM-CODE-2026",
+            "SRC-UNIBO-CLABE-ADMISSIONS-2026",
+            "SRC-UNIBO-CLABE-CALL-2026",
+            "SRC-UNIBO-CLABE-NOTICE-BOARD-2026"
           ]
         },
         {
           "field": "facts.application_windows",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.",
+          "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-11; do not reuse 2026/27 dates.",
           "source_ids": [
             "SRC-UNIBO-CLABE-PROFILE-2026",
-            "SRC-UNIBO-CLABE-PROGRAM-CODE-2026"
+            "SRC-UNIBO-CLABE-PROGRAM-CODE-2026",
+            "SRC-UNIBO-CLABE-ADMISSIONS-2026",
+            "SRC-UNIBO-CLABE-CALL-2026",
+            "SRC-UNIBO-CLABE-NOTICE-BOARD-2026"
           ]
         },
         {
           "field": "facts.application_fee_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.",
+          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; check the annual call and application portal.",
           "source_ids": [
             "SRC-UNIBO-CLABE-PROFILE-2026",
-            "SRC-UNIBO-CLABE-PROGRAM-CODE-2026"
+            "SRC-UNIBO-CLABE-PROGRAM-CODE-2026",
+            "SRC-UNIBO-CLABE-ADMISSIONS-2026",
+            "SRC-UNIBO-CLABE-CALL-2026",
+            "SRC-UNIBO-CLABE-NOTICE-BOARD-2026"
           ]
         },
         {
           "field": "facts.program_specific_requirements_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.",
+          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; any 2026/27 criteria are historical only.",
           "source_ids": [
             "SRC-UNIBO-CLABE-PROFILE-2026",
-            "SRC-UNIBO-CLABE-PROGRAM-CODE-2026"
+            "SRC-UNIBO-CLABE-PROGRAM-CODE-2026",
+            "SRC-UNIBO-CLABE-ADMISSIONS-2026",
+            "SRC-UNIBO-CLABE-CALL-2026",
+            "SRC-UNIBO-CLABE-NOTICE-BOARD-2026"
           ]
         },
         {
           "field": "facts.tuition_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.",
+          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; do not carry forward prior-cycle amounts.",
           "source_ids": [
             "SRC-UNIBO-CLABE-PROFILE-2026",
-            "SRC-UNIBO-CLABE-PROGRAM-CODE-2026"
+            "SRC-UNIBO-CLABE-PROGRAM-CODE-2026",
+            "SRC-UNIBO-CLABE-ADMISSIONS-2026",
+            "SRC-UNIBO-CLABE-CALL-2026",
+            "SRC-UNIBO-CLABE-NOTICE-BOARD-2026"
           ]
         },
         {
           "field": "facts.scholarships_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.",
+          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; annual university and regional calls still need checking.",
           "source_ids": [
             "SRC-UNIBO-CLABE-PROFILE-2026",
-            "SRC-UNIBO-CLABE-PROGRAM-CODE-2026"
+            "SRC-UNIBO-CLABE-PROGRAM-CODE-2026",
+            "SRC-UNIBO-CLABE-ADMISSIONS-2026",
+            "SRC-UNIBO-CLABE-CALL-2026",
+            "SRC-UNIBO-CLABE-NOTICE-BOARD-2026"
           ]
         },
         {
@@ -59577,14 +59861,20 @@
           "notes": "The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.",
           "source_ids": [
             "SRC-UNIBO-CLABE-PROFILE-2026",
-            "SRC-UNIBO-CLABE-PROGRAM-CODE-2026"
+            "SRC-UNIBO-CLABE-PROGRAM-CODE-2026",
+            "SRC-UNIBO-CLABE-ADMISSIONS-2026",
+            "SRC-UNIBO-CLABE-CALL-2026",
+            "SRC-UNIBO-CLABE-NOTICE-BOARD-2026"
           ]
         }
       ],
       "known_source_conflicts": [],
       "source_ids": [
         "SRC-UNIBO-CLABE-PROFILE-2026",
-        "SRC-UNIBO-CLABE-PROGRAM-CODE-2026"
+        "SRC-UNIBO-CLABE-PROGRAM-CODE-2026",
+        "SRC-UNIBO-CLABE-ADMISSIONS-2026",
+        "SRC-UNIBO-CLABE-CALL-2026",
+        "SRC-UNIBO-CLABE-NOTICE-BOARD-2026"
       ],
       "previous_cycle_tags": {
         "level": "BSc",
@@ -122926,8 +123216,8 @@
       "url": "https://corsi.unibo.it/1cycle/CLaBE/Presentation",
       "source_type": "Official degree programme profile",
       "cycle": "2026-2027",
-      "accessed_at": "2026-11-10",
-      "evidence": "Identifies CLaBE as a three-year first-cycle degree taught entirely in English and open to Italian and international students; its enrolment information identifies programme code 6609.",
+      "accessed_at": "2026-11-11",
+      "evidence": "Checked 11 November 2026: identifies CLaBE as a three-year first-cycle degree taught entirely in English and open to Italian and international students; the profile directs applicants to the annual official call.",
       "supports": [
         "program.name",
         "program.level",
@@ -122942,19 +123232,131 @@
         "content_length_header": null,
         "etag": null,
         "last_modified": null,
-        "cache_control": "max-age=0, s-maxage=0, must-revalidate",
-        "age": "0",
+        "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+        "age": "47",
         "x_vercel_cache": null,
         "x_vercel_id": null,
         "location": null,
         "observed_title": "Presentation — Business and Economics - Laurea - Bologna",
         "pdf_signature": null,
         "has_2027_marker": false,
-        "bytes_read": 131072,
+        "bytes_read": 283165,
         "outcome": "accessible",
         "error": null,
-        "checked_at": "2026-11-10",
-        "method": "GET"
+        "checked_at": "2026-11-11",
+        "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)"
+      },
+      "browser_check": null
+    },
+    {
+      "id": "SRC-UNIBO-CLABE-ADMISSIONS-2026",
+      "title": "Business and Economics (CLaBE) – current admission page",
+      "url": "https://corsi.unibo.it/1cycle/CLaBE/how-to-enrol",
+      "source_type": "Official programme admission page",
+      "cycle": "2026-2027",
+      "accessed_at": "2026-11-11",
+      "evidence": "Checked 11 November 2026: links only the expired 2026/27 selection call and gives a current selection summary, including a 190-place cap (special-programme places included), a SAT entrance test and matriculation information for the 2026/27 cohort. It does not link a 2027/28 incoming-student call.",
+      "supports": [
+        "program.previous_cycle_application_route",
+        "program.previous_cycle_seats",
+        "program.previous_cycle_admission"
+      ],
+      "refresh_status": "accessible",
+      "url_check": {
+        "http_status": 200,
+        "effective_url": "https://corsi.unibo.it/1cycle/CLaBE/how-to-enrol",
+        "content_type": "text/html;charset=utf-8",
+        "content_length_header": null,
+        "etag": null,
+        "last_modified": null,
+        "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+        "age": "43",
+        "x_vercel_cache": null,
+        "x_vercel_id": null,
+        "location": null,
+        "observed_title": "Programme enrolment: requirements, deadlines and methods — Business and Economics - Laurea - Bologna",
+        "pdf_signature": null,
+        "has_2027_marker": false,
+        "bytes_read": 363283,
+        "outcome": "accessible",
+        "error": null,
+        "checked_at": "2026-11-11",
+        "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)"
+      },
+      "browser_check": null
+    },
+    {
+      "id": "SRC-UNIBO-CLABE-CALL-2026",
+      "title": "Business and Economics (CLaBE) – 2026/27 admission call (English translation)",
+      "url": "https://corsi.unibo.it/s/3394/p/en/enrolling-clabe/clabe-clame-call-for-applications-2025_26-1.pdf/@@download/file/CLABE-CLAME%20Call%20for%20Applications%202025_26%20(1).pdf",
+      "source_type": "Official English translation of 2026/27 admission call PDF",
+      "cycle": "2026-2027",
+      "accessed_at": "2026-11-11",
+      "evidence": "The 21-page English translation names Business and Economics (CLaBE), code 6609, L-18, for AY 2026/27. It gives two regular SAT selection intakes plus a possible third, 177 regular places plus 13 special-programme places, a €20 non-refundable application fee, secondary-school eligibility and at least B2 English. The Italian call prevails for legal interpretation. Historical evidence only; it does not confirm the 2027/28 call or terms.",
+      "supports": [
+        "program.previous_cycle_course_listing",
+        "program.previous_cycle_application_windows",
+        "program.previous_cycle_admission",
+        "program.previous_cycle_application_fee",
+        "program.previous_cycle_seats"
+      ],
+      "refresh_status": "accessible",
+      "url_check": {
+        "http_status": 200,
+        "effective_url": "https://corsi.unibo.it/s/3394/p/en/enrolling-clabe/clabe-clame-call-for-applications-2025_26-1.pdf/@@download/file/CLABE-CLAME%20Call%20for%20Applications%202025_26%20(1).pdf",
+        "content_type": "application/pdf",
+        "content_length_header": null,
+        "etag": null,
+        "last_modified": null,
+        "cache_control": null,
+        "age": null,
+        "x_vercel_cache": null,
+        "x_vercel_id": null,
+        "location": null,
+        "observed_title": null,
+        "pdf_signature": true,
+        "has_2027_marker": true,
+        "bytes_read": 601090,
+        "outcome": "accessible",
+        "error": null,
+        "checked_at": "2026-11-11",
+        "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)"
+      },
+      "browser_check": null
+    },
+    {
+      "id": "SRC-UNIBO-CLABE-NOTICE-BOARD-2026",
+      "title": "Business and Economics (CLaBE) – current notice board",
+      "url": "https://corsi.unibo.it/1cycle/CLaBE/notice-board",
+      "source_type": "Official degree programme notice board",
+      "cycle": "general",
+      "accessed_at": "2026-11-11",
+      "evidence": "Checked 11 November 2026: the board's 2027/28 Overseas reference is a study-mobility call for current students, not a first-year CLaBE admission call. The admission page separately links only its expired 2026/27 call.",
+      "supports": [
+        "program.cycle_marker_scope",
+        "program.mobility_not_admission"
+      ],
+      "refresh_status": "accessible",
+      "url_check": {
+        "http_status": 200,
+        "effective_url": "https://corsi.unibo.it/1cycle/CLaBE/notice-board",
+        "content_type": "text/html;charset=utf-8",
+        "content_length_header": null,
+        "etag": null,
+        "last_modified": null,
+        "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+        "age": "3143",
+        "x_vercel_cache": null,
+        "x_vercel_id": null,
+        "location": null,
+        "observed_title": "Notice board — Business and Economics - Laurea - Bologna",
+        "pdf_signature": null,
+        "has_2027_marker": true,
+        "bytes_read": 296126,
+        "outcome": "accessible",
+        "error": null,
+        "checked_at": "2026-11-11",
+        "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)"
       },
       "browser_check": null
     },
@@ -123689,8 +124091,8 @@
       "url": "https://corsi.unibo.it/1cycle/CLaBE/prospects",
       "source_type": "Official degree programme page",
       "cycle": "2026-2027",
-      "accessed_at": "2026-11-10",
-      "evidence": "Names the active Business and Economics degree (CLaBE) and its current course codes; verifies identity without confirming the next academic year's admission call.",
+      "accessed_at": "2026-11-11",
+      "evidence": "Checked 11 November 2026: identifies the active Business and Economics degree (CLaBE), tells prospective students to use code 6609, and distinguishes the code assigned after enrolment; verifies course identity without confirming 2027/28 entry.",
       "supports": [
         "program.corrected_identity",
         "program.previous_cycle_course_listing"
@@ -123703,19 +124105,19 @@
         "content_length_header": null,
         "etag": null,
         "last_modified": null,
-        "cache_control": "max-age=0, s-maxage=0, must-revalidate",
-        "age": "4160",
+        "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+        "age": "47",
         "x_vercel_cache": null,
         "x_vercel_id": null,
         "location": null,
         "observed_title": "Prospects — Business and Economics - Laurea - Bologna",
         "pdf_signature": null,
         "has_2027_marker": false,
-        "bytes_read": 131072,
+        "bytes_read": 288734,
         "outcome": "accessible",
         "error": null,
-        "checked_at": "2026-11-10",
-        "method": "GET"
+        "checked_at": "2026-11-11",
+        "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)"
       },
       "browser_check": null
     },
