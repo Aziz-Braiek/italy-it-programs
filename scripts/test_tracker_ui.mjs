@@ -7,6 +7,12 @@ const programs = JSON.parse(await readFile(new URL("../research/programs-2027-20
 const universities = JSON.parse(await readFile(new URL("../research/universities-2027-2028.json", import.meta.url), "utf8"));
 const confirmedRows = programs.filter((program) => program.overall_status === "CONFIRMED");
 const requiringReview = programs.filter((program) => program.overall_status === "REQUIRES_VERIFICATION").length;
+const conflictingPrograms = programs.filter((program) => program.overall_status === "CONFLICTING_SOURCES"
+  || Object.values(program.facts ?? {}).some((fact) => fact.status === "CONFLICTING_SOURCES")).length;
+const notApplicablePrograms = programs.filter((program) => [
+  program.overall_status, program.level?.status, program.language?.status, program.field?.status,
+  program.availability_2027_2028?.status, ...Object.values(program.facts ?? {}).map((fact) => fact.status),
+].includes("NOT_APPLICABLE")).length;
 const latestUniversityCheck = universities.map((university) => university.last_checked || "").sort().pop();
 const formattedResearchDate = new Intl.DateTimeFormat("en-GB", { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" })
   .format(new Date(`${latestUniversityCheck}T00:00:00Z`));
@@ -137,8 +143,10 @@ assert.match(messinaProgramHtml, /English/);
 assert.match(messinaProgramHtml, /Universit\u00e0 degli Studi di Catania/);
 assert.match(messinaProgramHtml, /Latest official listing \(2026\/27\)/);
 assert.match(messinaProgramHtml, /The official course listing and admission evidence reviewed is from 2026\/27/);
-assert.match(messinaProgramHtml, /10 February–17 March 2026 and a \u20ac10 fee per course/);
-assert.match(messinaProgramHtml, /The latest official course and English-MSc call evidence located is for 2026\/27/);
+assert.match(messinaProgramHtml, /Non-EU admission – prior cycle:<\/strong> academic year: 2026\/27/);
+assert.match(messinaProgramHtml, /application period: 10 February 2026 12:00–17 March 2026 23:59 \(GMT\+1\)/);
+assert.match(messinaProgramHtml, /application fee eur per course: 10/);
+assert.match(messinaProgramHtml, /The latest ordinary-route and non-EU course-specific requirements found are for 2026\/27/);
 assert.match(dataText.find((element) => element.attrs["data-en"]?.includes("Latest official listing"))?.attrs["data-en"] ?? "", /do not confirm 2027–28 availability/);
 assert.match(dataText.find((element) => element.attrs["data-it"]?.includes("Ultima scheda ufficiale"))?.attrs["data-it"] ?? "", /non confermano la disponibilità per il 2027–28/);
 
@@ -401,8 +409,7 @@ assert.match(conflictHtml, /Cyber Security \(CSES\)/);
 assert.doesNotMatch(conflictHtml, /\[object Object\]/);
 assert.match(conflictHtml, /31 Jan 2027/);
 assert.match(conflictHtml, /Università degli Studi di Udine/);
-// The 2026/27 Mechanical Engineering for Sustainability page/call mismatch adds one conflict.
-assert.equal((conflictHtml.match(/class="status conflicting"/g) ?? []).length, 19);
+assert.equal((conflictHtml.match(/class="status conflicting"/g) ?? []).length, conflictingPrograms);
 
 status.value = "NOT_YET_PUBLISHED";
 status.dispatch("change");
@@ -415,7 +422,7 @@ assert.match(getElementById("program-grid").innerHTML, /Maritime Science and Tec
 assert.match(getElementById("program-grid").innerHTML, /will not be offered in 2027–28/);
 assert.match(getElementById("program-grid").innerHTML, /Data Science for Management/);
 assert.match(getElementById("program-grid").innerHTML, /Replaced by Data Science from AY 2022\/23/);
-assert.equal((getElementById("program-grid").innerHTML.match(/<article class="card/g) ?? []).length, 3);
+assert.equal((getElementById("program-grid").innerHTML.match(/<article class="card/g) ?? []).length, notApplicablePrograms);
 
 status.value = "all";
 getElementById("search").value = "Hydrogen";

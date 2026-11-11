@@ -2,7 +2,7 @@
 
 Prepared 2026-11-11 for academic year 2027/28. Review each record against official university pages, calls, portals, regulations, and PDFs.
 
-Snapshot inventory: 34 universities, 209 program records, 646 source records.
+Snapshot inventory: 34 universities, 209 program records, 690 source records.
 
 ## Review rules
 
@@ -692,6 +692,9 @@ Official university-level sources:
 - [ ] `SRC-POLITO-MSC-FOREIGN-2026` — [Applicants with a non-Italian qualification – Master's degree programmes](https://www.polito.it/en/education/applying-studying-graduating/admissions-and-enrolment/master-s-degree-programmes/applicants-with-a-non-italian-qualification) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-POLITO-MSC-ENTRY-ANNEX-2026` — [2026/27 entry requirements for Master's programmes](https://www.polito.it/sites/default/files/2026-03/Annex%201_TABELLA%20REQUISITI%20LM%202627.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-POLITO-TUITION-2026` — [Tuition fees and EDISU scholarships](https://www.polito.it/en/education/services-and-life-at-politecnico/right-to-education-and-tuition-fees/tuition-fees) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-POLITO-DIGITAL-SKILLS-ITALIAN-2026` — [Admission to Master's Degree Programmes – Architecture Area a.y. 2026/2027](https://www.polito.it/en/education/applying-studying-graduating/admissions-and-enrolment/master-s-degree-programmes/applicants-with-an-italian-qualification/architecture-area-ay-20262027) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-POLITO-DIGITAL-SKILLS-ITALIAN-REQ-2026` — [Requirements for applicants from other universities a.y. 2026/27 – Digital Skills](https://www.polito.it/en/education/applying-studying-graduating/admissions-and-enrolment/master-s-degree-programmes/applicants-with-an-italian-qualification/architecture-area-ay-20262027/requisiti-per-studenti-provenienti-da-altri-atenei-aa-202627) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-POLITO-DIGITAL-SKILLS-ITALIAN-DEADLINES-2026` — [Deadlines Architecture Area a.y. 2026/27 – Digital Skills](https://www.polito.it/en/education/applying-studying-graduating/admissions-and-enrolment/master-s-degree-programmes/applicants-with-an-italian-qualification/scadenze-area-architettura-aa-202627) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-POLITO-COMPUTER-2026` — [Computer Engineering MSc profile](https://www.polito.it/en/education/master-s-degree-programmes/computer-engineering) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-POLITO-CYBER-2026` — [Cybersecurity Engineering MSc profile](https://www.polito.it/en/education/master-s-degree-programmes/cybersecurity-engineering) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-POLITO-DATA-2026` — [Data Science and Engineering MSc profile](https://www.polito.it/en/education/master-s-degree-programmes/data-science-and-engineering) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
@@ -902,22 +905,26 @@ Currently missing or unpublished fields:
 
 #### Digital Skills for Sustainable Societal Transitions — `discovered-028`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-11`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-028/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/politecnico-torino/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-POLITO-MSC-CATALOGUE-2026` — [Master's degree programme catalogue](https://www.polito.it/en/education/master-s-degree-programmes) (cycle: 2026-2027; prior check: 2026-11-10)
 - [ ] `SRC-POLITO-DIGITAL-SKILLS-2026` — [Digital Skills for Sustainable Societal Transitions MSc profile](https://www.polito.it/en/education/master-s-degree-programmes/digital-skills-for-sustainable-societal-transitions) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-POLITO-DIGITAL-SKILLS-ITALIAN-REQ-2026` — [Requirements for applicants from other universities a.y. 2026/27 – Digital Skills](https://www.polito.it/en/education/applying-studying-graduating/admissions-and-enrolment/master-s-degree-programmes/applicants-with-an-italian-qualification/architecture-area-ay-20262027/requisiti-per-studenti-provenienti-da-altri-atenei-aa-202627) (cycle: 2026-2027; prior check: 2026-11-11)
 - [ ] `SRC-POLITO-MSC-ENTRY-ANNEX-2026` — [2026/27 entry requirements for Master's programmes](https://www.polito.it/sites/default/files/2026-03/Annex%201_TABELLA%20REQUISITI%20LM%202627.pdf) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-POLITO-DIGITAL-SKILLS-ITALIAN-2026` — [Admission to Master's Degree Programmes – Architecture Area a.y. 2026/2027](https://www.polito.it/en/education/applying-studying-graduating/admissions-and-enrolment/master-s-degree-programmes/applicants-with-an-italian-qualification/architecture-area-ay-20262027) (cycle: 2026-2027; prior check: 2026-11-11)
 - [ ] `SRC-POLITO-MSC-ADMISSIONS-2026` — [Admissions and enrolment – Master's degree programmes](https://www.polito.it/en/education/applying-studying-graduating/admissions-and-enrolment/master-s-degree-programmes) (cycle: 2026-2027; prior check: 2026-11-10)
 - [ ] `SRC-POLITO-MSC-FOREIGN-2026` — [Applicants with a non-Italian qualification – Master's degree programmes](https://www.polito.it/en/education/applying-studying-graduating/admissions-and-enrolment/master-s-degree-programmes/applicants-with-a-non-italian-qualification) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-POLITO-DIGITAL-SKILLS-ITALIAN-DEADLINES-2026` — [Deadlines Architecture Area a.y. 2026/27 – Digital Skills](https://www.polito.it/en/education/applying-studying-graduating/admissions-and-enrolment/master-s-degree-programmes/applicants-with-an-italian-qualification/scadenze-area-architettura-aa-202627) (cycle: 2026-2027; prior check: 2026-11-11)
 - [ ] `SRC-POLITO-TUITION-2026` — [Tuition fees and EDISU scholarships](https://www.polito.it/en/education/services-and-life-at-politecnico/right-to-education-and-tuition-fees/tuition-fees) (cycle: 2026-2027; prior check: 2026-11-10)
 Currently missing or unpublished fields:
   - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The latest named course profile and catalogue reviewed are for 2026/27. No 2027/28 first-year offer for this course was confirmed; no discontinuation is inferred.
   - `facts.program_specific_requirements_2027_2028` — `REQUIRES_VERIFICATION` — No 2027/28 course-specific admission regulation or call was identified; the linked course criteria are for 2026/27.
   - `facts.application_windows` — `REQUIRES_VERIFICATION` — The reviewed deadlines page contains 2026/27 calls only. No 2027/28 application window was confirmed for this candidate.
-  - `facts.application_fee_2027_2028` — `REQUIRES_VERIFICATION` — The €50 fee shown on the foreign-applicant page is for 2026/27; no 2027/28 application fee was confirmed.
+  - `facts.application_fee_2027_2028` — `REQUIRES_VERIFICATION` — The €50 fee shown on the foreign-applicant page is for 2026/27; the Italian-qualification route also requires a fee for applicants from other Italian universities, but its amount was not found. No 2027/28 application fee was confirmed.
+  - `facts.available_places_2027_2028` — `REQUIRES_VERIFICATION` — The 2026/27 profile says the course had an uncapped number of students. No 2027/28 places or admission-capacity notice was identified, so the previous-cycle label does not establish next-cycle capacity.
   - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — The official tuition page reviewed links the 2026/27 regulation; no 2027/28 schedule or programme-specific amount was confirmed.
   - `facts.scholarships_2027_2028` — `REQUIRES_VERIFICATION` — No 2027/28 course-specific scholarship or EDISU award was confirmed in the reviewed sources.
   - `facts.acceptance_rate` — `UNAVAILABLE` — No complete official applicant denominator and admitted-student count was found. The profile's uncapped-admission label is not an acceptance rate.
@@ -1019,7 +1026,7 @@ Official university-level sources:
 - [ ] `SRC-SAPIENZA-INTL` — [International Students Office](https://www.uniroma1.it/it/pagina/segreteria-studenti-internazionali) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026` — [Programmes in English and 2026/27 pre-selection](https://www.uniroma1.it/en/en/admissions) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-SAPIENZA-MOVEIN-REQUIREMENTS-2026` — [English-program academic and language requirements 2026/27](https://www.uniroma1.it/sites/default/files/field_file_allegati/academic_requirements_movein_2026-2027_web.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
-- [ ] `SRC-SAPIENZA-INTL-OFFICE-2026` — [International Student Office admissions procedures 2026/27](https://www.uniroma1.it/en/node/24774) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-SAPIENZA-INTL-OFFICE-2026` — [International Student Office admissions procedures 2026/27](https://www.uniroma1.it/en/node/24774) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-SAPIENZA-ENGCSAI-COURSE-2026` — [Engineering in Computer Science and Artificial Intelligence course regulations 2026/27](https://corsidilaurea.uniroma1.it/en/timeview/2026/33515/organization) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-SAPIENZA-AERONAUTICAL-2026` — [Aeronautical Engineering course profile 2026/27](https://corsidilaurea.uniroma1.it/it/course/33483) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-SAPIENZA-MEDICINE-2026` — [Medicine and Surgery course catalogue entries 2026/27](https://corsidilaurea.uniroma1.it/it/solr-offerta-formativa-t?search_api_views_fulltext=Medicina+e+chirurgia) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
@@ -1027,7 +1034,11 @@ Official university-level sources:
 - [ ] `SRC-SAPIENZA-POLITICAL-SCIENCE-2026` — [Political Science and International Relations bachelor’s profile 2026/27](https://corsidilaurea.uniroma1.it/it/course/33618) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-SAPIENZA-PSYCHOLOGY-2026` — [Psychology and Health bachelor’s profile 2026/27](https://corsidilaurea.uniroma1.it/it/course/33570) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-SAPIENZA-ECONOMICS-FINANCE-2026` — [Economics and Finance bachelor’s listing 2026/27](https://corsidilaurea.uniroma1.it/en/timeview/2026/34177/organization) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
-- [ ] `SRC-SAPIENZA-FINANCE-INSURANCE-2026` — [Finance and Insurance Master’s profile 2026/27](https://www.corsidilaurea.uniroma1.it/en/course/33439) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-SAPIENZA-FINANCE-INSURANCE-2026` — [Finance and Insurance Master’s profile 2026/27](https://www.corsidilaurea.uniroma1.it/en/course/33439) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-SAPIENZA-FINANCE-INSURANCE-FACULTY-2026` — [Finanza e Assicurazioni Faculty profile 2026/27](https://economia.web.uniroma1.it/it/finanza-e-assicurazioni-20262027) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-SAPIENZA-FINANCE-INSURANCE-APPLY-2026` — [Finance and Insurance: how to enroll 2026/27](https://www.corsidilaurea.uniroma1.it/en/course/33439/apply) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-SAPIENZA-FINANCE-INSURANCE-CALL-EN-2026` — [Finance and Insurance English call 2026/27](https://www.corsidilaurea.uniroma1.it/sites/default/files/offertaformativa/documenti_ufficiali/187/33439_e_0.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-SAPIENZA-FINANCE-INSURANCE-CALL-IT-2026` — [Finanza e Assicurazioni Italian call 2026/27](https://www.corsidilaurea.uniroma1.it/sites/default/files/offertaformativa/documenti_ufficiali/187/33439_i_0.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-SAPIENZA-INGINFO-ARCHIVE-2024` — [Ingegneria Informatica historical course archive](https://corsidilaurea.uniroma1.it/sites/default/files/archive/2024/30430.pdf) (cycle: 2024-2025; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-SAPIENZA-FEES-2026` — [Tuition, payment and foreign-income guidance 2026/27](https://www.uniroma1.it/en/pagina/tuition-fees-and-benefits) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-SAPIENZA-FEE-TABLE-2026` — [Standard registration-fee amounts for 2026/27](https://www.uniroma1.it/en/node/29732) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
@@ -1067,7 +1078,7 @@ Official university-level sources:
 Official linked sources to revisit:
 - [ ] `SRC-SAPIENZA-MOVEIN-REQUIREMENTS-2026` — [English-program academic and language requirements 2026/27](https://www.uniroma1.it/sites/default/files/field_file_allegati/academic_requirements_movein_2026-2027_web.pdf) (cycle: 2026-2027; prior check: 2026-11-10)
 - [ ] `SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026` — [Programmes in English and 2026/27 pre-selection](https://www.uniroma1.it/en/en/admissions) (cycle: 2026-2027; prior check: 2026-11-11)
-- [ ] `SRC-SAPIENZA-INTL-OFFICE-2026` — [International Student Office admissions procedures 2026/27](https://www.uniroma1.it/en/node/24774) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-SAPIENZA-INTL-OFFICE-2026` — [International Student Office admissions procedures 2026/27](https://www.uniroma1.it/en/node/24774) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
   - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The reviewed university admissions and course materials concern 2026/27 or older. No 2027/28 first-year call was found, and absence from these pages is not treated as discontinuation.
   - `facts.application_windows_2027_2028` — `REQUIRES_VERIFICATION` — The reviewed application schedule is for 2026/27 only.
@@ -1085,7 +1096,7 @@ Currently missing or unpublished fields:
 Official linked sources to revisit:
 - [ ] `SRC-SAPIENZA-MOVEIN-REQUIREMENTS-2026` — [English-program academic and language requirements 2026/27](https://www.uniroma1.it/sites/default/files/field_file_allegati/academic_requirements_movein_2026-2027_web.pdf) (cycle: 2026-2027; prior check: 2026-11-10)
 - [ ] `SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026` — [Programmes in English and 2026/27 pre-selection](https://www.uniroma1.it/en/en/admissions) (cycle: 2026-2027; prior check: 2026-11-11)
-- [ ] `SRC-SAPIENZA-INTL-OFFICE-2026` — [International Student Office admissions procedures 2026/27](https://www.uniroma1.it/en/node/24774) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-SAPIENZA-INTL-OFFICE-2026` — [International Student Office admissions procedures 2026/27](https://www.uniroma1.it/en/node/24774) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
   - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The reviewed university admissions and course materials concern 2026/27 or older. No 2027/28 first-year call was found, and absence from these pages is not treated as discontinuation.
   - `facts.application_windows_2027_2028` — `REQUIRES_VERIFICATION` — The reviewed application schedule is for 2026/27 only.
@@ -1103,7 +1114,7 @@ Currently missing or unpublished fields:
 Official linked sources to revisit:
 - [ ] `SRC-SAPIENZA-MOVEIN-REQUIREMENTS-2026` — [English-program academic and language requirements 2026/27](https://www.uniroma1.it/sites/default/files/field_file_allegati/academic_requirements_movein_2026-2027_web.pdf) (cycle: 2026-2027; prior check: 2026-11-10)
 - [ ] `SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026` — [Programmes in English and 2026/27 pre-selection](https://www.uniroma1.it/en/en/admissions) (cycle: 2026-2027; prior check: 2026-11-11)
-- [ ] `SRC-SAPIENZA-INTL-OFFICE-2026` — [International Student Office admissions procedures 2026/27](https://www.uniroma1.it/en/node/24774) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-SAPIENZA-INTL-OFFICE-2026` — [International Student Office admissions procedures 2026/27](https://www.uniroma1.it/en/node/24774) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
   - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The reviewed university admissions and course materials concern 2026/27 or older. No 2027/28 first-year call was found, and absence from these pages is not treated as discontinuation.
   - `facts.application_windows_2027_2028` — `REQUIRES_VERIFICATION` — The reviewed application schedule is for 2026/27 only.
@@ -1121,7 +1132,7 @@ Currently missing or unpublished fields:
 Official linked sources to revisit:
 - [ ] `SRC-SAPIENZA-MOVEIN-REQUIREMENTS-2026` — [English-program academic and language requirements 2026/27](https://www.uniroma1.it/sites/default/files/field_file_allegati/academic_requirements_movein_2026-2027_web.pdf) (cycle: 2026-2027; prior check: 2026-11-10)
 - [ ] `SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026` — [Programmes in English and 2026/27 pre-selection](https://www.uniroma1.it/en/en/admissions) (cycle: 2026-2027; prior check: 2026-11-11)
-- [ ] `SRC-SAPIENZA-INTL-OFFICE-2026` — [International Student Office admissions procedures 2026/27](https://www.uniroma1.it/en/node/24774) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-SAPIENZA-INTL-OFFICE-2026` — [International Student Office admissions procedures 2026/27](https://www.uniroma1.it/en/node/24774) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
   - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The reviewed university admissions and course materials concern 2026/27 or older. No 2027/28 first-year call was found, and absence from these pages is not treated as discontinuation.
   - `facts.application_windows_2027_2028` — `REQUIRES_VERIFICATION` — The reviewed application schedule is for 2026/27 only.
@@ -1139,7 +1150,7 @@ Currently missing or unpublished fields:
 Official linked sources to revisit:
 - [ ] `SRC-SAPIENZA-MOVEIN-REQUIREMENTS-2026` — [English-program academic and language requirements 2026/27](https://www.uniroma1.it/sites/default/files/field_file_allegati/academic_requirements_movein_2026-2027_web.pdf) (cycle: 2026-2027; prior check: 2026-11-10)
 - [ ] `SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026` — [Programmes in English and 2026/27 pre-selection](https://www.uniroma1.it/en/en/admissions) (cycle: 2026-2027; prior check: 2026-11-11)
-- [ ] `SRC-SAPIENZA-INTL-OFFICE-2026` — [International Student Office admissions procedures 2026/27](https://www.uniroma1.it/en/node/24774) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-SAPIENZA-INTL-OFFICE-2026` — [International Student Office admissions procedures 2026/27](https://www.uniroma1.it/en/node/24774) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
   - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The reviewed university admissions and course materials concern 2026/27 or older. No 2027/28 first-year call was found, and absence from these pages is not treated as discontinuation.
   - `facts.application_windows_2027_2028` — `REQUIRES_VERIFICATION` — The reviewed application schedule is for 2026/27 only.
@@ -1157,7 +1168,7 @@ Currently missing or unpublished fields:
 Official linked sources to revisit:
 - [ ] `SRC-SAPIENZA-AERONAUTICAL-2026` — [Aeronautical Engineering course profile 2026/27](https://corsidilaurea.uniroma1.it/it/course/33483) (cycle: 2026-2027; prior check: 2026-11-10)
 - [ ] `SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026` — [Programmes in English and 2026/27 pre-selection](https://www.uniroma1.it/en/en/admissions) (cycle: 2026-2027; prior check: 2026-11-11)
-- [ ] `SRC-SAPIENZA-INTL-OFFICE-2026` — [International Student Office admissions procedures 2026/27](https://www.uniroma1.it/en/node/24774) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-SAPIENZA-INTL-OFFICE-2026` — [International Student Office admissions procedures 2026/27](https://www.uniroma1.it/en/node/24774) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
   - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The reviewed university admissions and course materials concern 2026/27 or older. No 2027/28 first-year call was found, and absence from these pages is not treated as discontinuation.
   - `facts.application_windows_2027_2028` — `REQUIRES_VERIFICATION` — The reviewed application schedule is for 2026/27 only.
@@ -1177,7 +1188,7 @@ Currently missing or unpublished fields:
 Official linked sources to revisit:
 - [ ] `SRC-SAPIENZA-MOVEIN-REQUIREMENTS-2026` — [English-program academic and language requirements 2026/27](https://www.uniroma1.it/sites/default/files/field_file_allegati/academic_requirements_movein_2026-2027_web.pdf) (cycle: 2026-2027; prior check: 2026-11-10)
 - [ ] `SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026` — [Programmes in English and 2026/27 pre-selection](https://www.uniroma1.it/en/en/admissions) (cycle: 2026-2027; prior check: 2026-11-11)
-- [ ] `SRC-SAPIENZA-INTL-OFFICE-2026` — [International Student Office admissions procedures 2026/27](https://www.uniroma1.it/en/node/24774) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-SAPIENZA-INTL-OFFICE-2026` — [International Student Office admissions procedures 2026/27](https://www.uniroma1.it/en/node/24774) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
   - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The reviewed university admissions and course materials concern 2026/27 or older. No 2027/28 first-year call was found, and absence from these pages is not treated as discontinuation.
   - `facts.application_windows_2027_2028` — `REQUIRES_VERIFICATION` — The reviewed application schedule is for 2026/27 only.
@@ -1199,7 +1210,7 @@ Official linked sources to revisit:
 - [ ] `SRC-SAPIENZA-MEDICINE-F-PROFILE-2026` — [Medicine and Surgery F – AY 2026/27 course profile](https://corsidilaurea.uniroma1.it/en/course/33454) (cycle: 2026-2027; prior check: 2026-11-11)
 - [ ] `SRC-SAPIENZA-MEDICINE-2026` — [Medicine and Surgery course catalogue entries 2026/27](https://corsidilaurea.uniroma1.it/it/solr-offerta-formativa-t?search_api_views_fulltext=Medicina+e+chirurgia) (cycle: 2026-2027; prior check: 2026-11-11)
 - [ ] `SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026` — [Programmes in English and 2026/27 pre-selection](https://www.uniroma1.it/en/en/admissions) (cycle: 2026-2027; prior check: 2026-11-11)
-- [ ] `SRC-SAPIENZA-INTL-OFFICE-2026` — [International Student Office admissions procedures 2026/27](https://www.uniroma1.it/en/node/24774) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-SAPIENZA-INTL-OFFICE-2026` — [International Student Office admissions procedures 2026/27](https://www.uniroma1.it/en/node/24774) (cycle: 2026-2027; prior check: 2026-11-11)
 - [ ] `SRC-SAPIENZA-DISCO-LAZIO-2026` — [DiSCo Lazio Right to Education call 2026/27](https://laziodisco.it/on-line-il-bando-diritto-allo-studio-2026-2027/?lang=en) (cycle: 2026-2027; prior check: 2026-11-11)
 - [ ] `SRC-SAPIENZA-FEE-TABLE-2026` — [Standard registration-fee amounts for 2026/27](https://www.uniroma1.it/en/node/29732) (cycle: 2026-2027; prior check: 2026-11-11)
 - [ ] `SRC-SAPIENZA-FEES-2026` — [Tuition, payment and foreign-income guidance 2026/27](https://www.uniroma1.it/en/pagina/tuition-fees-and-benefits) (cycle: 2026-2027; prior check: 2026-11-11)
@@ -1327,7 +1338,7 @@ Official linked sources to revisit:
 - [ ] `SRC-SAPIENZA-ECFIN-CALL-2026` — [Economics and Finance 2026/27 admission call (English version)](https://corsidilaurea.uniroma1.it/sites/default/files/offertaformativa/documenti_ufficiali/187/14613_e_0.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
 - [ ] `SRC-SAPIENZA-MOVEIN-REQUIREMENTS-JUN2026` — [English-program MoveIN academic and language requirements – June 2026 revision](https://www.uniroma1.it/sites/default/files/field_file_allegati/academic_requirements_movein_2026-2027_web_20260608.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
 - [ ] `SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026` — [Programmes in English and 2026/27 pre-selection](https://www.uniroma1.it/en/en/admissions) (cycle: 2026-2027; prior check: 2026-11-11)
-- [ ] `SRC-SAPIENZA-INTL-OFFICE-2026` — [International Student Office admissions procedures 2026/27](https://www.uniroma1.it/en/node/24774) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-SAPIENZA-INTL-OFFICE-2026` — [International Student Office admissions procedures 2026/27](https://www.uniroma1.it/en/node/24774) (cycle: 2026-2027; prior check: 2026-11-11)
 - [ ] `SRC-SAPIENZA-APPLICATION-FEE-2026` — [MoveIN pre-selection application fee 2026/27](https://www.uniroma1.it/it/pagina/international-admissions-2026-2027) (cycle: 2026-2027; prior check: 2026-11-11)
 - [ ] `SRC-SAPIENZA-DISCO-LAZIO-2026` — [DiSCo Lazio Right to Education call 2026/27](https://laziodisco.it/on-line-il-bando-diritto-allo-studio-2026-2027/?lang=en) (cycle: 2026-2027; prior check: 2026-11-11)
 - [ ] `SRC-SAPIENZA-FEE-TABLE-2026` — [Standard registration-fee amounts for 2026/27](https://www.uniroma1.it/en/node/29732) (cycle: 2026-2027; prior check: 2026-11-11)
@@ -1357,7 +1368,7 @@ Official linked sources to revisit:
 - [ ] `SRC-SAPIENZA-ENGCSAI-COURSE-2026` — [Engineering in Computer Science and Artificial Intelligence course regulations 2026/27](https://corsidilaurea.uniroma1.it/en/timeview/2026/33515/organization) (cycle: 2026-2027; prior check: 2026-11-10)
 - [ ] `SRC-SAPIENZA-MOVEIN-REQUIREMENTS-JUN2026` — [English-program MoveIN academic and language requirements – June 2026 revision](https://www.uniroma1.it/sites/default/files/field_file_allegati/academic_requirements_movein_2026-2027_web_20260608.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
 - [ ] `SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026` — [Programmes in English and 2026/27 pre-selection](https://www.uniroma1.it/en/en/admissions) (cycle: 2026-2027; prior check: 2026-11-11)
-- [ ] `SRC-SAPIENZA-INTL-OFFICE-2026` — [International Student Office admissions procedures 2026/27](https://www.uniroma1.it/en/node/24774) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-SAPIENZA-INTL-OFFICE-2026` — [International Student Office admissions procedures 2026/27](https://www.uniroma1.it/en/node/24774) (cycle: 2026-2027; prior check: 2026-11-11)
 - [ ] `SRC-SAPIENZA-APPLICATION-FEE-2026` — [MoveIN pre-selection application fee 2026/27](https://www.uniroma1.it/it/pagina/international-admissions-2026-2027) (cycle: 2026-2027; prior check: 2026-11-11)
 - [ ] `SRC-SAPIENZA-DISCO-LAZIO-2026` — [DiSCo Lazio Right to Education call 2026/27](https://laziodisco.it/on-line-il-bando-diritto-allo-studio-2026-2027/?lang=en) (cycle: 2026-2027; prior check: 2026-11-11)
 - [ ] `SRC-SAPIENZA-FEE-TABLE-2026` — [Standard registration-fee amounts for 2026/27](https://www.uniroma1.it/en/node/29732) (cycle: 2026-2027; prior check: 2026-11-11)
@@ -1375,21 +1386,27 @@ Currently missing or unpublished fields:
 
 #### Finance and Insurance — `discovered-027`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-11`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-027/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/sapienza/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
-- [ ] `SRC-SAPIENZA-FINANCE-INSURANCE-2026` — [Finance and Insurance Master’s profile 2026/27](https://www.corsidilaurea.uniroma1.it/en/course/33439) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-SAPIENZA-FINANCE-INSURANCE-APPLY-2026` — [Finance and Insurance: how to enroll 2026/27](https://www.corsidilaurea.uniroma1.it/en/course/33439/apply) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-SAPIENZA-FINANCE-INSURANCE-CALL-EN-2026` — [Finance and Insurance English call 2026/27](https://www.corsidilaurea.uniroma1.it/sites/default/files/offertaformativa/documenti_ufficiali/187/33439_e_0.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-SAPIENZA-FINANCE-INSURANCE-2026` — [Finance and Insurance Master’s profile 2026/27](https://www.corsidilaurea.uniroma1.it/en/course/33439) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-SAPIENZA-FINANCE-INSURANCE-FACULTY-2026` — [Finanza e Assicurazioni Faculty profile 2026/27](https://economia.web.uniroma1.it/it/finanza-e-assicurazioni-20262027) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-SAPIENZA-FINANCE-INSURANCE-CALL-IT-2026` — [Finanza e Assicurazioni Italian call 2026/27](https://www.corsidilaurea.uniroma1.it/sites/default/files/offertaformativa/documenti_ufficiali/187/33439_i_0.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
 - [ ] `SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026` — [Programmes in English and 2026/27 pre-selection](https://www.uniroma1.it/en/en/admissions) (cycle: 2026-2027; prior check: 2026-11-11)
-- [ ] `SRC-SAPIENZA-INTL-OFFICE-2026` — [International Student Office admissions procedures 2026/27](https://www.uniroma1.it/en/node/24774) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-SAPIENZA-INTL-OFFICE-2026` — [International Student Office admissions procedures 2026/27](https://www.uniroma1.it/en/node/24774) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The reviewed university admissions and course materials concern 2026/27 or older. No 2027/28 first-year call was found, and absence from these pages is not treated as discontinuation.
-  - `facts.application_windows_2027_2028` — `REQUIRES_VERIFICATION` — The reviewed application schedule is for 2026/27 only.
-  - `facts.application_fee_2027_2028` — `REQUIRES_VERIFICATION` — No 2027/28 course application fee was identified.
-  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — No 2027/28 tuition regulation or amount was identified.
+  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The course catalogue and calls reviewed identify a 2026/27 offer only. No 2027/28 first-year offer or call was identified, and this is not treated as discontinuation.
+  - `facts.application_windows_2027_2028` — `REQUIRES_VERIFICATION` — The reviewed course calls and central pre-selection page are for 2026/27; no 2027/28 Finance and Insurance first-year calendar was identified.
+  - `facts.application_fee_2027_2028` — `REQUIRES_VERIFICATION` — The €10 course assessment and €30 MoveIN pre-selection charges are 2026/27 only; no 2027/28 fee was identified.
+  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — No 2027/28 tuition regulation or course-specific amount was identified.
   - `facts.scholarships_2027_2028` — `REQUIRES_VERIFICATION` — No 2027/28 scholarship call for these new entrants was identified.
   - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed sources do not provide a comparable complete applicant and admitted-student denominator.
+  - `facts.program_specific_requirements_2027_2028` — `REQUIRES_VERIFICATION` — The exact criteria in the linked official calls are for 2026/27; no 2027/28 course call was identified.
+  - `facts.available_places_2027_2028` — `REQUIRES_VERIFICATION` — The reviewed 2026/27 calls do not establish places for 2027/28; no next-cycle quota was identified.
 
 ### Università degli Studi di Roma Tor Vergata (Rome) — `tor-vergata`
 
@@ -1939,11 +1956,16 @@ Currently missing or unpublished fields:
 Official university-level sources:
 
 - [ ] `SRC-UNICT-DSM-LEGACY` — [Data Science for Management – course page and replacement notice](https://www.dei.unict.it/corsi/lm-91) (cycle: 2022-2023; checked in prior snapshot: 2026-11-09)
-- [ ] `SRC-UNICT-DS-PROGRAM-2026` — [Data Science – 2026/27 degree page](https://www.unict.it/en/node/32509) (cycle: 2026-2027; checked in prior snapshot: 2026-11-09)
-- [ ] `SRC-UNICT-ENGLISH-MASTERS-2026` — [Master's Degree programmes taught in English](https://www.unict.it/en/node/25736) (cycle: 2026-2027; checked in prior snapshot: 2026-11-09)
-- [ ] `SRC-UNICT-MASTER-CALLS-INDEX` — [Master's admissions call archive](https://www.unict.it/ammissioni-ai-corsi-di-laurea-magistrale/numero-programmato) (cycle: 2026-2027; checked in prior snapshot: 2026-11-09)
-- [ ] `SRC-UNICT-MASTER-ADMISSION-2026` — [First-year admission procedure for non-programmed two-year Master's courses, 2026/27](https://www.unict.it/it/corsi-numero-non-programmato/2026-2027/procedura-di-ammissione-al-1%C2%B0-anno-corsi-di-laurea-magistrale) (cycle: 2026-2027; checked in prior snapshot: 2026-11-09)
-- [ ] `SRC-UNICT-DS-CALL-2026` — [Public selection for admission of non-EU students abroad to English-taught Master's degrees, 2026/27](https://www.unict.it/it/corsi-numero-programmato/2026-2027/public-selection-admission-non-eu-students-living-abroad-english) (cycle: 2026-2027; checked in prior snapshot: 2026-11-09)
+- [ ] `SRC-UNICT-DS-PROGRAM-2026` — [Data Science – 2026/27 degree page](https://www.unict.it/en/node/32509) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-UNICT-ENGLISH-MASTERS-2026` — [Master's Degree programmes taught in English](https://www.unict.it/en/node/25736) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-UNICT-MASTER-CALLS-INDEX` — [Master's admissions call archive](https://www.unict.it/ammissioni-ai-corsi-di-laurea-magistrale/numero-programmato) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-UNICT-MASTER-ADMISSION-2026` — [First-year admission procedure for non-programmed two-year Master's courses, 2026/27](https://www.unict.it/it/corsi-numero-non-programmato/2026-2027/procedura-di-ammissione-al-1%C2%B0-anno-corsi-di-laurea-magistrale) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-UNICT-DS-CALL-2026` — [Public selection for admission of non-EU students abroad to English-taught Master's degrees, 2026/27](https://www.unict.it/it/corsi-numero-programmato/2026-2027/public-selection-admission-non-eu-students-living-abroad-english) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-UNICT-DS-COURSE-OVERVIEW` — [Data Science – official degree-course overview](https://www.interdip.unict.it/it/corsi/lm-data/course-overview) (cycle: current course information; cycle not specified; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-UNICT-DS-NEXT-CALL-2027` — [Data Science – notice that the next extra-EU call will be in February 2027](https://www.interdip.unict.it/corsi/lm-data/avvisi/call-admission-extra-eu-students-now-closed-record-number-applications) (cycle: Next extra-EU call expected February 2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-UNICT-MASTER-ADMISSION-PROCEDURE-2026` — [First-year admission procedure for non-programmed two-year Master's courses, 2026/27 – official procedure PDF](https://www.unict.it/sites/default/files/ds_bandi/326134_bando-lm_2233.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-UNICT-DS-REGULAR-ANNEX-2026` — [Data Science (LM-DATA) – ordinary admissions requirements, 2026/27](https://www.unict.it/sites/default/files/ds_altri_documenti/0046_lm-data_data_science_2026-27.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-UNICT-DS-NON-EU-CALL-PDF-2026` — [Data Science – non-EU-abroad English Master's call and course annex, 2026/27](https://www.unict.it/sites/default/files/ds_altri_documenti/bando_eng_con_allegati_signed_signed_0.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-UNICT-BACHELORS-INTERNATIONAL-2026` — [Bachelor's Degrees – international qualification requirements](https://www.unict.it/it/node/1304) (cycle: 2026-2027; checked in prior snapshot: 2026-11-09)
 - [ ] `SRC-UNICT-FEES-2026` — [Manifesto degli studi and student contribution rules, 2026/27](https://www.unict.it/en/node/32717) (cycle: 2026-2027; checked in prior snapshot: 2026-11-09)
 - [ ] `SRC-UNICT-SCHOLARSHIPS-2026` — [University of Catania Scholarships 2026/27](https://www.unict.it/it/node/31838) (cycle: 2026-2027; checked in prior snapshot: 2026-11-09)
@@ -1957,26 +1979,32 @@ Official university-level sources:
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNICT-DSM-LEGACY` — [Data Science for Management – course page and replacement notice](https://www.dei.unict.it/corsi/lm-91) (cycle: 2022-2023; prior check: 2026-11-09)
-- [ ] `SRC-UNICT-DS-PROGRAM-2026` — [Data Science – 2026/27 degree page](https://www.unict.it/en/node/32509) (cycle: 2026-2027; prior check: 2026-11-09)
+- [ ] `SRC-UNICT-DS-PROGRAM-2026` — [Data Science – 2026/27 degree page](https://www.unict.it/en/node/32509) (cycle: 2026-2027; prior check: 2026-11-11)
 
 #### Data Science — `discovered-023`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-09`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-023/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/catania/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
-- [ ] `SRC-UNICT-MASTER-ADMISSION-2026` — [First-year admission procedure for non-programmed two-year Master's courses, 2026/27](https://www.unict.it/it/corsi-numero-non-programmato/2026-2027/procedura-di-ammissione-al-1%C2%B0-anno-corsi-di-laurea-magistrale) (cycle: 2026-2027; prior check: 2026-11-09)
-- [ ] `SRC-UNICT-DS-CALL-2026` — [Public selection for admission of non-EU students abroad to English-taught Master's degrees, 2026/27](https://www.unict.it/it/corsi-numero-programmato/2026-2027/public-selection-admission-non-eu-students-living-abroad-english) (cycle: 2026-2027; prior check: 2026-11-09)
-- [ ] `SRC-UNICT-ENGLISH-MASTERS-2026` — [Master's Degree programmes taught in English](https://www.unict.it/en/node/25736) (cycle: 2026-2027; prior check: 2026-11-09)
-- [ ] `SRC-UNICT-DS-PROGRAM-2026` — [Data Science – 2026/27 degree page](https://www.unict.it/en/node/32509) (cycle: 2026-2027; prior check: 2026-11-09)
+- [ ] `SRC-UNICT-DS-NON-EU-CALL-PDF-2026` — [Data Science – non-EU-abroad English Master's call and course annex, 2026/27](https://www.unict.it/sites/default/files/ds_altri_documenti/bando_eng_con_allegati_signed_signed_0.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-UNICT-DS-REGULAR-ANNEX-2026` — [Data Science (LM-DATA) – ordinary admissions requirements, 2026/27](https://www.unict.it/sites/default/files/ds_altri_documenti/0046_lm-data_data_science_2026-27.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-UNICT-DS-COURSE-OVERVIEW` — [Data Science – official degree-course overview](https://www.interdip.unict.it/it/corsi/lm-data/course-overview) (cycle: current course information; cycle not specified; prior check: 2026-11-11)
+- [ ] `SRC-UNICT-DS-NEXT-CALL-2027` — [Data Science – notice that the next extra-EU call will be in February 2027](https://www.interdip.unict.it/corsi/lm-data/avvisi/call-admission-extra-eu-students-now-closed-record-number-applications) (cycle: Next extra-EU call expected February 2027; prior check: 2026-11-11)
+- [ ] `SRC-UNICT-MASTER-ADMISSION-2026` — [First-year admission procedure for non-programmed two-year Master's courses, 2026/27](https://www.unict.it/it/corsi-numero-non-programmato/2026-2027/procedura-di-ammissione-al-1%C2%B0-anno-corsi-di-laurea-magistrale) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-UNICT-MASTER-ADMISSION-PROCEDURE-2026` — [First-year admission procedure for non-programmed two-year Master's courses, 2026/27 – official procedure PDF](https://www.unict.it/sites/default/files/ds_bandi/326134_bando-lm_2233.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-UNICT-DS-CALL-2026` — [Public selection for admission of non-EU students abroad to English-taught Master's degrees, 2026/27](https://www.unict.it/it/corsi-numero-programmato/2026-2027/public-selection-admission-non-eu-students-living-abroad-english) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-UNICT-ENGLISH-MASTERS-2026` — [Master's Degree programmes taught in English](https://www.unict.it/en/node/25736) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-UNICT-DS-PROGRAM-2026` — [Data Science – 2026/27 degree page](https://www.unict.it/en/node/32509) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-UNICT-MASTER-CALLS-INDEX` — [Master's admissions call archive](https://www.unict.it/ammissioni-ai-corsi-di-laurea-magistrale/numero-programmato) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The latest official course and English-MSc call evidence located is for 2026/27. No 2027/28 first-year intake or program call was identified on the pages checked on 9 November 2026; absence from the reviewed pages is not treated as an explicit cancellation or publication statement.
-  - `facts.previous_cycle_course_listing` — `REQUIRES_VERIFICATION` — Latest official listing reviewed is 2026/27: Data Science, two-year Master's Degree (LM/DATA), taught in English in Catania. These prior-cycle descriptors do not confirm the 2027/28 offer.
-  - `facts.previous_cycle_non_eu_admission` — `REQUIRES_VERIFICATION` — The 2026/27 call included Data Science for non-EU applicants living abroad, with an application period of 10 February–17 March 2026 and a €10 fee per course. The call used title assessment and, where applicable, an interview or test. No 2027/28 rules or dates are confirmed by this prior-cycle source.
-  - `facts.program_specific_requirements` — `REQUIRES_VERIFICATION` — The reviewed course-level admission annexes and procedures are for 2026/27. 2027/28 curricular requirements, language evidence, selection details and applicant eligibility remain to be checked.
-  - `facts.application_fee` — `REQUIRES_VERIFICATION` — The official prior-cycle non-EU call charged €10 per course application in 2026/27; this is not presented as the 2027/28 fee.
-  - `facts.available_places` — `REQUIRES_VERIFICATION` — The 2026/27 call table leaves the Data Science places field blank. No 2027/28 places have been identified.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — The Department says its next Data Science extra-EU call will be in February 2027, and the course overview says such invitations are published each February for the next academic year. As of 11 November 2026, the actual 2027/28 call and first-year intake terms are not published; this is an announced call-publication expectation, not confirmation of all applicant routes or places.
+  - `facts.program_specific_requirements` — `NOT_YET_PUBLISHED` — The latest ordinary-route and non-EU course-specific requirements found are for 2026/27. The next extra-EU call is expected in February 2027; no 2027/28 academic-background, language, scoring or eligibility rules have been published.
+  - `facts.application_fee` — `NOT_YET_PUBLISHED` — The 2026/27 non-EU-abroad application fee was €10 per course, distinct from the €75 post-offer confirmation fee. The next call's 2027/28 application fee is not yet published.
+  - `facts.available_places` — `NOT_YET_PUBLISHED` — The 2026/27 non-EU call did not state a Data Science place count. No 2027/28 course-specific places have been published.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — The only course-specific tuition amount found is €306 for non-EU students living abroad in 2026/27. No 2027/28 amount has been published in the reviewed sources.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — The 2026/27 non-EU call offered five €2,000-per-year awards in the course ranking. The upcoming 2027/28 call and scholarship terms are not yet published.
 
 ### Università degli Studi di Milano (Milan) — `milano-statale`
 
@@ -3554,18 +3582,48 @@ Official university-level sources:
 - [ ] `SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027` — [International degree-seeker application process – 2027/28](https://www.unipd.it/en/ammissione-studenti-internazionali) (cycle: 2027-2028; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-PADOVA-ENGINEERING-OPEN-MSC-CALL-2026` — [School of Engineering open-access Master's call – AY 2026/27](https://wwwassets.unipd.it/sites/default/files/2026-05/2026_EN_Avviso_LM_IngegneriaLiberi.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-PADOVA-AGRICULTURAL-SCIENCES-2026` — [Scienze e tecnologie agrarie – official programme profile](https://www.unipd.it/de/node/79184) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-PADOVA-AGRICULTURAL-SCIENCES-PROFILE-2026` — [Scienze e tecnologie agrarie – official DAFNAE course profile](https://dafnae.unipd.it/offerta-didattica/corsi-di-laurea-magistrale/?key=AV2880&ordinamento=2026&tipo=LM) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-PADOVA-AGRICULTURE-MSC-CALL-2026` — [School of Agriculture and Veterinary Medicine open-access Master's call – AY 2026/27](https://wwwassets.unipd.it/sites/default/files/2026-05/2026_Avviso_LM_AgrariaLiberi_EN_V2.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-PADOVA-MOLECULAR-BIOLOGY-BSC-2026` — [Biologia Molecolare – official bachelor's degree profile](https://biologia-molecolare.biologia.unipd.it/index.php?id=170) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
-- [ ] `SRC-PADOVA-COMPUTER-ENGINEERING-BSC-2026` — [Ingegneria informatica – official bachelor's degree profile](https://www.unipd.it/corsi-di-laurea/ingegneria-informatica) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
-- [ ] `SRC-PADOVA-COGNITIVE-PSYCHOLOGY-BSC-2026` — [Scienze psicologiche cognitive e psicobiologiche – official bachelor's profile](https://www.unipd.it/corsi-di-laurea/scienze-psicologiche-cognitive-e-psicobiologiche) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-PADOVA-MOLECULAR-BIOLOGY-PROFILE-2026` — [Biologia Molecolare – official University degree profile](https://www.unipd.it/corsi-di-laurea/biologia-molecolare) (cycle: general; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-PADOVA-SCIENCE-BSC-ADMISSIONS-2026` — [School of Science restricted bachelor's admissions – AY 2026/27](https://www.unipd.it/en/ammissioni-sc-triennali-programmato) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-PADOVA-SCIENCE-BSC-CALL-2026` — [School of Science restricted bachelor's admission call – AY 2026/27](https://wwwassets.unipd.it/sites/default/files/pdf_imported_files/2026_Bando_L_ScienzeProgrammati_0.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-PADOVA-SCIENCE-BSC-NON-EU-CALL-2026` — [School of Science bachelor's call for non-EU applicants abroad – AY 2026/27](https://wwwassets.unipd.it/sites/default/files/pdf_imported_files/nonEU_LT%20Scienze_0.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-PADOVA-SCIENCE-OPEN-DAY-2027` — [School of Science Open Days – 2027/28 prospective-student listings](https://studenti.scienze.unipd.it/openday/) (cycle: 2027-2028; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-PADOVA-COMPUTER-ENGINEERING-BSC-2026` — [Ingegneria informatica – official bachelor's degree profile](https://www.unipd.it/corsi-di-laurea/ingegneria-informatica) (cycle: general; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-PADOVA-ING-INFORMATICA-ADMISSIONS-2026` — [Engineering bachelor's restricted-admission page – AY 2026/27](https://www.unipd.it/ammissioni-ing-triennali-programmato) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-PADOVA-ING-INFORMATICA-EU-CALL-2026` — [Ingegneria informatica EU/equivalent admission call – AY 2026/27](https://wwwassets.unipd.it/sites/default/files/2026-05/2026_Bando_L_Aerospaziale-Biomedica-Informatica_1.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-PADOVA-ING-INFORMATICA-NON-EU-CALL-2026` — [Ingegneria informatica call for non-EU applicants residing abroad – AY 2026/27](https://wwwassets.unipd.it/sites/default/files/pdf_imported_files/nonUE_LT_Ingegneria_0.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-PADOVA-COGNITIVE-PSYCHOLOGY-BSC-2026` — [Scienze psicologiche cognitive e psicobiologiche – official School of Psychology profile](https://psicologia.unipd.it/offerta-didattica/lauree-triennali?key=PS2961&ordinamento=2025&tipo=L) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-PADOVA-PSYCHOLOGY-ITALIAN-BSC-ADMISSIONS-2026` — [School of Psychology Italian-taught bachelor's admissions page – AY 2026/27](https://www.unipd.it/en/ammissioni-psi-triennali-programmato) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-PADOVA-COGNITIVE-PSYCHOLOGY-EU-CALL-2026` — [Scienze psicologiche cognitive e psicobiologiche EU/equivalent admission call – AY 2026/27](https://wwwassets.unipd.it/sites/default/files/pdf_imported_files/2026_Bando_L_Psicologia_0.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-PADOVA-COGNITIVE-PSYCHOLOGY-NON-EU-CALL-2026` — [Scienze psicologiche cognitive e psicobiologiche call for non-EU applicants abroad – AY 2026/27](https://wwwassets.unipd.it/sites/default/files/pdf_imported_files/nonEU_LT%20Psicologia_0_0.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-PADOVA-BACHELOR-ADMISSIONS-INDEX-2026` — [Padua bachelor's and single-cycle admission index – AY 2026/27](https://www.unipd.it/avvisi-ammissione-lauree-triennali-ciclo-unico) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-PADOVA-PSYCHOLOGY-MSC-FULL-2026` — [School of Psychology Master's programmes – active official catalogue](https://www.psicologia.unipd.it/offerta-didattica/corsi-di-laurea-magistrale?tipo=LM) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-PADOVA-AGRARIAN-MSC-COURSES-2026` — [School of Agriculture and Veterinary Medicine active Master's courses – AY 2026/27](https://www.agrariamedicinaveterinaria.unipd.it/corsi/corsi-di-laurea-magistrale) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-PADOVA-MANAGEMENT-ENGINEERING-COURSE-2026` — [Ingegneria gestionale – official course profile and campus](https://www.unipd.it/corsi-di-laurea-magistrali/ingegneria-gestionale) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-PADOVA-MOLECULAR-BIOLOGY-BSC-ADMISSION-2026` — [Biologia Molecolare – 2026/27 School of Science bachelor's admissions](https://www.scienze.unipd.it/come-iscriversi-l-2627/) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-PADOVA-SCIENCE-MSC-2026` — [School of Science English Master's admission catalogue – AY 2026/27](https://www.scienze.unipd.it/en/courses/english-language/master-degree/2627/) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027` — [Degree programmes held in English – proposed 2027/28 BSc and MSc additions](https://www.unipd.it/en/corsi-laurea-lingua-inglese) (cycle: 2027-2028; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-PADUA-AGTECH-GUIDE-2027` — [Study with us 2027/28 – Agricultural Sciences and Veterinary Medicine programme list](https://wwwassets.unipd.it/sites/default/files/2026-10/StudyWithUs_2027web_Finale.pdf) (cycle: 2027-2028; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-PADUA-ENGLISH-MASTERS-PROPOSED-2027` — [Master's degree programmes in English – proposed 2027/28 additions](https://www.unipd.it/en/corsi-laurea-magistrale-lingua-inglese) (cycle: 2027-2028; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-PADUA-DATA-ANALYTICS-GUIDE-2027` — [Study with us 2027/28 – School of Science programme list](https://wwwassets.unipd.it/sites/default/files/2026-10/StudyWithUs_2027web_Finale.pdf) (cycle: 2027-2028; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-PADUA-MAFBA-OPEN-DAY-2026` — [Management, Finance and Business Analytics – scheduled open day](https://www.unipd.it/en/openday2026-27-economia-scienzepolitiche) (cycle: 2027-2028; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-PADUA-MAFBA-DEPARTMENT-OPEN-DAY-2026` — [Management, Finance and Business Analytics – Department open day details](https://www.economia.unipd.it/open-day-dei-corsi-di-laurea-triennale-di-economia-0) (cycle: 2027-2028; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-PADUA-FOOD-SAFETY-PROFILE-2027` — [Food Safety for Global Health – Department course profile](https://agrariamedicinaveterinaria.unipd.it/en/courses/bachelors-first-cycle-and-masters-second-cycle-degrees/food-safety-global-health) (cycle: 2027-2028 proposed; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-PADUA-FOOD-SAFETY-APPLY-2027` — [Apply to Food Safety for Global Health](https://agrariamedicinaveterinaria.unipd.it/en/courses/bachelors-first-cycle-and-masters-second-cycle-degrees/food-safety-global-health/apply-fsh) (cycle: 2027-2028 proposed; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-PADUA-FOOD-SAFETY-OUTLINE-2027` — [Food Safety for Global Health – course outline and objectives](https://agrariamedicinaveterinaria.unipd.it/en/courses/bachelors-first-cycle-and-masters-second-cycle-degrees/food-safety-global-health/fsh-course) (cycle: 2027-2028 proposed; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-PADUA-FOOD-SAFETY-OFA-2026-27` — [Additional learning requirements (OFA) 2026/27 – Food Safety for Global Health](https://agrariamedicinaveterinaria.unipd.it/en/current-students/studying/additional-learning-requirements-ofa) (cycle: 2026-2027 page; references 2027-2028 start; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-PADUA-FOOD-SAFETY-CONTACT-2027` — [Contact information for Food Safety for Global Health](https://agrariamedicinaveterinaria.unipd.it/en/courses/bachelors-first-cycle-and-masters-second-cycle-degrees/food-safety-global-health/contact) (cycle: general; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-PADUA-FOOD-SAFETY-CREDITS-2027` — [Information on credit recognition in Food Safety for Global Health](https://agrariamedicinaveterinaria.unipd.it/en/information-credits-recognition-food-safety-global-health) (cycle: general; course regulations pending; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-PADUA-STATISTICAL-SCIENCE-PROFILE-2027` — [Statistical Science – Department programme profile and projected start](https://www.stat.unipd.it/en/statistical-science) (cycle: 2027-2028; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-PADUA-STATISTICAL-SCIENCE-ENTRY-REQUIREMENTS` — [Statistical Science – Department entry-requirements page](https://www.stat.unipd.it/en/statistical-science/entry-requirements) (cycle: general; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-PADUA-STATISTICAL-SCIENCE-GUIDE-2027` — [Study with us 2027/28 – School of Science programme list cross-check](https://wwwassets.unipd.it/sites/default/files/2026-10/StudyWithUs_2027web_Finale.pdf) (cycle: 2027-2028; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-PADUA-STATISTICAL-SCIENCE-STRUCTURE-2027` — [Statistical Science – Department programme structure](https://www.stat.unipd.it/en/statistical-science/programme-structure) (cycle: general; no academic-year label; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-PADUA-STATISTICAL-SCIENCE-CALL-INDEX-2027` — [University general admissions notices index linked by Statistical Science](https://www.unipd.it/avvisi-ammissione-corsi) (cycle: general; inspected 2026-11-11; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-PADUA-ARQUS-PHYSICS-TECH-2026` — [Arqus joint Bachelor's Programme in Physics for Technology – development agreement](https://www.unipd.it/en/arqus/news/rettrice-partecipa-consiglio-rettori-alleanza-europea-arqus) (cycle: general; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-ARQUS-PHYS-TECH-MEETING-2026` — [7th meeting of the BSc Physics for Technology Programme](https://arqus-alliance.eu/news/7th-meeting-of-the-bsc-physics-for-technology-programme-at-the-university-of-wroclaw/) (cycle: general; development meeting January 2026; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-ARQUS-PHYS-TECH-ACCREDITATION-STATUS-2026` — [Arqus joint-programme accreditation status – Physics for Technology](https://arqus-alliance.eu/news/arqus-joint-master-translation-technologies-artificial-intelligence-receives-accreditation/) (cycle: general; status reported 30 September 2026; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-PADUA-STUDY-ENGLISH-APPLY-ITALIAN-2027` — [Studiare in inglese – Come fare domanda (official Italian procedure)](https://www.unipd.it/studiare-inglese-come-fare-domanda) (cycle: 2027-2028; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-PADUA-INTL-EXCELLENCE-2027-BOARD` — [2027/28 Padua International Excellence Scholarship – Board allocation announcement](https://www.unipd.it/node/93348) (cycle: 2027-2028; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-PADUA-INTL-EXCELLENCE-PROGRAMME` — [Padua International Excellence Scholarship Programme – general terms and call status](https://www.unipd.it/en/padua-international-excellence-scholarship-programme) (cycle: general; checked in prior snapshot: 2026-11-11)
@@ -3826,75 +3884,105 @@ Currently missing or unpublished fields:
 
 #### Scienze e tecnologie agrarie — `legacy-162`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-162/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
+- [ ] `SRC-PADOVA-AGRICULTURE-MSC-CALL-2026` — [School of Agriculture and Veterinary Medicine open-access Master's call – AY 2026/27](https://wwwassets.unipd.it/sites/default/files/2026-05/2026_Avviso_LM_AgrariaLiberi_EN_V2.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
 - [ ] `SRC-PADOVA-AGRICULTURAL-SCIENCES-2026` — [Scienze e tecnologie agrarie – official programme profile](https://www.unipd.it/de/node/79184) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-PADOVA-AGRICULTURAL-SCIENCES-PROFILE-2026` — [Scienze e tecnologie agrarie – official DAFNAE course profile](https://dafnae.unipd.it/offerta-didattica/corsi-di-laurea-magistrale/?key=AV2880&ordinamento=2026&tipo=LM) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027` — [International degree-seeker application process – 2027/28](https://www.unipd.it/en/ammissione-studenti-internazionali) (cycle: 2027-2028; prior check: 2026-11-11)
 - [ ] `SRC-PADUA-TUITION-2026` — [Student fees – 2026/27 fee notice and published tariff guidance](https://www.unipd.it/en/contribuzione-studentesca) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — The latest named course profile and School call reviewed are for 2026/27. Padua's general international page gives a first 2027/28 call for most courses, but no course-specific 2027/28 intake or call, nor a new Italian-qualification School call, was verified for Scienze e tecnologie agrarie. This does not mean the course is discontinued.
   - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
-  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
-  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — The €30 pre-enrolment contribution belongs to the 2026/27 Italian-qualification call. No 2027/28 course-specific contribution was published in the reviewed sources.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — The detailed requirements available are from the 2026/27 Italian-qualification route. No 2027/28 course call or course-specific foreign-qualification criteria were verified.
   - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.
-  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
-  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — No course-specific 2027/28 scholarship terms were published in the reviewed course profile or admission call; the annual current-cycle aid calls were not established by this course review.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official sources do not publish comparable applicant and admitted-student totals; no acceptance rate is inferred.
+  - `facts.application_windows_2027_2028` — `NOT_YET_PUBLISHED` — No programme-specific 2027/28 application calendar was verified. The University's general 15 September–15 November 2026 first-call window is stated for most programmes, but course inclusion was not established. Do not use the 2026/27 Italian-route dates as a substitute.
+  - `facts.application_deadline` — `NOT_YET_PUBLISHED` — No 2027/28 course-specific deadline was verified in the official course profile, School admissions material or general international admissions page reviewed.
+  - `facts.english_language_requirement_2027_2028` — `NOT_YET_PUBLISHED` — The listed English B1 threshold is from the 2026/27 Italian-qualification call; the 2027/28 course requirement has not been published in the reviewed sources.
 
 #### Biologia Molecolare — `legacy-163`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-163/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
+- [ ] `SRC-PADOVA-SCIENCE-BSC-ADMISSIONS-2026` — [School of Science restricted bachelor's admissions – AY 2026/27](https://www.unipd.it/en/ammissioni-sc-triennali-programmato) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-PADOVA-SCIENCE-BSC-CALL-2026` — [School of Science restricted bachelor's admission call – AY 2026/27](https://wwwassets.unipd.it/sites/default/files/pdf_imported_files/2026_Bando_L_ScienzeProgrammati_0.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
 - [ ] `SRC-PADOVA-MOLECULAR-BIOLOGY-BSC-2026` — [Biologia Molecolare – official bachelor's degree profile](https://biologia-molecolare.biologia.unipd.it/index.php?id=170) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-PADOVA-MOLECULAR-BIOLOGY-PROFILE-2026` — [Biologia Molecolare – official University degree profile](https://www.unipd.it/corsi-di-laurea/biologia-molecolare) (cycle: general; prior check: 2026-11-11)
+- [ ] `SRC-PADOVA-SCIENCE-BSC-NON-EU-CALL-2026` — [School of Science bachelor's call for non-EU applicants abroad – AY 2026/27](https://wwwassets.unipd.it/sites/default/files/pdf_imported_files/nonEU_LT%20Scienze_0.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-PADOVA-SCIENCE-OPEN-DAY-2027` — [School of Science Open Days – 2027/28 prospective-student listings](https://studenti.scienze.unipd.it/openday/) (cycle: 2027-2028; prior check: 2026-11-11)
 - [ ] `SRC-PADUA-TUITION-2026` — [Student fees – 2026/27 fee notice and published tariff guidance](https://www.unipd.it/en/contribuzione-studentesca) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — The School's official 2027/28 Open Day page lists Biologia Molecolare among prospective-student events, but that is not an admission call or seat allocation. The latest official admissions page and calls reviewed remain for 2026/27; no course-specific 2027/28 first-year intake was verified. This does not mean the course is discontinued.
   - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
-  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
-  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
-  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.
-  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
-  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — The €35 in the previous non-EU-abroad call was the 2026/27 CISIA TOLC registration charge, not a University application fee. No 2027/28 test or application charge was published in the reviewed sources.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — The official Open Day page lists the course among 2027/28 prospective-student events, but no 2027/28 first-year call, seat quota, TOLC threshold, or route-specific admission requirements were verified.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — The University fee page reviewed still links the 2026/27 annual notice; no 2027/28 course fee schedule or total was published.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — No course-specific 2027/28 scholarship terms were published in the reviewed official profile, admissions material or Open Day listing; annual aid-call terms remain to be checked.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed sources publish seat quotas and merit rankings but not comparable applicants and admitted-student totals by route; no acceptance rate is inferred.
+  - `facts.application_windows_2027_2028` — `NOT_YET_PUBLISHED` — The 2027/28 Open Day listing is a prospective-student event, not an admission calendar. The official admissions page and calls reviewed still concern 2026/27; no course-specific 2027/28 deadlines were found.
+  - `facts.application_deadline` — `NOT_YET_PUBLISHED` — No 2027/28 course-specific deadline or admissions call was verified; do not reuse either 2026/27 route's deadlines.
 
 #### Ingegneria informatica — `legacy-164`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-164/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
-- [ ] `SRC-PADOVA-COMPUTER-ENGINEERING-BSC-2026` — [Ingegneria informatica – official bachelor's degree profile](https://www.unipd.it/corsi-di-laurea/ingegneria-informatica) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-PADOVA-ING-INFORMATICA-ADMISSIONS-2026` — [Engineering bachelor's restricted-admission page – AY 2026/27](https://www.unipd.it/ammissioni-ing-triennali-programmato) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-PADOVA-ING-INFORMATICA-EU-CALL-2026` — [Ingegneria informatica EU/equivalent admission call – AY 2026/27](https://wwwassets.unipd.it/sites/default/files/2026-05/2026_Bando_L_Aerospaziale-Biomedica-Informatica_1.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-PADOVA-COMPUTER-ENGINEERING-BSC-2026` — [Ingegneria informatica – official bachelor's degree profile](https://www.unipd.it/corsi-di-laurea/ingegneria-informatica) (cycle: general; prior check: 2026-11-11)
+- [ ] `SRC-PADOVA-ING-INFORMATICA-NON-EU-CALL-2026` — [Ingegneria informatica call for non-EU applicants residing abroad – AY 2026/27](https://wwwassets.unipd.it/sites/default/files/pdf_imported_files/nonUE_LT_Ingegneria_0.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027` — [International degree-seeker application process – 2027/28](https://www.unipd.it/en/ammissione-studenti-internazionali) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-INTL-EXCELLENCE-2027-BOARD` — [2027/28 Padua International Excellence Scholarship – Board allocation announcement](https://www.unipd.it/node/93348) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-INTL-EXCELLENCE-PROGRAMME` — [Padua International Excellence Scholarship Programme – general terms and call status](https://www.unipd.it/en/padua-international-excellence-scholarship-programme) (cycle: general; prior check: 2026-11-11)
 - [ ] `SRC-PADUA-TUITION-2026` — [Student fees – 2026/27 fee notice and published tariff guidance](https://www.unipd.it/en/contribuzione-studentesca) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
-  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
-  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
-  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
-  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.
-  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
-  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — The course-specific School admissions page and call reviewed are explicitly for 2026/27. Padua's general international page gives a first 2027/28 call for most degree programmes, but does not name this restricted Italian-taught course or establish its course-specific intake and foreign-qualification route. No 2027/28 first-year call was verified as of 11 November 2026; this does not mean the course is discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — No course-specific 2027/28 admission calendar was verified. Padua's general international first-call calendar applies to most courses and does not confirm this programme's selection dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — No 2027/28 course-specific application or test fee was published in the reviewed sources. Prior-cycle €35 CISIA testing and €205 non-EU enrolment amounts are not new-cycle application fees.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — No course-specific 2027/28 call, seat quota, TOLC threshold, language rule or applicant-category requirements were verified. The detailed requirements recorded above are strictly from 2026/27.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — The reviewed University fee page links 2026/27 amounts only; no 2027/28 fee schedule or course-specific tuition total was published.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — No course-specific scholarship for new 2027/28 entrants was verified. The announced Padua International Excellence scheme is for English-taught degrees, while Ingegneria informatica is taught in Italian; other general or regional aid requires its separate annual eligibility and call review.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The calls give places and ranking procedures but do not provide comparable applicant and admitted-student totals by category; no acceptance rate is inferred.
+  - `facts.application_windows_2027_2028` — `NOT_YET_PUBLISHED` — No course-specific 2027/28 admission calendar was verified. Do not reuse the 2026/27 TOLC, pre-enrolment or non-EU-abroad dates.
+  - `facts.application_deadline` — `NOT_YET_PUBLISHED` — The general international call calendar applies to most courses and does not establish this programme's course-specific 2027/28 deadlines.
 
 #### Scienze psicologiche cognitive e psicobiologiche — `legacy-165`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-165/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
-- [ ] `SRC-PADOVA-COGNITIVE-PSYCHOLOGY-BSC-2026` — [Scienze psicologiche cognitive e psicobiologiche – official bachelor's profile](https://www.unipd.it/corsi-di-laurea/scienze-psicologiche-cognitive-e-psicobiologiche) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-PADOVA-COGNITIVE-PSYCHOLOGY-EU-CALL-2026` — [Scienze psicologiche cognitive e psicobiologiche EU/equivalent admission call – AY 2026/27](https://wwwassets.unipd.it/sites/default/files/pdf_imported_files/2026_Bando_L_Psicologia_0.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-PADOVA-PSYCHOLOGY-ITALIAN-BSC-ADMISSIONS-2026` — [School of Psychology Italian-taught bachelor's admissions page – AY 2026/27](https://www.unipd.it/en/ammissioni-psi-triennali-programmato) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-PADOVA-BACHELOR-ADMISSIONS-INDEX-2026` — [Padua bachelor's and single-cycle admission index – AY 2026/27](https://www.unipd.it/avvisi-ammissione-lauree-triennali-ciclo-unico) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-PADOVA-COGNITIVE-PSYCHOLOGY-BSC-2026` — [Scienze psicologiche cognitive e psicobiologiche – official School of Psychology profile](https://psicologia.unipd.it/offerta-didattica/lauree-triennali?key=PS2961&ordinamento=2025&tipo=L) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-PADOVA-COGNITIVE-PSYCHOLOGY-NON-EU-CALL-2026` — [Scienze psicologiche cognitive e psicobiologiche call for non-EU applicants abroad – AY 2026/27](https://wwwassets.unipd.it/sites/default/files/pdf_imported_files/nonEU_LT%20Psicologia_0_0.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027` — [International degree-seeker application process – 2027/28](https://www.unipd.it/en/ammissione-studenti-internazionali) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-INTL-EXCELLENCE-2027-BOARD` — [2027/28 Padua International Excellence Scholarship – Board allocation announcement](https://www.unipd.it/node/93348) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-INTL-EXCELLENCE-PROGRAMME` — [Padua International Excellence Scholarship Programme – general terms and call status](https://www.unipd.it/en/padua-international-excellence-scholarship-programme) (cycle: general; prior check: 2026-11-11)
 - [ ] `SRC-PADUA-TUITION-2026` — [Student fees – 2026/27 fee notice and published tariff guidance](https://www.unipd.it/en/contribuzione-studentesca) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
-  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
-  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
-  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
-  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.
-  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
-  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — The course-specific School admissions page and University admissions index reviewed are explicitly for 2026/27. Padua's general international page gives a 2027/28 first call for most degree programmes, but does not name this course or establish its course-specific first-year intake and applicant-category routes. No 2027/28 first-year call was verified as of 11 November 2026; this does not mean the course is discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — No course-specific 2027/28 admissions calendar was verified. Padua's general international call applies to most degree programmes and does not confirm this programme's selection dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — No course-specific 2027/28 application or test fee was published in the reviewed sources. The €35 CISIA test charge and €205 prior-cycle enrolment contribution are not new-cycle application fees.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — No 2027/28 course call, seat quota, TOLC threshold, language rule or applicant-category requirements were verified. The detailed requirements recorded above are strictly from 2026/27.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — The reviewed University fee page and 2026/27 calls do not publish a 2027/28 fee schedule or a course-specific tuition total.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — No course-specific scholarship terms for incoming 2027/28 students were verified. The Padua International Excellence scheme is limited to English-taught degrees, while this course is Italian-taught; other University or regional aid follows separate annual calls and eligibility rules.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The calls provide places and ranking procedures but do not publish comparable applicant and admitted-student totals by category; no acceptance rate is inferred.
+  - `facts.application_windows_2027_2028` — `NOT_YET_PUBLISHED` — No course-specific 2027/28 admissions calendar was verified. Do not reuse the 2026/27 TOLC, selection, pre-enrolment or non-EU-abroad dates.
+  - `facts.application_deadline` — `NOT_YET_PUBLISHED` — The general international calendar does not establish this course's course-specific 2027/28 deadlines.
 
 #### History — `discovered-002`
 
@@ -4015,12 +4103,14 @@ Currently missing or unpublished fields:
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027` — [Degree programmes held in English – proposed 2027/28 BSc and MSc additions](https://www.unipd.it/en/corsi-laurea-lingua-inglese) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-MAFBA-DEPARTMENT-OPEN-DAY-2026` — [Management, Finance and Business Analytics – Department open day details](https://www.economia.unipd.it/open-day-dei-corsi-di-laurea-triennale-di-economia-0) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-MAFBA-OPEN-DAY-2026` — [Management, Finance and Business Analytics – scheduled open day](https://www.unipd.it/en/openday2026-27-economia-scienzepolitiche) (cycle: 2027-2028; prior check: 2026-11-11)
 - [ ] `SRC-PADUA-INTL-EXCELLENCE-2027-BOARD` — [2027/28 Padua International Excellence Scholarship – Board allocation announcement](https://www.unipd.it/node/93348) (cycle: 2027-2028; prior check: 2026-11-11)
 - [ ] `SRC-PADUA-INTL-EXCELLENCE-PROGRAMME` — [Padua International Excellence Scholarship Programme – general terms and call status](https://www.unipd.it/en/padua-international-excellence-scholarship-programme) (cycle: general; prior check: 2026-11-11)
 - [ ] `SRC-PADUA-INTL-2027` — [Admission of international students – How to apply](https://www.unipd.it/en/ammissione-studenti-internazionali) (cycle: 2027-2028; prior check: 2026-11-11)
 - [ ] `SRC-PADUA-TUITION-2026` — [Student fees – 2026/27 fee notice and published tariff guidance](https://www.unipd.it/en/contribuzione-studentesca) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The university lists the programme for 2027/28 but explicitly says it is still to be approved. No course-specific 2027/28 call was identified.
+  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The university lists the programme for 2027/28 but explicitly says it is still to be approved. No course-specific 2027/28 call was identified. A Department open day is scheduled for 12 November 2026, but as checked on 11 November it has not yet occurred and does not confirm an intake or call.
   - `facts.application_windows` — `NOT_YET_PUBLISHED` — The University has general 2027/28 international calls for most courses, but the proposed degree itself is awaiting approval and no course-specific admission window or inclusion in those calls was identified.
   - `facts.program_specific_requirements_2027_2028` — `REQUIRES_VERIFICATION` — No approved course regulations or programme-specific entry requirements have been published in the reviewed source.
   - `facts.application_fee_2027_2028` — `REQUIRES_VERIFICATION` — No programme-specific application fee is confirmed for this unapproved proposal.
@@ -4035,16 +4125,23 @@ Currently missing or unpublished fields:
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027` — [Degree programmes held in English – proposed 2027/28 BSc and MSc additions](https://www.unipd.it/en/corsi-laurea-lingua-inglese) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-FOOD-SAFETY-CONTACT-2027` — [Contact information for Food Safety for Global Health](https://agrariamedicinaveterinaria.unipd.it/en/courses/bachelors-first-cycle-and-masters-second-cycle-degrees/food-safety-global-health/contact) (cycle: general; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-FOOD-SAFETY-OFA-2026-27` — [Additional learning requirements (OFA) 2026/27 – Food Safety for Global Health](https://agrariamedicinaveterinaria.unipd.it/en/current-students/studying/additional-learning-requirements-ofa) (cycle: 2026-2027 page; references 2027-2028 start; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-FOOD-SAFETY-OUTLINE-2027` — [Food Safety for Global Health – course outline and objectives](https://agrariamedicinaveterinaria.unipd.it/en/courses/bachelors-first-cycle-and-masters-second-cycle-degrees/food-safety-global-health/fsh-course) (cycle: 2027-2028 proposed; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-FOOD-SAFETY-PROFILE-2027` — [Food Safety for Global Health – Department course profile](https://agrariamedicinaveterinaria.unipd.it/en/courses/bachelors-first-cycle-and-masters-second-cycle-degrees/food-safety-global-health) (cycle: 2027-2028 proposed; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-FOOD-SAFETY-APPLY-2027` — [Apply to Food Safety for Global Health](https://agrariamedicinaveterinaria.unipd.it/en/courses/bachelors-first-cycle-and-masters-second-cycle-degrees/food-safety-global-health/apply-fsh) (cycle: 2027-2028 proposed; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-FOOD-SAFETY-CREDITS-2027` — [Information on credit recognition in Food Safety for Global Health](https://agrariamedicinaveterinaria.unipd.it/en/information-credits-recognition-food-safety-global-health) (cycle: general; course regulations pending; prior check: 2026-11-11)
 - [ ] `SRC-PADUA-INTL-EXCELLENCE-2027-BOARD` — [2027/28 Padua International Excellence Scholarship – Board allocation announcement](https://www.unipd.it/node/93348) (cycle: 2027-2028; prior check: 2026-11-11)
 - [ ] `SRC-PADUA-INTL-EXCELLENCE-PROGRAMME` — [Padua International Excellence Scholarship Programme – general terms and call status](https://www.unipd.it/en/padua-international-excellence-scholarship-programme) (cycle: general; prior check: 2026-11-11)
 - [ ] `SRC-PADUA-INTL-2027` — [Admission of international students – How to apply](https://www.unipd.it/en/ammissione-studenti-internazionali) (cycle: 2027-2028; prior check: 2026-11-11)
 - [ ] `SRC-PADUA-TUITION-2026` — [Student fees – 2026/27 fee notice and published tariff guidance](https://www.unipd.it/en/contribuzione-studentesca) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The university lists the programme for 2027/28 but explicitly says it is still to be approved. No course-specific 2027/28 call was identified.
-  - `facts.application_windows` — `NOT_YET_PUBLISHED` — The University has general 2027/28 international calls for most courses, but the proposed degree itself is awaiting approval and no course-specific admission window or inclusion in those calls was identified.
-  - `facts.program_specific_requirements_2027_2028` — `REQUIRES_VERIFICATION` — No approved course regulations or programme-specific entry requirements have been published in the reviewed source.
-  - `facts.application_fee_2027_2028` — `REQUIRES_VERIFICATION` — No programme-specific application fee is confirmed for this unapproved proposal.
+  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The university lists the programme for 2027/28 but explicitly says it is still to be approved. No course-specific 2027/28 call was identified. The Department now has a course profile and says application links will be available around December, but no active course application link or approved regulation was present on 11 November.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — The dedicated Apply to FSH page separates Italian- and international-qualification instructions and says the application links will be available around December. As of 11 November 2026, no active course-specific application link, exact deadline or call was published; the proposal remains awaiting approval.
+  - `facts.program_specific_requirements_2027_2028` — `REQUIRES_VERIFICATION` — No approved first-year course regulations or complete 2027/28 entry checklist were found. The credit-recognition page says the course regulation will be available soon. A 2026/27 OFA page mentions CEnT-S context but does not establish whether the test is mandatory for 2027/28 FSH admission.
+  - `facts.application_fee_2027_2028` — `REQUIRES_VERIFICATION` — The Apply to FSH page has no application fee or active course link as of 11 November 2026. No 2027/28 application charge is confirmed.
   - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — No course-specific 2027/28 fee is confirmed for this unapproved proposal. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.
+  - `facts.available_places_2027_2028` — `REQUIRES_VERIFICATION` — No 2027/28 first-year quota or intake capacity is published. The Department credit-recognition page discusses available seats for advanced-year transfer entrants only; this does not establish first-year places.
   - `facts.scholarship_call_details_2027_2028` — `NOT_YET_PUBLISHED` — The official programme page says the 2027/28 annual call will be published in November 2026; as checked on 11 November the page still links the 2026/27 call. Confirm final eligibility, application/selection process and renewal criteria when the new notice appears.
 
 #### Innovative Technologies in Agriculture (proposed 2027/28) — `discovered-033`
@@ -4055,16 +4152,18 @@ Currently missing or unpublished fields:
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027` — [Degree programmes held in English – proposed 2027/28 BSc and MSc additions](https://www.unipd.it/en/corsi-laurea-lingua-inglese) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-AGTECH-GUIDE-2027` — [Study with us 2027/28 – Agricultural Sciences and Veterinary Medicine programme list](https://wwwassets.unipd.it/sites/default/files/2026-10/StudyWithUs_2027web_Finale.pdf) (cycle: 2027-2028; prior check: 2026-11-11)
 - [ ] `SRC-PADUA-INTL-EXCELLENCE-2027-BOARD` — [2027/28 Padua International Excellence Scholarship – Board allocation announcement](https://www.unipd.it/node/93348) (cycle: 2027-2028; prior check: 2026-11-11)
 - [ ] `SRC-PADUA-INTL-EXCELLENCE-PROGRAMME` — [Padua International Excellence Scholarship Programme – general terms and call status](https://www.unipd.it/en/padua-international-excellence-scholarship-programme) (cycle: general; prior check: 2026-11-11)
 - [ ] `SRC-PADUA-INTL-2027` — [Admission of international students – How to apply](https://www.unipd.it/en/ammissione-studenti-internazionali) (cycle: 2027-2028; prior check: 2026-11-11)
 - [ ] `SRC-PADUA-TUITION-2026` — [Student fees – 2026/27 fee notice and published tariff guidance](https://www.unipd.it/en/contribuzione-studentesca) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The university lists the programme for 2027/28 but explicitly says it is still to be approved. No course-specific 2027/28 call was identified.
+  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The university lists the programme for 2027/28 but explicitly says it is still to be approved. No course-specific 2027/28 call was identified. The University's 2027/28 study guide lists it under Agricultural Sciences and Veterinary Medicine as a three-year English-taught Bachelor's proposal, still 'to be approved'; it publishes no course-specific call or campus.
   - `facts.application_windows` — `NOT_YET_PUBLISHED` — The University has general 2027/28 international calls for most courses, but the proposed degree itself is awaiting approval and no course-specific admission window or inclusion in those calls was identified.
   - `facts.program_specific_requirements_2027_2028` — `REQUIRES_VERIFICATION` — No approved course regulations or programme-specific entry requirements have been published in the reviewed source.
   - `facts.application_fee_2027_2028` — `REQUIRES_VERIFICATION` — No programme-specific application fee is confirmed for this unapproved proposal.
   - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — No course-specific 2027/28 fee is confirmed for this unapproved proposal. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.
+  - `facts.course_location_2027_2028` — `REQUIRES_VERIFICATION` — The University guide identifies the School but gives no course-specific campus or teaching location for this proposed programme. Padua is the university's city, not a confirmed campus assignment for this course.
   - `facts.scholarship_call_details_2027_2028` — `NOT_YET_PUBLISHED` — The official programme page says the 2027/28 annual call will be published in November 2026; as checked on 11 November the page still links the 2026/27 call. Confirm final eligibility, application/selection process and renewal criteria when the new notice appears.
 
 #### Data Analytics and Decision Support (proposed 2027/28) — `discovered-035`
@@ -4075,18 +4174,21 @@ Currently missing or unpublished fields:
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027` — [Degree programmes held in English – proposed 2027/28 BSc and MSc additions](https://www.unipd.it/en/corsi-laurea-lingua-inglese) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-ENGLISH-MASTERS-PROPOSED-2027` — [Master's degree programmes in English – proposed 2027/28 additions](https://www.unipd.it/en/corsi-laurea-magistrale-lingua-inglese) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-DATA-ANALYTICS-GUIDE-2027` — [Study with us 2027/28 – School of Science programme list](https://wwwassets.unipd.it/sites/default/files/2026-10/StudyWithUs_2027web_Finale.pdf) (cycle: 2027-2028; prior check: 2026-11-11)
 - [ ] `SRC-PADUA-INTL-EXCELLENCE-2027-BOARD` — [2027/28 Padua International Excellence Scholarship – Board allocation announcement](https://www.unipd.it/node/93348) (cycle: 2027-2028; prior check: 2026-11-11)
 - [ ] `SRC-PADUA-INTL-EXCELLENCE-PROGRAMME` — [Padua International Excellence Scholarship Programme – general terms and call status](https://www.unipd.it/en/padua-international-excellence-scholarship-programme) (cycle: general; prior check: 2026-11-11)
 - [ ] `SRC-PADUA-INTL-2027` — [Admission of international students – How to apply](https://www.unipd.it/en/ammissione-studenti-internazionali) (cycle: 2027-2028; prior check: 2026-11-11)
 - [ ] `SRC-PADUA-TUITION-2026` — [Student fees – 2026/27 fee notice and published tariff guidance](https://www.unipd.it/en/contribuzione-studentesca) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The University catalogue marks the proposed programme as awaiting approval. For Statistical Science, the Department's projected September 2027 start does not establish approval or a confirmed first-year intake.
+  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The University catalogue marks the proposed programme as awaiting approval. The 2027/28 study guide confirms only a proposed two-year English Master's listing; no course-specific intake or call is published.
   - `facts.department_projected_profile` — `REQUIRES_VERIFICATION` — No department-level programme profile has been identified; verify whether a separate proposal specification is published.
   - `facts.proposed_admission_requirements` — `REQUIRES_VERIFICATION` — No approved course admission requirements have been identified; verify when the proposal is approved.
   - `facts.application_windows` — `NOT_YET_PUBLISHED` — The University-level 2027/28 application calls cover most courses but do not confirm that this unapproved proposal is included; no programme-specific call or deadline was found.
   - `facts.program_specific_requirements_2027_2028` — `REQUIRES_VERIFICATION` — No approved annual programme regulation or 2027/28 course-specific requirements are available.
   - `facts.application_fee_2027_2028` — `REQUIRES_VERIFICATION` — No programme-specific 2027/28 application fee is confirmed for this unapproved proposal.
   - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — No programme-specific 2027/28 tuition amount is confirmed. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.
+  - `facts.course_location_2027_2028` — `REQUIRES_VERIFICATION` — The University guide identifies the School of Science but does not publish a course-specific campus or teaching location for this proposed programme. Padua is the University city, not a confirmed campus assignment for this course.
   - `facts.acceptance_rate` — `UNAVAILABLE` — No applicant and admitted-student totals are published; no acceptance rate is inferred.
   - `facts.scholarship_call_details_2027_2028` — `NOT_YET_PUBLISHED` — The official programme page says the 2027/28 annual call will be published in November 2026; as checked on 11 November the page still links the 2026/27 call. Confirm final eligibility, application/selection process and renewal criteria when the new notice appears.
 
@@ -4098,18 +4200,23 @@ Currently missing or unpublished fields:
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027` — [Degree programmes held in English – proposed 2027/28 BSc and MSc additions](https://www.unipd.it/en/corsi-laurea-lingua-inglese) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-ENGLISH-MASTERS-PROPOSED-2027` — [Master's degree programmes in English – proposed 2027/28 additions](https://www.unipd.it/en/corsi-laurea-magistrale-lingua-inglese) (cycle: 2027-2028; prior check: 2026-11-11)
 - [ ] `SRC-PADUA-STATISTICAL-SCIENCE-ENTRY-REQUIREMENTS` — [Statistical Science – Department entry-requirements page](https://www.stat.unipd.it/en/statistical-science/entry-requirements) (cycle: general; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-STATISTICAL-SCIENCE-GUIDE-2027` — [Study with us 2027/28 – School of Science programme list cross-check](https://wwwassets.unipd.it/sites/default/files/2026-10/StudyWithUs_2027web_Finale.pdf) (cycle: 2027-2028; prior check: 2026-11-11)
 - [ ] `SRC-PADUA-STATISTICAL-SCIENCE-PROFILE-2027` — [Statistical Science – Department programme profile and projected start](https://www.stat.unipd.it/en/statistical-science) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-STATISTICAL-SCIENCE-STRUCTURE-2027` — [Statistical Science – Department programme structure](https://www.stat.unipd.it/en/statistical-science/programme-structure) (cycle: general; no academic-year label; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-STATISTICAL-SCIENCE-CALL-INDEX-2027` — [University general admissions notices index linked by Statistical Science](https://www.unipd.it/avvisi-ammissione-corsi) (cycle: general; inspected 2026-11-11; prior check: 2026-11-11)
 - [ ] `SRC-PADUA-INTL-EXCELLENCE-2027-BOARD` — [2027/28 Padua International Excellence Scholarship – Board allocation announcement](https://www.unipd.it/node/93348) (cycle: 2027-2028; prior check: 2026-11-11)
 - [ ] `SRC-PADUA-INTL-EXCELLENCE-PROGRAMME` — [Padua International Excellence Scholarship Programme – general terms and call status](https://www.unipd.it/en/padua-international-excellence-scholarship-programme) (cycle: general; prior check: 2026-11-11)
 - [ ] `SRC-PADUA-INTL-2027` — [Admission of international students – How to apply](https://www.unipd.it/en/ammissione-studenti-internazionali) (cycle: 2027-2028; prior check: 2026-11-11)
 - [ ] `SRC-PADUA-TUITION-2026` — [Student fees – 2026/27 fee notice and published tariff guidance](https://www.unipd.it/en/contribuzione-studentesca) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The University catalogue marks the proposed programme as awaiting approval. For Statistical Science, the Department's projected September 2027 start does not establish approval or a confirmed first-year intake.
-  - `facts.application_windows` — `NOT_YET_PUBLISHED` — The University-level 2027/28 application calls cover most courses but do not confirm that this unapproved proposal is included; no programme-specific call or deadline was found.
+  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The University catalogue marks the proposed programme as awaiting approval. For Statistical Science, the Department's projected September 2027 start does not establish approval or a confirmed first-year intake. The University 2027/28 study guide omits Statistical Sciences from its School of Science English-taught Master's list while listing Italian Scienze statistiche in the Italian column; this is an unresolved source conflict, not proof that the proposed English degree was cancelled.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — The Department profile shows an unlinked 'Call for Applications: read the call' label; its separate entry-requirements page links to the general University admissions-notice index. No Statistical Science 2027/28 call, deadline, or confirmation that this unapproved proposal is included in University-wide application calls was identified.
   - `facts.program_specific_requirements_2027_2028` — `REQUIRES_VERIFICATION` — No approved annual programme regulation or 2027/28 course-specific requirements are available.
   - `facts.application_fee_2027_2028` — `REQUIRES_VERIFICATION` — No programme-specific 2027/28 application fee is confirmed for this unapproved proposal.
   - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — No programme-specific 2027/28 tuition amount is confirmed. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.
+  - `facts.course_location_2027_2028` — `REQUIRES_VERIFICATION` — The Department profile says on campus but does not identify the teaching campus; Padua is the University city and is not a confirmed course location.
   - `facts.acceptance_rate` — `UNAVAILABLE` — No applicant and admitted-student totals are published; no acceptance rate is inferred.
   - `facts.scholarship_call_details_2027_2028` — `NOT_YET_PUBLISHED` — The official programme page says the 2027/28 annual call will be published in November 2026; as checked on 11 November the page still links the 2026/27 call. Confirm final eligibility, application/selection process and renewal criteria when the new notice appears.
 
@@ -4120,15 +4227,18 @@ Currently missing or unpublished fields:
 - [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
+- [ ] `SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027` — [Degree programmes held in English – proposed 2027/28 BSc and MSc additions](https://www.unipd.it/en/corsi-laurea-lingua-inglese) (cycle: 2027-2028; prior check: 2026-11-11)
 - [ ] `SRC-PADUA-ARQUS-PHYSICS-TECH-2026` — [Arqus joint Bachelor's Programme in Physics for Technology – development agreement](https://www.unipd.it/en/arqus/news/rettrice-partecipa-consiglio-rettori-alleanza-europea-arqus) (cycle: general; prior check: 2026-11-11)
+- [ ] `SRC-ARQUS-PHYS-TECH-MEETING-2026` — [7th meeting of the BSc Physics for Technology Programme](https://arqus-alliance.eu/news/7th-meeting-of-the-bsc-physics-for-technology-programme-at-the-university-of-wroclaw/) (cycle: general; development meeting January 2026; prior check: 2026-11-11)
+- [ ] `SRC-ARQUS-PHYS-TECH-ACCREDITATION-STATUS-2026` — [Arqus joint-programme accreditation status – Physics for Technology](https://arqus-alliance.eu/news/arqus-joint-master-translation-technologies-artificial-intelligence-receives-accreditation/) (cycle: general; status reported 30 September 2026; prior check: 2026-11-11)
 - [ ] `SRC-PADUA-TUITION-2026` — [Student fees – 2026/27 fee notice and published tariff guidance](https://www.unipd.it/en/contribuzione-studentesca) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
   - `language` — `REQUIRES_VERIFICATION` — The 2027/28 English-language degree catalogue does not list Physics for Technology; the Arqus development announcement does not state teaching language.
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The source confirms a consortium development agreement only. It gives no launch cycle, admission call or approval/accreditation status.
-  - `facts.application_windows` — `NOT_YET_PUBLISHED` — No application window or launch academic year is given in the programme-development announcement.
-  - `facts.program_specific_requirements_2027_2028` — `REQUIRES_VERIFICATION` — No approved programme regulation or admission requirements have been published in the reviewed source.
-  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — No applicable programme fee or tuition structure is published in the reviewed source. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.
-  - `facts.scholarships_2027_2028` — `REQUIRES_VERIFICATION` — No programme-specific scholarship call is published in the reviewed source.
+  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The latest Arqus update reviewed (30 September 2026) says the joint Bachelor's is undergoing accreditation by the Lithuanian Quality Agency. No completed accreditation, 2027/28 launch, first-year intake or course-specific admission call is confirmed, and Padua's current English-degree catalogue does not list it.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — No application window, launch academic year or first-year intake is given; the January meeting discussed admission procedures as part of programme development, not as final published criteria.
+  - `facts.program_specific_requirements_2027_2028` — `REQUIRES_VERIFICATION` — Admission and recognition procedures were still being developed in January 2026; no approved programme regulation or final 2027/28 requirements have been published in the reviewed sources.
+  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — No applicable programme fee or tuition structure is published in the reviewed sources. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.
+  - `facts.scholarships_2027_2028` — `REQUIRES_VERIFICATION` — No programme-specific scholarship call is published in the reviewed sources.
 
 #### Astrophysics and Cosmology — `discovered-037`
 
@@ -4309,9 +4419,10 @@ Currently missing or unpublished fields:
 
 Official university-level sources:
 
-- [ ] `SRC-UNIPG-INTL` — [Becoming a UniPG student – international admissions](https://www.unipg.it/en/international-students/becoming-a-unipg-student) (cycle: 2026-2027; checked in prior snapshot: 2026-11-09)
-- [ ] `SRC-UNIPG-CATALOGUE-2026` — [Engineering degree catalogue 2026/27](https://www.unipg.it/didattica/corsi-di-laurea-e-laurea-magistrale/archivio/offerta-formativa-2026-27?annoregolamento=2026&cerca=&classe=&dipartimento=516600&lingua=&nomecorso=&ricerca=on&sede=&tipocorso=) (cycle: 2026-2027; checked in prior snapshot: 2026-11-09)
-- [ ] `SRC-UNIPG-EM-BSC-2026` — [Engineering Management – First cycle degree course](https://ing.unipg.it/en/courses/engineering-management/first-cycle-degree-course) (cycle: 2026-2027; checked in prior snapshot: 2026-11-09)
+- [ ] `SRC-UNIPG-INTL` — [Becoming a UniPG student – international admissions](https://www.unipg.it/en/international-students/becoming-a-unipg-student) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-UNIPG-CATALOGUE-2026` — [Engineering degree catalogue 2026/27](https://www.unipg.it/didattica/corsi-di-laurea-e-laurea-magistrale/archivio/offerta-formativa-2026-27?annoregolamento=2026&cerca=&classe=&dipartimento=516600&lingua=&nomecorso=&ricerca=on&sede=&tipocorso=) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-UNIPG-EM-BSC-2026` — [Engineering Management – First cycle degree course](https://ing.unipg.it/en/courses/engineering-management/first-cycle-degree-course) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-UNIPG-ENTRY-TESTS-2026` — [Engineering BSc entrance tests – current Department guidance](https://ing.unipg.it/didattica/corsi-di-studio/test-di-ingresso) (cycle: 2026 test schedule / guidance updated 26 October 2026; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-UNIPG-EM-MSC-2026` — [Engineering Management – Second cycle degree course](https://ing.unipg.it/en/courses/engineering-management/second-cycle-degree-course) (cycle: 2026-2027; checked in prior snapshot: 2026-11-09)
 - [ ] `SRC-UNIPG-FEES-2026` — [Tuition Fees and scholarships – 2026/27 guidance](https://www.unipg.it/en/international-students/becoming-a-unipg-student/tuition-fees-and-scholarships) (cycle: 2026-2027; checked in prior snapshot: 2026-11-09)
 - [ ] `SRC-UNIPG-ADISU-2026` — [ADiSU Umbria scholarship and services call 2026/27](https://www.adisu.umbria.it/concorso-borsa-di-studio/bando/2026-2027/bando-di-concorso-lassegnazione-di-borse-di-studio-e-altri) (cycle: 2026-2027; checked in prior snapshot: 2026-11-09)
@@ -4325,9 +4436,9 @@ Official university-level sources:
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNIPG-EM-MSC-2026` — [Engineering Management – Second cycle degree course](https://ing.unipg.it/en/courses/engineering-management/second-cycle-degree-course) (cycle: 2026-2027; prior check: 2026-11-09)
-- [ ] `SRC-UNIPG-CATALOGUE-2026` — [Engineering degree catalogue 2026/27](https://www.unipg.it/didattica/corsi-di-laurea-e-laurea-magistrale/archivio/offerta-formativa-2026-27?annoregolamento=2026&cerca=&classe=&dipartimento=516600&lingua=&nomecorso=&ricerca=on&sede=&tipocorso=) (cycle: 2026-2027; prior check: 2026-11-09)
+- [ ] `SRC-UNIPG-CATALOGUE-2026` — [Engineering degree catalogue 2026/27](https://www.unipg.it/didattica/corsi-di-laurea-e-laurea-magistrale/archivio/offerta-formativa-2026-27?annoregolamento=2026&cerca=&classe=&dipartimento=516600&lingua=&nomecorso=&ricerca=on&sede=&tipocorso=) (cycle: 2026-2027; prior check: 2026-11-11)
 - [ ] `SRC-UNIPG-ADISU-2026` — [ADiSU Umbria scholarship and services call 2026/27](https://www.adisu.umbria.it/concorso-borsa-di-studio/bando/2026-2027/bando-di-concorso-lassegnazione-di-borse-di-studio-e-altri) (cycle: 2026-2027; prior check: 2026-11-09)
-- [ ] `SRC-UNIPG-INTL` — [Becoming a UniPG student – international admissions](https://www.unipg.it/en/international-students/becoming-a-unipg-student) (cycle: 2026-2027; prior check: 2026-11-09)
+- [ ] `SRC-UNIPG-INTL` — [Becoming a UniPG student – international admissions](https://www.unipg.it/en/international-students/becoming-a-unipg-student) (cycle: 2026-2027; prior check: 2026-11-11)
 - [ ] `SRC-UNIPG-ADISU-CALL-2026` — [ADiSU Umbria 2026/27 scholarship call – official PDF](https://www.adisu.umbria.it/sites/default/files/2026-07/Bando_borse_di_studio_Adisu_2026_2027_1.pdf) (cycle: 2026-2027; prior check: 2026-11-09)
 - [ ] `SRC-UNIPG-FEES-2026` — [Tuition Fees and scholarships – 2026/27 guidance](https://www.unipg.it/en/international-students/becoming-a-unipg-student/tuition-fees-and-scholarships) (cycle: 2026-2027; prior check: 2026-11-09)
 Currently missing or unpublished fields:
@@ -4346,14 +4457,18 @@ Currently missing or unpublished fields:
 - [ ] University page: https://italy-it-programs.vercel.app/universities/perugia/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
-- [ ] `SRC-UNIPG-EM-BSC-2026` — [Engineering Management – First cycle degree course](https://ing.unipg.it/en/courses/engineering-management/first-cycle-degree-course) (cycle: 2026-2027; prior check: 2026-11-09)
-- [ ] `SRC-UNIPG-CATALOGUE-2026` — [Engineering degree catalogue 2026/27](https://www.unipg.it/didattica/corsi-di-laurea-e-laurea-magistrale/archivio/offerta-formativa-2026-27?annoregolamento=2026&cerca=&classe=&dipartimento=516600&lingua=&nomecorso=&ricerca=on&sede=&tipocorso=) (cycle: 2026-2027; prior check: 2026-11-09)
+- [ ] `SRC-UNIPG-EM-BSC-2026` — [Engineering Management – First cycle degree course](https://ing.unipg.it/en/courses/engineering-management/first-cycle-degree-course) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-UNIPG-CATALOGUE-2026` — [Engineering degree catalogue 2026/27](https://www.unipg.it/didattica/corsi-di-laurea-e-laurea-magistrale/archivio/offerta-formativa-2026-27?annoregolamento=2026&cerca=&classe=&dipartimento=516600&lingua=&nomecorso=&ricerca=on&sede=&tipocorso=) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-UNIPG-ENTRY-TESTS-2026` — [Engineering BSc entrance tests – current Department guidance](https://ing.unipg.it/didattica/corsi-di-studio/test-di-ingresso) (cycle: 2026 test schedule / guidance updated 26 October 2026; prior check: 2026-11-11)
 - [ ] `SRC-UNIPG-ADISU-2026` — [ADiSU Umbria scholarship and services call 2026/27](https://www.adisu.umbria.it/concorso-borsa-di-studio/bando/2026-2027/bando-di-concorso-lassegnazione-di-borse-di-studio-e-altri) (cycle: 2026-2027; prior check: 2026-11-09)
-- [ ] `SRC-UNIPG-INTL` — [Becoming a UniPG student – international admissions](https://www.unipg.it/en/international-students/becoming-a-unipg-student) (cycle: 2026-2027; prior check: 2026-11-09)
+- [ ] `SRC-UNIPG-INTL` — [Becoming a UniPG student – international admissions](https://www.unipg.it/en/international-students/becoming-a-unipg-student) (cycle: 2026-2027; prior check: 2026-11-11)
 - [ ] `SRC-UNIPG-ADISU-CALL-2026` — [ADiSU Umbria 2026/27 scholarship call – official PDF](https://www.adisu.umbria.it/sites/default/files/2026-07/Bando_borse_di_studio_Adisu_2026_2027_1.pdf) (cycle: 2026-2027; prior check: 2026-11-09)
 - [ ] `SRC-UNIPG-FEES-2026` — [Tuition Fees and scholarships – 2026/27 guidance](https://www.unipg.it/en/international-students/becoming-a-unipg-student/tuition-fees-and-scholarships) (cycle: 2026-2027; prior check: 2026-11-09)
+Known source conflicts in current data:
+  - `facts.previous_cycle_admission_tests` — Applicant route matters: the international PICA page explicitly accepts CEnT-S, TOLC-I or SAT for visa applicants; the Department's newer general test page lists TOLC-I/CEnT-S for all Engineering BScs; the 19 October course page still lists SAT/ACT as well. The updated page does not list ACT, so confirm any 2026/27 exception with the current call/secretariat. Do not carry these options into 2027/28.
 Currently missing or unpublished fields:
   - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The latest official course listing is for 2026/27 and the visa PICA procedure gives 2026 dates. No 2027/28 first-year intake was identified in the reviewed official pages; this is not treated as a cancellation or explicit publication statement.
+  - `facts.admission_tests_2027_2028` — `REQUIRES_VERIFICATION` — The latest Department test schedule gives 2026 sessions and the visa admissions page is for 2026/27. No 2027/28 test options, thresholds or schedule were identified.
   - `facts.application_windows` — `REQUIRES_VERIFICATION` — No 2027/28 Engineering Management application window was found; the 2026 PICA dates are retained in previous_cycle_non_eu_admission.
   - `facts.application_fee` — `REQUIRES_VERIFICATION` — The 2026/27 pages reviewed do not state a separate Engineering Management PICA application fee. Check the live application portal for any fee; no 2027/28 fee is confirmed.
   - `facts.program_specific_requirements` — `REQUIRES_VERIFICATION` — The detailed requirements currently available are 2026/27/general guidance only; no 2027/28 course call was identified.
@@ -5166,7 +5281,7 @@ Currently missing or unpublished fields:
 
 ### Università degli Studi di Trieste (Trieste) — `trieste`
 
-- [ ] University outcome reviewed | Existing status: `REQUIRES_VERIFICATION` | Existing last checked: `2026-11-10`
+- [ ] University outcome reviewed | Existing status: `REQUIRES_VERIFICATION` | Existing last checked: `2026-11-11`
 - [ ] University page: https://italy-it-programs.vercel.app/universities/trieste/
 - [ ] Official website: https://portale.units.it/en
 - [ ] Admissions page: https://portale.units.it/en/international/destination-units/degree-seekers
@@ -5176,66 +5291,67 @@ Currently missing or unpublished fields:
 Official university-level sources:
 
 - [ ] `SRC-TRIESTE-APPLY` — [Application](https://portale.units.it/en/study/application) (cycle: general; checked in prior snapshot: 2026-11-09)
-- [ ] `SRC-TRIESTE-CATALOGUE-2026` — [UniTS educational offer 2026/27](https://portale.units.it/it/studiare/offerta-formativa) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
-- [ ] `SRC-TRIESTE-PHYSICS-PROFILE` — [Physics MSc official profile](https://degree.units.it/en/0320107301800010) (cycle: general; checked in prior snapshot: 2026-11-10)
-- [ ] `SRC-TRIESTE-PHYSICS-ADMISSION-2026` — [Physics MSc: how to apply 2026/27](https://degree.units.it/en/0320107301800010/how-apply) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
-- [ ] `SRC-TRIESTE-PHYSICS-ITALIAN-2026` — [Atmospheric Physics 965DF syllabus 2026/27](https://degree.units.it/en/0320107301800010/students-area/taught-courses/2026/121073/2026/3/10809/2026) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
-- [ ] `SRC-TRIESTE-PHYSICS-CONTACT` — [Physics MSc bodies and representatives](https://degree.units.it/en/0320107301800010/bodies-and-representatives) (cycle: general; checked in prior snapshot: 2026-11-10)
-- [ ] `SRC-TRIESTE-DSSC-FORMER` — [MIGe Informatics Section teaching: former DSSC programme](https://sites.google.com/view/informatics-mige/teaching) (cycle: historical; checked in prior snapshot: 2026-11-10)
-- [ ] `SRC-TRIESTE-INFORMATICS-IDENTITY` — [UniTS MIGe tutoring: Informatics Section site](https://moodle2.units.it/course/section.php?id=170336) (cycle: general; checked in prior snapshot: 2026-11-10)
-- [ ] `SRC-TRIESTE-DSSC-CALL-2022` — [DSSC MSc admission call 2022/23](https://corsi.units.it/sites/default/files/dssc_call_2022_0.pdf) (cycle: 2022-2023; checked in prior snapshot: 2026-11-10)
-- [ ] `SRC-TRIESTE-DSSC-MANIFESTO-2022` — [UniTS degree inventory 2022/23](https://www.units.it/sites/default/files/media/documenti/pdf_manifesto_2022.pdf) (cycle: 2022-2023; checked in prior snapshot: 2026-11-10)
-- [ ] `SRC-TRIESTE-DSAI-PROFILE` — [Data Science and Artificial Intelligence MSc official profile](https://degree.units.it/en/0320107313600001) (cycle: general; checked in prior snapshot: 2026-11-10)
-- [ ] `SRC-TRIESTE-DSAI-UGOV-2026` — [SM38 Data Science and Artificial Intelligence: 2026 catalogue record](https://portale.units.it/it/ugov/course/second_level_degree-2026-10681) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
-- [ ] `SRC-TRIESTE-DSAI-ADMISSION-2026` — [DSAI MSc: how to apply 2026/27](https://degree.units.it/en/0320107313600001/how-apply) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
-- [ ] `SRC-TRIESTE-SDIC-NON-OFFER` — [Scientific and Data-Intensive Computing: no first-year admission](https://degree.units.it/en/0320107304500001) (cycle: general; checked in prior snapshot: 2026-11-10)
-- [ ] `SRC-TRIESTE-INTERNATIONAL-2026` — [Degree seekers: 2026/27 assessment rounds and application fee](https://portale.units.it/en/international/destination-units/degree-seekers) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
-- [ ] `SRC-TRIESTE-VISA-PROCESS` — [UniTS pre-enrolment for visa applicants](https://portale.units.it/en/international/destination-units/degree-seekers/pre-enrollment-visa-applicants) (cycle: general; checked in prior snapshot: 2026-11-10)
-- [ ] `SRC-TRIESTE-FOREIGN-DOCUMENTS` — [International students: required documents](https://portale.units.it/en/international/destination-units/degree-seekers/documents) (cycle: general; checked in prior snapshot: 2026-11-10)
-- [ ] `SRC-TRIESTE-PUBLISHED-QUOTAS` — [UniTS published visa quota table: updated 16 January 2026](https://portale.units.it/en/international/destination-units/degree-seekers/quotas-and-reassignments-students-applying-visa) (cycle: general; checked in prior snapshot: 2026-11-10)
-- [ ] `SRC-TRIESTE-NATIONAL-PROCEDURES-2026-2028` — [Ministerial international-student procedures 2026/27 and 2027/28](https://portale.units.it/sites/default/files/2026-05/Circolare%202026-2027%20studenti_internazionali_EN_0.pdf) (cycle: 2026-2027 and 2027-2028; checked in prior snapshot: 2026-11-10)
-- [ ] `SRC-TRIESTE-FEES-2026` — [University fees 2026/27](https://portale.units.it/en/study/university-fees/bachelor-master-degrees-and-one-cycle-master-degrees) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
-- [ ] `SRC-TRIESTE-FEES-NOTICE-2026` — [Fee notice 2026/27](https://repo.units.it/docs/units_CdL_tasse-avvisoTasse_en.2026-2027.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
-- [ ] `SRC-TRIESTE-ARDIS-2026` — [ARDiS regional university benefits 2026/27](https://www.ardis.fvg.it/contenuti.php?id=268&view=page) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
-- [ ] `SRC-TRIESTE-ARDIS-CALL-2026` — [ARDiS unified call updated 14 October 2026](https://www.ardis.fvg.it/upload/schede/1792050426.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
-- [ ] `SRC-TRIESTE-ENROLMENT-PORTAL` — [Bachelor's and master's enrolment: ESSE3](https://portale.units.it/en/study/application) (cycle: general; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-TRIESTE-CATALOGUE-2026` — [UniTS educational offer 2026/27](https://portale.units.it/it/studiare/offerta-formativa) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-TRIESTE-PHYSICS-PROFILE` — [Physics MSc official profile](https://degree.units.it/en/0320107301800010) (cycle: general; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-TRIESTE-PHYSICS-ADMISSION-2026` — [Physics MSc: how to apply 2026/27](https://degree.units.it/en/0320107301800010/how-apply) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-TRIESTE-PHYSICS-ITALIAN-2026` — [Atmospheric Physics 965DF syllabus 2026/27](https://degree.units.it/en/0320107301800010/students-area/taught-courses/2026/121073/2026/3/10809/2026) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-TRIESTE-PHYSICS-CONTACT` — [Physics MSc bodies and representatives](https://degree.units.it/en/0320107301800010/bodies-and-representatives) (cycle: general; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-TRIESTE-DSSC-FORMER` — [MIGe Informatics Section teaching: former DSSC programme](https://sites.google.com/view/informatics-mige/teaching) (cycle: historical; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-TRIESTE-INFORMATICS-IDENTITY` — [UniTS MIGe tutoring: Informatics Section site](https://moodle2.units.it/course/section.php?id=170336) (cycle: general; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-TRIESTE-DSSC-CALL-2022` — [DSSC MSc admission call 2022/23](https://corsi.units.it/sites/default/files/dssc_call_2022_0.pdf) (cycle: 2022-2023; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-TRIESTE-DSSC-MANIFESTO-2022` — [UniTS degree inventory 2022/23](https://www.units.it/sites/default/files/media/documenti/pdf_manifesto_2022.pdf) (cycle: 2022-2023; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-TRIESTE-DSAI-PROFILE` — [Data Science and Artificial Intelligence MSc official profile](https://degree.units.it/en/0320107313600001) (cycle: general; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-TRIESTE-DSAI-SECOND-YEAR-2027-28` — [DSAI study plan: Information Retrieval and Data Visualization, 2027/28](https://degree.units.it/en/0320107313600001/students-area/taught-courses/2027/118410/2026/3/10681/2026/) (cycle: 2027-2028; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-TRIESTE-DSAI-UGOV-2026` — [SM38 Data Science and Artificial Intelligence: 2026 catalogue record](https://portale.units.it/it/ugov/course/second_level_degree-2026-10681) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-TRIESTE-DSAI-ADMISSION-2026` — [DSAI MSc: how to apply 2026/27](https://degree.units.it/en/0320107313600001/how-apply) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-TRIESTE-SDIC-NON-OFFER` — [Scientific and Data-Intensive Computing: no first-year admission](https://degree.units.it/en/0320107304500001) (cycle: general; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-TRIESTE-INTERNATIONAL-2026` — [Degree seekers: 2026/27 assessment rounds and application fee](https://portale.units.it/en/international/destination-units/degree-seekers) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-TRIESTE-VISA-PROCESS` — [UniTS pre-enrolment for visa applicants](https://portale.units.it/en/international/destination-units/degree-seekers/pre-enrollment-visa-applicants) (cycle: general; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-TRIESTE-FOREIGN-DOCUMENTS` — [International students: required documents](https://portale.units.it/en/international/destination-units/degree-seekers/documents) (cycle: general; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-TRIESTE-PUBLISHED-QUOTAS` — [UniTS published visa quota table: updated 16 January 2026](https://portale.units.it/en/international/destination-units/degree-seekers/quotas-and-reassignments-students-applying-visa) (cycle: general; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-TRIESTE-NATIONAL-PROCEDURES-2026-2028` — [Ministerial international-student procedures 2026/27 and 2027/28](https://portale.units.it/sites/default/files/2026-05/Circolare%202026-2027%20studenti_internazionali_EN_0.pdf) (cycle: 2026-2027 and 2027-2028; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-TRIESTE-FEES-2026` — [University fees 2026/27](https://portale.units.it/en/study/university-fees/bachelor-master-degrees-and-one-cycle-master-degrees) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-TRIESTE-FEES-NOTICE-2026` — [Fee notice 2026/27](https://repo.units.it/docs/units_CdL_tasse-avvisoTasse_en.2026-2027.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-TRIESTE-ARDIS-2026` — [ARDiS regional university benefits 2026/27](https://www.ardis.fvg.it/contenuti.php?id=268&view=page) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-TRIESTE-ARDIS-CALL-2026` — [ARDiS unified call updated 14 October 2026](https://www.ardis.fvg.it/upload/schede/1792050426.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-TRIESTE-ENROLMENT-PORTAL` — [Bachelor's and master's enrolment: ESSE3](https://portale.units.it/en/study/application) (cycle: general; checked in prior snapshot: 2026-11-11)
 
 #### Data Science and Scientific Computing — `legacy-072`
 
-- [ ] Review program and 2027/28 intake | Current status: `NOT_APPLICABLE` | Availability: `CONFIRMED` | Last checked: `2026-11-10`
+- [ ] Review program and 2027/28 intake | Current status: `NOT_APPLICABLE` | Availability: `CONFIRMED` | Last checked: `2026-11-11`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-072/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/trieste/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
-- [ ] `SRC-TRIESTE-DSSC-CALL-2022` — [DSSC MSc admission call 2022/23](https://corsi.units.it/sites/default/files/dssc_call_2022_0.pdf) (cycle: 2022-2023; prior check: 2026-11-10)
-- [ ] `SRC-TRIESTE-DSSC-MANIFESTO-2022` — [UniTS degree inventory 2022/23](https://www.units.it/sites/default/files/media/documenti/pdf_manifesto_2022.pdf) (cycle: 2022-2023; prior check: 2026-11-10)
-- [ ] `SRC-TRIESTE-DSSC-FORMER` — [MIGe Informatics Section teaching: former DSSC programme](https://sites.google.com/view/informatics-mige/teaching) (cycle: historical; prior check: 2026-11-10)
-- [ ] `SRC-TRIESTE-SDIC-NON-OFFER` — [Scientific and Data-Intensive Computing: no first-year admission](https://degree.units.it/en/0320107304500001) (cycle: general; prior check: 2026-11-10)
-- [ ] `SRC-TRIESTE-INFORMATICS-IDENTITY` — [UniTS MIGe tutoring: Informatics Section site](https://moodle2.units.it/course/section.php?id=170336) (cycle: general; prior check: 2026-11-10)
+- [ ] `SRC-TRIESTE-DSSC-CALL-2022` — [DSSC MSc admission call 2022/23](https://corsi.units.it/sites/default/files/dssc_call_2022_0.pdf) (cycle: 2022-2023; prior check: 2026-11-11)
+- [ ] `SRC-TRIESTE-DSSC-MANIFESTO-2022` — [UniTS degree inventory 2022/23](https://www.units.it/sites/default/files/media/documenti/pdf_manifesto_2022.pdf) (cycle: 2022-2023; prior check: 2026-11-11)
+- [ ] `SRC-TRIESTE-DSSC-FORMER` — [MIGe Informatics Section teaching: former DSSC programme](https://sites.google.com/view/informatics-mige/teaching) (cycle: historical; prior check: 2026-11-11)
+- [ ] `SRC-TRIESTE-SDIC-NON-OFFER` — [Scientific and Data-Intensive Computing: no first-year admission](https://degree.units.it/en/0320107304500001) (cycle: general; prior check: 2026-11-11)
+- [ ] `SRC-TRIESTE-INFORMATICS-IDENTITY` — [UniTS MIGe tutoring: Informatics Section site](https://moodle2.units.it/course/section.php?id=170336) (cycle: general; prior check: 2026-11-11)
 Currently missing or unpublished fields:
   - `facts.acceptance_rate` — `UNAVAILABLE` — No comparable applicant/admitted denominator for an active intake; no rate inferred from historical places.
 
 #### Physics — `legacy-073`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-11`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-073/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/trieste/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
-- [ ] `SRC-TRIESTE-PHYSICS-ADMISSION-2026` — [Physics MSc: how to apply 2026/27](https://degree.units.it/en/0320107301800010/how-apply) (cycle: 2026-2027; prior check: 2026-11-10)
-- [ ] `SRC-TRIESTE-CATALOGUE-2026` — [UniTS educational offer 2026/27](https://portale.units.it/it/studiare/offerta-formativa) (cycle: 2026-2027; prior check: 2026-11-10)
-- [ ] `SRC-TRIESTE-PHYSICS-ITALIAN-2026` — [Atmospheric Physics 965DF syllabus 2026/27](https://degree.units.it/en/0320107301800010/students-area/taught-courses/2026/121073/2026/3/10809/2026) (cycle: 2026-2027; prior check: 2026-11-10)
-- [ ] `SRC-TRIESTE-PHYSICS-PROFILE` — [Physics MSc official profile](https://degree.units.it/en/0320107301800010) (cycle: general; prior check: 2026-11-10)
-- [ ] `SRC-TRIESTE-ARDIS-CALL-2026` — [ARDiS unified call updated 14 October 2026](https://www.ardis.fvg.it/upload/schede/1792050426.pdf) (cycle: 2026-2027; prior check: 2026-11-10)
-- [ ] `SRC-TRIESTE-FEES-NOTICE-2026` — [Fee notice 2026/27](https://repo.units.it/docs/units_CdL_tasse-avvisoTasse_en.2026-2027.pdf) (cycle: 2026-2027; prior check: 2026-11-10)
-- [ ] `SRC-TRIESTE-PHYSICS-CONTACT` — [Physics MSc bodies and representatives](https://degree.units.it/en/0320107301800010/bodies-and-representatives) (cycle: general; prior check: 2026-11-10)
-- [ ] `SRC-TRIESTE-PUBLISHED-QUOTAS` — [UniTS published visa quota table: updated 16 January 2026](https://portale.units.it/en/international/destination-units/degree-seekers/quotas-and-reassignments-students-applying-visa) (cycle: general; prior check: 2026-11-10)
-- [ ] `SRC-TRIESTE-FOREIGN-DOCUMENTS` — [International students: required documents](https://portale.units.it/en/international/destination-units/degree-seekers/documents) (cycle: general; prior check: 2026-11-10)
-- [ ] `SRC-TRIESTE-VISA-PROCESS` — [UniTS pre-enrolment for visa applicants](https://portale.units.it/en/international/destination-units/degree-seekers/pre-enrollment-visa-applicants) (cycle: general; prior check: 2026-11-10)
-- [ ] `SRC-TRIESTE-INTERNATIONAL-2026` — [Degree seekers: 2026/27 assessment rounds and application fee](https://portale.units.it/en/international/destination-units/degree-seekers) (cycle: 2026-2027; prior check: 2026-11-10)
-- [ ] `SRC-TRIESTE-ARDIS-2026` — [ARDiS regional university benefits 2026/27](https://www.ardis.fvg.it/contenuti.php?id=268&view=page) (cycle: 2026-2027; prior check: 2026-11-10)
-- [ ] `SRC-TRIESTE-FEES-2026` — [University fees 2026/27](https://portale.units.it/en/study/university-fees/bachelor-master-degrees-and-one-cycle-master-degrees) (cycle: 2026-2027; prior check: 2026-11-10)
-- [ ] `SRC-TRIESTE-NATIONAL-PROCEDURES-2026-2028` — [Ministerial international-student procedures 2026/27 and 2027/28](https://portale.units.it/sites/default/files/2026-05/Circolare%202026-2027%20studenti_internazionali_EN_0.pdf) (cycle: 2026-2027 and 2027-2028; prior check: 2026-11-10)
+- [ ] `SRC-TRIESTE-PHYSICS-ADMISSION-2026` — [Physics MSc: how to apply 2026/27](https://degree.units.it/en/0320107301800010/how-apply) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-TRIESTE-CATALOGUE-2026` — [UniTS educational offer 2026/27](https://portale.units.it/it/studiare/offerta-formativa) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-TRIESTE-PHYSICS-ITALIAN-2026` — [Atmospheric Physics 965DF syllabus 2026/27](https://degree.units.it/en/0320107301800010/students-area/taught-courses/2026/121073/2026/3/10809/2026) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-TRIESTE-PHYSICS-PROFILE` — [Physics MSc official profile](https://degree.units.it/en/0320107301800010) (cycle: general; prior check: 2026-11-11)
+- [ ] `SRC-TRIESTE-ARDIS-CALL-2026` — [ARDiS unified call updated 14 October 2026](https://www.ardis.fvg.it/upload/schede/1792050426.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-TRIESTE-FEES-NOTICE-2026` — [Fee notice 2026/27](https://repo.units.it/docs/units_CdL_tasse-avvisoTasse_en.2026-2027.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-TRIESTE-PHYSICS-CONTACT` — [Physics MSc bodies and representatives](https://degree.units.it/en/0320107301800010/bodies-and-representatives) (cycle: general; prior check: 2026-11-11)
+- [ ] `SRC-TRIESTE-PUBLISHED-QUOTAS` — [UniTS published visa quota table: updated 16 January 2026](https://portale.units.it/en/international/destination-units/degree-seekers/quotas-and-reassignments-students-applying-visa) (cycle: general; prior check: 2026-11-11)
+- [ ] `SRC-TRIESTE-FOREIGN-DOCUMENTS` — [International students: required documents](https://portale.units.it/en/international/destination-units/degree-seekers/documents) (cycle: general; prior check: 2026-11-11)
+- [ ] `SRC-TRIESTE-VISA-PROCESS` — [UniTS pre-enrolment for visa applicants](https://portale.units.it/en/international/destination-units/degree-seekers/pre-enrollment-visa-applicants) (cycle: general; prior check: 2026-11-11)
+- [ ] `SRC-TRIESTE-INTERNATIONAL-2026` — [Degree seekers: 2026/27 assessment rounds and application fee](https://portale.units.it/en/international/destination-units/degree-seekers) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-TRIESTE-ARDIS-2026` — [ARDiS regional university benefits 2026/27](https://www.ardis.fvg.it/contenuti.php?id=268&view=page) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-TRIESTE-FEES-2026` — [University fees 2026/27](https://portale.units.it/en/study/university-fees/bachelor-master-degrees-and-one-cycle-master-degrees) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-TRIESTE-NATIONAL-PROCEDURES-2026-2028` — [Ministerial international-student procedures 2026/27 and 2027/28](https://portale.units.it/sites/default/files/2026-05/Circolare%202026-2027%20studenti_internazionali_EN_0.pdf) (cycle: 2026-2027 and 2027-2028; prior check: 2026-11-11)
 Currently missing or unpublished fields:
   - `availability_2027_2028` — `REQUIRES_VERIFICATION` — No 2027/28 UniTS call or course-specific first-year offer was identified; previous-cycle terms are not carried forward. Future-year teaching or continuing cohorts do not verify a new first-year offer.
   - `facts.application_windows` — `REQUIRES_VERIFICATION` — No 2027/28 UniTS call or course-specific first-year offer was identified; previous-cycle terms are not carried forward.
@@ -5248,28 +5364,29 @@ Currently missing or unpublished fields:
 
 #### Data Science and Artificial Intelligence — `discovered-025`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-11`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-025/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/trieste/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
-- [ ] `SRC-TRIESTE-DSAI-ADMISSION-2026` — [DSAI MSc: how to apply 2026/27](https://degree.units.it/en/0320107313600001/how-apply) (cycle: 2026-2027; prior check: 2026-11-10)
-- [ ] `SRC-TRIESTE-CATALOGUE-2026` — [UniTS educational offer 2026/27](https://portale.units.it/it/studiare/offerta-formativa) (cycle: 2026-2027; prior check: 2026-11-10)
-- [ ] `SRC-TRIESTE-DSAI-UGOV-2026` — [SM38 Data Science and Artificial Intelligence: 2026 catalogue record](https://portale.units.it/it/ugov/course/second_level_degree-2026-10681) (cycle: 2026-2027; prior check: 2026-11-10)
-- [ ] `SRC-TRIESTE-DSAI-PROFILE` — [Data Science and Artificial Intelligence MSc official profile](https://degree.units.it/en/0320107313600001) (cycle: general; prior check: 2026-11-10)
-- [ ] `SRC-TRIESTE-DSSC-FORMER` — [MIGe Informatics Section teaching: former DSSC programme](https://sites.google.com/view/informatics-mige/teaching) (cycle: historical; prior check: 2026-11-10)
-- [ ] `SRC-TRIESTE-ARDIS-CALL-2026` — [ARDiS unified call updated 14 October 2026](https://www.ardis.fvg.it/upload/schede/1792050426.pdf) (cycle: 2026-2027; prior check: 2026-11-10)
-- [ ] `SRC-TRIESTE-FEES-NOTICE-2026` — [Fee notice 2026/27](https://repo.units.it/docs/units_CdL_tasse-avvisoTasse_en.2026-2027.pdf) (cycle: 2026-2027; prior check: 2026-11-10)
-- [ ] `SRC-TRIESTE-INFORMATICS-IDENTITY` — [UniTS MIGe tutoring: Informatics Section site](https://moodle2.units.it/course/section.php?id=170336) (cycle: general; prior check: 2026-11-10)
-- [ ] `SRC-TRIESTE-PUBLISHED-QUOTAS` — [UniTS published visa quota table: updated 16 January 2026](https://portale.units.it/en/international/destination-units/degree-seekers/quotas-and-reassignments-students-applying-visa) (cycle: general; prior check: 2026-11-10)
-- [ ] `SRC-TRIESTE-FOREIGN-DOCUMENTS` — [International students: required documents](https://portale.units.it/en/international/destination-units/degree-seekers/documents) (cycle: general; prior check: 2026-11-10)
-- [ ] `SRC-TRIESTE-VISA-PROCESS` — [UniTS pre-enrolment for visa applicants](https://portale.units.it/en/international/destination-units/degree-seekers/pre-enrollment-visa-applicants) (cycle: general; prior check: 2026-11-10)
-- [ ] `SRC-TRIESTE-INTERNATIONAL-2026` — [Degree seekers: 2026/27 assessment rounds and application fee](https://portale.units.it/en/international/destination-units/degree-seekers) (cycle: 2026-2027; prior check: 2026-11-10)
-- [ ] `SRC-TRIESTE-ARDIS-2026` — [ARDiS regional university benefits 2026/27](https://www.ardis.fvg.it/contenuti.php?id=268&view=page) (cycle: 2026-2027; prior check: 2026-11-10)
-- [ ] `SRC-TRIESTE-FEES-2026` — [University fees 2026/27](https://portale.units.it/en/study/university-fees/bachelor-master-degrees-and-one-cycle-master-degrees) (cycle: 2026-2027; prior check: 2026-11-10)
-- [ ] `SRC-TRIESTE-NATIONAL-PROCEDURES-2026-2028` — [Ministerial international-student procedures 2026/27 and 2027/28](https://portale.units.it/sites/default/files/2026-05/Circolare%202026-2027%20studenti_internazionali_EN_0.pdf) (cycle: 2026-2027 and 2027-2028; prior check: 2026-11-10)
+- [ ] `SRC-TRIESTE-DSAI-ADMISSION-2026` — [DSAI MSc: how to apply 2026/27](https://degree.units.it/en/0320107313600001/how-apply) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-TRIESTE-CATALOGUE-2026` — [UniTS educational offer 2026/27](https://portale.units.it/it/studiare/offerta-formativa) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-TRIESTE-DSAI-UGOV-2026` — [SM38 Data Science and Artificial Intelligence: 2026 catalogue record](https://portale.units.it/it/ugov/course/second_level_degree-2026-10681) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-TRIESTE-DSAI-SECOND-YEAR-2027-28` — [DSAI study plan: Information Retrieval and Data Visualization, 2027/28](https://degree.units.it/en/0320107313600001/students-area/taught-courses/2027/118410/2026/3/10681/2026/) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-TRIESTE-DSAI-PROFILE` — [Data Science and Artificial Intelligence MSc official profile](https://degree.units.it/en/0320107313600001) (cycle: general; prior check: 2026-11-11)
+- [ ] `SRC-TRIESTE-DSSC-FORMER` — [MIGe Informatics Section teaching: former DSSC programme](https://sites.google.com/view/informatics-mige/teaching) (cycle: historical; prior check: 2026-11-11)
+- [ ] `SRC-TRIESTE-ARDIS-CALL-2026` — [ARDiS unified call updated 14 October 2026](https://www.ardis.fvg.it/upload/schede/1792050426.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-TRIESTE-FEES-NOTICE-2026` — [Fee notice 2026/27](https://repo.units.it/docs/units_CdL_tasse-avvisoTasse_en.2026-2027.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-TRIESTE-INFORMATICS-IDENTITY` — [UniTS MIGe tutoring: Informatics Section site](https://moodle2.units.it/course/section.php?id=170336) (cycle: general; prior check: 2026-11-11)
+- [ ] `SRC-TRIESTE-PUBLISHED-QUOTAS` — [UniTS published visa quota table: updated 16 January 2026](https://portale.units.it/en/international/destination-units/degree-seekers/quotas-and-reassignments-students-applying-visa) (cycle: general; prior check: 2026-11-11)
+- [ ] `SRC-TRIESTE-FOREIGN-DOCUMENTS` — [International students: required documents](https://portale.units.it/en/international/destination-units/degree-seekers/documents) (cycle: general; prior check: 2026-11-11)
+- [ ] `SRC-TRIESTE-VISA-PROCESS` — [UniTS pre-enrolment for visa applicants](https://portale.units.it/en/international/destination-units/degree-seekers/pre-enrollment-visa-applicants) (cycle: general; prior check: 2026-11-11)
+- [ ] `SRC-TRIESTE-INTERNATIONAL-2026` — [Degree seekers: 2026/27 assessment rounds and application fee](https://portale.units.it/en/international/destination-units/degree-seekers) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-TRIESTE-ARDIS-2026` — [ARDiS regional university benefits 2026/27](https://www.ardis.fvg.it/contenuti.php?id=268&view=page) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-TRIESTE-FEES-2026` — [University fees 2026/27](https://portale.units.it/en/study/university-fees/bachelor-master-degrees-and-one-cycle-master-degrees) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-TRIESTE-NATIONAL-PROCEDURES-2026-2028` — [Ministerial international-student procedures 2026/27 and 2027/28](https://portale.units.it/sites/default/files/2026-05/Circolare%202026-2027%20studenti_internazionali_EN_0.pdf) (cycle: 2026-2027 and 2027-2028; prior check: 2026-11-11)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — No 2027/28 UniTS call or course-specific first-year offer was identified; previous-cycle terms are not carried forward. Future-year teaching or continuing cohorts do not verify a new first-year offer.
+  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — No 2027/28 UniTS call or course-specific first-year offer was identified; previous-cycle terms are not carried forward. Future-year teaching or continuing cohorts do not verify a new first-year offer. An official 2027/28 second-year course-unit listing exists, but no 2027/28 first-year intake or call was identified.
   - `facts.application_windows` — `REQUIRES_VERIFICATION` — No 2027/28 UniTS call or course-specific first-year offer was identified; previous-cycle terms are not carried forward.
   - `facts.application_fee_2027_2028` — `REQUIRES_VERIFICATION` — EUR40 for three programmes is explicitly 2026/27, not the 2027/28 fee.
   - `facts.program_specific_requirements_2027_2028` — `REQUIRES_VERIFICATION` — No 2027/28 UniTS call or course-specific first-year offer was identified; previous-cycle terms are not carried forward.
@@ -5363,7 +5480,7 @@ Currently missing or unpublished fields:
 
 ## Source URL recheck results
 
-Checked 627 unique URLs representing 646 source records on 2026-11-11. Unique URL outcomes: {'accessible': 608, 'redirected': 13, 'inconclusive': 5, 'broken': 1}. HTTP 404/410 outcomes are listed as broken; TLS, timeout, and remote-disconnect cases remain inconclusive.
+Checked 668 unique URLs representing 690 source records on 2026-11-11. Unique URL outcomes: {'accessible': 649, 'redirected': 13, 'inconclusive': 5, 'broken': 1}. HTTP 404/410 outcomes are listed as broken; TLS, timeout, and remote-disconnect cases remain inconclusive.
 
 ### Redirected sources
 

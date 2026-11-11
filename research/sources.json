@@ -22740,7 +22740,7 @@
     "source_type": "Official English-language Master's course catalogue",
     "accessed_at": "2026-11-11",
     "cycle": "2027-2028",
-    "evidence": "The English-taught Master's catalogue places Data Analytics and Decision Support under the School of Science and labels it a new 2027/28 programme 'to be approved'. The title is listed without a course-profile link; the page does not establish final approval, a first-year intake, a course-specific call or admission terms.",
+    "evidence": "The English-taught Master's catalogue lists Data Analytics and Decision Support under the School of Science as a new 2027/28 programme 'to be approved', and lists Statistical Sciences under the same School as 'to be approved'. Neither listing establishes final approval, a first-year intake, a course-specific call or admission terms; the Statistical Sciences listing has no course-profile link on this catalogue page.",
     "supports": [
       "program.official_planned_course_listing_2027_2028",
       "program.level",
@@ -23106,7 +23106,7 @@
     "source_type": "Official department programme profile",
     "accessed_at": "2026-11-11",
     "cycle": "2027-2028",
-    "evidence": "The Department profile describes a two-year English-taught Master's programme, 120 ECTS, full-time and on campus, and gives an expected start date of 27 September 2027. The University English Master's catalogue separately marks Statistical Sciences as 'to be approved'; the Department's projected start is therefore treated as a plan, not proof of approval or a confirmed 2027/28 intake. No application-call link was present in the fetched page HTML.",
+    "evidence": "The Department profile describes a two-year English-taught Master's programme, 120 ECTS, full-time and on campus, requires B2 English, and gives an expected start date of 27 September 2027. Its visible 'Call for Applications: read the call' text is not an HTML link in the fetched page. The University English Master's catalogue separately marks Statistical Sciences as 'to be approved'; the Department's projected start is therefore treated as a plan, not proof of approval or a confirmed 2027/28 intake.",
     "supports": [
       "program.proposed_course_identity",
       "program.proposed_level",
@@ -23129,12 +23129,12 @@
       "location": null,
       "observed_title": "Statistical Science | Department of Statistical Sciences | Università di Padova",
       "pdf_signature": null,
-      "has_2027_marker": false,
+      "has_2027_marker": true,
       "bytes_read": 35625,
       "outcome": "accessible",
       "error": null,
       "checked_at": "2026-11-11",
-      "method": "GET"
+      "method": "GET with Cache-Control and Pragma no-cache (Python urllib); Varnish MISS"
     }
   },
   {
@@ -23145,10 +23145,13 @@
     "source_type": "Official department entry-requirements page",
     "accessed_at": "2026-11-11",
     "cycle": "general",
-    "evidence": "The page gives preliminary-looking entry criteria, including subject-credit and 85/110 thresholds for Italian-degree applicants, B2 English and a three-year Bachelor's degree; its international-applicant section does not provide a complete course-specific checklist. It is not labelled for AY 2027/28, and the degree proposal remains marked 'to be approved' in the University catalogue. Do not use these criteria as confirmed 2027/28 rules.",
+    "evidence": "The unlabelled-cycle page lists for Italian-degree applicants at least 35 ECTS across MATH-*, STAT-*, ECON-05/A, PSIC-01/C and MEDS-24/A (including at least 15 ECTS in MATH-03/A), a final mark of at least 85/110, a three-year Bachelor's degree or equivalent, B2 English (reading/listening), and knowledge of calculus, linear algebra, probability, regression and statistical inference; it also states a GPA equivalent to at least 85/110 and repeats B2. No checklist appears beneath the international-degree heading; the page says international applicants submit through apply.unipd.it. Its 'Call for Applications' link leads to the University's general admissions-notice index, not a course- or cycle-specific call. These are provisional, undated Department details, not confirmed 2027/28 rules; the central catalogue still marks the proposal 'to be approved'. The page gives only general ISEE-based tuition and scholarship/fee-waiver information and lists the Department's general contact dipstat@stat.unipd.it / segreteriadidattica@stat.unipd.it (telephone +39 049 8274110).",
     "supports": [
       "program.proposed_admission_requirements",
-      "program.proposed_language_requirement"
+      "program.proposed_language_requirement",
+      "program.application_route_context",
+      "program.department_finance_and_aid_context",
+      "program.program_contact"
     ],
     "url_check": {
       "http_status": 200,
@@ -23169,7 +23172,115 @@
       "outcome": "accessible",
       "error": null,
       "checked_at": "2026-11-11",
-      "method": "GET"
+      "method": "GET with Cache-Control and Pragma no-cache (Python urllib); Varnish MISS"
+    }
+  },
+  {
+    "id": "SRC-PADUA-STATISTICAL-SCIENCE-GUIDE-2027",
+    "university_id": "padova",
+    "title": "Study with us 2027/28 – School of Science programme list cross-check",
+    "url": "https://wwwassets.unipd.it/sites/default/files/2026-10/StudyWithUs_2027web_Finale.pdf",
+    "source_type": "Official University 2027/28 study guide PDF",
+    "accessed_at": "2026-11-11",
+    "cycle": "2027-2028",
+    "evidence": "On page 37, the School of Science list shows Data Analytics and Decision Support in the English-taught Master's column as 'to be approved'; Statistical Sciences does not appear in that English list, while the Italian-taught column includes Scienze statistiche. This does not establish that the proposed English degree was cancelled; it is a conflict/omission to resolve against the central English Master's catalogue and Department profile, both of which describe a proposed English programme awaiting approval.",
+    "supports": [
+      "program.official_planned_course_listing_2027_2028",
+      "program.proposed_language",
+      "program.approval_status"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://wwwassets.unipd.it/sites/default/files/2026-10/StudyWithUs_2027web_Finale.pdf",
+      "content_type": "application/pdf",
+      "content_length_header": "2681391",
+      "etag": "\"28ea2f-65d52eca260f0\"",
+      "last_modified": "Thu, 08 Oct 2026 11:56:39 GMT",
+      "cache_control": "max-age=31536000",
+      "age": "1472647",
+      "x_vercel_cache": null,
+      "x_vercel_id": null,
+      "location": null,
+      "observed_title": "Studi with us a.a. 2027-2028",
+      "pdf_signature": "%PDF-",
+      "has_2027_marker": true,
+      "bytes_read": 2681391,
+      "outcome": "accessible",
+      "error": null,
+      "checked_at": "2026-11-11",
+      "method": "GET with Cache-Control and Pragma no-cache (Python urllib); rendered page 37 for visual scope check"
+    }
+  },
+  {
+    "id": "SRC-PADUA-STATISTICAL-SCIENCE-STRUCTURE-2027",
+    "university_id": "padova",
+    "title": "Statistical Science – Department programme structure",
+    "url": "https://www.stat.unipd.it/en/statistical-science/programme-structure",
+    "source_type": "Official Department programme-structure page",
+    "accessed_at": "2026-11-11",
+    "cycle": "general; no academic-year label",
+    "evidence": "The Department page describes a 120-ECTS study plan: 45 ECTS core, at least 27 major, up to 18 minor, 9 free-choice, 1 other activity and a 20-ECTS thesis. It lists five core courses and major options in computational statistics, biostatistics, epidemiology, finance, population, business and other areas. It says applicants with insufficient statistical-modelling background may be required to take Statistical Models II in place of the free-choice course. The page is not labelled for 2027/28 and the central catalogue still marks the proposed programme 'to be approved'; treat this structure as provisional.",
+    "supports": [
+      "program.proposed_course_structure",
+      "program.proposed_ects",
+      "program.approval_status"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://www.stat.unipd.it/en/statistical-science/programme-structure",
+      "content_type": "text/html; charset=utf-8",
+      "content_length_header": null,
+      "etag": null,
+      "last_modified": null,
+      "cache_control": "no-cache, must-revalidate",
+      "age": "0",
+      "x_vercel_cache": null,
+      "x_vercel_id": null,
+      "location": null,
+      "observed_title": "Programme structure | Department of Statistical Sciences | Università di Padova",
+      "pdf_signature": null,
+      "has_2027_marker": false,
+      "bytes_read": 33653,
+      "outcome": "accessible",
+      "error": null,
+      "checked_at": "2026-11-11",
+      "method": "GET with Cache-Control and Pragma no-cache (Python urllib); Varnish MISS"
+    }
+  },
+  {
+    "id": "SRC-PADUA-STATISTICAL-SCIENCE-CALL-INDEX-2027",
+    "university_id": "padova",
+    "title": "University general admissions notices index linked by Statistical Science",
+    "url": "https://www.unipd.it/avvisi-ammissione-corsi",
+    "source_type": "Official University admissions-notice index",
+    "accessed_at": "2026-11-11",
+    "cycle": "general; inspected 2026-11-11",
+    "evidence": "The Department entry-requirements page's 'Call for Applications' link resolves to this general University admissions-notice index. The index describes the general role of course notices but does not itself identify a Statistical Science 2027/28 call, application window or course-specific terms. The linked page is not evidence that the proposed degree is open for 2027/28.",
+    "supports": [
+      "program.application_route_context",
+      "program.application_windows_2027_2028",
+      "program.availability_2027_2028"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://www.unipd.it/avvisi-ammissione-corsi",
+      "content_type": "text/html; charset=utf-8",
+      "content_length_header": null,
+      "etag": null,
+      "last_modified": null,
+      "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate",
+      "age": null,
+      "x_vercel_cache": null,
+      "x_vercel_id": null,
+      "location": null,
+      "observed_title": "Avvisi, bandi di ammissione ai corsi e graduatorie | Università di Padova",
+      "pdf_signature": null,
+      "has_2027_marker": false,
+      "bytes_read": 1493081,
+      "outcome": "accessible",
+      "error": null,
+      "checked_at": "2026-11-11",
+      "method": "GET with Cache-Control and Pragma no-cache (Python urllib); CloudFront MISS"
     }
   },
   {

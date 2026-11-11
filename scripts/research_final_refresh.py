@@ -1327,7 +1327,7 @@ SOURCES = [
         "university_id": "padova", "title": "Master's degree programmes in English – proposed 2027/28 additions",
         "url": "https://www.unipd.it/en/corsi-laurea-magistrale-lingua-inglese",
         "source_type": "Official English-language Master's course catalogue", "accessed_at": "2026-11-11", "cycle": "2027-2028",
-        "evidence": "The English-taught Master's catalogue places Data Analytics and Decision Support under the School of Science and labels it a new 2027/28 programme 'to be approved'. The title is listed without a course-profile link; the page does not establish final approval, a first-year intake, a course-specific call or admission terms.",
+        "evidence": "The English-taught Master's catalogue lists Data Analytics and Decision Support under the School of Science as a new 2027/28 programme 'to be approved', and lists Statistical Sciences under the same School as 'to be approved'. Neither listing establishes final approval, a first-year intake, a course-specific call or admission terms; the Statistical Sciences listing has no course-profile link on this catalogue page.",
         "supports": ["program.official_planned_course_listing_2027_2028", "program.level", "program.language", "program.approval_status", "program.application_windows_2027_2028"],
     },
     {
@@ -1407,7 +1407,7 @@ SOURCES = [
         "university_id": "padova", "title": "Statistical Science – Department programme profile and projected start",
         "url": "https://www.stat.unipd.it/en/statistical-science",
         "source_type": "Official department programme profile", "accessed_at": "2026-11-11", "cycle": "2027-2028",
-        "evidence": "The Department profile describes a two-year English-taught Master's programme, 120 ECTS, full-time and on campus, and gives an expected start date of 27 September 2027. The University English Master's catalogue separately marks Statistical Sciences as 'to be approved'; the Department's projected start is therefore treated as a plan, not proof of approval or a confirmed 2027/28 intake. No application-call link was present in the fetched page HTML.",
+        "evidence": "The Department profile describes a two-year English-taught Master's programme, 120 ECTS, full-time and on campus, requires B2 English, and gives an expected start date of 27 September 2027. Its visible 'Call for Applications: read the call' text is not an HTML link in the fetched page. The University English Master's catalogue separately marks Statistical Sciences as 'to be approved'; the Department's projected start is therefore treated as a plan, not proof of approval or a confirmed 2027/28 intake.",
         "supports": ["program.proposed_course_identity", "program.proposed_level", "program.proposed_language", "program.proposed_duration", "program.proposed_ects", "program.projected_start_date"],
     },
     {
@@ -1415,8 +1415,32 @@ SOURCES = [
         "university_id": "padova", "title": "Statistical Science – Department entry-requirements page",
         "url": "https://www.stat.unipd.it/en/statistical-science/entry-requirements",
         "source_type": "Official department entry-requirements page", "accessed_at": "2026-11-11", "cycle": "general",
-        "evidence": "The page gives preliminary-looking entry criteria, including subject-credit and 85/110 thresholds for Italian-degree applicants, B2 English and a three-year Bachelor's degree; its international-applicant section does not provide a complete course-specific checklist. It is not labelled for AY 2027/28, and the degree proposal remains marked 'to be approved' in the University catalogue. Do not use these criteria as confirmed 2027/28 rules.",
-        "supports": ["program.proposed_admission_requirements", "program.proposed_language_requirement"],
+        "evidence": "The unlabelled-cycle page lists for Italian-degree applicants at least 35 ECTS across MATH-*, STAT-*, ECON-05/A, PSIC-01/C and MEDS-24/A (including at least 15 ECTS in MATH-03/A), a final mark of at least 85/110, a three-year Bachelor's degree or equivalent, B2 English (reading/listening), and knowledge of calculus, linear algebra, probability, regression and statistical inference; it also states a GPA equivalent to at least 85/110 and repeats B2. No checklist appears beneath the international-degree heading; the page says international applicants submit through apply.unipd.it. Its 'Call for Applications' link leads to the University's general admissions-notice index, not a course- or cycle-specific call. These are provisional, undated Department details, not confirmed 2027/28 rules; the central catalogue still marks the proposal 'to be approved'. The page gives only general ISEE-based tuition and scholarship/fee-waiver information and lists the Department's general contact dipstat@stat.unipd.it / segreteriadidattica@stat.unipd.it (telephone +39 049 8274110).",
+        "supports": ["program.proposed_admission_requirements", "program.proposed_language_requirement", "program.application_route_context", "program.department_finance_and_aid_context", "program.program_contact"],
+    },
+    {
+        "id": "SRC-PADUA-STATISTICAL-SCIENCE-GUIDE-2027",
+        "university_id": "padova", "title": "Study with us 2027/28 – School of Science programme list cross-check",
+        "url": "https://wwwassets.unipd.it/sites/default/files/2026-10/StudyWithUs_2027web_Finale.pdf",
+        "source_type": "Official University 2027/28 study guide PDF", "accessed_at": "2026-11-11", "cycle": "2027-2028",
+        "evidence": "On page 37, the School of Science list shows Data Analytics and Decision Support in the English-taught Master's column as 'to be approved'; Statistical Sciences does not appear in that English list, while the Italian-taught column includes Scienze statistiche. This does not establish that the proposed English degree was cancelled; it is a conflict/omission to resolve against the central English Master's catalogue and Department profile, both of which describe a proposed English programme awaiting approval.",
+        "supports": ["program.official_planned_course_listing_2027_2028", "program.proposed_language", "program.approval_status"],
+    },
+    {
+        "id": "SRC-PADUA-STATISTICAL-SCIENCE-STRUCTURE-2027",
+        "university_id": "padova", "title": "Statistical Science – Department programme structure",
+        "url": "https://www.stat.unipd.it/en/statistical-science/programme-structure",
+        "source_type": "Official Department programme-structure page", "accessed_at": "2026-11-11", "cycle": "general; no academic-year label",
+        "evidence": "The Department page describes a 120-ECTS study plan: 45 ECTS core, at least 27 major, up to 18 minor, 9 free-choice, 1 other activity and a 20-ECTS thesis. It lists five core courses and major options in computational statistics, biostatistics, epidemiology, finance, population, business and other areas. It says applicants with insufficient statistical-modelling background may be required to take Statistical Models II in place of the free-choice course. The page is not labelled for 2027/28 and the central catalogue still marks the proposed programme 'to be approved'; treat this structure as provisional.",
+        "supports": ["program.proposed_course_structure", "program.proposed_ects", "program.approval_status"],
+    },
+    {
+        "id": "SRC-PADUA-STATISTICAL-SCIENCE-CALL-INDEX-2027",
+        "university_id": "padova", "title": "University general admissions notices index linked by Statistical Science",
+        "url": "https://www.unipd.it/avvisi-ammissione-corsi",
+        "source_type": "Official University admissions-notice index", "accessed_at": "2026-11-11", "cycle": "general; inspected 2026-11-11",
+        "evidence": "The Department entry-requirements page's 'Call for Applications' link resolves to this general University admissions-notice index. The index describes the general role of course notices but does not itself identify a Statistical Science 2027/28 call, application window or course-specific terms. The linked page is not evidence that the proposed degree is open for 2027/28.",
+        "supports": ["program.application_route_context", "program.application_windows_2027_2028", "program.availability_2027_2028"],
     },
     {
         "id": "SRC-PADUA-ARQUS-PHYSICS-TECH-2026",
@@ -2194,6 +2218,12 @@ BATCH48 = {
     "id": "padua-data-analytics-decision-support-proposal-study-guide-review",
     "status": "partial",
     "result": "Reviewed discovered-035, Data Analytics and Decision Support, against Padua's English-taught Master's catalogue and official 2027/28 study guide. Both place it under the School of Science and mark it as a proposed programme awaiting approval; the guide groups it among two-year English-taught Master's degrees. Searches of the official University and department domains found no course-profile link, approved regulation or course-specific admissions page. The course campus, first-year intake, application route/deadline, entry requirements, application fee, tuition and scholarship terms remain unconfirmed; the general international application calendar does not establish that this proposal is included. Fresh no-cache GETs returned HTTP 200 for the catalogue and study guide PDF; the PDF carries a one-year max-age and nonzero Age response despite the no-cache request. Page 37 of the PDF was rendered to verify the School of Science layout and English-taught column. No production changes were made.",
+}
+
+BATCH49 = {
+    "id": "padua-statistical-science-proposal-and-admissions-review",
+    "status": "partial",
+    "result": "Reviewed discovered-036, Statistical Science, across Padua's English Master's catalogue, 2027/28 study guide, Department profile, entry-requirements page, programme structure and linked University admissions index. The central catalogue lists Statistical Sciences as 'to be approved'; the Department profile projects a two-year/120-ECTS English-taught on-campus course, B2 English and a 27 September 2027 start, but the study guide's School of Science English Master's list omits it while its Italian column lists Scienze statistiche. This is an unresolved source conflict, not proof of cancellation or a confirmed 2027/28 intake. The Department's undated criteria for Italian-degree applicants, general ISEE/aid information and curriculum have been recorded as provisional; no checklist appears under its international-degree heading. Its 'Call for Applications' label on the profile is unlinked, and the requirements-page link goes to the general University admissions index, not a course-specific call. Fresh no-cache GETs returned HTTP 200 for the Department profile, requirements and structure pages (Age 0; Varnish MISS) and for the admissions index (CloudFront MISS); exact campus, approved intake, programme-specific 2027/28 application route/windows, requirements, application fee, tuition and scholarship terms remain unconfirmed. No production changes were made.",
 }
 
 SOURCE_RECHECKS = {
@@ -5316,13 +5346,16 @@ def apply(
     ]
     statistical_profile = "SRC-PADUA-STATISTICAL-SCIENCE-PROFILE-2027"
     statistical_requirements = "SRC-PADUA-STATISTICAL-SCIENCE-ENTRY-REQUIREMENTS"
+    statistical_structure = "SRC-PADUA-STATISTICAL-SCIENCE-STRUCTURE-2027"
+    statistical_call_index = "SRC-PADUA-STATISTICAL-SCIENCE-CALL-INDEX-2027"
     for pid, title, proposed_name, field_value, approval_note in padua_master_candidates:
         source_ids = [padua_planned_source]
         course_guide_sources = []
         if pid == "discovered-035":
             course_guide_sources.extend(["SRC-PADUA-ENGLISH-MASTERS-PROPOSED-2027", "SRC-PADUA-DATA-ANALYTICS-GUIDE-2027"])
         if pid == "discovered-036":
-            source_ids.extend([statistical_profile, statistical_requirements])
+            source_ids.extend([statistical_profile, statistical_requirements, statistical_structure, statistical_call_index])
+            course_guide_sources.extend(["SRC-PADUA-ENGLISH-MASTERS-PROPOSED-2027", "SRC-PADUA-STATISTICAL-SCIENCE-GUIDE-2027"])
         source_ids.extend(course_guide_sources)
         candidate = make_program(
             pid, "padova", title, "MSc (proposed)", "English (proposed)", field_value,
@@ -5339,30 +5372,43 @@ def apply(
         if pid == "discovered-035":
             availability_note += " The 2027/28 study guide confirms only a proposed two-year English Master's listing; no course-specific intake or call is published."
         elif pid == "discovered-036":
-            availability_note += " For Statistical Science, the Department's projected September 2027 start does not establish approval or a confirmed first-year intake."
+            availability_note += " For Statistical Science, the Department's projected September 2027 start does not establish approval or a confirmed first-year intake. The University 2027/28 study guide omits Statistical Sciences from its School of Science English-taught Master's list while listing Italian Scienze statistiche in the Italian column; this is an unresolved source conflict, not proof that the proposed English degree was cancelled."
         candidate["availability_2027_2028"] = fact(None, "REQUIRES_VERIFICATION", source_ids, availability_note)
         planned_listing = {"academic_year":"2027/28", "proposed_name":proposed_name, "proposed_level":"Master's degree", "listed_in_english_degree_catalogue":True, "approval_status":"To be approved"}
         if pid == "discovered-035":
             planned_listing.update({"duration_years_as_listed":2, "school":"School of Science"})
+        elif pid == "discovered-036":
+            planned_listing.update({"proposed_name":"Statistical Sciences", "department_profile_name":"Statistical Science", "school":"School of Science"})
         candidate["facts"] = {
             "official_planned_course_listing_2027_2028": fact(
                 planned_listing,
                 "CONFIRMED", [padua_planned_source, *course_guide_sources], approval_note,
             ),
+            "study_guide_cross_check_2027_2028": fact(
+                {"english_taught_masters_list_entry_present":False, "italian_taught_column_name":"Scienze statistiche"} if pid == "discovered-036" else None,
+                "REQUIRES_VERIFICATION", ["SRC-PADUA-STATISTICAL-SCIENCE-GUIDE-2027"] if pid == "discovered-036" else [padua_planned_source, *course_guide_sources],
+                "The 2027/28 guide's omission conflicts with the English Master's catalogue and Department profile; it does not establish that the proposal was cancelled." if pid == "discovered-036" else "No conflicting guide entry has been identified.",
+            ),
             "department_projected_profile": fact(
-                {"academic_year":"2027/28 (projected)", "duration_years":2, "ects":120, "attendance":"Full-time, on campus", "language":"English", "expected_start":"2027-09-27"} if pid == "discovered-036" else None,
+                {"academic_year":"2027/28 (projected)", "duration_years":2, "ects":120, "attendance":"Full-time, on campus", "language":"English", "english_requirement":"B2", "expected_start":"2027-09-27"} if pid == "discovered-036" else None,
                 "REQUIRES_VERIFICATION",
                 [statistical_profile] if pid == "discovered-036" else [padua_planned_source, *course_guide_sources],
-                "The Department profile publishes a projected start and course details, but the central English Master's catalogue still labels the proposal as awaiting approval. Treat all profile details as provisional." if pid == "discovered-036" else "No department-level programme profile has been identified; verify whether a separate proposal specification is published.",
+                "The Department profile publishes a projected start, B2 English requirement and course details, but the central English Master's catalogue still labels the proposal as awaiting approval and the 2027/28 guide omits it from the English list. Exact course campus and intake remain unconfirmed; treat all profile details as provisional." if pid == "discovered-036" else "No department-level programme profile has been identified; verify whether a separate proposal specification is published.",
+            ),
+            "department_projected_curriculum": fact(
+                {"total_ects":120, "core_courses_ects":45, "major_courses_min_ects":27, "minor_courses_max_ects":18, "free_choice_ects":9, "other_activities_ects":1, "thesis_ects":20, "core_courses_year_1":["Probability Theory", "Statistics (Advanced)", "Statistical Models for Social Data", "Data Mining"], "core_courses_year_2":["Statistical Models for Economic Data"], "major_course_options":["Computational Biostatistics and Bioinformatics", "Computational Statistics (Advanced)", "Epidemiology and Statistical Methods for Medical Research (Advanced)", "Financial Data Analysis", "Issues and Methods for Population and Society", "Multiple-Source Data and Territorial Analyses", "Statistical Methods and Models for Business", "Statistical Methods and Models for Finance", "Statistical Methods for Causal Inference", "Statistical Methods for Functional Data", "Statistical Methods for High-Dimensional Data", "Statistical Methods for Marketing Research", "Statistics: Case Studies", "Statistics for Technology and Industry"], "conditional_course":"Statistical Models II may be required for applicants with insufficient statistical-modelling background and replaces the free-choice course."} if pid == "discovered-036" else None,
+                "REQUIRES_VERIFICATION",
+                [statistical_structure] if pid == "discovered-036" else [padua_planned_source, *course_guide_sources],
+                "The Department structure page is not cycle-labelled and the central catalogue still marks the proposed programme to be approved; treat the plan as provisional for 2027/28." if pid == "discovered-036" else "No programme structure has been identified; verify when the proposal is approved.",
             ),
             "proposed_admission_requirements": fact(
-                {"italian_degree_applicants":"Department page lists at least 35 ECTS in specified subject sectors, including 15 ECTS in MATH-03/A, a final mark of at least 85/110, a three-year degree and English B2; these criteria are not cycle-labelled.", "international_degree_applicants":"No complete course-specific requirement checklist is published in the reviewed page."} if pid == "discovered-036" else None,
+                {"italian_degree_applicants":"The unlabelled-cycle Department page lists at least 35 ECTS across MATH-*, STAT-*, ECON-05/A, PSIC-01/C and MEDS-24/A, including at least 15 ECTS in MATH-03/A; final degree mark at least 85/110; a three-year Bachelor's degree or equivalent; B2 English (reading/listening); proven knowledge of calculus, linear algebra, probability, linear regression and statistical inference; and a GPA equivalent to at least 85/110. B2 is repeated in the page's list.", "international_degree_applicants":"No criteria are shown under the international-degree heading. The page directs applicants to the University online portal, but this is not a confirmed 2027/28 route."} if pid == "discovered-036" else None,
                 "REQUIRES_VERIFICATION",
                 [statistical_requirements] if pid == "discovered-036" else [padua_planned_source, *course_guide_sources],
-                "Provisional, undated Department information only; do not present these thresholds as approved 2027/28 admission rules." if pid == "discovered-036" else "No approved course admission requirements have been identified; verify when the proposal is approved.",
+                "Provisional, undated Department information only; do not present these thresholds as approved 2027/28 admission rules. The page's 'Call for Applications' link points to the general University admissions index rather than a Statistical Science call." if pid == "discovered-036" else "No approved course admission requirements have been identified; verify when the proposal is approved.",
             ),
-            "application_windows": fact(None, "NOT_YET_PUBLISHED", [padua_planned_source, "SRC-PADUA-INTL-2027", *course_guide_sources] + ([statistical_profile] if pid == "discovered-036" else []),
-                "The University-level 2027/28 application calls cover most courses but do not confirm that this unapproved proposal is included; no programme-specific call or deadline was found."),
+            "application_windows": fact(None, "NOT_YET_PUBLISHED", [padua_planned_source, "SRC-PADUA-INTL-2027", *course_guide_sources] + ([statistical_profile, statistical_requirements, statistical_call_index] if pid == "discovered-036" else []),
+                "The Department profile shows an unlinked 'Call for Applications: read the call' label; its separate entry-requirements page links to the general University admissions-notice index. No Statistical Science 2027/28 call, deadline, or confirmation that this unapproved proposal is included in University-wide application calls was identified." if pid == "discovered-036" else "The University-level 2027/28 application calls cover most courses but do not confirm that this unapproved proposal is included; no programme-specific call or deadline was found."),
             "program_specific_requirements_2027_2028": fact(None, "REQUIRES_VERIFICATION", source_ids,
                 "No approved annual programme regulation or 2027/28 course-specific requirements are available."),
             "application_fee_2027_2028": fact(None, "REQUIRES_VERIFICATION", [padua_planned_source, *course_guide_sources],
@@ -5371,9 +5417,27 @@ def apply(
                 "No programme-specific 2027/28 tuition amount is confirmed."),
             "scholarships_2027_2028": fact(None, "REQUIRES_VERIFICATION", [padua_planned_source, *course_guide_sources],
                 "No programme-specific 2027/28 scholarship call or eligibility is confirmed."),
+            "department_finance_and_aid_context": fact(
+                {"tuition":"Department page says fees depend on family finances assessed by ISEE and may be substantially reduced.", "scholarships":"The University offers scholarships and fee waivers for international students; no programme-specific award, eligibility, or 2027/28 call is shown."} if pid == "discovered-036" else None,
+                "REQUIRES_VERIFICATION", [statistical_requirements] if pid == "discovered-036" else [padua_planned_source, *course_guide_sources],
+                "General Department/University information only, not a course-specific 2027/28 fee or aid offer; the programme remains subject to approval." if pid == "discovered-036" else "No programme-specific fee or aid detail has been identified.",
+            ),
+            "course_location_2027_2028": fact(
+                None if pid == "discovered-036" else None,
+                "REQUIRES_VERIFICATION", [statistical_profile] if pid == "discovered-036" else [padua_planned_source, *course_guide_sources],
+                "The Department profile says on campus but does not identify the teaching campus; Padua is the University city and is not a confirmed course location." if pid == "discovered-036" else "No course-specific campus or teaching location is published.",
+            ),
+            "program_contact": fact(
+                {"department":"Department of Statistical Sciences", "general_email":"dipstat@stat.unipd.it", "academic_secretariat":"segreteriadidattica@stat.unipd.it", "telephone":"+39 049 8274110", "scope":"General Department contacts; no proposal-specific coordinator identified."} if pid == "discovered-036" else None,
+                "CONFIRMED" if pid == "discovered-036" else "REQUIRES_VERIFICATION", [statistical_requirements] if pid == "discovered-036" else [padua_planned_source, *course_guide_sources],
+                "These are general Department contact details shown in the page footer, not a course-specific admissions contact." if pid == "discovered-036" else "No programme contact has been identified.",
+            ),
             "acceptance_rate": fact(None, "UNAVAILABLE", [padua_planned_source],
                 "No applicant and admitted-student totals are published; no acceptance rate is inferred."),
         }
+        if pid != "discovered-036":
+            for provisional_statistical_fact in ("study_guide_cross_check_2027_2028", "department_projected_curriculum", "department_finance_and_aid_context", "program_contact"):
+                candidate["facts"].pop(provisional_statistical_fact, None)
         candidate["source_ids"] = list(dict.fromkeys(source_ids + ["SRC-PADUA-INTL-2027"]))
         if pid == "discovered-035":
             candidate["facts"]["course_location_2027_2028"] = fact(
@@ -8560,6 +8624,79 @@ SOURCE_RECHECKS.update({
             "pdf_signature": "%PDF-", "has_2027_marker": True, "bytes_read": 2681391,
             "outcome": "accessible", "error": None,
             "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib); rendered page 37 for visual scope check",
+        },
+    },
+})
+
+SOURCE_RECHECKS.update({
+    "SRC-PADUA-STATISTICAL-SCIENCE-PROFILE-2027": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://www.stat.unipd.it/en/statistical-science",
+            "content_type": "text/html; charset=utf-8", "content_length_header": None,
+            "etag": None, "last_modified": None,
+            "cache_control": "no-cache, must-revalidate", "age": "0",
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Statistical Science | Department of Statistical Sciences | Università di Padova",
+            "pdf_signature": None, "has_2027_marker": True, "bytes_read": 35625,
+            "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib); Varnish MISS",
+        },
+    },
+    "SRC-PADUA-STATISTICAL-SCIENCE-ENTRY-REQUIREMENTS": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://www.stat.unipd.it/en/statistical-science/entry-requirements",
+            "content_type": "text/html; charset=utf-8", "content_length_header": None,
+            "etag": None, "last_modified": None,
+            "cache_control": "no-cache, must-revalidate", "age": "0",
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Entry requirements | Department of Statistical Sciences | Università di Padova",
+            "pdf_signature": None, "has_2027_marker": False, "bytes_read": 33451,
+            "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib); Varnish MISS",
+        },
+    },
+    "SRC-PADUA-STATISTICAL-SCIENCE-GUIDE-2027": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://wwwassets.unipd.it/sites/default/files/2026-10/StudyWithUs_2027web_Finale.pdf",
+            "content_type": "application/pdf", "content_length_header": "2681391",
+            "etag": "\"28ea2f-65d52eca260f0\"", "last_modified": "Thu, 08 Oct 2026 11:56:39 GMT",
+            "cache_control": "max-age=31536000", "age": "1472647",
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Studi with us a.a. 2027-2028",
+            "pdf_signature": "%PDF-", "has_2027_marker": True, "bytes_read": 2681391,
+            "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib); rendered page 37 for visual scope check",
+        },
+    },
+    "SRC-PADUA-STATISTICAL-SCIENCE-STRUCTURE-2027": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://www.stat.unipd.it/en/statistical-science/programme-structure",
+            "content_type": "text/html; charset=utf-8", "content_length_header": None,
+            "etag": None, "last_modified": None,
+            "cache_control": "no-cache, must-revalidate", "age": "0",
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Programme structure | Department of Statistical Sciences | Università di Padova",
+            "pdf_signature": None, "has_2027_marker": False, "bytes_read": 33653,
+            "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib); Varnish MISS",
+        },
+    },
+    "SRC-PADUA-STATISTICAL-SCIENCE-CALL-INDEX-2027": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://www.unipd.it/avvisi-ammissione-corsi",
+            "content_type": "text/html; charset=utf-8", "content_length_header": None,
+            "etag": None, "last_modified": None,
+            "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate", "age": None,
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Avvisi, bandi di ammissione ai corsi e graduatorie | Università di Padova",
+            "pdf_signature": None, "has_2027_marker": False, "bytes_read": 1493081,
+            "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib); CloudFront MISS",
         },
     },
 })
