@@ -7,27 +7,30 @@
     "program": "Computer Science and Engineering",
     "level": {
       "value": "MSc",
-      "status": "REQUIRES_VERIFICATION",
+      "status": "CONFIRMED",
       "source_ids": [
-        "SRC-POLIMI-CSE-2026"
+        "SRC-POLIMI-CSE-2026",
+        "SRC-POLIMI-28DIGITAL-APPLICATIONS-2027"
       ],
-      "notes": "This value describes the reviewed prior-cycle profile; the exact 2027/28 first-year programme listing and course terms remain unverified."
+      "notes": "The active 2027/28 28DIGITAL page names this local option as a Master of Science (Laurea Magistrale). Confirmation applies to the 28DIGITAL pathway assigned to Polimi."
     },
     "language": {
       "value": "English",
-      "status": "REQUIRES_VERIFICATION",
+      "status": "CONFIRMED",
       "source_ids": [
-        "SRC-POLIMI-CSE-2026"
+        "SRC-POLIMI-CSE-2026",
+        "SRC-POLIMI-28DIGITAL-APPLICATIONS-2027"
       ],
-      "notes": "This value describes the reviewed prior-cycle profile; the exact 2027/28 first-year programme listing and course terms remain unverified."
+      "notes": "The Polimi course profile lists English, and the current 2027/28 28DIGITAL page requires English proficiency for a Polimi entry. Confirmation applies to this pathway; course-wide annual regulations remain to be checked."
     },
     "field": {
       "value": "Computer Science and Engineering",
-      "status": "REQUIRES_VERIFICATION",
+      "status": "CONFIRMED",
       "source_ids": [
-        "SRC-POLIMI-CSE-2026"
+        "SRC-POLIMI-CSE-2026",
+        "SRC-POLIMI-28DIGITAL-APPLICATIONS-2027"
       ],
-      "notes": "This value describes the reviewed prior-cycle profile; the exact 2027/28 first-year programme listing and course terms remain unverified."
+      "notes": "The current 2027/28 28DIGITAL page names the matching local MSc option; the official course profile describes its computing/engineering subject area."
     },
     "availability_2027_2028": {
       "value": true,
@@ -37,7 +40,7 @@
       ],
       "notes": "Confirmed only for the named 28DIGITAL 2027/28 entry pathway. The joint programme assigns Polimi as entry university based on preferences and selection, and requires a separate local application; general course-wide admission terms remain subject to the relevant Polimi call."
     },
-    "overall_status": "REQUIRES_VERIFICATION",
+    "overall_status": "CONFIRMED",
     "discovery_source": "previous_tracker",
     "facts": {
       "previous_cycle_course_listing": {
@@ -135,15 +138,20 @@
           "academic_year": "2027/28",
           "entry_university": "Politecnico di Milano (conditional on assigned study offer)",
           "local_msc": "Computer Science and Engineering (T2A)",
+          "level": "MSc",
+          "language": "English",
+          "campus": "Milano Leonardo",
+          "duration_years": 2,
           "separate_polimi_application_required": true,
           "first_28digital_period_deadline": "2027-01-31",
           "later_28digital_periods": "Further periods subject to availability; exact dates not given"
         },
         "status": "CONFIRMED",
         "source_ids": [
+          "SRC-POLIMI-CSE-2026",
           "SRC-POLIMI-28DIGITAL-APPLICATIONS-2027"
         ],
-        "notes": "This confirms the named joint-degree route, not a general promise of admission or a standalone 28DIGITAL degree at Polimi."
+        "notes": "The live 2027/28 joint-degree page names the local MSc and confirms the separate Polimi route. The course profile supplies campus, language and duration; the confirmed intake is specific to an assigned 28DIGITAL pathway, not a general promise of admission or a separate standalone 28DIGITAL degree at Polimi."
       },
       "28digital_local_application_windows_non_italian_degree": {
         "value": [
@@ -170,12 +178,17 @@
         "notes": "These are the local Polimi application windows for candidates seeking a Polimi entry in 28DIGITAL. Submit the separate 28DIGITAL application in parallel."
       },
       "28digital_local_application_window_italian_degree": {
-        "value": null,
-        "status": "NOT_YET_PUBLISHED",
+        "value": {
+          "start": "2027-07",
+          "end": "2027-08",
+          "eligible_group": "Applicants with degrees obtained in Italy who are admitted to 28DIGITAL and assigned Polimi as entry university",
+          "exact_dates": "To be published in spring 2027"
+        },
+        "status": "CONFIRMED",
         "source_ids": [
           "SRC-POLIMI-28DIGITAL-APPLICATIONS-2027"
         ],
-        "notes": "For degrees obtained in Italy, the page says successful 28DIGITAL applicants assigned to Polimi will be invited to submit the local application in July–August 2027; exact dates are to be published in spring."
+        "notes": "The 2027/28 page publishes a month-level July–August local application window; exact dates are still to be published in spring."
       },
       "28digital_local_application_fee_2027_2028": {
         "value": {
@@ -525,27 +538,30 @@
     "program": "High Performance Computing Engineering",
     "level": {
       "value": "MSc",
-      "status": "REQUIRES_VERIFICATION",
+      "status": "CONFIRMED",
       "source_ids": [
-        "SRC-POLIMI-HPC-2026"
+        "SRC-POLIMI-HPC-2026",
+        "SRC-POLIMI-28DIGITAL-APPLICATIONS-2027"
       ],
-      "notes": "This value describes the reviewed prior-cycle profile; the exact 2027/28 first-year programme listing and course terms remain unverified."
+      "notes": "The active 2027/28 28DIGITAL page names this local option as a Master of Science (Laurea Magistrale). Confirmation applies to the 28DIGITAL pathway assigned to Polimi."
     },
     "language": {
       "value": "English",
-      "status": "REQUIRES_VERIFICATION",
+      "status": "CONFIRMED",
       "source_ids": [
-        "SRC-POLIMI-HPC-2026"
+        "SRC-POLIMI-HPC-2026",
+        "SRC-POLIMI-28DIGITAL-APPLICATIONS-2027"
       ],
-      "notes": "This value describes the reviewed prior-cycle profile; the exact 2027/28 first-year programme listing and course terms remain unverified."
+      "notes": "The Polimi course profile lists English, and the current 2027/28 28DIGITAL page requires English proficiency for a Polimi entry. Confirmation applies to this pathway; course-wide annual regulations remain to be checked."
     },
     "field": {
       "value": "Computer Science and Engineering",
-      "status": "REQUIRES_VERIFICATION",
+      "status": "CONFIRMED",
       "source_ids": [
-        "SRC-POLIMI-HPC-2026"
+        "SRC-POLIMI-HPC-2026",
+        "SRC-POLIMI-28DIGITAL-APPLICATIONS-2027"
       ],
-      "notes": "This value describes the reviewed prior-cycle profile; the exact 2027/28 first-year programme listing and course terms remain unverified."
+      "notes": "The current 2027/28 28DIGITAL page names the matching local MSc option; the official course profile describes its computing/engineering subject area."
     },
     "availability_2027_2028": {
       "value": true,
@@ -555,7 +571,7 @@
       ],
       "notes": "Confirmed only for the named 28DIGITAL 2027/28 entry pathway. The joint programme assigns Polimi as entry university based on preferences and selection, and requires a separate local application; general course-wide admission terms remain subject to the relevant Polimi call."
     },
-    "overall_status": "REQUIRES_VERIFICATION",
+    "overall_status": "CONFIRMED",
     "discovery_source": "previous_tracker",
     "facts": {
       "previous_cycle_course_listing": {
@@ -653,15 +669,20 @@
           "academic_year": "2027/28",
           "entry_university": "Politecnico di Milano (conditional on assigned study offer)",
           "local_msc": "High Performance Computing Engineering",
+          "level": "MSc",
+          "language": "English",
+          "campus": "Milano Leonardo",
+          "duration_years": 2,
           "separate_polimi_application_required": true,
           "first_28digital_period_deadline": "2027-01-31",
           "later_28digital_periods": "Further periods subject to availability; exact dates not given"
         },
         "status": "CONFIRMED",
         "source_ids": [
+          "SRC-POLIMI-HPC-2026",
           "SRC-POLIMI-28DIGITAL-APPLICATIONS-2027"
         ],
-        "notes": "This confirms the named joint-degree route, not a general promise of admission or a standalone 28DIGITAL degree at Polimi."
+        "notes": "The live 2027/28 joint-degree page names the local MSc and confirms the separate Polimi route. The course profile supplies campus, language and duration; the confirmed intake is specific to an assigned 28DIGITAL pathway, not a general promise of admission or a separate standalone 28DIGITAL degree at Polimi."
       },
       "28digital_local_application_windows_non_italian_degree": {
         "value": [
@@ -688,12 +709,17 @@
         "notes": "These are the local Polimi application windows for candidates seeking a Polimi entry in 28DIGITAL. Submit the separate 28DIGITAL application in parallel."
       },
       "28digital_local_application_window_italian_degree": {
-        "value": null,
-        "status": "NOT_YET_PUBLISHED",
+        "value": {
+          "start": "2027-07",
+          "end": "2027-08",
+          "eligible_group": "Applicants with degrees obtained in Italy who are admitted to 28DIGITAL and assigned Polimi as entry university",
+          "exact_dates": "To be published in spring 2027"
+        },
+        "status": "CONFIRMED",
         "source_ids": [
           "SRC-POLIMI-28DIGITAL-APPLICATIONS-2027"
         ],
-        "notes": "For degrees obtained in Italy, the page says successful 28DIGITAL applicants assigned to Polimi will be invited to submit the local application in July–August 2027; exact dates are to be published in spring."
+        "notes": "The 2027/28 page publishes a month-level July–August local application window; exact dates are still to be published in spring."
       },
       "28digital_local_application_fee_2027_2028": {
         "value": {

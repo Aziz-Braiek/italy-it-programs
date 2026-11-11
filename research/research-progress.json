@@ -435,6 +435,11 @@
       "result": "Retried five unique official source URLs that had been inconclusive. Padua Astrophysics and Cosmology's 2027/28 admissions page now returns HTTP 200 (23,773 bytes; title captured; 2027 marker present). Four remain inconclusive: Camerino's fees page fails TLS hostname validation; Padua Psychology's catalogue returns HTTP 500; and the two Federico II sites fail TLS certificate validation (expired certificates). Official-domain search results still surfaced indexed snippets for these pages, but direct page opens timed out, so those snippets were not treated as fresh HTTP verification. The historical Trieste DSSC 2022 call PDF independently returned an explicit HTTP 404 and remains marked broken as a historical provenance link, not as current admissions evidence. Aggregate source checks now show 672 accessible, 13 redirected, 4 inconclusive and 1 broken record. No production changes were made."
     },
     {
+      "id": "bologna-cle-2027-2028-program-details-and-mobility-review",
+      "status": "partial",
+      "result": "Completed a program-level review for discovered-012, Bologna's Erasmus Mundus CLE joint Master's. The current 2027/28 application page confirms the active intake, month-level application windows for EU and non-EU applicants, results and enrolment/document milestones, and the Studenti Online second-cycle route. The official Bologna course profile confirms the 2026/27 base degree is a two-year LM-14 course with an international Culture letterarie europee curriculum, Italian/English at Bologna and Bologna as the teaching campus. The consortium describes mandatory mobility at two or three partner universities, variable host-campus teaching languages, English B1 plus B2 in the first-year host language, and double/multiple degrees. These sources support the core level, discipline and multilingual delivery; exact 2027/28 day-level deadlines remain unpublished. The 2027/28 page still links a 2026/27 admission notice, so detailed curricular thresholds remain marked for verification. The reviewed fee schedule and partner-award PDF are for 2026/27 and 2025/26 respectively; 2027/28 tuition and scholarship terms remain unconfirmed, while the current call only says possible support depends on available funds. Seven fresh official-page/PDF GETs returned HTTP 200 (the prior-cycle PDF returned HTTP 206 for the requested byte range); browser content opens succeeded. No production changes were made."
+    },
+    {
       "id": "claude-independent-review-inventory",
       "status": "complete",
       "result": "Created a review manifest and checklist covering all 34 universities, 193 programs, and 454 existing official source records. The checklist exposes current unresolved fields and conflicts; all refresh outcomes remain pending until evidence is checked."
@@ -450,9 +455,9 @@
       "result": "Direct HTTP review covers 554 unique URLs across 568 source records: 519 accessible, 13 redirected, 22 inconclusive and 0 confirmed broken. All 21 previously inconclusive URLs were retried via direct HTTP on 11 November and remained inconclusive. The three Padua scholarship, scheme and tuition URLs, five earlier Padua admissions/Statistical Science source URLs, the central Astrophysics and Cosmology profile, and the new student-awards page returned HTTP 200. The new Astrophysics Department call URL was inconclusive by direct HTTP and content-open; an official indexed result exposed its 2027/28 call details, but the link is not counted as directly verified. Twelve older inconclusive sources were separately opened and inspected through the official content fetcher: ten Camerino pages/PDFs, one Trieste historical catalogue PDF, and one Federico II Quantum Science and Engineering page. Nine older URLs still lack a successful independent content fetch; a 11 November retry of those nine also timed out or could not retrieve the PDF. Keep all inconclusive links classified as inconclusive, not broken."
     },
     {
-      "id": "bologna-cle-2027-2028-program-details-and-mobility-review",
+      "id": "polimi-28digital-2027-2028-core-program-and-window-review",
       "status": "partial",
-      "result": "Completed a program-level review for discovered-012, Bologna's Erasmus Mundus CLE joint Master's. The current 2027/28 application page confirms the active intake, month-level application windows for EU and non-EU applicants, results and enrolment/document milestones, and the Studenti Online second-cycle route. The official Bologna course profile confirms the 2026/27 base degree is a two-year LM-14 course with an international Culture letterarie europee curriculum, Italian/English at Bologna and Bologna as the teaching campus. The consortium describes mandatory mobility at two or three partner universities, variable host-campus teaching languages, English B1 plus B2 in the first-year host language, and double/multiple degrees. These sources support the core level, discipline and multilingual delivery; exact 2027/28 day-level deadlines remain unpublished. The 2027/28 page still links a 2026/27 admission notice, so detailed curricular thresholds remain marked for verification. The reviewed fee schedule and partner-award PDF are for 2026/27 and 2025/26 respectively; 2027/28 tuition and scholarship terms remain unconfirmed, while the current call only says possible support depends on available funds. Seven fresh official-page/PDF GETs returned HTTP 200 (the prior-cycle PDF returned HTTP 206 for the requested byte range); browser content opens succeeded. No production changes were made."
+      "result": "Rechecked the current 28DIGITAL/Polimi admissions page and its two official local programme profiles. The 2027/28 page confirms September 2027 entry, identifies the Polimi local Master of Science options as Computer Science and Engineering (T2A) and High Performance Computing Engineering, requires a separate Polimi application and English proof, and makes local admission conditional on Polimi being assigned as the entry university. The course profiles identify both as two-year, English-taught MSc programmes based at Milano Leonardo. This verifies the core offer details for legacy-001 and legacy-004 specifically through the 28DIGITAL route; it does not establish general course-wide Polimi intake conditions. For applicants with Italian degrees, the page gives a July–August 2027 local application window, with exact dates to follow in spring; the data now records the month-level window as confirmed. Existing foreign-degree call windows and the optional €50/€150 local application fee remain recorded. General Polimi course-wide deadline conflict, exact Italian-degree dates, 2027/28 tuition, scholarship terms and course-specific annual admission requirements remain open. All three direct GETs returned HTTP 200 and current pages opened successfully. No production changes were made."
     }
   ],
   "counts": {
@@ -507,8 +512,8 @@
     "newly_discovered_programs": 44,
     "programs_cycle_availability_confirmed": 40,
     "programs_availability_pending": 166,
-    "programs_fully_verified": 36,
-    "programs_requiring_verification": 170,
+    "programs_fully_verified": 38,
+    "programs_requiring_verification": 168,
     "programs_not_offered_2027_2028": 3,
     "programs_supported_only_by_previous_cycle": 153,
     "program_ids_supported_only_by_previous_cycle": [
@@ -667,7 +672,7 @@
       "legacy-165"
     ],
     "bsc_programs_verified": 1,
-    "msc_programs_verified": 30,
+    "msc_programs_verified": 32,
     "universities_with_confirmed_deadline_windows": 10,
     "university_ids_with_confirmed_deadline_windows": [
       "bologna",
@@ -746,7 +751,7 @@
       "udine"
     ],
     "source_records": 697,
-    "official_source_supported_fields": 1451,
+    "official_source_supported_fields": 1459,
     "verification_statuses": [
       "CONFIRMED",
       "NOT_YET_PUBLISHED",

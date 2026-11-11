@@ -1304,7 +1304,7 @@ SOURCES = [
         "url": "https://www.mastereit.polimi.it/international-applications/",
         "source_type": "Official joint-degree admissions page", "accessed_at": "2026-11-11", "cycle": "2027-2028",
         "evidence": "The official 28DIGITAL page says applications are open for September 2027 entry and names Polimi's local MSc options as Computer Science and Engineering (T2A) or High Performance Computing Engineering. Candidates must also submit a separate Polimi application; the 28DIGITAL offer assigns entry/exit universities based on preferences and assessment. For applicants with a degree from outside Italy, Polimi calls are 1 Oct–1 Dec 2026, 12 Jan–25 Feb 2027, and 1–18 Mar 2027 (the additional call is limited to EEA and non-EU residents in Italy); the local application fee is €50 through 1 Dec or €150 from 2 Dec. For degrees from Italy, the local application is invited in July–August 2027, with exact dates to be published in spring. The first 28DIGITAL period deadline is 31 Jan 2027; later periods depend on available places.",
-        "supports": ["program.availability", "program.application_route", "program.application_windows", "program.application_fee", "program.language_requirement"],
+        "supports": ["program.availability", "program.name", "program.level", "program.field", "program.language", "program.duration", "program.campus", "program.application_route", "program.application_windows", "program.application_fee", "program.language_requirement"],
     },
     {
         "id": "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
@@ -2236,6 +2236,12 @@ BATCH51 = {
     "id": "bologna-cle-2027-2028-program-details-and-mobility-review",
     "status": "partial",
     "result": "Completed a program-level review for discovered-012, Bologna's Erasmus Mundus CLE joint Master's. The current 2027/28 application page confirms the active intake, month-level application windows for EU and non-EU applicants, results and enrolment/document milestones, and the Studenti Online second-cycle route. The official Bologna course profile confirms the 2026/27 base degree is a two-year LM-14 course with an international Culture letterarie europee curriculum, Italian/English at Bologna and Bologna as the teaching campus. The consortium describes mandatory mobility at two or three partner universities, variable host-campus teaching languages, English B1 plus B2 in the first-year host language, and double/multiple degrees. These sources support the core level, discipline and multilingual delivery; exact 2027/28 day-level deadlines remain unpublished. The 2027/28 page still links a 2026/27 admission notice, so detailed curricular thresholds remain marked for verification. The reviewed fee schedule and partner-award PDF are for 2026/27 and 2025/26 respectively; 2027/28 tuition and scholarship terms remain unconfirmed, while the current call only says possible support depends on available funds. Seven fresh official-page/PDF GETs returned HTTP 200 (the prior-cycle PDF returned HTTP 206 for the requested byte range); browser content opens succeeded. No production changes were made.",
+}
+
+BATCH52 = {
+    "id": "polimi-28digital-2027-2028-core-program-and-window-review",
+    "status": "partial",
+    "result": "Rechecked the current 28DIGITAL/Polimi admissions page and its two official local programme profiles. The 2027/28 page confirms September 2027 entry, identifies the Polimi local Master of Science options as Computer Science and Engineering (T2A) and High Performance Computing Engineering, requires a separate Polimi application and English proof, and makes local admission conditional on Polimi being assigned as the entry university. The course profiles identify both as two-year, English-taught MSc programmes based at Milano Leonardo. This verifies the core offer details for legacy-001 and legacy-004 specifically through the 28DIGITAL route; it does not establish general course-wide Polimi intake conditions. For applicants with Italian degrees, the page gives a July–August 2027 local application window, with exact dates to follow in spring; the data now records the month-level window as confirmed. Existing foreign-degree call windows and the optional €50/€150 local application fee remain recorded. General Polimi course-wide deadline conflict, exact Italian-degree dates, 2027/28 tuition, scholarship terms and course-specific annual admission requirements remain open. All three direct GETs returned HTTP 200 and current pages opened successfully. No production changes were made.",
 }
 
 SOURCE_RECHECKS = {
@@ -5219,10 +5225,24 @@ def apply(
             "Confirmed only for the named 28DIGITAL 2027/28 entry pathway. The joint programme assigns Polimi as entry university based on preferences and selection, and requires a separate local application; general course-wide admission terms remain subject to the relevant Polimi call.",
         )
         program["source_ids"] = list(dict.fromkeys(program.get("source_ids", []) + [polimi_28digital_source]))
+        current_core_sources = [program["facts"]["previous_cycle_course_listing"]["source_ids"][0], polimi_28digital_source]
+        program["level"] = fact(
+            "MSc", "CONFIRMED", current_core_sources,
+            "The active 2027/28 28DIGITAL page names this local option as a Master of Science (Laurea Magistrale). Confirmation applies to the 28DIGITAL pathway assigned to Polimi.",
+        )
+        program["language"] = fact(
+            "English", "CONFIRMED", current_core_sources,
+            "The Polimi course profile lists English, and the current 2027/28 28DIGITAL page requires English proficiency for a Polimi entry. Confirmation applies to this pathway; course-wide annual regulations remain to be checked.",
+        )
+        program["field"] = fact(
+            program["field"]["value"], "CONFIRMED", current_core_sources,
+            "The current 2027/28 28DIGITAL page names the matching local MSc option; the official course profile describes its computing/engineering subject area.",
+        )
+        program["overall_status"] = "CONFIRMED"
         program["facts"]["official_2027_2028_28digital_pathway"] = fact(
-            {"academic_year":"2027/28", "entry_university":"Politecnico di Milano (conditional on assigned study offer)", "local_msc":local_degree, "separate_polimi_application_required":True, "first_28digital_period_deadline":"2027-01-31", "later_28digital_periods":"Further periods subject to availability; exact dates not given"},
-            "CONFIRMED", [polimi_28digital_source],
-            "This confirms the named joint-degree route, not a general promise of admission or a standalone 28DIGITAL degree at Polimi.",
+            {"academic_year":"2027/28", "entry_university":"Politecnico di Milano (conditional on assigned study offer)", "local_msc":local_degree, "level":"MSc", "language":"English", "campus":"Milano Leonardo", "duration_years":2, "separate_polimi_application_required":True, "first_28digital_period_deadline":"2027-01-31", "later_28digital_periods":"Further periods subject to availability; exact dates not given"},
+            "CONFIRMED", list(dict.fromkeys(current_core_sources)),
+            "The live 2027/28 joint-degree page names the local MSc and confirms the separate Polimi route. The course profile supplies campus, language and duration; the confirmed intake is specific to an assigned 28DIGITAL pathway, not a general promise of admission or a separate standalone 28DIGITAL degree at Polimi.",
         )
         program["facts"]["28digital_local_application_windows_non_italian_degree"] = fact(
             [{"start":"2026-10-01","end":"2026-12-01","eligible_group":"Applicants with a degree from outside Italy; all citizenship groups"}, {"start":"2027-01-12","end":"2027-02-25","eligible_group":"Applicants with a degree from outside Italy; all citizenship groups"}, {"start":"2027-03-01","end":"2027-03-18","eligible_group":"EEA citizens and non-EEA citizens resident in Italy only"}],
@@ -5230,8 +5250,9 @@ def apply(
             "These are the local Polimi application windows for candidates seeking a Polimi entry in 28DIGITAL. Submit the separate 28DIGITAL application in parallel.",
         )
         program["facts"]["28digital_local_application_window_italian_degree"] = fact(
-            None, "NOT_YET_PUBLISHED", [polimi_28digital_source],
-            "For degrees obtained in Italy, the page says successful 28DIGITAL applicants assigned to Polimi will be invited to submit the local application in July–August 2027; exact dates are to be published in spring.",
+            {"start":"2027-07", "end":"2027-08", "eligible_group":"Applicants with degrees obtained in Italy who are admitted to 28DIGITAL and assigned Polimi as entry university", "exact_dates":"To be published in spring 2027"},
+            "CONFIRMED", [polimi_28digital_source],
+            "The 2027/28 page publishes a month-level July–August local application window; exact dates are still to be published in spring.",
         )
         program["facts"]["28digital_local_application_fee_2027_2028"] = fact(
             {"early_bird_eur":50,"early_bird_through":"2026-12-01","standard_eur":150,"standard_from":"2026-12-02","payment_effect":"Without the Polimi fee, the local application is evaluated only in connection with 28DIGITAL admission"},
@@ -8944,6 +8965,59 @@ SOURCE_RECHECKS.update({
         "browser_check": {
             "checked_at": "2026-11-11", "outcome": "accessible", "method": "Codex PDF fetch",
             "notes": "The official PDF has three pages and is expressly a 2025/26 partner-support list; listed amounts and deadlines are historical.",
+        },
+    },
+})
+
+SOURCE_RECHECKS.update({
+    "SRC-POLIMI-28DIGITAL-APPLICATIONS-2027": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://www.mastereit.polimi.it/international-applications/",
+            "content_type": "text/html; charset=UTF-8", "content_length_header": None,
+            "etag": None, "last_modified": None, "cache_control": None, "age": None,
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Applications | Double Degree 28DIGITAL", "pdf_signature": None,
+            "has_2027_marker": True, "bytes_read": 89525, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control: no-cache",
+        },
+        "browser_check": {
+            "checked_at": "2026-11-11", "outcome": "accessible", "method": "Codex web reader open",
+            "notes": "The current AY 2027/28 page identifies the two Polimi local MSc options, separate local admission, international call dates and the month-level July–August route for Italian-degree applicants.",
+        },
+    },
+    "SRC-POLIMI-CSE-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://www.polimi.it/en/education/laurea-programmes/programme-detail/computer-science-and-engineering",
+            "content_type": "text/html; charset=utf-8", "content_length_header": None,
+            "etag": None, "last_modified": None, "cache_control": "max-age=0", "age": None,
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Master's Degree in Computer Science and Engineering | Politecnico di Milano - polimi",
+            "pdf_signature": None, "has_2027_marker": False, "bytes_read": 131072,
+            "outcome": "accessible", "error": None, "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control: no-cache (first 128 KiB read)",
+        },
+        "browser_check": {
+            "checked_at": "2026-11-11", "outcome": "accessible", "method": "Codex web reader open",
+            "notes": "The profile shows MSc, two years, English and Milano Leonardo, but is not an AY 2027/28 offer by itself. The active new-entry evidence is the separate 2027/28 28DIGITAL local-entry route.",
+        },
+    },
+    "SRC-POLIMI-HPC-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://www.polimi.it/en/education/laurea-programmes/programme-detail/high-performance-computing-engineering",
+            "content_type": "text/html; charset=utf-8", "content_length_header": None,
+            "etag": None, "last_modified": None, "cache_control": "max-age=0", "age": None,
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Master's Degree in High Performance Computing Engineering | Politecnico di Milano - polimi",
+            "pdf_signature": None, "has_2027_marker": False, "bytes_read": 131072,
+            "outcome": "accessible", "error": None, "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control: no-cache (first 128 KiB read)",
+        },
+        "browser_check": {
+            "checked_at": "2026-11-11", "outcome": "accessible", "method": "Codex web reader open",
+            "notes": "The profile shows MSc, two years, English and Milano Leonardo, but is not an AY 2027/28 offer by itself. The active new-entry evidence is the separate 2027/28 28DIGITAL local-entry route.",
         },
     },
 })

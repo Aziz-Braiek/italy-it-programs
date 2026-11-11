@@ -304,9 +304,9 @@ Official university-level sources:
 - [ ] `SRC-POLIMI-TUITION-2027` — [Tuition fees – current published fee schedule](https://www.polimi.it/en/students/tuition-fees-scholarships-and-financial-aid/tuition-fees) (cycle: 2027-2028; checked in prior snapshot: 2026-11-09)
 - [ ] `SRC-POLIMI-CONTACTS` — [Contacts for international prospective students](https://www.polimi.it/en/prospective-students/contacts/contacts-for-international-prospective-students) (cycle: general; checked in prior snapshot: 2026-11-09)
 - [ ] `SRC-POLIMI-MSC-LIST-2026` — [Master of Science programme catalogue](https://www.polimi.it/en/education/laurea-magistrale-programmes) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
-- [ ] `SRC-POLIMI-CSE-2026` — [Computer Science and Engineering MSc profile](https://www.polimi.it/en/education/laurea-programmes/programme-detail/computer-science-and-engineering) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-POLIMI-CSE-2026` — [Computer Science and Engineering MSc profile](https://www.polimi.it/en/education/laurea-programmes/programme-detail/computer-science-and-engineering) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-POLIMI-CYBER-2025` — [Cyber Risk Strategy and Governance MSc profile](https://www.polimi.it/en/education/laurea-magistrale-programmes/programme-detail/cyber-risk-strategy-and-governance) (cycle: 2025-2026; checked in prior snapshot: 2026-11-10)
-- [ ] `SRC-POLIMI-HPC-2026` — [High Performance Computing Engineering MSc profile](https://www.polimi.it/en/education/laurea-programmes/programme-detail/high-performance-computing-engineering) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-POLIMI-HPC-2026` — [High Performance Computing Engineering MSc profile](https://www.polimi.it/en/education/laurea-programmes/programme-detail/high-performance-computing-engineering) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-POLIMI-BIOMED-MSC-2026` — [Biomedical Engineering MSc profile](https://www.polimi.it/en/education/laurea-magistrale-programmes/programme-detail/biomedical-engineering-1) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-POLIMI-MECH-2025` — [Mechanical Engineering MSc profile](https://www.polimi.it/en/education/laurea-magistrale-programmes/programme-detail/mechanical-engineering-1) (cycle: 2025-2026; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-POLIMI-AERONAUTICAL-2026` — [Aeronautical Engineering MSc profile](https://www.polimi.it/en/education/laurea-programmes/programme-detail/aeronautical-engineering) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
@@ -325,12 +325,12 @@ Official university-level sources:
 
 #### Computer Science and Engineering — `legacy-001`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `CONFIRMED` | Last checked: `2026-11-11`
+- [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-11`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-001/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/politecnico-milano/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
-- [ ] `SRC-POLIMI-CSE-2026` — [Computer Science and Engineering MSc profile](https://www.polimi.it/en/education/laurea-programmes/programme-detail/computer-science-and-engineering) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-POLIMI-CSE-2026` — [Computer Science and Engineering MSc profile](https://www.polimi.it/en/education/laurea-programmes/programme-detail/computer-science-and-engineering) (cycle: 2026-2027; prior check: 2026-11-11)
 - [ ] `SRC-POLIMI-MSC-LIST-2026` — [Master of Science programme catalogue](https://www.polimi.it/en/education/laurea-magistrale-programmes) (cycle: 2026-2027; prior check: 2026-11-10)
 - [ ] `SRC-POLIMI-28DIGITAL-APPLICATIONS-2027` — [28DIGITAL – Polimi entry applications for AY 2027/28](https://www.mastereit.polimi.it/international-applications/) (cycle: 2027-2028; prior check: 2026-11-11)
 - [ ] `SRC-POLIMI-DEADLINES-2027` — [Deadlines – Admission to Laurea Magistrale with foreign qualification](https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/deadlines) (cycle: 2027-2028; prior check: 2026-11-09)
@@ -344,7 +344,6 @@ Currently missing or unpublished fields:
   - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — The reviewed fee page publishes 2026/27 amounts only; no 2027/28 course tuition is confirmed.
   - `facts.scholarships_2027_2028` — `REQUIRES_VERIFICATION` — A university-level merit scholarship call exists for first-year English-taught MSc applicants, but this candidate's 2027/28 intake and exact course/tier eligibility are not confirmed.
   - `facts.acceptance_rate` — `UNAVAILABLE` — No official comparable applicant and admitted-student totals were found for this candidate; no acceptance rate is inferred.
-  - `facts.28digital_local_application_window_italian_degree` — `NOT_YET_PUBLISHED` — For degrees obtained in Italy, the page says successful 28DIGITAL applicants assigned to Polimi will be invited to submit the local application in July–August 2027; exact dates are to be published in spring.
 
 #### Cyber Risk Strategy and Governance — `legacy-002`
 
@@ -373,7 +372,7 @@ Currently missing or unpublished fields:
 - [ ] University page: https://italy-it-programs.vercel.app/universities/politecnico-milano/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
-- [ ] `SRC-POLIMI-CSE-2026` — [Computer Science and Engineering MSc profile](https://www.polimi.it/en/education/laurea-programmes/programme-detail/computer-science-and-engineering) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-POLIMI-CSE-2026` — [Computer Science and Engineering MSc profile](https://www.polimi.it/en/education/laurea-programmes/programme-detail/computer-science-and-engineering) (cycle: 2026-2027; prior check: 2026-11-11)
 - [ ] `SRC-POLIMI-MSC-LIST-2026` — [Master of Science programme catalogue](https://www.polimi.it/en/education/laurea-magistrale-programmes) (cycle: 2026-2027; prior check: 2026-11-10)
 - [ ] `SRC-POLIMI-DEADLINES-2027` — [Deadlines – Admission to Laurea Magistrale with foreign qualification](https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/deadlines) (cycle: 2027-2028; prior check: 2026-11-09)
 - [ ] `SRC-POLIMI-ENGLISH-2027` — [Documents required by the Admissions Office – English certification](https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/application/list-of-documents-required-by-the-admissions-office) (cycle: 2027-2028; prior check: 2026-11-09)
@@ -389,12 +388,12 @@ Currently missing or unpublished fields:
 
 #### High Performance Computing Engineering — `legacy-004`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `CONFIRMED` | Last checked: `2026-11-11`
+- [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-11`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-004/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/politecnico-milano/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
-- [ ] `SRC-POLIMI-HPC-2026` — [High Performance Computing Engineering MSc profile](https://www.polimi.it/en/education/laurea-programmes/programme-detail/high-performance-computing-engineering) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-POLIMI-HPC-2026` — [High Performance Computing Engineering MSc profile](https://www.polimi.it/en/education/laurea-programmes/programme-detail/high-performance-computing-engineering) (cycle: 2026-2027; prior check: 2026-11-11)
 - [ ] `SRC-POLIMI-MSC-LIST-2026` — [Master of Science programme catalogue](https://www.polimi.it/en/education/laurea-magistrale-programmes) (cycle: 2026-2027; prior check: 2026-11-10)
 - [ ] `SRC-POLIMI-28DIGITAL-APPLICATIONS-2027` — [28DIGITAL – Polimi entry applications for AY 2027/28](https://www.mastereit.polimi.it/international-applications/) (cycle: 2027-2028; prior check: 2026-11-11)
 - [ ] `SRC-POLIMI-DEADLINES-2027` — [Deadlines – Admission to Laurea Magistrale with foreign qualification](https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/deadlines) (cycle: 2027-2028; prior check: 2026-11-09)
@@ -408,7 +407,6 @@ Currently missing or unpublished fields:
   - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — The reviewed fee page publishes 2026/27 amounts only; no 2027/28 course tuition is confirmed.
   - `facts.scholarships_2027_2028` — `REQUIRES_VERIFICATION` — A university-level merit scholarship call exists for first-year English-taught MSc applicants, but this candidate's 2027/28 intake and exact course/tier eligibility are not confirmed.
   - `facts.acceptance_rate` — `UNAVAILABLE` — No official comparable applicant and admitted-student totals were found for this candidate; no acceptance rate is inferred.
-  - `facts.28digital_local_application_window_italian_degree` — `NOT_YET_PUBLISHED` — For degrees obtained in Italy, the page says successful 28DIGITAL applicants assigned to Polimi will be invited to submit the local application in July–August 2027; exact dates are to be published in spring.
 
 #### Biomedical Engineering — `legacy-005`
 

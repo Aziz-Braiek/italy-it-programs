@@ -154,9 +154,11 @@ try {
   assert.match(universityCount || "", /universit/i);
   assert.ok((await page.locator("[data-university-card]:not([hidden])").count()) > 0);
 
-  const pendingProgramPath = "/programs/legacy-001/";
+  const pendingProgram = researchPrograms.find((program) => program.overall_status === "REQUIRES_VERIFICATION");
+  assert.ok(pendingProgram, "dataset includes a pending program for detail-page coverage");
+  const pendingProgramPath = `/programs/${pendingProgram.id}/`;
   await page.goto(baseUrl + pendingProgramPath, { waitUntil: "networkidle" });
-  assert.match(await page.locator("h1").textContent() || "", /Computer Science and Engineering/);
+  assert.ok((await page.locator("h1").textContent() || "").includes(pendingProgram.program), "pending program title renders");
   assert.equal(await page.locator(".status-pending").first().isVisible(), true, "pending detail page remains readable with JavaScript enabled");
   assert.ok(await page.locator(".detail-sources a").count() > 0, "individual program page links to evidence");
 

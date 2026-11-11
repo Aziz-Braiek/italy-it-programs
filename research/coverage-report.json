@@ -50,8 +50,8 @@
   "newly_discovered_programs": 44,
   "programs_cycle_availability_confirmed": 40,
   "programs_availability_pending": 166,
-  "programs_fully_verified": 36,
-  "programs_requiring_verification": 170,
+  "programs_fully_verified": 38,
+  "programs_requiring_verification": 168,
   "programs_not_offered_2027_2028": 3,
   "programs_supported_only_by_previous_cycle": 153,
   "program_ids_supported_only_by_previous_cycle": [
@@ -210,7 +210,7 @@
     "legacy-165"
   ],
   "bsc_programs_verified": 1,
-  "msc_programs_verified": 30,
+  "msc_programs_verified": 32,
   "universities_with_confirmed_deadline_windows": 10,
   "university_ids_with_confirmed_deadline_windows": [
     "bologna",
@@ -289,7 +289,7 @@
     "udine"
   ],
   "source_records": 697,
-  "official_source_supported_fields": 1451,
+  "official_source_supported_fields": 1459,
   "verification_statuses": [
     "CONFIRMED",
     "NOT_YET_PUBLISHED",

@@ -13973,7 +13973,7 @@
     "title": "Computer Science and Engineering MSc profile",
     "url": "https://www.polimi.it/en/education/laurea-programmes/programme-detail/computer-science-and-engineering",
     "source_type": "Official course profile",
-    "accessed_at": "2026-11-10",
+    "accessed_at": "2026-11-11",
     "cycle": "2026-2027",
     "evidence": "Identifies a two-year English-taught Master of Science at Milano Leonardo. The course is 120 ECTS and offers Computer Science and Engineering, Business and Innovation, and Artificial Intelligence study plans. Foreign-degree applicants need a comparable first-cycle qualification and their academic background is assessed against programme criteria; the profile is not a 2027/28 first-year offer.",
     "supports": [
@@ -13998,8 +13998,14 @@
       "bytes_read": 131072,
       "outcome": "accessible",
       "error": null,
-      "checked_at": "2026-11-10",
-      "method": "GET"
+      "checked_at": "2026-11-11",
+      "method": "GET with Cache-Control: no-cache (first 128 KiB read)"
+    },
+    "browser_check": {
+      "checked_at": "2026-11-11",
+      "outcome": "accessible",
+      "method": "Codex web reader open",
+      "notes": "The profile shows MSc, two years, English and Milano Leonardo, but is not an AY 2027/28 offer by itself. The active new-entry evidence is the separate 2027/28 28DIGITAL local-entry route."
     }
   },
   {
@@ -14043,7 +14049,7 @@
     "title": "High Performance Computing Engineering MSc profile",
     "url": "https://www.polimi.it/en/education/laurea-programmes/programme-detail/high-performance-computing-engineering",
     "source_type": "Official course profile",
-    "accessed_at": "2026-11-10",
+    "accessed_at": "2026-11-11",
     "cycle": "2026-2027",
     "evidence": "Identifies a two-year English MSc at Milano Leonardo. Foreign applicants need an equivalent Bachelor’s degree in Computer Science/Engineering, Mathematical Engineering or a related field. The official profile specifies at least 20 ECTS in Computer Science/Computer Engineering, 20 ECTS in Mathematics/Statistics and 10 ECTS in Physics, with committee assessment and possible additional requirements.",
     "supports": [
@@ -14058,7 +14064,7 @@
       "content_length_header": null,
       "etag": null,
       "last_modified": null,
-      "cache_control": "max-age=72818",
+      "cache_control": "max-age=0",
       "age": null,
       "x_vercel_cache": null,
       "x_vercel_id": null,
@@ -14069,8 +14075,14 @@
       "bytes_read": 131072,
       "outcome": "accessible",
       "error": null,
-      "checked_at": "2026-11-10",
-      "method": "GET"
+      "checked_at": "2026-11-11",
+      "method": "GET with Cache-Control: no-cache (first 128 KiB read)"
+    },
+    "browser_check": {
+      "checked_at": "2026-11-11",
+      "outcome": "accessible",
+      "method": "Codex web reader open",
+      "notes": "The profile shows MSc, two years, English and Milano Leonardo, but is not an AY 2027/28 offer by itself. The active new-entry evidence is the separate 2027/28 28DIGITAL local-entry route."
     }
   },
   {
@@ -22942,6 +22954,12 @@
     "evidence": "The official 28DIGITAL page says applications are open for September 2027 entry and names Polimi's local MSc options as Computer Science and Engineering (T2A) or High Performance Computing Engineering. Candidates must also submit a separate Polimi application; the 28DIGITAL offer assigns entry/exit universities based on preferences and assessment. For applicants with a degree from outside Italy, Polimi calls are 1 Oct–1 Dec 2026, 12 Jan–25 Feb 2027, and 1–18 Mar 2027 (the additional call is limited to EEA and non-EU residents in Italy); the local application fee is €50 through 1 Dec or €150 from 2 Dec. For degrees from Italy, the local application is invited in July–August 2027, with exact dates to be published in spring. The first 28DIGITAL period deadline is 31 Jan 2027; later periods depend on available places.",
     "supports": [
       "program.availability",
+      "program.name",
+      "program.level",
+      "program.field",
+      "program.language",
+      "program.duration",
+      "program.campus",
       "program.application_route",
       "program.application_windows",
       "program.application_fee",
@@ -22966,7 +22984,13 @@
       "outcome": "accessible",
       "error": null,
       "checked_at": "2026-11-11",
-      "method": "GET"
+      "method": "GET with Cache-Control: no-cache"
+    },
+    "browser_check": {
+      "checked_at": "2026-11-11",
+      "outcome": "accessible",
+      "method": "Codex web reader open",
+      "notes": "The current AY 2027/28 page identifies the two Polimi local MSc options, separate local admission, international call dates and the month-level July–August route for Italian-degree applicants."
     }
   },
   {
