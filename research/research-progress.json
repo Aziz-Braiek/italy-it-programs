@@ -277,6 +277,11 @@
       "result": "Rechecked the CLaBE profile, course-code page, admission page, linked English 2026/27 call and notice board. Confirmed Business and Economics (CLaBE) is a three-year English-taught Bologna BSc, L-18, prospective-student code 6609. The linked 2026/27 call has two regular SAT-selection intakes and a possible third if places remain, 177 regular seats plus 13 special-programme seats, and a non-refundable €20 fee valid across that call's intakes. The current page links only that expired 2026/27 call. The notice board's 2027/28 reference is Overseas study mobility for current students, not first-year CLaBE admission; 2027/28 intake, dates, seats, SAT thresholds, fee, tuition and aid remain unconfirmed. The PDF is an adapted English translation and states that the Italian call prevails for legal interpretation. Fresh no-cache GETs returned HTTP 200 for all five reviewed pages (283,165; 288,734; 363,283; 601,090; and 296,126 bytes)."
     },
     {
+      "id": "unibo-clef-2026-27-sat-call-extra-selection-and-next-cycle-review",
+      "status": "partial",
+      "result": "Rechecked CLEF's official overview, current enrolment page, notice board, 2026/27 call and separate extra-selection notice. The overview confirms a three-year English-taught Bologna L-33 bachelor's degree with restricted access; the displayed 130-place count is not cycle-labelled. The 2026/27 official call identifies course code 6646 and 130 places, two SAT rounds, a possible extra round, Digital SAT, B2 English, secondary-school eligibility and a €20 non-refundable application fee. The separate 2 September 2026 notice confirms six residual CLEF places in the extra selection. The main call prints the extra-round opening date as `03/09/206`; this apparent typo is not silently corrected, so only its clear 11 September deadline, 24 September ranking and 24 September–1 October enrolment window are recorded. The current enrolment page links only expired 2026/27 calls. A 2027/28 Overseas notice on the current notice board is student mobility, not a new-entry call. Therefore 2027/28 availability, admissions windows, SAT terms, seats, application fee, tuition and scholarship awards remain pending. Fresh no-cache GETs returned HTTP 200 for all five reviewed sources (307,062; 364,528; 295,954; 747,442; and 348,225 bytes); only the notice board contains a literal 2027/28 marker, in the mobility item."
+    },
+    {
       "id": "claude-independent-review-inventory",
       "status": "complete",
       "result": "Created a review manifest and checklist covering all 34 universities, 193 programs, and 454 existing official source records. The checklist exposes current unresolved fields and conflicts; all refresh outcomes remain pending until evidence is checked."
@@ -582,8 +587,8 @@
       "trento",
       "udine"
     ],
-    "source_records": 588,
-    "official_source_supported_fields": 1250,
+    "source_records": 591,
+    "official_source_supported_fields": 1259,
     "verification_statuses": [
       "CONFIRMED",
       "NOT_YET_PUBLISHED",

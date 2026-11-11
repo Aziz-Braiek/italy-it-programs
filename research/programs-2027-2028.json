@@ -4984,7 +4984,10 @@
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
         "SRC-UNIBO-CLEF-PROFILE-2026",
-        "SRC-UNIBO-CLEF-ADMISSIONS-2026"
+        "SRC-UNIBO-CLEF-ADMISSIONS-2026",
+        "SRC-UNIBO-CLEF-ENROLMENT-2026",
+        "SRC-UNIBO-CLEF-NOTICE-BOARD-2026",
+        "SRC-UNIBO-CLEF-EXTRA-INTAKE-2026"
       ],
       "notes": "Official course identity is confirmed for the 2026/2027 catalogue; this value is not promoted to 2027/28 without a named-cycle source."
     },
@@ -4993,7 +4996,10 @@
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
         "SRC-UNIBO-CLEF-PROFILE-2026",
-        "SRC-UNIBO-CLEF-ADMISSIONS-2026"
+        "SRC-UNIBO-CLEF-ADMISSIONS-2026",
+        "SRC-UNIBO-CLEF-ENROLMENT-2026",
+        "SRC-UNIBO-CLEF-NOTICE-BOARD-2026",
+        "SRC-UNIBO-CLEF-EXTRA-INTAKE-2026"
       ],
       "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
     },
@@ -5002,7 +5008,10 @@
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
         "SRC-UNIBO-CLEF-PROFILE-2026",
-        "SRC-UNIBO-CLEF-ADMISSIONS-2026"
+        "SRC-UNIBO-CLEF-ADMISSIONS-2026",
+        "SRC-UNIBO-CLEF-ENROLMENT-2026",
+        "SRC-UNIBO-CLEF-NOTICE-BOARD-2026",
+        "SRC-UNIBO-CLEF-EXTRA-INTAKE-2026"
       ],
       "notes": "Course subject identity is based on current official profile/catalogue evidence; next-cycle catalogue not yet verified."
     },
@@ -5011,85 +5020,265 @@
       "status": "NOT_YET_PUBLISHED",
       "source_ids": [
         "SRC-UNIBO-CLEF-PROFILE-2026",
-        "SRC-UNIBO-CLEF-ADMISSIONS-2026"
+        "SRC-UNIBO-CLEF-ADMISSIONS-2026",
+        "SRC-UNIBO-CLEF-ENROLMENT-2026",
+        "SRC-UNIBO-CLEF-NOTICE-BOARD-2026",
+        "SRC-UNIBO-CLEF-EXTRA-INTAKE-2026"
       ],
-      "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued."
+      "notes": "Not yet announced for 2027/28 on the official profile or enrolment page checked 11 November 2026: the page links only expired 2026/27 calls. The 130 places shown on the profile are not labelled for 2027/28, and the notice board's 2027/28 Overseas item is student mobility, not a new-entry call. This does not mean discontinued."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
     "facts": {
       "previous_cycle_course_listing": {
         "value": {
-          "academic_year": "2026/2027",
+          "academic_year": "2026/27",
           "official_name": "Economics and Finance (CLEF)",
+          "course_code": "6646",
+          "degree_class": "L-33 R",
           "level": "BSc",
-          "language": "English"
+          "duration_years": 3,
+          "language": "English",
+          "campus": "Bologna",
+          "access": "Restricted access; SAT selection",
+          "places_in_2026_2027_call": 130
         },
         "status": "CONFIRMED",
         "source_ids": [
           "SRC-UNIBO-CLEF-PROFILE-2026",
           "SRC-UNIBO-CLEF-ADMISSIONS-2026"
         ],
-        "notes": "Official course profile/catalogue evidence is cycle-scoped to 2026/2027 and does not establish 2027/28 first-year admission."
+        "notes": "Official degree profile and named 2026/27 call evidence only. The profile's currently displayed 130 places are not independently labelled for 2027/28."
       },
       "application_windows": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
           "SRC-UNIBO-CLEF-PROFILE-2026",
-          "SRC-UNIBO-CLEF-ADMISSIONS-2026"
+          "SRC-UNIBO-CLEF-ADMISSIONS-2026",
+          "SRC-UNIBO-CLEF-ENROLMENT-2026",
+          "SRC-UNIBO-CLEF-NOTICE-BOARD-2026",
+          "SRC-UNIBO-CLEF-EXTRA-INTAKE-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates."
+        "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-11; do not reuse 2026/27 dates."
       },
       "application_fee_2027_2028": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
           "SRC-UNIBO-CLEF-PROFILE-2026",
-          "SRC-UNIBO-CLEF-ADMISSIONS-2026"
+          "SRC-UNIBO-CLEF-ADMISSIONS-2026",
+          "SRC-UNIBO-CLEF-ENROLMENT-2026",
+          "SRC-UNIBO-CLEF-NOTICE-BOARD-2026",
+          "SRC-UNIBO-CLEF-EXTRA-INTAKE-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal."
+        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; check the annual call and application portal."
       },
       "program_specific_requirements_2027_2028": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
           "SRC-UNIBO-CLEF-PROFILE-2026",
-          "SRC-UNIBO-CLEF-ADMISSIONS-2026"
+          "SRC-UNIBO-CLEF-ADMISSIONS-2026",
+          "SRC-UNIBO-CLEF-ENROLMENT-2026",
+          "SRC-UNIBO-CLEF-NOTICE-BOARD-2026",
+          "SRC-UNIBO-CLEF-EXTRA-INTAKE-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only."
+        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; any 2026/27 criteria are historical only."
       },
       "tuition_2027_2028": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
           "SRC-UNIBO-CLEF-PROFILE-2026",
-          "SRC-UNIBO-CLEF-ADMISSIONS-2026"
+          "SRC-UNIBO-CLEF-ADMISSIONS-2026",
+          "SRC-UNIBO-CLEF-ENROLMENT-2026",
+          "SRC-UNIBO-CLEF-NOTICE-BOARD-2026",
+          "SRC-UNIBO-CLEF-EXTRA-INTAKE-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts."
+        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; do not carry forward prior-cycle amounts."
       },
       "scholarships_2027_2028": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
           "SRC-UNIBO-CLEF-PROFILE-2026",
-          "SRC-UNIBO-CLEF-ADMISSIONS-2026"
+          "SRC-UNIBO-CLEF-ADMISSIONS-2026",
+          "SRC-UNIBO-CLEF-ENROLMENT-2026",
+          "SRC-UNIBO-CLEF-NOTICE-BOARD-2026",
+          "SRC-UNIBO-CLEF-EXTRA-INTAKE-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking."
+        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; annual university and regional calls still need checking."
       },
       "acceptance_rate": {
         "value": null,
         "status": "UNAVAILABLE",
         "source_ids": [
           "SRC-UNIBO-CLEF-PROFILE-2026",
-          "SRC-UNIBO-CLEF-ADMISSIONS-2026"
+          "SRC-UNIBO-CLEF-ADMISSIONS-2026",
+          "SRC-UNIBO-CLEF-ENROLMENT-2026",
+          "SRC-UNIBO-CLEF-NOTICE-BOARD-2026",
+          "SRC-UNIBO-CLEF-EXTRA-INTAKE-2026"
         ],
         "notes": "The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred."
+      },
+      "previous_cycle_application_windows": {
+        "value": [
+          {
+            "intake": 1,
+            "opening": "2026-02-10",
+            "deadline": "2026-05-04 13:00 local time",
+            "ranking": "2026-05-26",
+            "enrolment_window": [
+              "2026-05-26",
+              "2026-06-05"
+            ],
+            "scope": "Ordinary first selection; official call's applicant quotas apply"
+          },
+          {
+            "intake": 2,
+            "opening": "2026-05-05",
+            "deadline": "2026-07-03 13:00 local time",
+            "ranking": "2026-07-23",
+            "enrolment_window": [
+              "2026-07-23",
+              "2026-07-30"
+            ],
+            "scope": "Ordinary second selection"
+          },
+          {
+            "intake": 3,
+            "opening": null,
+            "opening_date_as_printed": "03/09/206 (apparent typo in official call)",
+            "deadline": "2026-09-11 13:00 local time",
+            "ranking": "2026-09-24",
+            "enrolment_window": [
+              "2026-09-24",
+              "2026-10-01"
+            ],
+            "scope": "Extra selection if places remained; official extra-selection notice dated 2026-09-02 confirms six CLEF places but gives no application opening or closing date"
+          }
+        ],
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-CLEF-ADMISSIONS-2026",
+          "SRC-UNIBO-CLEF-EXTRA-INTAKE-2026"
+        ],
+        "notes": "All dates above belong to the expired 2026/27 call, not 2027/28. The main call prints the extra-selection opening date as `03/09/206`; this apparent typo is preserved and not silently corrected. The separately linked extra-selection notice confirms the 2 September notice date and six places but gives no application window."
+      },
+      "previous_cycle_admission_requirements": {
+        "value": {
+          "school_qualification": "Five-year upper-secondary diploma or qualifying foreign credential after at least twelve years of schooling; specified four-year diplomas are also eligible",
+          "entrance_test": "Digital SAT; essay section not required; SATs from 2024-02-01 accepted under the 2026/27 call",
+          "english": "At least B2 CEFR; assessed with the SAT, which is taken in English",
+          "diploma_deadline": "2026-12-31",
+          "selection": "SAT score ranking",
+          "applicant_groups": "The call defines applicant quotas by citizenship/residence; the first selection includes a separate non-EU-resident-abroad quota, while later selection rules are call-specific"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-CLEF-ADMISSIONS-2026"
+        ],
+        "notes": "Historical 2026/27 criteria only. Do not apply these test, quota or diploma rules to 2027/28 without the new call."
+      },
+      "previous_cycle_gpa_requirement": {
+        "value": "No separate GPA threshold stated in the 2026/27 call; candidates were ranked using their Digital SAT score.",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-CLEF-ADMISSIONS-2026"
+        ],
+        "notes": "This finding is limited to the reviewed 2026/27 call and does not establish the 2027/28 selection criteria."
+      },
+      "previous_cycle_application_route": {
+        "value": {
+          "portal": "Studenti Online",
+          "portal_url": "https://studenti.unibo.it/sol/welcome.htm?siteLanguage=en",
+          "payment": "PagoPA",
+          "application_fee_eur": 20
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-CLEF-ENROLMENT-2026",
+          "SRC-UNIBO-CLEF-ADMISSIONS-2026"
+        ],
+        "notes": "Historical 2026/27 application route. The page also directs non-EU applicants to Universitaly pre-enrolment after selection where applicable; the upcoming cycle's route must be rechecked."
+      },
+      "previous_cycle_available_places": {
+        "value": {
+          "total_in_2026_2027_call": 130,
+          "first_selection": {
+            "eu_or_equivalent": 50,
+            "non_eu_resident_abroad": 40
+          },
+          "second_selection": {
+            "eu_or_equivalent": 40,
+            "plus_residual_from_first_selection": true
+          },
+          "extra_selection": "Only residual seats; a separate official notice dated 2026-09-02 lists 6 CLEF places"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-CLEF-ADMISSIONS-2026",
+          "SRC-UNIBO-CLEF-EXTRA-INTAKE-2026"
+        ],
+        "notes": "These are the 2026/27 call allocation and 2026 extra-selection vacancy count only; not 2027/28 capacity."
+      },
+      "previous_cycle_additional_learning_requirement": {
+        "value": {
+          "condition": "SAT Mathematics score below 500/800",
+          "deadline": "2028-03-31",
+          "consequence": "Students who do not fulfil the OFA by the deadline must repeat the first year in the following academic year"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-CLEF-ADMISSIONS-2026"
+        ],
+        "notes": "The deadline falls in 2027/28 but applies to students admitted under the 2026/27 call; it is not evidence of a new 2027/28 incoming CLEF cohort."
+      },
+      "application_fee_2026_2027": {
+        "value": {
+          "amount_eur": 20,
+          "refundable": false,
+          "valid_for": "Subsequent selections under the same 2026/27 call"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-CLEF-ADMISSIONS-2026",
+          "SRC-UNIBO-CLEF-ENROLMENT-2026"
+        ],
+        "notes": "Historical 2026/27 application fee only; do not carry it forward to 2027/28."
+      },
+      "current_tuition_reference_2026_2027": {
+        "value": {
+          "fee_basis": "2026 ISEE; first-year students with low ISEE may receive full exemption",
+          "standard_isee_submission_deadline": "2026-10-30 18:00",
+          "late_submission_deadline": "2026-11-16 18:00",
+          "late_fee_eur": 100
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-CLEF-ENROLMENT-2026"
+        ],
+        "notes": "Current fee instructions displayed on the official page when checked 11 November 2026. These are not a CLEF-specific 2027/28 tuition schedule; no 2027/28 amount is published here."
+      },
+      "current_notice_board_2027_2028_mobility": {
+        "value": {
+          "notice": "Bando Overseas – study mobility AY 2027/28",
+          "incoming_first_year_admission": false
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-CLEF-NOTICE-BOARD-2026"
+        ],
+        "notes": "The 2027/28 notice-board marker is a study-mobility call for enrolled students, not CLEF first-year admission. The current enrolment page still links only expired 2026/27 admissions material."
       }
     },
     "source_ids": [
       "SRC-UNIBO-CLEF-PROFILE-2026",
-      "SRC-UNIBO-CLEF-ADMISSIONS-2026"
+      "SRC-UNIBO-CLEF-ADMISSIONS-2026",
+      "SRC-UNIBO-CLEF-ENROLMENT-2026",
+      "SRC-UNIBO-CLEF-NOTICE-BOARD-2026",
+      "SRC-UNIBO-CLEF-EXTRA-INTAKE-2026"
     ],
     "previous_tracker_tags": {
       "level": "BSc",
@@ -5104,7 +5293,7 @@
       "cycle": "2026-2027",
       "label": "Official course identity checked for 2026/2027; 2027/28 first-year intake and terms remain unconfirmed"
     },
-    "last_checked": "2026-11-10"
+    "last_checked": "2026-11-11"
   },
   {
     "id": "legacy-027",

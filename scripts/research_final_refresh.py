@@ -221,17 +221,41 @@ SOURCES = [
         "id": "SRC-UNIBO-CLEF-PROFILE-2026",
         "university_id": "bologna", "title": "Economics and Finance (CLEF) – official degree profile",
         "url": "https://corsi.unibo.it/1cycle/EconomicsFinance/overview",
-        "source_type": "Official degree programme profile", "accessed_at": "2026-11-10", "cycle": "2026-2027",
-        "evidence": "Identifies the three-year English-taught Bologna bachelor's degree in Economics and Finance (L-33); admission is limited-enrolment and selection criteria are announced annually.",
+        "source_type": "Official degree programme profile", "accessed_at": "2026-11-11", "cycle": "2026-2027",
+        "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026. Confirms Economics and Finance is an international, entirely English-taught three-year Bologna bachelor's degree in class L-33, with restricted access and 130 places currently displayed. The profile says selection criteria and admissions are published yearly; its 130-place statement is not explicitly labelled 2027/28.",
         "supports": ["program.name", "program.level", "program.language", "program.location", "program.previous_cycle_access"],
     },
     {
         "id": "SRC-UNIBO-CLEF-ADMISSIONS-2026",
         "university_id": "bologna", "title": "Economics and Finance – 2026/27 admission notice",
         "url": "https://corsi.unibo.it/s/3394/p/en/enrolling-clef/bando-clef-etac_a-a-2026-2027.pdf/@@download/file/Bando%20CLEF%20-ETAC_a.a.%202026-2027.pdf",
-        "source_type": "Official programme admission notice", "accessed_at": "2026-11-10", "cycle": "2026-2027",
-        "evidence": "Official 2026/27 selection notice names Economics and Finance (CLEF, Bologna), class L-33 R and annual selection process.",
-        "supports": ["program.previous_cycle_application_windows", "program.previous_cycle_admission"],
+        "source_type": "Official programme admission notice", "accessed_at": "2026-11-11", "cycle": "2026-2027",
+        "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026. The official 2026/27 call identifies CLEF as course code 6646, L-33 R, with 130 total places, two ordinary SAT selections, a possible extra selection, a €20 non-refundable application fee, upper-secondary eligibility, Digital SAT, and English B2. Historical evidence only; the current enrolment page links no 2027/28 intake.",
+        "supports": ["program.previous_cycle_course_listing", "program.previous_cycle_application_windows", "program.previous_cycle_admission", "program.previous_cycle_seats", "program.previous_cycle_application_fee"],
+    },
+    {
+        "id": "SRC-UNIBO-CLEF-ENROLMENT-2026",
+        "university_id": "bologna", "title": "Economics and Finance (CLEF) – current enrolment and admissions page",
+        "url": "https://corsi.unibo.it/1cycle/EconomicsFinance/how-to-enrol",
+        "source_type": "Official degree programme admission page", "accessed_at": "2026-11-11", "cycle": "general",
+        "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026. The page links the expired 2026/27 Italian and English calls and an expired extra-selection notice, and shows current 2026 ISEE tuition instructions; it does not link or announce a 2027/28 new-entry call. The displayed 2027/28 references elsewhere on the page are not a new-entry call.",
+        "supports": ["program.current_admission_route", "program.cycle_marker_scope", "program.tuition_context"],
+    },
+    {
+        "id": "SRC-UNIBO-CLEF-NOTICE-BOARD-2026",
+        "university_id": "bologna", "title": "Economics and Finance (CLEF) – current notice board",
+        "url": "https://corsi.unibo.it/1cycle/EconomicsFinance/notice-board",
+        "source_type": "Official degree programme notice board", "accessed_at": "2026-11-11", "cycle": "general",
+        "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026. The board lists a 2027/28 Overseas study-mobility call for enrolled/current students; this is not a CLEF first-year admissions call.",
+        "supports": ["program.cycle_marker_scope", "program.mobility_not_admission"],
+    },
+    {
+        "id": "SRC-UNIBO-CLEF-EXTRA-INTAKE-2026",
+        "university_id": "bologna", "title": "CLEF – 2026/27 extra-selection notice",
+        "url": "https://corsi.unibo.it/s/3394/p/en/enrolling-clef/notice-of-extra-selection-process_etac-clef-2026-2027.pdf/@@download/file/Notice%20of%20extra%20selection%20process_ETAC-CLEF%202026-2027.pdf",
+        "source_type": "Official programme extra-selection notice PDF", "accessed_at": "2026-11-11", "cycle": "2026-2027",
+        "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026. The two-page notice, dated 2 September 2026, confirms an extra selection to fill remaining 2026/27 positions and identifies six CLEF places for Italian/EU/equivalent applicants and non-EU applicants abroad who compete in the EU quota. It does not itself give application opening or closing dates.",
+        "supports": ["program.previous_cycle_application_windows", "program.previous_cycle_seats"],
     },
     {
         "id": "SRC-UNIBO-MED-EN-PROFILE-2026",
@@ -1269,6 +1293,12 @@ BATCH19 = {
     "result": "Rechecked the CLaBE profile, course-code page, admission page, linked English 2026/27 call and notice board. Confirmed Business and Economics (CLaBE) is a three-year English-taught Bologna BSc, L-18, prospective-student code 6609. The linked 2026/27 call has two regular SAT-selection intakes and a possible third if places remain, 177 regular seats plus 13 special-programme seats, and a non-refundable €20 fee valid across that call's intakes. The current page links only that expired 2026/27 call. The notice board's 2027/28 reference is Overseas study mobility for current students, not first-year CLaBE admission; 2027/28 intake, dates, seats, SAT thresholds, fee, tuition and aid remain unconfirmed. The PDF is an adapted English translation and states that the Italian call prevails for legal interpretation. Fresh no-cache GETs returned HTTP 200 for all five reviewed pages (283,165; 288,734; 363,283; 601,090; and 296,126 bytes).",
 }
 
+BATCH20 = {
+    "id": "unibo-clef-2026-27-sat-call-extra-selection-and-next-cycle-review",
+    "status": "partial",
+    "result": "Rechecked CLEF's official overview, current enrolment page, notice board, 2026/27 call and separate extra-selection notice. The overview confirms a three-year English-taught Bologna L-33 bachelor's degree with restricted access; the displayed 130-place count is not cycle-labelled. The 2026/27 official call identifies course code 6646 and 130 places, two SAT rounds, a possible extra round, Digital SAT, B2 English, secondary-school eligibility and a €20 non-refundable application fee. The separate 2 September 2026 notice confirms six residual CLEF places in the extra selection. The main call prints the extra-round opening date as `03/09/206`; this apparent typo is not silently corrected, so only its clear 11 September deadline, 24 September ranking and 24 September–1 October enrolment window are recorded. The current enrolment page links only expired 2026/27 calls. A 2027/28 Overseas notice on the current notice board is student mobility, not a new-entry call. Therefore 2027/28 availability, admissions windows, SAT terms, seats, application fee, tuition and scholarship awards remain pending. Fresh no-cache GETs returned HTTP 200 for all five reviewed sources (307,062; 364,528; 295,954; 747,442; and 348,225 bytes); only the notice board contains a literal 2027/28 marker, in the mobility item.",
+}
+
 SOURCE_RECHECKS = {
     "SRC-UNIBO-AI-PROFILE-2026": {
         "accessed_at": "2026-11-11",
@@ -1611,6 +1641,129 @@ SOURCE_RECHECKS.update({
     },
 })
 
+SOURCE_RECHECKS.update({
+    "SRC-UNIBO-CLEF-PROFILE-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200,
+            "effective_url": "https://corsi.unibo.it/1cycle/EconomicsFinance/overview",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": "307062",
+            "etag": None,
+            "last_modified": None,
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "178",
+            "x_vercel_cache": None,
+            "x_vercel_id": None,
+            "location": None,
+            "observed_title": "Overview — Economics and Finance - Laurea - Bologna",
+            "pdf_signature": None,
+            "has_2027_marker": False,
+            "bytes_read": 307062,
+            "outcome": "accessible",
+            "error": None,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)",
+        },
+    },
+    "SRC-UNIBO-CLEF-ADMISSIONS-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200,
+            "effective_url": "https://corsi.unibo.it/s/3394/p/en/enrolling-clef/bando-clef-etac_a-a-2026-2027.pdf/@@download/file/Bando%20CLEF%20-ETAC_a.a.%202026-2027.pdf",
+            "content_type": "application/pdf",
+            "content_length_header": "747442",
+            "etag": None,
+            "last_modified": "Mon, 09 Feb 2026 10:12:35 GMT",
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "170",
+            "x_vercel_cache": None,
+            "x_vercel_id": None,
+            "location": None,
+            "observed_title": None,
+            "pdf_signature": True,
+            "has_2027_marker": None,
+            "bytes_read": 747442,
+            "outcome": "accessible",
+            "error": None,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)",
+        },
+    },
+    "SRC-UNIBO-CLEF-ENROLMENT-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200,
+            "effective_url": "https://corsi.unibo.it/1cycle/EconomicsFinance/how-to-enrol",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": "364528",
+            "etag": None,
+            "last_modified": None,
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "66",
+            "x_vercel_cache": None,
+            "x_vercel_id": None,
+            "location": None,
+            "observed_title": "Programme enrolment: requirements, deadlines and methods — Economics and Finance - Laurea - Bologna",
+            "pdf_signature": None,
+            "has_2027_marker": False,
+            "bytes_read": 364528,
+            "outcome": "accessible",
+            "error": None,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)",
+        },
+    },
+    "SRC-UNIBO-CLEF-NOTICE-BOARD-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200,
+            "effective_url": "https://corsi.unibo.it/1cycle/EconomicsFinance/notice-board",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": "295954",
+            "etag": None,
+            "last_modified": None,
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "176",
+            "x_vercel_cache": None,
+            "x_vercel_id": None,
+            "location": None,
+            "observed_title": "Notice board — Economics and Finance - Laurea - Bologna",
+            "pdf_signature": None,
+            "has_2027_marker": True,
+            "bytes_read": 295954,
+            "outcome": "accessible",
+            "error": None,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)",
+        },
+    },
+    "SRC-UNIBO-CLEF-EXTRA-INTAKE-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200,
+            "effective_url": "https://corsi.unibo.it/s/3394/p/en/enrolling-clef/notice-of-extra-selection-process_etac-clef-2026-2027.pdf/@@download/file/Notice%20of%20extra%20selection%20process_ETAC-CLEF%202026-2027.pdf",
+            "content_type": "application/pdf",
+            "content_length_header": "348225",
+            "etag": None,
+            "last_modified": "Thu, 03 Sep 2026 06:44:35 GMT",
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "20",
+            "x_vercel_cache": None,
+            "x_vercel_id": None,
+            "location": None,
+            "observed_title": None,
+            "pdf_signature": True,
+            "has_2027_marker": None,
+            "bytes_read": 348225,
+            "outcome": "accessible",
+            "error": None,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)",
+        },
+    },
+})
+
 
 def _fact(value: Any, status: str, source_ids: list[str], notes: str | None = None) -> dict[str, Any]:
     return {"value": value, "status": status, "source_ids": source_ids, "notes": notes}
@@ -1696,7 +1849,7 @@ def apply_legacy_course_reviews(programs: list[dict[str, Any]], fact: Callable[.
         ("legacy-022", "Statistics, Economics and Business — Business Analytics curriculum", "MSc", "English", "Statistics and Business Analytics", ["SRC-UNIBO-BA-CURRICULUM-2026", "SRC-UNIBO-BA-CURRICULUM-PARENT-2026", "SRC-UNIBO-BA-BBS-2026"], "Bologna", "Curriculum within the parent MSc; not a separate degree programme"),
         ("legacy-024", "Mechanical Engineering for Sustainability", "MSc", "English", "Mechanical Engineering and Sustainability", ["SRC-UNIBO-MES-PROFILE-2026", "SRC-UNIBO-MES-ADMISSIONS-2026", "SRC-UNIBO-MES-CALL-2026", "SRC-UNIBO-MES-NOTICE-BOARD-2026"], "Forlì"),
         ("legacy-025", "Business and Economics (CLaBE)", "BSc", "English", "Business and Economics", ["SRC-UNIBO-CLABE-PROFILE-2026", "SRC-UNIBO-CLABE-PROGRAM-CODE-2026", "SRC-UNIBO-CLABE-ADMISSIONS-2026", "SRC-UNIBO-CLABE-CALL-2026", "SRC-UNIBO-CLABE-NOTICE-BOARD-2026"]),
-        ("legacy-026", "Economics and Finance (CLEF)", "BSc", "English", "Economics and Finance", ["SRC-UNIBO-CLEF-PROFILE-2026", "SRC-UNIBO-CLEF-ADMISSIONS-2026"]),
+        ("legacy-026", "Economics and Finance (CLEF)", "BSc", "English", "Economics and Finance", ["SRC-UNIBO-CLEF-PROFILE-2026", "SRC-UNIBO-CLEF-ADMISSIONS-2026", "SRC-UNIBO-CLEF-ENROLMENT-2026", "SRC-UNIBO-CLEF-NOTICE-BOARD-2026", "SRC-UNIBO-CLEF-EXTRA-INTAKE-2026"]),
         ("legacy-027", "Medicine and Surgery (English-taught single-cycle degree)", "Single-cycle Master's (LM-41)", "English", "Medicine and Surgery", ["SRC-UNIBO-MED-EN-PROFILE-2026", "SRC-UNIBO-MED-EN-2026-CALL"]),
         ("legacy-028", "Business Management — Green Management and Sustainable Businesses (BBS professional-master track)", "Professional Master's track", "English", "Sustainable Business and Green Management", ["SRC-UNIBO-BBS-GREEN-MGMT-2026"], "Bologna", "Professional Master's concentration; not a separate MSc/Laurea Magistrale"),
         ("legacy-147", "Ingegneria gestionale", "BSc", "Italian", "Industrial and Management Engineering", ["SRC-UNIBO-GESTIONALE-BSC-2026"]),
@@ -1833,6 +1986,75 @@ def apply_legacy_course_reviews(programs: list[dict[str, Any]], fact: Callable[.
         "The 2027/28 reference concerns outgoing study mobility, not admission of new students to CLaBE. The programme admission page still links the expired 2026/27 call.",
     )
     clabe["last_checked"] = "2026-11-11"
+
+    clef_sources = ["SRC-UNIBO-CLEF-PROFILE-2026", "SRC-UNIBO-CLEF-ADMISSIONS-2026", "SRC-UNIBO-CLEF-ENROLMENT-2026", "SRC-UNIBO-CLEF-NOTICE-BOARD-2026", "SRC-UNIBO-CLEF-EXTRA-INTAKE-2026"]
+    prior(by_id["legacy-026"], official_name="Economics and Finance (CLEF)", level="BSc", language="English",
+          field="Economics and Finance", source_ids=clef_sources, city="Bologna",
+          cycle="2026-2027", checked_at="2026-11-11")
+    clef = by_id["legacy-026"]
+    clef_call = "SRC-UNIBO-CLEF-ADMISSIONS-2026"
+    clef_enrolment = "SRC-UNIBO-CLEF-ENROLMENT-2026"
+    clef_notice = "SRC-UNIBO-CLEF-NOTICE-BOARD-2026"
+    clef_extra = "SRC-UNIBO-CLEF-EXTRA-INTAKE-2026"
+    clef["availability_2027_2028"] = _fact(
+        None, "NOT_YET_PUBLISHED", clef_sources,
+        "Not yet announced for 2027/28 on the official profile or enrolment page checked 11 November 2026: the page links only expired 2026/27 calls. The 130 places shown on the profile are not labelled for 2027/28, and the notice board's 2027/28 Overseas item is student mobility, not a new-entry call. This does not mean discontinued.",
+    )
+    clef["facts"]["previous_cycle_course_listing"] = _fact(
+        {"academic_year":"2026/27", "official_name":"Economics and Finance (CLEF)", "course_code":"6646", "degree_class":"L-33 R", "level":"BSc", "duration_years":3, "language":"English", "campus":"Bologna", "access":"Restricted access; SAT selection", "places_in_2026_2027_call":130},
+        "CONFIRMED", ["SRC-UNIBO-CLEF-PROFILE-2026", clef_call],
+        "Official degree profile and named 2026/27 call evidence only. The profile's currently displayed 130 places are not independently labelled for 2027/28.",
+    )
+    clef["facts"]["previous_cycle_application_windows"] = _fact(
+        [
+            {"intake":1, "opening":"2026-02-10", "deadline":"2026-05-04 13:00 local time", "ranking":"2026-05-26", "enrolment_window":["2026-05-26", "2026-06-05"], "scope":"Ordinary first selection; official call's applicant quotas apply"},
+            {"intake":2, "opening":"2026-05-05", "deadline":"2026-07-03 13:00 local time", "ranking":"2026-07-23", "enrolment_window":["2026-07-23", "2026-07-30"], "scope":"Ordinary second selection"},
+            {"intake":3, "opening":None, "opening_date_as_printed":"03/09/206 (apparent typo in official call)", "deadline":"2026-09-11 13:00 local time", "ranking":"2026-09-24", "enrolment_window":["2026-09-24", "2026-10-01"], "scope":"Extra selection if places remained; official extra-selection notice dated 2026-09-02 confirms six CLEF places but gives no application opening or closing date"},
+        ],
+        "CONFIRMED", [clef_call, clef_extra],
+        "All dates above belong to the expired 2026/27 call, not 2027/28. The main call prints the extra-selection opening date as `03/09/206`; this apparent typo is preserved and not silently corrected. The separately linked extra-selection notice confirms the 2 September notice date and six places but gives no application window.",
+    )
+    clef["facts"]["previous_cycle_admission_requirements"] = _fact(
+        {"school_qualification":"Five-year upper-secondary diploma or qualifying foreign credential after at least twelve years of schooling; specified four-year diplomas are also eligible", "entrance_test":"Digital SAT; essay section not required; SATs from 2024-02-01 accepted under the 2026/27 call", "english":"At least B2 CEFR; assessed with the SAT, which is taken in English", "diploma_deadline":"2026-12-31", "selection":"SAT score ranking", "applicant_groups":"The call defines applicant quotas by citizenship/residence; the first selection includes a separate non-EU-resident-abroad quota, while later selection rules are call-specific"},
+        "CONFIRMED", [clef_call],
+        "Historical 2026/27 criteria only. Do not apply these test, quota or diploma rules to 2027/28 without the new call.",
+    )
+    clef["facts"]["previous_cycle_gpa_requirement"] = _fact(
+        "No separate GPA threshold stated in the 2026/27 call; candidates were ranked using their Digital SAT score.",
+        "CONFIRMED", [clef_call],
+        "This finding is limited to the reviewed 2026/27 call and does not establish the 2027/28 selection criteria.",
+    )
+    clef["facts"]["previous_cycle_application_route"] = _fact(
+        {"portal":"Studenti Online", "portal_url":"https://studenti.unibo.it/sol/welcome.htm?siteLanguage=en", "payment":"PagoPA", "application_fee_eur":20},
+        "CONFIRMED", [clef_enrolment, clef_call],
+        "Historical 2026/27 application route. The page also directs non-EU applicants to Universitaly pre-enrolment after selection where applicable; the upcoming cycle's route must be rechecked.",
+    )
+    clef["facts"]["previous_cycle_available_places"] = _fact(
+        {"total_in_2026_2027_call":130, "first_selection":{"eu_or_equivalent":50, "non_eu_resident_abroad":40}, "second_selection":{"eu_or_equivalent":40, "plus_residual_from_first_selection":True}, "extra_selection":"Only residual seats; a separate official notice dated 2026-09-02 lists 6 CLEF places"},
+        "CONFIRMED", [clef_call, clef_extra],
+        "These are the 2026/27 call allocation and 2026 extra-selection vacancy count only; not 2027/28 capacity.",
+    )
+    clef["facts"]["previous_cycle_additional_learning_requirement"] = _fact(
+        {"condition":"SAT Mathematics score below 500/800", "deadline":"2028-03-31", "consequence":"Students who do not fulfil the OFA by the deadline must repeat the first year in the following academic year"},
+        "CONFIRMED", [clef_call],
+        "The deadline falls in 2027/28 but applies to students admitted under the 2026/27 call; it is not evidence of a new 2027/28 incoming CLEF cohort.",
+    )
+    clef["facts"]["application_fee_2026_2027"] = _fact(
+        {"amount_eur":20, "refundable":False, "valid_for":"Subsequent selections under the same 2026/27 call"},
+        "CONFIRMED", [clef_call, clef_enrolment],
+        "Historical 2026/27 application fee only; do not carry it forward to 2027/28.",
+    )
+    clef["facts"]["current_tuition_reference_2026_2027"] = _fact(
+        {"fee_basis":"2026 ISEE; first-year students with low ISEE may receive full exemption", "standard_isee_submission_deadline":"2026-10-30 18:00", "late_submission_deadline":"2026-11-16 18:00", "late_fee_eur":100},
+        "CONFIRMED", [clef_enrolment],
+        "Current fee instructions displayed on the official page when checked 11 November 2026. These are not a CLEF-specific 2027/28 tuition schedule; no 2027/28 amount is published here.",
+    )
+    clef["facts"]["current_notice_board_2027_2028_mobility"] = _fact(
+        {"notice":"Bando Overseas – study mobility AY 2027/28", "incoming_first_year_admission":False},
+        "CONFIRMED", [clef_notice],
+        "The 2027/28 notice-board marker is a study-mobility call for enrolled students, not CLEF first-year admission. The current enrolment page still links only expired 2026/27 admissions material.",
+    )
+    clef["last_checked"] = "2026-11-11"
 
     business_analytics = by_id["legacy-022"]
     business_analytics_sources = ["SRC-UNIBO-BA-CURRICULUM-2026", "SRC-UNIBO-BA-CURRICULUM-PARENT-2026", "SRC-UNIBO-BA-BBS-2026"]
