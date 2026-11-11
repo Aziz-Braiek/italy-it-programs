@@ -12094,7 +12094,7 @@
     "title": "UniTS educational offer 2026/27",
     "url": "https://portale.units.it/it/studiare/offerta-formativa",
     "source_type": "Official course catalogue",
-    "accessed_at": "2026-11-10",
+    "accessed_at": "2026-11-11",
     "cycle": "2026-2027",
     "evidence": "The inventory is explicitly 2026/27. Its Physics and AI/data-science subject sections link current MSc profiles. The general portal says MSc enrolment closes 30 March 2027, whereas the course admission pages say 31 March; retain this discrepancy. No 2027/28 first-year offer is established.",
     "supports": [
@@ -12107,21 +12107,20 @@
       "effective_url": "https://portale.units.it/it/studiare/offerta-formativa",
       "content_type": "text/html; charset=utf-8",
       "content_length_header": "92817",
-      "etag": "W/\"1794339220-gzip\"",
-      "last_modified": "Tue, 10 Nov 2026 19:33:40 GMT",
+      "etag": "W/\"1794407286-gzip\"",
+      "last_modified": "Wed, 11 Nov 2026 14:28:06 GMT",
       "cache_control": "max-age=3600, public",
-      "age": "2117",
+      "age": "1446",
       "x_vercel_cache": null,
       "x_vercel_id": null,
-      "location": null,
       "observed_title": "Offerta formativa 2026/2027 | Università degli Studi di Trieste",
       "pdf_signature": null,
       "has_2027_marker": false,
       "bytes_read": 92817,
       "outcome": "accessible",
       "error": null,
-      "checked_at": "2026-11-10",
-      "method": "GET"
+      "checked_at": "2026-11-11",
+      "method": "GET with Cache-Control and Pragma no-cache (Python urllib)"
     }
   },
   {
@@ -12130,7 +12129,7 @@
     "title": "Physics MSc official profile",
     "url": "https://degree.units.it/en/0320107301800010",
     "source_type": "Official university guidance",
-    "accessed_at": "2026-11-10",
+    "accessed_at": "2026-11-11",
     "cycle": "general",
     "evidence": "Physics is a two-year, 120-CFU LM-17 R MSc in Trieste, mainly classroom teaching, non-competitive admission with preparation assessment, and languages English and Italian. It is not an English-only degree. Reviewed with the explicitly 2026/27 admission page; no 2027/28 new-entry offer is verified.",
     "supports": [
@@ -12167,7 +12166,7 @@
     "title": "Physics MSc: how to apply 2026/27",
     "url": "https://degree.units.it/en/0320107301800010/how-apply",
     "source_type": "Official course admission guidance",
-    "accessed_at": "2026-11-10",
+    "accessed_at": "2026-11-11",
     "cycle": "2026-2027",
     "evidence": "The page is explicitly 2026/27. L-30/equivalent degree or a Bachelor with at least 15 CFU in MAT/05, MAT/03, INF/01 and 30 in FIS/01-04; English B2. Preparation is sufficient at degree grade at least 90/110 when requirements are met; otherwise committee review and possible interview. Assessment applications 20 April 2026–29 January 2027; enrolment 20 April 2026–31 March 2027. ESSE3 documents include ID, qualification/exams self-declaration, Excel questionnaire and language evidence. Foreign qualifications additionally follow international procedures.",
     "supports": [
@@ -12202,7 +12201,7 @@
     "title": "Atmospheric Physics 965DF syllabus 2026/27",
     "url": "https://degree.units.it/en/0320107301800010/students-area/taught-courses/2026/121073/2026/3/10809/2026",
     "source_type": "Official course-unit syllabus",
-    "accessed_at": "2026-11-10",
+    "accessed_at": "2026-11-11",
     "cycle": "2026-2027",
     "evidence": "The 2026/27 first-year Atmospheric Physics unit, within Physics of Complex Systems, Climate and Finance, specifies Italian teaching in Trieste. This corroborates the programme profile's English-and-Italian language label and does not establish any 2027/28 first-year intake.",
     "supports": [
@@ -12236,7 +12235,7 @@
     "title": "Physics MSc bodies and representatives",
     "url": "https://degree.units.it/en/0320107301800010/bodies-and-representatives",
     "source_type": "Official university guidance",
-    "accessed_at": "2026-11-10",
+    "accessed_at": "2026-11-11",
     "cycle": "general",
     "evidence": "Physics teaching secretariat: didattica.df@units.it. The course coordinator is Luigi Rigon. This general contact page does not establish next-cycle admission conditions.",
     "supports": [
@@ -12270,7 +12269,7 @@
     "title": "MIGe Informatics Section teaching: former DSSC programme",
     "url": "https://sites.google.com/view/informatics-mige/teaching",
     "source_type": "Official department-section teaching page",
-    "accessed_at": "2026-11-10",
+    "accessed_at": "2026-11-11",
     "cycle": "historical",
     "evidence": "University of Trieste MIGe Informatics Section teaching page, last updated 29 July 2026, identifies Data Science and Scientific Computing as a former programme: started 2017, dismissed 2023, replaced by Data Science and Artificial Intelligence and Scientific and Data-Intensive Computing. The page is identified as the Informatics Section site in UniTS Moodle tutoring guidance. Preserve the former course separately from its successors.",
     "supports": [
@@ -12305,7 +12304,7 @@
     "title": "UniTS MIGe tutoring: Informatics Section site",
     "url": "https://moodle2.units.it/course/section.php?id=170336",
     "source_type": "Official university guidance",
-    "accessed_at": "2026-11-10",
+    "accessed_at": "2026-11-11",
     "cycle": "general",
     "evidence": "UniTS-hosted MIGe tutor resources explicitly identify https://sites.google.com/view/informatics-mige/ as the Informatics Section website and provide the department teaching-secretariat contact didattica.dmg@units.it. This corroborates the institutional identity of the former-programme notice.",
     "supports": [
@@ -12340,7 +12339,7 @@
     "title": "DSSC MSc admission call 2022/23",
     "url": "https://corsi.units.it/sites/default/files/dssc_call_2022_0.pdf",
     "source_type": "Official historical admission call PDF",
-    "accessed_at": "2026-11-10",
+    "accessed_at": "2026-11-11",
     "cycle": "2022-2023",
     "evidence": "The historical 2022/23 call identifies DSSC as an English-taught two-year inter-university LM-44 MSc with Trieste/Udine and SISSA/ICTP collaboration, restricted admission, a Bachelor or equivalent with at least 80/110 and at least 60 ECTS in listed scientific disciplines. These are historical terms, not current admissions.",
     "supports": [
@@ -12382,7 +12381,7 @@
     "title": "UniTS degree inventory 2022/23",
     "url": "https://www.units.it/sites/default/files/media/documenti/pdf_manifesto_2022.pdf",
     "source_type": "Official historical course inventory PDF",
-    "accessed_at": "2026-11-10",
+    "accessed_at": "2026-11-11",
     "cycle": "2022-2023",
     "evidence": "The 2022/23 official inventory lists Data Science and Scientific Computing, joint with Udine, administrative enrolment at Trieste, English, blended teaching and collaboration with SISSA/ICTP. Its curricula were Artificial Intelligence and Machine Learning, Computational Science and Engineering, and Data Science and Applications. This confirms the legacy identity, not a new offer.",
     "supports": [
@@ -12423,7 +12422,7 @@
     "title": "Data Science and Artificial Intelligence MSc official profile",
     "url": "https://degree.units.it/en/0320107313600001",
     "source_type": "Official university guidance",
-    "accessed_at": "2026-11-10",
+    "accessed_at": "2026-11-11",
     "cycle": "general",
     "evidence": "DSAI is a two-year, 120-CFU, English-taught blended MSc in Trieste, LM Data, with non-competitive admission subject to preparation assessment. Five curricula: Economy and Society; Health and Life Sciences; Industry and Digital Twins; Foundations of AI and Machine Learning; High Performance Computing for DSAI. Reviewed with 2026/27 admissions, not a 2027/28 course call.",
     "supports": [
@@ -12435,8 +12434,8 @@
       "effective_url": "https://degree.units.it/en/0320107313600001",
       "content_type": "text/html; charset=UTF-8",
       "content_length_header": "57063",
-      "etag": "\"1794328486\"",
-      "last_modified": "Tue, 10 Nov 2026 16:34:46 GMT",
+      "etag": "\"1794391124\"",
+      "last_modified": "Wed, 11 Nov 2026 09:58:44 GMT",
       "cache_control": "max-age=86400, public",
       "age": null,
       "x_vercel_cache": null,
@@ -12448,8 +12447,43 @@
       "bytes_read": 57063,
       "outcome": "accessible",
       "error": null,
-      "checked_at": "2026-11-10",
-      "method": "GET"
+      "checked_at": "2026-11-11",
+      "method": "GET with Cache-Control and Pragma no-cache (Python urllib)"
+    }
+  },
+  {
+    "id": "SRC-TRIESTE-DSAI-SECOND-YEAR-2027-28",
+    "university_id": "trieste",
+    "title": "DSAI study plan: Information Retrieval and Data Visualization, 2027/28",
+    "url": "https://degree.units.it/en/0320107313600001/students-area/taught-courses/2027/118410/2026/3/10681/2026/",
+    "source_type": "Official degree course-unit page",
+    "accessed_at": "2026-11-11",
+    "cycle": "2027-2028",
+    "evidence": "The official study-plan page lists Information Retrieval and Data Visualization (481SM) in academic year 2027/28 as a second-year course unit: 6 CFU, 48 hours, optional, oral exam, in the Economy and Society curriculum. This confirms a course unit for the second year only; it does not establish a 2027/28 first-year intake, new-entry call, or admission terms.",
+    "supports": [
+      "program.academic_year_course_teaching_2027_2028",
+      "program.availability_scope"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://degree.units.it/en/0320107313600001/students-area/taught-courses/2027/118410/2026/3/10681/2026/",
+      "content_type": "text/html; charset=UTF-8",
+      "content_length_header": "32281",
+      "etag": "\"1794408613\"",
+      "last_modified": "Wed, 11 Nov 2026 14:50:13 GMT",
+      "cache_control": "max-age=86400, public",
+      "age": null,
+      "x_vercel_cache": null,
+      "x_vercel_id": null,
+      "location": null,
+      "observed_title": "LM - DATA SCIENCE AND ARTIFICIAL INTELLIGENCE | UniTS",
+      "pdf_signature": null,
+      "has_2027_marker": true,
+      "bytes_read": 32281,
+      "outcome": "accessible",
+      "error": null,
+      "checked_at": "2026-11-11",
+      "method": "GET with Cache-Control and Pragma no-cache (Python urllib)"
     }
   },
   {
@@ -12458,7 +12492,7 @@
     "title": "SM38 Data Science and Artificial Intelligence: 2026 catalogue record",
     "url": "https://portale.units.it/it/ugov/course/second_level_degree-2026-10681",
     "source_type": "Official course catalogue record",
-    "accessed_at": "2026-11-10",
+    "accessed_at": "2026-11-11",
     "cycle": "2026-2027",
     "evidence": "The official 2026 catalogue record identifies SM38 DSAI as a two-year English MSc in Trieste, LM-Data, free access with pre-enrolment verification. This is a successor course distinct from former DSSC, and establishes only the 2026/27 listing.",
     "supports": [
@@ -12468,22 +12502,21 @@
       "http_status": 200,
       "effective_url": "https://portale.units.it/it/ugov/course/second_level_degree-2026-10681",
       "content_type": "text/html; charset=utf-8",
-      "content_length_header": null,
-      "etag": "W/\"1794339221-gzip\"",
-      "last_modified": "Tue, 10 Nov 2026 19:33:41 GMT",
+      "content_length_header": "93270",
+      "etag": "W/\"1794408612-gzip\"",
+      "last_modified": "Wed, 11 Nov 2026 14:50:12 GMT",
       "cache_control": "max-age=3600, public",
-      "age": "0",
+      "age": "118",
       "x_vercel_cache": null,
       "x_vercel_id": null,
-      "location": null,
       "observed_title": "[SM38] DATA SCIENCE AND ARTIFICIAL INTELLIGENCE | Università degli Studi di Trieste",
       "pdf_signature": null,
       "has_2027_marker": false,
       "bytes_read": 93270,
       "outcome": "accessible",
       "error": null,
-      "checked_at": "2026-11-10",
-      "method": "GET"
+      "checked_at": "2026-11-11",
+      "method": "GET with Cache-Control and Pragma no-cache (Python urllib)"
     }
   },
   {
@@ -12492,7 +12525,7 @@
     "title": "DSAI MSc: how to apply 2026/27",
     "url": "https://degree.units.it/en/0320107313600001/how-apply",
     "source_type": "Official course admission guidance",
-    "accessed_at": "2026-11-10",
+    "accessed_at": "2026-11-11",
     "cycle": "2026-2027",
     "evidence": "Explicit 2026/27 guidance requires a Bachelor, at least 30 CFU across the listed mathematical, computing, engineering, physics, statistics, quantitative-economics or molecular-biology/genetics sectors, including at least 9 mathematical CFU, and English B2. Board assessment considers academic background, grade and course content; an interview may test mathematics, computing and statistics. Foreign-degree applicants first apply through apply.units.it, then complete the emailed course form, then ESSE3 only after a positive Board decision. Assessment 20 April 2026–29 January 2027; enrolment through 31 March 2027.",
     "supports": [
@@ -12504,8 +12537,8 @@
       "effective_url": "https://degree.units.it/en/0320107313600001/how-apply",
       "content_type": "text/html; charset=UTF-8",
       "content_length_header": "44072",
-      "etag": "\"1794328768\"",
-      "last_modified": "Tue, 10 Nov 2026 16:39:28 GMT",
+      "etag": "\"1794407845\"",
+      "last_modified": "Wed, 11 Nov 2026 14:37:25 GMT",
       "cache_control": "max-age=86400, public",
       "age": null,
       "x_vercel_cache": null,
@@ -12517,8 +12550,8 @@
       "bytes_read": 44072,
       "outcome": "accessible",
       "error": null,
-      "checked_at": "2026-11-10",
-      "method": "GET"
+      "checked_at": "2026-11-11",
+      "method": "GET with Cache-Control and Pragma no-cache (Python urllib)"
     }
   },
   {
@@ -12527,7 +12560,7 @@
     "title": "Scientific and Data-Intensive Computing: no first-year admission",
     "url": "https://degree.units.it/en/0320107304500001",
     "source_type": "Official university guidance",
-    "accessed_at": "2026-11-10",
+    "accessed_at": "2026-11-11",
     "cycle": "general",
     "evidence": "Official profile states the course is no longer on offer and applications to first year are not possible. Second/subsequent-year admission with credit recognition is a separate route. It identifies an English two-year LM-44 MSc, Trieste/Udine collaboration and blended teaching. Do not interpret continuing cohorts as a new 2027/28 first-year offer.",
     "supports": [
@@ -12562,7 +12595,7 @@
     "title": "Degree seekers: 2026/27 assessment rounds and application fee",
     "url": "https://portale.units.it/en/international/destination-units/degree-seekers",
     "source_type": "Official university guidance",
-    "accessed_at": "2026-11-10",
+    "accessed_at": "2026-11-11",
     "cycle": "2026-2027",
     "evidence": "Last updated 2 October 2026. Foreign-qualification assessment for 2026/27 used apply.units.it: 15 December 2025–15 January 2026; 15 February–30 April 2026; EU/equivalent-only round until 2 October 2026. Fee EUR40 for up to three programmes. No 2027/28 university assessment calendar or fee was identified.",
     "supports": [
@@ -12573,22 +12606,21 @@
       "http_status": 200,
       "effective_url": "https://portale.units.it/en/international/destination-units/degree-seekers",
       "content_type": "text/html; charset=utf-8",
-      "content_length_header": null,
-      "etag": "W/\"1794337305-gzip\"",
-      "last_modified": "Tue, 10 Nov 2026 19:01:45 GMT",
+      "content_length_header": "104755",
+      "etag": "W/\"1794407320-gzip\"",
+      "last_modified": "Wed, 11 Nov 2026 14:28:40 GMT",
       "cache_control": "max-age=3600, public",
-      "age": "0",
+      "age": "149",
       "x_vercel_cache": null,
       "x_vercel_id": null,
-      "location": null,
       "observed_title": "Degree Seekers and International Students | University of Trieste",
       "pdf_signature": null,
       "has_2027_marker": false,
       "bytes_read": 104755,
       "outcome": "accessible",
       "error": null,
-      "checked_at": "2026-11-10",
-      "method": "GET"
+      "checked_at": "2026-11-11",
+      "method": "GET with Cache-Control and Pragma no-cache (Python urllib)"
     }
   },
   {
@@ -12597,7 +12629,7 @@
     "title": "UniTS pre-enrolment for visa applicants",
     "url": "https://portale.units.it/en/international/destination-units/degree-seekers/pre-enrollment-visa-applicants",
     "source_type": "Official university guidance",
-    "accessed_at": "2026-11-10",
+    "accessed_at": "2026-11-11",
     "cycle": "general",
     "evidence": "Non-EU residents abroad needing a visa must check available quotas, obtain positive assessment on ApplyNow, pre-enrol through Universitaly, complete the course's enrolment/payment requirements and upload the residence-permit application receipt after arrival. Contact international.students@amm.units.it. Admission does not guarantee a visa. Undated annual process guidance is not a 2027/28 course offer.",
     "supports": [
@@ -12633,7 +12665,7 @@
     "title": "International students: required documents",
     "url": "https://portale.units.it/en/international/destination-units/degree-seekers/documents",
     "source_type": "Official university guidance",
-    "accessed_at": "2026-11-10",
+    "accessed_at": "2026-11-11",
     "cycle": "general",
     "evidence": "Updated 24 July 2025. Bachelor entry normally requires a qualifying diploma after at least 12 school years. MSc entry requires Bachelor/equivalent, transcript or EU Diploma Supplement, and official course descriptions. Translate non-Italian/non-English documents; legalization/apostille rules have stated country exceptions. UniTS says a DOV is not needed; CIMEA comparability may be requested in special cases. Follow individual assessment instructions for originals and language proof.",
     "supports": [
@@ -12670,7 +12702,7 @@
     "title": "UniTS published visa quota table: updated 16 January 2026",
     "url": "https://portale.units.it/en/international/destination-units/degree-seekers/quotas-and-reassignments-students-applying-visa",
     "source_type": "Official university guidance",
-    "accessed_at": "2026-11-10",
+    "accessed_at": "2026-11-11",
     "cycle": "general",
     "evidence": "The quota table, last updated 16 January 2026, lists DSAI MSc 25 places and Physics MSc 10 including 2 Marco Polo places. The visible table does not state an academic year. Record only dated published-table context; do not relabel these figures as 2027/28 quotas or derive an acceptance rate.",
     "supports": [
@@ -12704,7 +12736,7 @@
     "title": "Ministerial international-student procedures 2026/27 and 2027/28",
     "url": "https://portale.units.it/sites/default/files/2026-05/Circolare%202026-2027%20studenti_internazionali_EN_0.pdf",
     "source_type": "Official ministerial procedure PDF hosted by university",
-    "accessed_at": "2026-11-10",
+    "accessed_at": "2026-11-11",
     "cycle": "2026-2027 and 2027-2028",
     "evidence": "Ministerial memorandum valid for both 2026/27 and 2027/28: visa pre-enrolment uses Universitaly; the national last date to lodge a 2027/28 degree-study visa application is 31 October 2027, while universities may set earlier dates. A type-D entrant must apply for a residence permit within eight working days. This is a national framework, not a UniTS course application window or intake confirmation; Italian original prevails.",
     "supports": [
@@ -12738,7 +12770,7 @@
     "title": "University fees 2026/27",
     "url": "https://portale.units.it/en/study/university-fees/bachelor-master-degrees-and-one-cycle-master-degrees",
     "source_type": "Official university guidance",
-    "accessed_at": "2026-11-10",
+    "accessed_at": "2026-11-11",
     "cycle": "2026-2027",
     "evidence": "The university page's 2026/27 framework has income/residence-dependent tuition, stamp duty and regional tax. Italy residents use timely ISEE Universita; residents abroad use flat reduced fees. MSc first-window instalments: 19 December 2026, 31 March and 28 May 2027; second-window: 31 March, 28 May and 15 June 2027, subject to course-specific first-enrolment deadlines. Payment is through PagoPA/ESSE3. ARDiS exemptions are applied after official eligibility lists. Fee-office contact tasse.studenti@amm.units.it.",
     "supports": [
@@ -12774,7 +12806,7 @@
     "title": "Fee notice 2026/27",
     "url": "https://repo.units.it/docs/units_CdL_tasse-avvisoTasse_en.2026-2027.pdf",
     "source_type": "Official university fee regulation PDF",
-    "accessed_at": "2026-11-10",
+    "accessed_at": "2026-11-11",
     "cycle": "2026-2027",
     "evidence": "The 2026/27 notice sets first-year initial instalment EUR250 (16 stamp, 120 initial regional tax, 114 tuition). Abroad residents meeting progress/duration requirements pay EUR800 tuition plus EUR160 regional tax and EUR16 stamp; failure adds 20% to tuition (EUR960). Italy-resident qualifying ISEE up to EUR30,000 gives zero tuition; above EUR75,000/no ISEE tuition is EUR2,900, or EUR3,195 without progress/duration eligibility. Timely ISEE is required. These are annual conditional rates, not 2027/28 fees.",
     "supports": [
@@ -12810,7 +12842,7 @@
     "title": "ARDiS regional university benefits 2026/27",
     "url": "https://www.ardis.fvg.it/contenuti.php?id=268&view=page",
     "source_type": "Official regional scholarship guidance",
-    "accessed_at": "2026-11-10",
+    "accessed_at": "2026-11-11",
     "cycle": "2026-2027",
     "evidence": "2026/27 regional benefit applications opened 15 July 2026 at 10:00; deadlines are 13:00 Italy time by benefit. University enrolment, merit and economic requirements apply together; ISEE ceiling EUR28,339.88 and ISPE ceiling EUR61,608.48. Foreign-household cases need ISEE parificato through affiliated CAF. Trieste contact info.trieste@ardis.fvg.it. No 2027/28 competition is established.",
     "supports": [
@@ -12845,7 +12877,7 @@
     "title": "ARDiS unified call updated 14 October 2026",
     "url": "https://www.ardis.fvg.it/upload/schede/1792050426.pdf",
     "source_type": "Official regional scholarship call PDF",
-    "accessed_at": "2026-11-10",
+    "accessed_at": "2026-11-11",
     "cycle": "2026-2027",
     "evidence": "2026/27 scholarship deadline 17 September 2026 at 13:00 CEST; first-year housing deadline 27 August. Standard gross scholarship amounts: off-site EUR7,171.11, commuter EUR4,190.71, on-site EUR2,890.16; income thresholds reduce or increase amounts, with separate STEM-women provisions. Housing charges are deducted from scholarship for assigned accommodation, so gross figures are not all cash. First-years need the call's 20-CFU merit condition to retain full benefits. Foreign-income documentation and incompatible-award rules apply.",
     "supports": [
@@ -12880,7 +12912,7 @@
     "title": "Bachelor's and master's enrolment: ESSE3",
     "url": "https://portale.units.it/en/study/application",
     "source_type": "Official university guidance",
-    "accessed_at": "2026-11-10",
+    "accessed_at": "2026-11-11",
     "cycle": "general",
     "evidence": "UniTS directs applicants to degree-specific requirements and says foreign qualifications/visa applicants must first follow international procedures. ESSE3 is used for test/preparation registrations, enrolment applications and fee payments. ApplyNow is the separate foreign-qualification assessment portal.",
     "supports": [

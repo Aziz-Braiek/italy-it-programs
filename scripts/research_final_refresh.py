@@ -2044,6 +2044,12 @@ BATCH40 = {
     "result": "Rechecked discovered-024, Perugia's English-taught Engineering Management BSc, against the Department's current entrance-test page, the course page, the 2026/27 international visa route and the official 2026/27 catalogue. The newest Department test page (updated 26 October 2026) lists Engineering Management among BScs that require a basic-preparation test and accepts TOLC-I or CEnT-S; pass thresholds are TOLC-I 14/50 across Mathematics, Logic, Sciences and Verbal Comprehension plus 7/20 Mathematics, or CEnT-S 10/35 across Mathematics, Reasoning on Texts and Data and Physics plus 5/15 Mathematics. Taking a test is mandatory, but falling below threshold assigns OFA rather than barring enrollment; not taking a test blocks the first Mathematics exam. The course page, last updated 19 October, still lists TOLC-I, SAT and ACT, while the separate non-EU visa PICA page explicitly allows CEnT-S, TOLC-I or SAT and requires a suitable B2 certificate. The differing SAT/ACT lists are preserved as a documented source conflict with applicant-route context; the 2027/28 call must settle applicable tests. The official catalogue and course pages remain for 2026/27, and no new 2027/28 intake, test schedule, application window, fee or scholarship terms were confirmed. Fresh no-cache GETs returned HTTP 200 for the course page, test page, international admissions page and catalogue. No Vercel or production changes were made.",
 }
 
+BATCH41 = {
+    "id": "trieste-dsai-2027-28-second-year-course-unit-scope-check",
+    "status": "partial",
+    "result": "Reviewed discovered-025, Data Science and Artificial Intelligence at Trieste. Fresh direct no-cache GETs returned HTTP 200 for the official DSAI profile and 2026/27 admission page, the 2026/27 catalogue, international admissions page and 2026 catalogue record, and the official course-unit page. The 2027/28 study plan names Information Retrieval and Data Visualization (481SM) as a second-year optional unit worth 6 CFU and 48 hours, with an oral exam, in the Economy and Society curriculum. Recorded this as confirmed second-year teaching evidence only; the candidate's 2027/28 first-year availability, call, dates, requirements, places, application fee, tuition and scholarships remain pending. Existing 2026/27 requirements, dates, fee and scholarship facts remain explicitly prior-cycle. No deployment or production settings were changed.",
+}
+
 SOURCE_RECHECKS = {
     "SRC-UNIBO-AI-PROFILE-2026": {
         "accessed_at": "2026-11-11",
@@ -7826,6 +7832,94 @@ SOURCE_RECHECKS.update({
             "pdf_signature": None, "has_2027_marker": False, "bytes_read": 1580881,
             "outcome": "accessible", "error": None,
             "checked_at": "2026-11-11", "method": "Full GET with Cache-Control and Pragma no-cache",
+        },
+    },
+})
+
+SOURCE_RECHECKS.update({
+    "SRC-TRIESTE-DSAI-SECOND-YEAR-2027-28": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200,
+            "effective_url": "https://degree.units.it/en/0320107313600001/students-area/taught-courses/2027/118410/2026/3/10681/2026/",
+            "content_type": "text/html; charset=UTF-8", "content_length_header": "32281",
+            "etag": "\"1794408613\"", "last_modified": "Wed, 11 Nov 2026 14:50:13 GMT",
+            "cache_control": "max-age=86400, public", "age": None,
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "LM - DATA SCIENCE AND ARTIFICIAL INTELLIGENCE | UniTS",
+            "pdf_signature": None, "has_2027_marker": True, "bytes_read": 32281,
+            "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib)",
+        },
+    },
+    "SRC-TRIESTE-DSAI-PROFILE": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://degree.units.it/en/0320107313600001",
+            "content_type": "text/html; charset=UTF-8", "content_length_header": "57063",
+            "etag": "\"1794391124\"", "last_modified": "Wed, 11 Nov 2026 09:58:44 GMT",
+            "cache_control": "max-age=86400, public", "age": None,
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "LM - DATA SCIENCE AND ARTIFICIAL INTELLIGENCE | UniTS",
+            "pdf_signature": None, "has_2027_marker": False, "bytes_read": 57063,
+            "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib)",
+        },
+    },
+    "SRC-TRIESTE-DSAI-ADMISSION-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://degree.units.it/en/0320107313600001/how-apply",
+            "content_type": "text/html; charset=UTF-8", "content_length_header": "44072",
+            "etag": "\"1794407845\"", "last_modified": "Wed, 11 Nov 2026 14:37:25 GMT",
+            "cache_control": "max-age=86400, public", "age": None,
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "How to apply | LM - DATA SCIENCE AND ARTIFICIAL INTELLIGENCE | UniTS",
+            "pdf_signature": None, "has_2027_marker": False, "bytes_read": 44072,
+            "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib)",
+        },
+    },
+    "SRC-TRIESTE-CATALOGUE-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://portale.units.it/it/studiare/offerta-formativa",
+            "content_type": "text/html; charset=utf-8", "content_length_header": "92817",
+            "etag": "W/\"1794407286-gzip\"", "last_modified": "Wed, 11 Nov 2026 14:28:06 GMT",
+            "cache_control": "max-age=3600, public", "age": "1446",
+            "x_vercel_cache": None, "x_vercel_id": None,
+            "observed_title": "Offerta formativa 2026/2027 | Università degli Studi di Trieste",
+            "pdf_signature": None, "has_2027_marker": False, "bytes_read": 92817,
+            "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib)",
+        },
+    },
+    "SRC-TRIESTE-INTERNATIONAL-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://portale.units.it/en/international/destination-units/degree-seekers",
+            "content_type": "text/html; charset=utf-8", "content_length_header": "104755",
+            "etag": "W/\"1794407320-gzip\"", "last_modified": "Wed, 11 Nov 2026 14:28:40 GMT",
+            "cache_control": "max-age=3600, public", "age": "149",
+            "x_vercel_cache": None, "x_vercel_id": None,
+            "observed_title": "Degree Seekers and International Students | University of Trieste",
+            "pdf_signature": None, "has_2027_marker": False, "bytes_read": 104755,
+            "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib)",
+        },
+    },
+    "SRC-TRIESTE-DSAI-UGOV-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://portale.units.it/it/ugov/course/second_level_degree-2026-10681",
+            "content_type": "text/html; charset=utf-8", "content_length_header": "93270",
+            "etag": "W/\"1794408612-gzip\"", "last_modified": "Wed, 11 Nov 2026 14:50:12 GMT",
+            "cache_control": "max-age=3600, public", "age": "118",
+            "x_vercel_cache": None, "x_vercel_id": None,
+            "observed_title": "[SM38] DATA SCIENCE AND ARTIFICIAL INTELLIGENCE | Università degli Studi di Trieste",
+            "pdf_signature": None, "has_2027_marker": False, "bytes_read": 93270,
+            "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib)",
         },
     },
 })

@@ -14721,7 +14721,7 @@
       "cycle": "2022-2023",
       "label": "Historical 2022/23 DSSC; dismissed in 2023"
     },
-    "last_checked": "2026-11-10"
+    "last_checked": "2026-11-11"
   },
   {
     "id": "legacy-073",
@@ -15000,7 +15000,7 @@
       "cycle": "2026-2027",
       "label": "Official 2026/27 profile/admission evidence only; 2027/28 intake pending"
     },
-    "last_checked": "2026-11-10"
+    "last_checked": "2026-11-11"
   },
   {
     "id": "legacy-074",
@@ -41290,7 +41290,7 @@
     "discovery_source": "newly_discovered",
     "previous_tracker_tags": null,
     "overall_status": "REQUIRES_VERIFICATION",
-    "last_checked": "2026-11-10",
+    "last_checked": "2026-11-11",
     "source_ids": [
       "SRC-TRIESTE-DSAI-PROFILE",
       "SRC-TRIESTE-DSAI-ADMISSION-2026",
@@ -41305,6 +41305,7 @@
       "SRC-TRIESTE-ARDIS-CALL-2026",
       "SRC-TRIESTE-NATIONAL-PROCEDURES-2026-2028",
       "SRC-TRIESTE-DSAI-UGOV-2026",
+      "SRC-TRIESTE-DSAI-SECOND-YEAR-2027-28",
       "SRC-TRIESTE-DSSC-FORMER",
       "SRC-TRIESTE-INFORMATICS-IDENTITY"
     ],
@@ -41345,9 +41346,10 @@
       "source_ids": [
         "SRC-TRIESTE-DSAI-PROFILE",
         "SRC-TRIESTE-DSAI-ADMISSION-2026",
-        "SRC-TRIESTE-CATALOGUE-2026"
+        "SRC-TRIESTE-CATALOGUE-2026",
+        "SRC-TRIESTE-DSAI-SECOND-YEAR-2027-28"
       ],
-      "notes": "No 2027/28 UniTS call or course-specific first-year offer was identified; previous-cycle terms are not carried forward. Future-year teaching or continuing cohorts do not verify a new first-year offer."
+      "notes": "No 2027/28 UniTS call or course-specific first-year offer was identified; previous-cycle terms are not carried forward. Future-year teaching or continuing cohorts do not verify a new first-year offer. An official 2027/28 second-year course-unit listing exists, but no 2027/28 first-year intake or call was identified."
     },
     "facts": {
       "previous_cycle_course_listing": {
@@ -41394,6 +41396,24 @@
           "SRC-TRIESTE-DSAI-ADMISSION-2026"
         ],
         "notes": "Explicit 2026/27 course guidance only; it does not establish next-cycle criteria."
+      },
+      "academic_year_course_teaching_2027_2028": {
+        "value": {
+          "academic_year": "2027/28",
+          "course_unit": "Information Retrieval and Data Visualization",
+          "unit_code": "481SM",
+          "year_of_course": 2,
+          "ects": 6,
+          "hours": 48,
+          "frequency": "Not mandatory",
+          "assessment": "Oral exam",
+          "curriculum": "Data Science and Artificial Intelligence for Economy and Society"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-TRIESTE-DSAI-SECOND-YEAR-2027-28"
+        ],
+        "notes": "Confirms a listed second-year unit for 2027/28 only. It may reflect a continuing cohort and does not prove first-year admission, a new-entry call, or admission terms."
       },
       "previous_cycle_application_windows": {
         "value": {

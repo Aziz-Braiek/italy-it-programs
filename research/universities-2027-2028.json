@@ -5031,7 +5031,7 @@
     "contact_url": "https://portale.units.it/en/international/destination-units/degree-seekers/pre-enrollment-visa-applicants",
     "cycle_status": "REQUIRES_VERIFICATION",
     "research_stage": "PARTIALLY_RESEARCHED",
-    "research_summary": "Trieste's former Data Science and Scientific Computing MSc was dismissed in 2023 and replaced by Data Science and Artificial Intelligence and Scientific and Data-Intensive Computing; the latter explicitly allows no first-year admission. The former candidate remains visible and DSAI is a separate English-taught, blended two-year MSc supported by 2026/27 evidence. Physics is a two-year MSc taught in English and Italian. Both current candidates require degree/curricular and personal-preparation assessment; the 2026/27 foreign-qualification route used ApplyNow, EUR40 for up to three programmes, then course checks/ESSE3 and Universitaly for visa applicants. The 2026/27 abroad-resident standard is EUR800 tuition plus EUR160 regional tax and EUR16 stamp, conditional on progress/duration eligibility; ARDiS awards have separate economic, merit and housing rules. The course pages' 31 March 2027 enrolment end differs from the catalogue's 30 March statement. No 2027/28 first-year offer, course-specific dates/quotas, fee schedule or scholarship call was identified. The national 31 October 2027 visa-application ceiling does not establish a university application deadline.",
+    "research_summary": "Trieste's former Data Science and Scientific Computing MSc was dismissed in 2023 and replaced by Data Science and Artificial Intelligence and Scientific and Data-Intensive Computing; the latter explicitly allows no first-year admission. The former candidate remains visible and DSAI is a separate English-taught, blended two-year MSc supported by 2026/27 evidence. Physics is a two-year MSc taught in English and Italian. Both current candidates require degree/curricular and personal-preparation assessment; the 2026/27 foreign-qualification route used ApplyNow, EUR40 for up to three programmes, then course checks/ESSE3 and Universitaly for visa applicants. The 2026/27 abroad-resident standard is EUR800 tuition plus EUR160 regional tax and EUR16 stamp, conditional on progress/duration eligibility; ARDiS awards have separate economic, merit and housing rules. The course pages' 31 March 2027 enrolment end differs from the catalogue's 30 March statement. No 2027/28 first-year offer, course-specific dates/quotas, fee schedule or scholarship call was identified. The national 31 October 2027 visa-application ceiling does not establish a university application deadline. An official 2027/28 DSAI study-plan page separately lists an optional second-year unit (Information Retrieval and Data Visualization, 6 CFU, 48 hours). This is second-year teaching evidence and does not establish a new first-year intake.",
     "coverage": {
       "official_website_visited": "complete",
       "international_admissions_page_examined": "partial",
@@ -5056,6 +5056,7 @@
       "SRC-TRIESTE-DSSC-CALL-2022",
       "SRC-TRIESTE-DSSC-MANIFESTO-2022",
       "SRC-TRIESTE-DSAI-PROFILE",
+      "SRC-TRIESTE-DSAI-SECOND-YEAR-2027-28",
       "SRC-TRIESTE-DSAI-UGOV-2026",
       "SRC-TRIESTE-DSAI-ADMISSION-2026",
       "SRC-TRIESTE-SDIC-NON-OFFER",
@@ -5070,7 +5071,7 @@
       "SRC-TRIESTE-ARDIS-CALL-2026",
       "SRC-TRIESTE-ENROLMENT-PORTAL"
     ],
-    "last_checked": "2026-11-10",
+    "last_checked": "2026-11-11",
     "cycle_facts": {
       "application_windows": {
         "value": null,
