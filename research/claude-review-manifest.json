@@ -9,15 +9,15 @@
     "counts": {
       "universities": 34,
       "programs": 209,
-      "sources": 642
+      "sources": 646
     },
     "previous_snapshot_inconclusive_url_checks": "The prior audit reported approximately 100 inconclusive checks. This refresh rechecked every unique URL and preserves the response by source record below.",
     "current_url_audit": {
       "checked_at": "2026-11-11",
-      "source_records": 642,
-      "unique_urls_checked": 624,
+      "source_records": 646,
+      "unique_urls_checked": 627,
       "unique_url_outcomes": {
-        "accessible": 605,
+        "accessible": 608,
         "redirected": 13,
         "inconclusive": 5,
         "broken": 1
@@ -17321,6 +17321,10 @@
         "SRC-PADOVA-REGIONAL-SCHOLARSHIP-2026",
         "SRC-PADOVA-DEVELOPMENTAL-PSYCHOLOGY-2026",
         "SRC-PADOVA-MANAGEMENT-ENGINEERING-2026",
+        "SRC-PADOVA-MANAGEMENT-ENGINEERING-2027",
+        "SRC-PADOVA-MANAGEMENT-ENGINEERING-APPLY-2027",
+        "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027",
+        "SRC-PADOVA-ENGINEERING-OPEN-MSC-CALL-2026",
         "SRC-PADOVA-AGRICULTURAL-SCIENCES-2026",
         "SRC-PADOVA-MOLECULAR-BIOLOGY-BSC-2026",
         "SRC-PADOVA-COMPUTER-ENGINEERING-BSC-2026",
@@ -18364,6 +18368,162 @@
           "browser_check": null
         },
         {
+          "id": "SRC-PADOVA-MANAGEMENT-ENGINEERING-2027",
+          "title": "Management Engineering study track – official 2027/28 course profile and application windows",
+          "url": "https://www.unipd.it/en/corsi-di-laurea/management-engineering-study-track",
+          "source_type": "Official degree programme profile",
+          "cycle": "2027-2028",
+          "accessed_at": "2026-11-11",
+          "evidence": "The 2027/28 course page identifies Management Engineering as the English-taught LM-31 Master's study track at Vicenza, two years, open admission with requirements. It lists Call One (15 September–15 November 2026), Call Two (1 December 2026–1 March 2027), and Call Three (1 April–1 June 2027, EU applicants and non-EU applicants residing in Italy only).",
+          "supports": [
+            "program.availability_2027_2028",
+            "program.official_course_listing_2027_2028",
+            "program.application_windows",
+            "program.applicant_scope_2027_2028",
+            "program.program_type"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.unipd.it/en/corsi-di-laurea/management-engineering-study-track",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Management engineering (study track) | Università di Padova",
+            "pdf_signature": null,
+            "has_2027_marker": true,
+            "bytes_read": 1497438,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "Full GET with Cache-Control and Pragma no-cache"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-PADOVA-MANAGEMENT-ENGINEERING-APPLY-2027",
+          "title": "Management Engineering – official 2027/28 application platform course page",
+          "url": "https://apply.unipd.it/courses/course/185-management-engineering",
+          "source_type": "Official University application platform course page",
+          "cycle": "2027-2028",
+          "accessed_at": "2026-11-11",
+          "evidence": "The live application page has a 2027/28 intake card, a 15 November 2026 23:59:59 CET Call One deadline and 1 October 2027 start. It displays a one-time €60 application fee, a minimum three-year bachelor's/equivalent, relevant engineering background, GPA/transcript/CV review and English B2. The page also displays €2,950/year tuition without a separate cycle label; retain that as a displayed figure pending confirmation of the 2027/28 fee schedule.",
+          "supports": [
+            "program.application_route",
+            "program.application_windows",
+            "program.application_fee_2027_2028",
+            "program.program_specific_requirements_2027_2028",
+            "program.english_language_requirement_2027_2028",
+            "program.tuition_currently_displayed"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://apply.unipd.it/courses/course/185-management-engineering",
+            "content_type": "text/html; charset=UTF-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-transform",
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Management Engineering - University of Padua",
+            "pdf_signature": null,
+            "has_2027_marker": true,
+            "bytes_read": 56035,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control no-cache"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027",
+          "title": "International degree-seeker application process – 2027/28",
+          "url": "https://www.unipd.it/en/ammissione-studenti-internazionali",
+          "source_type": "Official international admissions page",
+          "cycle": "2027-2028",
+          "accessed_at": "2026-11-11",
+          "evidence": "Defines an international degree-seeker as an applicant holding a qualification obtained abroad, gives the first 2027/28 call window (15 September–15 November 2026) for most courses and directs English-taught degree applications through apply.unipd.it. It does not set the separate 2027/28 procedure for Italian qualifications on this course.",
+          "supports": [
+            "program.applicant_scope_2027_2028",
+            "program.application_route",
+            "program.application_windows"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.unipd.it/en/ammissione-studenti-internazionali",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": null,
+            "pdf_signature": null,
+            "has_2027_marker": true,
+            "bytes_read": 1489695,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "Full GET with Cache-Control and Pragma no-cache"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-PADOVA-ENGINEERING-OPEN-MSC-CALL-2026",
+          "title": "School of Engineering open-access Master's call – AY 2026/27",
+          "url": "https://wwwassets.unipd.it/sites/default/files/2026-05/2026_EN_Avviso_LM_IngegneriaLiberi.pdf",
+          "source_type": "Official University of Padua admission call PDF",
+          "cycle": "2026-2027",
+          "accessed_at": "2026-11-11",
+          "evidence": "The call names LM-31 Ingegneria gestionale and the Management Engineering curriculum as open access with requirements. For candidates using an Italian qualification it gives the pre-enrolment/review dates, €30 pre-enrolment contribution, curriculum-credit alternatives, 84/110 minimum degree grade and B2 English requirement for the Management Engineering curriculum. Foreign qualifications follow the separate international procedure; these details are prior-cycle evidence only.",
+          "supports": [
+            "program.previous_cycle_course_listing",
+            "program.previous_cycle_program_requirements",
+            "program.previous_cycle_application_windows",
+            "program.previous_cycle_application_fee",
+            "program.previous_cycle_access",
+            "program.previous_cycle_english_requirement"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 206,
+            "effective_url": "https://wwwassets.unipd.it/sites/default/files/2026-05/2026_EN_Avviso_LM_IngegneriaLiberi.pdf",
+            "content_type": "application/pdf",
+            "content_length_header": "4096",
+            "etag": "\"153920-651d97d8c9818\"",
+            "last_modified": "Fri, 15 May 2026 11:26:56 GMT",
+            "cache_control": "max-age=31536000",
+            "age": "2772342",
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": null,
+            "pdf_signature": true,
+            "has_2027_marker": null,
+            "bytes_read": 4096,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Range: bytes=0-4095 and Cache-Control no-cache"
+          },
+          "browser_check": null
+        },
+        {
           "id": "SRC-PADOVA-AGRICULTURAL-SCIENCES-2026",
           "title": "Scienze e tecnologie agrarie – official programme profile",
           "url": "https://www.unipd.it/de/node/79184",
@@ -18919,7 +19079,7 @@
           "refresh_status": "accessible",
           "url_check": {
             "http_status": 200,
-            "effective_url": "https://www.unipd.it/node/93348",
+            "effective_url": "https://www.unipd.it/en/node/93348",
             "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
             "etag": null,
@@ -18929,14 +19089,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": "Consiglio di Amministrazione del 29 settembre 2026 | Università di Padova",
+            "observed_title": "Board of administration of 29 September 2026 | Università di Padova",
             "pdf_signature": null,
             "has_2027_marker": true,
             "bytes_read": 131072,
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "GET with Cache-Control and Pragma no-cache"
           },
           "browser_check": null
         },
@@ -18966,14 +19126,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": "Padua International Excellence Scholarship Programme | Università di Padova",
+            "observed_title": null,
             "pdf_signature": null,
             "has_2027_marker": false,
             "bytes_read": 131072,
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "GET with Cache-Control and Pragma no-cache"
           },
           "browser_check": null
         },
@@ -83249,7 +83409,7 @@
           "refresh_status": "accessible",
           "url_check": {
             "http_status": 200,
-            "effective_url": "https://www.unipd.it/node/93348",
+            "effective_url": "https://www.unipd.it/en/node/93348",
             "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
             "etag": null,
@@ -83259,14 +83419,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": "Consiglio di Amministrazione del 29 settembre 2026 | Università di Padova",
+            "observed_title": "Board of administration of 29 September 2026 | Università di Padova",
             "pdf_signature": null,
             "has_2027_marker": true,
             "bytes_read": 131072,
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "GET with Cache-Control and Pragma no-cache"
           },
           "browser_check": null
         },
@@ -83296,14 +83456,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": "Padua International Excellence Scholarship Programme | Università di Padova",
+            "observed_title": null,
             "pdf_signature": null,
             "has_2027_marker": false,
             "bytes_read": 131072,
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "GET with Cache-Control and Pragma no-cache"
           },
           "browser_check": null
         },
@@ -83705,7 +83865,7 @@
           "refresh_status": "accessible",
           "url_check": {
             "http_status": 200,
-            "effective_url": "https://www.unipd.it/node/93348",
+            "effective_url": "https://www.unipd.it/en/node/93348",
             "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
             "etag": null,
@@ -83715,14 +83875,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": "Consiglio di Amministrazione del 29 settembre 2026 | Università di Padova",
+            "observed_title": "Board of administration of 29 September 2026 | Università di Padova",
             "pdf_signature": null,
             "has_2027_marker": true,
             "bytes_read": 131072,
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "GET with Cache-Control and Pragma no-cache"
           },
           "browser_check": null
         },
@@ -83752,14 +83912,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": "Padua International Excellence Scholarship Programme | Università di Padova",
+            "observed_title": null,
             "pdf_signature": null,
             "has_2027_marker": false,
             "bytes_read": 131072,
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "GET with Cache-Control and Pragma no-cache"
           },
           "browser_check": null
         },
@@ -84114,7 +84274,7 @@
           "refresh_status": "accessible",
           "url_check": {
             "http_status": 200,
-            "effective_url": "https://www.unipd.it/node/93348",
+            "effective_url": "https://www.unipd.it/en/node/93348",
             "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
             "etag": null,
@@ -84124,14 +84284,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": "Consiglio di Amministrazione del 29 settembre 2026 | Università di Padova",
+            "observed_title": "Board of administration of 29 September 2026 | Università di Padova",
             "pdf_signature": null,
             "has_2027_marker": true,
             "bytes_read": 131072,
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "GET with Cache-Control and Pragma no-cache"
           },
           "browser_check": null
         },
@@ -84161,14 +84321,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": "Padua International Excellence Scholarship Programme | Università di Padova",
+            "observed_title": null,
             "pdf_signature": null,
             "has_2027_marker": false,
             "bytes_read": 131072,
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "GET with Cache-Control and Pragma no-cache"
           },
           "browser_check": null
         },
@@ -84545,7 +84705,7 @@
           "refresh_status": "accessible",
           "url_check": {
             "http_status": 200,
-            "effective_url": "https://www.unipd.it/node/93348",
+            "effective_url": "https://www.unipd.it/en/node/93348",
             "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
             "etag": null,
@@ -84555,14 +84715,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": "Consiglio di Amministrazione del 29 settembre 2026 | Università di Padova",
+            "observed_title": "Board of administration of 29 September 2026 | Università di Padova",
             "pdf_signature": null,
             "has_2027_marker": true,
             "bytes_read": 131072,
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "GET with Cache-Control and Pragma no-cache"
           },
           "browser_check": null
         },
@@ -84592,14 +84752,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": "Padua International Excellence Scholarship Programme | Università di Padova",
+            "observed_title": null,
             "pdf_signature": null,
             "has_2027_marker": false,
             "bytes_read": 131072,
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "GET with Cache-Control and Pragma no-cache"
           },
           "browser_check": null
         },
@@ -84937,7 +85097,7 @@
           "refresh_status": "accessible",
           "url_check": {
             "http_status": 200,
-            "effective_url": "https://www.unipd.it/node/93348",
+            "effective_url": "https://www.unipd.it/en/node/93348",
             "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
             "etag": null,
@@ -84947,14 +85107,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": "Consiglio di Amministrazione del 29 settembre 2026 | Università di Padova",
+            "observed_title": "Board of administration of 29 September 2026 | Università di Padova",
             "pdf_signature": null,
             "has_2027_marker": true,
             "bytes_read": 131072,
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "GET with Cache-Control and Pragma no-cache"
           },
           "browser_check": null
         },
@@ -84984,14 +85144,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": "Padua International Excellence Scholarship Programme | Università di Padova",
+            "observed_title": null,
             "pdf_signature": null,
             "has_2027_marker": false,
             "bytes_read": 131072,
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "GET with Cache-Control and Pragma no-cache"
           },
           "browser_check": null
         },
@@ -85367,7 +85527,7 @@
           "refresh_status": "accessible",
           "url_check": {
             "http_status": 200,
-            "effective_url": "https://www.unipd.it/node/93348",
+            "effective_url": "https://www.unipd.it/en/node/93348",
             "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
             "etag": null,
@@ -85377,14 +85537,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": "Consiglio di Amministrazione del 29 settembre 2026 | Università di Padova",
+            "observed_title": "Board of administration of 29 September 2026 | Università di Padova",
             "pdf_signature": null,
             "has_2027_marker": true,
             "bytes_read": 131072,
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "GET with Cache-Control and Pragma no-cache"
           },
           "browser_check": null
         },
@@ -85414,14 +85574,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": "Padua International Excellence Scholarship Programme | Università di Padova",
+            "observed_title": null,
             "pdf_signature": null,
             "has_2027_marker": false,
             "bytes_read": 131072,
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "GET with Cache-Control and Pragma no-cache"
           },
           "browser_check": null
         },
@@ -85776,7 +85936,7 @@
           "refresh_status": "accessible",
           "url_check": {
             "http_status": 200,
-            "effective_url": "https://www.unipd.it/node/93348",
+            "effective_url": "https://www.unipd.it/en/node/93348",
             "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
             "etag": null,
@@ -85786,14 +85946,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": "Consiglio di Amministrazione del 29 settembre 2026 | Università di Padova",
+            "observed_title": "Board of administration of 29 September 2026 | Università di Padova",
             "pdf_signature": null,
             "has_2027_marker": true,
             "bytes_read": 131072,
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "GET with Cache-Control and Pragma no-cache"
           },
           "browser_check": null
         },
@@ -85823,14 +85983,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": "Padua International Excellence Scholarship Programme | Università di Padova",
+            "observed_title": null,
             "pdf_signature": null,
             "has_2027_marker": false,
             "bytes_read": 131072,
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "GET with Cache-Control and Pragma no-cache"
           },
           "browser_check": null
         },
@@ -86168,7 +86328,7 @@
           "refresh_status": "accessible",
           "url_check": {
             "http_status": 200,
-            "effective_url": "https://www.unipd.it/node/93348",
+            "effective_url": "https://www.unipd.it/en/node/93348",
             "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
             "etag": null,
@@ -86178,14 +86338,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": "Consiglio di Amministrazione del 29 settembre 2026 | Università di Padova",
+            "observed_title": "Board of administration of 29 September 2026 | Università di Padova",
             "pdf_signature": null,
             "has_2027_marker": true,
             "bytes_read": 131072,
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "GET with Cache-Control and Pragma no-cache"
           },
           "browser_check": null
         },
@@ -86215,14 +86375,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": "Padua International Excellence Scholarship Programme | Università di Padova",
+            "observed_title": null,
             "pdf_signature": null,
             "has_2027_marker": false,
             "bytes_read": 131072,
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "GET with Cache-Control and Pragma no-cache"
           },
           "browser_check": null
         },
@@ -86679,7 +86839,7 @@
           "refresh_status": "accessible",
           "url_check": {
             "http_status": 200,
-            "effective_url": "https://www.unipd.it/node/93348",
+            "effective_url": "https://www.unipd.it/en/node/93348",
             "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
             "etag": null,
@@ -86689,14 +86849,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": "Consiglio di Amministrazione del 29 settembre 2026 | Università di Padova",
+            "observed_title": "Board of administration of 29 September 2026 | Università di Padova",
             "pdf_signature": null,
             "has_2027_marker": true,
             "bytes_read": 131072,
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "GET with Cache-Control and Pragma no-cache"
           },
           "browser_check": null
         },
@@ -86726,14 +86886,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": "Padua International Excellence Scholarship Programme | Università di Padova",
+            "observed_title": null,
             "pdf_signature": null,
             "has_2027_marker": false,
             "bytes_read": 131072,
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "GET with Cache-Control and Pragma no-cache"
           },
           "browser_check": null
         },
@@ -87982,25 +88142,67 @@
       "program": "Ingegneria gestionale — Management Engineering English-taught track",
       "level": {
         "value": "MSc",
-        "status": "REQUIRES_VERIFICATION",
+        "status": "CONFIRMED",
         "source_ids": [
-          "SRC-PADOVA-MANAGEMENT-ENGINEERING-2026",
-          "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026"
+          "SRC-PADOVA-MANAGEMENT-ENGINEERING-2027",
+          "SRC-PADOVA-MANAGEMENT-ENGINEERING-APPLY-2027",
+          "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027"
         ],
-        "notes": "Official course identity is confirmed for the 2026/2027 catalogue; this value is not promoted to 2027/28 without a named-cycle source."
+        "notes": "The 2027/28 official English study-track page identifies the LM-31 Master's degree class."
       },
       "language": {
-        "value": "Italian and English (English-taught track)",
-        "status": "REQUIRES_VERIFICATION",
+        "value": "English (Management Engineering study track)",
+        "status": "CONFIRMED",
         "source_ids": [
-          "SRC-PADOVA-MANAGEMENT-ENGINEERING-2026",
-          "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026"
+          "SRC-PADOVA-MANAGEMENT-ENGINEERING-2027",
+          "SRC-PADOVA-MANAGEMENT-ENGINEERING-APPLY-2027",
+          "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027"
         ],
-        "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
+        "notes": "The current track page and 2027/28 application page identify this study track as English-taught; the wider Ingegneria gestionale degree also has a separate Italian curriculum."
       },
       "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-161/",
       "university_page_url": "https://italy-it-programs.vercel.app/universities/padova/",
       "official_program_source_urls": [
+        {
+          "id": "SRC-PADOVA-ENGINEERING-OPEN-MSC-CALL-2026",
+          "title": "School of Engineering open-access Master's call – AY 2026/27",
+          "url": "https://wwwassets.unipd.it/sites/default/files/2026-05/2026_EN_Avviso_LM_IngegneriaLiberi.pdf",
+          "source_type": "Official University of Padua admission call PDF",
+          "cycle": "2026-2027",
+          "accessed_at": "2026-11-11",
+          "evidence": "The call names LM-31 Ingegneria gestionale and the Management Engineering curriculum as open access with requirements. For candidates using an Italian qualification it gives the pre-enrolment/review dates, €30 pre-enrolment contribution, curriculum-credit alternatives, 84/110 minimum degree grade and B2 English requirement for the Management Engineering curriculum. Foreign qualifications follow the separate international procedure; these details are prior-cycle evidence only.",
+          "supports": [
+            "program.previous_cycle_course_listing",
+            "program.previous_cycle_program_requirements",
+            "program.previous_cycle_application_windows",
+            "program.previous_cycle_application_fee",
+            "program.previous_cycle_access",
+            "program.previous_cycle_english_requirement"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 206,
+            "effective_url": "https://wwwassets.unipd.it/sites/default/files/2026-05/2026_EN_Avviso_LM_IngegneriaLiberi.pdf",
+            "content_type": "application/pdf",
+            "content_length_header": "4096",
+            "etag": "\"153920-651d97d8c9818\"",
+            "last_modified": "Fri, 15 May 2026 11:26:56 GMT",
+            "cache_control": "max-age=31536000",
+            "age": "2772342",
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": null,
+            "pdf_signature": true,
+            "has_2027_marker": null,
+            "bytes_read": 4096,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Range: bytes=0-4095 and Cache-Control no-cache"
+          },
+          "browser_check": null
+        },
         {
           "id": "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026",
           "title": "School of Engineering Master's admission inventory – AY 2026/27",
@@ -88034,6 +88236,46 @@
             "error": null,
             "checked_at": "2026-11-10",
             "method": "GET"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-PADOVA-MANAGEMENT-ENGINEERING-APPLY-2027",
+          "title": "Management Engineering – official 2027/28 application platform course page",
+          "url": "https://apply.unipd.it/courses/course/185-management-engineering",
+          "source_type": "Official University application platform course page",
+          "cycle": "2027-2028",
+          "accessed_at": "2026-11-11",
+          "evidence": "The live application page has a 2027/28 intake card, a 15 November 2026 23:59:59 CET Call One deadline and 1 October 2027 start. It displays a one-time €60 application fee, a minimum three-year bachelor's/equivalent, relevant engineering background, GPA/transcript/CV review and English B2. The page also displays €2,950/year tuition without a separate cycle label; retain that as a displayed figure pending confirmation of the 2027/28 fee schedule.",
+          "supports": [
+            "program.application_route",
+            "program.application_windows",
+            "program.application_fee_2027_2028",
+            "program.program_specific_requirements_2027_2028",
+            "program.english_language_requirement_2027_2028",
+            "program.tuition_currently_displayed"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://apply.unipd.it/courses/course/185-management-engineering",
+            "content_type": "text/html; charset=UTF-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-transform",
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Management Engineering - University of Padua",
+            "pdf_signature": null,
+            "has_2027_marker": true,
+            "bytes_read": 56035,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control no-cache"
           },
           "browser_check": null
         },
@@ -88076,6 +88318,82 @@
           "browser_check": null
         },
         {
+          "id": "SRC-PADOVA-MANAGEMENT-ENGINEERING-2027",
+          "title": "Management Engineering study track – official 2027/28 course profile and application windows",
+          "url": "https://www.unipd.it/en/corsi-di-laurea/management-engineering-study-track",
+          "source_type": "Official degree programme profile",
+          "cycle": "2027-2028",
+          "accessed_at": "2026-11-11",
+          "evidence": "The 2027/28 course page identifies Management Engineering as the English-taught LM-31 Master's study track at Vicenza, two years, open admission with requirements. It lists Call One (15 September–15 November 2026), Call Two (1 December 2026–1 March 2027), and Call Three (1 April–1 June 2027, EU applicants and non-EU applicants residing in Italy only).",
+          "supports": [
+            "program.availability_2027_2028",
+            "program.official_course_listing_2027_2028",
+            "program.application_windows",
+            "program.applicant_scope_2027_2028",
+            "program.program_type"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.unipd.it/en/corsi-di-laurea/management-engineering-study-track",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Management engineering (study track) | Università di Padova",
+            "pdf_signature": null,
+            "has_2027_marker": true,
+            "bytes_read": 1497438,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "Full GET with Cache-Control and Pragma no-cache"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027",
+          "title": "International degree-seeker application process – 2027/28",
+          "url": "https://www.unipd.it/en/ammissione-studenti-internazionali",
+          "source_type": "Official international admissions page",
+          "cycle": "2027-2028",
+          "accessed_at": "2026-11-11",
+          "evidence": "Defines an international degree-seeker as an applicant holding a qualification obtained abroad, gives the first 2027/28 call window (15 September–15 November 2026) for most courses and directs English-taught degree applications through apply.unipd.it. It does not set the separate 2027/28 procedure for Italian qualifications on this course.",
+          "supports": [
+            "program.applicant_scope_2027_2028",
+            "program.application_route",
+            "program.application_windows"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.unipd.it/en/ammissione-studenti-internazionali",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": null,
+            "pdf_signature": null,
+            "has_2027_marker": true,
+            "bytes_read": 1489695,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "Full GET with Cache-Control and Pragma no-cache"
+          },
+          "browser_check": null
+        },
+        {
           "id": "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
           "title": "2027/28 Padua International Excellence Scholarship – Board allocation announcement",
           "url": "https://www.unipd.it/node/93348",
@@ -88094,7 +88412,7 @@
           "refresh_status": "accessible",
           "url_check": {
             "http_status": 200,
-            "effective_url": "https://www.unipd.it/node/93348",
+            "effective_url": "https://www.unipd.it/en/node/93348",
             "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
             "etag": null,
@@ -88104,14 +88422,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": "Consiglio di Amministrazione del 29 settembre 2026 | Università di Padova",
+            "observed_title": "Board of administration of 29 September 2026 | Università di Padova",
             "pdf_signature": null,
             "has_2027_marker": true,
             "bytes_read": 131072,
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "GET with Cache-Control and Pragma no-cache"
           },
           "browser_check": null
         },
@@ -88141,14 +88459,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": "Padua International Excellence Scholarship Programme | Università di Padova",
+            "observed_title": null,
             "pdf_signature": null,
             "has_2027_marker": false,
             "bytes_read": 131072,
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "GET with Cache-Control and Pragma no-cache"
           },
           "browser_check": null
         },
@@ -88191,95 +88509,29 @@
         }
       ],
       "availability_2027_2028": {
-        "value": null,
-        "status": "NOT_YET_PUBLISHED",
+        "value": true,
+        "status": "CONFIRMED",
         "source_ids": [
-          "SRC-PADOVA-MANAGEMENT-ENGINEERING-2026",
-          "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026"
+          "SRC-PADOVA-MANAGEMENT-ENGINEERING-2027",
+          "SRC-PADOVA-MANAGEMENT-ENGINEERING-APPLY-2027",
+          "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027"
         ],
-        "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued."
+        "notes": "The official course page lists 2027/28 application calls and the application platform lists a 2027/28 intake starting 1 October 2027. This confirms the English-track offer through the published application route; a separate 2027/28 procedure for Italian qualifications has not been verified."
       },
-      "existing_overall_status": "REQUIRES_VERIFICATION",
-      "existing_last_checked": "2026-11-10",
+      "existing_overall_status": "CONFIRMED",
+      "existing_last_checked": "2026-11-11",
       "fields_needing_review": [
         {
-          "field": "level",
-          "status": "REQUIRES_VERIFICATION",
-          "value": "MSc",
-          "notes": "Official course identity is confirmed for the 2026/2027 catalogue; this value is not promoted to 2027/28 without a named-cycle source.",
-          "source_ids": [
-            "SRC-PADOVA-MANAGEMENT-ENGINEERING-2026",
-            "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026"
-          ]
-        },
-        {
-          "field": "language",
-          "status": "REQUIRES_VERIFICATION",
-          "value": "Italian and English (English-taught track)",
-          "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record.",
-          "source_ids": [
-            "SRC-PADOVA-MANAGEMENT-ENGINEERING-2026",
-            "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026"
-          ]
-        },
-        {
-          "field": "field",
-          "status": "REQUIRES_VERIFICATION",
-          "value": "Management Engineering",
-          "notes": "Course subject identity is based on current official profile/catalogue evidence; next-cycle catalogue not yet verified.",
-          "source_ids": [
-            "SRC-PADOVA-MANAGEMENT-ENGINEERING-2026",
-            "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026"
-          ]
-        },
-        {
-          "field": "availability_2027_2028",
-          "status": "NOT_YET_PUBLISHED",
-          "value": null,
-          "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.",
-          "source_ids": [
-            "SRC-PADOVA-MANAGEMENT-ENGINEERING-2026",
-            "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026"
-          ]
-        },
-        {
-          "field": "facts.application_windows",
-          "status": "NOT_YET_PUBLISHED",
-          "value": null,
-          "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.",
-          "source_ids": [
-            "SRC-PADOVA-MANAGEMENT-ENGINEERING-2026",
-            "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026"
-          ]
-        },
-        {
-          "field": "facts.application_fee_2027_2028",
-          "status": "NOT_YET_PUBLISHED",
-          "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.",
-          "source_ids": [
-            "SRC-PADOVA-MANAGEMENT-ENGINEERING-2026",
-            "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026"
-          ]
-        },
-        {
-          "field": "facts.program_specific_requirements_2027_2028",
-          "status": "NOT_YET_PUBLISHED",
-          "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.",
-          "source_ids": [
-            "SRC-PADOVA-MANAGEMENT-ENGINEERING-2026",
-            "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026"
-          ]
-        },
-        {
           "field": "facts.tuition_2027_2028",
-          "status": "NOT_YET_PUBLISHED",
-          "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.",
+          "status": "REQUIRES_VERIFICATION",
+          "value": {
+            "displayed_amount_eur_per_year": 2950,
+            "cycle_label_for_amount": "Not separately stated",
+            "income_based_reduction": "ISEE-based reductions may apply"
+          },
+          "notes": "The application platform displays €2,950/year on the page for the 2027/28 intake, but does not separately date that amount. The University fee page reviewed on 11 November still links the 2026/27 fee notice; confirm the 2027/28 schedule before treating the displayed figure as current-cycle tuition.",
           "source_ids": [
-            "SRC-PADOVA-MANAGEMENT-ENGINEERING-2026",
-            "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026",
+            "SRC-PADOVA-MANAGEMENT-ENGINEERING-APPLY-2027",
             "SRC-PADUA-TUITION-2026"
           ]
         },
@@ -88291,21 +88543,12 @@
             "academic_year": "2027/28",
             "university_allocation_eur": 1432200,
             "maximum_awards": 76,
-            "target": "Highest-ranked candidate per English-taught degree/curriculum, including newly activated programmes",
+            "target": "Most deserving candidate per English-taught degree/curriculum, including newly established programmes",
             "gross_eur_per_year": 8000,
             "university_tuition_fee_exemption": true,
-            "remaining_fees": [
-              "Regional fee",
-              "Revenue stamp"
-            ],
-            "maximum_duration_years": {
-              "MSc": 2,
-              "BSc": 3,
-              "single_cycle": 3
-            },
-            "award_conditions": "Competitive; selection and renewal subject to the forthcoming 2027/28 annual call"
+            "award_conditions": "Competitive; final eligibility, course-level award allocation, duration, other mandatory charges, selection and renewal terms await the 2027/28 annual call"
           },
-          "notes": "The University approved the scheme for English-taught degree programmes, including new programmes, but this record's 2027/28 intake, final language/approval or course-level inclusion is still pending. Do not show it as a confirmed course award.",
+          "notes": "The 2027/28 English-track intake is confirmed, and the Board says awards are intended for the top candidate in each English-taught degree/curriculum. The annual scholarship call has not yet appeared on the programme page; confirm final eligibility, amount, selection and course-level allocation when it is published.",
           "source_ids": [
             "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
             "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
@@ -88315,17 +88558,21 @@
           "field": "facts.acceptance_rate",
           "status": "UNAVAILABLE",
           "value": null,
-          "notes": "The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.",
+          "notes": "No comparable applicant and admitted-student totals are published; no acceptance rate is inferred.",
           "source_ids": [
-            "SRC-PADOVA-MANAGEMENT-ENGINEERING-2026",
-            "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026"
+            "SRC-PADOVA-MANAGEMENT-ENGINEERING-2027",
+            "SRC-PADOVA-MANAGEMENT-ENGINEERING-APPLY-2027",
+            "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027",
+            "SRC-PADOVA-ENGINEERING-OPEN-MSC-CALL-2026",
+            "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026",
+            "SRC-PADOVA-MANAGEMENT-ENGINEERING-2026"
           ]
         },
         {
           "field": "facts.scholarship_call_details_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "The official programme page says the 2027/28 annual call will be published in November 2026; as checked on 11 November the page still links the 2026/27 call. Confirm final eligibility, application/selection process and renewal criteria when the new notice appears.",
+          "notes": "As checked on 11 November 2026, the scholarship programme page still links the 2026/27 annual call and says further information will be published in November 2026.",
           "source_ids": [
             "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
           ]
@@ -88333,71 +88580,24 @@
       ],
       "missing_fields": [
         {
-          "field": "availability_2027_2028",
-          "status": "NOT_YET_PUBLISHED",
-          "value": null,
-          "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.",
-          "source_ids": [
-            "SRC-PADOVA-MANAGEMENT-ENGINEERING-2026",
-            "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026"
-          ]
-        },
-        {
-          "field": "facts.application_windows",
-          "status": "NOT_YET_PUBLISHED",
-          "value": null,
-          "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.",
-          "source_ids": [
-            "SRC-PADOVA-MANAGEMENT-ENGINEERING-2026",
-            "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026"
-          ]
-        },
-        {
-          "field": "facts.application_fee_2027_2028",
-          "status": "NOT_YET_PUBLISHED",
-          "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.",
-          "source_ids": [
-            "SRC-PADOVA-MANAGEMENT-ENGINEERING-2026",
-            "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026"
-          ]
-        },
-        {
-          "field": "facts.program_specific_requirements_2027_2028",
-          "status": "NOT_YET_PUBLISHED",
-          "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.",
-          "source_ids": [
-            "SRC-PADOVA-MANAGEMENT-ENGINEERING-2026",
-            "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026"
-          ]
-        },
-        {
-          "field": "facts.tuition_2027_2028",
-          "status": "NOT_YET_PUBLISHED",
-          "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.",
-          "source_ids": [
-            "SRC-PADOVA-MANAGEMENT-ENGINEERING-2026",
-            "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026",
-            "SRC-PADUA-TUITION-2026"
-          ]
-        },
-        {
           "field": "facts.acceptance_rate",
           "status": "UNAVAILABLE",
           "value": null,
-          "notes": "The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.",
+          "notes": "No comparable applicant and admitted-student totals are published; no acceptance rate is inferred.",
           "source_ids": [
-            "SRC-PADOVA-MANAGEMENT-ENGINEERING-2026",
-            "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026"
+            "SRC-PADOVA-MANAGEMENT-ENGINEERING-2027",
+            "SRC-PADOVA-MANAGEMENT-ENGINEERING-APPLY-2027",
+            "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027",
+            "SRC-PADOVA-ENGINEERING-OPEN-MSC-CALL-2026",
+            "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026",
+            "SRC-PADOVA-MANAGEMENT-ENGINEERING-2026"
           ]
         },
         {
           "field": "facts.scholarship_call_details_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "The official programme page says the 2027/28 annual call will be published in November 2026; as checked on 11 November the page still links the 2026/27 call. Confirm final eligibility, application/selection process and renewal criteria when the new notice appears.",
+          "notes": "As checked on 11 November 2026, the scholarship programme page still links the 2026/27 annual call and says further information will be published in November 2026.",
           "source_ids": [
             "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
           ]
@@ -88409,15 +88609,13 @@
         "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026",
         "SRC-PADUA-TUITION-2026",
         "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
-        "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
+        "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME",
+        "SRC-PADOVA-MANAGEMENT-ENGINEERING-2027",
+        "SRC-PADOVA-MANAGEMENT-ENGINEERING-APPLY-2027",
+        "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027",
+        "SRC-PADOVA-ENGINEERING-OPEN-MSC-CALL-2026"
       ],
-      "previous_cycle_tags": {
-        "level": "MSc",
-        "language": "Italian and English (English-taught track)",
-        "field": "Management Engineering",
-        "cycle": "2026-2027",
-        "label": "Official course identity checked for 2026/2027; 2027/28 first-year intake and terms remain unconfirmed"
-      },
+      "previous_cycle_tags": null,
       "refresh_status": "pending",
       "refresh_checked_at": null,
       "refresh_outcome": null
@@ -90637,7 +90835,7 @@
           "refresh_status": "accessible",
           "url_check": {
             "http_status": 200,
-            "effective_url": "https://www.unipd.it/node/93348",
+            "effective_url": "https://www.unipd.it/en/node/93348",
             "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
             "etag": null,
@@ -90647,14 +90845,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": "Consiglio di Amministrazione del 29 settembre 2026 | Università di Padova",
+            "observed_title": "Board of administration of 29 September 2026 | Università di Padova",
             "pdf_signature": null,
             "has_2027_marker": true,
             "bytes_read": 131072,
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "GET with Cache-Control and Pragma no-cache"
           },
           "browser_check": null
         },
@@ -90684,14 +90882,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": "Padua International Excellence Scholarship Programme | Università di Padova",
+            "observed_title": null,
             "pdf_signature": null,
             "has_2027_marker": false,
             "bytes_read": 131072,
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "GET with Cache-Control and Pragma no-cache"
           },
           "browser_check": null
         },
@@ -90932,7 +91130,7 @@
           "refresh_status": "accessible",
           "url_check": {
             "http_status": 200,
-            "effective_url": "https://www.unipd.it/node/93348",
+            "effective_url": "https://www.unipd.it/en/node/93348",
             "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
             "etag": null,
@@ -90942,14 +91140,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": "Consiglio di Amministrazione del 29 settembre 2026 | Università di Padova",
+            "observed_title": "Board of administration of 29 September 2026 | Università di Padova",
             "pdf_signature": null,
             "has_2027_marker": true,
             "bytes_read": 131072,
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "GET with Cache-Control and Pragma no-cache"
           },
           "browser_check": null
         },
@@ -90979,14 +91177,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": "Padua International Excellence Scholarship Programme | Università di Padova",
+            "observed_title": null,
             "pdf_signature": null,
             "has_2027_marker": false,
             "bytes_read": 131072,
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "GET with Cache-Control and Pragma no-cache"
           },
           "browser_check": null
         },
@@ -91226,7 +91424,7 @@
           "refresh_status": "accessible",
           "url_check": {
             "http_status": 200,
-            "effective_url": "https://www.unipd.it/node/93348",
+            "effective_url": "https://www.unipd.it/en/node/93348",
             "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
             "etag": null,
@@ -91236,14 +91434,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": "Consiglio di Amministrazione del 29 settembre 2026 | Università di Padova",
+            "observed_title": "Board of administration of 29 September 2026 | Università di Padova",
             "pdf_signature": null,
             "has_2027_marker": true,
             "bytes_read": 131072,
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "GET with Cache-Control and Pragma no-cache"
           },
           "browser_check": null
         },
@@ -91273,14 +91471,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": "Padua International Excellence Scholarship Programme | Università di Padova",
+            "observed_title": null,
             "pdf_signature": null,
             "has_2027_marker": false,
             "bytes_read": 131072,
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "GET with Cache-Control and Pragma no-cache"
           },
           "browser_check": null
         },
@@ -91618,7 +91816,7 @@
           "refresh_status": "accessible",
           "url_check": {
             "http_status": 200,
-            "effective_url": "https://www.unipd.it/node/93348",
+            "effective_url": "https://www.unipd.it/en/node/93348",
             "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
             "etag": null,
@@ -91628,14 +91826,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": "Consiglio di Amministrazione del 29 settembre 2026 | Università di Padova",
+            "observed_title": "Board of administration of 29 September 2026 | Università di Padova",
             "pdf_signature": null,
             "has_2027_marker": true,
             "bytes_read": 131072,
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "GET with Cache-Control and Pragma no-cache"
           },
           "browser_check": null
         },
@@ -91665,14 +91863,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": "Padua International Excellence Scholarship Programme | Università di Padova",
+            "observed_title": null,
             "pdf_signature": null,
             "has_2027_marker": false,
             "bytes_read": 131072,
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "GET with Cache-Control and Pragma no-cache"
           },
           "browser_check": null
         },
@@ -92010,7 +92208,7 @@
           "refresh_status": "accessible",
           "url_check": {
             "http_status": 200,
-            "effective_url": "https://www.unipd.it/node/93348",
+            "effective_url": "https://www.unipd.it/en/node/93348",
             "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
             "etag": null,
@@ -92020,14 +92218,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": "Consiglio di Amministrazione del 29 settembre 2026 | Università di Padova",
+            "observed_title": "Board of administration of 29 September 2026 | Università di Padova",
             "pdf_signature": null,
             "has_2027_marker": true,
             "bytes_read": 131072,
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "GET with Cache-Control and Pragma no-cache"
           },
           "browser_check": null
         },
@@ -92057,14 +92255,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": "Padua International Excellence Scholarship Programme | Università di Padova",
+            "observed_title": null,
             "pdf_signature": null,
             "has_2027_marker": false,
             "bytes_read": 131072,
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "GET with Cache-Control and Pragma no-cache"
           },
           "browser_check": null
         },
@@ -92402,7 +92600,7 @@
           "refresh_status": "accessible",
           "url_check": {
             "http_status": 200,
-            "effective_url": "https://www.unipd.it/node/93348",
+            "effective_url": "https://www.unipd.it/en/node/93348",
             "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
             "etag": null,
@@ -92412,14 +92610,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": "Consiglio di Amministrazione del 29 settembre 2026 | Università di Padova",
+            "observed_title": "Board of administration of 29 September 2026 | Università di Padova",
             "pdf_signature": null,
             "has_2027_marker": true,
             "bytes_read": 131072,
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "GET with Cache-Control and Pragma no-cache"
           },
           "browser_check": null
         },
@@ -92449,14 +92647,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": "Padua International Excellence Scholarship Programme | Università di Padova",
+            "observed_title": null,
             "pdf_signature": null,
             "has_2027_marker": false,
             "bytes_read": 131072,
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "GET with Cache-Control and Pragma no-cache"
           },
           "browser_check": null
         },
@@ -92925,7 +93123,7 @@
           "refresh_status": "accessible",
           "url_check": {
             "http_status": 200,
-            "effective_url": "https://www.unipd.it/node/93348",
+            "effective_url": "https://www.unipd.it/en/node/93348",
             "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
             "etag": null,
@@ -92935,14 +93133,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": "Consiglio di Amministrazione del 29 settembre 2026 | Università di Padova",
+            "observed_title": "Board of administration of 29 September 2026 | Università di Padova",
             "pdf_signature": null,
             "has_2027_marker": true,
             "bytes_read": 131072,
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "GET with Cache-Control and Pragma no-cache"
           },
           "browser_check": null
         },
@@ -92972,14 +93170,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": "Padua International Excellence Scholarship Programme | Università di Padova",
+            "observed_title": null,
             "pdf_signature": null,
             "has_2027_marker": false,
             "bytes_read": 131072,
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "GET with Cache-Control and Pragma no-cache"
           },
           "browser_check": null
         },
@@ -93665,7 +93863,7 @@
           "refresh_status": "accessible",
           "url_check": {
             "http_status": 200,
-            "effective_url": "https://www.unipd.it/node/93348",
+            "effective_url": "https://www.unipd.it/en/node/93348",
             "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
             "etag": null,
@@ -93675,14 +93873,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": "Consiglio di Amministrazione del 29 settembre 2026 | Università di Padova",
+            "observed_title": "Board of administration of 29 September 2026 | Università di Padova",
             "pdf_signature": null,
             "has_2027_marker": true,
             "bytes_read": 131072,
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "GET with Cache-Control and Pragma no-cache"
           },
           "browser_check": null
         },
@@ -93712,14 +93910,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": "Padua International Excellence Scholarship Programme | Università di Padova",
+            "observed_title": null,
             "pdf_signature": null,
             "has_2027_marker": false,
             "bytes_read": 131072,
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "GET with Cache-Control and Pragma no-cache"
           },
           "browser_check": null
         },
@@ -132445,6 +132643,162 @@
       "browser_check": null
     },
     {
+      "id": "SRC-PADOVA-MANAGEMENT-ENGINEERING-2027",
+      "title": "Management Engineering study track – official 2027/28 course profile and application windows",
+      "url": "https://www.unipd.it/en/corsi-di-laurea/management-engineering-study-track",
+      "source_type": "Official degree programme profile",
+      "cycle": "2027-2028",
+      "accessed_at": "2026-11-11",
+      "evidence": "The 2027/28 course page identifies Management Engineering as the English-taught LM-31 Master's study track at Vicenza, two years, open admission with requirements. It lists Call One (15 September–15 November 2026), Call Two (1 December 2026–1 March 2027), and Call Three (1 April–1 June 2027, EU applicants and non-EU applicants residing in Italy only).",
+      "supports": [
+        "program.availability_2027_2028",
+        "program.official_course_listing_2027_2028",
+        "program.application_windows",
+        "program.applicant_scope_2027_2028",
+        "program.program_type"
+      ],
+      "refresh_status": "accessible",
+      "url_check": {
+        "http_status": 200,
+        "effective_url": "https://www.unipd.it/en/corsi-di-laurea/management-engineering-study-track",
+        "content_type": "text/html; charset=utf-8",
+        "content_length_header": null,
+        "etag": null,
+        "last_modified": null,
+        "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate",
+        "age": null,
+        "x_vercel_cache": null,
+        "x_vercel_id": null,
+        "location": null,
+        "observed_title": "Management engineering (study track) | Università di Padova",
+        "pdf_signature": null,
+        "has_2027_marker": true,
+        "bytes_read": 1497438,
+        "outcome": "accessible",
+        "error": null,
+        "checked_at": "2026-11-11",
+        "method": "Full GET with Cache-Control and Pragma no-cache"
+      },
+      "browser_check": null
+    },
+    {
+      "id": "SRC-PADOVA-MANAGEMENT-ENGINEERING-APPLY-2027",
+      "title": "Management Engineering – official 2027/28 application platform course page",
+      "url": "https://apply.unipd.it/courses/course/185-management-engineering",
+      "source_type": "Official University application platform course page",
+      "cycle": "2027-2028",
+      "accessed_at": "2026-11-11",
+      "evidence": "The live application page has a 2027/28 intake card, a 15 November 2026 23:59:59 CET Call One deadline and 1 October 2027 start. It displays a one-time €60 application fee, a minimum three-year bachelor's/equivalent, relevant engineering background, GPA/transcript/CV review and English B2. The page also displays €2,950/year tuition without a separate cycle label; retain that as a displayed figure pending confirmation of the 2027/28 fee schedule.",
+      "supports": [
+        "program.application_route",
+        "program.application_windows",
+        "program.application_fee_2027_2028",
+        "program.program_specific_requirements_2027_2028",
+        "program.english_language_requirement_2027_2028",
+        "program.tuition_currently_displayed"
+      ],
+      "refresh_status": "accessible",
+      "url_check": {
+        "http_status": 200,
+        "effective_url": "https://apply.unipd.it/courses/course/185-management-engineering",
+        "content_type": "text/html; charset=UTF-8",
+        "content_length_header": null,
+        "etag": null,
+        "last_modified": null,
+        "cache_control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-transform",
+        "age": null,
+        "x_vercel_cache": null,
+        "x_vercel_id": null,
+        "location": null,
+        "observed_title": "Management Engineering - University of Padua",
+        "pdf_signature": null,
+        "has_2027_marker": true,
+        "bytes_read": 56035,
+        "outcome": "accessible",
+        "error": null,
+        "checked_at": "2026-11-11",
+        "method": "GET with Cache-Control no-cache"
+      },
+      "browser_check": null
+    },
+    {
+      "id": "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027",
+      "title": "International degree-seeker application process – 2027/28",
+      "url": "https://www.unipd.it/en/ammissione-studenti-internazionali",
+      "source_type": "Official international admissions page",
+      "cycle": "2027-2028",
+      "accessed_at": "2026-11-11",
+      "evidence": "Defines an international degree-seeker as an applicant holding a qualification obtained abroad, gives the first 2027/28 call window (15 September–15 November 2026) for most courses and directs English-taught degree applications through apply.unipd.it. It does not set the separate 2027/28 procedure for Italian qualifications on this course.",
+      "supports": [
+        "program.applicant_scope_2027_2028",
+        "program.application_route",
+        "program.application_windows"
+      ],
+      "refresh_status": "accessible",
+      "url_check": {
+        "http_status": 200,
+        "effective_url": "https://www.unipd.it/en/ammissione-studenti-internazionali",
+        "content_type": "text/html; charset=utf-8",
+        "content_length_header": null,
+        "etag": null,
+        "last_modified": null,
+        "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate",
+        "age": null,
+        "x_vercel_cache": null,
+        "x_vercel_id": null,
+        "location": null,
+        "observed_title": null,
+        "pdf_signature": null,
+        "has_2027_marker": true,
+        "bytes_read": 1489695,
+        "outcome": "accessible",
+        "error": null,
+        "checked_at": "2026-11-11",
+        "method": "Full GET with Cache-Control and Pragma no-cache"
+      },
+      "browser_check": null
+    },
+    {
+      "id": "SRC-PADOVA-ENGINEERING-OPEN-MSC-CALL-2026",
+      "title": "School of Engineering open-access Master's call – AY 2026/27",
+      "url": "https://wwwassets.unipd.it/sites/default/files/2026-05/2026_EN_Avviso_LM_IngegneriaLiberi.pdf",
+      "source_type": "Official University of Padua admission call PDF",
+      "cycle": "2026-2027",
+      "accessed_at": "2026-11-11",
+      "evidence": "The call names LM-31 Ingegneria gestionale and the Management Engineering curriculum as open access with requirements. For candidates using an Italian qualification it gives the pre-enrolment/review dates, €30 pre-enrolment contribution, curriculum-credit alternatives, 84/110 minimum degree grade and B2 English requirement for the Management Engineering curriculum. Foreign qualifications follow the separate international procedure; these details are prior-cycle evidence only.",
+      "supports": [
+        "program.previous_cycle_course_listing",
+        "program.previous_cycle_program_requirements",
+        "program.previous_cycle_application_windows",
+        "program.previous_cycle_application_fee",
+        "program.previous_cycle_access",
+        "program.previous_cycle_english_requirement"
+      ],
+      "refresh_status": "accessible",
+      "url_check": {
+        "http_status": 206,
+        "effective_url": "https://wwwassets.unipd.it/sites/default/files/2026-05/2026_EN_Avviso_LM_IngegneriaLiberi.pdf",
+        "content_type": "application/pdf",
+        "content_length_header": "4096",
+        "etag": "\"153920-651d97d8c9818\"",
+        "last_modified": "Fri, 15 May 2026 11:26:56 GMT",
+        "cache_control": "max-age=31536000",
+        "age": "2772342",
+        "x_vercel_cache": null,
+        "x_vercel_id": null,
+        "location": null,
+        "observed_title": null,
+        "pdf_signature": true,
+        "has_2027_marker": null,
+        "bytes_read": 4096,
+        "outcome": "accessible",
+        "error": null,
+        "checked_at": "2026-11-11",
+        "method": "GET with Range: bytes=0-4095 and Cache-Control no-cache"
+      },
+      "browser_check": null
+    },
+    {
       "id": "SRC-PADOVA-AGRICULTURAL-SCIENCES-2026",
       "title": "Scienze e tecnologie agrarie – official programme profile",
       "url": "https://www.unipd.it/de/node/79184",
@@ -134567,7 +134921,7 @@
       "refresh_status": "accessible",
       "url_check": {
         "http_status": 200,
-        "effective_url": "https://www.unipd.it/node/93348",
+        "effective_url": "https://www.unipd.it/en/node/93348",
         "content_type": "text/html; charset=utf-8",
         "content_length_header": null,
         "etag": null,
@@ -134577,14 +134931,14 @@
         "x_vercel_cache": null,
         "x_vercel_id": null,
         "location": null,
-        "observed_title": "Consiglio di Amministrazione del 29 settembre 2026 | Università di Padova",
+        "observed_title": "Board of administration of 29 September 2026 | Università di Padova",
         "pdf_signature": null,
         "has_2027_marker": true,
         "bytes_read": 131072,
         "outcome": "accessible",
         "error": null,
         "checked_at": "2026-11-11",
-        "method": "GET"
+        "method": "GET with Cache-Control and Pragma no-cache"
       },
       "browser_check": null
     },
@@ -134614,14 +134968,14 @@
         "x_vercel_cache": null,
         "x_vercel_id": null,
         "location": null,
-        "observed_title": "Padua International Excellence Scholarship Programme | Università di Padova",
+        "observed_title": null,
         "pdf_signature": null,
         "has_2027_marker": false,
         "bytes_read": 131072,
         "outcome": "accessible",
         "error": null,
         "checked_at": "2026-11-11",
-        "method": "GET"
+        "method": "GET with Cache-Control and Pragma no-cache"
       },
       "browser_check": null
     },

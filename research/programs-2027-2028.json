@@ -34091,41 +34091,45 @@
     "program": "Ingegneria gestionale — Management Engineering English-taught track",
     "level": {
       "value": "MSc",
-      "status": "REQUIRES_VERIFICATION",
+      "status": "CONFIRMED",
       "source_ids": [
-        "SRC-PADOVA-MANAGEMENT-ENGINEERING-2026",
-        "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026"
+        "SRC-PADOVA-MANAGEMENT-ENGINEERING-2027",
+        "SRC-PADOVA-MANAGEMENT-ENGINEERING-APPLY-2027",
+        "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027"
       ],
-      "notes": "Official course identity is confirmed for the 2026/2027 catalogue; this value is not promoted to 2027/28 without a named-cycle source."
+      "notes": "The 2027/28 official English study-track page identifies the LM-31 Master's degree class."
     },
     "language": {
-      "value": "Italian and English (English-taught track)",
-      "status": "REQUIRES_VERIFICATION",
+      "value": "English (Management Engineering study track)",
+      "status": "CONFIRMED",
       "source_ids": [
-        "SRC-PADOVA-MANAGEMENT-ENGINEERING-2026",
-        "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026"
+        "SRC-PADOVA-MANAGEMENT-ENGINEERING-2027",
+        "SRC-PADOVA-MANAGEMENT-ENGINEERING-APPLY-2027",
+        "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027"
       ],
-      "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
+      "notes": "The current track page and 2027/28 application page identify this study track as English-taught; the wider Ingegneria gestionale degree also has a separate Italian curriculum."
     },
     "field": {
       "value": "Management Engineering",
-      "status": "REQUIRES_VERIFICATION",
+      "status": "CONFIRMED",
       "source_ids": [
-        "SRC-PADOVA-MANAGEMENT-ENGINEERING-2026",
-        "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026"
+        "SRC-PADOVA-MANAGEMENT-ENGINEERING-2027",
+        "SRC-PADOVA-MANAGEMENT-ENGINEERING-APPLY-2027",
+        "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027"
       ],
-      "notes": "Course subject identity is based on current official profile/catalogue evidence; next-cycle catalogue not yet verified."
+      "notes": null
     },
     "availability_2027_2028": {
-      "value": null,
-      "status": "NOT_YET_PUBLISHED",
+      "value": true,
+      "status": "CONFIRMED",
       "source_ids": [
-        "SRC-PADOVA-MANAGEMENT-ENGINEERING-2026",
-        "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026"
+        "SRC-PADOVA-MANAGEMENT-ENGINEERING-2027",
+        "SRC-PADOVA-MANAGEMENT-ENGINEERING-APPLY-2027",
+        "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027"
       ],
-      "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued."
+      "notes": "The official course page lists 2027/28 application calls and the application platform lists a 2027/28 intake starting 1 October 2027. This confirms the English-track offer through the published application route; a separate 2027/28 procedure for Italian qualifications has not been verified."
     },
-    "overall_status": "REQUIRES_VERIFICATION",
+    "overall_status": "CONFIRMED",
     "discovery_source": "previous_tracker",
     "facts": {
       "previous_cycle_course_listing": {
@@ -34144,41 +34148,89 @@
         "notes": "Official course profile/catalogue evidence is cycle-scoped to 2026/2027 and does not establish 2027/28 first-year admission."
       },
       "application_windows": {
-        "value": null,
-        "status": "NOT_YET_PUBLISHED",
-        "source_ids": [
-          "SRC-PADOVA-MANAGEMENT-ENGINEERING-2026",
-          "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026"
+        "value": [
+          {
+            "academic_year": "2027/28",
+            "round": "Call One",
+            "start": "2026-09-15",
+            "end": "2026-11-15",
+            "deadline_time": "23:59:59 CET (shown on the application platform)",
+            "route": "apply.unipd.it"
+          },
+          {
+            "academic_year": "2027/28",
+            "round": "Call Two",
+            "start": "2026-12-01",
+            "end": "2027-03-01",
+            "route": "apply.unipd.it"
+          },
+          {
+            "academic_year": "2027/28",
+            "round": "Call Three",
+            "start": "2027-04-01",
+            "end": "2027-06-01",
+            "eligible_group": "EU applicants and non-EU applicants residing in Italy only",
+            "route": "apply.unipd.it"
+          }
         ],
-        "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates."
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-MANAGEMENT-ENGINEERING-2027",
+          "SRC-PADOVA-MANAGEMENT-ENGINEERING-APPLY-2027",
+          "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027"
+        ],
+        "notes": "The course page publishes all three 2027/28 windows. The application platform currently gives Call One's exact closing time and an October 1, 2027 start; check the platform for applicant-category instructions and any later updates."
       },
       "application_fee_2027_2028": {
-        "value": null,
-        "status": "NOT_YET_PUBLISHED",
+        "value": {
+          "amount_eur": 60,
+          "frequency": "one-time"
+        },
+        "status": "CONFIRMED",
         "source_ids": [
-          "SRC-PADOVA-MANAGEMENT-ENGINEERING-2026",
-          "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026"
+          "SRC-PADOVA-MANAGEMENT-ENGINEERING-APPLY-2027"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal."
+        "notes": "Displayed on the official 2027/28 application page as a one-time fee."
       },
       "program_specific_requirements_2027_2028": {
-        "value": null,
-        "status": "NOT_YET_PUBLISHED",
+        "value": {
+          "minimum_entry_degree": "A bachelor's degree or equivalent after at least three years of undergraduate study",
+          "preferred_backgrounds": [
+            "Management Engineering",
+            "Mechanical Engineering",
+            "Industrial Engineering"
+          ],
+          "other_engineering_background": "May be considered when prior study covers management-related, statistical-related and technical subjects such as mechanics, automation, materials science, and theory/design of machines",
+          "not_eligible_backgrounds": [
+            "Management",
+            "Business",
+            "Economics"
+          ],
+          "country_specific_entry_title_and_gpa": "Check the University's country-based entry-title and GPA requirements; exact thresholds vary by country and are not restated on the programme page",
+          "general_evaluation_criteria": [
+            "GPA",
+            "Academic transcript",
+            "CV, with particular attention to activity since graduation from the entry degree"
+          ]
+        },
+        "status": "CONFIRMED",
         "source_ids": [
-          "SRC-PADOVA-MANAGEMENT-ENGINEERING-2026",
-          "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026"
+          "SRC-PADOVA-MANAGEMENT-ENGINEERING-APPLY-2027"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only."
+        "notes": "These are the requirements shown on the active 2027/28 application platform. Country-specific entry-title and GPA rules remain linked out and must be checked for each applicant's qualification."
       },
       "tuition_2027_2028": {
-        "value": null,
-        "status": "NOT_YET_PUBLISHED",
+        "value": {
+          "displayed_amount_eur_per_year": 2950,
+          "cycle_label_for_amount": "Not separately stated",
+          "income_based_reduction": "ISEE-based reductions may apply"
+        },
+        "status": "REQUIRES_VERIFICATION",
         "source_ids": [
-          "SRC-PADOVA-MANAGEMENT-ENGINEERING-2026",
-          "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026",
+          "SRC-PADOVA-MANAGEMENT-ENGINEERING-APPLY-2027",
           "SRC-PADUA-TUITION-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed."
+        "notes": "The application platform displays €2,950/year on the page for the 2027/28 intake, but does not separately date that amount. The University fee page reviewed on 11 November still links the 2026/27 fee notice; confirm the 2027/28 schedule before treating the displayed figure as current-cycle tuition."
       },
       "scholarships_2027_2028": {
         "value": {
@@ -34186,44 +34238,43 @@
           "academic_year": "2027/28",
           "university_allocation_eur": 1432200,
           "maximum_awards": 76,
-          "target": "Highest-ranked candidate per English-taught degree/curriculum, including newly activated programmes",
+          "target": "Most deserving candidate per English-taught degree/curriculum, including newly established programmes",
           "gross_eur_per_year": 8000,
           "university_tuition_fee_exemption": true,
-          "remaining_fees": [
-            "Regional fee",
-            "Revenue stamp"
-          ],
-          "maximum_duration_years": {
-            "MSc": 2,
-            "BSc": 3,
-            "single_cycle": 3
-          },
-          "award_conditions": "Competitive; selection and renewal subject to the forthcoming 2027/28 annual call"
+          "award_conditions": "Competitive; final eligibility, course-level award allocation, duration, other mandatory charges, selection and renewal terms await the 2027/28 annual call"
         },
         "status": "REQUIRES_VERIFICATION",
         "source_ids": [
           "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
           "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
         ],
-        "notes": "The University approved the scheme for English-taught degree programmes, including new programmes, but this record's 2027/28 intake, final language/approval or course-level inclusion is still pending. Do not show it as a confirmed course award."
+        "notes": "The 2027/28 English-track intake is confirmed, and the Board says awards are intended for the top candidate in each English-taught degree/curriculum. The annual scholarship call has not yet appeared on the programme page; confirm final eligibility, amount, selection and course-level allocation when it is published."
       },
       "acceptance_rate": {
         "value": null,
         "status": "UNAVAILABLE",
         "source_ids": [
-          "SRC-PADOVA-MANAGEMENT-ENGINEERING-2026",
-          "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026"
+          "SRC-PADOVA-MANAGEMENT-ENGINEERING-2027",
+          "SRC-PADOVA-MANAGEMENT-ENGINEERING-APPLY-2027",
+          "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027",
+          "SRC-PADOVA-ENGINEERING-OPEN-MSC-CALL-2026",
+          "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026",
+          "SRC-PADOVA-MANAGEMENT-ENGINEERING-2026"
         ],
-        "notes": "The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred."
+        "notes": "No comparable applicant and admitted-student totals are published; no acceptance rate is inferred."
       },
       "course_identity_correction": {
-        "value": "The official course is based in Vicenza and offers an English-taught study track; the legacy record's Padua-only/English-only description is overbroad",
+        "value": "Management Engineering is the English-taught study track within the LM-31 Ingegneria gestionale degree, based in Vicenza.",
         "status": "CONFIRMED",
         "source_ids": [
-          "SRC-PADOVA-MANAGEMENT-ENGINEERING-2026",
-          "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026"
+          "SRC-PADOVA-MANAGEMENT-ENGINEERING-2027",
+          "SRC-PADOVA-MANAGEMENT-ENGINEERING-APPLY-2027",
+          "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027",
+          "SRC-PADOVA-ENGINEERING-OPEN-MSC-CALL-2026",
+          "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026",
+          "SRC-PADOVA-MANAGEMENT-ENGINEERING-2026"
         ],
-        "notes": "Correction applies to 2026/27 course identity and does not establish the 2027/28 intake."
+        "notes": "This corrects the legacy standalone/Padua-only description; 2027/28 admission dates apply to the English application route."
       },
       "scholarship_call_details_2027_2028": {
         "value": null,
@@ -34231,7 +34282,304 @@
         "source_ids": [
           "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
         ],
-        "notes": "The official programme page says the 2027/28 annual call will be published in November 2026; as checked on 11 November the page still links the 2026/27 call. Confirm final eligibility, application/selection process and renewal criteria when the new notice appears."
+        "notes": "As checked on 11 November 2026, the scholarship programme page still links the 2026/27 annual call and says further information will be published in November 2026."
+      },
+      "official_course_listing_2027_2028": {
+        "value": {
+          "academic_year": "2027/28",
+          "official_name": "Management engineering (study track)",
+          "parent_degree": "Ingegneria gestionale",
+          "degree_class": "LM-31",
+          "degree_type": "Laurea Magistrale / Master's degree",
+          "program_type": "English-taught study track within the LM-31 Ingegneria gestionale degree",
+          "language": "English",
+          "campus": "Vicenza",
+          "duration_years": 2,
+          "credits_ects": 120,
+          "access": "Open admission with requirements",
+          "start_date": "2027-10-01",
+          "specialised_paths": [
+            "Smart operations",
+            "Analytics for business",
+            "Technology management"
+          ]
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-MANAGEMENT-ENGINEERING-2027",
+          "SRC-PADOVA-MANAGEMENT-ENGINEERING-APPLY-2027",
+          "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027"
+        ],
+        "notes": "The official profile names a study track within the parent degree rather than a separate English-language degree. The listed 2027/28 intake is confirmed through the English-track application page; this does not establish the separate Italian-qualification procedure."
+      },
+      "program_type": {
+        "value": "English-taught study track within the parent Italian/English LM-31 Ingegneria gestionale degree",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-MANAGEMENT-ENGINEERING-2027",
+          "SRC-PADOVA-MANAGEMENT-ENGINEERING-APPLY-2027",
+          "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027",
+          "SRC-PADOVA-MANAGEMENT-ENGINEERING-2026"
+        ],
+        "notes": null
+      },
+      "applicant_scope_2027_2028": {
+        "value": {
+          "application_route": "apply.unipd.it English-taught degree application platform",
+          "international_degree_seeker_definition": "Applicant holding a qualification obtained abroad",
+          "call_three_restriction": "EU applicants and non-EU applicants residing in Italy only",
+          "separate_italian_qualification_route": "Not verified in this review"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-MANAGEMENT-ENGINEERING-2027",
+          "SRC-PADOVA-MANAGEMENT-ENGINEERING-APPLY-2027",
+          "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027"
+        ],
+        "notes": "The University defines international degree-seekers by foreign qualification, not citizenship. The programme page states Call Three's residence/citizenship restriction; applicants should use the platform's category-specific instructions for the other calls."
+      },
+      "application_deadline": {
+        "value": {
+          "round": "Call One",
+          "date": "2026-11-15",
+          "time": "23:59:59 CET",
+          "study_start": "2027-10-01"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-MANAGEMENT-ENGINEERING-APPLY-2027"
+        ],
+        "notes": "The platform shows this as the current 2027/28 deadline; the course page lists later calls as separate windows."
+      },
+      "application_route": {
+        "value": "https://apply.unipd.it/courses/course/185-management-engineering",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-MANAGEMENT-ENGINEERING-2027",
+          "SRC-PADOVA-MANAGEMENT-ENGINEERING-APPLY-2027",
+          "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027"
+        ],
+        "notes": null
+      },
+      "application_fee": {
+        "value": {
+          "amount_eur": 60,
+          "frequency": "one-time"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-MANAGEMENT-ENGINEERING-APPLY-2027"
+        ],
+        "notes": "Displayed on the official 2027/28 application page as a one-time fee for this course application."
+      },
+      "selection_process_2027_2028": {
+        "value": {
+          "assessment_criteria": [
+            "GPA",
+            "Academic transcript",
+            "CV and post-graduation activities"
+          ],
+          "standardized_admission_test": "Not specified on the current application page"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-MANAGEMENT-ENGINEERING-APPLY-2027"
+        ],
+        "notes": "The portal lists document-based evaluation criteria; it does not publish a separate entrance test for this 2027/28 English-track route."
+      },
+      "english_language_requirement_2027_2028": {
+        "value": {
+          "minimum": "English B2 (CEFR) or equivalent certificate",
+          "certificate_list": "See the linked University language-requirements page for accepted certificates, minimum scores and exemptions"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-MANAGEMENT-ENGINEERING-APPLY-2027"
+        ],
+        "notes": null
+      },
+      "application_documents_2027_2028": {
+        "value": {
+          "evaluation_documents": [
+            "Academic transcript",
+            "CV"
+          ],
+          "qualification_document_language": [
+            "English",
+            "Italian"
+          ],
+          "translations_and_verification": "If documents are in another language, official translations and verified copies are required; originals and legalized copies are requested after admission, not at application stage"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-MANAGEMENT-ENGINEERING-APPLY-2027"
+        ],
+        "notes": null
+      },
+      "tuition_currently_displayed": {
+        "value": {
+          "amount_eur_per_year": 2950,
+          "page_context": "Displayed on the 2027/28 application platform page",
+          "cycle_label_for_amount": "Not separately stated",
+          "income_adjustment": "The page says fees may be significantly reduced based on ISEE"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-MANAGEMENT-ENGINEERING-APPLY-2027"
+        ],
+        "notes": "Confirms what the live page displays, not that €2,950 is the final payable 2027/28 amount."
+      },
+      "previous_cycle_program_requirements": {
+        "value": {
+          "academic_year": "2026/27",
+          "applicant_scope": "Applicants using an Italian qualification under the School of Engineering call; foreign qualifications followed the separate international procedure",
+          "access": "Open access with requirements",
+          "curricular_requirement_alternatives": [
+            {
+              "prior_degree_classes": [
+                "L-7",
+                "L-8",
+                "L-9"
+              ],
+              "requirements": [
+                {
+                  "minimum_credits": 18,
+                  "sectors": [
+                    "ING-IND/16",
+                    "ING-IND/17",
+                    "ING-IND/35"
+                  ]
+                },
+                {
+                  "minimum_credits": 18,
+                  "sectors": [
+                    "ING-IND/10",
+                    "ING-IND/11",
+                    "ING-IND/13",
+                    "ING-IND/14",
+                    "ING-IND/21",
+                    "ING-IND/22",
+                    "ING-INF/04",
+                    "ING-INF/05",
+                    "SECS-S/01"
+                  ]
+                }
+              ]
+            },
+            {
+              "prior_degree_classes": "Other Italian degree classes",
+              "requirements": [
+                {
+                  "minimum_credits": 30,
+                  "sectors": [
+                    "ING-IND/16",
+                    "ING-IND/17",
+                    "ING-IND/35",
+                    "ING-INF/04"
+                  ],
+                  "minimum_credits_in_each_named_sector": {
+                    "ING-IND/16": 5,
+                    "ING-IND/17": 5,
+                    "ING-IND/35": 5
+                  }
+                },
+                {
+                  "minimum_credits": 18,
+                  "sectors": [
+                    "ING-IND/10",
+                    "ING-IND/11",
+                    "ING-IND/13",
+                    "ING-IND/14",
+                    "ING-IND/21",
+                    "ING-IND/22",
+                    "SECS-S/01"
+                  ],
+                  "minimum_credits_in_each_sector_pair": [
+                    [
+                      "ING-IND/10",
+                      "ING-IND/11"
+                    ],
+                    [
+                      "ING-IND/13",
+                      "ING-IND/14"
+                    ],
+                    [
+                      "ING-IND/21",
+                      "ING-IND/22"
+                    ]
+                  ],
+                  "minimum_credits_per_pair": 5
+                }
+              ]
+            }
+          ],
+          "minimum_degree_grade": "84/110 or equivalent",
+          "english_for_management_engineering_curriculum": "B2 (CEFR) or higher"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-ENGINEERING-OPEN-MSC-CALL-2026",
+          "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026",
+          "SRC-PADOVA-MANAGEMENT-ENGINEERING-2026"
+        ],
+        "notes": "Prior-cycle requirements only. Do not apply the Italian SSD/CFU alternative table to applicants with foreign qualifications or carry it forward to 2027/28 without a new call."
+      },
+      "previous_cycle_application_windows": {
+        "value": {
+          "academic_year": "2026/27",
+          "eligible_group": "Applicants using an Italian qualification; foreign qualifications followed a separate international process",
+          "qualifying_degree_deadline": "2027-01-29",
+          "pre_enrolment": {
+            "start": "2026-07-15 15:00",
+            "end": "2027-01-29 12:00"
+          },
+          "curricular_assessment_application": {
+            "start": "2026-07-15 15:00",
+            "end": "2027-01-29 15:00"
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-ENGINEERING-OPEN-MSC-CALL-2026"
+        ],
+        "notes": "These dates are for the Italian-qualification route in the 2026/27 call and are not 2027/28 dates."
+      },
+      "previous_cycle_application_fee": {
+        "value": {
+          "amount_eur": 30,
+          "description": "Pre-enrolment contribution per application"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-ENGINEERING-OPEN-MSC-CALL-2026"
+        ],
+        "notes": "2026/27 Italian-qualification route only; the 2027/28 application-platform fee is separately recorded as €60 for its route."
+      },
+      "previous_cycle_access": {
+        "value": "Open access with curricular and personal-preparation requirements",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-ENGINEERING-OPEN-MSC-CALL-2026",
+          "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026",
+          "SRC-PADOVA-MANAGEMENT-ENGINEERING-2026"
+        ],
+        "notes": "2026/27 access classification only; it does not confirm the 2027/28 procedure for applicants using Italian qualifications."
+      },
+      "previous_cycle_entrance_test": {
+        "value": "No competitive entrance test specified; admission was based on assessment of curricular requirements, degree grade and English-language preparation",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-ENGINEERING-OPEN-MSC-CALL-2026"
+        ],
+        "notes": "Prior-cycle 2026/27 Italian-qualification route only."
+      },
+      "previous_cycle_available_places": {
+        "value": null,
+        "status": "NOT_APPLICABLE",
+        "source_ids": [
+          "SRC-PADOVA-ENGINEERING-OPEN-MSC-CALL-2026"
+        ],
+        "notes": "The 2026/27 call classifies the programme as open access with requirements and does not publish a capped seat quota."
       }
     },
     "source_ids": [
@@ -34239,7 +34587,11 @@
       "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026",
       "SRC-PADUA-TUITION-2026",
       "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
-      "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
+      "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME",
+      "SRC-PADOVA-MANAGEMENT-ENGINEERING-2027",
+      "SRC-PADOVA-MANAGEMENT-ENGINEERING-APPLY-2027",
+      "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027",
+      "SRC-PADOVA-ENGINEERING-OPEN-MSC-CALL-2026"
     ],
     "previous_tracker_tags": {
       "level": "MSc",
@@ -34247,14 +34599,8 @@
       "field": "Engineering",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
-    "previous_cycle_tags": {
-      "level": "MSc",
-      "language": "Italian and English (English-taught track)",
-      "field": "Management Engineering",
-      "cycle": "2026-2027",
-      "label": "Official course identity checked for 2026/2027; 2027/28 first-year intake and terms remain unconfirmed"
-    },
-    "last_checked": "2026-11-10"
+    "previous_cycle_tags": null,
+    "last_checked": "2026-11-11"
   },
   {
     "id": "legacy-162",

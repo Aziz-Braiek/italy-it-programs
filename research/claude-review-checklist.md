@@ -2,7 +2,7 @@
 
 Prepared 2026-11-11 for academic year 2027/28. Review each record against official university pages, calls, portals, regulations, and PDFs.
 
-Snapshot inventory: 34 universities, 209 program records, 642 source records.
+Snapshot inventory: 34 universities, 209 program records, 646 source records.
 
 ## Review rules
 
@@ -3549,6 +3549,10 @@ Official university-level sources:
 - [ ] `SRC-PADOVA-REGIONAL-SCHOLARSHIP-2026` — [Regional scholarship eligibility and 2026/27 call page](https://www.unipd.it/servizi/supporto-studio/borse-premi-studio/borse-studio-alloggi-sussidi-straordinari) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-PADOVA-DEVELOPMENTAL-PSYCHOLOGY-2026` — [Psicologia dello sviluppo e dell'educazione – official current degree profile](https://dpss.unipd.it/offerta-didattica/corsi-di-laurea-magistrale/?key=PS2975&ordinamento=2026&tipo=LM) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-PADOVA-MANAGEMENT-ENGINEERING-2026` — [Ingegneria gestionale – official Master's course profile](https://www.unipd.it/corsi-di-laurea-magistrali/ingegneria-gestionale) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-PADOVA-MANAGEMENT-ENGINEERING-2027` — [Management Engineering study track – official 2027/28 course profile and application windows](https://www.unipd.it/en/corsi-di-laurea/management-engineering-study-track) (cycle: 2027-2028; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-PADOVA-MANAGEMENT-ENGINEERING-APPLY-2027` — [Management Engineering – official 2027/28 application platform course page](https://apply.unipd.it/courses/course/185-management-engineering) (cycle: 2027-2028; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027` — [International degree-seeker application process – 2027/28](https://www.unipd.it/en/ammissione-studenti-internazionali) (cycle: 2027-2028; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-PADOVA-ENGINEERING-OPEN-MSC-CALL-2026` — [School of Engineering open-access Master's call – AY 2026/27](https://wwwassets.unipd.it/sites/default/files/2026-05/2026_EN_Avviso_LM_IngegneriaLiberi.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-PADOVA-AGRICULTURAL-SCIENCES-2026` — [Scienze e tecnologie agrarie – official programme profile](https://www.unipd.it/de/node/79184) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-PADOVA-MOLECULAR-BIOLOGY-BSC-2026` — [Biologia Molecolare – official bachelor's degree profile](https://biologia-molecolare.biologia.unipd.it/index.php?id=170) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-PADOVA-COMPUTER-ENGINEERING-BSC-2026` — [Ingegneria informatica – official bachelor's degree profile](https://www.unipd.it/corsi-di-laurea/ingegneria-informatica) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
@@ -3802,24 +3806,23 @@ Currently missing or unpublished fields:
 
 #### Ingegneria gestionale — Management Engineering English-taught track — `legacy-161`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
+- [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-11`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-161/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
+- [ ] `SRC-PADOVA-ENGINEERING-OPEN-MSC-CALL-2026` — [School of Engineering open-access Master's call – AY 2026/27](https://wwwassets.unipd.it/sites/default/files/2026-05/2026_EN_Avviso_LM_IngegneriaLiberi.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
 - [ ] `SRC-PADOVA-ENG-MSC-ADMISSIONS-2026` — [School of Engineering Master's admission inventory – AY 2026/27](https://www.unipd.it/en/ammissioni-ing-magistrali) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-PADOVA-MANAGEMENT-ENGINEERING-APPLY-2027` — [Management Engineering – official 2027/28 application platform course page](https://apply.unipd.it/courses/course/185-management-engineering) (cycle: 2027-2028; prior check: 2026-11-11)
 - [ ] `SRC-PADOVA-MANAGEMENT-ENGINEERING-2026` — [Ingegneria gestionale – official Master's course profile](https://www.unipd.it/corsi-di-laurea-magistrali/ingegneria-gestionale) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-PADOVA-MANAGEMENT-ENGINEERING-2027` — [Management Engineering study track – official 2027/28 course profile and application windows](https://www.unipd.it/en/corsi-di-laurea/management-engineering-study-track) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027` — [International degree-seeker application process – 2027/28](https://www.unipd.it/en/ammissione-studenti-internazionali) (cycle: 2027-2028; prior check: 2026-11-11)
 - [ ] `SRC-PADUA-INTL-EXCELLENCE-2027-BOARD` — [2027/28 Padua International Excellence Scholarship – Board allocation announcement](https://www.unipd.it/node/93348) (cycle: 2027-2028; prior check: 2026-11-11)
 - [ ] `SRC-PADUA-INTL-EXCELLENCE-PROGRAMME` — [Padua International Excellence Scholarship Programme – general terms and call status](https://www.unipd.it/en/padua-international-excellence-scholarship-programme) (cycle: general; prior check: 2026-11-11)
 - [ ] `SRC-PADUA-TUITION-2026` — [Student fees – 2026/27 fee notice and published tariff guidance](https://www.unipd.it/en/contribuzione-studentesca) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
-  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
-  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
-  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
-  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.
-  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
-  - `facts.scholarship_call_details_2027_2028` — `NOT_YET_PUBLISHED` — The official programme page says the 2027/28 annual call will be published in November 2026; as checked on 11 November the page still links the 2026/27 call. Confirm final eligibility, application/selection process and renewal criteria when the new notice appears.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — No comparable applicant and admitted-student totals are published; no acceptance rate is inferred.
+  - `facts.scholarship_call_details_2027_2028` — `NOT_YET_PUBLISHED` — As checked on 11 November 2026, the scholarship programme page still links the 2026/27 annual call and says further information will be published in November 2026.
 
 #### Scienze e tecnologie agrarie — `legacy-162`
 
@@ -5360,7 +5363,7 @@ Currently missing or unpublished fields:
 
 ## Source URL recheck results
 
-Checked 624 unique URLs representing 642 source records on 2026-11-11. Unique URL outcomes: {'accessible': 605, 'redirected': 13, 'inconclusive': 5, 'broken': 1}. HTTP 404/410 outcomes are listed as broken; TLS, timeout, and remote-disconnect cases remain inconclusive.
+Checked 627 unique URLs representing 646 source records on 2026-11-11. Unique URL outcomes: {'accessible': 608, 'redirected': 13, 'inconclusive': 5, 'broken': 1}. HTTP 404/410 outcomes are listed as broken; TLS, timeout, and remote-disconnect cases remain inconclusive.
 
 ### Redirected sources
 
