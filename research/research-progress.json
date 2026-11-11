@@ -10,6 +10,7 @@
     "Recheck sources that currently say information is not yet published.",
     "Recheck Padua's Management, Finance and Business Analytics proposal after the 12 November 2026 open day for course-specific admission information.",
     "Recheck Padua's Food Safety for Global Health application page when its course application links become available (the page says around December 2026).",
+    "Recheck Padua's proposed English programmes when approval decisions and course-specific 2027/28 admission pages are published.",
     "Run data and UI quality checks, deploy a preview, then repeat research/QA before any production deployment."
   ],
   "completed_batches": [
@@ -404,6 +405,11 @@
       "result": "Rechecked discovered-031, the proposed Management, Finance and Business Analytics BSc at the University of Padua. The English-degree catalogue still marks the 2027/28 proposal as awaiting approval. A University and Department open-day notice schedules presentation of the new course for 12 November 2026; the Department says entry requirements, tests, procedures and deadlines are planned discussion topics, but the notices publish no such rules or application call. The University overview lists 15:00–18:00, while the Department page lists registration from 15:00 and the event from 15:30–18:00; this timing difference is retained. Since the event was still in the future at the 11 November check, it does not confirm approval, first-year intake, course requirements, application dates or fees. The candidate remains pending. Fresh no-cache GETs returned HTTP 200 for the English-degree catalogue, University open-day page, Department event page and Padua International Excellence page; the latter still links the 2026/27 call and says 2027/28 call details will be published in November. No production changes were made."
     },
     {
+      "id": "padua-food-safety-global-health-proposal-and-application-link-review",
+      "status": "partial",
+      "result": "Reviewed discovered-032, Food Safety for Global Health, against the University of Padua's proposed English-degree catalogue and new School of Agricultural Sciences and Veterinary Medicine pages. The central catalogue still marks the 2027/28 English BSc proposal 'to be approved'. Department pages describe an international Bachelor's degree in Vicenza and a provisional outline with around 35% online teaching, a common first-two-year foundation and Food Safety or Global Health study plans in the third year; these are not final approved regulations. The dedicated Apply to FSH page routes Italian and international applicants separately and says application links will be available around December, but on 11 November no active course-specific application link, deadline, fee or entry checklist was published. A 2026/27 OFA page identifies FSH as starting in 2027/28 and mentions CEnT-S in connection with additional learning requirements; it does not establish that CEnT-S is mandatory or publish this course's admissions requirements or selection scores. The course credit page says general course rules are forthcoming and describes a separate €40 prior-credit recognition procedure for transfer/advanced-year cases; that amount is not an application fee. The course contact page lists cdl.foodsafety@unipd.it for academic and international enquiries. Fresh no-cache GETs returned HTTP 200 for all reviewed pages. First-year availability, formal approval, requirements, test obligation, deadlines, application fee, places, tuition and course-specific scholarships remain unconfirmed. No production changes were made."
+    },
+    {
       "id": "claude-independent-review-inventory",
       "status": "complete",
       "result": "Created a review manifest and checklist covering all 34 universities, 193 programs, and 454 existing official source records. The checklist exposes current unresolved fields and conflicts; all refresh outcomes remain pending until evidence is checked."
@@ -419,9 +425,9 @@
       "result": "Direct HTTP review covers 554 unique URLs across 568 source records: 519 accessible, 13 redirected, 22 inconclusive and 0 confirmed broken. All 21 previously inconclusive URLs were retried via direct HTTP on 11 November and remained inconclusive. The three Padua scholarship, scheme and tuition URLs, five earlier Padua admissions/Statistical Science source URLs, the central Astrophysics and Cosmology profile, and the new student-awards page returned HTTP 200. The new Astrophysics Department call URL was inconclusive by direct HTTP and content-open; an official indexed result exposed its 2027/28 call details, but the link is not counted as directly verified. Twelve older inconclusive sources were separately opened and inspected through the official content fetcher: ten Camerino pages/PDFs, one Trieste historical catalogue PDF, and one Federico II Quantum Science and Engineering page. Nine older URLs still lack a successful independent content fetch; a 11 November retry of those nine also timed out or could not retrieve the PDF. Keep all inconclusive links classified as inconclusive, not broken."
     },
     {
-      "id": "padua-food-safety-global-health-proposal-and-application-link-review",
+      "id": "padua-innovative-technologies-in-agriculture-proposal-and-study-guide-review",
       "status": "partial",
-      "result": "Reviewed discovered-032, Food Safety for Global Health, against the University of Padua's proposed English-degree catalogue and new School of Agricultural Sciences and Veterinary Medicine pages. The central catalogue still marks the 2027/28 English BSc proposal 'to be approved'. Department pages describe an international Bachelor's degree in Vicenza and a provisional outline with around 35% online teaching, a common first-two-year foundation and Food Safety or Global Health study plans in the third year; these are not final approved regulations. The dedicated Apply to FSH page routes Italian and international applicants separately and says application links will be available around December, but on 11 November no active course-specific application link, deadline, fee or entry checklist was published. A 2026/27 OFA page identifies FSH as starting in 2027/28 and mentions CEnT-S in connection with additional learning requirements; it does not establish that CEnT-S is mandatory or publish this course's admissions requirements or selection scores. The course credit page says general course rules are forthcoming and describes a separate €40 prior-credit recognition procedure for transfer/advanced-year cases; that amount is not an application fee. The course contact page lists cdl.foodsafety@unipd.it for academic and international enquiries. Fresh no-cache GETs returned HTTP 200 for all reviewed pages. First-year availability, formal approval, requirements, test obligation, deadlines, application fee, places, tuition and course-specific scholarships remain unconfirmed. No production changes were made."
+      "result": "Reviewed discovered-033, Innovative Technologies in Agriculture, against the University of Padua's English-degree catalogue and official 2027/28 study guide. Both list it as a new English-taught Bachelor's proposal awaiting approval; the guide places it under the School of Agricultural Sciences and Veterinary Medicine and within the three-year Bachelor's group. Its campus, first-year intake, course-specific application call, entry requirements, application fee, tuition, places and scholarship terms are not published in the reviewed official course sources. The University guide PDF was fetched directly with no-cache request headers (HTTP 200, valid PDF signature) and visually checked on its programme-list page; the PDF's own cache headers show a one-year max-age and nonzero Age. The record remains pending, and Padua is not treated as a confirmed course campus. No production changes were made."
     }
   ],
   "counts": {
@@ -714,7 +720,7 @@
       "trento",
       "udine"
     ],
-    "source_records": 682,
+    "source_records": 683,
     "official_source_supported_fields": 1436,
     "verification_statuses": [
       "CONFIRMED",

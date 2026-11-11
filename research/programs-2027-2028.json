@@ -42765,9 +42765,10 @@
       "value": "English (proposed)",
       "status": "CONFIRMED",
       "source_ids": [
-        "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+        "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+        "SRC-PADUA-AGTECH-GUIDE-2027"
       ],
-      "notes": "The official page is the English-taught programme catalogue; the individual proposal remains subject to approval."
+      "notes": "The English-degree catalogue and the University's 2027/28 study guide list the proposal as English-taught; the individual programme remains subject to approval."
     },
     "field": {
       "value": "Agricultural Technology",
@@ -42781,9 +42782,10 @@
       "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
-        "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+        "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+        "SRC-PADUA-AGTECH-GUIDE-2027"
       ],
-      "notes": "The university lists the programme for 2027/28 but explicitly says it is still to be approved. No course-specific 2027/28 call was identified."
+      "notes": "The university lists the programme for 2027/28 but explicitly says it is still to be approved. No course-specific 2027/28 call was identified. The University's 2027/28 study guide lists it under Agricultural Sciences and Veterinary Medicine as a three-year English-taught Bachelor's proposal, still 'to be approved'; it publishes no course-specific call or campus."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "newly_discovered",
@@ -42793,14 +42795,17 @@
           "academic_year": "2027/28",
           "proposed_name": "Innovative Technologies in Agriculture",
           "proposed_level": "Bachelor's degree",
-          "listed_in_english_degree_catalogue": true,
+          "duration_years_as_listed": 3,
+          "school": "Agricultural Sciences and Veterinary Medicine",
+          "listed_as_english_taught": true,
           "approval_status": "To be approved"
         },
         "status": "CONFIRMED",
         "source_ids": [
-          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+          "SRC-PADUA-AGTECH-GUIDE-2027"
         ],
-        "notes": "Confirms a published proposal only; it does not confirm accreditation, opening, or first-year admission."
+        "notes": "The English-degree catalogue and official 2027/28 study guide list the proposal as a three-year English-taught Bachelor's under the School of Agricultural Sciences and Veterinary Medicine, but mark it 'to be approved'. This does not establish final authorization, a first-year intake or admission terms."
       },
       "application_windows": {
         "value": null,
@@ -42863,6 +42868,15 @@
         ],
         "notes": "The University approved the scheme for English-taught degree programmes, including new programmes, but this record's 2027/28 intake, final language/approval or course-level inclusion is still pending. Do not show it as a confirmed course award."
       },
+      "course_location_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-PADUA-AGTECH-GUIDE-2027",
+          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+        ],
+        "notes": "The University guide identifies the School but gives no course-specific campus or teaching location for this proposed programme. Padua is the university's city, not a confirmed campus assignment for this course."
+      },
       "scholarship_call_details_2027_2028": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
@@ -42875,6 +42889,7 @@
     "source_ids": [
       "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
       "SRC-PADUA-INTL-2027",
+      "SRC-PADUA-AGTECH-GUIDE-2027",
       "SRC-PADUA-TUITION-2026",
       "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
       "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"

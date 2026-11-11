@@ -1315,6 +1315,14 @@ SOURCES = [
         "supports": ["program.planned_course_listing", "program.planned_level", "program.planned_language", "program.approval_status"],
     },
     {
+        "id": "SRC-PADUA-AGTECH-GUIDE-2027",
+        "university_id": "padova", "title": "Study with us 2027/28 – Agricultural Sciences and Veterinary Medicine programme list",
+        "url": "https://wwwassets.unipd.it/sites/default/files/2026-10/StudyWithUs_2027web_Finale.pdf",
+        "source_type": "Official University 2027/28 study guide PDF", "accessed_at": "2026-11-11", "cycle": "2027-2028",
+        "evidence": "The 2027/28 University study guide lists Innovative Technologies in Agriculture under the School of Agricultural Sciences and Veterinary Medicine in its English-taught Bachelor's degree list (three years), marked 'to be approved'. This is a proposed catalogue entry, not confirmation of final approval, first-year intake or course-specific admissions. The guide does not identify a campus for this proposal or provide its application call.",
+        "supports": ["program.official_planned_course_listing_2027_2028", "program.level", "program.language", "program.course_location_2027_2028"],
+    },
+    {
         "id": "SRC-PADUA-MAFBA-OPEN-DAY-2026",
         "university_id": "padova", "title": "Management, Finance and Business Analytics – scheduled open day",
         "url": "https://www.unipd.it/en/openday2026-27-economia-scienzepolitiche",
@@ -2138,6 +2146,12 @@ BATCH45 = {
     "result": "Reviewed discovered-032, Food Safety for Global Health, against the University of Padua's proposed English-degree catalogue and new School of Agricultural Sciences and Veterinary Medicine pages. The central catalogue still marks the 2027/28 English BSc proposal 'to be approved'. Department pages describe an international Bachelor's degree in Vicenza and a provisional outline with around 35% online teaching, a common first-two-year foundation and Food Safety or Global Health study plans in the third year; these are not final approved regulations. The dedicated Apply to FSH page routes Italian and international applicants separately and says application links will be available around December, but on 11 November no active course-specific application link, deadline, fee or entry checklist was published. A 2026/27 OFA page identifies FSH as starting in 2027/28 and mentions CEnT-S in connection with additional learning requirements; it does not establish that CEnT-S is mandatory or publish this course's admissions requirements or selection scores. The course credit page says general course rules are forthcoming and describes a separate €40 prior-credit recognition procedure for transfer/advanced-year cases; that amount is not an application fee. The course contact page lists cdl.foodsafety@unipd.it for academic and international enquiries. Fresh no-cache GETs returned HTTP 200 for all reviewed pages. First-year availability, formal approval, requirements, test obligation, deadlines, application fee, places, tuition and course-specific scholarships remain unconfirmed. No production changes were made.",
 }
 
+BATCH46 = {
+    "id": "padua-innovative-technologies-in-agriculture-proposal-and-study-guide-review",
+    "status": "partial",
+    "result": "Reviewed discovered-033, Innovative Technologies in Agriculture, against the University of Padua's English-degree catalogue and official 2027/28 study guide. Both list it as a new English-taught Bachelor's proposal awaiting approval; the guide places it under the School of Agricultural Sciences and Veterinary Medicine and within the three-year Bachelor's group. Its campus, first-year intake, course-specific application call, entry requirements, application fee, tuition, places and scholarship terms are not published in the reviewed official course sources. The University guide PDF was fetched directly with no-cache request headers (HTTP 200, valid PDF signature) and visually checked on its programme-list page; the PDF's own cache headers show a one-year max-age and nonzero Age. The record remains pending, and Padua is not treated as a confirmed course campus. No production changes were made.",
+}
+
 SOURCE_RECHECKS = {
     "SRC-UNIBO-AI-PROFILE-2026": {
         "accessed_at": "2026-11-11",
@@ -2476,6 +2490,37 @@ SOURCE_RECHECKS.update({
             "error": None,
             "checked_at": "2026-11-11",
             "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)",
+        },
+    },
+})
+
+SOURCE_RECHECKS.update({
+    "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://www.unipd.it/en/corsi-laurea-lingua-inglese",
+            "content_type": "text/html; charset=utf-8", "content_length_header": None,
+            "etag": None, "last_modified": None,
+            "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate", "age": None,
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Bachelor's, Master's degree and Single-cycle Master's degree programme in English | Università di Padova",
+            "pdf_signature": None, "has_2027_marker": True, "bytes_read": 1422172,
+            "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib)",
+        },
+    },
+    "SRC-PADUA-AGTECH-GUIDE-2027": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://wwwassets.unipd.it/sites/default/files/2026-10/StudyWithUs_2027web_Finale.pdf",
+            "content_type": "application/pdf", "content_length_header": "2681391",
+            "etag": "\"28ea2f-65d52eca260f0\"", "last_modified": "Thu, 08 Oct 2026 11:56:39 GMT",
+            "cache_control": "max-age=31536000", "age": "1471998",
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Studi with us a.a. 2027-2028",
+            "pdf_signature": "%PDF-", "has_2027_marker": True, "bytes_read": 2681391,
+            "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib); rendered page 31 for visual scope check",
         },
     },
 })
@@ -5120,6 +5165,7 @@ def apply(
     ]
     for pid, title, field_name, field_value in planned_padua:
         event_sources = ["SRC-PADUA-MAFBA-OPEN-DAY-2026", "SRC-PADUA-MAFBA-DEPARTMENT-OPEN-DAY-2026"] if pid == "discovered-031" else []
+        agriculture_guide_sources = ["SRC-PADUA-AGTECH-GUIDE-2027"] if pid == "discovered-033" else []
         food_safety_sources = [
             "SRC-PADUA-FOOD-SAFETY-PROFILE-2027",
             "SRC-PADUA-FOOD-SAFETY-APPLY-2027",
@@ -5128,7 +5174,7 @@ def apply(
             "SRC-PADUA-FOOD-SAFETY-CONTACT-2027",
             "SRC-PADUA-FOOD-SAFETY-CREDITS-2027",
         ] if pid == "discovered-032" else []
-        listing_sources = [padua_planned_source, *event_sources, *food_safety_sources]
+        listing_sources = [padua_planned_source, *event_sources, *food_safety_sources, *agriculture_guide_sources]
         candidate = make_program(
             pid, "padova", title, "BSc (proposed)", "English (proposed)", field_value,
             "REQUIRES_VERIFICATION", listing_sources,
@@ -5137,7 +5183,8 @@ def apply(
         )
         candidate["level"] = fact("BSc (proposed)", "CONFIRMED", [padua_planned_source],
             "The official catalogue places the item under Bachelor's Degree Programmes but explicitly marks it as a new programme awaiting approval.")
-        candidate["language"] = fact("English (proposed)", "CONFIRMED", [padua_planned_source],
+        candidate["language"] = fact("English (proposed)", "CONFIRMED", [padua_planned_source, *agriculture_guide_sources],
+            "The English-degree catalogue and the University's 2027/28 study guide list the proposal as English-taught; the individual programme remains subject to approval." if pid == "discovered-033" else
             "The official page is the English-taught programme catalogue; the individual proposal remains subject to approval.")
         candidate["field"] = fact(field_name, "REQUIRES_VERIFICATION", [padua_planned_source],
             "Field label is an editorial classification from the proposed programme title; no approved course specification is published.")
@@ -5146,6 +5193,8 @@ def apply(
             availability_note += " A Department open day is scheduled for 12 November 2026, but as checked on 11 November it has not yet occurred and does not confirm an intake or call."
         elif pid == "discovered-032":
             availability_note += " The Department now has a course profile and says application links will be available around December, but no active course application link or approved regulation was present on 11 November."
+        elif pid == "discovered-033":
+            availability_note += " The University's 2027/28 study guide lists it under Agricultural Sciences and Veterinary Medicine as a three-year English-taught Bachelor's proposal, still 'to be approved'; it publishes no course-specific call or campus."
         candidate["availability_2027_2028"] = fact(None, "REQUIRES_VERIFICATION", listing_sources, availability_note)
         candidate["facts"] = {
             "official_planned_course_listing_2027_2028": fact({"academic_year":"2027/28", "proposed_name":title.split(" (proposed")[0], "proposed_level":"Bachelor's degree", "listed_in_english_degree_catalogue":True, "approval_status":"To be approved"}, "CONFIRMED", listing_sources, "Confirms a published proposal only; it does not confirm accreditation, opening, or first-year admission."),
@@ -5155,7 +5204,7 @@ def apply(
             "tuition_2027_2028": fact(None, "REQUIRES_VERIFICATION", [padua_planned_source], "No course-specific 2027/28 fee is confirmed for this unapproved proposal."),
             "scholarships_2027_2028": fact(None, "REQUIRES_VERIFICATION", [padua_planned_source], "No programme-specific 2027/28 scholarship call is confirmed."),
         }
-        candidate["source_ids"] = list(dict.fromkeys([padua_planned_source, "SRC-PADUA-INTL-2027", *event_sources]))
+        candidate["source_ids"] = list(dict.fromkeys([padua_planned_source, "SRC-PADUA-INTL-2027", *event_sources, *agriculture_guide_sources]))
         if pid == "discovered-031":
             candidate["facts"]["department_open_day_notice"] = fact(
                 {"academic_year": "2027/28 proposed course", "scheduled_date": "2026-11-12", "department": "Economics and Management 'Marco Fanno'", "planned_topics": ["Course presentation", "Entry requirements", "Admission tests", "Admission procedures", "Deadlines"], "event_status_as_checked": "Scheduled; not yet held on 2026-11-11", "published_times": {"University_overview": "15:00–18:00", "Department_notice": "registration from 15:00; event 15:30–18:00"}},
@@ -5203,6 +5252,16 @@ def apply(
             candidate["facts"]["program_contact"] = fact(
                 {"academic_and_international_enquiries": "cdl.foodsafety@unipd.it"}, "CONFIRMED", ["SRC-PADUA-FOOD-SAFETY-CONTACT-2027"],
                 "The Department contact page lists this email for academic enquiries and for its International Desk contact; it is a contact route, not confirmation of intake or admission terms.",
+            )
+        elif pid == "discovered-033":
+            candidate["facts"]["official_planned_course_listing_2027_2028"] = fact(
+                {"academic_year": "2027/28", "proposed_name": "Innovative Technologies in Agriculture", "proposed_level": "Bachelor's degree", "duration_years_as_listed": 3, "school": "Agricultural Sciences and Veterinary Medicine", "listed_as_english_taught": True, "approval_status": "To be approved"},
+                "CONFIRMED", listing_sources,
+                "The English-degree catalogue and official 2027/28 study guide list the proposal as a three-year English-taught Bachelor's under the School of Agricultural Sciences and Veterinary Medicine, but mark it 'to be approved'. This does not establish final authorization, a first-year intake or admission terms.",
+            )
+            candidate["facts"]["course_location_2027_2028"] = fact(
+                None, "REQUIRES_VERIFICATION", ["SRC-PADUA-AGTECH-GUIDE-2027", padua_planned_source],
+                "The University guide identifies the School but gives no course-specific campus or teaching location for this proposed programme. Padua is the university's city, not a confirmed campus assignment for this course.",
             )
         candidate["last_checked"] = "2026-11-11"
         programs.append(candidate)
@@ -8235,7 +8294,7 @@ SOURCE_RECHECKS.update({
             "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate", "age": None,
             "x_vercel_cache": None, "x_vercel_id": None, "location": None,
             "observed_title": "Bachelor's, Master's degree and Single-cycle Master's degree programme in English | Università di Padova",
-            "pdf_signature": None, "has_2027_marker": True, "bytes_read": 1421154,
+            "pdf_signature": None, "has_2027_marker": True, "bytes_read": 1422172,
             "outcome": "accessible", "error": None,
             "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib)",
         },

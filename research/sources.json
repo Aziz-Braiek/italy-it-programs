@@ -22688,11 +22688,48 @@
       "observed_title": "Bachelor's, Master's degree and Single-cycle Master's degree programme in English | Università di Padova",
       "pdf_signature": null,
       "has_2027_marker": true,
-      "bytes_read": 1421154,
+      "bytes_read": 1422172,
       "outcome": "accessible",
       "error": null,
       "checked_at": "2026-11-11",
       "method": "GET with Cache-Control and Pragma no-cache (Python urllib)"
+    }
+  },
+  {
+    "id": "SRC-PADUA-AGTECH-GUIDE-2027",
+    "university_id": "padova",
+    "title": "Study with us 2027/28 – Agricultural Sciences and Veterinary Medicine programme list",
+    "url": "https://wwwassets.unipd.it/sites/default/files/2026-10/StudyWithUs_2027web_Finale.pdf",
+    "source_type": "Official University 2027/28 study guide PDF",
+    "accessed_at": "2026-11-11",
+    "cycle": "2027-2028",
+    "evidence": "The 2027/28 University study guide lists Innovative Technologies in Agriculture under the School of Agricultural Sciences and Veterinary Medicine in its English-taught Bachelor's degree list (three years), marked 'to be approved'. This is a proposed catalogue entry, not confirmation of final approval, first-year intake or course-specific admissions. The guide does not identify a campus for this proposal or provide its application call.",
+    "supports": [
+      "program.official_planned_course_listing_2027_2028",
+      "program.level",
+      "program.language",
+      "program.course_location_2027_2028"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://wwwassets.unipd.it/sites/default/files/2026-10/StudyWithUs_2027web_Finale.pdf",
+      "content_type": "application/pdf",
+      "content_length_header": "2681391",
+      "etag": "\"28ea2f-65d52eca260f0\"",
+      "last_modified": "Thu, 08 Oct 2026 11:56:39 GMT",
+      "cache_control": "max-age=31536000",
+      "age": "1471998",
+      "x_vercel_cache": null,
+      "x_vercel_id": null,
+      "location": null,
+      "observed_title": "Studi with us a.a. 2027-2028",
+      "pdf_signature": "%PDF-",
+      "has_2027_marker": true,
+      "bytes_read": 2681391,
+      "outcome": "accessible",
+      "error": null,
+      "checked_at": "2026-11-11",
+      "method": "GET with Cache-Control and Pragma no-cache (Python urllib); rendered page 31 for visual scope check"
     }
   },
   {

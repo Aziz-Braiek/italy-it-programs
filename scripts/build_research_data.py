@@ -1504,6 +1504,7 @@ def build():
             "Recheck sources that currently say information is not yet published.",
             "Recheck Padua's Management, Finance and Business Analytics proposal after the 12 November 2026 open day for course-specific admission information.",
             "Recheck Padua's Food Safety for Global Health application page when its course application links become available (the page says around December 2026).",
+            "Recheck Padua's proposed English programmes when approval decisions and course-specific 2027/28 admission pages are published.",
             "Run data and UI quality checks, deploy a preview, then repeat research/QA before any production deployment.",
         ],
         "completed_batches": [
@@ -1586,6 +1587,7 @@ def build():
             research_final_refresh.BATCH43,
             research_final_refresh.BATCH44,
             research_final_refresh.BATCH45,
+            research_final_refresh.BATCH46,
         ],
         "counts": coverage,
     }
