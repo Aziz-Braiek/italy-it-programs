@@ -1369,6 +1369,50 @@ SOURCES = [
         "evidence": "The BBS page explicitly advertises 2027/28 applications opening soon, four selection rounds between March and September 2027, and an October 2027 start. It identifies Analytics and AI for Marketing as a track within the Marketing Management first-level Professional Master, not as a separate Laurea Magistrale or stand-alone degree. The track is full-time, English-language, 12 months and 60 ECTS at the BBS campus in Bologna, run with the University of Bologna Department of Management (DISA). The annual call is pending. The page currently displays €14,800 tuition, €4,000 and €6,000 partial awards, B2 English, a Bachelor's degree, selection tests/interview and a €60 application fee; these are not labelled as 2027/28 terms and remain current displayed information pending the annual call.",
         "supports": ["program.name", "program.level", "program.language", "program.location", "program.duration", "program.credits", "program.program_type", "program.availability_2027_2028", "program.selection_period_2027_2028", "program.current_published_fees", "program.current_published_requirements"],
     },
+    {
+        "id": "SRC-SAPIENZA-MEDICINE-VARIANTS-2026",
+        "university_id": "sapienza",
+        "title": "Medicine and Surgery course variants – AY 2026/27 catalogue",
+        "url": "https://corsidilaurea.uniroma1.it/it/solr-offerta-formativa-t?search_api_views_fulltext=Medicina+e+chirurgia",
+        "source_type": "Official Sapienza course catalogue search",
+        "accessed_at": "2026-11-11",
+        "cycle": "2026-2027",
+        "evidence": "The current official AY 2026/27 catalogue lists eight Italian-taught LM-41 single-cycle Medicine and Surgery variants: A (33452), B (33559), C (33560), D (33561), E/Polo Pontino (33453), HT (33562), Sant'Andrea (33567), and G/Rieti (32925). Each is marked Semestre filtro. It separately lists Medicine and Surgery F (33454), six-year single-cycle LM-41, English, Rome, with admission-test access. The legacy tracker row does not specify a campus/variant and remains an umbrella lead, not a one-to-one course match.",
+        "supports": ["program.previous_cycle_course_listing", "program.previous_cycle_language", "program.previous_cycle_admission_route"],
+    },
+    {
+        "id": "SRC-SAPIENZA-MEDICINE-F-PROFILE-2026",
+        "university_id": "sapienza",
+        "title": "Medicine and Surgery F – AY 2026/27 course profile",
+        "url": "https://corsidilaurea.uniroma1.it/en/course/33454",
+        "source_type": "Official Sapienza course profile",
+        "accessed_at": "2026-11-11",
+        "cycle": "2026-2027",
+        "evidence": "Course 33454 is a six-year single-cycle LM-41 degree in Rome, taught in English and marked as admission-test access. This identifies only the English F variant; it does not resolve which Sapienza Medicine course the generic legacy row intended.",
+        "supports": ["program.previous_cycle_course_listing", "program.previous_cycle_language", "program.previous_cycle_admission_route"],
+    },
+    {
+        "id": "SRC-SAPIENZA-MEDICINE-F-CALL-2026",
+        "university_id": "sapienza",
+        "title": "Medicine and Surgery F – AY 2026/27 admission call",
+        "url": "https://www.corsidilaurea.uniroma1.it/sites/default/files/offertaformativa/documenti_ufficiali/187/33454_i.pdf",
+        "source_type": "Official Sapienza admission call PDF",
+        "accessed_at": "2026-11-11",
+        "cycle": "2026-2027",
+        "evidence": "The 2026/27 Sapienza call for the English-language Medicine and Surgery F course states 52 places for Italian/EU/equivalent applicants and 13 for non-EU residents abroad. Universitaly registration ran 26 August–9 September 2026 at 15:00 Rome time; the in-person test was 29 September. It required a secondary-school diploma obtained or to be obtained in 2026, plus the separate visa-pre-enrolment route by 30 June for non-EU applicants resident abroad. The test comprised 60 questions in 100 minutes, scored +1.5 correct, −0.4 incorrect and 0 blank; the ranking threshold was at least 20 for Italian/EU/equivalent applicants and above zero for non-EU residents abroad. Listed language certificates are tie-break evidence, not a separately stated minimum entry requirement. The call requires a test contribution through Universitaly but does not state its amount. All of these are historical 2026/27 terms.",
+        "supports": ["program.previous_cycle_course_listing", "program.previous_cycle_application_windows", "program.previous_cycle_available_places", "program.previous_cycle_admission_requirements", "program.previous_cycle_entrance_test", "program.previous_cycle_application_fee"],
+    },
+    {
+        "id": "SRC-SAPIENZA-MEDICINE-OPEN-SEMESTER-2026",
+        "university_id": "sapienza",
+        "title": "Medicine and Surgery – AY 2026/27 open-semester procedure",
+        "url": "https://www.uniroma1.it/it/notizia/semestre-aperto-2026-2027-i-corsi-di-medicina-e-chirurgia-e-di-odontoiatria-e-protesi",
+        "source_type": "Official Sapienza open-semester admissions guidance",
+        "accessed_at": "2026-11-11",
+        "cycle": "2026-2027",
+        "evidence": "Sapienza's 2026/27 open-semester guidance concerns its Italian-taught Medicine and Surgery routes: three 6-CFU foundation courses (Biology, Chemistry and Biochemical Preparations, Physics); Universitaly registration 13 July–3 August 2026 at 18:00, followed by Sapienza payment by 6 August; compulsory attendance; and national ranking after exam sessions on 10 December 2026 and 11 January 2027. The semester contribution is €250, reduced to €200 for qualifying ISEE between €22,000 and €30,000, with specified total exemptions including ISEE up to €22,000, disability/invalidity at least 66%, DiSCo eligibility/award and MAECI award. The page requires an upper-secondary diploma obtained or expected in 2026; non-EU applicants abroad needing a visa had to pre-enrol by 30 June 2026 and meet Italian B2. It names five Sapienza sites available for later course preferences (Policlinico, HT, Sant'Andrea, Polo Pontino and Rieti). These rules are prior-cycle only and do not establish 2027/28 intake.",
+        "supports": ["program.previous_cycle_course_listing", "program.previous_cycle_application_windows", "program.previous_cycle_application_fee", "program.previous_cycle_admission_requirements", "program.previous_cycle_entrance_test", "program.previous_cycle_tuition"],
+    },
 ]
 
 BATCH = {
@@ -1519,6 +1563,12 @@ BATCH25 = {
     "id": "unibo-ingegneria-informatica-2026-27-admissions-review",
     "status": "partial",
         "result": "Rechecked Bologna Ingegneria informatica against its current course profile, 2026/27 catalogue, four-intake annual admission call, current linked course-specific personal-preparation guide (the PDF is not cycle-labelled), and the separate Ubiquitous Systems and Networks double-degree notice. Confirmed course 6719: two-year LM-32 in Bologna, open access without a capped cohort, with the Italian/English curricula listed by the University. The 2026/27 base call opened four application intakes from 4 June through 28 October 2026, with outcomes through 9 November and enrollment deadlines through 19 November; all application windows are closed, and the call is not next-cycle evidence. Applicants needed a first-cycle three-year degree or recognized foreign equivalent, defined curricular credits (or specified degree classes), English B2, and a positive committee assessment of personal preparation. The course guide ties assessment to final degree marks and subject-credit totals: at least 107/110 satisfies the mark route; 92–106 requires at least 60 relevant CFU with subfield minima; below 92 requires at least 90 relevant CFU with higher subfield minima. Current undergraduates needed 165 CFU and a weighted-average equivalent assessed by those criteria. Applications were submitted through Studenti Online with the required course workbook; the call does not state an application-fee amount, so none is inferred. 2026/27 tuition was ISEE-progressive with a €157.04 fixed component and a €2,550 maximum comprehensive contribution for second-cycle courses, excluding regional tax, stamp duty and insurance; code 6719 is not separately listed as a higher-contribution course. A distinct 2026/27 supplementary double-degree call limited Ubiquitous Systems and Networks to five already-admitted students, with a second year at Université Côte d’Azur; it is not the main intake process. No 2027/28 catalogue or admissions call was present in the reviewed material; availability, deadlines, curricular and language rules, fees, tuition, scholarships, and double-degree terms remain pending for that cycle. Fresh no-cache GETs returned HTTP 200 for all six official pages/PDFs, and all three PDF signatures were valid.",
+}
+
+BATCH26 = {
+    "id": "sapienza-medicine-2026-27-variant-and-admissions-route-review",
+    "status": "partial",
+    "result": "Rechecked Sapienza Medicine against its live 2026/27 catalogue, English course profile and full English-course admission call, plus the University open-semester guidance for Italian-taught Medicine. Resolved the generic legacy label as an umbrella record with no campus/track match: the catalogue lists eight Italian-taught LM-41 variants using the open-semester route and one separate English-taught six-year course F (33454) using the admission-test route. Recorded the Italian route's Universitaly and payment dates, three 6-CFU subjects, exam/ranking structure, €250 flat semester contribution and documented ISEE/disability/aid waivers. For English F, recorded 52 EU/equivalent and 13 non-EU-abroad places, 26 August–9 September 2026 registration, 29 September test, 60-question/100-minute format, scoring and citizenship-group thresholds. The English call requires a 2026 secondary diploma (or expected in 2026), and its Universitaly test-payment amount is not stated; no application charge is inferred. The 2026/27 ordinary second contribution group is €2,924 before individual ISEE/eligibility rules, while the open-semester payment is a separate first-stage amount; regional tax and stamp duty are additional. The existing 2026/27 scholarship records are historical and the Wanted the Best scheme is not assumed to cover this single-cycle course. No 2027/28 course listing, call, deadline, fee schedule or new-entrant scholarship call was published in the reviewed pages, so availability and terms remain not yet announced and the umbrella-to-course match remains unresolved. Fresh no-cache GETs returned HTTP 200 for five official catalogue, course, admissions and PDF endpoints; the call PDF had a valid %PDF signature. No site or deployment changes were made.",
 }
 
 SOURCE_RECHECKS = {
@@ -2416,6 +2466,69 @@ SOURCE_RECHECKS.update({
             "etag": None, "last_modified": "06/09/2026 10:25:44 +00:00", "cache_control": "must-revalidate, max-age=0, s-maxage=0", "age": "120",
             "x_vercel_cache": None, "x_vercel_id": None, "location": None, "observed_title": None,
             "pdf_signature": True, "has_2027_marker": False, "bytes_read": 238447, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)",
+        },
+    },
+})
+
+SOURCE_RECHECKS.update({
+    "SRC-SAPIENZA-MEDICINE-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://corsidilaurea.uniroma1.it/it/solr-offerta-formativa-t?search_api_views_fulltext=Medicina+e+chirurgia",
+            "content_type": "text/html; charset=utf-8", "content_length_header": 656795,
+            "etag": "W/\"1794392765-1\"", "last_modified": "11/11/2026 10:26:05 +00:00",
+            "cache_control": "public, max-age=0", "age": "0", "x_vercel_cache": None, "x_vercel_id": None,
+            "location": None, "observed_title": "Catalogo dei corsi di studio | Course catalogue", "pdf_signature": None,
+            "has_2027_marker": False, "bytes_read": 656795, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)",
+        },
+    },
+    "SRC-SAPIENZA-MEDICINE-VARIANTS-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://corsidilaurea.uniroma1.it/it/solr-offerta-formativa-t?search_api_views_fulltext=Medicina+e+chirurgia",
+            "content_type": "text/html; charset=utf-8", "content_length_header": 656795,
+            "etag": "W/\"1794392765-1\"", "last_modified": "11/11/2026 10:26:05 +00:00",
+            "cache_control": "public, max-age=0", "age": "0", "x_vercel_cache": None, "x_vercel_id": None,
+            "location": None, "observed_title": "Catalogo dei corsi di studio | Course catalogue", "pdf_signature": None,
+            "has_2027_marker": False, "bytes_read": 656795, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)",
+        },
+    },
+    "SRC-SAPIENZA-MEDICINE-F-PROFILE-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://corsidilaurea.uniroma1.it/en/course/33454",
+            "content_type": "text/html; charset=utf-8", "content_length_header": 20508,
+            "etag": "W/\"1794390244-1\"", "last_modified": "11/11/2026 09:44:04 +00:00",
+            "cache_control": "public, max-age=0", "age": "0", "x_vercel_cache": None, "x_vercel_id": None,
+            "location": None, "observed_title": "Medicine and Surgery &quot;F&quot; | Course catalogue", "pdf_signature": None,
+            "has_2027_marker": False, "bytes_read": 20508, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)",
+        },
+    },
+    "SRC-SAPIENZA-MEDICINE-F-CALL-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://www.corsidilaurea.uniroma1.it/sites/default/files/offertaformativa/documenti_ufficiali/187/33454_i.pdf",
+            "content_type": "application/pdf", "content_length_header": 774667,
+            "etag": "\"bd20b-6587616b09e56\"", "last_modified": "08/07/2026 14:47:50 +00:00",
+            "cache_control": None, "age": "95", "x_vercel_cache": None, "x_vercel_id": None,
+            "location": None, "observed_title": None, "pdf_signature": True,
+            "has_2027_marker": False, "bytes_read": 774667, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)",
+        },
+    },
+    "SRC-SAPIENZA-MEDICINE-OPEN-SEMESTER-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://www.uniroma1.it/it/notizia/semestre-aperto-2026-2027-i-corsi-di-medicina-e-chirurgia-e-di-odontoiatria-e-protesi",
+            "content_type": "text/html; charset=utf-8", "content_length_header": 70538,
+            "etag": "\"1794392250-1\"", "last_modified": "11/11/2026 10:17:30 +00:00",
+            "cache_control": "public, max-age=86400", "age": None, "x_vercel_cache": None, "x_vercel_id": None,
+            "location": None, "observed_title": "Semestre aperto 2026-2027 per i corsi di Medicina e Chirurgia e di Odontoiatria e protesi dentaria in Sapienza | Sapienza Università di Roma",
+            "pdf_signature": None, "has_2027_marker": False, "bytes_read": 70538, "outcome": "accessible", "error": None,
             "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)",
         },
     },
@@ -3744,6 +3857,167 @@ def apply(
     programs.append(eap)
 
     apply_legacy_course_reviews(programs, fact)
+
+    medicine = next(program for program in programs if program.get("id") == "legacy-153")
+    medicine_sources = [
+        "SRC-SAPIENZA-MEDICINE-2026",
+        "SRC-SAPIENZA-MEDICINE-VARIANTS-2026",
+        "SRC-SAPIENZA-MEDICINE-F-PROFILE-2026",
+        "SRC-SAPIENZA-MEDICINE-F-CALL-2026",
+        "SRC-SAPIENZA-MEDICINE-OPEN-SEMESTER-2026",
+        "SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026",
+        "SRC-SAPIENZA-INTL-OFFICE-2026",
+        "SRC-SAPIENZA-FEES-2026",
+        "SRC-SAPIENZA-FEE-TABLE-2026",
+        "SRC-SAPIENZA-WANTED-BEST-2026",
+        "SRC-SAPIENZA-DISCO-LAZIO-2026",
+    ]
+    medicine["program"] = "Medicina e Chirurgia (campus/track unresolved)"
+    medicine["level"] = fact(
+        "Single-cycle Master's (LM-41)", "REQUIRES_VERIFICATION", ["SRC-SAPIENZA-MEDICINE-VARIANTS-2026", "SRC-SAPIENZA-MEDICINE-F-PROFILE-2026"],
+        "All reviewed 2026/27 variants are six-year LM-41 single-cycle Master's degrees; verify which variant, if any, is offered for first-year entry in 2027/28.",
+    )
+    medicine["language"] = fact(
+        "Italian and English (distinct course variants)", "REQUIRES_VERIFICATION", ["SRC-SAPIENZA-MEDICINE-VARIANTS-2026", "SRC-SAPIENZA-MEDICINE-F-PROFILE-2026"],
+        "2026/27 catalogue has eight Italian variants and one distinct English variant; the legacy record does not identify one course and no 2027/28 course listing has been found.",
+    )
+    medicine["field"] = fact(
+        "Medicine and Surgery", "REQUIRES_VERIFICATION", ["SRC-SAPIENZA-MEDICINE-VARIANTS-2026", "SRC-SAPIENZA-MEDICINE-F-PROFILE-2026"],
+        "Historical course identity only; the legacy row is an unresolved umbrella and 2027/28 offer remains unpublished.",
+    )
+    medicine["availability_2027_2028"] = fact(
+        None, "NOT_YET_PUBLISHED", ["SRC-SAPIENZA-MEDICINE-VARIANTS-2026", "SRC-SAPIENZA-MEDICINE-F-PROFILE-2026", "SRC-SAPIENZA-MEDICINE-F-CALL-2026", "SRC-SAPIENZA-MEDICINE-OPEN-SEMESTER-2026"],
+        "Not yet announced for 2027/28 in the official Sapienza catalogue, course page and admissions material reviewed on 11 November 2026. The prior tracker did not identify a campus or track, so the nine 2026/27 variants remain an umbrella identity match; absence of a 2027/28 call is not treated as discontinuation.",
+    )
+    medicine["overall_status"] = "REQUIRES_VERIFICATION"
+    medicine["source_ids"] = medicine_sources
+    medicine["facts"] = {
+        "previous_cycle_course_listing": fact(
+            {
+                "academic_year": "2026/27",
+                "degree_class": "LM-41",
+                "duration_years": 6,
+                "degree_type": "Single-cycle Master's degree",
+                "italian_taught_variants": [
+                    {"name": "Medicina e chirurgia A", "course_code": "33452", "campus": "Policlinico Umberto I", "admission_route": "Semestre filtro"},
+                    {"name": "Medicina e chirurgia B", "course_code": "33559", "campus": "Policlinico Umberto I", "admission_route": "Semestre filtro"},
+                    {"name": "Medicina e chirurgia C", "course_code": "33560", "campus": "Policlinico Umberto I", "admission_route": "Semestre filtro"},
+                    {"name": "Medicina e chirurgia D", "course_code": "33561", "campus": "Policlinico Umberto I", "admission_route": "Semestre filtro"},
+                    {"name": "Medicina e chirurgia E", "course_code": "33453", "campus": "Polo Pontino", "admission_route": "Semestre filtro"},
+                    {"name": "Medicina e chirurgia HT", "course_code": "33562", "campus": "Rome", "admission_route": "Semestre filtro"},
+                    {"name": "Medicina e chirurgia", "course_code": "33567", "campus": "Sant'Andrea", "admission_route": "Semestre filtro"},
+                    {"name": "Medicina e chirurgia G", "course_code": "32925", "campus": "Rieti", "admission_route": "Semestre filtro"},
+                ],
+                "english_taught_variant": {"name": "Medicine and Surgery F", "course_code": "33454", "campus": "Rome", "admission_route": "Admission test"},
+                "legacy_match": "Unresolved umbrella entry; the previous tracker supplied no course code, campus or track, so no single variant is assigned.",
+            },
+            "CONFIRMED", ["SRC-SAPIENZA-MEDICINE-VARIANTS-2026", "SRC-SAPIENZA-MEDICINE-F-PROFILE-2026"],
+            "The catalogue confirms the cycle-specific course variants, class, duration, language and admission-route split for 2026/27 only. It does not establish that every variant will accept a new cohort in 2027/28.",
+        ),
+        "previous_cycle_admission_routes": fact(
+            {
+                "italian_taught_variants": {
+                    "route": "National open semester (semestre aperto/semestre filtro)",
+                    "universitaly_registration": {"start": "2026-07-13", "deadline": "2026-08-03 18:00 Europe/Rome"},
+                    "sapienza_contribution_deadline": "2026-08-06",
+                    "sapienza_campus_choices_for_later_study": ["Policlinico", "HT", "Sant'Andrea", "Polo Pontino", "Rieti"],
+                    "registration_notes": "Candidates selected the Sapienza teaching location for the semester and listed course locations/preferences for the post-semester ranking; this is a prior-cycle process, not a 2027/28 timetable.",
+                },
+                "english_taught_F_variant": {
+                    "route": "Separate national English-language admission test and ranking",
+                    "universitaly_registration": {"start": "2026-08-26", "deadline": "2026-09-09 15:00 Europe/Rome"},
+                    "infostud_registration_if_testing_at_sapienza": {"start": "2026-08-07", "deadline": "2026-09-09"},
+                    "test_date": "2026-09-29",
+                    "non_eu_abroad_visa_pre_enrolment_deadline": "2026-06-30",
+                },
+            },
+            "CONFIRMED", ["SRC-SAPIENZA-MEDICINE-OPEN-SEMESTER-2026", "SRC-SAPIENZA-MEDICINE-F-CALL-2026"],
+            "These are distinct 2026/27 routes. The Italian open semester and the English F admission-test call must not be combined as if they applied to the same track.",
+        ),
+        "previous_cycle_application_windows": fact(
+            {
+                "italian_open_semester": {"universitaly_registration": ["2026-07-13", "2026-08-03 18:00 Europe/Rome"], "sapienza_payment_deadline": "2026-08-06", "exam_sessions": ["2026-12-10", "2027-01-11"]},
+                "english_F": {"universitaly_registration": ["2026-08-26", "2026-09-09 15:00 Europe/Rome"], "test": "2026-09-29", "first_national_ranking": "2026-10-26", "first_later_scroll": "2026-11-03"},
+            },
+            "CONFIRMED", ["SRC-SAPIENZA-MEDICINE-OPEN-SEMESTER-2026", "SRC-SAPIENZA-MEDICINE-F-CALL-2026"],
+            "Expired dates for AY 2026/27 only. English F's non-EU applicants resident abroad also had to submit Universitaly visa pre-enrolment by 30 June 2026; the open-semester page states the same outer deadline for visa applicants.",
+        ),
+        "previous_cycle_available_places": fact(
+            {"english_F_2026_27": {"italian_eu_and_equivalent": 52, "non_eu_resident_abroad": 13}, "italian_open_semester_variants": "Course-level 2026/27 seat totals are not stated in the reviewed Sapienza open-semester guidance."},
+            "CONFIRMED", ["SRC-SAPIENZA-MEDICINE-F-CALL-2026", "SRC-SAPIENZA-MEDICINE-OPEN-SEMESTER-2026"],
+            "The 65-seat split is for English course F only and is not a total for all Sapienza Medicine variants. No Italian-route capacity is inferred.",
+        ),
+        "previous_cycle_admission_requirements": fact(
+            {
+                "italian_taught_open_semester": {"secondary_credential": "Upper-secondary diploma obtained or expected in 2026", "non_eu_abroad_visa_applicants": {"universitaly_pre_enrolment_deadline": "2026-06-30", "italian_language": "B2 test or recognized certificate"}},
+                "english_taught_F": {"secondary_credential": "Upper-secondary diploma obtained or expected in 2026", "non_eu_abroad_visa_applicants": {"universitaly_pre_enrolment_deadline": "2026-06-30"}, "english_certificates": "Recognized certificates (including listed B2 levels) are used as ranking tie-break evidence; the reviewed call does not state a separate minimum English certificate as an entry requirement.", "gpa": "No separate GPA threshold stated in the reviewed 2026/27 call."},
+            },
+            "CONFIRMED", ["SRC-SAPIENZA-MEDICINE-OPEN-SEMESTER-2026", "SRC-SAPIENZA-MEDICINE-F-CALL-2026"],
+            "These historical rules are route-specific. Foreign credentials require the University’s document and qualification review. Do not transfer them to 2027/28 without the new call.",
+        ),
+        "previous_cycle_entrance_test": fact(
+            {
+                "italian_taught_open_semester": {"subjects": [{"name": "Biology", "cfu": 6}, {"name": "Chemistry and Biochemical Preparations", "cfu": 6}, {"name": "Physics", "cfu": 6}], "attendance": "Compulsory, with exemptions described by the University", "exam_format_each": "31 completion items and 21 multiple-choice items; 50 minutes", "scoring_each": {"correct": 1, "incorrect": -0.1, "blank": 0}, "exam_dates": ["2026-12-10", "2027-01-11"], "ranking": "Three sections ordered by number of passed exams and score; best of two attempts is used and must exceed 18/30."},
+                "english_taught_F": {"test_format": "60 multiple-choice questions", "duration_minutes": 100, "question_distribution": {"reading_and_study_knowledge": 4, "logic": 5, "biology": 23, "chemistry": 15, "physics_and_mathematics": 13}, "scoring": {"correct": 1.5, "incorrect": -0.4, "blank": 0}, "ranking_threshold": {"italian_eu_equivalent": "At least 20 points", "non_eu_resident_abroad": "Above 0 points"}, "ofa": "Biology and/or Chemistry OFA could be assigned under the call's subject-score thresholds."},
+            },
+            "CONFIRMED", ["SRC-SAPIENZA-MEDICINE-OPEN-SEMESTER-2026", "SRC-SAPIENZA-MEDICINE-F-CALL-2026"],
+            "Test and ranking rules vary by 2026/27 route. The 60-question test is the English F admission test, not the Italian open-semester exam.",
+        ),
+        "previous_cycle_route_contributions": fact(
+            {
+                "italian_open_semester_registration": {"standard_eur": 250, "isee_between_22000_and_30000_eur": 200, "full_exemption_including": ["ISEE up to €22,000 when available in Infostud by deadline", "certified disability/invalidity at least 66%", "DiSCo Lazio award or eligibility for 2026/27", "MAECI scholarship for 2026/27"], "deadline": "2026-08-06"},
+                "english_F_test_payment": {"required": True, "amount": None, "payment_platform": "Universitaly", "amount_status": "Not stated in the Sapienza 2026/27 call"},
+            },
+            "CONFIRMED", ["SRC-SAPIENZA-MEDICINE-OPEN-SEMESTER-2026", "SRC-SAPIENZA-MEDICINE-F-CALL-2026"],
+            "The €250/€200 amount is the Italian open-semester contribution, not a programme application fee or an annual tuition quote. The English test call requires a participation payment but publishes no amount.",
+        ),
+        "previous_cycle_application_fee": fact(
+            None, "UNAVAILABLE", ["SRC-SAPIENZA-MEDICINE-F-CALL-2026", "SRC-SAPIENZA-MEDICINE-OPEN-SEMESTER-2026"],
+            "No separate course application-fee amount is published in the reviewed 2026/27 calls. The €250 open-semester contribution is recorded separately; the English test fee is paid through Universitaly but its amount is not given in Sapienza's call.",
+        ),
+        "application_windows_2027_2028": fact(
+            None, "NOT_YET_PUBLISHED", ["SRC-SAPIENZA-MEDICINE-VARIANTS-2026", "SRC-SAPIENZA-MEDICINE-F-PROFILE-2026", "SRC-SAPIENZA-MEDICINE-F-CALL-2026", "SRC-SAPIENZA-MEDICINE-OPEN-SEMESTER-2026"],
+            "Not yet announced for 2027/28 in the reviewed Sapienza catalogue and admissions pages as of 11 November 2026. Do not reuse the 2026/27 open-semester or English-test calendar.",
+        ),
+        "application_fee_2027_2028": fact(
+            None, "NOT_YET_PUBLISHED", ["SRC-SAPIENZA-MEDICINE-VARIANTS-2026", "SRC-SAPIENZA-MEDICINE-F-CALL-2026", "SRC-SAPIENZA-MEDICINE-OPEN-SEMESTER-2026"],
+            "Not yet announced for 2027/28. Prior-cycle route contributions and the unspecified English test-payment amount are not carried forward.",
+        ),
+        "program_specific_requirements_2027_2028": fact(
+            None, "NOT_YET_PUBLISHED", ["SRC-SAPIENZA-MEDICINE-VARIANTS-2026", "SRC-SAPIENZA-MEDICINE-F-PROFILE-2026"],
+            "Not yet announced for 2027/28 in the course catalogue or admissions material reviewed as of 11 November 2026.",
+        ),
+        "previous_cycle_tuition": fact(
+            {"academic_year": "2026/27", "ordinary_second_contribution_group_total_eur": 2924, "scope": "Standard amount for courses in the Farmacia e Medicina, Medicina e Odontoiatria, Medicina e Psicologia and other listed faculty groups", "ordinary_installment_percentages": [30, 35, 35], "foreign_income_fixed_contribution_bands_eur": [300, 700, 1500], "amount_varies_by": ["ISEE and merit benefits", "course contribution group", "residence/income rules and exemptions"], "regional_tax_and_stamp_duty": "Additional where due (2026/27 call cites €140 regional tax plus €16 stamp duty for the English route)"},
+            "CONFIRMED", ["SRC-SAPIENZA-FEES-2026", "SRC-SAPIENZA-FEE-TABLE-2026", "SRC-SAPIENZA-MEDICINE-F-CALL-2026"],
+            "This is the official ordinary 2026/27 fee-table reference, not an individual bill or a 2027/28 amount. The €250 Italian open-semester contribution is recorded separately; the final contribution is subject to Sapienza rules and the student's case.",
+        ),
+        "tuition_2027_2028": fact(
+            None, "NOT_YET_PUBLISHED", ["SRC-SAPIENZA-FEES-2026", "SRC-SAPIENZA-FEE-TABLE-2026"],
+            "Not yet announced for 2027/28 in the official fee pages reviewed as of 11 November 2026.",
+        ),
+        "previous_cycle_scholarships": fact(
+            {"academic_year": "2026/27", "Wanted_the_Best": {"awards": 85, "gross_eur_per_year": 3000, "duration_years": 2, "deadline": "2026-10-30", "scope": "Competitive award for eligible entrants with a first degree from another Italian university who enrol in a Sapienza Master's degree; applicability to this unresolved single-cycle Medicine umbrella is not confirmed"}, "DiSCo_Lazio": {"application_deadline_after_extension": "2026-07-23 20:00", "corrections_deadline": "2026-08-11 12:00", "scope": "Competitive regional right-to-study benefits; subject to annual economic and merit conditions"}},
+            "CONFIRMED", ["SRC-SAPIENZA-WANTED-BEST-2026", "SRC-SAPIENZA-DISCO-LAZIO-2026"],
+            "Historical 2026/27 schemes only. Wanted the Best is not represented as eligible for the LM-41 single-cycle degree without a course-specific statement; DiSCo is a separate competitive regional scheme.",
+        ),
+        "scholarships_2027_2028": fact(
+            None, "NOT_YET_PUBLISHED", ["SRC-SAPIENZA-WANTED-BEST-2026", "SRC-SAPIENZA-DISCO-LAZIO-2026"],
+            "Not yet announced for 2027/28 in the new-entrant calls reviewed as of 11 November 2026.",
+        ),
+        "acceptance_rate": fact(
+            None, "UNAVAILABLE", ["SRC-SAPIENZA-MEDICINE-VARIANTS-2026", "SRC-SAPIENZA-MEDICINE-F-CALL-2026"],
+            "No comparable applicant and admitted-student denominator is supplied for this unmatched umbrella record; no acceptance rate is inferred.",
+        ),
+    }
+    medicine["previous_cycle_tags"] = {
+        "level": "Single-cycle Master's (LM-41)",
+        "language": "Italian and English (distinct course variants)",
+        "field": "Medicine and Surgery",
+        "cycle": "2026-2027",
+        "label": "Official 2026/27 evidence; generic legacy row does not identify one of the nine course variants; 2027/28 intake remains unannounced",
+    }
+    medicine["last_checked"] = "2026-11-11"
 
     cybersecurity = next(program for program in programs if program.get("id") == "legacy-031")
     cybersecurity_award_source = "SRC-PADUA-STUDENT-AWARDS-CYBERSECURITY-2026"
