@@ -37,12 +37,12 @@ Official university-level sources:
 - [ ] `SRC-UNINA-ECONOMICS-FINANCE-DEPT-2026` — [Economics and Finance – Department of Economics and Statistics degree list](https://www.dises.unina.it/en_GB/il-dipartimento/presentazione) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-UNINA-INTERNATIONAL-RELATIONS-2026` — [International Relations (English) – official degree guide](https://www.orientamento.unina.it/corsidistudio/international-relations-eng/) (cycle: 2024-2025; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-UNINA-QUANTUM-2025` — [Quantum Science and Engineering – official course guide](https://www.orientamento.unina.it/corsidistudio/quantum-science-and-engineering/) (cycle: 2025-2026; checked in prior snapshot: 2026-11-10)
-- [ ] `SRC-UNINA-QUANTUM-PROFILE-2025` — [Quantum Science and Engineering – official programme and course links](https://www.qst.unina.it/index.php/education/) (cycle: general; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNINA-QUANTUM-PROFILE-2025` — [Quantum Science and Engineering – official programme and course links](https://www.qst.unina.it/index.php/education/) (cycle: general; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-UNINA-ARCH-HERITAGE-2025` — [Architecture and Heritage – official course catalogue and admission rules](https://www.corsi.unina.it/DB2/home) (cycle: 2024-2025; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-UNINA-ARCH-HERITAGE-REG-2024` — [Architecture and Heritage – official didactic regulation](https://www.diarc.archer.unina.it/images/ARCHER_2024-25_DidacticRegulations_CdS_ENGL_2023_SA_DM96_v6.pdf) (cycle: 2024-2025; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-UNINA-MED-ENGLISH-2025` — [Medicine and Surgery in English – official single-cycle degree regulation](https://www.medicina.unina.it/pdf/P11/SMA-2024.pdf) (cycle: 2025-2026; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-UNINA-MED-ENGLISH-2026` — [Federico II 2026/27 healthcare-course semester-filter announcement](https://www.unina.it/en/w/semestre-filtro-2026/27-al-via-le-lezioni-per-i-corsi-di-area-sanitaria) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
-- [ ] `SRC-UNINA-CIVIL-ENV-BSC-2026` — [Civil and Environmental Engineering BSc – official 2026/27 admission page](https://www.civil-environmental.unina.it/admission/) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNINA-CIVIL-ENV-BSC-2026` — [Civil and Environmental Engineering BSc – official 2026/27 admission page](https://www.civil-environmental.unina.it/admission/) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 
 #### Computer Science — `legacy-085`
 
@@ -157,7 +157,7 @@ Currently missing or unpublished fields:
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNINA-QUANTUM-2025` — [Quantum Science and Engineering – official course guide](https://www.orientamento.unina.it/corsidistudio/quantum-science-and-engineering/) (cycle: 2025-2026; prior check: 2026-11-10)
-- [ ] `SRC-UNINA-QUANTUM-PROFILE-2025` — [Quantum Science and Engineering – official programme and course links](https://www.qst.unina.it/index.php/education/) (cycle: general; prior check: 2026-11-10)
+- [ ] `SRC-UNINA-QUANTUM-PROFILE-2025` — [Quantum Science and Engineering – official programme and course links](https://www.qst.unina.it/index.php/education/) (cycle: general; prior check: 2026-11-11)
 Currently missing or unpublished fields:
   - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
   - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
@@ -210,7 +210,7 @@ Currently missing or unpublished fields:
 - [ ] University page: https://italy-it-programs.vercel.app/universities/napoli-federico-ii/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
-- [ ] `SRC-UNINA-CIVIL-ENV-BSC-2026` — [Civil and Environmental Engineering BSc – official 2026/27 admission page](https://www.civil-environmental.unina.it/admission/) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-UNINA-CIVIL-ENV-BSC-2026` — [Civil and Environmental Engineering BSc – official 2026/27 admission page](https://www.civil-environmental.unina.it/admission/) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
   - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
   - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
@@ -2786,7 +2786,7 @@ Official university-level sources:
 - [ ] `SRC-CAMERINO-PHYSICS-PROFILE` — [Physics – official degree profile](https://sst.unicam.it/corsi/physics) (cycle: general; checked in prior snapshot: 2026-11-09)
 - [ ] `SRC-CAMERINO-PREADMISSION-2026` — [Pre-admissions 2026/27 – international applicants](https://international.unicam.it/admissions/pre-admissions-2026-2027) (cycle: 2026-2027; checked in prior snapshot: 2026-11-09)
 - [ ] `SRC-CAMERINO-PREADMISSION-GUIDE-2026` — [Pre-admission procedure – official guide 2026/27](https://international.unicam.it/sites/d7.unicam.it.international/files/_How%20to%20apply%20fro%20preliminary%20evaluation_2627_0.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-09)
-- [ ] `SRC-CAMERINO-FOREIGN-FEES` — [Fees for foreign students](https://www.miiscrivo.unicam.it/fees-foreign-students) (cycle: general; checked in prior snapshot: 2026-11-09)
+- [ ] `SRC-CAMERINO-FOREIGN-FEES` — [Fees for foreign students](https://www.miiscrivo.unicam.it/fees-foreign-students) (cycle: general; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-CAMERINO-ALLIN-2026` — [Lump-sum enrollment package for international MSc students 2026/27](https://international.unicam.it/admissions/lump-sum-enrollment-payment) (cycle: 2026-2027; checked in prior snapshot: 2026-11-09)
 - [ ] `SRC-CAMERINO-TUITION-2026` — [University tuition and student contributions 2026/27](https://www.unicam.it/laureato/segreterie-studenti/tasse) (cycle: 2026-2027; checked in prior snapshot: 2026-11-09)
 - [ ] `SRC-ERDIS-MARCHE-2026` — [ERDIS Marche scholarship call service – 2026/27](https://erdis.it/servizi/servizio-dettaglio/3161252) (cycle: 2026-2027; checked in prior snapshot: 2026-11-09)
@@ -2807,7 +2807,7 @@ Official linked sources to revisit:
 - [ ] `SRC-ERDIS-MARCHE-2026` — [ERDIS Marche scholarship call service – 2026/27](https://erdis.it/servizi/servizio-dettaglio/3161252) (cycle: 2026-2027; prior check: 2026-11-09)
 - [ ] `SRC-CAMERINO-FAQ` — [International admissions FAQ](https://international.unicam.it/admissions/faq) (cycle: general; prior check: 2026-11-09)
 - [ ] `SRC-CAMERINO-PREADMISSION-2026` — [Pre-admissions 2026/27 – international applicants](https://international.unicam.it/admissions/pre-admissions-2026-2027) (cycle: 2026-2027; prior check: 2026-11-09)
-- [ ] `SRC-CAMERINO-FOREIGN-FEES` — [Fees for foreign students](https://www.miiscrivo.unicam.it/fees-foreign-students) (cycle: general; prior check: 2026-11-09)
+- [ ] `SRC-CAMERINO-FOREIGN-FEES` — [Fees for foreign students](https://www.miiscrivo.unicam.it/fees-foreign-students) (cycle: general; prior check: 2026-11-11)
 - [ ] `SRC-CAMERINO-TUITION-2026` — [University tuition and student contributions 2026/27](https://www.unicam.it/laureato/segreterie-studenti/tasse) (cycle: 2026-2027; prior check: 2026-11-09)
 Known source conflicts in current data:
   - `facts.previous_cycle_curricula` — The current profile's named list contains four curricula, but its later prose says five; the international master list also says four. The exact official count needs clarification.
@@ -2835,7 +2835,7 @@ Official linked sources to revisit:
 - [ ] `SRC-ERDIS-MARCHE-2026` — [ERDIS Marche scholarship call service – 2026/27](https://erdis.it/servizi/servizio-dettaglio/3161252) (cycle: 2026-2027; prior check: 2026-11-09)
 - [ ] `SRC-CAMERINO-FAQ` — [International admissions FAQ](https://international.unicam.it/admissions/faq) (cycle: general; prior check: 2026-11-09)
 - [ ] `SRC-CAMERINO-PREADMISSION-2026` — [Pre-admissions 2026/27 – international applicants](https://international.unicam.it/admissions/pre-admissions-2026-2027) (cycle: 2026-2027; prior check: 2026-11-09)
-- [ ] `SRC-CAMERINO-FOREIGN-FEES` — [Fees for foreign students](https://www.miiscrivo.unicam.it/fees-foreign-students) (cycle: general; prior check: 2026-11-09)
+- [ ] `SRC-CAMERINO-FOREIGN-FEES` — [Fees for foreign students](https://www.miiscrivo.unicam.it/fees-foreign-students) (cycle: general; prior check: 2026-11-11)
 - [ ] `SRC-CAMERINO-TUITION-2026` — [University tuition and student contributions 2026/27](https://www.unicam.it/laureato/segreterie-studenti/tasse) (cycle: 2026-2027; prior check: 2026-11-09)
 Known source conflicts in current data:
   - `facts.previous_cycle_course_name_variants` — Official University pages use both Chemistry and Chemistry and Advanced Chemical Methodologies for the LM-54 course. The latest English master list uses the shorter title; verify the preferred 2027/28 display name.
@@ -2863,7 +2863,7 @@ Official linked sources to revisit:
 - [ ] `SRC-ERDIS-MARCHE-2026` — [ERDIS Marche scholarship call service – 2026/27](https://erdis.it/servizi/servizio-dettaglio/3161252) (cycle: 2026-2027; prior check: 2026-11-09)
 - [ ] `SRC-CAMERINO-FAQ` — [International admissions FAQ](https://international.unicam.it/admissions/faq) (cycle: general; prior check: 2026-11-09)
 - [ ] `SRC-CAMERINO-PREADMISSION-2026` — [Pre-admissions 2026/27 – international applicants](https://international.unicam.it/admissions/pre-admissions-2026-2027) (cycle: 2026-2027; prior check: 2026-11-09)
-- [ ] `SRC-CAMERINO-FOREIGN-FEES` — [Fees for foreign students](https://www.miiscrivo.unicam.it/fees-foreign-students) (cycle: general; prior check: 2026-11-09)
+- [ ] `SRC-CAMERINO-FOREIGN-FEES` — [Fees for foreign students](https://www.miiscrivo.unicam.it/fees-foreign-students) (cycle: general; prior check: 2026-11-11)
 - [ ] `SRC-CAMERINO-TUITION-2026` — [University tuition and student contributions 2026/27](https://www.unicam.it/laureato/segreterie-studenti/tasse) (cycle: 2026-2027; prior check: 2026-11-09)
 Known source conflicts in current data:
   - `facts.previous_cycle_curricula` — The official international master's list gives two curricula and the course profile lists three with different names. The current 2027/28 structure needs confirmation.
@@ -2889,7 +2889,7 @@ Official linked sources to revisit:
 - [ ] `SRC-ERDIS-MARCHE-2026` — [ERDIS Marche scholarship call service – 2026/27](https://erdis.it/servizi/servizio-dettaglio/3161252) (cycle: 2026-2027; prior check: 2026-11-09)
 - [ ] `SRC-CAMERINO-FAQ` — [International admissions FAQ](https://international.unicam.it/admissions/faq) (cycle: general; prior check: 2026-11-09)
 - [ ] `SRC-CAMERINO-PREADMISSION-2026` — [Pre-admissions 2026/27 – international applicants](https://international.unicam.it/admissions/pre-admissions-2026-2027) (cycle: 2026-2027; prior check: 2026-11-09)
-- [ ] `SRC-CAMERINO-FOREIGN-FEES` — [Fees for foreign students](https://www.miiscrivo.unicam.it/fees-foreign-students) (cycle: general; prior check: 2026-11-09)
+- [ ] `SRC-CAMERINO-FOREIGN-FEES` — [Fees for foreign students](https://www.miiscrivo.unicam.it/fees-foreign-students) (cycle: general; prior check: 2026-11-11)
 - [ ] `SRC-CAMERINO-TUITION-2026` — [University tuition and student contributions 2026/27](https://www.unicam.it/laureato/segreterie-studenti/tasse) (cycle: 2026-2027; prior check: 2026-11-09)
 Currently missing or unpublished fields:
   - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The reviewed official course list/profile and international pre-admission information are general or for 2026/27. No 2027/28 first-year intake for this course was identified; no cancellation is inferred.
@@ -3599,7 +3599,7 @@ Official university-level sources:
 - [ ] `SRC-PADOVA-COGNITIVE-PSYCHOLOGY-EU-CALL-2026` — [Scienze psicologiche cognitive e psicobiologiche EU/equivalent admission call – AY 2026/27](https://wwwassets.unipd.it/sites/default/files/pdf_imported_files/2026_Bando_L_Psicologia_0.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-PADOVA-COGNITIVE-PSYCHOLOGY-NON-EU-CALL-2026` — [Scienze psicologiche cognitive e psicobiologiche call for non-EU applicants abroad – AY 2026/27](https://wwwassets.unipd.it/sites/default/files/pdf_imported_files/nonEU_LT%20Psicologia_0_0.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-PADOVA-BACHELOR-ADMISSIONS-INDEX-2026` — [Padua bachelor's and single-cycle admission index – AY 2026/27](https://www.unipd.it/avvisi-ammissione-lauree-triennali-ciclo-unico) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
-- [ ] `SRC-PADOVA-PSYCHOLOGY-MSC-FULL-2026` — [School of Psychology Master's programmes – active official catalogue](https://www.psicologia.unipd.it/offerta-didattica/corsi-di-laurea-magistrale?tipo=LM) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-PADOVA-PSYCHOLOGY-MSC-FULL-2026` — [School of Psychology Master's programmes – active official catalogue](https://www.psicologia.unipd.it/offerta-didattica/corsi-di-laurea-magistrale?tipo=LM) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-PADOVA-AGRARIAN-MSC-COURSES-2026` — [School of Agriculture and Veterinary Medicine active Master's courses – AY 2026/27](https://www.agrariamedicinaveterinaria.unipd.it/corsi/corsi-di-laurea-magistrale) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-PADOVA-MANAGEMENT-ENGINEERING-COURSE-2026` — [Ingegneria gestionale – official course profile and campus](https://www.unipd.it/corsi-di-laurea-magistrali/ingegneria-gestionale) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-PADOVA-MOLECULAR-BIOLOGY-BSC-ADMISSION-2026` — [Biologia Molecolare – 2026/27 School of Science bachelor's admissions](https://www.scienze.unipd.it/come-iscriversi-l-2627/) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
@@ -5480,7 +5480,7 @@ Currently missing or unpublished fields:
 
 ## Source URL recheck results
 
-Checked 668 unique URLs representing 690 source records on 2026-11-11. Unique URL outcomes: {'accessible': 649, 'redirected': 13, 'inconclusive': 5, 'broken': 1}. HTTP 404/410 outcomes are listed as broken; TLS, timeout, and remote-disconnect cases remain inconclusive.
+Checked 668 unique URLs representing 690 source records on 2026-11-11. Unique URL outcomes: {'accessible': 650, 'redirected': 13, 'inconclusive': 4, 'broken': 1}. HTTP 404/410 outcomes are listed as broken; TLS, timeout, and remote-disconnect cases remain inconclusive.
 
 ### Redirected sources
 
@@ -5500,8 +5500,7 @@ Checked 668 unique URLs representing 690 source records on 2026-11-11. Unique UR
 
 ### Inconclusive source URLs
 
-- `SRC-CAMERINO-FOREIGN-FEES` — [Fees for foreign students](https://www.miiscrivo.unicam.it/fees-foreign-students) — direct check inconclusive; curl.exe (60): Schannel SNI/hostname certificate validation failed: SEC_E_WRONG_PRINCIPAL; no HTTP response received.
-- `SRC-PADUA-ASTROPHYSICS-2027-CALL` — [Astrophysics and Cosmology – 2027/28 international application call and requirements](https://astrophysics-and-cosmology.dfa.unipd.it/masters-degree/application-and-admission-requirements/) — direct check inconclusive; curl.exe (35): connection reset before an HTTP response.
+- `SRC-CAMERINO-FOREIGN-FEES` — [Fees for foreign students](https://www.miiscrivo.unicam.it/fees-foreign-students) — direct check inconclusive; SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.miiscrivo.unicam.it'. (_ssl.c:1007)
 - `SRC-PADOVA-PSYCHOLOGY-MSC-FULL-2026` — [School of Psychology Master's programmes – active official catalogue](https://www.psicologia.unipd.it/offerta-didattica/corsi-di-laurea-magistrale?tipo=LM) — direct check inconclusive; No successful direct response was recorded.
-- `SRC-UNINA-QUANTUM-PROFILE-2025` — [Quantum Science and Engineering – official programme and course links](https://www.qst.unina.it/index.php/education/) — direct check inconclusive; curl.exe (35): Schannel certificate status check failed; certificate reported revoked (CRYPT_E_REVOKED); no HTTP response received.
-- `SRC-UNINA-CIVIL-ENV-BSC-2026` — [Civil and Environmental Engineering BSc – official 2026/27 admission page](https://www.civil-environmental.unina.it/admission/) — direct check inconclusive; curl.exe (35): Schannel certificate check failed; certificate reported expired (SEC_E_CERT_EXPIRED); no HTTP response received.
+- `SRC-UNINA-QUANTUM-PROFILE-2025` — [Quantum Science and Engineering – official programme and course links](https://www.qst.unina.it/index.php/education/) — direct check inconclusive; SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1007)
+- `SRC-UNINA-CIVIL-ENV-BSC-2026` — [Civil and Environmental Engineering BSc – official 2026/27 admission page](https://www.civil-environmental.unina.it/admission/) — direct check inconclusive; SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1007)

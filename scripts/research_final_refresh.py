@@ -2226,6 +2226,12 @@ BATCH49 = {
     "result": "Reviewed discovered-036, Statistical Science, across Padua's English Master's catalogue, 2027/28 study guide, Department profile, entry-requirements page, programme structure and linked University admissions index. The central catalogue lists Statistical Sciences as 'to be approved'; the Department profile projects a two-year/120-ECTS English-taught on-campus course, B2 English and a 27 September 2027 start, but the study guide's School of Science English Master's list omits it while its Italian column lists Scienze statistiche. This is an unresolved source conflict, not proof of cancellation or a confirmed 2027/28 intake. The Department's undated criteria for Italian-degree applicants, general ISEE/aid information and curriculum have been recorded as provisional; no checklist appears under its international-degree heading. Its 'Call for Applications' label on the profile is unlinked, and the requirements-page link goes to the general University admissions index, not a course-specific call. Fresh no-cache GETs returned HTTP 200 for the Department profile, requirements and structure pages (Age 0; Varnish MISS) and for the admissions index (CloudFront MISS); exact campus, approved intake, programme-specific 2027/28 application route/windows, requirements, application fee, tuition and scholarship terms remain unconfirmed. No production changes were made.",
 }
 
+BATCH50 = {
+    "id": "official-source-url-recheck-2026-11-11-retry",
+    "status": "partial",
+    "result": "Retried five unique official source URLs that had been inconclusive. Padua Astrophysics and Cosmology's 2027/28 admissions page now returns HTTP 200 (23,773 bytes; title captured; 2027 marker present). Four remain inconclusive: Camerino's fees page fails TLS hostname validation; Padua Psychology's catalogue returns HTTP 500; and the two Federico II sites fail TLS certificate validation (expired certificates). Official-domain search results still surfaced indexed snippets for these pages, but direct page opens timed out, so those snippets were not treated as fresh HTTP verification. The historical Trieste DSSC 2022 call PDF independently returned an explicit HTTP 404 and remains marked broken as a historical provenance link, not as current admissions evidence. Aggregate source checks now show 672 accessible, 13 redirected, 4 inconclusive and 1 broken record. No production changes were made.",
+}
+
 SOURCE_RECHECKS = {
     "SRC-UNIBO-AI-PROFILE-2026": {
         "accessed_at": "2026-11-11",
@@ -8697,6 +8703,108 @@ SOURCE_RECHECKS.update({
             "pdf_signature": None, "has_2027_marker": False, "bytes_read": 1493081,
             "outcome": "accessible", "error": None,
             "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib); CloudFront MISS",
+        },
+    },
+})
+
+SOURCE_RECHECKS.update({
+    "SRC-PADUA-ASTROPHYSICS-2027-CALL": {
+        "accessed_at": "2026-11-11",
+        "evidence": "The official Department page says the first international call is open for applicants with an international Bachelor's degree who seek entry in AY 2027/28 (October 2027), with a 15 November 2026 deadline. It also publishes course entry criteria of 24 ECTS in Physics and 24 ECTS in Mathematics and committee assessment/interview details, but those criteria are not explicitly labelled for 2027/28. A fresh direct GET returned HTTP 200 with the official page title, 23,773 bytes and a 2027 marker. The page also contains prior-cycle 2026/27 information, which is not treated as current-cycle evidence.",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://astrophysics-and-cosmology.dfa.unipd.it/masters-degree/application-and-admission-requirements/",
+            "content_type": "text/html; charset=utf-8", "content_length_header": "23773",
+            "etag": None, "last_modified": None, "cache_control": None, "age": None,
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "MASTER'S DEGREE IN ASTROPHYSICS AND COSMOLOGY: Application and Admission Requirements",
+            "pdf_signature": None, "has_2027_marker": True, "bytes_read": 23773,
+            "outcome": "accessible", "error": None, "retried": True,
+            "checked_at": "2026-11-11", "method": "GET",
+        },
+    },
+    "SRC-CAMERINO-FOREIGN-FEES": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": None, "effective_url": None, "content_type": None,
+            "content_length_header": None, "etag": None, "last_modified": None,
+            "cache_control": None, "age": None, "x_vercel_cache": None,
+            "x_vercel_id": None, "location": None, "observed_title": None,
+            "pdf_signature": None, "has_2027_marker": None, "bytes_read": 0,
+            "outcome": "inconclusive",
+            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.miiscrivo.unicam.it'. (_ssl.c:1007)",
+            "retried": True, "checked_at": "2026-11-11", "method": "GET",
+        },
+        "browser_check": {
+            "checked_at": "2026-11-11", "outcome": "inconclusive",
+            "method": "Codex web reader open and official-domain search",
+            "notes": "The official search index returned a snippet for this page, but a direct web-reader open timed out. This is not a fresh HTTP verification; the independent GET failed TLS hostname validation, so reachability remains inconclusive.",
+        },
+    },
+    "SRC-PADOVA-PSYCHOLOGY-MSC-FULL-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 500, "effective_url": "https://www.psicologia.unipd.it/offerta-didattica/corsi-di-laurea-magistrale?tipo=LM",
+            "content_type": "text/html; charset=UTF-8", "content_length_header": "6306",
+            "etag": None, "last_modified": None, "cache_control": "no-cache, must-revalidate",
+            "age": "0", "x_vercel_cache": None, "x_vercel_id": None,
+            "location": None, "observed_title": None, "pdf_signature": None,
+            "has_2027_marker": None, "bytes_read": 0, "outcome": "inconclusive",
+            "error": None, "checked_at": "2026-11-11", "method": "GET",
+        },
+        "browser_check": {
+            "checked_at": "2026-11-11", "outcome": "inconclusive",
+            "method": "Codex web reader open and official-domain search",
+            "notes": "The official search index returned a snippet for this page, but a direct web-reader open timed out. This is not a fresh HTTP verification; the independent GET returned HTTP 500, so reachability remains inconclusive.",
+        },
+    },
+    "SRC-UNINA-QUANTUM-PROFILE-2025": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": None, "effective_url": None, "content_type": None,
+            "content_length_header": None, "etag": None, "last_modified": None,
+            "cache_control": None, "age": None, "x_vercel_cache": None,
+            "x_vercel_id": None, "location": None, "observed_title": None,
+            "pdf_signature": None, "has_2027_marker": None, "bytes_read": 0,
+            "outcome": "inconclusive",
+            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1007)",
+            "retried": True, "checked_at": "2026-11-11", "method": "GET",
+        },
+        "browser_check": {
+            "checked_at": "2026-11-11", "outcome": "inconclusive",
+            "method": "Codex web reader open and official-domain search",
+            "notes": "The official search index returned a snippet for this page, but a direct web-reader open timed out. This is not a fresh HTTP verification; the independent GET could not complete TLS certificate validation, so reachability remains inconclusive.",
+        },
+    },
+    "SRC-UNINA-CIVIL-ENV-BSC-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": None, "effective_url": None, "content_type": None,
+            "content_length_header": None, "etag": None, "last_modified": None,
+            "cache_control": None, "age": None, "x_vercel_cache": None,
+            "x_vercel_id": None, "location": None, "observed_title": None,
+            "pdf_signature": None, "has_2027_marker": None, "bytes_read": 0,
+            "outcome": "inconclusive",
+            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1007)",
+            "retried": True, "checked_at": "2026-11-11", "method": "GET",
+        },
+        "browser_check": {
+            "checked_at": "2026-11-11", "outcome": "inconclusive",
+            "method": "Codex web reader open and official-domain search",
+            "notes": "The official search index returned a snippet for this page, but a direct web-reader open timed out. This is not a fresh HTTP verification; the independent GET could not complete TLS certificate validation, so reachability remains inconclusive.",
+        },
+    },
+    "SRC-TRIESTE-DSSC-CALL-2022": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 404, "effective_url": "https://corsi.units.it/sites/default/files/dssc_call_2022_0.pdf",
+            "content_type": "text/html; charset=iso-8859-1", "content_length_header": "196",
+            "etag": None, "last_modified": None, "cache_control": None, "age": None,
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "404 Not Found", "pdf_signature": False,
+            "has_2027_marker": None, "bytes_read": 196, "outcome": "broken", "error": None,
+            "checked_at": "2026-11-11",
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache",
+            "notes": "Explicit response body: HTTP 404 Not Found. This is a historical 2022/23 PDF retained as provenance, not a current admissions offer.",
         },
     },
 })

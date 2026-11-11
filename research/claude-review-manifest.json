@@ -17,9 +17,9 @@
       "source_records": 690,
       "unique_urls_checked": 668,
       "unique_url_outcomes": {
-        "accessible": 649,
+        "accessible": 650,
         "redirected": 13,
-        "inconclusive": 5,
+        "inconclusive": 4,
         "broken": 1
       },
       "redirected_source_records": [
@@ -95,15 +95,7 @@
           "url": "https://www.miiscrivo.unicam.it/fees-foreign-students",
           "direct_http_outcome": "inconclusive",
           "browser_outcome": "inconclusive",
-          "direct_http_error": "curl.exe (60): Schannel SNI/hostname certificate validation failed: SEC_E_WRONG_PRINCIPAL; no HTTP response received.",
-          "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
-        },
-        {
-          "source_id": "SRC-PADUA-ASTROPHYSICS-2027-CALL",
-          "url": "https://astrophysics-and-cosmology.dfa.unipd.it/masters-degree/application-and-admission-requirements/",
-          "direct_http_outcome": "inconclusive",
-          "browser_outcome": "inconclusive",
-          "direct_http_error": "curl.exe (35): connection reset before an HTTP response.",
+          "direct_http_error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.miiscrivo.unicam.it'. (_ssl.c:1007)",
           "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
         },
         {
@@ -119,7 +111,7 @@
           "url": "https://www.qst.unina.it/index.php/education/",
           "direct_http_outcome": "inconclusive",
           "browser_outcome": "inconclusive",
-          "direct_http_error": "curl.exe (35): Schannel certificate status check failed; certificate reported revoked (CRYPT_E_REVOKED); no HTTP response received.",
+          "direct_http_error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1007)",
           "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
         },
         {
@@ -127,7 +119,7 @@
           "url": "https://www.civil-environmental.unina.it/admission/",
           "direct_http_outcome": "inconclusive",
           "browser_outcome": "inconclusive",
-          "direct_http_error": "curl.exe (35): Schannel certificate check failed; certificate reported expired (SEC_E_CERT_EXPIRED); no HTTP response received.",
+          "direct_http_error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1007)",
           "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
         }
       ],
@@ -643,7 +635,7 @@
           "url": "https://www.qst.unina.it/index.php/education/",
           "source_type": "Official University project and programme page",
           "cycle": "general",
-          "accessed_at": "2026-11-10",
+          "accessed_at": "2026-11-11",
           "evidence": "Names the Master Degree in Quantum Science and Engineering and links to the official Physics and course websites. This verifies programme identity, not its 2027/28 intake.",
           "supports": [
             "program.previous_cycle_course_listing",
@@ -652,7 +644,7 @@
           "refresh_status": "inconclusive",
           "url_check": {
             "http_status": null,
-            "effective_url": "https://www.qst.unina.it/index.php/education/",
+            "effective_url": null,
             "content_type": null,
             "content_length_header": null,
             "etag": null,
@@ -667,15 +659,16 @@
             "has_2027_marker": null,
             "bytes_read": 0,
             "outcome": "inconclusive",
-            "error": "curl.exe (35): Schannel certificate status check failed; certificate reported revoked (CRYPT_E_REVOKED); no HTTP response received.",
+            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1007)",
+            "retried": true,
             "checked_at": "2026-11-11",
-            "method": "curl.exe GET -L; Cache-Control: no-cache"
+            "method": "GET"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
             "outcome": "inconclusive",
-            "method": "Codex web reader open",
-            "notes": "A web-reader open was attempted but timed out or could not fetch this URL. The direct HTTP record remains inconclusive; the URL is not classified as broken."
+            "method": "Codex web reader open and official-domain search",
+            "notes": "The official search index returned a snippet for this page, but a direct web-reader open timed out. This is not a fresh HTTP verification; the independent GET could not complete TLS certificate validation, so reachability remains inconclusive."
           }
         },
         {
@@ -839,7 +832,7 @@
           "url": "https://www.civil-environmental.unina.it/admission/",
           "source_type": "Official degree programme and admission page",
           "cycle": "2026-2027",
-          "accessed_at": "2026-11-10",
+          "accessed_at": "2026-11-11",
           "evidence": "Identifies an English-taught three-year BSc in Civil and Environmental Engineering, class L-7 R, at Federico II. The page describes 2026 admission schedule, CEnT-S/SAT routes, B2 English and non-EU Universitaly pre-admission; those deadlines are historical and not 2027/28.",
           "supports": [
             "program.previous_cycle_course_listing",
@@ -851,7 +844,7 @@
           "refresh_status": "inconclusive",
           "url_check": {
             "http_status": null,
-            "effective_url": "https://www.civil-environmental.unina.it/admission/",
+            "effective_url": null,
             "content_type": null,
             "content_length_header": null,
             "etag": null,
@@ -866,15 +859,16 @@
             "has_2027_marker": null,
             "bytes_read": 0,
             "outcome": "inconclusive",
-            "error": "curl.exe (35): Schannel certificate check failed; certificate reported expired (SEC_E_CERT_EXPIRED); no HTTP response received.",
+            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1007)",
+            "retried": true,
             "checked_at": "2026-11-11",
-            "method": "curl.exe GET -L; Cache-Control: no-cache"
+            "method": "GET"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
             "outcome": "inconclusive",
-            "method": "Codex web reader open",
-            "notes": "A web-reader open was attempted but timed out or could not fetch this URL. The direct HTTP record remains inconclusive; the URL is not classified as broken."
+            "method": "Codex web reader open and official-domain search",
+            "notes": "The official search index returned a snippet for this page, but a direct web-reader open timed out. This is not a fresh HTTP verification; the independent GET could not complete TLS certificate validation, so reachability remains inconclusive."
           }
         }
       ],
@@ -14171,7 +14165,7 @@
           "url": "https://www.miiscrivo.unicam.it/fees-foreign-students",
           "source_type": "Official foreign-student tuition guidance",
           "cycle": "general",
-          "accessed_at": "2026-11-09",
+          "accessed_at": "2026-11-11",
           "evidence": "The page describes income-based ISEE-U equalised assessment for specified foreign applicants, fixed annual fees of €200 for students from designated particularly poor/developing countries and €300 for non-OECD countries outside that list, with regional tax and stamp duty added. It also describes a €6,876 all-inclusive option. The page does not label these amounts with an academic year; do not treat them as 2027/28 fees.",
           "supports": [
             "university.foreign_student_fee_framework",
@@ -14180,7 +14174,7 @@
           "refresh_status": "inconclusive",
           "url_check": {
             "http_status": null,
-            "effective_url": "https://www.miiscrivo.unicam.it/fees-foreign-students",
+            "effective_url": null,
             "content_type": null,
             "content_length_header": null,
             "etag": null,
@@ -14195,15 +14189,16 @@
             "has_2027_marker": null,
             "bytes_read": 0,
             "outcome": "inconclusive",
-            "error": "curl.exe (60): Schannel SNI/hostname certificate validation failed: SEC_E_WRONG_PRINCIPAL; no HTTP response received.",
+            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.miiscrivo.unicam.it'. (_ssl.c:1007)",
+            "retried": true,
             "checked_at": "2026-11-11",
-            "method": "curl.exe GET -L; Cache-Control: no-cache"
+            "method": "GET"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
             "outcome": "inconclusive",
-            "method": "Codex web reader open",
-            "notes": "A web-reader open was attempted but timed out or could not fetch this URL. The direct HTTP record remains inconclusive; the URL is not classified as broken."
+            "method": "Codex web reader open and official-domain search",
+            "notes": "The official search index returned a snippet for this page, but a direct web-reader open timed out. This is not a fresh HTTP verification; the independent GET failed TLS hostname validation, so reachability remains inconclusive."
           }
         },
         {
@@ -17967,19 +17962,19 @@
           "source_type": "Official Department programme and international admissions page",
           "cycle": "2027-2028",
           "accessed_at": "2026-11-11",
-          "evidence": "The official Department page says the first international call is open for applicants with an international Bachelor's degree who seek entry in AY 2027/28 (October 2027), with a 15 November 2026 deadline. It also publishes course entry criteria of 24 ECTS in Physics and 24 ECTS in Mathematics and committee assessment/interview details, but those criteria are not explicitly labelled for 2027/28. Official search results exposed the page content, but direct content retrieval and the fresh HTTP check were inconclusive on 11 November; do not classify the URL as broken. The page also contains prior-cycle 2026/27 information, which is not treated as current-cycle evidence.",
+          "evidence": "The official Department page says the first international call is open for applicants with an international Bachelor's degree who seek entry in AY 2027/28 (October 2027), with a 15 November 2026 deadline. It also publishes course entry criteria of 24 ECTS in Physics and 24 ECTS in Mathematics and committee assessment/interview details, but those criteria are not explicitly labelled for 2027/28. A fresh direct GET returned HTTP 200 with the official page title, 23,773 bytes and a 2027 marker. The page also contains prior-cycle 2026/27 information, which is not treated as current-cycle evidence.",
           "supports": [
             "program.availability_2027_2028",
             "program.application_deadline",
             "program.applicant_scope",
             "program.admission_requirements"
           ],
-          "refresh_status": "inconclusive",
+          "refresh_status": "accessible",
           "url_check": {
-            "http_status": null,
+            "http_status": 200,
             "effective_url": "https://astrophysics-and-cosmology.dfa.unipd.it/masters-degree/application-and-admission-requirements/",
-            "content_type": null,
-            "content_length_header": null,
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": "23773",
             "etag": null,
             "last_modified": null,
             "cache_control": null,
@@ -17987,14 +17982,15 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "MASTER'S DEGREE IN ASTROPHYSICS AND COSMOLOGY: Application and Admission Requirements",
             "pdf_signature": null,
-            "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "curl.exe (35): connection reset before an HTTP response.",
+            "has_2027_marker": true,
+            "bytes_read": 23773,
+            "outcome": "accessible",
+            "error": null,
+            "retried": true,
             "checked_at": "2026-11-11",
-            "method": "curl.exe GET -L; Cache-Control: no-cache"
+            "method": "GET"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -19730,7 +19726,7 @@
           "url": "https://www.psicologia.unipd.it/offerta-didattica/corsi-di-laurea-magistrale?tipo=LM",
           "source_type": "Official School of Psychology programme catalogue",
           "cycle": "2026-2027",
-          "accessed_at": "2026-11-10",
+          "accessed_at": "2026-11-11",
           "evidence": "The School catalogue lists active Master's programmes and states the academic year of the displayed offer; use programme-specific pages and annual calls for exact entry criteria.",
           "supports": [
             "program.previous_cycle_course_listing",
@@ -19761,8 +19757,8 @@
           "browser_check": {
             "checked_at": "2026-11-11",
             "outcome": "inconclusive",
-            "method": "Codex web reader open",
-            "notes": "A web-reader open was attempted but timed out or could not fetch this URL. The direct HTTP record remains inconclusive; the URL is not classified as broken."
+            "method": "Codex web reader open and official-domain search",
+            "notes": "The official search index returned a snippet for this page, but a direct web-reader open timed out. This is not a fresh HTTP verification; the independent GET returned HTTP 500, so reachability remains inconclusive."
           }
         },
         {
@@ -26688,7 +26684,7 @@
             "error": null,
             "checked_at": "2026-11-11",
             "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache",
-            "notes": "Explicit origin response body: HTTP 404 Not Found, requested URL was not found on the server. This is a historical PDF URL and is retained as provenance, not as a current offer."
+            "notes": "Explicit response body: HTTP 404 Not Found. This is a historical 2022/23 PDF retained as provenance, not a current admissions offer."
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -29684,7 +29680,7 @@
           "url": "https://www.qst.unina.it/index.php/education/",
           "source_type": "Official University project and programme page",
           "cycle": "general",
-          "accessed_at": "2026-11-10",
+          "accessed_at": "2026-11-11",
           "evidence": "Names the Master Degree in Quantum Science and Engineering and links to the official Physics and course websites. This verifies programme identity, not its 2027/28 intake.",
           "supports": [
             "program.previous_cycle_course_listing",
@@ -29693,7 +29689,7 @@
           "refresh_status": "inconclusive",
           "url_check": {
             "http_status": null,
-            "effective_url": "https://www.qst.unina.it/index.php/education/",
+            "effective_url": null,
             "content_type": null,
             "content_length_header": null,
             "etag": null,
@@ -29708,15 +29704,16 @@
             "has_2027_marker": null,
             "bytes_read": 0,
             "outcome": "inconclusive",
-            "error": "curl.exe (35): Schannel certificate status check failed; certificate reported revoked (CRYPT_E_REVOKED); no HTTP response received.",
+            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1007)",
+            "retried": true,
             "checked_at": "2026-11-11",
-            "method": "curl.exe GET -L; Cache-Control: no-cache"
+            "method": "GET"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
             "outcome": "inconclusive",
-            "method": "Codex web reader open",
-            "notes": "A web-reader open was attempted but timed out or could not fetch this URL. The direct HTTP record remains inconclusive; the URL is not classified as broken."
+            "method": "Codex web reader open and official-domain search",
+            "notes": "The official search index returned a snippet for this page, but a direct web-reader open timed out. This is not a fresh HTTP verification; the independent GET could not complete TLS certificate validation, so reachability remains inconclusive."
           }
         }
       ],
@@ -30565,7 +30562,7 @@
           "url": "https://www.civil-environmental.unina.it/admission/",
           "source_type": "Official degree programme and admission page",
           "cycle": "2026-2027",
-          "accessed_at": "2026-11-10",
+          "accessed_at": "2026-11-11",
           "evidence": "Identifies an English-taught three-year BSc in Civil and Environmental Engineering, class L-7 R, at Federico II. The page describes 2026 admission schedule, CEnT-S/SAT routes, B2 English and non-EU Universitaly pre-admission; those deadlines are historical and not 2027/28.",
           "supports": [
             "program.previous_cycle_course_listing",
@@ -30577,7 +30574,7 @@
           "refresh_status": "inconclusive",
           "url_check": {
             "http_status": null,
-            "effective_url": "https://www.civil-environmental.unina.it/admission/",
+            "effective_url": null,
             "content_type": null,
             "content_length_header": null,
             "etag": null,
@@ -30592,15 +30589,16 @@
             "has_2027_marker": null,
             "bytes_read": 0,
             "outcome": "inconclusive",
-            "error": "curl.exe (35): Schannel certificate check failed; certificate reported expired (SEC_E_CERT_EXPIRED); no HTTP response received.",
+            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1007)",
+            "retried": true,
             "checked_at": "2026-11-11",
-            "method": "curl.exe GET -L; Cache-Control: no-cache"
+            "method": "GET"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
             "outcome": "inconclusive",
-            "method": "Codex web reader open",
-            "notes": "A web-reader open was attempted but timed out or could not fetch this URL. The direct HTTP record remains inconclusive; the URL is not classified as broken."
+            "method": "Codex web reader open and official-domain search",
+            "notes": "The official search index returned a snippet for this page, but a direct web-reader open timed out. This is not a fresh HTTP verification; the independent GET could not complete TLS certificate validation, so reachability remains inconclusive."
           }
         }
       ],
@@ -73042,7 +73040,7 @@
           "url": "https://www.miiscrivo.unicam.it/fees-foreign-students",
           "source_type": "Official foreign-student tuition guidance",
           "cycle": "general",
-          "accessed_at": "2026-11-09",
+          "accessed_at": "2026-11-11",
           "evidence": "The page describes income-based ISEE-U equalised assessment for specified foreign applicants, fixed annual fees of €200 for students from designated particularly poor/developing countries and €300 for non-OECD countries outside that list, with regional tax and stamp duty added. It also describes a €6,876 all-inclusive option. The page does not label these amounts with an academic year; do not treat them as 2027/28 fees.",
           "supports": [
             "university.foreign_student_fee_framework",
@@ -73051,7 +73049,7 @@
           "refresh_status": "inconclusive",
           "url_check": {
             "http_status": null,
-            "effective_url": "https://www.miiscrivo.unicam.it/fees-foreign-students",
+            "effective_url": null,
             "content_type": null,
             "content_length_header": null,
             "etag": null,
@@ -73066,15 +73064,16 @@
             "has_2027_marker": null,
             "bytes_read": 0,
             "outcome": "inconclusive",
-            "error": "curl.exe (60): Schannel SNI/hostname certificate validation failed: SEC_E_WRONG_PRINCIPAL; no HTTP response received.",
+            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.miiscrivo.unicam.it'. (_ssl.c:1007)",
+            "retried": true,
             "checked_at": "2026-11-11",
-            "method": "curl.exe GET -L; Cache-Control: no-cache"
+            "method": "GET"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
             "outcome": "inconclusive",
-            "method": "Codex web reader open",
-            "notes": "A web-reader open was attempted but timed out or could not fetch this URL. The direct HTTP record remains inconclusive; the URL is not classified as broken."
+            "method": "Codex web reader open and official-domain search",
+            "notes": "The official search index returned a snippet for this page, but a direct web-reader open timed out. This is not a fresh HTTP verification; the independent GET failed TLS hostname validation, so reachability remains inconclusive."
           }
         },
         {
@@ -73735,7 +73734,7 @@
           "url": "https://www.miiscrivo.unicam.it/fees-foreign-students",
           "source_type": "Official foreign-student tuition guidance",
           "cycle": "general",
-          "accessed_at": "2026-11-09",
+          "accessed_at": "2026-11-11",
           "evidence": "The page describes income-based ISEE-U equalised assessment for specified foreign applicants, fixed annual fees of €200 for students from designated particularly poor/developing countries and €300 for non-OECD countries outside that list, with regional tax and stamp duty added. It also describes a €6,876 all-inclusive option. The page does not label these amounts with an academic year; do not treat them as 2027/28 fees.",
           "supports": [
             "university.foreign_student_fee_framework",
@@ -73744,7 +73743,7 @@
           "refresh_status": "inconclusive",
           "url_check": {
             "http_status": null,
-            "effective_url": "https://www.miiscrivo.unicam.it/fees-foreign-students",
+            "effective_url": null,
             "content_type": null,
             "content_length_header": null,
             "etag": null,
@@ -73759,15 +73758,16 @@
             "has_2027_marker": null,
             "bytes_read": 0,
             "outcome": "inconclusive",
-            "error": "curl.exe (60): Schannel SNI/hostname certificate validation failed: SEC_E_WRONG_PRINCIPAL; no HTTP response received.",
+            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.miiscrivo.unicam.it'. (_ssl.c:1007)",
+            "retried": true,
             "checked_at": "2026-11-11",
-            "method": "curl.exe GET -L; Cache-Control: no-cache"
+            "method": "GET"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
             "outcome": "inconclusive",
-            "method": "Codex web reader open",
-            "notes": "A web-reader open was attempted but timed out or could not fetch this URL. The direct HTTP record remains inconclusive; the URL is not classified as broken."
+            "method": "Codex web reader open and official-domain search",
+            "notes": "The official search index returned a snippet for this page, but a direct web-reader open timed out. This is not a fresh HTTP verification; the independent GET failed TLS hostname validation, so reachability remains inconclusive."
           }
         },
         {
@@ -74413,7 +74413,7 @@
           "url": "https://www.miiscrivo.unicam.it/fees-foreign-students",
           "source_type": "Official foreign-student tuition guidance",
           "cycle": "general",
-          "accessed_at": "2026-11-09",
+          "accessed_at": "2026-11-11",
           "evidence": "The page describes income-based ISEE-U equalised assessment for specified foreign applicants, fixed annual fees of €200 for students from designated particularly poor/developing countries and €300 for non-OECD countries outside that list, with regional tax and stamp duty added. It also describes a €6,876 all-inclusive option. The page does not label these amounts with an academic year; do not treat them as 2027/28 fees.",
           "supports": [
             "university.foreign_student_fee_framework",
@@ -74422,7 +74422,7 @@
           "refresh_status": "inconclusive",
           "url_check": {
             "http_status": null,
-            "effective_url": "https://www.miiscrivo.unicam.it/fees-foreign-students",
+            "effective_url": null,
             "content_type": null,
             "content_length_header": null,
             "etag": null,
@@ -74437,15 +74437,16 @@
             "has_2027_marker": null,
             "bytes_read": 0,
             "outcome": "inconclusive",
-            "error": "curl.exe (60): Schannel SNI/hostname certificate validation failed: SEC_E_WRONG_PRINCIPAL; no HTTP response received.",
+            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.miiscrivo.unicam.it'. (_ssl.c:1007)",
+            "retried": true,
             "checked_at": "2026-11-11",
-            "method": "curl.exe GET -L; Cache-Control: no-cache"
+            "method": "GET"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
             "outcome": "inconclusive",
-            "method": "Codex web reader open",
-            "notes": "A web-reader open was attempted but timed out or could not fetch this URL. The direct HTTP record remains inconclusive; the URL is not classified as broken."
+            "method": "Codex web reader open and official-domain search",
+            "notes": "The official search index returned a snippet for this page, but a direct web-reader open timed out. This is not a fresh HTTP verification; the independent GET failed TLS hostname validation, so reachability remains inconclusive."
           }
         },
         {
@@ -75076,7 +75077,7 @@
           "url": "https://www.miiscrivo.unicam.it/fees-foreign-students",
           "source_type": "Official foreign-student tuition guidance",
           "cycle": "general",
-          "accessed_at": "2026-11-09",
+          "accessed_at": "2026-11-11",
           "evidence": "The page describes income-based ISEE-U equalised assessment for specified foreign applicants, fixed annual fees of €200 for students from designated particularly poor/developing countries and €300 for non-OECD countries outside that list, with regional tax and stamp duty added. It also describes a €6,876 all-inclusive option. The page does not label these amounts with an academic year; do not treat them as 2027/28 fees.",
           "supports": [
             "university.foreign_student_fee_framework",
@@ -75085,7 +75086,7 @@
           "refresh_status": "inconclusive",
           "url_check": {
             "http_status": null,
-            "effective_url": "https://www.miiscrivo.unicam.it/fees-foreign-students",
+            "effective_url": null,
             "content_type": null,
             "content_length_header": null,
             "etag": null,
@@ -75100,15 +75101,16 @@
             "has_2027_marker": null,
             "bytes_read": 0,
             "outcome": "inconclusive",
-            "error": "curl.exe (60): Schannel SNI/hostname certificate validation failed: SEC_E_WRONG_PRINCIPAL; no HTTP response received.",
+            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.miiscrivo.unicam.it'. (_ssl.c:1007)",
+            "retried": true,
             "checked_at": "2026-11-11",
-            "method": "curl.exe GET -L; Cache-Control: no-cache"
+            "method": "GET"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
             "outcome": "inconclusive",
-            "method": "Codex web reader open",
-            "notes": "A web-reader open was attempted but timed out or could not fetch this URL. The direct HTTP record remains inconclusive; the URL is not classified as broken."
+            "method": "Codex web reader open and official-domain search",
+            "notes": "The official search index returned a snippet for this page, but a direct web-reader open timed out. This is not a fresh HTTP verification; the independent GET failed TLS hostname validation, so reachability remains inconclusive."
           }
         },
         {
@@ -98400,19 +98402,19 @@
           "source_type": "Official Department programme and international admissions page",
           "cycle": "2027-2028",
           "accessed_at": "2026-11-11",
-          "evidence": "The official Department page says the first international call is open for applicants with an international Bachelor's degree who seek entry in AY 2027/28 (October 2027), with a 15 November 2026 deadline. It also publishes course entry criteria of 24 ECTS in Physics and 24 ECTS in Mathematics and committee assessment/interview details, but those criteria are not explicitly labelled for 2027/28. Official search results exposed the page content, but direct content retrieval and the fresh HTTP check were inconclusive on 11 November; do not classify the URL as broken. The page also contains prior-cycle 2026/27 information, which is not treated as current-cycle evidence.",
+          "evidence": "The official Department page says the first international call is open for applicants with an international Bachelor's degree who seek entry in AY 2027/28 (October 2027), with a 15 November 2026 deadline. It also publishes course entry criteria of 24 ECTS in Physics and 24 ECTS in Mathematics and committee assessment/interview details, but those criteria are not explicitly labelled for 2027/28. A fresh direct GET returned HTTP 200 with the official page title, 23,773 bytes and a 2027 marker. The page also contains prior-cycle 2026/27 information, which is not treated as current-cycle evidence.",
           "supports": [
             "program.availability_2027_2028",
             "program.application_deadline",
             "program.applicant_scope",
             "program.admission_requirements"
           ],
-          "refresh_status": "inconclusive",
+          "refresh_status": "accessible",
           "url_check": {
-            "http_status": null,
+            "http_status": 200,
             "effective_url": "https://astrophysics-and-cosmology.dfa.unipd.it/masters-degree/application-and-admission-requirements/",
-            "content_type": null,
-            "content_length_header": null,
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": "23773",
             "etag": null,
             "last_modified": null,
             "cache_control": null,
@@ -98420,14 +98422,15 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "MASTER'S DEGREE IN ASTROPHYSICS AND COSMOLOGY: Application and Admission Requirements",
             "pdf_signature": null,
-            "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "curl.exe (35): connection reset before an HTTP response.",
+            "has_2027_marker": true,
+            "bytes_read": 23773,
+            "outcome": "accessible",
+            "error": null,
+            "retried": true,
             "checked_at": "2026-11-11",
-            "method": "curl.exe GET -L; Cache-Control: no-cache"
+            "method": "GET"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -114553,7 +114556,7 @@
             "error": null,
             "checked_at": "2026-11-11",
             "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache",
-            "notes": "Explicit origin response body: HTTP 404 Not Found, requested URL was not found on the server. This is a historical PDF URL and is retained as provenance, not as a current offer."
+            "notes": "Explicit response body: HTTP 404 Not Found. This is a historical 2022/23 PDF retained as provenance, not a current admissions offer."
           },
           "browser_check": {
             "checked_at": "2026-11-11",
@@ -124749,7 +124752,7 @@
       "url": "https://www.miiscrivo.unicam.it/fees-foreign-students",
       "source_type": "Official foreign-student tuition guidance",
       "cycle": "general",
-      "accessed_at": "2026-11-09",
+      "accessed_at": "2026-11-11",
       "evidence": "The page describes income-based ISEE-U equalised assessment for specified foreign applicants, fixed annual fees of €200 for students from designated particularly poor/developing countries and €300 for non-OECD countries outside that list, with regional tax and stamp duty added. It also describes a €6,876 all-inclusive option. The page does not label these amounts with an academic year; do not treat them as 2027/28 fees.",
       "supports": [
         "university.foreign_student_fee_framework",
@@ -124758,7 +124761,7 @@
       "refresh_status": "inconclusive",
       "url_check": {
         "http_status": null,
-        "effective_url": "https://www.miiscrivo.unicam.it/fees-foreign-students",
+        "effective_url": null,
         "content_type": null,
         "content_length_header": null,
         "etag": null,
@@ -124773,15 +124776,16 @@
         "has_2027_marker": null,
         "bytes_read": 0,
         "outcome": "inconclusive",
-        "error": "curl.exe (60): Schannel SNI/hostname certificate validation failed: SEC_E_WRONG_PRINCIPAL; no HTTP response received.",
+        "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.miiscrivo.unicam.it'. (_ssl.c:1007)",
+        "retried": true,
         "checked_at": "2026-11-11",
-        "method": "curl.exe GET -L; Cache-Control: no-cache"
+        "method": "GET"
       },
       "browser_check": {
         "checked_at": "2026-11-11",
         "outcome": "inconclusive",
-        "method": "Codex web reader open",
-        "notes": "A web-reader open was attempted but timed out or could not fetch this URL. The direct HTTP record remains inconclusive; the URL is not classified as broken."
+        "method": "Codex web reader open and official-domain search",
+        "notes": "The official search index returned a snippet for this page, but a direct web-reader open timed out. This is not a fresh HTTP verification; the independent GET failed TLS hostname validation, so reachability remains inconclusive."
       }
     },
     {
@@ -130058,7 +130062,7 @@
         "error": null,
         "checked_at": "2026-11-11",
         "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache",
-        "notes": "Explicit origin response body: HTTP 404 Not Found, requested URL was not found on the server. This is a historical PDF URL and is retained as provenance, not as a current offer."
+        "notes": "Explicit response body: HTTP 404 Not Found. This is a historical 2022/23 PDF retained as provenance, not a current admissions offer."
       },
       "browser_check": {
         "checked_at": "2026-11-11",
@@ -134598,19 +134602,19 @@
       "source_type": "Official Department programme and international admissions page",
       "cycle": "2027-2028",
       "accessed_at": "2026-11-11",
-      "evidence": "The official Department page says the first international call is open for applicants with an international Bachelor's degree who seek entry in AY 2027/28 (October 2027), with a 15 November 2026 deadline. It also publishes course entry criteria of 24 ECTS in Physics and 24 ECTS in Mathematics and committee assessment/interview details, but those criteria are not explicitly labelled for 2027/28. Official search results exposed the page content, but direct content retrieval and the fresh HTTP check were inconclusive on 11 November; do not classify the URL as broken. The page also contains prior-cycle 2026/27 information, which is not treated as current-cycle evidence.",
+      "evidence": "The official Department page says the first international call is open for applicants with an international Bachelor's degree who seek entry in AY 2027/28 (October 2027), with a 15 November 2026 deadline. It also publishes course entry criteria of 24 ECTS in Physics and 24 ECTS in Mathematics and committee assessment/interview details, but those criteria are not explicitly labelled for 2027/28. A fresh direct GET returned HTTP 200 with the official page title, 23,773 bytes and a 2027 marker. The page also contains prior-cycle 2026/27 information, which is not treated as current-cycle evidence.",
       "supports": [
         "program.availability_2027_2028",
         "program.application_deadline",
         "program.applicant_scope",
         "program.admission_requirements"
       ],
-      "refresh_status": "inconclusive",
+      "refresh_status": "accessible",
       "url_check": {
-        "http_status": null,
+        "http_status": 200,
         "effective_url": "https://astrophysics-and-cosmology.dfa.unipd.it/masters-degree/application-and-admission-requirements/",
-        "content_type": null,
-        "content_length_header": null,
+        "content_type": "text/html; charset=utf-8",
+        "content_length_header": "23773",
         "etag": null,
         "last_modified": null,
         "cache_control": null,
@@ -134618,14 +134622,15 @@
         "x_vercel_cache": null,
         "x_vercel_id": null,
         "location": null,
-        "observed_title": null,
+        "observed_title": "MASTER'S DEGREE IN ASTROPHYSICS AND COSMOLOGY: Application and Admission Requirements",
         "pdf_signature": null,
-        "has_2027_marker": null,
-        "bytes_read": 0,
-        "outcome": "inconclusive",
-        "error": "curl.exe (35): connection reset before an HTTP response.",
+        "has_2027_marker": true,
+        "bytes_read": 23773,
+        "outcome": "accessible",
+        "error": null,
+        "retried": true,
         "checked_at": "2026-11-11",
-        "method": "curl.exe GET -L; Cache-Control: no-cache"
+        "method": "GET"
       },
       "browser_check": {
         "checked_at": "2026-11-11",
@@ -138860,7 +138865,7 @@
       "url": "https://www.psicologia.unipd.it/offerta-didattica/corsi-di-laurea-magistrale?tipo=LM",
       "source_type": "Official School of Psychology programme catalogue",
       "cycle": "2026-2027",
-      "accessed_at": "2026-11-10",
+      "accessed_at": "2026-11-11",
       "evidence": "The School catalogue lists active Master's programmes and states the academic year of the displayed offer; use programme-specific pages and annual calls for exact entry criteria.",
       "supports": [
         "program.previous_cycle_course_listing",
@@ -138891,8 +138896,8 @@
       "browser_check": {
         "checked_at": "2026-11-11",
         "outcome": "inconclusive",
-        "method": "Codex web reader open",
-        "notes": "A web-reader open was attempted but timed out or could not fetch this URL. The direct HTTP record remains inconclusive; the URL is not classified as broken."
+        "method": "Codex web reader open and official-domain search",
+        "notes": "The official search index returned a snippet for this page, but a direct web-reader open timed out. This is not a fresh HTTP verification; the independent GET returned HTTP 500, so reachability remains inconclusive."
       }
     },
     {
@@ -139624,7 +139629,7 @@
       "url": "https://www.qst.unina.it/index.php/education/",
       "source_type": "Official University project and programme page",
       "cycle": "general",
-      "accessed_at": "2026-11-10",
+      "accessed_at": "2026-11-11",
       "evidence": "Names the Master Degree in Quantum Science and Engineering and links to the official Physics and course websites. This verifies programme identity, not its 2027/28 intake.",
       "supports": [
         "program.previous_cycle_course_listing",
@@ -139633,7 +139638,7 @@
       "refresh_status": "inconclusive",
       "url_check": {
         "http_status": null,
-        "effective_url": "https://www.qst.unina.it/index.php/education/",
+        "effective_url": null,
         "content_type": null,
         "content_length_header": null,
         "etag": null,
@@ -139648,15 +139653,16 @@
         "has_2027_marker": null,
         "bytes_read": 0,
         "outcome": "inconclusive",
-        "error": "curl.exe (35): Schannel certificate status check failed; certificate reported revoked (CRYPT_E_REVOKED); no HTTP response received.",
+        "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1007)",
+        "retried": true,
         "checked_at": "2026-11-11",
-        "method": "curl.exe GET -L; Cache-Control: no-cache"
+        "method": "GET"
       },
       "browser_check": {
         "checked_at": "2026-11-11",
         "outcome": "inconclusive",
-        "method": "Codex web reader open",
-        "notes": "A web-reader open was attempted but timed out or could not fetch this URL. The direct HTTP record remains inconclusive; the URL is not classified as broken."
+        "method": "Codex web reader open and official-domain search",
+        "notes": "The official search index returned a snippet for this page, but a direct web-reader open timed out. This is not a fresh HTTP verification; the independent GET could not complete TLS certificate validation, so reachability remains inconclusive."
       }
     },
     {
@@ -139820,7 +139826,7 @@
       "url": "https://www.civil-environmental.unina.it/admission/",
       "source_type": "Official degree programme and admission page",
       "cycle": "2026-2027",
-      "accessed_at": "2026-11-10",
+      "accessed_at": "2026-11-11",
       "evidence": "Identifies an English-taught three-year BSc in Civil and Environmental Engineering, class L-7 R, at Federico II. The page describes 2026 admission schedule, CEnT-S/SAT routes, B2 English and non-EU Universitaly pre-admission; those deadlines are historical and not 2027/28.",
       "supports": [
         "program.previous_cycle_course_listing",
@@ -139832,7 +139838,7 @@
       "refresh_status": "inconclusive",
       "url_check": {
         "http_status": null,
-        "effective_url": "https://www.civil-environmental.unina.it/admission/",
+        "effective_url": null,
         "content_type": null,
         "content_length_header": null,
         "etag": null,
@@ -139847,15 +139853,16 @@
         "has_2027_marker": null,
         "bytes_read": 0,
         "outcome": "inconclusive",
-        "error": "curl.exe (35): Schannel certificate check failed; certificate reported expired (SEC_E_CERT_EXPIRED); no HTTP response received.",
+        "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1007)",
+        "retried": true,
         "checked_at": "2026-11-11",
-        "method": "curl.exe GET -L; Cache-Control: no-cache"
+        "method": "GET"
       },
       "browser_check": {
         "checked_at": "2026-11-11",
         "outcome": "inconclusive",
-        "method": "Codex web reader open",
-        "notes": "A web-reader open was attempted but timed out or could not fetch this URL. The direct HTTP record remains inconclusive; the URL is not classified as broken."
+        "method": "Codex web reader open and official-domain search",
+        "notes": "The official search index returned a snippet for this page, but a direct web-reader open timed out. This is not a fresh HTTP verification; the independent GET could not complete TLS certificate validation, so reachability remains inconclusive."
       }
     },
     {
@@ -143097,15 +143104,7 @@
       "url": "https://www.miiscrivo.unicam.it/fees-foreign-students",
       "direct_http_outcome": "inconclusive",
       "browser_outcome": "inconclusive",
-      "direct_http_error": "curl.exe (60): Schannel SNI/hostname certificate validation failed: SEC_E_WRONG_PRINCIPAL; no HTTP response received.",
-      "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
-    },
-    {
-      "source_id": "SRC-PADUA-ASTROPHYSICS-2027-CALL",
-      "url": "https://astrophysics-and-cosmology.dfa.unipd.it/masters-degree/application-and-admission-requirements/",
-      "direct_http_outcome": "inconclusive",
-      "browser_outcome": "inconclusive",
-      "direct_http_error": "curl.exe (35): connection reset before an HTTP response.",
+      "direct_http_error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.miiscrivo.unicam.it'. (_ssl.c:1007)",
       "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
     },
     {
@@ -143121,7 +143120,7 @@
       "url": "https://www.qst.unina.it/index.php/education/",
       "direct_http_outcome": "inconclusive",
       "browser_outcome": "inconclusive",
-      "direct_http_error": "curl.exe (35): Schannel certificate status check failed; certificate reported revoked (CRYPT_E_REVOKED); no HTTP response received.",
+      "direct_http_error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1007)",
       "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
     },
     {
@@ -143129,7 +143128,7 @@
       "url": "https://www.civil-environmental.unina.it/admission/",
       "direct_http_outcome": "inconclusive",
       "browser_outcome": "inconclusive",
-      "direct_http_error": "curl.exe (35): Schannel certificate check failed; certificate reported expired (SEC_E_CERT_EXPIRED); no HTTP response received.",
+      "direct_http_error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1007)",
       "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
     }
   ],
