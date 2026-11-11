@@ -34606,55 +34606,74 @@
     "id": "legacy-162",
     "university_id": "padova",
     "university": "Università degli Studi di Padova",
-    "city": "Padova",
+    "city": "Legnaro",
     "program": "Scienze e tecnologie agrarie",
     "level": {
       "value": "MSc",
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
+        "SRC-PADOVA-AGRICULTURAL-SCIENCES-PROFILE-2026",
         "SRC-PADOVA-AGRICULTURAL-SCIENCES-2026"
       ],
-      "notes": "Official course identity is confirmed for the 2026/2027 catalogue; this value is not promoted to 2027/28 without a named-cycle source."
+      "notes": "The official 2026/27 profile confirms the Master's level. The 2027/28 first-year course listing has not been verified."
     },
     "language": {
       "value": "Italian",
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
+        "SRC-PADOVA-AGRICULTURAL-SCIENCES-PROFILE-2026",
         "SRC-PADOVA-AGRICULTURAL-SCIENCES-2026"
       ],
-      "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
+      "notes": "The official 2026/27 profile identifies Italian as the teaching language. The 2027/28 first-year course listing has not been verified."
     },
     "field": {
       "value": "Agricultural Sciences and Technologies",
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
+        "SRC-PADOVA-AGRICULTURAL-SCIENCES-PROFILE-2026",
         "SRC-PADOVA-AGRICULTURAL-SCIENCES-2026"
       ],
-      "notes": "Course subject identity is based on current official profile/catalogue evidence; next-cycle catalogue not yet verified."
+      "notes": "The subject and course identity are confirmed for 2026/27 only; they are not treated as a confirmed 2027/28 offer."
     },
     "availability_2027_2028": {
       "value": null,
       "status": "NOT_YET_PUBLISHED",
       "source_ids": [
-        "SRC-PADOVA-AGRICULTURAL-SCIENCES-2026"
+        "SRC-PADOVA-AGRICULTURAL-SCIENCES-PROFILE-2026",
+        "SRC-PADOVA-AGRICULTURAL-SCIENCES-2026",
+        "SRC-PADOVA-AGRICULTURE-MSC-CALL-2026",
+        "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027"
       ],
-      "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued."
+      "notes": "The latest named course profile and School call reviewed are for 2026/27. Padua's general international page gives a first 2027/28 call for most courses, but no course-specific 2027/28 intake or call, nor a new Italian-qualification School call, was verified for Scienze e tecnologie agrarie. This does not mean the course is discontinued."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
     "facts": {
       "previous_cycle_course_listing": {
         "value": {
-          "academic_year": "2026/2027",
+          "academic_year": "2026/27",
           "official_name": "Scienze e tecnologie agrarie",
-          "level": "MSc",
-          "language": "Italian"
+          "official_english_rendering": "Agricultural Science and Technology",
+          "degree_type": "Laurea Magistrale / Master's degree",
+          "degree_class": "LM-69 R – Agricultural Sciences and Technologies",
+          "duration_years": 2,
+          "campus": "Legnaro",
+          "language": "Italian",
+          "access": "Open access with requirements",
+          "curricula": [
+            "Plant protection",
+            "Plant production",
+            "Professional"
+          ],
+          "similar_but_separate_degree": "Sustainable Agriculture (English-taught)"
         },
         "status": "CONFIRMED",
         "source_ids": [
-          "SRC-PADOVA-AGRICULTURAL-SCIENCES-2026"
+          "SRC-PADOVA-AGRICULTURAL-SCIENCES-PROFILE-2026",
+          "SRC-PADOVA-AGRICULTURAL-SCIENCES-2026",
+          "SRC-PADOVA-AGRICULTURE-MSC-CALL-2026"
         ],
-        "notes": "Official course profile/catalogue evidence is cycle-scoped to 2026/2027 and does not establish 2027/28 first-year admission."
+        "notes": "This is the 2026/27 course identity. Sustainable Agriculture is a separate English-taught programme, even though it is in the same broad subject area."
       },
       "application_windows": {
         "value": null,
@@ -34668,17 +34687,21 @@
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
-          "SRC-PADOVA-AGRICULTURAL-SCIENCES-2026"
+          "SRC-PADOVA-AGRICULTURE-MSC-CALL-2026",
+          "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal."
+        "notes": "The €30 pre-enrolment contribution belongs to the 2026/27 Italian-qualification call. No 2027/28 course-specific contribution was published in the reviewed sources."
       },
       "program_specific_requirements_2027_2028": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
-          "SRC-PADOVA-AGRICULTURAL-SCIENCES-2026"
+          "SRC-PADOVA-AGRICULTURAL-SCIENCES-PROFILE-2026",
+          "SRC-PADOVA-AGRICULTURAL-SCIENCES-2026",
+          "SRC-PADOVA-AGRICULTURE-MSC-CALL-2026",
+          "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only."
+        "notes": "The detailed requirements available are from the 2026/27 Italian-qualification route. No 2027/28 course call or course-specific foreign-qualification criteria were verified."
       },
       "tuition_2027_2028": {
         "value": null,
@@ -34693,37 +34716,253 @@
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
-          "SRC-PADOVA-AGRICULTURAL-SCIENCES-2026"
+          "SRC-PADOVA-AGRICULTURAL-SCIENCES-2026",
+          "SRC-PADOVA-AGRICULTURE-MSC-CALL-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking."
+        "notes": "No course-specific 2027/28 scholarship terms were published in the reviewed course profile or admission call; the annual current-cycle aid calls were not established by this course review."
       },
       "acceptance_rate": {
         "value": null,
         "status": "UNAVAILABLE",
         "source_ids": [
+          "SRC-PADOVA-AGRICULTURAL-SCIENCES-PROFILE-2026",
+          "SRC-PADOVA-AGRICULTURE-MSC-CALL-2026"
+        ],
+        "notes": "The reviewed official sources do not publish comparable applicant and admitted-student totals; no acceptance rate is inferred."
+      },
+      "previous_cycle_program_requirements": {
+        "value": {
+          "academic_year": "2026/27",
+          "applicant_scope": "Candidates using an admission qualification obtained in Italy; foreign qualifications use the separate international procedure",
+          "access": "Open access with requirements",
+          "degree_class_alternative": {
+            "degree_classes": [
+              "L-25",
+              "L-32",
+              "L-38"
+            ],
+            "legacy_degree_classes": [
+              "20",
+              "27",
+              "40"
+            ]
+          },
+          "curricular_credit_alternative": {
+            "degree_class": "Any degree class",
+            "minimum_total_cfu": 50,
+            "minimums_by_sector": [
+              {
+                "minimum_cfu": 6,
+                "sectors": [
+                  "AGR/01"
+                ]
+              },
+              {
+                "minimum_cfu": 12,
+                "sectors": [
+                  "AGR/02",
+                  "AGR/03",
+                  "AGR/04"
+                ]
+              },
+              {
+                "minimum_cfu": 4,
+                "sectors": [
+                  "AGR/07"
+                ]
+              },
+              {
+                "minimum_cfu": 6,
+                "sectors": [
+                  "AGR/08",
+                  "AGR/09"
+                ]
+              },
+              {
+                "minimum_cfu": 8,
+                "sectors": [
+                  "AGR/11",
+                  "AGR/12"
+                ]
+              },
+              {
+                "minimum_cfu": 6,
+                "sectors": [
+                  "AGR/13"
+                ]
+              },
+              {
+                "minimum_cfu": 8,
+                "sectors": [
+                  "AGR/17",
+                  "AGR/18",
+                  "AGR/19",
+                  "AGR/20"
+                ]
+              }
+            ]
+          },
+          "personal_preparation_language": "English B1 or higher",
+          "assessment_instructions": "The call refers applicants to Annex 2 for evidence and assessment instructions."
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-AGRICULTURE-MSC-CALL-2026"
+        ],
+        "notes": "These requirements apply to the 2026/27 Italian-qualification call only. Do not apply them to applicants with foreign qualifications or carry them forward to 2027/28 without the new call."
+      },
+      "previous_cycle_english_requirement": {
+        "value": {
+          "academic_year": "2026/27",
+          "minimum": "English B1 or higher",
+          "scope": "Italian-qualification School call"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-AGRICULTURE-MSC-CALL-2026"
+        ],
+        "notes": "The 2026/27 call lists English B1 or higher as a personal-preparation requirement even though the programme is taught in Italian. The 2027/28 requirement is not confirmed."
+      },
+      "previous_cycle_access": {
+        "value": "Open access with curricular and personal-preparation requirements",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-AGRICULTURAL-SCIENCES-PROFILE-2026",
+          "SRC-PADOVA-AGRICULTURAL-SCIENCES-2026",
+          "SRC-PADOVA-AGRICULTURE-MSC-CALL-2026"
+        ],
+        "notes": "The 2026/27 classification does not establish the 2027/28 course offer or admission procedure."
+      },
+      "previous_cycle_application_windows": {
+        "value": {
+          "academic_year": "2026/27",
+          "eligible_group": "Applicants using an Italian qualification; foreign qualifications followed the separate international route",
+          "pre_enrolment": {
+            "start": "2026-07-15 15:00",
+            "end": "2027-01-29 12:00"
+          },
+          "curricular_assessment_request": {
+            "start": "2026-07-15 15:00",
+            "end": "2027-01-29 15:00"
+          },
+          "qualifying_degree_deadline": "2027-01-29",
+          "enrolment": {
+            "start": "2026-07-15",
+            "end": "2027-02-15"
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-AGRICULTURE-MSC-CALL-2026"
+        ],
+        "notes": "These are 2026/27 Italian-qualification dates only, not 2027/28 deadlines."
+      },
+      "previous_cycle_application_fee": {
+        "value": {
+          "academic_year": "2026/27",
+          "amount_eur": 30,
+          "description": "Uniweb pre-enrolment contribution per application",
+          "payment_method": "PagoPA"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-AGRICULTURE-MSC-CALL-2026"
+        ],
+        "notes": "The €30 was the pre-enrolment contribution for the 2026/27 Italian-qualification route; it is not a confirmed 2027/28 application charge."
+      },
+      "application_windows_2027_2028": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-PADOVA-AGRICULTURAL-SCIENCES-PROFILE-2026",
+          "SRC-PADOVA-AGRICULTURAL-SCIENCES-2026",
+          "SRC-PADOVA-AGRICULTURE-MSC-CALL-2026",
+          "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027"
+        ],
+        "notes": "No programme-specific 2027/28 application calendar was verified. The University's general 15 September–15 November 2026 first-call window is stated for most programmes, but course inclusion was not established. Do not use the 2026/27 Italian-route dates as a substitute."
+      },
+      "application_deadline": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-PADOVA-AGRICULTURAL-SCIENCES-PROFILE-2026",
+          "SRC-PADOVA-AGRICULTURAL-SCIENCES-2026",
+          "SRC-PADOVA-AGRICULTURE-MSC-CALL-2026",
+          "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027"
+        ],
+        "notes": "No 2027/28 course-specific deadline was verified in the official course profile, School admissions material or general international admissions page reviewed."
+      },
+      "english_language_requirement_2027_2028": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-PADOVA-AGRICULTURE-MSC-CALL-2026",
+          "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027"
+        ],
+        "notes": "The listed English B1 threshold is from the 2026/27 Italian-qualification call; the 2027/28 course requirement has not been published in the reviewed sources."
+      },
+      "applicant_scope_2027_2028": {
+        "value": {
+          "international_degree_seeker_definition": "Applicant holding a qualification obtained abroad, regardless of citizenship",
+          "international_route": "University of Padua international admissions procedure for Italian-taught courses; dates vary by programme",
+          "general_first_call": {
+            "start": "2026-09-15",
+            "end": "2026-11-15",
+            "scope": "Most University of Padua degree programmes"
+          },
+          "course_specific_2027_2028_intake": "Not verified",
+          "italian_qualification_route": "Separate School/Uniweb procedure; only the 2026/27 call was located in this review"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027",
           "SRC-PADOVA-AGRICULTURAL-SCIENCES-2026"
         ],
-        "notes": "The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred."
+        "notes": "This records Padua's general route definitions and calendar, not confirmation that this course is included in a 2027/28 call."
+      },
+      "application_route": {
+        "value": "https://www.unipd.it/en/ammissione-studenti-internazionali",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027"
+        ],
+        "notes": "General route for applicants with a foreign qualification. The programme-specific 2027/28 procedure remains unverified; applicants using an Italian qualification follow a separate procedure."
+      },
+      "previous_cycle_tuition": {
+        "value": {
+          "academic_year": "2026/27",
+          "course_specific_total_published": false,
+          "general_degree_fee_range_eur_per_year": {
+            "minimum": 0,
+            "maximum_approx": 3000
+          },
+          "first_year_initial_instalment_eur": 208,
+          "fee_basis": "Varies by programme and student circumstances; the initial instalment includes regional tax and stamp duty"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADUA-TUITION-2026",
+          "SRC-PADOVA-AGRICULTURE-MSC-CALL-2026"
+        ],
+        "notes": "These are University-wide 2026/27 fee figures, not a course-specific total. Do not carry them forward as 2027/28 tuition."
       }
     },
     "source_ids": [
       "SRC-PADOVA-AGRICULTURAL-SCIENCES-2026",
-      "SRC-PADUA-TUITION-2026"
+      "SRC-PADUA-TUITION-2026",
+      "SRC-PADOVA-AGRICULTURAL-SCIENCES-PROFILE-2026",
+      "SRC-PADOVA-AGRICULTURE-MSC-CALL-2026",
+      "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027"
     ],
-    "previous_tracker_tags": {
-      "level": "MSc",
-      "language": "Italian",
-      "field": "Sciences",
-      "label": "Previous tracker classification — not reverified for 2027/28"
-    },
+    "previous_tracker_tags": null,
     "previous_cycle_tags": {
       "level": "MSc",
       "language": "Italian",
       "field": "Agricultural Sciences and Technologies",
       "cycle": "2026-2027",
-      "label": "Official course identity checked for 2026/2027; 2027/28 first-year intake and terms remain unconfirmed"
+      "label": "Official 2026/27 DAFNAE profile and School call; 2027/28 first-year intake remains unconfirmed"
     },
-    "last_checked": "2026-11-10"
+    "last_checked": "2026-11-11"
   },
   {
     "id": "legacy-163",

@@ -803,6 +803,22 @@ SOURCES = [
         "supports": ["program.previous_cycle_course_listing", "program.previous_cycle_level", "program.previous_cycle_language"],
     },
     {
+        "id": "SRC-PADOVA-AGRICULTURAL-SCIENCES-PROFILE-2026",
+        "university_id": "padova", "title": "Scienze e tecnologie agrarie – official DAFNAE course profile",
+        "url": "https://dafnae.unipd.it/offerta-didattica/corsi-di-laurea-magistrale/?key=AV2880&ordinamento=2026&tipo=LM",
+        "source_type": "Official Department of Agronomy, Food, Natural Resources, Animals and Environment course profile", "accessed_at": "2026-11-11", "cycle": "2026-2027",
+        "evidence": "The 2026 course profile identifies a two-year Laurea Magistrale in class LM-69 R at Legnaro, taught in Italian with open access subject to requirements, and lists three curricula: Plant protection, Plant production and Professional. The profile concerns the 2026 course record and does not establish a 2027/28 first-year intake. It is distinct from the separate English-taught Sustainable Agriculture degree.",
+        "supports": ["program.previous_cycle_course_listing", "program.previous_cycle_level", "program.previous_cycle_language", "program.previous_cycle_location", "program.previous_cycle_access"],
+    },
+    {
+        "id": "SRC-PADOVA-AGRICULTURE-MSC-CALL-2026",
+        "university_id": "padova", "title": "School of Agriculture and Veterinary Medicine open-access Master's call – AY 2026/27",
+        "url": "https://wwwassets.unipd.it/sites/default/files/2026-05/2026_Avviso_LM_AgrariaLiberi_EN_V2.pdf",
+        "source_type": "Official University of Padua admission call PDF", "accessed_at": "2026-11-11", "cycle": "2026-2027",
+        "evidence": "The 2026/27 call expressly applies to candidates whose admission qualification was obtained in Italy; candidates using a foreign qualification must follow the separate international procedure. For Scienze e tecnologie agrarie it gives full-term pre-enrolment from 15 July 2026 at 15:00 to 29 January 2027 at 12:00, curricular-assessment requests through 29 January 2027 at 15:00, qualification completion by 29 January 2027, and enrolment through 15 February 2027. It lists the course-specific Italian-qualification degree-class or 50-CFU alternatives, English B1, and a €30 Uniweb pre-enrolment contribution. These are prior-cycle, route-specific terms only.",
+        "supports": ["program.previous_cycle_course_listing", "program.previous_cycle_program_requirements", "program.previous_cycle_application_windows", "program.previous_cycle_application_fee", "program.previous_cycle_access", "program.previous_cycle_english_requirement"],
+    },
+    {
         "id": "SRC-PADOVA-MOLECULAR-BIOLOGY-BSC-2026",
         "university_id": "padova", "title": "Biologia Molecolare – official bachelor's degree profile",
         "url": "https://biologia-molecolare.biologia.unipd.it/index.php?id=170",
@@ -1894,6 +1910,12 @@ BATCH34 = {
     "id": "padova-management-engineering-2027-28-offer-and-prior-cycle-admissions-review",
     "status": "partial",
     "result": "Reviewed legacy-161, Management Engineering, as an English-taught study track within Padua's LM-31 Ingegneria gestionale degree at Vicenza. The official 2027/28 course page and application platform confirm a two-year English track with open admission subject to requirements, an October 1, 2027 start, and three application rounds: September 15–November 15, 2026; December 1, 2026–March 1, 2027; and April 1–June 1, 2027 (the third is limited to EU applicants and non-EU applicants residing in Italy). The application portal confirms the current Call One cutoff at 23:59:59 CET, a one-time €60 application fee, a minimum three-year bachelor's/equivalent, engineering-background and country-based GPA checks, GPA/transcript/CV review, and English B2. Its €2,950/year tuition display is recorded as currently displayed but not confirmed as the final 2027/28 fee because it is not separately cycle-labelled. The international route covers foreign qualifications; the separate 2027/28 route for Italian qualifications remains unverified. The 2026/27 School call is retained as prior-cycle evidence for Italian qualifications, with its curricular alternatives, 84/110 grade threshold, B2 requirement, €30 pre-enrolment fee and July 2026–January 2027 pre-enrolment/review windows; the separate 39-CFU second-year credit-recognition rule is not treated as an entry requirement. Padua's Board announced up to 76 2027/28 International Excellence awards at €8,000/year plus tuition exemption for the top candidate per English-taught degree/curriculum, but the annual scholarship call and final course-level terms remain pending. Fresh no-cache GETs returned HTTP 200 for the live course page, application platform, international-admissions page and scholarship pages, and HTTP 206 with a valid PDF signature for the 2026/27 call. No deployment or Vercel changes were made.",
+}
+
+BATCH35 = {
+    "id": "padova-agricultural-sciences-identity-and-2026-27-admissions-review",
+    "status": "partial",
+    "result": "Reviewed legacy-162, Scienze e tecnologie agrarie, against the official DAFNAE profile, the School of Agriculture and Veterinary Medicine's 2026/27 course inventory and call, and Padua's international admissions guidance. Confirmed the prior-cycle course identity as a two-year LM-69 R Laurea Magistrale taught in Italian at Legnaro, open access with requirements, with Plant protection, Plant production and Professional curricula; distinguished it from the separate English-taught Sustainable Agriculture degree. The 2026/27 call is explicitly for candidates using an Italian qualification. It requires either an L-25/L-32/L-38 (or listed legacy-class) degree, or any degree plus 50 CFU distributed across seven agricultural subject areas with the specified minimums; it also lists English B1. The full-term Italian-qualification route used 15 July 2026–29 January 2027 pre-enrolment, a 29 January 2027 curricular-assessment deadline and degree-completion deadline, enrolment through 15 February 2027, and a €30 Uniweb pre-enrolment contribution. These are recorded as historical and route-scoped. Padua's general international page defines international degree-seekers by foreign qualification and lists a 15 September–15 November 2026 first call for most degree programmes, but no course-specific 2027/28 intake or Italian-qualification call was verified for this course; 2027/28 availability, dates, requirements, application contribution, tuition and scholarship terms remain unconfirmed. Fresh no-cache GETs returned HTTP 200 for the DAFNAE profile and HTTP 206 with a valid PDF signature for the 2026/27 call. No deployment or Vercel changes were made.",
 }
 
 SOURCE_RECHECKS = {
@@ -6155,6 +6177,176 @@ def apply(
     )
     management_track["last_checked"] = "2026-11-11"
 
+    agricultural_sciences = by_id["legacy-162"]
+    agriculture_profile = "SRC-PADOVA-AGRICULTURAL-SCIENCES-PROFILE-2026"
+    agriculture_catalogue = "SRC-PADOVA-AGRICULTURAL-SCIENCES-2026"
+    agriculture_call = "SRC-PADOVA-AGRICULTURE-MSC-CALL-2026"
+    agriculture_international = "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027"
+    agriculture_prior_sources = [agriculture_profile, agriculture_catalogue, agriculture_call]
+    agriculture_current_sources = agriculture_prior_sources + [agriculture_international]
+    agricultural_sciences["city"] = "Legnaro"
+    agricultural_sciences["level"] = fact(
+        "MSc", "REQUIRES_VERIFICATION", [agriculture_profile, agriculture_catalogue],
+        "The official 2026/27 profile confirms the Master's level. The 2027/28 first-year course listing has not been verified.",
+    )
+    agricultural_sciences["language"] = fact(
+        "Italian", "REQUIRES_VERIFICATION", [agriculture_profile, agriculture_catalogue],
+        "The official 2026/27 profile identifies Italian as the teaching language. The 2027/28 first-year course listing has not been verified.",
+    )
+    agricultural_sciences["field"] = fact(
+        "Agricultural Sciences and Technologies", "REQUIRES_VERIFICATION", [agriculture_profile, agriculture_catalogue],
+        "The subject and course identity are confirmed for 2026/27 only; they are not treated as a confirmed 2027/28 offer.",
+    )
+    agricultural_sciences["availability_2027_2028"] = fact(
+        None, "NOT_YET_PUBLISHED", agriculture_current_sources,
+        "The latest named course profile and School call reviewed are for 2026/27. Padua's general international page gives a first 2027/28 call for most courses, but no course-specific 2027/28 intake or call, nor a new Italian-qualification School call, was verified for Scienze e tecnologie agrarie. This does not mean the course is discontinued.",
+    )
+    agricultural_sciences["overall_status"] = "REQUIRES_VERIFICATION"
+    agricultural_sciences["source_ids"] = list(dict.fromkeys(
+        agricultural_sciences.get("source_ids", [])
+        + agriculture_current_sources
+        + [padua_tuition_source]
+    ))
+    agricultural_sciences["previous_tracker_tags"] = None
+    agricultural_sciences["previous_cycle_tags"] = {
+        "level": "MSc",
+        "language": "Italian",
+        "field": "Agricultural Sciences and Technologies",
+        "cycle": "2026-2027",
+        "label": "Official 2026/27 DAFNAE profile and School call; 2027/28 first-year intake remains unconfirmed",
+    }
+    agriculture_facts = agricultural_sciences.setdefault("facts", {})
+    agriculture_facts.update({
+        "previous_cycle_course_listing": fact(
+            {
+                "academic_year": "2026/27",
+                "official_name": "Scienze e tecnologie agrarie",
+                "official_english_rendering": "Agricultural Science and Technology",
+                "degree_type": "Laurea Magistrale / Master's degree",
+                "degree_class": "LM-69 R – Agricultural Sciences and Technologies",
+                "duration_years": 2,
+                "campus": "Legnaro",
+                "language": "Italian",
+                "access": "Open access with requirements",
+                "curricula": ["Plant protection", "Plant production", "Professional"],
+                "similar_but_separate_degree": "Sustainable Agriculture (English-taught)",
+            },
+            "CONFIRMED", agriculture_prior_sources,
+            "This is the 2026/27 course identity. Sustainable Agriculture is a separate English-taught programme, even though it is in the same broad subject area.",
+        ),
+        "previous_cycle_program_requirements": fact(
+            {
+                "academic_year": "2026/27",
+                "applicant_scope": "Candidates using an admission qualification obtained in Italy; foreign qualifications use the separate international procedure",
+                "access": "Open access with requirements",
+                "degree_class_alternative": {
+                    "degree_classes": ["L-25", "L-32", "L-38"],
+                    "legacy_degree_classes": ["20", "27", "40"],
+                },
+                "curricular_credit_alternative": {
+                    "degree_class": "Any degree class",
+                    "minimum_total_cfu": 50,
+                    "minimums_by_sector": [
+                        {"minimum_cfu": 6, "sectors": ["AGR/01"]},
+                        {"minimum_cfu": 12, "sectors": ["AGR/02", "AGR/03", "AGR/04"]},
+                        {"minimum_cfu": 4, "sectors": ["AGR/07"]},
+                        {"minimum_cfu": 6, "sectors": ["AGR/08", "AGR/09"]},
+                        {"minimum_cfu": 8, "sectors": ["AGR/11", "AGR/12"]},
+                        {"minimum_cfu": 6, "sectors": ["AGR/13"]},
+                        {"minimum_cfu": 8, "sectors": ["AGR/17", "AGR/18", "AGR/19", "AGR/20"]},
+                    ],
+                },
+                "personal_preparation_language": "English B1 or higher",
+                "assessment_instructions": "The call refers applicants to Annex 2 for evidence and assessment instructions.",
+            },
+            "CONFIRMED", [agriculture_call],
+            "These requirements apply to the 2026/27 Italian-qualification call only. Do not apply them to applicants with foreign qualifications or carry them forward to 2027/28 without the new call.",
+        ),
+        "previous_cycle_english_requirement": fact(
+            {"academic_year": "2026/27", "minimum": "English B1 or higher", "scope": "Italian-qualification School call"},
+            "CONFIRMED", [agriculture_call],
+            "The 2026/27 call lists English B1 or higher as a personal-preparation requirement even though the programme is taught in Italian. The 2027/28 requirement is not confirmed.",
+        ),
+        "previous_cycle_access": fact(
+            "Open access with curricular and personal-preparation requirements",
+            "CONFIRMED", agriculture_prior_sources,
+            "The 2026/27 classification does not establish the 2027/28 course offer or admission procedure.",
+        ),
+        "previous_cycle_application_windows": fact(
+            {
+                "academic_year": "2026/27",
+                "eligible_group": "Applicants using an Italian qualification; foreign qualifications followed the separate international route",
+                "pre_enrolment": {"start": "2026-07-15 15:00", "end": "2027-01-29 12:00"},
+                "curricular_assessment_request": {"start": "2026-07-15 15:00", "end": "2027-01-29 15:00"},
+                "qualifying_degree_deadline": "2027-01-29",
+                "enrolment": {"start": "2026-07-15", "end": "2027-02-15"},
+            },
+            "CONFIRMED", [agriculture_call],
+            "These are 2026/27 Italian-qualification dates only, not 2027/28 deadlines.",
+        ),
+        "previous_cycle_application_fee": fact(
+            {"academic_year": "2026/27", "amount_eur": 30, "description": "Uniweb pre-enrolment contribution per application", "payment_method": "PagoPA"},
+            "CONFIRMED", [agriculture_call],
+            "The €30 was the pre-enrolment contribution for the 2026/27 Italian-qualification route; it is not a confirmed 2027/28 application charge.",
+        ),
+        "application_windows_2027_2028": fact(
+            None, "NOT_YET_PUBLISHED", agriculture_current_sources,
+            "No programme-specific 2027/28 application calendar was verified. The University's general 15 September–15 November 2026 first-call window is stated for most programmes, but course inclusion was not established. Do not use the 2026/27 Italian-route dates as a substitute.",
+        ),
+        "application_deadline": fact(
+            None, "NOT_YET_PUBLISHED", agriculture_current_sources,
+            "No 2027/28 course-specific deadline was verified in the official course profile, School admissions material or general international admissions page reviewed.",
+        ),
+        "application_fee_2027_2028": fact(
+            None, "NOT_YET_PUBLISHED", [agriculture_call, agriculture_international],
+            "The €30 pre-enrolment contribution belongs to the 2026/27 Italian-qualification call. No 2027/28 course-specific contribution was published in the reviewed sources.",
+        ),
+        "program_specific_requirements_2027_2028": fact(
+            None, "NOT_YET_PUBLISHED", [agriculture_profile, agriculture_catalogue, agriculture_call, agriculture_international],
+            "The detailed requirements available are from the 2026/27 Italian-qualification route. No 2027/28 course call or course-specific foreign-qualification criteria were verified.",
+        ),
+        "english_language_requirement_2027_2028": fact(
+            None, "NOT_YET_PUBLISHED", [agriculture_call, agriculture_international],
+            "The listed English B1 threshold is from the 2026/27 Italian-qualification call; the 2027/28 course requirement has not been published in the reviewed sources.",
+        ),
+        "applicant_scope_2027_2028": fact(
+            {
+                "international_degree_seeker_definition": "Applicant holding a qualification obtained abroad, regardless of citizenship",
+                "international_route": "University of Padua international admissions procedure for Italian-taught courses; dates vary by programme",
+                "general_first_call": {"start": "2026-09-15", "end": "2026-11-15", "scope": "Most University of Padua degree programmes"},
+                "course_specific_2027_2028_intake": "Not verified",
+                "italian_qualification_route": "Separate School/Uniweb procedure; only the 2026/27 call was located in this review",
+            },
+            "CONFIRMED", [agriculture_international, agriculture_catalogue],
+            "This records Padua's general route definitions and calendar, not confirmation that this course is included in a 2027/28 call.",
+        ),
+        "application_route": fact(
+            "https://www.unipd.it/en/ammissione-studenti-internazionali",
+            "CONFIRMED", [agriculture_international],
+            "General route for applicants with a foreign qualification. The programme-specific 2027/28 procedure remains unverified; applicants using an Italian qualification follow a separate procedure.",
+        ),
+        "previous_cycle_tuition": fact(
+            {
+                "academic_year": "2026/27",
+                "course_specific_total_published": False,
+                "general_degree_fee_range_eur_per_year": {"minimum": 0, "maximum_approx": 3000},
+                "first_year_initial_instalment_eur": 208,
+                "fee_basis": "Varies by programme and student circumstances; the initial instalment includes regional tax and stamp duty",
+            },
+            "CONFIRMED", [padua_tuition_source, agriculture_call],
+            "These are University-wide 2026/27 fee figures, not a course-specific total. Do not carry them forward as 2027/28 tuition.",
+        ),
+        "scholarships_2027_2028": fact(
+            None, "NOT_YET_PUBLISHED", [agriculture_catalogue, agriculture_call],
+            "No course-specific 2027/28 scholarship terms were published in the reviewed course profile or admission call; the annual current-cycle aid calls were not established by this course review.",
+        ),
+        "acceptance_rate": fact(
+            None, "UNAVAILABLE", [agriculture_profile, agriculture_call],
+            "The reviewed official sources do not publish comparable applicant and admitted-student totals; no acceptance rate is inferred.",
+        ),
+    })
+    agricultural_sciences["last_checked"] = "2026-11-11"
+
     pisa_call = "SRC-UNIPI-INFO-ENG-2027-CALL"
     aide_profile = "SRC-UNIPI-AIDE-COURSE-PROFILE"
     computer_engineering_profile = "SRC-UNIPI-COMPUTER-ENGINEERING-PROFILE"
@@ -6318,3 +6510,55 @@ def apply(
         program["last_checked"] = "2026-11-11"
         program["previous_cycle_tags"] = None
         programs.append(program)
+
+
+SOURCE_RECHECKS.update({
+    "SRC-PADOVA-AGRICULTURAL-SCIENCES-PROFILE-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200,
+            "effective_url": "https://dafnae.unipd.it/offerta-didattica/corsi-di-laurea-magistrale/?key=AV2880&ordinamento=2026&tipo=LM",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": None,
+            "etag": None,
+            "last_modified": None,
+            "cache_control": "no-cache, must-revalidate",
+            "age": "0",
+            "x_vercel_cache": None,
+            "x_vercel_id": None,
+            "location": None,
+            "observed_title": None,
+            "pdf_signature": None,
+            "has_2027_marker": False,
+            "bytes_read": 49956,
+            "outcome": "accessible",
+            "error": None,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control: no-cache (recheck_source_urls.request_once)",
+        },
+    },
+    "SRC-PADOVA-AGRICULTURE-MSC-CALL-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 206,
+            "effective_url": "https://wwwassets.unipd.it/sites/default/files/2026-05/2026_Avviso_LM_AgrariaLiberi_EN_V2.pdf",
+            "content_type": "application/pdf",
+            "content_length_header": "4096",
+            "etag": "\"149a95-650fce241ce00\"",
+            "last_modified": "Mon, 04 May 2026 12:15:18 GMT",
+            "cache_control": "max-age=31536000",
+            "age": None,
+            "x_vercel_cache": None,
+            "x_vercel_id": None,
+            "location": None,
+            "observed_title": None,
+            "pdf_signature": True,
+            "has_2027_marker": None,
+            "bytes_read": 4096,
+            "outcome": "accessible",
+            "error": None,
+            "checked_at": "2026-11-11",
+            "method": "GET with Range: bytes=0-4095 and Cache-Control: no-cache (recheck_source_urls.request_once)",
+        },
+    },
+})
