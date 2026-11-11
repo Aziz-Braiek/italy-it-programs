@@ -1,0 +1,12 @@
+{
+  "purpose": "Independent Claude Web review of the research snapshot; this is a Preview deployment, not production.",
+  "research_dataset_commit": "3030be18494d5d0d9da81603b19868f1e138e02f",
+  "branch": "research/final-2027-2028-refresh",
+  "preview_origin": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app",
+  "github_deployment_id": 7717485069,
+  "vercel_deployment_id": "HbGjDyErocNAfXjNe8jFYUR4ZypG",
+  "deployment_environment": "Preview",
+  "access_note": "Use the deployment-specific shareable URL supplied privately with the review package. It requires no Vercel login and has no expiry. The bare origin remains protected. Keep the shareable access query out of this public repository.",
+  "access_verified_at_utc": "2026-11-11T18:04:06Z",
+  "production_baseline_commit": "e6995e70e7fc4673a561af69fbb7fa14ea84491b"
+}

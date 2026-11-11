@@ -2,9 +2,32 @@
   "metadata": {
     "academic_year": "2027-2028",
     "prepared_at": "2026-11-11",
-    "source_commit": "e6995e7",
+    "source_commit": "3030be18494d5d0d9da81603b19868f1e138e02f",
+    "source_commit_meaning": "Latest commit changing the four core research datasets; exact file hashes below identify this snapshot.",
+    "dataset_has_uncommitted_changes": false,
+    "dataset_sha256": {
+      "programs-2027-2028.json": "320c29dbe7f6b4d378b52a1b93e605ba74629402cb448ca1e8c32adddbf88411",
+      "universities-2027-2028.json": "8eb1e366914ca1499267760f63bff7aae3e2df9123e3c66d086dd4677eb5f558",
+      "sources.json": "ebe88a723de8f5f14dcdc39a2faaa37ad7843f262db4c85a326567d6aee76bcf",
+      "coverage-report.json": "48edfbf2ab88bb795eac46491deeb3714c2e856a6f62afa9113f7a9c5fc23433"
+    },
+    "production_baseline_commit": "e6995e70e7fc4673a561af69fbb7fa14ea84491b",
+    "production_website": "https://italy-it-programs.vercel.app",
     "branch": "research/final-2027-2028-refresh",
-    "website": "https://italy-it-programs.vercel.app",
+    "website": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app",
+    "review_environment": "preview",
+    "review_deployment": {
+      "purpose": "Independent Claude Web review of the research snapshot; this is a Preview deployment, not production.",
+      "research_dataset_commit": "3030be18494d5d0d9da81603b19868f1e138e02f",
+      "branch": "research/final-2027-2028-refresh",
+      "preview_origin": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app",
+      "github_deployment_id": 7717485069,
+      "vercel_deployment_id": "HbGjDyErocNAfXjNe8jFYUR4ZypG",
+      "deployment_environment": "Preview",
+      "access_note": "Use the deployment-specific shareable URL supplied privately with the review package. It requires no Vercel login and has no expiry. The bare origin remains protected. Keep the shareable access query out of this public repository.",
+      "access_verified_at_utc": "2026-11-11T18:04:06Z",
+      "production_baseline_commit": "e6995e70e7fc4673a561af69fbb7fa14ea84491b"
+    },
     "review_status": "in_progress",
     "counts": {
       "universities": 34,
@@ -129,7 +152,7 @@
       "website_url": "https://www.unina.it/",
       "admissions_url": "https://www.international.unina.it/education/admission-regulation/",
       "application_portal_url": null,
-      "review_page_url": "https://italy-it-programs.vercel.app/universities/napoli-federico-ii/",
+      "review_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/napoli-federico-ii/",
       "existing_status": "REQUIRES_VERIFICATION",
       "existing_research_stage": "PARTIALLY_RESEARCHED",
       "existing_last_checked": "2026-11-09",
@@ -935,7 +958,7 @@
       "website_url": "https://www.poliba.it/",
       "admissions_url": "https://www.poliba.it/en/general-overview",
       "application_portal_url": "https://poliba.esse3.cineca.it/",
-      "review_page_url": "https://italy-it-programs.vercel.app/universities/politecnico-bari/",
+      "review_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-bari/",
       "existing_status": "REQUIRES_VERIFICATION",
       "existing_research_stage": "PARTIALLY_RESEARCHED",
       "existing_last_checked": "2026-11-10",
@@ -1386,7 +1409,7 @@
       "website_url": "https://www.polimi.it/",
       "admissions_url": "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/deadlines",
       "application_portal_url": null,
-      "review_page_url": "https://italy-it-programs.vercel.app/universities/politecnico-milano/",
+      "review_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-milano/",
       "existing_status": "CONFIRMED",
       "existing_research_stage": "PARTIALLY_RESEARCHED",
       "existing_last_checked": "2026-11-10",
@@ -2469,7 +2492,7 @@
       "website_url": "https://www.polito.it/",
       "admissions_url": "https://www.polito.it/en/education/applying-studying-graduating/admissions-and-enrolment/bachelor-s-degree-programmes/calls-for-application-regulations-and-ranking-lists",
       "application_portal_url": null,
-      "review_page_url": "https://italy-it-programs.vercel.app/universities/politecnico-torino/",
+      "review_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-torino/",
       "existing_status": "REQUIRES_VERIFICATION",
       "existing_research_stage": "PARTIALLY_RESEARCHED",
       "existing_last_checked": "2026-11-10",
@@ -3580,7 +3603,7 @@
       "website_url": "https://www.uniroma3.it/",
       "admissions_url": "https://www.uniroma3.it/int/education/international-students/",
       "application_portal_url": "https://gomp.uniroma3.it/",
-      "review_page_url": "https://italy-it-programs.vercel.app/universities/roma-tre/",
+      "review_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/roma-tre/",
       "existing_status": "REQUIRES_VERIFICATION",
       "existing_research_stage": "PARTIALLY_RESEARCHED",
       "existing_last_checked": "2026-11-10",
@@ -4320,7 +4343,7 @@
       "website_url": "https://www.uniroma1.it/",
       "admissions_url": "https://www.uniroma1.it/en/node/24774",
       "application_portal_url": "https://sapienza.gomovein.com/",
-      "review_page_url": "https://italy-it-programs.vercel.app/universities/sapienza/",
+      "review_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/sapienza/",
       "existing_status": "REQUIRES_VERIFICATION",
       "existing_research_stage": "PARTIALLY_RESEARCHED",
       "existing_last_checked": "2026-11-10",
@@ -6099,7 +6122,7 @@
       "website_url": "https://web.uniroma2.it/",
       "admissions_url": "https://mechatronics.uniroma2.it/how-to-apply-for-mechatronics/admission-a-y-2027-28/",
       "application_portal_url": null,
-      "review_page_url": "https://italy-it-programs.vercel.app/universities/tor-vergata/",
+      "review_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/tor-vergata/",
       "existing_status": "CONFIRMED",
       "existing_research_stage": "PARTIALLY_RESEARCHED",
       "existing_last_checked": "2026-11-09",
@@ -6295,7 +6318,7 @@
       "website_url": "https://www.unive.it/",
       "admissions_url": "https://www.unive.it/pag/12520",
       "application_portal_url": "https://apply.unive.it/",
-      "review_page_url": "https://italy-it-programs.vercel.app/universities/ca-foscari/",
+      "review_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/ca-foscari/",
       "existing_status": "CONFIRMED",
       "existing_research_stage": "PARTIALLY_RESEARCHED",
       "existing_last_checked": "2026-11-09",
@@ -7237,7 +7260,7 @@
       "website_url": "https://www.unimib.it/",
       "admissions_url": "https://en.unimib.it/study/information-international-students/access-students-international-qualification",
       "application_portal_url": "https://apply.unimib.it/",
-      "review_page_url": "https://italy-it-programs.vercel.app/universities/milano-bicocca/",
+      "review_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/milano-bicocca/",
       "existing_status": "REQUIRES_VERIFICATION",
       "existing_research_stage": "PARTIALLY_RESEARCHED",
       "existing_last_checked": "2026-11-09",
@@ -8058,7 +8081,7 @@
       "website_url": "https://www.univpm.it/",
       "admissions_url": "https://www.international.univpm.it/international-admissions/",
       "application_portal_url": null,
-      "review_page_url": "https://italy-it-programs.vercel.app/universities/marche/",
+      "review_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/marche/",
       "existing_status": "REQUIRES_VERIFICATION",
       "existing_research_stage": "PARTIALLY_RESEARCHED",
       "existing_last_checked": "2026-11-09",
@@ -8532,7 +8555,7 @@
       "website_url": "https://www.unict.it/",
       "admissions_url": "https://www.unict.it/en/node/5251",
       "application_portal_url": null,
-      "review_page_url": "https://italy-it-programs.vercel.app/universities/catania/",
+      "review_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/catania/",
       "existing_status": "REQUIRES_VERIFICATION",
       "existing_research_stage": "PARTIALLY_RESEARCHED",
       "existing_last_checked": "2026-11-09",
@@ -9144,7 +9167,7 @@
       "website_url": "https://www.unimi.it/",
       "admissions_url": "https://www.unimi.it/en/international/coming-abroad/enrol-programme/international-enrolment-degree-programmes",
       "application_portal_url": "https://apply.unimi.it/",
-      "review_page_url": "https://italy-it-programs.vercel.app/universities/milano-statale/",
+      "review_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/milano-statale/",
       "existing_status": "REQUIRES_VERIFICATION",
       "existing_research_stage": "PARTIALLY_RESEARCHED",
       "existing_last_checked": "2026-11-09",
@@ -9784,7 +9807,7 @@
       "website_url": "https://www.univaq.it/",
       "admissions_url": "https://www.univaq.it/en/section.php?id=2065&lang_s=en",
       "application_portal_url": null,
-      "review_page_url": "https://italy-it-programs.vercel.app/universities/laquila/",
+      "review_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/laquila/",
       "existing_status": "REQUIRES_VERIFICATION",
       "existing_research_stage": "PARTIALLY_RESEARCHED",
       "existing_last_checked": "2026-11-09",
@@ -10307,7 +10330,7 @@
       "website_url": "https://www.uninsubria.it/",
       "admissions_url": "https://www.uninsubria.it/servizi/vivere-insubria/immatricolarsi-e-iscriversi/immatricolazioni/immatricolazione-lauree-0",
       "application_portal_url": "https://uninsubria.esse3.cineca.it/",
-      "review_page_url": "https://italy-it-programs.vercel.app/universities/insubria/",
+      "review_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/insubria/",
       "existing_status": "REQUIRES_VERIFICATION",
       "existing_research_stage": "PARTIALLY_RESEARCHED",
       "existing_last_checked": "2026-11-09",
@@ -10758,7 +10781,7 @@
       "website_url": "https://www.unibo.it/",
       "admissions_url": "https://www.unibo.it/en/study/how-to-apply",
       "application_portal_url": null,
-      "review_page_url": "https://italy-it-programs.vercel.app/universities/bologna/",
+      "review_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/bologna/",
       "existing_status": "REQUIRES_VERIFICATION",
       "existing_research_stage": "PARTIALLY_RESEARCHED",
       "existing_last_checked": "2026-11-09",
@@ -14171,7 +14194,7 @@
       "website_url": "https://www.unicam.it/",
       "admissions_url": "https://international.unicam.it/admissions/faq",
       "application_portal_url": "https://didattica.unicam.it/",
-      "review_page_url": "https://italy-it-programs.vercel.app/universities/camerino/",
+      "review_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/camerino/",
       "existing_status": "REQUIRES_VERIFICATION",
       "existing_research_stage": "PARTIALLY_RESEARCHED",
       "existing_last_checked": "2026-11-09",
@@ -14839,7 +14862,7 @@
       "website_url": "https://www.unife.it/",
       "admissions_url": "https://corsi.unife.it/en/lm-physics/enrolling/admission-and-enrolment",
       "application_portal_url": "https://apply.unife.it/",
-      "review_page_url": "https://italy-it-programs.vercel.app/universities/ferrara/",
+      "review_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/ferrara/",
       "existing_status": "REQUIRES_VERIFICATION",
       "existing_research_stage": "PARTIALLY_RESEARCHED",
       "existing_last_checked": "2026-11-09",
@@ -15359,7 +15382,7 @@
       "website_url": "https://www.unifi.it/",
       "admissions_url": "https://www.sst.unifi.it/index.php?func=viewpage&module=CMpro&newlang=eng&pageid=168",
       "application_portal_url": null,
-      "review_page_url": "https://italy-it-programs.vercel.app/universities/firenze/",
+      "review_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/firenze/",
       "existing_status": "CONFIRMED",
       "existing_research_stage": "PARTIALLY_RESEARCHED",
       "existing_last_checked": "2026-11-09",
@@ -16062,7 +16085,7 @@
       "website_url": "https://unige.it/en",
       "admissions_url": "https://unige.it/en/international-enrolment",
       "application_portal_url": "https://servizionline.unige.it/web-studenti2/en/",
-      "review_page_url": "https://italy-it-programs.vercel.app/universities/genova/",
+      "review_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/genova/",
       "existing_status": "REQUIRES_VERIFICATION",
       "existing_research_stage": "PARTIALLY_RESEARCHED",
       "existing_last_checked": "2026-11-10",
@@ -17343,7 +17366,7 @@
       "website_url": "https://international.unime.it/",
       "admissions_url": "https://international.unime.it/study-us/application-and-admission",
       "application_portal_url": null,
-      "review_page_url": "https://italy-it-programs.vercel.app/universities/messina/",
+      "review_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/messina/",
       "existing_status": "CONFIRMED",
       "existing_research_stage": "PARTIALLY_RESEARCHED",
       "existing_last_checked": "2026-11-09",
@@ -17611,7 +17634,7 @@
       "website_url": "https://www.unimore.it/",
       "admissions_url": "https://www.unimore.it/en/internationalisation/foreign-qualification",
       "application_portal_url": "https://www.esse3.unimore.it/",
-      "review_page_url": "https://italy-it-programs.vercel.app/universities/modena-reggio/",
+      "review_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/modena-reggio/",
       "existing_status": "REQUIRES_VERIFICATION",
       "existing_research_stage": "PARTIALLY_RESEARCHED",
       "existing_last_checked": "2026-11-10",
@@ -18206,7 +18229,7 @@
       "website_url": "https://www.unipd.it/en/",
       "admissions_url": "https://www.unipd.it/en/ammissione-studenti-internazionali",
       "application_portal_url": null,
-      "review_page_url": "https://italy-it-programs.vercel.app/universities/padova/",
+      "review_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/",
       "existing_status": "CONFIRMED",
       "existing_research_stage": "PARTIALLY_RESEARCHED",
       "existing_last_checked": "2026-11-09",
@@ -21373,7 +21396,7 @@
       "website_url": "https://www.unipa.it/",
       "admissions_url": "https://www.unipa.it/mobilita/en/useful-information/faq-international-students/faq-international-students-p2/before-applying/index.html",
       "application_portal_url": "https://immaweb.unipa.it/immareg/facelets/anag/ins_anag_generale.seam?partnerId=IMMAWEB",
-      "review_page_url": "https://italy-it-programs.vercel.app/universities/palermo/",
+      "review_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/palermo/",
       "existing_status": "NOT_YET_PUBLISHED",
       "existing_research_stage": "PARTIALLY_RESEARCHED",
       "existing_last_checked": "2026-11-10",
@@ -22159,7 +22182,7 @@
       "website_url": "https://www.unipr.it/en",
       "admissions_url": "https://www.unipr.it/en/node/106538",
       "application_portal_url": null,
-      "review_page_url": "https://italy-it-programs.vercel.app/universities/parma/",
+      "review_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/parma/",
       "existing_status": "NOT_YET_PUBLISHED",
       "existing_research_stage": "PARTIALLY_RESEARCHED",
       "existing_last_checked": "2026-11-09",
@@ -22488,7 +22511,7 @@
       "website_url": "https://www.unipv.eu/",
       "admissions_url": "https://en.unipv.it/en/education/bachelors-and-masters-degree-programs/how-apply/how-apply-masters-degree-programs",
       "application_portal_url": null,
-      "review_page_url": "https://italy-it-programs.vercel.app/universities/pavia/",
+      "review_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/pavia/",
       "existing_status": "REQUIRES_VERIFICATION",
       "existing_research_stage": "PARTIALLY_RESEARCHED",
       "existing_last_checked": "2026-11-09",
@@ -22861,7 +22884,7 @@
       "website_url": "https://www.unipg.it/",
       "admissions_url": "https://www.unipg.it/en/international-students/becoming-a-unipg-student",
       "application_portal_url": null,
-      "review_page_url": "https://italy-it-programs.vercel.app/universities/perugia/",
+      "review_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/perugia/",
       "existing_status": "REQUIRES_VERIFICATION",
       "existing_research_stage": "PARTIALLY_RESEARCHED",
       "existing_last_checked": "2026-11-09",
@@ -23208,7 +23231,7 @@
       "website_url": "https://www.unipi.it/",
       "admissions_url": "https://didattica.di.unipi.it/en/internazionale/degrees-offered-in-english/",
       "application_portal_url": null,
-      "review_page_url": "https://italy-it-programs.vercel.app/universities/pisa/",
+      "review_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/pisa/",
       "existing_status": "CONFIRMED",
       "existing_research_stage": "PARTIALLY_RESEARCHED",
       "existing_last_checked": "2026-11-09",
@@ -23763,7 +23786,7 @@
       "website_url": "https://www.unisa.it/",
       "admissions_url": "https://web.unisa.it/en/teaching/enrollment/non-eu-citizens-abroad",
       "application_portal_url": "https://esse3web.unisa.it/",
-      "review_page_url": "https://italy-it-programs.vercel.app/universities/salerno/",
+      "review_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/salerno/",
       "existing_status": "REQUIRES_VERIFICATION",
       "existing_research_stage": "PARTIALLY_RESEARCHED",
       "existing_last_checked": "2026-11-10",
@@ -24507,7 +24530,7 @@
       "website_url": "https://www.unisi.it/",
       "admissions_url": "https://admission.unisi.it/",
       "application_portal_url": null,
-      "review_page_url": "https://italy-it-programs.vercel.app/universities/siena/",
+      "review_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/siena/",
       "existing_status": "NOT_YET_PUBLISHED",
       "existing_research_stage": "PARTIALLY_RESEARCHED",
       "existing_last_checked": "2026-11-09",
@@ -24762,7 +24785,7 @@
       "website_url": "https://www.unito.it/",
       "admissions_url": "https://www.en.unito.it/studying-unito/international-degree-seeking-students/application-international-students",
       "application_portal_url": "https://apply.unito.it/",
-      "review_page_url": "https://italy-it-programs.vercel.app/universities/torino/",
+      "review_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/torino/",
       "existing_status": "REQUIRES_VERIFICATION",
       "existing_research_stage": "PARTIALLY_RESEARCHED",
       "existing_last_checked": "2026-11-10",
@@ -25677,7 +25700,7 @@
       "website_url": "https://www.unitn.it/en",
       "admissions_url": "https://www.unitn.it/en/international/coming-unitrento/admission-how-it-works",
       "application_portal_url": null,
-      "review_page_url": "https://italy-it-programs.vercel.app/universities/trento/",
+      "review_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/trento/",
       "existing_status": "REQUIRES_VERIFICATION",
       "existing_research_stage": "PARTIALLY_RESEARCHED",
       "existing_last_checked": "2026-11-10",
@@ -26787,7 +26810,7 @@
       "website_url": "https://portale.units.it/en",
       "admissions_url": "https://portale.units.it/en/international/destination-units/degree-seekers",
       "application_portal_url": "https://apply.units.it/",
-      "review_page_url": "https://italy-it-programs.vercel.app/universities/trieste/",
+      "review_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/trieste/",
       "existing_status": "REQUIRES_VERIFICATION",
       "existing_research_stage": "PARTIALLY_RESEARCHED",
       "existing_last_checked": "2026-11-11",
@@ -27760,7 +27783,7 @@
       "website_url": "https://www.uniud.it/en",
       "admissions_url": "https://www.uniud.it/en/uniud-international/International_Students/ammissione-non-ue/prima-arrivo-ue/iscrizioni-con-titolo-di-studio-estero",
       "application_portal_url": "https://uniud.esse3.cineca.it/",
-      "review_page_url": "https://italy-it-programs.vercel.app/universities/udine/",
+      "review_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/udine/",
       "existing_status": "REQUIRES_VERIFICATION",
       "existing_research_stage": "PARTIALLY_RESEARCHED",
       "existing_last_checked": "2026-11-10",
@@ -28175,7 +28198,7 @@
       "website_url": "https://www.univr.it/en/",
       "admissions_url": "https://www.univr.it/en/our-services/international-degree-seeking-students",
       "application_portal_url": null,
-      "review_page_url": "https://italy-it-programs.vercel.app/universities/verona/",
+      "review_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/verona/",
       "existing_status": "REQUIRES_VERIFICATION",
       "existing_research_stage": "PARTIALLY_RESEARCHED",
       "existing_last_checked": "2026-11-09",
@@ -28447,8 +28470,8 @@
         ],
         "notes": "Official delivery is confirmed for the 2025/2026 catalogue only; verify the 2027/28 course record."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-085/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/napoli-federico-ii/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-085/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/napoli-federico-ii/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNINA-COMPUTER-SCIENCE-2025",
@@ -28694,8 +28717,8 @@
         ],
         "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-086/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/napoli-federico-ii/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-086/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/napoli-federico-ii/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNINA-DATA-SCIENCE-ADMISSIONS-2026",
@@ -28996,8 +29019,8 @@
         ],
         "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-117/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/napoli-federico-ii/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-117/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/napoli-federico-ii/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNINA-MOVE-2026",
@@ -29297,8 +29320,8 @@
         ],
         "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-118/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/napoli-federico-ii/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-118/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/napoli-federico-ii/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNINA-INDUSTRIAL-BIOENGINEERING-2026",
@@ -29546,8 +29569,8 @@
         ],
         "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-119/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/napoli-federico-ii/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-119/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/napoli-federico-ii/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNINA-ECONOMICS-FINANCE-2026",
@@ -29853,8 +29876,8 @@
         ],
         "notes": "Official delivery is confirmed for the 2024/2025 catalogue only; verify the 2027/28 course record."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-120/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/napoli-federico-ii/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-120/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/napoli-federico-ii/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNINA-INTERNATIONAL-RELATIONS-2026",
@@ -30099,8 +30122,8 @@
         ],
         "notes": "The official 2026/27 profile says the Master's is entirely delivered in English. Verify the 2027/28 course listing before promoting the language field to 2027/28 confirmed."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-121/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/napoli-federico-ii/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-121/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/napoli-federico-ii/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNINA-QUANTUM-2025",
@@ -30428,8 +30451,8 @@
         ],
         "notes": "Official delivery is confirmed for the 2024/2025 catalogue only; verify the 2027/28 course record."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-122/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/napoli-federico-ii/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-122/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/napoli-federico-ii/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNINA-ARCH-HERITAGE-2025",
@@ -30738,8 +30761,8 @@
         ],
         "notes": "Official delivery is confirmed for the 2025/2026 catalogue only; verify the 2027/28 course record."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-123/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/napoli-federico-ii/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-123/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/napoli-federico-ii/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNINA-MED-ENGLISH-2026",
@@ -31039,8 +31062,8 @@
         ],
         "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-124/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/napoli-federico-ii/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-124/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/napoli-federico-ii/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNINA-CIVIL-ENV-BSC-2026",
@@ -31294,8 +31317,8 @@
         ],
         "notes": null
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-009/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/napoli-federico-ii/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-009/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/napoli-federico-ii/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNINA-CHE-2027",
@@ -31458,8 +31481,8 @@
         ],
         "notes": "Official 2026/27 course identity only; the 2027/28 new-entry offer and current course terms are not confirmed."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-094/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/politecnico-bari/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-094/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-bari/",
       "official_program_source_urls": [
         {
           "id": "SRC-POLIBA-MSC-ADMISSIONS-2026",
@@ -32116,8 +32139,8 @@
         ],
         "notes": "The Polimi course profile lists English, and the current 2027/28 28DIGITAL page requires English proficiency for a Polimi entry. Confirmation applies to this pathway; course-wide annual regulations remain to be checked."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-001/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/politecnico-milano/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-001/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-milano/",
       "official_program_source_urls": [
         {
           "id": "SRC-POLIMI-CSE-2026",
@@ -32514,8 +32537,8 @@
         ],
         "notes": "This value describes the reviewed prior-cycle profile; the exact 2027/28 first-year programme listing and course terms remain unverified."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-002/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/politecnico-milano/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-002/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-milano/",
       "official_program_source_urls": [
         {
           "id": "SRC-POLIMI-CYBER-2025",
@@ -32927,8 +32950,8 @@
         ],
         "notes": "No standalone MSc named Artificial Intelligence appears in the reviewed official catalogue; the documented match is a study plan of the Computer Science and Engineering MSc. The programme identity and 2027/28 availability remain unresolved."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-003/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/politecnico-milano/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-003/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-milano/",
       "official_program_source_urls": [
         {
           "id": "SRC-POLIMI-CSE-2026",
@@ -33327,8 +33350,8 @@
         ],
         "notes": "The Polimi course profile lists English, and the current 2027/28 28DIGITAL page requires English proficiency for a Polimi entry. Confirmation applies to this pathway; course-wide annual regulations remain to be checked."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-004/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/politecnico-milano/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-004/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-milano/",
       "official_program_source_urls": [
         {
           "id": "SRC-POLIMI-HPC-2026",
@@ -33726,8 +33749,8 @@
         ],
         "notes": "This value describes the reviewed prior-cycle profile; the exact 2027/28 first-year programme listing and course terms remain unverified."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-005/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/politecnico-milano/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-005/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-milano/",
       "official_program_source_urls": [
         {
           "id": "SRC-POLIMI-BIOMED-MSC-2026",
@@ -34120,8 +34143,8 @@
         ],
         "notes": "This value describes the reviewed prior-cycle profile; the exact 2027/28 first-year programme listing and course terms remain unverified."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-006/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/politecnico-milano/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-006/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-milano/",
       "official_program_source_urls": [
         {
           "id": "SRC-POLIMI-MECH-2025",
@@ -34513,8 +34536,8 @@
         ],
         "notes": "Do not map the generic tracker MSc name onto Aeronautical Engineering, Space Engineering or the separate Aerospace Engineering BSc without evidence. The programme identity and 2027/28 availability remain unresolved."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-007/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/politecnico-milano/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-007/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-milano/",
       "official_program_source_urls": [
         {
           "id": "SRC-POLIMI-AERONAUTICAL-2026",
@@ -34935,8 +34958,8 @@
         ],
         "notes": "This value describes the reviewed prior-cycle profile; the exact 2027/28 first-year programme listing and course terms remain unverified."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-008/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/politecnico-milano/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-008/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-milano/",
       "official_program_source_urls": [
         {
           "id": "SRC-POLIMI-DESIGNENG-2025",
@@ -35301,8 +35324,8 @@
         ],
         "notes": "This value describes the reviewed prior-cycle profile; the exact 2027/28 first-year programme listing and course terms remain unverified."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-009/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/politecnico-milano/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-009/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-milano/",
       "official_program_source_urls": [
         {
           "id": "SRC-POLIMI-ARCH-MSC-2026",
@@ -35667,8 +35690,8 @@
         ],
         "notes": "This value describes the reviewed prior-cycle profile; the exact 2027/28 first-year programme listing and course terms remain unverified."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-010/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/politecnico-milano/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-010/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-milano/",
       "official_program_source_urls": [
         {
           "id": "SRC-POLIMI-COMM-DESIGN-2026",
@@ -36033,8 +36056,8 @@
         ],
         "notes": "This value describes the reviewed prior-cycle profile; the exact 2027/28 first-year programme listing and course terms remain unverified."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-140/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/politecnico-milano/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-140/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-milano/",
       "official_program_source_urls": [
         {
           "id": "SRC-POLIMI-AERO-BSC-2026",
@@ -36396,8 +36419,8 @@
         ],
         "notes": "This value describes the reviewed prior-cycle profile; the exact 2027/28 first-year programme listing and course terms remain unverified."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-141/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/politecnico-milano/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-141/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-milano/",
       "official_program_source_urls": [
         {
           "id": "SRC-POLIMI-BIOMED-BSC-2026",
@@ -36759,8 +36782,8 @@
         ],
         "notes": "This value describes the reviewed prior-cycle profile; the exact 2027/28 first-year programme listing and course terms remain unverified."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-142/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/politecnico-milano/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-142/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-milano/",
       "official_program_source_urls": [
         {
           "id": "SRC-POLIMI-MGMT-BSC-2026",
@@ -37122,8 +37145,8 @@
         ],
         "notes": "This value describes the reviewed prior-cycle profile; the exact 2027/28 first-year programme listing and course terms remain unverified."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-143/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/politecnico-milano/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-143/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-milano/",
       "official_program_source_urls": [
         {
           "id": "SRC-POLIMI-COMP-BSC-2026",
@@ -37485,8 +37508,8 @@
         ],
         "notes": "This value describes the reviewed prior-cycle profile; the exact 2027/28 first-year programme listing and course terms remain unverified."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-144/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/politecnico-milano/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-144/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-milano/",
       "official_program_source_urls": [
         {
           "id": "SRC-POLIMI-INTERIOR-BSC-2026",
@@ -37775,8 +37798,8 @@
         ],
         "notes": "This value describes the reviewed prior-cycle profile; the exact 2027/28 first-year programme listing and course terms remain unverified."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-145/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/politecnico-milano/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-145/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-milano/",
       "official_program_source_urls": [
         {
           "id": "SRC-POLIMI-ARCH-BSC-2026",
@@ -38065,8 +38088,8 @@
         ],
         "notes": "This value describes the reviewed prior-cycle profile; the exact 2027/28 first-year programme listing and course terms remain unverified."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-146/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/politecnico-milano/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-146/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-milano/",
       "official_program_source_urls": [
         {
           "id": "SRC-POLIMI-CIVIL-MSC-2026",
@@ -38421,8 +38444,8 @@
         ],
         "notes": "This field describes the official 2026/27 course profile only; the 2027/28 first-year offer and terms remain unverified."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-011/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/politecnico-torino/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-011/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-torino/",
       "official_program_source_urls": [
         {
           "id": "SRC-POLITO-MSC-CATALOGUE-2026",
@@ -38870,8 +38893,8 @@
         ],
         "notes": "This field describes the official 2026/27 course profile only; the 2027/28 first-year offer and terms remain unverified."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-012/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/politecnico-torino/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-012/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-torino/",
       "official_program_source_urls": [
         {
           "id": "SRC-POLITO-MSC-CATALOGUE-2026",
@@ -39319,8 +39342,8 @@
         ],
         "notes": "This field describes the official 2026/27 course profile only; the 2027/28 first-year offer and terms remain unverified."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-013/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/politecnico-torino/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-013/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-torino/",
       "official_program_source_urls": [
         {
           "id": "SRC-POLITO-MSC-CATALOGUE-2026",
@@ -39768,8 +39791,8 @@
         ],
         "notes": "This field describes the official 2026/27 course profile only; the 2027/28 first-year offer and terms remain unverified."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-014/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/politecnico-torino/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-014/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-torino/",
       "official_program_source_urls": [
         {
           "id": "SRC-POLITO-MSC-CATALOGUE-2026",
@@ -40217,8 +40240,8 @@
         ],
         "notes": "This field describes the official 2026/27 course profile only; the 2027/28 first-year offer and terms remain unverified."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-015/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/politecnico-torino/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-015/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-torino/",
       "official_program_source_urls": [
         {
           "id": "SRC-POLITO-MSC-CATALOGUE-2026",
@@ -40677,8 +40700,8 @@
         ],
         "notes": "The official course page says the Master's degree became ICT Engineering for Smart Societies starting in 2025/26. This is a title correction to the legacy tracker name. The 2027/28 first-year offer remains unverified."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-016/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/politecnico-torino/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-016/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-torino/",
       "official_program_source_urls": [
         {
           "id": "SRC-POLITO-MSC-CATALOGUE-2026",
@@ -41126,8 +41149,8 @@
         ],
         "notes": "This field describes the official 2026/27 course profile only; the 2027/28 first-year offer and terms remain unverified."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-017/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/politecnico-torino/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-017/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-torino/",
       "official_program_source_urls": [
         {
           "id": "SRC-POLITO-MSC-CATALOGUE-2026",
@@ -41575,8 +41598,8 @@
         ],
         "notes": "This field describes the official 2026/27 course profile only; the 2027/28 first-year offer and terms remain unverified."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-018/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/politecnico-torino/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-018/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-torino/",
       "official_program_source_urls": [
         {
           "id": "SRC-POLITO-MSC-CATALOGUE-2026",
@@ -42034,8 +42057,8 @@
         ],
         "notes": null
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-020/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/politecnico-torino/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-020/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-torino/",
       "official_program_source_urls": [
         {
           "id": "SRC-POLITO-HYSET-REQ-2027",
@@ -42384,8 +42407,8 @@
         ],
         "notes": "Added as an interdisciplinary digital option: the 2026/27 course overview includes programming, database management and data elaboration, and the official entry annex lists Information Technology and Computer Sciences among recommended backgrounds. It is not a conventional Computer Science degree. The 2027/28 first-year offer remains unverified."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-028/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/politecnico-torino/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-028/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-torino/",
       "official_program_source_urls": [
         {
           "id": "SRC-POLITO-MSC-CATALOGUE-2026",
@@ -42996,8 +43019,8 @@
         ],
         "notes": "The latest profile lists the existing programme as Italian-taught for 2026/27. The university describes an all-English 2027/28 track as planned but explicitly pending approval."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-030/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/politecnico-torino/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-030/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-torino/",
       "official_program_source_urls": [
         {
           "id": "SRC-POLITO-MATHEMATICAL-ENGINEERING-PROFILE-2026",
@@ -43265,8 +43288,8 @@
         ],
         "notes": "Previous tracker classification retained as an unverified lead. The generic course label has no unique official match; this is not confirmation of a particular course, language or 2027/28 offer."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-096/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/roma-tre/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-096/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/roma-tre/",
       "official_program_source_urls": [
         {
           "id": "SRC-ROMATRE-AEROSPACE-PROFILE-2026",
@@ -44200,8 +44223,8 @@
         ],
         "notes": "Official 2026/27 evidence only; it does not confirm a 2027/28 new-entry offer or current terms."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-038/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/sapienza/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-038/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/sapienza/",
       "official_program_source_urls": [
         {
           "id": "SRC-SAPIENZA-MOVEIN-REQUIREMENTS-2026",
@@ -44517,8 +44540,8 @@
         ],
         "notes": "Official 2026/27 evidence only; it does not confirm a 2027/28 new-entry offer or current terms."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-039/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/sapienza/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-039/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/sapienza/",
       "official_program_source_urls": [
         {
           "id": "SRC-SAPIENZA-MOVEIN-REQUIREMENTS-2026",
@@ -44834,8 +44857,8 @@
         ],
         "notes": "Official 2026/27 evidence only; it does not confirm a 2027/28 new-entry offer or current terms."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-040/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/sapienza/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-040/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/sapienza/",
       "official_program_source_urls": [
         {
           "id": "SRC-SAPIENZA-MOVEIN-REQUIREMENTS-2026",
@@ -45151,8 +45174,8 @@
         ],
         "notes": "Official 2026/27 evidence only; it does not confirm a 2027/28 new-entry offer or current terms."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-041/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/sapienza/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-041/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/sapienza/",
       "official_program_source_urls": [
         {
           "id": "SRC-SAPIENZA-MOVEIN-REQUIREMENTS-2026",
@@ -45468,8 +45491,8 @@
         ],
         "notes": "Official 2026/27 evidence only; it does not confirm a 2027/28 new-entry offer or current terms."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-042/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/sapienza/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-042/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/sapienza/",
       "official_program_source_urls": [
         {
           "id": "SRC-SAPIENZA-MOVEIN-REQUIREMENTS-2026",
@@ -45785,8 +45808,8 @@
         ],
         "notes": "Official 2026/27 evidence only; it does not confirm a 2027/28 new-entry offer or current terms."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-043/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/sapienza/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-043/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/sapienza/",
       "official_program_source_urls": [
         {
           "id": "SRC-SAPIENZA-AERONAUTICAL-2026",
@@ -46137,8 +46160,8 @@
         ],
         "notes": "Official 2026/27 evidence only; it does not confirm a 2027/28 new-entry offer or current terms."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-044/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/sapienza/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-044/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/sapienza/",
       "official_program_source_urls": [
         {
           "id": "SRC-SAPIENZA-MOVEIN-REQUIREMENTS-2026",
@@ -46456,8 +46479,8 @@
         ],
         "notes": "2026/27 catalogue has eight Italian variants and one distinct English variant; the legacy record does not identify one course and no 2027/28 course listing has been found."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-153/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/sapienza/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-153/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/sapienza/",
       "official_program_source_urls": [
         {
           "id": "SRC-SAPIENZA-MEDICINE-F-CALL-2026",
@@ -47136,8 +47159,8 @@
         ],
         "notes": "Official delivery is Italian for 2026/27; verify the 2027/28 course profile."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-154/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/sapienza/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-154/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/sapienza/",
       "official_program_source_urls": [
         {
           "id": "SRC-SAPIENZA-AEROSPACE-ADMISSION-CALL-2026",
@@ -47712,8 +47735,8 @@
         ],
         "notes": "Official delivery is Italian for 2026/27; verify the 2027/28 course profile."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-155/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/sapienza/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-155/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/sapienza/",
       "official_program_source_urls": [
         {
           "id": "SRC-SAPIENZA-POLITICAL-SCIENCE-APPLY-2026",
@@ -48347,8 +48370,8 @@
         ],
         "notes": "Official delivery is Italian for 2026/27; verify the 2027/28 course profile."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-156/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/sapienza/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-156/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/sapienza/",
       "official_program_source_urls": [
         {
           "id": "SRC-SAPIENZA-PSYCHOLOGY-APPLY-2026",
@@ -48925,8 +48948,8 @@
         ],
         "notes": "English delivery is confirmed in the official 2024 archive only; the legacy candidate's 2027/28 identity remains unresolved."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-157/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/sapienza/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-157/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/sapienza/",
       "official_program_source_urls": [
         {
           "id": "SRC-SAPIENZA-ENGCSAI-CALL-2026",
@@ -49350,8 +49373,8 @@
         ],
         "notes": "Official 2026/27 evidence: the course lists Italian and English curricula, with the Economics and Finance path delivered fully in English. This does not establish the 2027/28 offer."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-158/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/sapienza/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-158/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/sapienza/",
       "official_program_source_urls": [
         {
           "id": "SRC-SAPIENZA-ECFIN-APPLY-2026",
@@ -50147,8 +50170,8 @@
         ],
         "notes": "All teaching is listed as English for 2026/27. This does not confirm a 2027/28 offer."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-026/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/sapienza/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-026/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/sapienza/",
       "official_program_source_urls": [
         {
           "id": "SRC-SAPIENZA-ENGCSAI-CALL-2026",
@@ -50890,8 +50913,8 @@
         ],
         "notes": "Official 2026/27 evidence only; it does not confirm a 2027/28 new-entry offer or current terms."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-027/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/sapienza/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-027/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/sapienza/",
       "official_program_source_urls": [
         {
           "id": "SRC-SAPIENZA-FINANCE-INSURANCE-APPLY-2026",
@@ -51471,8 +51494,8 @@
         ],
         "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-095/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/tor-vergata/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-095/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/tor-vergata/",
       "official_program_source_urls": [
         {
           "id": "SRC-ROMA2-COMPUTER-SCIENCE-REGULATIONS-2026",
@@ -51777,8 +51800,8 @@
         ],
         "notes": null
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-010/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/tor-vergata/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-010/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/tor-vergata/",
       "official_program_source_urls": [
         {
           "id": "SRC-TORVERGATA-MECH-2027",
@@ -51926,8 +51949,8 @@
         ],
         "notes": "English is verified for the 2026/27 Digital Management BSc, not for a separate MSc. The 2027/28 MSc lead remains unresolved."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-082/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/ca-foscari/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-082/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/ca-foscari/",
       "official_program_source_urls": [
         {
           "id": "SRC-CA-FOSCARI-CATALOGUE-2026",
@@ -52254,8 +52277,8 @@
         ],
         "notes": "The latest official English-program list/course profile supports the 2026/27 language information only; verify the 2027/28 curriculum and teaching language when the course notice opens."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-083/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/ca-foscari/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-083/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/ca-foscari/",
       "official_program_source_urls": [
         {
           "id": "SRC-CA-FOSCARI-CATALOGUE-2026",
@@ -52609,8 +52632,8 @@
         ],
         "notes": "The latest official English-program list/course profile supports the 2026/27 language information only; verify the 2027/28 curriculum and teaching language when the course notice opens."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-099/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/ca-foscari/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-099/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/ca-foscari/",
       "official_program_source_urls": [
         {
           "id": "SRC-CA-FOSCARI-CATALOGUE-2026",
@@ -53004,8 +53027,8 @@
         ],
         "notes": "The latest official English-program list/course profile supports the 2026/27 language information only; verify the 2027/28 curriculum and teaching language when the course notice opens."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-100/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/ca-foscari/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-100/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/ca-foscari/",
       "official_program_source_urls": [
         {
           "id": "SRC-CA-FOSCARI-CATALOGUE-2026",
@@ -53399,8 +53422,8 @@
         ],
         "notes": "The latest official English-program list/course profile supports the 2026/27 language information only; verify the 2027/28 curriculum and teaching language when the course notice opens."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-101/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/ca-foscari/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-101/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/ca-foscari/",
       "official_program_source_urls": [
         {
           "id": "SRC-CA-FOSCARI-CATALOGUE-2026",
@@ -53754,8 +53777,8 @@
         ],
         "notes": "The latest official English-program list/course profile supports the 2026/27 language information only; verify the 2027/28 curriculum and teaching language when the course notice opens."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-102/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/ca-foscari/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-102/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/ca-foscari/",
       "official_program_source_urls": [
         {
           "id": "SRC-CA-FOSCARI-CATALOGUE-2026",
@@ -54109,8 +54132,8 @@
         ],
         "notes": "The latest official English-program list/course profile supports the 2026/27 language information only; verify the 2027/28 curriculum and teaching language when the course notice opens."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-103/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/ca-foscari/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-103/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/ca-foscari/",
       "official_program_source_urls": [
         {
           "id": "SRC-CA-FOSCARI-CATALOGUE-2026",
@@ -54464,8 +54487,8 @@
         ],
         "notes": "The latest official English-program list/course profile supports the 2026/27 language information only; verify the 2027/28 curriculum and teaching language when the course notice opens."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-104/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/ca-foscari/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-104/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/ca-foscari/",
       "official_program_source_urls": [
         {
           "id": "SRC-CA-FOSCARI-CATALOGUE-2026",
@@ -54859,8 +54882,8 @@
         ],
         "notes": "The latest official English-program list/course profile supports the 2026/27 language information only; verify the 2027/28 curriculum and teaching language when the course notice opens."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-105/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/ca-foscari/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-105/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/ca-foscari/",
       "official_program_source_urls": [
         {
           "id": "SRC-CA-FOSCARI-CATALOGUE-2026",
@@ -55254,8 +55277,8 @@
         ],
         "notes": "The latest official English-program list/course profile supports the 2026/27 language information only; verify the 2027/28 curriculum and teaching language when the course notice opens."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-106/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/ca-foscari/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-106/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/ca-foscari/",
       "official_program_source_urls": [
         {
           "id": "SRC-CA-FOSCARI-CATALOGUE-2026",
@@ -55649,8 +55672,8 @@
         ],
         "notes": "The latest official English-program list/course profile supports the 2026/27 language information only; verify the 2027/28 curriculum and teaching language when the course notice opens."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-107/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/ca-foscari/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-107/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/ca-foscari/",
       "official_program_source_urls": [
         {
           "id": "SRC-CA-FOSCARI-CATALOGUE-2026",
@@ -56002,8 +56025,8 @@
         ],
         "notes": null
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-011/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/ca-foscari/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-011/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/ca-foscari/",
       "official_program_source_urls": [
         {
           "id": "SRC-CA-FOSCARI-BUDDHISM-2027",
@@ -56131,8 +56154,8 @@
         ],
         "notes": "Official prior-cycle material identifies English as the course language; verify the 2027/28 offer."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-062/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/milano-bicocca/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-062/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/milano-bicocca/",
       "official_program_source_urls": [
         {
           "id": "SRC-BICOCCA-AI-MSC-CALL-2026",
@@ -56654,8 +56677,8 @@
         ],
         "notes": "Official prior-cycle material identifies English as the course language; verify the 2027/28 offer."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-063/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/milano-bicocca/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-063/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/milano-bicocca/",
       "official_program_source_urls": [
         {
           "id": "SRC-BICOCCA-DS-CALL-2026",
@@ -57177,8 +57200,8 @@
         ],
         "notes": "Official prior-cycle material identifies English as the course language; verify the 2027/28 offer."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-064/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/milano-bicocca/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-064/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/milano-bicocca/",
       "official_program_source_urls": [
         {
           "id": "SRC-BICOCCA-HCAI-COURSE-2026",
@@ -57699,8 +57722,8 @@
         ],
         "notes": "Official prior-cycle material identifies English as the course language; verify the 2027/28 offer."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-065/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/milano-bicocca/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-065/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/milano-bicocca/",
       "official_program_source_urls": [
         {
           "id": "SRC-BICOCCA-AI-BSC-COURSE-2026",
@@ -58259,8 +58282,8 @@
         ],
         "notes": "Official prior-cycle material identifies English as the course language; verify the 2027/28 offer."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-066/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/milano-bicocca/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-066/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/milano-bicocca/",
       "official_program_source_urls": [
         {
           "id": "SRC-BICOCCA-ASTRO-CALL-2026",
@@ -58782,8 +58805,8 @@
         ],
         "notes": "Official prior-cycle material identifies English as the course language; verify the 2027/28 offer."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-067/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/milano-bicocca/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-067/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/milano-bicocca/",
       "official_program_source_urls": [
         {
           "id": "SRC-BICOCCA-INTECO-CALL-2026",
@@ -59304,8 +59327,8 @@
         ],
         "notes": "The curriculum was fully English-taught in 2026/27; its 2027/28 delivery has not been confirmed."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-078/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/marche/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-078/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/marche/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNIVPM-DS-ENTRY-2026",
@@ -59964,8 +59987,8 @@
         "source_ids": [],
         "notes": null
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-077/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/catania/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-077/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/catania/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNICT-DSM-LEGACY",
@@ -60112,8 +60135,8 @@
         ],
         "notes": "Confirmed in official 2026/27 pages; not independently confirmed for 2027/28."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-023/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/catania/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-023/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/catania/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNICT-DS-NON-EU-CALL-PDF-2026",
@@ -60729,8 +60752,8 @@
         ],
         "notes": "The language shown is from the 2026/27 course profile only; verify the next course offer and any language tracks."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-058/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/milano-statale/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-058/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/milano-statale/",
       "official_program_source_urls": [
         {
           "id": "SRC-MILANO-CS-PROFILE-2026",
@@ -61366,8 +61389,8 @@
         ],
         "notes": "The language shown is from the 2026/27 course profile only; verify the next course offer and any language tracks."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-059/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/milano-statale/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-059/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/milano-statale/",
       "official_program_source_urls": [
         {
           "id": "SRC-MILANO-AI4ST-PROFILE-2026",
@@ -62079,8 +62102,8 @@
         ],
         "notes": "The language shown is from the 2026/27 course profile only; verify the next course offer and any language tracks."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-060/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/milano-statale/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-060/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/milano-statale/",
       "official_program_source_urls": [
         {
           "id": "SRC-MILANO-MASTER-CATALOGUE-2026",
@@ -62716,8 +62739,8 @@
         ],
         "notes": "The language shown is from the 2026/27 course profile only; verify the next course offer and any language tracks."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-061/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/milano-statale/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-061/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/milano-statale/",
       "official_program_source_urls": [
         {
           "id": "SRC-MILANO-BCG-PROFILE-2026",
@@ -63355,8 +63378,8 @@
         ],
         "notes": "The course was taught in English in 2026/27; confirm delivery in the 2027/28 course offer."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-092/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/laquila/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-092/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/laquila/",
       "official_program_source_urls": [
         {
           "id": "SRC-LAQUILA-ENGLISH-COURSES-2026",
@@ -64028,8 +64051,8 @@
         ],
         "notes": "Official 2026/27 course material says the degree is taught in English. Confirm again in the 2027/28 offer."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-098/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/insubria/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-098/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/insubria/",
       "official_program_source_urls": [
         {
           "id": "SRC-INSUBRIA-CS-REQUIREMENTS",
@@ -64554,8 +64577,8 @@
         ],
         "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-019/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/bologna/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-019/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/bologna/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNIBO-AI-ADMISSIONS-2026",
@@ -64859,8 +64882,8 @@
         ],
         "notes": null
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-020/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/bologna/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-020/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/bologna/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNIBO-CSE-2027",
@@ -65049,8 +65072,8 @@
         ],
         "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-021/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/bologna/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-021/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/bologna/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNIBO-DHDK-CALL-2026",
@@ -65427,8 +65450,8 @@
         ],
         "notes": "The current official curriculum profile says all courses in Business Analytics are taught in English."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-022/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/bologna/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-022/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/bologna/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNIBO-BA-CURRICULUM-2026",
@@ -65760,8 +65783,8 @@
         ],
         "notes": "The current BBS programme page describes the Global MBA as entirely English-language."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-023/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/bologna/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-023/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/bologna/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNIBO-BBS-AI-MFG-2027",
@@ -66111,8 +66134,8 @@
         ],
         "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-024/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/bologna/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-024/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/bologna/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNIBO-MES-CALL-2026",
@@ -66578,8 +66601,8 @@
         ],
         "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-025/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/bologna/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-025/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/bologna/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNIBO-CLABE-CALL-2026",
@@ -67056,8 +67079,8 @@
         ],
         "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-026/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/bologna/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-026/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/bologna/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNIBO-CLEF-ADMISSIONS-2026",
@@ -67547,8 +67570,8 @@
         ],
         "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-027/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/bologna/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-027/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/bologna/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNIBO-MED-EN-2026-CALL",
@@ -68383,8 +68406,8 @@
         ],
         "notes": null
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-028/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/bologna/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-028/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/bologna/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNIBO-BBS-GREEN-MGMT-2026",
@@ -68607,8 +68630,8 @@
         ],
         "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-147/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/bologna/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-147/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/bologna/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNIBO-GESTIONALE-BSC-2026",
@@ -68856,8 +68879,8 @@
         ],
         "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-148/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/bologna/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-148/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/bologna/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026",
@@ -69171,8 +69194,8 @@
         ],
         "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-149/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/bologna/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-149/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/bologna/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNIBO-MED-IT-CALL-2026",
@@ -69837,8 +69860,8 @@
         ],
         "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-150/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/bologna/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-150/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/bologna/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNIBO-LAW-CATALOGUE-2026",
@@ -70515,8 +70538,8 @@
         ],
         "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-151/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/bologna/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-151/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/bologna/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNIBO-COMM-CATALOGUE-2026",
@@ -71126,8 +71149,8 @@
         ],
         "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-152/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/bologna/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-152/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/bologna/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNIBO-ING-INF-CALL-2026",
@@ -71801,8 +71824,8 @@
         ],
         "notes": null
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-012/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/bologna/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-012/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/bologna/",
       "official_program_source_urls": [
         {
           "id": "SRC-BOLOGNA-CLE-PROFILE-2026",
@@ -72302,8 +72325,8 @@
         ],
         "notes": null
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-029/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/bologna/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-029/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/bologna/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNIBO-GRENFIN-2027-CALL",
@@ -72487,8 +72510,8 @@
         ],
         "notes": null
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-040/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/bologna/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-040/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/bologna/",
       "official_program_source_urls": [
         {
           "id": "SRC-BBS-DSBA-2027",
@@ -72713,8 +72736,8 @@
         ],
         "notes": null
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-041/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/bologna/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-041/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/bologna/",
       "official_program_source_urls": [
         {
           "id": "SRC-BBS-AI-MANAGEMENT-2027",
@@ -72938,8 +72961,8 @@
         ],
         "notes": null
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-042/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/bologna/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-042/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/bologna/",
       "official_program_source_urls": [
         {
           "id": "SRC-BBS-ENTREPRENEURIAL-FINANCE-2027",
@@ -73164,8 +73187,8 @@
         ],
         "notes": null
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-043/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/bologna/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-043/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/bologna/",
       "official_program_source_urls": [
         {
           "id": "SRC-BBS-FINANCE-AI-2027",
@@ -73390,8 +73413,8 @@
         ],
         "notes": null
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-044/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/bologna/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-044/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/bologna/",
       "official_program_source_urls": [
         {
           "id": "SRC-BBS-MARKETING-ANALYTICS-AI-2027",
@@ -73620,8 +73643,8 @@
         ],
         "notes": "The official list/profile identifies English delivery in the latest material reviewed; 2027/28 language remains to be rechecked against the new offer."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-068/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/camerino/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-068/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/camerino/",
       "official_program_source_urls": [
         {
           "id": "SRC-CAMERINO-OFFER-2026",
@@ -74310,8 +74333,8 @@
         ],
         "notes": "The official list/profile identifies English delivery in the latest material reviewed; 2027/28 language remains to be rechecked against the new offer."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-069/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/camerino/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-069/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/camerino/",
       "official_program_source_urls": [
         {
           "id": "SRC-CAMERINO-OFFER-2026",
@@ -74984,8 +75007,8 @@
         ],
         "notes": "The official list/profile identifies English delivery in the latest material reviewed; 2027/28 language remains to be rechecked against the new offer."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-070/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/camerino/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-070/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/camerino/",
       "official_program_source_urls": [
         {
           "id": "SRC-CAMERINO-MATH-PROFILE",
@@ -75645,8 +75668,8 @@
         ],
         "notes": "The official list/profile identifies English delivery in the latest material reviewed; 2027/28 language remains to be rechecked against the new offer."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-071/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/camerino/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-071/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/camerino/",
       "official_program_source_urls": [
         {
           "id": "SRC-CAMERINO-PHYSICS-PROFILE",
@@ -76253,8 +76276,8 @@
         ],
         "notes": "Official 2026/27 and general course pages say the Physics MSc is taught fully in English. Recheck against the 2027/28 offer."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-080/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/ferrara/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-080/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/ferrara/",
       "official_program_source_urls": [
         {
           "id": "SRC-FERRARA-CATALOGUE-2026",
@@ -76912,8 +76935,8 @@
         ],
         "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-087/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/firenze/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-087/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/firenze/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNIFI-ARCH-ICAD-2026",
@@ -77218,8 +77241,8 @@
         ],
         "notes": null
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-125/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/firenze/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-125/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/firenze/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNIFI-SST-2027",
@@ -77383,8 +77406,8 @@
         ],
         "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-126/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/firenze/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-126/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/firenze/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNIFI-FINANCE-RISK-ADMISSION-2026",
@@ -77685,8 +77708,8 @@
         ],
         "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-127/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/firenze/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-127/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/firenze/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNIFI-ECON-DEV-MSC-2026",
@@ -77935,8 +77958,8 @@
         ],
         "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-128/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/firenze/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-128/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/firenze/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNIFI-GEOENGINEERING-MSC-2026",
@@ -78240,8 +78263,8 @@
         ],
         "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-129/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/firenze/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-129/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/firenze/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNIFI-URBAN-PLANNING-ADMISSION-2025",
@@ -78547,8 +78570,8 @@
         ],
         "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-130/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/firenze/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-130/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/firenze/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNIFI-RISE-ADMISSION-2026",
@@ -78907,8 +78930,8 @@
         ],
         "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-131/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/firenze/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-131/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/firenze/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNIFI-SUSBUS-BSC-2026",
@@ -79210,8 +79233,8 @@
         ],
         "notes": "Official 2026/27 course profile only; confirm the 2027/28 course offer."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-074/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/genova/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-074/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/genova/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNIGE-11964-ADMISSION",
@@ -79813,8 +79836,8 @@
         ],
         "notes": "Official 2026/27 course profile only; confirm the 2027/28 course offer."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-075/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/genova/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-075/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/genova/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNIGE-11963-ADMISSION",
@@ -80416,8 +80439,8 @@
         ],
         "notes": "Official 2026/27 course profile only; confirm the 2027/28 course offer."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-132/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/genova/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-132/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/genova/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNIGE-11965-ADMISSION",
@@ -81055,8 +81078,8 @@
         ],
         "notes": "Official 2026/27 course profile only; confirm the 2027/28 course offer."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-133/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/genova/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-133/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/genova/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNIGE-11937-ADMISSION",
@@ -81658,8 +81681,8 @@
         ],
         "notes": "Official 2026/27 course profile only; confirm the 2027/28 course offer."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-134/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/genova/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-134/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/genova/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNIGE-11933-ADMISSION",
@@ -82261,8 +82284,8 @@
         ],
         "notes": "Official 2026/27 course profile only; confirm the 2027/28 course offer."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-135/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/genova/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-135/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/genova/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNIGE-11970-ADMISSION",
@@ -82864,8 +82887,8 @@
         ],
         "notes": "Official 2026/27 course profile only; confirm the 2027/28 course offer."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-136/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/genova/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-136/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/genova/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNIGE-11917-ADMISSION",
@@ -83467,8 +83490,8 @@
         ],
         "notes": "Official 2026/27 course profile only; confirm the 2027/28 course offer."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-137/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/genova/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-137/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/genova/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNIGE-11896-ADMISSION",
@@ -84106,8 +84129,8 @@
         ],
         "notes": "Official 2026/27 course profile only; confirm the 2027/28 course offer."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-138/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/genova/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-138/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/genova/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNIGE-12133-ADMISSION",
@@ -84746,8 +84769,8 @@
         ],
         "notes": "Official 2026/27 course profile only; confirm the 2027/28 course offer."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-139/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/genova/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-139/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/genova/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNIGE-11871-ADMISSION",
@@ -85345,8 +85368,8 @@
         "source_ids": [],
         "notes": null
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-021/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/genova/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-021/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/genova/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNIGE-MST-2027",
@@ -85448,8 +85471,8 @@
         "source_ids": [],
         "notes": null
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-022/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/genova/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-022/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/genova/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNIGE-CORES-2027",
@@ -85578,8 +85601,8 @@
         ],
         "notes": null
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-076/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/messina/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-076/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/messina/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNIME-DS-COURSE-ECONOMY-2027",
@@ -85900,8 +85923,8 @@
         ],
         "notes": "Official 2026/27 course identity only; confirm the 2027/28 offer and teaching language."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-097/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/modena-reggio/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-097/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/modena-reggio/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNIMORE-CATALOGUE-2026",
@@ -86629,8 +86652,8 @@
         ],
         "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-029/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/padova/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-029/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/",
       "official_program_source_urls": [
         {
           "id": "SRC-PADOVA-COMPUTER-ENGINEERING-2026",
@@ -87075,8 +87098,8 @@
         ],
         "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-030/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/padova/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-030/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/",
       "official_program_source_urls": [
         {
           "id": "SRC-PADOVA-COMPUTER-SCIENCE-2026",
@@ -87529,8 +87552,8 @@
         ],
         "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-031/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/padova/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-031/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/",
       "official_program_source_urls": [
         {
           "id": "SRC-PADOVA-CYBERSECURITY-2026",
@@ -87959,8 +87982,8 @@
         ],
         "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-032/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/padova/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-032/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/",
       "official_program_source_urls": [
         {
           "id": "SRC-PADOVA-DATA-SCIENCE-2026",
@@ -88352,8 +88375,8 @@
         ],
         "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-033/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/padova/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-033/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/",
       "official_program_source_urls": [
         {
           "id": "SRC-PADOVA-INFORMATION-ENGINEERING-BSC-2026",
@@ -88746,8 +88769,8 @@
         ],
         "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-034/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/padova/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-034/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/",
       "official_program_source_urls": [
         {
           "id": "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026",
@@ -89191,8 +89214,8 @@
         ],
         "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-035/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/padova/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-035/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/",
       "official_program_source_urls": [
         {
           "id": "SRC-PADOVA-MEDICINE-2026",
@@ -89583,8 +89606,8 @@
         ],
         "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-036/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/padova/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-036/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/",
       "official_program_source_urls": [
         {
           "id": "SRC-PADOVA-PSYCHOLOGICAL-SCIENCE-BSC-2026",
@@ -89983,8 +90006,8 @@
         ],
         "notes": null
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-037/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/padova/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-037/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/",
       "official_program_source_urls": [
         {
           "id": "SRC-PADUA-SCIENCE-MSC-CATALOGUE-2026",
@@ -90427,8 +90450,8 @@
         ],
         "notes": "The official profile and 2026/27 call identify Italian as the teaching language; no 2027/28 listing has been published."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-159/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/padova/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-159/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/",
       "official_program_source_urls": [
         {
           "id": "SRC-PADOVA-PSYCHOLOGY-CALL-2026",
@@ -90971,8 +90994,8 @@
         ],
         "notes": "The official course profile and 2026/27 call identify Italian as the teaching language; no 2027/28 listing has been published."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-160/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/padova/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-160/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/",
       "official_program_source_urls": [
         {
           "id": "SRC-PADOVA-PSYCHOLOGY-CALL-2026",
@@ -91474,8 +91497,8 @@
         ],
         "notes": "The current track page and 2027/28 application page identify this study track as English-taught; the wider Ingegneria gestionale degree also has a separate Italian curriculum."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-161/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/padova/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-161/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/",
       "official_program_source_urls": [
         {
           "id": "SRC-PADOVA-ENGINEERING-OPEN-MSC-CALL-2026",
@@ -91958,8 +91981,8 @@
         ],
         "notes": "The official 2026/27 profile identifies Italian as the teaching language. The 2027/28 first-year course listing has not been verified."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-162/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/padova/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-162/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/",
       "official_program_source_urls": [
         {
           "id": "SRC-PADOVA-AGRICULTURE-MSC-CALL-2026",
@@ -92457,8 +92480,8 @@
         ],
         "notes": "The official profile and 2026/27 call identify Italian as the teaching language; the 2027/28 first-year course listing is not yet verified."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-163/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/padova/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-163/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/",
       "official_program_source_urls": [
         {
           "id": "SRC-PADOVA-SCIENCE-BSC-ADMISSIONS-2026",
@@ -93014,8 +93037,8 @@
         ],
         "notes": "The current official profile and 2026/27 call identify Italian as the language of instruction; this does not independently verify the 2027/28 course listing."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-164/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/padova/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-164/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/",
       "official_program_source_urls": [
         {
           "id": "SRC-PADOVA-ING-INFORMATICA-ADMISSIONS-2026",
@@ -93626,8 +93649,8 @@
         ],
         "notes": "The official profile and 2026/27 call identify Italian as the teaching language; this does not independently establish the 2027/28 course listing."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-165/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/padova/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-165/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/",
       "official_program_source_urls": [
         {
           "id": "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-EU-CALL-2026",
@@ -94286,8 +94309,8 @@
         ],
         "notes": null
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-002/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/padova/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-002/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/",
       "official_program_source_urls": [
         {
           "id": "SRC-PADUA-PROGRAMS-2027",
@@ -94484,8 +94507,8 @@
         ],
         "notes": null
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-003/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/padova/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-003/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/",
       "official_program_source_urls": [
         {
           "id": "SRC-PADUA-PROGRAMS-2027",
@@ -94682,8 +94705,8 @@
         ],
         "notes": null
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-004/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/padova/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-004/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/",
       "official_program_source_urls": [
         {
           "id": "SRC-PADUA-PROGRAMS-2027",
@@ -94880,8 +94903,8 @@
         ],
         "notes": null
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-005/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/padova/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-005/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/",
       "official_program_source_urls": [
         {
           "id": "SRC-PADUA-PROGRAMS-2027",
@@ -95078,8 +95101,8 @@
         ],
         "notes": null
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-006/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/padova/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-006/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/",
       "official_program_source_urls": [
         {
           "id": "SRC-PADUA-PROGRAMS-2027",
@@ -95276,8 +95299,8 @@
         ],
         "notes": null
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-007/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/padova/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-007/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/",
       "official_program_source_urls": [
         {
           "id": "SRC-PADUA-PROGRAMS-2027",
@@ -95571,8 +95594,8 @@
         ],
         "notes": null
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-008/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/padova/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-008/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/",
       "official_program_source_urls": [
         {
           "id": "SRC-PADUA-PROGRAMS-2027",
@@ -95866,8 +95889,8 @@
         ],
         "notes": "The official page is the English-taught programme catalogue; the individual proposal remains subject to approval."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-031/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/padova/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-031/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/",
       "official_program_source_urls": [
         {
           "id": "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
@@ -96340,8 +96363,8 @@
         ],
         "notes": "The official page is the English-taught programme catalogue; the individual proposal remains subject to approval."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-032/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/padova/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-032/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/",
       "official_program_source_urls": [
         {
           "id": "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
@@ -97062,8 +97085,8 @@
         ],
         "notes": "The English-degree catalogue and the University's 2027/28 study guide list the proposal as English-taught; the individual programme remains subject to approval."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-033/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/padova/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-033/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/",
       "official_program_source_urls": [
         {
           "id": "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
@@ -97520,8 +97543,8 @@
         ],
         "notes": "The official English-degree catalogue lists the proposal under Master's programmes taught in English; for Statistical Science the Department page independently describes English delivery. Approval and the final course offer remain pending."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-035/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/padova/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-035/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/",
       "official_program_source_urls": [
         {
           "id": "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
@@ -98102,8 +98125,8 @@
         ],
         "notes": "The official English-degree catalogue lists the proposal under Master's programmes taught in English; for Statistical Science the Department page independently describes English delivery. Approval and the final course offer remain pending."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-036/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/padova/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-036/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/",
       "official_program_source_urls": [
         {
           "id": "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
@@ -98918,8 +98941,8 @@
         ],
         "notes": "The 2027/28 English-language degree catalogue does not list Physics for Technology; the Arqus development announcement does not state teaching language."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-034/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/padova/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-034/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/",
       "official_program_source_urls": [
         {
           "id": "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
@@ -99290,8 +99313,8 @@
         ],
         "notes": null
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-037/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/padova/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-037/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/",
       "official_program_source_urls": [
         {
           "id": "SRC-PADUA-ASTROPHYSICS-2027-CALL",
@@ -99691,8 +99714,8 @@
         ],
         "notes": "Official prior-cycle course listing and undated description only; confirm the 2027/28 new-entry offer."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-091/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/palermo/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-091/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/palermo/",
       "official_program_source_urls": [
         {
           "id": "SRC-PALERMO-CSAI-PROFILE",
@@ -100682,8 +100705,8 @@
         ],
         "notes": "The Department guide describes the 2026/27 course as taught entirely in English; the 2027/28 course listing remains to be confirmed."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-079/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/parma/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-079/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/parma/",
       "official_program_source_urls": [
         {
           "id": "SRC-PARMA-DSM-PROFILE-2026",
@@ -101080,8 +101103,8 @@
         ],
         "notes": "The 2026/27 profile says all courses are taught in English; 2027/28 teaching language remains unconfirmed."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-088/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/pavia/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-088/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/pavia/",
       "official_program_source_urls": [
         {
           "id": "SRC-PAVIA-CE-REGULATIONS-2026",
@@ -101564,8 +101587,8 @@
         ],
         "notes": "The 2026/27 catalogue and current department page identify English teaching; 2027/28 teaching language remains unconfirmed."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-089/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/perugia/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-089/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/perugia/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNIPG-EM-MSC-2026",
@@ -102019,8 +102042,8 @@
         ],
         "notes": "The latest official catalogue and department page identify English teaching for 2026/27; 2027/28 language remains unconfirmed."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-024/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/perugia/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-024/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/perugia/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNIPG-EM-BSC-2026",
@@ -102632,8 +102655,8 @@
         ],
         "notes": null
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-052/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/pisa/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-052/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/pisa/",
       "official_program_source_urls": [
         {
           "id": "SRC-PISA-CALL-2027",
@@ -102815,8 +102838,8 @@
         ],
         "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-053/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/pisa/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-053/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/pisa/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNIPI-MSC-CATALOGUE-2026",
@@ -103119,8 +103142,8 @@
         ],
         "notes": null
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-054/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/pisa/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-054/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/pisa/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNIPI-AIDE-2026",
@@ -103344,8 +103367,8 @@
         ],
         "notes": null
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-055/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/pisa/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-055/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/pisa/",
       "official_program_source_urls": [
         {
           "id": "SRC-PISA-CALL-2027",
@@ -103527,8 +103550,8 @@
         ],
         "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-056/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/pisa/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-056/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/pisa/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNIPI-MSC-CATALOGUE-2026",
@@ -103832,8 +103855,8 @@
         ],
         "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-057/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/pisa/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-057/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/pisa/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNIPI-MSC-CATALOGUE-2026",
@@ -104135,8 +104158,8 @@
         ],
         "notes": null
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-001/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/pisa/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-001/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/pisa/",
       "official_program_source_urls": [
         {
           "id": "SRC-PISA-CALL-2027",
@@ -104319,8 +104342,8 @@
         ],
         "notes": null
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-039/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/pisa/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-039/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/pisa/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNIPI-INFO-ENG-2027-CALL",
@@ -104507,8 +104530,8 @@
         ],
         "notes": "Official 2026/27 identity only. The degree is Italian/English; the Internet of Things curriculum is fully English. Confirm the 2027/28 offer and curriculum language."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-090/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/salerno/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-090/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/salerno/",
       "official_program_source_urls": [
         {
           "id": "SRC-SALERNO-CS-REGULATION-2026",
@@ -105452,8 +105475,8 @@
         ],
         "notes": "The official profile and course page identify English delivery in prior-cycle/general material; 2027/28 delivery remains unverified."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-081/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/siena/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-081/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/siena/",
       "official_program_source_urls": [
         {
           "id": "SRC-SIENA-AM-PROFILE-2026",
@@ -105759,8 +105782,8 @@
         ],
         "notes": "Official 2026/27 course language only; verify against the 2027/28 first-year offer."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-108/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/torino/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-108/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/torino/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNITO-AIHPC-2026",
@@ -106160,8 +106183,8 @@
         ],
         "notes": "Official 2026/27 course language only; verify against the 2027/28 first-year offer."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-109/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/torino/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-109/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/torino/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNITO-EN-PROGRAMS-2026",
@@ -106561,8 +106584,8 @@
         ],
         "notes": "Official 2026/27 course language only; verify against the 2027/28 first-year offer."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-110/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/torino/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-110/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/torino/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNITO-ECON-MSC-2026",
@@ -106962,8 +106985,8 @@
         ],
         "notes": "Official 2026/27 course language only; verify against the 2027/28 first-year offer."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-111/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/torino/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-111/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/torino/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNITO-BUSADMIN-2026",
@@ -107400,8 +107423,8 @@
         ],
         "notes": "Official 2026/27 course language only; verify against the 2027/28 first-year offer."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-112/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/torino/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-112/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/torino/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNITO-EN-PROGRAMS-2026",
@@ -107801,8 +107824,8 @@
         ],
         "notes": "Official 2026/27 course language only; verify against the 2027/28 first-year offer."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-113/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/torino/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-113/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/torino/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNITO-BM-BSC-2026",
@@ -108280,8 +108303,8 @@
         ],
         "notes": "Official 2026/27 course language only; verify against the 2027/28 first-year offer."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-114/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/torino/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-114/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/torino/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNITO-EN-PROGRAMS-2026",
@@ -108788,8 +108811,8 @@
         ],
         "notes": "Official 2026/27 course language only; verify against the 2027/28 first-year offer."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-115/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/torino/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-115/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/torino/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNITO-EN-PROGRAMS-2026",
@@ -109189,8 +109212,8 @@
         ],
         "notes": "Official 2026/27 course language only; verify against the 2027/28 first-year offer."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-116/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/torino/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-116/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/torino/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNITO-EN-PROGRAMS-2026",
@@ -109590,8 +109613,8 @@
         ],
         "notes": null
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-038/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/torino/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-038/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/torino/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNITO-EAP-PROFILE-2027",
@@ -110036,8 +110059,8 @@
         ],
         "notes": "Official course language shown in the latest profile/call reviewed; verify the 2027/28 first-year offer."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-045/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/trento/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-045/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/trento/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNITN-CS-PROFILE-2026",
@@ -110447,8 +110470,8 @@
         ],
         "notes": "Official course language shown in the latest profile/call reviewed; verify the 2027/28 first-year offer."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-046/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/trento/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-046/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/trento/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNITN-AIS-PROFILE-2026",
@@ -110858,8 +110881,8 @@
         ],
         "notes": "Official course language shown in the latest profile/call reviewed; verify the 2027/28 first-year offer."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-047/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/trento/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-047/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/trento/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNITN-DS-CALL-2026",
@@ -111270,8 +111293,8 @@
         ],
         "notes": "Official course language shown in the latest profile/call reviewed; verify the 2027/28 first-year offer."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-048/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/trento/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-048/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/trento/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNITN-HCI-CALL-2026",
@@ -111682,8 +111705,8 @@
         ],
         "notes": "Official course language shown in the latest profile/call reviewed; verify the 2027/28 first-year offer."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-049/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/trento/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-049/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/trento/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNITN-COGSCI-CALL-2026",
@@ -112095,8 +112118,8 @@
         ],
         "notes": "Official course language shown in the latest profile/call reviewed; verify the 2027/28 first-year offer."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-050/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/trento/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-050/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/trento/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNITN-ISS-CALL-2026",
@@ -112507,8 +112530,8 @@
         ],
         "notes": "Official course language shown in the latest profile/call reviewed; verify the 2027/28 first-year offer."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-051/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/trento/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-051/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/trento/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNITN-CEILS-CALL-2026",
@@ -112923,8 +112946,8 @@
         ],
         "notes": null
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-013/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/trento/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-013/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/trento/",
       "official_program_source_urls": [
         {
           "id": "SRC-28DIGITAL-ADMISSIONS-2027",
@@ -113280,8 +113303,8 @@
         ],
         "notes": null
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-014/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/trento/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-014/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/trento/",
       "official_program_source_urls": [
         {
           "id": "SRC-28DIGITAL-ADMISSIONS-2027",
@@ -113637,8 +113660,8 @@
         ],
         "notes": null
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-015/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/trento/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-015/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/trento/",
       "official_program_source_urls": [
         {
           "id": "SRC-28DIGITAL-ADMISSIONS-2027",
@@ -113994,8 +114017,8 @@
         ],
         "notes": null
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-016/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/trento/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-016/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/trento/",
       "official_program_source_urls": [
         {
           "id": "SRC-28DIGITAL-ADMISSIONS-2027",
@@ -114351,8 +114374,8 @@
         ],
         "notes": null
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-017/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/trento/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-017/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/trento/",
       "official_program_source_urls": [
         {
           "id": "SRC-28DIGITAL-ADMISSIONS-2027",
@@ -114708,8 +114731,8 @@
         ],
         "notes": null
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-018/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/trento/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-018/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/trento/",
       "official_program_source_urls": [
         {
           "id": "SRC-28DIGITAL-ADMISSIONS-2027",
@@ -115065,8 +115088,8 @@
         ],
         "notes": null
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-019/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/trento/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-019/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/trento/",
       "official_program_source_urls": [
         {
           "id": "SRC-28DIGITAL-ADMISSIONS-2027",
@@ -115418,8 +115441,8 @@
         ],
         "notes": "Historical former-course descriptor only; the course was dismissed in 2023 and is not an active 2027/28 candidate."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-072/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/trieste/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-072/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/trieste/",
       "official_program_source_urls": [
         {
           "id": "SRC-TRIESTE-DSSC-CALL-2022",
@@ -115717,8 +115740,8 @@
         ],
         "notes": "Official profile reviewed with 2026/27 admissions; no 2027/28 course-specific new-entry offer confirmed."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-073/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/trieste/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-073/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/trieste/",
       "official_program_source_urls": [
         {
           "id": "SRC-TRIESTE-PHYSICS-ADMISSION-2026",
@@ -116472,8 +116495,8 @@
         ],
         "notes": "Official profile reviewed with 2026/27 admissions; no 2027/28 course-specific new-entry offer confirmed."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-025/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/trieste/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-025/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/trieste/",
       "official_program_source_urls": [
         {
           "id": "SRC-TRIESTE-DSAI-ADMISSION-2026",
@@ -117304,8 +117327,8 @@
         ],
         "notes": "Verified for the 2026/27 course only; confirm the 2027/28 listing and delivery language."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-093/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/udine/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-093/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/udine/",
       "official_program_source_urls": [
         {
           "id": "SRC-UDINE-CS-REQ-2026",
@@ -117984,8 +118007,8 @@
         ],
         "notes": "Officially listed for 2026/27; the 2027/28 teaching language remains unverified."
       },
-      "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-084/",
-      "university_page_url": "https://italy-it-programs.vercel.app/universities/verona/",
+      "program_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-084/",
+      "university_page_url": "https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/verona/",
       "official_program_source_urls": [
         {
           "id": "SRC-VERONA-BIOLOGY-ADMISSION-2026",

@@ -1,8 +1,10 @@
-# Claude Browser independent review checklist
+# Claude Web independent review checklist
 
 Prepared 2026-11-11 for academic year 2027/28. Review each record against official university pages, calls, portals, regulations, and PDFs.
 
 Snapshot inventory: 34 universities, 209 program records, 700 source records.
+Research dataset commit: `3030be18494d5d0d9da81603b19868f1e138e02f`. Review target: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app. Production baseline commit: `e6995e7`.
+When reviewing an undeployed research snapshot, use the preview-specific checklist and manifest from the review package. The production website can contain older data.
 
 ## Review rules
 
@@ -17,7 +19,7 @@ Snapshot inventory: 34 universities, 209 program records, 700 source records.
 ### Università degli Studi di Napoli Federico II (Naples) — `napoli-federico-ii`
 
 - [ ] University outcome reviewed | Existing status: `REQUIRES_VERIFICATION` | Existing last checked: `2026-11-09`
-- [ ] University page: https://italy-it-programs.vercel.app/universities/napoli-federico-ii/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/napoli-federico-ii/
 - [ ] Official website: https://www.unina.it/
 - [ ] Admissions page: https://www.international.unina.it/education/admission-regulation/
 - [ ] Application portal: not recorded
@@ -48,8 +50,8 @@ Official university-level sources:
 #### Computer Science — `legacy-085`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-085/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/napoli-federico-ii/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-085/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/napoli-federico-ii/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNINA-COMPUTER-SCIENCE-2025` — [Computer Science – official programme overview](https://informatica.dieti.unina.it/index.php/en/degree-programs/degree-programs-overview) (cycle: 2025-2026; prior check: 2026-11-10)
@@ -65,8 +67,8 @@ Currently missing or unpublished fields:
 #### Data Science — `legacy-086`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-086/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/napoli-federico-ii/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-086/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/napoli-federico-ii/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNINA-DATA-SCIENCE-ADMISSIONS-2026` — [Data Science – official admission requirements](https://data-science.dieti.unina.it/index.php/studying-with-us/information-to-apply) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -83,8 +85,8 @@ Currently missing or unpublished fields:
 #### Autonomous Vehicle Engineering (MOVE) — `legacy-117`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-117/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/napoli-federico-ii/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-117/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/napoli-federico-ii/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNINA-MOVE-2026` — [Autonomous Vehicle Engineering (MOVE) – 2026/27 course and admissions page](https://move.dii.unina.it/) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -101,8 +103,8 @@ Currently missing or unpublished fields:
 #### Industrial Bioengineering — `legacy-118`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-118/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/napoli-federico-ii/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-118/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/napoli-federico-ii/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNINA-INDUSTRIAL-BIOENGINEERING-2026` — [Industrial Bioengineering – 2026/27 official student guide](https://www.orientamento.unina.it/corsidistudio/industrial-bio-engineering/) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -118,8 +120,8 @@ Currently missing or unpublished fields:
 #### Economics and Finance (LMEF) — `legacy-119`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-119/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/napoli-federico-ii/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-119/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/napoli-federico-ii/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNINA-ECONOMICS-FINANCE-2026` — [Economics and Finance (LMEF) – official English Master's profile](https://www.orientamento.unina.it/corsidistudio/economics-and-finance-eng/) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -136,8 +138,8 @@ Currently missing or unpublished fields:
 #### International Relations (English-taught MSc) — `legacy-120`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-120/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/napoli-federico-ii/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-120/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/napoli-federico-ii/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNINA-INTERNATIONAL-RELATIONS-2026` — [International Relations (English) – official degree guide](https://www.orientamento.unina.it/corsidistudio/international-relations-eng/) (cycle: 2024-2025; prior check: 2026-11-10)
@@ -153,8 +155,8 @@ Currently missing or unpublished fields:
 #### Quantum Science and Engineering — `legacy-121`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-121/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/napoli-federico-ii/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-121/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/napoli-federico-ii/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNINA-QUANTUM-2025` — [Quantum Science and Engineering – official course guide](https://www.orientamento.unina.it/corsidistudio/quantum-science-and-engineering/) (cycle: 2025-2026; prior check: 2026-11-11)
@@ -172,8 +174,8 @@ Currently missing or unpublished fields:
 #### Architecture and Heritage — `legacy-122`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-122/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/napoli-federico-ii/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-122/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/napoli-federico-ii/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNINA-ARCH-HERITAGE-2025` — [Architecture and Heritage – official course catalogue and admission rules](https://www.corsi.unina.it/DB2/home) (cycle: 2024-2025; prior check: 2026-11-10)
@@ -190,8 +192,8 @@ Currently missing or unpublished fields:
 #### Medicine and Surgery in English (single-cycle degree) — `legacy-123`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-123/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/napoli-federico-ii/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-123/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/napoli-federico-ii/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNINA-MED-ENGLISH-2026` — [Federico II 2026/27 healthcare-course semester-filter announcement](https://www.unina.it/en/w/semestre-filtro-2026/27-al-via-le-lezioni-per-i-corsi-di-area-sanitaria) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -208,8 +210,8 @@ Currently missing or unpublished fields:
 #### Civil and Environmental Engineering — `legacy-124`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-124/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/napoli-federico-ii/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-124/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/napoli-federico-ii/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNINA-CIVIL-ENV-BSC-2026` — [Civil and Environmental Engineering BSc – official 2026/27 admission page](https://www.civil-environmental.unina.it/admission/) (cycle: 2026-2027; prior check: 2026-11-11)
@@ -225,8 +227,8 @@ Currently missing or unpublished fields:
 #### Chemical Engineering — `discovered-009`
 
 - [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-009/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/napoli-federico-ii/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-009/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/napoli-federico-ii/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNINA-CHE-2027` — [Notice for International Students – AY 2027/2028, MSc Chemical Engineering](https://www.dicmapi.unina.it/ingegneria-chimica/notice-for-international-students-academic-year-2027-2028-msc-chemical-engineering/) (cycle: 2027-2028; prior check: 2026-11-09)
@@ -238,7 +240,7 @@ Currently missing or unpublished fields:
 ### Politecnico di Bari (Bari) — `politecnico-bari`
 
 - [ ] University outcome reviewed | Existing status: `REQUIRES_VERIFICATION` | Existing last checked: `2026-11-10`
-- [ ] University page: https://italy-it-programs.vercel.app/universities/politecnico-bari/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-bari/
 - [ ] Official website: https://www.poliba.it/
 - [ ] Admissions page: https://www.poliba.it/en/general-overview
 - [ ] Application portal: https://poliba.esse3.cineca.it/
@@ -261,8 +263,8 @@ Official university-level sources:
 #### Computer Engineering — `legacy-094`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-094/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/politecnico-bari/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-094/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-bari/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-POLIBA-MSC-ADMISSIONS-2026` — [Admission to two-year Master's degrees 2026/27](https://www.poliba.it/en/ammissioni-corsi-di-laurea-di-2deg-livello) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -289,7 +291,7 @@ Currently missing or unpublished fields:
 ### Politecnico di Milano (Milan) — `politecnico-milano`
 
 - [ ] University outcome reviewed | Existing status: `CONFIRMED` | Existing last checked: `2026-11-10`
-- [ ] University page: https://italy-it-programs.vercel.app/universities/politecnico-milano/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-milano/
 - [ ] Official website: https://www.polimi.it/
 - [ ] Admissions page: https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/deadlines
 - [ ] Application portal: not recorded
@@ -328,8 +330,8 @@ Official university-level sources:
 #### Computer Science and Engineering — `legacy-001`
 
 - [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-001/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/politecnico-milano/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-001/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-milano/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-POLIMI-CSE-2026` — [Computer Science and Engineering MSc profile](https://www.polimi.it/en/education/laurea-programmes/programme-detail/computer-science-and-engineering) (cycle: 2026-2027; prior check: 2026-11-11)
@@ -350,8 +352,8 @@ Currently missing or unpublished fields:
 #### Cyber Risk Strategy and Governance — `legacy-002`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-002/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/politecnico-milano/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-002/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-milano/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-POLIMI-CYBER-2025` — [Cyber Risk Strategy and Governance MSc profile](https://www.polimi.it/en/education/laurea-magistrale-programmes/programme-detail/cyber-risk-strategy-and-governance) (cycle: 2025-2026; prior check: 2026-11-10)
@@ -370,8 +372,8 @@ Currently missing or unpublished fields:
 #### Artificial Intelligence (study plan within Computer Science and Engineering) — `legacy-003`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-003/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/politecnico-milano/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-003/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-milano/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-POLIMI-CSE-2026` — [Computer Science and Engineering MSc profile](https://www.polimi.it/en/education/laurea-programmes/programme-detail/computer-science-and-engineering) (cycle: 2026-2027; prior check: 2026-11-11)
@@ -391,8 +393,8 @@ Currently missing or unpublished fields:
 #### High Performance Computing Engineering — `legacy-004`
 
 - [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-004/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/politecnico-milano/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-004/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-milano/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-POLIMI-HPC-2026` — [High Performance Computing Engineering MSc profile](https://www.polimi.it/en/education/laurea-programmes/programme-detail/high-performance-computing-engineering) (cycle: 2026-2027; prior check: 2026-11-11)
@@ -413,8 +415,8 @@ Currently missing or unpublished fields:
 #### Biomedical Engineering — `legacy-005`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-005/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/politecnico-milano/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-005/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-milano/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-POLIMI-BIOMED-MSC-2026` — [Biomedical Engineering MSc profile](https://www.polimi.it/en/education/laurea-magistrale-programmes/programme-detail/biomedical-engineering-1) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -435,8 +437,8 @@ Currently missing or unpublished fields:
 #### Mechanical Engineering — `legacy-006`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-006/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/politecnico-milano/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-006/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-milano/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-POLIMI-MECH-2025` — [Mechanical Engineering MSc profile](https://www.polimi.it/en/education/laurea-magistrale-programmes/programme-detail/mechanical-engineering-1) (cycle: 2025-2026; prior check: 2026-11-10)
@@ -457,8 +459,8 @@ Currently missing or unpublished fields:
 #### Aerospace Engineering — `legacy-007`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-007/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/politecnico-milano/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-007/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-milano/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-POLIMI-AERONAUTICAL-2026` — [Aeronautical Engineering MSc profile](https://www.polimi.it/en/education/laurea-programmes/programme-detail/aeronautical-engineering) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -477,8 +479,8 @@ Currently missing or unpublished fields:
 #### Design & Engineering — `legacy-008`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-008/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/politecnico-milano/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-008/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-milano/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-POLIMI-DESIGNENG-2025` — [Design & Engineering MSc profile](https://www.polimi.it/en/education/laurea-programmes/programme-detail/design-engineering) (cycle: 2025-2026; prior check: 2026-11-10)
@@ -496,8 +498,8 @@ Currently missing or unpublished fields:
 #### Architecture — `legacy-009`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-009/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/politecnico-milano/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-009/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-milano/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-POLIMI-ARCH-MSC-2026` — [Architecture MSc profile](https://www.polimi.it/en/education/laurea-programmes/programme-detail/architecture) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -515,8 +517,8 @@ Currently missing or unpublished fields:
 #### Communication Design — `legacy-010`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-010/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/politecnico-milano/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-010/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-milano/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-POLIMI-COMM-DESIGN-2026` — [Communication Design MSc profile](https://www.polimi.it/en/education/laurea-magistrale-programmes/programme-detail/communication-design-1) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -534,8 +536,8 @@ Currently missing or unpublished fields:
 #### Ingegneria Aerospaziale — `legacy-140`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-140/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/politecnico-milano/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-140/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-milano/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-POLIMI-AERO-BSC-2026` — [Ingegneria Aerospaziale bachelor’s profile](https://www.polimi.it/formazione/corsi-di-laurea/dettaglio-corso/ingegneria-aerospaziale) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -554,8 +556,8 @@ Currently missing or unpublished fields:
 #### Ingegneria Biomedica — `legacy-141`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-141/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/politecnico-milano/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-141/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-milano/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-POLIMI-BIOMED-BSC-2026` — [Ingegneria Biomedica bachelor’s profile](https://www.polimi.it/formazione/corsi-di-laurea/dettaglio-corso/ingegneria-biomedica) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -574,8 +576,8 @@ Currently missing or unpublished fields:
 #### Ingegneria Gestionale — `legacy-142`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-142/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/politecnico-milano/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-142/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-milano/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-POLIMI-MGMT-BSC-2026` — [Ingegneria Gestionale bachelor’s profile](https://www.polimi.it/formazione/corsi-di-laurea/dettaglio-corso/ingegneria-gestionale) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -594,8 +596,8 @@ Currently missing or unpublished fields:
 #### Ingegneria Informatica — `legacy-143`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-143/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/politecnico-milano/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-143/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-milano/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-POLIMI-COMP-BSC-2026` — [Ingegneria Informatica bachelor’s profile](https://dynamicpoli.polimi.it/formazione/corsi-di-laurea/dettaglio-corso/ingegneria-informatica) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -614,8 +616,8 @@ Currently missing or unpublished fields:
 #### Design degli Interni — `legacy-144`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-144/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/politecnico-milano/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-144/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-milano/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-POLIMI-INTERIOR-BSC-2026` — [Design degli Interni bachelor’s profile](https://www.polimi.it/formazione/corsi-di-laurea/dettaglio-corso/design-degli-interni) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -632,8 +634,8 @@ Currently missing or unpublished fields:
 #### Progettazione dell'Architettura — `legacy-145`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-145/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/politecnico-milano/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-145/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-milano/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-POLIMI-ARCH-BSC-2026` — [Progettazione dell'Architettura bachelor’s profile](https://www.polimi.it/formazione/corsi-di-laurea/dettaglio-corso/progettazione-dellarchitettura) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -650,8 +652,8 @@ Currently missing or unpublished fields:
 #### Ingegneria Civile - Civil Engineering — `legacy-146`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-146/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/politecnico-milano/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-146/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-milano/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-POLIMI-CIVIL-MSC-2026` — [Ingegneria Civile – Civil Engineering MSc profile](https://www.polimi.it/formazione/corsi-di-laurea/dettaglio-corso/ingegneria-civile-civil-engineering) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -671,7 +673,7 @@ Currently missing or unpublished fields:
 ### Politecnico di Torino (Turin) — `politecnico-torino`
 
 - [ ] University outcome reviewed | Existing status: `REQUIRES_VERIFICATION` | Existing last checked: `2026-11-10`
-- [ ] University page: https://italy-it-programs.vercel.app/universities/politecnico-torino/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-torino/
 - [ ] Official website: https://www.polito.it/
 - [ ] Admissions page: https://www.polito.it/en/education/applying-studying-graduating/admissions-and-enrolment/bachelor-s-degree-programmes/calls-for-application-regulations-and-ranking-lists
 - [ ] Application portal: not recorded
@@ -711,8 +713,8 @@ Official university-level sources:
 #### Computer Engineering — `legacy-011`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-011/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/politecnico-torino/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-011/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-torino/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-POLITO-MSC-CATALOGUE-2026` — [Master's degree programme catalogue](https://www.polito.it/en/education/master-s-degree-programmes) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -733,8 +735,8 @@ Currently missing or unpublished fields:
 #### Cybersecurity Engineering — `legacy-012`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-012/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/politecnico-torino/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-012/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-torino/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-POLITO-MSC-CATALOGUE-2026` — [Master's degree programme catalogue](https://www.polito.it/en/education/master-s-degree-programmes) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -755,8 +757,8 @@ Currently missing or unpublished fields:
 #### Data Science and Engineering — `legacy-013`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-013/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/politecnico-torino/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-013/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-torino/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-POLITO-MSC-CATALOGUE-2026` — [Master's degree programme catalogue](https://www.polito.it/en/education/master-s-degree-programmes) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -777,8 +779,8 @@ Currently missing or unpublished fields:
 #### Automotive Engineering — `legacy-014`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-014/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/politecnico-torino/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-014/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-torino/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-POLITO-MSC-CATALOGUE-2026` — [Master's degree programme catalogue](https://www.polito.it/en/education/master-s-degree-programmes) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -799,8 +801,8 @@ Currently missing or unpublished fields:
 #### Aerospace Engineering — `legacy-015`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-015/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/politecnico-torino/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-015/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-torino/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-POLITO-MSC-CATALOGUE-2026` — [Master's degree programme catalogue](https://www.polito.it/en/education/master-s-degree-programmes) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -821,8 +823,8 @@ Currently missing or unpublished fields:
 #### ICT Engineering for Smart Societies — `legacy-016`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-016/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/politecnico-torino/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-016/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-torino/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-POLITO-MSC-CATALOGUE-2026` — [Master's degree programme catalogue](https://www.polito.it/en/education/master-s-degree-programmes) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -843,8 +845,8 @@ Currently missing or unpublished fields:
 #### Quantum Engineering — `legacy-017`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-017/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/politecnico-torino/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-017/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-torino/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-POLITO-MSC-CATALOGUE-2026` — [Master's degree programme catalogue](https://www.polito.it/en/education/master-s-degree-programmes) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -865,8 +867,8 @@ Currently missing or unpublished fields:
 #### Architecture Construction City — `legacy-018`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-018/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/politecnico-torino/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-018/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-torino/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-POLITO-MSC-CATALOGUE-2026` — [Master's degree programme catalogue](https://www.polito.it/en/education/master-s-degree-programmes) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -887,8 +889,8 @@ Currently missing or unpublished fields:
 #### Hydrogen Systems and Enabling Technologies (HySET Erasmus Mundus Joint Master) — `discovered-020`
 
 - [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-020/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/politecnico-torino/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-020/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-torino/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-POLITO-HYSET-REQ-2027` — [HySET admission requirements](https://hysetmaster.polito.it/admission-requirements) (cycle: 2027-2028; prior check: 2026-11-09)
@@ -906,8 +908,8 @@ Currently missing or unpublished fields:
 #### Digital Skills for Sustainable Societal Transitions — `discovered-028`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-028/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/politecnico-torino/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-028/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-torino/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-POLITO-MSC-CATALOGUE-2026` — [Master's degree programme catalogue](https://www.polito.it/en/education/master-s-degree-programmes) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -932,8 +934,8 @@ Currently missing or unpublished fields:
 #### Mathematical Engineering – planned English-taught track — `discovered-030`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `CONFIRMED` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-030/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/politecnico-torino/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-030/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/politecnico-torino/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-POLITO-MATHEMATICAL-ENGINEERING-PROFILE-2026` — [Mathematical Engineering – official programme profile](https://www.polito.it/en/education/master-s-degree-programmes/mathematical-engineering) (cycle: 2026-2027; prior check: 2026-11-11)
@@ -949,7 +951,7 @@ Currently missing or unpublished fields:
 ### Università degli Studi Roma Tre (Rome) — `roma-tre`
 
 - [ ] University outcome reviewed | Existing status: `REQUIRES_VERIFICATION` | Existing last checked: `2026-11-10`
-- [ ] University page: https://italy-it-programs.vercel.app/universities/roma-tre/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/roma-tre/
 - [ ] Official website: https://www.uniroma3.it/
 - [ ] Admissions page: https://www.uniroma3.it/int/education/international-students/
 - [ ] Application portal: https://gomp.uniroma3.it/
@@ -980,8 +982,8 @@ Official university-level sources:
 #### Engineering — `legacy-096`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-096/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/roma-tre/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-096/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/roma-tre/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-ROMATRE-AEROSPACE-PROFILE-2026` — [Ingegneria Aerospaziale LM-20](https://www.uniroma3.it/didattica/lauree-ws-l/ingegneria-aerospaziale-lm-20/) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -1015,7 +1017,7 @@ Currently missing or unpublished fields:
 ### Sapienza Università di Roma (Rome) — `sapienza`
 
 - [ ] University outcome reviewed | Existing status: `REQUIRES_VERIFICATION` | Existing last checked: `2026-11-10`
-- [ ] University page: https://italy-it-programs.vercel.app/universities/sapienza/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/sapienza/
 - [ ] Official website: https://www.uniroma1.it/
 - [ ] Admissions page: https://www.uniroma1.it/en/node/24774
 - [ ] Application portal: https://sapienza.gomovein.com/
@@ -1072,8 +1074,8 @@ Official university-level sources:
 #### Computer Science — `legacy-038`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-038/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/sapienza/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-038/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/sapienza/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-SAPIENZA-MOVEIN-REQUIREMENTS-2026` — [English-program academic and language requirements 2026/27](https://www.uniroma1.it/sites/default/files/field_file_allegati/academic_requirements_movein_2026-2027_web.pdf) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -1090,8 +1092,8 @@ Currently missing or unpublished fields:
 #### Artificial Intelligence and Robotics — `legacy-039`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-039/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/sapienza/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-039/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/sapienza/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-SAPIENZA-MOVEIN-REQUIREMENTS-2026` — [English-program academic and language requirements 2026/27](https://www.uniroma1.it/sites/default/files/field_file_allegati/academic_requirements_movein_2026-2027_web.pdf) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -1108,8 +1110,8 @@ Currently missing or unpublished fields:
 #### Cybersecurity — `legacy-040`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-040/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/sapienza/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-040/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/sapienza/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-SAPIENZA-MOVEIN-REQUIREMENTS-2026` — [English-program academic and language requirements 2026/27](https://www.uniroma1.it/sites/default/files/field_file_allegati/academic_requirements_movein_2026-2027_web.pdf) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -1126,8 +1128,8 @@ Currently missing or unpublished fields:
 #### Data Science — `legacy-041`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-041/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/sapienza/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-041/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/sapienza/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-SAPIENZA-MOVEIN-REQUIREMENTS-2026` — [English-program academic and language requirements 2026/27](https://www.uniroma1.it/sites/default/files/field_file_allegati/academic_requirements_movein_2026-2027_web.pdf) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -1144,8 +1146,8 @@ Currently missing or unpublished fields:
 #### Applied Computer Science and Artificial Intelligence — `legacy-042`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-042/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/sapienza/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-042/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/sapienza/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-SAPIENZA-MOVEIN-REQUIREMENTS-2026` — [English-program academic and language requirements 2026/27](https://www.uniroma1.it/sites/default/files/field_file_allegati/academic_requirements_movein_2026-2027_web.pdf) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -1162,8 +1164,8 @@ Currently missing or unpublished fields:
 #### Ingegneria aeronautica - Aeronautical engineering — `legacy-043`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-043/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/sapienza/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-043/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/sapienza/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-SAPIENZA-AERONAUTICAL-2026` — [Aeronautical Engineering course profile 2026/27](https://corsidilaurea.uniroma1.it/it/course/33483) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -1182,8 +1184,8 @@ Currently missing or unpublished fields:
 #### Sustainable Building Engineering — `legacy-044`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-044/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/sapienza/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-044/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/sapienza/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-SAPIENZA-MOVEIN-REQUIREMENTS-2026` — [English-program academic and language requirements 2026/27](https://www.uniroma1.it/sites/default/files/field_file_allegati/academic_requirements_movein_2026-2027_web.pdf) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -1200,8 +1202,8 @@ Currently missing or unpublished fields:
 #### Medicina e Chirurgia (campus/track unresolved) — `legacy-153`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-153/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/sapienza/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-153/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/sapienza/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-SAPIENZA-MEDICINE-F-CALL-2026` — [Medicine and Surgery F – AY 2026/27 admission call](https://www.corsidilaurea.uniroma1.it/sites/default/files/offertaformativa/documenti_ufficiali/187/33454_i.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
@@ -1228,8 +1230,8 @@ Currently missing or unpublished fields:
 #### Ingegneria Aerospaziale — `legacy-154`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-154/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/sapienza/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-154/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/sapienza/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-SAPIENZA-AEROSPACE-ADMISSION-CALL-2026` — [Ingegneria Aerospaziale – AY 2026/27 TOLC-I admission call (Bando 14616)](https://www.uniroma1.it/sites/default/files/field_file_allegati/14616_bando_ici.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
@@ -1253,8 +1255,8 @@ Currently missing or unpublished fields:
 #### Scienze politiche e relazioni internazionali — `legacy-155`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-155/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/sapienza/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-155/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/sapienza/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-SAPIENZA-POLITICAL-SCIENCE-APPLY-2026` — [Scienze politiche e relazioni internazionali – application and OFA page](https://corsidilaurea.uniroma1.it/it/course/33618/apply) (cycle: 2026-2027; prior check: 2026-11-11)
@@ -1280,8 +1282,8 @@ Currently missing or unpublished fields:
 #### Psicologia e Salute — `legacy-156`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-156/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/sapienza/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-156/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/sapienza/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-SAPIENZA-PSYCHOLOGY-APPLY-2026` — [Psicologia e Salute – current catalogue application and ranking page](https://corsidilaurea.uniroma1.it/it/course/33570/apply) (cycle: 2026-2027; prior check: 2026-11-11)
@@ -1305,8 +1307,8 @@ Currently missing or unpublished fields:
 #### Ingegneria Informatica — `legacy-157`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-157/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/sapienza/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-157/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/sapienza/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-SAPIENZA-ENGCSAI-CALL-2026` — [Engineering in Computer Science and Artificial Intelligence – AY 2026/27 admission call](https://corsidilaurea.uniroma1.it/sites/default/files/offertaformativa/documenti_ufficiali/187/33515_e_1.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
@@ -1327,8 +1329,8 @@ Currently missing or unpublished fields:
 #### Economics and Finance — `legacy-158`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-158/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/sapienza/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-158/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/sapienza/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-SAPIENZA-ECFIN-APPLY-2026` — [Economics and Finance enrollment page 2026/27](https://corsidilaurea.uniroma1.it/en/course/34177/apply) (cycle: 2026-2027; prior check: 2026-11-11)
@@ -1358,8 +1360,8 @@ Currently missing or unpublished fields:
 #### Engineering in Computer Science and Artificial Intelligence — `discovered-026`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-026/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/sapienza/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-026/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/sapienza/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-SAPIENZA-ENGCSAI-CALL-2026` — [Engineering in Computer Science and Artificial Intelligence – AY 2026/27 admission call](https://corsidilaurea.uniroma1.it/sites/default/files/offertaformativa/documenti_ufficiali/187/33515_e_1.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
@@ -1387,8 +1389,8 @@ Currently missing or unpublished fields:
 #### Finance and Insurance — `discovered-027`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-027/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/sapienza/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-027/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/sapienza/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-SAPIENZA-FINANCE-INSURANCE-APPLY-2026` — [Finance and Insurance: how to enroll 2026/27](https://www.corsidilaurea.uniroma1.it/en/course/33439/apply) (cycle: 2026-2027; prior check: 2026-11-11)
@@ -1411,7 +1413,7 @@ Currently missing or unpublished fields:
 ### Università degli Studi di Roma Tor Vergata (Rome) — `tor-vergata`
 
 - [ ] University outcome reviewed | Existing status: `CONFIRMED` | Existing last checked: `2026-11-09`
-- [ ] University page: https://italy-it-programs.vercel.app/universities/tor-vergata/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/tor-vergata/
 - [ ] Official website: https://web.uniroma2.it/
 - [ ] Admissions page: https://mechatronics.uniroma2.it/how-to-apply-for-mechatronics/admission-a-y-2027-28/
 - [ ] Application portal: not recorded
@@ -1427,8 +1429,8 @@ Official university-level sources:
 #### Computer Science — `legacy-095`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-095/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/tor-vergata/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-095/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/tor-vergata/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-ROMA2-COMPUTER-SCIENCE-REGULATIONS-2026` — [Computer Science – official Master's regulations](https://informatica.uniroma2.it/en/home/magistrale/il-corso/regulations/) (cycle: 2026-2027; prior check: 2026-11-11)
@@ -1445,8 +1447,8 @@ Currently missing or unpublished fields:
 #### Mechatronics Engineering — `discovered-010`
 
 - [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-010/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/tor-vergata/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-010/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/tor-vergata/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-TORVERGATA-MECH-2027` — [Admission A.Y. 2027-28 – Mechatronics Engineering](https://mechatronics.uniroma2.it/how-to-apply-for-mechatronics/admission-a-y-2027-28/) (cycle: 2027-2028; prior check: 2026-11-09)
@@ -1457,7 +1459,7 @@ Currently missing or unpublished fields:
 ### Università Ca' Foscari Venezia (Venice) — `ca-foscari`
 
 - [ ] University outcome reviewed | Existing status: `CONFIRMED` | Existing last checked: `2026-11-09`
-- [ ] University page: https://italy-it-programs.vercel.app/universities/ca-foscari/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/ca-foscari/
 - [ ] Official website: https://www.unive.it/
 - [ ] Admissions page: https://www.unive.it/pag/12520
 - [ ] Application portal: https://apply.unive.it/
@@ -1492,8 +1494,8 @@ Official university-level sources:
 #### Digital Management — `legacy-082`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-082/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/ca-foscari/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-082/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/ca-foscari/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-CA-FOSCARI-CATALOGUE-2026` — [Bachelor's and Master's degrees – course catalogue (2026/27)](https://www.unive.it/data/it/15241) (cycle: 2026-2027; prior check: 2026-11-09)
@@ -1510,8 +1512,8 @@ Currently missing or unpublished fields:
 #### Hospitality Innovation and e-Tourism — `legacy-083`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-083/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/ca-foscari/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-083/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/ca-foscari/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-CA-FOSCARI-CATALOGUE-2026` — [Bachelor's and Master's degrees – course catalogue (2026/27)](https://www.unive.it/data/it/15241) (cycle: 2026-2027; prior check: 2026-11-09)
@@ -1529,8 +1531,8 @@ Currently missing or unpublished fields:
 #### Computer Science and Information Technology — `legacy-099`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-099/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/ca-foscari/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-099/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/ca-foscari/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-CA-FOSCARI-CATALOGUE-2026` — [Bachelor's and Master's degrees – course catalogue (2026/27)](https://www.unive.it/data/it/15241) (cycle: 2026-2027; prior check: 2026-11-09)
@@ -1549,8 +1551,8 @@ Currently missing or unpublished fields:
 #### Data Analytics for Business and Society — `legacy-100`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-100/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/ca-foscari/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-100/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/ca-foscari/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-CA-FOSCARI-CATALOGUE-2026` — [Bachelor's and Master's degrees – course catalogue (2026/27)](https://www.unive.it/data/it/15241) (cycle: 2026-2027; prior check: 2026-11-09)
@@ -1569,8 +1571,8 @@ Currently missing or unpublished fields:
 #### Economics, Finance and Sustainability — `legacy-101`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-101/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/ca-foscari/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-101/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/ca-foscari/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-CA-FOSCARI-CATALOGUE-2026` — [Bachelor's and Master's degrees – course catalogue (2026/27)](https://www.unive.it/data/it/15241) (cycle: 2026-2027; prior check: 2026-11-09)
@@ -1588,8 +1590,8 @@ Currently missing or unpublished fields:
 #### International Management — `legacy-102`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-102/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/ca-foscari/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-102/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/ca-foscari/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-CA-FOSCARI-CATALOGUE-2026` — [Bachelor's and Master's degrees – course catalogue (2026/27)](https://www.unive.it/data/it/15241) (cycle: 2026-2027; prior check: 2026-11-09)
@@ -1607,8 +1609,8 @@ Currently missing or unpublished fields:
 #### Comparative International Relations — `legacy-103`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-103/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/ca-foscari/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-103/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/ca-foscari/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-CA-FOSCARI-CATALOGUE-2026` — [Bachelor's and Master's degrees – course catalogue (2026/27)](https://www.unive.it/data/it/15241) (cycle: 2026-2027; prior check: 2026-11-09)
@@ -1626,8 +1628,8 @@ Currently missing or unpublished fields:
 #### Digital Management — `legacy-104`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-104/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/ca-foscari/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-104/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/ca-foscari/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-CA-FOSCARI-CATALOGUE-2026` — [Bachelor's and Master's degrees – course catalogue (2026/27)](https://www.unive.it/data/it/15241) (cycle: 2026-2027; prior check: 2026-11-09)
@@ -1646,8 +1648,8 @@ Currently missing or unpublished fields:
 #### Economics and Business — `legacy-105`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-105/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/ca-foscari/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-105/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/ca-foscari/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-CA-FOSCARI-CATALOGUE-2026` — [Bachelor's and Master's degrees – course catalogue (2026/27)](https://www.unive.it/data/it/15241) (cycle: 2026-2027; prior check: 2026-11-09)
@@ -1666,8 +1668,8 @@ Currently missing or unpublished fields:
 #### Computer Science – Data Science curriculum — `legacy-106`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-106/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/ca-foscari/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-106/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/ca-foscari/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-CA-FOSCARI-CATALOGUE-2026` — [Bachelor's and Master's degrees – course catalogue (2026/27)](https://www.unive.it/data/it/15241) (cycle: 2026-2027; prior check: 2026-11-09)
@@ -1686,8 +1688,8 @@ Currently missing or unpublished fields:
 #### Philosophy, International and Economic Studies — `legacy-107`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-107/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/ca-foscari/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-107/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/ca-foscari/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-CA-FOSCARI-CATALOGUE-2026` — [Bachelor's and Master's degrees – course catalogue (2026/27)](https://www.unive.it/data/it/15241) (cycle: 2026-2027; prior check: 2026-11-09)
@@ -1705,8 +1707,8 @@ Currently missing or unpublished fields:
 #### Buddhism and Asian Religions — `discovered-011`
 
 - [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-011/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/ca-foscari/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-011/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/ca-foscari/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-CA-FOSCARI-BUDDHISM-2027` — [Buddhism and Asian Religions – programme and 2027/28 admission](https://www.unive.it/web/en/21007/home) (cycle: 2027-2028; prior check: 2026-11-09)
@@ -1717,7 +1719,7 @@ Currently missing or unpublished fields:
 ### Università degli Studi di Milano-Bicocca (Milan) — `milano-bicocca`
 
 - [ ] University outcome reviewed | Existing status: `REQUIRES_VERIFICATION` | Existing last checked: `2026-11-09`
-- [ ] University page: https://italy-it-programs.vercel.app/universities/milano-bicocca/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/milano-bicocca/
 - [ ] Official website: https://www.unimib.it/
 - [ ] Admissions page: https://en.unimib.it/study/information-international-students/access-students-international-qualification
 - [ ] Application portal: https://apply.unimib.it/
@@ -1750,8 +1752,8 @@ Official university-level sources:
 #### Artificial Intelligence for Science and Technology — `legacy-062`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-062/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/milano-bicocca/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-062/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/milano-bicocca/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-BICOCCA-AI-MSC-CALL-2026` — [Artificial Intelligence for Science and Technology – admission procedure 2026/27](https://www.unimib.it/sites/default/files/2026-03/AI4ST_ENG_26_27_0.pdf) (cycle: 2026-2027; prior check: 2026-11-09)
@@ -1774,8 +1776,8 @@ Currently missing or unpublished fields:
 #### Data Science — `legacy-063`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-063/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/milano-bicocca/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-063/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/milano-bicocca/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-BICOCCA-DS-CALL-2026` — [Data Science – admission procedure 2026/27](https://www.unimib.it/sites/default/files/2026-04/DATA%20SCIENCE_ENG_26_27_0.pdf) (cycle: 2026-2027; prior check: 2026-11-09)
@@ -1798,8 +1800,8 @@ Currently missing or unpublished fields:
 #### Human-Centered Artificial Intelligence — `legacy-064`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-064/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/milano-bicocca/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-064/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/milano-bicocca/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-BICOCCA-HCAI-COURSE-2026` — [Human-Centered Artificial Intelligence – inter-university Master's profile](https://en.unimib.it/graduate/human-centered-artificial-intelligence) (cycle: 2026-2027; prior check: 2026-11-09)
@@ -1822,8 +1824,8 @@ Currently missing or unpublished fields:
 #### Artificial Intelligence — `legacy-065`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-065/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/milano-bicocca/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-065/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/milano-bicocca/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-BICOCCA-AI-BSC-COURSE-2026` — [Artificial Intelligence – inter-university Bachelor's degree](https://en.unimib.it/undergraduate/artificial-intelligence) (cycle: 2026-2027; prior check: 2026-11-09)
@@ -1847,8 +1849,8 @@ Currently missing or unpublished fields:
 #### Astrophysics and Space Physics — `legacy-066`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-066/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/milano-bicocca/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-066/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/milano-bicocca/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-BICOCCA-ASTRO-CALL-2026` — [Astrophysics and Space Physics – admission procedure 2026/27](https://www.unimib.it/sites/default/files/2026-04/Astro_ENG_26_27.pdf) (cycle: 2026-2027; prior check: 2026-11-09)
@@ -1871,8 +1873,8 @@ Currently missing or unpublished fields:
 #### International Economics — `legacy-067`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-067/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/milano-bicocca/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-067/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/milano-bicocca/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-BICOCCA-INTECO-CALL-2026` — [International Economics – admission procedure 2026/27](https://www.unimib.it/sites/default/files/2026-03/INTECO_call_26_27-def.pdf) (cycle: 2026-2027; prior check: 2026-11-09)
@@ -1895,7 +1897,7 @@ Currently missing or unpublished fields:
 ### Università Politecnica delle Marche (Ancona) — `marche`
 
 - [ ] University outcome reviewed | Existing status: `REQUIRES_VERIFICATION` | Existing last checked: `2026-11-09`
-- [ ] University page: https://italy-it-programs.vercel.app/universities/marche/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/marche/
 - [ ] Official website: https://www.univpm.it/
 - [ ] Admissions page: https://www.international.univpm.it/international-admissions/
 - [ ] Application portal: not recorded
@@ -1919,8 +1921,8 @@ Official university-level sources:
 #### Data Science for Finance and Economics (curriculum) — `legacy-078`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-078/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/marche/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-078/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/marche/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNIVPM-DS-ENTRY-2026` — [Entry requirements for Master's degree courses – Faculty of Economics](https://www.univpm.it/Entra/Ingegneria/Cittadini_non_comunitari_residenti_all_estero_-_Segreteria_studenti_Economia/Ammissione_CLM_Economia/Entry_requirements_for_Master_s_degree_courses_-_Faculty_of_Economics) (cycle: 2026-2027; prior check: 2026-11-09)
@@ -1947,7 +1949,7 @@ Currently missing or unpublished fields:
 ### Università degli Studi di Catania (Catania) — `catania`
 
 - [ ] University outcome reviewed | Existing status: `REQUIRES_VERIFICATION` | Existing last checked: `2026-11-09`
-- [ ] University page: https://italy-it-programs.vercel.app/universities/catania/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/catania/
 - [ ] Official website: https://www.unict.it/
 - [ ] Admissions page: https://www.unict.it/en/node/5251
 - [ ] Application portal: not recorded
@@ -1974,8 +1976,8 @@ Official university-level sources:
 #### Data Science for Management — `legacy-077`
 
 - [ ] Review program and 2027/28 intake | Current status: `NOT_APPLICABLE` | Availability: `CONFIRMED` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-077/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/catania/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-077/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/catania/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNICT-DSM-LEGACY` — [Data Science for Management – course page and replacement notice](https://www.dei.unict.it/corsi/lm-91) (cycle: 2022-2023; prior check: 2026-11-09)
@@ -1984,8 +1986,8 @@ Official linked sources to revisit:
 #### Data Science — `discovered-023`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-023/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/catania/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-023/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/catania/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNICT-DS-NON-EU-CALL-PDF-2026` — [Data Science – non-EU-abroad English Master's call and course annex, 2026/27](https://www.unict.it/sites/default/files/ds_altri_documenti/bando_eng_con_allegati_signed_signed_0.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
@@ -2009,7 +2011,7 @@ Currently missing or unpublished fields:
 ### Università degli Studi di Milano (Milan) — `milano-statale`
 
 - [ ] University outcome reviewed | Existing status: `REQUIRES_VERIFICATION` | Existing last checked: `2026-11-09`
-- [ ] University page: https://italy-it-programs.vercel.app/universities/milano-statale/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/milano-statale/
 - [ ] Official website: https://www.unimi.it/
 - [ ] Admissions page: https://www.unimi.it/en/international/coming-abroad/enrol-programme/international-enrolment-degree-programmes
 - [ ] Application portal: https://apply.unimi.it/
@@ -2037,8 +2039,8 @@ Official university-level sources:
 #### Computer Science — `legacy-058`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-058/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/milano-statale/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-058/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/milano-statale/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-MILANO-CS-PROFILE-2026` — [Computer Science – Master's degree profile](https://www.unimi.it/en/education/master-programme/computer-science-master) (cycle: 2026-2027; prior check: 2026-11-09)
@@ -2064,8 +2066,8 @@ Currently missing or unpublished fields:
 #### Artificial Intelligence for Science and Technology — `legacy-059`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-059/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/milano-statale/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-059/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/milano-statale/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-MILANO-AI4ST-PROFILE-2026` — [Artificial Intelligence for Science and Technology – inter-university profile](https://www.unimi.it/en/education/master-programme/artificial-intelligence-science-and-technology) (cycle: 2026-2027; prior check: 2026-11-09)
@@ -2093,8 +2095,8 @@ Currently missing or unpublished fields:
 #### Data Science for Economics and Health — `legacy-060`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-060/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/milano-statale/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-060/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/milano-statale/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-MILANO-MASTER-CATALOGUE-2026` — [Master's Degree Programmes – 2026/27 catalogue](https://www.unimi.it/en/education/masters-degree-programmes) (cycle: 2026-2027; prior check: 2026-11-09)
@@ -2120,8 +2122,8 @@ Currently missing or unpublished fields:
 #### Bioinformatics for Computational Genomics — `legacy-061`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-061/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/milano-statale/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-061/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/milano-statale/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-MILANO-BCG-PROFILE-2026` — [Bioinformatics for Computational Genomics – Master's profile](https://bcg.cdl.unimi.it/en/programme/bioinformatics-computational-genomics) (cycle: 2026-2027; prior check: 2026-11-09)
@@ -2147,7 +2149,7 @@ Currently missing or unpublished fields:
 ### Università degli Studi dell'Aquila (L'Aquila) — `laquila`
 
 - [ ] University outcome reviewed | Existing status: `REQUIRES_VERIFICATION` | Existing last checked: `2026-11-09`
-- [ ] University page: https://italy-it-programs.vercel.app/universities/laquila/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/laquila/
 - [ ] Official website: https://www.univaq.it/
 - [ ] Admissions page: https://www.univaq.it/en/section.php?id=2065&lang_s=en
 - [ ] Application portal: not recorded
@@ -2172,8 +2174,8 @@ Official university-level sources:
 #### Computer Science — `legacy-092`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-092/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/laquila/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-092/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/laquila/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-LAQUILA-ENGLISH-COURSES-2026` — [International degree courses 2026/27](https://www.univaq.it/en/section.php?id=540&lang=en&lang_s=en&order=corso) (cycle: 2026-2027; prior check: 2026-11-09)
@@ -2199,7 +2201,7 @@ Currently missing or unpublished fields:
 ### Università degli Studi dell’Insubria (Varese) — `insubria`
 
 - [ ] University outcome reviewed | Existing status: `REQUIRES_VERIFICATION` | Existing last checked: `2026-11-09`
-- [ ] University page: https://italy-it-programs.vercel.app/universities/insubria/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/insubria/
 - [ ] Official website: https://www.uninsubria.it/
 - [ ] Admissions page: https://www.uninsubria.it/servizi/vivere-insubria/immatricolarsi-e-iscriversi/immatricolazioni/immatricolazione-lauree-0
 - [ ] Application portal: https://uninsubria.esse3.cineca.it/
@@ -2222,8 +2224,8 @@ Official university-level sources:
 #### Computer Science — `legacy-098`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-098/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/insubria/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-098/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/insubria/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-INSUBRIA-CS-REQUIREMENTS` — [Admission requirements – Informatica](https://www.uninsubria.it/formazione/offerta-formativa/corsi-di-laurea/requisiti-di-ammissione-informatica) (cycle: 2026-2027; prior check: 2026-11-09)
@@ -2244,7 +2246,7 @@ Currently missing or unpublished fields:
 ### Università di Bologna (Bologna) — `bologna`
 
 - [ ] University outcome reviewed | Existing status: `REQUIRES_VERIFICATION` | Existing last checked: `2026-11-09`
-- [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/bologna/
 - [ ] Official website: https://www.unibo.it/
 - [ ] Admissions page: https://www.unibo.it/en/study/how-to-apply
 - [ ] Application portal: not recorded
@@ -2339,8 +2341,8 @@ Official university-level sources:
 #### Artificial intelligence — `legacy-019`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-019/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-019/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/bologna/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNIBO-AI-ADMISSIONS-2026` — [Artificial Intelligence – 2026/27 admission requirements and call](https://corsi.unibo.it/2cycle/artificial-intelligence/how-to-enrol) (cycle: 2026-2027; prior check: 2026-11-11)
@@ -2357,8 +2359,8 @@ Currently missing or unpublished fields:
 #### Computer Science and Engineering — Intelligent Embedded Systems (28Digital track) — `legacy-020`
 
 - [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-020/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-020/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/bologna/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNIBO-CSE-2027` — [Computer Science and Engineering – admissions and requirements](https://corsi.unibo.it/2cycle/ComputerScienceEngineering/how-to-enrol) (cycle: 2027-2028; prior check: 2026-11-09)
@@ -2371,8 +2373,8 @@ Currently missing or unpublished fields:
 #### Digital Humanities and Digital Knowledge — `legacy-021`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-021/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-021/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/bologna/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNIBO-DHDK-CALL-2026` — [Digital Humanities and Digital Knowledge – AY 2026/27 admission call](https://corsi.unibo.it/s/3391/p/en/digital-humanities-and-digital-knowledge-dhdk/call-dhdk-2026.pdf/@@download/file/Call%20DHDK%202026.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
@@ -2391,8 +2393,8 @@ Currently missing or unpublished fields:
 #### Statistics, Economics and Business — Business Analytics curriculum — `legacy-022`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-022/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-022/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/bologna/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNIBO-BA-CURRICULUM-2026` — [Business Analytics – current official curriculum profile](https://corsi.unibo.it/2cycle/BusinessAnalytics/overview) (cycle: general; prior check: 2026-11-11)
@@ -2410,8 +2412,8 @@ Currently missing or unpublished fields:
 #### Global MBA in AI and Manufacturing (Bologna Business School) — `legacy-023`
 
 - [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-023/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-023/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/bologna/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNIBO-BBS-AI-MFG-2027` — [Global MBA in AI and Manufacturing – 2027/28 admissions schedule](https://www.bbs.unibo.it/en/global-mba/ai-and-manufacturing-2/) (cycle: 2027-2028; prior check: 2026-11-11)
@@ -2429,8 +2431,8 @@ Currently missing or unpublished fields:
 #### Mechanical Engineering for Sustainability — `legacy-024`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-024/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-024/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/bologna/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNIBO-MES-CALL-2026` — [Mechanical Engineering for Sustainability – 2026/27 admission call](https://corsi.unibo.it/s/3427/p/en/programma-enrolment-new/bando-lm-aerospace_ita_2025-26-def-1.pdf/@@download/file/Bando%20LM%20MES%2026-27_ENG.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
@@ -2452,8 +2454,8 @@ Currently missing or unpublished fields:
 #### Business and Economics (CLaBE) — `legacy-025`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-025/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-025/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/bologna/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNIBO-CLABE-CALL-2026` — [Business and Economics (CLaBE) – 2026/27 admission call (English translation)](https://corsi.unibo.it/s/3394/p/en/enrolling-clabe/clabe-clame-call-for-applications-2025_26-1.pdf/@@download/file/CLABE-CLAME%20Call%20for%20Applications%202025_26%20(1).pdf) (cycle: 2026-2027; prior check: 2026-11-11)
@@ -2473,8 +2475,8 @@ Currently missing or unpublished fields:
 #### Economics and Finance (CLEF) — `legacy-026`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-026/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-026/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/bologna/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNIBO-CLEF-ADMISSIONS-2026` — [Economics and Finance – 2026/27 admission notice](https://corsi.unibo.it/s/3394/p/en/enrolling-clef/bando-clef-etac_a-a-2026-2027.pdf/@@download/file/Bando%20CLEF%20-ETAC_a.a.%202026-2027.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
@@ -2494,8 +2496,8 @@ Currently missing or unpublished fields:
 #### Medicine and Surgery — `legacy-027`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-027/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-027/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/bologna/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNIBO-MED-EN-2026-CALL` — [Medicine and Surgery – English course admission information](https://corsi.unibo.it/singlecycle/MedicineAndSurgery) (cycle: general; prior check: 2026-11-11)
@@ -2522,8 +2524,8 @@ Currently missing or unpublished fields:
 #### Business Management — Green Management and Sustainable Businesses (BBS professional-master track) — `legacy-028`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-028/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-028/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/bologna/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNIBO-BBS-GREEN-MGMT-2026` — [Business Management – Green Management and Sustainable Businesses – BBS course and current application information](https://www.bbs.unibo.it/en/master-fulltime/business-management-green-management-and-sustainable-businesses/) (cycle: general; prior check: 2026-11-11)
@@ -2539,8 +2541,8 @@ Currently missing or unpublished fields:
 #### Ingegneria gestionale — `legacy-147`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-147/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-147/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/bologna/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNIBO-GESTIONALE-BSC-2026` — [Ingegneria gestionale – Bologna bachelor's profile](https://corsi.unibo.it/laurea/IngegneriaGestionale) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -2556,8 +2558,8 @@ Currently missing or unpublished fields:
 #### Economia e commercio — `legacy-148`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-148/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-148/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/bologna/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026` — [Economia e commercio – official Forlì campus course page](https://corsi.unibo.it/laurea/EconomiaCommercio/sedute-di-laurea) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -2574,8 +2576,8 @@ Currently missing or unpublished fields:
 #### Medicina e chirurgia — `legacy-149`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-149/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-149/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/bologna/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNIBO-MED-IT-CALL-2026` — [Medicina e chirurgia – 2026/27 post-semester admission call (Bologna campus)](https://corsi.unibo.it/s/3317/p/it/iscriversi-al-corso-requisiti-tempi-e-modalita/bando-medicina-odontoiatria-veterinaria-2026-2027.pdf/@@download/file/Bando%20medicina%2C%20odontoiatria%2C%20veterinaria%202026-2027.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
@@ -2598,8 +2600,8 @@ Currently missing or unpublished fields:
 #### Giurisprudenza — `legacy-150`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-150/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-150/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/bologna/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNIBO-LAW-CATALOGUE-2026` — [Giurisprudenza – 2026/27 University catalogue entry (code 6827)](https://www.unibo.it/it/studiare/lauree-e-lauree-magistrali-a-ciclo-unico/corso/2026/6827) (cycle: 2026-2027; prior check: 2026-11-11)
@@ -2622,8 +2624,8 @@ Currently missing or unpublished fields:
 #### Scienze della comunicazione — `legacy-151`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-151/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-151/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/bologna/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNIBO-COMM-CATALOGUE-2026` — [Scienze della comunicazione – 2026/27 University course catalogue entry](https://www.unibo.it/it/studiare/lauree-e-lauree-magistrali-a-ciclo-unico/corso/2026/6620) (cycle: 2026-2027; prior check: 2026-11-11)
@@ -2645,8 +2647,8 @@ Currently missing or unpublished fields:
 #### Ingegneria informatica — `legacy-152`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-152/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-152/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/bologna/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNIBO-ING-INF-CALL-2026` — [Engineering Master's programmes – 2026/27 admission notice (includes Ingegneria informatica)](https://corsi.unibo.it/s/3387/p/it/iscriversi-nuova-13/avviso-lm-a-libero-accesso-2025-26.pdf/@@download/file/Avviso%20ammissioni%202026-2027_nuovi%20intakes.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
@@ -2669,8 +2671,8 @@ Currently missing or unpublished fields:
 #### Cultures Littéraires Européennes (CLE) Erasmus Mundus Joint Master's Degree — `discovered-012`
 
 - [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-012/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-012/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/bologna/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-BOLOGNA-CLE-PROFILE-2026` — [Italianistica e culture letterarie europee – degree profile](https://corsi.unibo.it/magistrale/ItalianisticaCultureLetterarieLinguistica) (cycle: 2026-2027; prior check: 2026-11-11)
@@ -2691,8 +2693,8 @@ Currently missing or unpublished fields:
 #### Greening Energy Market and Finance (GrEnFIn Erasmus Mundus Joint Master) — `discovered-029`
 
 - [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-029/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-029/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/bologna/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNIBO-GRENFIN-2027-CALL` — [Greening Energy Market and Finance – AY 2027/28 admission notice](https://corsi.unibo.it/s/3394/p/en/enrolling-grenfin/avvisolm-grenfin-emjm-27-28_en-2-prot.pdf/@@download/file/AvvisoLM-GrEnFIn-EMJM-27-28_EN-2-PROT.pdf) (cycle: 2027-2028; prior check: 2026-11-10)
@@ -2704,8 +2706,8 @@ Currently missing or unpublished fields:
 #### Data Science and Business Analytics — `discovered-040`
 
 - [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-040/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-040/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/bologna/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-BBS-DSBA-2027` — [Data Science and Business Analytics – 2027/28 BBS Professional Master](https://www.bbs.unibo.it/en/master-fulltime/master-in-data-science-2/) (cycle: 2027-2028; prior check: 2026-11-11)
@@ -2721,8 +2723,8 @@ Currently missing or unpublished fields:
 #### Artificial Intelligence for Management — `discovered-041`
 
 - [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-041/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-041/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/bologna/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-BBS-AI-MANAGEMENT-2027` — [Artificial Intelligence for Management – 2027/28 BBS Professional Master](https://www.bbs.unibo.it/en/master-fulltime/artificial-intelligence-2/) (cycle: 2027-2028; prior check: 2026-11-11)
@@ -2738,8 +2740,8 @@ Currently missing or unpublished fields:
 #### Finance – Entrepreneurial Finance — `discovered-042`
 
 - [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-042/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-042/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/bologna/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-BBS-ENTREPRENEURIAL-FINANCE-2027` — [Finance – Entrepreneurial Finance – 2027/28 BBS Professional Master](https://www.bbs.unibo.it/en/master-fulltime/entrepreneurial-finance/) (cycle: 2027-2028; prior check: 2026-11-11)
@@ -2755,8 +2757,8 @@ Currently missing or unpublished fields:
 #### Finance – Finance and Artificial Intelligence — `discovered-043`
 
 - [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-043/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-043/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/bologna/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-BBS-FINANCE-AI-2027` — [Finance – Finance and Artificial Intelligence – 2027/28 BBS Professional Master](https://www.bbs.unibo.it/en/master-fulltime/finance-and-ai-2/) (cycle: 2027-2028; prior check: 2026-11-11)
@@ -2772,8 +2774,8 @@ Currently missing or unpublished fields:
 #### Marketing Management – Analytics and AI for Marketing — `discovered-044`
 
 - [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-044/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-044/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/bologna/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-BBS-MARKETING-ANALYTICS-AI-2027` — [Marketing Management – Analytics and AI for Marketing – 2027/28 BBS track](https://www.bbs.unibo.it/en/master-fulltime/analytics-and-ai-for-marketing/) (cycle: 2027-2028; prior check: 2026-11-11)
@@ -2789,7 +2791,7 @@ Currently missing or unpublished fields:
 ### Università di Camerino (Camerino) — `camerino`
 
 - [ ] University outcome reviewed | Existing status: `REQUIRES_VERIFICATION` | Existing last checked: `2026-11-09`
-- [ ] University page: https://italy-it-programs.vercel.app/universities/camerino/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/camerino/
 - [ ] Official website: https://www.unicam.it/
 - [ ] Admissions page: https://international.unicam.it/admissions/faq
 - [ ] Application portal: https://didattica.unicam.it/
@@ -2816,8 +2818,8 @@ Official university-level sources:
 #### Computer Science — `legacy-068`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-068/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/camerino/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-068/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/camerino/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-CAMERINO-OFFER-2026` — [Manifesto degli studi – academic offer and regulations 2026/27](https://www.unicam.it/didattica/manifesto-degli-studi) (cycle: 2026-2027; prior check: 2026-11-09)
@@ -2844,8 +2846,8 @@ Currently missing or unpublished fields:
 #### Chemistry — `legacy-069`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-069/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/camerino/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-069/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/camerino/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-CAMERINO-OFFER-2026` — [Manifesto degli studi – academic offer and regulations 2026/27](https://www.unicam.it/didattica/manifesto-degli-studi) (cycle: 2026-2027; prior check: 2026-11-09)
@@ -2872,8 +2874,8 @@ Currently missing or unpublished fields:
 #### Mathematics and Applications — `legacy-070`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-070/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/camerino/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-070/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/camerino/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-CAMERINO-MATH-PROFILE` — [Mathematics and Applications – official degree profile](https://sst.unicam.it/index.php/corsi/mathematics-and-applications) (cycle: general; prior check: 2026-11-09)
@@ -2898,8 +2900,8 @@ Currently missing or unpublished fields:
 #### Physics — `legacy-071`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-071/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/camerino/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-071/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/camerino/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-CAMERINO-PHYSICS-PROFILE` — [Physics – official degree profile](https://sst.unicam.it/corsi/physics) (cycle: general; prior check: 2026-11-09)
@@ -2922,7 +2924,7 @@ Currently missing or unpublished fields:
 ### Università degli Studi di Ferrara (Ferrara) — `ferrara`
 
 - [ ] University outcome reviewed | Existing status: `REQUIRES_VERIFICATION` | Existing last checked: `2026-11-09`
-- [ ] University page: https://italy-it-programs.vercel.app/universities/ferrara/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/ferrara/
 - [ ] Official website: https://www.unife.it/
 - [ ] Admissions page: https://corsi.unife.it/en/lm-physics/enrolling/admission-and-enrolment
 - [ ] Application portal: https://apply.unife.it/
@@ -2947,8 +2949,8 @@ Official university-level sources:
 #### Physics — `legacy-080`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-080/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/ferrara/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-080/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/ferrara/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-FERRARA-CATALOGUE-2026` — [Degree catalogue 2026/27](https://www.unife.it/it/corsi/lauree-e-lauree-magistrali) (cycle: 2026-2027; prior check: 2026-11-09)
@@ -2973,7 +2975,7 @@ Currently missing or unpublished fields:
 ### Università degli Studi di Firenze (Florence) — `firenze`
 
 - [ ] University outcome reviewed | Existing status: `CONFIRMED` | Existing last checked: `2026-11-09`
-- [ ] University page: https://italy-it-programs.vercel.app/universities/firenze/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/firenze/
 - [ ] Official website: https://www.unifi.it/
 - [ ] Admissions page: https://www.sst.unifi.it/index.php?func=viewpage&module=CMpro&newlang=eng&pageid=168
 - [ ] Application portal: not recorded
@@ -3002,8 +3004,8 @@ Official university-level sources:
 #### Architecture — Architectural Design (iCAD) curriculum — `legacy-087`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-087/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/firenze/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-087/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/firenze/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNIFI-ARCH-ICAD-2026` — [Architectural Design (iCAD) – official English curriculum and admission page](https://www.icad.unifi.it/vp-238-presentation.html) (cycle: 2026-2027; prior check: 2026-11-11)
@@ -3020,8 +3022,8 @@ Currently missing or unpublished fields:
 #### Software: Science and Technology — `legacy-125`
 
 - [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-125/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/firenze/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-125/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/firenze/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNIFI-SST-2027` — [Enrollment (a.y. 2027/28) – Software: Science and Technology](https://www.sst.unifi.it/index.php?func=viewpage&module=CMpro&newlang=eng&pageid=168) (cycle: 2027-2028; prior check: 2026-11-09)
@@ -3033,8 +3035,8 @@ Currently missing or unpublished fields:
 #### Finance and Risk Management — `legacy-126`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-126/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/firenze/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-126/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/firenze/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNIFI-FINANCE-RISK-ADMISSION-2026` — [Finance and Risk Management – official admission requirements](https://www.frm.unifi.it/p107.html) (cycle: 2026-2027; prior check: 2026-11-11)
@@ -3051,8 +3053,8 @@ Currently missing or unpublished fields:
 #### Economics and Development — `legacy-127`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-127/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/firenze/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-127/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/firenze/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNIFI-ECON-DEV-MSC-2026` — [Economics and Development – official degree profile and 2026/27 plan](https://www.unifi.it/en/study-us/degree-programs/second-cycle-degree/economics-and-development) (cycle: 2026-2027; prior check: 2026-11-11)
@@ -3068,8 +3070,8 @@ Currently missing or unpublished fields:
 #### Geoengineering — `legacy-128`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-128/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/firenze/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-128/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/firenze/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNIFI-GEOENGINEERING-MSC-2026` — [Geoengineering – official degree profile and 2026/27 study plan](https://www.unifi.it/en/study-us/degree-programs/second-cycle-degree/geoengineering) (cycle: 2026-2027; prior check: 2026-11-11)
@@ -3086,8 +3088,8 @@ Currently missing or unpublished fields:
 #### Urban and Regional Planning and Design for Sustainability — English-taught curriculum — `legacy-129`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-129/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/firenze/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-129/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/firenze/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNIFI-URBAN-PLANNING-ADMISSION-2025` — [Urban and Regional Planning and Design for Sustainability – official admission information](https://www.clurpd.unifi.it/vp-173-enrolment.html) (cycle: 2025-2026; prior check: 2026-11-11)
@@ -3104,8 +3106,8 @@ Currently missing or unpublished fields:
 #### International Relations and European Studies — English-only pathway — `legacy-130`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-130/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/firenze/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-130/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/firenze/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNIFI-RISE-ADMISSION-2026` — [RISE – 2026/27 admission requirements for non-Italian degrees](https://www.rise.unifi.it/index.php?func=viewpage&module=CMpro&newlang=eng&pageid=435) (cycle: 2026-2027; prior check: 2026-11-11)
@@ -3123,8 +3125,8 @@ Currently missing or unpublished fields:
 #### Sustainable Business for Societal Challenges — `legacy-131`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-131/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/firenze/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-131/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/firenze/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNIFI-SUSBUS-BSC-2026` — [Sustainable Business for Societal Challenges – official degree profile](https://www.unifi.it/en/study-us/degree-programs/first-cycle-degree/sustainable-business-societal-challenges) (cycle: 2026-2027; prior check: 2026-11-11)
@@ -3141,7 +3143,7 @@ Currently missing or unpublished fields:
 ### Università degli Studi di Genova (Genoa) — `genova`
 
 - [ ] University outcome reviewed | Existing status: `REQUIRES_VERIFICATION` | Existing last checked: `2026-11-10`
-- [ ] University page: https://italy-it-programs.vercel.app/universities/genova/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/genova/
 - [ ] Official website: https://unige.it/en
 - [ ] Admissions page: https://unige.it/en/international-enrolment
 - [ ] Application portal: https://servizionline.unige.it/web-studenti2/en/
@@ -3187,8 +3189,8 @@ Official university-level sources:
 #### Computer Science — `legacy-074`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-074/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/genova/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-074/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/genova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNIGE-11964-ADMISSION` — [Computer Science MSc – admission criteria](https://corsi.unige.it/en/corsi/11964/prospective-students-admission-criteria-procedure) (cycle: general; prior check: 2026-11-10)
@@ -3213,8 +3215,8 @@ Currently missing or unpublished fields:
 #### Robotics Engineering — `legacy-075`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-075/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/genova/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-075/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/genova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNIGE-11963-ADMISSION` — [Robotics Engineering MSc – admission criteria](https://corsi.unige.it/en/corsi/11963/prospective-students-admission-criteria-procedure) (cycle: general; prior check: 2026-11-10)
@@ -3239,8 +3241,8 @@ Currently missing or unpublished fields:
 #### Computer Engineering — `legacy-132`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-132/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/genova/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-132/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/genova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNIGE-11965-ADMISSION` — [Computer Engineering MSc – admission criteria](https://corsi.unige.it/en/corsi/11965/prospective-students-admission-criteria-procedure) (cycle: general; prior check: 2026-11-10)
@@ -3266,8 +3268,8 @@ Currently missing or unpublished fields:
 #### Economics and Data Science — `legacy-133`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-133/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/genova/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-133/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/genova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNIGE-11937-ADMISSION` — [Economics and Data Science MSc – admission criteria](https://corsi.unige.it/en/corsi/11937/prospective-students-admission-criteria-procedure) (cycle: general; prior check: 2026-11-10)
@@ -3292,8 +3294,8 @@ Currently missing or unpublished fields:
 #### Bioengineering — `legacy-134`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-134/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/genova/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-134/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/genova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNIGE-11933-ADMISSION` — [Bioengineering MSc – admission criteria](https://corsi.unige.it/en/corsi/11933/prospective-students-admission-criteria-procedure) (cycle: general; prior check: 2026-11-10)
@@ -3318,8 +3320,8 @@ Currently missing or unpublished fields:
 #### Electronic Engineering — `legacy-135`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-135/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/genova/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-135/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/genova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNIGE-11970-ADMISSION` — [Electronic Engineering MSc – admission criteria](https://corsi.unige.it/en/corsi/11970/prospective-students-admission-criteria-procedure) (cycle: general; prior check: 2026-11-10)
@@ -3344,8 +3346,8 @@ Currently missing or unpublished fields:
 #### Energy Engineering — `legacy-136`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-136/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/genova/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-136/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/genova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNIGE-11917-ADMISSION` — [Energy Engineering MSc – admission criteria](https://corsi.unige.it/en/corsi/11917/prospective-students-admission-criteria-procedure) (cycle: general; prior check: 2026-11-10)
@@ -3370,8 +3372,8 @@ Currently missing or unpublished fields:
 #### Computer Science — `legacy-137`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-137/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/genova/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-137/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/genova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNIGE-11896-ADMISSION` — [Computer Science BSc – admission criteria](https://corsi.unige.it/en/corsi/11896/prospective-students-admission-criteria-procedure) (cycle: general; prior check: 2026-11-10)
@@ -3397,8 +3399,8 @@ Currently missing or unpublished fields:
 #### Computer Engineering — `legacy-138`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-138/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/genova/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-138/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/genova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNIGE-12133-ADMISSION` — [Computer Engineering BSc – admission criteria](https://corsi.unige.it/en/corsi/12133/prospective-students-admission-criteria-procedure) (cycle: general; prior check: 2026-11-10)
@@ -3424,8 +3426,8 @@ Currently missing or unpublished fields:
 #### Business Administration — `legacy-139`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-139/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/genova/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-139/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/genova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNIGE-11871-ADMISSION` — [Business Administration BSc – admission criteria](https://corsi.unige.it/en/corsi/11871/prospective-students-admission-criteria-procedure) (cycle: general; prior check: 2026-11-10)
@@ -3450,8 +3452,8 @@ Currently missing or unpublished fields:
 #### Maritime Science and Technology — `discovered-021`
 
 - [ ] Review program and 2027/28 intake | Current status: `NOT_APPLICABLE` | Availability: `CONFIRMED` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-021/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/genova/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-021/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/genova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNIGE-MST-2027` — [Maritime Science and Technology – degree programme not offered in 2027/28](https://corsi.unige.it/en/corsi/11929/news/attivazione-MST-2027-28) (cycle: 2027-2028; prior check: 2026-11-09)
@@ -3459,8 +3461,8 @@ Official linked sources to revisit:
 #### Conservation and Restoration Sciences (CORES Joint Master) — `discovered-022`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-022/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/genova/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-022/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/genova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNIGE-CORES-2027` — [CORES Joint Master Degree – planned 2027/28 start](https://life.unige.it/index.php/presentazione-cores-mag2026) (cycle: 2027-2028; prior check: 2026-11-09)
@@ -3471,7 +3473,7 @@ Currently missing or unpublished fields:
 ### Università degli Studi di Messina (Messina) — `messina`
 
 - [ ] University outcome reviewed | Existing status: `CONFIRMED` | Existing last checked: `2026-11-09`
-- [ ] University page: https://italy-it-programs.vercel.app/universities/messina/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/messina/
 - [ ] Official website: https://international.unime.it/
 - [ ] Admissions page: https://international.unime.it/study-us/application-and-admission
 - [ ] Application portal: not recorded
@@ -3489,8 +3491,8 @@ Official university-level sources:
 #### Data Science — `legacy-076`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-076/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/messina/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-076/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/messina/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNIME-DS-COURSE-ECONOMY-2027` — [Course Catalogue – Data Science, Big Data and Artificial Intelligence (Economy curriculum), 2027/28](https://unime.coursecatalogue.cineca.it/af/2027?ad=A001898&annoOrdinamento=2026&coorte=2026&corso=9237R&linguaCC=EN&pds=120) (cycle: 2027-2028; prior check: 2026-11-09)
@@ -3506,7 +3508,7 @@ Currently missing or unpublished fields:
 ### Università degli Studi di Modena e Reggio Emilia (Modena) — `modena-reggio`
 
 - [ ] University outcome reviewed | Existing status: `REQUIRES_VERIFICATION` | Existing last checked: `2026-11-10`
-- [ ] University page: https://italy-it-programs.vercel.app/universities/modena-reggio/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/modena-reggio/
 - [ ] Official website: https://www.unimore.it/
 - [ ] Admissions page: https://www.unimore.it/en/internationalisation/foreign-qualification
 - [ ] Application portal: https://www.esse3.unimore.it/
@@ -3533,8 +3535,8 @@ Official university-level sources:
 #### Computer Engineering — `legacy-097`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-097/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/modena-reggio/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-097/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/modena-reggio/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNIMORE-CATALOGUE-2026` — [Degree Programmes – 2026/27](https://www.unimore.it/en/education/degree-programmes?page=1) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -3563,7 +3565,7 @@ Currently missing or unpublished fields:
 ### Università degli Studi di Padova (Padua) — `padova`
 
 - [ ] University outcome reviewed | Existing status: `CONFIRMED` | Existing last checked: `2026-11-09`
-- [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/
 - [ ] Official website: https://www.unipd.it/en/
 - [ ] Admissions page: https://www.unipd.it/en/ammissione-studenti-internazionali
 - [ ] Application portal: not recorded
@@ -3654,8 +3656,8 @@ Official university-level sources:
 #### Computer Engineering — `legacy-029`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-029/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-029/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADOVA-COMPUTER-ENGINEERING-2026` — [Computer Engineering – official English-taught degree listing](https://www.unipd.it/en/corsi-laurea-magistrale-lingua-inglese) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -3675,8 +3677,8 @@ Currently missing or unpublished fields:
 #### Computer Science — `legacy-030`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-030/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-030/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADOVA-COMPUTER-SCIENCE-2026` — [Computer Science – official School of Science catalogue](https://www.scienze.unipd.it/en/courses/how-to-apply/) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -3696,8 +3698,8 @@ Currently missing or unpublished fields:
 #### Cybersecurity — `legacy-031`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-031/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-031/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADOVA-CYBERSECURITY-2026` — [Cybersecurity – official 2026/27 Master's course and admissions page](https://cybersecurity.math.unipd.it/study-plan/) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -3717,8 +3719,8 @@ Currently missing or unpublished fields:
 #### Data Science — `legacy-032`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-032/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-032/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADOVA-DATA-SCIENCE-2026` — [Data Science – official degree profile and 2026/27 admission page](https://datascience.math.unipd.it/admission/) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -3737,8 +3739,8 @@ Currently missing or unpublished fields:
 #### Information Engineering — `legacy-033`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-033/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-033/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADOVA-INFORMATION-ENGINEERING-BSC-2026` — [Information Engineering – official degree profile](https://www.unipd.it/en/corsi-di-laurea/information-engineering) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -3757,8 +3759,8 @@ Currently missing or unpublished fields:
 #### Aerospace Engineering — `legacy-034`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-034/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-034/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADOVA-ENG-MSC-ADMISSIONS-2026` — [School of Engineering Master's admission inventory – AY 2026/27](https://www.unipd.it/en/ammissioni-ing-magistrali) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -3778,8 +3780,8 @@ Currently missing or unpublished fields:
 #### Medicine and Surgery (single-cycle degree) — `legacy-035`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-035/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-035/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADOVA-MEDICINE-2026` — [Medicine and Surgery – current English single-cycle degree admissions guide](https://www.unipd.it/en/studiare-inglese-come-fare-domanda) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -3798,8 +3800,8 @@ Currently missing or unpublished fields:
 #### Psychological Science — `legacy-036`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-036/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-036/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADOVA-PSYCHOLOGICAL-SCIENCE-BSC-2026` — [Psychological Science – current Padua English BSc profile](https://www.unipd.it/corsi-di-laurea/psychological-science) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -3818,8 +3820,8 @@ Currently missing or unpublished fields:
 #### Physics of Data — `legacy-037`
 
 - [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-037/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-037/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADUA-SCIENCE-MSC-CATALOGUE-2026` — [Master's degree courses of the School of Science – AY 2026/27](https://www.unipd.it/en/node/79192) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -3839,8 +3841,8 @@ Currently missing or unpublished fields:
 #### Psicologia clinica — `legacy-159`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-159/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-159/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADOVA-PSYCHOLOGY-CALL-2026` — [Italian-taught Psychology Master's admission call – AY 2026/27](https://wwwassets.unipd.it/sites/default/files/2026-07/2026_Bando_LM_PsicologiaItaliano.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
@@ -3863,8 +3865,8 @@ Currently missing or unpublished fields:
 #### Psicologia dello sviluppo e dell'educazione — `legacy-160`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-160/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-160/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADOVA-PSYCHOLOGY-CALL-2026` — [Italian-taught Psychology Master's admission call – AY 2026/27](https://wwwassets.unipd.it/sites/default/files/2026-07/2026_Bando_LM_PsicologiaItaliano.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
@@ -3886,8 +3888,8 @@ Currently missing or unpublished fields:
 #### Ingegneria gestionale — Management Engineering English-taught track — `legacy-161`
 
 - [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-161/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-161/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADOVA-ENGINEERING-OPEN-MSC-CALL-2026` — [School of Engineering open-access Master's call – AY 2026/27](https://wwwassets.unipd.it/sites/default/files/2026-05/2026_EN_Avviso_LM_IngegneriaLiberi.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
@@ -3906,8 +3908,8 @@ Currently missing or unpublished fields:
 #### Scienze e tecnologie agrarie — `legacy-162`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-162/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-162/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADOVA-AGRICULTURE-MSC-CALL-2026` — [School of Agriculture and Veterinary Medicine open-access Master's call – AY 2026/27](https://wwwassets.unipd.it/sites/default/files/2026-05/2026_Avviso_LM_AgrariaLiberi_EN_V2.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
@@ -3930,8 +3932,8 @@ Currently missing or unpublished fields:
 #### Biologia Molecolare — `legacy-163`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-163/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-163/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADOVA-SCIENCE-BSC-ADMISSIONS-2026` — [School of Science restricted bachelor's admissions – AY 2026/27](https://www.unipd.it/en/ammissioni-sc-triennali-programmato) (cycle: 2026-2027; prior check: 2026-11-11)
@@ -3955,8 +3957,8 @@ Currently missing or unpublished fields:
 #### Ingegneria informatica — `legacy-164`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-164/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-164/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADOVA-ING-INFORMATICA-ADMISSIONS-2026` — [Engineering bachelor's restricted-admission page – AY 2026/27](https://www.unipd.it/ammissioni-ing-triennali-programmato) (cycle: 2026-2027; prior check: 2026-11-11)
@@ -3981,8 +3983,8 @@ Currently missing or unpublished fields:
 #### Scienze psicologiche cognitive e psicobiologiche — `legacy-165`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-165/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-165/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADOVA-COGNITIVE-PSYCHOLOGY-EU-CALL-2026` — [Scienze psicologiche cognitive e psicobiologiche EU/equivalent admission call – AY 2026/27](https://wwwassets.unipd.it/sites/default/files/pdf_imported_files/2026_Bando_L_Psicologia_0.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
@@ -4008,8 +4010,8 @@ Currently missing or unpublished fields:
 #### History — `discovered-002`
 
 - [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-002/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-002/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADUA-PROGRAMS-2027` — [International students – 2027/28 applications (DiSSGeA)](https://www.dissgea.unipd.it/en/en/international-students-202728-applications) (cycle: 2027-2028; prior check: 2026-11-09)
@@ -4023,8 +4025,8 @@ Currently missing or unpublished fields:
 #### Classical Languages and Literatures and Ancient History — `discovered-003`
 
 - [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-003/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-003/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADUA-PROGRAMS-2027` — [International students – 2027/28 applications (DiSSGeA)](https://www.dissgea.unipd.it/en/en/international-students-202728-applications) (cycle: 2027-2028; prior check: 2026-11-09)
@@ -4038,8 +4040,8 @@ Currently missing or unpublished fields:
 #### Historical Sciences — `discovered-004`
 
 - [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-004/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-004/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADUA-PROGRAMS-2027` — [International students – 2027/28 applications (DiSSGeA)](https://www.dissgea.unipd.it/en/en/international-students-202728-applications) (cycle: 2027-2028; prior check: 2026-11-09)
@@ -4053,8 +4055,8 @@ Currently missing or unpublished fields:
 #### Landscape Studies — `discovered-005`
 
 - [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-005/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-005/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADUA-PROGRAMS-2027` — [International students – 2027/28 applications (DiSSGeA)](https://www.dissgea.unipd.it/en/en/international-students-202728-applications) (cycle: 2027-2028; prior check: 2026-11-09)
@@ -4068,8 +4070,8 @@ Currently missing or unpublished fields:
 #### Religious Studies — `discovered-006`
 
 - [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-006/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-006/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADUA-PROGRAMS-2027` — [International students – 2027/28 applications (DiSSGeA)](https://www.dissgea.unipd.it/en/en/international-students-202728-applications) (cycle: 2027-2028; prior check: 2026-11-09)
@@ -4083,8 +4085,8 @@ Currently missing or unpublished fields:
 #### Local Development — `discovered-007`
 
 - [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-007/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-007/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADUA-PROGRAMS-2027` — [International students – 2027/28 applications (DiSSGeA)](https://www.dissgea.unipd.it/en/en/international-students-202728-applications) (cycle: 2027-2028; prior check: 2026-11-09)
@@ -4101,8 +4103,8 @@ Currently missing or unpublished fields:
 #### Mobility Studies — `discovered-008`
 
 - [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-008/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-008/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADUA-PROGRAMS-2027` — [International students – 2027/28 applications (DiSSGeA)](https://www.dissgea.unipd.it/en/en/international-students-202728-applications) (cycle: 2027-2028; prior check: 2026-11-09)
@@ -4119,8 +4121,8 @@ Currently missing or unpublished fields:
 #### Management, Finance and Business Analytics (proposed 2027/28) — `discovered-031`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-031/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-031/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027` — [Degree programmes held in English – proposed 2027/28 BSc and MSc additions](https://www.unipd.it/en/corsi-laurea-lingua-inglese) (cycle: 2027-2028; prior check: 2026-11-11)
@@ -4141,8 +4143,8 @@ Currently missing or unpublished fields:
 #### Food Safety for Global Health (proposed 2027/28) — `discovered-032`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-032/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-032/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027` — [Degree programmes held in English – proposed 2027/28 BSc and MSc additions](https://www.unipd.it/en/corsi-laurea-lingua-inglese) (cycle: 2027-2028; prior check: 2026-11-11)
@@ -4168,8 +4170,8 @@ Currently missing or unpublished fields:
 #### Innovative Technologies in Agriculture (proposed 2027/28) — `discovered-033`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-033/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-033/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027` — [Degree programmes held in English – proposed 2027/28 BSc and MSc additions](https://www.unipd.it/en/corsi-laurea-lingua-inglese) (cycle: 2027-2028; prior check: 2026-11-11)
@@ -4190,8 +4192,8 @@ Currently missing or unpublished fields:
 #### Data Analytics and Decision Support (proposed 2027/28) — `discovered-035`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-035/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-035/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027` — [Degree programmes held in English – proposed 2027/28 BSc and MSc additions](https://www.unipd.it/en/corsi-laurea-lingua-inglese) (cycle: 2027-2028; prior check: 2026-11-11)
@@ -4216,8 +4218,8 @@ Currently missing or unpublished fields:
 #### Statistical Science (proposed 2027/28) — `discovered-036`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-036/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-036/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027` — [Degree programmes held in English – proposed 2027/28 BSc and MSc additions](https://www.unipd.it/en/corsi-laurea-lingua-inglese) (cycle: 2027-2028; prior check: 2026-11-11)
@@ -4244,8 +4246,8 @@ Currently missing or unpublished fields:
 #### Physics for Technology (planned Arqus joint Bachelor's) — `discovered-034`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-034/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-034/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027` — [Degree programmes held in English – proposed 2027/28 BSc and MSc additions](https://www.unipd.it/en/corsi-laurea-lingua-inglese) (cycle: 2027-2028; prior check: 2026-11-11)
@@ -4264,8 +4266,8 @@ Currently missing or unpublished fields:
 #### Astrophysics and Cosmology — `discovered-037`
 
 - [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-037/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-037/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADUA-ASTROPHYSICS-2027-CALL` — [Astrophysics and Cosmology – 2027/28 international application call and requirements](https://astrophysics-and-cosmology.dfa.unipd.it/masters-degree/application-and-admission-requirements/) (cycle: 2027-2028; prior check: 2026-11-11)
@@ -4284,7 +4286,7 @@ Currently missing or unpublished fields:
 ### Università degli Studi di Palermo (Palermo) — `palermo`
 
 - [ ] University outcome reviewed | Existing status: `NOT_YET_PUBLISHED` | Existing last checked: `2026-11-10`
-- [ ] University page: https://italy-it-programs.vercel.app/universities/palermo/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/palermo/
 - [ ] Official website: https://www.unipa.it/
 - [ ] Admissions page: https://www.unipa.it/mobilita/en/useful-information/faq-international-students/faq-international-students-p2/before-applying/index.html
 - [ ] Application portal: https://immaweb.unipa.it/immareg/facelets/anag/ins_anag_generale.seam?partnerId=IMMAWEB
@@ -4316,8 +4318,8 @@ Official university-level sources:
 #### Computer Science and Artificial Intelligence — `legacy-091`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-091/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/palermo/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-091/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/palermo/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PALERMO-CSAI-PROFILE` — [Computer Science and Artificial Intelligence – course profile](https://www.unipa.it/dipartimenti/matematicaeinformatica/cds/computerscienceandartificialintelligence2323/index.html) (cycle: general; prior check: 2026-11-10)
@@ -4352,7 +4354,7 @@ Currently missing or unpublished fields:
 ### Università degli Studi di Parma (Parma) — `parma`
 
 - [ ] University outcome reviewed | Existing status: `NOT_YET_PUBLISHED` | Existing last checked: `2026-11-09`
-- [ ] University page: https://italy-it-programs.vercel.app/universities/parma/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/parma/
 - [ ] Official website: https://www.unipr.it/en
 - [ ] Admissions page: https://www.unipr.it/en/node/106538
 - [ ] Application portal: not recorded
@@ -4372,8 +4374,8 @@ Official university-level sources:
 #### Data Science for Management — `legacy-079`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-079/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/parma/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-079/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/parma/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PARMA-DSM-PROFILE-2026` — [Data Science for Management – Department of Economics and Management guide 2026/27](https://www.unipr.it/sites/default/files/2026-04/Dipartimento%20di%20Scienze%20economiche%20e%20aziendali_04-2026.pdf) (cycle: 2026-2027; prior check: 2026-11-09)
@@ -4390,7 +4392,7 @@ Currently missing or unpublished fields:
 ### Università degli Studi di Pavia (Pavia) — `pavia`
 
 - [ ] University outcome reviewed | Existing status: `REQUIRES_VERIFICATION` | Existing last checked: `2026-11-09`
-- [ ] University page: https://italy-it-programs.vercel.app/universities/pavia/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/pavia/
 - [ ] Official website: https://www.unipv.eu/
 - [ ] Admissions page: https://en.unipv.it/en/education/bachelors-and-masters-degree-programs/how-apply/how-apply-masters-degree-programs
 - [ ] Application portal: not recorded
@@ -4411,8 +4413,8 @@ Official university-level sources:
 #### Computer Engineering — `legacy-088`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-088/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/pavia/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-088/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/pavia/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PAVIA-CE-REGULATIONS-2026` — [Computer Engineering course regulations 2026/27](https://gestionedidattica.unipv.it/index.php/file/2026REGDIDEN06431.pdf) (cycle: 2026-2027; prior check: 2026-11-09)
@@ -4432,7 +4434,7 @@ Currently missing or unpublished fields:
 ### Università degli Studi di Perugia (Perugia) — `perugia`
 
 - [ ] University outcome reviewed | Existing status: `REQUIRES_VERIFICATION` | Existing last checked: `2026-11-09`
-- [ ] University page: https://italy-it-programs.vercel.app/universities/perugia/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/perugia/
 - [ ] Official website: https://www.unipg.it/
 - [ ] Admissions page: https://www.unipg.it/en/international-students/becoming-a-unipg-student
 - [ ] Application portal: not recorded
@@ -4452,8 +4454,8 @@ Official university-level sources:
 #### Engineering Management — `legacy-089`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-089/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/perugia/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-089/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/perugia/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNIPG-EM-MSC-2026` — [Engineering Management – Second cycle degree course](https://ing.unipg.it/en/courses/engineering-management/second-cycle-degree-course) (cycle: 2026-2027; prior check: 2026-11-09)
@@ -4474,8 +4476,8 @@ Currently missing or unpublished fields:
 #### Engineering Management — `discovered-024`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-024/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/perugia/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-024/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/perugia/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNIPG-EM-BSC-2026` — [Engineering Management – First cycle degree course](https://ing.unipg.it/en/courses/engineering-management/first-cycle-degree-course) (cycle: 2026-2027; prior check: 2026-11-11)
@@ -4500,7 +4502,7 @@ Currently missing or unpublished fields:
 ### Università di Pisa (Pisa) — `pisa`
 
 - [ ] University outcome reviewed | Existing status: `CONFIRMED` | Existing last checked: `2026-11-09`
-- [ ] University page: https://italy-it-programs.vercel.app/universities/pisa/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/pisa/
 - [ ] Official website: https://www.unipi.it/
 - [ ] Admissions page: https://didattica.di.unipi.it/en/internazionale/degrees-offered-in-english/
 - [ ] Application portal: not recorded
@@ -4525,8 +4527,8 @@ Official university-level sources:
 #### Computer Science — `legacy-052`
 
 - [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-052/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/pisa/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-052/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/pisa/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PISA-CALL-2027` — [International admissions call 2027/28 – English MSc programs](https://didattica.di.unipi.it/wp-content/uploads/sites/2/2026/11/Bando2026_corsi_internazionali.pdf) (cycle: 2027-2028; prior check: 2026-11-09)
@@ -4539,8 +4541,8 @@ Currently missing or unpublished fields:
 #### Cybersecurity — `legacy-053`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-053/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/pisa/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-053/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/pisa/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNIPI-MSC-CATALOGUE-2026` — [University of Pisa official Master's degree catalogue](https://www.unipi.it/didattica/corsi/lauree-magistrali/) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -4557,8 +4559,8 @@ Currently missing or unpublished fields:
 #### Artificial Intelligence and Data Engineering — `legacy-054`
 
 - [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-054/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/pisa/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-054/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/pisa/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNIPI-AIDE-2026` — [Artificial Intelligence and Data Engineering – official English programme profile](https://computer.ing.unipi.it/en/masters-degree-in-artificial-intelligence-and-data-engineering/) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -4571,8 +4573,8 @@ Currently missing or unpublished fields:
 #### Data Science and Business Informatics — `legacy-055`
 
 - [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-055/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/pisa/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-055/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/pisa/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PISA-CALL-2027` — [International admissions call 2027/28 – English MSc programs](https://didattica.di.unipi.it/wp-content/uploads/sites/2/2026/11/Bando2026_corsi_internazionali.pdf) (cycle: 2027-2028; prior check: 2026-11-09)
@@ -4585,8 +4587,8 @@ Currently missing or unpublished fields:
 #### Bionics Engineering — `legacy-056`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-056/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/pisa/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-056/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/pisa/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNIPI-MSC-CATALOGUE-2026` — [University of Pisa official Master's degree catalogue](https://www.unipi.it/didattica/corsi/lauree-magistrali/) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -4603,8 +4605,8 @@ Currently missing or unpublished fields:
 #### Nuclear Engineering — `legacy-057`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-057/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/pisa/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-057/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/pisa/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNIPI-MSC-CATALOGUE-2026` — [University of Pisa official Master's degree catalogue](https://www.unipi.it/didattica/corsi/lauree-magistrali/) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -4621,8 +4623,8 @@ Currently missing or unpublished fields:
 #### Informatics for Digital Health — `discovered-001`
 
 - [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-001/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/pisa/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-001/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/pisa/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PISA-CALL-2027` — [International admissions call 2027/28 – English MSc programs](https://didattica.di.unipi.it/wp-content/uploads/sites/2/2026/11/Bando2026_corsi_internazionali.pdf) (cycle: 2027-2028; prior check: 2026-11-09)
@@ -4635,8 +4637,8 @@ Currently missing or unpublished fields:
 #### Computer Engineering — `discovered-039`
 
 - [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-039/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/pisa/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-039/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/pisa/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNIPI-INFO-ENG-2027-CALL` — [Department of Information Engineering – 2027/28 international MSc admission call](https://computer.ing.unipi.it/call-for-international-students/) (cycle: 2027-2028; prior check: 2026-11-11)
@@ -4648,7 +4650,7 @@ Currently missing or unpublished fields:
 ### Università degli Studi di Salerno (Fisciano) — `salerno`
 
 - [ ] University outcome reviewed | Existing status: `REQUIRES_VERIFICATION` | Existing last checked: `2026-11-10`
-- [ ] University page: https://italy-it-programs.vercel.app/universities/salerno/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/salerno/
 - [ ] Official website: https://www.unisa.it/
 - [ ] Admissions page: https://web.unisa.it/en/teaching/enrollment/non-eu-citizens-abroad
 - [ ] Application portal: https://esse3web.unisa.it/
@@ -4679,8 +4681,8 @@ Official university-level sources:
 #### Computer Science — `legacy-090`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-090/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/salerno/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-090/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/salerno/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-SALERNO-CS-REGULATION-2026` — [Computer Science NF225 course regulation, cohort 2026/27](https://corsi.unisa.it/uploads/rescue/__regolamenti-cds/2026/NF225.pdf) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -4715,7 +4717,7 @@ Currently missing or unpublished fields:
 ### Università degli Studi di Siena (Siena) — `siena`
 
 - [ ] University outcome reviewed | Existing status: `NOT_YET_PUBLISHED` | Existing last checked: `2026-11-09`
-- [ ] University page: https://italy-it-programs.vercel.app/universities/siena/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/siena/
 - [ ] Official website: https://www.unisi.it/
 - [ ] Admissions page: https://admission.unisi.it/
 - [ ] Application portal: not recorded
@@ -4733,8 +4735,8 @@ Official university-level sources:
 #### Applied Mathematics — `legacy-081`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-081/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/siena/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-081/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/siena/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-SIENA-AM-PROFILE-2026` — [Applied Mathematics – 2026/27 degree profile](https://en.unisi.it/ugov/degree/120546) (cycle: 2026-2027; prior check: 2026-11-09)
@@ -4749,7 +4751,7 @@ Currently missing or unpublished fields:
 ### Università degli Studi di Torino (Turin) — `torino`
 
 - [ ] University outcome reviewed | Existing status: `REQUIRES_VERIFICATION` | Existing last checked: `2026-11-10`
-- [ ] University page: https://italy-it-programs.vercel.app/universities/torino/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/torino/
 - [ ] Official website: https://www.unito.it/
 - [ ] Admissions page: https://www.en.unito.it/studying-unito/international-degree-seeking-students/application-international-students
 - [ ] Application portal: https://apply.unito.it/
@@ -4784,8 +4786,8 @@ Official university-level sources:
 #### Artificial Intelligence and High Performance Computing Technologies — `legacy-108`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-108/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/torino/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-108/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/torino/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNITO-AIHPC-2026` — [Artificial Intelligence and High Performance Computing Technologies](https://en.unito.it/studying-unito/programs/degree-programs/artificial-intelligence-and-high-performance-computing) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -4805,8 +4807,8 @@ Currently missing or unpublished fields:
 #### Stochastics and Data Science — `legacy-109`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-109/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/torino/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-109/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/torino/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNITO-EN-PROGRAMS-2026` — [Degree programs in English, academic year 2026–2027](https://en.unito.it/studying-unito/programs/degree-programs/degree-programs-english) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -4826,8 +4828,8 @@ Currently missing or unpublished fields:
 #### Economics — `legacy-110`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-110/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/torino/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-110/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/torino/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNITO-ECON-MSC-2026` — [Economics Master's degree](https://en.unito.it/studying-unito/programs/degree-programs/economics-0) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -4847,8 +4849,8 @@ Currently missing or unpublished fields:
 #### Business Administration — `legacy-111`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-111/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/torino/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-111/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/torino/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNITO-BUSADMIN-2026` — [Business Administration Master's degree](https://en.unito.it/studying-unito/programs/degree-programs/business-administration-3) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -4869,8 +4871,8 @@ Currently missing or unpublished fields:
 #### Language Technologies and Digital Humanities — `legacy-112`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-112/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/torino/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-112/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/torino/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNITO-EN-PROGRAMS-2026` — [Degree programs in English, academic year 2026–2027](https://en.unito.it/studying-unito/programs/degree-programs/degree-programs-english) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -4890,8 +4892,8 @@ Currently missing or unpublished fields:
 #### Business and Management — `legacy-113`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-113/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/torino/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-113/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/torino/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNITO-BM-BSC-2026` — [Business and Management Bachelor's degree](https://en.unito.it/studying-unito/programs/degree-programs/business-management) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -4913,8 +4915,8 @@ Currently missing or unpublished fields:
 #### Economics and Finance with Data Science — `legacy-114`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-114/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/torino/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-114/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/torino/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNITO-EN-PROGRAMS-2026` — [Degree programs in English, academic year 2026–2027](https://en.unito.it/studying-unito/programs/degree-programs/degree-programs-english) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -4938,8 +4940,8 @@ Currently missing or unpublished fields:
 #### Global Law and Transnational Legal Studies — `legacy-115`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-115/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/torino/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-115/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/torino/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNITO-EN-PROGRAMS-2026` — [Degree programs in English, academic year 2026–2027](https://en.unito.it/studying-unito/programs/degree-programs/degree-programs-english) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -4959,8 +4961,8 @@ Currently missing or unpublished fields:
 #### Molecular Biotechnology — `legacy-116`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-116/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/torino/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-116/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/torino/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNITO-EN-PROGRAMS-2026` — [Degree programs in English, academic year 2026–2027](https://en.unito.it/studying-unito/programs/degree-programs/degree-programs-english) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -4980,8 +4982,8 @@ Currently missing or unpublished fields:
 #### Economic Analysis and Policy — `discovered-038`
 
 - [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-038/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/torino/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-038/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/torino/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNITO-EAP-PROFILE-2027` — [Economic Analysis and Policy – official University of Turin degree profile](https://en.unito.it/studying-unito/programs/degree-programs/economic-analysis-and-policy) (cycle: general; prior check: 2026-11-11)
@@ -4998,7 +5000,7 @@ Currently missing or unpublished fields:
 ### Università degli Studi di Trento (Trento) — `trento`
 
 - [ ] University outcome reviewed | Existing status: `REQUIRES_VERIFICATION` | Existing last checked: `2026-11-10`
-- [ ] University page: https://italy-it-programs.vercel.app/universities/trento/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/trento/
 - [ ] Official website: https://www.unitn.it/en
 - [ ] Admissions page: https://www.unitn.it/en/international/coming-unitrento/admission-how-it-works
 - [ ] Application portal: not recorded
@@ -5037,8 +5039,8 @@ Official university-level sources:
 #### Computer Science — `legacy-045`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-045/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/trento/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-045/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/trento/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNITN-CS-PROFILE-2026` — [Computer Science Master's degree](https://corsi.unitn.it/en/computer-science-master) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -5058,8 +5060,8 @@ Currently missing or unpublished fields:
 #### Artificial Intelligence Systems — `legacy-046`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-046/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/trento/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-046/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/trento/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNITN-AIS-PROFILE-2026` — [Artificial Intelligence Systems Master's degree](https://corsi.unitn.it/en/artificial-intelligence-systems) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -5079,8 +5081,8 @@ Currently missing or unpublished fields:
 #### Data Science — `legacy-047`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-047/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/trento/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-047/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/trento/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNITN-DS-CALL-2026` — [Data Science Master's admission call AY 2026–2027](https://corsi.unitn.it/sites/cds/files/2025-12/bando-ammissione-lm-data-science-26-27.pdf) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -5100,8 +5102,8 @@ Currently missing or unpublished fields:
 #### Human-Computer Interaction — `legacy-048`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-048/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/trento/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-048/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/trento/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNITN-HCI-CALL-2026` — [Human-Computer Interaction Master's admission call AY 2026–2027](https://corsi.unitn.it/sites/cds/files/2025-12/bando-ammissione-lm-human-computer-interaction-non-eu-26-27.pdf) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -5121,8 +5123,8 @@ Currently missing or unpublished fields:
 #### Cognitive Science — `legacy-049`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-049/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/trento/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-049/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/trento/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNITN-COGSCI-CALL-2026` — [Cognitive Science Master's admission call AY 2026–2027](https://corsi.unitn.it/sites/cds/files/2025-12/admission-call-master-cognitive-science-26-27.pdf) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -5142,8 +5144,8 @@ Currently missing or unpublished fields:
 #### International Security Studies — `legacy-050`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-050/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/trento/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-050/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/trento/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNITN-ISS-CALL-2026` — [International Security Studies non-European admission call AY 2026–2027](https://corsi.unitn.it/sites/cds/files/2025-12/bando-ammissione-lm-miss-non-eu-26-27.pdf) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -5163,8 +5165,8 @@ Currently missing or unpublished fields:
 #### Comparative, European and International Legal Studies — `legacy-051`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-051/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/trento/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-051/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/trento/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UNITN-CEILS-CALL-2026` — [Comparative, European and International Legal Studies admission information AY 2026–2027](https://corsi.unitn.it/en/comparative-european-and-international-legal-studies/enrollment/admission-and-enrollment) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -5184,8 +5186,8 @@ Currently missing or unpublished fields:
 #### Cyber Security (CSES) – 28DIGITAL Master’s track — `discovered-013`
 
 - [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-013/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/trento/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-013/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/trento/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-28DIGITAL-ADMISSIONS-2027` — [28DIGITAL Master School – 2027 admission dates and criteria](https://masterschool.28digital.eu/admissions) (cycle: 2027-2028; prior check: 2026-11-09)
@@ -5201,8 +5203,8 @@ Currently missing or unpublished fields:
 #### Data Science (DSC) – 28DIGITAL Master’s track — `discovered-014`
 
 - [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-014/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/trento/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-014/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/trento/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-28DIGITAL-ADMISSIONS-2027` — [28DIGITAL Master School – 2027 admission dates and criteria](https://masterschool.28digital.eu/admissions) (cycle: 2027-2028; prior check: 2026-11-09)
@@ -5218,8 +5220,8 @@ Currently missing or unpublished fields:
 #### Fintech (FT) – 28DIGITAL Master’s track — `discovered-015`
 
 - [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-015/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/trento/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-015/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/trento/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-28DIGITAL-ADMISSIONS-2027` — [28DIGITAL Master School – 2027 admission dates and criteria](https://masterschool.28digital.eu/admissions) (cycle: 2027-2028; prior check: 2026-11-09)
@@ -5235,8 +5237,8 @@ Currently missing or unpublished fields:
 #### Human-Computer Interaction and Design with Extended Reality (HCID/XR) – 28DIGITAL track — `discovered-016`
 
 - [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-016/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/trento/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-016/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/trento/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-28DIGITAL-ADMISSIONS-2027` — [28DIGITAL Master School – 2027 admission dates and criteria](https://masterschool.28digital.eu/admissions) (cycle: 2027-2028; prior check: 2026-11-09)
@@ -5252,8 +5254,8 @@ Currently missing or unpublished fields:
 #### Cloud and Networking Infrastructure and HPC (CNIHPC) – 28DIGITAL track — `discovered-017`
 
 - [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-017/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/trento/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-017/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/trento/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-28DIGITAL-ADMISSIONS-2027` — [28DIGITAL Master School – 2027 admission dates and criteria](https://masterschool.28digital.eu/admissions) (cycle: 2027-2028; prior check: 2026-11-09)
@@ -5269,8 +5271,8 @@ Currently missing or unpublished fields:
 #### Intelligent Chips and Systems (ICS) – 28DIGITAL track — `discovered-018`
 
 - [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-018/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/trento/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-018/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/trento/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-28DIGITAL-ADMISSIONS-2027` — [28DIGITAL Master School – 2027 admission dates and criteria](https://masterschool.28digital.eu/admissions) (cycle: 2027-2028; prior check: 2026-11-09)
@@ -5286,8 +5288,8 @@ Currently missing or unpublished fields:
 #### Artificial Intelligence with Affective Computing (AIAC) – 28DIGITAL track — `discovered-019`
 
 - [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-019/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/trento/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-019/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/trento/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-28DIGITAL-ADMISSIONS-2027` — [28DIGITAL Master School – 2027 admission dates and criteria](https://masterschool.28digital.eu/admissions) (cycle: 2027-2028; prior check: 2026-11-09)
@@ -5303,7 +5305,7 @@ Currently missing or unpublished fields:
 ### Università degli Studi di Trieste (Trieste) — `trieste`
 
 - [ ] University outcome reviewed | Existing status: `REQUIRES_VERIFICATION` | Existing last checked: `2026-11-11`
-- [ ] University page: https://italy-it-programs.vercel.app/universities/trieste/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/trieste/
 - [ ] Official website: https://portale.units.it/en
 - [ ] Admissions page: https://portale.units.it/en/international/destination-units/degree-seekers
 - [ ] Application portal: https://apply.units.it/
@@ -5340,8 +5342,8 @@ Official university-level sources:
 #### Data Science and Scientific Computing — `legacy-072`
 
 - [ ] Review program and 2027/28 intake | Current status: `NOT_APPLICABLE` | Availability: `CONFIRMED` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-072/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/trieste/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-072/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/trieste/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-TRIESTE-DSSC-CALL-2022` — [DSSC MSc admission call 2022/23](https://corsi.units.it/sites/default/files/dssc_call_2022_0.pdf) (cycle: 2022-2023; prior check: 2026-11-11)
@@ -5355,8 +5357,8 @@ Currently missing or unpublished fields:
 #### Physics — `legacy-073`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-073/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/trieste/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-073/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/trieste/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-TRIESTE-PHYSICS-ADMISSION-2026` — [Physics MSc: how to apply 2026/27](https://degree.units.it/en/0320107301800010/how-apply) (cycle: 2026-2027; prior check: 2026-11-11)
@@ -5386,8 +5388,8 @@ Currently missing or unpublished fields:
 #### Data Science and Artificial Intelligence — `discovered-025`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-11`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-025/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/trieste/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/discovered-025/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/trieste/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-TRIESTE-DSAI-ADMISSION-2026` — [DSAI MSc: how to apply 2026/27](https://degree.units.it/en/0320107313600001/how-apply) (cycle: 2026-2027; prior check: 2026-11-11)
@@ -5419,7 +5421,7 @@ Currently missing or unpublished fields:
 ### Università degli Studi di Udine (Udine) — `udine`
 
 - [ ] University outcome reviewed | Existing status: `REQUIRES_VERIFICATION` | Existing last checked: `2026-11-10`
-- [ ] University page: https://italy-it-programs.vercel.app/universities/udine/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/udine/
 - [ ] Official website: https://www.uniud.it/en
 - [ ] Admissions page: https://www.uniud.it/en/uniud-international/International_Students/ammissione-non-ue/prima-arrivo-ue/iscrizioni-con-titolo-di-studio-estero
 - [ ] Application portal: https://uniud.esse3.cineca.it/
@@ -5441,8 +5443,8 @@ Official university-level sources:
 #### Computer Science — `legacy-093`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-093/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/udine/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-093/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/udine/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-UDINE-CS-REQ-2026` — [Computer Science course admission requirements](https://www.uniud.it/it/didattica/corsi/area-scientifica/scienze-matematiche-informatiche-multimediali-fisiche/laurea-magistrale/informatica/iscrizione/conoscenze-requisiti-accesso/main?set_language=it) (cycle: 2026-2027; prior check: 2026-11-10)
@@ -5469,7 +5471,7 @@ Currently missing or unpublished fields:
 ### Università degli Studi di Verona (Verona) — `verona`
 
 - [ ] University outcome reviewed | Existing status: `REQUIRES_VERIFICATION` | Existing last checked: `2026-11-09`
-- [ ] University page: https://italy-it-programs.vercel.app/universities/verona/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/verona/
 - [ ] Official website: https://www.univr.it/en/
 - [ ] Admissions page: https://www.univr.it/en/our-services/international-degree-seeking-students
 - [ ] Application portal: not recorded
@@ -5487,8 +5489,8 @@ Official university-level sources:
 #### Biology for Translational Research and Precision Medicine — `legacy-084`
 
 - [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
-- [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-084/
-- [ ] University page: https://italy-it-programs.vercel.app/universities/verona/
+- [ ] Program page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/programs/legacy-084/
+- [ ] University page: https://italy-it-programs-mx2hhwt08-azizbraaiek-7011s-projects.vercel.app/universities/verona/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-VERONA-BIOLOGY-ADMISSION-2026` — [Biology for Translational Research and Precision Medicine – 2026/27 admissions](https://corsi.univr.it/?aa=2026%2F2027&ent=cs&id=1337&lang=en&menu=iscriversi&tab=comeiscriversi) (cycle: 2026-2027; prior check: 2026-11-09)

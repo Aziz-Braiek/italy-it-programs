@@ -1,18 +1,23 @@
 #!/usr/bin/env python3
-"""Build the Claude Browser review checklist and machine-readable manifest."""
+"""Build the Claude Web review checklist and machine-readable manifest."""
 
 from __future__ import annotations
 
+import argparse
+import hashlib
 import json
 import re
+import subprocess
 from pathlib import Path
 from typing import Any
+from urllib.parse import urlsplit
 
 
 ROOT = Path(__file__).resolve().parents[1]
 RESEARCH = ROOT / "research"
 AS_OF = "2026-11-11"
 BASE_URL = "https://italy-it-programs.vercel.app"
+DATASET_FILES = ("programs-2027-2028.json", "universities-2027-2028.json", "sources.json", "coverage-report.json")
 NEEDS_REVIEW = {"REQUIRES_VERIFICATION", "NOT_YET_PUBLISHED", "UNAVAILABLE", "CONFLICTING_SOURCES"}
 
 
@@ -89,6 +94,24 @@ def md_escape(value: Any) -> str:
 
 
 def main() -> None:
+    target_path = RESEARCH / "claude-review-target.json"
+    review_target = json.loads(target_path.read_text(encoding="utf-8")) if target_path.exists() else {}
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--base-url", default=review_target.get("preview_origin", BASE_URL), help="Deployment origin used for review page links")
+    parser.add_argument("--output-dir", type=Path, default=RESEARCH, help="Directory for the generated checklist and manifest")
+    args = parser.parse_args()
+    base_url = args.base_url.rstrip("/")
+    parsed = urlsplit(base_url)
+    if parsed.scheme != "https" or not parsed.netloc or parsed.path or parsed.query or parsed.fragment:
+        parser.error("--base-url must be an HTTPS origin without a path, query or fragment")
+    output_dir = args.output_dir.resolve()
+    output_dir.mkdir(parents=True, exist_ok=True)
+    dataset_paths = [f"research/{name}" for name in DATASET_FILES]
+    try:
+        dataset_commit = subprocess.check_output(["git", "log", "-1", "--format=%H", "--", *dataset_paths], cwd=ROOT, text=True).strip() or None
+        dataset_dirty = bool(subprocess.check_output(["git", "status", "--porcelain", "--", *dataset_paths], cwd=ROOT, text=True).strip())
+    except (OSError, subprocess.CalledProcessError):
+        dataset_commit, dataset_dirty = None, None
     universities = load("universities-2027-2028.json")
     programs = load("programs-2027-2028.json")
     sources = load("sources.json")
@@ -100,11 +123,13 @@ def main() -> None:
     manifest_universities: list[dict[str, Any]] = []
     manifest_programs: list[dict[str, Any]] = []
     checklist: list[str] = [
-        "# Claude Browser independent review checklist",
+        "# Claude Web independent review checklist",
         "",
         f"Prepared {AS_OF} for academic year 2027/28. Review each record against official university pages, calls, portals, regulations, and PDFs.",
         "",
         f"Snapshot inventory: {len(universities)} universities, {len(programs)} program records, {len(sources)} source records.",
+        f"Research dataset commit: `{dataset_commit or 'not available in this checkout'}`. Review target: {base_url}. Production baseline commit: `e6995e7`.",
+        "When reviewing an undeployed research snapshot, use the preview-specific checklist and manifest from the review package. The production website can contain older data.",
         "",
         "## Review rules",
         "",
@@ -129,7 +154,7 @@ def main() -> None:
             "website_url": university.get("official_website"),
             "admissions_url": university.get("international_admissions_url"),
             "application_portal_url": university.get("application_portal_url"),
-            "review_page_url": f"{BASE_URL}/universities/{university['id']}/",
+            "review_page_url": f"{base_url}/universities/{university['id']}/",
             "existing_status": university.get("cycle_status"),
             "existing_research_stage": university.get("research_stage"),
             "existing_last_checked": university.get("last_checked"),
@@ -180,7 +205,7 @@ def main() -> None:
                 "program": program.get("program"),
                 "level": program.get("level"),
                 "language": program.get("language"),
-                "program_page_url": f"{BASE_URL}/programs/{program['id']}/",
+                "program_page_url": f"{base_url}/programs/{program['id']}/",
                 "university_page_url": university_entry["review_page_url"],
                 "official_program_source_urls": [source_to_summary(source) for source in linked_sources],
                 "availability_2027_2028": program.get("availability_2027_2028"),
@@ -273,9 +298,16 @@ def main() -> None:
         "metadata": {
             "academic_year": "2027-2028",
             "prepared_at": AS_OF,
-            "source_commit": "e6995e7",
+            "source_commit": dataset_commit,
+            "source_commit_meaning": "Latest commit changing the four core research datasets; exact file hashes below identify this snapshot.",
+            "dataset_has_uncommitted_changes": dataset_dirty,
+            "dataset_sha256": {name: hashlib.sha256((RESEARCH / name).read_bytes()).hexdigest() for name in DATASET_FILES},
+            "production_baseline_commit": "e6995e70e7fc4673a561af69fbb7fa14ea84491b",
+            "production_website": BASE_URL,
             "branch": "research/final-2027-2028-refresh",
-            "website": BASE_URL,
+            "website": base_url,
+            "review_environment": "production_baseline" if base_url == BASE_URL else "preview",
+            "review_deployment": review_target if base_url == review_target.get("preview_origin") else None,
             "review_status": "in_progress",
             "counts": {"universities": len(universities), "programs": len(programs), "sources": len(sources)},
             "previous_snapshot_inconclusive_url_checks": "The prior audit reported approximately 100 inconclusive checks. This refresh rechecked every unique URL and preserves the response by source record below.",
@@ -295,8 +327,8 @@ def main() -> None:
         "previously_inconclusive_url_checks": inconclusive_sources,
         "review_log": [],
     }
-    (RESEARCH / "claude-review-manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    (RESEARCH / "claude-review-checklist.md").write_text("\n".join(checklist).rstrip() + "\n", encoding="utf-8")
+    (output_dir / "claude-review-manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    (output_dir / "claude-review-checklist.md").write_text("\n".join(checklist).rstrip() + "\n", encoding="utf-8")
     print(f"Wrote review manifest with {len(universities)} universities, {len(programs)} programs, and {len(sources)} sources.")
 
 
