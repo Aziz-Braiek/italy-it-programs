@@ -2056,6 +2056,12 @@ BATCH42 = {
     "result": "Reviewed discovered-027, Finance and Insurance at Sapienza, against the official 2026/27 course catalogue/profile, Faculty course page, course enrollment guidance, English and Italian course-call PDFs, and general MoveIN/International Office pages. Confirmed course 33439 is a two-year LM-16 in-person Rome MSc with Finance and Insurance curricula taught in Italian and Financial Risk and Data Analysis taught in English. The 2026/27 calls accept L-18/L-33 (or corresponding older classes), or other degree classes with at least 72 CFU distributed across at least three subject areas including 18 statistical-mathematical CFU. They require a non-selective personal-preparation assessment, with specified exemptions and English B2 evidence. Course eligibility assessment opened 2 July 2026, with deadlines 15 September (non-EU visa applicants), 15 October, 17 November, 17 December and 14 January 2027 for Sapienza graduates; the course fee was €10. The €30 MoveIN pre-selection charge is separate. The English and Italian curricula have different non-EU visa routes. Both official call PDFs explicitly cover 2026/27; no 2027/28 intake or course terms were identified, so new-entry availability, requirements, dates, fee, places, tuition and scholarships remain unverified rather than discontinued. No applicant/admitted denominator was found for an acceptance rate. Fresh direct GETs returned HTTP 200 for reviewed HTML/PDF sources, with PDF signatures verified. No deployment or production settings were changed.",
 }
 
+BATCH43 = {
+    "id": "polito-digital-skills-italian-route-2026-27-and-2027-28-status",
+    "status": "partial",
+    "result": "Reviewed discovered-028, Digital Skills for Sustainable Societal Transitions at Politecnico di Torino, against the official 2026/27 course profile and Italian-qualification admission, requirements and deadline pages. Confirmed that Italian-qualification applicants could enter in either semester. The prior-cycle rules accepted degree classes L-8, L-9, L-31 or L-35, or an alternative credit route requiring at least 25 CFU in the specified first group and 45 CFU in the second; academic-performance thresholds varied by prior university, and English B2 (IELTS 5.5 equivalence, with listed exemptions) was required. The 2026/27 calendar listed a 27 August 2026 first-semester application deadline, 8 September assessment and 10 September result, plus an 18 January 2027 second-semester deadline, 27 January assessment and 29 January result; enrollment deadlines were 2 November 2026 and 22 February 2027. The page calls these admission tests but does not establish their format, scoring or selectivity. The foreign-qualification route remains separate and lists a €50 prior-cycle application charge; the Italian-route page says a fee is due for applicants from other Italian universities but does not publish the amount, so zero is not inferred. No 2027/28 first-year call, requirements, dates, fee, places, tuition or scholarship terms were confirmed. Fresh no-cache GETs returned HTTP 200 for all three Italian-route pages. No deployment or production settings were changed.",
+}
+
 SOURCE_RECHECKS = {
     "SRC-UNIBO-AI-PROFILE-2026": {
         "accessed_at": "2026-11-11",
@@ -8025,6 +8031,54 @@ SOURCE_RECHECKS.update({
             "x_vercel_cache": None, "x_vercel_id": None, "location": None,
             "observed_title": "International Student Office | Sapienza Università di Roma",
             "pdf_signature": None, "has_2027_marker": True, "bytes_read": 136525,
+            "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib)",
+        },
+    },
+})
+
+SOURCE_RECHECKS.update({
+    "SRC-POLITO-DIGITAL-SKILLS-ITALIAN-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.polito.it/en/education/applying-studying-graduating/admissions-and-enrolment/master-s-degree-programmes/applicants-with-an-italian-qualification/architecture-area-ay-20262027",
+            "content_type": "text/html; charset=UTF-8", "content_length_header": "218375",
+            "etag": "W/\"1794410162-gzip\"", "last_modified": "Wed, 11 Nov 2026 15:16:02 GMT",
+            "cache_control": "max-age=3600, public, s-maxage=43200", "age": "206",
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Admission to Master's Degree Programmes – Architecture Area a.y. 2026/2027 | Politecnico di Torino",
+            "pdf_signature": None, "has_2027_marker": True, "bytes_read": 218375,
+            "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib)",
+        },
+    },
+    "SRC-POLITO-DIGITAL-SKILLS-ITALIAN-REQ-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.polito.it/en/education/applying-studying-graduating/admissions-and-enrolment/master-s-degree-programmes/applicants-with-an-italian-qualification/architecture-area-ay-20262027/requisiti-per-studenti-provenienti-da-altri-atenei-aa-202627",
+            "content_type": "text/html; charset=UTF-8", "content_length_header": "260329",
+            "etag": "W/\"1794409875-gzip\"", "last_modified": "Wed, 11 Nov 2026 15:11:15 GMT",
+            "cache_control": "max-age=3600, public, s-maxage=43200", "age": "491",
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Requirements for applicants from other universities a. y. 2026/27 | Politecnico di Torino",
+            "pdf_signature": None, "has_2027_marker": True, "bytes_read": 260329,
+            "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib)",
+        },
+    },
+    "SRC-POLITO-DIGITAL-SKILLS-ITALIAN-DEADLINES-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.polito.it/en/education/applying-studying-graduating/admissions-and-enrolment/master-s-degree-programmes/applicants-with-an-italian-qualification/scadenze-area-architettura-aa-202627",
+            "content_type": "text/html; charset=UTF-8", "content_length_header": "175895",
+            "etag": "W/\"1794410144-gzip\"", "last_modified": "Wed, 11 Nov 2026 15:15:44 GMT",
+            "cache_control": "max-age=3600, public, s-maxage=43200", "age": "224",
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Deadlines Architecture Area a.y. 2026/27 | Politecnico di Torino",
+            "pdf_signature": None, "has_2027_marker": True, "bytes_read": 175895,
             "outcome": "accessible", "error": None,
             "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib)",
         },

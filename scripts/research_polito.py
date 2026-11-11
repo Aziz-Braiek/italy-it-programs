@@ -80,6 +80,12 @@ PROGRAMS = {
         "campus": "Castello del Valentino", "class": "LM-91", "background": "Information Technology and Computer Science; Architecture; Engineering; Geography; Economics; Public Policy and other listed fields",
         "english": "The 2026/27 foreign-qualification annex lists IELTS 5.5 for this English-taught programme; the general international page states English B2 or higher.",
         "discovered": True,
+        "checked": "2026-11-11",
+        "extra_sources": [
+            "SRC-POLITO-DIGITAL-SKILLS-ITALIAN-2026",
+            "SRC-POLITO-DIGITAL-SKILLS-ITALIAN-REQ-2026",
+            "SRC-POLITO-DIGITAL-SKILLS-ITALIAN-DEADLINES-2026",
+        ],
         "identity_note": "Added as an interdisciplinary digital option: the 2026/27 course overview includes programming, database management and data elaboration, and the official entry annex lists Information Technology and Computer Sciences among recommended backgrounds. It is not a conventional Computer Science degree.",
     },
 }
@@ -102,6 +108,18 @@ SOURCES = [
            "The official page links the 2026/27 tuition regulation applicable to master's students and identifies ISEE/ISEE Parificato procedures for reductions. It links EDISU Piemonte benefits for 2026/27. No 2027/28 fee regulation or course-specific scholarship amount is recorded by this source.",
            ["program.previous_cycle_tuition", "program.previous_cycle_scholarships", "program.tuition_2027_2028", "program.scholarships_2027_2028"], "Official tuition and aid page"),
 ]
+
+SOURCES.extend([
+    source("SRC-POLITO-DIGITAL-SKILLS-ITALIAN-2026", "Admission to Master's Degree Programmes – Architecture Area a.y. 2026/2027", "https://www.polito.it/en/education/applying-studying-graduating/admissions-and-enrolment/master-s-degree-programmes/applicants-with-an-italian-qualification/architecture-area-ay-20262027", "2026-2027",
+           "For the 2026/27 Italian-qualification route, Digital Skills for Sustainable Societal Transitions is among the Master's programmes admitting in both semesters. Applicants use Apply@polito; the page says a fee is required for applicants from other Italian universities but does not state its amount. This is a prior-cycle route and does not establish a 2027/28 call.",
+           ["program.previous_cycle_admission_route", "program.previous_cycle_application_windows", "program.previous_cycle_application_fee", "program.availability_2027_2028"], "Official Italian-qualification admissions page"),
+    source("SRC-POLITO-DIGITAL-SKILLS-ITALIAN-REQ-2026", "Requirements for applicants from other universities a.y. 2026/27 – Digital Skills", "https://www.polito.it/en/education/applying-studying-graduating/admissions-and-enrolment/master-s-degree-programmes/applicants-with-an-italian-qualification/architecture-area-ay-20262027/requisiti-per-studenti-provenienti-da-altri-atenei-aa-202627", "2026-2027",
+           "The 2026/27 Italian-qualification rules list L-8, L-9, L-31 and L-35 degrees, or alternatively at least 25 CFU in the specified first subject group and 45 CFU in the second group, subject to committee review. They set academic-average thresholds by prior university, require English B2 (IELTS 5.5 equivalent, with listed exemptions), and describe handling of curricular gaps. These are historical criteria, not confirmed for 2027/28.",
+           ["program.previous_cycle_program_requirements", "program.previous_cycle_english_requirement", "program.previous_cycle_admission_route", "program.program_specific_requirements_2027_2028"], "Official Italian-qualification requirements page"),
+    source("SRC-POLITO-DIGITAL-SKILLS-ITALIAN-DEADLINES-2026", "Deadlines Architecture Area a.y. 2026/27 – Digital Skills", "https://www.polito.it/en/education/applying-studying-graduating/admissions-and-enrolment/master-s-degree-programmes/applicants-with-an-italian-qualification/scadenze-area-architettura-aa-202627", "2026-2027",
+           "The 2026/27 deadline page gives separate first- and second-semester Apply@polito windows for Digital Skills, including application closing dates, scheduled admission tests, result dates and enrollment deadlines. Direct fresh GET returned HTTP 200; its dates are not 2027/28 dates.",
+           ["program.previous_cycle_application_windows", "program.previous_cycle_entrance_test", "program.application_windows", "program.availability_2027_2028"], "Official Italian-qualification deadlines page"),
+])
 
 _profile_metadata = {
     "legacy-011": ("Computer Engineering MSc profile", "The profile identifies a 2026/27 Master's degree, Italian and English delivery, LM-32 and Main Campus.", "2026-2027"),
@@ -137,10 +155,11 @@ def apply(universities, programs, fact_builder):
     for pid, record in PROGRAMS.items():
         p = rows[pid]
         profile = record["profile"]
+        extra_sources = record.get("extra_sources", [])
         src_ids = [profile, "SRC-POLITO-MSC-CATALOGUE-2026", "SRC-POLITO-MSC-ADMISSIONS-2026",
-                   "SRC-POLITO-MSC-FOREIGN-2026", "SRC-POLITO-MSC-ENTRY-ANNEX-2026", "SRC-POLITO-TUITION-2026"]
+                   "SRC-POLITO-MSC-FOREIGN-2026", "SRC-POLITO-MSC-ENTRY-ANNEX-2026", "SRC-POLITO-TUITION-2026", *extra_sources]
         p["program"] = record["name"]
-        p["last_checked"] = CHECKED
+        p["last_checked"] = record.get("checked", CHECKED)
         p["overall_status"] = "REQUIRES_VERIFICATION"
         p["source_ids"] = src_ids
         if record.get("discovered"):
@@ -151,7 +170,7 @@ def apply(universities, programs, fact_builder):
         for field, value in (("level", "MSc"), ("language", record["language"]), ("field", record["field"])):
             p[field] = fact_builder(value, "REQUIRES_VERIFICATION", [profile], note)
         p["availability_2027_2028"] = fact_builder(None, "REQUIRES_VERIFICATION",
-            [profile, "SRC-POLITO-MSC-CATALOGUE-2026", "SRC-POLITO-MSC-ADMISSIONS-2026"],
+            [profile, "SRC-POLITO-MSC-CATALOGUE-2026", "SRC-POLITO-MSC-ADMISSIONS-2026", *extra_sources],
             "The latest named course profile and catalogue reviewed are for 2026/27. No 2027/28 first-year offer for this course was confirmed; no discontinuation is inferred.")
         p["previous_cycle_tags"] = {"level": "MSc", "language": record["language"], "field": record["field"],
             "cycle": "2026-2027", "label": "Official 2026/27 profile and requirements only; 2027/28 first-year availability remains unverified"}
@@ -187,13 +206,13 @@ def apply(universities, programs, fact_builder):
             ["SRC-POLITO-MSC-FOREIGN-2026", "SRC-POLITO-MSC-ENTRY-ANNEX-2026", profile],
             "Language rules and IELTS minima are from 2026/27; accepted evidence and course-language pathways must be rechecked for 2027/28.")
         p["facts"]["program_specific_requirements_2027_2028"] = fact_builder(None, "REQUIRES_VERIFICATION",
-            ["SRC-POLITO-MSC-FOREIGN-2026", "SRC-POLITO-MSC-ENTRY-ANNEX-2026"],
+            ["SRC-POLITO-MSC-FOREIGN-2026", "SRC-POLITO-MSC-ENTRY-ANNEX-2026", *extra_sources],
             "No 2027/28 course-specific admission regulation or call was identified; the linked course criteria are for 2026/27.")
         p["facts"]["application_windows"] = fact_builder(None, "REQUIRES_VERIFICATION",
-            ["SRC-POLITO-MSC-FOREIGN-2026", "SRC-POLITO-MSC-ADMISSIONS-2026"],
+            ["SRC-POLITO-MSC-FOREIGN-2026", "SRC-POLITO-MSC-ADMISSIONS-2026", *extra_sources],
             "The reviewed deadlines page contains 2026/27 calls only. No 2027/28 application window was confirmed for this candidate.")
         p["facts"]["application_fee_2027_2028"] = fact_builder(None, "REQUIRES_VERIFICATION",
-            ["SRC-POLITO-MSC-FOREIGN-2026"], "The €50 fee shown on the foreign-applicant page is for 2026/27; no 2027/28 application fee was confirmed.")
+            ["SRC-POLITO-MSC-FOREIGN-2026", *extra_sources], "The €50 fee shown on the foreign-applicant page is for 2026/27; no 2027/28 application fee was confirmed.")
         p["facts"]["previous_cycle_application_windows"] = fact_builder({
             "academic_year": "2026/27",
             "foreign_qualification_call_1": {"opening": "2025-12-19", "closing_extended": "2026-02-13 14:00 Europe/Rome", "results_extended": "2026-04-15"},
@@ -204,6 +223,77 @@ def apply(universities, programs, fact_builder):
         p["facts"]["previous_cycle_application_fee"] = fact_builder({"academic_year": "2026/27", "fee_eur": 50,
             "scope": "Non-Italian qualification application; payable online by Visa or Mastercard"}, "CONFIRMED",
             ["SRC-POLITO-MSC-FOREIGN-2026"], "Prior-cycle fee only; do not use as the 2027/28 fee.")
+        if pid == "discovered-028":
+            p["facts"]["previous_cycle_admission_route"] = fact_builder({
+                "academic_year": "2026/27",
+                "applicant_scope": "Applicants with an Italian qualification",
+                "application_platform": "Apply@polito",
+                "semester_options": ["first semester", "second semester"],
+                "evaluation": "Curricular and academic-performance assessment under the Italian-qualification requirements; the course requirements are reviewed by the relevant committee.",
+                "fee_note": "A fee is required for applicants from other Italian universities; the amount is not stated on the reviewed course-area page.",
+            }, "CONFIRMED", ["SRC-POLITO-DIGITAL-SKILLS-ITALIAN-2026", "SRC-POLITO-DIGITAL-SKILLS-ITALIAN-REQ-2026"],
+                "This is the 2026/27 Italian-qualification route. Foreign-qualification applicants follow separate rules and the 2027/28 route is unverified.")
+            p["facts"]["previous_cycle_program_requirements"] = fact_builder({
+                "academic_year": "2026/27",
+                "italian_qualification": {
+                    "eligible_degree_classes": ["L-8", "L-9", "L-31", "L-35"],
+                    "alternative_curricular_credits": {
+                        "group_1_minimum_cfu": 25,
+                        "group_1_ssd_codes_dm270_2004": ["MAT/03", "MAT/05", "MAT/07", "MAT/08", "MAT/09", "FIS/01", "ING-INF/05", "INF/01", "ING-IND/35", "IUS/10", "SECS-P/02", "SECS-P/07", "SECS-P/08", "SPS/04", "SPS/08", "SPS/10"],
+                        "group_1_ssd_codes_dm1648_2023": ["MATH-02/B", "MATH-03/A", "MATH-04/A", "MATH-05/A", "MATH-06/A", "PHYS-01/A", "PHYS-03/A", "IINF-05/A", "INFO-01/A", "IEGE-01/A", "GIUR-06/A", "ECON-02/A", "ECON-06/A", "ECON-07/A", "GSPS-02/A", "GSPS-06/A", "GSPS-08/B"],
+                        "group_2_minimum_cfu": 45,
+                        "group_2_ssd_codes_dm270_2004": ["ICAR/06", "ICAR/08", "ICAR/12", "ICAR/14", "ICAR/18", "ICAR/20", "ICAR/21", "ICAR/22", "L-ART/06", "M-GGR/01", "M-GGR/02", "SPS/07", "SPS/09", "SECS-P/01", "SECS-P/06", "SECS-P/09", "SECS-P/10", "SECS-S/01", "SECS-S/03", "SECS-S/06", "ING-IND/10", "ING-IND/11", "ING-IND/16", "ING-IND/22", "M-PSI/01", "M-STO/04"],
+                        "group_2_ssd_codes_dm1648_2023": ["CEAR-04/A", "CEAR-06/A", "CEAR-08/C", "CEAR-09/A", "CEAR-11/A", "CEAR-12/A", "CEAR-12/B", "CEAR-03/C", "PEMM-01/B", "GEOG-01/A", "GEOG-01/B", "GSPS-05/A", "GSPS-08/A", "ECON-01/A", "ECON-04/A", "ECON-09/A", "ECON-08/A", "STAT-01/A", "STAT-02/A", "STAT-04/A", "IIND-07/A", "IIND-07/B", "IIND-04/A", "IMAT-01/A", "PSIC-01/A", "HIST-03/A"],
+                        "assessment": "A committee checks curricular requirements. Overlapping credits count first toward group 1, with residual credits toward group 2. The page allows up to 10 missing credits at Academic Advisor discretion; larger gaps are escalated to the Coordinator or Deputy Coordinator.",
+                    },
+                    "academic_performance": {
+                        "other_universities_except_university_of_turin": "Weighted average at least 25/30, excluding the lowest 28 credits, without rounding.",
+                        "university_of_turin": "No average threshold if time to degree is 4 years or less; at least 24/30 if over 4 and up to 5 years; at least 25/30 if over 5 years.",
+                    },
+                    "english": "B2 CEFR (IELTS 5.5 equivalence), with published exemptions.",
+                },
+                "foreign_qualification": "Separate 2026/27 route; course-specific foreign-entry annex lists recommended backgrounds, while the general foreign route requires an eligible first-cycle degree, academic performance, curricular assessment and English B2.",
+            }, "CONFIRMED", ["SRC-POLITO-DIGITAL-SKILLS-ITALIAN-REQ-2026", "SRC-POLITO-MSC-FOREIGN-2026", "SRC-POLITO-MSC-ENTRY-ANNEX-2026"],
+                "Previous-cycle rules only. Verify the annual call and applicant-specific route before relying on these criteria for 2027/28.")
+            p["facts"]["application_fee_2027_2028"] = fact_builder(None, "REQUIRES_VERIFICATION",
+                ["SRC-POLITO-MSC-FOREIGN-2026", "SRC-POLITO-DIGITAL-SKILLS-ITALIAN-2026"],
+                "The €50 fee shown on the foreign-applicant page is for 2026/27; the Italian-qualification route also requires a fee for applicants from other Italian universities, but its amount was not found. No 2027/28 application fee was confirmed.")
+            p["facts"]["previous_cycle_english_requirement"] = fact_builder(
+                "For the 2026/27 Italian-qualification route, English B2 CEFR is required; IELTS 5.5 is the stated equivalent and the official page lists exemptions. The separate 2026/27 foreign-qualification page also requires English B2 for English-taught programmes.",
+                "CONFIRMED", ["SRC-POLITO-DIGITAL-SKILLS-ITALIAN-REQ-2026", "SRC-POLITO-MSC-FOREIGN-2026"],
+                "Prior-cycle language evidence only; accepted certificates and exemptions must be checked in the 2027/28 rules.")
+            p["facts"]["previous_cycle_application_windows"] = fact_builder({
+                "academic_year": "2026/27",
+                "foreign_qualification": {
+                    "call_1": {"opening": "2025-12-19", "closing_extended": "2026-02-13 14:00 Europe/Rome", "results_extended": "2026-04-15"},
+                    "call_2": {"opening": "2026-03-18", "closing_extended": "2026-04-17 14:00 Europe/Rome", "technical_extension_to": "2026-04-20 14:00 Europe/Rome", "results_extended": "2026-06-22"},
+                    "third_call_if_engineering_area": {"opening": "2026-11-03", "closing": "2026-11-17 14:00 Europe/Rome", "results": "2027-01-29", "eligibility": "EU applicants and non-EU applicants residing in Italy"},
+                },
+                "italian_qualification": {
+                    "semester_intakes": ["first semester", "second semester"],
+                    "first_semester": {"applications_open": "2026-06-04", "application_deadline": "2026-08-27", "admission_test": "2026-09-08 14:00 Europe/Rome", "test_location": "Aula Astengo, Castello del Valentino", "results": "2026-09-10", "enrolment_deadline": "2026-11-02", "identity_verification_deadline_for_other_universities": "2026-12-03"},
+                    "second_semester": {"applications_open": "2026-12-11", "application_deadline": "2027-01-18", "admission_test": "2027-01-27 14:00 Europe/Rome", "test_location": "Aula Astengo, Castello del Valentino", "results": "2027-01-29", "enrolment_deadline": "2027-02-22", "identity_verification_deadline_for_other_universities": "2027-04-08"},
+                },
+            }, "CONFIRMED", ["SRC-POLITO-MSC-FOREIGN-2026", "SRC-POLITO-DIGITAL-SKILLS-ITALIAN-2026", "SRC-POLITO-DIGITAL-SKILLS-ITALIAN-DEADLINES-2026"],
+                "Foreign-qualification and Italian-qualification timelines are separate 2026/27 routes. The scheduled course admission tests are not treated as proof of selectivity or as standardized tests. None of these dates carries over to 2027/28.")
+            p["facts"]["previous_cycle_entrance_test"] = fact_builder({
+                "academic_year": "2026/27",
+                "italian_qualification_route": {
+                    "first_semester": {"date_time": "2026-09-08 14:00 Europe/Rome", "location": "Aula Astengo, Castello del Valentino", "published_as": "Admission test"},
+                    "second_semester": {"date_time": "2027-01-27 14:00 Europe/Rome", "location": "Aula Astengo, Castello del Valentino", "published_as": "Admission test"},
+                },
+                "foreign_qualification_route": "The reviewed foreign-qualification page describes academic and curricular review; no standardized test is listed there.",
+            }, "CONFIRMED", ["SRC-POLITO-DIGITAL-SKILLS-ITALIAN-DEADLINES-2026", "SRC-POLITO-MSC-FOREIGN-2026"],
+                "The Italian route schedule calls these admission tests but does not publish format, scores or selectivity on the deadline page; do not infer those details.")
+            p["facts"]["previous_cycle_application_fee"] = fact_builder({
+                "academic_year": "2026/27",
+                "non_Italian_qualification": {"fee_eur": 50, "scope": "Apply@polito application for non-Italian qualifications; payable online by Visa or Mastercard"},
+                "Italian_qualification": {"fee_eur": None, "scope": "The route page says applicants from other Italian universities must pay a fee; amount not stated in the reviewed course-area page."},
+            }, "CONFIRMED", ["SRC-POLITO-MSC-FOREIGN-2026", "SRC-POLITO-DIGITAL-SKILLS-ITALIAN-2026"],
+                "The €50 charge applies to the foreign-qualification route. The domestic-route amount is unknown from reviewed sources; it is not assumed to be zero.")
+            p["facts"]["available_places_2027_2028"] = fact_builder(None, "REQUIRES_VERIFICATION",
+                [profile, "SRC-POLITO-DIGITAL-SKILLS-ITALIAN-2026"],
+                "The 2026/27 profile says the course had an uncapped number of students. No 2027/28 places or admission-capacity notice was identified, so the previous-cycle label does not establish next-cycle capacity.")
         p["facts"]["previous_cycle_international_admission"] = fact_builder({
             "academic_year": "2026/27", "portal": "Apply@PoliTO", "programme_choices": 2,
             "selection": "Administrative completeness check followed by Academic Committee review of academic performance and curricular background",
@@ -245,4 +335,4 @@ BATCH = {
     "result": "Matched all eight legacy MSc leads against official 2026/27 course profiles and the course-specific entry annex. Corrected Computer Engineering and Architecture Construction City to Italian/English, Aerospace Engineering to Italian, and ICT for Smart Societies to the current title ICT Engineering for Smart Societies. Recorded course codes, campuses, two-year/120-ECTS duration, recommended backgrounds, English requirements, historical international application windows and €50 foreign-application fee. Added the interdisciplinary English MSc Digital Skills for Sustainable Societal Transitions because its official admission annex explicitly lists IT and Computer Science backgrounds. All nine Polito candidate programmes remain pending for 2027/28 first-year availability, requirements, dates, application fees, tuition and scholarships; the admission and fee sources reviewed are for 2026/27. Acceptance rates were not officially published in the reviewed sources.",
 }
 
-REPORT = "Politecnico di Torino's official 2026/27 Master's catalogue and course profiles were checked against all eight legacy candidates. Computer Engineering is Italian and English; Aerospace Engineering is Italian; Architecture Construction City is Italian and English; and the current title for the legacy ICT for Smart Societies row is ICT Engineering for Smart Societies (English). The other matched candidates are English-taught. Profiles identify a two-year, 120-ECTS MSc structure, course codes and campuses; the 2026/27 foreign-applicant annex supplies recommended backgrounds and IELTS 5.5 minima for the English routes. Those backgrounds are explicitly recommendations, not binding minimum entry conditions. The foreign-admissions page gives a first-cycle qualification, suitable academic performance, course-specific curricular review, and B2 language rules. Its 2026/27 dates and €50 application fee are retained as historical evidence only. The current fee page links 2026/27 tuition regulations and EDISU aid; no 2027/28 fee schedule or scholarship award was confirmed. An additional interdisciplinary English MSc, Digital Skills for Sustainable Societal Transitions, was identified because the official 2026/27 admissions annex lists Information Technology and Computer Sciences among its recommended backgrounds; it is not a conventional Computer Science degree. The checked named course profiles are for 2026/27, so all nine course-level 2027/28 first-year offers and current admission, fee and scholarship terms remain unverified. No official acceptance-rate denominator and admitted count were found."
+REPORT = "Politecnico di Torino's official 2026/27 Master's catalogue and course profiles were checked against all eight legacy candidates. Computer Engineering is Italian and English; Aerospace Engineering is Italian; Architecture Construction City is Italian and English; and the current title for the legacy ICT for Smart Societies row is ICT Engineering for Smart Societies (English). The other matched candidates are English-taught. Profiles identify a two-year, 120-ECTS MSc structure, course codes and campuses; the 2026/27 foreign-applicant annex supplies recommended backgrounds and IELTS 5.5 minima for the English routes. Those backgrounds are explicitly recommendations, not binding minimum entry conditions. The foreign-admissions page gives a first-cycle qualification, suitable academic performance, course-specific curricular review, and B2 language rules. Its 2026/27 dates and €50 application fee are retained as historical evidence only. The current fee page links 2026/27 tuition regulations and EDISU aid; no 2027/28 fee schedule or scholarship award was confirmed. An additional interdisciplinary English MSc, Digital Skills for Sustainable Societal Transitions, was identified because the official 2026/27 admissions annex lists Information Technology and Computer Sciences among its recommended backgrounds; it is not a conventional Computer Science degree. For this candidate, the 2026/27 Italian-qualification pages additionally confirm first- and second-semester entry routes, class and credit-group eligibility, academic thresholds, English B2 and scheduled admission-test dates; the amount of the domestic-route application fee was not found. The checked named course profiles are for 2026/27, so all nine course-level 2027/28 first-year offers and current admission, fee and scholarship terms remain unverified. No official acceptance-rate denominator and admitted count were found."

@@ -41279,7 +41279,10 @@
       "source_ids": [
         "SRC-POLITO-DIGITAL-SKILLS-2026",
         "SRC-POLITO-MSC-CATALOGUE-2026",
-        "SRC-POLITO-MSC-ADMISSIONS-2026"
+        "SRC-POLITO-MSC-ADMISSIONS-2026",
+        "SRC-POLITO-DIGITAL-SKILLS-ITALIAN-2026",
+        "SRC-POLITO-DIGITAL-SKILLS-ITALIAN-REQ-2026",
+        "SRC-POLITO-DIGITAL-SKILLS-ITALIAN-DEADLINES-2026"
       ],
       "notes": "The latest named course profile and catalogue reviewed are for 2026/27. No 2027/28 first-year offer for this course was confirmed; no discontinuation is inferred."
     },
@@ -41315,31 +41318,147 @@
         "notes": "Added as an interdisciplinary digital option: the 2026/27 course overview includes programming, database management and data elaboration, and the official entry annex lists Information Technology and Computer Sciences among recommended backgrounds. It is not a conventional Computer Science degree."
       },
       "previous_cycle_program_requirements": {
-        "value": "For the 2026/27 foreign-qualification route, the official annex lists this recommended academic background: Information Technology and Computer Science; Architecture; Engineering; Geography; Economics; Public Policy and other listed fields. The annex calls this recommended, not a binding minimum. The general route also requires a suitable foreign first-cycle qualification and Academic Committee review.",
+        "value": {
+          "academic_year": "2026/27",
+          "italian_qualification": {
+            "eligible_degree_classes": [
+              "L-8",
+              "L-9",
+              "L-31",
+              "L-35"
+            ],
+            "alternative_curricular_credits": {
+              "group_1_minimum_cfu": 25,
+              "group_1_ssd_codes_dm270_2004": [
+                "MAT/03",
+                "MAT/05",
+                "MAT/07",
+                "MAT/08",
+                "MAT/09",
+                "FIS/01",
+                "ING-INF/05",
+                "INF/01",
+                "ING-IND/35",
+                "IUS/10",
+                "SECS-P/02",
+                "SECS-P/07",
+                "SECS-P/08",
+                "SPS/04",
+                "SPS/08",
+                "SPS/10"
+              ],
+              "group_1_ssd_codes_dm1648_2023": [
+                "MATH-02/B",
+                "MATH-03/A",
+                "MATH-04/A",
+                "MATH-05/A",
+                "MATH-06/A",
+                "PHYS-01/A",
+                "PHYS-03/A",
+                "IINF-05/A",
+                "INFO-01/A",
+                "IEGE-01/A",
+                "GIUR-06/A",
+                "ECON-02/A",
+                "ECON-06/A",
+                "ECON-07/A",
+                "GSPS-02/A",
+                "GSPS-06/A",
+                "GSPS-08/B"
+              ],
+              "group_2_minimum_cfu": 45,
+              "group_2_ssd_codes_dm270_2004": [
+                "ICAR/06",
+                "ICAR/08",
+                "ICAR/12",
+                "ICAR/14",
+                "ICAR/18",
+                "ICAR/20",
+                "ICAR/21",
+                "ICAR/22",
+                "L-ART/06",
+                "M-GGR/01",
+                "M-GGR/02",
+                "SPS/07",
+                "SPS/09",
+                "SECS-P/01",
+                "SECS-P/06",
+                "SECS-P/09",
+                "SECS-P/10",
+                "SECS-S/01",
+                "SECS-S/03",
+                "SECS-S/06",
+                "ING-IND/10",
+                "ING-IND/11",
+                "ING-IND/16",
+                "ING-IND/22",
+                "M-PSI/01",
+                "M-STO/04"
+              ],
+              "group_2_ssd_codes_dm1648_2023": [
+                "CEAR-04/A",
+                "CEAR-06/A",
+                "CEAR-08/C",
+                "CEAR-09/A",
+                "CEAR-11/A",
+                "CEAR-12/A",
+                "CEAR-12/B",
+                "CEAR-03/C",
+                "PEMM-01/B",
+                "GEOG-01/A",
+                "GEOG-01/B",
+                "GSPS-05/A",
+                "GSPS-08/A",
+                "ECON-01/A",
+                "ECON-04/A",
+                "ECON-09/A",
+                "ECON-08/A",
+                "STAT-01/A",
+                "STAT-02/A",
+                "STAT-04/A",
+                "IIND-07/A",
+                "IIND-07/B",
+                "IIND-04/A",
+                "IMAT-01/A",
+                "PSIC-01/A",
+                "HIST-03/A"
+              ],
+              "assessment": "A committee checks curricular requirements. Overlapping credits count first toward group 1, with residual credits toward group 2. The page allows up to 10 missing credits at Academic Advisor discretion; larger gaps are escalated to the Coordinator or Deputy Coordinator."
+            },
+            "academic_performance": {
+              "other_universities_except_university_of_turin": "Weighted average at least 25/30, excluding the lowest 28 credits, without rounding.",
+              "university_of_turin": "No average threshold if time to degree is 4 years or less; at least 24/30 if over 4 and up to 5 years; at least 25/30 if over 5 years."
+            },
+            "english": "B2 CEFR (IELTS 5.5 equivalence), with published exemptions."
+          },
+          "foreign_qualification": "Separate 2026/27 route; course-specific foreign-entry annex lists recommended backgrounds, while the general foreign route requires an eligible first-cycle degree, academic performance, curricular assessment and English B2."
+        },
         "status": "CONFIRMED",
         "source_ids": [
+          "SRC-POLITO-DIGITAL-SKILLS-ITALIAN-REQ-2026",
           "SRC-POLITO-MSC-FOREIGN-2026",
-          "SRC-POLITO-MSC-ENTRY-ANNEX-2026",
-          "SRC-POLITO-DIGITAL-SKILLS-2026"
+          "SRC-POLITO-MSC-ENTRY-ANNEX-2026"
         ],
-        "notes": "Previous-cycle admission context only; do not carry these criteria into the 2027/28 application without the new annual rules."
+        "notes": "Previous-cycle rules only. Verify the annual call and applicant-specific route before relying on these criteria for 2027/28."
       },
       "previous_cycle_english_requirement": {
-        "value": "The 2026/27 foreign-qualification annex lists IELTS 5.5 for this English-taught programme; the general international page states English B2 or higher.",
+        "value": "For the 2026/27 Italian-qualification route, English B2 CEFR is required; IELTS 5.5 is the stated equivalent and the official page lists exemptions. The separate 2026/27 foreign-qualification page also requires English B2 for English-taught programmes.",
         "status": "CONFIRMED",
         "source_ids": [
-          "SRC-POLITO-MSC-FOREIGN-2026",
-          "SRC-POLITO-MSC-ENTRY-ANNEX-2026",
-          "SRC-POLITO-DIGITAL-SKILLS-2026"
+          "SRC-POLITO-DIGITAL-SKILLS-ITALIAN-REQ-2026",
+          "SRC-POLITO-MSC-FOREIGN-2026"
         ],
-        "notes": "Language rules and IELTS minima are from 2026/27; accepted evidence and course-language pathways must be rechecked for 2027/28."
+        "notes": "Prior-cycle language evidence only; accepted certificates and exemptions must be checked in the 2027/28 rules."
       },
       "program_specific_requirements_2027_2028": {
         "value": null,
         "status": "REQUIRES_VERIFICATION",
         "source_ids": [
           "SRC-POLITO-MSC-FOREIGN-2026",
-          "SRC-POLITO-MSC-ENTRY-ANNEX-2026"
+          "SRC-POLITO-MSC-ENTRY-ANNEX-2026",
+          "SRC-POLITO-DIGITAL-SKILLS-ITALIAN-2026",
+          "SRC-POLITO-DIGITAL-SKILLS-ITALIAN-REQ-2026",
+          "SRC-POLITO-DIGITAL-SKILLS-ITALIAN-DEADLINES-2026"
         ],
         "notes": "No 2027/28 course-specific admission regulation or call was identified; the linked course criteria are for 2026/27."
       },
@@ -41348,7 +41467,10 @@
         "status": "REQUIRES_VERIFICATION",
         "source_ids": [
           "SRC-POLITO-MSC-FOREIGN-2026",
-          "SRC-POLITO-MSC-ADMISSIONS-2026"
+          "SRC-POLITO-MSC-ADMISSIONS-2026",
+          "SRC-POLITO-DIGITAL-SKILLS-ITALIAN-2026",
+          "SRC-POLITO-DIGITAL-SKILLS-ITALIAN-REQ-2026",
+          "SRC-POLITO-DIGITAL-SKILLS-ITALIAN-DEADLINES-2026"
         ],
         "notes": "The reviewed deadlines page contains 2026/27 calls only. No 2027/28 application window was confirmed for this candidate."
       },
@@ -41356,48 +41478,136 @@
         "value": null,
         "status": "REQUIRES_VERIFICATION",
         "source_ids": [
-          "SRC-POLITO-MSC-FOREIGN-2026"
+          "SRC-POLITO-MSC-FOREIGN-2026",
+          "SRC-POLITO-DIGITAL-SKILLS-ITALIAN-2026"
         ],
-        "notes": "The €50 fee shown on the foreign-applicant page is for 2026/27; no 2027/28 application fee was confirmed."
+        "notes": "The €50 fee shown on the foreign-applicant page is for 2026/27; the Italian-qualification route also requires a fee for applicants from other Italian universities, but its amount was not found. No 2027/28 application fee was confirmed."
       },
       "previous_cycle_application_windows": {
         "value": {
           "academic_year": "2026/27",
-          "foreign_qualification_call_1": {
-            "opening": "2025-12-19",
-            "closing_extended": "2026-02-13 14:00 Europe/Rome",
-            "results_extended": "2026-04-15"
+          "foreign_qualification": {
+            "call_1": {
+              "opening": "2025-12-19",
+              "closing_extended": "2026-02-13 14:00 Europe/Rome",
+              "results_extended": "2026-04-15"
+            },
+            "call_2": {
+              "opening": "2026-03-18",
+              "closing_extended": "2026-04-17 14:00 Europe/Rome",
+              "technical_extension_to": "2026-04-20 14:00 Europe/Rome",
+              "results_extended": "2026-06-22"
+            },
+            "third_call_if_engineering_area": {
+              "opening": "2026-11-03",
+              "closing": "2026-11-17 14:00 Europe/Rome",
+              "results": "2027-01-29",
+              "eligibility": "EU applicants and non-EU applicants residing in Italy"
+            }
           },
-          "foreign_qualification_call_2": {
-            "opening": "2026-03-18",
-            "closing_extended": "2026-04-17 14:00 Europe/Rome",
-            "technical_extension_to": "2026-04-20 14:00 Europe/Rome",
-            "results_extended": "2026-06-22"
-          },
-          "third_call_if_engineering_area": {
-            "opening": "2026-11-03",
-            "closing": "2026-11-17 14:00 Europe/Rome",
-            "results": "2027-01-29",
-            "eligibility": "EU applicants and non-EU applicants residing in Italy"
+          "italian_qualification": {
+            "semester_intakes": [
+              "first semester",
+              "second semester"
+            ],
+            "first_semester": {
+              "applications_open": "2026-06-04",
+              "application_deadline": "2026-08-27",
+              "admission_test": "2026-09-08 14:00 Europe/Rome",
+              "test_location": "Aula Astengo, Castello del Valentino",
+              "results": "2026-09-10",
+              "enrolment_deadline": "2026-11-02",
+              "identity_verification_deadline_for_other_universities": "2026-12-03"
+            },
+            "second_semester": {
+              "applications_open": "2026-12-11",
+              "application_deadline": "2027-01-18",
+              "admission_test": "2027-01-27 14:00 Europe/Rome",
+              "test_location": "Aula Astengo, Castello del Valentino",
+              "results": "2027-01-29",
+              "enrolment_deadline": "2027-02-22",
+              "identity_verification_deadline_for_other_universities": "2027-04-08"
+            }
           }
         },
         "status": "CONFIRMED",
         "source_ids": [
-          "SRC-POLITO-MSC-FOREIGN-2026"
+          "SRC-POLITO-MSC-FOREIGN-2026",
+          "SRC-POLITO-DIGITAL-SKILLS-ITALIAN-2026",
+          "SRC-POLITO-DIGITAL-SKILLS-ITALIAN-DEADLINES-2026"
         ],
-        "notes": "These are foreign-qualification dates for 2026/27 only; the third call is restricted by applicant residence and programme area. Architecture Construction City is not assigned the Engineering-area third call."
+        "notes": "Foreign-qualification and Italian-qualification timelines are separate 2026/27 routes. The scheduled course admission tests are not treated as proof of selectivity or as standardized tests. None of these dates carries over to 2027/28."
       },
       "previous_cycle_application_fee": {
         "value": {
           "academic_year": "2026/27",
-          "fee_eur": 50,
-          "scope": "Non-Italian qualification application; payable online by Visa or Mastercard"
+          "non_Italian_qualification": {
+            "fee_eur": 50,
+            "scope": "Apply@polito application for non-Italian qualifications; payable online by Visa or Mastercard"
+          },
+          "Italian_qualification": {
+            "fee_eur": null,
+            "scope": "The route page says applicants from other Italian universities must pay a fee; amount not stated in the reviewed course-area page."
+          }
         },
         "status": "CONFIRMED",
         "source_ids": [
+          "SRC-POLITO-MSC-FOREIGN-2026",
+          "SRC-POLITO-DIGITAL-SKILLS-ITALIAN-2026"
+        ],
+        "notes": "The €50 charge applies to the foreign-qualification route. The domestic-route amount is unknown from reviewed sources; it is not assumed to be zero."
+      },
+      "previous_cycle_admission_route": {
+        "value": {
+          "academic_year": "2026/27",
+          "applicant_scope": "Applicants with an Italian qualification",
+          "application_platform": "Apply@polito",
+          "semester_options": [
+            "first semester",
+            "second semester"
+          ],
+          "evaluation": "Curricular and academic-performance assessment under the Italian-qualification requirements; the course requirements are reviewed by the relevant committee.",
+          "fee_note": "A fee is required for applicants from other Italian universities; the amount is not stated on the reviewed course-area page."
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-POLITO-DIGITAL-SKILLS-ITALIAN-2026",
+          "SRC-POLITO-DIGITAL-SKILLS-ITALIAN-REQ-2026"
+        ],
+        "notes": "This is the 2026/27 Italian-qualification route. Foreign-qualification applicants follow separate rules and the 2027/28 route is unverified."
+      },
+      "previous_cycle_entrance_test": {
+        "value": {
+          "academic_year": "2026/27",
+          "italian_qualification_route": {
+            "first_semester": {
+              "date_time": "2026-09-08 14:00 Europe/Rome",
+              "location": "Aula Astengo, Castello del Valentino",
+              "published_as": "Admission test"
+            },
+            "second_semester": {
+              "date_time": "2027-01-27 14:00 Europe/Rome",
+              "location": "Aula Astengo, Castello del Valentino",
+              "published_as": "Admission test"
+            }
+          },
+          "foreign_qualification_route": "The reviewed foreign-qualification page describes academic and curricular review; no standardized test is listed there."
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-POLITO-DIGITAL-SKILLS-ITALIAN-DEADLINES-2026",
           "SRC-POLITO-MSC-FOREIGN-2026"
         ],
-        "notes": "Prior-cycle fee only; do not use as the 2027/28 fee."
+        "notes": "The Italian route schedule calls these admission tests but does not publish format, scores or selectivity on the deadline page; do not infer those details."
+      },
+      "available_places_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-POLITO-DIGITAL-SKILLS-2026",
+          "SRC-POLITO-DIGITAL-SKILLS-ITALIAN-2026"
+        ],
+        "notes": "The 2026/27 profile says the course had an uncapped number of students. No 2027/28 places or admission-capacity notice was identified, so the previous-cycle label does not establish next-cycle capacity."
       },
       "previous_cycle_international_admission": {
         "value": {
@@ -41467,7 +41677,10 @@
       "SRC-POLITO-MSC-ADMISSIONS-2026",
       "SRC-POLITO-MSC-FOREIGN-2026",
       "SRC-POLITO-MSC-ENTRY-ANNEX-2026",
-      "SRC-POLITO-TUITION-2026"
+      "SRC-POLITO-TUITION-2026",
+      "SRC-POLITO-DIGITAL-SKILLS-ITALIAN-2026",
+      "SRC-POLITO-DIGITAL-SKILLS-ITALIAN-REQ-2026",
+      "SRC-POLITO-DIGITAL-SKILLS-ITALIAN-DEADLINES-2026"
     ],
     "previous_tracker_tags": null,
     "previous_cycle_tags": {
@@ -41477,7 +41690,7 @@
       "cycle": "2026-2027",
       "label": "Official 2026/27 profile and requirements only; 2027/28 first-year availability remains unverified"
     },
-    "last_checked": "2026-11-10"
+    "last_checked": "2026-11-11"
   },
   {
     "id": "discovered-025",
