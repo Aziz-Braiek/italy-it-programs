@@ -1457,6 +1457,50 @@ SOURCES = [
         "evidence": "The official scholarship inventory describes regional DiSCo Lazio benefits and other competitive or eligibility-limited schemes. The reviewed page did not publish a 2027/28 incoming-student scholarship call for this Bachelor's course; annual calls and individual eligibility must be checked when issued.",
         "supports": ["program.previous_cycle_scholarships", "program.scholarships_2027_2028"],
     },
+    {
+        "id": "SRC-SAPIENZA-POLITICAL-SCIENCE-CALL-2026",
+        "university_id": "sapienza",
+        "title": "Scienze politiche e relazioni internazionali – AY 2026/27 access call (Bando 14620)",
+        "url": "https://corsidilaurea.uniroma1.it/sites/default/files/offertaformativa/documenti_ufficiali/187/14620_i_0.pdf",
+        "source_type": "Official Sapienza admission call PDF",
+        "accessed_at": "2026-11-11",
+        "cycle": "2026-2027",
+        "evidence": "The 2026/27 call (D.R. 1296/2026, published 23 June 2026) covers course 33618, L-36, under a knowledge-verification procedure and assigns test code 14620. It requires TOLC-SU or TOLC@CASA (valid from January 2025), with a limited exemption for applicants who took TOLC-SPS in 2025; no competitive seat ranking is specified. The call gives the original 29 October TOLC/access-contribution deadline and 5 November first-installment deadline; a later university notice extended deadlines for non-restricted courses. The TOLC-SU is 50 questions/100 minutes plus separate English, scored +1/−0.25/0; the call assigns an Italian OFA at scores <=18/50 and for TOLC-SPS <=12/40. It requires a 2026 secondary-school diploma (obtained or expected); applicants resident abroad who need a study visa also had to submit Universitaly pre-enrolment by 30 June 2026 and satisfy Italian B2. Sapienza's access contribution was €10 and CISIA's test fee €35. These facts are historical and do not establish 2027/28 entry terms.",
+        "supports": ["program.previous_cycle_course_listing", "program.previous_cycle_admission_route", "program.previous_cycle_application_windows", "program.previous_cycle_admission_requirements", "program.previous_cycle_entrance_test", "program.previous_cycle_application_fee", "program.previous_cycle_tuition"],
+    },
+    {
+        "id": "SRC-SAPIENZA-POLITICAL-SCIENCE-INDEX-2026",
+        "university_id": "sapienza",
+        "title": "Sapienza AY 2026/27 admissions index – Political Science area",
+        "url": "https://www.uniroma1.it/it/node/534988",
+        "source_type": "Official Sapienza admissions index",
+        "accessed_at": "2026-11-11",
+        "cycle": "2026-2027",
+        "evidence": "The official admissions index lists the Political Science-area 2026/27 knowledge-verification call, test code 14620, and course 33618 Scienze politiche e relazioni internazionali. It is prior-cycle listing evidence only.",
+        "supports": ["program.previous_cycle_course_listing", "program.previous_cycle_admission_route", "program.previous_cycle_available_places"],
+    },
+    {
+        "id": "SRC-SAPIENZA-POLITICAL-SCIENCE-APPLY-2026",
+        "university_id": "sapienza",
+        "title": "Scienze politiche e relazioni internazionali – application and OFA page",
+        "url": "https://corsidilaurea.uniroma1.it/it/course/33618/apply",
+        "source_type": "Official Sapienza course application page",
+        "accessed_at": "2026-11-11",
+        "cycle": "2026-2027",
+        "evidence": "The current course page links the 2026/27 access call and displays an OFA news note that explicitly refers to the older D.R. 1696/2025 call, with no-OFA thresholds of >=18/50 for TOLC-SU and >=12/40 for TOLC-SPS. The current 2026/27 call is D.R. 1296/2026 and states OFA thresholds <=18/50 and <=12/40, respectively. The score-18 boundary is therefore recorded with the newer cycle-specific call and the stale older-cycle page note is flagged instead of silently merged.",
+        "supports": ["program.previous_cycle_entrance_test", "program.previous_cycle_admission_requirements"],
+    },
+    {
+        "id": "SRC-SAPIENZA-OPEN-ACCESS-DEADLINE-EXTENSION-2026",
+        "university_id": "sapienza",
+        "title": "Sapienza 2026/27 deadline extension for non-restricted degree programmes",
+        "url": "https://www.uniroma1.it/en/pagina/tuition-fees-and-benefits",
+        "source_type": "Official Sapienza enrollment and tuition guidance",
+        "accessed_at": "2026-11-11",
+        "cycle": "2026-2027",
+        "evidence": "The current Sapienza page says applicants to non-restricted degree programmes may sit the required TOLC and pay the €10 access contribution through 19 November 2026, and pay the first tuition instalment through 25 November 2026. It lists the second and third instalments as due 27 December 2026 and 25 March 2027. These university-wide extensions apply to the non-restricted 2026/27 route; they do not establish 2027/28 dates.",
+        "supports": ["program.previous_cycle_application_windows", "program.previous_cycle_application_fee", "program.previous_cycle_tuition", "program.application_windows_2027_2028"],
+    },
 ]
 
 BATCH = {
@@ -1619,6 +1663,12 @@ BATCH27 = {
     "id": "sapienza-aerospace-engineering-2026-27-tolc-i-and-next-cycle-review",
     "status": "partial",
     "result": "Rechecked Sapienza Ingegneria Aerospaziale course 33474 against its current profile, the full 2026/27 Bando 14616 PDF, the Civil and Industrial Engineering call index, the current engineering admissions/results page, and tuition and scholarship sources. Confirmed a three-year Italian L-9 bachelor's degree in Rome with restricted access. The prior-cycle call offered 250 seats: 60 in selection one; 110 plus remaining seats in selection two; 72 plus remaining seats for EU/equivalent applicants and 8 non-EU visa seats in selection three (one reserved for Marco Polo). Applications used three rounds (1–27 April, 20 May–20 July, and 31 July–7 September 2026), with the TOLC-I valid from 1 January 2025 and score thresholds of at least 18/50 in rounds one/two and above zero in round three. The 50 scored items covered mathematics, science, logic and verbal comprehension over 110 minutes, plus an unscored 30-item English section; scoring was +1/−0.25/0, highest valid attempt counted, and a score below 18/50 could assign a Mathematics OFA. The call required an upper-secondary diploma obtained or expected in 2026; non-EU applicants resident abroad requiring a study visa could apply only in round three and also needed Universitaly pre-enrolment by 30 June 2026 and Italian B2. University selection payment was €10 per selection and non-refundable; CISIA TOLC registration was a separate €35. First-round winners paid a €200 pre-enrolment contribution, subject to ISEE reductions/exemptions and credited against tuition. The 2026/27 tuition page applies an ISEE-based contribution model and 30/35/35 installment schedule; its €2,924 contribution-group total applies to second-level and single-cycle Master's degrees, so it is not applied to this BSc. The course-specific 2026/27 tuition amount was not stated in the call or tuition pages reviewed. Regional tax and stamp duty are additional. DiSCo Lazio was the competitive regional aid route; Wanted the Best is scoped to Master's entrants and is not represented as an Aerospace BSc award. The live results page says all 2026/27 places were assigned after the second scrolling. No 2027/28 new-entry call, fee schedule or incoming scholarship call is published in the official materials reviewed as of 11 November 2026. The course profile's literal 2027/28 marker concerns laboratory assignments for students already in year three. Fresh no-cache GETs returned HTTP 200 for nine official profile, call, admissions, tuition and aid pages; the admission PDF signature was valid. No preview, production or Vercel changes were made.",
+}
+
+BATCH28 = {
+    "id": "sapienza-political-science-2026-27-open-access-and-next-cycle-review",
+    "status": "partial",
+    "result": "Rechecked Sapienza Scienze politiche e relazioni internazionali (course 33618, L-36, Rome, Italian) against its live catalogue, application page, the 2026/27 Bando 14620, Sapienza's admissions index, the non-restricted-program deadline extension, tuition pages and current scholarship inventory. The prior-cycle route requires a knowledge-verification TOLC-SU/TOLC@CASA, with a limited exemption for candidates who took TOLC-SPS in 2025; this is an open access check, not a competitive seat ranking. Recorded the original test/payment cutoff of 29 October 2026 and the later extension to 19 November, plus the original 5 November first-payment deadline and its extension to 25 November. The €10 Sapienza access contribution and separate €35 CISIA TOLC fee are distinguished. The call requires a 2026 upper-secondary diploma; non-EU applicants resident abroad needing a visa also needed Universitaly pre-enrolment by 30 June and Italian B2. TOLC-SU is 50 scored questions in 100 minutes plus an unscored 30-question English section, with +1/−0.25/0 scoring and a once-per-month retake limit. The 2026/27 call sets OFA at <=18/50 (SU) or <=12/40 (SPS); the live course-page news note references the prior 2025 call and says >=18/50 / >=12/40 avoids OFA, so the score-18 boundary is flagged as a stale-page discrepancy. Tuition follows the ISEE-based framework and 30/35/35 installment structure; the €2,821 Art. 38 amount is restricted to second-level and single-cycle degrees and is not applied to this three-year BSc. DiSCo Lazio is competitive regional aid; Wanted the Best is a Master's entrant scheme, not a BSc award. No 2027/28 course entry call, application dates, fee, tuition schedule or incoming scholarship call was present in the reviewed official material as of 11 November 2026; the absence is not treated as discontinuation. Fresh no-cache GETs returned HTTP 200 for all seven reviewed profile, application, call, index, fee and scholarship endpoints, and the call PDF signature was valid. No deployment or Vercel changes were made.",
 }
 
 SOURCE_RECHECKS = {
@@ -2702,6 +2752,106 @@ SOURCE_RECHECKS.update({
             "cache_control": "public, max-age=86400", "age": None, "x_vercel_cache": None, "x_vercel_id": None,
             "location": None, "observed_title": "Semestre aperto 2026-2027 per i corsi di Medicina e Chirurgia e di Odontoiatria e protesi dentaria in Sapienza | Sapienza Università di Roma",
             "pdf_signature": None, "has_2027_marker": False, "bytes_read": 70538, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)",
+        },
+    },
+})
+
+SOURCE_RECHECKS.update({
+    "SRC-SAPIENZA-POLITICAL-SCIENCE-2026": {
+        "accessed_at": "2026-11-11",
+        "evidence": "The live 2026/27 catalogue identifies course 33618 Scienze politiche e relazioni internazionali as a three-year L-36 Laurea in Rome, taught in Italian, with an entrance test for knowledge verification. This is the prior-cycle identity and does not confirm 2027/28 first-year intake.",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://corsidilaurea.uniroma1.it/it/course/33618",
+            "content_type": "text/html; charset=utf-8", "content_length_header": None,
+            "etag": "W/\"1794388665-1\"", "last_modified": "Wed, 11 Nov 2026 09:17:45 GMT",
+            "cache_control": "public, max-age=0", "age": "0", "x_vercel_cache": None, "x_vercel_id": None,
+            "location": None, "observed_title": "Scienze politiche e relazioni internazionali | Course catalogue", "pdf_signature": None,
+            "has_2027_marker": True, "bytes_read": 17172, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)",
+        },
+    },
+    "SRC-SAPIENZA-POLITICAL-SCIENCE-CALL-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://corsidilaurea.uniroma1.it/sites/default/files/offertaformativa/documenti_ufficiali/187/14620_i_0.pdf",
+            "content_type": "application/pdf", "content_length_header": "552688",
+            "etag": "\"86ef0-65743e8e2e683\"", "last_modified": "Thu, 23 Jul 2026 09:30:41 GMT",
+            "cache_control": None, "age": "180", "x_vercel_cache": None, "x_vercel_id": None,
+            "location": None, "observed_title": None, "pdf_signature": True,
+            "has_2027_marker": True, "bytes_read": 552688, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)",
+        },
+    },
+    "SRC-SAPIENZA-POLITICAL-SCIENCE-INDEX-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://www.uniroma1.it/it/node/534988",
+            "content_type": "text/html; charset=utf-8", "content_length_header": None,
+            "etag": "\"1794394387-1\"", "last_modified": "Wed, 11 Nov 2026 10:53:07 GMT",
+            "cache_control": "public, max-age=86400", "age": None, "x_vercel_cache": None, "x_vercel_id": None,
+            "location": None, "observed_title": "Corsi di studio: ammissioni 2026-2027 | Sapienza Università di Roma", "pdf_signature": None,
+            "has_2027_marker": True, "bytes_read": 73364, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)",
+        },
+    },
+    "SRC-SAPIENZA-POLITICAL-SCIENCE-APPLY-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://corsidilaurea.uniroma1.it/it/course/33618/apply",
+            "content_type": "text/html; charset=utf-8", "content_length_header": None,
+            "etag": "W/\"1794391640-1\"", "last_modified": "Wed, 11 Nov 2026 10:07:20 GMT",
+            "cache_control": "public, max-age=0", "age": "0", "x_vercel_cache": None, "x_vercel_id": None,
+            "location": None, "observed_title": "Scienze politiche e relazioni internazionali | Course catalogue", "pdf_signature": None,
+            "has_2027_marker": True, "bytes_read": 17138, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)",
+        },
+    },
+    "SRC-SAPIENZA-OPEN-ACCESS-DEADLINE-EXTENSION-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://www.uniroma1.it/en/pagina/tuition-fees-and-benefits",
+            "content_type": "text/html; charset=utf-8", "content_length_header": None,
+            "etag": "\"1794394387-1\"", "last_modified": "Wed, 11 Nov 2026 10:53:07 GMT",
+            "cache_control": "public, max-age=86400", "age": None, "x_vercel_cache": None, "x_vercel_id": None,
+            "location": None, "observed_title": "Tuition Fees and Benefits | Sapienza Università di Roma", "pdf_signature": None,
+            "has_2027_marker": True, "bytes_read": 49893, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)",
+        },
+    },
+    "SRC-SAPIENZA-FEES-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://www.uniroma1.it/en/pagina/tuition-fees-and-benefits",
+            "content_type": "text/html; charset=utf-8", "content_length_header": None,
+            "etag": "\"1794394387-1\"", "last_modified": "Wed, 11 Nov 2026 10:53:07 GMT",
+            "cache_control": "public, max-age=86400", "age": None, "x_vercel_cache": None, "x_vercel_id": None,
+            "location": None, "observed_title": "Tuition Fees and Benefits | Sapienza Università di Roma", "pdf_signature": None,
+            "has_2027_marker": True, "bytes_read": 49893, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)",
+        },
+    },
+    "SRC-SAPIENZA-FEE-TABLE-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://www.uniroma1.it/en/node/29732",
+            "content_type": "text/html; charset=utf-8", "content_length_header": "47296",
+            "etag": "\"1794394388-1\"", "last_modified": "Wed, 11 Nov 2026 10:53:08 GMT",
+            "cache_control": "public, max-age=86400", "age": None, "x_vercel_cache": None, "x_vercel_id": None,
+            "location": None, "observed_title": "Standard registration fee amounts | Sapienza Università di Roma", "pdf_signature": None,
+            "has_2027_marker": False, "bytes_read": 47296, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)",
+        },
+    },
+    "SRC-SAPIENZA-SCHOLARSHIPS-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://www.uniroma1.it/en/pagina/scholarships",
+            "content_type": "text/html; charset=utf-8", "content_length_header": None,
+            "etag": "\"1794394388-1\"", "last_modified": "Wed, 11 Nov 2026 10:53:08 GMT",
+            "cache_control": "public, max-age=86400", "age": None, "x_vercel_cache": None, "x_vercel_id": None,
+            "location": None, "observed_title": "Scholarships | Sapienza Università di Roma", "pdf_signature": None,
+            "has_2027_marker": True, "bytes_read": 50499, "outcome": "accessible", "error": None,
             "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)",
         },
     },
@@ -4303,6 +4453,122 @@ def apply(
         "label": "Official 2026/27 identity and admission call; 2027/28 first-year intake remains unannounced",
     }
     aerospace["last_checked"] = "2026-11-11"
+
+    political_science = next(program for program in programs if program.get("id") == "legacy-155")
+    political_science_sources = [
+        "SRC-SAPIENZA-POLITICAL-SCIENCE-2026",
+        "SRC-SAPIENZA-POLITICAL-SCIENCE-APPLY-2026",
+        "SRC-SAPIENZA-POLITICAL-SCIENCE-CALL-2026",
+        "SRC-SAPIENZA-POLITICAL-SCIENCE-INDEX-2026",
+        "SRC-SAPIENZA-OPEN-ACCESS-DEADLINE-EXTENSION-2026",
+        "SRC-SAPIENZA-FEES-2026",
+        "SRC-SAPIENZA-FEE-TABLE-2026",
+        "SRC-SAPIENZA-DISCO-LAZIO-2026",
+        "SRC-SAPIENZA-WANTED-BEST-2026",
+        "SRC-SAPIENZA-SCHOLARSHIPS-2026",
+    ]
+    political_science["program"] = "Scienze politiche e relazioni internazionali"
+    political_science["city"] = "Rome"
+    political_science["level"] = fact(
+        "Bachelor's degree (Laurea, class L-36)", "REQUIRES_VERIFICATION",
+        ["SRC-SAPIENZA-POLITICAL-SCIENCE-2026", "SRC-SAPIENZA-POLITICAL-SCIENCE-CALL-2026"],
+        "The 2026/27 catalogue and call agree on course 33618, class L-36 and a three-year Laurea. 2027/28 catalogue identity remains to be checked.",
+    )
+    political_science["language"] = fact(
+        "Italian", "REQUIRES_VERIFICATION", ["SRC-SAPIENZA-POLITICAL-SCIENCE-2026"],
+        "Official delivery is Italian for 2026/27; verify the 2027/28 course profile.",
+    )
+    political_science["field"] = fact(
+        "Political Science and International Relations", "REQUIRES_VERIFICATION", ["SRC-SAPIENZA-POLITICAL-SCIENCE-2026"],
+        "Official course identity is confirmed for 2026/27 only; the 2027/28 catalogue has not yet confirmed this new-entry row.",
+    )
+    political_science["availability_2027_2028"] = fact(
+        None, "NOT_YET_PUBLISHED", [
+            "SRC-SAPIENZA-POLITICAL-SCIENCE-2026", "SRC-SAPIENZA-POLITICAL-SCIENCE-APPLY-2026",
+            "SRC-SAPIENZA-POLITICAL-SCIENCE-CALL-2026", "SRC-SAPIENZA-POLITICAL-SCIENCE-INDEX-2026",
+        ],
+        "No 2027/28 course listing or first-year call appears in the official course profile, application page or central admissions index reviewed on 11 November 2026. The 2026/27 course is confirmed; absence of the new-cycle call is not treated as discontinuation.",
+    )
+    political_science["overall_status"] = "REQUIRES_VERIFICATION"
+    political_science["source_ids"] = political_science_sources
+    political_science["facts"] = {
+        "previous_cycle_course_listing": fact(
+            {"academic_year": "2026/27", "official_name": "Scienze politiche e relazioni internazionali", "course_code": "33618", "test_code": "14620", "degree_class": "L-36", "duration_years": 3, "degree_type": "Bachelor's degree (Laurea)", "campus": "Rome", "language": "Italian", "access": "Open access with an entrance test for knowledge verification", "faculty": "Scienze Politiche, Sociologia, Comunicazione", "department": "Scienze Politiche"},
+            "CONFIRMED", ["SRC-SAPIENZA-POLITICAL-SCIENCE-2026", "SRC-SAPIENZA-POLITICAL-SCIENCE-CALL-2026", "SRC-SAPIENZA-POLITICAL-SCIENCE-INDEX-2026"],
+            "This is the official AY 2026/27 course identity; it does not by itself establish a 2027/28 intake.",
+        ),
+        "previous_cycle_admission_routes": fact(
+            {"academic_year": "2026/27", "route": "Open access knowledge-verification test, not a competitive seat ranking", "standard_test": "CISIA TOLC-SU / TOLC@CASA", "test_code": "14620", "limited_exemption": "Applicants who took TOLC-SPS during 2025 were exempt from taking TOLC-SU under the call", "Infostud_registration": "Required", "competitive_selection": False},
+            "CONFIRMED", ["SRC-SAPIENZA-POLITICAL-SCIENCE-2026", "SRC-SAPIENZA-POLITICAL-SCIENCE-CALL-2026", "SRC-SAPIENZA-POLITICAL-SCIENCE-INDEX-2026"],
+            "The profile categorizes this as a test to verify knowledge and the University lists it among non-restricted courses. The result can assign OFA; the sources do not describe a ranking or fixed seat quota.",
+        ),
+        "previous_cycle_application_windows": fact(
+            {"academic_year": "2026/27", "tolc_su": {"valid_from": "2025-01-01", "original_deadline": "2026-10-29", "later_extended_deadline": "2026-11-19"}, "sapienza_access_contribution": {"payment_open": "2026-07-02", "original_deadline": "2026-10-29", "later_extended_deadline": "2026-11-19"}, "first_tuition_installment": {"start": "2026-09-01", "original_deadline": "2026-11-05", "later_extended_deadline": "2026-11-25"}, "second_tuition_installment_deadline": "2026-12-27", "third_tuition_installment_deadline": "2027-03-25", "non_eu_abroad_visa_pre_enrolment_deadline": "2026-06-30"},
+            "CONFIRMED", ["SRC-SAPIENZA-POLITICAL-SCIENCE-CALL-2026", "SRC-SAPIENZA-OPEN-ACCESS-DEADLINE-EXTENSION-2026", "SRC-SAPIENZA-FEES-2026"],
+            "These are historical 2026/27 dates. The University later extended the TOLC and €10 payment deadline to 19 November and the first tuition instalment to 25 November for non-restricted courses; do not copy them to 2027/28.",
+        ),
+        "previous_cycle_available_places": fact(
+            None, "UNAVAILABLE", ["SRC-SAPIENZA-POLITICAL-SCIENCE-CALL-2026", "SRC-SAPIENZA-POLITICAL-SCIENCE-INDEX-2026"],
+            "The reviewed 2026/27 knowledge-verification call and admissions index do not state a fixed number of places or a competitive ranking; this is not a seat-count estimate.",
+        ),
+        "previous_cycle_admission_requirements": fact(
+            {"academic_year": "2026/27", "italian_eu_and_equivalent": {"secondary_credential": "Upper-secondary school diploma obtained or expected in 2026", "test": "TOLC-SU or TOLC@CASA at Sapienza or another CISIA university, taken from January 2025 by the extended 19 November 2026 deadline", "test_exemption": "Call exempts applicants who took TOLC-SPS during 2025"}, "non_eu_resident_abroad_requiring_study_visa": {"secondary_credential": "Upper-secondary school diploma obtained or expected in 2026", "test": "TOLC-SU/TOLC@CASA under the call, subject to its stated exemption", "universitaly_pre_enrolment_deadline": "2026-06-30", "italian_language": "B2 test or recognized certificate"}, "foreign_secondary_qualification": "Sapienza qualification and document checks apply", "separate_gpa_threshold": "Not stated in the reviewed call"},
+            "CONFIRMED", ["SRC-SAPIENZA-POLITICAL-SCIENCE-CALL-2026"],
+            "The non-EU visa route applies to applicants resident abroad who need a study visa and is separate from the EU/equivalent route. All criteria are prior-cycle only.",
+        ),
+        "previous_cycle_entrance_test": fact(
+            {"test": "CISIA TOLC-SU / TOLC@CASA", "scored_questions": 50, "sections": [{"name": "Text comprehension and Italian language", "questions": 30, "minutes": 60}, {"name": "Knowledge and skills acquired in prior studies", "questions": 10, "minutes": 20}, {"name": "Logical reasoning", "questions": 10, "minutes": 20}], "scored_duration_minutes": 100, "additional_english_section": {"questions": 30, "minutes": 15, "included_in_knowledge_verification_score": False}, "scoring": {"correct": 1, "incorrect": -0.25, "blank": 0}, "retake_rule": "At most once per calendar month; the best total result is considered", "ofa_thresholds_in_2026_27_call": {"TOLC_SU": "OFA at <=18/50, excluding English", "TOLC_SPS": "OFA at <=12/40, excluding English"}, "ofa_resolution": "Recovery activities plus a course recovery test/interview or one of six listed first-year L-36 exams; OFA due by end of year one", "threshold_note": "The course application page carries a notice explicitly referring to the older 2025 D.R. 1696/2025 call and says scores >=18/50 (SU) or >=12/40 (SPS) avoid OFA. For the 2026/27 cycle, the specific D.R. 1296/2026 call sets OFA at <=18/50 and <=12/40; the score-18 boundary is flagged as a stale-page discrepancy."},
+            "CONFIRMED", ["SRC-SAPIENZA-POLITICAL-SCIENCE-CALL-2026", "SRC-SAPIENZA-POLITICAL-SCIENCE-APPLY-2026"],
+            "The English section is separately scored and does not affect knowledge-verification or OFA thresholds. Because the course page's notice references a prior call, the 2026/27 admission call is the cycle-specific authority; verify an exact score of 18 with the course office if it affects enrollment.",
+        ),
+        "previous_cycle_application_fee": fact(
+            {"academic_year": "2026/27", "sapienza_access_contribution_eur": 10, "sapienza_contribution_scope": "Required non-refundable Infostud access contribution for test-result acquisition; original due 29 October, extended to 19 November 2026", "cisia_tolc_su_registration_fee_eur": 35, "cisia_fee_scope": "Separate CISIA registration payment to sit TOLC-SU", "course_application_fee_label": "The call does not describe the Sapienza access contribution as a separate competitive application fee"},
+            "CONFIRMED", ["SRC-SAPIENZA-POLITICAL-SCIENCE-CALL-2026", "SRC-SAPIENZA-OPEN-ACCESS-DEADLINE-EXTENSION-2026"],
+            "The €10 Infostud contribution and €35 CISIA TOLC charge are distinct and both were required under the 2026/27 procedure; these are not 2027/28 prices.",
+        ),
+        "previous_cycle_tuition": fact(
+            {"academic_year": "2026/27", "bachelor_course_specific_annual_total_eur": None, "amount_status": "No Political Science L-36 annual total is stated in the reviewed call and tuition pages", "calculation": "ISEE-based Sapienza contribution rules and applicable benefits/exemptions", "payment_installments_percent": [30, 35, 35], "first_installment_extended_deadline": "2026-11-25", "additional_amounts": ["Regional tax, where due", "€16 stamp duty"], "not_applied_reference": "The €2,821 Art. 38 first-bracket total is scoped to second-level two-year, single-cycle and unified Master's degrees, not this three-year BSc"},
+            "CONFIRMED", ["SRC-SAPIENZA-POLITICAL-SCIENCE-CALL-2026", "SRC-SAPIENZA-OPEN-ACCESS-DEADLINE-EXTENSION-2026", "SRC-SAPIENZA-FEES-2026", "SRC-SAPIENZA-FEE-TABLE-2026"],
+            "The official pages confirm the ISEE-based framework and 30/35/35 payment structure, but not a course-specific BSc total. The €2,821 Art. 38 reference is expressly limited to second-level and single-cycle programmes; no individual bill is inferred.",
+        ),
+        "previous_cycle_scholarships": fact(
+            {"academic_year": "2026/27", "DiSCo_Lazio": {"type": "Competitive regional right-to-study grant and related benefits", "application_deadline_after_extension": "2026-07-23 20:00", "corrections_deadline": "2026-08-11 12:00", "eligibility": "Subject to annual economic, merit and other call requirements"}, "not_course_awards": {"Wanted_the_Best": "The 2026/27 award targets students entering Sapienza Master's degrees after graduating from another Italian university; it is not an incoming L-36 BSc award"}},
+            "CONFIRMED", ["SRC-SAPIENZA-DISCO-LAZIO-2026", "SRC-SAPIENZA-WANTED-BEST-2026", "SRC-SAPIENZA-SCHOLARSHIPS-2026"],
+            "DiSCo Lazio is competitive regional aid, not a guaranteed course award. The University's general inventory describes other limited eligibility schemes, but Wanted the Best is Master's-only and not a BSc entrant scholarship.",
+        ),
+        "application_windows_2027_2028": fact(
+            None, "NOT_YET_PUBLISHED", ["SRC-SAPIENZA-POLITICAL-SCIENCE-2026", "SRC-SAPIENZA-POLITICAL-SCIENCE-APPLY-2026", "SRC-SAPIENZA-POLITICAL-SCIENCE-CALL-2026", "SRC-SAPIENZA-POLITICAL-SCIENCE-INDEX-2026"],
+            "No first-year 2027/28 dates or new-cycle call appeared on the official course profile/application page or central admissions index reviewed on 11 November 2026. The amended 2026/27 dates are not carried forward.",
+        ),
+        "application_fee_2027_2028": fact(
+            None, "NOT_YET_PUBLISHED", ["SRC-SAPIENZA-POLITICAL-SCIENCE-CALL-2026", "SRC-SAPIENZA-POLITICAL-SCIENCE-INDEX-2026"],
+            "No 2027/28 course access contribution or TOLC fee was announced in the reviewed official course and admissions material.",
+        ),
+        "program_specific_requirements_2027_2028": fact(
+            None, "NOT_YET_PUBLISHED", ["SRC-SAPIENZA-POLITICAL-SCIENCE-2026", "SRC-SAPIENZA-POLITICAL-SCIENCE-CALL-2026"],
+            "No 2027/28 first-year call or course-specific entry requirements were published in the reviewed catalogue and admissions pages as of 11 November 2026.",
+        ),
+        "tuition_2027_2028": fact(
+            None, "NOT_YET_PUBLISHED", ["SRC-SAPIENZA-FEES-2026", "SRC-SAPIENZA-FEE-TABLE-2026"],
+            "The reviewed tuition pages display the 2026/27 framework; no 2027/28 tuition regulation or course-level annual amount was published as of 11 November 2026.",
+        ),
+        "scholarships_2027_2028": fact(
+            None, "NOT_YET_PUBLISHED", ["SRC-SAPIENZA-SCHOLARSHIPS-2026", "SRC-SAPIENZA-DISCO-LAZIO-2026"],
+            "No 2027/28 DiSCo annual call or incoming L-36 scholarship call was present in the reviewed official university and regional aid pages as of 11 November 2026. This does not mean students are ineligible for general aid once annual calls open.",
+        ),
+        "acceptance_rate": fact(
+            None, "UNAVAILABLE", ["SRC-SAPIENZA-POLITICAL-SCIENCE-CALL-2026", "SRC-SAPIENZA-POLITICAL-SCIENCE-INDEX-2026"],
+            "No competitive ranking, fixed place count, or comparable applicant/admitted denominator is supplied for this knowledge-verification route; no acceptance rate is inferred.",
+        ),
+    }
+    political_science["previous_cycle_tags"] = {
+        "level": "Bachelor's degree (Laurea, class L-36)",
+        "language": "Italian",
+        "field": "Political Science and International Relations",
+        "cycle": "2026-2027",
+        "label": "Official 2026/27 identity and open-access knowledge-verification call; 2027/28 first-year intake remains unannounced",
+    }
+    political_science["last_checked"] = "2026-11-11"
 
     cybersecurity = next(program for program in programs if program.get("id") == "legacy-031")
     cybersecurity_award_source = "SRC-PADUA-STUDENT-AWARDS-CYBERSECURITY-2026"
