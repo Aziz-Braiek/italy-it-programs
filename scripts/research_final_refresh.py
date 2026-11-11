@@ -139,18 +139,18 @@ SOURCES = [
     },
     {
         "id": "SRC-UNIBO-BA-CURRICULUM-2026",
-        "university_id": "bologna", "title": "Business Analytics – official curriculum profile",
+        "university_id": "bologna", "title": "Business Analytics – current official curriculum profile",
         "url": "https://corsi.unibo.it/2cycle/BusinessAnalytics/overview",
-        "source_type": "Official curriculum profile", "accessed_at": "2026-11-10", "cycle": "2026-2027",
-        "evidence": "Identifies Business Analytics as an English-language curriculum within the two-year MSc Statistics, Economics and Business (LM-82), taught in Bologna; it is not a separate degree programme.",
+        "source_type": "Official curriculum profile", "accessed_at": "2026-11-11", "cycle": "general",
+        "evidence": "The live official profile identifies Business Analytics as an English-language curriculum within the two-year Second Cycle Degree in Statistics, Economics and Business (LM-82), taught in Bologna; it is not a separate degree programme. It says all courses in the curriculum are taught in English and the parent degree is open access. The current page has no 2027/28 marker or cycle-specific admissions call, so it supports identity, language, location and curriculum structure only, not new-entry availability or annual admission terms.",
         "supports": ["program.name", "program.level", "program.language", "program.location", "program.program_type"],
     },
     {
         "id": "SRC-UNIBO-BA-CURRICULUM-PARENT-2026",
-        "university_id": "bologna", "title": "Statistics, Economics and Business – parent degree profile",
+        "university_id": "bologna", "title": "Statistics, Economics and Business – current parent degree profile",
         "url": "https://corsi.unibo.it/2cycle/StatisticsEconomicsBusiness",
-        "source_type": "Official degree programme profile", "accessed_at": "2026-11-10", "cycle": "2026-2027",
-        "evidence": "Lists Statistics, Economics and Business as the degree programme and Business Analytics among its curricula; the parent degree has Italian and English delivery and is based in Bologna.",
+        "source_type": "Official degree programme profile", "accessed_at": "2026-11-11", "cycle": "general",
+        "evidence": "The live official parent profile lists Statistics, Economics and Business as the Bologna LM-82 second-cycle degree, with Italian and English delivery and Business Analytics among its curricula. It describes the programme as open access. The current profile has no 2027/28 marker or programme-specific admission dates and does not confirm a new cohort for that cycle.",
         "supports": ["program.parent_degree", "program.program_type", "program.language"],
     },
     {
@@ -1199,6 +1199,12 @@ BATCH14 = {
     "result": "Individually rechecked the existing Bologna BBS Green Management and Sustainable Businesses tracker record. Corrected its level to a first-level Professional Master track and confirmed its English delivery, 12-month/60-ECTS format and DISA collaboration. The official page currently displays an application deadline of 16 November 2026, written test on 18 November, interview on 19 November, enrollment by 1 December and January 2027 class start; it does not state the academic-year label and contains no 2027/28 text or call. Preserved those currently displayed dates, €13,800 tuition, €60 selection fee, €3,000/€5,000 partial awards, and Bachelor's/B2/test/interview requirements as current non-cycle-labelled information. Kept 2027/28 availability, exact application dates, fees, admissions requirements and scholarships pending; no current amount or deadline was carried forward. A fresh PowerShell GET with Cache-Control: no-cache returned HTTP 200 (177,197 bytes); the HTML did not contain a 2027/28 marker.",
 }
 
+BATCH15 = {
+    "id": "unibo-business-analytics-curriculum-live-profile-recheck",
+    "status": "partial",
+    "result": "Reopened the University of Bologna's official Statistics, Economics and Business parent-degree page and its Business Analytics curriculum profile. Confirmed the current LM-82 parent degree is in Bologna, open access, with Italian/English delivery; Business Analytics is a two-year English curriculum and not a separate degree, with all curriculum courses taught in English. Fresh PowerShell GET requests with Cache-Control: no-cache returned HTTP 200 for both pages (285,258 and 298,449 bytes). Neither page contains 2027/28 admissions information, so the exact 2027/28 intake, application dates, fees and requirements remain pending. Updated the existing record with current course identity while keeping its 2027/28 availability unconfirmed and preserving the separate BBS Professional Master classification.",
+}
+
 
 def _fact(value: Any, status: str, source_ids: list[str], notes: str | None = None) -> dict[str, Any]:
     return {"value": value, "status": status, "source_ids": source_ids, "notes": notes}
@@ -1303,6 +1309,19 @@ def apply_legacy_course_reviews(programs: list[dict[str, Any]], fact: Callable[.
             continue
         prior(by_id[pid], official_name=name, level=level, language=language, field=field_name,
               source_ids=sources, city=city, program_type=program_type)
+
+    business_analytics = by_id["legacy-022"]
+    business_analytics_sources = ["SRC-UNIBO-BA-CURRICULUM-2026", "SRC-UNIBO-BA-CURRICULUM-PARENT-2026", "SRC-UNIBO-BA-BBS-2026"]
+    business_analytics["level"] = _fact("MSc", "CONFIRMED", business_analytics_sources, "Business Analytics is a curriculum within the LM-82 Statistics, Economics and Business MSc; it is not a separate degree programme.")
+    business_analytics["language"] = _fact("English", "CONFIRMED", business_analytics_sources, "The current official curriculum profile says all courses in Business Analytics are taught in English.")
+    business_analytics["field"] = _fact("Statistics and Business Analytics", "CONFIRMED", business_analytics_sources)
+    business_analytics["availability_2027_2028"] = _fact(None, "NOT_YET_PUBLISHED", business_analytics_sources, "The current parent and curriculum profiles, checked 11 November 2026, contain no 2027/28 marker or course-specific admission call. This does not mean the curriculum is discontinued.")
+    business_analytics["overall_status"] = "REQUIRES_VERIFICATION"
+    business_analytics["source_ids"] = business_analytics_sources
+    business_analytics["previous_cycle_tags"] = None
+    business_analytics["facts"]["current_course_identity"] = _fact({"parent_degree":"Statistics, Economics and Business", "degree_class":"LM-82 - Statistics", "course_type":"Business Analytics curriculum; not a separate degree", "campus":"Bologna", "curriculum_language":"English", "parent_degree_languages":["Italian","English"], "curriculum_duration_years":2, "parent_access":"Open access"}, "CONFIRMED", ["SRC-UNIBO-BA-CURRICULUM-2026", "SRC-UNIBO-BA-CURRICULUM-PARENT-2026"], "The live course and curriculum pages confirm current identity and delivery but do not identify the 2027/28 admission cycle.")
+    business_analytics["facts"]["application_windows"] = _fact(None, "NOT_YET_PUBLISHED", business_analytics_sources, "No course-specific 2027/28 admission dates are published on the current parent/curriculum pages; the 2026/27 call is not reused.")
+    business_analytics["last_checked"] = "2026-11-11"
 
     green_management = by_id["legacy-028"]
     green_source = "SRC-UNIBO-BBS-GREEN-MGMT-2026"

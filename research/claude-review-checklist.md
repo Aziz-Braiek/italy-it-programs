@@ -2164,8 +2164,8 @@ Official university-level sources:
 - [ ] `SRC-UNIBO-AI-ADMISSIONS-2026` — [Artificial Intelligence – 2026/27 admission requirements and call](https://corsi.unibo.it/2cycle/artificial-intelligence/how-to-enrol) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-UNIBO-DHDK-PROFILE-2026` — [Digital Humanities and Digital Knowledge – official degree profile](https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge/) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-UNIBO-DHDK-ADMISSIONS-2026` — [Digital Humanities and Digital Knowledge – 2026/27 admission page](https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge/how-to-enrol) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
-- [ ] `SRC-UNIBO-BA-CURRICULUM-2026` — [Business Analytics – official curriculum profile](https://corsi.unibo.it/2cycle/BusinessAnalytics/overview) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
-- [ ] `SRC-UNIBO-BA-CURRICULUM-PARENT-2026` — [Statistics, Economics and Business – parent degree profile](https://corsi.unibo.it/2cycle/StatisticsEconomicsBusiness) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIBO-BA-CURRICULUM-2026` — [Business Analytics – current official curriculum profile](https://corsi.unibo.it/2cycle/BusinessAnalytics/overview) (cycle: general; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-UNIBO-BA-CURRICULUM-PARENT-2026` — [Statistics, Economics and Business – current parent degree profile](https://corsi.unibo.it/2cycle/StatisticsEconomicsBusiness) (cycle: general; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-UNIBO-MES-PROFILE-2026` — [Mechanical Engineering for Sustainability – official degree profile](https://corsi.unibo.it/2cycle/MechanicalEngineering-Forli) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-UNIBO-MES-ADMISSIONS-2026` — [Mechanical Engineering for Sustainability – 2026/27 admission page](https://corsi.unibo.it/2cycle/MechanicalEngineering-Forli/how-to-enrol) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-UNIBO-CLABE-PROFILE-2026` — [Business and Economics (CLaBE) – official degree profile](https://corsi.unibo.it/1cycle/CLaBE/Presentation) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
@@ -2251,17 +2251,17 @@ Currently missing or unpublished fields:
 
 #### Statistics, Economics and Business — Business Analytics curriculum — `legacy-022`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-022/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
-- [ ] `SRC-UNIBO-BA-CURRICULUM-2026` — [Business Analytics – official curriculum profile](https://corsi.unibo.it/2cycle/BusinessAnalytics/overview) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-UNIBO-BA-CURRICULUM-2026` — [Business Analytics – current official curriculum profile](https://corsi.unibo.it/2cycle/BusinessAnalytics/overview) (cycle: general; prior check: 2026-11-11)
 - [ ] `SRC-UNIBO-BA-BBS-2026` — [Business Analytics and Data Science – BBS professional-master classification](https://www.bbs.unibo.it/en/professional-masters-programs/) (cycle: 2026-2027; prior check: 2026-11-10)
-- [ ] `SRC-UNIBO-BA-CURRICULUM-PARENT-2026` — [Statistics, Economics and Business – parent degree profile](https://corsi.unibo.it/2cycle/StatisticsEconomicsBusiness) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-UNIBO-BA-CURRICULUM-PARENT-2026` — [Statistics, Economics and Business – current parent degree profile](https://corsi.unibo.it/2cycle/StatisticsEconomicsBusiness) (cycle: general; prior check: 2026-11-11)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
-  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — The current parent and curriculum profiles, checked 11 November 2026, contain no 2027/28 marker or course-specific admission call. This does not mean the curriculum is discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — No course-specific 2027/28 admission dates are published on the current parent/curriculum pages; the 2026/27 call is not reused.
   - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
   - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
   - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.

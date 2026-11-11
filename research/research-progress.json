@@ -252,6 +252,11 @@
       "result": "Individually rechecked the existing Bologna BBS Green Management and Sustainable Businesses tracker record. Corrected its level to a first-level Professional Master track and confirmed its English delivery, 12-month/60-ECTS format and DISA collaboration. The official page currently displays an application deadline of 16 November 2026, written test on 18 November, interview on 19 November, enrollment by 1 December and January 2027 class start; it does not state the academic-year label and contains no 2027/28 text or call. Preserved those currently displayed dates, €13,800 tuition, €60 selection fee, €3,000/€5,000 partial awards, and Bachelor's/B2/test/interview requirements as current non-cycle-labelled information. Kept 2027/28 availability, exact application dates, fees, admissions requirements and scholarships pending; no current amount or deadline was carried forward. A fresh PowerShell GET with Cache-Control: no-cache returned HTTP 200 (177,197 bytes); the HTML did not contain a 2027/28 marker."
     },
     {
+      "id": "unibo-business-analytics-curriculum-live-profile-recheck",
+      "status": "partial",
+      "result": "Reopened the University of Bologna's official Statistics, Economics and Business parent-degree page and its Business Analytics curriculum profile. Confirmed the current LM-82 parent degree is in Bologna, open access, with Italian/English delivery; Business Analytics is a two-year English curriculum and not a separate degree, with all curriculum courses taught in English. Fresh PowerShell GET requests with Cache-Control: no-cache returned HTTP 200 for both pages (285,258 and 298,449 bytes). Neither page contains 2027/28 admissions information, so the exact 2027/28 intake, application dates, fees and requirements remain pending. Updated the existing record with current course identity while keeping its 2027/28 availability unconfirmed and preserving the separate BBS Professional Master classification."
+    },
+    {
       "id": "claude-independent-review-inventory",
       "status": "complete",
       "result": "Created a review manifest and checklist covering all 34 universities, 193 programs, and 454 existing official source records. The checklist exposes current unresolved fields and conflicts; all refresh outcomes remain pending until evidence is checked."
@@ -322,7 +327,7 @@
     "programs_fully_verified": 34,
     "programs_requiring_verification": 172,
     "programs_not_offered_2027_2028": 3,
-    "programs_supported_only_by_previous_cycle": 155,
+    "programs_supported_only_by_previous_cycle": 154,
     "program_ids_supported_only_by_previous_cycle": [
       "discovered-023",
       "discovered-024",
@@ -348,7 +353,6 @@
       "legacy-018",
       "legacy-019",
       "legacy-021",
-      "legacy-022",
       "legacy-024",
       "legacy-025",
       "legacy-026",
@@ -558,7 +562,7 @@
       "udine"
     ],
     "source_records": 583,
-    "official_source_supported_fields": 1234,
+    "official_source_supported_fields": 1238,
     "verification_statuses": [
       "CONFIRMED",
       "NOT_YET_PUBLISHED",

@@ -53,7 +53,7 @@
   "programs_fully_verified": 34,
   "programs_requiring_verification": 172,
   "programs_not_offered_2027_2028": 3,
-  "programs_supported_only_by_previous_cycle": 155,
+  "programs_supported_only_by_previous_cycle": 154,
   "program_ids_supported_only_by_previous_cycle": [
     "discovered-023",
     "discovered-024",
@@ -79,7 +79,6 @@
     "legacy-018",
     "legacy-019",
     "legacy-021",
-    "legacy-022",
     "legacy-024",
     "legacy-025",
     "legacy-026",
@@ -289,7 +288,7 @@
     "udine"
   ],
   "source_records": 583,
-  "official_source_supported_fields": 1234,
+  "official_source_supported_fields": 1238,
   "verification_statuses": [
     "CONFIRMED",
     "NOT_YET_PUBLISHED",

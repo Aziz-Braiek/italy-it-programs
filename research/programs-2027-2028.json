@@ -4043,33 +4043,33 @@
     "program": "Statistics, Economics and Business — Business Analytics curriculum",
     "level": {
       "value": "MSc",
-      "status": "REQUIRES_VERIFICATION",
+      "status": "CONFIRMED",
       "source_ids": [
         "SRC-UNIBO-BA-CURRICULUM-2026",
         "SRC-UNIBO-BA-CURRICULUM-PARENT-2026",
         "SRC-UNIBO-BA-BBS-2026"
       ],
-      "notes": "Official course identity is confirmed for the 2026/2027 catalogue; this value is not promoted to 2027/28 without a named-cycle source."
+      "notes": "Business Analytics is a curriculum within the LM-82 Statistics, Economics and Business MSc; it is not a separate degree programme."
     },
     "language": {
       "value": "English",
-      "status": "REQUIRES_VERIFICATION",
+      "status": "CONFIRMED",
       "source_ids": [
         "SRC-UNIBO-BA-CURRICULUM-2026",
         "SRC-UNIBO-BA-CURRICULUM-PARENT-2026",
         "SRC-UNIBO-BA-BBS-2026"
       ],
-      "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
+      "notes": "The current official curriculum profile says all courses in Business Analytics are taught in English."
     },
     "field": {
       "value": "Statistics and Business Analytics",
-      "status": "REQUIRES_VERIFICATION",
+      "status": "CONFIRMED",
       "source_ids": [
         "SRC-UNIBO-BA-CURRICULUM-2026",
         "SRC-UNIBO-BA-CURRICULUM-PARENT-2026",
         "SRC-UNIBO-BA-BBS-2026"
       ],
-      "notes": "Course subject identity is based on current official profile/catalogue evidence; next-cycle catalogue not yet verified."
+      "notes": null
     },
     "availability_2027_2028": {
       "value": null,
@@ -4079,7 +4079,7 @@
         "SRC-UNIBO-BA-CURRICULUM-PARENT-2026",
         "SRC-UNIBO-BA-BBS-2026"
       ],
-      "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued."
+      "notes": "The current parent and curriculum profiles, checked 11 November 2026, contain no 2027/28 marker or course-specific admission call. This does not mean the curriculum is discontinued."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
@@ -4108,7 +4108,7 @@
           "SRC-UNIBO-BA-CURRICULUM-PARENT-2026",
           "SRC-UNIBO-BA-BBS-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates."
+        "notes": "No course-specific 2027/28 admission dates are published on the current parent/curriculum pages; the 2026/27 call is not reused."
       },
       "application_fee_2027_2028": {
         "value": null,
@@ -4159,6 +4159,27 @@
           "SRC-UNIBO-BA-BBS-2026"
         ],
         "notes": "The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred."
+      },
+      "current_course_identity": {
+        "value": {
+          "parent_degree": "Statistics, Economics and Business",
+          "degree_class": "LM-82 - Statistics",
+          "course_type": "Business Analytics curriculum; not a separate degree",
+          "campus": "Bologna",
+          "curriculum_language": "English",
+          "parent_degree_languages": [
+            "Italian",
+            "English"
+          ],
+          "curriculum_duration_years": 2,
+          "parent_access": "Open access"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-BA-CURRICULUM-2026",
+          "SRC-UNIBO-BA-CURRICULUM-PARENT-2026"
+        ],
+        "notes": "The live course and curriculum pages confirm current identity and delivery but do not identify the 2027/28 admission cycle."
       }
     },
     "source_ids": [
@@ -4172,14 +4193,8 @@
       "field": "Data Science",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
-    "previous_cycle_tags": {
-      "level": "MSc",
-      "language": "English",
-      "field": "Statistics and Business Analytics",
-      "cycle": "2026-2027",
-      "label": "Official course identity checked for 2026/2027; 2027/28 first-year intake and terms remain unconfirmed"
-    },
-    "last_checked": "2026-11-10"
+    "previous_cycle_tags": null,
+    "last_checked": "2026-11-11"
   },
   {
     "id": "legacy-023",

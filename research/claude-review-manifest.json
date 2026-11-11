@@ -9747,12 +9747,12 @@
         },
         {
           "id": "SRC-UNIBO-BA-CURRICULUM-2026",
-          "title": "Business Analytics – official curriculum profile",
+          "title": "Business Analytics – current official curriculum profile",
           "url": "https://corsi.unibo.it/2cycle/BusinessAnalytics/overview",
           "source_type": "Official curriculum profile",
-          "cycle": "2026-2027",
-          "accessed_at": "2026-11-10",
-          "evidence": "Identifies Business Analytics as an English-language curriculum within the two-year MSc Statistics, Economics and Business (LM-82), taught in Bologna; it is not a separate degree programme.",
+          "cycle": "general",
+          "accessed_at": "2026-11-11",
+          "evidence": "The live official profile identifies Business Analytics as an English-language curriculum within the two-year Second Cycle Degree in Statistics, Economics and Business (LM-82), taught in Bologna; it is not a separate degree programme. It says all courses in the curriculum are taught in English and the parent degree is open access. The current page has no 2027/28 marker or cycle-specific admissions call, so it supports identity, language, location and curriculum structure only, not new-entry availability or annual admission terms.",
           "supports": [
             "program.name",
             "program.level",
@@ -9764,34 +9764,40 @@
           "url_check": {
             "http_status": 200,
             "effective_url": "https://corsi.unibo.it/2cycle/BusinessAnalytics/overview",
-            "content_type": "text/html;charset=utf-8",
+            "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
-            "cache_control": "max-age=0, s-maxage=0, must-revalidate",
-            "age": "229",
+            "cache_control": null,
+            "age": null,
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
             "observed_title": "Overview — Business Analytics - Curriculum - Bologna",
             "pdf_signature": null,
             "has_2027_marker": false,
-            "bytes_read": 131072,
+            "bytes_read": 298449,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
-            "method": "GET"
+            "checked_at": "2026-11-11",
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
           },
-          "browser_check": null
+          "browser_check": {
+            "outcome": "accessible",
+            "checked_at": "2026-11-11",
+            "method": "Codex web reader open and find",
+            "observed_title": "Overview — Business Analytics - Curriculum - Bologna",
+            "notes": "Current official parent/curriculum profiles retrieved. They confirm degree/curriculum identity but include no 2027/28 admissions information."
+          }
         },
         {
           "id": "SRC-UNIBO-BA-CURRICULUM-PARENT-2026",
-          "title": "Statistics, Economics and Business – parent degree profile",
+          "title": "Statistics, Economics and Business – current parent degree profile",
           "url": "https://corsi.unibo.it/2cycle/StatisticsEconomicsBusiness",
           "source_type": "Official degree programme profile",
-          "cycle": "2026-2027",
-          "accessed_at": "2026-11-10",
-          "evidence": "Lists Statistics, Economics and Business as the degree programme and Business Analytics among its curricula; the parent degree has Italian and English delivery and is based in Bologna.",
+          "cycle": "general",
+          "accessed_at": "2026-11-11",
+          "evidence": "The live official parent profile lists Statistics, Economics and Business as the Bologna LM-82 second-cycle degree, with Italian and English delivery and Business Analytics among its curricula. It describes the programme as open access. The current profile has no 2027/28 marker or programme-specific admission dates and does not confirm a new cohort for that cycle.",
           "supports": [
             "program.parent_degree",
             "program.program_type",
@@ -9801,25 +9807,31 @@
           "url_check": {
             "http_status": 200,
             "effective_url": "https://corsi.unibo.it/2cycle/StatisticsEconomicsBusiness",
-            "content_type": "text/html;charset=utf-8",
+            "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
-            "cache_control": "max-age=0, s-maxage=0, must-revalidate",
-            "age": "463",
+            "cache_control": null,
+            "age": null,
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
             "observed_title": "Statistics, Economics and Business - Laurea Magistrale - Bologna",
             "pdf_signature": null,
             "has_2027_marker": false,
-            "bytes_read": 131072,
+            "bytes_read": 285258,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
-            "method": "GET"
+            "checked_at": "2026-11-11",
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
           },
-          "browser_check": null
+          "browser_check": {
+            "outcome": "accessible",
+            "checked_at": "2026-11-11",
+            "method": "Codex web reader open and find",
+            "observed_title": "Statistics, Economics and Business - Laurea Magistrale - Bologna",
+            "notes": "Current official parent/curriculum profiles retrieved. They confirm degree/curriculum identity but include no 2027/28 admissions information."
+          }
         },
         {
           "id": "SRC-UNIBO-MES-PROFILE-2026",
@@ -58161,35 +58173,35 @@
       "program": "Statistics, Economics and Business — Business Analytics curriculum",
       "level": {
         "value": "MSc",
-        "status": "REQUIRES_VERIFICATION",
+        "status": "CONFIRMED",
         "source_ids": [
           "SRC-UNIBO-BA-CURRICULUM-2026",
           "SRC-UNIBO-BA-CURRICULUM-PARENT-2026",
           "SRC-UNIBO-BA-BBS-2026"
         ],
-        "notes": "Official course identity is confirmed for the 2026/2027 catalogue; this value is not promoted to 2027/28 without a named-cycle source."
+        "notes": "Business Analytics is a curriculum within the LM-82 Statistics, Economics and Business MSc; it is not a separate degree programme."
       },
       "language": {
         "value": "English",
-        "status": "REQUIRES_VERIFICATION",
+        "status": "CONFIRMED",
         "source_ids": [
           "SRC-UNIBO-BA-CURRICULUM-2026",
           "SRC-UNIBO-BA-CURRICULUM-PARENT-2026",
           "SRC-UNIBO-BA-BBS-2026"
         ],
-        "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
+        "notes": "The current official curriculum profile says all courses in Business Analytics are taught in English."
       },
       "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-022/",
       "university_page_url": "https://italy-it-programs.vercel.app/universities/bologna/",
       "official_program_source_urls": [
         {
           "id": "SRC-UNIBO-BA-CURRICULUM-2026",
-          "title": "Business Analytics – official curriculum profile",
+          "title": "Business Analytics – current official curriculum profile",
           "url": "https://corsi.unibo.it/2cycle/BusinessAnalytics/overview",
           "source_type": "Official curriculum profile",
-          "cycle": "2026-2027",
-          "accessed_at": "2026-11-10",
-          "evidence": "Identifies Business Analytics as an English-language curriculum within the two-year MSc Statistics, Economics and Business (LM-82), taught in Bologna; it is not a separate degree programme.",
+          "cycle": "general",
+          "accessed_at": "2026-11-11",
+          "evidence": "The live official profile identifies Business Analytics as an English-language curriculum within the two-year Second Cycle Degree in Statistics, Economics and Business (LM-82), taught in Bologna; it is not a separate degree programme. It says all courses in the curriculum are taught in English and the parent degree is open access. The current page has no 2027/28 marker or cycle-specific admissions call, so it supports identity, language, location and curriculum structure only, not new-entry availability or annual admission terms.",
           "supports": [
             "program.name",
             "program.level",
@@ -58201,25 +58213,31 @@
           "url_check": {
             "http_status": 200,
             "effective_url": "https://corsi.unibo.it/2cycle/BusinessAnalytics/overview",
-            "content_type": "text/html;charset=utf-8",
+            "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
-            "cache_control": "max-age=0, s-maxage=0, must-revalidate",
-            "age": "229",
+            "cache_control": null,
+            "age": null,
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
             "observed_title": "Overview — Business Analytics - Curriculum - Bologna",
             "pdf_signature": null,
             "has_2027_marker": false,
-            "bytes_read": 131072,
+            "bytes_read": 298449,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
-            "method": "GET"
+            "checked_at": "2026-11-11",
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
           },
-          "browser_check": null
+          "browser_check": {
+            "outcome": "accessible",
+            "checked_at": "2026-11-11",
+            "method": "Codex web reader open and find",
+            "observed_title": "Overview — Business Analytics - Curriculum - Bologna",
+            "notes": "Current official parent/curriculum profiles retrieved. They confirm degree/curriculum identity but include no 2027/28 admissions information."
+          }
         },
         {
           "id": "SRC-UNIBO-BA-BBS-2026",
@@ -58259,12 +58277,12 @@
         },
         {
           "id": "SRC-UNIBO-BA-CURRICULUM-PARENT-2026",
-          "title": "Statistics, Economics and Business – parent degree profile",
+          "title": "Statistics, Economics and Business – current parent degree profile",
           "url": "https://corsi.unibo.it/2cycle/StatisticsEconomicsBusiness",
           "source_type": "Official degree programme profile",
-          "cycle": "2026-2027",
-          "accessed_at": "2026-11-10",
-          "evidence": "Lists Statistics, Economics and Business as the degree programme and Business Analytics among its curricula; the parent degree has Italian and English delivery and is based in Bologna.",
+          "cycle": "general",
+          "accessed_at": "2026-11-11",
+          "evidence": "The live official parent profile lists Statistics, Economics and Business as the Bologna LM-82 second-cycle degree, with Italian and English delivery and Business Analytics among its curricula. It describes the programme as open access. The current profile has no 2027/28 marker or programme-specific admission dates and does not confirm a new cohort for that cycle.",
           "supports": [
             "program.parent_degree",
             "program.program_type",
@@ -58274,25 +58292,31 @@
           "url_check": {
             "http_status": 200,
             "effective_url": "https://corsi.unibo.it/2cycle/StatisticsEconomicsBusiness",
-            "content_type": "text/html;charset=utf-8",
+            "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
-            "cache_control": "max-age=0, s-maxage=0, must-revalidate",
-            "age": "463",
+            "cache_control": null,
+            "age": null,
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
             "observed_title": "Statistics, Economics and Business - Laurea Magistrale - Bologna",
             "pdf_signature": null,
             "has_2027_marker": false,
-            "bytes_read": 131072,
+            "bytes_read": 285258,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
-            "method": "GET"
+            "checked_at": "2026-11-11",
+            "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
           },
-          "browser_check": null
+          "browser_check": {
+            "outcome": "accessible",
+            "checked_at": "2026-11-11",
+            "method": "Codex web reader open and find",
+            "observed_title": "Statistics, Economics and Business - Laurea Magistrale - Bologna",
+            "notes": "Current official parent/curriculum profiles retrieved. They confirm degree/curriculum identity but include no 2027/28 admissions information."
+          }
         }
       ],
       "availability_2027_2028": {
@@ -58303,49 +58327,16 @@
           "SRC-UNIBO-BA-CURRICULUM-PARENT-2026",
           "SRC-UNIBO-BA-BBS-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued."
+        "notes": "The current parent and curriculum profiles, checked 11 November 2026, contain no 2027/28 marker or course-specific admission call. This does not mean the curriculum is discontinued."
       },
       "existing_overall_status": "REQUIRES_VERIFICATION",
-      "existing_last_checked": "2026-11-10",
+      "existing_last_checked": "2026-11-11",
       "fields_needing_review": [
-        {
-          "field": "level",
-          "status": "REQUIRES_VERIFICATION",
-          "value": "MSc",
-          "notes": "Official course identity is confirmed for the 2026/2027 catalogue; this value is not promoted to 2027/28 without a named-cycle source.",
-          "source_ids": [
-            "SRC-UNIBO-BA-CURRICULUM-2026",
-            "SRC-UNIBO-BA-CURRICULUM-PARENT-2026",
-            "SRC-UNIBO-BA-BBS-2026"
-          ]
-        },
-        {
-          "field": "language",
-          "status": "REQUIRES_VERIFICATION",
-          "value": "English",
-          "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record.",
-          "source_ids": [
-            "SRC-UNIBO-BA-CURRICULUM-2026",
-            "SRC-UNIBO-BA-CURRICULUM-PARENT-2026",
-            "SRC-UNIBO-BA-BBS-2026"
-          ]
-        },
-        {
-          "field": "field",
-          "status": "REQUIRES_VERIFICATION",
-          "value": "Statistics and Business Analytics",
-          "notes": "Course subject identity is based on current official profile/catalogue evidence; next-cycle catalogue not yet verified.",
-          "source_ids": [
-            "SRC-UNIBO-BA-CURRICULUM-2026",
-            "SRC-UNIBO-BA-CURRICULUM-PARENT-2026",
-            "SRC-UNIBO-BA-BBS-2026"
-          ]
-        },
         {
           "field": "availability_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.",
+          "notes": "The current parent and curriculum profiles, checked 11 November 2026, contain no 2027/28 marker or course-specific admission call. This does not mean the curriculum is discontinued.",
           "source_ids": [
             "SRC-UNIBO-BA-CURRICULUM-2026",
             "SRC-UNIBO-BA-CURRICULUM-PARENT-2026",
@@ -58356,7 +58347,7 @@
           "field": "facts.application_windows",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.",
+          "notes": "No course-specific 2027/28 admission dates are published on the current parent/curriculum pages; the 2026/27 call is not reused.",
           "source_ids": [
             "SRC-UNIBO-BA-CURRICULUM-2026",
             "SRC-UNIBO-BA-CURRICULUM-PARENT-2026",
@@ -58424,7 +58415,7 @@
           "field": "availability_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.",
+          "notes": "The current parent and curriculum profiles, checked 11 November 2026, contain no 2027/28 marker or course-specific admission call. This does not mean the curriculum is discontinued.",
           "source_ids": [
             "SRC-UNIBO-BA-CURRICULUM-2026",
             "SRC-UNIBO-BA-CURRICULUM-PARENT-2026",
@@ -58435,7 +58426,7 @@
           "field": "facts.application_windows",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.",
+          "notes": "No course-specific 2027/28 admission dates are published on the current parent/curriculum pages; the 2026/27 call is not reused.",
           "source_ids": [
             "SRC-UNIBO-BA-CURRICULUM-2026",
             "SRC-UNIBO-BA-CURRICULUM-PARENT-2026",
@@ -58504,13 +58495,7 @@
         "SRC-UNIBO-BA-CURRICULUM-PARENT-2026",
         "SRC-UNIBO-BA-BBS-2026"
       ],
-      "previous_cycle_tags": {
-        "level": "MSc",
-        "language": "English",
-        "field": "Statistics and Business Analytics",
-        "cycle": "2026-2027",
-        "label": "Official course identity checked for 2026/2027; 2027/28 first-year intake and terms remain unconfirmed"
-      },
+      "previous_cycle_tags": null,
       "refresh_status": "pending",
       "refresh_checked_at": null,
       "refresh_outcome": null
@@ -122445,12 +122430,12 @@
     },
     {
       "id": "SRC-UNIBO-BA-CURRICULUM-2026",
-      "title": "Business Analytics – official curriculum profile",
+      "title": "Business Analytics – current official curriculum profile",
       "url": "https://corsi.unibo.it/2cycle/BusinessAnalytics/overview",
       "source_type": "Official curriculum profile",
-      "cycle": "2026-2027",
-      "accessed_at": "2026-11-10",
-      "evidence": "Identifies Business Analytics as an English-language curriculum within the two-year MSc Statistics, Economics and Business (LM-82), taught in Bologna; it is not a separate degree programme.",
+      "cycle": "general",
+      "accessed_at": "2026-11-11",
+      "evidence": "The live official profile identifies Business Analytics as an English-language curriculum within the two-year Second Cycle Degree in Statistics, Economics and Business (LM-82), taught in Bologna; it is not a separate degree programme. It says all courses in the curriculum are taught in English and the parent degree is open access. The current page has no 2027/28 marker or cycle-specific admissions call, so it supports identity, language, location and curriculum structure only, not new-entry availability or annual admission terms.",
       "supports": [
         "program.name",
         "program.level",
@@ -122462,34 +122447,40 @@
       "url_check": {
         "http_status": 200,
         "effective_url": "https://corsi.unibo.it/2cycle/BusinessAnalytics/overview",
-        "content_type": "text/html;charset=utf-8",
+        "content_type": "text/html; charset=utf-8",
         "content_length_header": null,
         "etag": null,
         "last_modified": null,
-        "cache_control": "max-age=0, s-maxage=0, must-revalidate",
-        "age": "229",
+        "cache_control": null,
+        "age": null,
         "x_vercel_cache": null,
         "x_vercel_id": null,
         "location": null,
         "observed_title": "Overview — Business Analytics - Curriculum - Bologna",
         "pdf_signature": null,
         "has_2027_marker": false,
-        "bytes_read": 131072,
+        "bytes_read": 298449,
         "outcome": "accessible",
         "error": null,
-        "checked_at": "2026-11-10",
-        "method": "GET"
+        "checked_at": "2026-11-11",
+        "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
       },
-      "browser_check": null
+      "browser_check": {
+        "outcome": "accessible",
+        "checked_at": "2026-11-11",
+        "method": "Codex web reader open and find",
+        "observed_title": "Overview — Business Analytics - Curriculum - Bologna",
+        "notes": "Current official parent/curriculum profiles retrieved. They confirm degree/curriculum identity but include no 2027/28 admissions information."
+      }
     },
     {
       "id": "SRC-UNIBO-BA-CURRICULUM-PARENT-2026",
-      "title": "Statistics, Economics and Business – parent degree profile",
+      "title": "Statistics, Economics and Business – current parent degree profile",
       "url": "https://corsi.unibo.it/2cycle/StatisticsEconomicsBusiness",
       "source_type": "Official degree programme profile",
-      "cycle": "2026-2027",
-      "accessed_at": "2026-11-10",
-      "evidence": "Lists Statistics, Economics and Business as the degree programme and Business Analytics among its curricula; the parent degree has Italian and English delivery and is based in Bologna.",
+      "cycle": "general",
+      "accessed_at": "2026-11-11",
+      "evidence": "The live official parent profile lists Statistics, Economics and Business as the Bologna LM-82 second-cycle degree, with Italian and English delivery and Business Analytics among its curricula. It describes the programme as open access. The current profile has no 2027/28 marker or programme-specific admission dates and does not confirm a new cohort for that cycle.",
       "supports": [
         "program.parent_degree",
         "program.program_type",
@@ -122499,25 +122490,31 @@
       "url_check": {
         "http_status": 200,
         "effective_url": "https://corsi.unibo.it/2cycle/StatisticsEconomicsBusiness",
-        "content_type": "text/html;charset=utf-8",
+        "content_type": "text/html; charset=utf-8",
         "content_length_header": null,
         "etag": null,
         "last_modified": null,
-        "cache_control": "max-age=0, s-maxage=0, must-revalidate",
-        "age": "463",
+        "cache_control": null,
+        "age": null,
         "x_vercel_cache": null,
         "x_vercel_id": null,
         "location": null,
         "observed_title": "Statistics, Economics and Business - Laurea Magistrale - Bologna",
         "pdf_signature": null,
         "has_2027_marker": false,
-        "bytes_read": 131072,
+        "bytes_read": 285258,
         "outcome": "accessible",
         "error": null,
-        "checked_at": "2026-11-10",
-        "method": "GET"
+        "checked_at": "2026-11-11",
+        "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
       },
-      "browser_check": null
+      "browser_check": {
+        "outcome": "accessible",
+        "checked_at": "2026-11-11",
+        "method": "Codex web reader open and find",
+        "observed_title": "Statistics, Economics and Business - Laurea Magistrale - Bologna",
+        "notes": "Current official parent/curriculum profiles retrieved. They confirm degree/curriculum identity but include no 2027/28 admissions information."
+      }
     },
     {
       "id": "SRC-UNIBO-MES-PROFILE-2026",
