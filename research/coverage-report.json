@@ -45,12 +45,12 @@
   ],
   "universities_program_level_review_not_started": 0,
   "university_ids_with_program_level_review_not_started": [],
-  "program_records": 201,
+  "program_records": 202,
   "prior_tracker_programs_archived": 165,
-  "newly_discovered_programs": 36,
-  "programs_cycle_availability_confirmed": 30,
+  "newly_discovered_programs": 37,
+  "programs_cycle_availability_confirmed": 31,
   "programs_availability_pending": 168,
-  "programs_fully_verified": 25,
+  "programs_fully_verified": 26,
   "programs_requiring_verification": 173,
   "programs_not_offered_2027_2028": 3,
   "programs_supported_only_by_previous_cycle": 157,
@@ -214,7 +214,7 @@
     "legacy-165"
   ],
   "bsc_programs_verified": 1,
-  "msc_programs_verified": 24,
+  "msc_programs_verified": 25,
   "universities_with_confirmed_deadline_windows": 9,
   "university_ids_with_confirmed_deadline_windows": [
     "bologna",
@@ -289,8 +289,8 @@
     "trento",
     "udine"
   ],
-  "source_records": 565,
-  "official_source_supported_fields": 1118,
+  "source_records": 567,
+  "official_source_supported_fields": 1128,
   "verification_statuses": [
     "CONFIRMED",
     "NOT_YET_PUBLISHED",

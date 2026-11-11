@@ -37042,5 +37042,207 @@
     "previous_tracker_tags": null,
     "previous_cycle_tags": null,
     "last_checked": "2026-11-11"
+  },
+  {
+    "id": "discovered-037",
+    "university_id": "padova",
+    "university": "Università degli Studi di Padova",
+    "city": "Padua",
+    "program": "Astrophysics and Cosmology",
+    "level": {
+      "value": "MSc",
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-PADUA-ASTROPHYSICS-COURSE-PROFILE-2027"
+      ],
+      "notes": null
+    },
+    "language": {
+      "value": "English",
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-PADUA-ASTROPHYSICS-COURSE-PROFILE-2027"
+      ],
+      "notes": null
+    },
+    "field": {
+      "value": "Astrophysics and Cosmology",
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-PADUA-ASTROPHYSICS-COURSE-PROFILE-2027"
+      ],
+      "notes": null
+    },
+    "availability_2027_2028": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-PADUA-ASTROPHYSICS-2027-CALL"
+      ],
+      "notes": "A named first call confirms 2027/28 entry for applicants with an international Bachelor's degree. This does not confirm the 2027/28 domestic-qualification call or make admission automatic."
+    },
+    "overall_status": "CONFIRMED",
+    "discovery_source": "newly_discovered",
+    "facts": {
+      "official_course_profile": {
+        "value": {
+          "academic_year": "current official course profile",
+          "degree_class": [
+            "LM-17 R - Physics",
+            "LM-58 R - Sciences of the Universe"
+          ],
+          "duration_years": 2,
+          "campus": "Padua",
+          "language": "English",
+          "access": "Open admission with requirements"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADUA-ASTROPHYSICS-COURSE-PROFILE-2027"
+        ],
+        "notes": null
+      },
+      "application_windows": {
+        "value": [
+          {
+            "start": null,
+            "end": "2026-11-15",
+            "round": "First call",
+            "eligible_group": "Applicants with an international Bachelor's degree seeking entry in AY 2027/28"
+          }
+        ],
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADUA-ASTROPHYSICS-2027-CALL"
+        ],
+        "notes": "The course-specific Department notice gives the first-call deadline but not the opening date. The open window is scoped to international degree holders; domestic-degree applicants follow a separate notice."
+      },
+      "application_route": {
+        "value": "apply.unipd.it",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADUA-ASTROPHYSICS-COURSE-PROFILE-2027",
+          "SRC-PADUA-ASTROPHYSICS-2027-CALL"
+        ],
+        "notes": "The official profile links the University application portal; the Department call directs eligible international Bachelor's degree holders to apply there."
+      },
+      "application_fee_2027_2028": {
+        "value": {
+          "amount_eur": 60,
+          "non_refundable": true,
+          "maximum_programmes": 2
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADUA-STUDY-ENGLISH-APPLY-ITALIAN-2027"
+        ],
+        "notes": "University international application procedure; the course call confirms this programme's participation in the international application route."
+      },
+      "applicant_scope_2027_2028": {
+        "value": {
+          "confirmed_group": "Applicants with an international Bachelor's degree, including those graduating by July 2027",
+          "course_start": "October 2027",
+          "domestic_degree_call": "Not verified"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADUA-ASTROPHYSICS-2027-CALL"
+        ],
+        "notes": null
+      },
+      "published_course_requirements_not_cycle_labeled": {
+        "value": {
+          "physics_credits_ects": 24,
+          "physics_sectors": "FIS/01-07",
+          "mathematics_credits_ects": 24,
+          "mathematics_sectors": "MAT/01-09",
+          "assessment": "Foreign qualifications assessed by an admission committee; a remote interview may be used"
+        },
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-PADUA-ASTROPHYSICS-2027-CALL"
+        ],
+        "notes": "These criteria appear on the Department admissions page but are not explicitly tied to AY 2027/28. Do not present them as confirmed annual requirements until the relevant 2027/28 call or regulation confirms them."
+      },
+      "program_specific_requirements_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-PADUA-ASTROPHYSICS-2027-CALL"
+        ],
+        "notes": "The reviewed call page does not explicitly date the listed 24-ECTS subject thresholds to AY 2027/28; verify against the course's annual regulation."
+      },
+      "english_certificate_requirement_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-PADUA-ASTROPHYSICS-COURSE-PROFILE-2027",
+          "SRC-PADUA-ASTROPHYSICS-2027-CALL"
+        ],
+        "notes": "The course profile confirms English delivery, but the reviewed first-call page does not specify a 2027/28 English certificate threshold. No earlier-cycle B2 claim is carried forward."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-PADUA-TUITION-2026"
+        ],
+        "notes": "The latest official Padua fee page reviewed links 2026/27 tariffs only; no 2027/28 programme fee is confirmed. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed."
+      },
+      "acceptance_rate": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-PADUA-ASTROPHYSICS-2027-CALL"
+        ],
+        "notes": "No comparable applicant and admitted-student totals are published in the reviewed sources; no acceptance rate is inferred."
+      },
+      "scholarships_2027_2028": {
+        "value": {
+          "name": "Padua International Excellence Scholarship",
+          "academic_year": "2027/28",
+          "university_allocation_eur": 1432200,
+          "maximum_awards": 76,
+          "target": "Highest-ranked candidate per English-taught degree/curriculum, including newly activated programmes",
+          "gross_eur_per_year": 8000,
+          "university_tuition_fee_exemption": true,
+          "remaining_fees": [
+            "Regional fee",
+            "Revenue stamp"
+          ],
+          "maximum_duration_years": {
+            "MSc": 2,
+            "BSc": 3,
+            "single_cycle": 3
+          },
+          "award_conditions": "Competitive; selection and renewal subject to the forthcoming 2027/28 annual call"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
+          "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
+        ],
+        "notes": "For this record, an active 2027/28 English-taught intake is confirmed; the University has approved the headline scholarship scheme. Awards are competitive and not guaranteed; annual call eligibility and course-level allocation remain to be checked."
+      },
+      "scholarship_call_details_2027_2028": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
+        ],
+        "notes": "The official programme page says the 2027/28 annual call will be published in November 2026; as checked on 11 November the page still links the 2026/27 call. Confirm final eligibility, application/selection process and renewal criteria when the new notice appears."
+      }
+    },
+    "source_ids": [
+      "SRC-PADUA-ASTROPHYSICS-COURSE-PROFILE-2027",
+      "SRC-PADUA-ASTROPHYSICS-2027-CALL",
+      "SRC-PADUA-STUDY-ENGLISH-APPLY-ITALIAN-2027",
+      "SRC-PADUA-TUITION-2026",
+      "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
+      "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
+    ],
+    "previous_tracker_tags": null,
+    "previous_cycle_tags": null,
+    "last_checked": "2026-11-11"
   }
 ]

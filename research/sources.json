@@ -32,7 +32,7 @@
       "bytes_read": 131072,
       "outcome": "accessible",
       "error": null,
-      "checked_at": "2026-11-10",
+      "checked_at": "2026-11-11",
       "method": "GET"
     }
   },
@@ -56,7 +56,7 @@
       "http_status": 200,
       "effective_url": "https://www.dissgea.unipd.it/en/en/international-students-202728-applications",
       "content_type": "text/html; charset=utf-8",
-      "content_length_header": "31067",
+      "content_length_header": null,
       "etag": null,
       "last_modified": null,
       "cache_control": "no-cache, must-revalidate",
@@ -70,7 +70,7 @@
       "bytes_read": 31067,
       "outcome": "accessible",
       "error": null,
-      "checked_at": "2026-11-10",
+      "checked_at": "2026-11-11",
       "method": "GET"
     }
   },
@@ -16251,6 +16251,90 @@
     }
   },
   {
+    "id": "SRC-PADUA-ASTROPHYSICS-COURSE-PROFILE-2027",
+    "university_id": "padova",
+    "title": "Astrophysics and Cosmology – official degree profile",
+    "url": "https://www.unipd.it/en/corsi-di-laurea/astrophysics-and-cosmology",
+    "source_type": "Official University degree programme profile",
+    "accessed_at": "2026-11-11",
+    "cycle": "general",
+    "evidence": "The current official University profile identifies Astrophysics and Cosmology as an English-taught two-year Master's Degree in Padua, open admission with requirements, in degree classes LM-17 R Physics and LM-58 R Sciences of the Universe. The current profile establishes identity and general course characteristics, while the separate Department notice supplies the named 2027/28 international call.",
+    "supports": [
+      "program.name",
+      "program.level",
+      "program.language",
+      "program.location",
+      "program.duration",
+      "program.access",
+      "program.degree_class"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://www.unipd.it/en/corsi-di-laurea/astrophysics-and-cosmology",
+      "content_type": "text/html; charset=utf-8",
+      "content_length_header": null,
+      "etag": null,
+      "last_modified": null,
+      "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate",
+      "age": null,
+      "x_vercel_cache": null,
+      "x_vercel_id": null,
+      "location": null,
+      "observed_title": "ASTROPHYSICS AND COSMOLOGY | Università di Padova",
+      "pdf_signature": null,
+      "has_2027_marker": false,
+      "bytes_read": 131072,
+      "outcome": "accessible",
+      "error": null,
+      "checked_at": "2026-11-11",
+      "method": "GET"
+    }
+  },
+  {
+    "id": "SRC-PADUA-ASTROPHYSICS-2027-CALL",
+    "university_id": "padova",
+    "title": "Astrophysics and Cosmology – 2027/28 international application call and requirements",
+    "url": "https://astrophysics-and-cosmology.dfa.unipd.it/masters-degree/application-and-admission-requirements/",
+    "source_type": "Official Department programme and international admissions page",
+    "accessed_at": "2026-11-11",
+    "cycle": "2027-2028",
+    "evidence": "The official Department page says the first international call is open for applicants with an international Bachelor's degree who seek entry in AY 2027/28 (October 2027), with a 15 November 2026 deadline. It also publishes course entry criteria of 24 ECTS in Physics and 24 ECTS in Mathematics and committee assessment/interview details, but those criteria are not explicitly labelled for 2027/28. Official search results exposed the page content, but direct content retrieval and the fresh HTTP check were inconclusive on 11 November; do not classify the URL as broken. The page also contains prior-cycle 2026/27 information, which is not treated as current-cycle evidence.",
+    "supports": [
+      "program.availability_2027_2028",
+      "program.application_deadline",
+      "program.applicant_scope",
+      "program.admission_requirements"
+    ],
+    "url_check": {
+      "http_status": null,
+      "effective_url": null,
+      "content_type": null,
+      "content_length_header": null,
+      "etag": null,
+      "last_modified": null,
+      "cache_control": null,
+      "age": null,
+      "x_vercel_cache": null,
+      "x_vercel_id": null,
+      "location": null,
+      "observed_title": null,
+      "pdf_signature": null,
+      "has_2027_marker": null,
+      "bytes_read": 0,
+      "outcome": "inconclusive",
+      "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
+      "retried": true,
+      "checked_at": "2026-11-11",
+      "method": "GET"
+    },
+    "browser_check": {
+      "checked_at": "2026-11-11",
+      "method": "official content search result and direct content fetch retry",
+      "outcome": "inconclusive",
+      "note": "Official indexed search content exposed the 2027/28 first call and 15 November 2026 deadline. Direct page content retrieval timed out. The result does not establish that the URL is broken."
+    }
+  },
+  {
     "id": "SRC-PADUA-PHYSICS-DATA-PROFILE",
     "university_id": "padova",
     "title": "Physics of Data – official degree profile",
@@ -20312,7 +20396,7 @@
       "x_vercel_cache": null,
       "x_vercel_id": null,
       "location": null,
-      "observed_title": null,
+      "observed_title": "Padua International Excellence Scholarship Programme | Università di Padova",
       "pdf_signature": null,
       "has_2027_marker": false,
       "bytes_read": 131072,

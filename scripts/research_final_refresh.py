@@ -7,6 +7,28 @@ from typing import Any, Callable
 
 SOURCES = [
     {
+        "id": "SRC-PADUA-ASTROPHYSICS-COURSE-PROFILE-2027",
+        "university_id": "padova",
+        "title": "Astrophysics and Cosmology – official degree profile",
+        "url": "https://www.unipd.it/en/corsi-di-laurea/astrophysics-and-cosmology",
+        "source_type": "Official University degree programme profile",
+        "accessed_at": "2026-11-11",
+        "cycle": "general",
+        "evidence": "The current official University profile identifies Astrophysics and Cosmology as an English-taught two-year Master's Degree in Padua, open admission with requirements, in degree classes LM-17 R Physics and LM-58 R Sciences of the Universe. The current profile establishes identity and general course characteristics, while the separate Department notice supplies the named 2027/28 international call.",
+        "supports": ["program.name", "program.level", "program.language", "program.location", "program.duration", "program.access", "program.degree_class"],
+    },
+    {
+        "id": "SRC-PADUA-ASTROPHYSICS-2027-CALL",
+        "university_id": "padova",
+        "title": "Astrophysics and Cosmology – 2027/28 international application call and requirements",
+        "url": "https://astrophysics-and-cosmology.dfa.unipd.it/masters-degree/application-and-admission-requirements/",
+        "source_type": "Official Department programme and international admissions page",
+        "accessed_at": "2026-11-11",
+        "cycle": "2027-2028",
+        "evidence": "The official Department page says the first international call is open for applicants with an international Bachelor's degree who seek entry in AY 2027/28 (October 2027), with a 15 November 2026 deadline. It also publishes course entry criteria of 24 ECTS in Physics and 24 ECTS in Mathematics and committee assessment/interview details, but those criteria are not explicitly labelled for 2027/28. Official search results exposed the page content, but direct content retrieval and the fresh HTTP check were inconclusive on 11 November; do not classify the URL as broken. The page also contains prior-cycle 2026/27 information, which is not treated as current-cycle evidence.",
+        "supports": ["program.availability_2027_2028", "program.application_deadline", "program.applicant_scope", "program.admission_requirements"],
+    },
+    {
         "id": "SRC-PADUA-PHYSICS-DATA-PROFILE",
         "university_id": "padova",
         "title": "Physics of Data – official degree profile",
@@ -935,6 +957,12 @@ BATCH3 = {
     "result": "The University's Board of Administration approved €1,432,200 for the 2027/28 Padua International Excellence Scholarship edition, up to 76 awards for the top candidate per English-taught degree/curriculum (including newly activated programmes), at €8,000 gross/year plus university-fee exemption. General scheme details include max two years for Master's and three for Bachelor's/single-cycle degrees, with only regional tax and stamp duty remaining; the 2027/28 annual call, detailed selection/retention criteria and final programme allocations are still pending publication in November. Recorded the scheme as applicable to the three confirmed Padua English-taught 2027/28 candidates, and conditionally relevant to English-taught candidates whose course intake or proposal approval is pending. The latest official general tuition notice remains 2026/27; its amounts are preserved as historical only, with 2027/28 tuition still unconfirmed. All three new source URLs returned HTTP 200; rebuilt the 201-program, 565-source dataset, audit and site; data integrity passed, all 12 static tests passed, UI regression passed, and desktop/mobile browser tests passed. Production and preview remain untouched while the comprehensive research audit is incomplete.",
 }
 
+BATCH4 = {
+    "id": "padua-astrophysics-cosmology-2027-28-intake-discovery",
+    "status": "partial",
+    "result": "Discovered and source-linked Padua's English-taught Astrophysics and Cosmology MSc, which was absent from the tracker. The current official degree profile confirms its name, LM-17 R/LM-58 R classes, two-year duration and Padua location. The Department's official page names an open first international call for AY 2027/28 (October 2027 entry), with a 15 November 2026 deadline; the deadline and route were added with an explicit scope limited to applicants with an international Bachelor's degree. Its 24-ECTS Physics and 24-ECTS Mathematics criteria are recorded as not cycle-labelled, so the 2027/28 course-specific requirements and English certificate threshold remain unconfirmed. The current Padua scholarship scheme is associated with the course but is not presented as a guaranteed award; 2027/28 tuition remains unannounced. The central degree profile returned HTTP 200. Direct HTTP and content retrieval for the Department call page were inconclusive, but official indexed results exposed its stated 2027/28 call; it remains inconclusive, not broken. The rebuilt dataset contains 202 program records and 567 sources; data audit passed, all 12 static-site tests passed, UI regression passed, and desktop/mobile browser tests passed after updating the browser test to navigate through paginated results. Production and preview remain untouched while the full research refresh continues.",
+}
+
 
 def _fact(value: Any, status: str, source_ids: list[str], notes: str | None = None) -> dict[str, Any]:
     return {"value": value, "status": status, "source_ids": source_ids, "notes": notes}
@@ -1530,6 +1558,55 @@ def apply(
     }
     arqus_physics["last_checked"] = "2026-11-11"
     programs.append(arqus_physics)
+
+    astro_profile = "SRC-PADUA-ASTROPHYSICS-COURSE-PROFILE-2027"
+    astro_call = "SRC-PADUA-ASTROPHYSICS-2027-CALL"
+    astro = make_program(
+        "discovered-037", "padova", "Astrophysics and Cosmology", "MSc", "English",
+        "Astrophysics and Cosmology", "CONFIRMED", [astro_profile, astro_call],
+        city="Padua", discovery="newly_discovered",
+    )
+    astro["level"] = fact("MSc", "CONFIRMED", [astro_profile])
+    astro["language"] = fact("English", "CONFIRMED", [astro_profile])
+    astro["field"] = fact("Astrophysics and Cosmology", "CONFIRMED", [astro_profile])
+    astro["availability_2027_2028"] = fact(
+        True, "CONFIRMED", [astro_call],
+        "A named first call confirms 2027/28 entry for applicants with an international Bachelor's degree. This does not confirm the 2027/28 domestic-qualification call or make admission automatic.",
+    )
+    astro["facts"] = {
+        "official_course_profile": fact(
+            {"academic_year":"current official course profile", "degree_class":["LM-17 R - Physics", "LM-58 R - Sciences of the Universe"], "duration_years":2, "campus":"Padua", "language":"English", "access":"Open admission with requirements"},
+            "CONFIRMED", [astro_profile],
+        ),
+        "application_windows": fact(
+            [{"start":None, "end":"2026-11-15", "round":"First call", "eligible_group":"Applicants with an international Bachelor's degree seeking entry in AY 2027/28"}],
+            "CONFIRMED", [astro_call],
+            "The course-specific Department notice gives the first-call deadline but not the opening date. The open window is scoped to international degree holders; domestic-degree applicants follow a separate notice.",
+        ),
+        "application_route": fact("apply.unipd.it", "CONFIRMED", [astro_profile, astro_call], "The official profile links the University application portal; the Department call directs eligible international Bachelor's degree holders to apply there."),
+        "application_fee_2027_2028": fact(
+            {"amount_eur":60, "non_refundable":True, "maximum_programmes":2}, "CONFIRMED", ["SRC-PADUA-STUDY-ENGLISH-APPLY-ITALIAN-2027"],
+            "University international application procedure; the course call confirms this programme's participation in the international application route.",
+        ),
+        "applicant_scope_2027_2028": fact(
+            {"confirmed_group":"Applicants with an international Bachelor's degree, including those graduating by July 2027", "course_start":"October 2027", "domestic_degree_call":"Not verified"},
+            "CONFIRMED", [astro_call],
+        ),
+        "published_course_requirements_not_cycle_labeled": fact(
+            {"physics_credits_ects":24, "physics_sectors":"FIS/01-07", "mathematics_credits_ects":24, "mathematics_sectors":"MAT/01-09", "assessment":"Foreign qualifications assessed by an admission committee; a remote interview may be used"},
+            "REQUIRES_VERIFICATION", [astro_call],
+            "These criteria appear on the Department admissions page but are not explicitly tied to AY 2027/28. Do not present them as confirmed annual requirements until the relevant 2027/28 call or regulation confirms them.",
+        ),
+        "program_specific_requirements_2027_2028": fact(None, "REQUIRES_VERIFICATION", [astro_call], "The reviewed call page does not explicitly date the listed 24-ECTS subject thresholds to AY 2027/28; verify against the course's annual regulation."),
+        "english_certificate_requirement_2027_2028": fact(None, "REQUIRES_VERIFICATION", [astro_profile, astro_call], "The course profile confirms English delivery, but the reviewed first-call page does not specify a 2027/28 English certificate threshold. No earlier-cycle B2 claim is carried forward."),
+        "tuition_2027_2028": fact(None, "REQUIRES_VERIFICATION", ["SRC-PADUA-TUITION-2026"], "The latest official Padua fee page reviewed links 2026/27 tariffs only; no 2027/28 programme fee is confirmed."),
+        "acceptance_rate": fact(None, "UNAVAILABLE", [astro_call], "No comparable applicant and admitted-student totals are published in the reviewed sources; no acceptance rate is inferred."),
+    }
+    astro["source_ids"] = list(dict.fromkeys(astro["source_ids"] + ["SRC-PADUA-STUDY-ENGLISH-APPLY-ITALIAN-2027", "SRC-PADUA-TUITION-2026"]))
+    astro["last_checked"] = "2026-11-11"
+    astro["previous_cycle_tags"] = None
+    programs.append(astro)
+
     apply_legacy_course_reviews(programs, fact)
 
     padua_scholarship_sources = [

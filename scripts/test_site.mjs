@@ -118,6 +118,11 @@ try {
     await firstCard.locator(".favorite-button").click();
   }
   const multiWindowCard = page.locator('.program-card[data-program-id="legacy-020"]');
+  while (!(await multiWindowCard.isVisible())) {
+    const nextPage = page.locator("#page-next");
+    assert.equal(await nextPage.isDisabled(), false, "the multi-window program remains within the filtered result pages");
+    await nextPage.click();
+  }
   if (await multiWindowCard.locator(".favorite-button").getAttribute("aria-pressed") !== "true") {
     await multiWindowCard.locator(".favorite-button").click();
   }

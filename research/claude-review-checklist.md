@@ -2,7 +2,7 @@
 
 Prepared 2026-11-11 for academic year 2027/28. Review each record against official university pages, calls, portals, regulations, and PDFs.
 
-Snapshot inventory: 34 universities, 201 program records, 565 source records.
+Snapshot inventory: 34 universities, 202 program records, 567 source records.
 
 ## Review rules
 
@@ -3288,6 +3288,8 @@ Official university-level sources:
 
 - [ ] `SRC-PADUA-INTL-2027` — [Admission of international students – How to apply](https://www.unipd.it/en/ammissione-studenti-internazionali) (cycle: 2027-2028; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-PADUA-PROGRAMS-2027` — [International students – 2027/28 applications (DiSSGeA)](https://www.dissgea.unipd.it/en/en/international-students-202728-applications) (cycle: 2027-2028; checked in prior snapshot: 2026-11-09)
+- [ ] `SRC-PADUA-ASTROPHYSICS-COURSE-PROFILE-2027` — [Astrophysics and Cosmology – official degree profile](https://www.unipd.it/en/corsi-di-laurea/astrophysics-and-cosmology) (cycle: general; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-PADUA-ASTROPHYSICS-2027-CALL` — [Astrophysics and Cosmology – 2027/28 international application call and requirements](https://astrophysics-and-cosmology.dfa.unipd.it/masters-degree/application-and-admission-requirements/) (cycle: 2027-2028; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-PADUA-PHYSICS-DATA-PROFILE` — [Physics of Data – official degree profile](https://www.unipd.it/en/corsi-di-laurea/physics-data) (cycle: general; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-PADUA-PHYSICS-DATA-REQUIREMENTS` — [Physics of Data – admission requirements](https://pod.dfa.unipd.it/requirement/) (cycle: general; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-PADUA-PHYSICS-DATA-2027-CALL` — [Physics of Data – 2027/28 first call for international students](https://pod.dfa.unipd.it/the-first-call-for-international-students/) (cycle: 2027-2028; checked in prior snapshot: 2026-11-10)
@@ -3873,6 +3875,26 @@ Currently missing or unpublished fields:
   - `facts.program_specific_requirements_2027_2028` — `REQUIRES_VERIFICATION` — No approved programme regulation or admission requirements have been published in the reviewed source.
   - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — No applicable programme fee or tuition structure is published in the reviewed source. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.
   - `facts.scholarships_2027_2028` — `REQUIRES_VERIFICATION` — No programme-specific scholarship call is published in the reviewed source.
+
+#### Astrophysics and Cosmology — `discovered-037`
+
+- [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-11`
+- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-037/
+- [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
+- [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
+Official linked sources to revisit:
+- [ ] `SRC-PADUA-ASTROPHYSICS-2027-CALL` — [Astrophysics and Cosmology – 2027/28 international application call and requirements](https://astrophysics-and-cosmology.dfa.unipd.it/masters-degree/application-and-admission-requirements/) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-ASTROPHYSICS-COURSE-PROFILE-2027` — [Astrophysics and Cosmology – official degree profile](https://www.unipd.it/en/corsi-di-laurea/astrophysics-and-cosmology) (cycle: general; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-INTL-EXCELLENCE-2027-BOARD` — [2027/28 Padua International Excellence Scholarship – Board allocation announcement](https://www.unipd.it/node/93348) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-INTL-EXCELLENCE-PROGRAMME` — [Padua International Excellence Scholarship Programme – general terms and call status](https://www.unipd.it/en/padua-international-excellence-scholarship-programme) (cycle: general; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-STUDY-ENGLISH-APPLY-ITALIAN-2027` — [Studiare in inglese – Come fare domanda (official Italian procedure)](https://www.unipd.it/studiare-inglese-come-fare-domanda) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-TUITION-2026` — [Student fees – 2026/27 fee notice and published tariff guidance](https://www.unipd.it/en/contribuzione-studentesca) (cycle: 2026-2027; prior check: 2026-11-11)
+Currently missing or unpublished fields:
+  - `facts.program_specific_requirements_2027_2028` — `REQUIRES_VERIFICATION` — The reviewed call page does not explicitly date the listed 24-ECTS subject thresholds to AY 2027/28; verify against the course's annual regulation.
+  - `facts.english_certificate_requirement_2027_2028` — `REQUIRES_VERIFICATION` — The course profile confirms English delivery, but the reviewed first-call page does not specify a 2027/28 English certificate threshold. No earlier-cycle B2 claim is carried forward.
+  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — The latest official Padua fee page reviewed links 2026/27 tariffs only; no 2027/28 programme fee is confirmed. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — No comparable applicant and admitted-student totals are published in the reviewed sources; no acceptance rate is inferred.
+  - `facts.scholarship_call_details_2027_2028` — `NOT_YET_PUBLISHED` — The official programme page says the 2027/28 annual call will be published in November 2026; as checked on 11 November the page still links the 2026/27 call. Confirm final eligibility, application/selection process and renewal criteria when the new notice appears.
 
 ### Università degli Studi di Palermo (Palermo) — `palermo`
 
@@ -5049,7 +5071,7 @@ Currently missing or unpublished fields:
 
 ## Source URL recheck results
 
-Checked 551 unique URLs representing 565 source records on 2026-11-11. Unique URL outcomes: {'accessible': 517, 'redirected': 13, 'inconclusive': 21}. HTTP 404/410 outcomes are listed as broken; TLS, timeout, and remote-disconnect cases remain inconclusive.
+Checked 553 unique URLs representing 567 source records on 2026-11-11. Unique URL outcomes: {'accessible': 518, 'redirected': 13, 'inconclusive': 22}. HTTP 404/410 outcomes are listed as broken; TLS, timeout, and remote-disconnect cases remain inconclusive.
 
 ### Redirected sources
 
@@ -5071,6 +5093,7 @@ Checked 551 unique URLs representing 565 source records on 2026-11-11. Unique UR
 
 - `SRC-CAMERINO-FOREIGN-FEES` — [Fees for foreign students](https://www.miiscrivo.unicam.it/fees-foreign-students) — direct check inconclusive; Content fetch timed out; direct HTTPS check also failed TLS validation. Do not classify as broken.
 - `SRC-TRIESTE-DSSC-CALL-2022` — [DSSC MSc admission call 2022/23](https://corsi.units.it/sites/default/files/dssc_call_2022_0.pdf) — direct check inconclusive; Content fetch did not access the 2022 PDF; direct HTTPS check also failed TLS validation. Do not classify as broken.
+- `SRC-PADUA-ASTROPHYSICS-2027-CALL` — [Astrophysics and Cosmology – 2027/28 international application call and requirements](https://astrophysics-and-cosmology.dfa.unipd.it/masters-degree/application-and-admission-requirements/) — direct check inconclusive; Official indexed search content exposed the 2027/28 first call and 15 November 2026 deadline. Direct page content retrieval timed out. The result does not establish that the URL is broken.
 - `SRC-PADOVA-COMPUTER-SCIENCE-2026` — [Computer Science – official School of Science catalogue](https://www.scienze.unipd.it/en/courses/how-to-apply/) — direct check inconclusive; Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken.
 - `SRC-PADOVA-PSYCHOLOGY-MSC-FULL-2026` — [School of Psychology Master's programmes – active official catalogue](https://www.psicologia.unipd.it/offerta-didattica/corsi-di-laurea-magistrale?tipo=LM) — direct check inconclusive; Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken.
 - `SRC-PADOVA-MOLECULAR-BIOLOGY-BSC-ADMISSION-2026` — [Biologia Molecolare – 2026/27 School of Science bachelor's admissions](https://www.scienze.unipd.it/come-iscriversi-l-2627/) — direct check inconclusive; Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken.

@@ -8,18 +8,18 @@
     "review_status": "in_progress",
     "counts": {
       "universities": 34,
-      "programs": 201,
-      "sources": 565
+      "programs": 202,
+      "sources": 567
     },
     "previous_snapshot_inconclusive_url_checks": "The prior audit reported approximately 100 inconclusive checks. This refresh rechecked every unique URL and preserves the response by source record below.",
     "current_url_audit": {
       "checked_at": "2026-11-11",
-      "source_records": 565,
-      "unique_urls_checked": 551,
+      "source_records": 567,
+      "unique_urls_checked": 553,
       "unique_url_outcomes": {
-        "accessible": 517,
+        "accessible": 518,
         "redirected": 13,
-        "inconclusive": 21
+        "inconclusive": 22
       },
       "redirected_source_records": [
         {
@@ -104,6 +104,14 @@
           "browser_outcome": "inconclusive",
           "direct_http_error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
           "note": "Content fetch did not access the 2022 PDF; direct HTTPS check also failed TLS validation. Do not classify as broken."
+        },
+        {
+          "source_id": "SRC-PADUA-ASTROPHYSICS-2027-CALL",
+          "url": "https://astrophysics-and-cosmology.dfa.unipd.it/masters-degree/application-and-admission-requirements/",
+          "direct_http_outcome": "inconclusive",
+          "browser_outcome": "inconclusive",
+          "direct_http_error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
+          "note": "Official indexed search content exposed the 2027/28 first call and 15 November 2026 deadline. Direct page content retrieval timed out. The result does not establish that the URL is broken."
         },
         {
           "source_id": "SRC-PADOVA-COMPUTER-SCIENCE-2026",
@@ -14929,6 +14937,8 @@
       "source_ids": [
         "SRC-PADUA-INTL-2027",
         "SRC-PADUA-PROGRAMS-2027",
+        "SRC-PADUA-ASTROPHYSICS-COURSE-PROFILE-2027",
+        "SRC-PADUA-ASTROPHYSICS-2027-CALL",
         "SRC-PADUA-PHYSICS-DATA-PROFILE",
         "SRC-PADUA-PHYSICS-DATA-REQUIREMENTS",
         "SRC-PADUA-PHYSICS-DATA-2027-CALL",
@@ -15000,7 +15010,7 @@
             "bytes_read": 131072,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
+            "checked_at": "2026-11-11",
             "method": "GET"
           },
           "browser_check": null
@@ -15025,7 +15035,7 @@
             "http_status": 200,
             "effective_url": "https://www.dissgea.unipd.it/en/en/international-students-202728-applications",
             "content_type": "text/html; charset=utf-8",
-            "content_length_header": "31067",
+            "content_length_header": null,
             "etag": null,
             "last_modified": null,
             "cache_control": "no-cache, must-revalidate",
@@ -15039,10 +15049,95 @@
             "bytes_read": 31067,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
+            "checked_at": "2026-11-11",
             "method": "GET"
           },
           "browser_check": null
+        },
+        {
+          "id": "SRC-PADUA-ASTROPHYSICS-COURSE-PROFILE-2027",
+          "title": "Astrophysics and Cosmology – official degree profile",
+          "url": "https://www.unipd.it/en/corsi-di-laurea/astrophysics-and-cosmology",
+          "source_type": "Official University degree programme profile",
+          "cycle": "general",
+          "accessed_at": "2026-11-11",
+          "evidence": "The current official University profile identifies Astrophysics and Cosmology as an English-taught two-year Master's Degree in Padua, open admission with requirements, in degree classes LM-17 R Physics and LM-58 R Sciences of the Universe. The current profile establishes identity and general course characteristics, while the separate Department notice supplies the named 2027/28 international call.",
+          "supports": [
+            "program.name",
+            "program.level",
+            "program.language",
+            "program.location",
+            "program.duration",
+            "program.access",
+            "program.degree_class"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.unipd.it/en/corsi-di-laurea/astrophysics-and-cosmology",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "ASTROPHYSICS AND COSMOLOGY | Università di Padova",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 131072,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-PADUA-ASTROPHYSICS-2027-CALL",
+          "title": "Astrophysics and Cosmology – 2027/28 international application call and requirements",
+          "url": "https://astrophysics-and-cosmology.dfa.unipd.it/masters-degree/application-and-admission-requirements/",
+          "source_type": "Official Department programme and international admissions page",
+          "cycle": "2027-2028",
+          "accessed_at": "2026-11-11",
+          "evidence": "The official Department page says the first international call is open for applicants with an international Bachelor's degree who seek entry in AY 2027/28 (October 2027), with a 15 November 2026 deadline. It also publishes course entry criteria of 24 ECTS in Physics and 24 ECTS in Mathematics and committee assessment/interview details, but those criteria are not explicitly labelled for 2027/28. Official search results exposed the page content, but direct content retrieval and the fresh HTTP check were inconclusive on 11 November; do not classify the URL as broken. The page also contains prior-cycle 2026/27 information, which is not treated as current-cycle evidence.",
+          "supports": [
+            "program.availability_2027_2028",
+            "program.application_deadline",
+            "program.applicant_scope",
+            "program.admission_requirements"
+          ],
+          "refresh_status": "inconclusive",
+          "url_check": {
+            "http_status": null,
+            "effective_url": null,
+            "content_type": null,
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": null,
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": null,
+            "pdf_signature": null,
+            "has_2027_marker": null,
+            "bytes_read": 0,
+            "outcome": "inconclusive",
+            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
+            "retried": true,
+            "checked_at": "2026-11-11",
+            "method": "GET"
+          },
+          "browser_check": {
+            "checked_at": "2026-11-11",
+            "method": "official content search result and direct content fetch retry",
+            "outcome": "inconclusive",
+            "note": "Official indexed search content exposed the 2027/28 first call and 15 November 2026 deadline. Direct page content retrieval timed out. The result does not establish that the URL is broken."
+          }
         },
         {
           "id": "SRC-PADUA-PHYSICS-DATA-PROFILE",
@@ -16355,7 +16450,7 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "Padua International Excellence Scholarship Programme | Università di Padova",
             "pdf_signature": null,
             "has_2027_marker": false,
             "bytes_read": 131072,
@@ -16433,7 +16528,8 @@
         "discovered-033",
         "discovered-035",
         "discovered-036",
-        "discovered-034"
+        "discovered-034",
+        "discovered-037"
       ],
       "refresh_status": "pending",
       "refresh_checked_at": null,
@@ -74808,7 +74904,7 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "Padua International Excellence Scholarship Programme | Università di Padova",
             "pdf_signature": null,
             "has_2027_marker": false,
             "bytes_read": 131072,
@@ -75266,7 +75362,7 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "Padua International Excellence Scholarship Programme | Università di Padova",
             "pdf_signature": null,
             "has_2027_marker": false,
             "bytes_read": 131072,
@@ -75675,7 +75771,7 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "Padua International Excellence Scholarship Programme | Università di Padova",
             "pdf_signature": null,
             "has_2027_marker": false,
             "bytes_read": 131072,
@@ -76068,7 +76164,7 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "Padua International Excellence Scholarship Programme | Università di Padova",
             "pdf_signature": null,
             "has_2027_marker": false,
             "bytes_read": 131072,
@@ -76460,7 +76556,7 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "Padua International Excellence Scholarship Programme | Università di Padova",
             "pdf_signature": null,
             "has_2027_marker": false,
             "bytes_read": 131072,
@@ -76890,7 +76986,7 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "Padua International Excellence Scholarship Programme | Università di Padova",
             "pdf_signature": null,
             "has_2027_marker": false,
             "bytes_read": 131072,
@@ -77299,7 +77395,7 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "Padua International Excellence Scholarship Programme | Università di Padova",
             "pdf_signature": null,
             "has_2027_marker": false,
             "bytes_read": 131072,
@@ -77691,7 +77787,7 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "Padua International Excellence Scholarship Programme | Università di Padova",
             "pdf_signature": null,
             "has_2027_marker": false,
             "bytes_read": 131072,
@@ -78202,7 +78298,7 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "Padua International Excellence Scholarship Programme | Università di Padova",
             "pdf_signature": null,
             "has_2027_marker": false,
             "bytes_read": 131072,
@@ -79246,7 +79342,7 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "Padua International Excellence Scholarship Programme | Università di Padova",
             "pdf_signature": null,
             "has_2027_marker": false,
             "bytes_read": 131072,
@@ -80714,7 +80810,7 @@
             "http_status": 200,
             "effective_url": "https://www.dissgea.unipd.it/en/en/international-students-202728-applications",
             "content_type": "text/html; charset=utf-8",
-            "content_length_header": "31067",
+            "content_length_header": null,
             "etag": null,
             "last_modified": null,
             "cache_control": "no-cache, must-revalidate",
@@ -80728,7 +80824,7 @@
             "bytes_read": 31067,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
+            "checked_at": "2026-11-11",
             "method": "GET"
           },
           "browser_check": null
@@ -80912,7 +81008,7 @@
             "http_status": 200,
             "effective_url": "https://www.dissgea.unipd.it/en/en/international-students-202728-applications",
             "content_type": "text/html; charset=utf-8",
-            "content_length_header": "31067",
+            "content_length_header": null,
             "etag": null,
             "last_modified": null,
             "cache_control": "no-cache, must-revalidate",
@@ -80926,7 +81022,7 @@
             "bytes_read": 31067,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
+            "checked_at": "2026-11-11",
             "method": "GET"
           },
           "browser_check": null
@@ -81110,7 +81206,7 @@
             "http_status": 200,
             "effective_url": "https://www.dissgea.unipd.it/en/en/international-students-202728-applications",
             "content_type": "text/html; charset=utf-8",
-            "content_length_header": "31067",
+            "content_length_header": null,
             "etag": null,
             "last_modified": null,
             "cache_control": "no-cache, must-revalidate",
@@ -81124,7 +81220,7 @@
             "bytes_read": 31067,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
+            "checked_at": "2026-11-11",
             "method": "GET"
           },
           "browser_check": null
@@ -81308,7 +81404,7 @@
             "http_status": 200,
             "effective_url": "https://www.dissgea.unipd.it/en/en/international-students-202728-applications",
             "content_type": "text/html; charset=utf-8",
-            "content_length_header": "31067",
+            "content_length_header": null,
             "etag": null,
             "last_modified": null,
             "cache_control": "no-cache, must-revalidate",
@@ -81322,7 +81418,7 @@
             "bytes_read": 31067,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
+            "checked_at": "2026-11-11",
             "method": "GET"
           },
           "browser_check": null
@@ -81506,7 +81602,7 @@
             "http_status": 200,
             "effective_url": "https://www.dissgea.unipd.it/en/en/international-students-202728-applications",
             "content_type": "text/html; charset=utf-8",
-            "content_length_header": "31067",
+            "content_length_header": null,
             "etag": null,
             "last_modified": null,
             "cache_control": "no-cache, must-revalidate",
@@ -81520,7 +81616,7 @@
             "bytes_read": 31067,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
+            "checked_at": "2026-11-11",
             "method": "GET"
           },
           "browser_check": null
@@ -81704,7 +81800,7 @@
             "http_status": 200,
             "effective_url": "https://www.dissgea.unipd.it/en/en/international-students-202728-applications",
             "content_type": "text/html; charset=utf-8",
-            "content_length_header": "31067",
+            "content_length_header": null,
             "etag": null,
             "last_modified": null,
             "cache_control": "no-cache, must-revalidate",
@@ -81718,7 +81814,7 @@
             "bytes_read": 31067,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
+            "checked_at": "2026-11-11",
             "method": "GET"
           },
           "browser_check": null
@@ -81789,7 +81885,7 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "Padua International Excellence Scholarship Programme | Università di Padova",
             "pdf_signature": null,
             "has_2027_marker": false,
             "bytes_read": 131072,
@@ -81999,7 +82095,7 @@
             "http_status": 200,
             "effective_url": "https://www.dissgea.unipd.it/en/en/international-students-202728-applications",
             "content_type": "text/html; charset=utf-8",
-            "content_length_header": "31067",
+            "content_length_header": null,
             "etag": null,
             "last_modified": null,
             "cache_control": "no-cache, must-revalidate",
@@ -82013,7 +82109,7 @@
             "bytes_read": 31067,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
+            "checked_at": "2026-11-11",
             "method": "GET"
           },
           "browser_check": null
@@ -82084,7 +82180,7 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "Padua International Excellence Scholarship Programme | Università di Padova",
             "pdf_signature": null,
             "has_2027_marker": false,
             "bytes_read": 131072,
@@ -82378,7 +82474,7 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "Padua International Excellence Scholarship Programme | Università di Padova",
             "pdf_signature": null,
             "has_2027_marker": false,
             "bytes_read": 131072,
@@ -82422,7 +82518,7 @@
             "bytes_read": 131072,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
+            "checked_at": "2026-11-11",
             "method": "GET"
           },
           "browser_check": null
@@ -82770,7 +82866,7 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "Padua International Excellence Scholarship Programme | Università di Padova",
             "pdf_signature": null,
             "has_2027_marker": false,
             "bytes_read": 131072,
@@ -82814,7 +82910,7 @@
             "bytes_read": 131072,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
+            "checked_at": "2026-11-11",
             "method": "GET"
           },
           "browser_check": null
@@ -83162,7 +83258,7 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "Padua International Excellence Scholarship Programme | Università di Padova",
             "pdf_signature": null,
             "has_2027_marker": false,
             "bytes_read": 131072,
@@ -83206,7 +83302,7 @@
             "bytes_read": 131072,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
+            "checked_at": "2026-11-11",
             "method": "GET"
           },
           "browser_check": null
@@ -83554,7 +83650,7 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "Padua International Excellence Scholarship Programme | Università di Padova",
             "pdf_signature": null,
             "has_2027_marker": false,
             "bytes_read": 131072,
@@ -83598,7 +83694,7 @@
             "bytes_read": 131072,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
+            "checked_at": "2026-11-11",
             "method": "GET"
           },
           "browser_check": null
@@ -84077,7 +84173,7 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "Padua International Excellence Scholarship Programme | Università di Padova",
             "pdf_signature": null,
             "has_2027_marker": false,
             "bytes_read": 131072,
@@ -84121,7 +84217,7 @@
             "bytes_read": 131072,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
+            "checked_at": "2026-11-11",
             "method": "GET"
           },
           "browser_check": null
@@ -84636,6 +84732,405 @@
       "source_ids": [
         "SRC-PADUA-ARQUS-PHYSICS-TECH-2026",
         "SRC-PADUA-TUITION-2026"
+      ],
+      "previous_cycle_tags": null,
+      "refresh_status": "pending",
+      "refresh_checked_at": null,
+      "refresh_outcome": null
+    },
+    {
+      "id": "discovered-037",
+      "university_id": "padova",
+      "university": "Università degli Studi di Padova",
+      "city": "Padua",
+      "program": "Astrophysics and Cosmology",
+      "level": {
+        "value": "MSc",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADUA-ASTROPHYSICS-COURSE-PROFILE-2027"
+        ],
+        "notes": null
+      },
+      "language": {
+        "value": "English",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADUA-ASTROPHYSICS-COURSE-PROFILE-2027"
+        ],
+        "notes": null
+      },
+      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-037/",
+      "university_page_url": "https://italy-it-programs.vercel.app/universities/padova/",
+      "official_program_source_urls": [
+        {
+          "id": "SRC-PADUA-ASTROPHYSICS-2027-CALL",
+          "title": "Astrophysics and Cosmology – 2027/28 international application call and requirements",
+          "url": "https://astrophysics-and-cosmology.dfa.unipd.it/masters-degree/application-and-admission-requirements/",
+          "source_type": "Official Department programme and international admissions page",
+          "cycle": "2027-2028",
+          "accessed_at": "2026-11-11",
+          "evidence": "The official Department page says the first international call is open for applicants with an international Bachelor's degree who seek entry in AY 2027/28 (October 2027), with a 15 November 2026 deadline. It also publishes course entry criteria of 24 ECTS in Physics and 24 ECTS in Mathematics and committee assessment/interview details, but those criteria are not explicitly labelled for 2027/28. Official search results exposed the page content, but direct content retrieval and the fresh HTTP check were inconclusive on 11 November; do not classify the URL as broken. The page also contains prior-cycle 2026/27 information, which is not treated as current-cycle evidence.",
+          "supports": [
+            "program.availability_2027_2028",
+            "program.application_deadline",
+            "program.applicant_scope",
+            "program.admission_requirements"
+          ],
+          "refresh_status": "inconclusive",
+          "url_check": {
+            "http_status": null,
+            "effective_url": null,
+            "content_type": null,
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": null,
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": null,
+            "pdf_signature": null,
+            "has_2027_marker": null,
+            "bytes_read": 0,
+            "outcome": "inconclusive",
+            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
+            "retried": true,
+            "checked_at": "2026-11-11",
+            "method": "GET"
+          },
+          "browser_check": {
+            "checked_at": "2026-11-11",
+            "method": "official content search result and direct content fetch retry",
+            "outcome": "inconclusive",
+            "note": "Official indexed search content exposed the 2027/28 first call and 15 November 2026 deadline. Direct page content retrieval timed out. The result does not establish that the URL is broken."
+          }
+        },
+        {
+          "id": "SRC-PADUA-ASTROPHYSICS-COURSE-PROFILE-2027",
+          "title": "Astrophysics and Cosmology – official degree profile",
+          "url": "https://www.unipd.it/en/corsi-di-laurea/astrophysics-and-cosmology",
+          "source_type": "Official University degree programme profile",
+          "cycle": "general",
+          "accessed_at": "2026-11-11",
+          "evidence": "The current official University profile identifies Astrophysics and Cosmology as an English-taught two-year Master's Degree in Padua, open admission with requirements, in degree classes LM-17 R Physics and LM-58 R Sciences of the Universe. The current profile establishes identity and general course characteristics, while the separate Department notice supplies the named 2027/28 international call.",
+          "supports": [
+            "program.name",
+            "program.level",
+            "program.language",
+            "program.location",
+            "program.duration",
+            "program.access",
+            "program.degree_class"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.unipd.it/en/corsi-di-laurea/astrophysics-and-cosmology",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "ASTROPHYSICS AND COSMOLOGY | Università di Padova",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 131072,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
+          "title": "2027/28 Padua International Excellence Scholarship – Board allocation announcement",
+          "url": "https://www.unipd.it/node/93348",
+          "source_type": "Official Board of Administration announcement",
+          "cycle": "2027-2028",
+          "accessed_at": "2026-11-11",
+          "evidence": "The Board of Administration announcement for 29 September 2026 states that the University allocates €1,432,200 for the 2027/28 Padua International Excellence Scholarship edition, with up to 76 awards for the highest-ranked candidate of each English-taught degree/curriculum, including newly activated programmes. Each award is €8,000 gross per year plus exemption from university tuition fees; the release specifically says renewal for second and third year applies to Bachelor's and single-cycle cohorts. The annual call still determines detailed eligibility, selection, award retention and final course-level coverage.",
+          "supports": [
+            "university.scholarships_2027_2028",
+            "program.scholarship_scheme_2027_2028",
+            "scholarship.total_awards",
+            "scholarship.amount",
+            "scholarship.fee_exemption",
+            "scholarship.scope"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.unipd.it/node/93348",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Consiglio di Amministrazione del 29 settembre 2026 | Università di Padova",
+            "pdf_signature": null,
+            "has_2027_marker": true,
+            "bytes_read": 131072,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME",
+          "title": "Padua International Excellence Scholarship Programme – general terms and call status",
+          "url": "https://www.unipd.it/en/padua-international-excellence-scholarship-programme",
+          "source_type": "Official international scholarship programme page",
+          "cycle": "general",
+          "accessed_at": "2026-11-11",
+          "evidence": "The official page describes the general scheme as up to 76 awards for international students in English-taught Bachelor's, Master's and single-cycle degrees, €8,000 gross per year plus fee exemption (regional fee and stamp duty remain payable), max two years for Master's and three for Bachelor's/single-cycle programmes. It gives general eligibility guidance (non-Italian citizen except dual nationality, foreign qualification, not resident in Italy at application, apply to an English-taught programme), says first-call candidates are prioritized with second-call awards only exceptionally, and states that the 2027/28 call details are expected in November 2026. The page also links a 2026/27 call; use the separate Board source for cycle-specific 2027/28 allocation and the forthcoming annual call for definitive terms.",
+          "supports": [
+            "university.scholarship_scheme_terms",
+            "university.scholarship_eligibility",
+            "university.scholarship_call_status"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.unipd.it/en/padua-international-excellence-scholarship-programme",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Padua International Excellence Scholarship Programme | Università di Padova",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 131072,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-PADUA-STUDY-ENGLISH-APPLY-ITALIAN-2027",
+          "title": "Studiare in inglese – Come fare domanda (official Italian procedure)",
+          "url": "https://www.unipd.it/studiare-inglese-come-fare-domanda",
+          "source_type": "Official Italian-language international application procedure",
+          "cycle": "2027-2028",
+          "accessed_at": "2026-11-11",
+          "evidence": "The legally authoritative Italian page states that, for English-taught degrees other than Medicine and Surgery, applicants use apply.unipd.it, may apply to at most two courses, and pay a non-refundable €60 pre-enrolment fee (with a CEnT-S exception). For unlimited-place courses it lists Call 1: 15 September–15 November 2026; Call 2: 1 December 2026–1 March 2027; Call 3: 1 April–1 June 2027, only for EU citizens and non-EU citizens resident in Italy. For limited-place courses it lists 7 January–7 March 2027 for non-EU citizens abroad and 15 March–7 April 2027 for English-taught programmes for EU/EU-equated applicants, with course-specific exceptions. This is University procedure by admission type; it does not prove an unapproved programme is included or replace an individual course call.",
+          "supports": [
+            "university.application_windows",
+            "university.application_route",
+            "university.application_fee",
+            "university.applicant_categories",
+            "university.required_documents"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.unipd.it/studiare-inglese-come-fare-domanda",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Studiare in inglese - Come fare domanda | Università di Padova",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 131072,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-PADUA-TUITION-2026",
+          "title": "Student fees – 2026/27 fee notice and published tariff guidance",
+          "url": "https://www.unipd.it/en/contribuzione-studentesca",
+          "source_type": "Official student fees page",
+          "cycle": "2026-2027",
+          "accessed_at": "2026-11-11",
+          "evidence": "The latest linked annual tuition notice is for 2026/27. The page says degree-program fees range from €0 to approximately €3,000/year, first-year initial instalment €208 (including €192 regional tax and €16 stamp duty), subsequent-year initial instalment €588 including €380 contribution, with remaining amounts varying by programme and personal/financial circumstances. It also gives 2026/27 fixed fees for non-EU citizens whose household is outside Italy: €2,790 / €930 low-HDI Group A and €2,990 / €996.66 low-HDI Group B. It does not publish a 2027/28 annual tuition notice on the reviewed page; do not carry any 2026/27 amount forward.",
+          "supports": [
+            "university.previous_cycle_tuition",
+            "university.tuition_2027_2028_publication_status",
+            "university.non_eu_tuition_2026_2027"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.unipd.it/en/contribuzione-studentesca",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Student fees | Università di Padova",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 131072,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET"
+          },
+          "browser_check": null
+        }
+      ],
+      "availability_2027_2028": {
+        "value": true,
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADUA-ASTROPHYSICS-2027-CALL"
+        ],
+        "notes": "A named first call confirms 2027/28 entry for applicants with an international Bachelor's degree. This does not confirm the 2027/28 domestic-qualification call or make admission automatic."
+      },
+      "existing_overall_status": "CONFIRMED",
+      "existing_last_checked": "2026-11-11",
+      "fields_needing_review": [
+        {
+          "field": "facts.published_course_requirements_not_cycle_labeled",
+          "status": "REQUIRES_VERIFICATION",
+          "value": {
+            "physics_credits_ects": 24,
+            "physics_sectors": "FIS/01-07",
+            "mathematics_credits_ects": 24,
+            "mathematics_sectors": "MAT/01-09",
+            "assessment": "Foreign qualifications assessed by an admission committee; a remote interview may be used"
+          },
+          "notes": "These criteria appear on the Department admissions page but are not explicitly tied to AY 2027/28. Do not present them as confirmed annual requirements until the relevant 2027/28 call or regulation confirms them.",
+          "source_ids": [
+            "SRC-PADUA-ASTROPHYSICS-2027-CALL"
+          ]
+        },
+        {
+          "field": "facts.program_specific_requirements_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "The reviewed call page does not explicitly date the listed 24-ECTS subject thresholds to AY 2027/28; verify against the course's annual regulation.",
+          "source_ids": [
+            "SRC-PADUA-ASTROPHYSICS-2027-CALL"
+          ]
+        },
+        {
+          "field": "facts.english_certificate_requirement_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "The course profile confirms English delivery, but the reviewed first-call page does not specify a 2027/28 English certificate threshold. No earlier-cycle B2 claim is carried forward.",
+          "source_ids": [
+            "SRC-PADUA-ASTROPHYSICS-COURSE-PROFILE-2027",
+            "SRC-PADUA-ASTROPHYSICS-2027-CALL"
+          ]
+        },
+        {
+          "field": "facts.tuition_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "The latest official Padua fee page reviewed links 2026/27 tariffs only; no 2027/28 programme fee is confirmed. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.",
+          "source_ids": [
+            "SRC-PADUA-TUITION-2026"
+          ]
+        },
+        {
+          "field": "facts.acceptance_rate",
+          "status": "UNAVAILABLE",
+          "value": null,
+          "notes": "No comparable applicant and admitted-student totals are published in the reviewed sources; no acceptance rate is inferred.",
+          "source_ids": [
+            "SRC-PADUA-ASTROPHYSICS-2027-CALL"
+          ]
+        },
+        {
+          "field": "facts.scholarship_call_details_2027_2028",
+          "status": "NOT_YET_PUBLISHED",
+          "value": null,
+          "notes": "The official programme page says the 2027/28 annual call will be published in November 2026; as checked on 11 November the page still links the 2026/27 call. Confirm final eligibility, application/selection process and renewal criteria when the new notice appears.",
+          "source_ids": [
+            "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
+          ]
+        }
+      ],
+      "missing_fields": [
+        {
+          "field": "facts.program_specific_requirements_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "The reviewed call page does not explicitly date the listed 24-ECTS subject thresholds to AY 2027/28; verify against the course's annual regulation.",
+          "source_ids": [
+            "SRC-PADUA-ASTROPHYSICS-2027-CALL"
+          ]
+        },
+        {
+          "field": "facts.english_certificate_requirement_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "The course profile confirms English delivery, but the reviewed first-call page does not specify a 2027/28 English certificate threshold. No earlier-cycle B2 claim is carried forward.",
+          "source_ids": [
+            "SRC-PADUA-ASTROPHYSICS-COURSE-PROFILE-2027",
+            "SRC-PADUA-ASTROPHYSICS-2027-CALL"
+          ]
+        },
+        {
+          "field": "facts.tuition_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "The latest official Padua fee page reviewed links 2026/27 tariffs only; no 2027/28 programme fee is confirmed. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.",
+          "source_ids": [
+            "SRC-PADUA-TUITION-2026"
+          ]
+        },
+        {
+          "field": "facts.acceptance_rate",
+          "status": "UNAVAILABLE",
+          "value": null,
+          "notes": "No comparable applicant and admitted-student totals are published in the reviewed sources; no acceptance rate is inferred.",
+          "source_ids": [
+            "SRC-PADUA-ASTROPHYSICS-2027-CALL"
+          ]
+        },
+        {
+          "field": "facts.scholarship_call_details_2027_2028",
+          "status": "NOT_YET_PUBLISHED",
+          "value": null,
+          "notes": "The official programme page says the 2027/28 annual call will be published in November 2026; as checked on 11 November the page still links the 2026/27 call. Confirm final eligibility, application/selection process and renewal criteria when the new notice appears.",
+          "source_ids": [
+            "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
+          ]
+        }
+      ],
+      "known_source_conflicts": [],
+      "source_ids": [
+        "SRC-PADUA-ASTROPHYSICS-COURSE-PROFILE-2027",
+        "SRC-PADUA-ASTROPHYSICS-2027-CALL",
+        "SRC-PADUA-STUDY-ENGLISH-APPLY-ITALIAN-2027",
+        "SRC-PADUA-TUITION-2026",
+        "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
+        "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
       ],
       "previous_cycle_tags": null,
       "refresh_status": "pending",
@@ -102465,7 +102960,7 @@
         "bytes_read": 131072,
         "outcome": "accessible",
         "error": null,
-        "checked_at": "2026-11-10",
+        "checked_at": "2026-11-11",
         "method": "GET"
       },
       "browser_check": null
@@ -102490,7 +102985,7 @@
         "http_status": 200,
         "effective_url": "https://www.dissgea.unipd.it/en/en/international-students-202728-applications",
         "content_type": "text/html; charset=utf-8",
-        "content_length_header": "31067",
+        "content_length_header": null,
         "etag": null,
         "last_modified": null,
         "cache_control": "no-cache, must-revalidate",
@@ -102504,7 +102999,7 @@
         "bytes_read": 31067,
         "outcome": "accessible",
         "error": null,
-        "checked_at": "2026-11-10",
+        "checked_at": "2026-11-11",
         "method": "GET"
       },
       "browser_check": null
@@ -119125,6 +119620,91 @@
       "browser_check": null
     },
     {
+      "id": "SRC-PADUA-ASTROPHYSICS-COURSE-PROFILE-2027",
+      "title": "Astrophysics and Cosmology – official degree profile",
+      "url": "https://www.unipd.it/en/corsi-di-laurea/astrophysics-and-cosmology",
+      "source_type": "Official University degree programme profile",
+      "cycle": "general",
+      "accessed_at": "2026-11-11",
+      "evidence": "The current official University profile identifies Astrophysics and Cosmology as an English-taught two-year Master's Degree in Padua, open admission with requirements, in degree classes LM-17 R Physics and LM-58 R Sciences of the Universe. The current profile establishes identity and general course characteristics, while the separate Department notice supplies the named 2027/28 international call.",
+      "supports": [
+        "program.name",
+        "program.level",
+        "program.language",
+        "program.location",
+        "program.duration",
+        "program.access",
+        "program.degree_class"
+      ],
+      "refresh_status": "accessible",
+      "url_check": {
+        "http_status": 200,
+        "effective_url": "https://www.unipd.it/en/corsi-di-laurea/astrophysics-and-cosmology",
+        "content_type": "text/html; charset=utf-8",
+        "content_length_header": null,
+        "etag": null,
+        "last_modified": null,
+        "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate",
+        "age": null,
+        "x_vercel_cache": null,
+        "x_vercel_id": null,
+        "location": null,
+        "observed_title": "ASTROPHYSICS AND COSMOLOGY | Università di Padova",
+        "pdf_signature": null,
+        "has_2027_marker": false,
+        "bytes_read": 131072,
+        "outcome": "accessible",
+        "error": null,
+        "checked_at": "2026-11-11",
+        "method": "GET"
+      },
+      "browser_check": null
+    },
+    {
+      "id": "SRC-PADUA-ASTROPHYSICS-2027-CALL",
+      "title": "Astrophysics and Cosmology – 2027/28 international application call and requirements",
+      "url": "https://astrophysics-and-cosmology.dfa.unipd.it/masters-degree/application-and-admission-requirements/",
+      "source_type": "Official Department programme and international admissions page",
+      "cycle": "2027-2028",
+      "accessed_at": "2026-11-11",
+      "evidence": "The official Department page says the first international call is open for applicants with an international Bachelor's degree who seek entry in AY 2027/28 (October 2027), with a 15 November 2026 deadline. It also publishes course entry criteria of 24 ECTS in Physics and 24 ECTS in Mathematics and committee assessment/interview details, but those criteria are not explicitly labelled for 2027/28. Official search results exposed the page content, but direct content retrieval and the fresh HTTP check were inconclusive on 11 November; do not classify the URL as broken. The page also contains prior-cycle 2026/27 information, which is not treated as current-cycle evidence.",
+      "supports": [
+        "program.availability_2027_2028",
+        "program.application_deadline",
+        "program.applicant_scope",
+        "program.admission_requirements"
+      ],
+      "refresh_status": "inconclusive",
+      "url_check": {
+        "http_status": null,
+        "effective_url": null,
+        "content_type": null,
+        "content_length_header": null,
+        "etag": null,
+        "last_modified": null,
+        "cache_control": null,
+        "age": null,
+        "x_vercel_cache": null,
+        "x_vercel_id": null,
+        "location": null,
+        "observed_title": null,
+        "pdf_signature": null,
+        "has_2027_marker": null,
+        "bytes_read": 0,
+        "outcome": "inconclusive",
+        "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
+        "retried": true,
+        "checked_at": "2026-11-11",
+        "method": "GET"
+      },
+      "browser_check": {
+        "checked_at": "2026-11-11",
+        "method": "official content search result and direct content fetch retry",
+        "outcome": "inconclusive",
+        "note": "Official indexed search content exposed the 2027/28 first call and 15 November 2026 deadline. Direct page content retrieval timed out. The result does not establish that the URL is broken."
+      }
+    },
+    {
       "id": "SRC-PADUA-PHYSICS-DATA-PROFILE",
       "title": "Physics of Data – official degree profile",
       "url": "https://www.unipd.it/en/corsi-di-laurea/physics-data",
@@ -123287,7 +123867,7 @@
         "x_vercel_cache": null,
         "x_vercel_id": null,
         "location": null,
-        "observed_title": null,
+        "observed_title": "Padua International Excellence Scholarship Programme | Università di Padova",
         "pdf_signature": null,
         "has_2027_marker": false,
         "bytes_read": 131072,
@@ -123352,6 +123932,14 @@
       "browser_outcome": "inconclusive",
       "direct_http_error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
       "note": "Content fetch did not access the 2022 PDF; direct HTTPS check also failed TLS validation. Do not classify as broken."
+    },
+    {
+      "source_id": "SRC-PADUA-ASTROPHYSICS-2027-CALL",
+      "url": "https://astrophysics-and-cosmology.dfa.unipd.it/masters-degree/application-and-admission-requirements/",
+      "direct_http_outcome": "inconclusive",
+      "browser_outcome": "inconclusive",
+      "direct_http_error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
+      "note": "Official indexed search content exposed the 2027/28 first call and 15 November 2026 deadline. Direct page content retrieval timed out. The result does not establish that the URL is broken."
     },
     {
       "source_id": "SRC-PADOVA-COMPUTER-SCIENCE-2026",
