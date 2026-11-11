@@ -14783,11 +14783,11 @@
     ],
     "url_check": {
       "http_status": 200,
-      "effective_url": "https://www.uniroma1.it/en/en/admissions",
+      "effective_url": "https://www.uniroma1.it/en/node/256794",
       "content_type": "text/html; charset=utf-8",
       "content_length_header": null,
-      "etag": "\"1794396199-1\"",
-      "last_modified": "Wed, 11 Nov 2026 11:23:19 GMT",
+      "etag": "\"1794409020-1\"",
+      "last_modified": "Wed, 11 Nov 2026 14:57:00 GMT",
       "cache_control": "public, max-age=86400",
       "age": null,
       "x_vercel_cache": null,
@@ -14800,7 +14800,7 @@
       "outcome": "accessible",
       "error": null,
       "checked_at": "2026-11-11",
-      "method": "GET with Cache-Control: no-cache"
+      "method": "GET with Cache-Control and Pragma no-cache (Python urllib)"
     }
   },
   {
@@ -14845,7 +14845,7 @@
     "title": "International Student Office admissions procedures 2026/27",
     "url": "https://www.uniroma1.it/en/node/24774",
     "source_type": "Official university page",
-    "accessed_at": "2026-11-10",
+    "accessed_at": "2026-11-11",
     "cycle": "2026-2027",
     "evidence": "The 2026/27 procedure distinguishes EU/equivalent candidates from non-EU applicants residing abroad. English-course applicants requiring a study visa needed the MoveIN pre-acceptance letter and Universitaly pre-enrolment by 30 June 2026; final admission still depended on the individual course call, qualification verification, visa, and completed enrollment. Foreign qualifications were reviewed for authenticity and comparability. Italian-taught programs required certified Italian B2 for non-EU applicants abroad who needed a visa.",
     "supports": [
@@ -14858,8 +14858,8 @@
       "effective_url": "https://www.uniroma1.it/en/node/24774",
       "content_type": "text/html; charset=utf-8",
       "content_length_header": null,
-      "etag": "\"1794347509-1\"",
-      "last_modified": "Tue, 10 Nov 2026 21:51:49 GMT",
+      "etag": "\"1794409108-1\"",
+      "last_modified": "Wed, 11 Nov 2026 14:58:28 GMT",
       "cache_control": "public, max-age=86400",
       "age": null,
       "x_vercel_cache": null,
@@ -14868,11 +14868,11 @@
       "observed_title": "International Student Office | Sapienza Università di Roma",
       "pdf_signature": null,
       "has_2027_marker": true,
-      "bytes_read": 131072,
+      "bytes_read": 136525,
       "outcome": "accessible",
       "error": null,
-      "checked_at": "2026-11-10",
-      "method": "GET"
+      "checked_at": "2026-11-11",
+      "method": "GET with Cache-Control and Pragma no-cache (Python urllib)"
     }
   },
   {
@@ -15127,9 +15127,9 @@
     "title": "Finance and Insurance Master’s profile 2026/27",
     "url": "https://www.corsidilaurea.uniroma1.it/en/course/33439",
     "source_type": "Official course catalogue",
-    "accessed_at": "2026-11-10",
+    "accessed_at": "2026-11-11",
     "cycle": "2026-2027",
-    "evidence": "The separate 2026/27 Finance and Insurance program is a two-year LM-16 Master’s degree in Rome. The catalogue lists Italian and English curricula/language, so it is not represented as entirely English-taught. It is tracked separately from the same-name Economia e finanza L-33 bachelor’s course.",
+    "evidence": "The 2026/27 profile identifies course 33439 / test code 33439 as a two-year, in-person LM-16 Master's degree in Rome, in the Faculty of Economics and Department MEMOTEF. Its Finance and Insurance tracks are Finance (Italian), Insurance (Italian), and Financial Risk and Data Analysis (English). It is separate from the same-name Economia e finanza L-33 Bachelor's course.",
     "supports": [
       "program.previous_cycle_course_listing",
       "program.previous_cycle_language"
@@ -15138,9 +15138,9 @@
       "http_status": 200,
       "effective_url": "https://www.corsidilaurea.uniroma1.it/en/course/33439",
       "content_type": "text/html; charset=utf-8",
-      "content_length_header": null,
-      "etag": "W/\"1794349054-1\"",
-      "last_modified": "Tue, 10 Nov 2026 22:17:34 GMT",
+      "content_length_header": "18546",
+      "etag": "W/\"1794409106-1\"",
+      "last_modified": "Wed, 11 Nov 2026 14:58:26 GMT",
       "cache_control": "public, max-age=0",
       "age": "0",
       "x_vercel_cache": null,
@@ -15152,8 +15152,155 @@
       "bytes_read": 18546,
       "outcome": "accessible",
       "error": null,
-      "checked_at": "2026-11-10",
-      "method": "GET"
+      "checked_at": "2026-11-11",
+      "method": "GET with Cache-Control and Pragma no-cache (Python urllib)"
+    }
+  },
+  {
+    "id": "SRC-SAPIENZA-FINANCE-INSURANCE-FACULTY-2026",
+    "university_id": "sapienza",
+    "title": "Finanza e Assicurazioni Faculty profile 2026/27",
+    "url": "https://economia.web.uniroma1.it/it/finanza-e-assicurazioni-20262027",
+    "source_type": "Official faculty course page",
+    "accessed_at": "2026-11-11",
+    "cycle": "2026-2027",
+    "evidence": "The Faculty of Economics' page is expressly for Finanza e Assicurazioni 2026/2027 and identifies Finance and Insurance as an LM-16 Master's with two Italian curricula (Finance and Insurance) and one English curriculum (Financial Risk and Data Analysis). It also describes the curricular-credit route for applicants outside L-18/L-33. This is not a 2027/28 intake notice.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_language",
+      "program.previous_cycle_program_requirements"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://economia.web.uniroma1.it/it/finanza-e-assicurazioni-20262027",
+      "content_type": "text/html; charset=UTF-8",
+      "content_length_header": "73497",
+      "etag": "\"1794406718\"",
+      "last_modified": "Wed, 11 Nov 2026 14:18:38 GMT",
+      "cache_control": "max-age=10800, public",
+      "age": null,
+      "x_vercel_cache": null,
+      "x_vercel_id": null,
+      "location": null,
+      "observed_title": "Finanza e Assicurazioni 2026/2027 | Facoltà di Economia",
+      "pdf_signature": null,
+      "has_2027_marker": false,
+      "bytes_read": 73497,
+      "outcome": "accessible",
+      "error": null,
+      "checked_at": "2026-11-11",
+      "method": "GET with Cache-Control and Pragma no-cache (Python urllib)"
+    }
+  },
+  {
+    "id": "SRC-SAPIENZA-FINANCE-INSURANCE-APPLY-2026",
+    "university_id": "sapienza",
+    "title": "Finance and Insurance: how to enroll 2026/27",
+    "url": "https://www.corsidilaurea.uniroma1.it/en/course/33439/apply",
+    "source_type": "Official course admissions page",
+    "accessed_at": "2026-11-11",
+    "cycle": "2026-2027",
+    "evidence": "The current 2026/27 course apply page describes EU/equivalent applicants' non-selective personal-preparation assessment and exemptions, alternative interview/group-test/career-review routes, and the English B2 verification. For non-EU applicants, the initial profile review considers qualification, final grade and relevant examinations through MoveIN. The page links the 2026/27 course calls; it does not establish 2027/28 terms.",
+    "supports": [
+      "program.previous_cycle_admission_route",
+      "program.previous_cycle_program_requirements",
+      "program.previous_cycle_language_requirements"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://www.corsidilaurea.uniroma1.it/en/course/33439/apply",
+      "content_type": "text/html; charset=utf-8",
+      "content_length_header": null,
+      "etag": "W/\"1794409106-1\"",
+      "last_modified": "Wed, 11 Nov 2026 14:58:26 GMT",
+      "cache_control": "public, max-age=0",
+      "age": "0",
+      "x_vercel_cache": null,
+      "x_vercel_id": null,
+      "location": null,
+      "observed_title": "Finance and insurance | Course catalogue",
+      "pdf_signature": null,
+      "has_2027_marker": false,
+      "bytes_read": 19697,
+      "outcome": "accessible",
+      "error": null,
+      "checked_at": "2026-11-11",
+      "method": "GET with Cache-Control and Pragma no-cache (Python urllib)"
+    }
+  },
+  {
+    "id": "SRC-SAPIENZA-FINANCE-INSURANCE-CALL-EN-2026",
+    "university_id": "sapienza",
+    "title": "Finance and Insurance English call 2026/27",
+    "url": "https://www.corsidilaurea.uniroma1.it/sites/default/files/offertaformativa/documenti_ufficiali/187/33439_e_0.pdf",
+    "source_type": "Official admission call PDF",
+    "accessed_at": "2026-11-11",
+    "cycle": "2026-2027",
+    "evidence": "The course-specific English call is explicitly for academic year 2026/27. It gives the LM-16 eligibility routes (L-18/L-33 or at least 72 CFU in listed areas, covering at least three subject areas including 18 statistical-mathematical CFU), the non-selective personal-preparation assessment and English B2 rules, the 2 July 2026 start and five Infostud assessment deadlines through 14 January 2027, the €10 assessment contribution, and the foreign-degree procedures. Non-EU applicants residing abroad who need a visa and choose the English curriculum require the specified pre-acceptance letter. These are prior-cycle terms, not 2027/28 criteria.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_program_requirements",
+      "program.previous_cycle_application_windows",
+      "program.previous_cycle_application_fee",
+      "program.previous_cycle_international_admission"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://www.corsidilaurea.uniroma1.it/sites/default/files/offertaformativa/documenti_ufficiali/187/33439_e_0.pdf",
+      "content_type": "application/pdf",
+      "content_length_header": "249319",
+      "etag": "\"3cde7-65743e3b8cc71\"",
+      "last_modified": "Thu, 23 Jul 2026 09:29:15 GMT",
+      "cache_control": null,
+      "age": "126233",
+      "x_vercel_cache": null,
+      "x_vercel_id": null,
+      "location": null,
+      "observed_title": null,
+      "pdf_signature": true,
+      "has_2027_marker": true,
+      "bytes_read": 249319,
+      "outcome": "accessible",
+      "error": null,
+      "checked_at": "2026-11-11",
+      "method": "GET with Cache-Control and Pragma no-cache (Python urllib)"
+    }
+  },
+  {
+    "id": "SRC-SAPIENZA-FINANCE-INSURANCE-CALL-IT-2026",
+    "university_id": "sapienza",
+    "title": "Finanza e Assicurazioni Italian call 2026/27",
+    "url": "https://www.corsidilaurea.uniroma1.it/sites/default/files/offertaformativa/documenti_ufficiali/187/33439_i_0.pdf",
+    "source_type": "Official admission call PDF",
+    "accessed_at": "2026-11-11",
+    "cycle": "2026-2027",
+    "evidence": "The course-specific Italian call is explicitly for academic year 2026/27 and corroborates the LM-16 eligibility, credit distribution, academic-preparation assessment, €10 Infostud contribution and five assessment dates in the English call. For non-EU applicants residing abroad who need a visa and choose the Italian curriculum, it says pre-acceptance is not required but Italian B2 is required by test or accepted certificate. These are prior-cycle route details only.",
+    "supports": [
+      "program.previous_cycle_program_requirements",
+      "program.previous_cycle_application_windows",
+      "program.previous_cycle_application_fee",
+      "program.previous_cycle_international_admission"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://www.corsidilaurea.uniroma1.it/sites/default/files/offertaformativa/documenti_ufficiali/187/33439_i_0.pdf",
+      "content_type": "application/pdf",
+      "content_length_header": "247607",
+      "etag": "\"3c737-65743e9c518f1\"",
+      "last_modified": "Thu, 23 Jul 2026 09:30:56 GMT",
+      "cache_control": null,
+      "age": "128576",
+      "x_vercel_cache": null,
+      "x_vercel_id": null,
+      "location": null,
+      "observed_title": null,
+      "pdf_signature": true,
+      "has_2027_marker": true,
+      "bytes_read": 247607,
+      "outcome": "accessible",
+      "error": null,
+      "checked_at": "2026-11-11",
+      "method": "GET with Cache-Control and Pragma no-cache (Python urllib)"
     }
   },
   {

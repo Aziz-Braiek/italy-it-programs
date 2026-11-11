@@ -382,6 +382,11 @@
       "result": "Rechecked discovered-024, Perugia's English-taught Engineering Management BSc, against the Department's current entrance-test page, the course page, the 2026/27 international visa route and the official 2026/27 catalogue. The newest Department test page (updated 26 October 2026) lists Engineering Management among BScs that require a basic-preparation test and accepts TOLC-I or CEnT-S; pass thresholds are TOLC-I 14/50 across Mathematics, Logic, Sciences and Verbal Comprehension plus 7/20 Mathematics, or CEnT-S 10/35 across Mathematics, Reasoning on Texts and Data and Physics plus 5/15 Mathematics. Taking a test is mandatory, but falling below threshold assigns OFA rather than barring enrollment; not taking a test blocks the first Mathematics exam. The course page, last updated 19 October, still lists TOLC-I, SAT and ACT, while the separate non-EU visa PICA page explicitly allows CEnT-S, TOLC-I or SAT and requires a suitable B2 certificate. The differing SAT/ACT lists are preserved as a documented source conflict with applicant-route context; the 2027/28 call must settle applicable tests. The official catalogue and course pages remain for 2026/27, and no new 2027/28 intake, test schedule, application window, fee or scholarship terms were confirmed. Fresh no-cache GETs returned HTTP 200 for the course page, test page, international admissions page and catalogue. No Vercel or production changes were made."
     },
     {
+      "id": "trieste-dsai-2027-28-second-year-course-unit-scope-check",
+      "status": "partial",
+      "result": "Reviewed discovered-025, Data Science and Artificial Intelligence at Trieste. Fresh direct no-cache GETs returned HTTP 200 for the official DSAI profile and 2026/27 admission page, the 2026/27 catalogue, international admissions page and 2026 catalogue record, and the official course-unit page. The 2027/28 study plan names Information Retrieval and Data Visualization (481SM) as a second-year optional unit worth 6 CFU and 48 hours, with an oral exam, in the Economy and Society curriculum. Recorded this as confirmed second-year teaching evidence only; the candidate's 2027/28 first-year availability, call, dates, requirements, places, application fee, tuition and scholarships remain pending. Existing 2026/27 requirements, dates, fee and scholarship facts remain explicitly prior-cycle. No deployment or production settings were changed."
+    },
+    {
       "id": "claude-independent-review-inventory",
       "status": "complete",
       "result": "Created a review manifest and checklist covering all 34 universities, 193 programs, and 454 existing official source records. The checklist exposes current unresolved fields and conflicts; all refresh outcomes remain pending until evidence is checked."
@@ -397,9 +402,9 @@
       "result": "Direct HTTP review covers 554 unique URLs across 568 source records: 519 accessible, 13 redirected, 22 inconclusive and 0 confirmed broken. All 21 previously inconclusive URLs were retried via direct HTTP on 11 November and remained inconclusive. The three Padua scholarship, scheme and tuition URLs, five earlier Padua admissions/Statistical Science source URLs, the central Astrophysics and Cosmology profile, and the new student-awards page returned HTTP 200. The new Astrophysics Department call URL was inconclusive by direct HTTP and content-open; an official indexed result exposed its 2027/28 call details, but the link is not counted as directly verified. Twelve older inconclusive sources were separately opened and inspected through the official content fetcher: ten Camerino pages/PDFs, one Trieste historical catalogue PDF, and one Federico II Quantum Science and Engineering page. Nine older URLs still lack a successful independent content fetch; a 11 November retry of those nine also timed out or could not retrieve the PDF. Keep all inconclusive links classified as inconclusive, not broken."
     },
     {
-      "id": "trieste-dsai-2027-28-second-year-course-unit-scope-check",
+      "id": "sapienza-finance-insurance-2026-27-call-and-2027-28-status-review",
       "status": "partial",
-      "result": "Reviewed discovered-025, Data Science and Artificial Intelligence at Trieste. Fresh direct no-cache GETs returned HTTP 200 for the official DSAI profile and 2026/27 admission page, the 2026/27 catalogue, international admissions page and 2026 catalogue record, and the official course-unit page. The 2027/28 study plan names Information Retrieval and Data Visualization (481SM) as a second-year optional unit worth 6 CFU and 48 hours, with an oral exam, in the Economy and Society curriculum. Recorded this as confirmed second-year teaching evidence only; the candidate's 2027/28 first-year availability, call, dates, requirements, places, application fee, tuition and scholarships remain pending. Existing 2026/27 requirements, dates, fee and scholarship facts remain explicitly prior-cycle. No deployment or production settings were changed."
+      "result": "Reviewed discovered-027, Finance and Insurance at Sapienza, against the official 2026/27 course catalogue/profile, Faculty course page, course enrollment guidance, English and Italian course-call PDFs, and general MoveIN/International Office pages. Confirmed course 33439 is a two-year LM-16 in-person Rome MSc with Finance and Insurance curricula taught in Italian and Financial Risk and Data Analysis taught in English. The 2026/27 calls accept L-18/L-33 (or corresponding older classes), or other degree classes with at least 72 CFU distributed across at least three subject areas including 18 statistical-mathematical CFU. They require a non-selective personal-preparation assessment, with specified exemptions and English B2 evidence. Course eligibility assessment opened 2 July 2026, with deadlines 15 September (non-EU visa applicants), 15 October, 17 November, 17 December and 14 January 2027 for Sapienza graduates; the course fee was €10. The €30 MoveIN pre-selection charge is separate. The English and Italian curricula have different non-EU visa routes. Both official call PDFs explicitly cover 2026/27; no 2027/28 intake or course terms were identified, so new-entry availability, requirements, dates, fee, places, tuition and scholarships remain unverified rather than discontinued. No applicant/admitted denominator was found for an acceptance rate. Fresh direct GETs returned HTTP 200 for reviewed HTML/PDF sources, with PDF signatures verified. No deployment or production settings were changed."
     }
   ],
   "counts": {
@@ -692,8 +697,8 @@
       "trento",
       "udine"
     ],
-    "source_records": 667,
-    "official_source_supported_fields": 1429,
+    "source_records": 671,
+    "official_source_supported_fields": 1432,
     "verification_statuses": [
       "CONFIRMED",
       "NOT_YET_PUBLISHED",

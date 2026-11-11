@@ -40855,15 +40855,23 @@
       "value": "MSc",
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
-        "SRC-SAPIENZA-FINANCE-INSURANCE-2026"
+        "SRC-SAPIENZA-FINANCE-INSURANCE-2026",
+        "SRC-SAPIENZA-FINANCE-INSURANCE-FACULTY-2026",
+        "SRC-SAPIENZA-FINANCE-INSURANCE-APPLY-2026",
+        "SRC-SAPIENZA-FINANCE-INSURANCE-CALL-EN-2026",
+        "SRC-SAPIENZA-FINANCE-INSURANCE-CALL-IT-2026"
       ],
       "notes": "Official 2026/27 evidence only; it does not confirm a 2027/28 new-entry offer or current terms."
     },
     "language": {
-      "value": "Italian and English curricula listed",
+      "value": "Two Italian curricula and one English curriculum",
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
-        "SRC-SAPIENZA-FINANCE-INSURANCE-2026"
+        "SRC-SAPIENZA-FINANCE-INSURANCE-2026",
+        "SRC-SAPIENZA-FINANCE-INSURANCE-FACULTY-2026",
+        "SRC-SAPIENZA-FINANCE-INSURANCE-APPLY-2026",
+        "SRC-SAPIENZA-FINANCE-INSURANCE-CALL-EN-2026",
+        "SRC-SAPIENZA-FINANCE-INSURANCE-CALL-IT-2026"
       ],
       "notes": "Official 2026/27 evidence only; it does not confirm a 2027/28 new-entry offer or current terms."
     },
@@ -40871,7 +40879,11 @@
       "value": "Finance and Insurance",
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
-        "SRC-SAPIENZA-FINANCE-INSURANCE-2026"
+        "SRC-SAPIENZA-FINANCE-INSURANCE-2026",
+        "SRC-SAPIENZA-FINANCE-INSURANCE-FACULTY-2026",
+        "SRC-SAPIENZA-FINANCE-INSURANCE-APPLY-2026",
+        "SRC-SAPIENZA-FINANCE-INSURANCE-CALL-EN-2026",
+        "SRC-SAPIENZA-FINANCE-INSURANCE-CALL-IT-2026"
       ],
       "notes": "Official 2026/27 evidence only; it does not confirm a 2027/28 new-entry offer or current terms."
     },
@@ -40880,10 +40892,14 @@
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
         "SRC-SAPIENZA-FINANCE-INSURANCE-2026",
+        "SRC-SAPIENZA-FINANCE-INSURANCE-FACULTY-2026",
+        "SRC-SAPIENZA-FINANCE-INSURANCE-APPLY-2026",
+        "SRC-SAPIENZA-FINANCE-INSURANCE-CALL-EN-2026",
+        "SRC-SAPIENZA-FINANCE-INSURANCE-CALL-IT-2026",
         "SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026",
         "SRC-SAPIENZA-INTL-OFFICE-2026"
       ],
-      "notes": "The reviewed university admissions and course materials concern 2026/27 or older. No 2027/28 first-year call was found, and absence from these pages is not treated as discontinuation."
+      "notes": "The course catalogue and calls reviewed identify a 2026/27 offer only. No 2027/28 first-year offer or call was identified, and this is not treated as discontinuation."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "newly_discovered",
@@ -40892,17 +40908,29 @@
         "value": null,
         "status": "REQUIRES_VERIFICATION",
         "source_ids": [
-          "SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026"
+          "SRC-SAPIENZA-FINANCE-INSURANCE-2026",
+          "SRC-SAPIENZA-FINANCE-INSURANCE-FACULTY-2026",
+          "SRC-SAPIENZA-FINANCE-INSURANCE-APPLY-2026",
+          "SRC-SAPIENZA-FINANCE-INSURANCE-CALL-EN-2026",
+          "SRC-SAPIENZA-FINANCE-INSURANCE-CALL-IT-2026",
+          "SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026",
+          "SRC-SAPIENZA-INTL-OFFICE-2026"
         ],
-        "notes": "The reviewed application schedule is for 2026/27 only."
+        "notes": "The reviewed course calls and central pre-selection page are for 2026/27; no 2027/28 Finance and Insurance first-year calendar was identified."
       },
       "application_fee_2027_2028": {
         "value": null,
         "status": "REQUIRES_VERIFICATION",
         "source_ids": [
-          "SRC-SAPIENZA-APPLICATION-FEE-2026"
+          "SRC-SAPIENZA-FINANCE-INSURANCE-2026",
+          "SRC-SAPIENZA-FINANCE-INSURANCE-FACULTY-2026",
+          "SRC-SAPIENZA-FINANCE-INSURANCE-APPLY-2026",
+          "SRC-SAPIENZA-FINANCE-INSURANCE-CALL-EN-2026",
+          "SRC-SAPIENZA-FINANCE-INSURANCE-CALL-IT-2026",
+          "SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026",
+          "SRC-SAPIENZA-INTL-OFFICE-2026"
         ],
-        "notes": "No 2027/28 course application fee was identified."
+        "notes": "The €10 course assessment and €30 MoveIN pre-selection charges are 2026/27 only; no 2027/28 fee was identified."
       },
       "tuition_2027_2028": {
         "value": null,
@@ -40911,7 +40939,7 @@
           "SRC-SAPIENZA-FEES-2026",
           "SRC-SAPIENZA-FEE-TABLE-2026"
         ],
-        "notes": "No 2027/28 tuition regulation or amount was identified."
+        "notes": "No 2027/28 tuition regulation or course-specific amount was identified."
       },
       "scholarships_2027_2028": {
         "value": null,
@@ -40973,6 +41001,10 @@
         "status": "UNAVAILABLE",
         "source_ids": [
           "SRC-SAPIENZA-FINANCE-INSURANCE-2026",
+          "SRC-SAPIENZA-FINANCE-INSURANCE-FACULTY-2026",
+          "SRC-SAPIENZA-FINANCE-INSURANCE-APPLY-2026",
+          "SRC-SAPIENZA-FINANCE-INSURANCE-CALL-EN-2026",
+          "SRC-SAPIENZA-FINANCE-INSURANCE-CALL-IT-2026",
           "SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026",
           "SRC-SAPIENZA-INTL-OFFICE-2026"
         ],
@@ -40981,69 +41013,235 @@
       "previous_cycle_application_windows": {
         "value": {
           "academic_year": "2026/27",
-          "movein_open": "2025-12-22",
-          "non_eu_visa_deadline": "2026-05-15",
-          "eu_equivalent_deadline": "2026-07-31",
-          "universitaly_outer_deadline": "2026-06-30",
-          "maximum_applications": 2,
-          "scope": "General English-course pre-selection; individual course calls and final enrollment steps still applied"
+          "eligibility_assessment_opens": "2026-07-02",
+          "course_deadlines": [
+            {
+              "date": "2026-09-15",
+              "applicant_scope": "Only date for non-EU applicants requiring a study visa"
+            },
+            {
+              "date": "2026-10-15",
+              "applicant_scope": "General course applicants"
+            },
+            {
+              "date": "2026-11-17",
+              "applicant_scope": "General course applicants"
+            },
+            {
+              "date": "2026-12-17",
+              "applicant_scope": "General course applicants"
+            },
+            {
+              "date": "2027-01-14",
+              "applicant_scope": "Sapienza graduates or applicants about to graduate"
+            }
+          ],
+          "graduation_completion_deadlines": {
+            "other_Italian_or_international_universities": "2026-12-19",
+            "Sapienza": "2027-01-23"
+          },
+          "movein_preselection": {
+            "opens": "2025-12-22",
+            "non_eu_visa_deadline": "2026-05-15",
+            "eu_equivalent_deadline": "2026-07-31",
+            "universitaly_deadline": "2026-06-30"
+          }
         },
         "status": "CONFIRMED",
         "source_ids": [
+          "SRC-SAPIENZA-FINANCE-INSURANCE-2026",
+          "SRC-SAPIENZA-FINANCE-INSURANCE-FACULTY-2026",
+          "SRC-SAPIENZA-FINANCE-INSURANCE-APPLY-2026",
+          "SRC-SAPIENZA-FINANCE-INSURANCE-CALL-EN-2026",
+          "SRC-SAPIENZA-FINANCE-INSURANCE-CALL-IT-2026",
           "SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026",
           "SRC-SAPIENZA-INTL-OFFICE-2026"
         ],
-        "notes": "Closed prior-cycle dates only; the 2027/28 English admissions schedule has not been verified."
+        "notes": "The course eligibility-assessment dates and the separate MoveIN/Universitaly dates are all specific to 2026/27; they do not set the 2027/28 calendar."
       },
       "previous_cycle_application_fee": {
         "value": {
           "academic_year": "2026/27",
-          "MoveIN_preselection_eur_per_application": 30,
-          "MoveIN_maximum_applications": 2,
-          "preselection_fee_waiver": false,
-          "separate_MSc_assessment_fee_eur_when_applicable": 10
+          "course_eligibility_assessment_eur": 10,
+          "movein_preselection_eur_per_application": 30,
+          "movein_maximum_applications": 2,
+          "scope": "The course assessment and MoveIN are separate steps and fees; MoveIN applies to the listed pre-selection route."
         },
         "status": "CONFIRMED",
         "source_ids": [
-          "SRC-SAPIENZA-APPLICATION-FEE-2026",
-          "SRC-SAPIENZA-INTL-OFFICE-2026"
+          "SRC-SAPIENZA-FINANCE-INSURANCE-2026",
+          "SRC-SAPIENZA-FINANCE-INSURANCE-FACULTY-2026",
+          "SRC-SAPIENZA-FINANCE-INSURANCE-APPLY-2026",
+          "SRC-SAPIENZA-FINANCE-INSURANCE-CALL-EN-2026",
+          "SRC-SAPIENZA-FINANCE-INSURANCE-CALL-IT-2026",
+          "SRC-SAPIENZA-APPLICATION-FEE-2026"
         ],
-        "notes": "Historical fees for distinct steps; no 2027/28 application charge is confirmed."
+        "notes": "The €10 course eligibility-assessment contribution and €30 MoveIN charge are distinct 2026/27 fees, not a 2027/28 estimate or full tuition amount."
       },
       "previous_cycle_course_listing": {
         "value": {
+          "academic_year": "2026/27",
+          "official_name": "Finance and Insurance (Finanza e Assicurazioni)",
+          "course_code": "33439",
+          "test_code": "33439",
           "degree_class": "LM-16",
-          "duration_years": 2,
+          "degree_type": "Two-year Master's degree",
           "campus": "Rome",
-          "catalogue_language": "Italian and English",
-          "access": "Curricular requirements and personal-preparation assessment"
+          "faculty": "Economics",
+          "department": "MEMOTEF",
+          "delivery": "In person",
+          "curricula": [
+            {
+              "name": "Finance",
+              "language": "Italian"
+            },
+            {
+              "name": "Insurance",
+              "language": "Italian"
+            },
+            {
+              "name": "Financial Risk and Data Analysis",
+              "language": "English"
+            }
+          ],
+          "access": "Curricular eligibility and personal-preparation assessment"
         },
         "status": "CONFIRMED",
         "source_ids": [
-          "SRC-SAPIENZA-FINANCE-INSURANCE-2026"
+          "SRC-SAPIENZA-FINANCE-INSURANCE-2026",
+          "SRC-SAPIENZA-FINANCE-INSURANCE-FACULTY-2026",
+          "SRC-SAPIENZA-FINANCE-INSURANCE-APPLY-2026",
+          "SRC-SAPIENZA-FINANCE-INSURANCE-CALL-EN-2026",
+          "SRC-SAPIENZA-FINANCE-INSURANCE-CALL-IT-2026"
         ],
         "notes": "Official 2026/27 evidence only; it does not confirm a 2027/28 new-entry offer or current terms."
+      },
+      "previous_cycle_program_requirements": {
+        "value": {
+          "academic_year": "2026/27",
+          "qualifying_degree_classes": [
+            "L-18",
+            "L-33",
+            "corresponding classes under DM 509/1999"
+          ],
+          "alternative_degree_classes": {
+            "minimum_credits": 72,
+            "credit_distribution": "At least three subject areas, including at least 18 CFU in statistical-mathematical areas",
+            "listed_ssd_groups": [
+              "AGRI-01/A",
+              "ECON-01/A to ECON-10/A",
+              "STEC-01/A",
+              "STESC-01/B",
+              "GIUR-01/A, GIUR-02/A, GIUR-03/A, GIUR-02/B, GIUR-04/A to GIUR-06/A, GIUR-08/A to GIUR-10/A",
+              "STAT-01/A to STAT-04/A",
+              "MATH-01/A to MATH-06/A",
+              "INFO-01/A",
+              "IEGE-01/A",
+              "IINF-05/A",
+              "IBIO-01/A",
+              "PHYS-03/A, PHYS-04/A, PHYS-01/A, PHYS-02/A, PHYS-05/A",
+              "GEOG-01/B"
+            ]
+          },
+          "personal_preparation": "Non-selective assessment; exemptions apply to listed L-18/L-33 and corresponding former classes, and to other degree classes with final mark at least 90/110; remaining applicants may be assessed by interview or academic-record review",
+          "english": "B2; official certificate or at least 3 CFU in English-language proficiency, with listed exemptions; otherwise English interview"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-SAPIENZA-FINANCE-INSURANCE-2026",
+          "SRC-SAPIENZA-FINANCE-INSURANCE-FACULTY-2026",
+          "SRC-SAPIENZA-FINANCE-INSURANCE-APPLY-2026",
+          "SRC-SAPIENZA-FINANCE-INSURANCE-CALL-EN-2026",
+          "SRC-SAPIENZA-FINANCE-INSURANCE-CALL-IT-2026"
+        ],
+        "notes": "Official 2026/27 evidence only; it does not confirm a 2027/28 new-entry offer or current terms."
+      },
+      "previous_cycle_admission_route": {
+        "value": {
+          "academic_year": "2026/27",
+          "eligibility_assessment": "Infostud course 33439; applicants submit degree and transcript/SSD information for curricular review",
+          "personal_preparation": "Non-selective assessment after curricular eligibility; interview or academic-record review as applicable",
+          "non_eu_abroad_english_curriculum": "Mandatory MoveIN pre-acceptance for applicants requiring a study visa, then course assessment and Universitaly/enrolment procedures",
+          "non_eu_abroad_italian_curriculum": "No pre-acceptance letter required by the course call; Italian B2 test or accepted certificate required",
+          "enrolment": "Only after successful eligibility and personal-preparation outcomes, followed by course-fee payment through Infostud/PagoPA"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-SAPIENZA-FINANCE-INSURANCE-2026",
+          "SRC-SAPIENZA-FINANCE-INSURANCE-FACULTY-2026",
+          "SRC-SAPIENZA-FINANCE-INSURANCE-APPLY-2026",
+          "SRC-SAPIENZA-FINANCE-INSURANCE-CALL-EN-2026",
+          "SRC-SAPIENZA-FINANCE-INSURANCE-CALL-IT-2026",
+          "SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026",
+          "SRC-SAPIENZA-INTL-OFFICE-2026"
+        ],
+        "notes": "Official 2026/27 evidence only; it does not confirm a 2027/28 new-entry offer or current terms."
+      },
+      "previous_cycle_entrance_test": {
+        "value": {
+          "academic_year": "2026/27",
+          "selective": false,
+          "assessment": "Non-selective personal-preparation assessment; interview or academic-record review may be used",
+          "exemptions": "Listed L-18/L-33 and corresponding older classes, or another degree class with final mark at least 90/110"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-SAPIENZA-FINANCE-INSURANCE-2026",
+          "SRC-SAPIENZA-FINANCE-INSURANCE-FACULTY-2026",
+          "SRC-SAPIENZA-FINANCE-INSURANCE-APPLY-2026",
+          "SRC-SAPIENZA-FINANCE-INSURANCE-CALL-EN-2026",
+          "SRC-SAPIENZA-FINANCE-INSURANCE-CALL-IT-2026"
+        ],
+        "notes": "Official 2026/27 evidence only; it does not confirm a 2027/28 new-entry offer or current terms."
+      },
+      "program_specific_requirements_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-SAPIENZA-FINANCE-INSURANCE-2026",
+          "SRC-SAPIENZA-FINANCE-INSURANCE-FACULTY-2026",
+          "SRC-SAPIENZA-FINANCE-INSURANCE-APPLY-2026",
+          "SRC-SAPIENZA-FINANCE-INSURANCE-CALL-EN-2026",
+          "SRC-SAPIENZA-FINANCE-INSURANCE-CALL-IT-2026"
+        ],
+        "notes": "The exact criteria in the linked official calls are for 2026/27; no 2027/28 course call was identified."
+      },
+      "available_places_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-SAPIENZA-FINANCE-INSURANCE-2026",
+          "SRC-SAPIENZA-FINANCE-INSURANCE-FACULTY-2026",
+          "SRC-SAPIENZA-FINANCE-INSURANCE-APPLY-2026",
+          "SRC-SAPIENZA-FINANCE-INSURANCE-CALL-EN-2026",
+          "SRC-SAPIENZA-FINANCE-INSURANCE-CALL-IT-2026"
+        ],
+        "notes": "The reviewed 2026/27 calls do not establish places for 2027/28; no next-cycle quota was identified."
       }
     },
     "source_ids": [
       "SRC-SAPIENZA-FINANCE-INSURANCE-2026",
+      "SRC-SAPIENZA-FINANCE-INSURANCE-FACULTY-2026",
+      "SRC-SAPIENZA-FINANCE-INSURANCE-APPLY-2026",
+      "SRC-SAPIENZA-FINANCE-INSURANCE-CALL-EN-2026",
+      "SRC-SAPIENZA-FINANCE-INSURANCE-CALL-IT-2026",
       "SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026",
       "SRC-SAPIENZA-INTL-OFFICE-2026"
     ],
     "previous_tracker_tags": {
       "level": "MSc",
-      "language": "Italian and English curricula listed",
+      "language": "Two Italian curricula and one English curriculum",
       "field": "Finance and Insurance",
       "label": "Earlier tracker lead; official 2026/27 comparison recorded separately"
     },
     "previous_cycle_tags": {
       "level": "MSc",
-      "language": "Italian and English curricula listed",
+      "language": "Two Italian curricula and one English curriculum",
       "field": "Finance and Insurance",
       "cycle": "2026-2027",
       "label": "Official 2026/27 evidence only; 2027/28 intake remains unverified"
     },
-    "last_checked": "2026-11-10"
+    "last_checked": "2026-11-11"
   },
   {
     "id": "discovered-028",

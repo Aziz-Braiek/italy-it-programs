@@ -2050,6 +2050,12 @@ BATCH41 = {
     "result": "Reviewed discovered-025, Data Science and Artificial Intelligence at Trieste. Fresh direct no-cache GETs returned HTTP 200 for the official DSAI profile and 2026/27 admission page, the 2026/27 catalogue, international admissions page and 2026 catalogue record, and the official course-unit page. The 2027/28 study plan names Information Retrieval and Data Visualization (481SM) as a second-year optional unit worth 6 CFU and 48 hours, with an oral exam, in the Economy and Society curriculum. Recorded this as confirmed second-year teaching evidence only; the candidate's 2027/28 first-year availability, call, dates, requirements, places, application fee, tuition and scholarships remain pending. Existing 2026/27 requirements, dates, fee and scholarship facts remain explicitly prior-cycle. No deployment or production settings were changed.",
 }
 
+BATCH42 = {
+    "id": "sapienza-finance-insurance-2026-27-call-and-2027-28-status-review",
+    "status": "partial",
+    "result": "Reviewed discovered-027, Finance and Insurance at Sapienza, against the official 2026/27 course catalogue/profile, Faculty course page, course enrollment guidance, English and Italian course-call PDFs, and general MoveIN/International Office pages. Confirmed course 33439 is a two-year LM-16 in-person Rome MSc with Finance and Insurance curricula taught in Italian and Financial Risk and Data Analysis taught in English. The 2026/27 calls accept L-18/L-33 (or corresponding older classes), or other degree classes with at least 72 CFU distributed across at least three subject areas including 18 statistical-mathematical CFU. They require a non-selective personal-preparation assessment, with specified exemptions and English B2 evidence. Course eligibility assessment opened 2 July 2026, with deadlines 15 September (non-EU visa applicants), 15 October, 17 November, 17 December and 14 January 2027 for Sapienza graduates; the course fee was €10. The €30 MoveIN pre-selection charge is separate. The English and Italian curricula have different non-EU visa routes. Both official call PDFs explicitly cover 2026/27; no 2027/28 intake or course terms were identified, so new-entry availability, requirements, dates, fee, places, tuition and scholarships remain unverified rather than discontinued. No applicant/admitted denominator was found for an acceptance rate. Fresh direct GETs returned HTTP 200 for reviewed HTML/PDF sources, with PDF signatures verified. No deployment or production settings were changed.",
+}
+
 SOURCE_RECHECKS = {
     "SRC-UNIBO-AI-PROFILE-2026": {
         "accessed_at": "2026-11-11",
@@ -7918,6 +7924,107 @@ SOURCE_RECHECKS.update({
             "x_vercel_cache": None, "x_vercel_id": None,
             "observed_title": "[SM38] DATA SCIENCE AND ARTIFICIAL INTELLIGENCE | Università degli Studi di Trieste",
             "pdf_signature": None, "has_2027_marker": False, "bytes_read": 93270,
+            "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib)",
+        },
+    },
+})
+
+SOURCE_RECHECKS.update({
+    "SRC-SAPIENZA-FINANCE-INSURANCE-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://www.corsidilaurea.uniroma1.it/en/course/33439",
+            "content_type": "text/html; charset=utf-8", "content_length_header": "18546",
+            "etag": "W/\"1794409106-1\"", "last_modified": "Wed, 11 Nov 2026 14:58:26 GMT",
+            "cache_control": "public, max-age=0", "age": "0",
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Finance and insurance | Course catalogue",
+            "pdf_signature": None, "has_2027_marker": False, "bytes_read": 18546,
+            "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib)",
+        },
+    },
+    "SRC-SAPIENZA-FINANCE-INSURANCE-FACULTY-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://economia.web.uniroma1.it/it/finanza-e-assicurazioni-20262027",
+            "content_type": "text/html; charset=UTF-8", "content_length_header": "73497",
+            "etag": "\"1794406718\"", "last_modified": "Wed, 11 Nov 2026 14:18:38 GMT",
+            "cache_control": "max-age=10800, public", "age": None,
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Finanza e Assicurazioni 2026/2027 | Facoltà di Economia",
+            "pdf_signature": None, "has_2027_marker": False, "bytes_read": 73497,
+            "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib)",
+        },
+    },
+    "SRC-SAPIENZA-FINANCE-INSURANCE-APPLY-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://www.corsidilaurea.uniroma1.it/en/course/33439/apply",
+            "content_type": "text/html; charset=utf-8", "content_length_header": None,
+            "etag": "W/\"1794409106-1\"", "last_modified": "Wed, 11 Nov 2026 14:58:26 GMT",
+            "cache_control": "public, max-age=0", "age": "0",
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Finance and insurance | Course catalogue",
+            "pdf_signature": None, "has_2027_marker": False, "bytes_read": 19697,
+            "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib)",
+        },
+    },
+    "SRC-SAPIENZA-FINANCE-INSURANCE-CALL-EN-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.corsidilaurea.uniroma1.it/sites/default/files/offertaformativa/documenti_ufficiali/187/33439_e_0.pdf",
+            "content_type": "application/pdf", "content_length_header": "249319",
+            "etag": "\"3cde7-65743e3b8cc71\"", "last_modified": "Thu, 23 Jul 2026 09:29:15 GMT",
+            "cache_control": None, "age": "126233",
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": None, "pdf_signature": True, "has_2027_marker": True, "bytes_read": 249319,
+            "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib)",
+        },
+    },
+    "SRC-SAPIENZA-FINANCE-INSURANCE-CALL-IT-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.corsidilaurea.uniroma1.it/sites/default/files/offertaformativa/documenti_ufficiali/187/33439_i_0.pdf",
+            "content_type": "application/pdf", "content_length_header": "247607",
+            "etag": "\"3c737-65743e9c518f1\"", "last_modified": "Thu, 23 Jul 2026 09:30:56 GMT",
+            "cache_control": None, "age": "128576",
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": None, "pdf_signature": True, "has_2027_marker": True, "bytes_read": 247607,
+            "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib)",
+        },
+    },
+    "SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://www.uniroma1.it/en/node/256794",
+            "content_type": "text/html; charset=utf-8", "content_length_header": None,
+            "etag": "\"1794409020-1\"", "last_modified": "Wed, 11 Nov 2026 14:57:00 GMT",
+            "cache_control": "public, max-age=86400", "age": None,
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Programmes in English | Sapienza Università di Roma",
+            "pdf_signature": None, "has_2027_marker": False, "bytes_read": 49669,
+            "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib)",
+        },
+    },
+    "SRC-SAPIENZA-INTL-OFFICE-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://www.uniroma1.it/en/node/24774",
+            "content_type": "text/html; charset=utf-8", "content_length_header": None,
+            "etag": "\"1794409108-1\"", "last_modified": "Wed, 11 Nov 2026 14:58:28 GMT",
+            "cache_control": "public, max-age=86400", "age": None,
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "International Student Office | Sapienza Università di Roma",
+            "pdf_signature": None, "has_2027_marker": True, "bytes_read": 136525,
             "outcome": "accessible", "error": None,
             "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib)",
         },
