@@ -2,7 +2,7 @@
 
 Prepared 2026-11-11 for academic year 2027/28. Review each record against official university pages, calls, portals, regulations, and PDFs.
 
-Snapshot inventory: 34 universities, 201 program records, 561 source records.
+Snapshot inventory: 34 universities, 201 program records, 565 source records.
 
 ## Review rules
 
@@ -3292,7 +3292,7 @@ Official university-level sources:
 - [ ] `SRC-PADUA-PHYSICS-DATA-REQUIREMENTS` — [Physics of Data – admission requirements](https://pod.dfa.unipd.it/requirement/) (cycle: general; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-PADUA-PHYSICS-DATA-2027-CALL` — [Physics of Data – 2027/28 first call for international students](https://pod.dfa.unipd.it/the-first-call-for-international-students/) (cycle: 2027-2028; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-PADUA-SCIENCE-MSC-CATALOGUE-2026` — [Master's degree courses of the School of Science – AY 2026/27](https://www.unipd.it/en/node/79192) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
-- [ ] `SRC-PADUA-STUDY-ENGLISH-APPLY-2027` — [Study in English – How to apply](https://www.unipd.it/en/studiare-inglese-come-fare-domanda) (cycle: 2027-2028; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-PADUA-STUDY-ENGLISH-APPLY-2027` — [Study in English – How to apply](https://www.unipd.it/en/studiare-inglese-come-fare-domanda) (cycle: 2027-2028; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-PADOVA-ENGLISH-MSC-CATALOGUE-2026` — [Padua official English-taught Master's programme catalogue](https://www.unipd.it/en/corsi-laurea-magistrale-lingua-inglese) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-PADOVA-ENG-MSC-ADMISSIONS-2026` — [School of Engineering Master's admission inventory – AY 2026/27](https://www.unipd.it/en/ammissioni-ing-magistrali) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-PADOVA-COMPUTER-ENGINEERING-2026` — [Computer Engineering – official English-taught degree listing](https://www.unipd.it/en/corsi-laurea-magistrale-lingua-inglese) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
@@ -3320,6 +3320,10 @@ Official university-level sources:
 - [ ] `SRC-PADUA-STATISTICAL-SCIENCE-PROFILE-2027` — [Statistical Science – Department programme profile and projected start](https://www.stat.unipd.it/en/statistical-science) (cycle: 2027-2028; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-PADUA-STATISTICAL-SCIENCE-ENTRY-REQUIREMENTS` — [Statistical Science – Department entry-requirements page](https://www.stat.unipd.it/en/statistical-science/entry-requirements) (cycle: general; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-PADUA-ARQUS-PHYSICS-TECH-2026` — [Arqus joint Bachelor's Programme in Physics for Technology – development agreement](https://www.unipd.it/en/arqus/news/rettrice-partecipa-consiglio-rettori-alleanza-europea-arqus) (cycle: general; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-PADUA-STUDY-ENGLISH-APPLY-ITALIAN-2027` — [Studiare in inglese – Come fare domanda (official Italian procedure)](https://www.unipd.it/studiare-inglese-come-fare-domanda) (cycle: 2027-2028; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-PADUA-INTL-EXCELLENCE-2027-BOARD` — [2027/28 Padua International Excellence Scholarship – Board allocation announcement](https://www.unipd.it/node/93348) (cycle: 2027-2028; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-PADUA-INTL-EXCELLENCE-PROGRAMME` — [Padua International Excellence Scholarship Programme – general terms and call status](https://www.unipd.it/en/padua-international-excellence-scholarship-programme) (cycle: general; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-PADUA-TUITION-2026` — [Student fees – 2026/27 fee notice and published tariff guidance](https://www.unipd.it/en/contribuzione-studentesca) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 
 #### Computer Engineering — `legacy-029`
 
@@ -3330,14 +3334,17 @@ Official university-level sources:
 Official linked sources to revisit:
 - [ ] `SRC-PADOVA-COMPUTER-ENGINEERING-2026` — [Computer Engineering – official English-taught degree listing](https://www.unipd.it/en/corsi-laurea-magistrale-lingua-inglese) (cycle: 2026-2027; prior check: 2026-11-10)
 - [ ] `SRC-PADOVA-ENG-MSC-ADMISSIONS-2026` — [School of Engineering Master's admission inventory – AY 2026/27](https://www.unipd.it/en/ammissioni-ing-magistrali) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-PADUA-INTL-EXCELLENCE-2027-BOARD` — [2027/28 Padua International Excellence Scholarship – Board allocation announcement](https://www.unipd.it/node/93348) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-INTL-EXCELLENCE-PROGRAMME` — [Padua International Excellence Scholarship Programme – general terms and call status](https://www.unipd.it/en/padua-international-excellence-scholarship-programme) (cycle: general; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-TUITION-2026` — [Student fees – 2026/27 fee notice and published tariff guidance](https://www.unipd.it/en/contribuzione-studentesca) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
   - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
   - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
   - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
   - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
-  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
-  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.
   - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
+  - `facts.scholarship_call_details_2027_2028` — `NOT_YET_PUBLISHED` — The official programme page says the 2027/28 annual call will be published in November 2026; as checked on 11 November the page still links the 2026/27 call. Confirm final eligibility, application/selection process and renewal criteria when the new notice appears.
 
 #### Computer Science — `legacy-030`
 
@@ -3348,14 +3355,17 @@ Currently missing or unpublished fields:
 Official linked sources to revisit:
 - [ ] `SRC-PADOVA-COMPUTER-SCIENCE-2026` — [Computer Science – official School of Science catalogue](https://www.scienze.unipd.it/en/courses/how-to-apply/) (cycle: 2026-2027; prior check: 2026-11-10)
 - [ ] `SRC-PADOVA-SCIENCE-MSC-2026` — [School of Science English Master's admission catalogue – AY 2026/27](https://www.scienze.unipd.it/en/courses/english-language/master-degree/2627/) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-PADUA-INTL-EXCELLENCE-2027-BOARD` — [2027/28 Padua International Excellence Scholarship – Board allocation announcement](https://www.unipd.it/node/93348) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-INTL-EXCELLENCE-PROGRAMME` — [Padua International Excellence Scholarship Programme – general terms and call status](https://www.unipd.it/en/padua-international-excellence-scholarship-programme) (cycle: general; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-TUITION-2026` — [Student fees – 2026/27 fee notice and published tariff guidance](https://www.unipd.it/en/contribuzione-studentesca) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
   - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
   - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
   - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
   - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
-  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
-  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.
   - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
+  - `facts.scholarship_call_details_2027_2028` — `NOT_YET_PUBLISHED` — The official programme page says the 2027/28 annual call will be published in November 2026; as checked on 11 November the page still links the 2026/27 call. Confirm final eligibility, application/selection process and renewal criteria when the new notice appears.
 
 #### Cybersecurity — `legacy-031`
 
@@ -3365,14 +3375,17 @@ Currently missing or unpublished fields:
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADOVA-CYBERSECURITY-2026` — [Cybersecurity – official 2026/27 Master's course and admissions page](https://cybersecurity.math.unipd.it/study-plan/) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-PADUA-INTL-EXCELLENCE-2027-BOARD` — [2027/28 Padua International Excellence Scholarship – Board allocation announcement](https://www.unipd.it/node/93348) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-INTL-EXCELLENCE-PROGRAMME` — [Padua International Excellence Scholarship Programme – general terms and call status](https://www.unipd.it/en/padua-international-excellence-scholarship-programme) (cycle: general; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-TUITION-2026` — [Student fees – 2026/27 fee notice and published tariff guidance](https://www.unipd.it/en/contribuzione-studentesca) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
   - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
   - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
   - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
   - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
-  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
-  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.
   - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
+  - `facts.scholarship_call_details_2027_2028` — `NOT_YET_PUBLISHED` — The official programme page says the 2027/28 annual call will be published in November 2026; as checked on 11 November the page still links the 2026/27 call. Confirm final eligibility, application/selection process and renewal criteria when the new notice appears.
 
 #### Data Science — `legacy-032`
 
@@ -3382,14 +3395,17 @@ Currently missing or unpublished fields:
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADOVA-DATA-SCIENCE-2026` — [Data Science – official degree profile and 2026/27 admission page](https://datascience.math.unipd.it/admission/) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-PADUA-INTL-EXCELLENCE-2027-BOARD` — [2027/28 Padua International Excellence Scholarship – Board allocation announcement](https://www.unipd.it/node/93348) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-INTL-EXCELLENCE-PROGRAMME` — [Padua International Excellence Scholarship Programme – general terms and call status](https://www.unipd.it/en/padua-international-excellence-scholarship-programme) (cycle: general; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-TUITION-2026` — [Student fees – 2026/27 fee notice and published tariff guidance](https://www.unipd.it/en/contribuzione-studentesca) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
   - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
   - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
   - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
   - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
-  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
-  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.
   - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
+  - `facts.scholarship_call_details_2027_2028` — `NOT_YET_PUBLISHED` — The official programme page says the 2027/28 annual call will be published in November 2026; as checked on 11 November the page still links the 2026/27 call. Confirm final eligibility, application/selection process and renewal criteria when the new notice appears.
 
 #### Information Engineering — `legacy-033`
 
@@ -3399,14 +3415,17 @@ Currently missing or unpublished fields:
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADOVA-INFORMATION-ENGINEERING-BSC-2026` — [Information Engineering – official degree profile](https://www.unipd.it/en/corsi-di-laurea/information-engineering) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-PADUA-INTL-EXCELLENCE-2027-BOARD` — [2027/28 Padua International Excellence Scholarship – Board allocation announcement](https://www.unipd.it/node/93348) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-INTL-EXCELLENCE-PROGRAMME` — [Padua International Excellence Scholarship Programme – general terms and call status](https://www.unipd.it/en/padua-international-excellence-scholarship-programme) (cycle: general; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-TUITION-2026` — [Student fees – 2026/27 fee notice and published tariff guidance](https://www.unipd.it/en/contribuzione-studentesca) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
   - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
   - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
   - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
   - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
-  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
-  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.
   - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
+  - `facts.scholarship_call_details_2027_2028` — `NOT_YET_PUBLISHED` — The official programme page says the 2027/28 annual call will be published in November 2026; as checked on 11 November the page still links the 2026/27 call. Confirm final eligibility, application/selection process and renewal criteria when the new notice appears.
 
 #### Aerospace Engineering — `legacy-034`
 
@@ -3417,14 +3436,17 @@ Currently missing or unpublished fields:
 Official linked sources to revisit:
 - [ ] `SRC-PADOVA-ENG-MSC-ADMISSIONS-2026` — [School of Engineering Master's admission inventory – AY 2026/27](https://www.unipd.it/en/ammissioni-ing-magistrali) (cycle: 2026-2027; prior check: 2026-11-10)
 - [ ] `SRC-PADOVA-AEROSPACE-MSC-2026` — [Aerospace Engineering – official Master's programme profile](https://academics.dii.unipd.it/aerospaceengineering/msc-degree-in-aerospace-engineering/) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-PADUA-INTL-EXCELLENCE-2027-BOARD` — [2027/28 Padua International Excellence Scholarship – Board allocation announcement](https://www.unipd.it/node/93348) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-INTL-EXCELLENCE-PROGRAMME` — [Padua International Excellence Scholarship Programme – general terms and call status](https://www.unipd.it/en/padua-international-excellence-scholarship-programme) (cycle: general; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-TUITION-2026` — [Student fees – 2026/27 fee notice and published tariff guidance](https://www.unipd.it/en/contribuzione-studentesca) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
   - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
   - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
   - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
   - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
-  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
-  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.
   - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
+  - `facts.scholarship_call_details_2027_2028` — `NOT_YET_PUBLISHED` — The official programme page says the 2027/28 annual call will be published in November 2026; as checked on 11 November the page still links the 2026/27 call. Confirm final eligibility, application/selection process and renewal criteria when the new notice appears.
 
 #### Medicine and Surgery (single-cycle degree) — `legacy-035`
 
@@ -3434,14 +3456,17 @@ Currently missing or unpublished fields:
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADOVA-MEDICINE-2026` — [Medicine and Surgery – current English single-cycle degree admissions guide](https://www.unipd.it/en/studiare-inglese-come-fare-domanda) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-PADUA-INTL-EXCELLENCE-2027-BOARD` — [2027/28 Padua International Excellence Scholarship – Board allocation announcement](https://www.unipd.it/node/93348) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-INTL-EXCELLENCE-PROGRAMME` — [Padua International Excellence Scholarship Programme – general terms and call status](https://www.unipd.it/en/padua-international-excellence-scholarship-programme) (cycle: general; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-TUITION-2026` — [Student fees – 2026/27 fee notice and published tariff guidance](https://www.unipd.it/en/contribuzione-studentesca) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
   - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
   - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
   - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
   - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
-  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
-  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.
   - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
+  - `facts.scholarship_call_details_2027_2028` — `NOT_YET_PUBLISHED` — The official programme page says the 2027/28 annual call will be published in November 2026; as checked on 11 November the page still links the 2026/27 call. Confirm final eligibility, application/selection process and renewal criteria when the new notice appears.
 
 #### Psychological Science — `legacy-036`
 
@@ -3451,14 +3476,17 @@ Currently missing or unpublished fields:
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADOVA-PSYCHOLOGICAL-SCIENCE-BSC-2026` — [Psychological Science – current Padua English BSc profile](https://www.unipd.it/corsi-di-laurea/psychological-science) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-PADUA-INTL-EXCELLENCE-2027-BOARD` — [2027/28 Padua International Excellence Scholarship – Board allocation announcement](https://www.unipd.it/node/93348) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-INTL-EXCELLENCE-PROGRAMME` — [Padua International Excellence Scholarship Programme – general terms and call status](https://www.unipd.it/en/padua-international-excellence-scholarship-programme) (cycle: general; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-TUITION-2026` — [Student fees – 2026/27 fee notice and published tariff guidance](https://www.unipd.it/en/contribuzione-studentesca) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
   - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
   - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
   - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
   - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
-  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
-  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.
   - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
+  - `facts.scholarship_call_details_2027_2028` — `NOT_YET_PUBLISHED` — The official programme page says the 2027/28 annual call will be published in November 2026; as checked on 11 November the page still links the 2026/27 call. Confirm final eligibility, application/selection process and renewal criteria when the new notice appears.
 
 #### Physics of Data — `legacy-037`
 
@@ -3471,12 +3499,15 @@ Official linked sources to revisit:
 - [ ] `SRC-PADUA-PHYSICS-DATA-REQUIREMENTS` — [Physics of Data – admission requirements](https://pod.dfa.unipd.it/requirement/) (cycle: general; prior check: 2026-11-10)
 - [ ] `SRC-PADUA-PHYSICS-DATA-2027-CALL` — [Physics of Data – 2027/28 first call for international students](https://pod.dfa.unipd.it/the-first-call-for-international-students/) (cycle: 2027-2028; prior check: 2026-11-10)
 - [ ] `SRC-PADUA-PHYSICS-DATA-PROFILE` — [Physics of Data – official degree profile](https://www.unipd.it/en/corsi-di-laurea/physics-data) (cycle: general; prior check: 2026-11-10)
-- [ ] `SRC-PADUA-STUDY-ENGLISH-APPLY-2027` — [Study in English – How to apply](https://www.unipd.it/en/studiare-inglese-come-fare-domanda) (cycle: 2027-2028; prior check: 2026-11-10)
+- [ ] `SRC-PADUA-INTL-EXCELLENCE-2027-BOARD` — [2027/28 Padua International Excellence Scholarship – Board allocation announcement](https://www.unipd.it/node/93348) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-INTL-EXCELLENCE-PROGRAMME` — [Padua International Excellence Scholarship Programme – general terms and call status](https://www.unipd.it/en/padua-international-excellence-scholarship-programme) (cycle: general; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-STUDY-ENGLISH-APPLY-2027` — [Study in English – How to apply](https://www.unipd.it/en/studiare-inglese-come-fare-domanda) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-TUITION-2026` — [Student fees – 2026/27 fee notice and published tariff guidance](https://www.unipd.it/en/contribuzione-studentesca) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
-  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — No 2027/28 tuition amount is stated in the programme-specific call notice.
-  - `facts.scholarships_2027_2028` — `REQUIRES_VERIFICATION` — No programme-specific 2027/28 scholarship terms were stated in the first-call notice reviewed.
+  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — No 2027/28 tuition amount is stated in the programme-specific call notice. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.
   - `facts.program_specific_requirements_2027_2028` — `REQUIRES_VERIFICATION` — The call confirms the named programme and international intake but refers applicants to the portal for the full requirements; the page's current B2 and subject-background details need confirmation in the 2027/28 application factsheet.
   - `facts.acceptance_rate` — `UNAVAILABLE` — No applicant and admission counts are published in the first-call notice; no rate is inferred.
+  - `facts.scholarship_call_details_2027_2028` — `NOT_YET_PUBLISHED` — The official programme page says the 2027/28 annual call will be published in November 2026; as checked on 11 November the page still links the 2026/27 call. Confirm final eligibility, application/selection process and renewal criteria when the new notice appears.
 
 #### Psicologia clinica — `legacy-159`
 
@@ -3487,12 +3518,13 @@ Currently missing or unpublished fields:
 Official linked sources to revisit:
 - [ ] `SRC-PADOVA-PSYCHOLOGY-MSC-2026` — [Padua Italian-taught psychology Master's admissions catalogue – AY 2026/27](https://www.unipd.it/ammissioni-psi-magistrali-linguaitaliana) (cycle: 2026-2027; prior check: 2026-11-10)
 - [ ] `SRC-PADOVA-CLINICAL-PSYCHOLOGY-2026` — [Psicologia clinica – official current degree profile](https://www.unipd.it/corsi-di-laurea/psicologia-clinica) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-PADUA-TUITION-2026` — [Student fees – 2026/27 fee notice and published tariff guidance](https://www.unipd.it/en/contribuzione-studentesca) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
   - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
   - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
   - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
   - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
-  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.
   - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
   - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
@@ -3505,12 +3537,13 @@ Currently missing or unpublished fields:
 Official linked sources to revisit:
 - [ ] `SRC-PADOVA-PSYCHOLOGY-MSC-2026` — [Padua Italian-taught psychology Master's admissions catalogue – AY 2026/27](https://www.unipd.it/ammissioni-psi-magistrali-linguaitaliana) (cycle: 2026-2027; prior check: 2026-11-10)
 - [ ] `SRC-PADOVA-DEVELOPMENTAL-PSYCHOLOGY-2026` — [Psicologia dello sviluppo e dell'educazione – official current degree profile](https://psicologia.unipd.it/offerta-didattica/lauree-magistrali?key=PS2975&ordinamento=2025&tipo=LM) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-PADUA-TUITION-2026` — [Student fees – 2026/27 fee notice and published tariff guidance](https://www.unipd.it/en/contribuzione-studentesca) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
   - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
   - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
   - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
   - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
-  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.
   - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
   - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
@@ -3523,14 +3556,17 @@ Currently missing or unpublished fields:
 Official linked sources to revisit:
 - [ ] `SRC-PADOVA-ENG-MSC-ADMISSIONS-2026` — [School of Engineering Master's admission inventory – AY 2026/27](https://www.unipd.it/en/ammissioni-ing-magistrali) (cycle: 2026-2027; prior check: 2026-11-10)
 - [ ] `SRC-PADOVA-MANAGEMENT-ENGINEERING-2026` — [Ingegneria gestionale – official Master's course profile](https://www.unipd.it/corsi-di-laurea-magistrali/ingegneria-gestionale) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-PADUA-INTL-EXCELLENCE-2027-BOARD` — [2027/28 Padua International Excellence Scholarship – Board allocation announcement](https://www.unipd.it/node/93348) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-INTL-EXCELLENCE-PROGRAMME` — [Padua International Excellence Scholarship Programme – general terms and call status](https://www.unipd.it/en/padua-international-excellence-scholarship-programme) (cycle: general; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-TUITION-2026` — [Student fees – 2026/27 fee notice and published tariff guidance](https://www.unipd.it/en/contribuzione-studentesca) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
   - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
   - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
   - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
   - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
-  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
-  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.
   - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
+  - `facts.scholarship_call_details_2027_2028` — `NOT_YET_PUBLISHED` — The official programme page says the 2027/28 annual call will be published in November 2026; as checked on 11 November the page still links the 2026/27 call. Confirm final eligibility, application/selection process and renewal criteria when the new notice appears.
 
 #### Scienze e tecnologie agrarie — `legacy-162`
 
@@ -3540,12 +3576,13 @@ Currently missing or unpublished fields:
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADOVA-AGRICULTURAL-SCIENCES-2026` — [Scienze e tecnologie agrarie – official programme profile](https://www.unipd.it/de/node/79184) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-PADUA-TUITION-2026` — [Student fees – 2026/27 fee notice and published tariff guidance](https://www.unipd.it/en/contribuzione-studentesca) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
   - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
   - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
   - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
   - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
-  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.
   - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
   - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
@@ -3557,12 +3594,13 @@ Currently missing or unpublished fields:
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADOVA-MOLECULAR-BIOLOGY-BSC-2026` — [Biologia Molecolare – official bachelor's degree profile](https://biologia-molecolare.biologia.unipd.it/index.php?id=170) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-PADUA-TUITION-2026` — [Student fees – 2026/27 fee notice and published tariff guidance](https://www.unipd.it/en/contribuzione-studentesca) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
   - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
   - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
   - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
   - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
-  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.
   - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
   - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
@@ -3574,12 +3612,13 @@ Currently missing or unpublished fields:
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADOVA-COMPUTER-ENGINEERING-BSC-2026` — [Ingegneria informatica – official bachelor's degree profile](https://www.unipd.it/corsi-di-laurea/ingegneria-informatica) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-PADUA-TUITION-2026` — [Student fees – 2026/27 fee notice and published tariff guidance](https://www.unipd.it/en/contribuzione-studentesca) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
   - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
   - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
   - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
   - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
-  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.
   - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
   - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
@@ -3591,12 +3630,13 @@ Currently missing or unpublished fields:
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADOVA-COGNITIVE-PSYCHOLOGY-BSC-2026` — [Scienze psicologiche cognitive e psicobiologiche – official bachelor's profile](https://www.unipd.it/corsi-di-laurea/scienze-psicologiche-cognitive-e-psicobiologiche) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-PADUA-TUITION-2026` — [Student fees – 2026/27 fee notice and published tariff guidance](https://www.unipd.it/en/contribuzione-studentesca) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
   - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
   - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
   - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
   - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
-  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.
   - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
   - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
@@ -3608,10 +3648,12 @@ Currently missing or unpublished fields:
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADUA-PROGRAMS-2027` — [International students – 2027/28 applications (DiSSGeA)](https://www.dissgea.unipd.it/en/en/international-students-202728-applications) (cycle: 2027-2028; prior check: 2026-11-09)
+- [ ] `SRC-PADUA-TUITION-2026` — [Student fees – 2026/27 fee notice and published tariff guidance](https://www.unipd.it/en/contribuzione-studentesca) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
   - `facts.program_specific_requirements` — `REQUIRES_VERIFICATION` — Course-specific requirements were not included in the reviewed call summary.
   - `facts.tuition` — `REQUIRES_VERIFICATION` — Program-specific 2027/28 tuition and individual eligibility need review.
   - `facts.acceptance_rate` — `UNAVAILABLE` — No acceptance rate is stated in this call listing.
+  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.
 
 #### Classical Languages and Literatures and Ancient History — `discovered-003`
 
@@ -3621,10 +3663,12 @@ Currently missing or unpublished fields:
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADUA-PROGRAMS-2027` — [International students – 2027/28 applications (DiSSGeA)](https://www.dissgea.unipd.it/en/en/international-students-202728-applications) (cycle: 2027-2028; prior check: 2026-11-09)
+- [ ] `SRC-PADUA-TUITION-2026` — [Student fees – 2026/27 fee notice and published tariff guidance](https://www.unipd.it/en/contribuzione-studentesca) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
   - `facts.program_specific_requirements` — `REQUIRES_VERIFICATION` — Course-specific requirements were not included in the reviewed call summary.
   - `facts.tuition` — `REQUIRES_VERIFICATION` — Program-specific 2027/28 tuition and individual eligibility need review.
   - `facts.acceptance_rate` — `UNAVAILABLE` — No acceptance rate is stated in this call listing.
+  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.
 
 #### Historical Sciences — `discovered-004`
 
@@ -3634,10 +3678,12 @@ Currently missing or unpublished fields:
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADUA-PROGRAMS-2027` — [International students – 2027/28 applications (DiSSGeA)](https://www.dissgea.unipd.it/en/en/international-students-202728-applications) (cycle: 2027-2028; prior check: 2026-11-09)
+- [ ] `SRC-PADUA-TUITION-2026` — [Student fees – 2026/27 fee notice and published tariff guidance](https://www.unipd.it/en/contribuzione-studentesca) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
   - `facts.program_specific_requirements` — `REQUIRES_VERIFICATION` — Course-specific requirements were not included in the reviewed call summary.
   - `facts.tuition` — `REQUIRES_VERIFICATION` — Program-specific 2027/28 tuition and individual eligibility need review.
   - `facts.acceptance_rate` — `UNAVAILABLE` — No acceptance rate is stated in this call listing.
+  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.
 
 #### Landscape Studies — `discovered-005`
 
@@ -3647,10 +3693,12 @@ Currently missing or unpublished fields:
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADUA-PROGRAMS-2027` — [International students – 2027/28 applications (DiSSGeA)](https://www.dissgea.unipd.it/en/en/international-students-202728-applications) (cycle: 2027-2028; prior check: 2026-11-09)
+- [ ] `SRC-PADUA-TUITION-2026` — [Student fees – 2026/27 fee notice and published tariff guidance](https://www.unipd.it/en/contribuzione-studentesca) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
   - `facts.program_specific_requirements` — `REQUIRES_VERIFICATION` — Course-specific requirements were not included in the reviewed call summary.
   - `facts.tuition` — `REQUIRES_VERIFICATION` — Program-specific 2027/28 tuition and individual eligibility need review.
   - `facts.acceptance_rate` — `UNAVAILABLE` — No acceptance rate is stated in this call listing.
+  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.
 
 #### Religious Studies — `discovered-006`
 
@@ -3660,10 +3708,12 @@ Currently missing or unpublished fields:
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADUA-PROGRAMS-2027` — [International students – 2027/28 applications (DiSSGeA)](https://www.dissgea.unipd.it/en/en/international-students-202728-applications) (cycle: 2027-2028; prior check: 2026-11-09)
+- [ ] `SRC-PADUA-TUITION-2026` — [Student fees – 2026/27 fee notice and published tariff guidance](https://www.unipd.it/en/contribuzione-studentesca) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
   - `facts.program_specific_requirements` — `REQUIRES_VERIFICATION` — Course-specific requirements were not included in the reviewed call summary.
   - `facts.tuition` — `REQUIRES_VERIFICATION` — Program-specific 2027/28 tuition and individual eligibility need review.
   - `facts.acceptance_rate` — `UNAVAILABLE` — No acceptance rate is stated in this call listing.
+  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.
 
 #### Local Development — `discovered-007`
 
@@ -3673,10 +3723,15 @@ Currently missing or unpublished fields:
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADUA-PROGRAMS-2027` — [International students – 2027/28 applications (DiSSGeA)](https://www.dissgea.unipd.it/en/en/international-students-202728-applications) (cycle: 2027-2028; prior check: 2026-11-09)
+- [ ] `SRC-PADUA-INTL-EXCELLENCE-2027-BOARD` — [2027/28 Padua International Excellence Scholarship – Board allocation announcement](https://www.unipd.it/node/93348) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-INTL-EXCELLENCE-PROGRAMME` — [Padua International Excellence Scholarship Programme – general terms and call status](https://www.unipd.it/en/padua-international-excellence-scholarship-programme) (cycle: general; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-TUITION-2026` — [Student fees – 2026/27 fee notice and published tariff guidance](https://www.unipd.it/en/contribuzione-studentesca) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
   - `facts.program_specific_requirements` — `REQUIRES_VERIFICATION` — Course-specific requirements were not included in the reviewed call summary.
   - `facts.tuition` — `REQUIRES_VERIFICATION` — Program-specific 2027/28 tuition and individual eligibility need review.
   - `facts.acceptance_rate` — `UNAVAILABLE` — No acceptance rate is stated in this call listing.
+  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.
+  - `facts.scholarship_call_details_2027_2028` — `NOT_YET_PUBLISHED` — The official programme page says the 2027/28 annual call will be published in November 2026; as checked on 11 November the page still links the 2026/27 call. Confirm final eligibility, application/selection process and renewal criteria when the new notice appears.
 
 #### Mobility Studies — `discovered-008`
 
@@ -3686,10 +3741,15 @@ Currently missing or unpublished fields:
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADUA-PROGRAMS-2027` — [International students – 2027/28 applications (DiSSGeA)](https://www.dissgea.unipd.it/en/en/international-students-202728-applications) (cycle: 2027-2028; prior check: 2026-11-09)
+- [ ] `SRC-PADUA-INTL-EXCELLENCE-2027-BOARD` — [2027/28 Padua International Excellence Scholarship – Board allocation announcement](https://www.unipd.it/node/93348) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-INTL-EXCELLENCE-PROGRAMME` — [Padua International Excellence Scholarship Programme – general terms and call status](https://www.unipd.it/en/padua-international-excellence-scholarship-programme) (cycle: general; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-TUITION-2026` — [Student fees – 2026/27 fee notice and published tariff guidance](https://www.unipd.it/en/contribuzione-studentesca) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
   - `facts.program_specific_requirements` — `REQUIRES_VERIFICATION` — Course-specific requirements were not included in the reviewed call summary.
   - `facts.tuition` — `REQUIRES_VERIFICATION` — Program-specific 2027/28 tuition and individual eligibility need review.
   - `facts.acceptance_rate` — `UNAVAILABLE` — No acceptance rate is stated in this call listing.
+  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.
+  - `facts.scholarship_call_details_2027_2028` — `NOT_YET_PUBLISHED` — The official programme page says the 2027/28 annual call will be published in November 2026; as checked on 11 November the page still links the 2026/27 call. Confirm final eligibility, application/selection process and renewal criteria when the new notice appears.
 
 #### Management, Finance and Business Analytics (proposed 2027/28) — `discovered-031`
 
@@ -3699,14 +3759,17 @@ Currently missing or unpublished fields:
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027` — [Degree programmes held in English – proposed 2027/28 BSc and MSc additions](https://www.unipd.it/en/corsi-laurea-lingua-inglese) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-INTL-EXCELLENCE-2027-BOARD` — [2027/28 Padua International Excellence Scholarship – Board allocation announcement](https://www.unipd.it/node/93348) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-INTL-EXCELLENCE-PROGRAMME` — [Padua International Excellence Scholarship Programme – general terms and call status](https://www.unipd.it/en/padua-international-excellence-scholarship-programme) (cycle: general; prior check: 2026-11-11)
 - [ ] `SRC-PADUA-INTL-2027` — [Admission of international students – How to apply](https://www.unipd.it/en/ammissione-studenti-internazionali) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-TUITION-2026` — [Student fees – 2026/27 fee notice and published tariff guidance](https://www.unipd.it/en/contribuzione-studentesca) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
   - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The university lists the programme for 2027/28 but explicitly says it is still to be approved. No course-specific 2027/28 call was identified.
   - `facts.application_windows` — `NOT_YET_PUBLISHED` — The University has general 2027/28 international calls for most courses, but the proposed degree itself is awaiting approval and no course-specific admission window or inclusion in those calls was identified.
   - `facts.program_specific_requirements_2027_2028` — `REQUIRES_VERIFICATION` — No approved course regulations or programme-specific entry requirements have been published in the reviewed source.
   - `facts.application_fee_2027_2028` — `REQUIRES_VERIFICATION` — No programme-specific application fee is confirmed for this unapproved proposal.
-  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — No course-specific 2027/28 fee is confirmed for this unapproved proposal.
-  - `facts.scholarships_2027_2028` — `REQUIRES_VERIFICATION` — No programme-specific 2027/28 scholarship call is confirmed.
+  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — No course-specific 2027/28 fee is confirmed for this unapproved proposal. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.
+  - `facts.scholarship_call_details_2027_2028` — `NOT_YET_PUBLISHED` — The official programme page says the 2027/28 annual call will be published in November 2026; as checked on 11 November the page still links the 2026/27 call. Confirm final eligibility, application/selection process and renewal criteria when the new notice appears.
 
 #### Food Safety for Global Health (proposed 2027/28) — `discovered-032`
 
@@ -3716,14 +3779,17 @@ Currently missing or unpublished fields:
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027` — [Degree programmes held in English – proposed 2027/28 BSc and MSc additions](https://www.unipd.it/en/corsi-laurea-lingua-inglese) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-INTL-EXCELLENCE-2027-BOARD` — [2027/28 Padua International Excellence Scholarship – Board allocation announcement](https://www.unipd.it/node/93348) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-INTL-EXCELLENCE-PROGRAMME` — [Padua International Excellence Scholarship Programme – general terms and call status](https://www.unipd.it/en/padua-international-excellence-scholarship-programme) (cycle: general; prior check: 2026-11-11)
 - [ ] `SRC-PADUA-INTL-2027` — [Admission of international students – How to apply](https://www.unipd.it/en/ammissione-studenti-internazionali) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-TUITION-2026` — [Student fees – 2026/27 fee notice and published tariff guidance](https://www.unipd.it/en/contribuzione-studentesca) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
   - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The university lists the programme for 2027/28 but explicitly says it is still to be approved. No course-specific 2027/28 call was identified.
   - `facts.application_windows` — `NOT_YET_PUBLISHED` — The University has general 2027/28 international calls for most courses, but the proposed degree itself is awaiting approval and no course-specific admission window or inclusion in those calls was identified.
   - `facts.program_specific_requirements_2027_2028` — `REQUIRES_VERIFICATION` — No approved course regulations or programme-specific entry requirements have been published in the reviewed source.
   - `facts.application_fee_2027_2028` — `REQUIRES_VERIFICATION` — No programme-specific application fee is confirmed for this unapproved proposal.
-  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — No course-specific 2027/28 fee is confirmed for this unapproved proposal.
-  - `facts.scholarships_2027_2028` — `REQUIRES_VERIFICATION` — No programme-specific 2027/28 scholarship call is confirmed.
+  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — No course-specific 2027/28 fee is confirmed for this unapproved proposal. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.
+  - `facts.scholarship_call_details_2027_2028` — `NOT_YET_PUBLISHED` — The official programme page says the 2027/28 annual call will be published in November 2026; as checked on 11 November the page still links the 2026/27 call. Confirm final eligibility, application/selection process and renewal criteria when the new notice appears.
 
 #### Innovative Technologies in Agriculture (proposed 2027/28) — `discovered-033`
 
@@ -3733,14 +3799,17 @@ Currently missing or unpublished fields:
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027` — [Degree programmes held in English – proposed 2027/28 BSc and MSc additions](https://www.unipd.it/en/corsi-laurea-lingua-inglese) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-INTL-EXCELLENCE-2027-BOARD` — [2027/28 Padua International Excellence Scholarship – Board allocation announcement](https://www.unipd.it/node/93348) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-INTL-EXCELLENCE-PROGRAMME` — [Padua International Excellence Scholarship Programme – general terms and call status](https://www.unipd.it/en/padua-international-excellence-scholarship-programme) (cycle: general; prior check: 2026-11-11)
 - [ ] `SRC-PADUA-INTL-2027` — [Admission of international students – How to apply](https://www.unipd.it/en/ammissione-studenti-internazionali) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-TUITION-2026` — [Student fees – 2026/27 fee notice and published tariff guidance](https://www.unipd.it/en/contribuzione-studentesca) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
   - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The university lists the programme for 2027/28 but explicitly says it is still to be approved. No course-specific 2027/28 call was identified.
   - `facts.application_windows` — `NOT_YET_PUBLISHED` — The University has general 2027/28 international calls for most courses, but the proposed degree itself is awaiting approval and no course-specific admission window or inclusion in those calls was identified.
   - `facts.program_specific_requirements_2027_2028` — `REQUIRES_VERIFICATION` — No approved course regulations or programme-specific entry requirements have been published in the reviewed source.
   - `facts.application_fee_2027_2028` — `REQUIRES_VERIFICATION` — No programme-specific application fee is confirmed for this unapproved proposal.
-  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — No course-specific 2027/28 fee is confirmed for this unapproved proposal.
-  - `facts.scholarships_2027_2028` — `REQUIRES_VERIFICATION` — No programme-specific 2027/28 scholarship call is confirmed.
+  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — No course-specific 2027/28 fee is confirmed for this unapproved proposal. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.
+  - `facts.scholarship_call_details_2027_2028` — `NOT_YET_PUBLISHED` — The official programme page says the 2027/28 annual call will be published in November 2026; as checked on 11 November the page still links the 2026/27 call. Confirm final eligibility, application/selection process and renewal criteria when the new notice appears.
 
 #### Data Analytics and Decision Support (proposed 2027/28) — `discovered-035`
 
@@ -3750,7 +3819,10 @@ Currently missing or unpublished fields:
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027` — [Degree programmes held in English – proposed 2027/28 BSc and MSc additions](https://www.unipd.it/en/corsi-laurea-lingua-inglese) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-INTL-EXCELLENCE-2027-BOARD` — [2027/28 Padua International Excellence Scholarship – Board allocation announcement](https://www.unipd.it/node/93348) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-INTL-EXCELLENCE-PROGRAMME` — [Padua International Excellence Scholarship Programme – general terms and call status](https://www.unipd.it/en/padua-international-excellence-scholarship-programme) (cycle: general; prior check: 2026-11-11)
 - [ ] `SRC-PADUA-INTL-2027` — [Admission of international students – How to apply](https://www.unipd.it/en/ammissione-studenti-internazionali) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-TUITION-2026` — [Student fees – 2026/27 fee notice and published tariff guidance](https://www.unipd.it/en/contribuzione-studentesca) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
   - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The University catalogue marks the proposed programme as awaiting approval. For Statistical Science, the Department's projected September 2027 start does not establish approval or a confirmed first-year intake.
   - `facts.department_projected_profile` — `REQUIRES_VERIFICATION` — No department-level programme profile has been identified; verify whether a separate proposal specification is published.
@@ -3758,9 +3830,9 @@ Currently missing or unpublished fields:
   - `facts.application_windows` — `NOT_YET_PUBLISHED` — The University-level 2027/28 application calls cover most courses but do not confirm that this unapproved proposal is included; no programme-specific call or deadline was found.
   - `facts.program_specific_requirements_2027_2028` — `REQUIRES_VERIFICATION` — No approved annual programme regulation or 2027/28 course-specific requirements are available.
   - `facts.application_fee_2027_2028` — `REQUIRES_VERIFICATION` — No programme-specific 2027/28 application fee is confirmed for this unapproved proposal.
-  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — No programme-specific 2027/28 tuition amount is confirmed.
-  - `facts.scholarships_2027_2028` — `REQUIRES_VERIFICATION` — No programme-specific 2027/28 scholarship call or eligibility is confirmed.
+  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — No programme-specific 2027/28 tuition amount is confirmed. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.
   - `facts.acceptance_rate` — `UNAVAILABLE` — No applicant and admitted-student totals are published; no acceptance rate is inferred.
+  - `facts.scholarship_call_details_2027_2028` — `NOT_YET_PUBLISHED` — The official programme page says the 2027/28 annual call will be published in November 2026; as checked on 11 November the page still links the 2026/27 call. Confirm final eligibility, application/selection process and renewal criteria when the new notice appears.
 
 #### Statistical Science (proposed 2027/28) — `discovered-036`
 
@@ -3772,15 +3844,18 @@ Official linked sources to revisit:
 - [ ] `SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027` — [Degree programmes held in English – proposed 2027/28 BSc and MSc additions](https://www.unipd.it/en/corsi-laurea-lingua-inglese) (cycle: 2027-2028; prior check: 2026-11-11)
 - [ ] `SRC-PADUA-STATISTICAL-SCIENCE-ENTRY-REQUIREMENTS` — [Statistical Science – Department entry-requirements page](https://www.stat.unipd.it/en/statistical-science/entry-requirements) (cycle: general; prior check: 2026-11-11)
 - [ ] `SRC-PADUA-STATISTICAL-SCIENCE-PROFILE-2027` — [Statistical Science – Department programme profile and projected start](https://www.stat.unipd.it/en/statistical-science) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-INTL-EXCELLENCE-2027-BOARD` — [2027/28 Padua International Excellence Scholarship – Board allocation announcement](https://www.unipd.it/node/93348) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-INTL-EXCELLENCE-PROGRAMME` — [Padua International Excellence Scholarship Programme – general terms and call status](https://www.unipd.it/en/padua-international-excellence-scholarship-programme) (cycle: general; prior check: 2026-11-11)
 - [ ] `SRC-PADUA-INTL-2027` — [Admission of international students – How to apply](https://www.unipd.it/en/ammissione-studenti-internazionali) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-TUITION-2026` — [Student fees – 2026/27 fee notice and published tariff guidance](https://www.unipd.it/en/contribuzione-studentesca) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
   - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The University catalogue marks the proposed programme as awaiting approval. For Statistical Science, the Department's projected September 2027 start does not establish approval or a confirmed first-year intake.
   - `facts.application_windows` — `NOT_YET_PUBLISHED` — The University-level 2027/28 application calls cover most courses but do not confirm that this unapproved proposal is included; no programme-specific call or deadline was found.
   - `facts.program_specific_requirements_2027_2028` — `REQUIRES_VERIFICATION` — No approved annual programme regulation or 2027/28 course-specific requirements are available.
   - `facts.application_fee_2027_2028` — `REQUIRES_VERIFICATION` — No programme-specific 2027/28 application fee is confirmed for this unapproved proposal.
-  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — No programme-specific 2027/28 tuition amount is confirmed.
-  - `facts.scholarships_2027_2028` — `REQUIRES_VERIFICATION` — No programme-specific 2027/28 scholarship call or eligibility is confirmed.
+  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — No programme-specific 2027/28 tuition amount is confirmed. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.
   - `facts.acceptance_rate` — `UNAVAILABLE` — No applicant and admitted-student totals are published; no acceptance rate is inferred.
+  - `facts.scholarship_call_details_2027_2028` — `NOT_YET_PUBLISHED` — The official programme page says the 2027/28 annual call will be published in November 2026; as checked on 11 November the page still links the 2026/27 call. Confirm final eligibility, application/selection process and renewal criteria when the new notice appears.
 
 #### Physics for Technology (planned Arqus joint Bachelor's) — `discovered-034`
 
@@ -3790,12 +3865,13 @@ Currently missing or unpublished fields:
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
 - [ ] `SRC-PADUA-ARQUS-PHYSICS-TECH-2026` — [Arqus joint Bachelor's Programme in Physics for Technology – development agreement](https://www.unipd.it/en/arqus/news/rettrice-partecipa-consiglio-rettori-alleanza-europea-arqus) (cycle: general; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-TUITION-2026` — [Student fees – 2026/27 fee notice and published tariff guidance](https://www.unipd.it/en/contribuzione-studentesca) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
   - `language` — `REQUIRES_VERIFICATION` — The 2027/28 English-language degree catalogue does not list Physics for Technology; the Arqus development announcement does not state teaching language.
   - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The source confirms a consortium development agreement only. It gives no launch cycle, admission call or approval/accreditation status.
   - `facts.application_windows` — `NOT_YET_PUBLISHED` — No application window or launch academic year is given in the programme-development announcement.
   - `facts.program_specific_requirements_2027_2028` — `REQUIRES_VERIFICATION` — No approved programme regulation or admission requirements have been published in the reviewed source.
-  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — No applicable programme fee or tuition structure is published in the reviewed source.
+  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — No applicable programme fee or tuition structure is published in the reviewed source. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.
   - `facts.scholarships_2027_2028` — `REQUIRES_VERIFICATION` — No programme-specific scholarship call is published in the reviewed source.
 
 ### Università degli Studi di Palermo (Palermo) — `palermo`
@@ -4973,7 +5049,7 @@ Currently missing or unpublished fields:
 
 ## Source URL recheck results
 
-Checked 547 unique URLs representing 561 source records on 2026-11-11. Unique URL outcomes: {'accessible': 513, 'redirected': 13, 'inconclusive': 21}. HTTP 404/410 outcomes are listed as broken; TLS, timeout, and remote-disconnect cases remain inconclusive.
+Checked 551 unique URLs representing 565 source records on 2026-11-11. Unique URL outcomes: {'accessible': 517, 'redirected': 13, 'inconclusive': 21}. HTTP 404/410 outcomes are listed as broken; TLS, timeout, and remote-disconnect cases remain inconclusive.
 
 ### Redirected sources
 
@@ -4995,10 +5071,10 @@ Checked 547 unique URLs representing 561 source records on 2026-11-11. Unique UR
 
 - `SRC-CAMERINO-FOREIGN-FEES` — [Fees for foreign students](https://www.miiscrivo.unicam.it/fees-foreign-students) — direct check inconclusive; Content fetch timed out; direct HTTPS check also failed TLS validation. Do not classify as broken.
 - `SRC-TRIESTE-DSSC-CALL-2022` — [DSSC MSc admission call 2022/23](https://corsi.units.it/sites/default/files/dssc_call_2022_0.pdf) — direct check inconclusive; Content fetch did not access the 2022 PDF; direct HTTPS check also failed TLS validation. Do not classify as broken.
-- `SRC-PADOVA-COMPUTER-SCIENCE-2026` — [Computer Science – official School of Science catalogue](https://www.scienze.unipd.it/en/courses/how-to-apply/) — direct check inconclusive; SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)
-- `SRC-PADOVA-PSYCHOLOGY-MSC-FULL-2026` — [School of Psychology Master's programmes – active official catalogue](https://www.psicologia.unipd.it/offerta-didattica/corsi-di-laurea-magistrale?tipo=LM) — direct check inconclusive; No successful direct response was recorded.
-- `SRC-PADOVA-MOLECULAR-BIOLOGY-BSC-ADMISSION-2026` — [Biologia Molecolare – 2026/27 School of Science bachelor's admissions](https://www.scienze.unipd.it/come-iscriversi-l-2627/) — direct check inconclusive; SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)
-- `SRC-PADOVA-SCIENCE-MSC-2026` — [School of Science English Master's admission catalogue – AY 2026/27](https://www.scienze.unipd.it/en/courses/english-language/master-degree/2627/) — direct check inconclusive; SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)
-- `SRC-UNINA-ECONOMICS-FINANCE-DEPT-2026` — [Economics and Finance – Department of Economics and Statistics degree list](https://www.dises.unina.it/en_GB/il-dipartimento/presentazione) — direct check inconclusive; SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)
-- `SRC-UNINA-ARCH-HERITAGE-REG-2024` — [Architecture and Heritage – official didactic regulation](https://www.diarc.archer.unina.it/images/ARCHER_2024-25_DidacticRegulations_CdS_ENGL_2023_SA_DM96_v6.pdf) — direct check inconclusive; SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)
-- `SRC-UNINA-CIVIL-ENV-BSC-2026` — [Civil and Environmental Engineering BSc – official 2026/27 admission page](https://www.civil-environmental.unina.it/admission/) — direct check inconclusive; SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1007)
+- `SRC-PADOVA-COMPUTER-SCIENCE-2026` — [Computer Science – official School of Science catalogue](https://www.scienze.unipd.it/en/courses/how-to-apply/) — direct check inconclusive; Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken.
+- `SRC-PADOVA-PSYCHOLOGY-MSC-FULL-2026` — [School of Psychology Master's programmes – active official catalogue](https://www.psicologia.unipd.it/offerta-didattica/corsi-di-laurea-magistrale?tipo=LM) — direct check inconclusive; Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken.
+- `SRC-PADOVA-MOLECULAR-BIOLOGY-BSC-ADMISSION-2026` — [Biologia Molecolare – 2026/27 School of Science bachelor's admissions](https://www.scienze.unipd.it/come-iscriversi-l-2627/) — direct check inconclusive; Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken.
+- `SRC-PADOVA-SCIENCE-MSC-2026` — [School of Science English Master's admission catalogue – AY 2026/27](https://www.scienze.unipd.it/en/courses/english-language/master-degree/2627/) — direct check inconclusive; Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken.
+- `SRC-UNINA-ECONOMICS-FINANCE-DEPT-2026` — [Economics and Finance – Department of Economics and Statistics degree list](https://www.dises.unina.it/en_GB/il-dipartimento/presentazione) — direct check inconclusive; Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken.
+- `SRC-UNINA-ARCH-HERITAGE-REG-2024` — [Architecture and Heritage – official didactic regulation](https://www.diarc.archer.unina.it/images/ARCHER_2024-25_DidacticRegulations_CdS_ENGL_2023_SA_DM96_v6.pdf) — direct check inconclusive; Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken.
+- `SRC-UNINA-CIVIL-ENV-BSC-2026` — [Civil and Environmental Engineering BSc – official 2026/27 admission page](https://www.civil-environmental.unina.it/admission/) — direct check inconclusive; Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken.

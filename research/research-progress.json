@@ -187,6 +187,16 @@
       "result": "Added Padua's named 2027/28 Physics of Data international intake and first-call deadline, its English-degree €60 non-refundable application fee and prior-cycle course requirements. Added three Padua English-taught Bachelor's proposals announced for 2027/28 and marked pending approval; recorded Arqus Physics for Technology only as a joint-programme development lead with cycle and language unresolved. The latest official English-degree catalogue also identifies two proposed English Master's candidates: Data Analytics and Decision Support and Statistical Science, each marked as awaiting approval; the Department page gives Statistical Science a projected September 2027 start and preliminary requirements, which remain unconfirmed against the central approval status and annual admissions call. Added Bologna's 2027/28 GrEnFIn Erasmus Mundus Joint Master with exact dates, 51-place maximum, B2/selection rules and up to 18 competitive scholarships. Added PoliTO Mathematical Engineering as a 2027/28 discovery supported by its admissions-linked scholarship call; separately recorded that the planned all-English track remains pending approval and that scholarship dates are not degree admission deadlines. Added Polimi's named 2027/28 28DIGITAL pathway for Computer Science and Engineering (T2A) and High Performance Computing Engineering, with the separate local application, applicant-category deadlines and fee. Linked individual official 2026/27 course profiles for 14 Bologna rows, 15 Padua rows and four Pisa rows that previously had no source IDs. Corrected the Bologna AI and Manufacturing lead to a 2027/28 Global MBA, identified Business Analytics as a curriculum, corrected BBS professional-master classifications, corrected Bologna's Forlì campus for Economia e commercio, corrected Medicine and Giurisprudenza to single-cycle degrees, recorded Padua's Medicine campus move to Venice, and corrected several Padua programme language/course-identity classifications. Added official programme and admission evidence for all 10 previously unlinked Federico II rows, all seven University of Florence rows, and Tor Vergata Computer Science. Corrected Florence Architecture and Urban Planning to curriculum-level records, set Urban Planning's campus to Prato, scoped the RISE English-only route as an optional pathway, corrected Tor Vergata Computer Science to Italian, and preserved 2026/27 admissions data as historical facts only. Rebuilt the 201-program dataset, 561-source inventory, report, Claude checklist and manifest; the data audit passed, all 12 static-site tests passed, the UI regression test passed after fixing proposed programme records leaking into the 'Not offered' filter, and desktop/mobile browser tests passed. No Vercel preview or production deployment was triggered while research remains partial."
     },
     {
+      "id": "padua-2027-28-application-procedure-and-call-two-source-correction",
+      "status": "partial",
+      "result": "Rechecked Padua's current official application procedure in Italian. The Italian legal-language page confirms the 2027/28 open-place calls (15 Sep–15 Nov 2026; 1 Dec 2026–1 Mar 2027; 1 Apr–1 Jun 2027 for EU and non-EU residents in Italy), the separate limited-place rounds (7 Jan–7 Mar 2027 for non-EU abroad; 15 Mar–7 Apr 2027 for English programmes for EU/equated applicants), the apply.unipd.it route, €60 non-refundable fee and two-programme limit, with course-specific exceptions. Corrected the university-level source attribution to cite the Italian page; kept the English translation's erroneous Call Two start explicitly flagged. No generic application date was copied to an individual unconfirmed course or to the unapproved English Master's proposals. The official Italian URL returned HTTP 200; rebuilt the dataset with 201 programs and 562 sources; data integrity audit passed; all 12 static-site tests, the UI regression test and desktop/mobile browser tests passed. Production and preview remain untouched while the larger research audit is incomplete."
+    },
+    {
+      "id": "padua-2027-28-excellence-scholarship-and-tuition-publication-status",
+      "status": "partial",
+      "result": "The University's Board of Administration approved €1,432,200 for the 2027/28 Padua International Excellence Scholarship edition, up to 76 awards for the top candidate per English-taught degree/curriculum (including newly activated programmes), at €8,000 gross/year plus university-fee exemption. General scheme details include max two years for Master's and three for Bachelor's/single-cycle degrees, with only regional tax and stamp duty remaining; the 2027/28 annual call, detailed selection/retention criteria and final programme allocations are still pending publication in November. Recorded the scheme as applicable to the three confirmed Padua English-taught 2027/28 candidates, and conditionally relevant to English-taught candidates whose course intake or proposal approval is pending. The latest official general tuition notice remains 2026/27; its amounts are preserved as historical only, with 2027/28 tuition still unconfirmed. All three new source URLs returned HTTP 200; rebuilt the 201-program, 565-source dataset, audit and site; data integrity passed, all 12 static tests passed, UI regression passed, and desktop/mobile browser tests passed. Production and preview remain untouched while the comprehensive research audit is incomplete."
+    },
+    {
       "id": "claude-independent-review-inventory",
       "status": "complete",
       "result": "Created a review manifest and checklist covering all 34 universities, 193 programs, and 454 existing official source records. The checklist exposes current unresolved fields and conflicts; all refresh outcomes remain pending until evidence is checked."
@@ -199,7 +209,7 @@
     {
       "id": "official-source-url-recheck-and-browser-review-2026-11-11",
       "status": "partial",
-      "result": "Extended the direct HTTP audit by checking two new official Statistical Science URLs; both returned HTTP 200. Current audit covers 547 unique URLs across 561 source records: 513 accessible, 13 redirected, 21 inconclusive and 0 confirmed broken. Twelve direct-HTTP inconclusive sources were separately opened and inspected through the official content fetcher: ten Camerino pages/PDFs, one Trieste historical catalogue PDF, and one Federico II Quantum Science and Engineering page. These retain their direct-HTTP inconclusive status but have separate accessible browser/content outcomes. Nine direct-inconclusive URLs still lack successful browser/content verification. Do not classify TLS errors or timeouts as dead links."
+      "result": "Direct HTTP review covers 551 unique URLs across 565 source records: 517 accessible, 13 redirected, 21 inconclusive and 0 confirmed broken. All 21 inconclusive URLs were retried via direct HTTP on 11 November and remained inconclusive. The three new Padua scholarship, scheme and tuition URLs and five earlier Padua admissions/Statistical Science URLs returned HTTP 200. Twelve inconclusive sources were separately opened and inspected through the official content fetcher: ten Camerino pages/PDFs, one Trieste historical catalogue PDF, and one Federico II Quantum Science and Engineering page. Nine URLs still lacked a successful independent content fetch; a 11 November retry of those nine also timed out or could not retrieve the PDF. Keep these classified as inconclusive, not broken."
     }
   ],
   "counts": {
@@ -431,9 +441,10 @@
       "tor-vergata",
       "trento"
     ],
-    "universities_with_explicit_not_yet_published_fields": 8,
+    "universities_with_explicit_not_yet_published_fields": 9,
     "university_ids_with_explicit_not_yet_published_fields": [
       "ca-foscari",
+      "padova",
       "palermo",
       "parma",
       "pisa",
@@ -492,8 +503,8 @@
       "trento",
       "udine"
     ],
-    "source_records": 561,
-    "official_source_supported_fields": 1112,
+    "source_records": 565,
+    "official_source_supported_fields": 1118,
     "verification_statuses": [
       "CONFIRMED",
       "NOT_YET_PUBLISHED",

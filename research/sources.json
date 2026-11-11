@@ -7,7 +7,7 @@
     "source_type": "Official international admissions page",
     "accessed_at": "2026-11-11",
     "cycle": "2027-2028",
-    "evidence": "Reviewed 11 November 2026: the international admissions page says the first application call for most programs opened 15 September 2026 and closes 15 November 2026. Applicants use apply.unipd.it except Medicine and Surgery; the page directs applicants to programme-specific requirements. The generic call does not prove inclusion or a deadline for an unapproved proposed programme.",
+    "evidence": "Reviewed 11 November 2026: the international admissions page says the first application call for most programs opened 15 September 2026 and closes 15 November 2026. Applicants use apply.unipd.it except Medicine and Surgery; the page directs applicants to programme-specific requirements. Detailed English-degree timing by admission type is taken from the official Italian procedure page. The generic call does not prove inclusion or a deadline for an unapproved proposed programme.",
     "supports": [
       "university.application_window",
       "university.non_eu_process",
@@ -7022,7 +7022,13 @@
       "checked_at": "2026-11-10",
       "method": "independent primary-source content fetch",
       "outcome": "inconclusive",
-      "note": "Content fetch timed out; direct HTTPS check also failed TLS validation. Do not classify as broken."
+      "note": "Content fetch timed out; direct HTTPS check also failed TLS validation. Do not classify as broken.",
+      "latest_retry": {
+        "checked_at": "2026-11-11",
+        "method": "independent official-source content fetch retry",
+        "outcome": "inconclusive",
+        "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
+      }
     }
   },
   {
@@ -12163,7 +12169,13 @@
       "checked_at": "2026-11-10",
       "method": "independent primary-source content fetch",
       "outcome": "inconclusive",
-      "note": "Content fetch did not access the 2022 PDF; direct HTTPS check also failed TLS validation. Do not classify as broken."
+      "note": "Content fetch did not access the 2022 PDF; direct HTTPS check also failed TLS validation. Do not classify as broken.",
+      "latest_retry": {
+        "checked_at": "2026-11-11",
+        "method": "independent official-source content fetch retry",
+        "outcome": "inconclusive",
+        "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
+      }
     }
   },
   {
@@ -16388,13 +16400,13 @@
     "title": "Study in English – How to apply",
     "url": "https://www.unipd.it/en/studiare-inglese-come-fare-domanda",
     "source_type": "Official international application procedure",
-    "accessed_at": "2026-11-10",
+    "accessed_at": "2026-11-11",
     "cycle": "2027-2028",
-    "evidence": "For English-taught degrees other than Medicine and Surgery, applicants use apply.unipd.it, may apply to up to two courses, and normally pay a non-refundable €60 application fee. It lists 2027/28 windows for open-access and limited-access programmes. Its English translation contains a malformed Call Two date (1 December 2027–1 March 2027); use an Italian official rendering or named programme page before relying on that round.",
+    "evidence": "For English-taught degrees other than Medicine and Surgery, applicants use apply.unipd.it, may apply to up to two courses, and normally pay a non-refundable €60 application fee. The English procedure page contains a malformed 2027/28 Call Two date (1 December 2027–1 March 2027); the official Italian rendering gives 1 December 2026–1 March 2027. Use the Italian page for call windows and retain this English page only as evidence of the English applicant route, fee and the translation discrepancy.",
     "supports": [
       "university.application_route",
       "university.application_fee",
-      "program.previous_cycle_application_fee"
+      "program.application_fee_2027_2028"
     ],
     "url_check": {
       "http_status": 200,
@@ -17804,6 +17816,12 @@
       "retried": true,
       "checked_at": "2026-11-11",
       "method": "GET"
+    },
+    "browser_check": {
+      "checked_at": "2026-11-11",
+      "method": "independent official-source content fetch retry",
+      "outcome": "inconclusive",
+      "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
     }
   },
   {
@@ -18330,7 +18348,7 @@
       "http_status": 500,
       "effective_url": "https://www.psicologia.unipd.it/offerta-didattica/corsi-di-laurea-magistrale?tipo=LM",
       "content_type": "text/html; charset=UTF-8",
-      "content_length_header": null,
+      "content_length_header": "6306",
       "etag": null,
       "last_modified": null,
       "cache_control": "no-cache, must-revalidate",
@@ -18346,6 +18364,12 @@
       "error": null,
       "checked_at": "2026-11-11",
       "method": "GET"
+    },
+    "browser_check": {
+      "checked_at": "2026-11-11",
+      "method": "independent official-source content fetch retry",
+      "outcome": "inconclusive",
+      "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
     }
   },
   {
@@ -18454,6 +18478,12 @@
       "retried": true,
       "checked_at": "2026-11-11",
       "method": "GET"
+    },
+    "browser_check": {
+      "checked_at": "2026-11-11",
+      "method": "independent official-source content fetch retry",
+      "outcome": "inconclusive",
+      "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
     }
   },
   {
@@ -18490,6 +18520,12 @@
       "retried": true,
       "checked_at": "2026-11-11",
       "method": "GET"
+    },
+    "browser_check": {
+      "checked_at": "2026-11-11",
+      "method": "independent official-source content fetch retry",
+      "outcome": "inconclusive",
+      "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
     }
   },
   {
@@ -18963,6 +18999,12 @@
       "retried": true,
       "checked_at": "2026-11-11",
       "method": "GET"
+    },
+    "browser_check": {
+      "checked_at": "2026-11-11",
+      "method": "independent official-source content fetch retry",
+      "outcome": "inconclusive",
+      "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
     }
   },
   {
@@ -19069,7 +19111,7 @@
       "has_2027_marker": null,
       "bytes_read": 0,
       "outcome": "inconclusive",
-      "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1007)",
+      "error": "TimeoutError: timed out",
       "retried": true,
       "checked_at": "2026-11-11",
       "method": "GET"
@@ -19155,6 +19197,12 @@
       "retried": true,
       "checked_at": "2026-11-11",
       "method": "GET with byte range for PDF sources"
+    },
+    "browser_check": {
+      "checked_at": "2026-11-11",
+      "method": "independent official-source content fetch retry",
+      "outcome": "inconclusive",
+      "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
     }
   },
   {
@@ -19266,6 +19314,12 @@
       "retried": true,
       "checked_at": "2026-11-11",
       "method": "GET"
+    },
+    "browser_check": {
+      "checked_at": "2026-11-11",
+      "method": "independent official-source content fetch retry",
+      "outcome": "inconclusive",
+      "note": "Retried against the supplied official URL. The content fetch timed out or could not retrieve the PDF. The result does not establish that the source is broken."
     }
   },
   {
@@ -20146,6 +20200,155 @@
       "x_vercel_id": null,
       "location": null,
       "observed_title": "The Rector participates in the Arqus Rectors' Council | Università di Padova",
+      "pdf_signature": null,
+      "has_2027_marker": false,
+      "bytes_read": 131072,
+      "outcome": "accessible",
+      "error": null,
+      "checked_at": "2026-11-11",
+      "method": "GET"
+    }
+  },
+  {
+    "id": "SRC-PADUA-STUDY-ENGLISH-APPLY-ITALIAN-2027",
+    "university_id": "padova",
+    "title": "Studiare in inglese – Come fare domanda (official Italian procedure)",
+    "url": "https://www.unipd.it/studiare-inglese-come-fare-domanda",
+    "source_type": "Official Italian-language international application procedure",
+    "accessed_at": "2026-11-11",
+    "cycle": "2027-2028",
+    "evidence": "The legally authoritative Italian page states that, for English-taught degrees other than Medicine and Surgery, applicants use apply.unipd.it, may apply to at most two courses, and pay a non-refundable €60 pre-enrolment fee (with a CEnT-S exception). For unlimited-place courses it lists Call 1: 15 September–15 November 2026; Call 2: 1 December 2026–1 March 2027; Call 3: 1 April–1 June 2027, only for EU citizens and non-EU citizens resident in Italy. For limited-place courses it lists 7 January–7 March 2027 for non-EU citizens abroad and 15 March–7 April 2027 for English-taught programmes for EU/EU-equated applicants, with course-specific exceptions. This is University procedure by admission type; it does not prove an unapproved programme is included or replace an individual course call.",
+    "supports": [
+      "university.application_windows",
+      "university.application_route",
+      "university.application_fee",
+      "university.applicant_categories",
+      "university.required_documents"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://www.unipd.it/studiare-inglese-come-fare-domanda",
+      "content_type": "text/html; charset=utf-8",
+      "content_length_header": null,
+      "etag": null,
+      "last_modified": null,
+      "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate",
+      "age": null,
+      "x_vercel_cache": null,
+      "x_vercel_id": null,
+      "location": null,
+      "observed_title": "Studiare in inglese - Come fare domanda | Università di Padova",
+      "pdf_signature": null,
+      "has_2027_marker": false,
+      "bytes_read": 131072,
+      "outcome": "accessible",
+      "error": null,
+      "checked_at": "2026-11-11",
+      "method": "GET"
+    }
+  },
+  {
+    "id": "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
+    "university_id": "padova",
+    "title": "2027/28 Padua International Excellence Scholarship – Board allocation announcement",
+    "url": "https://www.unipd.it/node/93348",
+    "source_type": "Official Board of Administration announcement",
+    "accessed_at": "2026-11-11",
+    "cycle": "2027-2028",
+    "evidence": "The Board of Administration announcement for 29 September 2026 states that the University allocates €1,432,200 for the 2027/28 Padua International Excellence Scholarship edition, with up to 76 awards for the highest-ranked candidate of each English-taught degree/curriculum, including newly activated programmes. Each award is €8,000 gross per year plus exemption from university tuition fees; the release specifically says renewal for second and third year applies to Bachelor's and single-cycle cohorts. The annual call still determines detailed eligibility, selection, award retention and final course-level coverage.",
+    "supports": [
+      "university.scholarships_2027_2028",
+      "program.scholarship_scheme_2027_2028",
+      "scholarship.total_awards",
+      "scholarship.amount",
+      "scholarship.fee_exemption",
+      "scholarship.scope"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://www.unipd.it/node/93348",
+      "content_type": "text/html; charset=utf-8",
+      "content_length_header": null,
+      "etag": null,
+      "last_modified": null,
+      "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate",
+      "age": null,
+      "x_vercel_cache": null,
+      "x_vercel_id": null,
+      "location": null,
+      "observed_title": "Consiglio di Amministrazione del 29 settembre 2026 | Università di Padova",
+      "pdf_signature": null,
+      "has_2027_marker": true,
+      "bytes_read": 131072,
+      "outcome": "accessible",
+      "error": null,
+      "checked_at": "2026-11-11",
+      "method": "GET"
+    }
+  },
+  {
+    "id": "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME",
+    "university_id": "padova",
+    "title": "Padua International Excellence Scholarship Programme – general terms and call status",
+    "url": "https://www.unipd.it/en/padua-international-excellence-scholarship-programme",
+    "source_type": "Official international scholarship programme page",
+    "accessed_at": "2026-11-11",
+    "cycle": "general",
+    "evidence": "The official page describes the general scheme as up to 76 awards for international students in English-taught Bachelor's, Master's and single-cycle degrees, €8,000 gross per year plus fee exemption (regional fee and stamp duty remain payable), max two years for Master's and three for Bachelor's/single-cycle programmes. It gives general eligibility guidance (non-Italian citizen except dual nationality, foreign qualification, not resident in Italy at application, apply to an English-taught programme), says first-call candidates are prioritized with second-call awards only exceptionally, and states that the 2027/28 call details are expected in November 2026. The page also links a 2026/27 call; use the separate Board source for cycle-specific 2027/28 allocation and the forthcoming annual call for definitive terms.",
+    "supports": [
+      "university.scholarship_scheme_terms",
+      "university.scholarship_eligibility",
+      "university.scholarship_call_status"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://www.unipd.it/en/padua-international-excellence-scholarship-programme",
+      "content_type": "text/html; charset=utf-8",
+      "content_length_header": null,
+      "etag": null,
+      "last_modified": null,
+      "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate",
+      "age": null,
+      "x_vercel_cache": null,
+      "x_vercel_id": null,
+      "location": null,
+      "observed_title": null,
+      "pdf_signature": null,
+      "has_2027_marker": false,
+      "bytes_read": 131072,
+      "outcome": "accessible",
+      "error": null,
+      "checked_at": "2026-11-11",
+      "method": "GET"
+    }
+  },
+  {
+    "id": "SRC-PADUA-TUITION-2026",
+    "university_id": "padova",
+    "title": "Student fees – 2026/27 fee notice and published tariff guidance",
+    "url": "https://www.unipd.it/en/contribuzione-studentesca",
+    "source_type": "Official student fees page",
+    "accessed_at": "2026-11-11",
+    "cycle": "2026-2027",
+    "evidence": "The latest linked annual tuition notice is for 2026/27. The page says degree-program fees range from €0 to approximately €3,000/year, first-year initial instalment €208 (including €192 regional tax and €16 stamp duty), subsequent-year initial instalment €588 including €380 contribution, with remaining amounts varying by programme and personal/financial circumstances. It also gives 2026/27 fixed fees for non-EU citizens whose household is outside Italy: €2,790 / €930 low-HDI Group A and €2,990 / €996.66 low-HDI Group B. It does not publish a 2027/28 annual tuition notice on the reviewed page; do not carry any 2026/27 amount forward.",
+    "supports": [
+      "university.previous_cycle_tuition",
+      "university.tuition_2027_2028_publication_status",
+      "university.non_eu_tuition_2026_2027"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://www.unipd.it/en/contribuzione-studentesca",
+      "content_type": "text/html; charset=utf-8",
+      "content_length_header": null,
+      "etag": null,
+      "last_modified": null,
+      "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate",
+      "age": null,
+      "x_vercel_cache": null,
+      "x_vercel_id": null,
+      "location": null,
+      "observed_title": "Student fees | Università di Padova",
       "pdf_signature": null,
       "has_2027_marker": false,
       "bytes_read": 131072,

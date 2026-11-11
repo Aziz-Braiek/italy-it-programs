@@ -5060,18 +5060,37 @@
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
           "SRC-PADOVA-COMPUTER-ENGINEERING-2026",
-          "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026"
+          "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026",
+          "SRC-PADUA-TUITION-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts."
+        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed."
       },
       "scholarships_2027_2028": {
-        "value": null,
-        "status": "NOT_YET_PUBLISHED",
+        "value": {
+          "name": "Padua International Excellence Scholarship",
+          "academic_year": "2027/28",
+          "university_allocation_eur": 1432200,
+          "maximum_awards": 76,
+          "target": "Highest-ranked candidate per English-taught degree/curriculum, including newly activated programmes",
+          "gross_eur_per_year": 8000,
+          "university_tuition_fee_exemption": true,
+          "remaining_fees": [
+            "Regional fee",
+            "Revenue stamp"
+          ],
+          "maximum_duration_years": {
+            "MSc": 2,
+            "BSc": 3,
+            "single_cycle": 3
+          },
+          "award_conditions": "Competitive; selection and renewal subject to the forthcoming 2027/28 annual call"
+        },
+        "status": "REQUIRES_VERIFICATION",
         "source_ids": [
-          "SRC-PADOVA-COMPUTER-ENGINEERING-2026",
-          "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026"
+          "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
+          "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking."
+        "notes": "The University approved the scheme for English-taught degree programmes, including new programmes, but this record's 2027/28 intake, final language/approval or course-level inclusion is still pending. Do not show it as a confirmed course award."
       },
       "acceptance_rate": {
         "value": null,
@@ -5081,11 +5100,22 @@
           "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026"
         ],
         "notes": "The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred."
+      },
+      "scholarship_call_details_2027_2028": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
+        ],
+        "notes": "The official programme page says the 2027/28 annual call will be published in November 2026; as checked on 11 November the page still links the 2026/27 call. Confirm final eligibility, application/selection process and renewal criteria when the new notice appears."
       }
     },
     "source_ids": [
       "SRC-PADOVA-COMPUTER-ENGINEERING-2026",
-      "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026"
+      "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026",
+      "SRC-PADUA-TUITION-2026",
+      "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
+      "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
     ],
     "previous_tracker_tags": {
       "level": "MSc",
@@ -5193,18 +5223,37 @@
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
           "SRC-PADOVA-COMPUTER-SCIENCE-2026",
-          "SRC-PADOVA-SCIENCE-MSC-2026"
+          "SRC-PADOVA-SCIENCE-MSC-2026",
+          "SRC-PADUA-TUITION-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts."
+        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed."
       },
       "scholarships_2027_2028": {
-        "value": null,
-        "status": "NOT_YET_PUBLISHED",
+        "value": {
+          "name": "Padua International Excellence Scholarship",
+          "academic_year": "2027/28",
+          "university_allocation_eur": 1432200,
+          "maximum_awards": 76,
+          "target": "Highest-ranked candidate per English-taught degree/curriculum, including newly activated programmes",
+          "gross_eur_per_year": 8000,
+          "university_tuition_fee_exemption": true,
+          "remaining_fees": [
+            "Regional fee",
+            "Revenue stamp"
+          ],
+          "maximum_duration_years": {
+            "MSc": 2,
+            "BSc": 3,
+            "single_cycle": 3
+          },
+          "award_conditions": "Competitive; selection and renewal subject to the forthcoming 2027/28 annual call"
+        },
+        "status": "REQUIRES_VERIFICATION",
         "source_ids": [
-          "SRC-PADOVA-COMPUTER-SCIENCE-2026",
-          "SRC-PADOVA-SCIENCE-MSC-2026"
+          "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
+          "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking."
+        "notes": "The University approved the scheme for English-taught degree programmes, including new programmes, but this record's 2027/28 intake, final language/approval or course-level inclusion is still pending. Do not show it as a confirmed course award."
       },
       "acceptance_rate": {
         "value": null,
@@ -5214,11 +5263,22 @@
           "SRC-PADOVA-SCIENCE-MSC-2026"
         ],
         "notes": "The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred."
+      },
+      "scholarship_call_details_2027_2028": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
+        ],
+        "notes": "The official programme page says the 2027/28 annual call will be published in November 2026; as checked on 11 November the page still links the 2026/27 call. Confirm final eligibility, application/selection process and renewal criteria when the new notice appears."
       }
     },
     "source_ids": [
       "SRC-PADOVA-COMPUTER-SCIENCE-2026",
-      "SRC-PADOVA-SCIENCE-MSC-2026"
+      "SRC-PADOVA-SCIENCE-MSC-2026",
+      "SRC-PADUA-TUITION-2026",
+      "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
+      "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
     ],
     "previous_tracker_tags": {
       "level": "MSc",
@@ -5317,17 +5377,37 @@
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
-          "SRC-PADOVA-CYBERSECURITY-2026"
+          "SRC-PADOVA-CYBERSECURITY-2026",
+          "SRC-PADUA-TUITION-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts."
+        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed."
       },
       "scholarships_2027_2028": {
-        "value": null,
-        "status": "NOT_YET_PUBLISHED",
+        "value": {
+          "name": "Padua International Excellence Scholarship",
+          "academic_year": "2027/28",
+          "university_allocation_eur": 1432200,
+          "maximum_awards": 76,
+          "target": "Highest-ranked candidate per English-taught degree/curriculum, including newly activated programmes",
+          "gross_eur_per_year": 8000,
+          "university_tuition_fee_exemption": true,
+          "remaining_fees": [
+            "Regional fee",
+            "Revenue stamp"
+          ],
+          "maximum_duration_years": {
+            "MSc": 2,
+            "BSc": 3,
+            "single_cycle": 3
+          },
+          "award_conditions": "Competitive; selection and renewal subject to the forthcoming 2027/28 annual call"
+        },
+        "status": "REQUIRES_VERIFICATION",
         "source_ids": [
-          "SRC-PADOVA-CYBERSECURITY-2026"
+          "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
+          "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking."
+        "notes": "The University approved the scheme for English-taught degree programmes, including new programmes, but this record's 2027/28 intake, final language/approval or course-level inclusion is still pending. Do not show it as a confirmed course award."
       },
       "acceptance_rate": {
         "value": null,
@@ -5336,10 +5416,21 @@
           "SRC-PADOVA-CYBERSECURITY-2026"
         ],
         "notes": "The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred."
+      },
+      "scholarship_call_details_2027_2028": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
+        ],
+        "notes": "The official programme page says the 2027/28 annual call will be published in November 2026; as checked on 11 November the page still links the 2026/27 call. Confirm final eligibility, application/selection process and renewal criteria when the new notice appears."
       }
     },
     "source_ids": [
-      "SRC-PADOVA-CYBERSECURITY-2026"
+      "SRC-PADOVA-CYBERSECURITY-2026",
+      "SRC-PADUA-TUITION-2026",
+      "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
+      "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
     ],
     "previous_tracker_tags": {
       "level": "MSc",
@@ -5438,17 +5529,37 @@
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
-          "SRC-PADOVA-DATA-SCIENCE-2026"
+          "SRC-PADOVA-DATA-SCIENCE-2026",
+          "SRC-PADUA-TUITION-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts."
+        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed."
       },
       "scholarships_2027_2028": {
-        "value": null,
-        "status": "NOT_YET_PUBLISHED",
+        "value": {
+          "name": "Padua International Excellence Scholarship",
+          "academic_year": "2027/28",
+          "university_allocation_eur": 1432200,
+          "maximum_awards": 76,
+          "target": "Highest-ranked candidate per English-taught degree/curriculum, including newly activated programmes",
+          "gross_eur_per_year": 8000,
+          "university_tuition_fee_exemption": true,
+          "remaining_fees": [
+            "Regional fee",
+            "Revenue stamp"
+          ],
+          "maximum_duration_years": {
+            "MSc": 2,
+            "BSc": 3,
+            "single_cycle": 3
+          },
+          "award_conditions": "Competitive; selection and renewal subject to the forthcoming 2027/28 annual call"
+        },
+        "status": "REQUIRES_VERIFICATION",
         "source_ids": [
-          "SRC-PADOVA-DATA-SCIENCE-2026"
+          "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
+          "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking."
+        "notes": "The University approved the scheme for English-taught degree programmes, including new programmes, but this record's 2027/28 intake, final language/approval or course-level inclusion is still pending. Do not show it as a confirmed course award."
       },
       "acceptance_rate": {
         "value": null,
@@ -5457,10 +5568,21 @@
           "SRC-PADOVA-DATA-SCIENCE-2026"
         ],
         "notes": "The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred."
+      },
+      "scholarship_call_details_2027_2028": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
+        ],
+        "notes": "The official programme page says the 2027/28 annual call will be published in November 2026; as checked on 11 November the page still links the 2026/27 call. Confirm final eligibility, application/selection process and renewal criteria when the new notice appears."
       }
     },
     "source_ids": [
-      "SRC-PADOVA-DATA-SCIENCE-2026"
+      "SRC-PADOVA-DATA-SCIENCE-2026",
+      "SRC-PADUA-TUITION-2026",
+      "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
+      "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
     ],
     "previous_tracker_tags": {
       "level": "MSc",
@@ -5559,17 +5681,37 @@
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
-          "SRC-PADOVA-INFORMATION-ENGINEERING-BSC-2026"
+          "SRC-PADOVA-INFORMATION-ENGINEERING-BSC-2026",
+          "SRC-PADUA-TUITION-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts."
+        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed."
       },
       "scholarships_2027_2028": {
-        "value": null,
-        "status": "NOT_YET_PUBLISHED",
+        "value": {
+          "name": "Padua International Excellence Scholarship",
+          "academic_year": "2027/28",
+          "university_allocation_eur": 1432200,
+          "maximum_awards": 76,
+          "target": "Highest-ranked candidate per English-taught degree/curriculum, including newly activated programmes",
+          "gross_eur_per_year": 8000,
+          "university_tuition_fee_exemption": true,
+          "remaining_fees": [
+            "Regional fee",
+            "Revenue stamp"
+          ],
+          "maximum_duration_years": {
+            "MSc": 2,
+            "BSc": 3,
+            "single_cycle": 3
+          },
+          "award_conditions": "Competitive; selection and renewal subject to the forthcoming 2027/28 annual call"
+        },
+        "status": "REQUIRES_VERIFICATION",
         "source_ids": [
-          "SRC-PADOVA-INFORMATION-ENGINEERING-BSC-2026"
+          "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
+          "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking."
+        "notes": "The University approved the scheme for English-taught degree programmes, including new programmes, but this record's 2027/28 intake, final language/approval or course-level inclusion is still pending. Do not show it as a confirmed course award."
       },
       "acceptance_rate": {
         "value": null,
@@ -5578,10 +5720,21 @@
           "SRC-PADOVA-INFORMATION-ENGINEERING-BSC-2026"
         ],
         "notes": "The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred."
+      },
+      "scholarship_call_details_2027_2028": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
+        ],
+        "notes": "The official programme page says the 2027/28 annual call will be published in November 2026; as checked on 11 November the page still links the 2026/27 call. Confirm final eligibility, application/selection process and renewal criteria when the new notice appears."
       }
     },
     "source_ids": [
-      "SRC-PADOVA-INFORMATION-ENGINEERING-BSC-2026"
+      "SRC-PADOVA-INFORMATION-ENGINEERING-BSC-2026",
+      "SRC-PADUA-TUITION-2026",
+      "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
+      "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
     ],
     "previous_tracker_tags": {
       "level": "BSc",
@@ -5689,18 +5842,37 @@
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
           "SRC-PADOVA-AEROSPACE-MSC-2026",
-          "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026"
+          "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026",
+          "SRC-PADUA-TUITION-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts."
+        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed."
       },
       "scholarships_2027_2028": {
-        "value": null,
-        "status": "NOT_YET_PUBLISHED",
+        "value": {
+          "name": "Padua International Excellence Scholarship",
+          "academic_year": "2027/28",
+          "university_allocation_eur": 1432200,
+          "maximum_awards": 76,
+          "target": "Highest-ranked candidate per English-taught degree/curriculum, including newly activated programmes",
+          "gross_eur_per_year": 8000,
+          "university_tuition_fee_exemption": true,
+          "remaining_fees": [
+            "Regional fee",
+            "Revenue stamp"
+          ],
+          "maximum_duration_years": {
+            "MSc": 2,
+            "BSc": 3,
+            "single_cycle": 3
+          },
+          "award_conditions": "Competitive; selection and renewal subject to the forthcoming 2027/28 annual call"
+        },
+        "status": "REQUIRES_VERIFICATION",
         "source_ids": [
-          "SRC-PADOVA-AEROSPACE-MSC-2026",
-          "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026"
+          "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
+          "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking."
+        "notes": "The University approved the scheme for English-taught degree programmes, including new programmes, but this record's 2027/28 intake, final language/approval or course-level inclusion is still pending. Do not show it as a confirmed course award."
       },
       "acceptance_rate": {
         "value": null,
@@ -5710,11 +5882,22 @@
           "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026"
         ],
         "notes": "The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred."
+      },
+      "scholarship_call_details_2027_2028": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
+        ],
+        "notes": "The official programme page says the 2027/28 annual call will be published in November 2026; as checked on 11 November the page still links the 2026/27 call. Confirm final eligibility, application/selection process and renewal criteria when the new notice appears."
       }
     },
     "source_ids": [
       "SRC-PADOVA-AEROSPACE-MSC-2026",
-      "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026"
+      "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026",
+      "SRC-PADUA-TUITION-2026",
+      "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
+      "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
     ],
     "previous_tracker_tags": {
       "level": "MSc",
@@ -5813,17 +5996,37 @@
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
-          "SRC-PADOVA-MEDICINE-2026"
+          "SRC-PADOVA-MEDICINE-2026",
+          "SRC-PADUA-TUITION-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts."
+        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed."
       },
       "scholarships_2027_2028": {
-        "value": null,
-        "status": "NOT_YET_PUBLISHED",
+        "value": {
+          "name": "Padua International Excellence Scholarship",
+          "academic_year": "2027/28",
+          "university_allocation_eur": 1432200,
+          "maximum_awards": 76,
+          "target": "Highest-ranked candidate per English-taught degree/curriculum, including newly activated programmes",
+          "gross_eur_per_year": 8000,
+          "university_tuition_fee_exemption": true,
+          "remaining_fees": [
+            "Regional fee",
+            "Revenue stamp"
+          ],
+          "maximum_duration_years": {
+            "MSc": 2,
+            "BSc": 3,
+            "single_cycle": 3
+          },
+          "award_conditions": "Competitive; selection and renewal subject to the forthcoming 2027/28 annual call"
+        },
+        "status": "REQUIRES_VERIFICATION",
         "source_ids": [
-          "SRC-PADOVA-MEDICINE-2026"
+          "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
+          "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking."
+        "notes": "The University approved the scheme for English-taught degree programmes, including new programmes, but this record's 2027/28 intake, final language/approval or course-level inclusion is still pending. Do not show it as a confirmed course award."
       },
       "acceptance_rate": {
         "value": null,
@@ -5840,10 +6043,21 @@
           "SRC-PADOVA-MEDICINE-2026"
         ],
         "notes": "Correction applies to 2026/27 course identity and does not establish the 2027/28 intake."
+      },
+      "scholarship_call_details_2027_2028": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
+        ],
+        "notes": "The official programme page says the 2027/28 annual call will be published in November 2026; as checked on 11 November the page still links the 2026/27 call. Confirm final eligibility, application/selection process and renewal criteria when the new notice appears."
       }
     },
     "source_ids": [
-      "SRC-PADOVA-MEDICINE-2026"
+      "SRC-PADOVA-MEDICINE-2026",
+      "SRC-PADUA-TUITION-2026",
+      "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
+      "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
     ],
     "previous_tracker_tags": {
       "level": "BSc",
@@ -5942,17 +6156,37 @@
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
-          "SRC-PADOVA-PSYCHOLOGICAL-SCIENCE-BSC-2026"
+          "SRC-PADOVA-PSYCHOLOGICAL-SCIENCE-BSC-2026",
+          "SRC-PADUA-TUITION-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts."
+        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed."
       },
       "scholarships_2027_2028": {
-        "value": null,
-        "status": "NOT_YET_PUBLISHED",
+        "value": {
+          "name": "Padua International Excellence Scholarship",
+          "academic_year": "2027/28",
+          "university_allocation_eur": 1432200,
+          "maximum_awards": 76,
+          "target": "Highest-ranked candidate per English-taught degree/curriculum, including newly activated programmes",
+          "gross_eur_per_year": 8000,
+          "university_tuition_fee_exemption": true,
+          "remaining_fees": [
+            "Regional fee",
+            "Revenue stamp"
+          ],
+          "maximum_duration_years": {
+            "MSc": 2,
+            "BSc": 3,
+            "single_cycle": 3
+          },
+          "award_conditions": "Competitive; selection and renewal subject to the forthcoming 2027/28 annual call"
+        },
+        "status": "REQUIRES_VERIFICATION",
         "source_ids": [
-          "SRC-PADOVA-PSYCHOLOGICAL-SCIENCE-BSC-2026"
+          "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
+          "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking."
+        "notes": "The University approved the scheme for English-taught degree programmes, including new programmes, but this record's 2027/28 intake, final language/approval or course-level inclusion is still pending. Do not show it as a confirmed course award."
       },
       "acceptance_rate": {
         "value": null,
@@ -5961,10 +6195,21 @@
           "SRC-PADOVA-PSYCHOLOGICAL-SCIENCE-BSC-2026"
         ],
         "notes": "The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred."
+      },
+      "scholarship_call_details_2027_2028": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
+        ],
+        "notes": "The official programme page says the 2027/28 annual call will be published in November 2026; as checked on 11 November the page still links the 2026/27 call. Confirm final eligibility, application/selection process and renewal criteria when the new notice appears."
       }
     },
     "source_ids": [
-      "SRC-PADOVA-PSYCHOLOGICAL-SCIENCE-BSC-2026"
+      "SRC-PADOVA-PSYCHOLOGICAL-SCIENCE-BSC-2026",
+      "SRC-PADUA-TUITION-2026",
+      "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
+      "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
     ],
     "previous_tracker_tags": {
       "level": "BSc",
@@ -6119,17 +6364,37 @@
         "value": null,
         "status": "REQUIRES_VERIFICATION",
         "source_ids": [
-          "SRC-PADUA-INTL-2027"
+          "SRC-PADUA-INTL-2027",
+          "SRC-PADUA-TUITION-2026"
         ],
-        "notes": "No 2027/28 tuition amount is stated in the programme-specific call notice."
+        "notes": "No 2027/28 tuition amount is stated in the programme-specific call notice. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed."
       },
       "scholarships_2027_2028": {
-        "value": null,
-        "status": "REQUIRES_VERIFICATION",
+        "value": {
+          "name": "Padua International Excellence Scholarship",
+          "academic_year": "2027/28",
+          "university_allocation_eur": 1432200,
+          "maximum_awards": 76,
+          "target": "Highest-ranked candidate per English-taught degree/curriculum, including newly activated programmes",
+          "gross_eur_per_year": 8000,
+          "university_tuition_fee_exemption": true,
+          "remaining_fees": [
+            "Regional fee",
+            "Revenue stamp"
+          ],
+          "maximum_duration_years": {
+            "MSc": 2,
+            "BSc": 3,
+            "single_cycle": 3
+          },
+          "award_conditions": "Competitive; selection and renewal subject to the forthcoming 2027/28 annual call"
+        },
+        "status": "CONFIRMED",
         "source_ids": [
-          "SRC-PADUA-PHYSICS-DATA-2027-CALL"
+          "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
+          "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
         ],
-        "notes": "No programme-specific 2027/28 scholarship terms were stated in the first-call notice reviewed."
+        "notes": "For this record, an active 2027/28 English-taught intake is confirmed; the University has approved the headline scholarship scheme. Awards are competitive and not guaranteed; annual call eligibility and course-level allocation remain to be checked."
       },
       "program_specific_requirements_2027_2028": {
         "value": null,
@@ -6147,6 +6412,14 @@
           "SRC-PADUA-PHYSICS-DATA-2027-CALL"
         ],
         "notes": "No applicant and admission counts are published in the first-call notice; no rate is inferred."
+      },
+      "scholarship_call_details_2027_2028": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
+        ],
+        "notes": "The official programme page says the 2027/28 annual call will be published in November 2026; as checked on 11 November the page still links the 2026/27 call. Confirm final eligibility, application/selection process and renewal criteria when the new notice appears."
       }
     },
     "source_ids": [
@@ -6154,7 +6427,10 @@
       "SRC-PADUA-PHYSICS-DATA-REQUIREMENTS",
       "SRC-PADUA-PHYSICS-DATA-2027-CALL",
       "SRC-PADUA-SCIENCE-MSC-CATALOGUE-2026",
-      "SRC-PADUA-STUDY-ENGLISH-APPLY-2027"
+      "SRC-PADUA-STUDY-ENGLISH-APPLY-2027",
+      "SRC-PADUA-TUITION-2026",
+      "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
+      "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
     ],
     "previous_tracker_tags": {
       "level": "MSc",
@@ -29805,9 +30081,10 @@
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
           "SRC-PADOVA-CLINICAL-PSYCHOLOGY-2026",
-          "SRC-PADOVA-PSYCHOLOGY-MSC-2026"
+          "SRC-PADOVA-PSYCHOLOGY-MSC-2026",
+          "SRC-PADUA-TUITION-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts."
+        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed."
       },
       "scholarships_2027_2028": {
         "value": null,
@@ -29830,7 +30107,8 @@
     },
     "source_ids": [
       "SRC-PADOVA-CLINICAL-PSYCHOLOGY-2026",
-      "SRC-PADOVA-PSYCHOLOGY-MSC-2026"
+      "SRC-PADOVA-PSYCHOLOGY-MSC-2026",
+      "SRC-PADUA-TUITION-2026"
     ],
     "previous_tracker_tags": {
       "level": "MSc",
@@ -29938,9 +30216,10 @@
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
           "SRC-PADOVA-DEVELOPMENTAL-PSYCHOLOGY-2026",
-          "SRC-PADOVA-PSYCHOLOGY-MSC-2026"
+          "SRC-PADOVA-PSYCHOLOGY-MSC-2026",
+          "SRC-PADUA-TUITION-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts."
+        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed."
       },
       "scholarships_2027_2028": {
         "value": null,
@@ -29963,7 +30242,8 @@
     },
     "source_ids": [
       "SRC-PADOVA-DEVELOPMENTAL-PSYCHOLOGY-2026",
-      "SRC-PADOVA-PSYCHOLOGY-MSC-2026"
+      "SRC-PADOVA-PSYCHOLOGY-MSC-2026",
+      "SRC-PADUA-TUITION-2026"
     ],
     "previous_tracker_tags": {
       "level": "MSc",
@@ -30072,18 +30352,37 @@
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
           "SRC-PADOVA-MANAGEMENT-ENGINEERING-2026",
-          "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026"
+          "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026",
+          "SRC-PADUA-TUITION-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts."
+        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed."
       },
       "scholarships_2027_2028": {
-        "value": null,
-        "status": "NOT_YET_PUBLISHED",
+        "value": {
+          "name": "Padua International Excellence Scholarship",
+          "academic_year": "2027/28",
+          "university_allocation_eur": 1432200,
+          "maximum_awards": 76,
+          "target": "Highest-ranked candidate per English-taught degree/curriculum, including newly activated programmes",
+          "gross_eur_per_year": 8000,
+          "university_tuition_fee_exemption": true,
+          "remaining_fees": [
+            "Regional fee",
+            "Revenue stamp"
+          ],
+          "maximum_duration_years": {
+            "MSc": 2,
+            "BSc": 3,
+            "single_cycle": 3
+          },
+          "award_conditions": "Competitive; selection and renewal subject to the forthcoming 2027/28 annual call"
+        },
+        "status": "REQUIRES_VERIFICATION",
         "source_ids": [
-          "SRC-PADOVA-MANAGEMENT-ENGINEERING-2026",
-          "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026"
+          "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
+          "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking."
+        "notes": "The University approved the scheme for English-taught degree programmes, including new programmes, but this record's 2027/28 intake, final language/approval or course-level inclusion is still pending. Do not show it as a confirmed course award."
       },
       "acceptance_rate": {
         "value": null,
@@ -30102,11 +30401,22 @@
           "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026"
         ],
         "notes": "Correction applies to 2026/27 course identity and does not establish the 2027/28 intake."
+      },
+      "scholarship_call_details_2027_2028": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
+        ],
+        "notes": "The official programme page says the 2027/28 annual call will be published in November 2026; as checked on 11 November the page still links the 2026/27 call. Confirm final eligibility, application/selection process and renewal criteria when the new notice appears."
       }
     },
     "source_ids": [
       "SRC-PADOVA-MANAGEMENT-ENGINEERING-2026",
-      "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026"
+      "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026",
+      "SRC-PADUA-TUITION-2026",
+      "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
+      "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
     ],
     "previous_tracker_tags": {
       "level": "MSc",
@@ -30205,9 +30515,10 @@
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
-          "SRC-PADOVA-AGRICULTURAL-SCIENCES-2026"
+          "SRC-PADOVA-AGRICULTURAL-SCIENCES-2026",
+          "SRC-PADUA-TUITION-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts."
+        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed."
       },
       "scholarships_2027_2028": {
         "value": null,
@@ -30227,7 +30538,8 @@
       }
     },
     "source_ids": [
-      "SRC-PADOVA-AGRICULTURAL-SCIENCES-2026"
+      "SRC-PADOVA-AGRICULTURAL-SCIENCES-2026",
+      "SRC-PADUA-TUITION-2026"
     ],
     "previous_tracker_tags": {
       "level": "MSc",
@@ -30326,9 +30638,10 @@
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
-          "SRC-PADOVA-MOLECULAR-BIOLOGY-BSC-2026"
+          "SRC-PADOVA-MOLECULAR-BIOLOGY-BSC-2026",
+          "SRC-PADUA-TUITION-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts."
+        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed."
       },
       "scholarships_2027_2028": {
         "value": null,
@@ -30348,7 +30661,8 @@
       }
     },
     "source_ids": [
-      "SRC-PADOVA-MOLECULAR-BIOLOGY-BSC-2026"
+      "SRC-PADOVA-MOLECULAR-BIOLOGY-BSC-2026",
+      "SRC-PADUA-TUITION-2026"
     ],
     "previous_tracker_tags": {
       "level": "BSc",
@@ -30447,9 +30761,10 @@
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
-          "SRC-PADOVA-COMPUTER-ENGINEERING-BSC-2026"
+          "SRC-PADOVA-COMPUTER-ENGINEERING-BSC-2026",
+          "SRC-PADUA-TUITION-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts."
+        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed."
       },
       "scholarships_2027_2028": {
         "value": null,
@@ -30469,7 +30784,8 @@
       }
     },
     "source_ids": [
-      "SRC-PADOVA-COMPUTER-ENGINEERING-BSC-2026"
+      "SRC-PADOVA-COMPUTER-ENGINEERING-BSC-2026",
+      "SRC-PADUA-TUITION-2026"
     ],
     "previous_tracker_tags": {
       "level": "BSc",
@@ -30568,9 +30884,10 @@
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
-          "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-BSC-2026"
+          "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-BSC-2026",
+          "SRC-PADUA-TUITION-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts."
+        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed."
       },
       "scholarships_2027_2028": {
         "value": null,
@@ -30590,7 +30907,8 @@
       }
     },
     "source_ids": [
-      "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-BSC-2026"
+      "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-BSC-2026",
+      "SRC-PADUA-TUITION-2026"
     ],
     "previous_tracker_tags": {
       "level": "BSc",
@@ -30796,10 +31114,19 @@
           "SRC-PADUA-PROGRAMS-2027"
         ],
         "notes": "No acceptance rate is stated in this call listing."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-PADUA-TUITION-2026"
+        ],
+        "notes": "The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed."
       }
     },
     "source_ids": [
-      "SRC-PADUA-PROGRAMS-2027"
+      "SRC-PADUA-PROGRAMS-2027",
+      "SRC-PADUA-TUITION-2026"
     ],
     "previous_tracker_tags": null,
     "previous_cycle_tags": null,
@@ -30893,10 +31220,19 @@
           "SRC-PADUA-PROGRAMS-2027"
         ],
         "notes": "No acceptance rate is stated in this call listing."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-PADUA-TUITION-2026"
+        ],
+        "notes": "The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed."
       }
     },
     "source_ids": [
-      "SRC-PADUA-PROGRAMS-2027"
+      "SRC-PADUA-PROGRAMS-2027",
+      "SRC-PADUA-TUITION-2026"
     ],
     "previous_tracker_tags": null,
     "previous_cycle_tags": null,
@@ -30990,10 +31326,19 @@
           "SRC-PADUA-PROGRAMS-2027"
         ],
         "notes": "No acceptance rate is stated in this call listing."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-PADUA-TUITION-2026"
+        ],
+        "notes": "The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed."
       }
     },
     "source_ids": [
-      "SRC-PADUA-PROGRAMS-2027"
+      "SRC-PADUA-PROGRAMS-2027",
+      "SRC-PADUA-TUITION-2026"
     ],
     "previous_tracker_tags": null,
     "previous_cycle_tags": null,
@@ -31087,10 +31432,19 @@
           "SRC-PADUA-PROGRAMS-2027"
         ],
         "notes": "No acceptance rate is stated in this call listing."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-PADUA-TUITION-2026"
+        ],
+        "notes": "The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed."
       }
     },
     "source_ids": [
-      "SRC-PADUA-PROGRAMS-2027"
+      "SRC-PADUA-PROGRAMS-2027",
+      "SRC-PADUA-TUITION-2026"
     ],
     "previous_tracker_tags": null,
     "previous_cycle_tags": null,
@@ -31184,10 +31538,19 @@
           "SRC-PADUA-PROGRAMS-2027"
         ],
         "notes": "No acceptance rate is stated in this call listing."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-PADUA-TUITION-2026"
+        ],
+        "notes": "The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed."
       }
     },
     "source_ids": [
-      "SRC-PADUA-PROGRAMS-2027"
+      "SRC-PADUA-PROGRAMS-2027",
+      "SRC-PADUA-TUITION-2026"
     ],
     "previous_tracker_tags": null,
     "previous_cycle_tags": null,
@@ -31281,10 +31644,56 @@
           "SRC-PADUA-PROGRAMS-2027"
         ],
         "notes": "No acceptance rate is stated in this call listing."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-PADUA-TUITION-2026"
+        ],
+        "notes": "The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed."
+      },
+      "scholarships_2027_2028": {
+        "value": {
+          "name": "Padua International Excellence Scholarship",
+          "academic_year": "2027/28",
+          "university_allocation_eur": 1432200,
+          "maximum_awards": 76,
+          "target": "Highest-ranked candidate per English-taught degree/curriculum, including newly activated programmes",
+          "gross_eur_per_year": 8000,
+          "university_tuition_fee_exemption": true,
+          "remaining_fees": [
+            "Regional fee",
+            "Revenue stamp"
+          ],
+          "maximum_duration_years": {
+            "MSc": 2,
+            "BSc": 3,
+            "single_cycle": 3
+          },
+          "award_conditions": "Competitive; selection and renewal subject to the forthcoming 2027/28 annual call"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
+          "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
+        ],
+        "notes": "For this record, an active 2027/28 English-taught intake is confirmed; the University has approved the headline scholarship scheme. Awards are competitive and not guaranteed; annual call eligibility and course-level allocation remain to be checked."
+      },
+      "scholarship_call_details_2027_2028": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
+        ],
+        "notes": "The official programme page says the 2027/28 annual call will be published in November 2026; as checked on 11 November the page still links the 2026/27 call. Confirm final eligibility, application/selection process and renewal criteria when the new notice appears."
       }
     },
     "source_ids": [
-      "SRC-PADUA-PROGRAMS-2027"
+      "SRC-PADUA-PROGRAMS-2027",
+      "SRC-PADUA-TUITION-2026",
+      "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
+      "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
     ],
     "previous_tracker_tags": null,
     "previous_cycle_tags": null,
@@ -31378,10 +31787,56 @@
           "SRC-PADUA-PROGRAMS-2027"
         ],
         "notes": "No acceptance rate is stated in this call listing."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-PADUA-TUITION-2026"
+        ],
+        "notes": "The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed."
+      },
+      "scholarships_2027_2028": {
+        "value": {
+          "name": "Padua International Excellence Scholarship",
+          "academic_year": "2027/28",
+          "university_allocation_eur": 1432200,
+          "maximum_awards": 76,
+          "target": "Highest-ranked candidate per English-taught degree/curriculum, including newly activated programmes",
+          "gross_eur_per_year": 8000,
+          "university_tuition_fee_exemption": true,
+          "remaining_fees": [
+            "Regional fee",
+            "Revenue stamp"
+          ],
+          "maximum_duration_years": {
+            "MSc": 2,
+            "BSc": 3,
+            "single_cycle": 3
+          },
+          "award_conditions": "Competitive; selection and renewal subject to the forthcoming 2027/28 annual call"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
+          "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
+        ],
+        "notes": "For this record, an active 2027/28 English-taught intake is confirmed; the University has approved the headline scholarship scheme. Awards are competitive and not guaranteed; annual call eligibility and course-level allocation remain to be checked."
+      },
+      "scholarship_call_details_2027_2028": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
+        ],
+        "notes": "The official programme page says the 2027/28 annual call will be published in November 2026; as checked on 11 November the page still links the 2026/27 call. Confirm final eligibility, application/selection process and renewal criteria when the new notice appears."
       }
     },
     "source_ids": [
-      "SRC-PADUA-PROGRAMS-2027"
+      "SRC-PADUA-PROGRAMS-2027",
+      "SRC-PADUA-TUITION-2026",
+      "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
+      "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
     ],
     "previous_tracker_tags": null,
     "previous_cycle_tags": null,
@@ -35821,22 +36276,53 @@
         "value": null,
         "status": "REQUIRES_VERIFICATION",
         "source_ids": [
-          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+          "SRC-PADUA-TUITION-2026"
         ],
-        "notes": "No course-specific 2027/28 fee is confirmed for this unapproved proposal."
+        "notes": "No course-specific 2027/28 fee is confirmed for this unapproved proposal. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed."
       },
       "scholarships_2027_2028": {
-        "value": null,
+        "value": {
+          "name": "Padua International Excellence Scholarship",
+          "academic_year": "2027/28",
+          "university_allocation_eur": 1432200,
+          "maximum_awards": 76,
+          "target": "Highest-ranked candidate per English-taught degree/curriculum, including newly activated programmes",
+          "gross_eur_per_year": 8000,
+          "university_tuition_fee_exemption": true,
+          "remaining_fees": [
+            "Regional fee",
+            "Revenue stamp"
+          ],
+          "maximum_duration_years": {
+            "MSc": 2,
+            "BSc": 3,
+            "single_cycle": 3
+          },
+          "award_conditions": "Competitive; selection and renewal subject to the forthcoming 2027/28 annual call"
+        },
         "status": "REQUIRES_VERIFICATION",
         "source_ids": [
-          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+          "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
+          "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
         ],
-        "notes": "No programme-specific 2027/28 scholarship call is confirmed."
+        "notes": "The University approved the scheme for English-taught degree programmes, including new programmes, but this record's 2027/28 intake, final language/approval or course-level inclusion is still pending. Do not show it as a confirmed course award."
+      },
+      "scholarship_call_details_2027_2028": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
+        ],
+        "notes": "The official programme page says the 2027/28 annual call will be published in November 2026; as checked on 11 November the page still links the 2026/27 call. Confirm final eligibility, application/selection process and renewal criteria when the new notice appears."
       }
     },
     "source_ids": [
       "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
-      "SRC-PADUA-INTL-2027"
+      "SRC-PADUA-INTL-2027",
+      "SRC-PADUA-TUITION-2026",
+      "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
+      "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
     ],
     "previous_tracker_tags": null,
     "previous_cycle_tags": null,
@@ -35926,22 +36412,53 @@
         "value": null,
         "status": "REQUIRES_VERIFICATION",
         "source_ids": [
-          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+          "SRC-PADUA-TUITION-2026"
         ],
-        "notes": "No course-specific 2027/28 fee is confirmed for this unapproved proposal."
+        "notes": "No course-specific 2027/28 fee is confirmed for this unapproved proposal. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed."
       },
       "scholarships_2027_2028": {
-        "value": null,
+        "value": {
+          "name": "Padua International Excellence Scholarship",
+          "academic_year": "2027/28",
+          "university_allocation_eur": 1432200,
+          "maximum_awards": 76,
+          "target": "Highest-ranked candidate per English-taught degree/curriculum, including newly activated programmes",
+          "gross_eur_per_year": 8000,
+          "university_tuition_fee_exemption": true,
+          "remaining_fees": [
+            "Regional fee",
+            "Revenue stamp"
+          ],
+          "maximum_duration_years": {
+            "MSc": 2,
+            "BSc": 3,
+            "single_cycle": 3
+          },
+          "award_conditions": "Competitive; selection and renewal subject to the forthcoming 2027/28 annual call"
+        },
         "status": "REQUIRES_VERIFICATION",
         "source_ids": [
-          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+          "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
+          "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
         ],
-        "notes": "No programme-specific 2027/28 scholarship call is confirmed."
+        "notes": "The University approved the scheme for English-taught degree programmes, including new programmes, but this record's 2027/28 intake, final language/approval or course-level inclusion is still pending. Do not show it as a confirmed course award."
+      },
+      "scholarship_call_details_2027_2028": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
+        ],
+        "notes": "The official programme page says the 2027/28 annual call will be published in November 2026; as checked on 11 November the page still links the 2026/27 call. Confirm final eligibility, application/selection process and renewal criteria when the new notice appears."
       }
     },
     "source_ids": [
       "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
-      "SRC-PADUA-INTL-2027"
+      "SRC-PADUA-INTL-2027",
+      "SRC-PADUA-TUITION-2026",
+      "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
+      "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
     ],
     "previous_tracker_tags": null,
     "previous_cycle_tags": null,
@@ -36031,22 +36548,53 @@
         "value": null,
         "status": "REQUIRES_VERIFICATION",
         "source_ids": [
-          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+          "SRC-PADUA-TUITION-2026"
         ],
-        "notes": "No course-specific 2027/28 fee is confirmed for this unapproved proposal."
+        "notes": "No course-specific 2027/28 fee is confirmed for this unapproved proposal. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed."
       },
       "scholarships_2027_2028": {
-        "value": null,
+        "value": {
+          "name": "Padua International Excellence Scholarship",
+          "academic_year": "2027/28",
+          "university_allocation_eur": 1432200,
+          "maximum_awards": 76,
+          "target": "Highest-ranked candidate per English-taught degree/curriculum, including newly activated programmes",
+          "gross_eur_per_year": 8000,
+          "university_tuition_fee_exemption": true,
+          "remaining_fees": [
+            "Regional fee",
+            "Revenue stamp"
+          ],
+          "maximum_duration_years": {
+            "MSc": 2,
+            "BSc": 3,
+            "single_cycle": 3
+          },
+          "award_conditions": "Competitive; selection and renewal subject to the forthcoming 2027/28 annual call"
+        },
         "status": "REQUIRES_VERIFICATION",
         "source_ids": [
-          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+          "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
+          "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
         ],
-        "notes": "No programme-specific 2027/28 scholarship call is confirmed."
+        "notes": "The University approved the scheme for English-taught degree programmes, including new programmes, but this record's 2027/28 intake, final language/approval or course-level inclusion is still pending. Do not show it as a confirmed course award."
+      },
+      "scholarship_call_details_2027_2028": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
+        ],
+        "notes": "The official programme page says the 2027/28 annual call will be published in November 2026; as checked on 11 November the page still links the 2026/27 call. Confirm final eligibility, application/selection process and renewal criteria when the new notice appears."
       }
     },
     "source_ids": [
       "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
-      "SRC-PADUA-INTL-2027"
+      "SRC-PADUA-INTL-2027",
+      "SRC-PADUA-TUITION-2026",
+      "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
+      "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
     ],
     "previous_tracker_tags": null,
     "previous_cycle_tags": null,
@@ -36152,17 +36700,37 @@
         "value": null,
         "status": "REQUIRES_VERIFICATION",
         "source_ids": [
-          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+          "SRC-PADUA-TUITION-2026"
         ],
-        "notes": "No programme-specific 2027/28 tuition amount is confirmed."
+        "notes": "No programme-specific 2027/28 tuition amount is confirmed. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed."
       },
       "scholarships_2027_2028": {
-        "value": null,
+        "value": {
+          "name": "Padua International Excellence Scholarship",
+          "academic_year": "2027/28",
+          "university_allocation_eur": 1432200,
+          "maximum_awards": 76,
+          "target": "Highest-ranked candidate per English-taught degree/curriculum, including newly activated programmes",
+          "gross_eur_per_year": 8000,
+          "university_tuition_fee_exemption": true,
+          "remaining_fees": [
+            "Regional fee",
+            "Revenue stamp"
+          ],
+          "maximum_duration_years": {
+            "MSc": 2,
+            "BSc": 3,
+            "single_cycle": 3
+          },
+          "award_conditions": "Competitive; selection and renewal subject to the forthcoming 2027/28 annual call"
+        },
         "status": "REQUIRES_VERIFICATION",
         "source_ids": [
-          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+          "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
+          "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
         ],
-        "notes": "No programme-specific 2027/28 scholarship call or eligibility is confirmed."
+        "notes": "The University approved the scheme for English-taught degree programmes, including new programmes, but this record's 2027/28 intake, final language/approval or course-level inclusion is still pending. Do not show it as a confirmed course award."
       },
       "acceptance_rate": {
         "value": null,
@@ -36171,11 +36739,22 @@
           "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
         ],
         "notes": "No applicant and admitted-student totals are published; no acceptance rate is inferred."
+      },
+      "scholarship_call_details_2027_2028": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
+        ],
+        "notes": "The official programme page says the 2027/28 annual call will be published in November 2026; as checked on 11 November the page still links the 2026/27 call. Confirm final eligibility, application/selection process and renewal criteria when the new notice appears."
       }
     },
     "source_ids": [
       "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
-      "SRC-PADUA-INTL-2027"
+      "SRC-PADUA-INTL-2027",
+      "SRC-PADUA-TUITION-2026",
+      "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
+      "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
     ],
     "previous_tracker_tags": null,
     "previous_cycle_tags": null,
@@ -36299,17 +36878,37 @@
         "value": null,
         "status": "REQUIRES_VERIFICATION",
         "source_ids": [
-          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+          "SRC-PADUA-TUITION-2026"
         ],
-        "notes": "No programme-specific 2027/28 tuition amount is confirmed."
+        "notes": "No programme-specific 2027/28 tuition amount is confirmed. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed."
       },
       "scholarships_2027_2028": {
-        "value": null,
+        "value": {
+          "name": "Padua International Excellence Scholarship",
+          "academic_year": "2027/28",
+          "university_allocation_eur": 1432200,
+          "maximum_awards": 76,
+          "target": "Highest-ranked candidate per English-taught degree/curriculum, including newly activated programmes",
+          "gross_eur_per_year": 8000,
+          "university_tuition_fee_exemption": true,
+          "remaining_fees": [
+            "Regional fee",
+            "Revenue stamp"
+          ],
+          "maximum_duration_years": {
+            "MSc": 2,
+            "BSc": 3,
+            "single_cycle": 3
+          },
+          "award_conditions": "Competitive; selection and renewal subject to the forthcoming 2027/28 annual call"
+        },
         "status": "REQUIRES_VERIFICATION",
         "source_ids": [
-          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+          "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
+          "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
         ],
-        "notes": "No programme-specific 2027/28 scholarship call or eligibility is confirmed."
+        "notes": "The University approved the scheme for English-taught degree programmes, including new programmes, but this record's 2027/28 intake, final language/approval or course-level inclusion is still pending. Do not show it as a confirmed course award."
       },
       "acceptance_rate": {
         "value": null,
@@ -36318,13 +36917,24 @@
           "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
         ],
         "notes": "No applicant and admitted-student totals are published; no acceptance rate is inferred."
+      },
+      "scholarship_call_details_2027_2028": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
+        ],
+        "notes": "The official programme page says the 2027/28 annual call will be published in November 2026; as checked on 11 November the page still links the 2026/27 call. Confirm final eligibility, application/selection process and renewal criteria when the new notice appears."
       }
     },
     "source_ids": [
       "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
       "SRC-PADUA-STATISTICAL-SCIENCE-PROFILE-2027",
       "SRC-PADUA-STATISTICAL-SCIENCE-ENTRY-REQUIREMENTS",
-      "SRC-PADUA-INTL-2027"
+      "SRC-PADUA-INTL-2027",
+      "SRC-PADUA-TUITION-2026",
+      "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
+      "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
     ],
     "previous_tracker_tags": null,
     "previous_cycle_tags": null,
@@ -36411,9 +37021,10 @@
         "value": null,
         "status": "REQUIRES_VERIFICATION",
         "source_ids": [
-          "SRC-PADUA-ARQUS-PHYSICS-TECH-2026"
+          "SRC-PADUA-ARQUS-PHYSICS-TECH-2026",
+          "SRC-PADUA-TUITION-2026"
         ],
-        "notes": "No applicable programme fee or tuition structure is published in the reviewed source."
+        "notes": "No applicable programme fee or tuition structure is published in the reviewed source. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed."
       },
       "scholarships_2027_2028": {
         "value": null,
@@ -36425,7 +37036,8 @@
       }
     },
     "source_ids": [
-      "SRC-PADUA-ARQUS-PHYSICS-TECH-2026"
+      "SRC-PADUA-ARQUS-PHYSICS-TECH-2026",
+      "SRC-PADUA-TUITION-2026"
     ],
     "previous_tracker_tags": null,
     "previous_cycle_tags": null,

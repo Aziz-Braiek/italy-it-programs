@@ -56,10 +56,10 @@ SOURCES = [
         "title": "Study in English – How to apply",
         "url": "https://www.unipd.it/en/studiare-inglese-come-fare-domanda",
         "source_type": "Official international application procedure",
-        "accessed_at": "2026-11-10",
+        "accessed_at": "2026-11-11",
         "cycle": "2027-2028",
-        "evidence": "For English-taught degrees other than Medicine and Surgery, applicants use apply.unipd.it, may apply to up to two courses, and normally pay a non-refundable €60 application fee. It lists 2027/28 windows for open-access and limited-access programmes. Its English translation contains a malformed Call Two date (1 December 2027–1 March 2027); use an Italian official rendering or named programme page before relying on that round.",
-        "supports": ["university.application_route", "university.application_fee", "program.previous_cycle_application_fee"],
+        "evidence": "For English-taught degrees other than Medicine and Surgery, applicants use apply.unipd.it, may apply to up to two courses, and normally pay a non-refundable €60 application fee. The English procedure page contains a malformed 2027/28 Call Two date (1 December 2027–1 March 2027); the official Italian rendering gives 1 December 2026–1 March 2027. Use the Italian page for call windows and retain this English page only as evidence of the English applicant route, fee and the translation discrepancy.",
+        "supports": ["university.application_route", "university.application_fee", "program.application_fee_2027_2028"],
     },
     {
         "id": "SRC-UNIBO-GRENFIN-2027-PROFILE",
@@ -883,12 +883,56 @@ SOURCES = [
         "evidence": "Padua reports a signed consortium agreement to develop a joint Bachelor's programme in Physics for Technology with the University of Granada, Vilnius University and the University of Wroclaw. The announcement does not give a launch academic year, teaching language, admission call, or approval/accreditation outcome; the current English-degree catalogue does not list this programme.",
         "supports": ["program.proposed_course_identity", "program.planned_level", "program.partnership"],
     },
+    {
+        "id": "SRC-PADUA-STUDY-ENGLISH-APPLY-ITALIAN-2027",
+        "university_id": "padova", "title": "Studiare in inglese – Come fare domanda (official Italian procedure)",
+        "url": "https://www.unipd.it/studiare-inglese-come-fare-domanda",
+        "source_type": "Official Italian-language international application procedure", "accessed_at": "2026-11-11", "cycle": "2027-2028",
+        "evidence": "The legally authoritative Italian page states that, for English-taught degrees other than Medicine and Surgery, applicants use apply.unipd.it, may apply to at most two courses, and pay a non-refundable €60 pre-enrolment fee (with a CEnT-S exception). For unlimited-place courses it lists Call 1: 15 September–15 November 2026; Call 2: 1 December 2026–1 March 2027; Call 3: 1 April–1 June 2027, only for EU citizens and non-EU citizens resident in Italy. For limited-place courses it lists 7 January–7 March 2027 for non-EU citizens abroad and 15 March–7 April 2027 for English-taught programmes for EU/EU-equated applicants, with course-specific exceptions. This is University procedure by admission type; it does not prove an unapproved programme is included or replace an individual course call.",
+        "supports": ["university.application_windows", "university.application_route", "university.application_fee", "university.applicant_categories", "university.required_documents"],
+    },
+    {
+        "id": "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
+        "university_id": "padova", "title": "2027/28 Padua International Excellence Scholarship – Board allocation announcement",
+        "url": "https://www.unipd.it/node/93348",
+        "source_type": "Official Board of Administration announcement", "accessed_at": "2026-11-11", "cycle": "2027-2028",
+        "evidence": "The Board of Administration announcement for 29 September 2026 states that the University allocates €1,432,200 for the 2027/28 Padua International Excellence Scholarship edition, with up to 76 awards for the highest-ranked candidate of each English-taught degree/curriculum, including newly activated programmes. Each award is €8,000 gross per year plus exemption from university tuition fees; the release specifically says renewal for second and third year applies to Bachelor's and single-cycle cohorts. The annual call still determines detailed eligibility, selection, award retention and final course-level coverage.",
+        "supports": ["university.scholarships_2027_2028", "program.scholarship_scheme_2027_2028", "scholarship.total_awards", "scholarship.amount", "scholarship.fee_exemption", "scholarship.scope"],
+    },
+    {
+        "id": "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME",
+        "university_id": "padova", "title": "Padua International Excellence Scholarship Programme – general terms and call status",
+        "url": "https://www.unipd.it/en/padua-international-excellence-scholarship-programme",
+        "source_type": "Official international scholarship programme page", "accessed_at": "2026-11-11", "cycle": "general",
+        "evidence": "The official page describes the general scheme as up to 76 awards for international students in English-taught Bachelor's, Master's and single-cycle degrees, €8,000 gross per year plus fee exemption (regional fee and stamp duty remain payable), max two years for Master's and three for Bachelor's/single-cycle programmes. It gives general eligibility guidance (non-Italian citizen except dual nationality, foreign qualification, not resident in Italy at application, apply to an English-taught programme), says first-call candidates are prioritized with second-call awards only exceptionally, and states that the 2027/28 call details are expected in November 2026. The page also links a 2026/27 call; use the separate Board source for cycle-specific 2027/28 allocation and the forthcoming annual call for definitive terms.",
+        "supports": ["university.scholarship_scheme_terms", "university.scholarship_eligibility", "university.scholarship_call_status"],
+    },
+    {
+        "id": "SRC-PADUA-TUITION-2026",
+        "university_id": "padova", "title": "Student fees – 2026/27 fee notice and published tariff guidance",
+        "url": "https://www.unipd.it/en/contribuzione-studentesca",
+        "source_type": "Official student fees page", "accessed_at": "2026-11-11", "cycle": "2026-2027",
+        "evidence": "The latest linked annual tuition notice is for 2026/27. The page says degree-program fees range from €0 to approximately €3,000/year, first-year initial instalment €208 (including €192 regional tax and €16 stamp duty), subsequent-year initial instalment €588 including €380 contribution, with remaining amounts varying by programme and personal/financial circumstances. It also gives 2026/27 fixed fees for non-EU citizens whose household is outside Italy: €2,790 / €930 low-HDI Group A and €2,990 / €996.66 low-HDI Group B. It does not publish a 2027/28 annual tuition notice on the reviewed page; do not carry any 2026/27 amount forward.",
+        "supports": ["university.previous_cycle_tuition", "university.tuition_2027_2028_publication_status", "university.non_eu_tuition_2026_2027"],
+    },
 ]
 
 BATCH = {
     "id": "physics-of-data-2027-28-call-and-grenfin-joint-master",
     "status": "partial",
     "result": "Added Padua's named 2027/28 Physics of Data international intake and first-call deadline, its English-degree €60 non-refundable application fee and prior-cycle course requirements. Added three Padua English-taught Bachelor's proposals announced for 2027/28 and marked pending approval; recorded Arqus Physics for Technology only as a joint-programme development lead with cycle and language unresolved. The latest official English-degree catalogue also identifies two proposed English Master's candidates: Data Analytics and Decision Support and Statistical Science, each marked as awaiting approval; the Department page gives Statistical Science a projected September 2027 start and preliminary requirements, which remain unconfirmed against the central approval status and annual admissions call. Added Bologna's 2027/28 GrEnFIn Erasmus Mundus Joint Master with exact dates, 51-place maximum, B2/selection rules and up to 18 competitive scholarships. Added PoliTO Mathematical Engineering as a 2027/28 discovery supported by its admissions-linked scholarship call; separately recorded that the planned all-English track remains pending approval and that scholarship dates are not degree admission deadlines. Added Polimi's named 2027/28 28DIGITAL pathway for Computer Science and Engineering (T2A) and High Performance Computing Engineering, with the separate local application, applicant-category deadlines and fee. Linked individual official 2026/27 course profiles for 14 Bologna rows, 15 Padua rows and four Pisa rows that previously had no source IDs. Corrected the Bologna AI and Manufacturing lead to a 2027/28 Global MBA, identified Business Analytics as a curriculum, corrected BBS professional-master classifications, corrected Bologna's Forlì campus for Economia e commercio, corrected Medicine and Giurisprudenza to single-cycle degrees, recorded Padua's Medicine campus move to Venice, and corrected several Padua programme language/course-identity classifications. Added official programme and admission evidence for all 10 previously unlinked Federico II rows, all seven University of Florence rows, and Tor Vergata Computer Science. Corrected Florence Architecture and Urban Planning to curriculum-level records, set Urban Planning's campus to Prato, scoped the RISE English-only route as an optional pathway, corrected Tor Vergata Computer Science to Italian, and preserved 2026/27 admissions data as historical facts only. Rebuilt the 201-program dataset, 561-source inventory, report, Claude checklist and manifest; the data audit passed, all 12 static-site tests passed, the UI regression test passed after fixing proposed programme records leaking into the 'Not offered' filter, and desktop/mobile browser tests passed. No Vercel preview or production deployment was triggered while research remains partial.",
+}
+
+BATCH2 = {
+    "id": "padua-2027-28-application-procedure-and-call-two-source-correction",
+    "status": "partial",
+    "result": "Rechecked Padua's current official application procedure in Italian. The Italian legal-language page confirms the 2027/28 open-place calls (15 Sep–15 Nov 2026; 1 Dec 2026–1 Mar 2027; 1 Apr–1 Jun 2027 for EU and non-EU residents in Italy), the separate limited-place rounds (7 Jan–7 Mar 2027 for non-EU abroad; 15 Mar–7 Apr 2027 for English programmes for EU/equated applicants), the apply.unipd.it route, €60 non-refundable fee and two-programme limit, with course-specific exceptions. Corrected the university-level source attribution to cite the Italian page; kept the English translation's erroneous Call Two start explicitly flagged. No generic application date was copied to an individual unconfirmed course or to the unapproved English Master's proposals. The official Italian URL returned HTTP 200; rebuilt the dataset with 201 programs and 562 sources; data integrity audit passed; all 12 static-site tests, the UI regression test and desktop/mobile browser tests passed. Production and preview remain untouched while the larger research audit is incomplete.",
+}
+
+BATCH3 = {
+    "id": "padua-2027-28-excellence-scholarship-and-tuition-publication-status",
+    "status": "partial",
+    "result": "The University's Board of Administration approved €1,432,200 for the 2027/28 Padua International Excellence Scholarship edition, up to 76 awards for the top candidate per English-taught degree/curriculum (including newly activated programmes), at €8,000 gross/year plus university-fee exemption. General scheme details include max two years for Master's and three for Bachelor's/single-cycle degrees, with only regional tax and stamp duty remaining; the 2027/28 annual call, detailed selection/retention criteria and final programme allocations are still pending publication in November. Recorded the scheme as applicable to the three confirmed Padua English-taught 2027/28 candidates, and conditionally relevant to English-taught candidates whose course intake or proposal approval is pending. The latest official general tuition notice remains 2026/27; its amounts are preserved as historical only, with 2027/28 tuition still unconfirmed. All three new source URLs returned HTTP 200; rebuilt the 201-program, 565-source dataset, audit and site; data integrity passed, all 12 static tests passed, UI regression passed, and desktop/mobile browser tests passed. Production and preview remain untouched while the comprehensive research audit is incomplete.",
 }
 
 
@@ -1487,3 +1531,61 @@ def apply(
     arqus_physics["last_checked"] = "2026-11-11"
     programs.append(arqus_physics)
     apply_legacy_course_reviews(programs, fact)
+
+    padua_scholarship_sources = [
+        "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
+        "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME",
+    ]
+    padua_scholarship_terms = {
+        "name": "Padua International Excellence Scholarship",
+        "academic_year": "2027/28",
+        "university_allocation_eur": 1432200,
+        "maximum_awards": 76,
+        "target": "Highest-ranked candidate per English-taught degree/curriculum, including newly activated programmes",
+        "gross_eur_per_year": 8000,
+        "university_tuition_fee_exemption": True,
+        "remaining_fees": ["Regional fee", "Revenue stamp"],
+        "maximum_duration_years": {"MSc": 2, "BSc": 3, "single_cycle": 3},
+        "award_conditions": "Competitive; selection and renewal subject to the forthcoming 2027/28 annual call",
+    }
+    padua_tuition_source = "SRC-PADUA-TUITION-2026"
+    for program in programs:
+        if program.get("university_id") != "padova":
+            continue
+        facts = program.setdefault("facts", {})
+        tuition = facts.get("tuition_2027_2028")
+        if tuition is None:
+            facts["tuition_2027_2028"] = fact(
+                None, "REQUIRES_VERIFICATION", [padua_tuition_source],
+                "The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.",
+            )
+        else:
+            tuition["source_ids"] = list(dict.fromkeys(tuition.get("source_ids", []) + [padua_tuition_source]))
+            old_note = tuition.get("notes") or ""
+            addition = "The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed."
+            if addition not in old_note:
+                tuition["notes"] = (old_note + " " + addition).strip()
+        program["source_ids"] = list(dict.fromkeys(program.get("source_ids", []) + [padua_tuition_source]))
+
+        language = (program.get("language") or {}).get("value") or ""
+        if "English" not in language:
+            continue
+        active_and_confirmed = (
+            program.get("overall_status") == "CONFIRMED"
+            and (program.get("availability_2027_2028") or {}).get("status") == "CONFIRMED"
+            and (program.get("availability_2027_2028") or {}).get("value") is True
+            and (program.get("language") or {}).get("status") == "CONFIRMED"
+        )
+        facts["scholarships_2027_2028"] = fact(
+            padua_scholarship_terms,
+            "CONFIRMED" if active_and_confirmed else "REQUIRES_VERIFICATION",
+            padua_scholarship_sources,
+            "For this record, an active 2027/28 English-taught intake is confirmed; the University has approved the headline scholarship scheme. Awards are competitive and not guaranteed; annual call eligibility and course-level allocation remain to be checked."
+            if active_and_confirmed else
+            "The University approved the scheme for English-taught degree programmes, including new programmes, but this record's 2027/28 intake, final language/approval or course-level inclusion is still pending. Do not show it as a confirmed course award.",
+        )
+        facts["scholarship_call_details_2027_2028"] = fact(
+            None, "NOT_YET_PUBLISHED", ["SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"],
+            "The official programme page says the 2027/28 annual call will be published in November 2026; as checked on 11 November the page still links the 2026/27 call. Confirm final eligibility, application/selection process and renewal criteria when the new notice appears.",
+        )
+        program["source_ids"] = list(dict.fromkeys(program["source_ids"] + padua_scholarship_sources))

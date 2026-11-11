@@ -3541,36 +3541,152 @@
       "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
       "SRC-PADUA-STATISTICAL-SCIENCE-PROFILE-2027",
       "SRC-PADUA-STATISTICAL-SCIENCE-ENTRY-REQUIREMENTS",
-      "SRC-PADUA-ARQUS-PHYSICS-TECH-2026"
+      "SRC-PADUA-ARQUS-PHYSICS-TECH-2026",
+      "SRC-PADUA-STUDY-ENGLISH-APPLY-ITALIAN-2027",
+      "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
+      "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME",
+      "SRC-PADUA-TUITION-2026"
     ],
     "last_checked": "2026-11-09",
     "cycle_facts": {
       "application_windows": {
         "value": [
           {
-            "label": "Call 1",
+            "label": "Call 1 – unlimited-place English-taught courses",
             "start": "2026-09-15",
             "end": "2026-11-15",
-            "eligible_group": "Most degree programs; check individual course call"
+            "eligible_group": "International applicants; course-specific exceptions may apply"
           },
           {
-            "label": "Call 2",
+            "label": "Call 2 – unlimited-place English-taught courses",
             "start": "2026-12-01",
             "end": "2027-03-01",
-            "eligible_group": "Most degree programs; check individual course call"
+            "eligible_group": "International applicants; course-specific exceptions may apply"
           },
           {
-            "label": "Call 3",
+            "label": "Call 3 – unlimited-place English-taught courses",
             "start": "2027-04-01",
             "end": "2027-06-01",
             "eligible_group": "EU and non-EU applicants residing in Italy only"
+          },
+          {
+            "label": "Call 1 – limited-place courses",
+            "start": "2027-01-07",
+            "end": "2027-03-07",
+            "eligible_group": "Non-EU applicants residing outside Italy"
+          },
+          {
+            "label": "Call 1 – limited-place English-taught courses",
+            "start": "2027-03-15",
+            "end": "2027-04-07",
+            "eligible_group": "EU and EU-equated applicants"
+          },
+          {
+            "label": "Call 1 – limited-place Italian-taught bachelor's courses",
+            "start": "2027-03-15",
+            "end": "2027-05-07",
+            "eligible_group": "EU and EU-equated applicants"
           }
         ],
         "status": "CONFIRMED",
         "source_ids": [
+          "SRC-PADUA-STUDY-ENGLISH-APPLY-ITALIAN-2027",
           "SRC-PADUA-INTL-2027"
         ],
-        "notes": "The general page says the first call applies to most degree programs; individual programs may differ."
+        "notes": "These general calls are from the official Italian English-degree application procedure and are segmented by admission type and applicant category. Check each individual programme call for applicability. Medicine and Surgery follows a separate national call; the procedure also lists July-only calls for two named MSc programmes and possible course-specific third calls. The English translation misprints the Call Two start as 1 December 2027; the Italian page confirms 1 December 2026."
+      },
+      "application_fee": {
+        "value": {
+          "amount_eur": 60,
+          "non_refundable": true,
+          "maximum_programmes": 2,
+          "route": "apply.unipd.it",
+          "exception": "For courses requiring CEnT-S, do not pay the €60 fee; pay €55 test registration on CISIA instead",
+          "excluded_programme": "Medicine and Surgery uses Universitaly and its separate annual national call"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADUA-STUDY-ENGLISH-APPLY-ITALIAN-2027"
+        ],
+        "notes": "General University English-degree application procedure. Course-specific requirements may differ; the CEnT-S and Medicine and Surgery exceptions are explicit on the official page."
+      },
+      "international_scholarships_2027_2028": {
+        "value": {
+          "name": "Padua International Excellence Scholarship",
+          "academic_year": "2027/28",
+          "university_allocation_eur": 1432200,
+          "maximum_awards": 76,
+          "target": "Highest-ranked candidate per English-taught degree/curriculum, including newly activated programmes",
+          "gross_eur_per_year": 8000,
+          "university_tuition_fee_exemption": true,
+          "remaining_fees": [
+            "Regional fee",
+            "Revenue stamp"
+          ],
+          "maximum_duration_years": {
+            "MSc": 2,
+            "BSc": 3,
+            "single_cycle": 3
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
+          "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
+        ],
+        "notes": "The University has approved the 2027/28 scheme allocation and headline award. The number and selection of awardees are competitive and capped at 76; the annual 2027/28 call still controls final eligibility, selection and renewal terms."
+      },
+      "international_scholarship_call_details_2027_2028": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
+        ],
+        "notes": "The official programme page says the annual call details will be published in November 2026; the page still links the 2026/27 call. Check again when the 2027/28 notice is posted."
+      },
+      "international_scholarship_eligibility_2027_2028": {
+        "value": {
+          "general_page_guidance": "Non-Italian citizenship (except dual nationality); foreign qualification; not resident in Italy at application; apply to an English-taught degree",
+          "status": "Annual call not yet published"
+        },
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
+        ],
+        "notes": "These are the general programme-page criteria; confirm against the 2027/28 call before treating them as the final eligibility rules."
+      },
+      "previous_cycle_tuition": {
+        "value": {
+          "academic_year": "2026/27",
+          "general_annual_range_eur": "0 to approximately 3000",
+          "first_year_initial_instalment_eur": 208,
+          "first_year_initial_instalment_composition": {
+            "regional_tax_eur": 192,
+            "stamp_duty_eur": 16
+          },
+          "later_year_initial_instalment_eur": 588,
+          "later_year_contribution_included_eur": 380,
+          "non_eu_abroad_fixed_tariffs": {
+            "group_A_eur": 2790,
+            "group_A_low_hdi_eur": 930,
+            "group_B_eur": 2990,
+            "group_B_low_hdi_eur": 996.66
+          },
+          "note": "Exact fee varies by programme and personal/financial circumstances."
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADUA-TUITION-2026"
+        ],
+        "notes": "University-wide 2026/27 fee guidance only; amounts are historical, not 2027/28 quotes or this candidate's final course total."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-PADUA-TUITION-2026"
+        ],
+        "notes": "The official page reviewed still links the 2026/27 annual fee notice; no 2027/28 fee schedule or course-specific total is published there."
       }
     }
   },
