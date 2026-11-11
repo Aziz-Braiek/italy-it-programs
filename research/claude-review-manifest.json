@@ -9,15 +9,15 @@
     "counts": {
       "universities": 34,
       "programs": 209,
-      "sources": 604
+      "sources": 608
     },
     "previous_snapshot_inconclusive_url_checks": "The prior audit reported approximately 100 inconclusive checks. This refresh rechecked every unique URL and preserves the response by source record below.",
     "current_url_audit": {
       "checked_at": "2026-11-11",
-      "source_records": 604,
-      "unique_urls_checked": 589,
+      "source_records": 608,
+      "unique_urls_checked": 593,
       "unique_url_outcomes": {
-        "accessible": 570,
+        "accessible": 574,
         "redirected": 13,
         "inconclusive": 5,
         "broken": 1
@@ -9390,11 +9390,15 @@
         "SRC-UNIBO-MED-IT-CALL-2026",
         "SRC-MUR-ITALIAN-MED-OPEN-SEMESTER",
         "SRC-UNIBO-LAW-2026",
+        "SRC-UNIBO-LAW-CATALOGUE-2026",
+        "SRC-UNIBO-LAW-ENROLMENT-2026",
+        "SRC-UNIBO-LAW-OFA-2026",
         "SRC-UNIBO-COMMUNICATION-2026",
         "SRC-UNIBO-ING-INF-MSC-2026",
         "SRC-UNIBO-ING-INF-ADMISSIONS-2026",
         "SRC-UNIBO-BA-BBS-2026",
         "SRC-UNIBO-GIURISPRUDENZA-REG-2026",
+        "SRC-UNIBO-LAW-ADMISSIONS-2026",
         "SRC-UNIBO-AI-MFG-2026-27-MASTER",
         "SRC-UNIBO-MED-EN-2026-CALL",
         "SRC-UNIBO-MED-EN-ENROLMENT-2026",
@@ -10814,8 +10818,8 @@
           "url": "https://corsi.unibo.it/magistralecu/Giurisprudenza-Bologna/esplora-il-corso",
           "source_type": "Official degree programme profile",
           "cycle": "2026-2027",
-          "accessed_at": "2026-11-10",
-          "evidence": "Identifies Giurisprudenza as a five-year Italian-language single-cycle degree, class LMG/01, taught in Bologna; it is not a two-year MSc.",
+          "accessed_at": "2026-11-11",
+          "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026. The programme profile identifies the five-year Italian-taught Bologna Giurisprudenza single-cycle degree and states free access with TOLC-SU knowledge assessment; its details are cycle-scoped and do not confirm a 2027/28 first-year call.",
           "supports": [
             "program.name",
             "program.level",
@@ -10827,23 +10831,134 @@
           "url_check": {
             "http_status": 200,
             "effective_url": "https://corsi.unibo.it/magistralecu/Giurisprudenza-Bologna/esplora-il-corso",
-            "content_type": "text/html;charset=utf-8",
-            "content_length_header": null,
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": "307445",
             "etag": null,
             "last_modified": null,
-            "cache_control": "max-age=0, s-maxage=0, must-revalidate",
-            "age": "2507",
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "180",
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
             "observed_title": "Esplora il Corso — Giurisprudenza - Laurea Magistrale CU - Bologna",
             "pdf_signature": null,
             "has_2027_marker": false,
-            "bytes_read": 131072,
+            "bytes_read": 307445,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
-            "method": "GET"
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-UNIBO-LAW-CATALOGUE-2026",
+          "title": "Giurisprudenza – 2026/27 University catalogue entry (code 6827)",
+          "url": "https://www.unibo.it/it/studiare/lauree-e-lauree-magistrali-a-ciclo-unico/corso/2026/6827",
+          "source_type": "Official University of Bologna course catalogue",
+          "cycle": "2026-2027",
+          "accessed_at": "2026-11-11",
+          "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026. The AY 2026/27 entry identifies course code 6827, five years, Bologna campus, Italian delivery and class LMG/01 R; access is free with TOLC-SU.",
+          "supports": [
+            "program.previous_cycle_course_listing",
+            "program.previous_cycle_admission_requirements"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.unibo.it/it/studiare/lauree-e-lauree-magistrali-a-ciclo-unico/corso/2026/6827",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": "498637",
+            "etag": null,
+            "last_modified": null,
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "784",
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Giurisprudenza — Università di Bologna",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 498637,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-UNIBO-LAW-ENROLMENT-2026",
+          "title": "Giurisprudenza Bologna – current enrolment and TOLC-SU page",
+          "url": "https://corsi.unibo.it/magistralecu/Giurisprudenza-Bologna/iscriversi-al-corso",
+          "source_type": "Official degree programme admissions page",
+          "cycle": "2026-2027",
+          "accessed_at": "2026-11-11",
+          "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026. The course page lists the 2026/27 enrolment route and requirements, describes the TOLC-SU content, links the 2026/27 admission notice and displays 2026 ISEE tuition guidance. It contains no 2027/28 course call.",
+          "supports": [
+            "program.previous_cycle_application_windows",
+            "program.previous_cycle_application_route",
+            "program.previous_cycle_test_scoring",
+            "program.previous_cycle_tuition",
+            "program.cycle_marker_scope"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://corsi.unibo.it/magistralecu/Giurisprudenza-Bologna/iscriversi-al-corso",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": "345178",
+            "etag": null,
+            "last_modified": null,
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "223",
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Iscriversi al Corso: requisiti, tempi e modalità — Giurisprudenza - Laurea Magistrale CU - Bologna",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 345178,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-UNIBO-LAW-OFA-2026",
+          "title": "Giurisprudenza Bologna – TOLC-SU OFA and completion guidance",
+          "url": "https://corsi.unibo.it/magistralecu/Giurisprudenza-Bologna/ofa",
+          "source_type": "Official degree programme OFA page",
+          "cycle": "2026-2027",
+          "accessed_at": "2026-11-11",
+          "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026. For the 2026/27 cycle, a TOLC-SU result below the call's 20/50 threshold assigns an OFA but does not bar enrolment; from 2026/27 the OFA is fulfilled through the Department alignment course and final assessment by 31 March 2028.",
+          "supports": [
+            "program.previous_cycle_test_scoring",
+            "program.previous_cycle_additional_learning_requirement"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://corsi.unibo.it/magistralecu/Giurisprudenza-Bologna/ofa",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": "288687",
+            "etag": null,
+            "last_modified": null,
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "4021",
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Cosa sono e come assolvere gli OFA — Giurisprudenza - Laurea Magistrale CU - Bologna",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 288687,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
           },
           "browser_check": null
         },
@@ -11004,32 +11119,74 @@
           "url": "https://corsi.unibo.it/magistralecu/Giurisprudenza-Bologna/il-corso/all-e-regolamento-parte-normativa-26-27.pdf",
           "source_type": "Official programme regulation PDF",
           "cycle": "2026-2027",
-          "accessed_at": "2026-11-10",
-          "evidence": "The regulation names the Bologna single-cycle degree in Giurisprudenza, class LMG/01 R, course code 6827, for students enrolling in AY 2026/27.",
+          "accessed_at": "2026-11-11",
+          "evidence": "Fresh no-cache GET returned HTTP 200 with a valid PDF signature on 11 November 2026. The regulation names the Bologna single-cycle course code 6827, LMG/01 R, Italian delivery and free access with TOLC knowledge verification for students enrolling in AY 2026/27; failed verification leads to an OFA.",
           "supports": [
-            "program.previous_cycle_course_listing"
+            "program.previous_cycle_course_listing",
+            "program.previous_cycle_admission_requirements",
+            "program.previous_cycle_additional_learning_requirement"
           ],
           "refresh_status": "accessible",
           "url_check": {
-            "http_status": 206,
+            "http_status": 200,
             "effective_url": "https://corsi.unibo.it/magistralecu/Giurisprudenza-Bologna/il-corso/all-e-regolamento-parte-normativa-26-27.pdf",
             "content_type": "application/pdf",
-            "content_length_header": "4096",
+            "content_length_header": "588497",
             "etag": null,
-            "last_modified": "Thu, 07 May 2026 13:31:28 GMT",
-            "cache_control": "max-age=0, s-maxage=0, must-revalidate",
-            "age": "23119",
+            "last_modified": null,
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "5767",
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
             "observed_title": null,
             "pdf_signature": true,
-            "has_2027_marker": null,
-            "bytes_read": 4096,
+            "has_2027_marker": false,
+            "bytes_read": 588497,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
-            "method": "GET with byte range for PDF sources"
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-UNIBO-LAW-ADMISSIONS-2026",
+          "title": "Giurisprudenza – 2026/27 admission notice and TOLC-SU deadlines",
+          "url": "https://corsi.unibo.it/s/3394/p/it/iscriversi-nuova-4/avviso-tolc-25-26.pdf/@@download/file/AVVISO%20IMMA%2026_27.pdf",
+          "source_type": "Official University of Bologna admissions notice PDF",
+          "cycle": "2026-2027",
+          "accessed_at": "2026-11-11",
+          "evidence": "Fresh no-cache GET returned HTTP 200 with a valid PDF signature on 11 November 2026. The notice explicitly lists Bologna Giurisprudenza code 6827, required TOLC-SU, free-access enrollment periods (22 July–24 September without late fee; 25 September–24 October with €30 late fee; 25 October–19 November with €150 late fee), foreign qualification and international-student procedures, and an OFA threshold below 20/50. TOLC test registration is paid to CISIA; the notice does not state the test fee amount. These terms are for AY 2026/27 only.",
+          "supports": [
+            "program.previous_cycle_course_listing",
+            "program.previous_cycle_application_windows",
+            "program.previous_cycle_application_route",
+            "program.previous_cycle_admission_requirements",
+            "program.previous_cycle_test_scoring",
+            "program.previous_cycle_application_fee"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://corsi.unibo.it/s/3394/p/it/iscriversi-nuova-4/avviso-tolc-25-26.pdf/@@download/file/AVVISO%20IMMA%2026_27.pdf",
+            "content_type": "application/pdf",
+            "content_length_header": "741801",
+            "etag": null,
+            "last_modified": null,
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "52",
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": null,
+            "pdf_signature": true,
+            "has_2027_marker": false,
+            "bytes_read": 741801,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
           },
           "browser_check": null
         },
@@ -63282,7 +63439,13 @@
         "status": "REQUIRES_VERIFICATION",
         "source_ids": [
           "SRC-UNIBO-LAW-2026",
-          "SRC-UNIBO-GIURISPRUDENZA-REG-2026"
+          "SRC-UNIBO-LAW-CATALOGUE-2026",
+          "SRC-UNIBO-LAW-ENROLMENT-2026",
+          "SRC-UNIBO-LAW-ADMISSIONS-2026",
+          "SRC-UNIBO-LAW-OFA-2026",
+          "SRC-UNIBO-GIURISPRUDENZA-REG-2026",
+          "SRC-UNIBO-TUITION-PAGE-2026",
+          "SRC-UNIBO-TUITION-TABLE-2026"
         ],
         "notes": "Official course identity is confirmed for the 2026/2027 catalogue; this value is not promoted to 2027/28 without a named-cycle source."
       },
@@ -63291,7 +63454,13 @@
         "status": "REQUIRES_VERIFICATION",
         "source_ids": [
           "SRC-UNIBO-LAW-2026",
-          "SRC-UNIBO-GIURISPRUDENZA-REG-2026"
+          "SRC-UNIBO-LAW-CATALOGUE-2026",
+          "SRC-UNIBO-LAW-ENROLMENT-2026",
+          "SRC-UNIBO-LAW-ADMISSIONS-2026",
+          "SRC-UNIBO-LAW-OFA-2026",
+          "SRC-UNIBO-GIURISPRUDENZA-REG-2026",
+          "SRC-UNIBO-TUITION-PAGE-2026",
+          "SRC-UNIBO-TUITION-TABLE-2026"
         ],
         "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
       },
@@ -63299,37 +63468,190 @@
       "university_page_url": "https://italy-it-programs.vercel.app/universities/bologna/",
       "official_program_source_urls": [
         {
+          "id": "SRC-UNIBO-LAW-CATALOGUE-2026",
+          "title": "Giurisprudenza – 2026/27 University catalogue entry (code 6827)",
+          "url": "https://www.unibo.it/it/studiare/lauree-e-lauree-magistrali-a-ciclo-unico/corso/2026/6827",
+          "source_type": "Official University of Bologna course catalogue",
+          "cycle": "2026-2027",
+          "accessed_at": "2026-11-11",
+          "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026. The AY 2026/27 entry identifies course code 6827, five years, Bologna campus, Italian delivery and class LMG/01 R; access is free with TOLC-SU.",
+          "supports": [
+            "program.previous_cycle_course_listing",
+            "program.previous_cycle_admission_requirements"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.unibo.it/it/studiare/lauree-e-lauree-magistrali-a-ciclo-unico/corso/2026/6827",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": "498637",
+            "etag": null,
+            "last_modified": null,
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "784",
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Giurisprudenza — Università di Bologna",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 498637,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
+          },
+          "browser_check": null
+        },
+        {
           "id": "SRC-UNIBO-GIURISPRUDENZA-REG-2026",
           "title": "Giurisprudenza – 2026/27 Bologna degree regulation",
           "url": "https://corsi.unibo.it/magistralecu/Giurisprudenza-Bologna/il-corso/all-e-regolamento-parte-normativa-26-27.pdf",
           "source_type": "Official programme regulation PDF",
           "cycle": "2026-2027",
-          "accessed_at": "2026-11-10",
-          "evidence": "The regulation names the Bologna single-cycle degree in Giurisprudenza, class LMG/01 R, course code 6827, for students enrolling in AY 2026/27.",
+          "accessed_at": "2026-11-11",
+          "evidence": "Fresh no-cache GET returned HTTP 200 with a valid PDF signature on 11 November 2026. The regulation names the Bologna single-cycle course code 6827, LMG/01 R, Italian delivery and free access with TOLC knowledge verification for students enrolling in AY 2026/27; failed verification leads to an OFA.",
           "supports": [
-            "program.previous_cycle_course_listing"
+            "program.previous_cycle_course_listing",
+            "program.previous_cycle_admission_requirements",
+            "program.previous_cycle_additional_learning_requirement"
           ],
           "refresh_status": "accessible",
           "url_check": {
-            "http_status": 206,
+            "http_status": 200,
             "effective_url": "https://corsi.unibo.it/magistralecu/Giurisprudenza-Bologna/il-corso/all-e-regolamento-parte-normativa-26-27.pdf",
             "content_type": "application/pdf",
-            "content_length_header": "4096",
+            "content_length_header": "588497",
             "etag": null,
-            "last_modified": "Thu, 07 May 2026 13:31:28 GMT",
-            "cache_control": "max-age=0, s-maxage=0, must-revalidate",
-            "age": "23119",
+            "last_modified": null,
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "5767",
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": null,
+            "pdf_signature": true,
+            "has_2027_marker": false,
+            "bytes_read": 588497,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-UNIBO-LAW-ADMISSIONS-2026",
+          "title": "Giurisprudenza – 2026/27 admission notice and TOLC-SU deadlines",
+          "url": "https://corsi.unibo.it/s/3394/p/it/iscriversi-nuova-4/avviso-tolc-25-26.pdf/@@download/file/AVVISO%20IMMA%2026_27.pdf",
+          "source_type": "Official University of Bologna admissions notice PDF",
+          "cycle": "2026-2027",
+          "accessed_at": "2026-11-11",
+          "evidence": "Fresh no-cache GET returned HTTP 200 with a valid PDF signature on 11 November 2026. The notice explicitly lists Bologna Giurisprudenza code 6827, required TOLC-SU, free-access enrollment periods (22 July–24 September without late fee; 25 September–24 October with €30 late fee; 25 October–19 November with €150 late fee), foreign qualification and international-student procedures, and an OFA threshold below 20/50. TOLC test registration is paid to CISIA; the notice does not state the test fee amount. These terms are for AY 2026/27 only.",
+          "supports": [
+            "program.previous_cycle_course_listing",
+            "program.previous_cycle_application_windows",
+            "program.previous_cycle_application_route",
+            "program.previous_cycle_admission_requirements",
+            "program.previous_cycle_test_scoring",
+            "program.previous_cycle_application_fee"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://corsi.unibo.it/s/3394/p/it/iscriversi-nuova-4/avviso-tolc-25-26.pdf/@@download/file/AVVISO%20IMMA%2026_27.pdf",
+            "content_type": "application/pdf",
+            "content_length_header": "741801",
+            "etag": null,
+            "last_modified": null,
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "52",
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": null,
+            "pdf_signature": true,
+            "has_2027_marker": false,
+            "bytes_read": 741801,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-UNIBO-LAW-ENROLMENT-2026",
+          "title": "Giurisprudenza Bologna – current enrolment and TOLC-SU page",
+          "url": "https://corsi.unibo.it/magistralecu/Giurisprudenza-Bologna/iscriversi-al-corso",
+          "source_type": "Official degree programme admissions page",
+          "cycle": "2026-2027",
+          "accessed_at": "2026-11-11",
+          "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026. The course page lists the 2026/27 enrolment route and requirements, describes the TOLC-SU content, links the 2026/27 admission notice and displays 2026 ISEE tuition guidance. It contains no 2027/28 course call.",
+          "supports": [
+            "program.previous_cycle_application_windows",
+            "program.previous_cycle_application_route",
+            "program.previous_cycle_test_scoring",
+            "program.previous_cycle_tuition",
+            "program.cycle_marker_scope"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://corsi.unibo.it/magistralecu/Giurisprudenza-Bologna/iscriversi-al-corso",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": "345178",
+            "etag": null,
+            "last_modified": null,
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "223",
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Iscriversi al Corso: requisiti, tempi e modalità — Giurisprudenza - Laurea Magistrale CU - Bologna",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 345178,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-UNIBO-TUITION-TABLE-2026",
+          "title": "University of Bologna – 2026/27 maximum course tuition table",
+          "url": "https://www.unibo.it/it/allegati/Tabellaimportimassimi2627.pdf/@@download/file/Tabella%20importi%20massimi%202026-2027.pdf",
+          "source_type": "Official University fee schedule PDF",
+          "cycle": "2026-2027",
+          "accessed_at": "2026-11-11",
+          "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026. The official table lists 2026/27 programme code 6264 Medicine and Surgery with a maximum comprehensive contribution of €3,315, excluding regional study tax, stamp duty and insurance; the fixed €157.04 fee is specified on the linked fee framework page.",
+          "supports": [
+            "program.previous_cycle_tuition",
+            "program.tuition_2027_2028"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.unibo.it/it/allegati/Tabellaimportimassimi2627.pdf/@@download/file/Tabella%20importi%20massimi%202026-2027.pdf",
+            "content_type": "application/pdf",
+            "content_length_header": "314600",
+            "etag": null,
+            "last_modified": "Fri, 08 May 2026 12:14:12 GMT",
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "355",
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
             "observed_title": null,
             "pdf_signature": true,
             "has_2027_marker": null,
-            "bytes_read": 4096,
+            "bytes_read": 314600,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
-            "method": "GET with byte range for PDF sources"
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
           },
           "browser_check": null
         },
@@ -63339,8 +63661,8 @@
           "url": "https://corsi.unibo.it/magistralecu/Giurisprudenza-Bologna/esplora-il-corso",
           "source_type": "Official degree programme profile",
           "cycle": "2026-2027",
-          "accessed_at": "2026-11-10",
-          "evidence": "Identifies Giurisprudenza as a five-year Italian-language single-cycle degree, class LMG/01, taught in Bologna; it is not a two-year MSc.",
+          "accessed_at": "2026-11-11",
+          "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026. The programme profile identifies the five-year Italian-taught Bologna Giurisprudenza single-cycle degree and states free access with TOLC-SU knowledge assessment; its details are cycle-scoped and do not confirm a 2027/28 first-year call.",
           "supports": [
             "program.name",
             "program.level",
@@ -63352,23 +63674,95 @@
           "url_check": {
             "http_status": 200,
             "effective_url": "https://corsi.unibo.it/magistralecu/Giurisprudenza-Bologna/esplora-il-corso",
-            "content_type": "text/html;charset=utf-8",
-            "content_length_header": null,
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": "307445",
             "etag": null,
             "last_modified": null,
-            "cache_control": "max-age=0, s-maxage=0, must-revalidate",
-            "age": "2507",
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "180",
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
             "observed_title": "Esplora il Corso — Giurisprudenza - Laurea Magistrale CU - Bologna",
             "pdf_signature": null,
             "has_2027_marker": false,
-            "bytes_read": 131072,
+            "bytes_read": 307445,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
-            "method": "GET"
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-UNIBO-LAW-OFA-2026",
+          "title": "Giurisprudenza Bologna – TOLC-SU OFA and completion guidance",
+          "url": "https://corsi.unibo.it/magistralecu/Giurisprudenza-Bologna/ofa",
+          "source_type": "Official degree programme OFA page",
+          "cycle": "2026-2027",
+          "accessed_at": "2026-11-11",
+          "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026. For the 2026/27 cycle, a TOLC-SU result below the call's 20/50 threshold assigns an OFA but does not bar enrolment; from 2026/27 the OFA is fulfilled through the Department alignment course and final assessment by 31 March 2028.",
+          "supports": [
+            "program.previous_cycle_test_scoring",
+            "program.previous_cycle_additional_learning_requirement"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://corsi.unibo.it/magistralecu/Giurisprudenza-Bologna/ofa",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": "288687",
+            "etag": null,
+            "last_modified": null,
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "4021",
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Cosa sono e come assolvere gli OFA — Giurisprudenza - Laurea Magistrale CU - Bologna",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 288687,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-UNIBO-TUITION-PAGE-2026",
+          "title": "University of Bologna – 2026/27 tuition framework and exemptions",
+          "url": "https://www.unibo.it/it/studiare/iscrizioni-tasse-e-altre-procedure/lauree-e-lauree-magistrali/tasse-e-contributi",
+          "source_type": "Official University tuition and exemption page",
+          "cycle": "2026-2027",
+          "accessed_at": "2026-11-11",
+          "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026. The 2026/27 fee framework states a fixed €157.04 amount plus an ISEE-dependent course contribution, and points students in restricted-entry courses to their course call for due dates. The separate open-semester fees on the page apply to Italian-taught medicine courses, not this English-taught IMAT programme.",
+          "supports": [
+            "program.previous_cycle_tuition",
+            "program.tuition_2027_2028"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.unibo.it/it/studiare/iscrizioni-tasse-e-altre-procedure/lauree-e-lauree-magistrali/tasse-e-contributi",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": "558106",
+            "etag": null,
+            "last_modified": null,
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "185",
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Tasse ed esenzioni: importi e scadenze — Università di Bologna",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 558106,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
           },
           "browser_check": null
         }
@@ -63378,12 +63772,18 @@
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
           "SRC-UNIBO-LAW-2026",
-          "SRC-UNIBO-GIURISPRUDENZA-REG-2026"
+          "SRC-UNIBO-LAW-CATALOGUE-2026",
+          "SRC-UNIBO-LAW-ENROLMENT-2026",
+          "SRC-UNIBO-LAW-ADMISSIONS-2026",
+          "SRC-UNIBO-LAW-OFA-2026",
+          "SRC-UNIBO-GIURISPRUDENZA-REG-2026",
+          "SRC-UNIBO-TUITION-PAGE-2026",
+          "SRC-UNIBO-TUITION-TABLE-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued."
+        "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-11. This does not mean discontinued."
       },
       "existing_overall_status": "REQUIRES_VERIFICATION",
-      "existing_last_checked": "2026-11-10",
+      "existing_last_checked": "2026-11-11",
       "fields_needing_review": [
         {
           "field": "level",
@@ -63392,7 +63792,13 @@
           "notes": "Official course identity is confirmed for the 2026/2027 catalogue; this value is not promoted to 2027/28 without a named-cycle source.",
           "source_ids": [
             "SRC-UNIBO-LAW-2026",
-            "SRC-UNIBO-GIURISPRUDENZA-REG-2026"
+            "SRC-UNIBO-LAW-CATALOGUE-2026",
+            "SRC-UNIBO-LAW-ENROLMENT-2026",
+            "SRC-UNIBO-LAW-ADMISSIONS-2026",
+            "SRC-UNIBO-LAW-OFA-2026",
+            "SRC-UNIBO-GIURISPRUDENZA-REG-2026",
+            "SRC-UNIBO-TUITION-PAGE-2026",
+            "SRC-UNIBO-TUITION-TABLE-2026"
           ]
         },
         {
@@ -63402,7 +63808,13 @@
           "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record.",
           "source_ids": [
             "SRC-UNIBO-LAW-2026",
-            "SRC-UNIBO-GIURISPRUDENZA-REG-2026"
+            "SRC-UNIBO-LAW-CATALOGUE-2026",
+            "SRC-UNIBO-LAW-ENROLMENT-2026",
+            "SRC-UNIBO-LAW-ADMISSIONS-2026",
+            "SRC-UNIBO-LAW-OFA-2026",
+            "SRC-UNIBO-GIURISPRUDENZA-REG-2026",
+            "SRC-UNIBO-TUITION-PAGE-2026",
+            "SRC-UNIBO-TUITION-TABLE-2026"
           ]
         },
         {
@@ -63412,67 +63824,109 @@
           "notes": "Course subject identity is based on current official profile/catalogue evidence; next-cycle catalogue not yet verified.",
           "source_ids": [
             "SRC-UNIBO-LAW-2026",
-            "SRC-UNIBO-GIURISPRUDENZA-REG-2026"
+            "SRC-UNIBO-LAW-CATALOGUE-2026",
+            "SRC-UNIBO-LAW-ENROLMENT-2026",
+            "SRC-UNIBO-LAW-ADMISSIONS-2026",
+            "SRC-UNIBO-LAW-OFA-2026",
+            "SRC-UNIBO-GIURISPRUDENZA-REG-2026",
+            "SRC-UNIBO-TUITION-PAGE-2026",
+            "SRC-UNIBO-TUITION-TABLE-2026"
           ]
         },
         {
           "field": "availability_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.",
+          "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-11. This does not mean discontinued.",
           "source_ids": [
             "SRC-UNIBO-LAW-2026",
-            "SRC-UNIBO-GIURISPRUDENZA-REG-2026"
+            "SRC-UNIBO-LAW-CATALOGUE-2026",
+            "SRC-UNIBO-LAW-ENROLMENT-2026",
+            "SRC-UNIBO-LAW-ADMISSIONS-2026",
+            "SRC-UNIBO-LAW-OFA-2026",
+            "SRC-UNIBO-GIURISPRUDENZA-REG-2026",
+            "SRC-UNIBO-TUITION-PAGE-2026",
+            "SRC-UNIBO-TUITION-TABLE-2026"
           ]
         },
         {
           "field": "facts.application_windows",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.",
+          "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-11; do not reuse 2026/27 dates.",
           "source_ids": [
             "SRC-UNIBO-LAW-2026",
-            "SRC-UNIBO-GIURISPRUDENZA-REG-2026"
+            "SRC-UNIBO-LAW-CATALOGUE-2026",
+            "SRC-UNIBO-LAW-ENROLMENT-2026",
+            "SRC-UNIBO-LAW-ADMISSIONS-2026",
+            "SRC-UNIBO-LAW-OFA-2026",
+            "SRC-UNIBO-GIURISPRUDENZA-REG-2026",
+            "SRC-UNIBO-TUITION-PAGE-2026",
+            "SRC-UNIBO-TUITION-TABLE-2026"
           ]
         },
         {
           "field": "facts.application_fee_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.",
+          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; check the annual call and application portal.",
           "source_ids": [
             "SRC-UNIBO-LAW-2026",
-            "SRC-UNIBO-GIURISPRUDENZA-REG-2026"
+            "SRC-UNIBO-LAW-CATALOGUE-2026",
+            "SRC-UNIBO-LAW-ENROLMENT-2026",
+            "SRC-UNIBO-LAW-ADMISSIONS-2026",
+            "SRC-UNIBO-LAW-OFA-2026",
+            "SRC-UNIBO-GIURISPRUDENZA-REG-2026",
+            "SRC-UNIBO-TUITION-PAGE-2026",
+            "SRC-UNIBO-TUITION-TABLE-2026"
           ]
         },
         {
           "field": "facts.program_specific_requirements_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.",
+          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; any 2026/27 criteria are historical only.",
           "source_ids": [
             "SRC-UNIBO-LAW-2026",
-            "SRC-UNIBO-GIURISPRUDENZA-REG-2026"
+            "SRC-UNIBO-LAW-CATALOGUE-2026",
+            "SRC-UNIBO-LAW-ENROLMENT-2026",
+            "SRC-UNIBO-LAW-ADMISSIONS-2026",
+            "SRC-UNIBO-LAW-OFA-2026",
+            "SRC-UNIBO-GIURISPRUDENZA-REG-2026",
+            "SRC-UNIBO-TUITION-PAGE-2026",
+            "SRC-UNIBO-TUITION-TABLE-2026"
           ]
         },
         {
           "field": "facts.tuition_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.",
+          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; do not carry forward prior-cycle amounts.",
           "source_ids": [
             "SRC-UNIBO-LAW-2026",
-            "SRC-UNIBO-GIURISPRUDENZA-REG-2026"
+            "SRC-UNIBO-LAW-CATALOGUE-2026",
+            "SRC-UNIBO-LAW-ENROLMENT-2026",
+            "SRC-UNIBO-LAW-ADMISSIONS-2026",
+            "SRC-UNIBO-LAW-OFA-2026",
+            "SRC-UNIBO-GIURISPRUDENZA-REG-2026",
+            "SRC-UNIBO-TUITION-PAGE-2026",
+            "SRC-UNIBO-TUITION-TABLE-2026"
           ]
         },
         {
           "field": "facts.scholarships_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.",
+          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; annual university and regional calls still need checking.",
           "source_ids": [
             "SRC-UNIBO-LAW-2026",
-            "SRC-UNIBO-GIURISPRUDENZA-REG-2026"
+            "SRC-UNIBO-LAW-CATALOGUE-2026",
+            "SRC-UNIBO-LAW-ENROLMENT-2026",
+            "SRC-UNIBO-LAW-ADMISSIONS-2026",
+            "SRC-UNIBO-LAW-OFA-2026",
+            "SRC-UNIBO-GIURISPRUDENZA-REG-2026",
+            "SRC-UNIBO-TUITION-PAGE-2026",
+            "SRC-UNIBO-TUITION-TABLE-2026"
           ]
         },
         {
@@ -63482,7 +63936,39 @@
           "notes": "The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.",
           "source_ids": [
             "SRC-UNIBO-LAW-2026",
-            "SRC-UNIBO-GIURISPRUDENZA-REG-2026"
+            "SRC-UNIBO-LAW-CATALOGUE-2026",
+            "SRC-UNIBO-LAW-ENROLMENT-2026",
+            "SRC-UNIBO-LAW-ADMISSIONS-2026",
+            "SRC-UNIBO-LAW-OFA-2026",
+            "SRC-UNIBO-GIURISPRUDENZA-REG-2026",
+            "SRC-UNIBO-TUITION-PAGE-2026",
+            "SRC-UNIBO-TUITION-TABLE-2026"
+          ]
+        },
+        {
+          "field": "facts.previous_cycle_application_fee",
+          "status": "UNAVAILABLE",
+          "value": {
+            "university_application_fee_amount_eur": null,
+            "tolc_contribution_paid_to": "CISIA",
+            "tolc_contribution_amount_stated_in_university_notice": false
+          },
+          "notes": "The 2026/27 University notice says the TOLC contribution is paid to CISIA but does not state the amount; no fee is inferred from another year or the CISIA checkout.",
+          "source_ids": [
+            "SRC-UNIBO-LAW-ADMISSIONS-2026"
+          ]
+        },
+        {
+          "field": "facts.last_cycle_scholarships",
+          "status": "UNAVAILABLE",
+          "value": {
+            "course_specific_award": null,
+            "general_support": "University of Bologna and ER.GO publish separate annual scholarships and need-based benefits"
+          },
+          "notes": "No dedicated Giurisprudenza award is stated in the reviewed course admissions sources; general University and ER.GO aid is handled through separate annual calls.",
+          "source_ids": [
+            "SRC-UNIBO-LAW-ADMISSIONS-2026",
+            "SRC-UNIBO-LAW-ENROLMENT-2026"
           ]
         }
       ],
@@ -63491,60 +63977,96 @@
           "field": "availability_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.",
+          "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-11. This does not mean discontinued.",
           "source_ids": [
             "SRC-UNIBO-LAW-2026",
-            "SRC-UNIBO-GIURISPRUDENZA-REG-2026"
+            "SRC-UNIBO-LAW-CATALOGUE-2026",
+            "SRC-UNIBO-LAW-ENROLMENT-2026",
+            "SRC-UNIBO-LAW-ADMISSIONS-2026",
+            "SRC-UNIBO-LAW-OFA-2026",
+            "SRC-UNIBO-GIURISPRUDENZA-REG-2026",
+            "SRC-UNIBO-TUITION-PAGE-2026",
+            "SRC-UNIBO-TUITION-TABLE-2026"
           ]
         },
         {
           "field": "facts.application_windows",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.",
+          "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-11; do not reuse 2026/27 dates.",
           "source_ids": [
             "SRC-UNIBO-LAW-2026",
-            "SRC-UNIBO-GIURISPRUDENZA-REG-2026"
+            "SRC-UNIBO-LAW-CATALOGUE-2026",
+            "SRC-UNIBO-LAW-ENROLMENT-2026",
+            "SRC-UNIBO-LAW-ADMISSIONS-2026",
+            "SRC-UNIBO-LAW-OFA-2026",
+            "SRC-UNIBO-GIURISPRUDENZA-REG-2026",
+            "SRC-UNIBO-TUITION-PAGE-2026",
+            "SRC-UNIBO-TUITION-TABLE-2026"
           ]
         },
         {
           "field": "facts.application_fee_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.",
+          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; check the annual call and application portal.",
           "source_ids": [
             "SRC-UNIBO-LAW-2026",
-            "SRC-UNIBO-GIURISPRUDENZA-REG-2026"
+            "SRC-UNIBO-LAW-CATALOGUE-2026",
+            "SRC-UNIBO-LAW-ENROLMENT-2026",
+            "SRC-UNIBO-LAW-ADMISSIONS-2026",
+            "SRC-UNIBO-LAW-OFA-2026",
+            "SRC-UNIBO-GIURISPRUDENZA-REG-2026",
+            "SRC-UNIBO-TUITION-PAGE-2026",
+            "SRC-UNIBO-TUITION-TABLE-2026"
           ]
         },
         {
           "field": "facts.program_specific_requirements_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.",
+          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; any 2026/27 criteria are historical only.",
           "source_ids": [
             "SRC-UNIBO-LAW-2026",
-            "SRC-UNIBO-GIURISPRUDENZA-REG-2026"
+            "SRC-UNIBO-LAW-CATALOGUE-2026",
+            "SRC-UNIBO-LAW-ENROLMENT-2026",
+            "SRC-UNIBO-LAW-ADMISSIONS-2026",
+            "SRC-UNIBO-LAW-OFA-2026",
+            "SRC-UNIBO-GIURISPRUDENZA-REG-2026",
+            "SRC-UNIBO-TUITION-PAGE-2026",
+            "SRC-UNIBO-TUITION-TABLE-2026"
           ]
         },
         {
           "field": "facts.tuition_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.",
+          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; do not carry forward prior-cycle amounts.",
           "source_ids": [
             "SRC-UNIBO-LAW-2026",
-            "SRC-UNIBO-GIURISPRUDENZA-REG-2026"
+            "SRC-UNIBO-LAW-CATALOGUE-2026",
+            "SRC-UNIBO-LAW-ENROLMENT-2026",
+            "SRC-UNIBO-LAW-ADMISSIONS-2026",
+            "SRC-UNIBO-LAW-OFA-2026",
+            "SRC-UNIBO-GIURISPRUDENZA-REG-2026",
+            "SRC-UNIBO-TUITION-PAGE-2026",
+            "SRC-UNIBO-TUITION-TABLE-2026"
           ]
         },
         {
           "field": "facts.scholarships_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.",
+          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; annual university and regional calls still need checking.",
           "source_ids": [
             "SRC-UNIBO-LAW-2026",
-            "SRC-UNIBO-GIURISPRUDENZA-REG-2026"
+            "SRC-UNIBO-LAW-CATALOGUE-2026",
+            "SRC-UNIBO-LAW-ENROLMENT-2026",
+            "SRC-UNIBO-LAW-ADMISSIONS-2026",
+            "SRC-UNIBO-LAW-OFA-2026",
+            "SRC-UNIBO-GIURISPRUDENZA-REG-2026",
+            "SRC-UNIBO-TUITION-PAGE-2026",
+            "SRC-UNIBO-TUITION-TABLE-2026"
           ]
         },
         {
@@ -63554,14 +64076,26 @@
           "notes": "The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.",
           "source_ids": [
             "SRC-UNIBO-LAW-2026",
-            "SRC-UNIBO-GIURISPRUDENZA-REG-2026"
+            "SRC-UNIBO-LAW-CATALOGUE-2026",
+            "SRC-UNIBO-LAW-ENROLMENT-2026",
+            "SRC-UNIBO-LAW-ADMISSIONS-2026",
+            "SRC-UNIBO-LAW-OFA-2026",
+            "SRC-UNIBO-GIURISPRUDENZA-REG-2026",
+            "SRC-UNIBO-TUITION-PAGE-2026",
+            "SRC-UNIBO-TUITION-TABLE-2026"
           ]
         }
       ],
       "known_source_conflicts": [],
       "source_ids": [
         "SRC-UNIBO-LAW-2026",
-        "SRC-UNIBO-GIURISPRUDENZA-REG-2026"
+        "SRC-UNIBO-LAW-CATALOGUE-2026",
+        "SRC-UNIBO-LAW-ENROLMENT-2026",
+        "SRC-UNIBO-LAW-ADMISSIONS-2026",
+        "SRC-UNIBO-LAW-OFA-2026",
+        "SRC-UNIBO-GIURISPRUDENZA-REG-2026",
+        "SRC-UNIBO-TUITION-PAGE-2026",
+        "SRC-UNIBO-TUITION-TABLE-2026"
       ],
       "previous_cycle_tags": {
         "level": "Single-cycle Master's (LMG/01)",
@@ -125718,8 +126252,8 @@
       "url": "https://corsi.unibo.it/magistralecu/Giurisprudenza-Bologna/esplora-il-corso",
       "source_type": "Official degree programme profile",
       "cycle": "2026-2027",
-      "accessed_at": "2026-11-10",
-      "evidence": "Identifies Giurisprudenza as a five-year Italian-language single-cycle degree, class LMG/01, taught in Bologna; it is not a two-year MSc.",
+      "accessed_at": "2026-11-11",
+      "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026. The programme profile identifies the five-year Italian-taught Bologna Giurisprudenza single-cycle degree and states free access with TOLC-SU knowledge assessment; its details are cycle-scoped and do not confirm a 2027/28 first-year call.",
       "supports": [
         "program.name",
         "program.level",
@@ -125731,23 +126265,134 @@
       "url_check": {
         "http_status": 200,
         "effective_url": "https://corsi.unibo.it/magistralecu/Giurisprudenza-Bologna/esplora-il-corso",
-        "content_type": "text/html;charset=utf-8",
-        "content_length_header": null,
+        "content_type": "text/html; charset=utf-8",
+        "content_length_header": "307445",
         "etag": null,
         "last_modified": null,
-        "cache_control": "max-age=0, s-maxage=0, must-revalidate",
-        "age": "2507",
+        "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+        "age": "180",
         "x_vercel_cache": null,
         "x_vercel_id": null,
         "location": null,
         "observed_title": "Esplora il Corso — Giurisprudenza - Laurea Magistrale CU - Bologna",
         "pdf_signature": null,
         "has_2027_marker": false,
-        "bytes_read": 131072,
+        "bytes_read": 307445,
         "outcome": "accessible",
         "error": null,
-        "checked_at": "2026-11-10",
-        "method": "GET"
+        "checked_at": "2026-11-11",
+        "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
+      },
+      "browser_check": null
+    },
+    {
+      "id": "SRC-UNIBO-LAW-CATALOGUE-2026",
+      "title": "Giurisprudenza – 2026/27 University catalogue entry (code 6827)",
+      "url": "https://www.unibo.it/it/studiare/lauree-e-lauree-magistrali-a-ciclo-unico/corso/2026/6827",
+      "source_type": "Official University of Bologna course catalogue",
+      "cycle": "2026-2027",
+      "accessed_at": "2026-11-11",
+      "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026. The AY 2026/27 entry identifies course code 6827, five years, Bologna campus, Italian delivery and class LMG/01 R; access is free with TOLC-SU.",
+      "supports": [
+        "program.previous_cycle_course_listing",
+        "program.previous_cycle_admission_requirements"
+      ],
+      "refresh_status": "accessible",
+      "url_check": {
+        "http_status": 200,
+        "effective_url": "https://www.unibo.it/it/studiare/lauree-e-lauree-magistrali-a-ciclo-unico/corso/2026/6827",
+        "content_type": "text/html; charset=utf-8",
+        "content_length_header": "498637",
+        "etag": null,
+        "last_modified": null,
+        "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+        "age": "784",
+        "x_vercel_cache": null,
+        "x_vercel_id": null,
+        "location": null,
+        "observed_title": "Giurisprudenza — Università di Bologna",
+        "pdf_signature": null,
+        "has_2027_marker": false,
+        "bytes_read": 498637,
+        "outcome": "accessible",
+        "error": null,
+        "checked_at": "2026-11-11",
+        "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
+      },
+      "browser_check": null
+    },
+    {
+      "id": "SRC-UNIBO-LAW-ENROLMENT-2026",
+      "title": "Giurisprudenza Bologna – current enrolment and TOLC-SU page",
+      "url": "https://corsi.unibo.it/magistralecu/Giurisprudenza-Bologna/iscriversi-al-corso",
+      "source_type": "Official degree programme admissions page",
+      "cycle": "2026-2027",
+      "accessed_at": "2026-11-11",
+      "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026. The course page lists the 2026/27 enrolment route and requirements, describes the TOLC-SU content, links the 2026/27 admission notice and displays 2026 ISEE tuition guidance. It contains no 2027/28 course call.",
+      "supports": [
+        "program.previous_cycle_application_windows",
+        "program.previous_cycle_application_route",
+        "program.previous_cycle_test_scoring",
+        "program.previous_cycle_tuition",
+        "program.cycle_marker_scope"
+      ],
+      "refresh_status": "accessible",
+      "url_check": {
+        "http_status": 200,
+        "effective_url": "https://corsi.unibo.it/magistralecu/Giurisprudenza-Bologna/iscriversi-al-corso",
+        "content_type": "text/html; charset=utf-8",
+        "content_length_header": "345178",
+        "etag": null,
+        "last_modified": null,
+        "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+        "age": "223",
+        "x_vercel_cache": null,
+        "x_vercel_id": null,
+        "location": null,
+        "observed_title": "Iscriversi al Corso: requisiti, tempi e modalità — Giurisprudenza - Laurea Magistrale CU - Bologna",
+        "pdf_signature": null,
+        "has_2027_marker": false,
+        "bytes_read": 345178,
+        "outcome": "accessible",
+        "error": null,
+        "checked_at": "2026-11-11",
+        "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
+      },
+      "browser_check": null
+    },
+    {
+      "id": "SRC-UNIBO-LAW-OFA-2026",
+      "title": "Giurisprudenza Bologna – TOLC-SU OFA and completion guidance",
+      "url": "https://corsi.unibo.it/magistralecu/Giurisprudenza-Bologna/ofa",
+      "source_type": "Official degree programme OFA page",
+      "cycle": "2026-2027",
+      "accessed_at": "2026-11-11",
+      "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026. For the 2026/27 cycle, a TOLC-SU result below the call's 20/50 threshold assigns an OFA but does not bar enrolment; from 2026/27 the OFA is fulfilled through the Department alignment course and final assessment by 31 March 2028.",
+      "supports": [
+        "program.previous_cycle_test_scoring",
+        "program.previous_cycle_additional_learning_requirement"
+      ],
+      "refresh_status": "accessible",
+      "url_check": {
+        "http_status": 200,
+        "effective_url": "https://corsi.unibo.it/magistralecu/Giurisprudenza-Bologna/ofa",
+        "content_type": "text/html; charset=utf-8",
+        "content_length_header": "288687",
+        "etag": null,
+        "last_modified": null,
+        "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+        "age": "4021",
+        "x_vercel_cache": null,
+        "x_vercel_id": null,
+        "location": null,
+        "observed_title": "Cosa sono e come assolvere gli OFA — Giurisprudenza - Laurea Magistrale CU - Bologna",
+        "pdf_signature": null,
+        "has_2027_marker": false,
+        "bytes_read": 288687,
+        "outcome": "accessible",
+        "error": null,
+        "checked_at": "2026-11-11",
+        "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
       },
       "browser_check": null
     },
@@ -125908,32 +126553,74 @@
       "url": "https://corsi.unibo.it/magistralecu/Giurisprudenza-Bologna/il-corso/all-e-regolamento-parte-normativa-26-27.pdf",
       "source_type": "Official programme regulation PDF",
       "cycle": "2026-2027",
-      "accessed_at": "2026-11-10",
-      "evidence": "The regulation names the Bologna single-cycle degree in Giurisprudenza, class LMG/01 R, course code 6827, for students enrolling in AY 2026/27.",
+      "accessed_at": "2026-11-11",
+      "evidence": "Fresh no-cache GET returned HTTP 200 with a valid PDF signature on 11 November 2026. The regulation names the Bologna single-cycle course code 6827, LMG/01 R, Italian delivery and free access with TOLC knowledge verification for students enrolling in AY 2026/27; failed verification leads to an OFA.",
       "supports": [
-        "program.previous_cycle_course_listing"
+        "program.previous_cycle_course_listing",
+        "program.previous_cycle_admission_requirements",
+        "program.previous_cycle_additional_learning_requirement"
       ],
       "refresh_status": "accessible",
       "url_check": {
-        "http_status": 206,
+        "http_status": 200,
         "effective_url": "https://corsi.unibo.it/magistralecu/Giurisprudenza-Bologna/il-corso/all-e-regolamento-parte-normativa-26-27.pdf",
         "content_type": "application/pdf",
-        "content_length_header": "4096",
+        "content_length_header": "588497",
         "etag": null,
-        "last_modified": "Thu, 07 May 2026 13:31:28 GMT",
-        "cache_control": "max-age=0, s-maxage=0, must-revalidate",
-        "age": "23119",
+        "last_modified": null,
+        "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+        "age": "5767",
         "x_vercel_cache": null,
         "x_vercel_id": null,
         "location": null,
         "observed_title": null,
         "pdf_signature": true,
-        "has_2027_marker": null,
-        "bytes_read": 4096,
+        "has_2027_marker": false,
+        "bytes_read": 588497,
         "outcome": "accessible",
         "error": null,
-        "checked_at": "2026-11-10",
-        "method": "GET with byte range for PDF sources"
+        "checked_at": "2026-11-11",
+        "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
+      },
+      "browser_check": null
+    },
+    {
+      "id": "SRC-UNIBO-LAW-ADMISSIONS-2026",
+      "title": "Giurisprudenza – 2026/27 admission notice and TOLC-SU deadlines",
+      "url": "https://corsi.unibo.it/s/3394/p/it/iscriversi-nuova-4/avviso-tolc-25-26.pdf/@@download/file/AVVISO%20IMMA%2026_27.pdf",
+      "source_type": "Official University of Bologna admissions notice PDF",
+      "cycle": "2026-2027",
+      "accessed_at": "2026-11-11",
+      "evidence": "Fresh no-cache GET returned HTTP 200 with a valid PDF signature on 11 November 2026. The notice explicitly lists Bologna Giurisprudenza code 6827, required TOLC-SU, free-access enrollment periods (22 July–24 September without late fee; 25 September–24 October with €30 late fee; 25 October–19 November with €150 late fee), foreign qualification and international-student procedures, and an OFA threshold below 20/50. TOLC test registration is paid to CISIA; the notice does not state the test fee amount. These terms are for AY 2026/27 only.",
+      "supports": [
+        "program.previous_cycle_course_listing",
+        "program.previous_cycle_application_windows",
+        "program.previous_cycle_application_route",
+        "program.previous_cycle_admission_requirements",
+        "program.previous_cycle_test_scoring",
+        "program.previous_cycle_application_fee"
+      ],
+      "refresh_status": "accessible",
+      "url_check": {
+        "http_status": 200,
+        "effective_url": "https://corsi.unibo.it/s/3394/p/it/iscriversi-nuova-4/avviso-tolc-25-26.pdf/@@download/file/AVVISO%20IMMA%2026_27.pdf",
+        "content_type": "application/pdf",
+        "content_length_header": "741801",
+        "etag": null,
+        "last_modified": null,
+        "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+        "age": "52",
+        "x_vercel_cache": null,
+        "x_vercel_id": null,
+        "location": null,
+        "observed_title": null,
+        "pdf_signature": true,
+        "has_2027_marker": false,
+        "bytes_read": 741801,
+        "outcome": "accessible",
+        "error": null,
+        "checked_at": "2026-11-11",
+        "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
       },
       "browser_check": null
     },

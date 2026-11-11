@@ -29861,7 +29861,13 @@
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
         "SRC-UNIBO-LAW-2026",
-        "SRC-UNIBO-GIURISPRUDENZA-REG-2026"
+        "SRC-UNIBO-LAW-CATALOGUE-2026",
+        "SRC-UNIBO-LAW-ENROLMENT-2026",
+        "SRC-UNIBO-LAW-ADMISSIONS-2026",
+        "SRC-UNIBO-LAW-OFA-2026",
+        "SRC-UNIBO-GIURISPRUDENZA-REG-2026",
+        "SRC-UNIBO-TUITION-PAGE-2026",
+        "SRC-UNIBO-TUITION-TABLE-2026"
       ],
       "notes": "Official course identity is confirmed for the 2026/2027 catalogue; this value is not promoted to 2027/28 without a named-cycle source."
     },
@@ -29870,7 +29876,13 @@
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
         "SRC-UNIBO-LAW-2026",
-        "SRC-UNIBO-GIURISPRUDENZA-REG-2026"
+        "SRC-UNIBO-LAW-CATALOGUE-2026",
+        "SRC-UNIBO-LAW-ENROLMENT-2026",
+        "SRC-UNIBO-LAW-ADMISSIONS-2026",
+        "SRC-UNIBO-LAW-OFA-2026",
+        "SRC-UNIBO-GIURISPRUDENZA-REG-2026",
+        "SRC-UNIBO-TUITION-PAGE-2026",
+        "SRC-UNIBO-TUITION-TABLE-2026"
       ],
       "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
     },
@@ -29879,7 +29891,13 @@
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
         "SRC-UNIBO-LAW-2026",
-        "SRC-UNIBO-GIURISPRUDENZA-REG-2026"
+        "SRC-UNIBO-LAW-CATALOGUE-2026",
+        "SRC-UNIBO-LAW-ENROLMENT-2026",
+        "SRC-UNIBO-LAW-ADMISSIONS-2026",
+        "SRC-UNIBO-LAW-OFA-2026",
+        "SRC-UNIBO-GIURISPRUDENZA-REG-2026",
+        "SRC-UNIBO-TUITION-PAGE-2026",
+        "SRC-UNIBO-TUITION-TABLE-2026"
       ],
       "notes": "Course subject identity is based on current official profile/catalogue evidence; next-cycle catalogue not yet verified."
     },
@@ -29888,85 +29906,293 @@
       "status": "NOT_YET_PUBLISHED",
       "source_ids": [
         "SRC-UNIBO-LAW-2026",
-        "SRC-UNIBO-GIURISPRUDENZA-REG-2026"
+        "SRC-UNIBO-LAW-CATALOGUE-2026",
+        "SRC-UNIBO-LAW-ENROLMENT-2026",
+        "SRC-UNIBO-LAW-ADMISSIONS-2026",
+        "SRC-UNIBO-LAW-OFA-2026",
+        "SRC-UNIBO-GIURISPRUDENZA-REG-2026",
+        "SRC-UNIBO-TUITION-PAGE-2026",
+        "SRC-UNIBO-TUITION-TABLE-2026"
       ],
-      "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued."
+      "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-11. This does not mean discontinued."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
     "facts": {
       "previous_cycle_course_listing": {
         "value": {
-          "academic_year": "2026/2027",
+          "academic_year": "2026/27",
           "official_name": "Giurisprudenza",
+          "course_code": "6827",
+          "degree_class": "LMG/01 R",
           "level": "Single-cycle Master's (LMG/01)",
-          "language": "Italian"
+          "duration_years": 5,
+          "language": "Italian",
+          "campus": "Bologna",
+          "access": "Free access with TOLC-SU knowledge verification"
         },
         "status": "CONFIRMED",
         "source_ids": [
           "SRC-UNIBO-LAW-2026",
+          "SRC-UNIBO-LAW-CATALOGUE-2026",
           "SRC-UNIBO-GIURISPRUDENZA-REG-2026"
         ],
-        "notes": "Official course profile/catalogue evidence is cycle-scoped to 2026/2027 and does not establish 2027/28 first-year admission."
+        "notes": "These course facts apply to the 2026/27 cycle and do not establish a 2027/28 incoming cohort."
       },
       "application_windows": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
           "SRC-UNIBO-LAW-2026",
-          "SRC-UNIBO-GIURISPRUDENZA-REG-2026"
+          "SRC-UNIBO-LAW-CATALOGUE-2026",
+          "SRC-UNIBO-LAW-ENROLMENT-2026",
+          "SRC-UNIBO-LAW-ADMISSIONS-2026",
+          "SRC-UNIBO-LAW-OFA-2026",
+          "SRC-UNIBO-GIURISPRUDENZA-REG-2026",
+          "SRC-UNIBO-TUITION-PAGE-2026",
+          "SRC-UNIBO-TUITION-TABLE-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates."
+        "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-11; do not reuse 2026/27 dates."
       },
       "application_fee_2027_2028": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
           "SRC-UNIBO-LAW-2026",
-          "SRC-UNIBO-GIURISPRUDENZA-REG-2026"
+          "SRC-UNIBO-LAW-CATALOGUE-2026",
+          "SRC-UNIBO-LAW-ENROLMENT-2026",
+          "SRC-UNIBO-LAW-ADMISSIONS-2026",
+          "SRC-UNIBO-LAW-OFA-2026",
+          "SRC-UNIBO-GIURISPRUDENZA-REG-2026",
+          "SRC-UNIBO-TUITION-PAGE-2026",
+          "SRC-UNIBO-TUITION-TABLE-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal."
+        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; check the annual call and application portal."
       },
       "program_specific_requirements_2027_2028": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
           "SRC-UNIBO-LAW-2026",
-          "SRC-UNIBO-GIURISPRUDENZA-REG-2026"
+          "SRC-UNIBO-LAW-CATALOGUE-2026",
+          "SRC-UNIBO-LAW-ENROLMENT-2026",
+          "SRC-UNIBO-LAW-ADMISSIONS-2026",
+          "SRC-UNIBO-LAW-OFA-2026",
+          "SRC-UNIBO-GIURISPRUDENZA-REG-2026",
+          "SRC-UNIBO-TUITION-PAGE-2026",
+          "SRC-UNIBO-TUITION-TABLE-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only."
+        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; any 2026/27 criteria are historical only."
       },
       "tuition_2027_2028": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
           "SRC-UNIBO-LAW-2026",
-          "SRC-UNIBO-GIURISPRUDENZA-REG-2026"
+          "SRC-UNIBO-LAW-CATALOGUE-2026",
+          "SRC-UNIBO-LAW-ENROLMENT-2026",
+          "SRC-UNIBO-LAW-ADMISSIONS-2026",
+          "SRC-UNIBO-LAW-OFA-2026",
+          "SRC-UNIBO-GIURISPRUDENZA-REG-2026",
+          "SRC-UNIBO-TUITION-PAGE-2026",
+          "SRC-UNIBO-TUITION-TABLE-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts."
+        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; do not carry forward prior-cycle amounts."
       },
       "scholarships_2027_2028": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
           "SRC-UNIBO-LAW-2026",
-          "SRC-UNIBO-GIURISPRUDENZA-REG-2026"
+          "SRC-UNIBO-LAW-CATALOGUE-2026",
+          "SRC-UNIBO-LAW-ENROLMENT-2026",
+          "SRC-UNIBO-LAW-ADMISSIONS-2026",
+          "SRC-UNIBO-LAW-OFA-2026",
+          "SRC-UNIBO-GIURISPRUDENZA-REG-2026",
+          "SRC-UNIBO-TUITION-PAGE-2026",
+          "SRC-UNIBO-TUITION-TABLE-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking."
+        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; annual university and regional calls still need checking."
       },
       "acceptance_rate": {
         "value": null,
         "status": "UNAVAILABLE",
         "source_ids": [
           "SRC-UNIBO-LAW-2026",
-          "SRC-UNIBO-GIURISPRUDENZA-REG-2026"
+          "SRC-UNIBO-LAW-CATALOGUE-2026",
+          "SRC-UNIBO-LAW-ENROLMENT-2026",
+          "SRC-UNIBO-LAW-ADMISSIONS-2026",
+          "SRC-UNIBO-LAW-OFA-2026",
+          "SRC-UNIBO-GIURISPRUDENZA-REG-2026",
+          "SRC-UNIBO-TUITION-PAGE-2026",
+          "SRC-UNIBO-TUITION-TABLE-2026"
         ],
         "notes": "The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred."
+      },
+      "previous_cycle_application_windows": {
+        "value": [
+          {
+            "academic_year": "2026/27",
+            "test": "TOLC-SU, valid from 2025-01-01 and taken no later than 48 hours before enrollment",
+            "enrollment_without_late_fee": "2026-07-22 to 2026-09-24",
+            "enrollment_with_30_eur_late_fee": "2026-09-25 to 2026-10-24",
+            "enrollment_with_150_eur_late_fee": "2026-10-25 to 2026-11-19",
+            "international_non_eu_residing_abroad": "Meet the Italian-language requirement and complete Universitaly visa pre-enrolment where applicable"
+          }
+        ],
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-LAW-ADMISSIONS-2026",
+          "SRC-UNIBO-LAW-ENROLMENT-2026"
+        ],
+        "notes": "Dates and procedures are from the 2026/27 call only. TOLC sittings follow CISIA's calendar; the University notice says to take the test within 48 hours before enrollment and does not set a single annual test date."
+      },
+      "previous_cycle_admission_requirements": {
+        "value": {
+          "school_qualification": "Upper-secondary diploma or recognized foreign equivalent; foreign qualifications must satisfy Italian university-access rules, generally after at least twelve years of schooling",
+          "entrance_test": "TOLC-SU is required to verify initial knowledge; access is not capped",
+          "knowledge_areas": [
+            "Italian reading comprehension and language knowledge",
+            "Knowledge and skills acquired in prior studies",
+            "Logical reasoning"
+          ],
+          "separate_gpa_requirement": false,
+          "international_non_eu_residing_abroad": "Italian-language proficiency and Universitaly pre-enrolment/visa procedure where applicable"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-LAW-ADMISSIONS-2026",
+          "SRC-UNIBO-LAW-ENROLMENT-2026",
+          "SRC-UNIBO-GIURISPRUDENZA-REG-2026"
+        ],
+        "notes": "Historical 2026/27 requirements. The test is a knowledge assessment for an open-access course; a low score assigns an OFA rather than ranking applicants for a limited number of seats."
+      },
+      "previous_cycle_test_scoring": {
+        "value": {
+          "test": "TOLC-SU",
+          "scored_questions": 50,
+          "duration_minutes": 100,
+          "sections": [
+            {
+              "name": "Reading comprehension and Italian-language knowledge",
+              "questions": 30,
+              "minutes": 60
+            },
+            {
+              "name": "Knowledge and skills acquired in studies",
+              "questions": 10,
+              "minutes": 20
+            },
+            {
+              "name": "Logical reasoning",
+              "questions": 10,
+              "minutes": 20
+            }
+          ],
+          "optional_english_self_assessment": {
+            "questions": 30,
+            "minutes": 15,
+            "counts_toward_TOLC_score": false
+          },
+          "OFA_threshold": "TOLC-SU score below 20/50",
+          "low_score_blocks_enrollment": false
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-LAW-ENROLMENT-2026",
+          "SRC-UNIBO-LAW-ADMISSIONS-2026",
+          "SRC-UNIBO-LAW-OFA-2026"
+        ],
+        "notes": "Format and OFA threshold are for the 2026/27 admission notice only; the optional English section is a self-assessment and does not contribute to the TOLC-SU score."
+      },
+      "previous_cycle_additional_learning_requirement": {
+        "value": {
+          "trigger": "TOLC-SU below 20/50",
+          "deadline": "2028-03-31",
+          "procedure": "From AY 2026/27, attend the Department of Legal Sciences alignment course and pass its final assessment",
+          "consequence_if_unfulfilled": "Repeat enrollment in the first year; second-year exams remain blocked until OFA completion"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-LAW-OFA-2026",
+          "SRC-UNIBO-LAW-ADMISSIONS-2026",
+          "SRC-UNIBO-GIURISPRUDENZA-REG-2026"
+        ],
+        "notes": "This is the 2026/27 Bologna rule and applies to the relevant cohort; later cohorts require a new call/regulation check."
+      },
+      "previous_cycle_application_route": {
+        "value": {
+          "test_registration": "CISIA TOLC-SU calendar and registration; TOLC contribution paid through CISIA",
+          "university_enrollment": "Studenti Online at the University of Bologna and PagoPA payment of the first tuition installment",
+          "international_route": "Universitaly pre-enrolment for non-EU students residing abroad; University document review and Italian-language requirement"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-LAW-ADMISSIONS-2026",
+          "SRC-UNIBO-LAW-ENROLMENT-2026"
+        ],
+        "notes": "Historical 2026/27 procedure. The next-year route, dates and platforms must be rechecked."
+      },
+      "previous_cycle_application_fee": {
+        "value": {
+          "university_application_fee_amount_eur": null,
+          "tolc_contribution_paid_to": "CISIA",
+          "tolc_contribution_amount_stated_in_university_notice": false
+        },
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-UNIBO-LAW-ADMISSIONS-2026"
+        ],
+        "notes": "The 2026/27 University notice says the TOLC contribution is paid to CISIA but does not state the amount; no fee is inferred from another year or the CISIA checkout."
+      },
+      "previous_cycle_gpa_requirement": {
+        "value": "No separate school GPA threshold is stated in the 2026/27 call; applicants meet the diploma and TOLC-SU requirements, and a TOLC score below 20/50 results in an OFA rather than rejection for limited seats.",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-LAW-ADMISSIONS-2026",
+          "SRC-UNIBO-GIURISPRUDENZA-REG-2026"
+        ],
+        "notes": "Historical 2026/27 admission notice only."
+      },
+      "previous_cycle_tuition": {
+        "value": {
+          "academic_year": "2026/27",
+          "fixed_component_eur": 157.04,
+          "isee_progressive_variable_component": true,
+          "general_single_cycle_max_comprehensive_contribution_reference_eur": 2244,
+          "course_code_6827_separately_listed_as_higher_contribution": false
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-LAW-ADMISSIONS-2026",
+          "SRC-UNIBO-LAW-ENROLMENT-2026",
+          "SRC-UNIBO-TUITION-PAGE-2026",
+          "SRC-UNIBO-TUITION-TABLE-2026"
+        ],
+        "notes": "The €2,244 amount is the 2026/27 general single-cycle maximum-contribution reference; course 6827 is not separately listed among higher-contribution exceptions. It excludes the separate regional tax, stamp duty and insurance shown in the fee schedule. No net total or 2027/28 tuition is inferred."
+      },
+      "last_cycle_scholarships": {
+        "value": {
+          "course_specific_award": null,
+          "general_support": "University of Bologna and ER.GO publish separate annual scholarships and need-based benefits"
+        },
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-UNIBO-LAW-ADMISSIONS-2026",
+          "SRC-UNIBO-LAW-ENROLMENT-2026"
+        ],
+        "notes": "No dedicated Giurisprudenza award is stated in the reviewed course admissions sources; general University and ER.GO aid is handled through separate annual calls."
       }
     },
     "source_ids": [
       "SRC-UNIBO-LAW-2026",
-      "SRC-UNIBO-GIURISPRUDENZA-REG-2026"
+      "SRC-UNIBO-LAW-CATALOGUE-2026",
+      "SRC-UNIBO-LAW-ENROLMENT-2026",
+      "SRC-UNIBO-LAW-ADMISSIONS-2026",
+      "SRC-UNIBO-LAW-OFA-2026",
+      "SRC-UNIBO-GIURISPRUDENZA-REG-2026",
+      "SRC-UNIBO-TUITION-PAGE-2026",
+      "SRC-UNIBO-TUITION-TABLE-2026"
     ],
     "previous_tracker_tags": {
       "level": "MSc",
@@ -29981,7 +30207,7 @@
       "cycle": "2026-2027",
       "label": "Official course identity checked for 2026/2027; 2027/28 first-year intake and terms remain unconfirmed"
     },
-    "last_checked": "2026-11-10"
+    "last_checked": "2026-11-11"
   },
   {
     "id": "legacy-151",
