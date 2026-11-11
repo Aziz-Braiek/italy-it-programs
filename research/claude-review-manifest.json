@@ -9,15 +9,15 @@
     "counts": {
       "universities": 34,
       "programs": 209,
-      "sources": 641
+      "sources": 642
     },
     "previous_snapshot_inconclusive_url_checks": "The prior audit reported approximately 100 inconclusive checks. This refresh rechecked every unique URL and preserves the response by source record below.",
     "current_url_audit": {
       "checked_at": "2026-11-11",
-      "source_records": 641,
-      "unique_urls_checked": 623,
+      "source_records": 642,
+      "unique_urls_checked": 624,
       "unique_url_outcomes": {
-        "accessible": 604,
+        "accessible": 605,
         "redirected": 13,
         "inconclusive": 5,
         "broken": 1
@@ -17315,6 +17315,7 @@
         "SRC-PADOVA-MEDICINE-2026",
         "SRC-PADOVA-PSYCHOLOGY-MSC-2026",
         "SRC-PADOVA-CLINICAL-PSYCHOLOGY-2026",
+        "SRC-PADOVA-CLINICAL-PSYCHOLOGY-DPG-PROFILE-2026",
         "SRC-PADOVA-PSYCHOLOGY-CALL-2026",
         "SRC-PADOVA-PSYCHOLOGY-NON-EU-CALL-2026",
         "SRC-PADOVA-REGIONAL-SCHOLARSHIP-2026",
@@ -18132,6 +18133,43 @@
           "browser_check": null
         },
         {
+          "id": "SRC-PADOVA-CLINICAL-PSYCHOLOGY-DPG-PROFILE-2026",
+          "title": "Psicologia clinica – Department of General Psychology course profile",
+          "url": "https://dpg.unipd.it/offerta-didattica/corsi-di-laurea-magistrale/?key=PS2968&ordinamento=2026&tipo=LM",
+          "source_type": "Official Department of General Psychology degree profile",
+          "cycle": "2026-2027",
+          "accessed_at": "2026-11-11",
+          "evidence": "The 2026 ordinamento profile identifies the two-year, Italian-taught LM-51 R restricted-access course in Padua and reports 125 places for EU and non-EU citizens regularly residing in Italy. The annual admission call separately lists 116 for its EU/equivalent selection and 9 in the non-EU-abroad selection; the record keeps these statements in their stated scopes rather than inferring a combined seat total.",
+          "supports": [
+            "program.previous_cycle_course_listing",
+            "program.previous_cycle_available_places",
+            "program.previous_cycle_access"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://dpg.unipd.it/offerta-didattica/corsi-di-laurea-magistrale/?key=PS2968&ordinamento=2026&tipo=LM",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": null,
+            "etag": "W/\"1794402495-1\"",
+            "last_modified": "Wed, 11 Nov 2026 13:08:15 GMT",
+            "cache_control": "public, max-age=1800",
+            "age": "0",
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "| DIPARTIMENTO DI PSICOLOGIA GENERALE | Universit� di Padova",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 51940,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache"
+          },
+          "browser_check": null
+        },
+        {
           "id": "SRC-PADOVA-PSYCHOLOGY-CALL-2026",
           "title": "Italian-taught Psychology Master's admission call – AY 2026/27",
           "url": "https://wwwassets.unipd.it/sites/default/files/2026-07/2026_Bando_LM_PsicologiaItaliano.pdf",
@@ -18252,22 +18290,23 @@
         {
           "id": "SRC-PADOVA-DEVELOPMENTAL-PSYCHOLOGY-2026",
           "title": "Psicologia dello sviluppo e dell'educazione – official current degree profile",
-          "url": "https://psicologia.unipd.it/offerta-didattica/lauree-magistrali?key=PS2975&ordinamento=2025&tipo=LM",
-          "source_type": "Official School of Psychology degree profile",
+          "url": "https://dpss.unipd.it/offerta-didattica/corsi-di-laurea-magistrale/?key=PS2975&ordinamento=2026&tipo=LM",
+          "source_type": "Official Department of Developmental and Socialisation Psychology degree profile",
           "cycle": "2026-2027",
-          "accessed_at": "2026-11-10",
-          "evidence": "Identifies the two-year Italian-taught MSc in Developmental and Educational Psychology (LM-51 R) in Padua with restricted admission; the displayed page includes place counts, subject to annual call confirmation.",
+          "accessed_at": "2026-11-11",
+          "evidence": "The 2026 ordinamento profile identifies Psicologia dello sviluppo e dell'educazione as a two-year, Italian-taught LM-51 R Laurea Magistrale in Padua with restricted access. Its summary reports 125 places for EU and non-EU residents legally staying in Italy; the annual admission call separately reports 121 for its EU/equivalent selection and 4 for the non-EU-abroad selection. The record keeps both category scopes and does not infer their overlap or a combined seat total.",
           "supports": [
             "program.previous_cycle_course_listing",
             "program.previous_cycle_language",
-            "program.previous_cycle_access"
+            "program.previous_cycle_access",
+            "program.previous_cycle_available_places"
           ],
           "refresh_status": "accessible",
           "url_check": {
             "http_status": 200,
-            "effective_url": "https://psicologia.unipd.it/offerta-didattica/lauree-magistrali?key=PS2975&ordinamento=2025&tipo=LM",
+            "effective_url": "https://dpss.unipd.it/offerta-didattica/corsi-di-laurea-magistrale/?key=PS2975&ordinamento=2026&tipo=LM",
             "content_type": "text/html; charset=utf-8",
-            "content_length_header": "44506",
+            "content_length_header": null,
             "etag": null,
             "last_modified": null,
             "cache_control": "no-cache, must-revalidate",
@@ -18275,14 +18314,14 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": "| Università di Padova",
+            "observed_title": "| Dipartimento di Psicologia dello Sviluppo e della Socializzazione | Universit� di Padova",
             "pdf_signature": null,
             "has_2027_marker": false,
-            "bytes_read": 44506,
+            "bytes_read": 48021,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
-            "method": "GET"
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache"
           },
           "browser_check": null
         },
@@ -86891,6 +86930,7 @@
         "status": "REQUIRES_VERIFICATION",
         "source_ids": [
           "SRC-PADOVA-CLINICAL-PSYCHOLOGY-2026",
+          "SRC-PADOVA-CLINICAL-PSYCHOLOGY-DPG-PROFILE-2026",
           "SRC-PADOVA-PSYCHOLOGY-MSC-2026",
           "SRC-PADOVA-PSYCHOLOGY-CALL-2026",
           "SRC-PADOVA-PSYCHOLOGY-NON-EU-CALL-2026",
@@ -86904,6 +86944,7 @@
         "status": "REQUIRES_VERIFICATION",
         "source_ids": [
           "SRC-PADOVA-CLINICAL-PSYCHOLOGY-2026",
+          "SRC-PADOVA-CLINICAL-PSYCHOLOGY-DPG-PROFILE-2026",
           "SRC-PADOVA-PSYCHOLOGY-MSC-2026",
           "SRC-PADOVA-PSYCHOLOGY-CALL-2026",
           "SRC-PADOVA-PSYCHOLOGY-NON-EU-CALL-2026",
@@ -87071,6 +87112,43 @@
           "browser_check": null
         },
         {
+          "id": "SRC-PADOVA-CLINICAL-PSYCHOLOGY-DPG-PROFILE-2026",
+          "title": "Psicologia clinica – Department of General Psychology course profile",
+          "url": "https://dpg.unipd.it/offerta-didattica/corsi-di-laurea-magistrale/?key=PS2968&ordinamento=2026&tipo=LM",
+          "source_type": "Official Department of General Psychology degree profile",
+          "cycle": "2026-2027",
+          "accessed_at": "2026-11-11",
+          "evidence": "The 2026 ordinamento profile identifies the two-year, Italian-taught LM-51 R restricted-access course in Padua and reports 125 places for EU and non-EU citizens regularly residing in Italy. The annual admission call separately lists 116 for its EU/equivalent selection and 9 in the non-EU-abroad selection; the record keeps these statements in their stated scopes rather than inferring a combined seat total.",
+          "supports": [
+            "program.previous_cycle_course_listing",
+            "program.previous_cycle_available_places",
+            "program.previous_cycle_access"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://dpg.unipd.it/offerta-didattica/corsi-di-laurea-magistrale/?key=PS2968&ordinamento=2026&tipo=LM",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": null,
+            "etag": "W/\"1794402495-1\"",
+            "last_modified": "Wed, 11 Nov 2026 13:08:15 GMT",
+            "cache_control": "public, max-age=1800",
+            "age": "0",
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "| DIPARTIMENTO DI PSICOLOGIA GENERALE | Universit� di Padova",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 51940,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache"
+          },
+          "browser_check": null
+        },
+        {
           "id": "SRC-PADOVA-REGIONAL-SCHOLARSHIP-2026",
           "title": "Regional scholarship eligibility and 2026/27 call page",
           "url": "https://www.unipd.it/servizi/supporto-studio/borse-premi-studio/borse-studio-alloggi-sussidi-straordinari",
@@ -87163,6 +87241,7 @@
           "notes": "The two-year Laurea Magistrale (LM-51 R) is confirmed for 2026/27. The 2027/28 course listing has not yet been published.",
           "source_ids": [
             "SRC-PADOVA-CLINICAL-PSYCHOLOGY-2026",
+            "SRC-PADOVA-CLINICAL-PSYCHOLOGY-DPG-PROFILE-2026",
             "SRC-PADOVA-PSYCHOLOGY-MSC-2026",
             "SRC-PADOVA-PSYCHOLOGY-CALL-2026",
             "SRC-PADOVA-PSYCHOLOGY-NON-EU-CALL-2026",
@@ -87177,6 +87256,7 @@
           "notes": "The official profile and 2026/27 call identify Italian as the teaching language; no 2027/28 listing has been published.",
           "source_ids": [
             "SRC-PADOVA-CLINICAL-PSYCHOLOGY-2026",
+            "SRC-PADOVA-CLINICAL-PSYCHOLOGY-DPG-PROFILE-2026",
             "SRC-PADOVA-PSYCHOLOGY-MSC-2026",
             "SRC-PADOVA-PSYCHOLOGY-CALL-2026",
             "SRC-PADOVA-PSYCHOLOGY-NON-EU-CALL-2026",
@@ -87191,6 +87271,7 @@
           "notes": null,
           "source_ids": [
             "SRC-PADOVA-CLINICAL-PSYCHOLOGY-2026",
+            "SRC-PADOVA-CLINICAL-PSYCHOLOGY-DPG-PROFILE-2026",
             "SRC-PADOVA-PSYCHOLOGY-MSC-2026",
             "SRC-PADOVA-PSYCHOLOGY-CALL-2026",
             "SRC-PADOVA-PSYCHOLOGY-NON-EU-CALL-2026",
@@ -87206,6 +87287,17 @@
           "source_ids": [
             "SRC-PADOVA-PSYCHOLOGY-MSC-2026",
             "SRC-PADOVA-PSYCHOLOGY-CALL-2026"
+          ]
+        },
+        {
+          "field": "facts.previous_cycle_place_count_scope",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "The Department profile's 125 local-resident places and the call's 116 EU/equivalent plus 9 non-EU-abroad seats use different population labels. Both published statements are recorded without summing or assuming they overlap; confirm total seat accounting with the University if needed.",
+          "source_ids": [
+            "SRC-PADOVA-CLINICAL-PSYCHOLOGY-DPG-PROFILE-2026",
+            "SRC-PADOVA-PSYCHOLOGY-CALL-2026",
+            "SRC-PADOVA-PSYCHOLOGY-NON-EU-CALL-2026"
           ]
         },
         {
@@ -87278,6 +87370,17 @@
           "source_ids": [
             "SRC-PADOVA-PSYCHOLOGY-MSC-2026",
             "SRC-PADOVA-PSYCHOLOGY-CALL-2026"
+          ]
+        },
+        {
+          "field": "facts.previous_cycle_place_count_scope",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "The Department profile's 125 local-resident places and the call's 116 EU/equivalent plus 9 non-EU-abroad seats use different population labels. Both published statements are recorded without summing or assuming they overlap; confirm total seat accounting with the University if needed.",
+          "source_ids": [
+            "SRC-PADOVA-CLINICAL-PSYCHOLOGY-DPG-PROFILE-2026",
+            "SRC-PADOVA-PSYCHOLOGY-CALL-2026",
+            "SRC-PADOVA-PSYCHOLOGY-NON-EU-CALL-2026"
           ]
         },
         {
@@ -87344,6 +87447,7 @@
       "known_source_conflicts": [],
       "source_ids": [
         "SRC-PADOVA-CLINICAL-PSYCHOLOGY-2026",
+        "SRC-PADOVA-CLINICAL-PSYCHOLOGY-DPG-PROFILE-2026",
         "SRC-PADOVA-PSYCHOLOGY-MSC-2026",
         "SRC-PADOVA-PSYCHOLOGY-CALL-2026",
         "SRC-PADOVA-PSYCHOLOGY-NON-EU-CALL-2026",
@@ -87372,22 +87476,71 @@
         "status": "REQUIRES_VERIFICATION",
         "source_ids": [
           "SRC-PADOVA-DEVELOPMENTAL-PSYCHOLOGY-2026",
-          "SRC-PADOVA-PSYCHOLOGY-MSC-2026"
+          "SRC-PADOVA-PSYCHOLOGY-MSC-2026",
+          "SRC-PADOVA-PSYCHOLOGY-CALL-2026",
+          "SRC-PADOVA-PSYCHOLOGY-NON-EU-CALL-2026",
+          "SRC-PADUA-TUITION-2026",
+          "SRC-PADOVA-REGIONAL-SCHOLARSHIP-2026"
         ],
-        "notes": "Official course identity is confirmed for the 2026/2027 catalogue; this value is not promoted to 2027/28 without a named-cycle source."
+        "notes": "The two-year Laurea Magistrale (LM-51 R) is confirmed for 2026/27. The 2027/28 course listing has not yet been published."
       },
       "language": {
         "value": "Italian",
         "status": "REQUIRES_VERIFICATION",
         "source_ids": [
           "SRC-PADOVA-DEVELOPMENTAL-PSYCHOLOGY-2026",
-          "SRC-PADOVA-PSYCHOLOGY-MSC-2026"
+          "SRC-PADOVA-PSYCHOLOGY-MSC-2026",
+          "SRC-PADOVA-PSYCHOLOGY-CALL-2026",
+          "SRC-PADOVA-PSYCHOLOGY-NON-EU-CALL-2026",
+          "SRC-PADUA-TUITION-2026",
+          "SRC-PADOVA-REGIONAL-SCHOLARSHIP-2026"
         ],
-        "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
+        "notes": "The official course profile and 2026/27 call identify Italian as the teaching language; no 2027/28 listing has been published."
       },
       "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-160/",
       "university_page_url": "https://italy-it-programs.vercel.app/universities/padova/",
       "official_program_source_urls": [
+        {
+          "id": "SRC-PADOVA-PSYCHOLOGY-CALL-2026",
+          "title": "Italian-taught Psychology Master's admission call – AY 2026/27",
+          "url": "https://wwwassets.unipd.it/sites/default/files/2026-07/2026_Bando_LM_PsicologiaItaliano.pdf",
+          "source_type": "Official University of Padua admission call PDF",
+          "cycle": "2026-2027",
+          "accessed_at": "2026-11-11",
+          "evidence": "The 2026/27 call covers Psicologia clinica and gives its EU/equivalent quota, separate quota for non-EU applicants residing abroad, eligibility requirements, curricular and English-language thresholds, ranking formula, application charge, Uniweb dates and enrollment schedule. Historical evidence only; it does not establish 2027/28 terms.",
+          "supports": [
+            "program.previous_cycle_course_listing",
+            "program.previous_cycle_available_places",
+            "program.previous_cycle_admission_requirements",
+            "program.previous_cycle_application_windows",
+            "program.previous_cycle_application_fee",
+            "program.previous_cycle_entrance_test",
+            "program.previous_cycle_tuition"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 206,
+            "effective_url": "https://wwwassets.unipd.it/sites/default/files/2026-07/2026_Bando_LM_PsicologiaItaliano.pdf",
+            "content_type": "application/pdf",
+            "content_length_header": "4096",
+            "etag": "\"157aec-657e3349a8330\"",
+            "last_modified": "Fri, 31 Jul 2026 07:33:31 GMT",
+            "cache_control": "max-age=31536000",
+            "age": "174811",
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": null,
+            "pdf_signature": true,
+            "has_2027_marker": null,
+            "bytes_read": 4096,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with byte range and Cache-Control: no-cache"
+          },
+          "browser_check": null
+        },
         {
           "id": "SRC-PADOVA-PSYCHOLOGY-MSC-2026",
           "title": "Padua Italian-taught psychology Master's admissions catalogue – AY 2026/27",
@@ -87425,24 +87578,66 @@
           "browser_check": null
         },
         {
+          "id": "SRC-PADOVA-PSYCHOLOGY-NON-EU-CALL-2026",
+          "title": "Italian-taught Psychology Master's call for non-EU applicants abroad – AY 2026/27",
+          "url": "https://wwwassets.unipd.it/sites/default/files/pdf_imported_files/nonUE_LM%20Psicologia_0.pdf",
+          "source_type": "Official Global Engagement Office admission call PDF",
+          "cycle": "2026-2027",
+          "accessed_at": "2026-11-11",
+          "evidence": "The separate 2026/27 international call assigns Psicologia clinica 9 places, including 2 Marco Polo places, and states the 7 January–7 March application window, €60 non-refundable pre-enrolment contribution, qualification, language and subject-background requirements and selection process. Historical evidence only.",
+          "supports": [
+            "program.previous_cycle_course_listing",
+            "program.previous_cycle_available_places",
+            "program.previous_cycle_admission_requirements",
+            "program.previous_cycle_english_requirement",
+            "program.previous_cycle_italian_requirement",
+            "program.previous_cycle_application_windows",
+            "program.previous_cycle_application_fee"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 206,
+            "effective_url": "https://wwwassets.unipd.it/sites/default/files/pdf_imported_files/nonUE_LM%20Psicologia_0.pdf",
+            "content_type": "application/pdf",
+            "content_length_header": "4096",
+            "etag": "\"71961-64ce5c44559c8\"",
+            "last_modified": "Fri, 13 Mar 2026 10:59:44 GMT",
+            "cache_control": "max-age=31536000",
+            "age": "4384",
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": null,
+            "pdf_signature": true,
+            "has_2027_marker": null,
+            "bytes_read": 4096,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with byte range and Cache-Control: no-cache"
+          },
+          "browser_check": null
+        },
+        {
           "id": "SRC-PADOVA-DEVELOPMENTAL-PSYCHOLOGY-2026",
           "title": "Psicologia dello sviluppo e dell'educazione – official current degree profile",
-          "url": "https://psicologia.unipd.it/offerta-didattica/lauree-magistrali?key=PS2975&ordinamento=2025&tipo=LM",
-          "source_type": "Official School of Psychology degree profile",
+          "url": "https://dpss.unipd.it/offerta-didattica/corsi-di-laurea-magistrale/?key=PS2975&ordinamento=2026&tipo=LM",
+          "source_type": "Official Department of Developmental and Socialisation Psychology degree profile",
           "cycle": "2026-2027",
-          "accessed_at": "2026-11-10",
-          "evidence": "Identifies the two-year Italian-taught MSc in Developmental and Educational Psychology (LM-51 R) in Padua with restricted admission; the displayed page includes place counts, subject to annual call confirmation.",
+          "accessed_at": "2026-11-11",
+          "evidence": "The 2026 ordinamento profile identifies Psicologia dello sviluppo e dell'educazione as a two-year, Italian-taught LM-51 R Laurea Magistrale in Padua with restricted access. Its summary reports 125 places for EU and non-EU residents legally staying in Italy; the annual admission call separately reports 121 for its EU/equivalent selection and 4 for the non-EU-abroad selection. The record keeps both category scopes and does not infer their overlap or a combined seat total.",
           "supports": [
             "program.previous_cycle_course_listing",
             "program.previous_cycle_language",
-            "program.previous_cycle_access"
+            "program.previous_cycle_access",
+            "program.previous_cycle_available_places"
           ],
           "refresh_status": "accessible",
           "url_check": {
             "http_status": 200,
-            "effective_url": "https://psicologia.unipd.it/offerta-didattica/lauree-magistrali?key=PS2975&ordinamento=2025&tipo=LM",
+            "effective_url": "https://dpss.unipd.it/offerta-didattica/corsi-di-laurea-magistrale/?key=PS2975&ordinamento=2026&tipo=LM",
             "content_type": "text/html; charset=utf-8",
-            "content_length_header": "44506",
+            "content_length_header": null,
             "etag": null,
             "last_modified": null,
             "cache_control": "no-cache, must-revalidate",
@@ -87450,14 +87645,50 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": "| Università di Padova",
+            "observed_title": "| Dipartimento di Psicologia dello Sviluppo e della Socializzazione | Universit� di Padova",
             "pdf_signature": null,
             "has_2027_marker": false,
-            "bytes_read": 44506,
+            "bytes_read": 48021,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
-            "method": "GET"
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-PADOVA-REGIONAL-SCHOLARSHIP-2026",
+          "title": "Regional scholarship eligibility and 2026/27 call page",
+          "url": "https://www.unipd.it/servizi/supporto-studio/borse-premi-studio/borse-studio-alloggi-sussidi-straordinari",
+          "source_type": "Official University of Padua regional student-aid page",
+          "cycle": "2026-2027",
+          "accessed_at": "2026-11-11",
+          "evidence": "The 2026/27 regional scholarship call is open to eligible Laurea Magistrale students and is competitive, with economic and merit requirements, ISEE/ISPE limits and a 30 September 2026 application step. The reviewed page links the 2026/27 call only; no 2027/28 award or deadline is established.",
+          "supports": [
+            "program.previous_cycle_scholarships",
+            "program.scholarships_2027_2028"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.unipd.it/servizi/supporto-studio/borse-premi-studio/borse-studio-alloggi-sussidi-straordinari",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": null,
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 131072,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache"
           },
           "browser_check": null
         },
@@ -87504,101 +87735,126 @@
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
           "SRC-PADOVA-DEVELOPMENTAL-PSYCHOLOGY-2026",
-          "SRC-PADOVA-PSYCHOLOGY-MSC-2026"
+          "SRC-PADOVA-PSYCHOLOGY-MSC-2026",
+          "SRC-PADOVA-PSYCHOLOGY-CALL-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued."
+        "notes": "The official course profile and Psychology admissions catalogue reviewed on 11 November 2026 identify the current 2026/27 degree and linked call only. No 2027/28 first-year listing or call was found; this is not evidence of discontinuation."
       },
       "existing_overall_status": "REQUIRES_VERIFICATION",
-      "existing_last_checked": "2026-11-10",
+      "existing_last_checked": "2026-11-11",
       "fields_needing_review": [
         {
           "field": "level",
           "status": "REQUIRES_VERIFICATION",
           "value": "MSc",
-          "notes": "Official course identity is confirmed for the 2026/2027 catalogue; this value is not promoted to 2027/28 without a named-cycle source.",
+          "notes": "The two-year Laurea Magistrale (LM-51 R) is confirmed for 2026/27. The 2027/28 course listing has not yet been published.",
           "source_ids": [
             "SRC-PADOVA-DEVELOPMENTAL-PSYCHOLOGY-2026",
-            "SRC-PADOVA-PSYCHOLOGY-MSC-2026"
+            "SRC-PADOVA-PSYCHOLOGY-MSC-2026",
+            "SRC-PADOVA-PSYCHOLOGY-CALL-2026",
+            "SRC-PADOVA-PSYCHOLOGY-NON-EU-CALL-2026",
+            "SRC-PADUA-TUITION-2026",
+            "SRC-PADOVA-REGIONAL-SCHOLARSHIP-2026"
           ]
         },
         {
           "field": "language",
           "status": "REQUIRES_VERIFICATION",
           "value": "Italian",
-          "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record.",
+          "notes": "The official course profile and 2026/27 call identify Italian as the teaching language; no 2027/28 listing has been published.",
           "source_ids": [
             "SRC-PADOVA-DEVELOPMENTAL-PSYCHOLOGY-2026",
-            "SRC-PADOVA-PSYCHOLOGY-MSC-2026"
+            "SRC-PADOVA-PSYCHOLOGY-MSC-2026",
+            "SRC-PADOVA-PSYCHOLOGY-CALL-2026",
+            "SRC-PADOVA-PSYCHOLOGY-NON-EU-CALL-2026",
+            "SRC-PADUA-TUITION-2026",
+            "SRC-PADOVA-REGIONAL-SCHOLARSHIP-2026"
           ]
         },
         {
           "field": "field",
           "status": "REQUIRES_VERIFICATION",
           "value": "Developmental and Educational Psychology",
-          "notes": "Course subject identity is based on current official profile/catalogue evidence; next-cycle catalogue not yet verified.",
+          "notes": null,
           "source_ids": [
             "SRC-PADOVA-DEVELOPMENTAL-PSYCHOLOGY-2026",
-            "SRC-PADOVA-PSYCHOLOGY-MSC-2026"
+            "SRC-PADOVA-PSYCHOLOGY-MSC-2026",
+            "SRC-PADOVA-PSYCHOLOGY-CALL-2026",
+            "SRC-PADOVA-PSYCHOLOGY-NON-EU-CALL-2026",
+            "SRC-PADUA-TUITION-2026",
+            "SRC-PADOVA-REGIONAL-SCHOLARSHIP-2026"
           ]
         },
         {
           "field": "availability_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.",
+          "notes": "The official course profile and Psychology admissions catalogue reviewed on 11 November 2026 identify the current 2026/27 degree and linked call only. No 2027/28 first-year listing or call was found; this is not evidence of discontinuation.",
           "source_ids": [
             "SRC-PADOVA-DEVELOPMENTAL-PSYCHOLOGY-2026",
-            "SRC-PADOVA-PSYCHOLOGY-MSC-2026"
+            "SRC-PADOVA-PSYCHOLOGY-MSC-2026",
+            "SRC-PADOVA-PSYCHOLOGY-CALL-2026"
+          ]
+        },
+        {
+          "field": "facts.previous_cycle_place_count_scope",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "The Department profile's 125 local-resident places and the call's 121 EU/equivalent plus 4 non-EU-abroad seats use different population labels. Both published statements are recorded without summing or assuming they overlap; confirm total seat accounting with the University if needed.",
+          "source_ids": [
+            "SRC-PADOVA-DEVELOPMENTAL-PSYCHOLOGY-2026",
+            "SRC-PADOVA-PSYCHOLOGY-CALL-2026",
+            "SRC-PADOVA-PSYCHOLOGY-NON-EU-CALL-2026"
           ]
         },
         {
           "field": "facts.application_windows",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.",
+          "notes": "The official admissions index and its linked call reviewed on 11 November 2026 remain for 2026/27. Do not reuse the prior-cycle dates.",
           "source_ids": [
-            "SRC-PADOVA-DEVELOPMENTAL-PSYCHOLOGY-2026",
-            "SRC-PADOVA-PSYCHOLOGY-MSC-2026"
+            "SRC-PADOVA-PSYCHOLOGY-MSC-2026",
+            "SRC-PADOVA-PSYCHOLOGY-CALL-2026"
           ]
         },
         {
           "field": "facts.application_fee_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.",
+          "notes": "No 2027/28 selection contribution has been published; prior-cycle route-specific amounts are historical.",
           "source_ids": [
-            "SRC-PADOVA-DEVELOPMENTAL-PSYCHOLOGY-2026",
-            "SRC-PADOVA-PSYCHOLOGY-MSC-2026"
+            "SRC-PADOVA-PSYCHOLOGY-CALL-2026",
+            "SRC-PADOVA-PSYCHOLOGY-NON-EU-CALL-2026"
           ]
         },
         {
           "field": "facts.program_specific_requirements_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.",
+          "notes": "No 2027/28 call or updated curricular/language requirements were identified. The 2026/27 thresholds are preserved as historical facts only.",
           "source_ids": [
             "SRC-PADOVA-DEVELOPMENTAL-PSYCHOLOGY-2026",
-            "SRC-PADOVA-PSYCHOLOGY-MSC-2026"
+            "SRC-PADOVA-PSYCHOLOGY-MSC-2026",
+            "SRC-PADOVA-PSYCHOLOGY-CALL-2026"
           ]
         },
         {
           "field": "facts.tuition_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.",
+          "notes": "The University fee page and call reviewed on 11 November 2026 provide 2026/27 information only; no 2027/28 annual schedule or course-specific amount was found. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.",
           "source_ids": [
-            "SRC-PADOVA-DEVELOPMENTAL-PSYCHOLOGY-2026",
-            "SRC-PADOVA-PSYCHOLOGY-MSC-2026",
-            "SRC-PADUA-TUITION-2026"
+            "SRC-PADUA-TUITION-2026",
+            "SRC-PADOVA-PSYCHOLOGY-CALL-2026"
           ]
         },
         {
           "field": "facts.scholarships_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.",
+          "notes": "The regional aid page links the 2026/27 competition only. No 2027/28 regional, university or course-specific scholarship call was identified.",
           "source_ids": [
-            "SRC-PADOVA-DEVELOPMENTAL-PSYCHOLOGY-2026",
+            "SRC-PADOVA-REGIONAL-SCHOLARSHIP-2026",
             "SRC-PADOVA-PSYCHOLOGY-MSC-2026"
           ]
         },
@@ -87606,10 +87862,10 @@
           "field": "facts.acceptance_rate",
           "status": "UNAVAILABLE",
           "value": null,
-          "notes": "The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.",
+          "notes": "The calls list available places but do not provide comparable applicant and admitted counts; no acceptance rate is inferred.",
           "source_ids": [
-            "SRC-PADOVA-DEVELOPMENTAL-PSYCHOLOGY-2026",
-            "SRC-PADOVA-PSYCHOLOGY-MSC-2026"
+            "SRC-PADOVA-PSYCHOLOGY-CALL-2026",
+            "SRC-PADOVA-PSYCHOLOGY-NON-EU-CALL-2026"
           ]
         }
       ],
@@ -87618,60 +87874,72 @@
           "field": "availability_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.",
+          "notes": "The official course profile and Psychology admissions catalogue reviewed on 11 November 2026 identify the current 2026/27 degree and linked call only. No 2027/28 first-year listing or call was found; this is not evidence of discontinuation.",
           "source_ids": [
             "SRC-PADOVA-DEVELOPMENTAL-PSYCHOLOGY-2026",
-            "SRC-PADOVA-PSYCHOLOGY-MSC-2026"
+            "SRC-PADOVA-PSYCHOLOGY-MSC-2026",
+            "SRC-PADOVA-PSYCHOLOGY-CALL-2026"
+          ]
+        },
+        {
+          "field": "facts.previous_cycle_place_count_scope",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "The Department profile's 125 local-resident places and the call's 121 EU/equivalent plus 4 non-EU-abroad seats use different population labels. Both published statements are recorded without summing or assuming they overlap; confirm total seat accounting with the University if needed.",
+          "source_ids": [
+            "SRC-PADOVA-DEVELOPMENTAL-PSYCHOLOGY-2026",
+            "SRC-PADOVA-PSYCHOLOGY-CALL-2026",
+            "SRC-PADOVA-PSYCHOLOGY-NON-EU-CALL-2026"
           ]
         },
         {
           "field": "facts.application_windows",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.",
+          "notes": "The official admissions index and its linked call reviewed on 11 November 2026 remain for 2026/27. Do not reuse the prior-cycle dates.",
           "source_ids": [
-            "SRC-PADOVA-DEVELOPMENTAL-PSYCHOLOGY-2026",
-            "SRC-PADOVA-PSYCHOLOGY-MSC-2026"
+            "SRC-PADOVA-PSYCHOLOGY-MSC-2026",
+            "SRC-PADOVA-PSYCHOLOGY-CALL-2026"
           ]
         },
         {
           "field": "facts.application_fee_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.",
+          "notes": "No 2027/28 selection contribution has been published; prior-cycle route-specific amounts are historical.",
           "source_ids": [
-            "SRC-PADOVA-DEVELOPMENTAL-PSYCHOLOGY-2026",
-            "SRC-PADOVA-PSYCHOLOGY-MSC-2026"
+            "SRC-PADOVA-PSYCHOLOGY-CALL-2026",
+            "SRC-PADOVA-PSYCHOLOGY-NON-EU-CALL-2026"
           ]
         },
         {
           "field": "facts.program_specific_requirements_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.",
+          "notes": "No 2027/28 call or updated curricular/language requirements were identified. The 2026/27 thresholds are preserved as historical facts only.",
           "source_ids": [
             "SRC-PADOVA-DEVELOPMENTAL-PSYCHOLOGY-2026",
-            "SRC-PADOVA-PSYCHOLOGY-MSC-2026"
+            "SRC-PADOVA-PSYCHOLOGY-MSC-2026",
+            "SRC-PADOVA-PSYCHOLOGY-CALL-2026"
           ]
         },
         {
           "field": "facts.tuition_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.",
+          "notes": "The University fee page and call reviewed on 11 November 2026 provide 2026/27 information only; no 2027/28 annual schedule or course-specific amount was found. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.",
           "source_ids": [
-            "SRC-PADOVA-DEVELOPMENTAL-PSYCHOLOGY-2026",
-            "SRC-PADOVA-PSYCHOLOGY-MSC-2026",
-            "SRC-PADUA-TUITION-2026"
+            "SRC-PADUA-TUITION-2026",
+            "SRC-PADOVA-PSYCHOLOGY-CALL-2026"
           ]
         },
         {
           "field": "facts.scholarships_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.",
+          "notes": "The regional aid page links the 2026/27 competition only. No 2027/28 regional, university or course-specific scholarship call was identified.",
           "source_ids": [
-            "SRC-PADOVA-DEVELOPMENTAL-PSYCHOLOGY-2026",
+            "SRC-PADOVA-REGIONAL-SCHOLARSHIP-2026",
             "SRC-PADOVA-PSYCHOLOGY-MSC-2026"
           ]
         },
@@ -87679,10 +87947,10 @@
           "field": "facts.acceptance_rate",
           "status": "UNAVAILABLE",
           "value": null,
-          "notes": "The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.",
+          "notes": "The calls list available places but do not provide comparable applicant and admitted counts; no acceptance rate is inferred.",
           "source_ids": [
-            "SRC-PADOVA-DEVELOPMENTAL-PSYCHOLOGY-2026",
-            "SRC-PADOVA-PSYCHOLOGY-MSC-2026"
+            "SRC-PADOVA-PSYCHOLOGY-CALL-2026",
+            "SRC-PADOVA-PSYCHOLOGY-NON-EU-CALL-2026"
           ]
         }
       ],
@@ -87690,14 +87958,17 @@
       "source_ids": [
         "SRC-PADOVA-DEVELOPMENTAL-PSYCHOLOGY-2026",
         "SRC-PADOVA-PSYCHOLOGY-MSC-2026",
-        "SRC-PADUA-TUITION-2026"
+        "SRC-PADOVA-PSYCHOLOGY-CALL-2026",
+        "SRC-PADOVA-PSYCHOLOGY-NON-EU-CALL-2026",
+        "SRC-PADUA-TUITION-2026",
+        "SRC-PADOVA-REGIONAL-SCHOLARSHIP-2026"
       ],
       "previous_cycle_tags": {
         "level": "MSc",
         "language": "Italian",
         "field": "Developmental and Educational Psychology",
         "cycle": "2026-2027",
-        "label": "Official course identity checked for 2026/2027; 2027/28 first-year intake and terms remain unconfirmed"
+        "label": "Official course and 2026/27 admission routes reviewed; 2027/28 intake and terms not yet published"
       },
       "refresh_status": "pending",
       "refresh_checked_at": null,
@@ -131943,6 +132214,43 @@
       "browser_check": null
     },
     {
+      "id": "SRC-PADOVA-CLINICAL-PSYCHOLOGY-DPG-PROFILE-2026",
+      "title": "Psicologia clinica – Department of General Psychology course profile",
+      "url": "https://dpg.unipd.it/offerta-didattica/corsi-di-laurea-magistrale/?key=PS2968&ordinamento=2026&tipo=LM",
+      "source_type": "Official Department of General Psychology degree profile",
+      "cycle": "2026-2027",
+      "accessed_at": "2026-11-11",
+      "evidence": "The 2026 ordinamento profile identifies the two-year, Italian-taught LM-51 R restricted-access course in Padua and reports 125 places for EU and non-EU citizens regularly residing in Italy. The annual admission call separately lists 116 for its EU/equivalent selection and 9 in the non-EU-abroad selection; the record keeps these statements in their stated scopes rather than inferring a combined seat total.",
+      "supports": [
+        "program.previous_cycle_course_listing",
+        "program.previous_cycle_available_places",
+        "program.previous_cycle_access"
+      ],
+      "refresh_status": "accessible",
+      "url_check": {
+        "http_status": 200,
+        "effective_url": "https://dpg.unipd.it/offerta-didattica/corsi-di-laurea-magistrale/?key=PS2968&ordinamento=2026&tipo=LM",
+        "content_type": "text/html; charset=utf-8",
+        "content_length_header": null,
+        "etag": "W/\"1794402495-1\"",
+        "last_modified": "Wed, 11 Nov 2026 13:08:15 GMT",
+        "cache_control": "public, max-age=1800",
+        "age": "0",
+        "x_vercel_cache": null,
+        "x_vercel_id": null,
+        "location": null,
+        "observed_title": "| DIPARTIMENTO DI PSICOLOGIA GENERALE | Universit� di Padova",
+        "pdf_signature": null,
+        "has_2027_marker": false,
+        "bytes_read": 51940,
+        "outcome": "accessible",
+        "error": null,
+        "checked_at": "2026-11-11",
+        "method": "GET with Cache-Control and Pragma no-cache"
+      },
+      "browser_check": null
+    },
+    {
       "id": "SRC-PADOVA-PSYCHOLOGY-CALL-2026",
       "title": "Italian-taught Psychology Master's admission call – AY 2026/27",
       "url": "https://wwwassets.unipd.it/sites/default/files/2026-07/2026_Bando_LM_PsicologiaItaliano.pdf",
@@ -132063,22 +132371,23 @@
     {
       "id": "SRC-PADOVA-DEVELOPMENTAL-PSYCHOLOGY-2026",
       "title": "Psicologia dello sviluppo e dell'educazione – official current degree profile",
-      "url": "https://psicologia.unipd.it/offerta-didattica/lauree-magistrali?key=PS2975&ordinamento=2025&tipo=LM",
-      "source_type": "Official School of Psychology degree profile",
+      "url": "https://dpss.unipd.it/offerta-didattica/corsi-di-laurea-magistrale/?key=PS2975&ordinamento=2026&tipo=LM",
+      "source_type": "Official Department of Developmental and Socialisation Psychology degree profile",
       "cycle": "2026-2027",
-      "accessed_at": "2026-11-10",
-      "evidence": "Identifies the two-year Italian-taught MSc in Developmental and Educational Psychology (LM-51 R) in Padua with restricted admission; the displayed page includes place counts, subject to annual call confirmation.",
+      "accessed_at": "2026-11-11",
+      "evidence": "The 2026 ordinamento profile identifies Psicologia dello sviluppo e dell'educazione as a two-year, Italian-taught LM-51 R Laurea Magistrale in Padua with restricted access. Its summary reports 125 places for EU and non-EU residents legally staying in Italy; the annual admission call separately reports 121 for its EU/equivalent selection and 4 for the non-EU-abroad selection. The record keeps both category scopes and does not infer their overlap or a combined seat total.",
       "supports": [
         "program.previous_cycle_course_listing",
         "program.previous_cycle_language",
-        "program.previous_cycle_access"
+        "program.previous_cycle_access",
+        "program.previous_cycle_available_places"
       ],
       "refresh_status": "accessible",
       "url_check": {
         "http_status": 200,
-        "effective_url": "https://psicologia.unipd.it/offerta-didattica/lauree-magistrali?key=PS2975&ordinamento=2025&tipo=LM",
+        "effective_url": "https://dpss.unipd.it/offerta-didattica/corsi-di-laurea-magistrale/?key=PS2975&ordinamento=2026&tipo=LM",
         "content_type": "text/html; charset=utf-8",
-        "content_length_header": "44506",
+        "content_length_header": null,
         "etag": null,
         "last_modified": null,
         "cache_control": "no-cache, must-revalidate",
@@ -132086,14 +132395,14 @@
         "x_vercel_cache": null,
         "x_vercel_id": null,
         "location": null,
-        "observed_title": "| Università di Padova",
+        "observed_title": "| Dipartimento di Psicologia dello Sviluppo e della Socializzazione | Universit� di Padova",
         "pdf_signature": null,
         "has_2027_marker": false,
-        "bytes_read": 44506,
+        "bytes_read": 48021,
         "outcome": "accessible",
         "error": null,
-        "checked_at": "2026-11-10",
-        "method": "GET"
+        "checked_at": "2026-11-11",
+        "method": "GET with Cache-Control and Pragma no-cache"
       },
       "browser_check": null
     },
