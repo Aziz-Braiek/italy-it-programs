@@ -827,6 +827,46 @@ SOURCES = [
         "supports": ["program.previous_cycle_course_listing", "program.previous_cycle_level", "program.previous_cycle_access"],
     },
     {
+        "id": "SRC-PADOVA-MOLECULAR-BIOLOGY-PROFILE-2026",
+        "university_id": "padova", "title": "Biologia Molecolare – official University degree profile",
+        "url": "https://www.unipd.it/corsi-di-laurea/biologia-molecolare",
+        "source_type": "Official University of Padua degree programme profile", "accessed_at": "2026-11-11", "cycle": "general",
+        "evidence": "The current official profile identifies BIOLOGIA MOLECOLARE as a three-year Laurea in L-13 R Biological Sciences, with restricted admission, in Padua and taught in Italian. This is the bachelor's degree matching the Italian title; it is distinct from the second-cycle English-titled Molecular Biology Master's degree.",
+        "supports": ["program.previous_cycle_course_listing", "program.previous_cycle_level", "program.previous_cycle_language", "program.previous_cycle_location", "program.previous_cycle_access"],
+    },
+    {
+        "id": "SRC-PADOVA-SCIENCE-BSC-ADMISSIONS-2026",
+        "university_id": "padova", "title": "School of Science restricted bachelor's admissions – AY 2026/27",
+        "url": "https://www.unipd.it/en/ammissioni-sc-triennali-programmato",
+        "source_type": "Official School of Science admissions page", "accessed_at": "2026-11-11", "cycle": "2026-2027",
+        "evidence": "The page is explicitly for AY 2026/27 and lists Molecular Biology among the limited-enrolment Italian-taught bachelor's programmes. It identifies TOLC-I as the required test, links the EU/equivalent call and a separate non-EU-abroad call, and explains the TOLC/pre-enrolment/ranking procedure. It does not confirm the 2027/28 first-year intake.",
+        "supports": ["program.previous_cycle_course_listing", "program.previous_cycle_access", "program.previous_cycle_application_windows", "program.previous_cycle_program_requirements"],
+    },
+    {
+        "id": "SRC-PADOVA-SCIENCE-BSC-CALL-2026",
+        "university_id": "padova", "title": "School of Science restricted bachelor's admission call – AY 2026/27",
+        "url": "https://wwwassets.unipd.it/sites/default/files/pdf_imported_files/2026_Bando_L_ScienzeProgrammati_0.pdf",
+        "source_type": "Official University of Padua admission call PDF", "accessed_at": "2026-11-11", "cycle": "2026-2027",
+        "evidence": "The call identifies Biologia Molecolare (L-13) as a three-year Italian-taught restricted-access programme in Padua. It gives 85 EU/equivalent places, including two reserved for Scuola Galileiana; 41 places in selection one and 42 plus any remaining places in selection two. First selection requires TOLC-I at least 32/50; the second has no minimum score but ranks eligible applicants by TOLC-I sections. It also specifies the 2026 dates, school-diploma eligibility, and a Mathematics OFA trigger below 7/20. These are prior-cycle terms only.",
+        "supports": ["program.previous_cycle_course_listing", "program.previous_cycle_access", "program.previous_cycle_available_places", "program.previous_cycle_application_windows", "program.previous_cycle_program_requirements", "program.previous_cycle_entrance_test"],
+    },
+    {
+        "id": "SRC-PADOVA-SCIENCE-BSC-NON-EU-CALL-2026",
+        "university_id": "padova", "title": "School of Science bachelor's call for non-EU applicants abroad – AY 2026/27",
+        "url": "https://wwwassets.unipd.it/sites/default/files/pdf_imported_files/nonEU_LT%20Scienze_0.pdf",
+        "source_type": "Official University of Padua international admission call PDF", "accessed_at": "2026-11-11", "cycle": "2026-2027",
+        "evidence": "The separate 2026/27 call lists five Molecular Biology places, two under Marco Polo; applications through apply.unipd.it ran 7 January–7 March 2026, with TOLC-I by 13 March and score upload by 16 March. It requires a suitable foreign secondary qualification with at least 12 years of schooling, Italian B2 by 31 July 2026, and TOLC-I at least 32/50. The €35 charge is the CISIA TOLC registration fee, not a University application fee. These are prior-cycle non-EU-abroad terms only.",
+        "supports": ["program.previous_cycle_international_admission", "program.previous_cycle_available_places", "program.previous_cycle_application_windows", "program.previous_cycle_application_fee", "program.previous_cycle_entrance_test", "program.previous_cycle_italian_requirement"],
+    },
+    {
+        "id": "SRC-PADOVA-SCIENCE-OPEN-DAY-2027",
+        "university_id": "padova", "title": "School of Science Open Days – 2027/28 prospective-student listings",
+        "url": "https://studenti.scienze.unipd.it/openday/",
+        "source_type": "Official School of Science prospective-student event page", "accessed_at": "2026-11-11", "cycle": "2027-2028",
+        "evidence": "The page lists School of Science Open Day sign-ups for the 2027/28 prospective-student events and includes Biologia Molecolare in the participating programme group. This is evidence of planned course presentation/recruitment activity, not a 2027/28 admission call, seat allocation, or confirmed first-year intake.",
+        "supports": ["program.recruitment_activity_2027_2028"],
+    },
+    {
         "id": "SRC-PADOVA-COMPUTER-ENGINEERING-BSC-2026",
         "university_id": "padova", "title": "Ingegneria informatica – official bachelor's degree profile",
         "url": "https://www.unipd.it/corsi-di-laurea/ingegneria-informatica",
@@ -1916,6 +1956,12 @@ BATCH35 = {
     "id": "padova-agricultural-sciences-identity-and-2026-27-admissions-review",
     "status": "partial",
     "result": "Reviewed legacy-162, Scienze e tecnologie agrarie, against the official DAFNAE profile, the School of Agriculture and Veterinary Medicine's 2026/27 course inventory and call, and Padua's international admissions guidance. Confirmed the prior-cycle course identity as a two-year LM-69 R Laurea Magistrale taught in Italian at Legnaro, open access with requirements, with Plant protection, Plant production and Professional curricula; distinguished it from the separate English-taught Sustainable Agriculture degree. The 2026/27 call is explicitly for candidates using an Italian qualification. It requires either an L-25/L-32/L-38 (or listed legacy-class) degree, or any degree plus 50 CFU distributed across seven agricultural subject areas with the specified minimums; it also lists English B1. The full-term Italian-qualification route used 15 July 2026–29 January 2027 pre-enrolment, a 29 January 2027 curricular-assessment deadline and degree-completion deadline, enrolment through 15 February 2027, and a €30 Uniweb pre-enrolment contribution. These are recorded as historical and route-scoped. Padua's general international page defines international degree-seekers by foreign qualification and lists a 15 September–15 November 2026 first call for most degree programmes, but no course-specific 2027/28 intake or Italian-qualification call was verified for this course; 2027/28 availability, dates, requirements, application contribution, tuition and scholarship terms remain unconfirmed. Fresh no-cache GETs returned HTTP 200 for the DAFNAE profile and HTTP 206 with a valid PDF signature for the 2026/27 call. No deployment or Vercel changes were made.",
+}
+
+BATCH36 = {
+    "id": "padova-molecular-biology-bsc-identity-and-2026-27-admissions-review",
+    "status": "partial",
+    "result": "Reviewed legacy-163, Biologia Molecolare, against the current official bachelor's profile, the School of Science's 2026/27 admissions inventory and EU/equivalent call, the separate non-EU-abroad call, and the School's 2027/28 Open Day page. Confirmed the earlier course as a three-year Italian-taught Laurea in class L-13 R at Padua with restricted admission, distinct from the second-cycle English-titled Molecular Biology MSc. The 2026/27 EU/equivalent call allocated 85 places (two reserved for Scuola Galileiana), split across selections of 41 and 42 plus any unfilled seats; the first selection required TOLC-I at least 32/50, while the second used a ranking without a minimum test score. Mathematics below 7/20 triggers an OFA. A separate 2026/27 non-EU-abroad route had five places including two Marco Polo, a 7 January–7 March 2026 application window, TOLC-I by 13 March and result upload by 16 March, a 32/50 threshold, a recognized foreign secondary qualification with at least 12 years of schooling, and Italian B2 by 31 July. The €35 amount is recorded only as the CISIA TOLC registration charge, not a University application fee. The official School Open Day page lists Biologia Molecolare among 2027/28 prospective-student events, but that listing is not a course admission call or proof of a first-year intake. No 2027/28 course-specific call, seats, deadlines, requirements, application charge, tuition schedule or scholarship terms were verified. Fresh no-cache GETs returned HTTP 200 for the profile, admissions page and Open Day page, and HTTP 206 with valid PDF signatures for both 2026/27 calls. No deployment or Vercel changes were made.",
 }
 
 SOURCE_RECHECKS = {
@@ -6347,6 +6393,225 @@ def apply(
     })
     agricultural_sciences["last_checked"] = "2026-11-11"
 
+    molecular_biology = by_id["legacy-163"]
+    molecular_profile = "SRC-PADOVA-MOLECULAR-BIOLOGY-PROFILE-2026"
+    molecular_admissions = "SRC-PADOVA-SCIENCE-BSC-ADMISSIONS-2026"
+    molecular_eu_call = "SRC-PADOVA-SCIENCE-BSC-CALL-2026"
+    molecular_non_eu_call = "SRC-PADOVA-SCIENCE-BSC-NON-EU-CALL-2026"
+    molecular_open_day = "SRC-PADOVA-SCIENCE-OPEN-DAY-2027"
+    molecular_prior_sources = [molecular_profile, molecular_admissions, molecular_eu_call, molecular_non_eu_call]
+    molecular_2027_sources = [molecular_profile, molecular_admissions, molecular_open_day]
+    molecular_biology["city"] = "Padova"
+    molecular_biology["level"] = fact(
+        "BSc", "REQUIRES_VERIFICATION", [molecular_profile, molecular_admissions],
+        "The current official profile and 2026/27 admissions material confirm the bachelor's level; the 2027/28 first-year course listing is not yet verified.",
+    )
+    molecular_biology["language"] = fact(
+        "Italian", "REQUIRES_VERIFICATION", [molecular_profile, molecular_admissions, molecular_eu_call],
+        "The official profile and 2026/27 call identify Italian as the teaching language; the 2027/28 first-year course listing is not yet verified.",
+    )
+    molecular_biology["field"] = fact(
+        "Molecular Biology", "REQUIRES_VERIFICATION", [molecular_profile, molecular_admissions],
+        "The course identity is confirmed in the current profile and 2026/27 admissions material, but no 2027/28 first-year call was verified.",
+    )
+    molecular_biology["availability_2027_2028"] = fact(
+        None, "NOT_YET_PUBLISHED", molecular_2027_sources,
+        "The School's official 2027/28 Open Day page lists Biologia Molecolare among prospective-student events, but that is not an admission call or seat allocation. The latest official admissions page and calls reviewed remain for 2026/27; no course-specific 2027/28 first-year intake was verified. This does not mean the course is discontinued.",
+    )
+    molecular_biology["overall_status"] = "REQUIRES_VERIFICATION"
+    molecular_biology["source_ids"] = list(dict.fromkeys(
+        molecular_biology.get("source_ids", [])
+        + molecular_2027_sources
+        + [molecular_eu_call, molecular_non_eu_call, padua_tuition_source]
+    ))
+    molecular_biology["previous_tracker_tags"] = None
+    molecular_biology["previous_cycle_tags"] = {
+        "level": "BSc",
+        "language": "Italian",
+        "field": "Molecular Biology",
+        "cycle": "2026-2027",
+        "label": "Official degree profile and 2026/27 School of Science calls; 2027/28 first-year intake remains unconfirmed",
+    }
+    molecular_facts = molecular_biology.setdefault("facts", {})
+    molecular_facts.update({
+        "previous_cycle_course_listing": fact(
+            {
+                "academic_year": "2026/27",
+                "official_name": "Biologia Molecolare",
+                "degree_type": "Laurea / Bachelor's degree",
+                "degree_class_current_profile": "L-13 R – Biological Sciences",
+                "degree_class_in_2026_call": "L-13",
+                "duration_years": 3,
+                "campus": "Padua",
+                "language": "Italian",
+                "access": "Restricted admission",
+                "similarly_named_separate_degree": "Molecular Biology (second-cycle Master's degree)",
+            },
+            "CONFIRMED", [molecular_profile, molecular_admissions, molecular_eu_call],
+            "This is the Italian-titled bachelor's degree. It is distinct from the second-cycle degree called Molecular Biology.",
+        ),
+        "previous_cycle_program_requirements": fact(
+            {
+                "academic_year": "2026/27",
+                "applicant_scope": "EU/equivalent selection, including eligible non-EU applicants with qualifying Italian residence status or an Italian secondary qualification; non-EU applicants resident abroad with foreign qualifications use the separate call",
+                "school_qualification": "A secondary-school diploma obtained in Italy or abroad and recognized as suitable for university admission",
+                "selection_test": "TOLC-I",
+                "first_selection_minimum_score": "32/50",
+                "second_selection_minimum_score": "No minimum score to participate; eligible candidates are placed in the ranking",
+                "ranking_sections": ["Mathematics", "Sciences", "Logic", "Verbal comprehension"],
+                "english_section_counted_in_ranking": False,
+                "OFA": {"trigger": "Mathematics section below 7/20", "effect": "Additional learning obligation; it does not replace the admission threshold"},
+            },
+            "CONFIRMED", [molecular_admissions, molecular_eu_call],
+            "These are 2026/27 rules. The course is capped and selection is based on TOLC-I ranking; do not apply these thresholds or dates to 2027/28 until the new call appears.",
+        ),
+        "previous_cycle_access": fact(
+            "Restricted admission through TOLC-I-based ranking",
+            "CONFIRMED", [molecular_profile, molecular_admissions, molecular_eu_call, molecular_non_eu_call],
+            "The 2026/27 calls publish separate seat categories and selection procedures; current-cycle capacity and selection rules are not confirmed.",
+        ),
+        "previous_cycle_available_places": fact(
+            {
+                "academic_year": "2026/27",
+                "eu_or_equivalent_total": 85,
+                "eu_or_equivalent_reserved": {"Scuola_Galileiana": 2},
+                "eu_or_equivalent_selection_split": {"selection_one": 41, "selection_two": "42 plus any places remaining from selection one"},
+                "non_eu_resident_abroad_total": 5,
+                "non_eu_resident_abroad_reserved": {"Marco_Polo": 2},
+                "seat_categories_are_separate": True,
+            },
+            "CONFIRMED", [molecular_eu_call, molecular_non_eu_call],
+            "Seat counts are for 2026/27 and separate applicant categories. They are not 2027/28 capacity figures.",
+        ),
+        "previous_cycle_entrance_test": fact(
+            {
+                "academic_year": "2026/27",
+                "test": "TOLC-I",
+                "first_selection_threshold": "At least 32/50",
+                "second_selection_threshold": "No minimum score to participate; ranking still uses TOLC-I score",
+                "ranking_sections": ["Mathematics", "Sciences", "Logic", "Verbal comprehension"],
+                "english_section_included": False,
+                "tie_break_order": ["Verbal comprehension", "Logic", "Mathematics", "Sciences", "Younger candidate"],
+                "mathematics_OFA": "Below 7/20 on the Mathematics section",
+                "foreign_non_eu_threshold": "At least 32/50",
+            },
+            "CONFIRMED", [molecular_eu_call, molecular_non_eu_call],
+            "The 32/50 first-selection/non-EU threshold and the no-minimum second-selection rule are from the 2026/27 calls only.",
+        ),
+        "previous_cycle_application_windows": fact(
+            {
+                "academic_year": "2026/27",
+                "eu_or_equivalent": {
+                    "selection_one": {
+                        "tolc_period": {"start": "2025-01-01", "end": "2026-05-15"},
+                        "pre_enrolment": {"start": "2026-04-08 15:00", "end": "2026-05-15 15:00"},
+                        "maximum_course_preferences": 1,
+                        "ranking_publication": "2026-05-20 15:00",
+                        "initial_enrolment": {"start": "2026-05-21 10:00", "end": "2026-05-25 15:00"},
+                        "first_reassignment_enrolment": {"start": "2026-05-26 15:00", "end": "2026-06-03 15:00"},
+                    },
+                    "selection_two": {
+                        "tolc_period": {"start": "2025-01-01", "end": "2026-09-04"},
+                        "pre_enrolment": {"start": "2026-07-15 15:00", "end": "2026-09-04 15:00"},
+                        "maximum_course_preferences": 2,
+                        "ranking_publication": "2026-09-10 15:00",
+                        "initial_enrolment": {"start": "2026-09-11 10:00", "end": "2026-09-14 15:00"},
+                        "reassignments": [
+                            {"start": "2026-09-16 15:00", "end": "2026-09-21 15:00"},
+                            {"start": "2026-09-23 15:00", "end": "2026-09-28 15:00"},
+                        ],
+                        "repechage_request": {"start": "2026-09-30", "end": "2026-10-02 15:00", "condition": "Only where places remain under the call"},
+                    },
+                },
+                "non_eu_resident_abroad": {
+                    "application": {"start": "2026-01-07", "end": "2026-03-07 23:59 GMT+1", "route": "apply.unipd.it"},
+                    "tolc_period": {"start": "2025-01-01", "end": "2026-03-13"},
+                    "tolc_result_upload_deadline": "2026-03-16",
+                    "qualification_and_italian_b2_deadline": "2026-07-31",
+                    "enrolment_document_deadline": "2026-10-31",
+                },
+            },
+            "CONFIRMED", [molecular_eu_call, molecular_non_eu_call],
+            "All dates are from 2026/27 calls and are kept separate by applicant route. They are not 2027/28 dates.",
+        ),
+        "previous_cycle_application_fee": fact(
+            {
+                "academic_year": "2026/27",
+                "university_application_fee_in_call": "No separate University application fee identified in the reviewed calls",
+                "tolc_registration_fee_eur": 35,
+                "paid_to": "CISIA",
+                "scope": "TOLC-I registration charge stated in the non-EU-abroad call",
+            },
+            "CONFIRMED", [molecular_non_eu_call, molecular_eu_call],
+            "The €35 is the TOLC registration charge paid to CISIA, not an application fee paid to the University. No 2027/28 amount is confirmed.",
+        ),
+        "previous_cycle_international_admission": fact(
+            {
+                "academic_year": "2026/27",
+                "eligible_group": "Non-EU applicants residing abroad with a foreign secondary-school qualification",
+                "application_route": "apply.unipd.it",
+                "available_places": 5,
+                "Marco_Polo_places": 2,
+                "schooling_requirement": "Suitable secondary qualification after at least 12 years of schooling",
+                "italian_language": "B2 CEFR by 31 July 2026",
+                "TOLC_I": {"period": {"start": "2025-01-01", "end": "2026-03-13"}, "minimum_score": "32/50", "result_upload_deadline": "2026-03-16"},
+                "final_school_qualification_documents": "Legalization, Apostille or accepted CIMEA verification by 31 October 2026",
+            },
+            "CONFIRMED", [molecular_non_eu_call],
+            "This is the separate 2026/27 non-EU-abroad route. It must not be conflated with the EU/equivalent selection, nor carried forward as a 2027/28 call.",
+        ),
+        "previous_cycle_italian_requirement": fact(
+            {"academic_year": "2026/27", "minimum": "Italian B2 CEFR", "scope": "Non-EU applicants resident abroad using the separate call"},
+            "CONFIRMED", [molecular_non_eu_call],
+            "The Italian B2 rule applies to the separate non-EU-abroad call, not as a newly verified 2027/28 requirement for all applicants.",
+        ),
+        "application_windows_2027_2028": fact(
+            None, "NOT_YET_PUBLISHED", molecular_2027_sources,
+            "The 2027/28 Open Day listing is a prospective-student event, not an admission calendar. The official admissions page and calls reviewed still concern 2026/27; no course-specific 2027/28 deadlines were found.",
+        ),
+        "application_deadline": fact(
+            None, "NOT_YET_PUBLISHED", molecular_2027_sources,
+            "No 2027/28 course-specific deadline or admissions call was verified; do not reuse either 2026/27 route's deadlines.",
+        ),
+        "application_fee_2027_2028": fact(
+            None, "NOT_YET_PUBLISHED", [molecular_eu_call, molecular_non_eu_call, molecular_open_day],
+            "The €35 in the previous non-EU-abroad call was the 2026/27 CISIA TOLC registration charge, not a University application fee. No 2027/28 test or application charge was published in the reviewed sources.",
+        ),
+        "program_specific_requirements_2027_2028": fact(
+            None, "NOT_YET_PUBLISHED", [molecular_profile, molecular_admissions, molecular_eu_call, molecular_non_eu_call, molecular_open_day],
+            "The official Open Day page lists the course among 2027/28 prospective-student events, but no 2027/28 first-year call, seat quota, TOLC threshold, or route-specific admission requirements were verified.",
+        ),
+        "recruitment_activity_2027_2028": fact(
+            {"activity": "School of Science Open Day prospective-student events", "academic_year_label": "2027/28", "programme_listed": "Biologia Molecolare", "confirms_admission_call": False},
+            "CONFIRMED", [molecular_open_day],
+            "This confirms a planned recruitment/presentation listing only; it is not evidence of a published 2027/28 first-year course offer.",
+        ),
+        "tuition_2027_2028": fact(
+            None, "NOT_YET_PUBLISHED", [padua_tuition_source, molecular_eu_call],
+            "The University fee page reviewed still links the 2026/27 annual notice; no 2027/28 course fee schedule or total was published.",
+        ),
+        "previous_cycle_tuition": fact(
+            {
+                "academic_year": "2026/27",
+                "course_specific_total_published": False,
+                "general_degree_fee_range_eur_per_year": {"minimum": 0, "maximum_approx": 3000},
+                "first_year_initial_instalment_eur": 208,
+                "fee_basis": "Varies by programme and student circumstances; first-year initial instalment includes regional tax and stamp duty",
+            },
+            "CONFIRMED", [padua_tuition_source, molecular_eu_call],
+            "These are University-wide 2026/27 fee figures, not a course-specific total. Do not carry them forward as 2027/28 tuition.",
+        ),
+        "scholarships_2027_2028": fact(
+            None, "NOT_YET_PUBLISHED", [molecular_admissions, molecular_eu_call, molecular_open_day],
+            "No course-specific 2027/28 scholarship terms were published in the reviewed official profile, admissions material or Open Day listing; annual aid-call terms remain to be checked.",
+        ),
+        "acceptance_rate": fact(
+            None, "UNAVAILABLE", [molecular_eu_call, molecular_non_eu_call],
+            "The reviewed sources publish seat quotas and merit rankings but not comparable applicants and admitted-student totals by route; no acceptance rate is inferred.",
+        ),
+    })
+    molecular_biology["last_checked"] = "2026-11-11"
+
     pisa_call = "SRC-UNIPI-INFO-ENG-2027-CALL"
     aide_profile = "SRC-UNIPI-AIDE-COURSE-PROFILE"
     computer_engineering_profile = "SRC-UNIPI-COMPUTER-ENGINEERING-PROFILE"
@@ -6559,6 +6824,129 @@ SOURCE_RECHECKS.update({
             "error": None,
             "checked_at": "2026-11-11",
             "method": "GET with Range: bytes=0-4095 and Cache-Control: no-cache (recheck_source_urls.request_once)",
+        },
+    },
+})
+
+SOURCE_RECHECKS.update({
+    "SRC-PADOVA-MOLECULAR-BIOLOGY-PROFILE-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.unipd.it/corsi-di-laurea/biologia-molecolare",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": None,
+            "etag": None,
+            "last_modified": None,
+            "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "age": None,
+            "x_vercel_cache": None,
+            "x_vercel_id": None,
+            "location": None,
+            "observed_title": "BIOLOGIA MOLECOLARE | Università di Padova",
+            "pdf_signature": None,
+            "has_2027_marker": False,
+            "bytes_read": 131072,
+            "outcome": "accessible",
+            "error": None,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control: no-cache (recheck_source_urls.request_once)",
+        },
+    },
+    "SRC-PADOVA-SCIENCE-BSC-ADMISSIONS-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.unipd.it/en/ammissioni-sc-triennali-programmato",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": None,
+            "etag": None,
+            "last_modified": None,
+            "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "age": None,
+            "x_vercel_cache": None,
+            "x_vercel_id": None,
+            "location": None,
+            "observed_title": "Degree courses with limited enrolment in the School of Science | Università di Padova",
+            "pdf_signature": None,
+            "has_2027_marker": False,
+            "bytes_read": 131072,
+            "outcome": "accessible",
+            "error": None,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control: no-cache (recheck_source_urls.request_once)",
+        },
+    },
+    "SRC-PADOVA-SCIENCE-BSC-CALL-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 206,
+            "effective_url": "https://wwwassets.unipd.it/sites/default/files/pdf_imported_files/2026_Bando_L_ScienzeProgrammati_0.pdf",
+            "content_type": "application/pdf",
+            "content_length_header": "4096",
+            "etag": "\"141c12-64ce5e5f79a18\"",
+            "last_modified": "Fri, 13 Mar 2026 11:09:09 GMT",
+            "cache_control": "max-age=31536000",
+            "age": "1465375",
+            "x_vercel_cache": None,
+            "x_vercel_id": None,
+            "location": None,
+            "observed_title": None,
+            "pdf_signature": True,
+            "has_2027_marker": None,
+            "bytes_read": 4096,
+            "outcome": "accessible",
+            "error": None,
+            "checked_at": "2026-11-11",
+            "method": "GET with Range: bytes=0-4095 and Cache-Control: no-cache (recheck_source_urls.request_once)",
+        },
+    },
+    "SRC-PADOVA-SCIENCE-BSC-NON-EU-CALL-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 206,
+            "effective_url": "https://wwwassets.unipd.it/sites/default/files/pdf_imported_files/nonEU_LT%20Scienze_0.pdf",
+            "content_type": "application/pdf",
+            "content_length_header": "4096",
+            "etag": "\"bf5ca-64ce5ba8aa898\"",
+            "last_modified": "Fri, 13 Mar 2026 10:57:01 GMT",
+            "cache_control": "max-age=31536000",
+            "age": None,
+            "x_vercel_cache": None,
+            "x_vercel_id": None,
+            "location": None,
+            "observed_title": None,
+            "pdf_signature": True,
+            "has_2027_marker": None,
+            "bytes_read": 4096,
+            "outcome": "accessible",
+            "error": None,
+            "checked_at": "2026-11-11",
+            "method": "GET with Range: bytes=0-4095 and Cache-Control: no-cache (recheck_source_urls.request_once)",
+        },
+    },
+    "SRC-PADOVA-SCIENCE-OPEN-DAY-2027": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200,
+            "effective_url": "https://studenti.scienze.unipd.it/openday/",
+            "content_type": "text/html; charset=UTF-8",
+            "content_length_header": None,
+            "etag": None,
+            "last_modified": None,
+            "cache_control": None,
+            "age": None,
+            "x_vercel_cache": None,
+            "x_vercel_id": None,
+            "location": None,
+            "observed_title": "Scuola di Scienze: Studenti",
+            "pdf_signature": None,
+            "has_2027_marker": True,
+            "bytes_read": 20276,
+            "outcome": "accessible",
+            "error": None,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control: no-cache (recheck_source_urls.request_once)",
         },
     },
 })
