@@ -4321,106 +4321,331 @@
       "status": "CONFIRMED",
       "source_ids": [
         "SRC-UNIBO-BBS-AI-MFG-2027",
-        "SRC-UNIBO-AI-MFG-2026-27-MASTER"
+        "SRC-UNIBO-BBS-GMBA-2026-2027-SHEET"
       ],
-      "notes": null
+      "notes": "The active BBS page identifies the Global MBA for 2027/28; the University of Bologna's official 2026/27 programme sheet classifies the Global Master in Business Administration as a first-level professional master's. The forthcoming 2027/28 call will provide the cycle-specific formal classification."
     },
     "language": {
       "value": "English",
       "status": "CONFIRMED",
       "source_ids": [
-        "SRC-UNIBO-BBS-AI-MFG-2027"
+        "SRC-UNIBO-BBS-AI-MFG-2027",
+        "SRC-UNIBO-BBS-AI-MFG-2027-IT"
       ],
-      "notes": null
+      "notes": "The current BBS programme page describes the Global MBA as entirely English-language."
     },
     "field": {
       "value": "Artificial Intelligence, Robotics and Manufacturing Management",
       "status": "CONFIRMED",
       "source_ids": [
-        "SRC-UNIBO-BBS-AI-MFG-2027",
-        "SRC-UNIBO-AI-MFG-2026-27-MASTER"
+        "SRC-UNIBO-BBS-AI-MFG-2027"
       ],
-      "notes": null
+      "notes": "The active 2027/28 page identifies AI and Manufacturing as the Global MBA concentration and describes its AI, robotics and manufacturing-management focus."
     },
     "availability_2027_2028": {
       "value": true,
       "status": "CONFIRMED",
       "source_ids": [
-        "SRC-UNIBO-BBS-AI-MFG-2027"
+        "SRC-UNIBO-BBS-AI-MFG-2027",
+        "SRC-UNIBO-BBS-AI-MFG-2027-IT"
       ],
-      "notes": "BBS states applications open in December 2026 for the 2027/28 intake; selections begin February and the programme starts September 2027."
+      "notes": "The active BBS page explicitly announces the 2027/28 intake, applications opening in December 2026, selection rounds in February–July 2027 and a September 2027 start."
     },
-    "overall_status": "REQUIRES_VERIFICATION",
+    "overall_status": "CONFIRMED",
     "discovery_source": "previous_tracker",
     "facts": {
       "official_course_listing_2027_2028": {
         "value": {
+          "academic_year": "2027/28",
           "official_name": "Global MBA in AI and Manufacturing",
-          "programme_type": "12-month full-time English Global MBA / first-level professional master's",
+          "concentration": "AI and Manufacturing",
           "provider": "Bologna Business School with University of Bologna",
+          "programme_type": "12-month full-time Global MBA, delivered entirely in English",
           "application_opening": "December 2026",
-          "selection_period": "from February 2027",
+          "selection_rounds": 4,
+          "selection_period": "February–July 2027",
           "start": "September 2027"
         },
         "status": "CONFIRMED",
         "source_ids": [
-          "SRC-UNIBO-BBS-AI-MFG-2027"
+          "SRC-UNIBO-BBS-AI-MFG-2027",
+          "SRC-UNIBO-BBS-AI-MFG-2027-IT"
         ],
-        "notes": null
+        "notes": "The current BBS page names the 2027/28 intake and describes the programme format. The University of Bologna's prior-year sheet confirms Level I professional-master classification, but the 2027/28 administrative call is still forthcoming."
       },
       "application_windows": {
         "value": [
           {
-            "opening": "December 2026",
-            "selection_from": "February 2027",
-            "programme_start": "September 2027"
+            "application_opening": "December 2026",
+            "selection_rounds": 4,
+            "selection_period_start": "2027-02",
+            "selection_period_end": "2027-07",
+            "programme_start": "2027-09",
+            "exact_dates": "Not yet published"
           }
         ],
         "status": "CONFIRMED",
         "source_ids": [
-          "SRC-UNIBO-BBS-AI-MFG-2027"
+          "SRC-UNIBO-BBS-AI-MFG-2027",
+          "SRC-UNIBO-BBS-AI-MFG-2027-IT"
         ],
-        "notes": "The BBS page does not give exact round-by-round deadlines; the detailed 2027/28 call is not yet published."
+        "notes": "BBS publishes the 2027/28 opening month, four selection rounds and month-level selection period. Exact round application windows and deadlines are not given; the annual call and instructions are forthcoming."
       },
       "application_deadline": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
+          "SRC-UNIBO-BBS-AI-MFG-2027",
+          "SRC-UNIBO-BBS-AI-MFG-2027-IT"
+        ],
+        "notes": "Not yet announced for 2027/28. The live page says the annual call and application instructions will be published later."
+      },
+      "current_published_application_fee": {
+        "value": {
+          "selection_fee_eur": 60,
+          "cycle_label": "Not stated on the current page"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
           "SRC-UNIBO-BBS-AI-MFG-2027"
         ],
-        "notes": "Not yet announced for 2027/28; the BBS page says detailed instructions will be published later."
+        "notes": "The current application instructions display a €60 registration/selection fee, but do not identify it as the 2027/28 fee."
       },
       "application_fee_2027_2028": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
+          "SRC-UNIBO-BBS-AI-MFG-2027",
+          "SRC-UNIBO-BBS-AI-MFG-2027-IT"
+        ],
+        "notes": "The current page displays a €60 fee without a 2027/28 label; confirm the new-cycle amount in the forthcoming call."
+      },
+      "current_published_requirements": {
+        "value": {
+          "cycle_label": "Not stated on the current page",
+          "qualifying_degree": "Bachelor's degree",
+          "english": "English-language proficiency",
+          "work_experience": "Three years of qualified work experience, cumulative",
+          "selection_process": [
+            "Written aptitude test",
+            "Written English test",
+            "Motivational interview"
+          ],
+          "optional_test_exemptions": {
+            "aptitude": "Optional GMAT score of at least 550 or equivalent GRE can exempt candidates from the aptitude test",
+            "english": "Optional TOEFL, IELTS or Cambridge English certificate at minimum B2, issued within the last three years, can exempt candidates from the English test"
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
           "SRC-UNIBO-BBS-AI-MFG-2027"
         ],
-        "notes": "Not yet announced for 2027/28 in the official programme page reviewed."
+        "notes": "These are the requirements and test options currently displayed by BBS. The page says the 2027/28 call and application instructions are forthcoming, so these details are not treated as new-cycle rules. The displayed GMAT threshold (550) differs from the 2026/27 sheet (600)."
       },
       "program_specific_requirements_2027_2028": {
         "value": null,
-        "status": "NOT_YET_PUBLISHED",
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-UNIBO-BBS-AI-MFG-2027",
+          "SRC-UNIBO-BBS-AI-MFG-2027-IT"
+        ],
+        "notes": "The live page shows general requirements but does not label them for 2027/28 and says the annual call and detailed instructions will be published later. Verify the threshold and any changes in that call."
+      },
+      "tuition_currently_displayed": {
+        "value": {
+          "amount_eur": 35000,
+          "vat_free": true,
+          "instalments": 3,
+          "cycle_label": "Not stated on the current page"
+        },
+        "status": "CONFIRMED",
         "source_ids": [
           "SRC-UNIBO-BBS-AI-MFG-2027"
         ],
-        "notes": "The page describes selection by academic profile, tests and interview, but the detailed 2027/28 notice has not yet been published."
+        "notes": "This amount is currently displayed on the BBS page and matches the official 2026/27 sheet; the current page does not label it for 2027/28."
       },
       "tuition_2027_2028": {
         "value": null,
-        "status": "NOT_YET_PUBLISHED",
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-UNIBO-BBS-AI-MFG-2027",
+          "SRC-UNIBO-BBS-AI-MFG-2027-IT"
+        ],
+        "notes": "The current page displays €35,000 without a 2027/28 label. The new-cycle tuition must be confirmed in the forthcoming call."
+      },
+      "scholarships_currently_displayed": {
+        "value": {
+          "cycle_label": "Not stated on the current page",
+          "awards": "Full and partial tuition scholarships",
+          "basis": "Merit, including results in the second selection phase and academic/professional profile",
+          "coverage": "Tuition only",
+          "additional_scheme": "Africa Scholarship Program; current page gives no 2027/28 award amount or terms"
+        },
+        "status": "CONFIRMED",
         "source_ids": [
           "SRC-UNIBO-BBS-AI-MFG-2027"
         ],
-        "notes": "Not yet announced for 2027/28 in the official programme page reviewed."
+        "notes": "The BBS page describes general scholarships but does not identify specific 2027/28 awards, amounts or eligibility terms."
       },
       "scholarships_2027_2028": {
         "value": null,
-        "status": "NOT_YET_PUBLISHED",
+        "status": "REQUIRES_VERIFICATION",
         "source_ids": [
-          "SRC-UNIBO-BBS-AI-MFG-2027"
+          "SRC-UNIBO-BBS-AI-MFG-2027",
+          "SRC-UNIBO-BBS-AI-MFG-2027-IT"
         ],
-        "notes": "The programme page says high-ranking candidates may be eligible for a scholarship, but 2027/28 award amount and terms are not published."
+        "notes": "The current BBS page describes general merit scholarships but does not state cycle-specific 2027/28 amounts or terms; verify the forthcoming call."
+      },
+      "previous_cycle_2026_2027_offer": {
+        "value": {
+          "academic_year": "2026/27",
+          "official_name": "Global Master in Business Administration",
+          "programme_code": "8881",
+          "level": "First-level professional master's",
+          "concentration": "AI and Manufacturing",
+          "campus": "Bologna",
+          "language": "English",
+          "duration": "Annual",
+          "credits_ects": 60,
+          "internship_hours": 500
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-BBS-GMBA-2026-2027-SHEET"
+        ],
+        "notes": "Historical 2026/27 programme-sheet facts only; do not use these terms as 2027/28 rules."
+      },
+      "previous_cycle_2026_2027_application_windows": {
+        "value": [
+          {
+            "round": 1,
+            "start": "2026-02-10",
+            "end": "2026-02-10"
+          },
+          {
+            "round": 2,
+            "start": "2026-02-11",
+            "end": "2026-03-24"
+          },
+          {
+            "round": 3,
+            "start": "2026-03-25",
+            "end": "2026-05-12"
+          },
+          {
+            "round": 4,
+            "start": "2026-05-13",
+            "end": "2026-07-06"
+          }
+        ],
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-BBS-GMBA-2026-2027-SHEET"
+        ],
+        "notes": "Exact application windows from the official 2026/27 programme sheet. These dates are expired historical information and are not projected to 2027/28."
+      },
+      "previous_cycle_2026_2027_application_fee": {
+        "value": {
+          "amount_eur": 60,
+          "type": "Non-refundable selection procedure fee"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-BBS-GMBA-2026-2027-SHEET"
+        ],
+        "notes": "AY 2026/27 only; the 2027/28 fee has not yet been announced."
+      },
+      "previous_cycle_2026_2027_tuition": {
+        "value": {
+          "amount_eur": 35000,
+          "installments_eur": [
+            4000,
+            20000,
+            11000
+          ],
+          "first_installment_deadlines_by_round": [
+            "2026-03-30",
+            "2026-05-11",
+            "2026-07-01",
+            "2026-08-27"
+          ],
+          "second_installment_due": "2026-11-30",
+          "third_installment_due": "2027-03-31"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-BBS-GMBA-2026-2027-SHEET"
+        ],
+        "notes": "AY 2026/27 only, as specified in the official sheet; do not carry the amount or dates into 2027/28."
+      },
+      "previous_cycle_2026_2027_reduced_fees": {
+        "value": {
+          "basis": "Merit ranking across the four selection rounds",
+          "reduced_tuition_bands_eur": [
+            25000,
+            20000,
+            17500,
+            15000,
+            10000
+          ],
+          "full_tuition_waiver": true,
+          "fixed_fee_after_full_waiver_eur": 184.54
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-BBS-GMBA-2026-2027-SHEET"
+        ],
+        "notes": "Historical AY 2026/27 merit-reduced fee schemes; no 2027/28 amounts or awards are confirmed by this prior-year sheet."
+      },
+      "previous_cycle_2026_2027_requirements": {
+        "value": {
+          "qualifying_degree": "First-cycle, second-cycle or single-cycle degree, or equivalent foreign qualification",
+          "english": "B2 level",
+          "work_experience": "Three cumulative years before programme start",
+          "english_certificate_or_test": "B2 certificate or written English test",
+          "aptitude_test": "Written aptitude test unless exempt",
+          "optional_gmat_gre": "GMAT 600 or above / equivalent GRE"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-BBS-GMBA-2026-2027-SHEET"
+        ],
+        "notes": "Requirements stated in the official 2026/27 sheet only. The current BBS page displays a different optional GMAT threshold, so the 2027/28 call must be checked."
+      },
+      "previous_cycle_2026_2027_selection": {
+        "value": {
+          "stages": [
+            "Qualification evaluation",
+            "Written aptitude test",
+            "Written English test",
+            "Motivational interview"
+          ],
+          "maximum_score": 100,
+          "minimum_passing_score": 60,
+          "written_tests_scored": false
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-BBS-GMBA-2026-2027-SHEET"
+        ],
+        "notes": "AY 2026/27 selection procedure only; the new-cycle selection rules remain to be confirmed."
+      },
+      "previous_cycle_2026_2027_places": {
+        "value": {
+          "maximum_total": 120,
+          "round_allocations": [
+            40,
+            40,
+            20,
+            20
+          ],
+          "later_rounds_include_unfilled_places_from_prior_rounds": true
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-BBS-GMBA-2026-2027-SHEET"
+        ],
+        "notes": "AY 2026/27 capacity only; 2027/28 places are not yet published."
       },
       "acceptance_rate": {
         "value": null,
@@ -4428,11 +4653,13 @@
         "source_ids": [
           "SRC-UNIBO-BBS-AI-MFG-2027"
         ],
-        "notes": "The programme page does not publish the applicant denominator and admitted count; no acceptance rate is inferred."
+        "notes": "The programme page does not publish applicant and admitted counts; no acceptance rate is inferred."
       }
     },
     "source_ids": [
       "SRC-UNIBO-BBS-AI-MFG-2027",
+      "SRC-UNIBO-BBS-AI-MFG-2027-IT",
+      "SRC-UNIBO-BBS-GMBA-2026-2027-SHEET",
       "SRC-UNIBO-AI-MFG-2026-27-MASTER"
     ],
     "previous_tracker_tags": {
@@ -4442,7 +4669,7 @@
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
     "previous_cycle_tags": null,
-    "last_checked": "2026-11-10"
+    "last_checked": "2026-11-11"
   },
   {
     "id": "legacy-024",
@@ -13864,7 +14091,7 @@
           "SRC-CAMERINO-ALLIN-2026",
           "SRC-CAMERINO-TUITION-2026"
         ],
-        "notes": "The reviewed foreign-fee page is not cycle-labelled and the published all-inclusive package is for 2026/27; no 2027/28 amount or package is confirmed."
+        "notes": "The canonical foreign-student fee page was directly reached on 11 November 2026. It contains undated general fee guidance and a €6,876 package display with ambiguous composition; the separate named package source is for 2026/27. No 2027/28 course tuition schedule or package is confirmed."
       },
       "previous_cycle_all_inclusive_package": {
         "value": {
@@ -13954,6 +14181,37 @@
           "SRC-CAMERINO-CS-PROFILE"
         ],
         "notes": "The course is described as English-taught, but the reviewed profile does not state an English proficiency level or accepted evidence."
+      },
+      "current_foreign_student_fee_guidance": {
+        "value": {
+          "cycle_label": "Not stated on the page",
+          "income_assessment": "ISEE-U equalized declaration for specified EU/OECD foreign students and other named categories; missing documentation leads to the maximum all-inclusive fee",
+          "country_based_annual_fee_eur": {
+            "particularly_poor_and_developing_countries": 200,
+            "other_non_OECD_countries": 300
+          },
+          "additional_study_year_amounts_eur": {
+            "type_A_2nd_and_3rd": 600,
+            "type_A_4th_and_5th": 900,
+            "type_A_beyond_5th": 1200,
+            "type_B_2nd_and_3rd": 720,
+            "type_B_4th_and_5th": 1020,
+            "type_B_beyond_5th": 1320
+          },
+          "additional_charges": "Regional higher-education tax and stamp duty are added",
+          "all_inclusive_package_display_eur": 6876,
+          "package_components_as_listed": [
+            "ERDIS dormitory accommodation",
+            "Two cafeteria meals per day while open",
+            "Administrative support and other student services"
+          ],
+          "package_total_composition": "Unclear: page says €720 + €156 tax/stamp are paid separately at registration"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CAMERINO-FOREIGN-FEES"
+        ],
+        "notes": "The current official foreign-fee page is available at the canonical non-www host but does not state an academic year. These are general displayed foreign-student rules, not confirmed 2027/28 programme fees. The €6,876 package wording is ambiguous about whether the separately paid €720 + €156 is included in that total; confirm before quoting the package price."
       }
     },
     "source_ids": [
@@ -13981,7 +14239,7 @@
       "cycle": "2026-2027",
       "label": "Latest official course listing/profile is general or prior-cycle evidence only"
     },
-    "last_checked": "2026-11-09"
+    "last_checked": "2026-11-11"
   },
   {
     "id": "legacy-069",
@@ -14078,7 +14336,7 @@
           "SRC-CAMERINO-ALLIN-2026",
           "SRC-CAMERINO-TUITION-2026"
         ],
-        "notes": "The reviewed foreign-fee page is not cycle-labelled and the published all-inclusive package is for 2026/27; no 2027/28 amount or package is confirmed."
+        "notes": "The canonical foreign-student fee page was directly reached on 11 November 2026. It contains undated general fee guidance and a €6,876 package display with ambiguous composition; the separate named package source is for 2026/27. No 2027/28 course tuition schedule or package is confirmed."
       },
       "previous_cycle_all_inclusive_package": {
         "value": {
@@ -14160,6 +14418,37 @@
           "SRC-CAMERINO-CHEM-PROFILE"
         ],
         "notes": "The course is described as English-taught, but the reviewed profile does not state an English proficiency level or accepted evidence."
+      },
+      "current_foreign_student_fee_guidance": {
+        "value": {
+          "cycle_label": "Not stated on the page",
+          "income_assessment": "ISEE-U equalized declaration for specified EU/OECD foreign students and other named categories; missing documentation leads to the maximum all-inclusive fee",
+          "country_based_annual_fee_eur": {
+            "particularly_poor_and_developing_countries": 200,
+            "other_non_OECD_countries": 300
+          },
+          "additional_study_year_amounts_eur": {
+            "type_A_2nd_and_3rd": 600,
+            "type_A_4th_and_5th": 900,
+            "type_A_beyond_5th": 1200,
+            "type_B_2nd_and_3rd": 720,
+            "type_B_4th_and_5th": 1020,
+            "type_B_beyond_5th": 1320
+          },
+          "additional_charges": "Regional higher-education tax and stamp duty are added",
+          "all_inclusive_package_display_eur": 6876,
+          "package_components_as_listed": [
+            "ERDIS dormitory accommodation",
+            "Two cafeteria meals per day while open",
+            "Administrative support and other student services"
+          ],
+          "package_total_composition": "Unclear: page says €720 + €156 tax/stamp are paid separately at registration"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CAMERINO-FOREIGN-FEES"
+        ],
+        "notes": "The current official foreign-fee page is available at the canonical non-www host but does not state an academic year. These are general displayed foreign-student rules, not confirmed 2027/28 programme fees. The €6,876 package wording is ambiguous about whether the separately paid €720 + €156 is included in that total; confirm before quoting the package price."
       }
     },
     "source_ids": [
@@ -14187,7 +14476,7 @@
       "cycle": "2026-2027",
       "label": "Latest official course listing/profile is general or prior-cycle evidence only"
     },
-    "last_checked": "2026-11-09"
+    "last_checked": "2026-11-11"
   },
   {
     "id": "legacy-070",
@@ -14284,7 +14573,7 @@
           "SRC-CAMERINO-ALLIN-2026",
           "SRC-CAMERINO-TUITION-2026"
         ],
-        "notes": "The reviewed foreign-fee page is not cycle-labelled and the published all-inclusive package is for 2026/27; no 2027/28 amount or package is confirmed."
+        "notes": "The canonical foreign-student fee page was directly reached on 11 November 2026. It contains undated general fee guidance and a €6,876 package display with ambiguous composition; the separate named package source is for 2026/27. No 2027/28 course tuition schedule or package is confirmed."
       },
       "previous_cycle_all_inclusive_package": {
         "value": {
@@ -14384,6 +14673,37 @@
           "SRC-CAMERINO-MATH-PROFILE"
         ],
         "notes": "Course-profile English level only; verify any certificate rules and current cycle requirements in the 2027/28 call."
+      },
+      "current_foreign_student_fee_guidance": {
+        "value": {
+          "cycle_label": "Not stated on the page",
+          "income_assessment": "ISEE-U equalized declaration for specified EU/OECD foreign students and other named categories; missing documentation leads to the maximum all-inclusive fee",
+          "country_based_annual_fee_eur": {
+            "particularly_poor_and_developing_countries": 200,
+            "other_non_OECD_countries": 300
+          },
+          "additional_study_year_amounts_eur": {
+            "type_A_2nd_and_3rd": 600,
+            "type_A_4th_and_5th": 900,
+            "type_A_beyond_5th": 1200,
+            "type_B_2nd_and_3rd": 720,
+            "type_B_4th_and_5th": 1020,
+            "type_B_beyond_5th": 1320
+          },
+          "additional_charges": "Regional higher-education tax and stamp duty are added",
+          "all_inclusive_package_display_eur": 6876,
+          "package_components_as_listed": [
+            "ERDIS dormitory accommodation",
+            "Two cafeteria meals per day while open",
+            "Administrative support and other student services"
+          ],
+          "package_total_composition": "Unclear: page says €720 + €156 tax/stamp are paid separately at registration"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CAMERINO-FOREIGN-FEES"
+        ],
+        "notes": "The current official foreign-fee page is available at the canonical non-www host but does not state an academic year. These are general displayed foreign-student rules, not confirmed 2027/28 programme fees. The €6,876 package wording is ambiguous about whether the separately paid €720 + €156 is included in that total; confirm before quoting the package price."
       }
     },
     "source_ids": [
@@ -14411,7 +14731,7 @@
       "cycle": "2026-2027",
       "label": "Latest official course listing/profile is general or prior-cycle evidence only"
     },
-    "last_checked": "2026-11-09"
+    "last_checked": "2026-11-11"
   },
   {
     "id": "legacy-071",
@@ -14508,7 +14828,7 @@
           "SRC-CAMERINO-ALLIN-2026",
           "SRC-CAMERINO-TUITION-2026"
         ],
-        "notes": "The reviewed foreign-fee page is not cycle-labelled and the published all-inclusive package is for 2026/27; no 2027/28 amount or package is confirmed."
+        "notes": "The canonical foreign-student fee page was directly reached on 11 November 2026. It contains undated general fee guidance and a €6,876 package display with ambiguous composition; the separate named package source is for 2026/27. No 2027/28 course tuition schedule or package is confirmed."
       },
       "previous_cycle_all_inclusive_package": {
         "value": {
@@ -14586,6 +14906,37 @@
           "SRC-CAMERINO-PHYSICS-PROFILE"
         ],
         "notes": "Course-profile English level only; verify any certificate rules and current cycle requirements in the 2027/28 call."
+      },
+      "current_foreign_student_fee_guidance": {
+        "value": {
+          "cycle_label": "Not stated on the page",
+          "income_assessment": "ISEE-U equalized declaration for specified EU/OECD foreign students and other named categories; missing documentation leads to the maximum all-inclusive fee",
+          "country_based_annual_fee_eur": {
+            "particularly_poor_and_developing_countries": 200,
+            "other_non_OECD_countries": 300
+          },
+          "additional_study_year_amounts_eur": {
+            "type_A_2nd_and_3rd": 600,
+            "type_A_4th_and_5th": 900,
+            "type_A_beyond_5th": 1200,
+            "type_B_2nd_and_3rd": 720,
+            "type_B_4th_and_5th": 1020,
+            "type_B_beyond_5th": 1320
+          },
+          "additional_charges": "Regional higher-education tax and stamp duty are added",
+          "all_inclusive_package_display_eur": 6876,
+          "package_components_as_listed": [
+            "ERDIS dormitory accommodation",
+            "Two cafeteria meals per day while open",
+            "Administrative support and other student services"
+          ],
+          "package_total_composition": "Unclear: page says €720 + €156 tax/stamp are paid separately at registration"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-CAMERINO-FOREIGN-FEES"
+        ],
+        "notes": "The current official foreign-fee page is available at the canonical non-www host but does not state an academic year. These are general displayed foreign-student rules, not confirmed 2027/28 programme fees. The €6,876 package wording is ambiguous about whether the separately paid €720 + €156 is included in that total; confirm before quoting the package price."
       }
     },
     "source_ids": [
@@ -14613,7 +14964,7 @@
       "cycle": "2026-2027",
       "label": "Latest official course listing/profile is general or prior-cycle evidence only"
     },
-    "last_checked": "2026-11-09"
+    "last_checked": "2026-11-11"
   },
   {
     "id": "legacy-072",
@@ -24759,113 +25110,164 @@
       "value": "MSc",
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
-        "SRC-UNINA-QUANTUM-2025",
-        "SRC-UNINA-QUANTUM-PROFILE-2025"
+        "SRC-UNINA-QUANTUM-PROFILE-2026"
       ],
-      "notes": "Official course identity is confirmed for the 2025/2026 catalogue; this value is not promoted to 2027/28 without a named-cycle source."
+      "notes": "The official course page confirms an LM-44 Master's for 2026/27; a 2027/28 course listing has not been verified."
     },
     "language": {
       "value": "English",
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
-        "SRC-UNINA-QUANTUM-2025",
-        "SRC-UNINA-QUANTUM-PROFILE-2025"
+        "SRC-UNINA-QUANTUM-PROFILE-2026"
       ],
-      "notes": "Official delivery is confirmed for the 2025/2026 catalogue only; verify the 2027/28 course record."
+      "notes": "The official 2026/27 profile says the Master's is entirely delivered in English. Verify the 2027/28 course listing before promoting the language field to 2027/28 confirmed."
     },
     "field": {
       "value": "Quantum Science and Engineering",
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
-        "SRC-UNINA-QUANTUM-2025",
-        "SRC-UNINA-QUANTUM-PROFILE-2025"
+        "SRC-UNINA-QUANTUM-PROFILE-2026"
       ],
-      "notes": "Course subject identity is based on current official profile/catalogue evidence; next-cycle catalogue not yet verified."
+      "notes": "Course identity is confirmed in the official 2026/27 profile only; the 2027/28 programme listing is not verified."
     },
     "availability_2027_2028": {
       "value": null,
       "status": "NOT_YET_PUBLISHED",
       "source_ids": [
-        "SRC-UNINA-QUANTUM-2025",
-        "SRC-UNINA-QUANTUM-PROFILE-2025"
+        "SRC-UNINA-QUANTUM-PROFILE-2026",
+        "SRC-UNINA-QUANTUM-2025"
       ],
-      "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued."
+      "notes": "The current official course page displays a 2026/27 study plan and a 14 September 2026 start, while the University guide is explicitly updated for 2025/26. No 2027/28 first-year offer or admission call was located as of 11 November 2026; this is not treated as cancellation."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
     "facts": {
       "previous_cycle_course_listing": {
         "value": {
-          "academic_year": "2025/2026",
+          "academic_year": "2026/27",
           "official_name": "Quantum Science and Engineering",
-          "level": "MSc",
-          "language": "English"
+          "level": "Master's degree",
+          "degree_class": "LM-44",
+          "duration_years": 2,
+          "credits": 120,
+          "language": "English",
+          "campus": "Naples",
+          "department": "Physics Ettore Pancini",
+          "start_of_classes": "2026-09-14"
         },
         "status": "CONFIRMED",
         "source_ids": [
-          "SRC-UNINA-QUANTUM-2025",
-          "SRC-UNINA-QUANTUM-PROFILE-2025"
+          "SRC-UNINA-QUANTUM-PROFILE-2026"
         ],
-        "notes": "Official course profile/catalogue evidence is cycle-scoped to 2025/2026 and does not establish 2027/28 first-year admission."
+        "notes": "The official Department of Physics page displays a 2026/27 study plan and timetable. These are prior-cycle offer facts, not confirmation of a 2027/28 intake."
+      },
+      "previous_cycle_2025_2026_admission_requirements": {
+        "value": {
+          "academic_year": "2025/26",
+          "admission_access": "Open access (Libero)",
+          "qualifying_degree": "Bachelor's degree / first-cycle degree or equivalent",
+          "minimum_relevant_credits": {
+            "mathematics": 24,
+            "physics": 12,
+            "computer_science_or_information_engineering": 6,
+            "additional_relevant_science_or_engineering": 12
+          },
+          "english": "B2 CEFR"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNINA-QUANTUM-2025"
+        ],
+        "notes": "The official student guide is explicitly updated for 2025/26. The listed curricular credits and language level are historical guide requirements and are not assumed to apply in 2026/27 or 2027/28."
+      },
+      "previous_cycle_2025_2026_english_requirement": {
+        "value": "B2 CEFR",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNINA-QUANTUM-2025"
+        ],
+        "notes": "The guide's stated B2 level belongs to its 2025/26 edition; confirm the accepted proof and threshold in a future annual admission guide."
+      },
+      "current_course_contacts": {
+        "value": {
+          "coordinator": "Prof. Francesco Tafuri",
+          "teaching_secretariat": "Nicola Miranda",
+          "email": "segrdid.fisica@unina.it",
+          "telephone": "+39 081 676874"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNINA-QUANTUM-PROFILE-2026"
+        ],
+        "notes": "Contact details displayed on the current Department profile; verify before an applicant relies on them."
       },
       "application_windows": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
-          "SRC-UNINA-QUANTUM-2025",
-          "SRC-UNINA-QUANTUM-PROFILE-2025"
+          "SRC-UNINA-QUANTUM-PROFILE-2026",
+          "SRC-UNINA-QUANTUM-2025"
         ],
-        "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates."
+        "notes": "No programme-specific 2027/28 application window or deadline was found as of 11 November 2026."
+      },
+      "application_deadline": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-UNINA-QUANTUM-PROFILE-2026",
+          "SRC-UNINA-QUANTUM-2025"
+        ],
+        "notes": "Not yet announced for 2027/28 in the official course and student-guide pages reviewed."
       },
       "application_fee_2027_2028": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
-          "SRC-UNINA-QUANTUM-2025",
-          "SRC-UNINA-QUANTUM-PROFILE-2025"
+          "SRC-UNINA-QUANTUM-PROFILE-2026",
+          "SRC-UNINA-QUANTUM-2025"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal."
+        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed."
       },
       "program_specific_requirements_2027_2028": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
-          "SRC-UNINA-QUANTUM-2025",
-          "SRC-UNINA-QUANTUM-PROFILE-2025"
+          "SRC-UNINA-QUANTUM-PROFILE-2026",
+          "SRC-UNINA-QUANTUM-2025"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only."
+        "notes": "The 2025/26 guide lists prior-cycle criteria, but no 2027/28 programme-specific requirements were found; do not carry these older thresholds forward."
       },
       "tuition_2027_2028": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
-          "SRC-UNINA-QUANTUM-2025",
-          "SRC-UNINA-QUANTUM-PROFILE-2025"
+          "SRC-UNINA-QUANTUM-PROFILE-2026",
+          "SRC-UNINA-QUANTUM-2025"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts."
+        "notes": "No 2027/28 programme-specific tuition or current fee notice was found; prior-cycle amounts are not carried forward."
       },
       "scholarships_2027_2028": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
-          "SRC-UNINA-QUANTUM-2025",
-          "SRC-UNINA-QUANTUM-PROFILE-2025"
+          "SRC-UNINA-QUANTUM-PROFILE-2026",
+          "SRC-UNINA-QUANTUM-2025"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking."
+        "notes": "No 2027/28 programme-specific or applicable university/regional award call was confirmed in the pages reviewed."
       },
       "acceptance_rate": {
         "value": null,
         "status": "UNAVAILABLE",
         "source_ids": [
-          "SRC-UNINA-QUANTUM-2025",
-          "SRC-UNINA-QUANTUM-PROFILE-2025"
+          "SRC-UNINA-QUANTUM-PROFILE-2026",
+          "SRC-UNINA-QUANTUM-2025"
         ],
-        "notes": "The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred."
+        "notes": "The reviewed official course pages do not publish an applicant denominator and admitted count; no acceptance rate is inferred."
       }
     },
     "source_ids": [
-      "SRC-UNINA-QUANTUM-2025",
-      "SRC-UNINA-QUANTUM-PROFILE-2025"
+      "SRC-UNINA-QUANTUM-PROFILE-2026",
+      "SRC-UNINA-QUANTUM-2025"
     ],
     "previous_tracker_tags": {
       "level": "MSc",
@@ -24877,10 +25279,10 @@
       "level": "MSc",
       "language": "English",
       "field": "Quantum Science and Engineering",
-      "cycle": "2025-2026",
-      "label": "Official course identity checked for 2025/2026; 2027/28 first-year intake and terms remain unconfirmed"
+      "cycle": "2026-2027",
+      "label": "Official course page checked for 2026/27; 2027/28 first-year offer and admission remain unconfirmed"
     },
-    "last_checked": "2026-11-10"
+    "last_checked": "2026-11-11"
   },
   {
     "id": "legacy-122",

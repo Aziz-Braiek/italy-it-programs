@@ -9,18 +9,18 @@
     "counts": {
       "universities": 34,
       "programs": 209,
-      "sources": 697
+      "sources": 700
     },
     "previous_snapshot_inconclusive_url_checks": "The prior audit reported approximately 100 inconclusive checks. This refresh rechecked every unique URL and preserves the response by source record below.",
     "current_url_audit": {
       "checked_at": "2026-11-11",
-      "source_records": 697,
-      "unique_urls_checked": 675,
+      "source_records": 700,
+      "unique_urls_checked": 678,
       "unique_url_outcomes": {
-        "accessible": 657,
+        "accessible": 661,
         "redirected": 13,
-        "inconclusive": 4,
-        "broken": 1
+        "broken": 1,
+        "inconclusive": 3
       },
       "redirected_source_records": [
         {
@@ -91,14 +91,6 @@
       ],
       "remaining_inconclusive_source_records": [
         {
-          "source_id": "SRC-CAMERINO-FOREIGN-FEES",
-          "url": "https://www.miiscrivo.unicam.it/fees-foreign-students",
-          "direct_http_outcome": "inconclusive",
-          "browser_outcome": "inconclusive",
-          "direct_http_error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.miiscrivo.unicam.it'. (_ssl.c:1007)",
-          "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
-        },
-        {
           "source_id": "SRC-PADOVA-PSYCHOLOGY-MSC-FULL-2026",
           "url": "https://www.psicologia.unipd.it/offerta-didattica/corsi-di-laurea-magistrale?tipo=LM",
           "direct_http_outcome": "inconclusive",
@@ -157,6 +149,7 @@
       "source_ids": [
         "SRC-UNINA-CHE-2027",
         "SRC-UNINA-CHE-PROGRAM",
+        "SRC-UNINA-QUANTUM-PROFILE-2026",
         "SRC-UNINA-COMPUTER-SCIENCE-2025",
         "SRC-UNINA-DATA-SCIENCE-GUIDE-2026",
         "SRC-UNINA-DATA-SCIENCE-ADMISSIONS-2026",
@@ -249,6 +242,49 @@
             "method": "GET"
           },
           "browser_check": null
+        },
+        {
+          "id": "SRC-UNINA-QUANTUM-PROFILE-2026",
+          "title": "Quantum Science and Engineering – Department of Physics 2026/27 course page",
+          "url": "https://www.fisica.unina.it/corso-di-laurea-magistrale-in-quantum-science-and-engineering",
+          "source_type": "Official Federico II Department of Physics degree profile and timetable",
+          "cycle": "2026-2027",
+          "accessed_at": "2026-11-11",
+          "evidence": "A fresh direct GET on 11 November 2026 returned HTTP 200 (240,388 bytes; title: Corso di Laurea Magistrale in Quantum Science and Engineering | Dipartimento di Fisica). The official page identifies the LM-44 course as 120 CFU, states that it is entirely taught in English, shows the 2026/27 first-semester study plan, and gives a 14 September 2026 class start. It is prior-cycle course evidence only and does not confirm the 2027/28 first-year offer or admission rules.",
+          "supports": [
+            "program.previous_cycle_course_listing",
+            "program.previous_cycle_course_structure",
+            "program.previous_cycle_language",
+            "program.previous_cycle_start_date"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.fisica.unina.it/corso-di-laurea-magistrale-in-quantum-science-and-engineering",
+            "content_type": "text/html;charset=UTF-8",
+            "content_length_header": "240388",
+            "etag": "\"ec2f2733\"",
+            "last_modified": null,
+            "cache_control": null,
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Corso di Laurea Magistrale in Quantum Science and Engineering | Dipartimento di Fisica",
+            "pdf_signature": null,
+            "has_2027_marker": true,
+            "bytes_read": 240388,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (Python urllib)"
+          },
+          "browser_check": {
+            "checked_at": "2026-11-11",
+            "outcome": "accessible",
+            "method": "Official Department page search result and direct GET",
+            "notes": "The current page shows the 2026/27 study plan and 14 September 2026 class start, and states the course is LM-44, 120 CFU and entirely English. It does not announce a 2027/28 first-year offer."
+          }
         },
         {
           "id": "SRC-UNINA-COMPUTER-SCIENCE-2025",
@@ -597,13 +633,15 @@
           "url": "https://www.orientamento.unina.it/corsidistudio/quantum-science-and-engineering/",
           "source_type": "Official University orientation and degree profile",
           "cycle": "2025-2026",
-          "accessed_at": "2026-11-10",
-          "evidence": "The guide identifies QS&E as a two-year English-taught Master's, LM-44, with open admission and subject-credit requirements plus B2 English. The page says its current guide is for 2025/26; this does not establish 2026/27 or 2027/28 new-entry availability.",
+          "accessed_at": "2026-11-11",
+          "evidence": "A fresh direct GET with no-cache request headers returned HTTP 200 on 11 November 2026 (156,985 bytes; title: Quantum Science and Engineering – Orientamento). The official University guide explicitly says it is updated for AY 2025/26; it lists LM-44, two-year English delivery, open access, a first-cycle degree/equivalent, the curricular-credit thresholds and B2 English. Those requirements are retained only as 2025/26 historical guidance, not as 2026/27 or 2027/28 rules.",
           "supports": [
             "program.previous_cycle_course_listing",
             "program.previous_cycle_level",
             "program.previous_cycle_language",
-            "program.previous_cycle_program_requirements"
+            "program.previous_cycle_program_requirements",
+            "program.previous_cycle_2025_2026_admission_requirements",
+            "program.previous_cycle_2025_2026_english_requirement"
           ],
           "refresh_status": "accessible",
           "url_check": {
@@ -621,11 +659,11 @@
             "observed_title": "Quantum Science and Engineering – Orientamento",
             "pdf_signature": null,
             "has_2027_marker": false,
-            "bytes_read": 131072,
+            "bytes_read": 156985,
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "GET with Cache-Control and Pragma no-cache (Python urllib)"
           },
           "browser_check": null
         },
@@ -10775,6 +10813,8 @@
         "SRC-UNIBO-MED-IT-CATALOGUE-2026",
         "SRC-UNIBO-MED-IT-OPEN-SEMESTER-2026",
         "SRC-UNIBO-BBS-AI-MFG-2027",
+        "SRC-UNIBO-BBS-AI-MFG-2027-IT",
+        "SRC-UNIBO-BBS-GMBA-2026-2027-SHEET",
         "SRC-UNIBO-BBS-GREEN-MGMT-2026",
         "SRC-UNIBO-GESTIONALE-BSC-2026",
         "SRC-UNIBO-ECON-COMMERCIO-2026",
@@ -12244,15 +12284,19 @@
           "url": "https://www.bbs.unibo.it/en/global-mba/ai-and-manufacturing-2/",
           "source_type": "Official Bologna Business School programme page",
           "cycle": "2027-2028",
-          "accessed_at": "2026-11-10",
-          "evidence": "The official BBS page states applications for AY 2027/28 open in December 2026, selection begins February 2027, and the programme starts September 2027. It describes a 12-month full-time English-language Global MBA and identifies AI and Manufacturing as the track; it is not a standard two-year Laurea Magistrale.",
+          "accessed_at": "2026-11-11",
+          "evidence": "A fresh direct GET on 11 November 2026 returned HTTP 200 (199,753 bytes; title: Master AI and Manufacturing (MBA) | BBS Italy). The current BBS page identifies the 12-month, full-time, English-language Global MBA and its AI and Manufacturing concentration, and displays the 2027/28 intake. It says applications open in December 2026 and selection takes place in four rounds from February to July 2027, with a September 2027 start. Current page terms also display a €35,000 tuition amount, a €60 application fee, general requirements (a Bachelor's degree, English proficiency and three years of qualified work experience), and merit scholarships; those terms are not labelled for 2027/28, and the annual call is still forthcoming.",
           "supports": [
             "program.availability",
             "program.name",
             "program.level",
             "program.language",
             "program.application_windows",
-            "program.program_type"
+            "program.program_type",
+            "program.current_published_application_fee",
+            "program.current_published_tuition",
+            "program.current_published_requirements",
+            "program.current_published_scholarships"
           ],
           "refresh_status": "accessible",
           "url_check": {
@@ -12270,13 +12314,107 @@
             "observed_title": "Master AI and Manufacturing (MBA) | BBS Italy",
             "pdf_signature": null,
             "has_2027_marker": true,
-            "bytes_read": 131072,
+            "bytes_read": 199753,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
-            "method": "GET"
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (Python urllib)"
           },
-          "browser_check": null
+          "browser_check": {
+            "checked_at": "2026-11-11",
+            "outcome": "accessible",
+            "method": "Official page content opened and reviewed",
+            "notes": "The current page displays the 2027/28 schedule and the current unlabelled fee, requirements and scholarship information; the annual call is still forthcoming."
+          }
+        },
+        {
+          "id": "SRC-UNIBO-BBS-AI-MFG-2027-IT",
+          "title": "Global MBA in AI and Manufacturing – 2027/28 Italian admissions schedule",
+          "url": "https://www.bbs.unibo.it/global-mba/ai-and-manufacturing/",
+          "source_type": "Official Bologna Business School Italian programme and admissions page",
+          "cycle": "2027-2028",
+          "accessed_at": "2026-11-11",
+          "evidence": "A fresh direct GET on 11 November 2026 returned HTTP 200 (200,419 bytes; title: Master AI & Manufacturing: MBA in Artificial Intelligence e Robotica | BBS). The Italian page explicitly says applications for AY 2027/28 open in December 2026, selection is organised in four rounds between February and July 2027, and the programme starts in September 2027. No exact round-by-round application dates are given; the page says the annual call and instructions will be published later.",
+          "supports": [
+            "program.availability_2027_2028",
+            "program.application_windows",
+            "program.application_deadline"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.bbs.unibo.it/global-mba/ai-and-manufacturing/",
+            "content_type": "text/html; charset=UTF-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": null,
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Master AI & Manufacturing: MBA in Artificial Intelligence e Robotica | BBS",
+            "pdf_signature": null,
+            "has_2027_marker": true,
+            "bytes_read": 200419,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (Python urllib)"
+          },
+          "browser_check": {
+            "checked_at": "2026-11-11",
+            "outcome": "accessible",
+            "method": "Official page content opened and reviewed",
+            "notes": "The Italian page explicitly gives the 2027/28 opening month, four selection rounds from February to July 2027, and September 2027 start; exact application dates are not published."
+          }
+        },
+        {
+          "id": "SRC-UNIBO-BBS-GMBA-2026-2027-SHEET",
+          "title": "Global Master in Business Administration – official 2026/27 programme sheet",
+          "url": "https://www.unibo.it/en/study/phd-professional-masters-specialisation-schools-and-other-programmes/professional-master/2026-2027/attachments/call-for-application-in-global-master-in-business-administration/data-sheet-of-the-professional-masters-programme-in-global-master-in-business-administration/@@download/file/SCHEDA%20MASTER%20GLOBAL%20MBA%20A.A.%202026-2027_EN.pdf",
+          "source_type": "Official University of Bologna 2026/27 professional-master programme-sheet PDF",
+          "cycle": "2026-2027",
+          "accessed_at": "2026-11-11",
+          "evidence": "This official sheet is explicitly for AY 2026/27 (programme code 8881), not 2027/28. It identifies Global Master in Business Administration as a first-level professional master's, with an AI and Manufacturing concentration, English teaching in Bologna, annual duration and 60 ECTS. It records 2026/27 application windows, a €60 selection fee, €35,000 tuition, merit-based reduced-fee bands/waiver, eligibility and selection details. All dates, amounts and terms from this sheet are retained as historical 2026/27 facts only.",
+          "supports": [
+            "program.previous_cycle_2026_2027_offer",
+            "program.previous_cycle_2026_2027_application_windows",
+            "program.previous_cycle_2026_2027_application_fee",
+            "program.previous_cycle_2026_2027_tuition",
+            "program.previous_cycle_2026_2027_reduced_fees",
+            "program.previous_cycle_2026_2027_requirements",
+            "program.previous_cycle_2026_2027_selection",
+            "program.previous_cycle_2026_2027_places"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.unibo.it/en/study/phd-professional-masters-specialisation-schools-and-other-programmes/professional-master/2026-2027/attachments/call-for-application-in-global-master-in-business-administration/data-sheet-of-the-professional-masters-programme-in-global-master-in-business-administration/@@download/file/SCHEDA%20MASTER%20GLOBAL%20MBA%20A.A.%202026-2027_EN.pdf",
+            "content_type": "application/pdf",
+            "content_length_header": "380075",
+            "etag": null,
+            "last_modified": "Fri, 19 Dec 2025 13:44:31 GMT",
+            "cache_control": "max-age=0, s-maxage=0, must-revalidate",
+            "age": "38",
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": null,
+            "pdf_signature": true,
+            "has_2027_marker": null,
+            "bytes_read": 380075,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache; full PDF fetched (Python urllib)"
+          },
+          "browser_check": {
+            "checked_at": "2026-11-11",
+            "outcome": "accessible",
+            "method": "Official PDF text opened and reviewed",
+            "notes": "This sheet explicitly belongs to AY 2026/27. Its fee, deadlines, requirements and selection details are retained only as historical prior-cycle facts."
+          }
         },
         {
           "id": "SRC-UNIBO-BBS-GREEN-MGMT-2026",
@@ -14496,44 +14634,40 @@
         {
           "id": "SRC-CAMERINO-FOREIGN-FEES",
           "title": "Fees for foreign students",
-          "url": "https://www.miiscrivo.unicam.it/fees-foreign-students",
+          "url": "https://miiscrivo.unicam.it/fees-foreign-students",
           "source_type": "Official foreign-student tuition guidance",
           "cycle": "general",
           "accessed_at": "2026-11-11",
-          "evidence": "The page describes income-based ISEE-U equalised assessment for specified foreign applicants, fixed annual fees of €200 for students from designated particularly poor/developing countries and €300 for non-OECD countries outside that list, with regional tax and stamp duty added. It also describes a €6,876 all-inclusive option. The page does not label these amounts with an academic year; do not treat them as 2027/28 fees.",
+          "evidence": "The previous www subdomain returned a TLS hostname mismatch; the official canonical non-www URL returned HTTP 200 on 11 November 2026 (100,884 bytes). The undated page describes ISEE-U equalised assessment for specified foreign applicants, fixed annual fees of €200 for students from designated particularly poor/developing countries and €300 for other non-OECD countries outside that list, with regional tax and stamp duty added. It also displays a €6,876 all-inclusive package and says €720 plus €156 for tax/stamp are paid at registration; the package composition is ambiguous. The page response Date was 10 November 2026 and Cache-Control was max-age=900, public, so these are undated displayed terms, not confirmed 2027/28 fees.",
           "supports": [
             "university.foreign_student_fee_framework",
-            "university.previous_cycle_tuition"
+            "university.previous_cycle_tuition",
+            "program.current_foreign_student_fee_guidance"
           ],
-          "refresh_status": "inconclusive",
+          "refresh_status": "accessible",
           "url_check": {
-            "http_status": null,
-            "effective_url": null,
-            "content_type": null,
+            "http_status": 200,
+            "effective_url": "https://miiscrivo.unicam.it/fees-foreign-students",
+            "content_type": "text/html; charset=UTF-8",
             "content_length_header": null,
             "etag": null,
             "last_modified": null,
-            "cache_control": null,
+            "cache_control": "max-age=900, public",
             "age": null,
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
             "observed_title": null,
             "pdf_signature": null,
-            "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.miiscrivo.unicam.it'. (_ssl.c:1007)",
+            "has_2027_marker": false,
+            "bytes_read": 100884,
+            "outcome": "accessible",
+            "error": null,
             "retried": true,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "GET with Cache-Control and Pragma no-cache (Python urllib; canonical non-www host)"
           },
-          "browser_check": {
-            "checked_at": "2026-11-11",
-            "outcome": "inconclusive",
-            "method": "Codex web reader open and official-domain search",
-            "notes": "The official search index returned a snippet for this page, but a direct web-reader open timed out. This is not a fresh HTTP verification; the independent GET failed TLS hostname validation, so reachability remains inconclusive."
-          }
+          "browser_check": null
         },
         {
           "id": "SRC-CAMERINO-ALLIN-2026",
@@ -29953,19 +30087,17 @@
         "value": "MSc",
         "status": "REQUIRES_VERIFICATION",
         "source_ids": [
-          "SRC-UNINA-QUANTUM-2025",
-          "SRC-UNINA-QUANTUM-PROFILE-2025"
+          "SRC-UNINA-QUANTUM-PROFILE-2026"
         ],
-        "notes": "Official course identity is confirmed for the 2025/2026 catalogue; this value is not promoted to 2027/28 without a named-cycle source."
+        "notes": "The official course page confirms an LM-44 Master's for 2026/27; a 2027/28 course listing has not been verified."
       },
       "language": {
         "value": "English",
         "status": "REQUIRES_VERIFICATION",
         "source_ids": [
-          "SRC-UNINA-QUANTUM-2025",
-          "SRC-UNINA-QUANTUM-PROFILE-2025"
+          "SRC-UNINA-QUANTUM-PROFILE-2026"
         ],
-        "notes": "Official delivery is confirmed for the 2025/2026 catalogue only; verify the 2027/28 course record."
+        "notes": "The official 2026/27 profile says the Master's is entirely delivered in English. Verify the 2027/28 course listing before promoting the language field to 2027/28 confirmed."
       },
       "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-121/",
       "university_page_url": "https://italy-it-programs.vercel.app/universities/napoli-federico-ii/",
@@ -29976,13 +30108,15 @@
           "url": "https://www.orientamento.unina.it/corsidistudio/quantum-science-and-engineering/",
           "source_type": "Official University orientation and degree profile",
           "cycle": "2025-2026",
-          "accessed_at": "2026-11-10",
-          "evidence": "The guide identifies QS&E as a two-year English-taught Master's, LM-44, with open admission and subject-credit requirements plus B2 English. The page says its current guide is for 2025/26; this does not establish 2026/27 or 2027/28 new-entry availability.",
+          "accessed_at": "2026-11-11",
+          "evidence": "A fresh direct GET with no-cache request headers returned HTTP 200 on 11 November 2026 (156,985 bytes; title: Quantum Science and Engineering – Orientamento). The official University guide explicitly says it is updated for AY 2025/26; it lists LM-44, two-year English delivery, open access, a first-cycle degree/equivalent, the curricular-credit thresholds and B2 English. Those requirements are retained only as 2025/26 historical guidance, not as 2026/27 or 2027/28 rules.",
           "supports": [
             "program.previous_cycle_course_listing",
             "program.previous_cycle_level",
             "program.previous_cycle_language",
-            "program.previous_cycle_program_requirements"
+            "program.previous_cycle_program_requirements",
+            "program.previous_cycle_2025_2026_admission_requirements",
+            "program.previous_cycle_2025_2026_english_requirement"
           ],
           "refresh_status": "accessible",
           "url_check": {
@@ -30000,54 +30134,55 @@
             "observed_title": "Quantum Science and Engineering – Orientamento",
             "pdf_signature": null,
             "has_2027_marker": false,
-            "bytes_read": 131072,
+            "bytes_read": 156985,
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "GET with Cache-Control and Pragma no-cache (Python urllib)"
           },
           "browser_check": null
         },
         {
-          "id": "SRC-UNINA-QUANTUM-PROFILE-2025",
-          "title": "Quantum Science and Engineering – official programme and course links",
-          "url": "https://www.qst.unina.it/index.php/education/",
-          "source_type": "Official University project and programme page",
-          "cycle": "general",
+          "id": "SRC-UNINA-QUANTUM-PROFILE-2026",
+          "title": "Quantum Science and Engineering – Department of Physics 2026/27 course page",
+          "url": "https://www.fisica.unina.it/corso-di-laurea-magistrale-in-quantum-science-and-engineering",
+          "source_type": "Official Federico II Department of Physics degree profile and timetable",
+          "cycle": "2026-2027",
           "accessed_at": "2026-11-11",
-          "evidence": "Names the Master Degree in Quantum Science and Engineering and links to the official Physics and course websites. This verifies programme identity, not its 2027/28 intake.",
+          "evidence": "A fresh direct GET on 11 November 2026 returned HTTP 200 (240,388 bytes; title: Corso di Laurea Magistrale in Quantum Science and Engineering | Dipartimento di Fisica). The official page identifies the LM-44 course as 120 CFU, states that it is entirely taught in English, shows the 2026/27 first-semester study plan, and gives a 14 September 2026 class start. It is prior-cycle course evidence only and does not confirm the 2027/28 first-year offer or admission rules.",
           "supports": [
             "program.previous_cycle_course_listing",
-            "program.program_type"
+            "program.previous_cycle_course_structure",
+            "program.previous_cycle_language",
+            "program.previous_cycle_start_date"
           ],
-          "refresh_status": "inconclusive",
+          "refresh_status": "accessible",
           "url_check": {
-            "http_status": null,
-            "effective_url": null,
-            "content_type": null,
-            "content_length_header": null,
-            "etag": null,
+            "http_status": 200,
+            "effective_url": "https://www.fisica.unina.it/corso-di-laurea-magistrale-in-quantum-science-and-engineering",
+            "content_type": "text/html;charset=UTF-8",
+            "content_length_header": "240388",
+            "etag": "\"ec2f2733\"",
             "last_modified": null,
             "cache_control": null,
             "age": null,
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": null,
+            "observed_title": "Corso di Laurea Magistrale in Quantum Science and Engineering | Dipartimento di Fisica",
             "pdf_signature": null,
-            "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1007)",
-            "retried": true,
+            "has_2027_marker": true,
+            "bytes_read": 240388,
+            "outcome": "accessible",
+            "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET"
+            "method": "GET with Cache-Control and Pragma no-cache (Python urllib)"
           },
           "browser_check": {
             "checked_at": "2026-11-11",
-            "outcome": "inconclusive",
-            "method": "Codex web reader open and official-domain search",
-            "notes": "The official search index returned a snippet for this page, but a direct web-reader open timed out. This is not a fresh HTTP verification; the independent GET could not complete TLS certificate validation, so reachability remains inconclusive."
+            "outcome": "accessible",
+            "method": "Official Department page search result and direct GET",
+            "notes": "The current page shows the 2026/27 study plan and 14 September 2026 class start, and states the course is LM-44, 120 CFU and entirely English. It does not announce a 2027/28 first-year offer."
           }
         }
       ],
@@ -30055,112 +30190,119 @@
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
-          "SRC-UNINA-QUANTUM-2025",
-          "SRC-UNINA-QUANTUM-PROFILE-2025"
+          "SRC-UNINA-QUANTUM-PROFILE-2026",
+          "SRC-UNINA-QUANTUM-2025"
         ],
-        "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued."
+        "notes": "The current official course page displays a 2026/27 study plan and a 14 September 2026 start, while the University guide is explicitly updated for 2025/26. No 2027/28 first-year offer or admission call was located as of 11 November 2026; this is not treated as cancellation."
       },
       "existing_overall_status": "REQUIRES_VERIFICATION",
-      "existing_last_checked": "2026-11-10",
+      "existing_last_checked": "2026-11-11",
       "fields_needing_review": [
         {
           "field": "level",
           "status": "REQUIRES_VERIFICATION",
           "value": "MSc",
-          "notes": "Official course identity is confirmed for the 2025/2026 catalogue; this value is not promoted to 2027/28 without a named-cycle source.",
+          "notes": "The official course page confirms an LM-44 Master's for 2026/27; a 2027/28 course listing has not been verified.",
           "source_ids": [
-            "SRC-UNINA-QUANTUM-2025",
-            "SRC-UNINA-QUANTUM-PROFILE-2025"
+            "SRC-UNINA-QUANTUM-PROFILE-2026"
           ]
         },
         {
           "field": "language",
           "status": "REQUIRES_VERIFICATION",
           "value": "English",
-          "notes": "Official delivery is confirmed for the 2025/2026 catalogue only; verify the 2027/28 course record.",
+          "notes": "The official 2026/27 profile says the Master's is entirely delivered in English. Verify the 2027/28 course listing before promoting the language field to 2027/28 confirmed.",
           "source_ids": [
-            "SRC-UNINA-QUANTUM-2025",
-            "SRC-UNINA-QUANTUM-PROFILE-2025"
+            "SRC-UNINA-QUANTUM-PROFILE-2026"
           ]
         },
         {
           "field": "field",
           "status": "REQUIRES_VERIFICATION",
           "value": "Quantum Science and Engineering",
-          "notes": "Course subject identity is based on current official profile/catalogue evidence; next-cycle catalogue not yet verified.",
+          "notes": "Course identity is confirmed in the official 2026/27 profile only; the 2027/28 programme listing is not verified.",
           "source_ids": [
-            "SRC-UNINA-QUANTUM-2025",
-            "SRC-UNINA-QUANTUM-PROFILE-2025"
+            "SRC-UNINA-QUANTUM-PROFILE-2026"
           ]
         },
         {
           "field": "availability_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.",
+          "notes": "The current official course page displays a 2026/27 study plan and a 14 September 2026 start, while the University guide is explicitly updated for 2025/26. No 2027/28 first-year offer or admission call was located as of 11 November 2026; this is not treated as cancellation.",
           "source_ids": [
-            "SRC-UNINA-QUANTUM-2025",
-            "SRC-UNINA-QUANTUM-PROFILE-2025"
+            "SRC-UNINA-QUANTUM-PROFILE-2026",
+            "SRC-UNINA-QUANTUM-2025"
           ]
         },
         {
           "field": "facts.application_windows",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.",
+          "notes": "No programme-specific 2027/28 application window or deadline was found as of 11 November 2026.",
           "source_ids": [
-            "SRC-UNINA-QUANTUM-2025",
-            "SRC-UNINA-QUANTUM-PROFILE-2025"
+            "SRC-UNINA-QUANTUM-PROFILE-2026",
+            "SRC-UNINA-QUANTUM-2025"
+          ]
+        },
+        {
+          "field": "facts.application_deadline",
+          "status": "NOT_YET_PUBLISHED",
+          "value": null,
+          "notes": "Not yet announced for 2027/28 in the official course and student-guide pages reviewed.",
+          "source_ids": [
+            "SRC-UNINA-QUANTUM-PROFILE-2026",
+            "SRC-UNINA-QUANTUM-2025"
           ]
         },
         {
           "field": "facts.application_fee_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.",
+          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed.",
           "source_ids": [
-            "SRC-UNINA-QUANTUM-2025",
-            "SRC-UNINA-QUANTUM-PROFILE-2025"
+            "SRC-UNINA-QUANTUM-PROFILE-2026",
+            "SRC-UNINA-QUANTUM-2025"
           ]
         },
         {
           "field": "facts.program_specific_requirements_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.",
+          "notes": "The 2025/26 guide lists prior-cycle criteria, but no 2027/28 programme-specific requirements were found; do not carry these older thresholds forward.",
           "source_ids": [
-            "SRC-UNINA-QUANTUM-2025",
-            "SRC-UNINA-QUANTUM-PROFILE-2025"
+            "SRC-UNINA-QUANTUM-PROFILE-2026",
+            "SRC-UNINA-QUANTUM-2025"
           ]
         },
         {
           "field": "facts.tuition_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.",
+          "notes": "No 2027/28 programme-specific tuition or current fee notice was found; prior-cycle amounts are not carried forward.",
           "source_ids": [
-            "SRC-UNINA-QUANTUM-2025",
-            "SRC-UNINA-QUANTUM-PROFILE-2025"
+            "SRC-UNINA-QUANTUM-PROFILE-2026",
+            "SRC-UNINA-QUANTUM-2025"
           ]
         },
         {
           "field": "facts.scholarships_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.",
+          "notes": "No 2027/28 programme-specific or applicable university/regional award call was confirmed in the pages reviewed.",
           "source_ids": [
-            "SRC-UNINA-QUANTUM-2025",
-            "SRC-UNINA-QUANTUM-PROFILE-2025"
+            "SRC-UNINA-QUANTUM-PROFILE-2026",
+            "SRC-UNINA-QUANTUM-2025"
           ]
         },
         {
           "field": "facts.acceptance_rate",
           "status": "UNAVAILABLE",
           "value": null,
-          "notes": "The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.",
+          "notes": "The reviewed official course pages do not publish an applicant denominator and admitted count; no acceptance rate is inferred.",
           "source_ids": [
-            "SRC-UNINA-QUANTUM-2025",
-            "SRC-UNINA-QUANTUM-PROFILE-2025"
+            "SRC-UNINA-QUANTUM-PROFILE-2026",
+            "SRC-UNINA-QUANTUM-2025"
           ]
         }
       ],
@@ -30169,84 +30311,94 @@
           "field": "availability_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.",
+          "notes": "The current official course page displays a 2026/27 study plan and a 14 September 2026 start, while the University guide is explicitly updated for 2025/26. No 2027/28 first-year offer or admission call was located as of 11 November 2026; this is not treated as cancellation.",
           "source_ids": [
-            "SRC-UNINA-QUANTUM-2025",
-            "SRC-UNINA-QUANTUM-PROFILE-2025"
+            "SRC-UNINA-QUANTUM-PROFILE-2026",
+            "SRC-UNINA-QUANTUM-2025"
           ]
         },
         {
           "field": "facts.application_windows",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.",
+          "notes": "No programme-specific 2027/28 application window or deadline was found as of 11 November 2026.",
           "source_ids": [
-            "SRC-UNINA-QUANTUM-2025",
-            "SRC-UNINA-QUANTUM-PROFILE-2025"
+            "SRC-UNINA-QUANTUM-PROFILE-2026",
+            "SRC-UNINA-QUANTUM-2025"
+          ]
+        },
+        {
+          "field": "facts.application_deadline",
+          "status": "NOT_YET_PUBLISHED",
+          "value": null,
+          "notes": "Not yet announced for 2027/28 in the official course and student-guide pages reviewed.",
+          "source_ids": [
+            "SRC-UNINA-QUANTUM-PROFILE-2026",
+            "SRC-UNINA-QUANTUM-2025"
           ]
         },
         {
           "field": "facts.application_fee_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.",
+          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed.",
           "source_ids": [
-            "SRC-UNINA-QUANTUM-2025",
-            "SRC-UNINA-QUANTUM-PROFILE-2025"
+            "SRC-UNINA-QUANTUM-PROFILE-2026",
+            "SRC-UNINA-QUANTUM-2025"
           ]
         },
         {
           "field": "facts.program_specific_requirements_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.",
+          "notes": "The 2025/26 guide lists prior-cycle criteria, but no 2027/28 programme-specific requirements were found; do not carry these older thresholds forward.",
           "source_ids": [
-            "SRC-UNINA-QUANTUM-2025",
-            "SRC-UNINA-QUANTUM-PROFILE-2025"
+            "SRC-UNINA-QUANTUM-PROFILE-2026",
+            "SRC-UNINA-QUANTUM-2025"
           ]
         },
         {
           "field": "facts.tuition_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.",
+          "notes": "No 2027/28 programme-specific tuition or current fee notice was found; prior-cycle amounts are not carried forward.",
           "source_ids": [
-            "SRC-UNINA-QUANTUM-2025",
-            "SRC-UNINA-QUANTUM-PROFILE-2025"
+            "SRC-UNINA-QUANTUM-PROFILE-2026",
+            "SRC-UNINA-QUANTUM-2025"
           ]
         },
         {
           "field": "facts.scholarships_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.",
+          "notes": "No 2027/28 programme-specific or applicable university/regional award call was confirmed in the pages reviewed.",
           "source_ids": [
-            "SRC-UNINA-QUANTUM-2025",
-            "SRC-UNINA-QUANTUM-PROFILE-2025"
+            "SRC-UNINA-QUANTUM-PROFILE-2026",
+            "SRC-UNINA-QUANTUM-2025"
           ]
         },
         {
           "field": "facts.acceptance_rate",
           "status": "UNAVAILABLE",
           "value": null,
-          "notes": "The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.",
+          "notes": "The reviewed official course pages do not publish an applicant denominator and admitted count; no acceptance rate is inferred.",
           "source_ids": [
-            "SRC-UNINA-QUANTUM-2025",
-            "SRC-UNINA-QUANTUM-PROFILE-2025"
+            "SRC-UNINA-QUANTUM-PROFILE-2026",
+            "SRC-UNINA-QUANTUM-2025"
           ]
         }
       ],
       "known_source_conflicts": [],
       "source_ids": [
-        "SRC-UNINA-QUANTUM-2025",
-        "SRC-UNINA-QUANTUM-PROFILE-2025"
+        "SRC-UNINA-QUANTUM-PROFILE-2026",
+        "SRC-UNINA-QUANTUM-2025"
       ],
       "previous_cycle_tags": {
         "level": "MSc",
         "language": "English",
         "field": "Quantum Science and Engineering",
-        "cycle": "2025-2026",
-        "label": "Official course identity checked for 2025/2026; 2027/28 first-year intake and terms remain unconfirmed"
+        "cycle": "2026-2027",
+        "label": "Official course page checked for 2026/27; 2027/28 first-year offer and admission remain unconfirmed"
       },
       "refresh_status": "pending",
       "refresh_checked_at": null,
@@ -65595,21 +65747,71 @@
         "status": "CONFIRMED",
         "source_ids": [
           "SRC-UNIBO-BBS-AI-MFG-2027",
-          "SRC-UNIBO-AI-MFG-2026-27-MASTER"
+          "SRC-UNIBO-BBS-GMBA-2026-2027-SHEET"
         ],
-        "notes": null
+        "notes": "The active BBS page identifies the Global MBA for 2027/28; the University of Bologna's official 2026/27 programme sheet classifies the Global Master in Business Administration as a first-level professional master's. The forthcoming 2027/28 call will provide the cycle-specific formal classification."
       },
       "language": {
         "value": "English",
         "status": "CONFIRMED",
         "source_ids": [
-          "SRC-UNIBO-BBS-AI-MFG-2027"
+          "SRC-UNIBO-BBS-AI-MFG-2027",
+          "SRC-UNIBO-BBS-AI-MFG-2027-IT"
         ],
-        "notes": null
+        "notes": "The current BBS programme page describes the Global MBA as entirely English-language."
       },
       "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-023/",
       "university_page_url": "https://italy-it-programs.vercel.app/universities/bologna/",
       "official_program_source_urls": [
+        {
+          "id": "SRC-UNIBO-BBS-AI-MFG-2027",
+          "title": "Global MBA in AI and Manufacturing – 2027/28 admissions schedule",
+          "url": "https://www.bbs.unibo.it/en/global-mba/ai-and-manufacturing-2/",
+          "source_type": "Official Bologna Business School programme page",
+          "cycle": "2027-2028",
+          "accessed_at": "2026-11-11",
+          "evidence": "A fresh direct GET on 11 November 2026 returned HTTP 200 (199,753 bytes; title: Master AI and Manufacturing (MBA) | BBS Italy). The current BBS page identifies the 12-month, full-time, English-language Global MBA and its AI and Manufacturing concentration, and displays the 2027/28 intake. It says applications open in December 2026 and selection takes place in four rounds from February to July 2027, with a September 2027 start. Current page terms also display a €35,000 tuition amount, a €60 application fee, general requirements (a Bachelor's degree, English proficiency and three years of qualified work experience), and merit scholarships; those terms are not labelled for 2027/28, and the annual call is still forthcoming.",
+          "supports": [
+            "program.availability",
+            "program.name",
+            "program.level",
+            "program.language",
+            "program.application_windows",
+            "program.program_type",
+            "program.current_published_application_fee",
+            "program.current_published_tuition",
+            "program.current_published_requirements",
+            "program.current_published_scholarships"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.bbs.unibo.it/en/global-mba/ai-and-manufacturing-2/",
+            "content_type": "text/html; charset=UTF-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": null,
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Master AI and Manufacturing (MBA) | BBS Italy",
+            "pdf_signature": null,
+            "has_2027_marker": true,
+            "bytes_read": 199753,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (Python urllib)"
+          },
+          "browser_check": {
+            "checked_at": "2026-11-11",
+            "outcome": "accessible",
+            "method": "Official page content opened and reviewed",
+            "notes": "The current page displays the 2027/28 schedule and the current unlabelled fee, requirements and scholarship information; the annual call is still forthcoming."
+          }
+        },
         {
           "id": "SRC-UNIBO-AI-MFG-2026-27-MASTER",
           "title": "AI and Manufacturing – Global MBA official course entry",
@@ -65647,25 +65849,22 @@
           "browser_check": null
         },
         {
-          "id": "SRC-UNIBO-BBS-AI-MFG-2027",
-          "title": "Global MBA in AI and Manufacturing – 2027/28 admissions schedule",
-          "url": "https://www.bbs.unibo.it/en/global-mba/ai-and-manufacturing-2/",
-          "source_type": "Official Bologna Business School programme page",
+          "id": "SRC-UNIBO-BBS-AI-MFG-2027-IT",
+          "title": "Global MBA in AI and Manufacturing – 2027/28 Italian admissions schedule",
+          "url": "https://www.bbs.unibo.it/global-mba/ai-and-manufacturing/",
+          "source_type": "Official Bologna Business School Italian programme and admissions page",
           "cycle": "2027-2028",
-          "accessed_at": "2026-11-10",
-          "evidence": "The official BBS page states applications for AY 2027/28 open in December 2026, selection begins February 2027, and the programme starts September 2027. It describes a 12-month full-time English-language Global MBA and identifies AI and Manufacturing as the track; it is not a standard two-year Laurea Magistrale.",
+          "accessed_at": "2026-11-11",
+          "evidence": "A fresh direct GET on 11 November 2026 returned HTTP 200 (200,419 bytes; title: Master AI & Manufacturing: MBA in Artificial Intelligence e Robotica | BBS). The Italian page explicitly says applications for AY 2027/28 open in December 2026, selection is organised in four rounds between February and July 2027, and the programme starts in September 2027. No exact round-by-round application dates are given; the page says the annual call and instructions will be published later.",
           "supports": [
-            "program.availability",
-            "program.name",
-            "program.level",
-            "program.language",
+            "program.availability_2027_2028",
             "program.application_windows",
-            "program.program_type"
+            "program.application_deadline"
           ],
           "refresh_status": "accessible",
           "url_check": {
             "http_status": 200,
-            "effective_url": "https://www.bbs.unibo.it/en/global-mba/ai-and-manufacturing-2/",
+            "effective_url": "https://www.bbs.unibo.it/global-mba/ai-and-manufacturing/",
             "content_type": "text/html; charset=UTF-8",
             "content_length_header": null,
             "etag": null,
@@ -65675,79 +65874,137 @@
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
-            "observed_title": "Master AI and Manufacturing (MBA) | BBS Italy",
+            "observed_title": "Master AI & Manufacturing: MBA in Artificial Intelligence e Robotica | BBS",
             "pdf_signature": null,
             "has_2027_marker": true,
-            "bytes_read": 131072,
+            "bytes_read": 200419,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
-            "method": "GET"
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (Python urllib)"
           },
-          "browser_check": null
+          "browser_check": {
+            "checked_at": "2026-11-11",
+            "outcome": "accessible",
+            "method": "Official page content opened and reviewed",
+            "notes": "The Italian page explicitly gives the 2027/28 opening month, four selection rounds from February to July 2027, and September 2027 start; exact application dates are not published."
+          }
+        },
+        {
+          "id": "SRC-UNIBO-BBS-GMBA-2026-2027-SHEET",
+          "title": "Global Master in Business Administration – official 2026/27 programme sheet",
+          "url": "https://www.unibo.it/en/study/phd-professional-masters-specialisation-schools-and-other-programmes/professional-master/2026-2027/attachments/call-for-application-in-global-master-in-business-administration/data-sheet-of-the-professional-masters-programme-in-global-master-in-business-administration/@@download/file/SCHEDA%20MASTER%20GLOBAL%20MBA%20A.A.%202026-2027_EN.pdf",
+          "source_type": "Official University of Bologna 2026/27 professional-master programme-sheet PDF",
+          "cycle": "2026-2027",
+          "accessed_at": "2026-11-11",
+          "evidence": "This official sheet is explicitly for AY 2026/27 (programme code 8881), not 2027/28. It identifies Global Master in Business Administration as a first-level professional master's, with an AI and Manufacturing concentration, English teaching in Bologna, annual duration and 60 ECTS. It records 2026/27 application windows, a €60 selection fee, €35,000 tuition, merit-based reduced-fee bands/waiver, eligibility and selection details. All dates, amounts and terms from this sheet are retained as historical 2026/27 facts only.",
+          "supports": [
+            "program.previous_cycle_2026_2027_offer",
+            "program.previous_cycle_2026_2027_application_windows",
+            "program.previous_cycle_2026_2027_application_fee",
+            "program.previous_cycle_2026_2027_tuition",
+            "program.previous_cycle_2026_2027_reduced_fees",
+            "program.previous_cycle_2026_2027_requirements",
+            "program.previous_cycle_2026_2027_selection",
+            "program.previous_cycle_2026_2027_places"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.unibo.it/en/study/phd-professional-masters-specialisation-schools-and-other-programmes/professional-master/2026-2027/attachments/call-for-application-in-global-master-in-business-administration/data-sheet-of-the-professional-masters-programme-in-global-master-in-business-administration/@@download/file/SCHEDA%20MASTER%20GLOBAL%20MBA%20A.A.%202026-2027_EN.pdf",
+            "content_type": "application/pdf",
+            "content_length_header": "380075",
+            "etag": null,
+            "last_modified": "Fri, 19 Dec 2025 13:44:31 GMT",
+            "cache_control": "max-age=0, s-maxage=0, must-revalidate",
+            "age": "38",
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": null,
+            "pdf_signature": true,
+            "has_2027_marker": null,
+            "bytes_read": 380075,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache; full PDF fetched (Python urllib)"
+          },
+          "browser_check": {
+            "checked_at": "2026-11-11",
+            "outcome": "accessible",
+            "method": "Official PDF text opened and reviewed",
+            "notes": "This sheet explicitly belongs to AY 2026/27. Its fee, deadlines, requirements and selection details are retained only as historical prior-cycle facts."
+          }
         }
       ],
       "availability_2027_2028": {
         "value": true,
         "status": "CONFIRMED",
         "source_ids": [
-          "SRC-UNIBO-BBS-AI-MFG-2027"
+          "SRC-UNIBO-BBS-AI-MFG-2027",
+          "SRC-UNIBO-BBS-AI-MFG-2027-IT"
         ],
-        "notes": "BBS states applications open in December 2026 for the 2027/28 intake; selections begin February and the programme starts September 2027."
+        "notes": "The active BBS page explicitly announces the 2027/28 intake, applications opening in December 2026, selection rounds in February–July 2027 and a September 2027 start."
       },
-      "existing_overall_status": "REQUIRES_VERIFICATION",
-      "existing_last_checked": "2026-11-10",
+      "existing_overall_status": "CONFIRMED",
+      "existing_last_checked": "2026-11-11",
       "fields_needing_review": [
         {
           "field": "facts.application_deadline",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28; the BBS page says detailed instructions will be published later.",
+          "notes": "Not yet announced for 2027/28. The live page says the annual call and application instructions will be published later.",
           "source_ids": [
-            "SRC-UNIBO-BBS-AI-MFG-2027"
+            "SRC-UNIBO-BBS-AI-MFG-2027",
+            "SRC-UNIBO-BBS-AI-MFG-2027-IT"
           ]
         },
         {
           "field": "facts.application_fee_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the official programme page reviewed.",
+          "notes": "The current page displays a €60 fee without a 2027/28 label; confirm the new-cycle amount in the forthcoming call.",
           "source_ids": [
-            "SRC-UNIBO-BBS-AI-MFG-2027"
+            "SRC-UNIBO-BBS-AI-MFG-2027",
+            "SRC-UNIBO-BBS-AI-MFG-2027-IT"
           ]
         },
         {
           "field": "facts.program_specific_requirements_2027_2028",
-          "status": "NOT_YET_PUBLISHED",
+          "status": "REQUIRES_VERIFICATION",
           "value": null,
-          "notes": "The page describes selection by academic profile, tests and interview, but the detailed 2027/28 notice has not yet been published.",
+          "notes": "The live page shows general requirements but does not label them for 2027/28 and says the annual call and detailed instructions will be published later. Verify the threshold and any changes in that call.",
           "source_ids": [
-            "SRC-UNIBO-BBS-AI-MFG-2027"
+            "SRC-UNIBO-BBS-AI-MFG-2027",
+            "SRC-UNIBO-BBS-AI-MFG-2027-IT"
           ]
         },
         {
           "field": "facts.tuition_2027_2028",
-          "status": "NOT_YET_PUBLISHED",
+          "status": "REQUIRES_VERIFICATION",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the official programme page reviewed.",
+          "notes": "The current page displays €35,000 without a 2027/28 label. The new-cycle tuition must be confirmed in the forthcoming call.",
           "source_ids": [
-            "SRC-UNIBO-BBS-AI-MFG-2027"
+            "SRC-UNIBO-BBS-AI-MFG-2027",
+            "SRC-UNIBO-BBS-AI-MFG-2027-IT"
           ]
         },
         {
           "field": "facts.scholarships_2027_2028",
-          "status": "NOT_YET_PUBLISHED",
+          "status": "REQUIRES_VERIFICATION",
           "value": null,
-          "notes": "The programme page says high-ranking candidates may be eligible for a scholarship, but 2027/28 award amount and terms are not published.",
+          "notes": "The current BBS page describes general merit scholarships but does not state cycle-specific 2027/28 amounts or terms; verify the forthcoming call.",
           "source_ids": [
-            "SRC-UNIBO-BBS-AI-MFG-2027"
+            "SRC-UNIBO-BBS-AI-MFG-2027",
+            "SRC-UNIBO-BBS-AI-MFG-2027-IT"
           ]
         },
         {
           "field": "facts.acceptance_rate",
           "status": "UNAVAILABLE",
           "value": null,
-          "notes": "The programme page does not publish the applicant denominator and admitted count; no acceptance rate is inferred.",
+          "notes": "The programme page does not publish applicant and admitted counts; no acceptance rate is inferred.",
           "source_ids": [
             "SRC-UNIBO-BBS-AI-MFG-2027"
           ]
@@ -65758,52 +66015,57 @@
           "field": "facts.application_deadline",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28; the BBS page says detailed instructions will be published later.",
+          "notes": "Not yet announced for 2027/28. The live page says the annual call and application instructions will be published later.",
           "source_ids": [
-            "SRC-UNIBO-BBS-AI-MFG-2027"
+            "SRC-UNIBO-BBS-AI-MFG-2027",
+            "SRC-UNIBO-BBS-AI-MFG-2027-IT"
           ]
         },
         {
           "field": "facts.application_fee_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the official programme page reviewed.",
+          "notes": "The current page displays a €60 fee without a 2027/28 label; confirm the new-cycle amount in the forthcoming call.",
           "source_ids": [
-            "SRC-UNIBO-BBS-AI-MFG-2027"
+            "SRC-UNIBO-BBS-AI-MFG-2027",
+            "SRC-UNIBO-BBS-AI-MFG-2027-IT"
           ]
         },
         {
           "field": "facts.program_specific_requirements_2027_2028",
-          "status": "NOT_YET_PUBLISHED",
+          "status": "REQUIRES_VERIFICATION",
           "value": null,
-          "notes": "The page describes selection by academic profile, tests and interview, but the detailed 2027/28 notice has not yet been published.",
+          "notes": "The live page shows general requirements but does not label them for 2027/28 and says the annual call and detailed instructions will be published later. Verify the threshold and any changes in that call.",
           "source_ids": [
-            "SRC-UNIBO-BBS-AI-MFG-2027"
+            "SRC-UNIBO-BBS-AI-MFG-2027",
+            "SRC-UNIBO-BBS-AI-MFG-2027-IT"
           ]
         },
         {
           "field": "facts.tuition_2027_2028",
-          "status": "NOT_YET_PUBLISHED",
+          "status": "REQUIRES_VERIFICATION",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the official programme page reviewed.",
+          "notes": "The current page displays €35,000 without a 2027/28 label. The new-cycle tuition must be confirmed in the forthcoming call.",
           "source_ids": [
-            "SRC-UNIBO-BBS-AI-MFG-2027"
+            "SRC-UNIBO-BBS-AI-MFG-2027",
+            "SRC-UNIBO-BBS-AI-MFG-2027-IT"
           ]
         },
         {
           "field": "facts.scholarships_2027_2028",
-          "status": "NOT_YET_PUBLISHED",
+          "status": "REQUIRES_VERIFICATION",
           "value": null,
-          "notes": "The programme page says high-ranking candidates may be eligible for a scholarship, but 2027/28 award amount and terms are not published.",
+          "notes": "The current BBS page describes general merit scholarships but does not state cycle-specific 2027/28 amounts or terms; verify the forthcoming call.",
           "source_ids": [
-            "SRC-UNIBO-BBS-AI-MFG-2027"
+            "SRC-UNIBO-BBS-AI-MFG-2027",
+            "SRC-UNIBO-BBS-AI-MFG-2027-IT"
           ]
         },
         {
           "field": "facts.acceptance_rate",
           "status": "UNAVAILABLE",
           "value": null,
-          "notes": "The programme page does not publish the applicant denominator and admitted count; no acceptance rate is inferred.",
+          "notes": "The programme page does not publish applicant and admitted counts; no acceptance rate is inferred.",
           "source_ids": [
             "SRC-UNIBO-BBS-AI-MFG-2027"
           ]
@@ -65812,6 +66074,8 @@
       "known_source_conflicts": [],
       "source_ids": [
         "SRC-UNIBO-BBS-AI-MFG-2027",
+        "SRC-UNIBO-BBS-AI-MFG-2027-IT",
+        "SRC-UNIBO-BBS-GMBA-2026-2027-SHEET",
         "SRC-UNIBO-AI-MFG-2026-27-MASTER"
       ],
       "previous_cycle_tags": null,
@@ -73525,6 +73789,44 @@
           }
         },
         {
+          "id": "SRC-CAMERINO-FOREIGN-FEES",
+          "title": "Fees for foreign students",
+          "url": "https://miiscrivo.unicam.it/fees-foreign-students",
+          "source_type": "Official foreign-student tuition guidance",
+          "cycle": "general",
+          "accessed_at": "2026-11-11",
+          "evidence": "The previous www subdomain returned a TLS hostname mismatch; the official canonical non-www URL returned HTTP 200 on 11 November 2026 (100,884 bytes). The undated page describes ISEE-U equalised assessment for specified foreign applicants, fixed annual fees of €200 for students from designated particularly poor/developing countries and €300 for other non-OECD countries outside that list, with regional tax and stamp duty added. It also displays a €6,876 all-inclusive package and says €720 plus €156 for tax/stamp are paid at registration; the package composition is ambiguous. The page response Date was 10 November 2026 and Cache-Control was max-age=900, public, so these are undated displayed terms, not confirmed 2027/28 fees.",
+          "supports": [
+            "university.foreign_student_fee_framework",
+            "university.previous_cycle_tuition",
+            "program.current_foreign_student_fee_guidance"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://miiscrivo.unicam.it/fees-foreign-students",
+            "content_type": "text/html; charset=UTF-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": "max-age=900, public",
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": null,
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 100884,
+            "outcome": "accessible",
+            "error": null,
+            "retried": true,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (Python urllib; canonical non-www host)"
+          },
+          "browser_check": null
+        },
+        {
           "id": "SRC-CAMERINO-WELCOMEIN-MSC-2026",
           "title": "WELCOMEINUNICAM scholarships for two-year Master’s students 2026/27",
           "url": "https://www.unicam.it/avvisi/41688",
@@ -73685,48 +73987,6 @@
           }
         },
         {
-          "id": "SRC-CAMERINO-FOREIGN-FEES",
-          "title": "Fees for foreign students",
-          "url": "https://www.miiscrivo.unicam.it/fees-foreign-students",
-          "source_type": "Official foreign-student tuition guidance",
-          "cycle": "general",
-          "accessed_at": "2026-11-11",
-          "evidence": "The page describes income-based ISEE-U equalised assessment for specified foreign applicants, fixed annual fees of €200 for students from designated particularly poor/developing countries and €300 for non-OECD countries outside that list, with regional tax and stamp duty added. It also describes a €6,876 all-inclusive option. The page does not label these amounts with an academic year; do not treat them as 2027/28 fees.",
-          "supports": [
-            "university.foreign_student_fee_framework",
-            "university.previous_cycle_tuition"
-          ],
-          "refresh_status": "inconclusive",
-          "url_check": {
-            "http_status": null,
-            "effective_url": null,
-            "content_type": null,
-            "content_length_header": null,
-            "etag": null,
-            "last_modified": null,
-            "cache_control": null,
-            "age": null,
-            "x_vercel_cache": null,
-            "x_vercel_id": null,
-            "location": null,
-            "observed_title": null,
-            "pdf_signature": null,
-            "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.miiscrivo.unicam.it'. (_ssl.c:1007)",
-            "retried": true,
-            "checked_at": "2026-11-11",
-            "method": "GET"
-          },
-          "browser_check": {
-            "checked_at": "2026-11-11",
-            "outcome": "inconclusive",
-            "method": "Codex web reader open and official-domain search",
-            "notes": "The official search index returned a snippet for this page, but a direct web-reader open timed out. This is not a fresh HTTP verification; the independent GET failed TLS hostname validation, so reachability remains inconclusive."
-          }
-        },
-        {
           "id": "SRC-CAMERINO-TUITION-2026",
           "title": "University tuition and student contributions 2026/27",
           "url": "https://www.unicam.it/laureato/segreterie-studenti/tasse",
@@ -73775,7 +74035,7 @@
         "notes": "The reviewed official course list/profile and international pre-admission information are general or for 2026/27. No 2027/28 first-year intake for this course was identified; no cancellation is inferred."
       },
       "existing_overall_status": "REQUIRES_VERIFICATION",
-      "existing_last_checked": "2026-11-09",
+      "existing_last_checked": "2026-11-11",
       "fields_needing_review": [
         {
           "field": "level",
@@ -73846,7 +74106,7 @@
           "field": "facts.tuition_2027_2028",
           "status": "REQUIRES_VERIFICATION",
           "value": null,
-          "notes": "The reviewed foreign-fee page is not cycle-labelled and the published all-inclusive package is for 2026/27; no 2027/28 amount or package is confirmed.",
+          "notes": "The canonical foreign-student fee page was directly reached on 11 November 2026. It contains undated general fee guidance and a €6,876 package display with ambiguous composition; the separate named package source is for 2026/27. No 2027/28 course tuition schedule or package is confirmed.",
           "source_ids": [
             "SRC-CAMERINO-FOREIGN-FEES",
             "SRC-CAMERINO-ALLIN-2026",
@@ -73941,7 +74201,7 @@
           "field": "facts.tuition_2027_2028",
           "status": "REQUIRES_VERIFICATION",
           "value": null,
-          "notes": "The reviewed foreign-fee page is not cycle-labelled and the published all-inclusive package is for 2026/27; no 2027/28 amount or package is confirmed.",
+          "notes": "The canonical foreign-student fee page was directly reached on 11 November 2026. It contains undated general fee guidance and a €6,876 package display with ambiguous composition; the separate named package source is for 2026/27. No 2027/28 course tuition schedule or package is confirmed.",
           "source_ids": [
             "SRC-CAMERINO-FOREIGN-FEES",
             "SRC-CAMERINO-ALLIN-2026",
@@ -74219,6 +74479,44 @@
           }
         },
         {
+          "id": "SRC-CAMERINO-FOREIGN-FEES",
+          "title": "Fees for foreign students",
+          "url": "https://miiscrivo.unicam.it/fees-foreign-students",
+          "source_type": "Official foreign-student tuition guidance",
+          "cycle": "general",
+          "accessed_at": "2026-11-11",
+          "evidence": "The previous www subdomain returned a TLS hostname mismatch; the official canonical non-www URL returned HTTP 200 on 11 November 2026 (100,884 bytes). The undated page describes ISEE-U equalised assessment for specified foreign applicants, fixed annual fees of €200 for students from designated particularly poor/developing countries and €300 for other non-OECD countries outside that list, with regional tax and stamp duty added. It also displays a €6,876 all-inclusive package and says €720 plus €156 for tax/stamp are paid at registration; the package composition is ambiguous. The page response Date was 10 November 2026 and Cache-Control was max-age=900, public, so these are undated displayed terms, not confirmed 2027/28 fees.",
+          "supports": [
+            "university.foreign_student_fee_framework",
+            "university.previous_cycle_tuition",
+            "program.current_foreign_student_fee_guidance"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://miiscrivo.unicam.it/fees-foreign-students",
+            "content_type": "text/html; charset=UTF-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": "max-age=900, public",
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": null,
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 100884,
+            "outcome": "accessible",
+            "error": null,
+            "retried": true,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (Python urllib; canonical non-www host)"
+          },
+          "browser_check": null
+        },
+        {
           "id": "SRC-CAMERINO-WELCOMEIN-MSC-2026",
           "title": "WELCOMEINUNICAM scholarships for two-year Master’s students 2026/27",
           "url": "https://www.unicam.it/avvisi/41688",
@@ -74379,48 +74677,6 @@
           }
         },
         {
-          "id": "SRC-CAMERINO-FOREIGN-FEES",
-          "title": "Fees for foreign students",
-          "url": "https://www.miiscrivo.unicam.it/fees-foreign-students",
-          "source_type": "Official foreign-student tuition guidance",
-          "cycle": "general",
-          "accessed_at": "2026-11-11",
-          "evidence": "The page describes income-based ISEE-U equalised assessment for specified foreign applicants, fixed annual fees of €200 for students from designated particularly poor/developing countries and €300 for non-OECD countries outside that list, with regional tax and stamp duty added. It also describes a €6,876 all-inclusive option. The page does not label these amounts with an academic year; do not treat them as 2027/28 fees.",
-          "supports": [
-            "university.foreign_student_fee_framework",
-            "university.previous_cycle_tuition"
-          ],
-          "refresh_status": "inconclusive",
-          "url_check": {
-            "http_status": null,
-            "effective_url": null,
-            "content_type": null,
-            "content_length_header": null,
-            "etag": null,
-            "last_modified": null,
-            "cache_control": null,
-            "age": null,
-            "x_vercel_cache": null,
-            "x_vercel_id": null,
-            "location": null,
-            "observed_title": null,
-            "pdf_signature": null,
-            "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.miiscrivo.unicam.it'. (_ssl.c:1007)",
-            "retried": true,
-            "checked_at": "2026-11-11",
-            "method": "GET"
-          },
-          "browser_check": {
-            "checked_at": "2026-11-11",
-            "outcome": "inconclusive",
-            "method": "Codex web reader open and official-domain search",
-            "notes": "The official search index returned a snippet for this page, but a direct web-reader open timed out. This is not a fresh HTTP verification; the independent GET failed TLS hostname validation, so reachability remains inconclusive."
-          }
-        },
-        {
           "id": "SRC-CAMERINO-TUITION-2026",
           "title": "University tuition and student contributions 2026/27",
           "url": "https://www.unicam.it/laureato/segreterie-studenti/tasse",
@@ -74469,7 +74725,7 @@
         "notes": "The reviewed official course list/profile and international pre-admission information are general or for 2026/27. No 2027/28 first-year intake for this course was identified; no cancellation is inferred."
       },
       "existing_overall_status": "REQUIRES_VERIFICATION",
-      "existing_last_checked": "2026-11-09",
+      "existing_last_checked": "2026-11-11",
       "fields_needing_review": [
         {
           "field": "level",
@@ -74540,7 +74796,7 @@
           "field": "facts.tuition_2027_2028",
           "status": "REQUIRES_VERIFICATION",
           "value": null,
-          "notes": "The reviewed foreign-fee page is not cycle-labelled and the published all-inclusive package is for 2026/27; no 2027/28 amount or package is confirmed.",
+          "notes": "The canonical foreign-student fee page was directly reached on 11 November 2026. It contains undated general fee guidance and a €6,876 package display with ambiguous composition; the separate named package source is for 2026/27. No 2027/28 course tuition schedule or package is confirmed.",
           "source_ids": [
             "SRC-CAMERINO-FOREIGN-FEES",
             "SRC-CAMERINO-ALLIN-2026",
@@ -74627,7 +74883,7 @@
           "field": "facts.tuition_2027_2028",
           "status": "REQUIRES_VERIFICATION",
           "value": null,
-          "notes": "The reviewed foreign-fee page is not cycle-labelled and the published all-inclusive package is for 2026/27; no 2027/28 amount or package is confirmed.",
+          "notes": "The canonical foreign-student fee page was directly reached on 11 November 2026. It contains undated general fee guidance and a €6,876 package display with ambiguous composition; the separate named package source is for 2026/27. No 2027/28 course tuition schedule or package is confirmed.",
           "source_ids": [
             "SRC-CAMERINO-FOREIGN-FEES",
             "SRC-CAMERINO-ALLIN-2026",
@@ -74898,6 +75154,44 @@
           }
         },
         {
+          "id": "SRC-CAMERINO-FOREIGN-FEES",
+          "title": "Fees for foreign students",
+          "url": "https://miiscrivo.unicam.it/fees-foreign-students",
+          "source_type": "Official foreign-student tuition guidance",
+          "cycle": "general",
+          "accessed_at": "2026-11-11",
+          "evidence": "The previous www subdomain returned a TLS hostname mismatch; the official canonical non-www URL returned HTTP 200 on 11 November 2026 (100,884 bytes). The undated page describes ISEE-U equalised assessment for specified foreign applicants, fixed annual fees of €200 for students from designated particularly poor/developing countries and €300 for other non-OECD countries outside that list, with regional tax and stamp duty added. It also displays a €6,876 all-inclusive package and says €720 plus €156 for tax/stamp are paid at registration; the package composition is ambiguous. The page response Date was 10 November 2026 and Cache-Control was max-age=900, public, so these are undated displayed terms, not confirmed 2027/28 fees.",
+          "supports": [
+            "university.foreign_student_fee_framework",
+            "university.previous_cycle_tuition",
+            "program.current_foreign_student_fee_guidance"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://miiscrivo.unicam.it/fees-foreign-students",
+            "content_type": "text/html; charset=UTF-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": "max-age=900, public",
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": null,
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 100884,
+            "outcome": "accessible",
+            "error": null,
+            "retried": true,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (Python urllib; canonical non-www host)"
+          },
+          "browser_check": null
+        },
+        {
           "id": "SRC-CAMERINO-WELCOMEIN-MSC-2026",
           "title": "WELCOMEINUNICAM scholarships for two-year Master’s students 2026/27",
           "url": "https://www.unicam.it/avvisi/41688",
@@ -75058,48 +75352,6 @@
           }
         },
         {
-          "id": "SRC-CAMERINO-FOREIGN-FEES",
-          "title": "Fees for foreign students",
-          "url": "https://www.miiscrivo.unicam.it/fees-foreign-students",
-          "source_type": "Official foreign-student tuition guidance",
-          "cycle": "general",
-          "accessed_at": "2026-11-11",
-          "evidence": "The page describes income-based ISEE-U equalised assessment for specified foreign applicants, fixed annual fees of €200 for students from designated particularly poor/developing countries and €300 for non-OECD countries outside that list, with regional tax and stamp duty added. It also describes a €6,876 all-inclusive option. The page does not label these amounts with an academic year; do not treat them as 2027/28 fees.",
-          "supports": [
-            "university.foreign_student_fee_framework",
-            "university.previous_cycle_tuition"
-          ],
-          "refresh_status": "inconclusive",
-          "url_check": {
-            "http_status": null,
-            "effective_url": null,
-            "content_type": null,
-            "content_length_header": null,
-            "etag": null,
-            "last_modified": null,
-            "cache_control": null,
-            "age": null,
-            "x_vercel_cache": null,
-            "x_vercel_id": null,
-            "location": null,
-            "observed_title": null,
-            "pdf_signature": null,
-            "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.miiscrivo.unicam.it'. (_ssl.c:1007)",
-            "retried": true,
-            "checked_at": "2026-11-11",
-            "method": "GET"
-          },
-          "browser_check": {
-            "checked_at": "2026-11-11",
-            "outcome": "inconclusive",
-            "method": "Codex web reader open and official-domain search",
-            "notes": "The official search index returned a snippet for this page, but a direct web-reader open timed out. This is not a fresh HTTP verification; the independent GET failed TLS hostname validation, so reachability remains inconclusive."
-          }
-        },
-        {
           "id": "SRC-CAMERINO-TUITION-2026",
           "title": "University tuition and student contributions 2026/27",
           "url": "https://www.unicam.it/laureato/segreterie-studenti/tasse",
@@ -75148,7 +75400,7 @@
         "notes": "The reviewed official course list/profile and international pre-admission information are general or for 2026/27. No 2027/28 first-year intake for this course was identified; no cancellation is inferred."
       },
       "existing_overall_status": "REQUIRES_VERIFICATION",
-      "existing_last_checked": "2026-11-09",
+      "existing_last_checked": "2026-11-11",
       "fields_needing_review": [
         {
           "field": "level",
@@ -75219,7 +75471,7 @@
           "field": "facts.tuition_2027_2028",
           "status": "REQUIRES_VERIFICATION",
           "value": null,
-          "notes": "The reviewed foreign-fee page is not cycle-labelled and the published all-inclusive package is for 2026/27; no 2027/28 amount or package is confirmed.",
+          "notes": "The canonical foreign-student fee page was directly reached on 11 November 2026. It contains undated general fee guidance and a €6,876 package display with ambiguous composition; the separate named package source is for 2026/27. No 2027/28 course tuition schedule or package is confirmed.",
           "source_ids": [
             "SRC-CAMERINO-FOREIGN-FEES",
             "SRC-CAMERINO-ALLIN-2026",
@@ -75299,7 +75551,7 @@
           "field": "facts.tuition_2027_2028",
           "status": "REQUIRES_VERIFICATION",
           "value": null,
-          "notes": "The reviewed foreign-fee page is not cycle-labelled and the published all-inclusive package is for 2026/27; no 2027/28 amount or package is confirmed.",
+          "notes": "The canonical foreign-student fee page was directly reached on 11 November 2026. It contains undated general fee guidance and a €6,876 package display with ambiguous composition; the separate named package source is for 2026/27. No 2027/28 course tuition schedule or package is confirmed.",
           "source_ids": [
             "SRC-CAMERINO-FOREIGN-FEES",
             "SRC-CAMERINO-ALLIN-2026",
@@ -75562,6 +75814,44 @@
           }
         },
         {
+          "id": "SRC-CAMERINO-FOREIGN-FEES",
+          "title": "Fees for foreign students",
+          "url": "https://miiscrivo.unicam.it/fees-foreign-students",
+          "source_type": "Official foreign-student tuition guidance",
+          "cycle": "general",
+          "accessed_at": "2026-11-11",
+          "evidence": "The previous www subdomain returned a TLS hostname mismatch; the official canonical non-www URL returned HTTP 200 on 11 November 2026 (100,884 bytes). The undated page describes ISEE-U equalised assessment for specified foreign applicants, fixed annual fees of €200 for students from designated particularly poor/developing countries and €300 for other non-OECD countries outside that list, with regional tax and stamp duty added. It also displays a €6,876 all-inclusive package and says €720 plus €156 for tax/stamp are paid at registration; the package composition is ambiguous. The page response Date was 10 November 2026 and Cache-Control was max-age=900, public, so these are undated displayed terms, not confirmed 2027/28 fees.",
+          "supports": [
+            "university.foreign_student_fee_framework",
+            "university.previous_cycle_tuition",
+            "program.current_foreign_student_fee_guidance"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://miiscrivo.unicam.it/fees-foreign-students",
+            "content_type": "text/html; charset=UTF-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": "max-age=900, public",
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": null,
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 100884,
+            "outcome": "accessible",
+            "error": null,
+            "retried": true,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (Python urllib; canonical non-www host)"
+          },
+          "browser_check": null
+        },
+        {
           "id": "SRC-CAMERINO-WELCOMEIN-MSC-2026",
           "title": "WELCOMEINUNICAM scholarships for two-year Master’s students 2026/27",
           "url": "https://www.unicam.it/avvisi/41688",
@@ -75722,48 +76012,6 @@
           }
         },
         {
-          "id": "SRC-CAMERINO-FOREIGN-FEES",
-          "title": "Fees for foreign students",
-          "url": "https://www.miiscrivo.unicam.it/fees-foreign-students",
-          "source_type": "Official foreign-student tuition guidance",
-          "cycle": "general",
-          "accessed_at": "2026-11-11",
-          "evidence": "The page describes income-based ISEE-U equalised assessment for specified foreign applicants, fixed annual fees of €200 for students from designated particularly poor/developing countries and €300 for non-OECD countries outside that list, with regional tax and stamp duty added. It also describes a €6,876 all-inclusive option. The page does not label these amounts with an academic year; do not treat them as 2027/28 fees.",
-          "supports": [
-            "university.foreign_student_fee_framework",
-            "university.previous_cycle_tuition"
-          ],
-          "refresh_status": "inconclusive",
-          "url_check": {
-            "http_status": null,
-            "effective_url": null,
-            "content_type": null,
-            "content_length_header": null,
-            "etag": null,
-            "last_modified": null,
-            "cache_control": null,
-            "age": null,
-            "x_vercel_cache": null,
-            "x_vercel_id": null,
-            "location": null,
-            "observed_title": null,
-            "pdf_signature": null,
-            "has_2027_marker": null,
-            "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.miiscrivo.unicam.it'. (_ssl.c:1007)",
-            "retried": true,
-            "checked_at": "2026-11-11",
-            "method": "GET"
-          },
-          "browser_check": {
-            "checked_at": "2026-11-11",
-            "outcome": "inconclusive",
-            "method": "Codex web reader open and official-domain search",
-            "notes": "The official search index returned a snippet for this page, but a direct web-reader open timed out. This is not a fresh HTTP verification; the independent GET failed TLS hostname validation, so reachability remains inconclusive."
-          }
-        },
-        {
           "id": "SRC-CAMERINO-TUITION-2026",
           "title": "University tuition and student contributions 2026/27",
           "url": "https://www.unicam.it/laureato/segreterie-studenti/tasse",
@@ -75812,7 +76060,7 @@
         "notes": "The reviewed official course list/profile and international pre-admission information are general or for 2026/27. No 2027/28 first-year intake for this course was identified; no cancellation is inferred."
       },
       "existing_overall_status": "REQUIRES_VERIFICATION",
-      "existing_last_checked": "2026-11-09",
+      "existing_last_checked": "2026-11-11",
       "fields_needing_review": [
         {
           "field": "level",
@@ -75883,7 +76131,7 @@
           "field": "facts.tuition_2027_2028",
           "status": "REQUIRES_VERIFICATION",
           "value": null,
-          "notes": "The reviewed foreign-fee page is not cycle-labelled and the published all-inclusive package is for 2026/27; no 2027/28 amount or package is confirmed.",
+          "notes": "The canonical foreign-student fee page was directly reached on 11 November 2026. It contains undated general fee guidance and a €6,876 package display with ambiguous composition; the separate named package source is for 2026/27. No 2027/28 course tuition schedule or package is confirmed.",
           "source_ids": [
             "SRC-CAMERINO-FOREIGN-FEES",
             "SRC-CAMERINO-ALLIN-2026",
@@ -75937,7 +76185,7 @@
           "field": "facts.tuition_2027_2028",
           "status": "REQUIRES_VERIFICATION",
           "value": null,
-          "notes": "The reviewed foreign-fee page is not cycle-labelled and the published all-inclusive package is for 2026/27; no 2027/28 amount or package is confirmed.",
+          "notes": "The canonical foreign-student fee page was directly reached on 11 November 2026. It contains undated general fee guidance and a €6,876 package display with ambiguous composition; the separate named package source is for 2026/27. No 2027/28 course tuition schedule or package is confirmed.",
           "source_ids": [
             "SRC-CAMERINO-FOREIGN-FEES",
             "SRC-CAMERINO-ALLIN-2026",
@@ -125705,44 +125953,40 @@
     {
       "id": "SRC-CAMERINO-FOREIGN-FEES",
       "title": "Fees for foreign students",
-      "url": "https://www.miiscrivo.unicam.it/fees-foreign-students",
+      "url": "https://miiscrivo.unicam.it/fees-foreign-students",
       "source_type": "Official foreign-student tuition guidance",
       "cycle": "general",
       "accessed_at": "2026-11-11",
-      "evidence": "The page describes income-based ISEE-U equalised assessment for specified foreign applicants, fixed annual fees of €200 for students from designated particularly poor/developing countries and €300 for non-OECD countries outside that list, with regional tax and stamp duty added. It also describes a €6,876 all-inclusive option. The page does not label these amounts with an academic year; do not treat them as 2027/28 fees.",
+      "evidence": "The previous www subdomain returned a TLS hostname mismatch; the official canonical non-www URL returned HTTP 200 on 11 November 2026 (100,884 bytes). The undated page describes ISEE-U equalised assessment for specified foreign applicants, fixed annual fees of €200 for students from designated particularly poor/developing countries and €300 for other non-OECD countries outside that list, with regional tax and stamp duty added. It also displays a €6,876 all-inclusive package and says €720 plus €156 for tax/stamp are paid at registration; the package composition is ambiguous. The page response Date was 10 November 2026 and Cache-Control was max-age=900, public, so these are undated displayed terms, not confirmed 2027/28 fees.",
       "supports": [
         "university.foreign_student_fee_framework",
-        "university.previous_cycle_tuition"
+        "university.previous_cycle_tuition",
+        "program.current_foreign_student_fee_guidance"
       ],
-      "refresh_status": "inconclusive",
+      "refresh_status": "accessible",
       "url_check": {
-        "http_status": null,
-        "effective_url": null,
-        "content_type": null,
+        "http_status": 200,
+        "effective_url": "https://miiscrivo.unicam.it/fees-foreign-students",
+        "content_type": "text/html; charset=UTF-8",
         "content_length_header": null,
         "etag": null,
         "last_modified": null,
-        "cache_control": null,
+        "cache_control": "max-age=900, public",
         "age": null,
         "x_vercel_cache": null,
         "x_vercel_id": null,
         "location": null,
         "observed_title": null,
         "pdf_signature": null,
-        "has_2027_marker": null,
-        "bytes_read": 0,
-        "outcome": "inconclusive",
-        "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.miiscrivo.unicam.it'. (_ssl.c:1007)",
+        "has_2027_marker": false,
+        "bytes_read": 100884,
+        "outcome": "accessible",
+        "error": null,
         "retried": true,
         "checked_at": "2026-11-11",
-        "method": "GET"
+        "method": "GET with Cache-Control and Pragma no-cache (Python urllib; canonical non-www host)"
       },
-      "browser_check": {
-        "checked_at": "2026-11-11",
-        "outcome": "inconclusive",
-        "method": "Codex web reader open and official-domain search",
-        "notes": "The official search index returned a snippet for this page, but a direct web-reader open timed out. This is not a fresh HTTP verification; the independent GET failed TLS hostname validation, so reachability remains inconclusive."
-      }
+      "browser_check": null
     },
     {
       "id": "SRC-CAMERINO-ALLIN-2026",
@@ -136792,15 +137036,19 @@
       "url": "https://www.bbs.unibo.it/en/global-mba/ai-and-manufacturing-2/",
       "source_type": "Official Bologna Business School programme page",
       "cycle": "2027-2028",
-      "accessed_at": "2026-11-10",
-      "evidence": "The official BBS page states applications for AY 2027/28 open in December 2026, selection begins February 2027, and the programme starts September 2027. It describes a 12-month full-time English-language Global MBA and identifies AI and Manufacturing as the track; it is not a standard two-year Laurea Magistrale.",
+      "accessed_at": "2026-11-11",
+      "evidence": "A fresh direct GET on 11 November 2026 returned HTTP 200 (199,753 bytes; title: Master AI and Manufacturing (MBA) | BBS Italy). The current BBS page identifies the 12-month, full-time, English-language Global MBA and its AI and Manufacturing concentration, and displays the 2027/28 intake. It says applications open in December 2026 and selection takes place in four rounds from February to July 2027, with a September 2027 start. Current page terms also display a €35,000 tuition amount, a €60 application fee, general requirements (a Bachelor's degree, English proficiency and three years of qualified work experience), and merit scholarships; those terms are not labelled for 2027/28, and the annual call is still forthcoming.",
       "supports": [
         "program.availability",
         "program.name",
         "program.level",
         "program.language",
         "program.application_windows",
-        "program.program_type"
+        "program.program_type",
+        "program.current_published_application_fee",
+        "program.current_published_tuition",
+        "program.current_published_requirements",
+        "program.current_published_scholarships"
       ],
       "refresh_status": "accessible",
       "url_check": {
@@ -136818,13 +137066,150 @@
         "observed_title": "Master AI and Manufacturing (MBA) | BBS Italy",
         "pdf_signature": null,
         "has_2027_marker": true,
-        "bytes_read": 131072,
+        "bytes_read": 199753,
         "outcome": "accessible",
         "error": null,
-        "checked_at": "2026-11-10",
-        "method": "GET"
+        "checked_at": "2026-11-11",
+        "method": "GET with Cache-Control and Pragma no-cache (Python urllib)"
       },
-      "browser_check": null
+      "browser_check": {
+        "checked_at": "2026-11-11",
+        "outcome": "accessible",
+        "method": "Official page content opened and reviewed",
+        "notes": "The current page displays the 2027/28 schedule and the current unlabelled fee, requirements and scholarship information; the annual call is still forthcoming."
+      }
+    },
+    {
+      "id": "SRC-UNIBO-BBS-AI-MFG-2027-IT",
+      "title": "Global MBA in AI and Manufacturing – 2027/28 Italian admissions schedule",
+      "url": "https://www.bbs.unibo.it/global-mba/ai-and-manufacturing/",
+      "source_type": "Official Bologna Business School Italian programme and admissions page",
+      "cycle": "2027-2028",
+      "accessed_at": "2026-11-11",
+      "evidence": "A fresh direct GET on 11 November 2026 returned HTTP 200 (200,419 bytes; title: Master AI & Manufacturing: MBA in Artificial Intelligence e Robotica | BBS). The Italian page explicitly says applications for AY 2027/28 open in December 2026, selection is organised in four rounds between February and July 2027, and the programme starts in September 2027. No exact round-by-round application dates are given; the page says the annual call and instructions will be published later.",
+      "supports": [
+        "program.availability_2027_2028",
+        "program.application_windows",
+        "program.application_deadline"
+      ],
+      "refresh_status": "accessible",
+      "url_check": {
+        "http_status": 200,
+        "effective_url": "https://www.bbs.unibo.it/global-mba/ai-and-manufacturing/",
+        "content_type": "text/html; charset=UTF-8",
+        "content_length_header": null,
+        "etag": null,
+        "last_modified": null,
+        "cache_control": null,
+        "age": null,
+        "x_vercel_cache": null,
+        "x_vercel_id": null,
+        "location": null,
+        "observed_title": "Master AI & Manufacturing: MBA in Artificial Intelligence e Robotica | BBS",
+        "pdf_signature": null,
+        "has_2027_marker": true,
+        "bytes_read": 200419,
+        "outcome": "accessible",
+        "error": null,
+        "checked_at": "2026-11-11",
+        "method": "GET with Cache-Control and Pragma no-cache (Python urllib)"
+      },
+      "browser_check": {
+        "checked_at": "2026-11-11",
+        "outcome": "accessible",
+        "method": "Official page content opened and reviewed",
+        "notes": "The Italian page explicitly gives the 2027/28 opening month, four selection rounds from February to July 2027, and September 2027 start; exact application dates are not published."
+      }
+    },
+    {
+      "id": "SRC-UNIBO-BBS-GMBA-2026-2027-SHEET",
+      "title": "Global Master in Business Administration – official 2026/27 programme sheet",
+      "url": "https://www.unibo.it/en/study/phd-professional-masters-specialisation-schools-and-other-programmes/professional-master/2026-2027/attachments/call-for-application-in-global-master-in-business-administration/data-sheet-of-the-professional-masters-programme-in-global-master-in-business-administration/@@download/file/SCHEDA%20MASTER%20GLOBAL%20MBA%20A.A.%202026-2027_EN.pdf",
+      "source_type": "Official University of Bologna 2026/27 professional-master programme-sheet PDF",
+      "cycle": "2026-2027",
+      "accessed_at": "2026-11-11",
+      "evidence": "This official sheet is explicitly for AY 2026/27 (programme code 8881), not 2027/28. It identifies Global Master in Business Administration as a first-level professional master's, with an AI and Manufacturing concentration, English teaching in Bologna, annual duration and 60 ECTS. It records 2026/27 application windows, a €60 selection fee, €35,000 tuition, merit-based reduced-fee bands/waiver, eligibility and selection details. All dates, amounts and terms from this sheet are retained as historical 2026/27 facts only.",
+      "supports": [
+        "program.previous_cycle_2026_2027_offer",
+        "program.previous_cycle_2026_2027_application_windows",
+        "program.previous_cycle_2026_2027_application_fee",
+        "program.previous_cycle_2026_2027_tuition",
+        "program.previous_cycle_2026_2027_reduced_fees",
+        "program.previous_cycle_2026_2027_requirements",
+        "program.previous_cycle_2026_2027_selection",
+        "program.previous_cycle_2026_2027_places"
+      ],
+      "refresh_status": "accessible",
+      "url_check": {
+        "http_status": 200,
+        "effective_url": "https://www.unibo.it/en/study/phd-professional-masters-specialisation-schools-and-other-programmes/professional-master/2026-2027/attachments/call-for-application-in-global-master-in-business-administration/data-sheet-of-the-professional-masters-programme-in-global-master-in-business-administration/@@download/file/SCHEDA%20MASTER%20GLOBAL%20MBA%20A.A.%202026-2027_EN.pdf",
+        "content_type": "application/pdf",
+        "content_length_header": "380075",
+        "etag": null,
+        "last_modified": "Fri, 19 Dec 2025 13:44:31 GMT",
+        "cache_control": "max-age=0, s-maxage=0, must-revalidate",
+        "age": "38",
+        "x_vercel_cache": null,
+        "x_vercel_id": null,
+        "location": null,
+        "observed_title": null,
+        "pdf_signature": true,
+        "has_2027_marker": null,
+        "bytes_read": 380075,
+        "outcome": "accessible",
+        "error": null,
+        "checked_at": "2026-11-11",
+        "method": "GET with Cache-Control and Pragma no-cache; full PDF fetched (Python urllib)"
+      },
+      "browser_check": {
+        "checked_at": "2026-11-11",
+        "outcome": "accessible",
+        "method": "Official PDF text opened and reviewed",
+        "notes": "This sheet explicitly belongs to AY 2026/27. Its fee, deadlines, requirements and selection details are retained only as historical prior-cycle facts."
+      }
+    },
+    {
+      "id": "SRC-UNINA-QUANTUM-PROFILE-2026",
+      "title": "Quantum Science and Engineering – Department of Physics 2026/27 course page",
+      "url": "https://www.fisica.unina.it/corso-di-laurea-magistrale-in-quantum-science-and-engineering",
+      "source_type": "Official Federico II Department of Physics degree profile and timetable",
+      "cycle": "2026-2027",
+      "accessed_at": "2026-11-11",
+      "evidence": "A fresh direct GET on 11 November 2026 returned HTTP 200 (240,388 bytes; title: Corso di Laurea Magistrale in Quantum Science and Engineering | Dipartimento di Fisica). The official page identifies the LM-44 course as 120 CFU, states that it is entirely taught in English, shows the 2026/27 first-semester study plan, and gives a 14 September 2026 class start. It is prior-cycle course evidence only and does not confirm the 2027/28 first-year offer or admission rules.",
+      "supports": [
+        "program.previous_cycle_course_listing",
+        "program.previous_cycle_course_structure",
+        "program.previous_cycle_language",
+        "program.previous_cycle_start_date"
+      ],
+      "refresh_status": "accessible",
+      "url_check": {
+        "http_status": 200,
+        "effective_url": "https://www.fisica.unina.it/corso-di-laurea-magistrale-in-quantum-science-and-engineering",
+        "content_type": "text/html;charset=UTF-8",
+        "content_length_header": "240388",
+        "etag": "\"ec2f2733\"",
+        "last_modified": null,
+        "cache_control": null,
+        "age": null,
+        "x_vercel_cache": null,
+        "x_vercel_id": null,
+        "location": null,
+        "observed_title": "Corso di Laurea Magistrale in Quantum Science and Engineering | Dipartimento di Fisica",
+        "pdf_signature": null,
+        "has_2027_marker": true,
+        "bytes_read": 240388,
+        "outcome": "accessible",
+        "error": null,
+        "checked_at": "2026-11-11",
+        "method": "GET with Cache-Control and Pragma no-cache (Python urllib)"
+      },
+      "browser_check": {
+        "checked_at": "2026-11-11",
+        "outcome": "accessible",
+        "method": "Official Department page search result and direct GET",
+        "notes": "The current page shows the 2026/27 study plan and 14 September 2026 class start, and states the course is LM-44, 120 CFU and entirely English. It does not announce a 2027/28 first-year offer."
+      }
     },
     {
       "id": "SRC-UNIBO-BBS-GREEN-MGMT-2026",
@@ -140557,13 +140942,15 @@
       "url": "https://www.orientamento.unina.it/corsidistudio/quantum-science-and-engineering/",
       "source_type": "Official University orientation and degree profile",
       "cycle": "2025-2026",
-      "accessed_at": "2026-11-10",
-      "evidence": "The guide identifies QS&E as a two-year English-taught Master's, LM-44, with open admission and subject-credit requirements plus B2 English. The page says its current guide is for 2025/26; this does not establish 2026/27 or 2027/28 new-entry availability.",
+      "accessed_at": "2026-11-11",
+      "evidence": "A fresh direct GET with no-cache request headers returned HTTP 200 on 11 November 2026 (156,985 bytes; title: Quantum Science and Engineering – Orientamento). The official University guide explicitly says it is updated for AY 2025/26; it lists LM-44, two-year English delivery, open access, a first-cycle degree/equivalent, the curricular-credit thresholds and B2 English. Those requirements are retained only as 2025/26 historical guidance, not as 2026/27 or 2027/28 rules.",
       "supports": [
         "program.previous_cycle_course_listing",
         "program.previous_cycle_level",
         "program.previous_cycle_language",
-        "program.previous_cycle_program_requirements"
+        "program.previous_cycle_program_requirements",
+        "program.previous_cycle_2025_2026_admission_requirements",
+        "program.previous_cycle_2025_2026_english_requirement"
       ],
       "refresh_status": "accessible",
       "url_check": {
@@ -140581,11 +140968,11 @@
         "observed_title": "Quantum Science and Engineering – Orientamento",
         "pdf_signature": null,
         "has_2027_marker": false,
-        "bytes_read": 131072,
+        "bytes_read": 156985,
         "outcome": "accessible",
         "error": null,
         "checked_at": "2026-11-11",
-        "method": "GET"
+        "method": "GET with Cache-Control and Pragma no-cache (Python urllib)"
       },
       "browser_check": null
     },
@@ -144076,14 +144463,6 @@
     }
   ],
   "previously_inconclusive_url_checks": [
-    {
-      "source_id": "SRC-CAMERINO-FOREIGN-FEES",
-      "url": "https://www.miiscrivo.unicam.it/fees-foreign-students",
-      "direct_http_outcome": "inconclusive",
-      "browser_outcome": "inconclusive",
-      "direct_http_error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.miiscrivo.unicam.it'. (_ssl.c:1007)",
-      "note": "Direct HTTPS validation remained inconclusive; do not classify this URL as broken without browser verification."
-    },
     {
       "source_id": "SRC-PADOVA-PSYCHOLOGY-MSC-FULL-2026",
       "url": "https://www.psicologia.unipd.it/offerta-didattica/corsi-di-laurea-magistrale?tipo=LM",

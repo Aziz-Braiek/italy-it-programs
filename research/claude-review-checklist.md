@@ -2,7 +2,7 @@
 
 Prepared 2026-11-11 for academic year 2027/28. Review each record against official university pages, calls, portals, regulations, and PDFs.
 
-Snapshot inventory: 34 universities, 209 program records, 697 source records.
+Snapshot inventory: 34 universities, 209 program records, 700 source records.
 
 ## Review rules
 
@@ -27,6 +27,7 @@ Official university-level sources:
 
 - [ ] `SRC-UNINA-CHE-2027` — [Notice for International Students – AY 2027/2028, MSc Chemical Engineering](https://www.dicmapi.unina.it/ingegneria-chimica/notice-for-international-students-academic-year-2027-2028-msc-chemical-engineering/) (cycle: 2027-2028; checked in prior snapshot: 2026-11-09)
 - [ ] `SRC-UNINA-CHE-PROGRAM` — [Master’s Degree in Chemical Engineering](https://www.dicmapi.unina.it/mag_ingchim/masters-degree-in-chemical-engineering/?lang=en) (cycle: 2027-2028; checked in prior snapshot: 2026-11-09)
+- [ ] `SRC-UNINA-QUANTUM-PROFILE-2026` — [Quantum Science and Engineering – Department of Physics 2026/27 course page](https://www.fisica.unina.it/corso-di-laurea-magistrale-in-quantum-science-and-engineering) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-UNINA-COMPUTER-SCIENCE-2025` — [Computer Science – official programme overview](https://informatica.dieti.unina.it/index.php/en/degree-programs/degree-programs-overview) (cycle: 2025-2026; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-UNINA-DATA-SCIENCE-GUIDE-2026` — [Data Science – 2026/27 official student guide](https://www.orientamento.unina.it/corsidistudio/data-science-eng/) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-UNINA-DATA-SCIENCE-ADMISSIONS-2026` — [Data Science – official admission requirements](https://data-science.dieti.unina.it/index.php/studying-with-us/information-to-apply) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
@@ -36,7 +37,7 @@ Official university-level sources:
 - [ ] `SRC-UNINA-ECONOMICS-FINANCE-2026` — [Economics and Finance (LMEF) – official English Master's profile](https://www.orientamento.unina.it/corsidistudio/economics-and-finance-eng/) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-UNINA-ECONOMICS-FINANCE-DEPT-2026` — [Economics and Finance – Department of Economics and Statistics degree list](https://www.dises.unina.it/en_GB/il-dipartimento/presentazione) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-UNINA-INTERNATIONAL-RELATIONS-2026` — [International Relations (English) – official degree guide](https://www.orientamento.unina.it/corsidistudio/international-relations-eng/) (cycle: 2024-2025; checked in prior snapshot: 2026-11-10)
-- [ ] `SRC-UNINA-QUANTUM-2025` — [Quantum Science and Engineering – official course guide](https://www.orientamento.unina.it/corsidistudio/quantum-science-and-engineering/) (cycle: 2025-2026; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNINA-QUANTUM-2025` — [Quantum Science and Engineering – official course guide](https://www.orientamento.unina.it/corsidistudio/quantum-science-and-engineering/) (cycle: 2025-2026; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-UNINA-QUANTUM-PROFILE-2025` — [Quantum Science and Engineering – official programme and course links](https://www.qst.unina.it/index.php/education/) (cycle: general; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-UNINA-ARCH-HERITAGE-2025` — [Architecture and Heritage – official course catalogue and admission rules](https://www.corsi.unina.it/DB2/home) (cycle: 2024-2025; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-UNINA-ARCH-HERITAGE-REG-2024` — [Architecture and Heritage – official didactic regulation](https://www.diarc.archer.unina.it/images/ARCHER_2024-25_DidacticRegulations_CdS_ENGL_2023_SA_DM96_v6.pdf) (cycle: 2024-2025; checked in prior snapshot: 2026-11-10)
@@ -151,21 +152,22 @@ Currently missing or unpublished fields:
 
 #### Quantum Science and Engineering — `legacy-121`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-121/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/napoli-federico-ii/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
-- [ ] `SRC-UNINA-QUANTUM-2025` — [Quantum Science and Engineering – official course guide](https://www.orientamento.unina.it/corsidistudio/quantum-science-and-engineering/) (cycle: 2025-2026; prior check: 2026-11-10)
-- [ ] `SRC-UNINA-QUANTUM-PROFILE-2025` — [Quantum Science and Engineering – official programme and course links](https://www.qst.unina.it/index.php/education/) (cycle: general; prior check: 2026-11-11)
+- [ ] `SRC-UNINA-QUANTUM-2025` — [Quantum Science and Engineering – official course guide](https://www.orientamento.unina.it/corsidistudio/quantum-science-and-engineering/) (cycle: 2025-2026; prior check: 2026-11-11)
+- [ ] `SRC-UNINA-QUANTUM-PROFILE-2026` — [Quantum Science and Engineering – Department of Physics 2026/27 course page](https://www.fisica.unina.it/corso-di-laurea-magistrale-in-quantum-science-and-engineering) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
-  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
-  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
-  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
-  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
-  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
-  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — The current official course page displays a 2026/27 study plan and a 14 September 2026 start, while the University guide is explicitly updated for 2025/26. No 2027/28 first-year offer or admission call was located as of 11 November 2026; this is not treated as cancellation.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — No programme-specific 2027/28 application window or deadline was found as of 11 November 2026.
+  - `facts.application_deadline` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official course and student-guide pages reviewed.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — The 2025/26 guide lists prior-cycle criteria, but no 2027/28 programme-specific requirements were found; do not carry these older thresholds forward.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — No 2027/28 programme-specific tuition or current fee notice was found; prior-cycle amounts are not carried forward.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — No 2027/28 programme-specific or applicable university/regional award call was confirmed in the pages reviewed.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course pages do not publish an applicant denominator and admitted count; no acceptance rate is inferred.
 
 #### Architecture and Heritage — `legacy-122`
 
@@ -2286,7 +2288,9 @@ Official university-level sources:
 - [ ] `SRC-UNIBO-MED-IT-PROFILE-2026` — [Medicina e chirurgia – Italian-taught single-cycle course profile](https://corsi.unibo.it/magistralecu/MedicinaChirurgia) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-UNIBO-MED-IT-CATALOGUE-2026` — [Medicina e chirurgia – 2026/27 University catalogue entry (code 6733)](https://www.unibo.it/it/studiare/lauree-e-lauree-magistrali-a-ciclo-unico/corso/2026/6733) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-UNIBO-MED-IT-OPEN-SEMESTER-2026` — [University of Bologna – 2026/27 open-semester registration, fees and exam guidance](https://www.unibo.it/it/studiare/iscrizioni-tasse-e-altre-procedure/iscrizioni-al-semestre-aperto) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
-- [ ] `SRC-UNIBO-BBS-AI-MFG-2027` — [Global MBA in AI and Manufacturing – 2027/28 admissions schedule](https://www.bbs.unibo.it/en/global-mba/ai-and-manufacturing-2/) (cycle: 2027-2028; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIBO-BBS-AI-MFG-2027` — [Global MBA in AI and Manufacturing – 2027/28 admissions schedule](https://www.bbs.unibo.it/en/global-mba/ai-and-manufacturing-2/) (cycle: 2027-2028; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-UNIBO-BBS-AI-MFG-2027-IT` — [Global MBA in AI and Manufacturing – 2027/28 Italian admissions schedule](https://www.bbs.unibo.it/global-mba/ai-and-manufacturing/) (cycle: 2027-2028; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-UNIBO-BBS-GMBA-2026-2027-SHEET` — [Global Master in Business Administration – official 2026/27 programme sheet](https://www.unibo.it/en/study/phd-professional-masters-specialisation-schools-and-other-programmes/professional-master/2026-2027/attachments/call-for-application-in-global-master-in-business-administration/data-sheet-of-the-professional-masters-programme-in-global-master-in-business-administration/@@download/file/SCHEDA%20MASTER%20GLOBAL%20MBA%20A.A.%202026-2027_EN.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-UNIBO-BBS-GREEN-MGMT-2026` — [Business Management – Green Management and Sustainable Businesses – BBS course and current application information](https://www.bbs.unibo.it/en/master-fulltime/business-management-green-management-and-sustainable-businesses/) (cycle: general; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-UNIBO-GESTIONALE-BSC-2026` — [Ingegneria gestionale – Bologna bachelor's profile](https://corsi.unibo.it/laurea/IngegneriaGestionale) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-UNIBO-ECON-COMMERCIO-2026` — [Economia e commercio – official degree profile at Forlì](https://corsi.unibo.it/laurea/EconomiaCommercio) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
@@ -2405,20 +2409,22 @@ Currently missing or unpublished fields:
 
 #### Global MBA in AI and Manufacturing (Bologna Business School) — `legacy-023`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `CONFIRMED` | Last checked: `2026-11-10`
+- [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-11`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-023/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
+- [ ] `SRC-UNIBO-BBS-AI-MFG-2027` — [Global MBA in AI and Manufacturing – 2027/28 admissions schedule](https://www.bbs.unibo.it/en/global-mba/ai-and-manufacturing-2/) (cycle: 2027-2028; prior check: 2026-11-11)
 - [ ] `SRC-UNIBO-AI-MFG-2026-27-MASTER` — [AI and Manufacturing – Global MBA official course entry](https://www.unibo.it/en/study/phd-professional-masters-specialisation-schools-and-other-programmes/professional-master/2026-2027/global-master-in-business-administration-4) (cycle: 2026-2027; prior check: 2026-11-10)
-- [ ] `SRC-UNIBO-BBS-AI-MFG-2027` — [Global MBA in AI and Manufacturing – 2027/28 admissions schedule](https://www.bbs.unibo.it/en/global-mba/ai-and-manufacturing-2/) (cycle: 2027-2028; prior check: 2026-11-10)
+- [ ] `SRC-UNIBO-BBS-AI-MFG-2027-IT` — [Global MBA in AI and Manufacturing – 2027/28 Italian admissions schedule](https://www.bbs.unibo.it/global-mba/ai-and-manufacturing/) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-UNIBO-BBS-GMBA-2026-2027-SHEET` — [Global Master in Business Administration – official 2026/27 programme sheet](https://www.unibo.it/en/study/phd-professional-masters-specialisation-schools-and-other-programmes/professional-master/2026-2027/attachments/call-for-application-in-global-master-in-business-administration/data-sheet-of-the-professional-masters-programme-in-global-master-in-business-administration/@@download/file/SCHEDA%20MASTER%20GLOBAL%20MBA%20A.A.%202026-2027_EN.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
-  - `facts.application_deadline` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28; the BBS page says detailed instructions will be published later.
-  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed.
-  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — The page describes selection by academic profile, tests and interview, but the detailed 2027/28 notice has not yet been published.
-  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed.
-  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — The programme page says high-ranking candidates may be eligible for a scholarship, but 2027/28 award amount and terms are not published.
-  - `facts.acceptance_rate` — `UNAVAILABLE` — The programme page does not publish the applicant denominator and admitted count; no acceptance rate is inferred.
+  - `facts.application_deadline` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28. The live page says the annual call and application instructions will be published later.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — The current page displays a €60 fee without a 2027/28 label; confirm the new-cycle amount in the forthcoming call.
+  - `facts.program_specific_requirements_2027_2028` — `REQUIRES_VERIFICATION` — The live page shows general requirements but does not label them for 2027/28 and says the annual call and detailed instructions will be published later. Verify the threshold and any changes in that call.
+  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — The current page displays €35,000 without a 2027/28 label. The new-cycle tuition must be confirmed in the forthcoming call.
+  - `facts.scholarships_2027_2028` — `REQUIRES_VERIFICATION` — The current BBS page describes general merit scholarships but does not state cycle-specific 2027/28 amounts or terms; verify the forthcoming call.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The programme page does not publish applicant and admitted counts; no acceptance rate is inferred.
 
 #### Mechanical Engineering for Sustainability — `legacy-024`
 
@@ -2801,7 +2807,7 @@ Official university-level sources:
 - [ ] `SRC-CAMERINO-PHYSICS-PROFILE` — [Physics – official degree profile](https://sst.unicam.it/corsi/physics) (cycle: general; checked in prior snapshot: 2026-11-09)
 - [ ] `SRC-CAMERINO-PREADMISSION-2026` — [Pre-admissions 2026/27 – international applicants](https://international.unicam.it/admissions/pre-admissions-2026-2027) (cycle: 2026-2027; checked in prior snapshot: 2026-11-09)
 - [ ] `SRC-CAMERINO-PREADMISSION-GUIDE-2026` — [Pre-admission procedure – official guide 2026/27](https://international.unicam.it/sites/d7.unicam.it.international/files/_How%20to%20apply%20fro%20preliminary%20evaluation_2627_0.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-09)
-- [ ] `SRC-CAMERINO-FOREIGN-FEES` — [Fees for foreign students](https://www.miiscrivo.unicam.it/fees-foreign-students) (cycle: general; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-CAMERINO-FOREIGN-FEES` — [Fees for foreign students](https://miiscrivo.unicam.it/fees-foreign-students) (cycle: general; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-CAMERINO-ALLIN-2026` — [Lump-sum enrollment package for international MSc students 2026/27](https://international.unicam.it/admissions/lump-sum-enrollment-payment) (cycle: 2026-2027; checked in prior snapshot: 2026-11-09)
 - [ ] `SRC-CAMERINO-TUITION-2026` — [University tuition and student contributions 2026/27](https://www.unicam.it/laureato/segreterie-studenti/tasse) (cycle: 2026-2027; checked in prior snapshot: 2026-11-09)
 - [ ] `SRC-ERDIS-MARCHE-2026` — [ERDIS Marche scholarship call service – 2026/27](https://erdis.it/servizi/servizio-dettaglio/3161252) (cycle: 2026-2027; checked in prior snapshot: 2026-11-09)
@@ -2809,7 +2815,7 @@ Official university-level sources:
 
 #### Computer Science — `legacy-068`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-11`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-068/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/camerino/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
@@ -2818,11 +2824,11 @@ Official linked sources to revisit:
 - [ ] `SRC-CAMERINO-CS-PROFILE` — [Computer Science – official degree profile](https://sst.unicam.it/corsi/computer-science) (cycle: general; prior check: 2026-11-09)
 - [ ] `SRC-CAMERINO-ENGLISH-MASTERS` — [Master’s degrees – international English course list](https://international.unicam.it/courses/master) (cycle: general; prior check: 2026-11-09)
 - [ ] `SRC-CAMERINO-ALLIN-2026` — [Lump-sum enrollment package for international MSc students 2026/27](https://international.unicam.it/admissions/lump-sum-enrollment-payment) (cycle: 2026-2027; prior check: 2026-11-09)
+- [ ] `SRC-CAMERINO-FOREIGN-FEES` — [Fees for foreign students](https://miiscrivo.unicam.it/fees-foreign-students) (cycle: general; prior check: 2026-11-11)
 - [ ] `SRC-CAMERINO-WELCOMEIN-MSC-2026` — [WELCOMEINUNICAM scholarships for two-year Master’s students 2026/27](https://www.unicam.it/avvisi/41688) (cycle: 2026-2027; prior check: 2026-11-09)
 - [ ] `SRC-ERDIS-MARCHE-2026` — [ERDIS Marche scholarship call service – 2026/27](https://erdis.it/servizi/servizio-dettaglio/3161252) (cycle: 2026-2027; prior check: 2026-11-09)
 - [ ] `SRC-CAMERINO-FAQ` — [International admissions FAQ](https://international.unicam.it/admissions/faq) (cycle: general; prior check: 2026-11-09)
 - [ ] `SRC-CAMERINO-PREADMISSION-2026` — [Pre-admissions 2026/27 – international applicants](https://international.unicam.it/admissions/pre-admissions-2026-2027) (cycle: 2026-2027; prior check: 2026-11-09)
-- [ ] `SRC-CAMERINO-FOREIGN-FEES` — [Fees for foreign students](https://www.miiscrivo.unicam.it/fees-foreign-students) (cycle: general; prior check: 2026-11-11)
 - [ ] `SRC-CAMERINO-TUITION-2026` — [University tuition and student contributions 2026/27](https://www.unicam.it/laureato/segreterie-studenti/tasse) (cycle: 2026-2027; prior check: 2026-11-09)
 Known source conflicts in current data:
   - `facts.previous_cycle_curricula` — The current profile's named list contains four curricula, but its later prose says five; the international master list also says four. The exact official count needs clarification.
@@ -2830,14 +2836,14 @@ Currently missing or unpublished fields:
   - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The reviewed official course list/profile and international pre-admission information are general or for 2026/27. No 2027/28 first-year intake for this course was identified; no cancellation is inferred.
   - `facts.application_windows` — `REQUIRES_VERIFICATION` — No program-specific 2027/28 application dates were found. The 2026/27 pre-admission deadline is retained at university level as historical evidence.
   - `facts.program_specific_requirements_2027_2028` — `REQUIRES_VERIFICATION` — No program-specific 2027/28 admission notice or annual requirements were identified.
-  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — The reviewed foreign-fee page is not cycle-labelled and the published all-inclusive package is for 2026/27; no 2027/28 amount or package is confirmed.
+  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — The canonical foreign-student fee page was directly reached on 11 November 2026. It contains undated general fee guidance and a €6,876 package display with ambiguous composition; the separate named package source is for 2026/27. No 2027/28 course tuition schedule or package is confirmed.
   - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed course pages do not publish applicant/admitted-student counts or an acceptance rate; no selectivity estimate is inferred.
   - `facts.previous_cycle_program_requirements` — `REQUIRES_VERIFICATION` — The reviewed profile does not give a complete course-specific academic entry requirement; check the program guide and current annual admission notice.
   - `facts.previous_cycle_english_requirement` — `REQUIRES_VERIFICATION` — The course is described as English-taught, but the reviewed profile does not state an English proficiency level or accepted evidence.
 
 #### Chemistry — `legacy-069`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-11`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-069/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/camerino/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
@@ -2846,11 +2852,11 @@ Official linked sources to revisit:
 - [ ] `SRC-CAMERINO-CHEM-PROFILE` — [Master’s Degree in Chemistry – official English degree profile](https://chimica.unicam.it/en/node/87) (cycle: general; prior check: 2026-11-09)
 - [ ] `SRC-CAMERINO-ENGLISH-MASTERS` — [Master’s degrees – international English course list](https://international.unicam.it/courses/master) (cycle: general; prior check: 2026-11-09)
 - [ ] `SRC-CAMERINO-ALLIN-2026` — [Lump-sum enrollment package for international MSc students 2026/27](https://international.unicam.it/admissions/lump-sum-enrollment-payment) (cycle: 2026-2027; prior check: 2026-11-09)
+- [ ] `SRC-CAMERINO-FOREIGN-FEES` — [Fees for foreign students](https://miiscrivo.unicam.it/fees-foreign-students) (cycle: general; prior check: 2026-11-11)
 - [ ] `SRC-CAMERINO-WELCOMEIN-MSC-2026` — [WELCOMEINUNICAM scholarships for two-year Master’s students 2026/27](https://www.unicam.it/avvisi/41688) (cycle: 2026-2027; prior check: 2026-11-09)
 - [ ] `SRC-ERDIS-MARCHE-2026` — [ERDIS Marche scholarship call service – 2026/27](https://erdis.it/servizi/servizio-dettaglio/3161252) (cycle: 2026-2027; prior check: 2026-11-09)
 - [ ] `SRC-CAMERINO-FAQ` — [International admissions FAQ](https://international.unicam.it/admissions/faq) (cycle: general; prior check: 2026-11-09)
 - [ ] `SRC-CAMERINO-PREADMISSION-2026` — [Pre-admissions 2026/27 – international applicants](https://international.unicam.it/admissions/pre-admissions-2026-2027) (cycle: 2026-2027; prior check: 2026-11-09)
-- [ ] `SRC-CAMERINO-FOREIGN-FEES` — [Fees for foreign students](https://www.miiscrivo.unicam.it/fees-foreign-students) (cycle: general; prior check: 2026-11-11)
 - [ ] `SRC-CAMERINO-TUITION-2026` — [University tuition and student contributions 2026/27](https://www.unicam.it/laureato/segreterie-studenti/tasse) (cycle: 2026-2027; prior check: 2026-11-09)
 Known source conflicts in current data:
   - `facts.previous_cycle_course_name_variants` — Official University pages use both Chemistry and Chemistry and Advanced Chemical Methodologies for the LM-54 course. The latest English master list uses the shorter title; verify the preferred 2027/28 display name.
@@ -2858,14 +2864,14 @@ Currently missing or unpublished fields:
   - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The reviewed official course list/profile and international pre-admission information are general or for 2026/27. No 2027/28 first-year intake for this course was identified; no cancellation is inferred.
   - `facts.application_windows` — `REQUIRES_VERIFICATION` — No program-specific 2027/28 application dates were found. The 2026/27 pre-admission deadline is retained at university level as historical evidence.
   - `facts.program_specific_requirements_2027_2028` — `REQUIRES_VERIFICATION` — No program-specific 2027/28 admission notice or annual requirements were identified.
-  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — The reviewed foreign-fee page is not cycle-labelled and the published all-inclusive package is for 2026/27; no 2027/28 amount or package is confirmed.
+  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — The canonical foreign-student fee page was directly reached on 11 November 2026. It contains undated general fee guidance and a €6,876 package display with ambiguous composition; the separate named package source is for 2026/27. No 2027/28 course tuition schedule or package is confirmed.
   - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed course pages do not publish applicant/admitted-student counts or an acceptance rate; no selectivity estimate is inferred.
   - `facts.previous_cycle_program_requirements` — `REQUIRES_VERIFICATION` — The reviewed profile does not give a complete course-specific academic entry requirement; check the program guide and current annual admission notice.
   - `facts.previous_cycle_english_requirement` — `REQUIRES_VERIFICATION` — The course is described as English-taught, but the reviewed profile does not state an English proficiency level or accepted evidence.
 
 #### Mathematics and Applications — `legacy-070`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-11`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-070/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/camerino/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
@@ -2874,11 +2880,11 @@ Official linked sources to revisit:
 - [ ] `SRC-CAMERINO-OFFER-2026` — [Manifesto degli studi – academic offer and regulations 2026/27](https://www.unicam.it/didattica/manifesto-degli-studi) (cycle: 2026-2027; prior check: 2026-11-09)
 - [ ] `SRC-CAMERINO-ENGLISH-MASTERS` — [Master’s degrees – international English course list](https://international.unicam.it/courses/master) (cycle: general; prior check: 2026-11-09)
 - [ ] `SRC-CAMERINO-ALLIN-2026` — [Lump-sum enrollment package for international MSc students 2026/27](https://international.unicam.it/admissions/lump-sum-enrollment-payment) (cycle: 2026-2027; prior check: 2026-11-09)
+- [ ] `SRC-CAMERINO-FOREIGN-FEES` — [Fees for foreign students](https://miiscrivo.unicam.it/fees-foreign-students) (cycle: general; prior check: 2026-11-11)
 - [ ] `SRC-CAMERINO-WELCOMEIN-MSC-2026` — [WELCOMEINUNICAM scholarships for two-year Master’s students 2026/27](https://www.unicam.it/avvisi/41688) (cycle: 2026-2027; prior check: 2026-11-09)
 - [ ] `SRC-ERDIS-MARCHE-2026` — [ERDIS Marche scholarship call service – 2026/27](https://erdis.it/servizi/servizio-dettaglio/3161252) (cycle: 2026-2027; prior check: 2026-11-09)
 - [ ] `SRC-CAMERINO-FAQ` — [International admissions FAQ](https://international.unicam.it/admissions/faq) (cycle: general; prior check: 2026-11-09)
 - [ ] `SRC-CAMERINO-PREADMISSION-2026` — [Pre-admissions 2026/27 – international applicants](https://international.unicam.it/admissions/pre-admissions-2026-2027) (cycle: 2026-2027; prior check: 2026-11-09)
-- [ ] `SRC-CAMERINO-FOREIGN-FEES` — [Fees for foreign students](https://www.miiscrivo.unicam.it/fees-foreign-students) (cycle: general; prior check: 2026-11-11)
 - [ ] `SRC-CAMERINO-TUITION-2026` — [University tuition and student contributions 2026/27](https://www.unicam.it/laureato/segreterie-studenti/tasse) (cycle: 2026-2027; prior check: 2026-11-09)
 Known source conflicts in current data:
   - `facts.previous_cycle_curricula` — The official international master's list gives two curricula and the course profile lists three with different names. The current 2027/28 structure needs confirmation.
@@ -2886,12 +2892,12 @@ Currently missing or unpublished fields:
   - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The reviewed official course list/profile and international pre-admission information are general or for 2026/27. No 2027/28 first-year intake for this course was identified; no cancellation is inferred.
   - `facts.application_windows` — `REQUIRES_VERIFICATION` — No program-specific 2027/28 application dates were found. The 2026/27 pre-admission deadline is retained at university level as historical evidence.
   - `facts.program_specific_requirements_2027_2028` — `REQUIRES_VERIFICATION` — No program-specific 2027/28 admission notice or annual requirements were identified.
-  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — The reviewed foreign-fee page is not cycle-labelled and the published all-inclusive package is for 2026/27; no 2027/28 amount or package is confirmed.
+  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — The canonical foreign-student fee page was directly reached on 11 November 2026. It contains undated general fee guidance and a €6,876 package display with ambiguous composition; the separate named package source is for 2026/27. No 2027/28 course tuition schedule or package is confirmed.
   - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed course pages do not publish applicant/admitted-student counts or an acceptance rate; no selectivity estimate is inferred.
 
 #### Physics — `legacy-071`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-11`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-071/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/camerino/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
@@ -2900,17 +2906,17 @@ Official linked sources to revisit:
 - [ ] `SRC-CAMERINO-OFFER-2026` — [Manifesto degli studi – academic offer and regulations 2026/27](https://www.unicam.it/didattica/manifesto-degli-studi) (cycle: 2026-2027; prior check: 2026-11-09)
 - [ ] `SRC-CAMERINO-ENGLISH-MASTERS` — [Master’s degrees – international English course list](https://international.unicam.it/courses/master) (cycle: general; prior check: 2026-11-09)
 - [ ] `SRC-CAMERINO-ALLIN-2026` — [Lump-sum enrollment package for international MSc students 2026/27](https://international.unicam.it/admissions/lump-sum-enrollment-payment) (cycle: 2026-2027; prior check: 2026-11-09)
+- [ ] `SRC-CAMERINO-FOREIGN-FEES` — [Fees for foreign students](https://miiscrivo.unicam.it/fees-foreign-students) (cycle: general; prior check: 2026-11-11)
 - [ ] `SRC-CAMERINO-WELCOMEIN-MSC-2026` — [WELCOMEINUNICAM scholarships for two-year Master’s students 2026/27](https://www.unicam.it/avvisi/41688) (cycle: 2026-2027; prior check: 2026-11-09)
 - [ ] `SRC-ERDIS-MARCHE-2026` — [ERDIS Marche scholarship call service – 2026/27](https://erdis.it/servizi/servizio-dettaglio/3161252) (cycle: 2026-2027; prior check: 2026-11-09)
 - [ ] `SRC-CAMERINO-FAQ` — [International admissions FAQ](https://international.unicam.it/admissions/faq) (cycle: general; prior check: 2026-11-09)
 - [ ] `SRC-CAMERINO-PREADMISSION-2026` — [Pre-admissions 2026/27 – international applicants](https://international.unicam.it/admissions/pre-admissions-2026-2027) (cycle: 2026-2027; prior check: 2026-11-09)
-- [ ] `SRC-CAMERINO-FOREIGN-FEES` — [Fees for foreign students](https://www.miiscrivo.unicam.it/fees-foreign-students) (cycle: general; prior check: 2026-11-11)
 - [ ] `SRC-CAMERINO-TUITION-2026` — [University tuition and student contributions 2026/27](https://www.unicam.it/laureato/segreterie-studenti/tasse) (cycle: 2026-2027; prior check: 2026-11-09)
 Currently missing or unpublished fields:
   - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The reviewed official course list/profile and international pre-admission information are general or for 2026/27. No 2027/28 first-year intake for this course was identified; no cancellation is inferred.
   - `facts.application_windows` — `REQUIRES_VERIFICATION` — No program-specific 2027/28 application dates were found. The 2026/27 pre-admission deadline is retained at university level as historical evidence.
   - `facts.program_specific_requirements_2027_2028` — `REQUIRES_VERIFICATION` — No program-specific 2027/28 admission notice or annual requirements were identified.
-  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — The reviewed foreign-fee page is not cycle-labelled and the published all-inclusive package is for 2026/27; no 2027/28 amount or package is confirmed.
+  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — The canonical foreign-student fee page was directly reached on 11 November 2026. It contains undated general fee guidance and a €6,876 package display with ambiguous composition; the separate named package source is for 2026/27. No 2027/28 course tuition schedule or package is confirmed.
   - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed course pages do not publish applicant/admitted-student counts or an acceptance rate; no selectivity estimate is inferred.
 
 ### Università degli Studi di Ferrara (Ferrara) — `ferrara`
@@ -5495,7 +5501,7 @@ Currently missing or unpublished fields:
 
 ## Source URL recheck results
 
-Checked 675 unique URLs representing 697 source records on 2026-11-11. Unique URL outcomes: {'accessible': 657, 'redirected': 13, 'inconclusive': 4, 'broken': 1}. HTTP 404/410 outcomes are listed as broken; TLS, timeout, and remote-disconnect cases remain inconclusive.
+Checked 678 unique URLs representing 700 source records on 2026-11-11. Unique URL outcomes: {'accessible': 661, 'redirected': 13, 'broken': 1, 'inconclusive': 3}. HTTP 404/410 outcomes are listed as broken; TLS, timeout, and remote-disconnect cases remain inconclusive.
 
 ### Redirected sources
 
@@ -5515,7 +5521,6 @@ Checked 675 unique URLs representing 697 source records on 2026-11-11. Unique UR
 
 ### Inconclusive source URLs
 
-- `SRC-CAMERINO-FOREIGN-FEES` — [Fees for foreign students](https://www.miiscrivo.unicam.it/fees-foreign-students) — direct check inconclusive; SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.miiscrivo.unicam.it'. (_ssl.c:1007)
 - `SRC-PADOVA-PSYCHOLOGY-MSC-FULL-2026` — [School of Psychology Master's programmes – active official catalogue](https://www.psicologia.unipd.it/offerta-didattica/corsi-di-laurea-magistrale?tipo=LM) — direct check inconclusive; No successful direct response was recorded.
 - `SRC-UNINA-QUANTUM-PROFILE-2025` — [Quantum Science and Engineering – official programme and course links](https://www.qst.unina.it/index.php/education/) — direct check inconclusive; SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1007)
 - `SRC-UNINA-CIVIL-ENV-BSC-2026` — [Civil and Environmental Engineering BSc – official 2026/27 admission page](https://www.civil-environmental.unina.it/admission/) — direct check inconclusive; SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1007)

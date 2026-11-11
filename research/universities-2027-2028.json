@@ -31,6 +31,7 @@
     "source_ids": [
       "SRC-UNINA-CHE-2027",
       "SRC-UNINA-CHE-PROGRAM",
+      "SRC-UNINA-QUANTUM-PROFILE-2026",
       "SRC-UNINA-COMPUTER-SCIENCE-2025",
       "SRC-UNINA-DATA-SCIENCE-GUIDE-2026",
       "SRC-UNINA-DATA-SCIENCE-ADMISSIONS-2026",
@@ -2593,6 +2594,8 @@
       "SRC-UNIBO-MED-IT-CATALOGUE-2026",
       "SRC-UNIBO-MED-IT-OPEN-SEMESTER-2026",
       "SRC-UNIBO-BBS-AI-MFG-2027",
+      "SRC-UNIBO-BBS-AI-MFG-2027-IT",
+      "SRC-UNIBO-BBS-GMBA-2026-2027-SHEET",
       "SRC-UNIBO-BBS-GREEN-MGMT-2026",
       "SRC-UNIBO-GESTIONALE-BSC-2026",
       "SRC-UNIBO-ECON-COMMERCIO-2026",
@@ -2764,18 +2767,28 @@
       },
       "foreign_student_fee_framework": {
         "value": {
+          "cycle_label": "Not stated on the page",
           "country_based_annual_fee_eur": {
             "particularly_poor_and_developing_countries": 200,
             "other_non_OECD_countries": 300
           },
           "income_based_route": "ISEE-U equalized declaration for specified foreign students",
-          "additional_charges": "Regional higher-education tax and stamp duty"
+          "missing_documentation": "Maximum all-inclusive fee",
+          "additional_charges": "Regional higher-education tax and stamp duty are added",
+          "all_inclusive_package_display_eur": 6876,
+          "package_terms_as_stated": [
+            "€720 annual fee plus €156 regional tax/stamp, paid separately at registration",
+            "Accommodation at ERDIS university dormitories",
+            "Two cafeteria meals per day while open",
+            "Administrative and student services"
+          ],
+          "package_total_composition": "Unclear on page"
         },
         "status": "CONFIRMED",
         "source_ids": [
           "SRC-CAMERINO-FOREIGN-FEES"
         ],
-        "notes": "The official page does not state an academic year for this framework. Treat it as undated guidance and recheck the 2027/28 fee notice."
+        "notes": "Fresh direct request to the corrected canonical host succeeded, but the page is not cycle-labelled and its €6,876 package wording does not clearly reconcile with the separately paid €720 + €156. Treat as undated general fee guidance; recheck the 2027/28 fee notice."
       },
       "previous_cycle_all_inclusive_package": {
         "value": {

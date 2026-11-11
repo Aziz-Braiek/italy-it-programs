@@ -50,8 +50,8 @@
   "newly_discovered_programs": 44,
   "programs_cycle_availability_confirmed": 40,
   "programs_availability_pending": 166,
-  "programs_fully_verified": 38,
-  "programs_requiring_verification": 168,
+  "programs_fully_verified": 39,
+  "programs_requiring_verification": 167,
   "programs_not_offered_2027_2028": 3,
   "programs_supported_only_by_previous_cycle": 153,
   "program_ids_supported_only_by_previous_cycle": [
@@ -288,8 +288,8 @@
     "trento",
     "udine"
   ],
-  "source_records": 697,
-  "official_source_supported_fields": 1459,
+  "source_records": 700,
+  "official_source_supported_fields": 1478,
   "verification_statuses": [
     "CONFIRMED",
     "NOT_YET_PUBLISHED",

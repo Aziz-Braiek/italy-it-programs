@@ -302,9 +302,33 @@ SOURCES = [
         "id": "SRC-UNIBO-BBS-AI-MFG-2027",
         "university_id": "bologna", "title": "Global MBA in AI and Manufacturing – 2027/28 admissions schedule",
         "url": "https://www.bbs.unibo.it/en/global-mba/ai-and-manufacturing-2/",
-        "source_type": "Official Bologna Business School programme page", "accessed_at": "2026-11-10", "cycle": "2027-2028",
-        "evidence": "The official BBS page states applications for AY 2027/28 open in December 2026, selection begins February 2027, and the programme starts September 2027. It describes a 12-month full-time English-language Global MBA and identifies AI and Manufacturing as the track; it is not a standard two-year Laurea Magistrale.",
-        "supports": ["program.availability", "program.name", "program.level", "program.language", "program.application_windows", "program.program_type"],
+        "source_type": "Official Bologna Business School programme page", "accessed_at": "2026-11-11", "cycle": "2027-2028",
+        "evidence": "A fresh direct GET on 11 November 2026 returned HTTP 200 (199,753 bytes; title: Master AI and Manufacturing (MBA) | BBS Italy). The current BBS page identifies the 12-month, full-time, English-language Global MBA and its AI and Manufacturing concentration, and displays the 2027/28 intake. It says applications open in December 2026 and selection takes place in four rounds from February to July 2027, with a September 2027 start. Current page terms also display a €35,000 tuition amount, a €60 application fee, general requirements (a Bachelor's degree, English proficiency and three years of qualified work experience), and merit scholarships; those terms are not labelled for 2027/28, and the annual call is still forthcoming.",
+        "supports": ["program.availability", "program.name", "program.level", "program.language", "program.application_windows", "program.program_type", "program.current_published_application_fee", "program.current_published_tuition", "program.current_published_requirements", "program.current_published_scholarships"],
+    },
+    {
+        "id": "SRC-UNIBO-BBS-AI-MFG-2027-IT",
+        "university_id": "bologna", "title": "Global MBA in AI and Manufacturing – 2027/28 Italian admissions schedule",
+        "url": "https://www.bbs.unibo.it/global-mba/ai-and-manufacturing/",
+        "source_type": "Official Bologna Business School Italian programme and admissions page", "accessed_at": "2026-11-11", "cycle": "2027-2028",
+        "evidence": "A fresh direct GET on 11 November 2026 returned HTTP 200 (200,419 bytes; title: Master AI & Manufacturing: MBA in Artificial Intelligence e Robotica | BBS). The Italian page explicitly says applications for AY 2027/28 open in December 2026, selection is organised in four rounds between February and July 2027, and the programme starts in September 2027. No exact round-by-round application dates are given; the page says the annual call and instructions will be published later.",
+        "supports": ["program.availability_2027_2028", "program.application_windows", "program.application_deadline"],
+    },
+    {
+        "id": "SRC-UNIBO-BBS-GMBA-2026-2027-SHEET",
+        "university_id": "bologna", "title": "Global Master in Business Administration – official 2026/27 programme sheet",
+        "url": "https://www.unibo.it/en/study/phd-professional-masters-specialisation-schools-and-other-programmes/professional-master/2026-2027/attachments/call-for-application-in-global-master-in-business-administration/data-sheet-of-the-professional-masters-programme-in-global-master-in-business-administration/@@download/file/SCHEDA%20MASTER%20GLOBAL%20MBA%20A.A.%202026-2027_EN.pdf",
+        "source_type": "Official University of Bologna 2026/27 professional-master programme-sheet PDF", "accessed_at": "2026-11-11", "cycle": "2026-2027",
+        "evidence": "This official sheet is explicitly for AY 2026/27 (programme code 8881), not 2027/28. It identifies Global Master in Business Administration as a first-level professional master's, with an AI and Manufacturing concentration, English teaching in Bologna, annual duration and 60 ECTS. It records 2026/27 application windows, a €60 selection fee, €35,000 tuition, merit-based reduced-fee bands/waiver, eligibility and selection details. All dates, amounts and terms from this sheet are retained as historical 2026/27 facts only.",
+        "supports": ["program.previous_cycle_2026_2027_offer", "program.previous_cycle_2026_2027_application_windows", "program.previous_cycle_2026_2027_application_fee", "program.previous_cycle_2026_2027_tuition", "program.previous_cycle_2026_2027_reduced_fees", "program.previous_cycle_2026_2027_requirements", "program.previous_cycle_2026_2027_selection", "program.previous_cycle_2026_2027_places"],
+    },
+    {
+        "id": "SRC-UNINA-QUANTUM-PROFILE-2026",
+        "university_id": "napoli-federico-ii", "title": "Quantum Science and Engineering – Department of Physics 2026/27 course page",
+        "url": "https://www.fisica.unina.it/corso-di-laurea-magistrale-in-quantum-science-and-engineering",
+        "source_type": "Official Federico II Department of Physics degree profile and timetable", "accessed_at": "2026-11-11", "cycle": "2026-2027",
+        "evidence": "A fresh direct GET on 11 November 2026 returned HTTP 200 (240,388 bytes; title: Corso di Laurea Magistrale in Quantum Science and Engineering | Dipartimento di Fisica). The official page identifies the LM-44 course as 120 CFU, states that it is entirely taught in English, shows the 2026/27 first-semester study plan, and gives a 14 September 2026 class start. It is prior-cycle course evidence only and does not confirm the 2027/28 first-year offer or admission rules.",
+        "supports": ["program.previous_cycle_course_listing", "program.previous_cycle_course_structure", "program.previous_cycle_language", "program.previous_cycle_start_date"],
     },
     {
         "id": "SRC-UNIBO-BBS-GREEN-MGMT-2026",
@@ -1094,9 +1118,9 @@ SOURCES = [
         "id": "SRC-UNINA-QUANTUM-2025",
         "university_id": "napoli-federico-ii", "title": "Quantum Science and Engineering – official course guide",
         "url": "https://www.orientamento.unina.it/corsidistudio/quantum-science-and-engineering/",
-        "source_type": "Official University orientation and degree profile", "accessed_at": "2026-11-10", "cycle": "2025-2026",
+        "source_type": "Official University orientation and degree profile", "accessed_at": "2026-11-11", "cycle": "2025-2026",
         "evidence": "The guide identifies QS&E as a two-year English-taught Master's, LM-44, with open admission and subject-credit requirements plus B2 English. The page says its current guide is for 2025/26; this does not establish 2026/27 or 2027/28 new-entry availability.",
-        "supports": ["program.previous_cycle_course_listing", "program.previous_cycle_level", "program.previous_cycle_language", "program.previous_cycle_program_requirements"],
+        "supports": ["program.previous_cycle_course_listing", "program.previous_cycle_level", "program.previous_cycle_language", "program.previous_cycle_program_requirements", "program.previous_cycle_2025_2026_admission_requirements", "program.previous_cycle_2025_2026_english_requirement"],
     },
     {
         "id": "SRC-UNINA-QUANTUM-PROFILE-2025",
@@ -2244,6 +2268,24 @@ BATCH52 = {
     "result": "Rechecked the current 28DIGITAL/Polimi admissions page and its two official local programme profiles. The 2027/28 page confirms September 2027 entry, identifies the Polimi local Master of Science options as Computer Science and Engineering (T2A) and High Performance Computing Engineering, requires a separate Polimi application and English proof, and makes local admission conditional on Polimi being assigned as the entry university. The course profiles identify both as two-year, English-taught MSc programmes based at Milano Leonardo. This verifies the core offer details for legacy-001 and legacy-004 specifically through the 28DIGITAL route; it does not establish general course-wide Polimi intake conditions. For applicants with Italian degrees, the page gives a July–August 2027 local application window, with exact dates to follow in spring; the data now records the month-level window as confirmed. Existing foreign-degree call windows and the optional €50/€150 local application fee remain recorded. General Polimi course-wide deadline conflict, exact Italian-degree dates, 2027/28 tuition, scholarship terms and course-specific annual admission requirements remain open. All three direct GETs returned HTTP 200 and current pages opened successfully. No production changes were made.",
 }
 
+BATCH53 = {
+    "id": "bologna-bbs-global-mba-ai-manufacturing-2027-2028-and-historical-terms-review",
+    "status": "partial",
+    "result": "Rechecked the Bologna Business School Global MBA in AI and Manufacturing against fresh direct GETs to the current English and Italian programme pages and the official University of Bologna 2026/27 programme sheet. The active 2027/28 page confirms the named AI and Manufacturing concentration, a 12-month full-time English Global MBA, December 2026 application opening, four selection rounds between February and July 2027, and September 2027 start. The core offer is now fully confirmed for this programme, while exact 2027/28 round deadlines and the forthcoming annual call remain pending. The current page also displays €35,000 tuition, a €60 application fee, general entry requirements and merit scholarships, but none of those generic terms is cycle-labelled for 2027/28; they are recorded separately as currently displayed information with annual confirmation still required. A separate official 2026/27 sheet (code 8881) verifies historical first-level Professional Master's classification, exact prior-cycle application windows, €60 selection fee, €35,000 tuition, reduced-fee bands/waiver, requirements, selection and places. All 2026/27 dates and amounts remain explicitly historical. Fresh no-cache GETs returned HTTP 200 for both current HTML pages and the historical PDF; the PDF response included its 2025 Last-Modified date and Age 38 despite the no-cache request. No production changes were made.",
+}
+
+BATCH54 = {
+    "id": "camerino-foreign-fee-source-canonical-host-recheck",
+    "status": "partial",
+    "result": "Resolved the Camerino foreign-fee page's hostname mismatch without disabling TLS checks. The stored www URL fails certificate validation, while the official canonical non-www URL returns HTTP 200 after a no-cache GET (100,884 bytes); the response is dated 10 November 2026 and advertises max-age=900, public. Updated the source to the working official URL and added the page's general foreign-student fee framework to all four Camerino English-MSc records and the University record. The page is not cycle-labelled: its €200/€300 country-based charges, ISEE-U route, additional-year rates, and €6,876 all-inclusive display are kept as undated current guidance, not 2027/28 tuition. The package wording separately says €720 plus €156 tax/stamp is paid at registration, so its total composition remains ambiguous. 2027/28 tuition, the four course intakes and the new international route remain open; no production changes were made.",
+}
+
+BATCH55 = {
+    "id": "federico-ii-quantum-science-and-engineering-2026-27-offer-refresh",
+    "status": "partial",
+    "result": "Replaced the stale/inconclusive Quantum Science and Engineering profile lead with a fresh official 2026/27 Department of Physics course page, while retaining the accessible University orientation guide explicitly updated for 2025/26. The current prior-cycle course profile returned HTTP 200 and confirms the LM-44, 120-CFU Master's, fully English delivery, a 2026/27 first-semester plan and 14 September 2026 start. The 2025/26 guide gives prior-cycle open-access and entry criteria: a first-cycle degree or equivalent, 24 CFU Mathematics, 12 CFU Physics, 6 CFU in specified computing/engineering areas, 12 additional relevant credits, and B2 English. These older requirements are retained as historical guidance only. No 2027/28 first-year course listing, application dates, fee, current entry requirements, tuition or scholarships were found; availability remains pending. The old QST project page still has an expired-certificate direct-check outcome and is no longer a relied-on program source. No production changes were made.",
+}
+
 SOURCE_RECHECKS = {
     "SRC-UNIBO-AI-PROFILE-2026": {
         "accessed_at": "2026-11-11",
@@ -2582,6 +2624,41 @@ SOURCE_RECHECKS.update({
             "error": None,
             "checked_at": "2026-11-11",
             "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)",
+        },
+    },
+})
+
+SOURCE_RECHECKS.update({
+    "SRC-UNINA-QUANTUM-2025": {
+        "accessed_at": "2026-11-11",
+        "evidence": "A fresh direct GET with no-cache request headers returned HTTP 200 on 11 November 2026 (156,985 bytes; title: Quantum Science and Engineering – Orientamento). The official University guide explicitly says it is updated for AY 2025/26; it lists LM-44, two-year English delivery, open access, a first-cycle degree/equivalent, the curricular-credit thresholds and B2 English. Those requirements are retained only as 2025/26 historical guidance, not as 2026/27 or 2027/28 rules.",
+        "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.orientamento.unina.it/corsidistudio/quantum-science-and-engineering/",
+            "content_type": "text/html; charset=UTF-8", "content_length_header": "156985",
+            "etag": None, "last_modified": None, "cache_control": None, "age": None,
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Quantum Science and Engineering – Orientamento", "pdf_signature": None,
+            "has_2027_marker": False, "bytes_read": 156985, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib)",
+        },
+    },
+    "SRC-UNINA-QUANTUM-PROFILE-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.fisica.unina.it/corso-di-laurea-magistrale-in-quantum-science-and-engineering",
+            "content_type": "text/html;charset=UTF-8", "content_length_header": "240388",
+            "etag": "\"ec2f2733\"", "last_modified": None, "cache_control": None, "age": None,
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Corso di Laurea Magistrale in Quantum Science and Engineering | Dipartimento di Fisica",
+            "pdf_signature": None, "has_2027_marker": True, "bytes_read": 240388,
+            "outcome": "accessible", "error": None, "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (Python urllib)",
+        },
+        "browser_check": {
+            "checked_at": "2026-11-11", "outcome": "accessible", "method": "Official Department page search result and direct GET",
+            "notes": "The current page shows the 2026/27 study plan and 14 September 2026 class start, and states the course is LM-44, 120 CFU and entirely English. It does not announce a 2027/28 first-year offer.",
         },
     },
 })
@@ -4872,24 +4949,97 @@ def apply_legacy_course_reviews(programs: list[dict[str, Any]], fact: Callable[.
     # AI and Manufacturing is a named 2027/28 Global MBA concentration, not an MSc.
     mba = by_id["legacy-023"]
     mba["program"] = "Global MBA in AI and Manufacturing (Bologna Business School)"
-    mba["level"] = _fact("Professional Master's / MBA", "CONFIRMED", ["SRC-UNIBO-BBS-AI-MFG-2027", "SRC-UNIBO-AI-MFG-2026-27-MASTER"])
-    mba["language"] = _fact("English", "CONFIRMED", ["SRC-UNIBO-BBS-AI-MFG-2027"])
-    mba["field"] = _fact("Artificial Intelligence, Robotics and Manufacturing Management", "CONFIRMED", ["SRC-UNIBO-BBS-AI-MFG-2027", "SRC-UNIBO-AI-MFG-2026-27-MASTER"])
-    mba["availability_2027_2028"] = _fact(True, "CONFIRMED", ["SRC-UNIBO-BBS-AI-MFG-2027"], "BBS states applications open in December 2026 for the 2027/28 intake; selections begin February and the programme starts September 2027.")
-    mba["overall_status"] = "REQUIRES_VERIFICATION"
-    mba["source_ids"] = ["SRC-UNIBO-BBS-AI-MFG-2027", "SRC-UNIBO-AI-MFG-2026-27-MASTER"]
+    bbs_current_sources = ["SRC-UNIBO-BBS-AI-MFG-2027", "SRC-UNIBO-BBS-AI-MFG-2027-IT"]
+    bbs_historical_source = "SRC-UNIBO-BBS-GMBA-2026-2027-SHEET"
+    mba["level"] = _fact(
+        "Professional Master's / MBA", "CONFIRMED", ["SRC-UNIBO-BBS-AI-MFG-2027", bbs_historical_source],
+        "The active BBS page identifies the Global MBA for 2027/28; the University of Bologna's official 2026/27 programme sheet classifies the Global Master in Business Administration as a first-level professional master's. The forthcoming 2027/28 call will provide the cycle-specific formal classification.",
+    )
+    mba["language"] = _fact("English", "CONFIRMED", bbs_current_sources, "The current BBS programme page describes the Global MBA as entirely English-language.")
+    mba["field"] = _fact("Artificial Intelligence, Robotics and Manufacturing Management", "CONFIRMED", ["SRC-UNIBO-BBS-AI-MFG-2027"], "The active 2027/28 page identifies AI and Manufacturing as the Global MBA concentration and describes its AI, robotics and manufacturing-management focus.")
+    mba["availability_2027_2028"] = _fact(
+        True, "CONFIRMED", bbs_current_sources,
+        "The active BBS page explicitly announces the 2027/28 intake, applications opening in December 2026, selection rounds in February–July 2027 and a September 2027 start.",
+    )
+    mba["overall_status"] = "CONFIRMED"
+    mba["source_ids"] = list(dict.fromkeys(bbs_current_sources + [bbs_historical_source, "SRC-UNIBO-AI-MFG-2026-27-MASTER"]))
     mba["previous_cycle_tags"] = None
     mba["facts"] = {
-        "official_course_listing_2027_2028": _fact({"official_name": "Global MBA in AI and Manufacturing", "programme_type": "12-month full-time English Global MBA / first-level professional master's", "provider": "Bologna Business School with University of Bologna", "application_opening": "December 2026", "selection_period": "from February 2027", "start": "September 2027"}, "CONFIRMED", ["SRC-UNIBO-BBS-AI-MFG-2027"]),
-        "application_windows": _fact([{"opening": "December 2026", "selection_from": "February 2027", "programme_start": "September 2027"}], "CONFIRMED", ["SRC-UNIBO-BBS-AI-MFG-2027"], "The BBS page does not give exact round-by-round deadlines; the detailed 2027/28 call is not yet published."),
-        "application_deadline": _fact(None, "NOT_YET_PUBLISHED", ["SRC-UNIBO-BBS-AI-MFG-2027"], "Not yet announced for 2027/28; the BBS page says detailed instructions will be published later."),
-        "application_fee_2027_2028": _fact(None, "NOT_YET_PUBLISHED", ["SRC-UNIBO-BBS-AI-MFG-2027"], "Not yet announced for 2027/28 in the official programme page reviewed."),
-        "program_specific_requirements_2027_2028": _fact(None, "NOT_YET_PUBLISHED", ["SRC-UNIBO-BBS-AI-MFG-2027"], "The page describes selection by academic profile, tests and interview, but the detailed 2027/28 notice has not yet been published."),
-        "tuition_2027_2028": _fact(None, "NOT_YET_PUBLISHED", ["SRC-UNIBO-BBS-AI-MFG-2027"], "Not yet announced for 2027/28 in the official programme page reviewed."),
-        "scholarships_2027_2028": _fact(None, "NOT_YET_PUBLISHED", ["SRC-UNIBO-BBS-AI-MFG-2027"], "The programme page says high-ranking candidates may be eligible for a scholarship, but 2027/28 award amount and terms are not published."),
-        "acceptance_rate": _fact(None, "UNAVAILABLE", ["SRC-UNIBO-BBS-AI-MFG-2027"], "The programme page does not publish the applicant denominator and admitted count; no acceptance rate is inferred."),
+        "official_course_listing_2027_2028": _fact(
+            {"academic_year":"2027/28", "official_name":"Global MBA in AI and Manufacturing", "concentration":"AI and Manufacturing", "provider":"Bologna Business School with University of Bologna", "programme_type":"12-month full-time Global MBA, delivered entirely in English", "application_opening":"December 2026", "selection_rounds":4, "selection_period":"February–July 2027", "start":"September 2027"},
+            "CONFIRMED", bbs_current_sources,
+            "The current BBS page names the 2027/28 intake and describes the programme format. The University of Bologna's prior-year sheet confirms Level I professional-master classification, but the 2027/28 administrative call is still forthcoming.",
+        ),
+        "application_windows": _fact(
+            [{"application_opening":"December 2026", "selection_rounds":4, "selection_period_start":"2027-02", "selection_period_end":"2027-07", "programme_start":"2027-09", "exact_dates":"Not yet published"}],
+            "CONFIRMED", bbs_current_sources,
+            "BBS publishes the 2027/28 opening month, four selection rounds and month-level selection period. Exact round application windows and deadlines are not given; the annual call and instructions are forthcoming.",
+        ),
+        "application_deadline": _fact(None, "NOT_YET_PUBLISHED", bbs_current_sources, "Not yet announced for 2027/28. The live page says the annual call and application instructions will be published later."),
+        "current_published_application_fee": _fact(
+            {"selection_fee_eur":60, "cycle_label":"Not stated on the current page"}, "CONFIRMED", ["SRC-UNIBO-BBS-AI-MFG-2027"],
+            "The current application instructions display a €60 registration/selection fee, but do not identify it as the 2027/28 fee.",
+        ),
+        "application_fee_2027_2028": _fact(None, "NOT_YET_PUBLISHED", bbs_current_sources, "The current page displays a €60 fee without a 2027/28 label; confirm the new-cycle amount in the forthcoming call."),
+        "current_published_requirements": _fact(
+            {"cycle_label":"Not stated on the current page", "qualifying_degree":"Bachelor's degree", "english":"English-language proficiency", "work_experience":"Three years of qualified work experience, cumulative", "selection_process":["Written aptitude test", "Written English test", "Motivational interview"], "optional_test_exemptions":{"aptitude":"Optional GMAT score of at least 550 or equivalent GRE can exempt candidates from the aptitude test", "english":"Optional TOEFL, IELTS or Cambridge English certificate at minimum B2, issued within the last three years, can exempt candidates from the English test"}},
+            "CONFIRMED", ["SRC-UNIBO-BBS-AI-MFG-2027"],
+            "These are the requirements and test options currently displayed by BBS. The page says the 2027/28 call and application instructions are forthcoming, so these details are not treated as new-cycle rules. The displayed GMAT threshold (550) differs from the 2026/27 sheet (600).",
+        ),
+        "program_specific_requirements_2027_2028": _fact(None, "REQUIRES_VERIFICATION", bbs_current_sources, "The live page shows general requirements but does not label them for 2027/28 and says the annual call and detailed instructions will be published later. Verify the threshold and any changes in that call."),
+        "tuition_currently_displayed": _fact(
+            {"amount_eur":35000, "vat_free":True, "instalments":3, "cycle_label":"Not stated on the current page"}, "CONFIRMED", ["SRC-UNIBO-BBS-AI-MFG-2027"],
+            "This amount is currently displayed on the BBS page and matches the official 2026/27 sheet; the current page does not label it for 2027/28.",
+        ),
+        "tuition_2027_2028": _fact(None, "REQUIRES_VERIFICATION", bbs_current_sources, "The current page displays €35,000 without a 2027/28 label. The new-cycle tuition must be confirmed in the forthcoming call."),
+        "scholarships_currently_displayed": _fact(
+            {"cycle_label":"Not stated on the current page", "awards":"Full and partial tuition scholarships", "basis":"Merit, including results in the second selection phase and academic/professional profile", "coverage":"Tuition only", "additional_scheme":"Africa Scholarship Program; current page gives no 2027/28 award amount or terms"},
+            "CONFIRMED", ["SRC-UNIBO-BBS-AI-MFG-2027"],
+            "The BBS page describes general scholarships but does not identify specific 2027/28 awards, amounts or eligibility terms.",
+        ),
+        "scholarships_2027_2028": _fact(None, "REQUIRES_VERIFICATION", bbs_current_sources, "The current BBS page describes general merit scholarships but does not state cycle-specific 2027/28 amounts or terms; verify the forthcoming call."),
+        "previous_cycle_2026_2027_offer": _fact(
+            {"academic_year":"2026/27", "official_name":"Global Master in Business Administration", "programme_code":"8881", "level":"First-level professional master's", "concentration":"AI and Manufacturing", "campus":"Bologna", "language":"English", "duration":"Annual", "credits_ects":60, "internship_hours":500},
+            "CONFIRMED", [bbs_historical_source],
+            "Historical 2026/27 programme-sheet facts only; do not use these terms as 2027/28 rules.",
+        ),
+        "previous_cycle_2026_2027_application_windows": _fact(
+            [{"round":1,"start":"2026-02-10","end":"2026-02-10"}, {"round":2,"start":"2026-02-11","end":"2026-03-24"}, {"round":3,"start":"2026-03-25","end":"2026-05-12"}, {"round":4,"start":"2026-05-13","end":"2026-07-06"}],
+            "CONFIRMED", [bbs_historical_source],
+            "Exact application windows from the official 2026/27 programme sheet. These dates are expired historical information and are not projected to 2027/28.",
+        ),
+        "previous_cycle_2026_2027_application_fee": _fact(
+            {"amount_eur":60, "type":"Non-refundable selection procedure fee"}, "CONFIRMED", [bbs_historical_source],
+            "AY 2026/27 only; the 2027/28 fee has not yet been announced.",
+        ),
+        "previous_cycle_2026_2027_tuition": _fact(
+            {"amount_eur":35000, "installments_eur":[4000,20000,11000], "first_installment_deadlines_by_round":["2026-03-30","2026-05-11","2026-07-01","2026-08-27"], "second_installment_due":"2026-11-30", "third_installment_due":"2027-03-31"},
+            "CONFIRMED", [bbs_historical_source],
+            "AY 2026/27 only, as specified in the official sheet; do not carry the amount or dates into 2027/28.",
+        ),
+        "previous_cycle_2026_2027_reduced_fees": _fact(
+            {"basis":"Merit ranking across the four selection rounds", "reduced_tuition_bands_eur":[25000,20000,17500,15000,10000], "full_tuition_waiver":True, "fixed_fee_after_full_waiver_eur":184.54},
+            "CONFIRMED", [bbs_historical_source],
+            "Historical AY 2026/27 merit-reduced fee schemes; no 2027/28 amounts or awards are confirmed by this prior-year sheet.",
+        ),
+        "previous_cycle_2026_2027_requirements": _fact(
+            {"qualifying_degree":"First-cycle, second-cycle or single-cycle degree, or equivalent foreign qualification", "english":"B2 level", "work_experience":"Three cumulative years before programme start", "english_certificate_or_test":"B2 certificate or written English test", "aptitude_test":"Written aptitude test unless exempt", "optional_gmat_gre":"GMAT 600 or above / equivalent GRE"},
+            "CONFIRMED", [bbs_historical_source],
+            "Requirements stated in the official 2026/27 sheet only. The current BBS page displays a different optional GMAT threshold, so the 2027/28 call must be checked.",
+        ),
+        "previous_cycle_2026_2027_selection": _fact(
+            {"stages":["Qualification evaluation", "Written aptitude test", "Written English test", "Motivational interview"], "maximum_score":100, "minimum_passing_score":60, "written_tests_scored":False},
+            "CONFIRMED", [bbs_historical_source],
+            "AY 2026/27 selection procedure only; the new-cycle selection rules remain to be confirmed.",
+        ),
+        "previous_cycle_2026_2027_places": _fact(
+            {"maximum_total":120, "round_allocations":[40,40,20,20], "later_rounds_include_unfilled_places_from_prior_rounds":True},
+            "CONFIRMED", [bbs_historical_source],
+            "AY 2026/27 capacity only; 2027/28 places are not yet published.",
+        ),
+        "acceptance_rate": _fact(None, "UNAVAILABLE", ["SRC-UNIBO-BBS-AI-MFG-2027"], "The programme page does not publish applicant and admitted counts; no acceptance rate is inferred."),
     }
-    mba["last_checked"] = "2026-11-10"
+    mba["last_checked"] = "2026-11-11"
 
     padua = [
         ("legacy-029", "Computer Engineering", "MSc", "English", "Computer Engineering", ["SRC-PADOVA-COMPUTER-ENGINEERING-2026", "SRC-PADOVA-ENG-MSC-ADMISSIONS-2026"]),
@@ -5048,6 +5198,86 @@ def apply_legacy_course_reviews(programs: list[dict[str, Any]], fact: Callable[.
             ),
         }, cycle="2026-2027", checked_at="2026-11-11",
     )
+
+    cam_fee_source = "SRC-CAMERINO-FOREIGN-FEES"
+    cam_fee_value = {
+        "cycle_label":"Not stated on the page",
+        "income_assessment":"ISEE-U equalized declaration for specified EU/OECD foreign students and other named categories; missing documentation leads to the maximum all-inclusive fee",
+        "country_based_annual_fee_eur":{"particularly_poor_and_developing_countries":200,"other_non_OECD_countries":300},
+        "additional_study_year_amounts_eur":{"type_A_2nd_and_3rd":600,"type_A_4th_and_5th":900,"type_A_beyond_5th":1200,"type_B_2nd_and_3rd":720,"type_B_4th_and_5th":1020,"type_B_beyond_5th":1320},
+        "additional_charges":"Regional higher-education tax and stamp duty are added",
+        "all_inclusive_package_display_eur":6876,
+        "package_components_as_listed":["ERDIS dormitory accommodation", "Two cafeteria meals per day while open", "Administrative support and other student services"],
+        "package_total_composition":"Unclear: page says €720 + €156 tax/stamp are paid separately at registration",
+    }
+    cam_fee_note = "The current official foreign-fee page is available at the canonical non-www host but does not state an academic year. These are general displayed foreign-student rules, not confirmed 2027/28 programme fees. The €6,876 package wording is ambiguous about whether the separately paid €720 + €156 is included in that total; confirm before quoting the package price."
+    for pid in ("legacy-068", "legacy-069", "legacy-070", "legacy-071"):
+        program = by_id[pid]
+        program["source_ids"] = list(dict.fromkeys(program.get("source_ids", []) + [cam_fee_source]))
+        program.setdefault("facts", {})["current_foreign_student_fee_guidance"] = _fact(
+            cam_fee_value, "CONFIRMED", [cam_fee_source], cam_fee_note,
+        )
+        tuition = program.get("facts", {}).get("tuition_2027_2028")
+        if tuition:
+            tuition["notes"] = "The canonical foreign-student fee page was directly reached on 11 November 2026. It contains undated general fee guidance and a €6,876 package display with ambiguous composition; the separate named package source is for 2026/27. No 2027/28 course tuition schedule or package is confirmed."
+        program["last_checked"] = "2026-11-11"
+
+    quantum = by_id["legacy-121"]
+    quantum_profile = "SRC-UNINA-QUANTUM-PROFILE-2026"
+    quantum_guide = "SRC-UNINA-QUANTUM-2025"
+    quantum_sources = [quantum_profile, quantum_guide]
+    quantum["level"] = _fact(
+        "MSc", "REQUIRES_VERIFICATION", [quantum_profile],
+        "The official course page confirms an LM-44 Master's for 2026/27; a 2027/28 course listing has not been verified.",
+    )
+    quantum["language"] = _fact(
+        "English", "REQUIRES_VERIFICATION", [quantum_profile],
+        "The official 2026/27 profile says the Master's is entirely delivered in English. Verify the 2027/28 course listing before promoting the language field to 2027/28 confirmed.",
+    )
+    quantum["field"] = _fact(
+        "Quantum Science and Engineering", "REQUIRES_VERIFICATION", [quantum_profile],
+        "Course identity is confirmed in the official 2026/27 profile only; the 2027/28 programme listing is not verified.",
+    )
+    quantum["availability_2027_2028"] = _fact(
+        None, "NOT_YET_PUBLISHED", quantum_sources,
+        "The current official course page displays a 2026/27 study plan and a 14 September 2026 start, while the University guide is explicitly updated for 2025/26. No 2027/28 first-year offer or admission call was located as of 11 November 2026; this is not treated as cancellation.",
+    )
+    quantum["overall_status"] = "REQUIRES_VERIFICATION"
+    quantum["source_ids"] = quantum_sources
+    quantum["previous_cycle_tags"] = {
+        "level":"MSc", "language":"English", "field":"Quantum Science and Engineering",
+        "cycle":"2026-2027",
+        "label":"Official course page checked for 2026/27; 2027/28 first-year offer and admission remain unconfirmed",
+    }
+    quantum["facts"] = {
+        "previous_cycle_course_listing": _fact(
+            {"academic_year":"2026/27", "official_name":"Quantum Science and Engineering", "level":"Master's degree", "degree_class":"LM-44", "duration_years":2, "credits":120, "language":"English", "campus":"Naples", "department":"Physics Ettore Pancini", "start_of_classes":"2026-09-14"},
+            "CONFIRMED", [quantum_profile],
+            "The official Department of Physics page displays a 2026/27 study plan and timetable. These are prior-cycle offer facts, not confirmation of a 2027/28 intake.",
+        ),
+        "previous_cycle_2025_2026_admission_requirements": _fact(
+            {"academic_year":"2025/26", "admission_access":"Open access (Libero)", "qualifying_degree":"Bachelor's degree / first-cycle degree or equivalent", "minimum_relevant_credits":{"mathematics":24,"physics":12,"computer_science_or_information_engineering":6,"additional_relevant_science_or_engineering":12}, "english":"B2 CEFR"},
+            "CONFIRMED", [quantum_guide],
+            "The official student guide is explicitly updated for 2025/26. The listed curricular credits and language level are historical guide requirements and are not assumed to apply in 2026/27 or 2027/28.",
+        ),
+        "previous_cycle_2025_2026_english_requirement": _fact(
+            "B2 CEFR", "CONFIRMED", [quantum_guide],
+            "The guide's stated B2 level belongs to its 2025/26 edition; confirm the accepted proof and threshold in a future annual admission guide.",
+        ),
+        "current_course_contacts": _fact(
+            {"coordinator":"Prof. Francesco Tafuri", "teaching_secretariat":"Nicola Miranda", "email":"segrdid.fisica@unina.it", "telephone":"+39 081 676874"},
+            "CONFIRMED", [quantum_profile],
+            "Contact details displayed on the current Department profile; verify before an applicant relies on them.",
+        ),
+        "application_windows": _fact(None, "NOT_YET_PUBLISHED", quantum_sources, "No programme-specific 2027/28 application window or deadline was found as of 11 November 2026."),
+        "application_deadline": _fact(None, "NOT_YET_PUBLISHED", quantum_sources, "Not yet announced for 2027/28 in the official course and student-guide pages reviewed."),
+        "application_fee_2027_2028": _fact(None, "NOT_YET_PUBLISHED", quantum_sources, "Not yet announced for 2027/28 in the programme-specific material reviewed."),
+        "program_specific_requirements_2027_2028": _fact(None, "NOT_YET_PUBLISHED", quantum_sources, "The 2025/26 guide lists prior-cycle criteria, but no 2027/28 programme-specific requirements were found; do not carry these older thresholds forward."),
+        "tuition_2027_2028": _fact(None, "NOT_YET_PUBLISHED", quantum_sources, "No 2027/28 programme-specific tuition or current fee notice was found; prior-cycle amounts are not carried forward."),
+        "scholarships_2027_2028": _fact(None, "NOT_YET_PUBLISHED", quantum_sources, "No 2027/28 programme-specific or applicable university/regional award call was confirmed in the pages reviewed."),
+        "acceptance_rate": _fact(None, "UNAVAILABLE", quantum_sources, "The reviewed official course pages do not publish an applicant denominator and admitted count; no acceptance rate is inferred."),
+    }
+    quantum["last_checked"] = "2026-11-11"
 
 
 def apply(
@@ -8752,19 +8982,14 @@ SOURCE_RECHECKS.update({
     "SRC-CAMERINO-FOREIGN-FEES": {
         "accessed_at": "2026-11-11",
         "url_check": {
-            "http_status": None, "effective_url": None, "content_type": None,
-            "content_length_header": None, "etag": None, "last_modified": None,
-            "cache_control": None, "age": None, "x_vercel_cache": None,
+            "http_status": 200, "effective_url": "https://miiscrivo.unicam.it/fees-foreign-students",
+            "content_type": "text/html; charset=UTF-8", "content_length_header": None,
+            "etag": None, "last_modified": None,
+            "cache_control": "max-age=900, public", "age": None, "x_vercel_cache": None,
             "x_vercel_id": None, "location": None, "observed_title": None,
-            "pdf_signature": None, "has_2027_marker": None, "bytes_read": 0,
-            "outcome": "inconclusive",
-            "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.miiscrivo.unicam.it'. (_ssl.c:1007)",
-            "retried": True, "checked_at": "2026-11-11", "method": "GET",
-        },
-        "browser_check": {
-            "checked_at": "2026-11-11", "outcome": "inconclusive",
-            "method": "Codex web reader open and official-domain search",
-            "notes": "The official search index returned a snippet for this page, but a direct web-reader open timed out. This is not a fresh HTTP verification; the independent GET failed TLS hostname validation, so reachability remains inconclusive.",
+            "pdf_signature": None, "has_2027_marker": False, "bytes_read": 100884,
+            "outcome": "accessible", "error": None,
+            "retried": True, "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib; canonical non-www host)",
         },
     },
     "SRC-PADOVA-PSYCHOLOGY-MSC-FULL-2026": {
@@ -9018,6 +9243,61 @@ SOURCE_RECHECKS.update({
         "browser_check": {
             "checked_at": "2026-11-11", "outcome": "accessible", "method": "Codex web reader open",
             "notes": "The profile shows MSc, two years, English and Milano Leonardo, but is not an AY 2027/28 offer by itself. The active new-entry evidence is the separate 2027/28 28DIGITAL local-entry route.",
+        },
+    },
+})
+
+SOURCE_RECHECKS.update({
+    "SRC-UNIBO-BBS-AI-MFG-2027": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.bbs.unibo.it/en/global-mba/ai-and-manufacturing-2/",
+            "content_type": "text/html; charset=UTF-8", "content_length_header": None,
+            "etag": None, "last_modified": None, "cache_control": None, "age": None,
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Master AI and Manufacturing (MBA) | BBS Italy", "pdf_signature": None,
+            "has_2027_marker": True, "bytes_read": 199753, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib)",
+        },
+        "browser_check": {
+            "checked_at": "2026-11-11", "outcome": "accessible", "method": "Official page content opened and reviewed",
+            "notes": "The current page displays the 2027/28 schedule and the current unlabelled fee, requirements and scholarship information; the annual call is still forthcoming.",
+        },
+    },
+    "SRC-UNIBO-BBS-AI-MFG-2027-IT": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.bbs.unibo.it/global-mba/ai-and-manufacturing/",
+            "content_type": "text/html; charset=UTF-8", "content_length_header": None,
+            "etag": None, "last_modified": None, "cache_control": None, "age": None,
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Master AI & Manufacturing: MBA in Artificial Intelligence e Robotica | BBS", "pdf_signature": None,
+            "has_2027_marker": True, "bytes_read": 200419, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib)",
+        },
+        "browser_check": {
+            "checked_at": "2026-11-11", "outcome": "accessible", "method": "Official page content opened and reviewed",
+            "notes": "The Italian page explicitly gives the 2027/28 opening month, four selection rounds from February to July 2027, and September 2027 start; exact application dates are not published.",
+        },
+    },
+    "SRC-UNIBO-BBS-GMBA-2026-2027-SHEET": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.unibo.it/en/study/phd-professional-masters-specialisation-schools-and-other-programmes/professional-master/2026-2027/attachments/call-for-application-in-global-master-in-business-administration/data-sheet-of-the-professional-masters-programme-in-global-master-in-business-administration/@@download/file/SCHEDA%20MASTER%20GLOBAL%20MBA%20A.A.%202026-2027_EN.pdf",
+            "content_type": "application/pdf", "content_length_header": "380075", "etag": None,
+            "last_modified": "Fri, 19 Dec 2025 13:44:31 GMT",
+            "cache_control": "max-age=0, s-maxage=0, must-revalidate", "age": "38",
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None, "observed_title": None,
+            "pdf_signature": True, "has_2027_marker": None, "bytes_read": 380075,
+            "outcome": "accessible", "error": None, "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache; full PDF fetched (Python urllib)",
+        },
+        "browser_check": {
+            "checked_at": "2026-11-11", "outcome": "accessible", "method": "Official PDF text opened and reviewed",
+            "notes": "This sheet explicitly belongs to AY 2026/27. Its fee, deadlines, requirements and selection details are retained only as historical prior-cycle facts.",
         },
     },
 })

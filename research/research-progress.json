@@ -11,6 +11,9 @@
     "Recheck Padua's Management, Finance and Business Analytics proposal after the 12 November 2026 open day for course-specific admission information.",
     "Recheck Padua's Food Safety for Global Health application page when its course application links become available (the page says around December 2026).",
     "Recheck Padua's proposed English programmes when approval decisions and course-specific 2027/28 admission pages are published.",
+    "Recheck the BBS Global MBA in AI and Manufacturing when the 2027/28 call opens in December 2026 for exact deadlines, current tuition, fee, requirements and scholarship terms.",
+    "Recheck Camerino's undated foreign-student fee guidance when the 2027/28 fee schedule or international package is published.",
+    "Recheck Federico II's Quantum Science and Engineering course when its 2027/28 catalogue or admission call is published; current official profile and admission guide evidence is limited to 2026/27 and 2025/26.",
     "Run data and UI quality checks, deploy a preview, then repeat research/QA before any production deployment."
   ],
   "completed_batches": [
@@ -440,6 +443,21 @@
       "result": "Completed a program-level review for discovered-012, Bologna's Erasmus Mundus CLE joint Master's. The current 2027/28 application page confirms the active intake, month-level application windows for EU and non-EU applicants, results and enrolment/document milestones, and the Studenti Online second-cycle route. The official Bologna course profile confirms the 2026/27 base degree is a two-year LM-14 course with an international Culture letterarie europee curriculum, Italian/English at Bologna and Bologna as the teaching campus. The consortium describes mandatory mobility at two or three partner universities, variable host-campus teaching languages, English B1 plus B2 in the first-year host language, and double/multiple degrees. These sources support the core level, discipline and multilingual delivery; exact 2027/28 day-level deadlines remain unpublished. The 2027/28 page still links a 2026/27 admission notice, so detailed curricular thresholds remain marked for verification. The reviewed fee schedule and partner-award PDF are for 2026/27 and 2025/26 respectively; 2027/28 tuition and scholarship terms remain unconfirmed, while the current call only says possible support depends on available funds. Seven fresh official-page/PDF GETs returned HTTP 200 (the prior-cycle PDF returned HTTP 206 for the requested byte range); browser content opens succeeded. No production changes were made."
     },
     {
+      "id": "polimi-28digital-2027-2028-core-program-and-window-review",
+      "status": "partial",
+      "result": "Rechecked the current 28DIGITAL/Polimi admissions page and its two official local programme profiles. The 2027/28 page confirms September 2027 entry, identifies the Polimi local Master of Science options as Computer Science and Engineering (T2A) and High Performance Computing Engineering, requires a separate Polimi application and English proof, and makes local admission conditional on Polimi being assigned as the entry university. The course profiles identify both as two-year, English-taught MSc programmes based at Milano Leonardo. This verifies the core offer details for legacy-001 and legacy-004 specifically through the 28DIGITAL route; it does not establish general course-wide Polimi intake conditions. For applicants with Italian degrees, the page gives a July–August 2027 local application window, with exact dates to follow in spring; the data now records the month-level window as confirmed. Existing foreign-degree call windows and the optional €50/€150 local application fee remain recorded. General Polimi course-wide deadline conflict, exact Italian-degree dates, 2027/28 tuition, scholarship terms and course-specific annual admission requirements remain open. All three direct GETs returned HTTP 200 and current pages opened successfully. No production changes were made."
+    },
+    {
+      "id": "bologna-bbs-global-mba-ai-manufacturing-2027-2028-and-historical-terms-review",
+      "status": "partial",
+      "result": "Rechecked the Bologna Business School Global MBA in AI and Manufacturing against fresh direct GETs to the current English and Italian programme pages and the official University of Bologna 2026/27 programme sheet. The active 2027/28 page confirms the named AI and Manufacturing concentration, a 12-month full-time English Global MBA, December 2026 application opening, four selection rounds between February and July 2027, and September 2027 start. The core offer is now fully confirmed for this programme, while exact 2027/28 round deadlines and the forthcoming annual call remain pending. The current page also displays €35,000 tuition, a €60 application fee, general entry requirements and merit scholarships, but none of those generic terms is cycle-labelled for 2027/28; they are recorded separately as currently displayed information with annual confirmation still required. A separate official 2026/27 sheet (code 8881) verifies historical first-level Professional Master's classification, exact prior-cycle application windows, €60 selection fee, €35,000 tuition, reduced-fee bands/waiver, requirements, selection and places. All 2026/27 dates and amounts remain explicitly historical. Fresh no-cache GETs returned HTTP 200 for both current HTML pages and the historical PDF; the PDF response included its 2025 Last-Modified date and Age 38 despite the no-cache request. No production changes were made."
+    },
+    {
+      "id": "camerino-foreign-fee-source-canonical-host-recheck",
+      "status": "partial",
+      "result": "Resolved the Camerino foreign-fee page's hostname mismatch without disabling TLS checks. The stored www URL fails certificate validation, while the official canonical non-www URL returns HTTP 200 after a no-cache GET (100,884 bytes); the response is dated 10 November 2026 and advertises max-age=900, public. Updated the source to the working official URL and added the page's general foreign-student fee framework to all four Camerino English-MSc records and the University record. The page is not cycle-labelled: its €200/€300 country-based charges, ISEE-U route, additional-year rates, and €6,876 all-inclusive display are kept as undated current guidance, not 2027/28 tuition. The package wording separately says €720 plus €156 tax/stamp is paid at registration, so its total composition remains ambiguous. 2027/28 tuition, the four course intakes and the new international route remain open; no production changes were made."
+    },
+    {
       "id": "claude-independent-review-inventory",
       "status": "complete",
       "result": "Created a review manifest and checklist covering all 34 universities, 193 programs, and 454 existing official source records. The checklist exposes current unresolved fields and conflicts; all refresh outcomes remain pending until evidence is checked."
@@ -455,9 +473,9 @@
       "result": "Direct HTTP review covers 554 unique URLs across 568 source records: 519 accessible, 13 redirected, 22 inconclusive and 0 confirmed broken. All 21 previously inconclusive URLs were retried via direct HTTP on 11 November and remained inconclusive. The three Padua scholarship, scheme and tuition URLs, five earlier Padua admissions/Statistical Science source URLs, the central Astrophysics and Cosmology profile, and the new student-awards page returned HTTP 200. The new Astrophysics Department call URL was inconclusive by direct HTTP and content-open; an official indexed result exposed its 2027/28 call details, but the link is not counted as directly verified. Twelve older inconclusive sources were separately opened and inspected through the official content fetcher: ten Camerino pages/PDFs, one Trieste historical catalogue PDF, and one Federico II Quantum Science and Engineering page. Nine older URLs still lack a successful independent content fetch; a 11 November retry of those nine also timed out or could not retrieve the PDF. Keep all inconclusive links classified as inconclusive, not broken."
     },
     {
-      "id": "polimi-28digital-2027-2028-core-program-and-window-review",
+      "id": "federico-ii-quantum-science-and-engineering-2026-27-offer-refresh",
       "status": "partial",
-      "result": "Rechecked the current 28DIGITAL/Polimi admissions page and its two official local programme profiles. The 2027/28 page confirms September 2027 entry, identifies the Polimi local Master of Science options as Computer Science and Engineering (T2A) and High Performance Computing Engineering, requires a separate Polimi application and English proof, and makes local admission conditional on Polimi being assigned as the entry university. The course profiles identify both as two-year, English-taught MSc programmes based at Milano Leonardo. This verifies the core offer details for legacy-001 and legacy-004 specifically through the 28DIGITAL route; it does not establish general course-wide Polimi intake conditions. For applicants with Italian degrees, the page gives a July–August 2027 local application window, with exact dates to follow in spring; the data now records the month-level window as confirmed. Existing foreign-degree call windows and the optional €50/€150 local application fee remain recorded. General Polimi course-wide deadline conflict, exact Italian-degree dates, 2027/28 tuition, scholarship terms and course-specific annual admission requirements remain open. All three direct GETs returned HTTP 200 and current pages opened successfully. No production changes were made."
+      "result": "Replaced the stale/inconclusive Quantum Science and Engineering profile lead with a fresh official 2026/27 Department of Physics course page, while retaining the accessible University orientation guide explicitly updated for 2025/26. The current prior-cycle course profile returned HTTP 200 and confirms the LM-44, 120-CFU Master's, fully English delivery, a 2026/27 first-semester plan and 14 September 2026 start. The 2025/26 guide gives prior-cycle open-access and entry criteria: a first-cycle degree or equivalent, 24 CFU Mathematics, 12 CFU Physics, 6 CFU in specified computing/engineering areas, 12 additional relevant credits, and B2 English. These older requirements are retained as historical guidance only. No 2027/28 first-year course listing, application dates, fee, current entry requirements, tuition or scholarships were found; availability remains pending. The old QST project page still has an expired-certificate direct-check outcome and is no longer a relied-on program source. No production changes were made."
     }
   ],
   "counts": {
@@ -512,8 +530,8 @@
     "newly_discovered_programs": 44,
     "programs_cycle_availability_confirmed": 40,
     "programs_availability_pending": 166,
-    "programs_fully_verified": 38,
-    "programs_requiring_verification": 168,
+    "programs_fully_verified": 39,
+    "programs_requiring_verification": 167,
     "programs_not_offered_2027_2028": 3,
     "programs_supported_only_by_previous_cycle": 153,
     "program_ids_supported_only_by_previous_cycle": [
@@ -750,8 +768,8 @@
       "trento",
       "udine"
     ],
-    "source_records": 697,
-    "official_source_supported_fields": 1459,
+    "source_records": 700,
+    "official_source_supported_fields": 1478,
     "verification_statuses": [
       "CONFIRMED",
       "NOT_YET_PUBLISHED",
