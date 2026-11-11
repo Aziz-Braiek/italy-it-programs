@@ -43257,6 +43257,8 @@
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
         "SRC-PADUA-ARQUS-PHYSICS-TECH-2026",
+        "SRC-ARQUS-PHYS-TECH-MEETING-2026",
+        "SRC-ARQUS-PHYS-TECH-ACCREDITATION-STATUS-2026",
         "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
       ],
       "notes": "The 2027/28 English-language degree catalogue does not list Physics for Technology; the Arqus development announcement does not state teaching language."
@@ -43274,9 +43276,11 @@
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
         "SRC-PADUA-ARQUS-PHYSICS-TECH-2026",
+        "SRC-ARQUS-PHYS-TECH-MEETING-2026",
+        "SRC-ARQUS-PHYS-TECH-ACCREDITATION-STATUS-2026",
         "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
       ],
-      "notes": "The source confirms a consortium development agreement only. It gives no launch cycle, admission call or approval/accreditation status."
+      "notes": "The latest Arqus update reviewed (30 September 2026) says the joint Bachelor's is undergoing accreditation by the Lithuanian Quality Agency. No completed accreditation, 2027/28 launch, first-year intake or course-specific admission call is confirmed, and Padua's current English-degree catalogue does not list it."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "newly_discovered",
@@ -43291,11 +43295,14 @@
             "Vilnius University",
             "University of Wroclaw"
           ],
-          "status": "Consortium development agreement signed; launch details not published"
+          "status": "Under accreditation by Lithuanian Quality Agency as reported 30 September 2026",
+          "development_meeting": "Partner meeting on 15–16 January 2026 worked on a programme self-evaluation report, including admission and recognition procedures"
         },
         "status": "CONFIRMED",
         "source_ids": [
-          "SRC-PADUA-ARQUS-PHYSICS-TECH-2026"
+          "SRC-PADUA-ARQUS-PHYSICS-TECH-2026",
+          "SRC-ARQUS-PHYS-TECH-MEETING-2026",
+          "SRC-ARQUS-PHYS-TECH-ACCREDITATION-STATUS-2026"
         ],
         "notes": null
       },
@@ -43303,38 +43310,45 @@
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
-          "SRC-PADUA-ARQUS-PHYSICS-TECH-2026"
+          "SRC-ARQUS-PHYS-TECH-MEETING-2026",
+          "SRC-ARQUS-PHYS-TECH-ACCREDITATION-STATUS-2026"
         ],
-        "notes": "No application window or launch academic year is given in the programme-development announcement."
+        "notes": "No application window, launch academic year or first-year intake is given; the January meeting discussed admission procedures as part of programme development, not as final published criteria."
       },
       "program_specific_requirements_2027_2028": {
         "value": null,
         "status": "REQUIRES_VERIFICATION",
         "source_ids": [
-          "SRC-PADUA-ARQUS-PHYSICS-TECH-2026"
+          "SRC-ARQUS-PHYS-TECH-MEETING-2026",
+          "SRC-ARQUS-PHYS-TECH-ACCREDITATION-STATUS-2026"
         ],
-        "notes": "No approved programme regulation or admission requirements have been published in the reviewed source."
+        "notes": "Admission and recognition procedures were still being developed in January 2026; no approved programme regulation or final 2027/28 requirements have been published in the reviewed sources."
       },
       "tuition_2027_2028": {
         "value": null,
         "status": "REQUIRES_VERIFICATION",
         "source_ids": [
           "SRC-PADUA-ARQUS-PHYSICS-TECH-2026",
+          "SRC-ARQUS-PHYS-TECH-ACCREDITATION-STATUS-2026",
           "SRC-PADUA-TUITION-2026"
         ],
-        "notes": "No applicable programme fee or tuition structure is published in the reviewed source. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed."
+        "notes": "No applicable programme fee or tuition structure is published in the reviewed sources. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed."
       },
       "scholarships_2027_2028": {
         "value": null,
         "status": "REQUIRES_VERIFICATION",
         "source_ids": [
-          "SRC-PADUA-ARQUS-PHYSICS-TECH-2026"
+          "SRC-PADUA-ARQUS-PHYSICS-TECH-2026",
+          "SRC-ARQUS-PHYS-TECH-ACCREDITATION-STATUS-2026"
         ],
-        "notes": "No programme-specific scholarship call is published in the reviewed source."
+        "notes": "No programme-specific scholarship call is published in the reviewed sources."
       }
     },
     "source_ids": [
       "SRC-PADUA-ARQUS-PHYSICS-TECH-2026",
+      "SRC-ARQUS-PHYS-TECH-MEETING-2026",
+      "SRC-ARQUS-PHYS-TECH-ACCREDITATION-STATUS-2026",
+      "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
       "SRC-PADUA-TUITION-2026"
     ],
     "previous_tracker_tags": null,

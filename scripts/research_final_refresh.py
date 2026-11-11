@@ -1411,6 +1411,22 @@ SOURCES = [
         "supports": ["program.proposed_course_identity", "program.planned_level", "program.partnership"],
     },
     {
+        "id": "SRC-ARQUS-PHYS-TECH-MEETING-2026",
+        "university_id": "padova", "title": "7th meeting of the BSc Physics for Technology Programme",
+        "url": "https://arqus-alliance.eu/news/7th-meeting-of-the-bsc-physics-for-technology-programme-at-the-university-of-wroclaw/",
+        "source_type": "Official Arqus Alliance programme-development update", "accessed_at": "2026-11-11", "cycle": "general; development meeting January 2026",
+        "evidence": "Arqus reports that partner universities met on 15–16 January 2026 while the joint BSc was still being developed. The meeting worked on a programme self-evaluation report covering the framework, learning outcomes, admissions and recognition procedures, teaching and assessment, resources and quality assurance; it does not publish final criteria, a launch year or an application call.",
+        "supports": ["program.programme_development_status", "program.program_specific_requirements_2027_2028", "program.application_windows_2027_2028"],
+    },
+    {
+        "id": "SRC-ARQUS-PHYS-TECH-ACCREDITATION-STATUS-2026",
+        "university_id": "padova", "title": "Arqus joint-programme accreditation status – Physics for Technology",
+        "url": "https://arqus-alliance.eu/news/arqus-joint-master-translation-technologies-artificial-intelligence-receives-accreditation/",
+        "source_type": "Official Arqus Alliance accreditation-status update", "accessed_at": "2026-11-11", "cycle": "general; status reported 30 September 2026",
+        "evidence": "In its 30 September 2026 update, Arqus states that the Joint Bachelor's Degree in Physics for Technology is currently undergoing accreditation by the Lithuanian Quality Agency. This does not establish completed accreditation, a launch academic year, a first-year intake, teaching language or admissions terms.",
+        "supports": ["program.programme_development_status", "program.availability_2027_2028", "program.approval_status"],
+    },
+    {
         "id": "SRC-PADUA-STUDY-ENGLISH-APPLY-ITALIAN-2027",
         "university_id": "padova", "title": "Studiare in inglese – Come fare domanda (official Italian procedure)",
         "url": "https://www.unipd.it/studiare-inglese-come-fare-domanda",
@@ -2150,6 +2166,12 @@ BATCH46 = {
     "id": "padua-innovative-technologies-in-agriculture-proposal-and-study-guide-review",
     "status": "partial",
     "result": "Reviewed discovered-033, Innovative Technologies in Agriculture, against the University of Padua's English-degree catalogue and official 2027/28 study guide. Both list it as a new English-taught Bachelor's proposal awaiting approval; the guide places it under the School of Agricultural Sciences and Veterinary Medicine and within the three-year Bachelor's group. Its campus, first-year intake, course-specific application call, entry requirements, application fee, tuition, places and scholarship terms are not published in the reviewed official course sources. The University guide PDF was fetched directly with no-cache request headers (HTTP 200, valid PDF signature) and visually checked on its programme-list page; the PDF's own cache headers show a one-year max-age and nonzero Age. The record remains pending, and Padua is not treated as a confirmed course campus. No production changes were made.",
+}
+
+BATCH47 = {
+    "id": "padua-arqus-physics-for-technology-accreditation-status-review",
+    "status": "partial",
+    "result": "Rechecked discovered-034, the proposed Arqus Physics for Technology joint Bachelor's programme. The January 2026 Arqus partner-meeting report says the programme was still in development and that admission and recognition procedures were being worked on within a self-evaluation report. A later Arqus update dated 30 September 2026 states that the joint Bachelor's degree is undergoing accreditation by the Lithuanian Quality Agency. Padua's current English-degree catalogue does not list it, and no source confirms completed accreditation, a 2027/28 launch, first-year intake, teaching language, course campus, application call, requirements, tuition or scholarships. The candidate remains a development lead with no 2027/28 availability inferred. Fresh direct GETs returned HTTP 200 for the University and Arqus pages; no production changes were made.",
 }
 
 SOURCE_RECHECKS = {
@@ -5324,25 +5346,30 @@ def apply(
         programs.append(candidate)
 
     arqus_source = "SRC-PADUA-ARQUS-PHYSICS-TECH-2026"
+    arqus_meeting_source = "SRC-ARQUS-PHYS-TECH-MEETING-2026"
+    arqus_accreditation_source = "SRC-ARQUS-PHYS-TECH-ACCREDITATION-STATUS-2026"
+    arqus_sources = [arqus_source, arqus_meeting_source, arqus_accreditation_source]
+    arqus_catalogue_sources = [*arqus_sources, padua_planned_source]
     arqus_physics = make_program(
         "discovered-034", "padova", "Physics for Technology (planned Arqus joint Bachelor's)",
         "BSc (joint programme in development)", "REQUIRES_VERIFICATION", "Physics and Technology",
-        "REQUIRES_VERIFICATION", [arqus_source], city="Padua", discovery="newly_discovered",
+        "REQUIRES_VERIFICATION", arqus_catalogue_sources, city="Padua", discovery="newly_discovered",
     )
     arqus_physics["level"] = fact("BSc (joint programme in development)", "CONFIRMED", [arqus_source],
         "The official announcement calls this a joint Bachelor's programme under development; no academic-year launch is stated.")
-    arqus_physics["language"] = fact(None, "REQUIRES_VERIFICATION", [arqus_source, padua_planned_source],
+    arqus_physics["language"] = fact(None, "REQUIRES_VERIFICATION", arqus_catalogue_sources,
         "The 2027/28 English-language degree catalogue does not list Physics for Technology; the Arqus development announcement does not state teaching language.")
     arqus_physics["field"] = fact("Physics and Technology", "CONFIRMED", [arqus_source])
-    arqus_physics["availability_2027_2028"] = fact(None, "REQUIRES_VERIFICATION", [arqus_source, padua_planned_source],
-        "The source confirms a consortium development agreement only. It gives no launch cycle, admission call or approval/accreditation status.")
+    arqus_physics["availability_2027_2028"] = fact(None, "REQUIRES_VERIFICATION", arqus_catalogue_sources,
+        "The latest Arqus update reviewed (30 September 2026) says the joint Bachelor's is undergoing accreditation by the Lithuanian Quality Agency. No completed accreditation, 2027/28 launch, first-year intake or course-specific admission call is confirmed, and Padua's current English-degree catalogue does not list it.")
     arqus_physics["facts"] = {
-        "official_programme_development": fact({"name":"Physics for Technology", "degree_type":"Joint Bachelor's programme", "partners":["University of Padua", "University of Granada", "Vilnius University", "University of Wroclaw"], "status":"Consortium development agreement signed; launch details not published"}, "CONFIRMED", [arqus_source]),
-        "application_windows": fact(None, "NOT_YET_PUBLISHED", [arqus_source], "No application window or launch academic year is given in the programme-development announcement."),
-        "program_specific_requirements_2027_2028": fact(None, "REQUIRES_VERIFICATION", [arqus_source], "No approved programme regulation or admission requirements have been published in the reviewed source."),
-        "tuition_2027_2028": fact(None, "REQUIRES_VERIFICATION", [arqus_source], "No applicable programme fee or tuition structure is published in the reviewed source."),
-        "scholarships_2027_2028": fact(None, "REQUIRES_VERIFICATION", [arqus_source], "No programme-specific scholarship call is published in the reviewed source."),
+        "official_programme_development": fact({"name":"Physics for Technology", "degree_type":"Joint Bachelor's programme", "partners":["University of Padua", "University of Granada", "Vilnius University", "University of Wroclaw"], "status":"Under accreditation by Lithuanian Quality Agency as reported 30 September 2026", "development_meeting":"Partner meeting on 15–16 January 2026 worked on a programme self-evaluation report, including admission and recognition procedures"}, "CONFIRMED", arqus_sources),
+        "application_windows": fact(None, "NOT_YET_PUBLISHED", [arqus_meeting_source, arqus_accreditation_source], "No application window, launch academic year or first-year intake is given; the January meeting discussed admission procedures as part of programme development, not as final published criteria."),
+        "program_specific_requirements_2027_2028": fact(None, "REQUIRES_VERIFICATION", [arqus_meeting_source, arqus_accreditation_source], "Admission and recognition procedures were still being developed in January 2026; no approved programme regulation or final 2027/28 requirements have been published in the reviewed sources."),
+        "tuition_2027_2028": fact(None, "REQUIRES_VERIFICATION", [arqus_source, arqus_accreditation_source], "No applicable programme fee or tuition structure is published in the reviewed sources."),
+        "scholarships_2027_2028": fact(None, "REQUIRES_VERIFICATION", [arqus_source, arqus_accreditation_source], "No programme-specific scholarship call is published in the reviewed sources."),
     }
+    arqus_physics["source_ids"] = arqus_catalogue_sources
     arqus_physics["last_checked"] = "2026-11-11"
     programs.append(arqus_physics)
 
@@ -8418,6 +8445,50 @@ SOURCE_RECHECKS.update({
             "x_vercel_cache": None, "x_vercel_id": None, "location": None,
             "observed_title": "Information on credits recognition in Food Safety for Global Health. | Università di Padova",
             "pdf_signature": None, "has_2027_marker": False, "bytes_read": 32538,
+            "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib)",
+        },
+    },
+})
+
+SOURCE_RECHECKS.update({
+    "SRC-PADUA-ARQUS-PHYSICS-TECH-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://www.unipd.it/en/arqus/news/rettrice-partecipa-consiglio-rettori-alleanza-europea-arqus",
+            "content_type": "text/html; charset=utf-8", "content_length_header": None,
+            "etag": None, "last_modified": None, "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "age": None, "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "The Rector participates in the Arqus Rectors' Council | Università di Padova",
+            "pdf_signature": None, "has_2027_marker": False, "bytes_read": 1417290,
+            "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib)",
+        },
+    },
+    "SRC-ARQUS-PHYS-TECH-MEETING-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://arqus-alliance.eu/news/7th-meeting-of-the-bsc-physics-for-technology-programme-at-the-university-of-wroclaw/",
+            "content_type": "text/html; charset=UTF-8", "content_length_header": "142075",
+            "etag": None, "last_modified": "Wed, 11 Nov 2026 15:48:18 GMT",
+            "cache_control": "max-age=0, no-cache, no-store, must-revalidate", "age": None,
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "7th meeting of the BSc Physics for Technology Programme at the University of Wrocław - Arqus",
+            "pdf_signature": None, "has_2027_marker": False, "bytes_read": 142075,
+            "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib)",
+        },
+    },
+    "SRC-ARQUS-PHYS-TECH-ACCREDITATION-STATUS-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://arqus-alliance.eu/news/arqus-joint-master-translation-technologies-artificial-intelligence-receives-accreditation/",
+            "content_type": "text/html; charset=UTF-8", "content_length_header": "146267",
+            "etag": None, "last_modified": "Wed, 11 Nov 2026 15:39:26 GMT",
+            "cache_control": "max-age=0, no-cache, no-store, must-revalidate", "age": None,
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Arqus Joint Master in Translation, Technologies and Artificial Intelligence receives accreditation - Arqus",
+            "pdf_signature": None, "has_2027_marker": True, "bytes_read": 146267,
             "outcome": "accessible", "error": None,
             "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib)",
         },

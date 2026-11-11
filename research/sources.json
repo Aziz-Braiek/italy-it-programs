@@ -23126,11 +23126,83 @@
       "observed_title": "The Rector participates in the Arqus Rectors' Council | Università di Padova",
       "pdf_signature": null,
       "has_2027_marker": false,
-      "bytes_read": 131072,
+      "bytes_read": 1417290,
       "outcome": "accessible",
       "error": null,
       "checked_at": "2026-11-11",
-      "method": "GET"
+      "method": "GET with Cache-Control and Pragma no-cache (Python urllib)"
+    }
+  },
+  {
+    "id": "SRC-ARQUS-PHYS-TECH-MEETING-2026",
+    "university_id": "padova",
+    "title": "7th meeting of the BSc Physics for Technology Programme",
+    "url": "https://arqus-alliance.eu/news/7th-meeting-of-the-bsc-physics-for-technology-programme-at-the-university-of-wroclaw/",
+    "source_type": "Official Arqus Alliance programme-development update",
+    "accessed_at": "2026-11-11",
+    "cycle": "general; development meeting January 2026",
+    "evidence": "Arqus reports that partner universities met on 15–16 January 2026 while the joint BSc was still being developed. The meeting worked on a programme self-evaluation report covering the framework, learning outcomes, admissions and recognition procedures, teaching and assessment, resources and quality assurance; it does not publish final criteria, a launch year or an application call.",
+    "supports": [
+      "program.programme_development_status",
+      "program.program_specific_requirements_2027_2028",
+      "program.application_windows_2027_2028"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://arqus-alliance.eu/news/7th-meeting-of-the-bsc-physics-for-technology-programme-at-the-university-of-wroclaw/",
+      "content_type": "text/html; charset=UTF-8",
+      "content_length_header": "142075",
+      "etag": null,
+      "last_modified": "Wed, 11 Nov 2026 15:48:18 GMT",
+      "cache_control": "max-age=0, no-cache, no-store, must-revalidate",
+      "age": null,
+      "x_vercel_cache": null,
+      "x_vercel_id": null,
+      "location": null,
+      "observed_title": "7th meeting of the BSc Physics for Technology Programme at the University of Wrocław - Arqus",
+      "pdf_signature": null,
+      "has_2027_marker": false,
+      "bytes_read": 142075,
+      "outcome": "accessible",
+      "error": null,
+      "checked_at": "2026-11-11",
+      "method": "GET with Cache-Control and Pragma no-cache (Python urllib)"
+    }
+  },
+  {
+    "id": "SRC-ARQUS-PHYS-TECH-ACCREDITATION-STATUS-2026",
+    "university_id": "padova",
+    "title": "Arqus joint-programme accreditation status – Physics for Technology",
+    "url": "https://arqus-alliance.eu/news/arqus-joint-master-translation-technologies-artificial-intelligence-receives-accreditation/",
+    "source_type": "Official Arqus Alliance accreditation-status update",
+    "accessed_at": "2026-11-11",
+    "cycle": "general; status reported 30 September 2026",
+    "evidence": "In its 30 September 2026 update, Arqus states that the Joint Bachelor's Degree in Physics for Technology is currently undergoing accreditation by the Lithuanian Quality Agency. This does not establish completed accreditation, a launch academic year, a first-year intake, teaching language or admissions terms.",
+    "supports": [
+      "program.programme_development_status",
+      "program.availability_2027_2028",
+      "program.approval_status"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://arqus-alliance.eu/news/arqus-joint-master-translation-technologies-artificial-intelligence-receives-accreditation/",
+      "content_type": "text/html; charset=UTF-8",
+      "content_length_header": "146267",
+      "etag": null,
+      "last_modified": "Wed, 11 Nov 2026 15:39:26 GMT",
+      "cache_control": "max-age=0, no-cache, no-store, must-revalidate",
+      "age": null,
+      "x_vercel_cache": null,
+      "x_vercel_id": null,
+      "location": null,
+      "observed_title": "Arqus Joint Master in Translation, Technologies and Artificial Intelligence receives accreditation - Arqus",
+      "pdf_signature": null,
+      "has_2027_marker": true,
+      "bytes_read": 146267,
+      "outcome": "accessible",
+      "error": null,
+      "checked_at": "2026-11-11",
+      "method": "GET with Cache-Control and Pragma no-cache (Python urllib)"
     }
   },
   {
