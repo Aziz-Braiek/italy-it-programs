@@ -900,11 +900,43 @@ SOURCES = [
     },
     {
         "id": "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-BSC-2026",
-        "university_id": "padova", "title": "Scienze psicologiche cognitive e psicobiologiche – official bachelor's profile",
-        "url": "https://www.unipd.it/corsi-di-laurea/scienze-psicologiche-cognitive-e-psicobiologiche",
-        "source_type": "Official degree programme profile", "accessed_at": "2026-11-10", "cycle": "2026-2027",
-        "evidence": "Identifies the three-year Italian-taught bachelor's in Scienze psicologiche cognitive e psicobiologiche, class L-24 R, at Padua with restricted admission.",
-        "supports": ["program.previous_cycle_course_listing", "program.previous_cycle_level", "program.previous_cycle_language", "program.previous_cycle_access"],
+        "university_id": "padova", "title": "Scienze psicologiche cognitive e psicobiologiche – official School of Psychology profile",
+        "url": "https://psicologia.unipd.it/offerta-didattica/lauree-triennali?key=PS2961&ordinamento=2025&tipo=L",
+        "source_type": "Official School of Psychology degree programme profile", "accessed_at": "2026-11-11", "cycle": "2026-2027",
+        "evidence": "The official School profile identifies Scienze psicologiche cognitive e psicobiologiche as a three-year Italian-taught Laurea in class L-24 R, course profile PS2961, based in Padua with restricted admission. It displays 186 places for EU/equivalent and qualifying residents in Italy, plus 14 for non-EU applicants residing abroad including five Marco Polo; the annual admission calls are the controlling sources for those cycle-specific figures and procedures.",
+        "supports": ["program.previous_cycle_course_listing", "program.previous_cycle_level", "program.previous_cycle_language", "program.previous_cycle_location", "program.previous_cycle_access", "program.previous_cycle_available_places"],
+    },
+    {
+        "id": "SRC-PADOVA-PSYCHOLOGY-ITALIAN-BSC-ADMISSIONS-2026",
+        "university_id": "padova", "title": "School of Psychology Italian-taught bachelor's admissions page – AY 2026/27",
+        "url": "https://www.unipd.it/en/ammissioni-psi-triennali-programmato",
+        "source_type": "Official School of Psychology admissions page", "accessed_at": "2026-11-11", "cycle": "2026-2027",
+        "evidence": "The page is explicitly for AY 2026/27 and names Scienze psicologiche cognitive e psicobiologiche among four restricted-access Italian-taught bachelor's degrees. It identifies TOLC-PSI as the required test and links separate calls for EU/equivalent candidates and non-EU applicants residing abroad. It does not establish a 2027/28 first-year intake.",
+        "supports": ["program.previous_cycle_course_listing", "program.previous_cycle_access", "program.previous_cycle_application_windows", "program.previous_cycle_program_requirements", "program.previous_cycle_international_admission"],
+    },
+    {
+        "id": "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-EU-CALL-2026",
+        "university_id": "padova", "title": "Scienze psicologiche cognitive e psicobiologiche EU/equivalent admission call – AY 2026/27",
+        "url": "https://wwwassets.unipd.it/sites/default/files/pdf_imported_files/2026_Bando_L_Psicologia_0.pdf",
+        "source_type": "Official University of Padua admission call PDF", "accessed_at": "2026-11-11", "cycle": "2026-2027",
+        "evidence": "The 2026/27 EU/equivalent call allocates 186 places to Scienze psicologiche cognitive e psicobiologiche, split as 93 in selection one and 93 plus any unfilled places in selection two. Selection one requires TOLC-PSI at least 30/50; selection two has no minimum score. The ranking uses Text Comprehension, Basic Mathematics, Verbal Reasoning, Numerical Reasoning and Biology, excluding English. OFAs apply below 6/10 in Basic Mathematics or 4/10 in Biology. The call provides the separate selection calendars, recognized-secondary-diploma requirement and applicant-category definitions. These are prior-cycle terms only.",
+        "supports": ["program.previous_cycle_course_listing", "program.previous_cycle_access", "program.previous_cycle_available_places", "program.previous_cycle_application_windows", "program.previous_cycle_program_requirements", "program.previous_cycle_entrance_test", "program.previous_cycle_application_fee"],
+    },
+    {
+        "id": "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-NON-EU-CALL-2026",
+        "university_id": "padova", "title": "Scienze psicologiche cognitive e psicobiologiche call for non-EU applicants abroad – AY 2026/27",
+        "url": "https://wwwassets.unipd.it/sites/default/files/pdf_imported_files/nonEU_LT%20Psicologia_0_0.pdf",
+        "source_type": "Official University of Padua international admission call PDF", "accessed_at": "2026-11-11", "cycle": "2026-2027",
+        "evidence": "The separate 2026/27 call allocates 14 places to this course, including five Marco Polo places. Applications via apply.unipd.it ran 7 January–7 March 2026; TOLC-PSI had to be taken by 13 March and results uploaded by 16 March. It requires a suitable foreign secondary qualification after at least 12 years of schooling and Italian B2 by 31 July. Ranking is based on the relevant TOLC-PSI sections; the call does not state a minimum total score. The €35 charge is the CISIA test-registration fee, not a University application fee; the €205 non-refundable enrolment contribution is due after an offer is accepted. These are prior-cycle, category-specific terms.",
+        "supports": ["program.previous_cycle_international_admission", "program.previous_cycle_available_places", "program.previous_cycle_application_windows", "program.previous_cycle_application_fee", "program.previous_cycle_entrance_test", "program.previous_cycle_italian_requirement", "program.previous_cycle_program_requirements"],
+    },
+    {
+        "id": "SRC-PADOVA-BACHELOR-ADMISSIONS-INDEX-2026",
+        "university_id": "padova", "title": "Padua bachelor's and single-cycle admission index – AY 2026/27",
+        "url": "https://www.unipd.it/avvisi-ammissione-lauree-triennali-ciclo-unico",
+        "source_type": "Official University admissions index", "accessed_at": "2026-11-11", "cycle": "2026-2027",
+        "evidence": "The University admissions index is explicitly labelled 2026/27, lists the four Italian-taught restricted-access School of Psychology bachelor's degrees including Scienze psicologiche cognitive e psicobiologiche, and explains that separate procedures apply to EU/equivalent applicants and non-EU applicants residing abroad. The reviewed index does not present a 2027/28 programme-specific call.",
+        "supports": ["program.previous_cycle_course_listing", "program.previous_cycle_access", "program.availability_2027_2028", "program.applicant_scope_2027_2028"],
     },
     {
         "id": "SRC-PADOVA-PSYCHOLOGY-MSC-FULL-2026",
@@ -1992,6 +2024,12 @@ BATCH37 = {
     "id": "padova-ingegneria-informatica-identity-and-2026-27-admissions-review",
     "status": "partial",
     "result": "Reviewed legacy-164, Ingegneria informatica, against Padua's current official degree profile, the School of Engineering's 2026/27 admissions page and EU/equivalent call, the separate non-EU-abroad call, the general 2027/28 international-student page, and the current fee page. Confirmed the prior-cycle course as a three-year Italian-taught Laurea in class L-8 R in Padua, with restricted admission and general/applied curricula; corrected the old tracker field that called it Computer Science. The 2026/27 EU/equivalent route allocated 340 places (120, 80, and 140 plus any unfilled seats across three selections); the first two selections required TOLC-I at least 24/50 and the third had no minimum score. Ranking used Mathematics, Logic, Sciences and Verbal Comprehension, excluding English; Mathematics below 8/20 triggered an OFA. A separate non-EU-abroad route allocated seven places including three Marco Polo, with applications 7 January–7 March 2026, TOLC-I by 13 March, score upload by 16 March, at least 24/50, a recognized foreign secondary qualification after at least 12 years of schooling and Italian B2 by 31 July. The €35 amount is the CISIA test-registration charge, and the €205 non-refundable amount is an enrolment contribution after an offer, not an application fee or full tuition. The general international page gives a 15 September–15 November 2026 first call for most programmes; it does not confirm that this restricted Italian-taught degree has a 2027/28 intake or course-specific foreign-qualification route. No 2027/28 first-year call, course-specific places, deadlines, test rules, application fee, requirements, tuition total or entrant scholarship terms were verified. Fresh no-cache GETs returned HTTP 200 for the profile, admissions page, general international page and tuition page, and HTTP 206 with valid PDF signatures for both 2026/27 calls. No deployment or Vercel changes were made.",
+}
+
+BATCH38 = {
+    "id": "padova-cognitive-psychology-bsc-identity-and-2026-27-admissions-review",
+    "status": "partial",
+    "result": "Reviewed legacy-165, Scienze psicologiche cognitive e psicobiologiche, against the official School of Psychology profile, its 2026/27 Italian-taught bachelor's admissions page, the EU/equivalent call, the separate non-EU-abroad call, the University 2026/27 admissions index, the general 2027/28 international-student page and Padua's current fee page. Confirmed a three-year Italian-taught Laurea in class L-24 R at Padua with restricted access. The 2026/27 EU/equivalent quota was 186 places (93 in each of two selections); selection one required TOLC-PSI at least 30/50, while selection two had no minimum score. Ranking considered Text Comprehension, Basic Mathematics, Verbal Reasoning, Numerical Reasoning and Biology, excluding English; OFAs applied below 6/10 in Basic Mathematics or 4/10 in Biology. The separate non-EU-abroad route allocated 14 places including five Marco Polo, with applications 7 January–7 March 2026, TOLC-PSI by 13 March and result upload by 16 March, a recognized foreign secondary qualification after at least 12 years, and Italian B2 by 31 July. Its call does not state a minimum overall TOLC score. The €35 payment is the CISIA TOLC fee; €205 is a non-refundable enrolment contribution after an offer, not a University application fee or complete tuition amount. The 2027/28 University international first call applies to most degree programmes, but the reviewed course-specific admissions pages and index remain for 2026/27 and do not confirm this course's 2027/28 intake or applicant-category procedures. No 2027/28 course call, places, deadlines, TOLC rule, application charge, requirements, tuition total or entrant scholarship terms were verified. Fresh no-cache GETs returned HTTP 200 for the course profile, admissions page, admissions index, international page and fee page, and HTTP 206 with valid PDF signatures for both 2026/27 calls. No deployment or Vercel changes were made.",
 }
 
 SOURCE_RECHECKS = {
@@ -6958,6 +6996,229 @@ def apply(
     })
     computer_engineering_bsc["last_checked"] = "2026-11-11"
 
+    cognitive_psychology = by_id["legacy-165"]
+    cognitive_profile = "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-BSC-2026"
+    cognitive_admissions = "SRC-PADOVA-PSYCHOLOGY-ITALIAN-BSC-ADMISSIONS-2026"
+    cognitive_eu_call = "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-EU-CALL-2026"
+    cognitive_non_eu_call = "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-NON-EU-CALL-2026"
+    cognitive_admissions_index = "SRC-PADOVA-BACHELOR-ADMISSIONS-INDEX-2026"
+    cognitive_international = "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027"
+    cognitive_scholarship_context = ["SRC-PADUA-INTL-EXCELLENCE-2027-BOARD", "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"]
+    cognitive_prior_sources = [cognitive_profile, cognitive_admissions, cognitive_eu_call, cognitive_non_eu_call]
+    cognitive_2027_sources = [cognitive_profile, cognitive_admissions, cognitive_admissions_index, cognitive_international]
+    cognitive_psychology["city"] = "Padova"
+    cognitive_psychology["level"] = fact(
+        "BSc", "REQUIRES_VERIFICATION", [cognitive_profile, cognitive_admissions, cognitive_eu_call],
+        "The official profile and 2026/27 call establish the prior-cycle bachelor's identity; the 2027/28 first-year course listing has not been verified.",
+    )
+    cognitive_psychology["language"] = fact(
+        "Italian", "REQUIRES_VERIFICATION", [cognitive_profile, cognitive_admissions, cognitive_eu_call],
+        "The official profile and 2026/27 call identify Italian as the teaching language; this does not independently establish the 2027/28 course listing.",
+    )
+    cognitive_psychology["field"] = fact(
+        "Cognitive Psychology and Psychobiology", "REQUIRES_VERIFICATION", [cognitive_profile, cognitive_admissions],
+        "This is the official field represented by Scienze psicologiche cognitive e psicobiologiche; the 2027/28 first-year listing has not been verified.",
+    )
+    cognitive_psychology["availability_2027_2028"] = fact(
+        None, "NOT_YET_PUBLISHED", cognitive_2027_sources,
+        "The course-specific School admissions page and University admissions index reviewed are explicitly for 2026/27. Padua's general international page gives a 2027/28 first call for most degree programmes, but does not name this course or establish its course-specific first-year intake and applicant-category routes. No 2027/28 first-year call was verified as of 11 November 2026; this does not mean the course is discontinued.",
+    )
+    cognitive_psychology["overall_status"] = "REQUIRES_VERIFICATION"
+    cognitive_psychology["source_ids"] = list(dict.fromkeys(
+        cognitive_psychology.get("source_ids", [])
+        + cognitive_prior_sources
+        + [cognitive_admissions_index, cognitive_international, padua_tuition_source]
+        + cognitive_scholarship_context
+    ))
+    cognitive_psychology["previous_tracker_tags"] = None
+    cognitive_psychology["previous_cycle_tags"] = {
+        "level": "BSc",
+        "language": "Italian",
+        "field": "Cognitive Psychology and Psychobiology",
+        "cycle": "2026-2027",
+        "label": "Official School profile and 2026/27 Psychology admission calls; 2027/28 first-year intake remains unconfirmed",
+    }
+    cognitive_facts = cognitive_psychology.setdefault("facts", {})
+    cognitive_facts.update({
+        "previous_cycle_course_listing": fact(
+            {
+                "academic_year": "2026/27",
+                "official_name": "Scienze psicologiche cognitive e psicobiologiche",
+                "degree_type": "Laurea / Bachelor's degree",
+                "degree_class": "L-24 R – Psychological Sciences and Techniques",
+                "course_profile_code": "PS2961",
+                "duration_years": 3,
+                "campus": "Padua",
+                "language": "Italian",
+                "access": "Restricted admission",
+            },
+            "CONFIRMED", [cognitive_profile, cognitive_admissions, cognitive_eu_call],
+            "Course identity and 2026/27 admission status are confirmed. The 2027/28 first-year offer remains unverified.",
+        ),
+        "previous_cycle_access": fact(
+            "Restricted admission through TOLC-PSI-based selection and merit rankings",
+            "CONFIRMED", [cognitive_profile, cognitive_admissions, cognitive_eu_call, cognitive_non_eu_call],
+            "The 2026/27 calls give separate EU/equivalent and non-EU-abroad procedures. Current-cycle access terms are not confirmed.",
+        ),
+        "previous_cycle_available_places": fact(
+            {
+                "academic_year": "2026/27",
+                "eu_or_equivalent_total": 186,
+                "eu_or_equivalent_selection_split": {"selection_one": 93, "selection_two": "93 plus any places remaining from selection one"},
+                "non_eu_resident_abroad_total": 14,
+                "non_eu_resident_abroad_reserved": {"Marco_Polo": 5},
+                "seat_categories_are_separate": True,
+            },
+            "CONFIRMED", [cognitive_profile, cognitive_eu_call, cognitive_non_eu_call],
+            "These are separate 2026/27 applicant-category quotas and do not establish 2027/28 capacity.",
+        ),
+        "previous_cycle_program_requirements": fact(
+            {
+                "academic_year": "2026/27",
+                "eu_or_equivalent": {
+                    "secondary_qualification": "A secondary-school diploma obtained in Italy or abroad and recognized as suitable for university admission",
+                    "selection_test": "TOLC-PSI",
+                    "minimum_score": {"selection_one": "30/50", "selection_two": "No minimum score"},
+                },
+                "non_eu_resident_abroad": {
+                    "secondary_qualification": "Suitable foreign secondary-school qualification after at least 12 years of schooling",
+                    "italian_language": "B2 CEFR by 31 July 2026",
+                    "selection_test": "TOLC-PSI; the call does not state a minimum total score",
+                },
+            },
+            "CONFIRMED", [cognitive_eu_call, cognitive_non_eu_call],
+            "The minimum score applies only to the 2026/27 first EU/equivalent selection; the other route/selection statements are kept distinct. Do not carry these conditions forward to 2027/28.",
+        ),
+        "previous_cycle_entrance_test": fact(
+            {
+                "academic_year": "2026/27",
+                "test": "TOLC-PSI",
+                "ranking_sections": ["Text Comprehension", "Basic Mathematics", "Verbal Reasoning", "Numerical Reasoning", "Biology"],
+                "english_section_included_in_ranking": False,
+                "tie_break_order": ["Text Comprehension, Verbal Reasoning and Numerical Reasoning", "Basic Mathematics", "Biology", "Younger candidate"],
+                "eu_or_equivalent_thresholds": {"selection_one": "At least 30/50", "selection_two": "No minimum score"},
+                "non_eu_abroad_threshold": "No minimum total score stated in the call",
+                "OFA": {"basic_mathematics": "Below 6/10", "biology": "Below 4/10", "effect": "Additional learning obligations"},
+            },
+            "CONFIRMED", [cognitive_eu_call, cognitive_non_eu_call],
+            "The 30/50 floor applies to selection one in the EU/equivalent call; the second selection and non-EU-abroad call do not specify a total-score minimum. OFA thresholds are separate from selection eligibility.",
+        ),
+        "previous_cycle_application_windows": fact(
+            {
+                "academic_year": "2026/27",
+                "eu_or_equivalent": {
+                    "selection_one": {"tolc_period": {"start": "2025-01-01", "end": "2026-05-15"}, "pre_enrolment": {"start": "2026-04-08", "end": "2026-05-15 15:00"}, "ranking": "2026-05-21 15:00", "enrolment": {"start": "2026-05-22", "end": "2026-05-26 15:00"}, "reassignment": {"start": "2026-05-27", "end": "2026-06-03 15:00"}},
+                    "selection_two": {"tolc_period": {"start": "2025-01-01", "end": "2026-09-04"}, "pre_enrolment": {"start": "2026-07-15", "end": "2026-09-04 15:00"}, "ranking": "2026-09-10 15:00", "enrolment": {"start": "2026-09-11", "end": "2026-09-14 15:00"}, "reassignments": [{"start": "2026-09-16", "end": "2026-09-21 15:00"}, {"start": "2026-09-23", "end": "2026-09-28 15:00"}], "repechage_request": {"start": "2026-10-01", "end": "2026-10-05 15:00"}, "post_repechage_assignments_end": "2026-10-23"},
+                },
+                "non_eu_resident_abroad": {
+                    "application": {"start": "2026-01-07", "end": "2026-03-07 23:59 GMT+1", "route": "apply.unipd.it"},
+                    "tolc_period": {"start": "2025-01-01", "end": "2026-03-13"},
+                    "tolc_result_upload_deadline": "2026-03-16",
+                    "qualification_and_italian_b2_deadline": "2026-07-31",
+                    "final_qualification_document_deadline": "2026-10-31",
+                },
+            },
+            "CONFIRMED", [cognitive_admissions, cognitive_eu_call, cognitive_non_eu_call],
+            "These dates are from the 2026/27 calls and are separated by applicant category. They are not 2027/28 dates.",
+        ),
+        "previous_cycle_application_fee": fact(
+            {
+                "academic_year": "2026/27",
+                "university_application_fee_in_reviewed_calls": "No separate University application fee identified",
+                "tolc_registration_fee_eur": 35,
+                "tolc_fee_paid_to": "CISIA",
+                "non_eu_abroad_enrolment_contribution_eur": 205,
+                "enrolment_contribution_timing": "Due after an admission offer is accepted; non-refundable; includes regional tax and stamp duty and is subject to annual updating",
+            },
+            "CONFIRMED", [cognitive_eu_call, cognitive_non_eu_call, padua_tuition_source],
+            "The €35 amount is the test fee paid to CISIA, not a University application fee. The non-EU call's €205 is an enrolment contribution on offer acceptance; Padua's later/current general 2026/27 fee page lists a €208 first-year initial instalment. Neither amount is a full tuition total or a 2027/28 fee.",
+        ),
+        "previous_cycle_international_admission": fact(
+            {
+                "academic_year": "2026/27",
+                "eligible_group": "Non-EU applicants residing abroad with a foreign secondary-school qualification, excluding categories assigned to the EU/equivalent call",
+                "application_route": "apply.unipd.it",
+                "available_places": 14,
+                "Marco_Polo_places": 5,
+                "schooling_requirement": "Suitable secondary qualification after at least 12 years of schooling",
+                "italian_language": "B2 CEFR by 31 July 2026",
+                "TOLC_PSI": {"test_deadline": "2026-03-13", "result_upload_deadline": "2026-03-16", "minimum_total_score": "Not stated in the call"},
+                "final_school_qualification_documents": "Legalization, Apostille or accepted CIMEA verification by 31 October 2026",
+            },
+            "CONFIRMED", [cognitive_non_eu_call],
+            "This is the 2026/27 non-EU-abroad selection and must not be conflated with the EU/equivalent call or treated as a 2027/28 procedure.",
+        ),
+        "previous_cycle_italian_requirement": fact(
+            {"academic_year": "2026/27", "minimum": "Italian B2 CEFR", "scope": "Non-EU applicants residing abroad using the separate call"},
+            "CONFIRMED", [cognitive_non_eu_call],
+            "Italian B2 by 31 July 2026 is a condition in this prior-cycle non-EU-abroad call; it is not verified for all applicant categories or the 2027/28 intake.",
+        ),
+        "international_route_2027_2028": fact(
+            {
+                "general_international_degree_seeker_definition": "Applicant holding a qualification obtained abroad",
+                "general_first_call": {"start": "2026-09-15", "end": "2026-11-15", "scope": "Most University of Padua degree programmes"},
+                "course_specific_2027_2028_route": "Not verified; the general international page does not establish that the course is included or publish its applicant-category procedures",
+                "italian_qualification_route": "Course-specific 2027/28 call not found in reviewed sources",
+            },
+            "CONFIRMED", [cognitive_international, cognitive_admissions_index],
+            "This confirms general University information only. It does not confirm that the course participates in the general first call or establish course-specific 2027/28 admission procedures.",
+        ),
+        "application_windows_2027_2028": fact(
+            None, "NOT_YET_PUBLISHED", cognitive_2027_sources,
+            "No course-specific 2027/28 admissions calendar was verified. Do not reuse the 2026/27 TOLC, selection, pre-enrolment or non-EU-abroad dates.",
+        ),
+        "application_windows": fact(
+            None, "NOT_YET_PUBLISHED", cognitive_2027_sources,
+            "No course-specific 2027/28 admissions calendar was verified. Padua's general international call applies to most degree programmes and does not confirm this programme's selection dates.",
+        ),
+        "application_deadline": fact(
+            None, "NOT_YET_PUBLISHED", cognitive_2027_sources,
+            "The general international calendar does not establish this course's course-specific 2027/28 deadlines.",
+        ),
+        "application_fee_2027_2028": fact(
+            None, "NOT_YET_PUBLISHED", [cognitive_eu_call, cognitive_non_eu_call, cognitive_international],
+            "No course-specific 2027/28 application or test fee was published in the reviewed sources. The €35 CISIA test charge and €205 prior-cycle enrolment contribution are not new-cycle application fees.",
+        ),
+        "program_specific_requirements_2027_2028": fact(
+            None, "NOT_YET_PUBLISHED", [cognitive_profile, cognitive_admissions, cognitive_eu_call, cognitive_non_eu_call, cognitive_admissions_index, cognitive_international],
+            "No 2027/28 course call, seat quota, TOLC threshold, language rule or applicant-category requirements were verified. The detailed requirements recorded above are strictly from 2026/27.",
+        ),
+        "applicant_scope_2027_2028": fact(
+            {
+                "international_degree_seeker_definition": "Applicant holding a qualification obtained abroad",
+                "general_first_call": {"start": "2026-09-15", "end": "2026-11-15", "scope": "Most University of Padua degree programmes"},
+                "course_specific_coverage": "Not verified",
+                "separate_italian_qualification_call": "Not found in reviewed 2027/28 course-specific sources",
+            },
+            "CONFIRMED", [cognitive_international, cognitive_admissions_index],
+            "General applicant-category and calendar information is confirmed for Padua, but course-specific 2027/28 route coverage remains unverified.",
+        ),
+        "tuition_2027_2028": fact(
+            None, "NOT_YET_PUBLISHED", [padua_tuition_source, cognitive_eu_call, cognitive_non_eu_call],
+            "The reviewed University fee page and 2026/27 calls do not publish a 2027/28 fee schedule or a course-specific tuition total.",
+        ),
+        "previous_cycle_tuition": fact(
+            {
+                "academic_year": "2026/27",
+                "course_specific_total_published": False,
+                "general_degree_fee_range_eur_per_year": {"minimum": 0, "maximum_approx": 3000},
+                "first_year_initial_instalment_eur": 208,
+                "fee_basis": "Varies by programme and student circumstances; the initial instalment includes regional tax and stamp duty",
+            },
+            "CONFIRMED", [padua_tuition_source, cognitive_eu_call, cognitive_non_eu_call],
+            "This is University-wide 2026/27 context, not a course-specific total. The non-EU call also states annual fees up to €3,000; do not carry prior-cycle amounts into 2027/28.",
+        ),
+        "scholarships_2027_2028": fact(
+            None, "NOT_YET_PUBLISHED", [cognitive_profile, cognitive_admissions, *cognitive_scholarship_context],
+            "No course-specific scholarship terms for incoming 2027/28 students were verified. The Padua International Excellence scheme is limited to English-taught degrees, while this course is Italian-taught; other University or regional aid follows separate annual calls and eligibility rules.",
+        ),
+        "acceptance_rate": fact(
+            None, "UNAVAILABLE", [cognitive_eu_call, cognitive_non_eu_call],
+            "The calls provide places and ranking procedures but do not publish comparable applicant and admitted-student totals by category; no acceptance rate is inferred.",
+        ),
+    })
+    cognitive_psychology["last_checked"] = "2026-11-11"
+
     pisa_call = "SRC-UNIPI-INFO-ENG-2027-CALL"
     aide_profile = "SRC-UNIPI-AIDE-COURSE-PROFILE"
     computer_engineering_profile = "SRC-UNIPI-COMPUTER-ENGINEERING-PROFILE"
@@ -7293,6 +7554,82 @@ SOURCE_RECHECKS.update({
             "error": None,
             "checked_at": "2026-11-11",
             "method": "GET with Cache-Control: no-cache (recheck_source_urls.request_once)",
+        },
+    },
+})
+
+SOURCE_RECHECKS.update({
+    "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-BSC-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200,
+            "effective_url": "https://psicologia.unipd.it/offerta-didattica/lauree-triennali?key=PS2961&ordinamento=2025&tipo=L",
+            "content_type": "text/html; charset=utf-8", "content_length_header": "44446",
+            "etag": None, "last_modified": None,
+            "cache_control": "no-cache, must-revalidate", "age": "0",
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "| Università di Padova",
+            "pdf_signature": None, "has_2027_marker": False, "bytes_read": 44446,
+            "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "Full GET with Cache-Control and Pragma no-cache",
+        },
+    },
+    "SRC-PADOVA-PSYCHOLOGY-ITALIAN-BSC-ADMISSIONS-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.unipd.it/en/ammissioni-psi-triennali-programmato",
+            "content_type": "text/html; charset=utf-8", "content_length_header": None,
+            "etag": None, "last_modified": None,
+            "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "age": None, "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Italian-taught degree programme of the School of Psychology | Università di Padova",
+            "pdf_signature": None, "has_2027_marker": False, "bytes_read": 1523462,
+            "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "Full GET with Cache-Control and Pragma no-cache",
+        },
+    },
+    "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-EU-CALL-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 206,
+            "effective_url": "https://wwwassets.unipd.it/sites/default/files/pdf_imported_files/2026_Bando_L_Psicologia_0.pdf",
+            "content_type": "application/pdf", "content_length_header": "4096",
+            "etag": "\"14a3d0-64ce5fed9cf88\"", "last_modified": "Fri, 13 Mar 2026 11:16:07 GMT",
+            "cache_control": "max-age=31536000", "age": "18244127",
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": None, "pdf_signature": True, "has_2027_marker": None,
+            "bytes_read": 4096, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Range: bytes=0-4095 and Cache-Control and Pragma no-cache",
+        },
+    },
+    "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-NON-EU-CALL-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 206,
+            "effective_url": "https://wwwassets.unipd.it/sites/default/files/pdf_imported_files/nonEU_LT%20Psicologia_0_0.pdf",
+            "content_type": "application/pdf", "content_length_header": "4096",
+            "etag": "\"e5b12-64ce5cc34b138\"", "last_modified": "Fri, 13 Mar 2026 11:01:57 GMT",
+            "cache_control": "max-age=31536000", "age": None,
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": None, "pdf_signature": True, "has_2027_marker": None,
+            "bytes_read": 4096, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Range: bytes=0-4095 and Cache-Control and Pragma no-cache",
+        },
+    },
+    "SRC-PADOVA-BACHELOR-ADMISSIONS-INDEX-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.unipd.it/avvisi-ammissione-lauree-triennali-ciclo-unico",
+            "content_type": "text/html; charset=utf-8", "content_length_header": None,
+            "etag": None, "last_modified": None,
+            "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "age": None, "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Avvisi, bandi di ammissione e graduatorie: lauree e lauree magistrali a ciclo unico | Università di Padova",
+            "pdf_signature": None, "has_2027_marker": False, "bytes_read": 1580881,
+            "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "Full GET with Cache-Control and Pragma no-cache",
         },
     },
 })

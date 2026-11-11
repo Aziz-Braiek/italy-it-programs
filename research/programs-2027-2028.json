@@ -35851,118 +35851,448 @@
       "value": "BSc",
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
-        "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-BSC-2026"
+        "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-BSC-2026",
+        "SRC-PADOVA-PSYCHOLOGY-ITALIAN-BSC-ADMISSIONS-2026",
+        "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-EU-CALL-2026"
       ],
-      "notes": "Official course identity is confirmed for the 2026/2027 catalogue; this value is not promoted to 2027/28 without a named-cycle source."
+      "notes": "The official profile and 2026/27 call establish the prior-cycle bachelor's identity; the 2027/28 first-year course listing has not been verified."
     },
     "language": {
       "value": "Italian",
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
-        "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-BSC-2026"
+        "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-BSC-2026",
+        "SRC-PADOVA-PSYCHOLOGY-ITALIAN-BSC-ADMISSIONS-2026",
+        "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-EU-CALL-2026"
       ],
-      "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
+      "notes": "The official profile and 2026/27 call identify Italian as the teaching language; this does not independently establish the 2027/28 course listing."
     },
     "field": {
       "value": "Cognitive Psychology and Psychobiology",
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
-        "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-BSC-2026"
+        "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-BSC-2026",
+        "SRC-PADOVA-PSYCHOLOGY-ITALIAN-BSC-ADMISSIONS-2026"
       ],
-      "notes": "Course subject identity is based on current official profile/catalogue evidence; next-cycle catalogue not yet verified."
+      "notes": "This is the official field represented by Scienze psicologiche cognitive e psicobiologiche; the 2027/28 first-year listing has not been verified."
     },
     "availability_2027_2028": {
       "value": null,
       "status": "NOT_YET_PUBLISHED",
       "source_ids": [
-        "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-BSC-2026"
+        "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-BSC-2026",
+        "SRC-PADOVA-PSYCHOLOGY-ITALIAN-BSC-ADMISSIONS-2026",
+        "SRC-PADOVA-BACHELOR-ADMISSIONS-INDEX-2026",
+        "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027"
       ],
-      "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued."
+      "notes": "The course-specific School admissions page and University admissions index reviewed are explicitly for 2026/27. Padua's general international page gives a 2027/28 first call for most degree programmes, but does not name this course or establish its course-specific first-year intake and applicant-category routes. No 2027/28 first-year call was verified as of 11 November 2026; this does not mean the course is discontinued."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
     "facts": {
       "previous_cycle_course_listing": {
         "value": {
-          "academic_year": "2026/2027",
+          "academic_year": "2026/27",
           "official_name": "Scienze psicologiche cognitive e psicobiologiche",
-          "level": "BSc",
-          "language": "Italian"
+          "degree_type": "Laurea / Bachelor's degree",
+          "degree_class": "L-24 R – Psychological Sciences and Techniques",
+          "course_profile_code": "PS2961",
+          "duration_years": 3,
+          "campus": "Padua",
+          "language": "Italian",
+          "access": "Restricted admission"
         },
         "status": "CONFIRMED",
         "source_ids": [
-          "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-BSC-2026"
+          "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-BSC-2026",
+          "SRC-PADOVA-PSYCHOLOGY-ITALIAN-BSC-ADMISSIONS-2026",
+          "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-EU-CALL-2026"
         ],
-        "notes": "Official course profile/catalogue evidence is cycle-scoped to 2026/2027 and does not establish 2027/28 first-year admission."
+        "notes": "Course identity and 2026/27 admission status are confirmed. The 2027/28 first-year offer remains unverified."
       },
       "application_windows": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
-          "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-BSC-2026"
+          "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-BSC-2026",
+          "SRC-PADOVA-PSYCHOLOGY-ITALIAN-BSC-ADMISSIONS-2026",
+          "SRC-PADOVA-BACHELOR-ADMISSIONS-INDEX-2026",
+          "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027"
         ],
-        "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates."
+        "notes": "No course-specific 2027/28 admissions calendar was verified. Padua's general international call applies to most degree programmes and does not confirm this programme's selection dates."
       },
       "application_fee_2027_2028": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
-          "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-BSC-2026"
+          "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-EU-CALL-2026",
+          "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-NON-EU-CALL-2026",
+          "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal."
+        "notes": "No course-specific 2027/28 application or test fee was published in the reviewed sources. The €35 CISIA test charge and €205 prior-cycle enrolment contribution are not new-cycle application fees."
       },
       "program_specific_requirements_2027_2028": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
-          "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-BSC-2026"
+          "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-BSC-2026",
+          "SRC-PADOVA-PSYCHOLOGY-ITALIAN-BSC-ADMISSIONS-2026",
+          "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-EU-CALL-2026",
+          "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-NON-EU-CALL-2026",
+          "SRC-PADOVA-BACHELOR-ADMISSIONS-INDEX-2026",
+          "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only."
+        "notes": "No 2027/28 course call, seat quota, TOLC threshold, language rule or applicant-category requirements were verified. The detailed requirements recorded above are strictly from 2026/27."
       },
       "tuition_2027_2028": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
-          "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-BSC-2026",
-          "SRC-PADUA-TUITION-2026"
+          "SRC-PADUA-TUITION-2026",
+          "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-EU-CALL-2026",
+          "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-NON-EU-CALL-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed."
+        "notes": "The reviewed University fee page and 2026/27 calls do not publish a 2027/28 fee schedule or a course-specific tuition total."
       },
       "scholarships_2027_2028": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
-          "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-BSC-2026"
+          "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-BSC-2026",
+          "SRC-PADOVA-PSYCHOLOGY-ITALIAN-BSC-ADMISSIONS-2026",
+          "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
+          "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking."
+        "notes": "No course-specific scholarship terms for incoming 2027/28 students were verified. The Padua International Excellence scheme is limited to English-taught degrees, while this course is Italian-taught; other University or regional aid follows separate annual calls and eligibility rules."
       },
       "acceptance_rate": {
         "value": null,
         "status": "UNAVAILABLE",
         "source_ids": [
-          "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-BSC-2026"
+          "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-EU-CALL-2026",
+          "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-NON-EU-CALL-2026"
         ],
-        "notes": "The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred."
+        "notes": "The calls provide places and ranking procedures but do not publish comparable applicant and admitted-student totals by category; no acceptance rate is inferred."
+      },
+      "previous_cycle_access": {
+        "value": "Restricted admission through TOLC-PSI-based selection and merit rankings",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-BSC-2026",
+          "SRC-PADOVA-PSYCHOLOGY-ITALIAN-BSC-ADMISSIONS-2026",
+          "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-EU-CALL-2026",
+          "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-NON-EU-CALL-2026"
+        ],
+        "notes": "The 2026/27 calls give separate EU/equivalent and non-EU-abroad procedures. Current-cycle access terms are not confirmed."
+      },
+      "previous_cycle_available_places": {
+        "value": {
+          "academic_year": "2026/27",
+          "eu_or_equivalent_total": 186,
+          "eu_or_equivalent_selection_split": {
+            "selection_one": 93,
+            "selection_two": "93 plus any places remaining from selection one"
+          },
+          "non_eu_resident_abroad_total": 14,
+          "non_eu_resident_abroad_reserved": {
+            "Marco_Polo": 5
+          },
+          "seat_categories_are_separate": true
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-BSC-2026",
+          "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-EU-CALL-2026",
+          "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-NON-EU-CALL-2026"
+        ],
+        "notes": "These are separate 2026/27 applicant-category quotas and do not establish 2027/28 capacity."
+      },
+      "previous_cycle_program_requirements": {
+        "value": {
+          "academic_year": "2026/27",
+          "eu_or_equivalent": {
+            "secondary_qualification": "A secondary-school diploma obtained in Italy or abroad and recognized as suitable for university admission",
+            "selection_test": "TOLC-PSI",
+            "minimum_score": {
+              "selection_one": "30/50",
+              "selection_two": "No minimum score"
+            }
+          },
+          "non_eu_resident_abroad": {
+            "secondary_qualification": "Suitable foreign secondary-school qualification after at least 12 years of schooling",
+            "italian_language": "B2 CEFR by 31 July 2026",
+            "selection_test": "TOLC-PSI; the call does not state a minimum total score"
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-EU-CALL-2026",
+          "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-NON-EU-CALL-2026"
+        ],
+        "notes": "The minimum score applies only to the 2026/27 first EU/equivalent selection; the other route/selection statements are kept distinct. Do not carry these conditions forward to 2027/28."
+      },
+      "previous_cycle_entrance_test": {
+        "value": {
+          "academic_year": "2026/27",
+          "test": "TOLC-PSI",
+          "ranking_sections": [
+            "Text Comprehension",
+            "Basic Mathematics",
+            "Verbal Reasoning",
+            "Numerical Reasoning",
+            "Biology"
+          ],
+          "english_section_included_in_ranking": false,
+          "tie_break_order": [
+            "Text Comprehension, Verbal Reasoning and Numerical Reasoning",
+            "Basic Mathematics",
+            "Biology",
+            "Younger candidate"
+          ],
+          "eu_or_equivalent_thresholds": {
+            "selection_one": "At least 30/50",
+            "selection_two": "No minimum score"
+          },
+          "non_eu_abroad_threshold": "No minimum total score stated in the call",
+          "OFA": {
+            "basic_mathematics": "Below 6/10",
+            "biology": "Below 4/10",
+            "effect": "Additional learning obligations"
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-EU-CALL-2026",
+          "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-NON-EU-CALL-2026"
+        ],
+        "notes": "The 30/50 floor applies to selection one in the EU/equivalent call; the second selection and non-EU-abroad call do not specify a total-score minimum. OFA thresholds are separate from selection eligibility."
+      },
+      "previous_cycle_application_windows": {
+        "value": {
+          "academic_year": "2026/27",
+          "eu_or_equivalent": {
+            "selection_one": {
+              "tolc_period": {
+                "start": "2025-01-01",
+                "end": "2026-05-15"
+              },
+              "pre_enrolment": {
+                "start": "2026-04-08",
+                "end": "2026-05-15 15:00"
+              },
+              "ranking": "2026-05-21 15:00",
+              "enrolment": {
+                "start": "2026-05-22",
+                "end": "2026-05-26 15:00"
+              },
+              "reassignment": {
+                "start": "2026-05-27",
+                "end": "2026-06-03 15:00"
+              }
+            },
+            "selection_two": {
+              "tolc_period": {
+                "start": "2025-01-01",
+                "end": "2026-09-04"
+              },
+              "pre_enrolment": {
+                "start": "2026-07-15",
+                "end": "2026-09-04 15:00"
+              },
+              "ranking": "2026-09-10 15:00",
+              "enrolment": {
+                "start": "2026-09-11",
+                "end": "2026-09-14 15:00"
+              },
+              "reassignments": [
+                {
+                  "start": "2026-09-16",
+                  "end": "2026-09-21 15:00"
+                },
+                {
+                  "start": "2026-09-23",
+                  "end": "2026-09-28 15:00"
+                }
+              ],
+              "repechage_request": {
+                "start": "2026-10-01",
+                "end": "2026-10-05 15:00"
+              },
+              "post_repechage_assignments_end": "2026-10-23"
+            }
+          },
+          "non_eu_resident_abroad": {
+            "application": {
+              "start": "2026-01-07",
+              "end": "2026-03-07 23:59 GMT+1",
+              "route": "apply.unipd.it"
+            },
+            "tolc_period": {
+              "start": "2025-01-01",
+              "end": "2026-03-13"
+            },
+            "tolc_result_upload_deadline": "2026-03-16",
+            "qualification_and_italian_b2_deadline": "2026-07-31",
+            "final_qualification_document_deadline": "2026-10-31"
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-PSYCHOLOGY-ITALIAN-BSC-ADMISSIONS-2026",
+          "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-EU-CALL-2026",
+          "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-NON-EU-CALL-2026"
+        ],
+        "notes": "These dates are from the 2026/27 calls and are separated by applicant category. They are not 2027/28 dates."
+      },
+      "previous_cycle_application_fee": {
+        "value": {
+          "academic_year": "2026/27",
+          "university_application_fee_in_reviewed_calls": "No separate University application fee identified",
+          "tolc_registration_fee_eur": 35,
+          "tolc_fee_paid_to": "CISIA",
+          "non_eu_abroad_enrolment_contribution_eur": 205,
+          "enrolment_contribution_timing": "Due after an admission offer is accepted; non-refundable; includes regional tax and stamp duty and is subject to annual updating"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-EU-CALL-2026",
+          "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-NON-EU-CALL-2026",
+          "SRC-PADUA-TUITION-2026"
+        ],
+        "notes": "The €35 amount is the test fee paid to CISIA, not a University application fee. The non-EU call's €205 is an enrolment contribution on offer acceptance; Padua's later/current general 2026/27 fee page lists a €208 first-year initial instalment. Neither amount is a full tuition total or a 2027/28 fee."
+      },
+      "previous_cycle_international_admission": {
+        "value": {
+          "academic_year": "2026/27",
+          "eligible_group": "Non-EU applicants residing abroad with a foreign secondary-school qualification, excluding categories assigned to the EU/equivalent call",
+          "application_route": "apply.unipd.it",
+          "available_places": 14,
+          "Marco_Polo_places": 5,
+          "schooling_requirement": "Suitable secondary qualification after at least 12 years of schooling",
+          "italian_language": "B2 CEFR by 31 July 2026",
+          "TOLC_PSI": {
+            "test_deadline": "2026-03-13",
+            "result_upload_deadline": "2026-03-16",
+            "minimum_total_score": "Not stated in the call"
+          },
+          "final_school_qualification_documents": "Legalization, Apostille or accepted CIMEA verification by 31 October 2026"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-NON-EU-CALL-2026"
+        ],
+        "notes": "This is the 2026/27 non-EU-abroad selection and must not be conflated with the EU/equivalent call or treated as a 2027/28 procedure."
+      },
+      "previous_cycle_italian_requirement": {
+        "value": {
+          "academic_year": "2026/27",
+          "minimum": "Italian B2 CEFR",
+          "scope": "Non-EU applicants residing abroad using the separate call"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-NON-EU-CALL-2026"
+        ],
+        "notes": "Italian B2 by 31 July 2026 is a condition in this prior-cycle non-EU-abroad call; it is not verified for all applicant categories or the 2027/28 intake."
+      },
+      "international_route_2027_2028": {
+        "value": {
+          "general_international_degree_seeker_definition": "Applicant holding a qualification obtained abroad",
+          "general_first_call": {
+            "start": "2026-09-15",
+            "end": "2026-11-15",
+            "scope": "Most University of Padua degree programmes"
+          },
+          "course_specific_2027_2028_route": "Not verified; the general international page does not establish that the course is included or publish its applicant-category procedures",
+          "italian_qualification_route": "Course-specific 2027/28 call not found in reviewed sources"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027",
+          "SRC-PADOVA-BACHELOR-ADMISSIONS-INDEX-2026"
+        ],
+        "notes": "This confirms general University information only. It does not confirm that the course participates in the general first call or establish course-specific 2027/28 admission procedures."
+      },
+      "application_windows_2027_2028": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-BSC-2026",
+          "SRC-PADOVA-PSYCHOLOGY-ITALIAN-BSC-ADMISSIONS-2026",
+          "SRC-PADOVA-BACHELOR-ADMISSIONS-INDEX-2026",
+          "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027"
+        ],
+        "notes": "No course-specific 2027/28 admissions calendar was verified. Do not reuse the 2026/27 TOLC, selection, pre-enrolment or non-EU-abroad dates."
+      },
+      "application_deadline": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-BSC-2026",
+          "SRC-PADOVA-PSYCHOLOGY-ITALIAN-BSC-ADMISSIONS-2026",
+          "SRC-PADOVA-BACHELOR-ADMISSIONS-INDEX-2026",
+          "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027"
+        ],
+        "notes": "The general international calendar does not establish this course's course-specific 2027/28 deadlines."
+      },
+      "applicant_scope_2027_2028": {
+        "value": {
+          "international_degree_seeker_definition": "Applicant holding a qualification obtained abroad",
+          "general_first_call": {
+            "start": "2026-09-15",
+            "end": "2026-11-15",
+            "scope": "Most University of Padua degree programmes"
+          },
+          "course_specific_coverage": "Not verified",
+          "separate_italian_qualification_call": "Not found in reviewed 2027/28 course-specific sources"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027",
+          "SRC-PADOVA-BACHELOR-ADMISSIONS-INDEX-2026"
+        ],
+        "notes": "General applicant-category and calendar information is confirmed for Padua, but course-specific 2027/28 route coverage remains unverified."
+      },
+      "previous_cycle_tuition": {
+        "value": {
+          "academic_year": "2026/27",
+          "course_specific_total_published": false,
+          "general_degree_fee_range_eur_per_year": {
+            "minimum": 0,
+            "maximum_approx": 3000
+          },
+          "first_year_initial_instalment_eur": 208,
+          "fee_basis": "Varies by programme and student circumstances; the initial instalment includes regional tax and stamp duty"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADUA-TUITION-2026",
+          "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-EU-CALL-2026",
+          "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-NON-EU-CALL-2026"
+        ],
+        "notes": "This is University-wide 2026/27 context, not a course-specific total. The non-EU call also states annual fees up to €3,000; do not carry prior-cycle amounts into 2027/28."
       }
     },
     "source_ids": [
       "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-BSC-2026",
-      "SRC-PADUA-TUITION-2026"
+      "SRC-PADUA-TUITION-2026",
+      "SRC-PADOVA-PSYCHOLOGY-ITALIAN-BSC-ADMISSIONS-2026",
+      "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-EU-CALL-2026",
+      "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-NON-EU-CALL-2026",
+      "SRC-PADOVA-BACHELOR-ADMISSIONS-INDEX-2026",
+      "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027",
+      "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
+      "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
     ],
-    "previous_tracker_tags": {
-      "level": "BSc",
-      "language": "Italian",
-      "field": "Psychology",
-      "label": "Previous tracker classification — not reverified for 2027/28"
-    },
+    "previous_tracker_tags": null,
     "previous_cycle_tags": {
       "level": "BSc",
       "language": "Italian",
       "field": "Cognitive Psychology and Psychobiology",
       "cycle": "2026-2027",
-      "label": "Official course identity checked for 2026/2027; 2027/28 first-year intake and terms remain unconfirmed"
+      "label": "Official School profile and 2026/27 Psychology admission calls; 2027/28 first-year intake remains unconfirmed"
     },
-    "last_checked": "2026-11-10"
+    "last_checked": "2026-11-11"
   },
   {
     "id": "discovered-001",
