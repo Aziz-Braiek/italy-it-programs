@@ -2,7 +2,7 @@
 
 Prepared 2026-11-11 for academic year 2027/28. Review each record against official university pages, calls, portals, regulations, and PDFs.
 
-Snapshot inventory: 34 universities, 202 program records, 568 source records.
+Snapshot inventory: 34 universities, 203 program records, 575 source records.
 
 ## Review rules
 
@@ -4372,6 +4372,13 @@ Official university-level sources:
 - [ ] `SRC-UNITO-FEES-ADD-2026` — [Courses with additional contributions](https://www.unito.it/didattica/tasse/corsi-con-contributi-aggiuntivi) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-UNITO-TALENTS-2026` — [Talents4UniTO call for applications AY 2026–2027](https://en.unito.it/sites/sten/files/documenti/2026-01/bando_talents4unito_2026_2027_en.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-UNITO-SAT-BACHELOR-2026` — [Admission call for selected Bachelor's degrees using SAT, AY 2026–2027](https://en.unito.it/sites/sten/files/document/2026-04/bando_SME_triennali_SAT_2026_2027.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNITO-EAP-PROFILE-2027` — [Economic Analysis and Policy – official University of Turin degree profile](https://en.unito.it/studying-unito/programs/degree-programs/economic-analysis-and-policy) (cycle: general; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-UNITO-EAP-APPLICATION-2027` — [Economic Analysis and Policy – 2027/28 cohort application instructions](https://www.eap.unito.it/do/home.pl/View?doc=how_to_apply.html) (cycle: 2027-2028; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-EPOG-ADMISSION-2027` — [EPOG-JM 2027–2029 consortium admission call](https://www.epog.eu/admission-and-scholarships/admission/) (cycle: 2027-2029; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-EPOG-APPLICATION-PLATFORM-2027` — [EPOG online application platform – 2027–2029 campaign](https://application.epog.eu/) (cycle: 2027-2029; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-EPOG-SCHOLARSHIPS` — [EPOG-JM Erasmus Mundus scholarship terms](https://www.epog.eu/admission-and-scholarships/scholarships/) (cycle: general; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-EPOG-TUITION-FEES` — [EPOG-JM programme tuition and fee policy](https://www.epog.eu/admission-and-scholarships/tuition-fees/) (cycle: general; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-EPOG-DEGREE-POLICY` — [EPOG-JM degree-awarding and mobility pathways](https://www.epog.eu/outcomes/degree-policy/) (cycle: general; checked in prior snapshot: 2026-11-11)
 
 #### Artificial Intelligence and High Performance Computing Technologies — `legacy-108`
 
@@ -4568,6 +4575,24 @@ Currently missing or unpublished fields:
   - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — The latest fee framework reviewed is for 2026/27; no 2027/28 schedule was confirmed.
   - `facts.scholarships_2027_2028` — `REQUIRES_VERIFICATION` — The 2026/27 call's 2027/28 provision covers renewal for continuing awardees; no new-entry 2027/28 scholarship call was confirmed.
   - `facts.acceptance_rate` — `UNAVAILABLE` — No official applicant denominator and admitted-student count were found for a reliable course acceptance rate.
+
+#### Economic Analysis and Policy — `discovered-038`
+
+- [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-11`
+- [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-038/
+- [ ] University page: https://italy-it-programs.vercel.app/universities/torino/
+- [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
+Official linked sources to revisit:
+- [ ] `SRC-UNITO-EAP-PROFILE-2027` — [Economic Analysis and Policy – official University of Turin degree profile](https://en.unito.it/studying-unito/programs/degree-programs/economic-analysis-and-policy) (cycle: general; prior check: 2026-11-11)
+- [ ] `SRC-EPOG-ADMISSION-2027` — [EPOG-JM 2027–2029 consortium admission call](https://www.epog.eu/admission-and-scholarships/admission/) (cycle: 2027-2029; prior check: 2026-11-11)
+- [ ] `SRC-UNITO-EAP-APPLICATION-2027` — [Economic Analysis and Policy – 2027/28 cohort application instructions](https://www.eap.unito.it/do/home.pl/View?doc=how_to_apply.html) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-EPOG-DEGREE-POLICY` — [EPOG-JM degree-awarding and mobility pathways](https://www.epog.eu/outcomes/degree-policy/) (cycle: general; prior check: 2026-11-11)
+- [ ] `SRC-EPOG-APPLICATION-PLATFORM-2027` — [EPOG online application platform – 2027–2029 campaign](https://application.epog.eu/) (cycle: 2027-2029; prior check: 2026-11-11)
+- [ ] `SRC-EPOG-SCHOLARSHIPS` — [EPOG-JM Erasmus Mundus scholarship terms](https://www.epog.eu/admission-and-scholarships/scholarships/) (cycle: general; prior check: 2026-11-11)
+- [ ] `SRC-EPOG-TUITION-FEES` — [EPOG-JM programme tuition and fee policy](https://www.epog.eu/admission-and-scholarships/tuition-fees/) (cycle: general; prior check: 2026-11-11)
+Currently missing or unpublished fields:
+  - `facts.application_fee_2027_2028` — `REQUIRES_VERIFICATION` — No application fee is stated on the reviewed consortium platform or programme checklist. Do not infer that the standard UniTo €60 foreign-qualification fee applies to the separate EPOG application.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — No comparable applicant and admitted-student totals are published on the reviewed official call pages; no acceptance rate is inferred.
 
 ### Università degli Studi di Trento (Trento) — `trento`
 
@@ -5073,7 +5098,7 @@ Currently missing or unpublished fields:
 
 ## Source URL recheck results
 
-Checked 554 unique URLs representing 568 source records on 2026-11-11. Unique URL outcomes: {'accessible': 519, 'redirected': 13, 'inconclusive': 22}. HTTP 404/410 outcomes are listed as broken; TLS, timeout, and remote-disconnect cases remain inconclusive.
+Checked 561 unique URLs representing 575 source records on 2026-11-11. Unique URL outcomes: {'accessible': 526, 'redirected': 13, 'inconclusive': 22}. HTTP 404/410 outcomes are listed as broken; TLS, timeout, and remote-disconnect cases remain inconclusive.
 
 ### Redirected sources
 

@@ -8,16 +8,16 @@
     "review_status": "in_progress",
     "counts": {
       "universities": 34,
-      "programs": 202,
-      "sources": 568
+      "programs": 203,
+      "sources": 575
     },
     "previous_snapshot_inconclusive_url_checks": "The prior audit reported approximately 100 inconclusive checks. This refresh rechecked every unique URL and preserves the response by source record below.",
     "current_url_audit": {
       "checked_at": "2026-11-11",
-      "source_records": 568,
-      "unique_urls_checked": 554,
+      "source_records": 575,
+      "unique_urls_checked": 561,
       "unique_url_outcomes": {
-        "accessible": 519,
+        "accessible": 526,
         "redirected": 13,
         "inconclusive": 22
       },
@@ -19836,7 +19836,14 @@
         "SRC-UNITO-FEES-INTL-2026",
         "SRC-UNITO-FEES-ADD-2026",
         "SRC-UNITO-TALENTS-2026",
-        "SRC-UNITO-SAT-BACHELOR-2026"
+        "SRC-UNITO-SAT-BACHELOR-2026",
+        "SRC-UNITO-EAP-PROFILE-2027",
+        "SRC-UNITO-EAP-APPLICATION-2027",
+        "SRC-EPOG-ADMISSION-2027",
+        "SRC-EPOG-APPLICATION-PLATFORM-2027",
+        "SRC-EPOG-SCHOLARSHIPS",
+        "SRC-EPOG-TUITION-FEES",
+        "SRC-EPOG-DEGREE-POLICY"
       ],
       "source_urls": [
         {
@@ -20415,6 +20422,276 @@
             "method": "GET with byte range for PDF sources"
           },
           "browser_check": null
+        },
+        {
+          "id": "SRC-UNITO-EAP-PROFILE-2027",
+          "title": "Economic Analysis and Policy – official University of Turin degree profile",
+          "url": "https://en.unito.it/studying-unito/programs/degree-programs/economic-analysis-and-policy",
+          "source_type": "Official University degree programme profile",
+          "cycle": "general",
+          "accessed_at": "2026-11-11",
+          "evidence": "The current official UniTo profile lists Economic Analysis and Policy as an English-taught, two-year, free-access Master's degree in LM-56 R Economics, based in Turin. It states the local course admission requirements as 18 CFU in economics and 6 CFU in statistics and describes a preliminary curricular evaluation followed by a 15-minute Zoom TAPP interview. This conflicts with the 24-ECTS economics threshold stated on the current EPOG application page and the EAP-specific application checklist; preserve the discrepancy and do not treat the local profile threshold as resolving the joint-master call requirements.",
+          "supports": [
+            "program.name",
+            "program.level",
+            "program.language",
+            "program.location",
+            "program.duration",
+            "program.access",
+            "program.degree_class",
+            "program.admission_requirements_conflict"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://en.unito.it/studying-unito/programs/degree-programs/economic-analysis-and-policy",
+            "content_type": "text/html; charset=UTF-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": "Wed, 11 Nov 2026 00:36:10 GMT",
+            "cache_control": "max-age=3600, public",
+            "age": "0",
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "[0309M22] ECONOMIC ANALYSIS AND POLICY | University of Turin",
+            "pdf_signature": null,
+            "has_2027_marker": true,
+            "bytes_read": 131072,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-UNITO-EAP-APPLICATION-2027",
+          "title": "Economic Analysis and Policy – 2027/28 cohort application instructions",
+          "url": "https://www.eap.unito.it/do/home.pl/View?doc=how_to_apply.html",
+          "source_type": "Official University of Turin programme application page",
+          "cycle": "2027-2028",
+          "accessed_at": "2026-11-11",
+          "evidence": "The official programme application page identifies the 2027–2028 cohort and says applicants apply online through the EPOG website. Its application-document checklist requires a prior degree of at least 180 ECTS, transcripts showing a minimum of 24 ECTS in economics and 6 ECTS in statistics/econometrics, English proficiency, a statement of purpose up to 500 words, two recommendation letters, and a passport. Erasmus Mundus scholarship applicants must also provide recent proof of residence. This page agrees with the consortium's 24-ECTS economics rule and conflicts with the 18-CFU figure on UniTo's central degree profile.",
+          "supports": [
+            "program.availability_2027_2028",
+            "program.application_route",
+            "program.admission_requirements",
+            "program.application_documents",
+            "program.scholarship_eligibility"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.eap.unito.it/do/home.pl/View?doc=how_to_apply.html",
+            "content_type": "text/html; charset=UTF-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": null,
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "How to apply - Economic analysis and policy - Università degli Studi di Torino",
+            "pdf_signature": null,
+            "has_2027_marker": true,
+            "bytes_read": 70474,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-EPOG-ADMISSION-2027",
+          "title": "EPOG-JM 2027–2029 consortium admission call",
+          "url": "https://www.epog.eu/admission-and-scholarships/admission/",
+          "source_type": "Official Erasmus Mundus joint-master consortium admission page",
+          "cycle": "2027-2029",
+          "accessed_at": "2026-11-11",
+          "evidence": "The live EPOG-JM page confirms the two-year 2027–2029 cohort application is open and closes 27 January 2027 at 13:00 Europe/Paris. It requires a Bachelor's or equivalent degree of at least 180 ECTS, 24 ECTS in economics and 6 ECTS in statistics/econometrics, English at CEFR C1 or the listed equivalent scores, and a clear motivation for the programme; applicants may be interviewed in March 2027, with results expected by end of March. The consortium call serves multiple partner pathways; the separate degree-policy page shows that the University of Turin award is available only for specified pathway combinations.",
+          "supports": [
+            "program.availability_2027_2028",
+            "program.application_windows",
+            "program.application_route",
+            "program.program_specific_requirements_2027_2028",
+            "program.english_language_requirement_2027_2028",
+            "program.selection_process"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.epog.eu/admission-and-scholarships/admission/",
+            "content_type": "text/html; charset=UTF-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": null,
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Admission - EPOG",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 131072,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-EPOG-APPLICATION-PLATFORM-2027",
+          "title": "EPOG online application platform – 2027–2029 campaign",
+          "url": "https://application.epog.eu/",
+          "source_type": "Official joint-master application platform",
+          "cycle": "2027-2029",
+          "accessed_at": "2026-11-11",
+          "evidence": "The consortium's live application platform lists the EPOG-JM two-year programme for 2027–2029 with a closing time of 27 January 2027 at 13:00 Europe/Paris. This independently confirms the current call and application deadline. The platform page does not state an application fee.",
+          "supports": [
+            "program.application_route",
+            "program.application_windows",
+            "program.application_fee_2027_2028"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://application.epog.eu/",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": "Wed, 11 Nov 2026 00:36:10 GMT",
+            "cache_control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0, public",
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Home",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 32368,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-EPOG-SCHOLARSHIPS",
+          "title": "EPOG-JM Erasmus Mundus scholarship terms",
+          "url": "https://www.epog.eu/admission-and-scholarships/scholarships/",
+          "source_type": "Official Erasmus Mundus joint-master scholarship page",
+          "cycle": "general",
+          "accessed_at": "2026-11-11",
+          "evidence": "The official page states that the EPOG Erasmus Mundus scholarship covers tuition and required health/accident insurance and provides €1,400 per month during both academic years. It says applicants of any nationality can be eligible if they meet the academic criteria, except people who previously held an EMJM scholarship; holders cannot combine it with another EU-funded scholarship for the same course. It does not state the number or 2027–2029 allocation of awards, so the scheme terms are recorded separately from a confirmed cohort award count.",
+          "supports": [
+            "program.scholarships_2027_2028",
+            "program.scholarship_amount",
+            "program.scholarship_eligibility",
+            "program.scholarship_scope"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.epog.eu/admission-and-scholarships/scholarships/",
+            "content_type": "text/html; charset=UTF-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": null,
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Scholarships & Special needs - EPOG Visit our LinkedIn",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 131072,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-EPOG-TUITION-FEES",
+          "title": "EPOG-JM programme tuition and fee policy",
+          "url": "https://www.epog.eu/admission-and-scholarships/tuition-fees/",
+          "source_type": "Official Erasmus Mundus joint-master tuition page",
+          "cycle": "general",
+          "accessed_at": "2026-11-11",
+          "evidence": "The current consortium page lists a €1,000/year fee including health/accident insurance for students with personal income below €26,400/year, a possible full €9,600/year fee above that threshold, and a complete fee waiver for Erasmus Mundus scholarship holders; non-scholarship students may request a full or partial waiver. The page is not explicitly cycle-labelled for 2027–2029, so retain these as current published general terms requiring cohort-specific confirmation rather than asserting a settled 2027/28 tuition amount.",
+          "supports": [
+            "program.tuition_2027_2028",
+            "program.application_fee_2027_2028",
+            "program.scholarship_fee_waiver"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.epog.eu/admission-and-scholarships/tuition-fees/",
+            "content_type": "text/html; charset=UTF-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": null,
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Tuition fees - EPOG Visit our LinkedIn linkedin facebook pinterest youtube rss twitter instagram facebook-blank rss-blank linkedin-blank pinterest youtube twitter instagram",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 130155,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-EPOG-DEGREE-POLICY",
+          "title": "EPOG-JM degree-awarding and mobility pathways",
+          "url": "https://www.epog.eu/outcomes/degree-policy/",
+          "source_type": "Official Erasmus Mundus joint-master degree policy",
+          "cycle": "general",
+          "accessed_at": "2026-11-11",
+          "evidence": "The EPOG degree policy confirms that the two-year 120-ECTS programme awards joint or multiple degrees based on the institutions attended in year one and year two. Its award matrix lists University of Turin's Master's in Economic Analysis and Policy for Major A and Minor C2 pathway combinations only. This is a multi-partner joint programme; a Turin degree is conditional on the selected pathway and mobility, not guaranteed for every EPOG applicant.",
+          "supports": [
+            "program.joint_degree_pathways",
+            "program.mobility",
+            "program.degree_award"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.epog.eu/outcomes/degree-policy/",
+            "content_type": "text/html; charset=UTF-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": null,
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Degree policy - EPOG Visit our LinkedIn linkedin facebook pinterest youtube rss twitter instagram",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 131072,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET"
+          },
+          "browser_check": null
         }
       ],
       "program_ids": [
@@ -20426,7 +20703,8 @@
         "legacy-113",
         "legacy-114",
         "legacy-115",
-        "legacy-116"
+        "legacy-116",
+        "discovered-038"
       ],
       "refresh_status": "pending",
       "refresh_checked_at": null,
@@ -94788,6 +95066,452 @@
       "refresh_outcome": null
     },
     {
+      "id": "discovered-038",
+      "university_id": "torino",
+      "university": "Università degli Studi di Torino",
+      "city": "Turin",
+      "program": "Economic Analysis and Policy",
+      "level": {
+        "value": "MSc",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNITO-EAP-PROFILE-2027"
+        ],
+        "notes": null
+      },
+      "language": {
+        "value": "English",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNITO-EAP-PROFILE-2027"
+        ],
+        "notes": null
+      },
+      "program_page_url": "https://italy-it-programs.vercel.app/programs/discovered-038/",
+      "university_page_url": "https://italy-it-programs.vercel.app/universities/torino/",
+      "official_program_source_urls": [
+        {
+          "id": "SRC-UNITO-EAP-PROFILE-2027",
+          "title": "Economic Analysis and Policy – official University of Turin degree profile",
+          "url": "https://en.unito.it/studying-unito/programs/degree-programs/economic-analysis-and-policy",
+          "source_type": "Official University degree programme profile",
+          "cycle": "general",
+          "accessed_at": "2026-11-11",
+          "evidence": "The current official UniTo profile lists Economic Analysis and Policy as an English-taught, two-year, free-access Master's degree in LM-56 R Economics, based in Turin. It states the local course admission requirements as 18 CFU in economics and 6 CFU in statistics and describes a preliminary curricular evaluation followed by a 15-minute Zoom TAPP interview. This conflicts with the 24-ECTS economics threshold stated on the current EPOG application page and the EAP-specific application checklist; preserve the discrepancy and do not treat the local profile threshold as resolving the joint-master call requirements.",
+          "supports": [
+            "program.name",
+            "program.level",
+            "program.language",
+            "program.location",
+            "program.duration",
+            "program.access",
+            "program.degree_class",
+            "program.admission_requirements_conflict"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://en.unito.it/studying-unito/programs/degree-programs/economic-analysis-and-policy",
+            "content_type": "text/html; charset=UTF-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": "Wed, 11 Nov 2026 00:36:10 GMT",
+            "cache_control": "max-age=3600, public",
+            "age": "0",
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "[0309M22] ECONOMIC ANALYSIS AND POLICY | University of Turin",
+            "pdf_signature": null,
+            "has_2027_marker": true,
+            "bytes_read": 131072,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-EPOG-ADMISSION-2027",
+          "title": "EPOG-JM 2027–2029 consortium admission call",
+          "url": "https://www.epog.eu/admission-and-scholarships/admission/",
+          "source_type": "Official Erasmus Mundus joint-master consortium admission page",
+          "cycle": "2027-2029",
+          "accessed_at": "2026-11-11",
+          "evidence": "The live EPOG-JM page confirms the two-year 2027–2029 cohort application is open and closes 27 January 2027 at 13:00 Europe/Paris. It requires a Bachelor's or equivalent degree of at least 180 ECTS, 24 ECTS in economics and 6 ECTS in statistics/econometrics, English at CEFR C1 or the listed equivalent scores, and a clear motivation for the programme; applicants may be interviewed in March 2027, with results expected by end of March. The consortium call serves multiple partner pathways; the separate degree-policy page shows that the University of Turin award is available only for specified pathway combinations.",
+          "supports": [
+            "program.availability_2027_2028",
+            "program.application_windows",
+            "program.application_route",
+            "program.program_specific_requirements_2027_2028",
+            "program.english_language_requirement_2027_2028",
+            "program.selection_process"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.epog.eu/admission-and-scholarships/admission/",
+            "content_type": "text/html; charset=UTF-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": null,
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Admission - EPOG",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 131072,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-UNITO-EAP-APPLICATION-2027",
+          "title": "Economic Analysis and Policy – 2027/28 cohort application instructions",
+          "url": "https://www.eap.unito.it/do/home.pl/View?doc=how_to_apply.html",
+          "source_type": "Official University of Turin programme application page",
+          "cycle": "2027-2028",
+          "accessed_at": "2026-11-11",
+          "evidence": "The official programme application page identifies the 2027–2028 cohort and says applicants apply online through the EPOG website. Its application-document checklist requires a prior degree of at least 180 ECTS, transcripts showing a minimum of 24 ECTS in economics and 6 ECTS in statistics/econometrics, English proficiency, a statement of purpose up to 500 words, two recommendation letters, and a passport. Erasmus Mundus scholarship applicants must also provide recent proof of residence. This page agrees with the consortium's 24-ECTS economics rule and conflicts with the 18-CFU figure on UniTo's central degree profile.",
+          "supports": [
+            "program.availability_2027_2028",
+            "program.application_route",
+            "program.admission_requirements",
+            "program.application_documents",
+            "program.scholarship_eligibility"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.eap.unito.it/do/home.pl/View?doc=how_to_apply.html",
+            "content_type": "text/html; charset=UTF-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": null,
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "How to apply - Economic analysis and policy - Università degli Studi di Torino",
+            "pdf_signature": null,
+            "has_2027_marker": true,
+            "bytes_read": 70474,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-EPOG-DEGREE-POLICY",
+          "title": "EPOG-JM degree-awarding and mobility pathways",
+          "url": "https://www.epog.eu/outcomes/degree-policy/",
+          "source_type": "Official Erasmus Mundus joint-master degree policy",
+          "cycle": "general",
+          "accessed_at": "2026-11-11",
+          "evidence": "The EPOG degree policy confirms that the two-year 120-ECTS programme awards joint or multiple degrees based on the institutions attended in year one and year two. Its award matrix lists University of Turin's Master's in Economic Analysis and Policy for Major A and Minor C2 pathway combinations only. This is a multi-partner joint programme; a Turin degree is conditional on the selected pathway and mobility, not guaranteed for every EPOG applicant.",
+          "supports": [
+            "program.joint_degree_pathways",
+            "program.mobility",
+            "program.degree_award"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.epog.eu/outcomes/degree-policy/",
+            "content_type": "text/html; charset=UTF-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": null,
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Degree policy - EPOG Visit our LinkedIn linkedin facebook pinterest youtube rss twitter instagram",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 131072,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-EPOG-APPLICATION-PLATFORM-2027",
+          "title": "EPOG online application platform – 2027–2029 campaign",
+          "url": "https://application.epog.eu/",
+          "source_type": "Official joint-master application platform",
+          "cycle": "2027-2029",
+          "accessed_at": "2026-11-11",
+          "evidence": "The consortium's live application platform lists the EPOG-JM two-year programme for 2027–2029 with a closing time of 27 January 2027 at 13:00 Europe/Paris. This independently confirms the current call and application deadline. The platform page does not state an application fee.",
+          "supports": [
+            "program.application_route",
+            "program.application_windows",
+            "program.application_fee_2027_2028"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://application.epog.eu/",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": "Wed, 11 Nov 2026 00:36:10 GMT",
+            "cache_control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0, public",
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Home",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 32368,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-EPOG-SCHOLARSHIPS",
+          "title": "EPOG-JM Erasmus Mundus scholarship terms",
+          "url": "https://www.epog.eu/admission-and-scholarships/scholarships/",
+          "source_type": "Official Erasmus Mundus joint-master scholarship page",
+          "cycle": "general",
+          "accessed_at": "2026-11-11",
+          "evidence": "The official page states that the EPOG Erasmus Mundus scholarship covers tuition and required health/accident insurance and provides €1,400 per month during both academic years. It says applicants of any nationality can be eligible if they meet the academic criteria, except people who previously held an EMJM scholarship; holders cannot combine it with another EU-funded scholarship for the same course. It does not state the number or 2027–2029 allocation of awards, so the scheme terms are recorded separately from a confirmed cohort award count.",
+          "supports": [
+            "program.scholarships_2027_2028",
+            "program.scholarship_amount",
+            "program.scholarship_eligibility",
+            "program.scholarship_scope"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.epog.eu/admission-and-scholarships/scholarships/",
+            "content_type": "text/html; charset=UTF-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": null,
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Scholarships & Special needs - EPOG Visit our LinkedIn",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 131072,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-EPOG-TUITION-FEES",
+          "title": "EPOG-JM programme tuition and fee policy",
+          "url": "https://www.epog.eu/admission-and-scholarships/tuition-fees/",
+          "source_type": "Official Erasmus Mundus joint-master tuition page",
+          "cycle": "general",
+          "accessed_at": "2026-11-11",
+          "evidence": "The current consortium page lists a €1,000/year fee including health/accident insurance for students with personal income below €26,400/year, a possible full €9,600/year fee above that threshold, and a complete fee waiver for Erasmus Mundus scholarship holders; non-scholarship students may request a full or partial waiver. The page is not explicitly cycle-labelled for 2027–2029, so retain these as current published general terms requiring cohort-specific confirmation rather than asserting a settled 2027/28 tuition amount.",
+          "supports": [
+            "program.tuition_2027_2028",
+            "program.application_fee_2027_2028",
+            "program.scholarship_fee_waiver"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.epog.eu/admission-and-scholarships/tuition-fees/",
+            "content_type": "text/html; charset=UTF-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": null,
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Tuition fees - EPOG Visit our LinkedIn linkedin facebook pinterest youtube rss twitter instagram facebook-blank rss-blank linkedin-blank pinterest youtube twitter instagram",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 130155,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET"
+          },
+          "browser_check": null
+        }
+      ],
+      "availability_2027_2028": {
+        "value": true,
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNITO-EAP-APPLICATION-2027",
+          "SRC-EPOG-ADMISSION-2027",
+          "SRC-EPOG-APPLICATION-PLATFORM-2027"
+        ],
+        "notes": "The active EPOG-JM call confirms the 2027–2029 cohort, corresponding to 2027/28 first-year entry. This is a consortium route; the University of Turin joint award is available only for Major A and Minor C2 pathway combinations."
+      },
+      "existing_overall_status": "CONFIRMED",
+      "existing_last_checked": "2026-11-11",
+      "fields_needing_review": [
+        {
+          "field": "facts.program_specific_requirements_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": {
+            "consortium_call": {
+              "prior_degree": "Bachelor's or equivalent, minimum 180 ECTS",
+              "economics_ects": 24,
+              "statistics_or_econometrics_ects": 6,
+              "motivation": "Clear motivation for the programme"
+            },
+            "unito_profile": {
+              "economics_cfu": 18,
+              "statistics_cfu": 6
+            },
+            "eap_application_checklist": {
+              "economics_ects": 24,
+              "statistics_or_econometrics_ects": 6
+            },
+            "documents": [
+              "CV",
+              "diploma",
+              "academic transcripts",
+              "English proficiency evidence",
+              "statement of purpose up to 500 words",
+              "two recommendation letters",
+              "passport"
+            ],
+            "scholarship_applicants_additional_document": "Proof of place of residence issued within the previous 12 months, plus signed residence history declaration"
+          },
+          "notes": "The actual EPOG 2027–2029 call and the EAP checklist require 24 ECTS in economics plus 6 ECTS in statistics/econometrics. UniTo's central course profile instead says 18 CFU economics plus 6 statistics. Keep both claims visible and obtain clarification before treating the local course-profile threshold as aligned with the consortium selection threshold.",
+          "source_ids": [
+            "SRC-UNITO-EAP-PROFILE-2027",
+            "SRC-UNITO-EAP-APPLICATION-2027",
+            "SRC-EPOG-ADMISSION-2027"
+          ]
+        },
+        {
+          "field": "facts.application_fee_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "No application fee is stated on the reviewed consortium platform or programme checklist. Do not infer that the standard UniTo €60 foreign-qualification fee applies to the separate EPOG application.",
+          "source_ids": [
+            "SRC-EPOG-APPLICATION-PLATFORM-2027",
+            "SRC-UNITO-EAP-APPLICATION-2027"
+          ]
+        },
+        {
+          "field": "facts.tuition_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": {
+            "published_general_policy_not_cycle_labelled": {
+              "fee_below_personal_income_threshold_eur_per_year": 1000,
+              "personal_income_threshold_eur_per_year": 26400,
+              "includes": "Required health and accident insurance",
+              "above_threshold_possible_fee_eur_per_year": 9600,
+              "erasmus_mundus_scholarship_holder": "Complete fee waiver",
+              "non_scholarship_holder": "May request full or partial fee waiver"
+            }
+          },
+          "notes": "These are the consortium's current published general two-year EPOG fee terms; the page does not explicitly label them for 2027–2029. Confirm the cohort-specific fee schedule before presenting them as a settled 2027/28 tuition amount.",
+          "source_ids": [
+            "SRC-EPOG-TUITION-FEES",
+            "SRC-EPOG-SCHOLARSHIPS"
+          ]
+        },
+        {
+          "field": "facts.scholarships_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": {
+            "scheme": "Erasmus Mundus Joint Master scholarship",
+            "published_general_terms": {
+              "monthly_allowance_eur": 1400,
+              "duration": "Both academic years",
+              "covers": [
+                "Tuition fees",
+                "Required health and accident insurance"
+              ],
+              "eligible_nationalities": "All, if academic conditions are met",
+              "exclusions": [
+                "Previous EMJM scholarship holder",
+                "Cannot combine with another EU-funded scholarship for the same course"
+              ]
+            },
+            "2027_2029_award_count": null
+          },
+          "notes": "The official scholarship page publishes the general EPOG EMJM award terms, but neither it nor the active call states the number of scholarships allocated to the 2027–2029 cohort. Treat award funding as competitive and cohort count/selection as unconfirmed.",
+          "source_ids": [
+            "SRC-EPOG-SCHOLARSHIPS",
+            "SRC-EPOG-ADMISSION-2027"
+          ]
+        },
+        {
+          "field": "facts.acceptance_rate",
+          "status": "UNAVAILABLE",
+          "value": null,
+          "notes": "No comparable applicant and admitted-student totals are published on the reviewed official call pages; no acceptance rate is inferred.",
+          "source_ids": [
+            "SRC-EPOG-ADMISSION-2027"
+          ]
+        }
+      ],
+      "missing_fields": [
+        {
+          "field": "facts.application_fee_2027_2028",
+          "status": "REQUIRES_VERIFICATION",
+          "value": null,
+          "notes": "No application fee is stated on the reviewed consortium platform or programme checklist. Do not infer that the standard UniTo €60 foreign-qualification fee applies to the separate EPOG application.",
+          "source_ids": [
+            "SRC-EPOG-APPLICATION-PLATFORM-2027",
+            "SRC-UNITO-EAP-APPLICATION-2027"
+          ]
+        },
+        {
+          "field": "facts.acceptance_rate",
+          "status": "UNAVAILABLE",
+          "value": null,
+          "notes": "No comparable applicant and admitted-student totals are published on the reviewed official call pages; no acceptance rate is inferred.",
+          "source_ids": [
+            "SRC-EPOG-ADMISSION-2027"
+          ]
+        }
+      ],
+      "known_source_conflicts": [],
+      "source_ids": [
+        "SRC-UNITO-EAP-PROFILE-2027",
+        "SRC-UNITO-EAP-APPLICATION-2027",
+        "SRC-EPOG-ADMISSION-2027",
+        "SRC-EPOG-APPLICATION-PLATFORM-2027",
+        "SRC-EPOG-SCHOLARSHIPS",
+        "SRC-EPOG-TUITION-FEES",
+        "SRC-EPOG-DEGREE-POLICY"
+      ],
+      "previous_cycle_tags": null,
+      "refresh_status": "pending",
+      "refresh_checked_at": null,
+      "refresh_outcome": null
+    },
+    {
       "id": "legacy-045",
       "university_id": "trento",
       "university": "Università degli Studi di Trento",
@@ -124018,6 +124742,276 @@
         "x_vercel_id": null,
         "location": null,
         "observed_title": "Study awards for students | Università di Padova",
+        "pdf_signature": null,
+        "has_2027_marker": false,
+        "bytes_read": 131072,
+        "outcome": "accessible",
+        "error": null,
+        "checked_at": "2026-11-11",
+        "method": "GET"
+      },
+      "browser_check": null
+    },
+    {
+      "id": "SRC-UNITO-EAP-PROFILE-2027",
+      "title": "Economic Analysis and Policy – official University of Turin degree profile",
+      "url": "https://en.unito.it/studying-unito/programs/degree-programs/economic-analysis-and-policy",
+      "source_type": "Official University degree programme profile",
+      "cycle": "general",
+      "accessed_at": "2026-11-11",
+      "evidence": "The current official UniTo profile lists Economic Analysis and Policy as an English-taught, two-year, free-access Master's degree in LM-56 R Economics, based in Turin. It states the local course admission requirements as 18 CFU in economics and 6 CFU in statistics and describes a preliminary curricular evaluation followed by a 15-minute Zoom TAPP interview. This conflicts with the 24-ECTS economics threshold stated on the current EPOG application page and the EAP-specific application checklist; preserve the discrepancy and do not treat the local profile threshold as resolving the joint-master call requirements.",
+      "supports": [
+        "program.name",
+        "program.level",
+        "program.language",
+        "program.location",
+        "program.duration",
+        "program.access",
+        "program.degree_class",
+        "program.admission_requirements_conflict"
+      ],
+      "refresh_status": "accessible",
+      "url_check": {
+        "http_status": 200,
+        "effective_url": "https://en.unito.it/studying-unito/programs/degree-programs/economic-analysis-and-policy",
+        "content_type": "text/html; charset=UTF-8",
+        "content_length_header": null,
+        "etag": null,
+        "last_modified": "Wed, 11 Nov 2026 00:36:10 GMT",
+        "cache_control": "max-age=3600, public",
+        "age": "0",
+        "x_vercel_cache": null,
+        "x_vercel_id": null,
+        "location": null,
+        "observed_title": "[0309M22] ECONOMIC ANALYSIS AND POLICY | University of Turin",
+        "pdf_signature": null,
+        "has_2027_marker": true,
+        "bytes_read": 131072,
+        "outcome": "accessible",
+        "error": null,
+        "checked_at": "2026-11-11",
+        "method": "GET"
+      },
+      "browser_check": null
+    },
+    {
+      "id": "SRC-UNITO-EAP-APPLICATION-2027",
+      "title": "Economic Analysis and Policy – 2027/28 cohort application instructions",
+      "url": "https://www.eap.unito.it/do/home.pl/View?doc=how_to_apply.html",
+      "source_type": "Official University of Turin programme application page",
+      "cycle": "2027-2028",
+      "accessed_at": "2026-11-11",
+      "evidence": "The official programme application page identifies the 2027–2028 cohort and says applicants apply online through the EPOG website. Its application-document checklist requires a prior degree of at least 180 ECTS, transcripts showing a minimum of 24 ECTS in economics and 6 ECTS in statistics/econometrics, English proficiency, a statement of purpose up to 500 words, two recommendation letters, and a passport. Erasmus Mundus scholarship applicants must also provide recent proof of residence. This page agrees with the consortium's 24-ECTS economics rule and conflicts with the 18-CFU figure on UniTo's central degree profile.",
+      "supports": [
+        "program.availability_2027_2028",
+        "program.application_route",
+        "program.admission_requirements",
+        "program.application_documents",
+        "program.scholarship_eligibility"
+      ],
+      "refresh_status": "accessible",
+      "url_check": {
+        "http_status": 200,
+        "effective_url": "https://www.eap.unito.it/do/home.pl/View?doc=how_to_apply.html",
+        "content_type": "text/html; charset=UTF-8",
+        "content_length_header": null,
+        "etag": null,
+        "last_modified": null,
+        "cache_control": null,
+        "age": null,
+        "x_vercel_cache": null,
+        "x_vercel_id": null,
+        "location": null,
+        "observed_title": "How to apply - Economic analysis and policy - Università degli Studi di Torino",
+        "pdf_signature": null,
+        "has_2027_marker": true,
+        "bytes_read": 70474,
+        "outcome": "accessible",
+        "error": null,
+        "checked_at": "2026-11-11",
+        "method": "GET"
+      },
+      "browser_check": null
+    },
+    {
+      "id": "SRC-EPOG-ADMISSION-2027",
+      "title": "EPOG-JM 2027–2029 consortium admission call",
+      "url": "https://www.epog.eu/admission-and-scholarships/admission/",
+      "source_type": "Official Erasmus Mundus joint-master consortium admission page",
+      "cycle": "2027-2029",
+      "accessed_at": "2026-11-11",
+      "evidence": "The live EPOG-JM page confirms the two-year 2027–2029 cohort application is open and closes 27 January 2027 at 13:00 Europe/Paris. It requires a Bachelor's or equivalent degree of at least 180 ECTS, 24 ECTS in economics and 6 ECTS in statistics/econometrics, English at CEFR C1 or the listed equivalent scores, and a clear motivation for the programme; applicants may be interviewed in March 2027, with results expected by end of March. The consortium call serves multiple partner pathways; the separate degree-policy page shows that the University of Turin award is available only for specified pathway combinations.",
+      "supports": [
+        "program.availability_2027_2028",
+        "program.application_windows",
+        "program.application_route",
+        "program.program_specific_requirements_2027_2028",
+        "program.english_language_requirement_2027_2028",
+        "program.selection_process"
+      ],
+      "refresh_status": "accessible",
+      "url_check": {
+        "http_status": 200,
+        "effective_url": "https://www.epog.eu/admission-and-scholarships/admission/",
+        "content_type": "text/html; charset=UTF-8",
+        "content_length_header": null,
+        "etag": null,
+        "last_modified": null,
+        "cache_control": null,
+        "age": null,
+        "x_vercel_cache": null,
+        "x_vercel_id": null,
+        "location": null,
+        "observed_title": "Admission - EPOG",
+        "pdf_signature": null,
+        "has_2027_marker": false,
+        "bytes_read": 131072,
+        "outcome": "accessible",
+        "error": null,
+        "checked_at": "2026-11-11",
+        "method": "GET"
+      },
+      "browser_check": null
+    },
+    {
+      "id": "SRC-EPOG-APPLICATION-PLATFORM-2027",
+      "title": "EPOG online application platform – 2027–2029 campaign",
+      "url": "https://application.epog.eu/",
+      "source_type": "Official joint-master application platform",
+      "cycle": "2027-2029",
+      "accessed_at": "2026-11-11",
+      "evidence": "The consortium's live application platform lists the EPOG-JM two-year programme for 2027–2029 with a closing time of 27 January 2027 at 13:00 Europe/Paris. This independently confirms the current call and application deadline. The platform page does not state an application fee.",
+      "supports": [
+        "program.application_route",
+        "program.application_windows",
+        "program.application_fee_2027_2028"
+      ],
+      "refresh_status": "accessible",
+      "url_check": {
+        "http_status": 200,
+        "effective_url": "https://application.epog.eu/",
+        "content_type": "text/html; charset=utf-8",
+        "content_length_header": null,
+        "etag": null,
+        "last_modified": "Wed, 11 Nov 2026 00:36:10 GMT",
+        "cache_control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0, public",
+        "age": null,
+        "x_vercel_cache": null,
+        "x_vercel_id": null,
+        "location": null,
+        "observed_title": "Home",
+        "pdf_signature": null,
+        "has_2027_marker": false,
+        "bytes_read": 32368,
+        "outcome": "accessible",
+        "error": null,
+        "checked_at": "2026-11-11",
+        "method": "GET"
+      },
+      "browser_check": null
+    },
+    {
+      "id": "SRC-EPOG-SCHOLARSHIPS",
+      "title": "EPOG-JM Erasmus Mundus scholarship terms",
+      "url": "https://www.epog.eu/admission-and-scholarships/scholarships/",
+      "source_type": "Official Erasmus Mundus joint-master scholarship page",
+      "cycle": "general",
+      "accessed_at": "2026-11-11",
+      "evidence": "The official page states that the EPOG Erasmus Mundus scholarship covers tuition and required health/accident insurance and provides €1,400 per month during both academic years. It says applicants of any nationality can be eligible if they meet the academic criteria, except people who previously held an EMJM scholarship; holders cannot combine it with another EU-funded scholarship for the same course. It does not state the number or 2027–2029 allocation of awards, so the scheme terms are recorded separately from a confirmed cohort award count.",
+      "supports": [
+        "program.scholarships_2027_2028",
+        "program.scholarship_amount",
+        "program.scholarship_eligibility",
+        "program.scholarship_scope"
+      ],
+      "refresh_status": "accessible",
+      "url_check": {
+        "http_status": 200,
+        "effective_url": "https://www.epog.eu/admission-and-scholarships/scholarships/",
+        "content_type": "text/html; charset=UTF-8",
+        "content_length_header": null,
+        "etag": null,
+        "last_modified": null,
+        "cache_control": null,
+        "age": null,
+        "x_vercel_cache": null,
+        "x_vercel_id": null,
+        "location": null,
+        "observed_title": "Scholarships & Special needs - EPOG Visit our LinkedIn",
+        "pdf_signature": null,
+        "has_2027_marker": false,
+        "bytes_read": 131072,
+        "outcome": "accessible",
+        "error": null,
+        "checked_at": "2026-11-11",
+        "method": "GET"
+      },
+      "browser_check": null
+    },
+    {
+      "id": "SRC-EPOG-TUITION-FEES",
+      "title": "EPOG-JM programme tuition and fee policy",
+      "url": "https://www.epog.eu/admission-and-scholarships/tuition-fees/",
+      "source_type": "Official Erasmus Mundus joint-master tuition page",
+      "cycle": "general",
+      "accessed_at": "2026-11-11",
+      "evidence": "The current consortium page lists a €1,000/year fee including health/accident insurance for students with personal income below €26,400/year, a possible full €9,600/year fee above that threshold, and a complete fee waiver for Erasmus Mundus scholarship holders; non-scholarship students may request a full or partial waiver. The page is not explicitly cycle-labelled for 2027–2029, so retain these as current published general terms requiring cohort-specific confirmation rather than asserting a settled 2027/28 tuition amount.",
+      "supports": [
+        "program.tuition_2027_2028",
+        "program.application_fee_2027_2028",
+        "program.scholarship_fee_waiver"
+      ],
+      "refresh_status": "accessible",
+      "url_check": {
+        "http_status": 200,
+        "effective_url": "https://www.epog.eu/admission-and-scholarships/tuition-fees/",
+        "content_type": "text/html; charset=UTF-8",
+        "content_length_header": null,
+        "etag": null,
+        "last_modified": null,
+        "cache_control": null,
+        "age": null,
+        "x_vercel_cache": null,
+        "x_vercel_id": null,
+        "location": null,
+        "observed_title": "Tuition fees - EPOG Visit our LinkedIn linkedin facebook pinterest youtube rss twitter instagram facebook-blank rss-blank linkedin-blank pinterest youtube twitter instagram",
+        "pdf_signature": null,
+        "has_2027_marker": false,
+        "bytes_read": 130155,
+        "outcome": "accessible",
+        "error": null,
+        "checked_at": "2026-11-11",
+        "method": "GET"
+      },
+      "browser_check": null
+    },
+    {
+      "id": "SRC-EPOG-DEGREE-POLICY",
+      "title": "EPOG-JM degree-awarding and mobility pathways",
+      "url": "https://www.epog.eu/outcomes/degree-policy/",
+      "source_type": "Official Erasmus Mundus joint-master degree policy",
+      "cycle": "general",
+      "accessed_at": "2026-11-11",
+      "evidence": "The EPOG degree policy confirms that the two-year 120-ECTS programme awards joint or multiple degrees based on the institutions attended in year one and year two. Its award matrix lists University of Turin's Master's in Economic Analysis and Policy for Major A and Minor C2 pathway combinations only. This is a multi-partner joint programme; a Turin degree is conditional on the selected pathway and mobility, not guaranteed for every EPOG applicant.",
+      "supports": [
+        "program.joint_degree_pathways",
+        "program.mobility",
+        "program.degree_award"
+      ],
+      "refresh_status": "accessible",
+      "url_check": {
+        "http_status": 200,
+        "effective_url": "https://www.epog.eu/outcomes/degree-policy/",
+        "content_type": "text/html; charset=UTF-8",
+        "content_length_header": null,
+        "etag": null,
+        "last_modified": null,
+        "cache_control": null,
+        "age": null,
+        "x_vercel_cache": null,
+        "x_vercel_id": null,
+        "location": null,
+        "observed_title": "Degree policy - EPOG Visit our LinkedIn linkedin facebook pinterest youtube rss twitter instagram",
         "pdf_signature": null,
         "has_2027_marker": false,
         "bytes_read": 131072,

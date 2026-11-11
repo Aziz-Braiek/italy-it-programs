@@ -207,6 +207,11 @@
       "result": "Checked Padua's current official student-awards page. It lists two €11,280 Cybersecurity awards for high-achieving students in the final two years, paid in 2026/27 and 2027/28, with an 18 March 2027 deadline. Recorded this as current-student funding and explicitly excluded it from the 2027/28 incoming-cohort scholarship offer. The same page's Computer Engineering awards target students entering in 2025/26 and were not carried into the new-intake funding fields. Padua's separate University-wide International Excellence scheme remains the applicable 2027/28 headline scheme for confirmed English-taught intakes; detailed eligibility and the annual call are still pending. The official student-awards page returned HTTP 200. Rebuilt and audited the 202-program, 568-source dataset; all 12 static tests, the UI regression test and desktop/mobile browser tests passed. Production and preview remain untouched while the full research refresh continues."
     },
     {
+      "id": "unito-economic-analysis-and-policy-epog-2027-29-intake-discovery",
+      "status": "partial",
+      "result": "Added UniTo's English-taught Economic Analysis and Policy LM-56 R MSc as newly discovered candidate discovered-038. The University course profile confirms its two-year degree identity and Turin location; the EPOG consortium's live 2027–2029 call and application platform confirm an active 2027/28-entry route, with applications closing 27 January 2027 at 13:00 Europe/Paris. The course is a multi-partner Erasmus Mundus joint master, and the degree-policy matrix confirms a University of Turin award only for Major A and Minor C2 pathway combinations. Recorded the 180-ECTS prior-degree threshold, 24 ECTS economics plus 6 ECTS statistics/econometrics, English C1/equivalent, statement, two references and application route. Preserved the conflict that UniTo's central course profile says 18 CFU economics + 6 statistics, while its EAP checklist and EPOG call say 24 ECTS + 6. Published EPOG scholarship terms (€1,400/month for both years and tuition/insurance coverage) and the general fee policy (€1,000/year under the stated personal-income threshold; potentially €9,600/year above it) are recorded with cycle-specific award count and 2027/28 tuition confirmation still pending. No application fee is stated in the official pages reviewed; the amount remains unverified and no standard UniTo fee was copied to the consortium route. Production and preview remain untouched while the full research audit continues."
+    },
+    {
       "id": "claude-independent-review-inventory",
       "status": "complete",
       "result": "Created a review manifest and checklist covering all 34 universities, 193 programs, and 454 existing official source records. The checklist exposes current unresolved fields and conflicts; all refresh outcomes remain pending until evidence is checked."
@@ -269,12 +274,12 @@
     ],
     "universities_program_level_review_not_started": 0,
     "university_ids_with_program_level_review_not_started": [],
-    "program_records": 202,
+    "program_records": 203,
     "prior_tracker_programs_archived": 165,
-    "newly_discovered_programs": 37,
-    "programs_cycle_availability_confirmed": 31,
+    "newly_discovered_programs": 38,
+    "programs_cycle_availability_confirmed": 32,
     "programs_availability_pending": 168,
-    "programs_fully_verified": 26,
+    "programs_fully_verified": 27,
     "programs_requiring_verification": 173,
     "programs_not_offered_2027_2028": 3,
     "programs_supported_only_by_previous_cycle": 157,
@@ -438,8 +443,8 @@
       "legacy-165"
     ],
     "bsc_programs_verified": 1,
-    "msc_programs_verified": 25,
-    "universities_with_confirmed_deadline_windows": 9,
+    "msc_programs_verified": 26,
+    "universities_with_confirmed_deadline_windows": 10,
     "university_ids_with_confirmed_deadline_windows": [
       "bologna",
       "messina",
@@ -449,6 +454,7 @@
       "politecnico-milano",
       "politecnico-torino",
       "tor-vergata",
+      "torino",
       "trento"
     ],
     "universities_with_explicit_not_yet_published_fields": 9,
@@ -513,8 +519,8 @@
       "trento",
       "udine"
     ],
-    "source_records": 568,
-    "official_source_supported_fields": 1129,
+    "source_records": 575,
+    "official_source_supported_fields": 1141,
     "verification_statuses": [
       "CONFIRMED",
       "NOT_YET_PUBLISHED",

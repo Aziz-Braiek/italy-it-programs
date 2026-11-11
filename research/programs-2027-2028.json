@@ -37263,5 +37263,283 @@
     "previous_tracker_tags": null,
     "previous_cycle_tags": null,
     "last_checked": "2026-11-11"
+  },
+  {
+    "id": "discovered-038",
+    "university_id": "torino",
+    "university": "Università degli Studi di Torino",
+    "city": "Turin",
+    "program": "Economic Analysis and Policy",
+    "level": {
+      "value": "MSc",
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-UNITO-EAP-PROFILE-2027"
+      ],
+      "notes": null
+    },
+    "language": {
+      "value": "English",
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-UNITO-EAP-PROFILE-2027"
+      ],
+      "notes": null
+    },
+    "field": {
+      "value": "Economics",
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-UNITO-EAP-PROFILE-2027",
+        "SRC-EPOG-ADMISSION-2027"
+      ],
+      "notes": null
+    },
+    "availability_2027_2028": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source_ids": [
+        "SRC-UNITO-EAP-APPLICATION-2027",
+        "SRC-EPOG-ADMISSION-2027",
+        "SRC-EPOG-APPLICATION-PLATFORM-2027"
+      ],
+      "notes": "The active EPOG-JM call confirms the 2027–2029 cohort, corresponding to 2027/28 first-year entry. This is a consortium route; the University of Turin joint award is available only for Major A and Minor C2 pathway combinations."
+    },
+    "overall_status": "CONFIRMED",
+    "discovery_source": "newly_discovered",
+    "facts": {
+      "official_course_profile": {
+        "value": {
+          "degree_class": "LM-56 R - Economics",
+          "duration_years": 2,
+          "language": "English",
+          "access": "Free access with preliminary curricular evaluation and personal-preparation interview",
+          "campus": "Turin; joint-programme teaching seats also include Johannesburg and Paris"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNITO-EAP-PROFILE-2027",
+          "SRC-UNITO-EAP-APPLICATION-2027"
+        ],
+        "notes": null
+      },
+      "joint_degree_pathways": {
+        "value": {
+          "programme": "EPOG-JM Erasmus Mundus Joint Master",
+          "total_ects": 120,
+          "degree_award": "Joint or multiple degree based on first- and second-year institutions",
+          "University_of_Turin_pathways": [
+            "Major A",
+            "Minor C2"
+          ],
+          "mobility": "Depends on selected pathway; not every EPOG student receives a Turin degree"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-EPOG-DEGREE-POLICY",
+          "SRC-EPOG-ADMISSION-2027"
+        ],
+        "notes": null
+      },
+      "application_windows": {
+        "value": [
+          {
+            "start": "2026-10",
+            "end": "2027-01-27T13:00:00+01:00",
+            "round": "EPOG-JM two-year programme, 2027–2029 cohort",
+            "eligible_group": "Applicants to the consortium cohort; University of Turin degree award is pathway-dependent"
+          }
+        ],
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-EPOG-ADMISSION-2027",
+          "SRC-EPOG-APPLICATION-PLATFORM-2027"
+        ],
+        "notes": "The official call says the platform opened in October 2026 and closes at 13:00 Europe/Paris on 27 January 2027. Interviews are scheduled for March 2027, with selection results by the end of March."
+      },
+      "application_route": {
+        "value": "https://application.epog.eu/",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNITO-EAP-APPLICATION-2027",
+          "SRC-EPOG-ADMISSION-2027",
+          "SRC-EPOG-APPLICATION-PLATFORM-2027"
+        ],
+        "notes": "Apply through the EPOG consortium portal, not the standard UniTo application route."
+      },
+      "program_specific_requirements_2027_2028": {
+        "value": {
+          "consortium_call": {
+            "prior_degree": "Bachelor's or equivalent, minimum 180 ECTS",
+            "economics_ects": 24,
+            "statistics_or_econometrics_ects": 6,
+            "motivation": "Clear motivation for the programme"
+          },
+          "unito_profile": {
+            "economics_cfu": 18,
+            "statistics_cfu": 6
+          },
+          "eap_application_checklist": {
+            "economics_ects": 24,
+            "statistics_or_econometrics_ects": 6
+          },
+          "documents": [
+            "CV",
+            "diploma",
+            "academic transcripts",
+            "English proficiency evidence",
+            "statement of purpose up to 500 words",
+            "two recommendation letters",
+            "passport"
+          ],
+          "scholarship_applicants_additional_document": "Proof of place of residence issued within the previous 12 months, plus signed residence history declaration"
+        },
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-UNITO-EAP-PROFILE-2027",
+          "SRC-UNITO-EAP-APPLICATION-2027",
+          "SRC-EPOG-ADMISSION-2027"
+        ],
+        "notes": "The actual EPOG 2027–2029 call and the EAP checklist require 24 ECTS in economics plus 6 ECTS in statistics/econometrics. UniTo's central course profile instead says 18 CFU economics plus 6 statistics. Keep both claims visible and obtain clarification before treating the local course-profile threshold as aligned with the consortium selection threshold."
+      },
+      "english_language_requirement_2027_2028": {
+        "value": {
+          "minimum": "CEFR C1",
+          "accepted_equivalents": {
+            "TOEFL_iBT": 95,
+            "IELTS_Academic": 7.0,
+            "CAE": "Grade B",
+            "CPE": "Grade C",
+            "PTE_Academic": 67
+          },
+          "alternatives": "Native English speakers and applicants with a higher-education degree entirely taught in English may be exempt from an individual test",
+          "evidence_deadline": "10 June (local exceptions may require end of April)"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-EPOG-ADMISSION-2027",
+          "SRC-UNITO-EAP-APPLICATION-2027"
+        ],
+        "notes": "Current consortium 2027–2029 admission guidance; specific pathway/local-document checks may apply."
+      },
+      "selection_process_2027_2028": {
+        "value": {
+          "consortium_interviews": "March 2027",
+          "results": "End of March 2027",
+          "local_course_check": "UniTo course profile describes a 15-minute Zoom TAPP interview after curricular evaluation"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-EPOG-ADMISSION-2027",
+          "SRC-UNITO-EAP-PROFILE-2027"
+        ],
+        "notes": "The EPOG interview window is stated for the 2027–2029 cohort. The separate local TAPP description is on the current course profile and is not itself labelled with an academic year."
+      },
+      "application_fee_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-EPOG-APPLICATION-PLATFORM-2027",
+          "SRC-UNITO-EAP-APPLICATION-2027"
+        ],
+        "notes": "No application fee is stated on the reviewed consortium platform or programme checklist. Do not infer that the standard UniTo €60 foreign-qualification fee applies to the separate EPOG application."
+      },
+      "tuition_2027_2028": {
+        "value": {
+          "published_general_policy_not_cycle_labelled": {
+            "fee_below_personal_income_threshold_eur_per_year": 1000,
+            "personal_income_threshold_eur_per_year": 26400,
+            "includes": "Required health and accident insurance",
+            "above_threshold_possible_fee_eur_per_year": 9600,
+            "erasmus_mundus_scholarship_holder": "Complete fee waiver",
+            "non_scholarship_holder": "May request full or partial fee waiver"
+          }
+        },
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-EPOG-TUITION-FEES",
+          "SRC-EPOG-SCHOLARSHIPS"
+        ],
+        "notes": "These are the consortium's current published general two-year EPOG fee terms; the page does not explicitly label them for 2027–2029. Confirm the cohort-specific fee schedule before presenting them as a settled 2027/28 tuition amount."
+      },
+      "scholarships_2027_2028": {
+        "value": {
+          "scheme": "Erasmus Mundus Joint Master scholarship",
+          "published_general_terms": {
+            "monthly_allowance_eur": 1400,
+            "duration": "Both academic years",
+            "covers": [
+              "Tuition fees",
+              "Required health and accident insurance"
+            ],
+            "eligible_nationalities": "All, if academic conditions are met",
+            "exclusions": [
+              "Previous EMJM scholarship holder",
+              "Cannot combine with another EU-funded scholarship for the same course"
+            ]
+          },
+          "2027_2029_award_count": null
+        },
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-EPOG-SCHOLARSHIPS",
+          "SRC-EPOG-ADMISSION-2027"
+        ],
+        "notes": "The official scholarship page publishes the general EPOG EMJM award terms, but neither it nor the active call states the number of scholarships allocated to the 2027–2029 cohort. Treat award funding as competitive and cohort count/selection as unconfirmed."
+      },
+      "published_emjm_scholarship_terms": {
+        "value": {
+          "monthly_allowance_eur": 1400,
+          "duration": "Both academic years",
+          "tuition_and_insurance_covered": true,
+          "eligibility": "Applicants of any nationality who meet academic requirements, except prior EMJM scholarship recipients",
+          "eu_grant_combination": "No other EU-funded scholarship for the same course"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-EPOG-SCHOLARSHIPS"
+        ],
+        "notes": "General official scheme terms; 2027–2029 award count and cohort-specific allocation are not published on the reviewed page."
+      },
+      "application_documents_2027_2028": {
+        "value": [
+          "Completed online EPOG application",
+          "Full CV",
+          "Degree certificate (at least 180 ECTS)",
+          "Academic transcripts",
+          "English proficiency evidence",
+          "Statement of purpose (maximum 500 words)",
+          "Two recommendation letters",
+          "Passport",
+          "Residence evidence and signed residence-history declaration for Erasmus Mundus scholarship applicants"
+        ],
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNITO-EAP-APPLICATION-2027",
+          "SRC-EPOG-ADMISSION-2027"
+        ],
+        "notes": null
+      },
+      "acceptance_rate": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-EPOG-ADMISSION-2027"
+        ],
+        "notes": "No comparable applicant and admitted-student totals are published on the reviewed official call pages; no acceptance rate is inferred."
+      }
+    },
+    "source_ids": [
+      "SRC-UNITO-EAP-PROFILE-2027",
+      "SRC-UNITO-EAP-APPLICATION-2027",
+      "SRC-EPOG-ADMISSION-2027",
+      "SRC-EPOG-APPLICATION-PLATFORM-2027",
+      "SRC-EPOG-SCHOLARSHIPS",
+      "SRC-EPOG-TUITION-FEES",
+      "SRC-EPOG-DEGREE-POLICY"
+    ],
+    "previous_tracker_tags": null,
+    "previous_cycle_tags": null,
+    "last_checked": "2026-11-11"
   }
 ]
