@@ -415,6 +415,11 @@
       "result": "Reviewed discovered-033, Innovative Technologies in Agriculture, against the University of Padua's English-degree catalogue and official 2027/28 study guide. Both list it as a new English-taught Bachelor's proposal awaiting approval; the guide places it under the School of Agricultural Sciences and Veterinary Medicine and within the three-year Bachelor's group. Its campus, first-year intake, course-specific application call, entry requirements, application fee, tuition, places and scholarship terms are not published in the reviewed official course sources. The University guide PDF was fetched directly with no-cache request headers (HTTP 200, valid PDF signature) and visually checked on its programme-list page; the PDF's own cache headers show a one-year max-age and nonzero Age. The record remains pending, and Padua is not treated as a confirmed course campus. No production changes were made."
     },
     {
+      "id": "padua-arqus-physics-for-technology-accreditation-status-review",
+      "status": "partial",
+      "result": "Rechecked discovered-034, the proposed Arqus Physics for Technology joint Bachelor's programme. The January 2026 Arqus partner-meeting report says the programme was still in development and that admission and recognition procedures were being worked on within a self-evaluation report. A later Arqus update dated 30 September 2026 states that the joint Bachelor's degree is undergoing accreditation by the Lithuanian Quality Agency. Padua's current English-degree catalogue does not list it, and no source confirms completed accreditation, a 2027/28 launch, first-year intake, teaching language, course campus, application call, requirements, tuition or scholarships. The candidate remains a development lead with no 2027/28 availability inferred. Fresh direct GETs returned HTTP 200 for the University and Arqus pages; no production changes were made."
+    },
+    {
       "id": "claude-independent-review-inventory",
       "status": "complete",
       "result": "Created a review manifest and checklist covering all 34 universities, 193 programs, and 454 existing official source records. The checklist exposes current unresolved fields and conflicts; all refresh outcomes remain pending until evidence is checked."
@@ -430,9 +435,9 @@
       "result": "Direct HTTP review covers 554 unique URLs across 568 source records: 519 accessible, 13 redirected, 22 inconclusive and 0 confirmed broken. All 21 previously inconclusive URLs were retried via direct HTTP on 11 November and remained inconclusive. The three Padua scholarship, scheme and tuition URLs, five earlier Padua admissions/Statistical Science source URLs, the central Astrophysics and Cosmology profile, and the new student-awards page returned HTTP 200. The new Astrophysics Department call URL was inconclusive by direct HTTP and content-open; an official indexed result exposed its 2027/28 call details, but the link is not counted as directly verified. Twelve older inconclusive sources were separately opened and inspected through the official content fetcher: ten Camerino pages/PDFs, one Trieste historical catalogue PDF, and one Federico II Quantum Science and Engineering page. Nine older URLs still lack a successful independent content fetch; a 11 November retry of those nine also timed out or could not retrieve the PDF. Keep all inconclusive links classified as inconclusive, not broken."
     },
     {
-      "id": "padua-arqus-physics-for-technology-accreditation-status-review",
+      "id": "padua-data-analytics-decision-support-proposal-study-guide-review",
       "status": "partial",
-      "result": "Rechecked discovered-034, the proposed Arqus Physics for Technology joint Bachelor's programme. The January 2026 Arqus partner-meeting report says the programme was still in development and that admission and recognition procedures were being worked on within a self-evaluation report. A later Arqus update dated 30 September 2026 states that the joint Bachelor's degree is undergoing accreditation by the Lithuanian Quality Agency. Padua's current English-degree catalogue does not list it, and no source confirms completed accreditation, a 2027/28 launch, first-year intake, teaching language, course campus, application call, requirements, tuition or scholarships. The candidate remains a development lead with no 2027/28 availability inferred. Fresh direct GETs returned HTTP 200 for the University and Arqus pages; no production changes were made."
+      "result": "Reviewed discovered-035, Data Analytics and Decision Support, against Padua's English-taught Master's catalogue and official 2027/28 study guide. Both place it under the School of Science and mark it as a proposed programme awaiting approval; the guide groups it among two-year English-taught Master's degrees. Searches of the official University and department domains found no course-profile link, approved regulation or course-specific admissions page. The course campus, first-year intake, application route/deadline, entry requirements, application fee, tuition and scholarship terms remain unconfirmed; the general international application calendar does not establish that this proposal is included. Fresh no-cache GETs returned HTTP 200 for the catalogue and study guide PDF; the PDF carries a one-year max-age and nonzero Age response despite the no-cache request. Page 37 of the PDF was rendered to verify the School of Science layout and English-taught column. No production changes were made."
     }
   ],
   "counts": {
@@ -725,7 +730,7 @@
       "trento",
       "udine"
     ],
-    "source_records": 685,
+    "source_records": 687,
     "official_source_supported_fields": 1436,
     "verification_statuses": [
       "CONFIRMED",

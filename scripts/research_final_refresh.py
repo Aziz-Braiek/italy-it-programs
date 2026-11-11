@@ -1323,6 +1323,22 @@ SOURCES = [
         "supports": ["program.official_planned_course_listing_2027_2028", "program.level", "program.language", "program.course_location_2027_2028"],
     },
     {
+        "id": "SRC-PADUA-ENGLISH-MASTERS-PROPOSED-2027",
+        "university_id": "padova", "title": "Master's degree programmes in English – proposed 2027/28 additions",
+        "url": "https://www.unipd.it/en/corsi-laurea-magistrale-lingua-inglese",
+        "source_type": "Official English-language Master's course catalogue", "accessed_at": "2026-11-11", "cycle": "2027-2028",
+        "evidence": "The English-taught Master's catalogue places Data Analytics and Decision Support under the School of Science and labels it a new 2027/28 programme 'to be approved'. The title is listed without a course-profile link; the page does not establish final approval, a first-year intake, a course-specific call or admission terms.",
+        "supports": ["program.official_planned_course_listing_2027_2028", "program.level", "program.language", "program.approval_status", "program.application_windows_2027_2028"],
+    },
+    {
+        "id": "SRC-PADUA-DATA-ANALYTICS-GUIDE-2027",
+        "university_id": "padova", "title": "Study with us 2027/28 – School of Science programme list",
+        "url": "https://wwwassets.unipd.it/sites/default/files/2026-10/StudyWithUs_2027web_Finale.pdf",
+        "source_type": "Official University 2027/28 study guide PDF", "accessed_at": "2026-11-11", "cycle": "2027-2028",
+        "evidence": "The School of Science section of the University's 2027/28 guide lists Data Analytics and Decision Support among Master's degrees (two years), in the English-taught column, and marks it 'to be approved'. This does not confirm final authorization, first-year intake, or course-specific admission information.",
+        "supports": ["program.official_planned_course_listing_2027_2028", "program.level", "program.language", "program.approval_status"],
+    },
+    {
         "id": "SRC-PADUA-MAFBA-OPEN-DAY-2026",
         "university_id": "padova", "title": "Management, Finance and Business Analytics – scheduled open day",
         "url": "https://www.unipd.it/en/openday2026-27-economia-scienzepolitiche",
@@ -2172,6 +2188,12 @@ BATCH47 = {
     "id": "padua-arqus-physics-for-technology-accreditation-status-review",
     "status": "partial",
     "result": "Rechecked discovered-034, the proposed Arqus Physics for Technology joint Bachelor's programme. The January 2026 Arqus partner-meeting report says the programme was still in development and that admission and recognition procedures were being worked on within a self-evaluation report. A later Arqus update dated 30 September 2026 states that the joint Bachelor's degree is undergoing accreditation by the Lithuanian Quality Agency. Padua's current English-degree catalogue does not list it, and no source confirms completed accreditation, a 2027/28 launch, first-year intake, teaching language, course campus, application call, requirements, tuition or scholarships. The candidate remains a development lead with no 2027/28 availability inferred. Fresh direct GETs returned HTTP 200 for the University and Arqus pages; no production changes were made.",
+}
+
+BATCH48 = {
+    "id": "padua-data-analytics-decision-support-proposal-study-guide-review",
+    "status": "partial",
+    "result": "Reviewed discovered-035, Data Analytics and Decision Support, against Padua's English-taught Master's catalogue and official 2027/28 study guide. Both place it under the School of Science and mark it as a proposed programme awaiting approval; the guide groups it among two-year English-taught Master's degrees. Searches of the official University and department domains found no course-profile link, approved regulation or course-specific admissions page. The course campus, first-year intake, application route/deadline, entry requirements, application fee, tuition and scholarship terms remain unconfirmed; the general international application calendar does not establish that this proposal is included. Fresh no-cache GETs returned HTTP 200 for the catalogue and study guide PDF; the PDF carries a one-year max-age and nonzero Age response despite the no-cache request. Page 37 of the PDF was rendered to verify the School of Science layout and English-taught column. No production changes were made.",
 }
 
 SOURCE_RECHECKS = {
@@ -5296,52 +5318,68 @@ def apply(
     statistical_requirements = "SRC-PADUA-STATISTICAL-SCIENCE-ENTRY-REQUIREMENTS"
     for pid, title, proposed_name, field_value, approval_note in padua_master_candidates:
         source_ids = [padua_planned_source]
+        course_guide_sources = []
+        if pid == "discovered-035":
+            course_guide_sources.extend(["SRC-PADUA-ENGLISH-MASTERS-PROPOSED-2027", "SRC-PADUA-DATA-ANALYTICS-GUIDE-2027"])
         if pid == "discovered-036":
             source_ids.extend([statistical_profile, statistical_requirements])
+        source_ids.extend(course_guide_sources)
         candidate = make_program(
             pid, "padova", title, "MSc (proposed)", "English (proposed)", field_value,
             "REQUIRES_VERIFICATION", source_ids, city="Padua", discovery="newly_discovered",
         )
         candidate["program"] = title
-        candidate["level"] = fact("MSc (proposed)", "CONFIRMED", [padua_planned_source],
+        candidate["level"] = fact("MSc (proposed)", "CONFIRMED", [padua_planned_source, *course_guide_sources],
             "The official catalogue places this candidate under English-taught Master's programmes but explicitly marks it as awaiting approval; no approved course regulation is published.")
-        candidate["language"] = fact("English (proposed)", "CONFIRMED", [padua_planned_source] + ([statistical_profile] if pid == "discovered-036" else []),
+        candidate["language"] = fact("English (proposed)", "CONFIRMED", [padua_planned_source, *course_guide_sources] + ([statistical_profile] if pid == "discovered-036" else []),
             "The official English-degree catalogue lists the proposal under Master's programmes taught in English; for Statistical Science the Department page independently describes English delivery. Approval and the final course offer remain pending.")
         candidate["field"] = fact(field_value, "REQUIRES_VERIFICATION", source_ids,
             "Editorial subject classification based on the proposed name; no approved course specification is available.")
-        candidate["availability_2027_2028"] = fact(None, "REQUIRES_VERIFICATION", source_ids,
-            "The University catalogue marks the proposed programme as awaiting approval. For Statistical Science, the Department's projected September 2027 start does not establish approval or a confirmed first-year intake.")
+        availability_note = "The University catalogue marks the proposed programme as awaiting approval."
+        if pid == "discovered-035":
+            availability_note += " The 2027/28 study guide confirms only a proposed two-year English Master's listing; no course-specific intake or call is published."
+        elif pid == "discovered-036":
+            availability_note += " For Statistical Science, the Department's projected September 2027 start does not establish approval or a confirmed first-year intake."
+        candidate["availability_2027_2028"] = fact(None, "REQUIRES_VERIFICATION", source_ids, availability_note)
+        planned_listing = {"academic_year":"2027/28", "proposed_name":proposed_name, "proposed_level":"Master's degree", "listed_in_english_degree_catalogue":True, "approval_status":"To be approved"}
+        if pid == "discovered-035":
+            planned_listing.update({"duration_years_as_listed":2, "school":"School of Science"})
         candidate["facts"] = {
             "official_planned_course_listing_2027_2028": fact(
-                {"academic_year":"2027/28", "proposed_name":proposed_name, "proposed_level":"Master's degree", "listed_in_english_degree_catalogue":True, "approval_status":"To be approved"},
-                "CONFIRMED", [padua_planned_source], approval_note,
+                planned_listing,
+                "CONFIRMED", [padua_planned_source, *course_guide_sources], approval_note,
             ),
             "department_projected_profile": fact(
                 {"academic_year":"2027/28 (projected)", "duration_years":2, "ects":120, "attendance":"Full-time, on campus", "language":"English", "expected_start":"2027-09-27"} if pid == "discovered-036" else None,
                 "REQUIRES_VERIFICATION",
-                [statistical_profile] if pid == "discovered-036" else [padua_planned_source],
+                [statistical_profile] if pid == "discovered-036" else [padua_planned_source, *course_guide_sources],
                 "The Department profile publishes a projected start and course details, but the central English Master's catalogue still labels the proposal as awaiting approval. Treat all profile details as provisional." if pid == "discovered-036" else "No department-level programme profile has been identified; verify whether a separate proposal specification is published.",
             ),
             "proposed_admission_requirements": fact(
                 {"italian_degree_applicants":"Department page lists at least 35 ECTS in specified subject sectors, including 15 ECTS in MATH-03/A, a final mark of at least 85/110, a three-year degree and English B2; these criteria are not cycle-labelled.", "international_degree_applicants":"No complete course-specific requirement checklist is published in the reviewed page."} if pid == "discovered-036" else None,
                 "REQUIRES_VERIFICATION",
-                [statistical_requirements] if pid == "discovered-036" else [padua_planned_source],
+                [statistical_requirements] if pid == "discovered-036" else [padua_planned_source, *course_guide_sources],
                 "Provisional, undated Department information only; do not present these thresholds as approved 2027/28 admission rules." if pid == "discovered-036" else "No approved course admission requirements have been identified; verify when the proposal is approved.",
             ),
-            "application_windows": fact(None, "NOT_YET_PUBLISHED", [padua_planned_source, "SRC-PADUA-INTL-2027"] + ([statistical_profile] if pid == "discovered-036" else []),
+            "application_windows": fact(None, "NOT_YET_PUBLISHED", [padua_planned_source, "SRC-PADUA-INTL-2027", *course_guide_sources] + ([statistical_profile] if pid == "discovered-036" else []),
                 "The University-level 2027/28 application calls cover most courses but do not confirm that this unapproved proposal is included; no programme-specific call or deadline was found."),
             "program_specific_requirements_2027_2028": fact(None, "REQUIRES_VERIFICATION", source_ids,
                 "No approved annual programme regulation or 2027/28 course-specific requirements are available."),
-            "application_fee_2027_2028": fact(None, "REQUIRES_VERIFICATION", [padua_planned_source],
+            "application_fee_2027_2028": fact(None, "REQUIRES_VERIFICATION", [padua_planned_source, *course_guide_sources],
                 "No programme-specific 2027/28 application fee is confirmed for this unapproved proposal."),
-            "tuition_2027_2028": fact(None, "REQUIRES_VERIFICATION", [padua_planned_source],
+            "tuition_2027_2028": fact(None, "REQUIRES_VERIFICATION", [padua_planned_source, *course_guide_sources],
                 "No programme-specific 2027/28 tuition amount is confirmed."),
-            "scholarships_2027_2028": fact(None, "REQUIRES_VERIFICATION", [padua_planned_source],
+            "scholarships_2027_2028": fact(None, "REQUIRES_VERIFICATION", [padua_planned_source, *course_guide_sources],
                 "No programme-specific 2027/28 scholarship call or eligibility is confirmed."),
             "acceptance_rate": fact(None, "UNAVAILABLE", [padua_planned_source],
                 "No applicant and admitted-student totals are published; no acceptance rate is inferred."),
         }
         candidate["source_ids"] = list(dict.fromkeys(source_ids + ["SRC-PADUA-INTL-2027"]))
+        if pid == "discovered-035":
+            candidate["facts"]["course_location_2027_2028"] = fact(
+                None, "REQUIRES_VERIFICATION", course_guide_sources,
+                "The University guide identifies the School of Science but does not publish a course-specific campus or teaching location for this proposed programme. Padua is the University city, not a confirmed campus assignment for this course.",
+            )
         candidate["last_checked"] = "2026-11-11"
         programs.append(candidate)
 
@@ -8491,6 +8529,37 @@ SOURCE_RECHECKS.update({
             "pdf_signature": None, "has_2027_marker": True, "bytes_read": 146267,
             "outcome": "accessible", "error": None,
             "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib)",
+        },
+    },
+})
+
+SOURCE_RECHECKS.update({
+    "SRC-PADUA-ENGLISH-MASTERS-PROPOSED-2027": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://www.unipd.it/en/corsi-laurea-magistrale-lingua-inglese",
+            "content_type": "text/html; charset=utf-8", "content_length_header": None,
+            "etag": None, "last_modified": None,
+            "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate", "age": None,
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Master's degree programmes in English | Università di Padova",
+            "pdf_signature": None, "has_2027_marker": True, "bytes_read": 1444605,
+            "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib)",
+        },
+    },
+    "SRC-PADUA-DATA-ANALYTICS-GUIDE-2027": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://wwwassets.unipd.it/sites/default/files/2026-10/StudyWithUs_2027web_Finale.pdf",
+            "content_type": "application/pdf", "content_length_header": "2681391",
+            "etag": "\"28ea2f-65d52eca260f0\"", "last_modified": "Thu, 08 Oct 2026 11:56:39 GMT",
+            "cache_control": "max-age=31536000", "age": "1472647",
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Studi with us a.a. 2027-2028",
+            "pdf_signature": "%PDF-", "has_2027_marker": True, "bytes_read": 2681391,
+            "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib); rendered page 37 for visual scope check",
         },
     },
 })

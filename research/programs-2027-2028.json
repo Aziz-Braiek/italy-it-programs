@@ -42908,7 +42908,9 @@
       "value": "MSc (proposed)",
       "status": "CONFIRMED",
       "source_ids": [
-        "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+        "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+        "SRC-PADUA-ENGLISH-MASTERS-PROPOSED-2027",
+        "SRC-PADUA-DATA-ANALYTICS-GUIDE-2027"
       ],
       "notes": "The official catalogue places this candidate under English-taught Master's programmes but explicitly marks it as awaiting approval; no approved course regulation is published."
     },
@@ -42916,7 +42918,9 @@
       "value": "English (proposed)",
       "status": "CONFIRMED",
       "source_ids": [
-        "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+        "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+        "SRC-PADUA-ENGLISH-MASTERS-PROPOSED-2027",
+        "SRC-PADUA-DATA-ANALYTICS-GUIDE-2027"
       ],
       "notes": "The official English-degree catalogue lists the proposal under Master's programmes taught in English; for Statistical Science the Department page independently describes English delivery. Approval and the final course offer remain pending."
     },
@@ -42924,7 +42928,9 @@
       "value": "Data analytics and decision support",
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
-        "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+        "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+        "SRC-PADUA-ENGLISH-MASTERS-PROPOSED-2027",
+        "SRC-PADUA-DATA-ANALYTICS-GUIDE-2027"
       ],
       "notes": "Editorial subject classification based on the proposed name; no approved course specification is available."
     },
@@ -42932,9 +42938,11 @@
       "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
-        "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+        "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+        "SRC-PADUA-ENGLISH-MASTERS-PROPOSED-2027",
+        "SRC-PADUA-DATA-ANALYTICS-GUIDE-2027"
       ],
-      "notes": "The University catalogue marks the proposed programme as awaiting approval. For Statistical Science, the Department's projected September 2027 start does not establish approval or a confirmed first-year intake."
+      "notes": "The University catalogue marks the proposed programme as awaiting approval. The 2027/28 study guide confirms only a proposed two-year English Master's listing; no course-specific intake or call is published."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "newly_discovered",
@@ -42945,11 +42953,15 @@
           "proposed_name": "Data Analytics and Decision Support",
           "proposed_level": "Master's degree",
           "listed_in_english_degree_catalogue": true,
-          "approval_status": "To be approved"
+          "approval_status": "To be approved",
+          "duration_years_as_listed": 2,
+          "school": "School of Science"
         },
         "status": "CONFIRMED",
         "source_ids": [
-          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+          "SRC-PADUA-ENGLISH-MASTERS-PROPOSED-2027",
+          "SRC-PADUA-DATA-ANALYTICS-GUIDE-2027"
         ],
         "notes": "School of Science English Master's catalogue; explicitly marked as a new 2027/28 programme to be approved."
       },
@@ -42957,7 +42969,9 @@
         "value": null,
         "status": "REQUIRES_VERIFICATION",
         "source_ids": [
-          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+          "SRC-PADUA-ENGLISH-MASTERS-PROPOSED-2027",
+          "SRC-PADUA-DATA-ANALYTICS-GUIDE-2027"
         ],
         "notes": "No department-level programme profile has been identified; verify whether a separate proposal specification is published."
       },
@@ -42965,7 +42979,9 @@
         "value": null,
         "status": "REQUIRES_VERIFICATION",
         "source_ids": [
-          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+          "SRC-PADUA-ENGLISH-MASTERS-PROPOSED-2027",
+          "SRC-PADUA-DATA-ANALYTICS-GUIDE-2027"
         ],
         "notes": "No approved course admission requirements have been identified; verify when the proposal is approved."
       },
@@ -42974,7 +42990,9 @@
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
           "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
-          "SRC-PADUA-INTL-2027"
+          "SRC-PADUA-INTL-2027",
+          "SRC-PADUA-ENGLISH-MASTERS-PROPOSED-2027",
+          "SRC-PADUA-DATA-ANALYTICS-GUIDE-2027"
         ],
         "notes": "The University-level 2027/28 application calls cover most courses but do not confirm that this unapproved proposal is included; no programme-specific call or deadline was found."
       },
@@ -42982,7 +43000,9 @@
         "value": null,
         "status": "REQUIRES_VERIFICATION",
         "source_ids": [
-          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+          "SRC-PADUA-ENGLISH-MASTERS-PROPOSED-2027",
+          "SRC-PADUA-DATA-ANALYTICS-GUIDE-2027"
         ],
         "notes": "No approved annual programme regulation or 2027/28 course-specific requirements are available."
       },
@@ -42990,7 +43010,9 @@
         "value": null,
         "status": "REQUIRES_VERIFICATION",
         "source_ids": [
-          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+          "SRC-PADUA-ENGLISH-MASTERS-PROPOSED-2027",
+          "SRC-PADUA-DATA-ANALYTICS-GUIDE-2027"
         ],
         "notes": "No programme-specific 2027/28 application fee is confirmed for this unapproved proposal."
       },
@@ -42999,6 +43021,8 @@
         "status": "REQUIRES_VERIFICATION",
         "source_ids": [
           "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+          "SRC-PADUA-ENGLISH-MASTERS-PROPOSED-2027",
+          "SRC-PADUA-DATA-ANALYTICS-GUIDE-2027",
           "SRC-PADUA-TUITION-2026"
         ],
         "notes": "No programme-specific 2027/28 tuition amount is confirmed. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed."
@@ -43038,6 +43062,15 @@
         ],
         "notes": "No applicant and admitted-student totals are published; no acceptance rate is inferred."
       },
+      "course_location_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-PADUA-ENGLISH-MASTERS-PROPOSED-2027",
+          "SRC-PADUA-DATA-ANALYTICS-GUIDE-2027"
+        ],
+        "notes": "The University guide identifies the School of Science but does not publish a course-specific campus or teaching location for this proposed programme. Padua is the University city, not a confirmed campus assignment for this course."
+      },
       "scholarship_call_details_2027_2028": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
@@ -43049,6 +43082,8 @@
     },
     "source_ids": [
       "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+      "SRC-PADUA-ENGLISH-MASTERS-PROPOSED-2027",
+      "SRC-PADUA-DATA-ANALYTICS-GUIDE-2027",
       "SRC-PADUA-INTL-2027",
       "SRC-PADUA-TUITION-2026",
       "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
