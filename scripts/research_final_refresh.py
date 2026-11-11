@@ -870,9 +870,33 @@ SOURCES = [
         "id": "SRC-PADOVA-COMPUTER-ENGINEERING-BSC-2026",
         "university_id": "padova", "title": "Ingegneria informatica – official bachelor's degree profile",
         "url": "https://www.unipd.it/corsi-di-laurea/ingegneria-informatica",
-        "source_type": "Official degree programme profile", "accessed_at": "2026-11-10", "cycle": "2026-2027",
-        "evidence": "Identifies the three-year Italian-taught Padua bachelor's in Computer Engineering, class L-8 R, with programmed admission.",
-        "supports": ["program.previous_cycle_course_listing", "program.previous_cycle_level", "program.previous_cycle_language", "program.previous_cycle_access"],
+        "source_type": "Official University of Padua degree programme profile", "accessed_at": "2026-11-11", "cycle": "general",
+        "evidence": "The live official profile identifies Ingegneria informatica as a three-year Italian-taught Laurea in class L-8 R, based in Padua, with restricted admission. It lists the general and applied curricula. The profile is not labelled as a 2027/28 first-year offer.",
+        "supports": ["program.previous_cycle_course_listing", "program.previous_cycle_level", "program.previous_cycle_language", "program.previous_cycle_location", "program.previous_cycle_access"],
+    },
+    {
+        "id": "SRC-PADOVA-ING-INFORMATICA-ADMISSIONS-2026",
+        "university_id": "padova", "title": "Engineering bachelor's restricted-admission page – AY 2026/27",
+        "url": "https://www.unipd.it/ammissioni-ing-triennali-programmato",
+        "source_type": "Official School of Engineering admissions page", "accessed_at": "2026-11-11", "cycle": "2026-2027",
+        "evidence": "The page is explicitly for AY 2026/27 and names Ingegneria informatica among the restricted-admission Italian-taught bachelor's degrees. It requires TOLC-I, links the EU/equivalent call and a separate call for non-EU applicants residing abroad, and explains the pre-enrolment, ranking and enrolment process. It does not establish a 2027/28 first-year intake.",
+        "supports": ["program.previous_cycle_course_listing", "program.previous_cycle_access", "program.previous_cycle_application_windows", "program.previous_cycle_program_requirements", "program.previous_cycle_international_admission"],
+    },
+    {
+        "id": "SRC-PADOVA-ING-INFORMATICA-EU-CALL-2026",
+        "university_id": "padova", "title": "Ingegneria informatica EU/equivalent admission call – AY 2026/27",
+        "url": "https://wwwassets.unipd.it/sites/default/files/2026-05/2026_Bando_L_Aerospaziale-Biomedica-Informatica_1.pdf",
+        "source_type": "Official University of Padua admission call PDF", "accessed_at": "2026-11-11", "cycle": "2026-2027",
+        "evidence": "The 2026/27 call allocates 340 places to EU/equivalent candidates for Ingegneria informatica, divided into three selections of 120, 80, and 140 plus any unfilled earlier places. Selections one and two require at least 24/50 on TOLC-I; selection three has no minimum score. The ranking uses Mathematics, Logic, Sciences and Verbal Comprehension, excluding English; ties are resolved in that section order and then by younger age. Mathematics below 8/20 gives an OFA. The call states the recognized-secondary-diploma requirement, route-specific dates and procedures, and general university contribution rules. These are prior-cycle terms only.",
+        "supports": ["program.previous_cycle_course_listing", "program.previous_cycle_access", "program.previous_cycle_available_places", "program.previous_cycle_application_windows", "program.previous_cycle_program_requirements", "program.previous_cycle_entrance_test", "program.previous_cycle_application_fee"],
+    },
+    {
+        "id": "SRC-PADOVA-ING-INFORMATICA-NON-EU-CALL-2026",
+        "university_id": "padova", "title": "Ingegneria informatica call for non-EU applicants residing abroad – AY 2026/27",
+        "url": "https://wwwassets.unipd.it/sites/default/files/pdf_imported_files/nonUE_LT_Ingegneria_0.pdf",
+        "source_type": "Official University of Padua international admission call PDF", "accessed_at": "2026-11-11", "cycle": "2026-2027",
+        "evidence": "The separate 2026/27 call lists seven Ingegneria informatica places, including three Marco Polo places. Applications through apply.unipd.it ran 7 January–7 March 2026; TOLC-I was due by 13 March and its result upload by 16 March. It requires a suitable secondary qualification after at least 12 years of schooling, Italian B2 by 31 July 2026, and a TOLC-I score of at least 24/50. The €35 payment is the CISIA TOLC registration fee, not a University application fee; a separate non-refundable €205 enrolment contribution was due upon accepting an offer. These are prior-cycle, applicant-category-specific terms.",
+        "supports": ["program.previous_cycle_international_admission", "program.previous_cycle_available_places", "program.previous_cycle_application_windows", "program.previous_cycle_application_fee", "program.previous_cycle_entrance_test", "program.previous_cycle_italian_requirement", "program.previous_cycle_program_requirements"],
     },
     {
         "id": "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-BSC-2026",
@@ -1964,6 +1988,12 @@ BATCH36 = {
     "result": "Reviewed legacy-163, Biologia Molecolare, against the current official bachelor's profile, the School of Science's 2026/27 admissions inventory and EU/equivalent call, the separate non-EU-abroad call, and the School's 2027/28 Open Day page. Confirmed the earlier course as a three-year Italian-taught Laurea in class L-13 R at Padua with restricted admission, distinct from the second-cycle English-titled Molecular Biology MSc. The 2026/27 EU/equivalent call allocated 85 places (two reserved for Scuola Galileiana), split across selections of 41 and 42 plus any unfilled seats; the first selection required TOLC-I at least 32/50, while the second used a ranking without a minimum test score. Mathematics below 7/20 triggers an OFA. A separate 2026/27 non-EU-abroad route had five places including two Marco Polo, a 7 January–7 March 2026 application window, TOLC-I by 13 March and result upload by 16 March, a 32/50 threshold, a recognized foreign secondary qualification with at least 12 years of schooling, and Italian B2 by 31 July. The €35 amount is recorded only as the CISIA TOLC registration charge, not a University application fee. The official School Open Day page lists Biologia Molecolare among 2027/28 prospective-student events, but that listing is not a course admission call or proof of a first-year intake. No 2027/28 course-specific call, seats, deadlines, requirements, application charge, tuition schedule or scholarship terms were verified. Fresh no-cache GETs returned HTTP 200 for the profile, admissions page and Open Day page, and HTTP 206 with valid PDF signatures for both 2026/27 calls. No deployment or Vercel changes were made.",
 }
 
+BATCH37 = {
+    "id": "padova-ingegneria-informatica-identity-and-2026-27-admissions-review",
+    "status": "partial",
+    "result": "Reviewed legacy-164, Ingegneria informatica, against Padua's current official degree profile, the School of Engineering's 2026/27 admissions page and EU/equivalent call, the separate non-EU-abroad call, the general 2027/28 international-student page, and the current fee page. Confirmed the prior-cycle course as a three-year Italian-taught Laurea in class L-8 R in Padua, with restricted admission and general/applied curricula; corrected the old tracker field that called it Computer Science. The 2026/27 EU/equivalent route allocated 340 places (120, 80, and 140 plus any unfilled seats across three selections); the first two selections required TOLC-I at least 24/50 and the third had no minimum score. Ranking used Mathematics, Logic, Sciences and Verbal Comprehension, excluding English; Mathematics below 8/20 triggered an OFA. A separate non-EU-abroad route allocated seven places including three Marco Polo, with applications 7 January–7 March 2026, TOLC-I by 13 March, score upload by 16 March, at least 24/50, a recognized foreign secondary qualification after at least 12 years of schooling and Italian B2 by 31 July. The €35 amount is the CISIA test-registration charge, and the €205 non-refundable amount is an enrolment contribution after an offer, not an application fee or full tuition. The general international page gives a 15 September–15 November 2026 first call for most programmes; it does not confirm that this restricted Italian-taught degree has a 2027/28 intake or course-specific foreign-qualification route. No 2027/28 first-year call, course-specific places, deadlines, test rules, application fee, requirements, tuition total or entrant scholarship terms were verified. Fresh no-cache GETs returned HTTP 200 for the profile, admissions page, general international page and tuition page, and HTTP 206 with valid PDF signatures for both 2026/27 calls. No deployment or Vercel changes were made.",
+}
+
 SOURCE_RECHECKS = {
     "SRC-UNIBO-AI-PROFILE-2026": {
         "accessed_at": "2026-11-11",
@@ -2302,6 +2332,97 @@ SOURCE_RECHECKS.update({
             "error": None,
             "checked_at": "2026-11-11",
             "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)",
+        },
+    },
+})
+
+SOURCE_RECHECKS.update({
+    "SRC-PADOVA-COMPUTER-ENGINEERING-BSC-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.unipd.it/corsi-di-laurea/ingegneria-informatica",
+            "content_type": "text/html; charset=utf-8", "content_length_header": None,
+            "etag": None, "last_modified": None,
+            "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "age": None, "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "INGEGNERIA INFORMATICA | Università di Padova",
+            "pdf_signature": None, "has_2027_marker": False, "bytes_read": 1500479,
+            "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "Full GET with Cache-Control and Pragma no-cache",
+        },
+    },
+    "SRC-PADOVA-ING-INFORMATICA-ADMISSIONS-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.unipd.it/ammissioni-ing-triennali-programmato",
+            "content_type": "text/html; charset=utf-8", "content_length_header": None,
+            "etag": None, "last_modified": None,
+            "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "age": None, "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Corsi di laurea in Ingegneria aerospaziale, Ingegneria biomedica e Ingegneria informatica | Università di Padova",
+            "pdf_signature": None, "has_2027_marker": False, "bytes_read": 1560701,
+            "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "Full GET with Cache-Control and Pragma no-cache",
+        },
+    },
+    "SRC-PADOVA-ING-INFORMATICA-EU-CALL-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 206,
+            "effective_url": "https://wwwassets.unipd.it/sites/default/files/2026-05/2026_Bando_L_Aerospaziale-Biomedica-Informatica_1.pdf",
+            "content_type": "application/pdf", "content_length_header": "4096",
+            "etag": "\"150385-652644fd77358\"", "last_modified": "Fri, 22 May 2026 09:04:09 GMT",
+            "cache_control": "max-age=31536000", "age": None,
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": None, "pdf_signature": True, "has_2027_marker": None,
+            "bytes_read": 4096, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Range: bytes=0-4095 and Cache-Control and Pragma no-cache",
+        },
+    },
+    "SRC-PADOVA-ING-INFORMATICA-NON-EU-CALL-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 206,
+            "effective_url": "https://wwwassets.unipd.it/sites/default/files/pdf_imported_files/nonUE_LT_Ingegneria_0.pdf",
+            "content_type": "application/pdf", "content_length_header": "4096",
+            "etag": "\"9f90d-64ce5e639e2d8\"", "last_modified": "Fri, 13 Mar 2026 11:09:14 GMT",
+            "cache_control": "max-age=31536000", "age": None,
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": None, "pdf_signature": True, "has_2027_marker": None,
+            "bytes_read": 4096, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Range: bytes=0-4095 and Cache-Control and Pragma no-cache",
+        },
+    },
+    "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.unipd.it/en/ammissione-studenti-internazionali",
+            "content_type": "text/html; charset=utf-8", "content_length_header": None,
+            "etag": None, "last_modified": None,
+            "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "age": None, "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Admission of international students - How to apply | Università di Padova",
+            "pdf_signature": None, "has_2027_marker": True, "bytes_read": 1489695,
+            "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "Full GET with Cache-Control and Pragma no-cache",
+        },
+    },
+    "SRC-PADUA-TUITION-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.unipd.it/en/contribuzione-studentesca",
+            "content_type": "text/html; charset=utf-8", "content_length_header": None,
+            "etag": None, "last_modified": None,
+            "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "age": None, "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Student fees | Università di Padova",
+            "pdf_signature": None, "has_2027_marker": False, "bytes_read": 1541518,
+            "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "Full GET with Cache-Control and Pragma no-cache",
         },
     },
 })
@@ -6611,6 +6732,231 @@ def apply(
         ),
     })
     molecular_biology["last_checked"] = "2026-11-11"
+
+    computer_engineering_bsc = by_id["legacy-164"]
+    computer_profile = "SRC-PADOVA-COMPUTER-ENGINEERING-BSC-2026"
+    computer_admissions = "SRC-PADOVA-ING-INFORMATICA-ADMISSIONS-2026"
+    computer_eu_call = "SRC-PADOVA-ING-INFORMATICA-EU-CALL-2026"
+    computer_non_eu_call = "SRC-PADOVA-ING-INFORMATICA-NON-EU-CALL-2026"
+    computer_international = "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027"
+    computer_scholarship_context = ["SRC-PADUA-INTL-EXCELLENCE-2027-BOARD", "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"]
+    computer_prior_sources = [computer_profile, computer_admissions, computer_eu_call, computer_non_eu_call]
+    computer_2027_sources = [computer_profile, computer_admissions, computer_international]
+    computer_engineering_bsc["city"] = "Padova"
+    computer_engineering_bsc["level"] = fact(
+        "BSc", "REQUIRES_VERIFICATION", [computer_profile, computer_admissions],
+        "The current official profile and 2026/27 admissions page establish the prior-cycle bachelor's identity; the 2027/28 first-year listing has not been verified.",
+    )
+    computer_engineering_bsc["language"] = fact(
+        "Italian", "REQUIRES_VERIFICATION", [computer_profile, computer_admissions, computer_eu_call],
+        "The current official profile and 2026/27 call identify Italian as the language of instruction; this does not independently verify the 2027/28 course listing.",
+    )
+    computer_engineering_bsc["field"] = fact(
+        "Computer Engineering", "REQUIRES_VERIFICATION", [computer_profile, computer_admissions],
+        "This is Ingegneria informatica (Computer Engineering), not a Computer Science programme. The 2027/28 course listing has not been verified.",
+    )
+    computer_engineering_bsc["availability_2027_2028"] = fact(
+        None, "NOT_YET_PUBLISHED", computer_2027_sources,
+        "The course-specific School admissions page and call reviewed are explicitly for 2026/27. Padua's general international page gives a first 2027/28 call for most degree programmes, but does not name this restricted Italian-taught course or establish its course-specific intake and foreign-qualification route. No 2027/28 first-year call was verified as of 11 November 2026; this does not mean the course is discontinued.",
+    )
+    computer_engineering_bsc["overall_status"] = "REQUIRES_VERIFICATION"
+    computer_engineering_bsc["source_ids"] = list(dict.fromkeys(
+        computer_engineering_bsc.get("source_ids", [])
+        + computer_prior_sources
+        + [computer_international, padua_tuition_source]
+        + computer_scholarship_context
+    ))
+    computer_engineering_bsc["previous_tracker_tags"] = None
+    computer_engineering_bsc["previous_cycle_tags"] = {
+        "level": "BSc",
+        "language": "Italian",
+        "field": "Computer Engineering",
+        "cycle": "2026-2027",
+        "label": "Official Ingegneria informatica profile and 2026/27 School of Engineering calls; 2027/28 first-year intake remains unconfirmed",
+    }
+    computer_facts = computer_engineering_bsc.setdefault("facts", {})
+    computer_facts.update({
+        "previous_cycle_course_listing": fact(
+            {
+                "academic_year": "2026/27",
+                "official_name": "Ingegneria informatica",
+                "degree_type": "Laurea / Bachelor's degree",
+                "degree_class": "L-8 R – Information Engineering",
+                "duration_years": 3,
+                "campus": "Padua",
+                "language": "Italian",
+                "access": "Restricted admission",
+                "curricula": ["General", "Applied"],
+                "correct_field": "Computer Engineering",
+                "not_to_be_confused_with": "Computer Science / Informatica",
+            },
+            "CONFIRMED", [computer_profile, computer_admissions, computer_eu_call],
+            "The official course is Ingegneria informatica (Computer Engineering); it is distinct from Computer Science/Informatica.",
+        ),
+        "previous_cycle_access": fact(
+            "Restricted admission through TOLC-I-based selection and merit rankings",
+            "CONFIRMED", [computer_profile, computer_admissions, computer_eu_call, computer_non_eu_call],
+            "The School published separate 2026/27 EU/equivalent and non-EU-abroad calls. Current-cycle access terms are not confirmed.",
+        ),
+        "previous_cycle_available_places": fact(
+            {
+                "academic_year": "2026/27",
+                "eu_or_equivalent_total": 340,
+                "eu_or_equivalent_selection_split": {"selection_one": 120, "selection_two": 80, "selection_three": "140 plus any places remaining from earlier selections"},
+                "non_eu_resident_abroad_total": 7,
+                "non_eu_resident_abroad_reserved": {"Marco_Polo": 3},
+                "seat_categories_are_separate": True,
+            },
+            "CONFIRMED", [computer_eu_call, computer_non_eu_call],
+            "These are separate 2026/27 applicant categories and are not 2027/28 capacity figures.",
+        ),
+        "previous_cycle_program_requirements": fact(
+            {
+                "academic_year": "2026/27",
+                "eu_or_equivalent": {
+                    "secondary_qualification": "A secondary-school diploma obtained in Italy or abroad and recognized as suitable for university admission",
+                    "selection_test": "TOLC-I",
+                    "minimum_score": {"selection_one": "24/50", "selection_two": "24/50", "selection_three": "No minimum score"},
+                },
+                "non_eu_resident_abroad": {
+                    "secondary_qualification": "Suitable foreign secondary-school qualification after at least 12 years of schooling",
+                    "italian_language": "B2 CEFR by 31 July 2026",
+                    "selection_test": "TOLC-I at least 24/50",
+                },
+            },
+            "CONFIRMED", [computer_eu_call, computer_non_eu_call],
+            "These conditions belong to the 2026/27 calls and differ by applicant category. Do not carry them forward to 2027/28.",
+        ),
+        "previous_cycle_entrance_test": fact(
+            {
+                "academic_year": "2026/27",
+                "test": "TOLC-I",
+                "ranking_sections": ["Mathematics", "Logic", "Sciences", "Verbal Comprehension"],
+                "english_section_included_in_ranking": False,
+                "tie_break_order": ["Mathematics", "Logic", "Verbal Comprehension", "Sciences", "Younger candidate"],
+                "eu_or_equivalent_thresholds": {"selection_one": "At least 24/50", "selection_two": "At least 24/50", "selection_three": "No minimum score"},
+                "non_eu_abroad_threshold": "At least 24/50",
+                "OFA": {"trigger": "Mathematics section below 8/20", "effect": "Additional learning obligation"},
+            },
+            "CONFIRMED", [computer_eu_call, computer_non_eu_call],
+            "Thresholds, ranking rules and OFA are taken from the 2026/27 calls only.",
+        ),
+        "previous_cycle_application_windows": fact(
+            {
+                "academic_year": "2026/27",
+                "eu_or_equivalent": {
+                    "selection_one": {"tolc_end": "2026-05-08", "pre_enrolment": {"start": "2026-03-10", "end": "2026-05-08 15:00"}, "ranking": "2026-05-14 15:00", "enrolment": {"start": "2026-05-15", "end": "2026-05-19 15:00"}, "reassignment": {"start": "2026-05-21", "end": "2026-05-26 15:00"}},
+                    "selection_two": {"tolc_end": "2026-07-17", "pre_enrolment": {"start": "2026-06-23", "end": "2026-07-17 15:00"}, "ranking": "2026-07-23 15:00", "enrolment": {"start": "2026-07-24", "end": "2026-07-27 15:00"}, "reassignment": {"start": "2026-07-28", "end": "2026-07-30 15:00"}},
+                    "selection_three": {"tolc_end": "2026-09-04", "pre_enrolment": {"start": "2026-08-05", "end": "2026-09-04 15:00"}, "ranking": "2026-09-11 15:00", "enrolment": {"start": "2026-09-14", "end": "2026-09-16 15:00"}, "reassignments": [{"start": "2026-09-17", "end": "2026-09-21 15:00"}, {"start": "2026-09-22", "end": "2026-09-25 15:00"}], "repechage_request": {"start": "2026-09-28", "end": "2026-09-30 15:00"}, "post_repechage_reassignments_end": "2026-10-16"},
+                },
+                "non_eu_resident_abroad": {
+                    "application": {"start": "2026-01-07", "end": "2026-03-07 23:59 GMT+1", "route": "apply.unipd.it"},
+                    "tolc_deadline": "2026-03-13",
+                    "tolc_result_upload_deadline": "2026-03-16",
+                    "qualification_and_italian_b2_deadline": "2026-07-31",
+                    "final_qualification_document_deadline": "2026-10-31",
+                },
+            },
+            "CONFIRMED", [computer_admissions, computer_eu_call, computer_non_eu_call],
+            "These are dates in the 2026/27 calls. The three-selection Italian-qualification route and separate non-EU-abroad route are kept distinct; none are 2027/28 deadlines.",
+        ),
+        "previous_cycle_application_fee": fact(
+            {
+                "academic_year": "2026/27",
+                "university_application_fee_in_reviewed_calls": "No separate University application fee identified",
+                "tolc_registration_fee_eur": 35,
+                "tolc_fee_paid_to": "CISIA",
+                "non_eu_abroad_enrolment_contribution_eur": 205,
+                "enrolment_contribution_timing": "Due after an admission offer is accepted; non-refundable; the call says the amount includes regional tax and stamp duty and may be updated annually",
+            },
+            "CONFIRMED", [computer_eu_call, computer_non_eu_call, padua_tuition_source],
+            "The €35 amount is the test registration fee paid to CISIA, not a University application fee. The non-EU call states a €205 enrolment contribution on acceptance; the later/current general fee page lists a €208 first-year initial instalment for 2026/27. Neither is a full tuition total, and neither is carried into 2027/28.",
+        ),
+        "previous_cycle_international_admission": fact(
+            {
+                "academic_year": "2026/27",
+                "eligible_group": "Non-EU applicants residing abroad with a foreign secondary-school qualification",
+                "application_route": "apply.unipd.it",
+                "available_places": 7,
+                "Marco_Polo_places": 3,
+                "schooling_requirement": "Suitable secondary qualification after at least 12 years of schooling",
+                "italian_language": "B2 CEFR by 31 July 2026",
+                "TOLC_I": {"test_deadline": "2026-03-13", "minimum_score": "24/50", "result_upload_deadline": "2026-03-16"},
+                "final_school_qualification_documents": "Legalization, Apostille or accepted CIMEA verification by 31 October 2026",
+            },
+            "CONFIRMED", [computer_non_eu_call],
+            "This is the separate prior-cycle non-EU-abroad selection. EU/equivalent applicants, qualifying non-EU residents in Italy, and anyone using an Italian secondary qualification follow the other procedure.",
+        ),
+        "previous_cycle_italian_requirement": fact(
+            {"academic_year": "2026/27", "minimum": "Italian B2 CEFR", "scope": "Non-EU applicants residing abroad in the separate international call"},
+            "CONFIRMED", [computer_non_eu_call],
+            "This language threshold is specific to the 2026/27 non-EU-abroad call and is not verified as a 2027/28 requirement.",
+        ),
+        "international_route_2027_2028": fact(
+            {
+                "general_international_degree_seeker_definition": "Applicant holding a qualification obtained abroad",
+                "general_first_call": {"start": "2026-09-15", "end": "2026-11-15", "scope": "Most University of Padua degree programmes"},
+                "course_specific_2027_2028_route": "Not verified; the general page does not establish that this restricted Italian-taught course is included or publish its applicant-category procedures",
+                "italian_qualification_route": "Course-specific 2027/28 call not found in reviewed sources",
+            },
+            "CONFIRMED", [computer_international, computer_admissions],
+            "This confirms Padua's general international calendar only. It is not evidence of course-specific intake, selection or deadlines for Ingegneria informatica.",
+        ),
+        "application_windows_2027_2028": fact(
+            None, "NOT_YET_PUBLISHED", computer_2027_sources,
+            "No course-specific 2027/28 admission calendar was verified. Do not reuse the 2026/27 TOLC, pre-enrolment or non-EU-abroad dates.",
+        ),
+        "application_windows": fact(
+            None, "NOT_YET_PUBLISHED", computer_2027_sources,
+            "No course-specific 2027/28 admission calendar was verified. Padua's general international first-call calendar applies to most courses and does not confirm this programme's selection dates.",
+        ),
+        "application_deadline": fact(
+            None, "NOT_YET_PUBLISHED", computer_2027_sources,
+            "The general international call calendar applies to most courses and does not establish this programme's course-specific 2027/28 deadlines.",
+        ),
+        "application_fee_2027_2028": fact(
+            None, "NOT_YET_PUBLISHED", [computer_eu_call, computer_non_eu_call, computer_international],
+            "No 2027/28 course-specific application or test fee was published in the reviewed sources. Prior-cycle €35 CISIA testing and €205 non-EU enrolment amounts are not new-cycle application fees.",
+        ),
+        "program_specific_requirements_2027_2028": fact(
+            None, "NOT_YET_PUBLISHED", [computer_profile, computer_admissions, computer_eu_call, computer_non_eu_call, computer_international],
+            "No course-specific 2027/28 call, seat quota, TOLC threshold, language rule or applicant-category requirements were verified. The detailed requirements recorded above are strictly from 2026/27.",
+        ),
+        "applicant_scope_2027_2028": fact(
+            {
+                "international_degree_seeker_definition": "Applicant holding a qualification obtained abroad",
+                "general_first_call": {"start": "2026-09-15", "end": "2026-11-15", "scope": "Most University of Padua degree programmes"},
+                "course_specific_coverage": "Not verified",
+                "separate_italian_qualification_call": "Not found in reviewed 2027/28 sources",
+            },
+            "CONFIRMED", [computer_international, computer_admissions],
+            "General applicant-category and calendar information is confirmed for the University, but course-specific 2027/28 route coverage remains unverified.",
+        ),
+        "tuition_2027_2028": fact(
+            None, "NOT_YET_PUBLISHED", [padua_tuition_source, computer_eu_call, computer_non_eu_call],
+            "The reviewed University fee page links 2026/27 amounts only; no 2027/28 fee schedule or course-specific tuition total was published.",
+        ),
+        "previous_cycle_tuition": fact(
+            {
+                "academic_year": "2026/27",
+                "course_specific_total_published": False,
+                "general_degree_fee_range_eur_per_year": {"minimum": 0, "maximum_approx": 3000},
+                "first_year_initial_instalment_eur": 208,
+                "fee_basis": "Varies by programme and student circumstances; the initial instalment includes regional tax and stamp duty",
+            },
+            "CONFIRMED", [padua_tuition_source, computer_eu_call],
+            "This is university-wide historical context, not a course-specific amount. Some non-EU-abroad applicants may have fixed amounts under the separate annual fee rules. Do not carry 2026/27 amounts forward.",
+        ),
+        "scholarships_2027_2028": fact(
+            None, "NOT_YET_PUBLISHED", [computer_profile, computer_admissions, *computer_scholarship_context],
+            "No course-specific scholarship for new 2027/28 entrants was verified. The announced Padua International Excellence scheme is for English-taught degrees, while Ingegneria informatica is taught in Italian; other general or regional aid requires its separate annual eligibility and call review.",
+        ),
+        "acceptance_rate": fact(
+            None, "UNAVAILABLE", [computer_eu_call, computer_non_eu_call],
+            "The calls give places and ranking procedures but do not provide comparable applicant and admitted-student totals by category; no acceptance rate is inferred.",
+        ),
+    })
+    computer_engineering_bsc["last_checked"] = "2026-11-11"
 
     pisa_call = "SRC-UNIPI-INFO-ENG-2027-CALL"
     aide_profile = "SRC-UNIPI-AIDE-COURSE-PROFILE"

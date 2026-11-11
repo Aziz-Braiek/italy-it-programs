@@ -287,8 +287,8 @@
     "trento",
     "udine"
   ],
-  "source_records": 653,
-  "official_source_supported_fields": 1402,
+  "source_records": 656,
+  "official_source_supported_fields": 1413,
   "verification_statuses": [
     "CONFIRMED",
     "NOT_YET_PUBLISHED",

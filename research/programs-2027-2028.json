@@ -35393,118 +35393,453 @@
       "value": "BSc",
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
-        "SRC-PADOVA-COMPUTER-ENGINEERING-BSC-2026"
+        "SRC-PADOVA-COMPUTER-ENGINEERING-BSC-2026",
+        "SRC-PADOVA-ING-INFORMATICA-ADMISSIONS-2026"
       ],
-      "notes": "Official course identity is confirmed for the 2026/2027 catalogue; this value is not promoted to 2027/28 without a named-cycle source."
+      "notes": "The current official profile and 2026/27 admissions page establish the prior-cycle bachelor's identity; the 2027/28 first-year listing has not been verified."
     },
     "language": {
       "value": "Italian",
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
-        "SRC-PADOVA-COMPUTER-ENGINEERING-BSC-2026"
+        "SRC-PADOVA-COMPUTER-ENGINEERING-BSC-2026",
+        "SRC-PADOVA-ING-INFORMATICA-ADMISSIONS-2026",
+        "SRC-PADOVA-ING-INFORMATICA-EU-CALL-2026"
       ],
-      "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
+      "notes": "The current official profile and 2026/27 call identify Italian as the language of instruction; this does not independently verify the 2027/28 course listing."
     },
     "field": {
       "value": "Computer Engineering",
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
-        "SRC-PADOVA-COMPUTER-ENGINEERING-BSC-2026"
+        "SRC-PADOVA-COMPUTER-ENGINEERING-BSC-2026",
+        "SRC-PADOVA-ING-INFORMATICA-ADMISSIONS-2026"
       ],
-      "notes": "Course subject identity is based on current official profile/catalogue evidence; next-cycle catalogue not yet verified."
+      "notes": "This is Ingegneria informatica (Computer Engineering), not a Computer Science programme. The 2027/28 course listing has not been verified."
     },
     "availability_2027_2028": {
       "value": null,
       "status": "NOT_YET_PUBLISHED",
       "source_ids": [
-        "SRC-PADOVA-COMPUTER-ENGINEERING-BSC-2026"
+        "SRC-PADOVA-COMPUTER-ENGINEERING-BSC-2026",
+        "SRC-PADOVA-ING-INFORMATICA-ADMISSIONS-2026",
+        "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027"
       ],
-      "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued."
+      "notes": "The course-specific School admissions page and call reviewed are explicitly for 2026/27. Padua's general international page gives a first 2027/28 call for most degree programmes, but does not name this restricted Italian-taught course or establish its course-specific intake and foreign-qualification route. No 2027/28 first-year call was verified as of 11 November 2026; this does not mean the course is discontinued."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
     "facts": {
       "previous_cycle_course_listing": {
         "value": {
-          "academic_year": "2026/2027",
+          "academic_year": "2026/27",
           "official_name": "Ingegneria informatica",
-          "level": "BSc",
-          "language": "Italian"
+          "degree_type": "Laurea / Bachelor's degree",
+          "degree_class": "L-8 R – Information Engineering",
+          "duration_years": 3,
+          "campus": "Padua",
+          "language": "Italian",
+          "access": "Restricted admission",
+          "curricula": [
+            "General",
+            "Applied"
+          ],
+          "correct_field": "Computer Engineering",
+          "not_to_be_confused_with": "Computer Science / Informatica"
         },
         "status": "CONFIRMED",
         "source_ids": [
-          "SRC-PADOVA-COMPUTER-ENGINEERING-BSC-2026"
+          "SRC-PADOVA-COMPUTER-ENGINEERING-BSC-2026",
+          "SRC-PADOVA-ING-INFORMATICA-ADMISSIONS-2026",
+          "SRC-PADOVA-ING-INFORMATICA-EU-CALL-2026"
         ],
-        "notes": "Official course profile/catalogue evidence is cycle-scoped to 2026/2027 and does not establish 2027/28 first-year admission."
+        "notes": "The official course is Ingegneria informatica (Computer Engineering); it is distinct from Computer Science/Informatica."
       },
       "application_windows": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
-          "SRC-PADOVA-COMPUTER-ENGINEERING-BSC-2026"
+          "SRC-PADOVA-COMPUTER-ENGINEERING-BSC-2026",
+          "SRC-PADOVA-ING-INFORMATICA-ADMISSIONS-2026",
+          "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027"
         ],
-        "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates."
+        "notes": "No course-specific 2027/28 admission calendar was verified. Padua's general international first-call calendar applies to most courses and does not confirm this programme's selection dates."
       },
       "application_fee_2027_2028": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
-          "SRC-PADOVA-COMPUTER-ENGINEERING-BSC-2026"
+          "SRC-PADOVA-ING-INFORMATICA-EU-CALL-2026",
+          "SRC-PADOVA-ING-INFORMATICA-NON-EU-CALL-2026",
+          "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal."
+        "notes": "No 2027/28 course-specific application or test fee was published in the reviewed sources. Prior-cycle €35 CISIA testing and €205 non-EU enrolment amounts are not new-cycle application fees."
       },
       "program_specific_requirements_2027_2028": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
-          "SRC-PADOVA-COMPUTER-ENGINEERING-BSC-2026"
+          "SRC-PADOVA-COMPUTER-ENGINEERING-BSC-2026",
+          "SRC-PADOVA-ING-INFORMATICA-ADMISSIONS-2026",
+          "SRC-PADOVA-ING-INFORMATICA-EU-CALL-2026",
+          "SRC-PADOVA-ING-INFORMATICA-NON-EU-CALL-2026",
+          "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only."
+        "notes": "No course-specific 2027/28 call, seat quota, TOLC threshold, language rule or applicant-category requirements were verified. The detailed requirements recorded above are strictly from 2026/27."
       },
       "tuition_2027_2028": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
-          "SRC-PADOVA-COMPUTER-ENGINEERING-BSC-2026",
-          "SRC-PADUA-TUITION-2026"
+          "SRC-PADUA-TUITION-2026",
+          "SRC-PADOVA-ING-INFORMATICA-EU-CALL-2026",
+          "SRC-PADOVA-ING-INFORMATICA-NON-EU-CALL-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed."
+        "notes": "The reviewed University fee page links 2026/27 amounts only; no 2027/28 fee schedule or course-specific tuition total was published."
       },
       "scholarships_2027_2028": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
-          "SRC-PADOVA-COMPUTER-ENGINEERING-BSC-2026"
+          "SRC-PADOVA-COMPUTER-ENGINEERING-BSC-2026",
+          "SRC-PADOVA-ING-INFORMATICA-ADMISSIONS-2026",
+          "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
+          "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking."
+        "notes": "No course-specific scholarship for new 2027/28 entrants was verified. The announced Padua International Excellence scheme is for English-taught degrees, while Ingegneria informatica is taught in Italian; other general or regional aid requires its separate annual eligibility and call review."
       },
       "acceptance_rate": {
         "value": null,
         "status": "UNAVAILABLE",
         "source_ids": [
-          "SRC-PADOVA-COMPUTER-ENGINEERING-BSC-2026"
+          "SRC-PADOVA-ING-INFORMATICA-EU-CALL-2026",
+          "SRC-PADOVA-ING-INFORMATICA-NON-EU-CALL-2026"
         ],
-        "notes": "The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred."
+        "notes": "The calls give places and ranking procedures but do not provide comparable applicant and admitted-student totals by category; no acceptance rate is inferred."
+      },
+      "previous_cycle_access": {
+        "value": "Restricted admission through TOLC-I-based selection and merit rankings",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-COMPUTER-ENGINEERING-BSC-2026",
+          "SRC-PADOVA-ING-INFORMATICA-ADMISSIONS-2026",
+          "SRC-PADOVA-ING-INFORMATICA-EU-CALL-2026",
+          "SRC-PADOVA-ING-INFORMATICA-NON-EU-CALL-2026"
+        ],
+        "notes": "The School published separate 2026/27 EU/equivalent and non-EU-abroad calls. Current-cycle access terms are not confirmed."
+      },
+      "previous_cycle_available_places": {
+        "value": {
+          "academic_year": "2026/27",
+          "eu_or_equivalent_total": 340,
+          "eu_or_equivalent_selection_split": {
+            "selection_one": 120,
+            "selection_two": 80,
+            "selection_three": "140 plus any places remaining from earlier selections"
+          },
+          "non_eu_resident_abroad_total": 7,
+          "non_eu_resident_abroad_reserved": {
+            "Marco_Polo": 3
+          },
+          "seat_categories_are_separate": true
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-ING-INFORMATICA-EU-CALL-2026",
+          "SRC-PADOVA-ING-INFORMATICA-NON-EU-CALL-2026"
+        ],
+        "notes": "These are separate 2026/27 applicant categories and are not 2027/28 capacity figures."
+      },
+      "previous_cycle_program_requirements": {
+        "value": {
+          "academic_year": "2026/27",
+          "eu_or_equivalent": {
+            "secondary_qualification": "A secondary-school diploma obtained in Italy or abroad and recognized as suitable for university admission",
+            "selection_test": "TOLC-I",
+            "minimum_score": {
+              "selection_one": "24/50",
+              "selection_two": "24/50",
+              "selection_three": "No minimum score"
+            }
+          },
+          "non_eu_resident_abroad": {
+            "secondary_qualification": "Suitable foreign secondary-school qualification after at least 12 years of schooling",
+            "italian_language": "B2 CEFR by 31 July 2026",
+            "selection_test": "TOLC-I at least 24/50"
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-ING-INFORMATICA-EU-CALL-2026",
+          "SRC-PADOVA-ING-INFORMATICA-NON-EU-CALL-2026"
+        ],
+        "notes": "These conditions belong to the 2026/27 calls and differ by applicant category. Do not carry them forward to 2027/28."
+      },
+      "previous_cycle_entrance_test": {
+        "value": {
+          "academic_year": "2026/27",
+          "test": "TOLC-I",
+          "ranking_sections": [
+            "Mathematics",
+            "Logic",
+            "Sciences",
+            "Verbal Comprehension"
+          ],
+          "english_section_included_in_ranking": false,
+          "tie_break_order": [
+            "Mathematics",
+            "Logic",
+            "Verbal Comprehension",
+            "Sciences",
+            "Younger candidate"
+          ],
+          "eu_or_equivalent_thresholds": {
+            "selection_one": "At least 24/50",
+            "selection_two": "At least 24/50",
+            "selection_three": "No minimum score"
+          },
+          "non_eu_abroad_threshold": "At least 24/50",
+          "OFA": {
+            "trigger": "Mathematics section below 8/20",
+            "effect": "Additional learning obligation"
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-ING-INFORMATICA-EU-CALL-2026",
+          "SRC-PADOVA-ING-INFORMATICA-NON-EU-CALL-2026"
+        ],
+        "notes": "Thresholds, ranking rules and OFA are taken from the 2026/27 calls only."
+      },
+      "previous_cycle_application_windows": {
+        "value": {
+          "academic_year": "2026/27",
+          "eu_or_equivalent": {
+            "selection_one": {
+              "tolc_end": "2026-05-08",
+              "pre_enrolment": {
+                "start": "2026-03-10",
+                "end": "2026-05-08 15:00"
+              },
+              "ranking": "2026-05-14 15:00",
+              "enrolment": {
+                "start": "2026-05-15",
+                "end": "2026-05-19 15:00"
+              },
+              "reassignment": {
+                "start": "2026-05-21",
+                "end": "2026-05-26 15:00"
+              }
+            },
+            "selection_two": {
+              "tolc_end": "2026-07-17",
+              "pre_enrolment": {
+                "start": "2026-06-23",
+                "end": "2026-07-17 15:00"
+              },
+              "ranking": "2026-07-23 15:00",
+              "enrolment": {
+                "start": "2026-07-24",
+                "end": "2026-07-27 15:00"
+              },
+              "reassignment": {
+                "start": "2026-07-28",
+                "end": "2026-07-30 15:00"
+              }
+            },
+            "selection_three": {
+              "tolc_end": "2026-09-04",
+              "pre_enrolment": {
+                "start": "2026-08-05",
+                "end": "2026-09-04 15:00"
+              },
+              "ranking": "2026-09-11 15:00",
+              "enrolment": {
+                "start": "2026-09-14",
+                "end": "2026-09-16 15:00"
+              },
+              "reassignments": [
+                {
+                  "start": "2026-09-17",
+                  "end": "2026-09-21 15:00"
+                },
+                {
+                  "start": "2026-09-22",
+                  "end": "2026-09-25 15:00"
+                }
+              ],
+              "repechage_request": {
+                "start": "2026-09-28",
+                "end": "2026-09-30 15:00"
+              },
+              "post_repechage_reassignments_end": "2026-10-16"
+            }
+          },
+          "non_eu_resident_abroad": {
+            "application": {
+              "start": "2026-01-07",
+              "end": "2026-03-07 23:59 GMT+1",
+              "route": "apply.unipd.it"
+            },
+            "tolc_deadline": "2026-03-13",
+            "tolc_result_upload_deadline": "2026-03-16",
+            "qualification_and_italian_b2_deadline": "2026-07-31",
+            "final_qualification_document_deadline": "2026-10-31"
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-ING-INFORMATICA-ADMISSIONS-2026",
+          "SRC-PADOVA-ING-INFORMATICA-EU-CALL-2026",
+          "SRC-PADOVA-ING-INFORMATICA-NON-EU-CALL-2026"
+        ],
+        "notes": "These are dates in the 2026/27 calls. The three-selection Italian-qualification route and separate non-EU-abroad route are kept distinct; none are 2027/28 deadlines."
+      },
+      "previous_cycle_application_fee": {
+        "value": {
+          "academic_year": "2026/27",
+          "university_application_fee_in_reviewed_calls": "No separate University application fee identified",
+          "tolc_registration_fee_eur": 35,
+          "tolc_fee_paid_to": "CISIA",
+          "non_eu_abroad_enrolment_contribution_eur": 205,
+          "enrolment_contribution_timing": "Due after an admission offer is accepted; non-refundable; the call says the amount includes regional tax and stamp duty and may be updated annually"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-ING-INFORMATICA-EU-CALL-2026",
+          "SRC-PADOVA-ING-INFORMATICA-NON-EU-CALL-2026",
+          "SRC-PADUA-TUITION-2026"
+        ],
+        "notes": "The €35 amount is the test registration fee paid to CISIA, not a University application fee. The non-EU call states a €205 enrolment contribution on acceptance; the later/current general fee page lists a €208 first-year initial instalment for 2026/27. Neither is a full tuition total, and neither is carried into 2027/28."
+      },
+      "previous_cycle_international_admission": {
+        "value": {
+          "academic_year": "2026/27",
+          "eligible_group": "Non-EU applicants residing abroad with a foreign secondary-school qualification",
+          "application_route": "apply.unipd.it",
+          "available_places": 7,
+          "Marco_Polo_places": 3,
+          "schooling_requirement": "Suitable secondary qualification after at least 12 years of schooling",
+          "italian_language": "B2 CEFR by 31 July 2026",
+          "TOLC_I": {
+            "test_deadline": "2026-03-13",
+            "minimum_score": "24/50",
+            "result_upload_deadline": "2026-03-16"
+          },
+          "final_school_qualification_documents": "Legalization, Apostille or accepted CIMEA verification by 31 October 2026"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-ING-INFORMATICA-NON-EU-CALL-2026"
+        ],
+        "notes": "This is the separate prior-cycle non-EU-abroad selection. EU/equivalent applicants, qualifying non-EU residents in Italy, and anyone using an Italian secondary qualification follow the other procedure."
+      },
+      "previous_cycle_italian_requirement": {
+        "value": {
+          "academic_year": "2026/27",
+          "minimum": "Italian B2 CEFR",
+          "scope": "Non-EU applicants residing abroad in the separate international call"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-ING-INFORMATICA-NON-EU-CALL-2026"
+        ],
+        "notes": "This language threshold is specific to the 2026/27 non-EU-abroad call and is not verified as a 2027/28 requirement."
+      },
+      "international_route_2027_2028": {
+        "value": {
+          "general_international_degree_seeker_definition": "Applicant holding a qualification obtained abroad",
+          "general_first_call": {
+            "start": "2026-09-15",
+            "end": "2026-11-15",
+            "scope": "Most University of Padua degree programmes"
+          },
+          "course_specific_2027_2028_route": "Not verified; the general page does not establish that this restricted Italian-taught course is included or publish its applicant-category procedures",
+          "italian_qualification_route": "Course-specific 2027/28 call not found in reviewed sources"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027",
+          "SRC-PADOVA-ING-INFORMATICA-ADMISSIONS-2026"
+        ],
+        "notes": "This confirms Padua's general international calendar only. It is not evidence of course-specific intake, selection or deadlines for Ingegneria informatica."
+      },
+      "application_windows_2027_2028": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-PADOVA-COMPUTER-ENGINEERING-BSC-2026",
+          "SRC-PADOVA-ING-INFORMATICA-ADMISSIONS-2026",
+          "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027"
+        ],
+        "notes": "No course-specific 2027/28 admission calendar was verified. Do not reuse the 2026/27 TOLC, pre-enrolment or non-EU-abroad dates."
+      },
+      "application_deadline": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-PADOVA-COMPUTER-ENGINEERING-BSC-2026",
+          "SRC-PADOVA-ING-INFORMATICA-ADMISSIONS-2026",
+          "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027"
+        ],
+        "notes": "The general international call calendar applies to most courses and does not establish this programme's course-specific 2027/28 deadlines."
+      },
+      "applicant_scope_2027_2028": {
+        "value": {
+          "international_degree_seeker_definition": "Applicant holding a qualification obtained abroad",
+          "general_first_call": {
+            "start": "2026-09-15",
+            "end": "2026-11-15",
+            "scope": "Most University of Padua degree programmes"
+          },
+          "course_specific_coverage": "Not verified",
+          "separate_italian_qualification_call": "Not found in reviewed 2027/28 sources"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027",
+          "SRC-PADOVA-ING-INFORMATICA-ADMISSIONS-2026"
+        ],
+        "notes": "General applicant-category and calendar information is confirmed for the University, but course-specific 2027/28 route coverage remains unverified."
+      },
+      "previous_cycle_tuition": {
+        "value": {
+          "academic_year": "2026/27",
+          "course_specific_total_published": false,
+          "general_degree_fee_range_eur_per_year": {
+            "minimum": 0,
+            "maximum_approx": 3000
+          },
+          "first_year_initial_instalment_eur": 208,
+          "fee_basis": "Varies by programme and student circumstances; the initial instalment includes regional tax and stamp duty"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADUA-TUITION-2026",
+          "SRC-PADOVA-ING-INFORMATICA-EU-CALL-2026"
+        ],
+        "notes": "This is university-wide historical context, not a course-specific amount. Some non-EU-abroad applicants may have fixed amounts under the separate annual fee rules. Do not carry 2026/27 amounts forward."
       }
     },
     "source_ids": [
       "SRC-PADOVA-COMPUTER-ENGINEERING-BSC-2026",
-      "SRC-PADUA-TUITION-2026"
+      "SRC-PADUA-TUITION-2026",
+      "SRC-PADOVA-ING-INFORMATICA-ADMISSIONS-2026",
+      "SRC-PADOVA-ING-INFORMATICA-EU-CALL-2026",
+      "SRC-PADOVA-ING-INFORMATICA-NON-EU-CALL-2026",
+      "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027",
+      "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
+      "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
     ],
-    "previous_tracker_tags": {
-      "level": "BSc",
-      "language": "Italian",
-      "field": "Computer Science",
-      "label": "Previous tracker classification — not reverified for 2027/28"
-    },
+    "previous_tracker_tags": null,
     "previous_cycle_tags": {
       "level": "BSc",
       "language": "Italian",
       "field": "Computer Engineering",
       "cycle": "2026-2027",
-      "label": "Official course identity checked for 2026/2027; 2027/28 first-year intake and terms remain unconfirmed"
+      "label": "Official Ingegneria informatica profile and 2026/27 School of Engineering calls; 2027/28 first-year intake remains unconfirmed"
     },
-    "last_checked": "2026-11-10"
+    "last_checked": "2026-11-11"
   },
   {
     "id": "legacy-165",
