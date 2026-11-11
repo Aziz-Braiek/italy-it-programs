@@ -327,6 +327,11 @@
       "result": "Rechecked Sapienza Psicologia e Salute (course 33570, L-24, Rome, Italian) against its live catalogue, current application/ranking page, Bando 05429, the University admissions index, tuition pages and scholarship inventory. The 2026/27 course is restricted access: 275 places for Italian/EU/equivalent applicants plus 10 for non-EU applicants resident abroad needing a visa. Applicants took TOLC-PSI/TOLC@CASA, needed at least 23/50 to be ranked, chose this or one of three other L-24 courses as their single Infostud preference, and used the best valid test score. Applications and test preference ran 2 July–7 September 2026; the call listed rankings and payment/scorrimento deadlines through October and a vacancy process through 11 November. Recorded the 2026 diploma requirement, non-EU Universitaly deadline of 30 June and Italian B2, and separate non-refundable €10 Sapienza selection and €35 CISIA TOLC fees. The test has 50 scored items in 100 minutes plus an unranked 30-question English section; scoring is +1/−0.25/0. OFA thresholds are section-specific for Italian, mathematics and English. Sapienza's general ISEE-based fee framework applies; the call adds regional tax and €16 stamp duty, with no course-specific annual total stated. DiSCo Lazio is competitive regional aid; Wanted the Best is for Master's entrants and is not an L-24 BSc entrant award. No 2027/28 course intake call, application dates, fee, requirements, tuition schedule or incoming scholarship call appeared in the reviewed official material as of 11 November 2026; absence of the new call is not treated as discontinuation. Fresh no-cache GETs returned HTTP 200 for all seven profile, application, call, index, fee and scholarship endpoints, and the call PDF signature was valid. No deployment or Vercel changes were made."
     },
     {
+      "id": "sapienza-engineering-computer-science-ai-and-historical-course-relationship-review",
+      "status": "partial",
+      "result": "Resolved the Sapienza legacy-157 ambiguity without merging it into a similarly named course. The official archive lists the 2024/25 two-year, English-taught LM-32 Engineering in Computer Science - Ingegneria Informatica (course 30430). The 2026/27 catalogue separately lists Engineering in Computer Science and Artificial Intelligence (course 33515), also LM-32 and English-taught; no official source reviewed establishes a direct successor relationship, so both records remain distinct and the older candidate's active status stays unresolved. For discovered-026/course 33515, recorded the current 2026/27 profile, the admission call's 60-ECTS curricular thresholds (24 basic sciences including 9 mathematics; 36 engineering/computing including 18 Computer Science/Information Processing Systems), B2 English, committee assessment/interview route, €10 Infostud requirement-check contribution and five applicant-category deadlines. The June 2026 MoveIN document separately records a 75/100 pre-selection GPA floor, B2 evidence, the 15 May non-EU visa pre-selection deadline and programme contact; the €30 MoveIN application charge is kept distinct from the €10 course check. Sapienza's general ISEE-based tuition and competitive scholarship context is recorded as 2026/27 only. No 2027/28 course listing, call, fee, tuition schedule or incoming scholarship call was found in the reviewed pages; no 2026/27 term is carried into the new cycle. Fresh no-cache GETs returned HTTP 200 for the profile and application page and HTTP 206 with valid PDF signatures for the course call, MoveIN requirements and 2024 archive. No production, preview, domain, cache or Vercel changes were made."
+    },
+    {
       "id": "claude-independent-review-inventory",
       "status": "complete",
       "result": "Created a review manifest and checklist covering all 34 universities, 193 programs, and 454 existing official source records. The checklist exposes current unresolved fields and conflicts; all refresh outcomes remain pending until evidence is checked."
@@ -632,8 +637,8 @@
       "trento",
       "udine"
     ],
-    "source_records": 630,
-    "official_source_supported_fields": 1327,
+    "source_records": 634,
+    "official_source_supported_fields": 1330,
     "verification_statuses": [
       "CONFIRMED",
       "NOT_YET_PUBLISHED",

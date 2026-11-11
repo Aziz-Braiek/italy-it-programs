@@ -2,7 +2,7 @@
 
 Prepared 2026-11-11 for academic year 2027/28. Review each record against official university pages, calls, portals, regulations, and PDFs.
 
-Snapshot inventory: 34 universities, 209 program records, 630 source records.
+Snapshot inventory: 34 universities, 209 program records, 634 source records.
 
 ## Review rules
 
@@ -1028,7 +1028,7 @@ Official university-level sources:
 - [ ] `SRC-SAPIENZA-PSYCHOLOGY-2026` — [Psychology and Health bachelor’s profile 2026/27](https://corsidilaurea.uniroma1.it/it/course/33570) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-SAPIENZA-ECONOMICS-FINANCE-2026` — [Economics and Finance bachelor’s listing 2026/27](https://corsidilaurea.uniroma1.it/en/timeview/2026/34177/organization) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-SAPIENZA-FINANCE-INSURANCE-2026` — [Finance and Insurance Master’s profile 2026/27](https://www.corsidilaurea.uniroma1.it/en/course/33439) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
-- [ ] `SRC-SAPIENZA-INGINFO-ARCHIVE-2024` — [Ingegneria Informatica historical course archive](https://corsidilaurea.uniroma1.it/sites/default/files/archive/2024/30430.pdf) (cycle: 2024-2025; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-SAPIENZA-INGINFO-ARCHIVE-2024` — [Ingegneria Informatica historical course archive](https://corsidilaurea.uniroma1.it/sites/default/files/archive/2024/30430.pdf) (cycle: 2024-2025; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-SAPIENZA-FEES-2026` — [Tuition, payment and foreign-income guidance 2026/27](https://www.uniroma1.it/en/pagina/tuition-fees-and-benefits) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-SAPIENZA-FEE-TABLE-2026` — [Standard registration-fee amounts for 2026/27](https://www.uniroma1.it/en/node/29732) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-SAPIENZA-APPLICATION-FEE-2026` — [MoveIN pre-selection application fee 2026/27](https://www.uniroma1.it/it/pagina/international-admissions-2026-2027) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
@@ -1049,6 +1049,10 @@ Official university-level sources:
 - [ ] `SRC-SAPIENZA-PSYCHOLOGY-CALL-2026` — [Psychology and Health – AY 2026/27 admission call (Bando 05429)](https://www.uniroma1.it/sites/default/files/field_file_allegati/05429_i.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-SAPIENZA-PSYCHOLOGY-INDEX-2026` — [Sapienza AY 2026/27 admissions index – L-24 Psychology courses](https://www.uniroma1.it/it/node/534988) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-SAPIENZA-PSYCHOLOGY-APPLY-2026` — [Psicologia e Salute – current catalogue application and ranking page](https://corsidilaurea.uniroma1.it/it/course/33570/apply) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-SAPIENZA-ENGCSAI-PROFILE-2026` — [Engineering in Computer Science and Artificial Intelligence – 2026/27 course profile](https://corsidilaurea.uniroma1.it/en/course/33515/home) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-SAPIENZA-ENGCSAI-CALL-2026` — [Engineering in Computer Science and Artificial Intelligence – AY 2026/27 admission call](https://corsidilaurea.uniroma1.it/sites/default/files/offertaformativa/documenti_ufficiali/187/33515_e_1.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-SAPIENZA-ENGCSAI-APPLY-2026` — [Engineering in Computer Science and Artificial Intelligence – application page](https://corsidilaurea.uniroma1.it/en/course/33515/apply) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-SAPIENZA-MOVEIN-REQUIREMENTS-JUN2026` — [English-program MoveIN academic and language requirements – June 2026 revision](https://www.uniroma1.it/sites/default/files/field_file_allegati/academic_requirements_movein_2026-2027_web_20260608.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 
 #### Computer Science — `legacy-038`
 
@@ -1285,24 +1289,25 @@ Currently missing or unpublished fields:
 
 #### Ingegneria Informatica — `legacy-157`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-11`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-157/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/sapienza/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
-- [ ] `SRC-SAPIENZA-ENGCSAI-COURSE-2026` — [Engineering in Computer Science and Artificial Intelligence course regulations 2026/27](https://corsidilaurea.uniroma1.it/en/timeview/2026/33515/organization) (cycle: 2026-2027; prior check: 2026-11-10)
-- [ ] `SRC-SAPIENZA-INGINFO-ARCHIVE-2024` — [Ingegneria Informatica historical course archive](https://corsidilaurea.uniroma1.it/sites/default/files/archive/2024/30430.pdf) (cycle: 2024-2025; prior check: 2026-11-10)
-- [ ] `SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026` — [Programmes in English and 2026/27 pre-selection](https://www.uniroma1.it/en/en/admissions) (cycle: 2026-2027; prior check: 2026-11-10)
-- [ ] `SRC-SAPIENZA-INTL-OFFICE-2026` — [International Student Office admissions procedures 2026/27](https://www.uniroma1.it/en/node/24774) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-SAPIENZA-ENGCSAI-CALL-2026` — [Engineering in Computer Science and Artificial Intelligence – AY 2026/27 admission call](https://corsidilaurea.uniroma1.it/sites/default/files/offertaformativa/documenti_ufficiali/187/33515_e_1.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-SAPIENZA-ENGCSAI-PROFILE-2026` — [Engineering in Computer Science and Artificial Intelligence – 2026/27 course profile](https://corsidilaurea.uniroma1.it/en/course/33515/home) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-SAPIENZA-INGINFO-ARCHIVE-2024` — [Ingegneria Informatica historical course archive](https://corsidilaurea.uniroma1.it/sites/default/files/archive/2024/30430.pdf) (cycle: 2024-2025; prior check: 2026-11-11)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The reviewed university admissions and course materials concern 2026/27 or older. No 2027/28 first-year call was found, and absence from these pages is not treated as discontinuation.
-  - `facts.application_windows_2027_2028` — `REQUIRES_VERIFICATION` — The reviewed application schedule is for 2026/27 only.
-  - `facts.application_fee_2027_2028` — `REQUIRES_VERIFICATION` — No 2027/28 course application fee was identified.
-  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — No 2027/28 tuition regulation or amount was identified.
-  - `facts.scholarships_2027_2028` — `REQUIRES_VERIFICATION` — No 2027/28 scholarship call for these new entrants was identified.
-  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed sources do not provide a comparable complete applicant and admitted-student denominator.
-  - `facts.previous_cycle_application_windows` — `REQUIRES_VERIFICATION` — No course-specific 2026/27 application calendar was captured for this lead; the general MoveIN schedule applies only to the programs listed for pre-selection.
-  - `facts.previous_cycle_application_fee` — `REQUIRES_VERIFICATION` — No course-specific 2026/27 application charge was captured for this lead; the €30 MoveIN charge applies only to listed pre-selection applications.
+  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — No 2027/28 first-year listing for archived course 30430 was found. The separate 2026/27 course 33515 is named Engineering in Computer Science and Artificial Intelligence; no official successor or discontinuation statement was identified, so the older lead remains unresolved.
+  - `facts.previous_cycle_course_listing` — `REQUIRES_VERIFICATION` — No 2026/27 catalogue entry with the archived course 30430 title/code was identified. The current 2026/27 course 33515 has a different title/code and is tracked separately.
+  - `facts.previous_cycle_application_windows` — `UNAVAILABLE` — No 2026/27 admission call or application schedule for archived code 30430 was identified. Do not copy course 33515's current-cycle dates into this historical lead.
+  - `facts.previous_cycle_application_fee` — `UNAVAILABLE` — No 2026/27 application fee for the exact archived course 30430 was identified; course 33515's €10 requirement-check fee belongs to a separately named course.
+  - `facts.application_windows_2027_2028` — `NOT_YET_PUBLISHED` — No 2027/28 first-year course listing or admission call for the exact archived course was found as of 11 November 2026. Its relationship to course 33515 remains unresolved.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — No 2027/28 application fee is published for the exact historical course lead.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — No 2027/28 requirements for the exact archived code 30430 were published in the reviewed sources.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — No 2027/28 tuition regulation was found; the older programme's active 2027/28 status is also unresolved.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — No incoming 2027/28 call was published in the reviewed Sapienza or DiSCo pages; do not infer that general regional aid will be unavailable once its annual call opens.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — No comparable applicant and admitted-student denominator is available for the legacy course lead.
 
 #### Economia e finanza — `legacy-158`
 
@@ -1326,23 +1331,32 @@ Currently missing or unpublished fields:
 
 #### Engineering in Computer Science and Artificial Intelligence — `discovered-026`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-026/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/sapienza/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
+- [ ] `SRC-SAPIENZA-ENGCSAI-CALL-2026` — [Engineering in Computer Science and Artificial Intelligence – AY 2026/27 admission call](https://corsidilaurea.uniroma1.it/sites/default/files/offertaformativa/documenti_ufficiali/187/33515_e_1.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-SAPIENZA-ENGCSAI-APPLY-2026` — [Engineering in Computer Science and Artificial Intelligence – application page](https://corsidilaurea.uniroma1.it/en/course/33515/apply) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-SAPIENZA-ENGCSAI-PROFILE-2026` — [Engineering in Computer Science and Artificial Intelligence – 2026/27 course profile](https://corsidilaurea.uniroma1.it/en/course/33515/home) (cycle: 2026-2027; prior check: 2026-11-11)
 - [ ] `SRC-SAPIENZA-ENGCSAI-COURSE-2026` — [Engineering in Computer Science and Artificial Intelligence course regulations 2026/27](https://corsidilaurea.uniroma1.it/en/timeview/2026/33515/organization) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-SAPIENZA-MOVEIN-REQUIREMENTS-JUN2026` — [English-program MoveIN academic and language requirements – June 2026 revision](https://www.uniroma1.it/sites/default/files/field_file_allegati/academic_requirements_movein_2026-2027_web_20260608.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
 - [ ] `SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026` — [Programmes in English and 2026/27 pre-selection](https://www.uniroma1.it/en/en/admissions) (cycle: 2026-2027; prior check: 2026-11-10)
 - [ ] `SRC-SAPIENZA-INTL-OFFICE-2026` — [International Student Office admissions procedures 2026/27](https://www.uniroma1.it/en/node/24774) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-SAPIENZA-APPLICATION-FEE-2026` — [MoveIN pre-selection application fee 2026/27](https://www.uniroma1.it/it/pagina/international-admissions-2026-2027) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-SAPIENZA-DISCO-LAZIO-2026` — [DiSCo Lazio Right to Education call 2026/27](https://laziodisco.it/on-line-il-bando-diritto-allo-studio-2026-2027/?lang=en) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-SAPIENZA-FEE-TABLE-2026` — [Standard registration-fee amounts for 2026/27](https://www.uniroma1.it/en/node/29732) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-SAPIENZA-FEES-2026` — [Tuition, payment and foreign-income guidance 2026/27](https://www.uniroma1.it/en/pagina/tuition-fees-and-benefits) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-SAPIENZA-SCHOLARSHIPS-2026` — [Sapienza scholarships and student benefits inventory](https://www.uniroma1.it/en/pagina/scholarships) (cycle: general; prior check: 2026-11-11)
+- [ ] `SRC-SAPIENZA-WANTED-BEST-2026` — [Wanted the Best merit scholarship call 2026/27](https://www.uniroma1.it/en/pagina/scholarships-meritorious-students-italian-and-international-universities) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The reviewed university admissions and course materials concern 2026/27 or older. No 2027/28 first-year call was found, and absence from these pages is not treated as discontinuation.
-  - `facts.application_windows_2027_2028` — `REQUIRES_VERIFICATION` — The reviewed application schedule is for 2026/27 only.
-  - `facts.application_fee_2027_2028` — `REQUIRES_VERIFICATION` — No 2027/28 course application fee was identified.
-  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — No 2027/28 tuition regulation or amount was identified.
-  - `facts.scholarships_2027_2028` — `REQUIRES_VERIFICATION` — No 2027/28 scholarship call for these new entrants was identified.
-  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed sources do not provide a comparable complete applicant and admitted-student denominator.
-  - `facts.previous_cycle_application_windows` — `REQUIRES_VERIFICATION` — No course-specific 2026/27 application calendar was captured for this lead; the general MoveIN schedule applies only to the programs listed for pre-selection.
-  - `facts.previous_cycle_application_fee` — `REQUIRES_VERIFICATION` — No course-specific 2026/27 application charge was captured for this lead; the €30 MoveIN charge applies only to listed pre-selection applications.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — The reviewed course profile and application page are for 2026/27 and the English admissions page still lists 2026/27 pre-selection only. No 2027/28 first-year call was identified as of 11 November 2026; this does not indicate discontinuation.
+  - `facts.application_windows_2027_2028` — `NOT_YET_PUBLISHED` — No 2027/28 course call or English-program pre-selection schedule was identified on the official pages reviewed as of 11 November 2026.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — The €10 course-check and €30 MoveIN fees are 2026/27 terms only; no 2027/28 application charges were published.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — No 2027/28 course call or updated MoveIN requirements document was identified as of 11 November 2026.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — The reviewed official tuition pages display the 2026/27 framework only; no 2027/28 fee regulation or course-level total was published.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — No 2027/28 DiSCo annual call or incoming-student scholarship call was present in the reviewed official pages as of 11 November 2026. This does not imply that students will be ineligible for general aid once annual calls open.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed course call does not publish a comparable applicant and admitted-student denominator; no acceptance rate is inferred.
 
 #### Finance and Insurance — `discovered-027`
 
@@ -5318,7 +5332,7 @@ Currently missing or unpublished fields:
 
 ## Source URL recheck results
 
-Checked 612 unique URLs representing 630 source records on 2026-11-11. Unique URL outcomes: {'accessible': 593, 'redirected': 13, 'inconclusive': 5, 'broken': 1}. HTTP 404/410 outcomes are listed as broken; TLS, timeout, and remote-disconnect cases remain inconclusive.
+Checked 616 unique URLs representing 634 source records on 2026-11-11. Unique URL outcomes: {'accessible': 597, 'redirected': 13, 'inconclusive': 5, 'broken': 1}. HTTP 404/410 outcomes are listed as broken; TLS, timeout, and remote-disconnect cases remain inconclusive.
 
 ### Redirected sources
 

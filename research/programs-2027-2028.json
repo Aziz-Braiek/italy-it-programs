@@ -32750,174 +32750,167 @@
     "city": "Rome",
     "program": "Ingegneria Informatica",
     "level": {
-      "value": "MSc",
+      "value": "MSc (historical official course 30430)",
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
-        "SRC-SAPIENZA-INGINFO-ARCHIVE-2024",
-        "SRC-SAPIENZA-ENGCSAI-COURSE-2026"
+        "SRC-SAPIENZA-INGINFO-ARCHIVE-2024"
       ],
-      "notes": "Official 2026/27 evidence only; it does not confirm a 2027/28 new-entry offer or current terms."
+      "notes": "The official archive establishes a 2024/25 two-year LM-32 Master's degree. It does not establish a current or 2027/28 first-year offer."
     },
     "language": {
-      "value": "Italian (previous tracker label)",
+      "value": "English (historical course 30430)",
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
-        "SRC-SAPIENZA-INGINFO-ARCHIVE-2024",
-        "SRC-SAPIENZA-ENGCSAI-COURSE-2026"
+        "SRC-SAPIENZA-INGINFO-ARCHIVE-2024"
       ],
-      "notes": "Official 2026/27 evidence only; it does not confirm a 2027/28 new-entry offer or current terms."
+      "notes": "English delivery is confirmed in the official 2024 archive only; the legacy candidate's 2027/28 identity remains unresolved."
     },
     "field": {
       "value": "Computer Engineering",
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
-        "SRC-SAPIENZA-INGINFO-ARCHIVE-2024",
-        "SRC-SAPIENZA-ENGCSAI-COURSE-2026"
+        "SRC-SAPIENZA-INGINFO-ARCHIVE-2024"
       ],
-      "notes": "Official 2026/27 evidence only; it does not confirm a 2027/28 new-entry offer or current terms."
+      "notes": "The 2024/25 official archived course title and description concern Engineering in Computer Science; no next-cycle course identity is confirmed."
     },
     "availability_2027_2028": {
       "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
         "SRC-SAPIENZA-INGINFO-ARCHIVE-2024",
-        "SRC-SAPIENZA-ENGCSAI-COURSE-2026",
-        "SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026",
-        "SRC-SAPIENZA-INTL-OFFICE-2026"
+        "SRC-SAPIENZA-ENGCSAI-PROFILE-2026",
+        "SRC-SAPIENZA-ENGCSAI-CALL-2026"
       ],
-      "notes": "The reviewed university admissions and course materials concern 2026/27 or older. No 2027/28 first-year call was found, and absence from these pages is not treated as discontinuation."
+      "notes": "No 2027/28 first-year listing for archived course 30430 was found. The separate 2026/27 course 33515 is named Engineering in Computer Science and Artificial Intelligence; no official successor or discontinuation statement was identified, so the older lead remains unresolved."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
     "facts": {
-      "application_windows_2027_2028": {
+      "historical_course_reference": {
+        "value": {
+          "academic_year": "2024/25",
+          "official_name": "Engineering in Computer Science - Ingegneria Informatica",
+          "course_code": "30430",
+          "degree_class": "LM-32",
+          "degree_type": "Two-year Laurea Magistrale / MSc",
+          "language": "English",
+          "campus": "Rome"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-SAPIENZA-INGINFO-ARCHIVE-2024"
+        ],
+        "notes": "This is a historic archive entry, not evidence of a 2026/27 or 2027/28 first-year intake."
+      },
+      "previous_cycle_course_listing": {
         "value": null,
         "status": "REQUIRES_VERIFICATION",
         "source_ids": [
-          "SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026"
+          "SRC-SAPIENZA-INGINFO-ARCHIVE-2024",
+          "SRC-SAPIENZA-ENGCSAI-PROFILE-2026"
         ],
-        "notes": "The reviewed application schedule is for 2026/27 only."
+        "notes": "No 2026/27 catalogue entry with the archived course 30430 title/code was identified. The current 2026/27 course 33515 has a different title/code and is tracked separately."
+      },
+      "course_relationship_assessment": {
+        "value": {
+          "archived_course": {
+            "academic_year": "2024/25",
+            "course_code": "30430",
+            "official_name": "Engineering in Computer Science - Ingegneria Informatica"
+          },
+          "current_comparison_course": {
+            "academic_year": "2026/27",
+            "course_code": "33515",
+            "official_name": "Engineering in Computer Science and Artificial Intelligence"
+          },
+          "successor_relationship": "Not established by reviewed official sources"
+        },
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-SAPIENZA-INGINFO-ARCHIVE-2024",
+          "SRC-SAPIENZA-ENGCSAI-PROFILE-2026",
+          "SRC-SAPIENZA-ENGCSAI-CALL-2026"
+        ],
+        "notes": "Both are LM-32 English-taught Master's degrees in Rome, but the course codes and titles differ. Similar subject matter is not proof of formal succession."
+      },
+      "previous_cycle_application_windows": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-SAPIENZA-INGINFO-ARCHIVE-2024",
+          "SRC-SAPIENZA-ENGCSAI-CALL-2026"
+        ],
+        "notes": "No 2026/27 admission call or application schedule for archived code 30430 was identified. Do not copy course 33515's current-cycle dates into this historical lead."
+      },
+      "previous_cycle_application_fee": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-SAPIENZA-INGINFO-ARCHIVE-2024",
+          "SRC-SAPIENZA-ENGCSAI-CALL-2026"
+        ],
+        "notes": "No 2026/27 application fee for the exact archived course 30430 was identified; course 33515's €10 requirement-check fee belongs to a separately named course."
+      },
+      "application_windows_2027_2028": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-SAPIENZA-INGINFO-ARCHIVE-2024",
+          "SRC-SAPIENZA-ENGCSAI-PROFILE-2026",
+          "SRC-SAPIENZA-ENGCSAI-CALL-2026"
+        ],
+        "notes": "No 2027/28 first-year course listing or admission call for the exact archived course was found as of 11 November 2026. Its relationship to course 33515 remains unresolved."
       },
       "application_fee_2027_2028": {
         "value": null,
-        "status": "REQUIRES_VERIFICATION",
+        "status": "NOT_YET_PUBLISHED",
         "source_ids": [
-          "SRC-SAPIENZA-APPLICATION-FEE-2026"
+          "SRC-SAPIENZA-ENGCSAI-PROFILE-2026",
+          "SRC-SAPIENZA-ENGCSAI-CALL-2026"
         ],
-        "notes": "No 2027/28 course application fee was identified."
+        "notes": "No 2027/28 application fee is published for the exact historical course lead."
+      },
+      "program_specific_requirements_2027_2028": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-SAPIENZA-INGINFO-ARCHIVE-2024",
+          "SRC-SAPIENZA-ENGCSAI-PROFILE-2026"
+        ],
+        "notes": "No 2027/28 requirements for the exact archived code 30430 were published in the reviewed sources."
       },
       "tuition_2027_2028": {
         "value": null,
-        "status": "REQUIRES_VERIFICATION",
+        "status": "NOT_YET_PUBLISHED",
         "source_ids": [
           "SRC-SAPIENZA-FEES-2026",
           "SRC-SAPIENZA-FEE-TABLE-2026"
         ],
-        "notes": "No 2027/28 tuition regulation or amount was identified."
+        "notes": "No 2027/28 tuition regulation was found; the older programme's active 2027/28 status is also unresolved."
       },
       "scholarships_2027_2028": {
         "value": null,
-        "status": "REQUIRES_VERIFICATION",
+        "status": "NOT_YET_PUBLISHED",
         "source_ids": [
-          "SRC-SAPIENZA-WANTED-BEST-2026",
+          "SRC-SAPIENZA-SCHOLARSHIPS-2026",
           "SRC-SAPIENZA-DISCO-LAZIO-2026"
         ],
-        "notes": "No 2027/28 scholarship call for these new entrants was identified."
-      },
-      "previous_cycle_tuition": {
-        "value": {
-          "academic_year": "2026/27",
-          "standard_second_faculty_group_total_eur": 2924,
-          "foreign_income_fixed_contribution_bands_eur": [
-            300,
-            700,
-            1500
-          ],
-          "payment_installments_percent": [
-            30,
-            35,
-            35
-          ],
-          "calculation": "ISEE and course/faculty group, foreign-income band, eligibility and exemptions affect the amount"
-        },
-        "status": "CONFIRMED",
-        "source_ids": [
-          "SRC-SAPIENZA-FEES-2026",
-          "SRC-SAPIENZA-FEE-TABLE-2026"
-        ],
-        "notes": "Prior-cycle university fee framework only; the amounts are not a 2027/28 or individual quote."
-      },
-      "previous_cycle_scholarships": {
-        "value": {
-          "academic_year": "2026/27",
-          "Wanted_the_Best": {
-            "awards": 85,
-            "gross_eur_per_year": 3000,
-            "duration_years": 2,
-            "eligibility": "Master’s entrants graduating from another Italian university with 105/110 to 110/110 cum laude",
-            "deadline": "2026-10-30"
-          },
-          "DiSCo_Lazio": {
-            "application_deadline_after_extension": "2026-07-23 20:00",
-            "second_phase_corrections_deadline": "2026-08-11 12:00",
-            "scope": "Competitive regional scholarship, housing and other benefits"
-          }
-        },
-        "status": "CONFIRMED",
-        "source_ids": [
-          "SRC-SAPIENZA-WANTED-BEST-2026",
-          "SRC-SAPIENZA-DISCO-LAZIO-2026"
-        ],
-        "notes": "Annual 2026/27 competitions only. The university award is restricted and the regional award is competitive; neither is a guaranteed 2027/28 offer."
+        "notes": "No incoming 2027/28 call was published in the reviewed Sapienza or DiSCo pages; do not infer that general regional aid will be unavailable once its annual call opens."
       },
       "acceptance_rate": {
         "value": null,
         "status": "UNAVAILABLE",
         "source_ids": [
           "SRC-SAPIENZA-INGINFO-ARCHIVE-2024",
-          "SRC-SAPIENZA-ENGCSAI-COURSE-2026",
-          "SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026",
-          "SRC-SAPIENZA-INTL-OFFICE-2026"
+          "SRC-SAPIENZA-ENGCSAI-PROFILE-2026"
         ],
-        "notes": "The reviewed sources do not provide a comparable complete applicant and admitted-student denominator."
-      },
-      "previous_cycle_application_windows": {
-        "value": null,
-        "status": "REQUIRES_VERIFICATION",
-        "source_ids": [
-          "SRC-SAPIENZA-INGINFO-ARCHIVE-2024",
-          "SRC-SAPIENZA-ENGCSAI-COURSE-2026"
-        ],
-        "notes": "No course-specific 2026/27 application calendar was captured for this lead; the general MoveIN schedule applies only to the programs listed for pre-selection."
-      },
-      "previous_cycle_application_fee": {
-        "value": null,
-        "status": "REQUIRES_VERIFICATION",
-        "source_ids": [
-          "SRC-SAPIENZA-INGINFO-ARCHIVE-2024",
-          "SRC-SAPIENZA-ENGCSAI-COURSE-2026"
-        ],
-        "notes": "No course-specific 2026/27 application charge was captured for this lead; the €30 MoveIN charge applies only to listed pre-selection applications."
-      },
-      "historical_course_reference": {
-        "value": {
-          "academic_year": "2024/25",
-          "degree_class": "LM-32",
-          "duration_years": 2,
-          "2026_27_exact_match": "Not established; the separate English Engineering in Computer Science and Artificial Intelligence record remains distinct"
-        },
-        "status": "CONFIRMED",
-        "source_ids": [
-          "SRC-SAPIENZA-INGINFO-ARCHIVE-2024"
-        ],
-        "notes": "This is 2024/25 archive evidence, not immediate prior-cycle or current offer confirmation."
+        "notes": "No comparable applicant and admitted-student denominator is available for the legacy course lead."
       }
     },
     "source_ids": [
       "SRC-SAPIENZA-INGINFO-ARCHIVE-2024",
-      "SRC-SAPIENZA-ENGCSAI-COURSE-2026",
-      "SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026",
-      "SRC-SAPIENZA-INTL-OFFICE-2026"
+      "SRC-SAPIENZA-ENGCSAI-PROFILE-2026",
+      "SRC-SAPIENZA-ENGCSAI-CALL-2026"
     ],
     "previous_tracker_tags": {
       "level": "MSc",
@@ -32926,7 +32919,7 @@
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
     "previous_cycle_tags": null,
-    "last_checked": "2026-11-10"
+    "last_checked": "2026-11-11"
   },
   {
     "id": "legacy-158",
@@ -38048,80 +38041,202 @@
     "city": "Rome",
     "program": "Engineering in Computer Science and Artificial Intelligence",
     "level": {
-      "value": "MSc",
+      "value": "Master's degree (Laurea Magistrale, class LM-32)",
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
-        "SRC-SAPIENZA-ENGCSAI-COURSE-2026"
+        "SRC-SAPIENZA-ENGCSAI-PROFILE-2026",
+        "SRC-SAPIENZA-ENGCSAI-CALL-2026"
       ],
-      "notes": "Official 2026/27 evidence only; it does not confirm a 2027/28 new-entry offer or current terms."
+      "notes": "Confirmed for 2026/27 only; verify the 2027/28 course catalogue before treating the label as current for next-cycle applicants."
     },
     "language": {
       "value": "English",
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
-        "SRC-SAPIENZA-ENGCSAI-COURSE-2026"
+        "SRC-SAPIENZA-ENGCSAI-PROFILE-2026",
+        "SRC-SAPIENZA-ENGCSAI-CALL-2026",
+        "SRC-SAPIENZA-MOVEIN-REQUIREMENTS-JUN2026"
       ],
-      "notes": "Official 2026/27 evidence only; it does not confirm a 2027/28 new-entry offer or current terms."
+      "notes": "All teaching is listed as English for 2026/27. This does not confirm a 2027/28 offer."
     },
     "field": {
       "value": "Computer Engineering and Artificial Intelligence",
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
-        "SRC-SAPIENZA-ENGCSAI-COURSE-2026"
+        "SRC-SAPIENZA-ENGCSAI-PROFILE-2026",
+        "SRC-SAPIENZA-ENGCSAI-CALL-2026"
       ],
-      "notes": "Official 2026/27 evidence only; it does not confirm a 2027/28 new-entry offer or current terms."
+      "notes": "Official 2026/27 programme title and regulations; confirm the next-cycle catalogue when published."
     },
     "availability_2027_2028": {
       "value": null,
-      "status": "REQUIRES_VERIFICATION",
+      "status": "NOT_YET_PUBLISHED",
       "source_ids": [
-        "SRC-SAPIENZA-ENGCSAI-COURSE-2026",
+        "SRC-SAPIENZA-ENGCSAI-PROFILE-2026",
+        "SRC-SAPIENZA-ENGCSAI-APPLY-2026",
         "SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026",
         "SRC-SAPIENZA-INTL-OFFICE-2026"
       ],
-      "notes": "The reviewed university admissions and course materials concern 2026/27 or older. No 2027/28 first-year call was found, and absence from these pages is not treated as discontinuation."
+      "notes": "The reviewed course profile and application page are for 2026/27 and the English admissions page still lists 2026/27 pre-selection only. No 2027/28 first-year call was identified as of 11 November 2026; this does not indicate discontinuation."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "newly_discovered",
     "facts": {
-      "application_windows_2027_2028": {
-        "value": null,
-        "status": "REQUIRES_VERIFICATION",
+      "previous_cycle_course_listing": {
+        "value": {
+          "academic_year": "2026/27",
+          "official_name": "Engineering in Computer Science and Artificial Intelligence",
+          "italian_name": "Ingegneria Informatica e Intelligenza Artificiale",
+          "course_code": "33515",
+          "test_code": "33515",
+          "degree_class": "LM-32",
+          "degree_type": "Two-year Master's degree (Laurea Magistrale)",
+          "campus": "Rome",
+          "language": "English",
+          "delivery": "In person",
+          "department": "Ingegneria Informatica, Automatica e Gestionale Antonio Ruberti",
+          "access": "Curricular requirements and personal preparation assessment"
+        },
+        "status": "CONFIRMED",
         "source_ids": [
-          "SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026"
+          "SRC-SAPIENZA-ENGCSAI-PROFILE-2026",
+          "SRC-SAPIENZA-ENGCSAI-COURSE-2026",
+          "SRC-SAPIENZA-ENGCSAI-CALL-2026"
         ],
-        "notes": "The reviewed application schedule is for 2026/27 only."
+        "notes": "These are official prior-cycle identity facts for course 33515; they do not establish 2027/28 intake."
       },
-      "application_fee_2027_2028": {
-        "value": null,
-        "status": "REQUIRES_VERIFICATION",
+      "previous_cycle_admission_route": {
+        "value": {
+          "academic_year": "2026/27",
+          "main_route": "Infostud application for curricular eligibility, followed by assessment of personal preparation by the degree committee",
+          "assessment": [
+            "Bachelor degree and recognized prior credits",
+            "Academic record and relevance of previous curriculum",
+            "Extracurricular activities and training",
+            "Interview if required"
+          ],
+          "non_eu_abroad_visa_route": "Mandatory MoveIN pre-selection/pre-acceptance followed by course application and Universitaly visa pre-enrolment",
+          "standardized_test": "No standardized entrance test is listed in the course call"
+        },
+        "status": "CONFIRMED",
         "source_ids": [
+          "SRC-SAPIENZA-ENGCSAI-CALL-2026",
+          "SRC-SAPIENZA-MOVEIN-REQUIREMENTS-JUN2026",
+          "SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026",
+          "SRC-SAPIENZA-INTL-OFFICE-2026"
+        ],
+        "notes": "MoveIN is the separate international pre-selection route for the applicant group specified by Sapienza; a pre-acceptance does not replace the course call or final enrolment."
+      },
+      "previous_cycle_application_windows": {
+        "value": {
+          "academic_year": "2026/27",
+          "infostud_requirement_check_opens": "2026-07-02",
+          "course_call_deadlines": [
+            {
+              "applicant_group": "Non-EU applicants resident abroad requiring a study visa",
+              "deadline": "2026-09-15"
+            },
+            {
+              "applicant_group": "General course applicants",
+              "deadline": "2026-10-15"
+            },
+            {
+              "applicant_group": "General course applicants",
+              "deadline": "2026-11-17"
+            },
+            {
+              "applicant_group": "General course applicants",
+              "deadline": "2026-12-17"
+            },
+            {
+              "applicant_group": "Sapienza graduates or applicants about to graduate from Sapienza",
+              "deadline": "2027-01-14"
+            }
+          ],
+          "movein_preselection_for_non_eu_visa_applicants": {
+            "opens": "2025-12-22",
+            "deadline": "2026-05-15"
+          },
+          "universitaly_pre_enrolment_deadline": "2026-06-30"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-SAPIENZA-ENGCSAI-CALL-2026",
+          "SRC-SAPIENZA-ENGCSAI-APPLY-2026",
+          "SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026",
+          "SRC-SAPIENZA-INTL-OFFICE-2026"
+        ],
+        "notes": "These are the 2026/27 deadlines. The January 2027 date is reserved for the specified Sapienza graduates; the non-EU visa MoveIN and Universitaly dates are separate steps."
+      },
+      "previous_cycle_application_fee": {
+        "value": {
+          "academic_year": "2026/27",
+          "infostud_curricular_eligibility_check_eur": 10,
+          "movein_preselection_application_fee_eur": 30,
+          "movein_fee_scope": "Per pre-selection application, maximum two programme applications per student per academic year"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-SAPIENZA-ENGCSAI-CALL-2026",
           "SRC-SAPIENZA-APPLICATION-FEE-2026"
         ],
-        "notes": "No 2027/28 course application fee was identified."
+        "notes": "The €10 course eligibility-check contribution and €30 MoveIN pre-selection charge are separate fees for different steps and applicant groups."
       },
-      "tuition_2027_2028": {
-        "value": null,
-        "status": "REQUIRES_VERIFICATION",
+      "previous_cycle_program_requirements": {
+        "value": {
+          "academic_year": "2026/27",
+          "degree": "Three-year Bachelor's degree or recognized equivalent",
+          "curricular_credits": {
+            "total_minimum_ects": 60,
+            "basic_sciences_minimum_ects": 24,
+            "mathematics_within_basic_sciences_minimum_ects": 9,
+            "engineering_and_computing_minimum_ects": 36,
+            "computer_science_or_information_processing_systems_within_engineering_computing_minimum_ects": 18
+          },
+          "english": "B2 CEFR or higher",
+          "personal_preparation": "Committee reviews degree grade, curricular relevance and additional training/experience; interview may be requested",
+          "movein_preselection_only": {
+            "minimum_gpa_100_scale": 75,
+            "accepted_english_evidence": [
+              "IELTS Academic 5.5",
+              "TOEFL iBT 80",
+              "Cambridge B2 First",
+              "Trinity ISE II",
+              "other certificates listed in the MoveIN document"
+            ],
+            "english_evidence_exemptions": [
+              "Native English speakers",
+              "English-taught qualification from specified countries",
+              "International Baccalaureate, GCSE or comparable credential"
+            ]
+          }
+        },
+        "status": "CONFIRMED",
         "source_ids": [
-          "SRC-SAPIENZA-FEES-2026",
-          "SRC-SAPIENZA-FEE-TABLE-2026"
+          "SRC-SAPIENZA-ENGCSAI-CALL-2026",
+          "SRC-SAPIENZA-ENGCSAI-COURSE-2026",
+          "SRC-SAPIENZA-MOVEIN-REQUIREMENTS-JUN2026"
         ],
-        "notes": "No 2027/28 tuition regulation or amount was identified."
+        "notes": "The 75/100 GPA floor is a published MoveIN pre-selection criterion; the course's Infostud call separately defines curricular and personal-preparation assessment. All details are prior-cycle only."
       },
-      "scholarships_2027_2028": {
-        "value": null,
-        "status": "REQUIRES_VERIFICATION",
+      "previous_cycle_entrance_test": {
+        "value": {
+          "academic_year": "2026/27",
+          "standardized_entrance_test": null,
+          "assessment": "Document review, curricular eligibility and committee assessment of personal preparation; interview may be required"
+        },
+        "status": "CONFIRMED",
         "source_ids": [
-          "SRC-SAPIENZA-WANTED-BEST-2026",
-          "SRC-SAPIENZA-DISCO-LAZIO-2026"
+          "SRC-SAPIENZA-ENGCSAI-CALL-2026",
+          "SRC-SAPIENZA-MOVEIN-REQUIREMENTS-JUN2026"
         ],
-        "notes": "No 2027/28 scholarship call for these new entrants was identified."
+        "notes": "The reviewed course call does not specify a standardized admission test; it does specify an academic and personal-preparation assessment."
       },
       "previous_cycle_tuition": {
         "value": {
           "academic_year": "2026/27",
-          "standard_second_faculty_group_total_eur": 2924,
+          "faculty_group": "Second contribution bracket",
+          "standard_total_eur": 2924,
           "foreign_income_fixed_contribution_bands_eur": [
             300,
             700,
@@ -38132,14 +38247,14 @@
             35,
             35
           ],
-          "calculation": "ISEE and course/faculty group, foreign-income band, eligibility and exemptions affect the amount"
+          "calculation": "ISEE, country band, eligibility and exemptions affect the amount"
         },
         "status": "CONFIRMED",
         "source_ids": [
           "SRC-SAPIENZA-FEES-2026",
           "SRC-SAPIENZA-FEE-TABLE-2026"
         ],
-        "notes": "Prior-cycle university fee framework only; the amounts are not a 2027/28 or individual quote."
+        "notes": "University-wide 2026/27 fee framework for second-level programmes in the Information Engineering, Computer Science and Statistics faculty group; this is not a personalized quote or a 2027/28 price."
       },
       "previous_cycle_scholarships": {
         "value": {
@@ -38148,80 +38263,106 @@
             "awards": 85,
             "gross_eur_per_year": 3000,
             "duration_years": 2,
-            "eligibility": "Master’s entrants graduating from another Italian university with 105/110 to 110/110 cum laude",
+            "eligibility": "Eligible Master's entrants graduating from another Italian university with 105/110 to 110/110 cum laude",
             "deadline": "2026-10-30"
           },
           "DiSCo_Lazio": {
+            "type": "Competitive regional right-to-study benefits",
             "application_deadline_after_extension": "2026-07-23 20:00",
-            "second_phase_corrections_deadline": "2026-08-11 12:00",
-            "scope": "Competitive regional scholarship, housing and other benefits"
+            "corrections_deadline": "2026-08-11 12:00"
           }
         },
         "status": "CONFIRMED",
         "source_ids": [
           "SRC-SAPIENZA-WANTED-BEST-2026",
+          "SRC-SAPIENZA-DISCO-LAZIO-2026",
+          "SRC-SAPIENZA-SCHOLARSHIPS-2026"
+        ],
+        "notes": "These are general competitive schemes, not guaranteed course awards; Wanted the Best's eligibility is limited to the call's specified Master's entrants."
+      },
+      "previous_cycle_contacts": {
+        "value": {
+          "international_preselection": "admissions@diag.uniroma1.it",
+          "course_student_affairs": "segreteriadidattica@diag.uniroma1.it"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-SAPIENZA-MOVEIN-REQUIREMENTS-JUN2026",
+          "SRC-SAPIENZA-ENGCSAI-CALL-2026"
+        ],
+        "notes": "The admissions address appears in the official MoveIN requirements document; the course call names the Student Affairs contact for applicants from other Italian universities."
+      },
+      "application_windows_2027_2028": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-SAPIENZA-ENGCSAI-PROFILE-2026",
+          "SRC-SAPIENZA-ENGCSAI-APPLY-2026",
+          "SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026"
+        ],
+        "notes": "No 2027/28 course call or English-program pre-selection schedule was identified on the official pages reviewed as of 11 November 2026."
+      },
+      "application_fee_2027_2028": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-SAPIENZA-ENGCSAI-CALL-2026",
+          "SRC-SAPIENZA-APPLICATION-FEE-2026"
+        ],
+        "notes": "The €10 course-check and €30 MoveIN fees are 2026/27 terms only; no 2027/28 application charges were published."
+      },
+      "program_specific_requirements_2027_2028": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-SAPIENZA-ENGCSAI-PROFILE-2026",
+          "SRC-SAPIENZA-ENGCSAI-CALL-2026",
+          "SRC-SAPIENZA-MOVEIN-REQUIREMENTS-JUN2026"
+        ],
+        "notes": "No 2027/28 course call or updated MoveIN requirements document was identified as of 11 November 2026."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-SAPIENZA-FEES-2026",
+          "SRC-SAPIENZA-FEE-TABLE-2026"
+        ],
+        "notes": "The reviewed official tuition pages display the 2026/27 framework only; no 2027/28 fee regulation or course-level total was published."
+      },
+      "scholarships_2027_2028": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-SAPIENZA-SCHOLARSHIPS-2026",
           "SRC-SAPIENZA-DISCO-LAZIO-2026"
         ],
-        "notes": "Annual 2026/27 competitions only. The university award is restricted and the regional award is competitive; neither is a guaranteed 2027/28 offer."
+        "notes": "No 2027/28 DiSCo annual call or incoming-student scholarship call was present in the reviewed official pages as of 11 November 2026. This does not imply that students will be ineligible for general aid once annual calls open."
       },
       "acceptance_rate": {
         "value": null,
         "status": "UNAVAILABLE",
         "source_ids": [
-          "SRC-SAPIENZA-ENGCSAI-COURSE-2026",
-          "SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026",
-          "SRC-SAPIENZA-INTL-OFFICE-2026"
+          "SRC-SAPIENZA-ENGCSAI-CALL-2026",
+          "SRC-SAPIENZA-ENGCSAI-PROFILE-2026"
         ],
-        "notes": "The reviewed sources do not provide a comparable complete applicant and admitted-student denominator."
-      },
-      "previous_cycle_application_windows": {
-        "value": null,
-        "status": "REQUIRES_VERIFICATION",
-        "source_ids": [
-          "SRC-SAPIENZA-ENGCSAI-COURSE-2026"
-        ],
-        "notes": "No course-specific 2026/27 application calendar was captured for this lead; the general MoveIN schedule applies only to the programs listed for pre-selection."
-      },
-      "previous_cycle_application_fee": {
-        "value": null,
-        "status": "REQUIRES_VERIFICATION",
-        "source_ids": [
-          "SRC-SAPIENZA-ENGCSAI-COURSE-2026"
-        ],
-        "notes": "No course-specific 2026/27 application charge was captured for this lead; the €30 MoveIN charge applies only to listed pre-selection applications."
-      },
-      "previous_cycle_course_listing": {
-        "value": {
-          "degree_class": "LM-32",
-          "duration_years": 2,
-          "ects": 120,
-          "campus": "Rome",
-          "instruction": "English only"
-        },
-        "status": "CONFIRMED",
-        "source_ids": [
-          "SRC-SAPIENZA-ENGCSAI-COURSE-2026"
-        ],
-        "notes": "Official 2026/27 evidence only; it does not confirm a 2027/28 new-entry offer or current terms."
-      },
-      "previous_cycle_program_requirements": {
-        "value": {
-          "qualification": "Bachelor’s degree or recognized equivalent",
-          "credits": "At least 60 ECTS: 24 basic-science and 36 engineering/computing, with specified sub-minima",
-          "english": "B2",
-          "assessment": "Committee review of academic preparation; interview may be used"
-        },
-        "status": "CONFIRMED",
-        "source_ids": [
-          "SRC-SAPIENZA-ENGCSAI-COURSE-2026"
-        ],
-        "notes": "Official 2026/27 evidence only; it does not confirm a 2027/28 new-entry offer or current terms."
+        "notes": "The reviewed course call does not publish a comparable applicant and admitted-student denominator; no acceptance rate is inferred."
       }
     },
     "source_ids": [
       "SRC-SAPIENZA-ENGCSAI-COURSE-2026",
+      "SRC-SAPIENZA-ENGCSAI-PROFILE-2026",
+      "SRC-SAPIENZA-ENGCSAI-APPLY-2026",
+      "SRC-SAPIENZA-ENGCSAI-CALL-2026",
+      "SRC-SAPIENZA-MOVEIN-REQUIREMENTS-JUN2026",
       "SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026",
-      "SRC-SAPIENZA-INTL-OFFICE-2026"
+      "SRC-SAPIENZA-INTL-OFFICE-2026",
+      "SRC-SAPIENZA-APPLICATION-FEE-2026",
+      "SRC-SAPIENZA-FEES-2026",
+      "SRC-SAPIENZA-FEE-TABLE-2026",
+      "SRC-SAPIENZA-DISCO-LAZIO-2026",
+      "SRC-SAPIENZA-WANTED-BEST-2026",
+      "SRC-SAPIENZA-SCHOLARSHIPS-2026"
     ],
     "previous_tracker_tags": {
       "level": "MSc",
@@ -38230,13 +38371,13 @@
       "label": "Earlier tracker lead; official 2026/27 comparison recorded separately"
     },
     "previous_cycle_tags": {
-      "level": "MSc",
+      "level": "Master's degree (Laurea Magistrale, class LM-32)",
       "language": "English",
       "field": "Computer Engineering and Artificial Intelligence",
       "cycle": "2026-2027",
-      "label": "Official 2026/27 evidence only; 2027/28 intake remains unverified"
+      "label": "Official course 33515 profile and admission call; 2027/28 first-year intake remains unannounced"
     },
-    "last_checked": "2026-11-10"
+    "last_checked": "2026-11-11"
   },
   {
     "id": "discovered-027",
