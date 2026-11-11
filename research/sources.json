@@ -22688,11 +22688,83 @@
       "observed_title": "Bachelor's, Master's degree and Single-cycle Master's degree programme in English | Università di Padova",
       "pdf_signature": null,
       "has_2027_marker": true,
-      "bytes_read": 131072,
+      "bytes_read": 1421154,
       "outcome": "accessible",
       "error": null,
       "checked_at": "2026-11-11",
-      "method": "GET"
+      "method": "GET with Cache-Control and Pragma no-cache (Python urllib)"
+    }
+  },
+  {
+    "id": "SRC-PADUA-MAFBA-OPEN-DAY-2026",
+    "university_id": "padova",
+    "title": "Management, Finance and Business Analytics – scheduled open day",
+    "url": "https://www.unipd.it/en/openday2026-27-economia-scienzepolitiche",
+    "source_type": "Official University open-day announcement",
+    "accessed_at": "2026-11-11",
+    "cycle": "2027-2028",
+    "evidence": "The University of Padua's School of Economics and Political Science lists Management, Finance and Business Analytics as a new course for 2027/28 and schedules its presentation at the 12 November 2026 open day. As checked on 11 November, this is a future event announcement; it does not report event outcomes, central approval, a first-year intake, or an application call. The page lists the event as 15:00–18:00.",
+    "supports": [
+      "program.official_planned_course_listing_2027_2028",
+      "program.program_development_notice",
+      "program.availability_2027_2028"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://www.unipd.it/en/openday2026-27-economia-scienzepolitiche",
+      "content_type": "text/html; charset=utf-8",
+      "content_length_header": null,
+      "etag": null,
+      "last_modified": null,
+      "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate",
+      "age": null,
+      "x_vercel_cache": null,
+      "x_vercel_id": null,
+      "location": null,
+      "observed_title": "Open Day 2026-27 - School of Economics and Political Science | Università di Padova",
+      "pdf_signature": null,
+      "has_2027_marker": true,
+      "bytes_read": 1440674,
+      "outcome": "accessible",
+      "error": null,
+      "checked_at": "2026-11-11",
+      "method": "GET with Cache-Control and Pragma no-cache (Python urllib)"
+    }
+  },
+  {
+    "id": "SRC-PADUA-MAFBA-DEPARTMENT-OPEN-DAY-2026",
+    "university_id": "padova",
+    "title": "Management, Finance and Business Analytics – Department open day details",
+    "url": "https://www.economia.unipd.it/open-day-dei-corsi-di-laurea-triennale-di-economia-0",
+    "source_type": "Official Department open-day announcement",
+    "accessed_at": "2026-11-11",
+    "cycle": "2027-2028",
+    "evidence": "The Economics and Management Department includes Management, Finance and Business Analytics among the Bachelor's courses to be presented on 12 November 2026. Its notice says the event will cover entry requirements, tests, admission procedures and deadlines; those details are not provided in the notice itself. The department page lists registration from 15:00 and the event from 15:30 to 18:00, while the University's overview page lists 15:00–18:00.",
+    "supports": [
+      "program.official_planned_course_listing_2027_2028",
+      "program.program_development_notice",
+      "program.availability_2027_2028"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://www.economia.unipd.it/open-day-dei-corsi-di-laurea-triennale-di-economia-0",
+      "content_type": "text/html; charset=utf-8",
+      "content_length_header": "45890",
+      "etag": "W/\"1794404080.593-1\"",
+      "last_modified": "Wed, 11 Nov 2026 13:34:40 GMT",
+      "cache_control": "public, max-age=1800",
+      "age": "1096",
+      "x_vercel_cache": null,
+      "x_vercel_id": null,
+      "location": null,
+      "observed_title": "Open Day dei Corsi di Laurea Triennale di Economia | Dipartimento di Scienze Economiche e Aziendali \"Marco Fanno\" | Università di Padova",
+      "pdf_signature": null,
+      "has_2027_marker": false,
+      "bytes_read": 45890,
+      "outcome": "accessible",
+      "error": null,
+      "checked_at": "2026-11-11",
+      "method": "GET with Cache-Control and Pragma no-cache (Python urllib)"
     }
   },
   {
@@ -22908,14 +22980,14 @@
       "x_vercel_cache": null,
       "x_vercel_id": null,
       "location": null,
-      "observed_title": null,
+      "observed_title": "Padua International Excellence Scholarship Programme | Università di Padova",
       "pdf_signature": null,
-      "has_2027_marker": false,
-      "bytes_read": 131072,
+      "has_2027_marker": true,
+      "bytes_read": 1449321,
       "outcome": "accessible",
       "error": null,
       "checked_at": "2026-11-11",
-      "method": "GET with Cache-Control and Pragma no-cache"
+      "method": "GET with Cache-Control and Pragma no-cache (Python urllib)"
     }
   },
   {

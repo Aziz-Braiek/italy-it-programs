@@ -1502,6 +1502,7 @@ def build():
             "Verify every candidate program's 2027/28 availability, language and applicant eligibility.",
             "Collect fees, scholarships, application routes, contacts and field-specific requirements from official 2027/28 notices.",
             "Recheck sources that currently say information is not yet published.",
+            "Recheck Padua's Management, Finance and Business Analytics proposal after the 12 November 2026 open day for course-specific admission information.",
             "Run data and UI quality checks, deploy a preview, then repeat research/QA before any production deployment.",
         ],
         "completed_batches": [
@@ -1582,6 +1583,7 @@ def build():
             research_final_refresh.BATCH41,
             research_final_refresh.BATCH42,
             research_final_refresh.BATCH43,
+            research_final_refresh.BATCH44,
         ],
         "counts": coverage,
     }

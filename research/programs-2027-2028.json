@@ -42389,9 +42389,11 @@
       "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
-        "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+        "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+        "SRC-PADUA-MAFBA-OPEN-DAY-2026",
+        "SRC-PADUA-MAFBA-DEPARTMENT-OPEN-DAY-2026"
       ],
-      "notes": "The university lists the programme for 2027/28 but explicitly says it is still to be approved. No course-specific 2027/28 call was identified."
+      "notes": "The university lists the programme for 2027/28 but explicitly says it is still to be approved. No course-specific 2027/28 call was identified. A Department open day is scheduled for 12 November 2026, but as checked on 11 November it has not yet occurred and does not confirm an intake or call."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "newly_discovered",
@@ -42406,7 +42408,9 @@
         },
         "status": "CONFIRMED",
         "source_ids": [
-          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027"
+          "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+          "SRC-PADUA-MAFBA-OPEN-DAY-2026",
+          "SRC-PADUA-MAFBA-DEPARTMENT-OPEN-DAY-2026"
         ],
         "notes": "Confirms a published proposal only; it does not confirm accreditation, opening, or first-year admission."
       },
@@ -42471,6 +42475,31 @@
         ],
         "notes": "The University approved the scheme for English-taught degree programmes, including new programmes, but this record's 2027/28 intake, final language/approval or course-level inclusion is still pending. Do not show it as a confirmed course award."
       },
+      "department_open_day_notice": {
+        "value": {
+          "academic_year": "2027/28 proposed course",
+          "scheduled_date": "2026-11-12",
+          "department": "Economics and Management 'Marco Fanno'",
+          "planned_topics": [
+            "Course presentation",
+            "Entry requirements",
+            "Admission tests",
+            "Admission procedures",
+            "Deadlines"
+          ],
+          "event_status_as_checked": "Scheduled; not yet held on 2026-11-11",
+          "published_times": {
+            "University_overview": "15:00–18:00",
+            "Department_notice": "registration from 15:00; event 15:30–18:00"
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADUA-MAFBA-OPEN-DAY-2026",
+          "SRC-PADUA-MAFBA-DEPARTMENT-OPEN-DAY-2026"
+        ],
+        "notes": "This records an official scheduled information event only. The event notices do not themselves publish course regulations or an admission call; no event outcome was available at the time of review."
+      },
       "scholarship_call_details_2027_2028": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
@@ -42483,6 +42512,8 @@
     "source_ids": [
       "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
       "SRC-PADUA-INTL-2027",
+      "SRC-PADUA-MAFBA-OPEN-DAY-2026",
+      "SRC-PADUA-MAFBA-DEPARTMENT-OPEN-DAY-2026",
       "SRC-PADUA-TUITION-2026",
       "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
       "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"

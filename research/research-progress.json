@@ -8,6 +8,7 @@
     "Verify every candidate program's 2027/28 availability, language and applicant eligibility.",
     "Collect fees, scholarships, application routes, contacts and field-specific requirements from official 2027/28 notices.",
     "Recheck sources that currently say information is not yet published.",
+    "Recheck Padua's Management, Finance and Business Analytics proposal after the 12 November 2026 open day for course-specific admission information.",
     "Run data and UI quality checks, deploy a preview, then repeat research/QA before any production deployment."
   ],
   "completed_batches": [
@@ -392,6 +393,11 @@
       "result": "Reviewed discovered-027, Finance and Insurance at Sapienza, against the official 2026/27 course catalogue/profile, Faculty course page, course enrollment guidance, English and Italian course-call PDFs, and general MoveIN/International Office pages. Confirmed course 33439 is a two-year LM-16 in-person Rome MSc with Finance and Insurance curricula taught in Italian and Financial Risk and Data Analysis taught in English. The 2026/27 calls accept L-18/L-33 (or corresponding older classes), or other degree classes with at least 72 CFU distributed across at least three subject areas including 18 statistical-mathematical CFU. They require a non-selective personal-preparation assessment, with specified exemptions and English B2 evidence. Course eligibility assessment opened 2 July 2026, with deadlines 15 September (non-EU visa applicants), 15 October, 17 November, 17 December and 14 January 2027 for Sapienza graduates; the course fee was €10. The €30 MoveIN pre-selection charge is separate. The English and Italian curricula have different non-EU visa routes. Both official call PDFs explicitly cover 2026/27; no 2027/28 intake or course terms were identified, so new-entry availability, requirements, dates, fee, places, tuition and scholarships remain unverified rather than discontinued. No applicant/admitted denominator was found for an acceptance rate. Fresh direct GETs returned HTTP 200 for reviewed HTML/PDF sources, with PDF signatures verified. No deployment or production settings were changed."
     },
     {
+      "id": "polito-digital-skills-italian-route-2026-27-and-2027-28-status",
+      "status": "partial",
+      "result": "Reviewed discovered-028, Digital Skills for Sustainable Societal Transitions at Politecnico di Torino, against the official 2026/27 course profile and Italian-qualification admission, requirements and deadline pages. Confirmed that Italian-qualification applicants could enter in either semester. The prior-cycle rules accepted degree classes L-8, L-9, L-31 or L-35, or an alternative credit route requiring at least 25 CFU in the specified first group and 45 CFU in the second; academic-performance thresholds varied by prior university, and English B2 (IELTS 5.5 equivalence, with listed exemptions) was required. The 2026/27 calendar listed a 27 August 2026 first-semester application deadline, 8 September assessment and 10 September result, plus an 18 January 2027 second-semester deadline, 27 January assessment and 29 January result; enrollment deadlines were 2 November 2026 and 22 February 2027. The page calls these admission tests but does not establish their format, scoring or selectivity. The foreign-qualification route remains separate and lists a €50 prior-cycle application charge; the Italian-route page says a fee is due for applicants from other Italian universities but does not publish the amount, so zero is not inferred. No 2027/28 first-year call, requirements, dates, fee, places, tuition or scholarship terms were confirmed. Fresh no-cache GETs returned HTTP 200 for all three Italian-route pages. No deployment or production settings were changed."
+    },
+    {
       "id": "claude-independent-review-inventory",
       "status": "complete",
       "result": "Created a review manifest and checklist covering all 34 universities, 193 programs, and 454 existing official source records. The checklist exposes current unresolved fields and conflicts; all refresh outcomes remain pending until evidence is checked."
@@ -407,9 +413,9 @@
       "result": "Direct HTTP review covers 554 unique URLs across 568 source records: 519 accessible, 13 redirected, 22 inconclusive and 0 confirmed broken. All 21 previously inconclusive URLs were retried via direct HTTP on 11 November and remained inconclusive. The three Padua scholarship, scheme and tuition URLs, five earlier Padua admissions/Statistical Science source URLs, the central Astrophysics and Cosmology profile, and the new student-awards page returned HTTP 200. The new Astrophysics Department call URL was inconclusive by direct HTTP and content-open; an official indexed result exposed its 2027/28 call details, but the link is not counted as directly verified. Twelve older inconclusive sources were separately opened and inspected through the official content fetcher: ten Camerino pages/PDFs, one Trieste historical catalogue PDF, and one Federico II Quantum Science and Engineering page. Nine older URLs still lack a successful independent content fetch; a 11 November retry of those nine also timed out or could not retrieve the PDF. Keep all inconclusive links classified as inconclusive, not broken."
     },
     {
-      "id": "polito-digital-skills-italian-route-2026-27-and-2027-28-status",
+      "id": "padua-management-finance-business-analytics-proposal-open-day-status",
       "status": "partial",
-      "result": "Reviewed discovered-028, Digital Skills for Sustainable Societal Transitions at Politecnico di Torino, against the official 2026/27 course profile and Italian-qualification admission, requirements and deadline pages. Confirmed that Italian-qualification applicants could enter in either semester. The prior-cycle rules accepted degree classes L-8, L-9, L-31 or L-35, or an alternative credit route requiring at least 25 CFU in the specified first group and 45 CFU in the second; academic-performance thresholds varied by prior university, and English B2 (IELTS 5.5 equivalence, with listed exemptions) was required. The 2026/27 calendar listed a 27 August 2026 first-semester application deadline, 8 September assessment and 10 September result, plus an 18 January 2027 second-semester deadline, 27 January assessment and 29 January result; enrollment deadlines were 2 November 2026 and 22 February 2027. The page calls these admission tests but does not establish their format, scoring or selectivity. The foreign-qualification route remains separate and lists a €50 prior-cycle application charge; the Italian-route page says a fee is due for applicants from other Italian universities but does not publish the amount, so zero is not inferred. No 2027/28 first-year call, requirements, dates, fee, places, tuition or scholarship terms were confirmed. Fresh no-cache GETs returned HTTP 200 for all three Italian-route pages. No deployment or production settings were changed."
+      "result": "Rechecked discovered-031, the proposed Management, Finance and Business Analytics BSc at the University of Padua. The English-degree catalogue still marks the 2027/28 proposal as awaiting approval. A University and Department open-day notice schedules presentation of the new course for 12 November 2026; the Department says entry requirements, tests, procedures and deadlines are planned discussion topics, but the notices publish no such rules or application call. The University overview lists 15:00–18:00, while the Department page lists registration from 15:00 and the event from 15:30–18:00; this timing difference is retained. Since the event was still in the future at the 11 November check, it does not confirm approval, first-year intake, course requirements, application dates or fees. The candidate remains pending. Fresh no-cache GETs returned HTTP 200 for the English-degree catalogue, University open-day page, Department event page and Padua International Excellence page; the latter still links the 2026/27 call and says 2027/28 call details will be published in November. No production changes were made."
     }
   ],
   "counts": {
@@ -702,8 +708,8 @@
       "trento",
       "udine"
     ],
-    "source_records": 674,
-    "official_source_supported_fields": 1434,
+    "source_records": 676,
+    "official_source_supported_fields": 1435,
     "verification_statuses": [
       "CONFIRMED",
       "NOT_YET_PUBLISHED",

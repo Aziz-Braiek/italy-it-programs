@@ -1315,6 +1315,22 @@ SOURCES = [
         "supports": ["program.planned_course_listing", "program.planned_level", "program.planned_language", "program.approval_status"],
     },
     {
+        "id": "SRC-PADUA-MAFBA-OPEN-DAY-2026",
+        "university_id": "padova", "title": "Management, Finance and Business Analytics – scheduled open day",
+        "url": "https://www.unipd.it/en/openday2026-27-economia-scienzepolitiche",
+        "source_type": "Official University open-day announcement", "accessed_at": "2026-11-11", "cycle": "2027-2028",
+        "evidence": "The University of Padua's School of Economics and Political Science lists Management, Finance and Business Analytics as a new course for 2027/28 and schedules its presentation at the 12 November 2026 open day. As checked on 11 November, this is a future event announcement; it does not report event outcomes, central approval, a first-year intake, or an application call. The page lists the event as 15:00–18:00.",
+        "supports": ["program.official_planned_course_listing_2027_2028", "program.program_development_notice", "program.availability_2027_2028"],
+    },
+    {
+        "id": "SRC-PADUA-MAFBA-DEPARTMENT-OPEN-DAY-2026",
+        "university_id": "padova", "title": "Management, Finance and Business Analytics – Department open day details",
+        "url": "https://www.economia.unipd.it/open-day-dei-corsi-di-laurea-triennale-di-economia-0",
+        "source_type": "Official Department open-day announcement", "accessed_at": "2026-11-11", "cycle": "2027-2028",
+        "evidence": "The Economics and Management Department includes Management, Finance and Business Analytics among the Bachelor's courses to be presented on 12 November 2026. Its notice says the event will cover entry requirements, tests, admission procedures and deadlines; those details are not provided in the notice itself. The department page lists registration from 15:00 and the event from 15:30 to 18:00, while the University's overview page lists 15:00–18:00.",
+        "supports": ["program.official_planned_course_listing_2027_2028", "program.program_development_notice", "program.availability_2027_2028"],
+    },
+    {
         "id": "SRC-PADUA-STATISTICAL-SCIENCE-PROFILE-2027",
         "university_id": "padova", "title": "Statistical Science – Department programme profile and projected start",
         "url": "https://www.stat.unipd.it/en/statistical-science",
@@ -2060,6 +2076,12 @@ BATCH43 = {
     "id": "polito-digital-skills-italian-route-2026-27-and-2027-28-status",
     "status": "partial",
     "result": "Reviewed discovered-028, Digital Skills for Sustainable Societal Transitions at Politecnico di Torino, against the official 2026/27 course profile and Italian-qualification admission, requirements and deadline pages. Confirmed that Italian-qualification applicants could enter in either semester. The prior-cycle rules accepted degree classes L-8, L-9, L-31 or L-35, or an alternative credit route requiring at least 25 CFU in the specified first group and 45 CFU in the second; academic-performance thresholds varied by prior university, and English B2 (IELTS 5.5 equivalence, with listed exemptions) was required. The 2026/27 calendar listed a 27 August 2026 first-semester application deadline, 8 September assessment and 10 September result, plus an 18 January 2027 second-semester deadline, 27 January assessment and 29 January result; enrollment deadlines were 2 November 2026 and 22 February 2027. The page calls these admission tests but does not establish their format, scoring or selectivity. The foreign-qualification route remains separate and lists a €50 prior-cycle application charge; the Italian-route page says a fee is due for applicants from other Italian universities but does not publish the amount, so zero is not inferred. No 2027/28 first-year call, requirements, dates, fee, places, tuition or scholarship terms were confirmed. Fresh no-cache GETs returned HTTP 200 for all three Italian-route pages. No deployment or production settings were changed.",
+}
+
+BATCH44 = {
+    "id": "padua-management-finance-business-analytics-proposal-open-day-status",
+    "status": "partial",
+    "result": "Rechecked discovered-031, the proposed Management, Finance and Business Analytics BSc at the University of Padua. The English-degree catalogue still marks the 2027/28 proposal as awaiting approval. A University and Department open-day notice schedules presentation of the new course for 12 November 2026; the Department says entry requirements, tests, procedures and deadlines are planned discussion topics, but the notices publish no such rules or application call. The University overview lists 15:00–18:00, while the Department page lists registration from 15:00 and the event from 15:30–18:00; this timing difference is retained. Since the event was still in the future at the 11 November check, it does not confirm approval, first-year intake, course requirements, application dates or fees. The candidate remains pending. Fresh no-cache GETs returned HTTP 200 for the English-degree catalogue, University open-day page, Department event page and Padua International Excellence page; the latter still links the 2026/27 call and says 2027/28 call details will be published in November. No production changes were made.",
 }
 
 SOURCE_RECHECKS = {
@@ -5043,9 +5065,11 @@ def apply(
         ("discovered-033", "Innovative Technologies in Agriculture (proposed 2027/28)", "Agricultural Technology", "Agricultural technology"),
     ]
     for pid, title, field_name, field_value in planned_padua:
+        event_sources = ["SRC-PADUA-MAFBA-OPEN-DAY-2026", "SRC-PADUA-MAFBA-DEPARTMENT-OPEN-DAY-2026"] if pid == "discovered-031" else []
+        listing_sources = [padua_planned_source, *event_sources]
         candidate = make_program(
             pid, "padova", title, "BSc (proposed)", "English (proposed)", field_value,
-            "REQUIRES_VERIFICATION", [padua_planned_source], city="Padua", discovery="newly_discovered",
+            "REQUIRES_VERIFICATION", listing_sources, city="Padua", discovery="newly_discovered",
         )
         candidate["level"] = fact("BSc (proposed)", "CONFIRMED", [padua_planned_source],
             "The official catalogue places the item under Bachelor's Degree Programmes but explicitly marks it as a new programme awaiting approval.")
@@ -5053,17 +5077,24 @@ def apply(
             "The official page is the English-taught programme catalogue; the individual proposal remains subject to approval.")
         candidate["field"] = fact(field_name, "REQUIRES_VERIFICATION", [padua_planned_source],
             "Field label is an editorial classification from the proposed programme title; no approved course specification is published.")
-        candidate["availability_2027_2028"] = fact(None, "REQUIRES_VERIFICATION", [padua_planned_source],
+        candidate["availability_2027_2028"] = fact(None, "REQUIRES_VERIFICATION", listing_sources,
+            "The university lists the programme for 2027/28 but explicitly says it is still to be approved. No course-specific 2027/28 call was identified. A Department open day is scheduled for 12 November 2026, but as checked on 11 November it has not yet occurred and does not confirm an intake or call." if pid == "discovered-031" else
             "The university lists the programme for 2027/28 but explicitly says it is still to be approved. No course-specific 2027/28 call was identified.")
         candidate["facts"] = {
-            "official_planned_course_listing_2027_2028": fact({"academic_year":"2027/28", "proposed_name":title.split(" (proposed")[0], "proposed_level":"Bachelor's degree", "listed_in_english_degree_catalogue":True, "approval_status":"To be approved"}, "CONFIRMED", [padua_planned_source], "Confirms a published proposal only; it does not confirm accreditation, opening, or first-year admission."),
+            "official_planned_course_listing_2027_2028": fact({"academic_year":"2027/28", "proposed_name":title.split(" (proposed")[0], "proposed_level":"Bachelor's degree", "listed_in_english_degree_catalogue":True, "approval_status":"To be approved"}, "CONFIRMED", listing_sources, "Confirms a published proposal only; it does not confirm accreditation, opening, or first-year admission."),
             "application_windows": fact(None, "NOT_YET_PUBLISHED", [padua_planned_source, "SRC-PADUA-INTL-2027"], "The University has general 2027/28 international calls for most courses, but the proposed degree itself is awaiting approval and no course-specific admission window or inclusion in those calls was identified."),
             "program_specific_requirements_2027_2028": fact(None, "REQUIRES_VERIFICATION", [padua_planned_source], "No approved course regulations or programme-specific entry requirements have been published in the reviewed source."),
             "application_fee_2027_2028": fact(None, "REQUIRES_VERIFICATION", [padua_planned_source], "No programme-specific application fee is confirmed for this unapproved proposal."),
             "tuition_2027_2028": fact(None, "REQUIRES_VERIFICATION", [padua_planned_source], "No course-specific 2027/28 fee is confirmed for this unapproved proposal."),
             "scholarships_2027_2028": fact(None, "REQUIRES_VERIFICATION", [padua_planned_source], "No programme-specific 2027/28 scholarship call is confirmed."),
         }
-        candidate["source_ids"] = [padua_planned_source, "SRC-PADUA-INTL-2027"]
+        candidate["source_ids"] = list(dict.fromkeys([padua_planned_source, "SRC-PADUA-INTL-2027", *event_sources]))
+        if pid == "discovered-031":
+            candidate["facts"]["department_open_day_notice"] = fact(
+                {"academic_year": "2027/28 proposed course", "scheduled_date": "2026-11-12", "department": "Economics and Management 'Marco Fanno'", "planned_topics": ["Course presentation", "Entry requirements", "Admission tests", "Admission procedures", "Deadlines"], "event_status_as_checked": "Scheduled; not yet held on 2026-11-11", "published_times": {"University_overview": "15:00–18:00", "Department_notice": "registration from 15:00; event 15:30–18:00"}},
+                "CONFIRMED", event_sources,
+                "This records an official scheduled information event only. The event notices do not themselves publish course regulations or an admission call; no event outcome was available at the time of review.",
+            )
         candidate["last_checked"] = "2026-11-11"
         programs.append(candidate)
 
@@ -8079,6 +8110,65 @@ SOURCE_RECHECKS.update({
             "x_vercel_cache": None, "x_vercel_id": None, "location": None,
             "observed_title": "Deadlines Architecture Area a.y. 2026/27 | Politecnico di Torino",
             "pdf_signature": None, "has_2027_marker": True, "bytes_read": 175895,
+            "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib)",
+        },
+    },
+})
+
+SOURCE_RECHECKS.update({
+    "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://www.unipd.it/en/corsi-laurea-lingua-inglese",
+            "content_type": "text/html; charset=utf-8", "content_length_header": None,
+            "etag": None, "last_modified": None,
+            "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate", "age": None,
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Bachelor's, Master's degree and Single-cycle Master's degree programme in English | Università di Padova",
+            "pdf_signature": None, "has_2027_marker": True, "bytes_read": 1421154,
+            "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib)",
+        },
+    },
+    "SRC-PADUA-MAFBA-OPEN-DAY-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://www.unipd.it/en/openday2026-27-economia-scienzepolitiche",
+            "content_type": "text/html; charset=utf-8", "content_length_header": None,
+            "etag": None, "last_modified": None,
+            "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate", "age": None,
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Open Day 2026-27 - School of Economics and Political Science | Università di Padova",
+            "pdf_signature": None, "has_2027_marker": True, "bytes_read": 1440674,
+            "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib)",
+        },
+    },
+    "SRC-PADUA-MAFBA-DEPARTMENT-OPEN-DAY-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://www.economia.unipd.it/open-day-dei-corsi-di-laurea-triennale-di-economia-0",
+            "content_type": "text/html; charset=utf-8", "content_length_header": "45890",
+            "etag": "W/\"1794404080.593-1\"", "last_modified": "Wed, 11 Nov 2026 13:34:40 GMT",
+            "cache_control": "public, max-age=1800", "age": "1096",
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Open Day dei Corsi di Laurea Triennale di Economia | Dipartimento di Scienze Economiche e Aziendali \"Marco Fanno\" | Università di Padova",
+            "pdf_signature": None, "has_2027_marker": False, "bytes_read": 45890,
+            "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib)",
+        },
+    },
+    "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://www.unipd.it/en/padua-international-excellence-scholarship-programme",
+            "content_type": "text/html; charset=utf-8", "content_length_header": None,
+            "etag": None, "last_modified": None,
+            "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate", "age": None,
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Padua International Excellence Scholarship Programme | Università di Padova",
+            "pdf_signature": None, "has_2027_marker": True, "bytes_read": 1449321,
             "outcome": "accessible", "error": None,
             "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (Python urllib)",
         },
