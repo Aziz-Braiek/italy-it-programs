@@ -1501,6 +1501,39 @@ SOURCES = [
         "evidence": "The current Sapienza page says applicants to non-restricted degree programmes may sit the required TOLC and pay the €10 access contribution through 19 November 2026, and pay the first tuition instalment through 25 November 2026. It lists the second and third instalments as due 27 December 2026 and 25 March 2027. These university-wide extensions apply to the non-restricted 2026/27 route; they do not establish 2027/28 dates.",
         "supports": ["program.previous_cycle_application_windows", "program.previous_cycle_application_fee", "program.previous_cycle_tuition", "program.application_windows_2027_2028"],
     },
+    {
+        "id": "SRC-SAPIENZA-PSYCHOLOGY-CALL-2026",
+        "university_id": "sapienza",
+        "title": "Psychology and Health – AY 2026/27 admission call (Bando 05429)",
+        "url": "https://www.uniroma1.it/sites/default/files/field_file_allegati/05429_i.pdf",
+        "source_type": "Official Sapienza admission call PDF",
+        "accessed_at": "2026-11-11",
+        "cycle": "2026-2027",
+        "evidence": "The 2026/27 Bando 05429 (D.R. 1329/2026, issued 24 June 2026) is for four separate L-24 courses including Psicologia e Salute (33570), with test code 05429. It assigns Psychology and Health 275 Italian/EU/equivalent places and 10 places for non-EU applicants resident abroad who need a study visa. New entrants had to take CISIA TOLC-PSI or TOLC@CASA, score at least 23/50 for ranking, register a single course preference in Infostud from 2 July to 7 September 2026, and pay a non-refundable €10 Sapienza selection contribution plus the separate €35 CISIA TOLC fee. The call gives the ranking/scorrimento calendar through October and vacancy procedures through 11 November. The test has 50 scored questions in 100 minutes plus 30 English questions in 15 minutes; scoring is +1/−0.25/0, and the English section does not affect ranking. It required a secondary-school diploma obtained or expected in 2026; non-EU visa applicants abroad also needed Universitaly pre-enrolment by 30 June 2026 and Italian B2. These terms are historical and do not establish 2027/28 entry.",
+        "supports": ["program.previous_cycle_course_listing", "program.previous_cycle_admission_route", "program.previous_cycle_application_windows", "program.previous_cycle_available_places", "program.previous_cycle_admission_requirements", "program.previous_cycle_entrance_test", "program.previous_cycle_application_fee", "program.previous_cycle_tuition"],
+    },
+    {
+        "id": "SRC-SAPIENZA-PSYCHOLOGY-INDEX-2026",
+        "university_id": "sapienza",
+        "title": "Sapienza AY 2026/27 admissions index – L-24 Psychology courses",
+        "url": "https://www.uniroma1.it/it/node/534988",
+        "source_type": "Official Sapienza admissions index",
+        "accessed_at": "2026-11-11",
+        "cycle": "2026-2027",
+        "evidence": "The official admissions index lists the 2026/27 L-24 Psychology admission call with code 05429 and includes Psicologia e Salute, course 33570. The page is prior-cycle course and route evidence only.",
+        "supports": ["program.previous_cycle_course_listing", "program.previous_cycle_admission_route", "program.application_windows_2027_2028"],
+    },
+    {
+        "id": "SRC-SAPIENZA-PSYCHOLOGY-APPLY-2026",
+        "university_id": "sapienza",
+        "title": "Psicologia e Salute – current catalogue application and ranking page",
+        "url": "https://corsidilaurea.uniroma1.it/it/course/33570/apply",
+        "source_type": "Official Sapienza course application and ranking page",
+        "accessed_at": "2026-11-11",
+        "cycle": "2026-2027",
+        "evidence": "The current course page links Bando 05429 and the initial EU ranking plus first, second and third EU scrolling lists. It says OFA must be resolved by the end of year one through support activities and a course recovery test or exam. The linked pages describe the 2026/27 procedure and do not confirm 2027/28 first-year entry.",
+        "supports": ["program.previous_cycle_course_listing", "program.previous_cycle_admission_windows", "program.previous_cycle_outcome", "program.previous_cycle_entrance_test"],
+    },
 ]
 
 BATCH = {
@@ -1669,6 +1702,12 @@ BATCH28 = {
     "id": "sapienza-political-science-2026-27-open-access-and-next-cycle-review",
     "status": "partial",
     "result": "Rechecked Sapienza Scienze politiche e relazioni internazionali (course 33618, L-36, Rome, Italian) against its live catalogue, application page, the 2026/27 Bando 14620, Sapienza's admissions index, the non-restricted-program deadline extension, tuition pages and current scholarship inventory. The prior-cycle route requires a knowledge-verification TOLC-SU/TOLC@CASA, with a limited exemption for candidates who took TOLC-SPS in 2025; this is an open access check, not a competitive seat ranking. Recorded the original test/payment cutoff of 29 October 2026 and the later extension to 19 November, plus the original 5 November first-payment deadline and its extension to 25 November. The €10 Sapienza access contribution and separate €35 CISIA TOLC fee are distinguished. The call requires a 2026 upper-secondary diploma; non-EU applicants resident abroad needing a visa also needed Universitaly pre-enrolment by 30 June and Italian B2. TOLC-SU is 50 scored questions in 100 minutes plus an unscored 30-question English section, with +1/−0.25/0 scoring and a once-per-month retake limit. The 2026/27 call sets OFA at <=18/50 (SU) or <=12/40 (SPS); the live course-page news note references the prior 2025 call and says >=18/50 / >=12/40 avoids OFA, so the score-18 boundary is flagged as a stale-page discrepancy. Tuition follows the ISEE-based framework and 30/35/35 installment structure; the €2,821 Art. 38 amount is restricted to second-level and single-cycle degrees and is not applied to this three-year BSc. DiSCo Lazio is competitive regional aid; Wanted the Best is a Master's entrant scheme, not a BSc award. No 2027/28 course entry call, application dates, fee, tuition schedule or incoming scholarship call was present in the reviewed official material as of 11 November 2026; the absence is not treated as discontinuation. Fresh no-cache GETs returned HTTP 200 for all seven reviewed profile, application, call, index, fee and scholarship endpoints, and the call PDF signature was valid. No deployment or Vercel changes were made.",
+}
+
+BATCH29 = {
+    "id": "sapienza-psychology-and-health-2026-27-tolc-psi-and-next-cycle-review",
+    "status": "partial",
+    "result": "Rechecked Sapienza Psicologia e Salute (course 33570, L-24, Rome, Italian) against its live catalogue, current application/ranking page, Bando 05429, the University admissions index, tuition pages and scholarship inventory. The 2026/27 course is restricted access: 275 places for Italian/EU/equivalent applicants plus 10 for non-EU applicants resident abroad needing a visa. Applicants took TOLC-PSI/TOLC@CASA, needed at least 23/50 to be ranked, chose this or one of three other L-24 courses as their single Infostud preference, and used the best valid test score. Applications and test preference ran 2 July–7 September 2026; the call listed rankings and payment/scorrimento deadlines through October and a vacancy process through 11 November. Recorded the 2026 diploma requirement, non-EU Universitaly deadline of 30 June and Italian B2, and separate non-refundable €10 Sapienza selection and €35 CISIA TOLC fees. The test has 50 scored items in 100 minutes plus an unranked 30-question English section; scoring is +1/−0.25/0. OFA thresholds are section-specific for Italian, mathematics and English. Sapienza's general ISEE-based fee framework applies; the call adds regional tax and €16 stamp duty, with no course-specific annual total stated. DiSCo Lazio is competitive regional aid; Wanted the Best is for Master's entrants and is not an L-24 BSc entrant award. No 2027/28 course intake call, application dates, fee, requirements, tuition schedule or incoming scholarship call appeared in the reviewed official material as of 11 November 2026; absence of the new call is not treated as discontinuation. Fresh no-cache GETs returned HTTP 200 for all seven profile, application, call, index, fee and scholarship endpoints, and the call PDF signature was valid. No deployment or Vercel changes were made.",
 }
 
 SOURCE_RECHECKS = {
@@ -2852,6 +2891,58 @@ SOURCE_RECHECKS.update({
             "cache_control": "public, max-age=86400", "age": None, "x_vercel_cache": None, "x_vercel_id": None,
             "location": None, "observed_title": "Scholarships | Sapienza Università di Roma", "pdf_signature": None,
             "has_2027_marker": True, "bytes_read": 50499, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)",
+        },
+    },
+})
+
+SOURCE_RECHECKS.update({
+    "SRC-SAPIENZA-PSYCHOLOGY-2026": {
+        "accessed_at": "2026-11-11",
+        "evidence": "The live 2026/27 catalogue identifies Psicologia e Salute (course 33570, test code 05429) as a three-year L-24 Laurea in Rome, taught in Italian, with admission-test access. This is prior-cycle evidence and does not confirm a 2027/28 first-year intake.",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://corsidilaurea.uniroma1.it/it/course/33570",
+            "content_type": "text/html; charset=utf-8", "content_length_header": None,
+            "etag": "W/\"1794393877-1\"", "last_modified": "Wed, 11 Nov 2026 10:44:37 GMT",
+            "cache_control": "public, max-age=0", "age": "0", "x_vercel_cache": None, "x_vercel_id": None,
+            "location": None, "observed_title": "Psicologia e Salute | Course catalogue", "pdf_signature": None,
+            "has_2027_marker": True, "bytes_read": 20380, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)",
+        },
+    },
+    "SRC-SAPIENZA-PSYCHOLOGY-CALL-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://www.uniroma1.it/sites/default/files/field_file_allegati/05429_i.pdf",
+            "content_type": "application/pdf", "content_length_header": "618408",
+            "etag": "\"96fa8-654ff61a40960\"", "last_modified": "Wed, 24 Jun 2026 12:54:51 GMT",
+            "cache_control": None, "age": None, "x_vercel_cache": None, "x_vercel_id": None,
+            "location": None, "observed_title": None, "pdf_signature": True,
+            "has_2027_marker": True, "bytes_read": 618408, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)",
+        },
+    },
+    "SRC-SAPIENZA-PSYCHOLOGY-INDEX-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://www.uniroma1.it/it/node/534988",
+            "content_type": "text/html; charset=utf-8", "content_length_header": None,
+            "etag": "\"1794395015-1\"", "last_modified": "Wed, 11 Nov 2026 11:03:35 GMT",
+            "cache_control": "public, max-age=86400", "age": None, "x_vercel_cache": None, "x_vercel_id": None,
+            "location": None, "observed_title": "Corsi di studio: ammissioni 2026-2027 | Sapienza Università di Roma", "pdf_signature": None,
+            "has_2027_marker": True, "bytes_read": 73364, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)",
+        },
+    },
+    "SRC-SAPIENZA-PSYCHOLOGY-APPLY-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://corsidilaurea.uniroma1.it/it/course/33570/apply",
+            "content_type": "text/html; charset=utf-8", "content_length_header": None,
+            "etag": "W/\"1794394912-1\"", "last_modified": "Wed, 11 Nov 2026 11:01:52 GMT",
+            "cache_control": "public, max-age=0", "age": "0", "x_vercel_cache": None, "x_vercel_id": None,
+            "location": None, "observed_title": "Psicologia e Salute | Course catalogue", "pdf_signature": None,
+            "has_2027_marker": True, "bytes_read": 20788, "outcome": "accessible", "error": None,
             "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)",
         },
     },
@@ -4569,6 +4660,122 @@ def apply(
         "label": "Official 2026/27 identity and open-access knowledge-verification call; 2027/28 first-year intake remains unannounced",
     }
     political_science["last_checked"] = "2026-11-11"
+
+    psychology = next(program for program in programs if program.get("id") == "legacy-156")
+    psychology_sources = [
+        "SRC-SAPIENZA-PSYCHOLOGY-2026",
+        "SRC-SAPIENZA-PSYCHOLOGY-APPLY-2026",
+        "SRC-SAPIENZA-PSYCHOLOGY-CALL-2026",
+        "SRC-SAPIENZA-PSYCHOLOGY-INDEX-2026",
+        "SRC-SAPIENZA-FEES-2026",
+        "SRC-SAPIENZA-FEE-TABLE-2026",
+        "SRC-SAPIENZA-DISCO-LAZIO-2026",
+        "SRC-SAPIENZA-WANTED-BEST-2026",
+        "SRC-SAPIENZA-SCHOLARSHIPS-2026",
+    ]
+    psychology["program"] = "Psicologia e Salute"
+    psychology["city"] = "Rome"
+    psychology["level"] = fact(
+        "Bachelor's degree (Laurea, class L-24)", "REQUIRES_VERIFICATION",
+        ["SRC-SAPIENZA-PSYCHOLOGY-2026", "SRC-SAPIENZA-PSYCHOLOGY-CALL-2026"],
+        "The 2026/27 catalogue and admission call agree on course 33570, class L-24 and a three-year Laurea. 2027/28 catalogue identity remains to be checked.",
+    )
+    psychology["language"] = fact(
+        "Italian", "REQUIRES_VERIFICATION", ["SRC-SAPIENZA-PSYCHOLOGY-2026"],
+        "Official delivery is Italian for 2026/27; verify the 2027/28 course profile.",
+    )
+    psychology["field"] = fact(
+        "Psychology", "REQUIRES_VERIFICATION", ["SRC-SAPIENZA-PSYCHOLOGY-2026"],
+        "Official course identity is confirmed for 2026/27 only; the 2027/28 catalogue has not yet confirmed this new-entry row.",
+    )
+    psychology["availability_2027_2028"] = fact(
+        None, "NOT_YET_PUBLISHED", [
+            "SRC-SAPIENZA-PSYCHOLOGY-2026", "SRC-SAPIENZA-PSYCHOLOGY-APPLY-2026",
+            "SRC-SAPIENZA-PSYCHOLOGY-CALL-2026", "SRC-SAPIENZA-PSYCHOLOGY-INDEX-2026",
+        ],
+        "No 2027/28 course listing or first-year call appears in the official course profile, application/ranking page or central admissions index reviewed on 11 November 2026. The 2026/27 course is confirmed; absence of the new-cycle call is not treated as discontinuation.",
+    )
+    psychology["overall_status"] = "REQUIRES_VERIFICATION"
+    psychology["source_ids"] = psychology_sources
+    psychology["facts"] = {
+        "previous_cycle_course_listing": fact(
+            {"academic_year": "2026/27", "official_name": "Psicologia e Salute", "course_code": "33570", "test_code": "05429", "degree_class": "L-24", "duration_years": 3, "degree_type": "Bachelor's degree (Laurea)", "campus": "Rome", "language": "Italian", "access": "Restricted access by ranked TOLC-PSI selection", "faculty": "Medicina e Psicologia", "department": "Psicologia Dinamica, Clinica e Salute"},
+            "CONFIRMED", ["SRC-SAPIENZA-PSYCHOLOGY-2026", "SRC-SAPIENZA-PSYCHOLOGY-CALL-2026", "SRC-SAPIENZA-PSYCHOLOGY-INDEX-2026"],
+            "This is the official AY 2026/27 course identity; it does not by itself establish a 2027/28 intake.",
+        ),
+        "previous_cycle_admission_routes": fact(
+            {"academic_year": "2026/27", "route": "Competitive limited-access selection using TOLC-PSI/TOLC@CASA and merit ranking", "test_code": "05429", "ranking_minimum": "At least 23/50 in the five ranked TOLC-PSI sections", "test_score_rule": "Best valid TOLC-PSI score is used", "course_preference": "Choose one of four separate L-24 course rankings through Infostud; only the last valid preference is used"},
+            "CONFIRMED", ["SRC-SAPIENZA-PSYCHOLOGY-CALL-2026", "SRC-SAPIENZA-PSYCHOLOGY-INDEX-2026"],
+            "The call treats the four L-24 programmes as separate rankings and permits a single course preference; the quota and score threshold recorded here are specifically for Psicologia e Salute.",
+        ),
+        "previous_cycle_application_windows": fact(
+            {"academic_year": "2026/27", "selection_and_course_preference_window": ["2026-07-02", "2026-09-07"], "tolc_psi_deadline": "2026-09-07", "valid_test_period_start": "2025-01-01", "participant_score_list": "2026-09-09", "score_discrepancy_deadline": "2026-09-11", "initial_ranking_and_enrolment_start": "2026-09-17", "initial_winner_payment_deadline": "2026-09-22", "first_scrolling": {"published": "2026-09-24", "payment_deadline": "2026-09-28"}, "second_scrolling": {"published": "2026-10-01", "payment_deadline": "2026-10-06"}, "third_scrolling": {"published": "2026-10-08", "payment_deadline": "2026-10-13"}, "vacant_seat_notice": "2026-10-20", "vacancy_intention_deadline": "2026-10-27", "vacancy_list_and_payment_period": ["2026-11-05", "2026-11-11"], "non_eu_abroad_visa_pre_enrolment_deadline": "2026-06-30"},
+            "CONFIRMED", ["SRC-SAPIENZA-PSYCHOLOGY-CALL-2026", "SRC-SAPIENZA-PSYCHOLOGY-APPLY-2026"],
+            "These are the prior-cycle competitive-selection and scrolling dates. The non-restricted-course November extension does not apply to this restricted-access selection.",
+        ),
+        "previous_cycle_available_places": fact(
+            {"academic_year": "2026/27", "total": 285, "italian_eu_and_equivalent": 275, "non_eu_resident_abroad_requiring_study_visa": 10, "quota_reallocation": "Unused non-EU visa places may be made available to Italian/EU/equivalent applicants"},
+            "CONFIRMED", ["SRC-SAPIENZA-PSYCHOLOGY-CALL-2026"],
+            "These are the initial places in the 2026/27 call. The 10-place quota is for non-EU applicants resident abroad who need a study visa; do not add the four course quotas together as a Psicologia e Salute count.",
+        ),
+        "previous_cycle_admission_requirements": fact(
+            {"academic_year": "2026/27", "italian_eu_and_equivalent": {"secondary_credential": "Upper-secondary school diploma obtained or expected in 2026", "test": "TOLC-PSI or TOLC@CASA at Sapienza or another CISIA university, taken from January 2025 through 7 September 2026"}, "non_eu_resident_abroad_requiring_study_visa": {"secondary_credential": "Upper-secondary school diploma obtained or expected in 2026", "test": "TOLC-PSI or TOLC@CASA by 7 September 2026", "universitaly_pre_enrolment_deadline": "2026-06-30", "italian_language": "B2 test or recognized certificate"}, "foreign_secondary_qualification": "Sapienza qualification and document checks apply", "separate_gpa_threshold": "Not stated in the reviewed call"},
+            "CONFIRMED", ["SRC-SAPIENZA-PSYCHOLOGY-CALL-2026"],
+            "The non-EU visa route is limited to applicants resident abroad who need a study visa; it is separate from the Italian/EU/equivalent quota. All criteria are prior-cycle only.",
+        ),
+        "previous_cycle_entrance_test": fact(
+            {"test": "CISIA TOLC-PSI / TOLC@CASA", "scored_questions": 50, "sections": [{"name": "Text comprehension", "questions": 10, "minutes": 20}, {"name": "Basic mathematics", "questions": 10, "minutes": 20}, {"name": "Verbal reasoning", "questions": 10, "minutes": 25}, {"name": "Numerical reasoning", "questions": 10, "minutes": 20}, {"name": "Biology", "questions": 10, "minutes": 15}], "scored_duration_minutes": 100, "additional_english_section": {"questions": 30, "minutes": 15, "included_in_ranking": False, "used_for_english_ofa": True}, "scoring": {"correct": 1, "incorrect": -0.25, "blank": 0}, "ranking_minimum_score": "At least 23/50; English is excluded", "tie_break_order": ["Text comprehension", "Basic mathematics", "Verbal reasoning", "Numerical reasoning", "Biology", "Younger candidate"], "retake_rule": "At most once per calendar month; best valid result is used", "ofa_thresholds": {"Italian": "Score <=5 from combined text comprehension and verbal reasoning", "Mathematics": "Score <=5 from combined numerical reasoning and basic mathematics", "English": "Score <=5 in English section"}, "ofa_deadline": "By the end of first year; support course followed by recovery test or eligible first-year exam"},
+            "CONFIRMED", ["SRC-SAPIENZA-PSYCHOLOGY-CALL-2026", "SRC-SAPIENZA-PSYCHOLOGY-APPLY-2026"],
+            "The 30-question English section is required but excluded from the ranking; it is used to assign English OFA. These are prior-cycle test and OFA rules only.",
+        ),
+        "previous_cycle_application_fee": fact(
+            {"academic_year": "2026/27", "sapienza_selection_contribution_eur": 10, "sapienza_contribution_scope": "One non-refundable contribution for participation in the 05429 selection", "cisia_tolc_psi_registration_fee_eur": 35, "cisia_fee_scope": "Separate payment to CISIA to take TOLC-PSI"},
+            "CONFIRMED", ["SRC-SAPIENZA-PSYCHOLOGY-CALL-2026"],
+            "The €10 Infostud selection contribution and €35 CISIA test fee are separate; neither is a 2027/28 price.",
+        ),
+        "previous_cycle_tuition": fact(
+            {"academic_year": "2026/27", "bachelor_course_specific_annual_total_eur": None, "amount_status": "No Psicologia e Salute L-24 total is stated in the reviewed admission call and tuition pages", "calculation": "ISEE-based Sapienza contribution rules and applicable benefits/exemptions", "payment_installments_percent": [30, 35, 35], "first_installment_due_by_rank": {"initial_winners": "2026-09-22", "first_scrolling": "2026-09-28", "second_scrolling": "2026-10-06", "third_scrolling": "2026-10-13"}, "additional_amounts": ["Regional tax, where due", "€16 stamp duty"]},
+            "CONFIRMED", ["SRC-SAPIENZA-PSYCHOLOGY-CALL-2026", "SRC-SAPIENZA-FEES-2026", "SRC-SAPIENZA-FEE-TABLE-2026"],
+            "The official pages confirm the ISEE-based framework, 30/35/35 structure and additional regional tax/stamp duty, but no course-specific annual L-24 total. No individual tuition amount is inferred.",
+        ),
+        "previous_cycle_scholarships": fact(
+            {"academic_year": "2026/27", "DiSCo_Lazio": {"type": "Competitive regional right-to-study grant and related benefits", "application_deadline_after_extension": "2026-07-23 20:00", "corrections_deadline": "2026-08-11 12:00", "eligibility": "Subject to annual economic, merit and other call requirements"}, "not_course_awards": {"Wanted_the_Best": "The 2026/27 award targets students entering Sapienza Master's degrees after graduating from another Italian university; it is not an incoming L-24 BSc award"}},
+            "CONFIRMED", ["SRC-SAPIENZA-DISCO-LAZIO-2026", "SRC-SAPIENZA-WANTED-BEST-2026", "SRC-SAPIENZA-SCHOLARSHIPS-2026"],
+            "DiSCo Lazio is competitive regional aid, not a guaranteed course award. The University's general inventory describes other limited-eligibility schemes, but Wanted the Best is Master's-only and not an L-24 BSc entrant scholarship.",
+        ),
+        "application_windows_2027_2028": fact(
+            None, "NOT_YET_PUBLISHED", ["SRC-SAPIENZA-PSYCHOLOGY-2026", "SRC-SAPIENZA-PSYCHOLOGY-APPLY-2026", "SRC-SAPIENZA-PSYCHOLOGY-CALL-2026", "SRC-SAPIENZA-PSYCHOLOGY-INDEX-2026"],
+            "No 2027/28 first-year dates or new-cycle call appeared on the official course profile/application page or central admissions index reviewed on 11 November 2026. Do not carry forward the 2026/27 restricted-selection calendar.",
+        ),
+        "application_fee_2027_2028": fact(
+            None, "NOT_YET_PUBLISHED", ["SRC-SAPIENZA-PSYCHOLOGY-CALL-2026", "SRC-SAPIENZA-PSYCHOLOGY-INDEX-2026"],
+            "No 2027/28 Sapienza selection contribution or TOLC-PSI fee was announced in the reviewed official course and admissions material.",
+        ),
+        "program_specific_requirements_2027_2028": fact(
+            None, "NOT_YET_PUBLISHED", ["SRC-SAPIENZA-PSYCHOLOGY-2026", "SRC-SAPIENZA-PSYCHOLOGY-CALL-2026"],
+            "No 2027/28 first-year call or course-specific entry requirements were published in the reviewed catalogue and admissions pages as of 11 November 2026.",
+        ),
+        "tuition_2027_2028": fact(
+            None, "NOT_YET_PUBLISHED", ["SRC-SAPIENZA-FEES-2026", "SRC-SAPIENZA-FEE-TABLE-2026"],
+            "The reviewed tuition pages display the 2026/27 framework; no 2027/28 tuition regulation or course-level annual amount was published as of 11 November 2026.",
+        ),
+        "scholarships_2027_2028": fact(
+            None, "NOT_YET_PUBLISHED", ["SRC-SAPIENZA-SCHOLARSHIPS-2026", "SRC-SAPIENZA-DISCO-LAZIO-2026"],
+            "No 2027/28 DiSCo annual call or incoming L-24 scholarship call was present in the reviewed official university and regional aid pages as of 11 November 2026. This does not mean students are ineligible for general aid once annual calls open.",
+        ),
+        "acceptance_rate": fact(
+            None, "UNAVAILABLE", ["SRC-SAPIENZA-PSYCHOLOGY-CALL-2026", "SRC-SAPIENZA-PSYCHOLOGY-APPLY-2026"],
+            "The call provides quotas and rankings, but the reviewed sources do not provide a complete comparable applicant denominator and final admitted total across the selection and vacancy process; no acceptance rate is inferred.",
+        ),
+    }
+    psychology["previous_cycle_tags"] = {
+        "level": "Bachelor's degree (Laurea, class L-24)",
+        "language": "Italian",
+        "field": "Psychology",
+        "cycle": "2026-2027",
+        "label": "Official 2026/27 identity and restricted-access TOLC-PSI call; 2027/28 first-year intake remains unannounced",
+    }
+    psychology["last_checked"] = "2026-11-11"
 
     cybersecurity = next(program for program in programs if program.get("id") == "legacy-031")
     cybersecurity_award_source = "SRC-PADUA-STUDENT-AWARDS-CYBERSECURITY-2026"

@@ -2,7 +2,7 @@
 
 Prepared 2026-11-11 for academic year 2027/28. Review each record against official university pages, calls, portals, regulations, and PDFs.
 
-Snapshot inventory: 34 universities, 209 program records, 627 source records.
+Snapshot inventory: 34 universities, 209 program records, 630 source records.
 
 ## Review rules
 
@@ -1025,7 +1025,7 @@ Official university-level sources:
 - [ ] `SRC-SAPIENZA-MEDICINE-2026` — [Medicine and Surgery course catalogue entries 2026/27](https://corsidilaurea.uniroma1.it/it/solr-offerta-formativa-t?search_api_views_fulltext=Medicina+e+chirurgia) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-SAPIENZA-AEROSPACE-BSC-2026` — [Ingegneria Aerospaziale course profile 2026/27](https://corsidilaurea.uniroma1.it/it/course/33474) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-SAPIENZA-POLITICAL-SCIENCE-2026` — [Political Science and International Relations bachelor’s profile 2026/27](https://corsidilaurea.uniroma1.it/it/course/33618) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
-- [ ] `SRC-SAPIENZA-PSYCHOLOGY-2026` — [Psychology and Health bachelor’s profile 2026/27](https://corsidilaurea.uniroma1.it/it/course/33570) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-SAPIENZA-PSYCHOLOGY-2026` — [Psychology and Health bachelor’s profile 2026/27](https://corsidilaurea.uniroma1.it/it/course/33570) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-SAPIENZA-ECONOMICS-FINANCE-2026` — [Economics and Finance bachelor’s listing 2026/27](https://corsidilaurea.uniroma1.it/en/timeview/2026/34177/organization) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-SAPIENZA-FINANCE-INSURANCE-2026` — [Finance and Insurance Master’s profile 2026/27](https://www.corsidilaurea.uniroma1.it/en/course/33439) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-SAPIENZA-INGINFO-ARCHIVE-2024` — [Ingegneria Informatica historical course archive](https://corsidilaurea.uniroma1.it/sites/default/files/archive/2024/30430.pdf) (cycle: 2024-2025; checked in prior snapshot: 2026-11-10)
@@ -1046,6 +1046,9 @@ Official university-level sources:
 - [ ] `SRC-SAPIENZA-POLITICAL-SCIENCE-INDEX-2026` — [Sapienza AY 2026/27 admissions index – Political Science area](https://www.uniroma1.it/it/node/534988) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-SAPIENZA-POLITICAL-SCIENCE-APPLY-2026` — [Scienze politiche e relazioni internazionali – application and OFA page](https://corsidilaurea.uniroma1.it/it/course/33618/apply) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-SAPIENZA-OPEN-ACCESS-DEADLINE-EXTENSION-2026` — [Sapienza 2026/27 deadline extension for non-restricted degree programmes](https://www.uniroma1.it/en/pagina/tuition-fees-and-benefits) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-SAPIENZA-PSYCHOLOGY-CALL-2026` — [Psychology and Health – AY 2026/27 admission call (Bando 05429)](https://www.uniroma1.it/sites/default/files/field_file_allegati/05429_i.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-SAPIENZA-PSYCHOLOGY-INDEX-2026` — [Sapienza AY 2026/27 admissions index – L-24 Psychology courses](https://www.uniroma1.it/it/node/534988) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-SAPIENZA-PSYCHOLOGY-APPLY-2026` — [Psicologia e Salute – current catalogue application and ranking page](https://corsidilaurea.uniroma1.it/it/course/33570/apply) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 
 #### Computer Science — `legacy-038`
 
@@ -1257,23 +1260,28 @@ Currently missing or unpublished fields:
 
 #### Psicologia e Salute — `legacy-156`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-156/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/sapienza/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
-- [ ] `SRC-SAPIENZA-PSYCHOLOGY-2026` — [Psychology and Health bachelor’s profile 2026/27](https://corsidilaurea.uniroma1.it/it/course/33570) (cycle: 2026-2027; prior check: 2026-11-10)
-- [ ] `SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026` — [Programmes in English and 2026/27 pre-selection](https://www.uniroma1.it/en/en/admissions) (cycle: 2026-2027; prior check: 2026-11-10)
-- [ ] `SRC-SAPIENZA-INTL-OFFICE-2026` — [International Student Office admissions procedures 2026/27](https://www.uniroma1.it/en/node/24774) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-SAPIENZA-PSYCHOLOGY-APPLY-2026` — [Psicologia e Salute – current catalogue application and ranking page](https://corsidilaurea.uniroma1.it/it/course/33570/apply) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-SAPIENZA-PSYCHOLOGY-CALL-2026` — [Psychology and Health – AY 2026/27 admission call (Bando 05429)](https://www.uniroma1.it/sites/default/files/field_file_allegati/05429_i.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-SAPIENZA-PSYCHOLOGY-INDEX-2026` — [Sapienza AY 2026/27 admissions index – L-24 Psychology courses](https://www.uniroma1.it/it/node/534988) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-SAPIENZA-PSYCHOLOGY-2026` — [Psychology and Health bachelor’s profile 2026/27](https://corsidilaurea.uniroma1.it/it/course/33570) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-SAPIENZA-DISCO-LAZIO-2026` — [DiSCo Lazio Right to Education call 2026/27](https://laziodisco.it/on-line-il-bando-diritto-allo-studio-2026-2027/?lang=en) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-SAPIENZA-FEE-TABLE-2026` — [Standard registration-fee amounts for 2026/27](https://www.uniroma1.it/en/node/29732) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-SAPIENZA-FEES-2026` — [Tuition, payment and foreign-income guidance 2026/27](https://www.uniroma1.it/en/pagina/tuition-fees-and-benefits) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-SAPIENZA-SCHOLARSHIPS-2026` — [Sapienza scholarships and student benefits inventory](https://www.uniroma1.it/en/pagina/scholarships) (cycle: general; prior check: 2026-11-11)
+- [ ] `SRC-SAPIENZA-WANTED-BEST-2026` — [Wanted the Best merit scholarship call 2026/27](https://www.uniroma1.it/en/pagina/scholarships-meritorious-students-italian-and-international-universities) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The reviewed university admissions and course materials concern 2026/27 or older. No 2027/28 first-year call was found, and absence from these pages is not treated as discontinuation.
-  - `facts.application_windows_2027_2028` — `REQUIRES_VERIFICATION` — The reviewed application schedule is for 2026/27 only.
-  - `facts.application_fee_2027_2028` — `REQUIRES_VERIFICATION` — No 2027/28 course application fee was identified.
-  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — No 2027/28 tuition regulation or amount was identified.
-  - `facts.scholarships_2027_2028` — `REQUIRES_VERIFICATION` — No 2027/28 scholarship call for these new entrants was identified.
-  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed sources do not provide a comparable complete applicant and admitted-student denominator.
-  - `facts.previous_cycle_application_windows` — `REQUIRES_VERIFICATION` — No course-specific 2026/27 application calendar was captured for this lead; the general MoveIN schedule applies only to the programs listed for pre-selection.
-  - `facts.previous_cycle_application_fee` — `REQUIRES_VERIFICATION` — No course-specific 2026/27 application charge was captured for this lead; the €30 MoveIN charge applies only to listed pre-selection applications.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — No 2027/28 course listing or first-year call appears in the official course profile, application/ranking page or central admissions index reviewed on 11 November 2026. The 2026/27 course is confirmed; absence of the new-cycle call is not treated as discontinuation.
+  - `facts.application_windows_2027_2028` — `NOT_YET_PUBLISHED` — No 2027/28 first-year dates or new-cycle call appeared on the official course profile/application page or central admissions index reviewed on 11 November 2026. Do not carry forward the 2026/27 restricted-selection calendar.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — No 2027/28 Sapienza selection contribution or TOLC-PSI fee was announced in the reviewed official course and admissions material.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — No 2027/28 first-year call or course-specific entry requirements were published in the reviewed catalogue and admissions pages as of 11 November 2026.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — The reviewed tuition pages display the 2026/27 framework; no 2027/28 tuition regulation or course-level annual amount was published as of 11 November 2026.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — No 2027/28 DiSCo annual call or incoming L-24 scholarship call was present in the reviewed official university and regional aid pages as of 11 November 2026. This does not mean students are ineligible for general aid once annual calls open.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The call provides quotas and rankings, but the reviewed sources do not provide a complete comparable applicant denominator and final admitted total across the selection and vacancy process; no acceptance rate is inferred.
 
 #### Ingegneria Informatica — `legacy-157`
 
@@ -5310,7 +5318,7 @@ Currently missing or unpublished fields:
 
 ## Source URL recheck results
 
-Checked 610 unique URLs representing 627 source records on 2026-11-11. Unique URL outcomes: {'accessible': 591, 'redirected': 13, 'inconclusive': 5, 'broken': 1}. HTTP 404/410 outcomes are listed as broken; TLS, timeout, and remote-disconnect cases remain inconclusive.
+Checked 612 unique URLs representing 630 source records on 2026-11-11. Unique URL outcomes: {'accessible': 593, 'redirected': 13, 'inconclusive': 5, 'broken': 1}. HTTP 404/410 outcomes are listed as broken; TLS, timeout, and remote-disconnect cases remain inconclusive.
 
 ### Redirected sources
 
