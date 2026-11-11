@@ -1556,16 +1556,26 @@ def build():
             research_final_refresh.BATCH28,
             research_final_refresh.BATCH29,
             research_final_refresh.BATCH30,
+            research_final_refresh.BATCH31,
         ],
         "counts": coverage,
     }
     # Carry forward completed research and source-audit batches written after
     # the generator's original batch list, without duplicating regenerated ones.
     generated_batch_ids = {batch.get("id") for batch in progress["completed_batches"]}
+    latest_generated_batch = progress["completed_batches"][-1] if progress["completed_batches"] else None
     for batch in previous_progress.get("completed_batches", []):
         if batch.get("id") not in generated_batch_ids:
             progress["completed_batches"].append(batch)
             generated_batch_ids.add(batch.get("id"))
+    # Keep the newest batch from the maintained generator list last, after
+    # carrying forward older hand-recorded audit checkpoints.
+    if latest_generated_batch is not None:
+        latest_generated_id = latest_generated_batch.get("id")
+        progress["completed_batches"] = [
+            batch for batch in progress["completed_batches"]
+            if batch.get("id") != latest_generated_id
+        ] + [latest_generated_batch]
     (RESEARCH / "research-progress.json").write_text(json.dumps(progress, ensure_ascii=False, indent=2)+"\n",encoding="utf-8")
     source_map = {s["id"]: s for s in SOURCES}
     lines = [

@@ -9,15 +9,15 @@
     "counts": {
       "universities": 34,
       "programs": 209,
-      "sources": 634
+      "sources": 638
     },
     "previous_snapshot_inconclusive_url_checks": "The prior audit reported approximately 100 inconclusive checks. This refresh rechecked every unique URL and preserves the response by source record below.",
     "current_url_audit": {
       "checked_at": "2026-11-11",
-      "source_records": 634,
-      "unique_urls_checked": 616,
+      "source_records": 638,
+      "unique_urls_checked": 620,
       "unique_url_outcomes": {
-        "accessible": 597,
+        "accessible": 601,
         "redirected": 13,
         "inconclusive": 5,
         "broken": 1
@@ -4204,7 +4204,11 @@
         "SRC-SAPIENZA-ENGCSAI-PROFILE-2026",
         "SRC-SAPIENZA-ENGCSAI-CALL-2026",
         "SRC-SAPIENZA-ENGCSAI-APPLY-2026",
-        "SRC-SAPIENZA-MOVEIN-REQUIREMENTS-JUN2026"
+        "SRC-SAPIENZA-MOVEIN-REQUIREMENTS-JUN2026",
+        "SRC-SAPIENZA-ECFIN-PROFILE-2026",
+        "SRC-SAPIENZA-ECFIN-APPLY-2026",
+        "SRC-SAPIENZA-ECFIN-CALL-2026",
+        "SRC-SAPIENZA-ECFIN-ARCHIVE-2025"
       ],
       "source_urls": [
         {
@@ -4248,7 +4252,7 @@
           "url": "https://www.uniroma1.it/en/en/admissions",
           "source_type": "Official university page",
           "cycle": "2026-2027",
-          "accessed_at": "2026-11-10",
+          "accessed_at": "2026-11-11",
           "evidence": "English-taught degree applicants used MoveIN pre-selection. The 2026/27 cycle opened 22 December 2025; the non-EU visa-applicant deadline was 15 May 2026, the EU/equivalent deadline was 31 July 2026, and Universitaly pre-enrolment was due 30 June 2026. A candidate could submit up to two applications. Pre-selection was only one step and did not guarantee final admission. No 2027/28 first-year schedule is stated on the reviewed page.",
           "supports": [
             "university.previous_cycle_admission_process",
@@ -4261,8 +4265,8 @@
             "effective_url": "https://www.uniroma1.it/en/en/admissions",
             "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
-            "etag": "\"1794345752-1\"",
-            "last_modified": "Tue, 10 Nov 2026 21:22:32 GMT",
+            "etag": "\"1794396199-1\"",
+            "last_modified": "Wed, 11 Nov 2026 11:23:19 GMT",
             "cache_control": "public, max-age=86400",
             "age": null,
             "x_vercel_cache": null,
@@ -4274,8 +4278,8 @@
             "bytes_read": 49669,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
-            "method": "GET"
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control: no-cache"
           },
           "browser_check": null
         },
@@ -4576,8 +4580,8 @@
           "url": "https://corsidilaurea.uniroma1.it/en/timeview/2026/34177/organization",
           "source_type": "Official course catalogue",
           "cycle": "2026-2027",
-          "accessed_at": "2026-11-10",
-          "evidence": "The same-name 2026/27 course is Economia e finanza, an L-33 three-year bachelor’s program, not the MSc classification in the previous tracker. The catalogue lists Italian and English, but this does not establish that the entire course is English-taught. The match to the old MSc lead is unresolved.",
+          "accessed_at": "2026-11-11",
+          "evidence": "A fresh no-cache GET of the official 2026/27 archived organization view returned the Economics and Finance catalogue record. It confirms class L-33 and the three-year Bachelor's identity; the currently served full profile and admission call are separately linked as SRC-SAPIENZA-ECFIN-PROFILE-2026 and SRC-SAPIENZA-ECFIN-CALL-2026. This source does not support the previous tracker MSc classification or a 2027/28 offer.",
           "supports": [
             "program.previous_cycle_course_listing",
             "program.previous_cycle_language"
@@ -4601,8 +4605,8 @@
             "bytes_read": 41760,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
-            "method": "GET"
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control: no-cache"
           },
           "browser_check": null
         },
@@ -4684,7 +4688,7 @@
           "source_type": "Official university page",
           "cycle": "2026-2027",
           "accessed_at": "2026-11-11",
-          "evidence": "The 2026/27 tuition page describes ISEE-based reductions, three installments of 30%, 35% and 35%, the ordinary fee framework and foreign-income rules. These are annual rules and the amount depends on course area and individual circumstances.",
+          "evidence": "The official 2026/27 fees page describes ISEE-based reductions, three installments of 30%, 35% and 35%, and country-group fixed contributions for students with foreign tax residence. Amounts depend on course and student circumstances; it does not supply a course-specific amount for this L-33 Bachelor's course.",
           "supports": [
             "university.previous_cycle_tuition",
             "program.previous_cycle_tuition",
@@ -4696,8 +4700,8 @@
             "effective_url": "https://www.uniroma1.it/en/pagina/tuition-fees-and-benefits",
             "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
-            "etag": "\"1794394387-1\"",
-            "last_modified": "Wed, 11 Nov 2026 10:53:07 GMT",
+            "etag": "\"1794396405-1\"",
+            "last_modified": "Wed, 11 Nov 2026 11:26:45 GMT",
             "cache_control": "public, max-age=86400",
             "age": null,
             "x_vercel_cache": null,
@@ -4705,12 +4709,12 @@
             "location": null,
             "observed_title": "Tuition Fees and Benefits | Sapienza Università di Roma",
             "pdf_signature": null,
-            "has_2027_marker": true,
+            "has_2027_marker": false,
             "bytes_read": 49893,
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
+            "method": "GET with Cache-Control: no-cache"
           },
           "browser_check": null
         },
@@ -4721,7 +4725,7 @@
           "source_type": "Official university page",
           "cycle": "2026-2027",
           "accessed_at": "2026-11-11",
-          "evidence": "Art. 38 lists a €2,924 second-contribution-bracket standard for second-level two-year, single-cycle and unified Master's degrees in named faculties, including Civil and Industrial Engineering; this is not a quoted fee for the three-year Aerospace BSc. The page also lists foreign-income contribution bands of €300, €700 or €1,500 by country group. Check the course, residence, income and exemptions before quoting a student's amount.",
+          "evidence": "Article 38's €2,821 and €2,924 standard amounts are specifically for second-level two-year, single-cycle and unified Master's degrees, not this three-year L-33 Bachelor's course. It also lists foreign-income contribution bands of €300, €700 or €1,500 by country group. Check the course and the student's residence, income and exemptions before quoting an amount.",
           "supports": [
             "university.previous_cycle_tuition",
             "program.previous_cycle_tuition",
@@ -4733,8 +4737,8 @@
             "effective_url": "https://www.uniroma1.it/en/node/29732",
             "content_type": "text/html; charset=utf-8",
             "content_length_header": "47296",
-            "etag": "\"1794394388-1\"",
-            "last_modified": "Wed, 11 Nov 2026 10:53:08 GMT",
+            "etag": "\"1794396456-1\"",
+            "last_modified": "Wed, 11 Nov 2026 11:27:36 GMT",
             "cache_control": "public, max-age=86400",
             "age": null,
             "x_vercel_cache": null,
@@ -4747,7 +4751,7 @@
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
+            "method": "GET with Cache-Control: no-cache"
           },
           "browser_check": null
         },
@@ -4757,7 +4761,7 @@
           "url": "https://www.uniroma1.it/it/pagina/international-admissions-2026-2027",
           "source_type": "Official university page",
           "cycle": "2026-2027",
-          "accessed_at": "2026-11-10",
+          "accessed_at": "2026-11-11",
           "evidence": "The official admissions information states a €30 fee for each pre-selection application, up to two applications per candidate and intake, with no waiver. The general International Student Office separately describes a €10 course requirement-assessment payment for applicable Master’s routes; these are different processes.",
           "supports": [
             "university.previous_cycle_application_fee",
@@ -4769,8 +4773,8 @@
             "effective_url": "https://www.uniroma1.it/it/pagina/international-admissions-2026-2027",
             "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
-            "etag": "\"1794345880-1\"",
-            "last_modified": "Tue, 10 Nov 2026 21:24:40 GMT",
+            "etag": "\"1794396208-1\"",
+            "last_modified": "Wed, 11 Nov 2026 11:23:28 GMT",
             "cache_control": "public, max-age=86400",
             "age": null,
             "x_vercel_cache": null,
@@ -4779,11 +4783,11 @@
             "observed_title": "Programmes in English | Sapienza Università di Roma",
             "pdf_signature": null,
             "has_2027_marker": false,
-            "bytes_read": 51231,
+            "bytes_read": 51191,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
-            "method": "GET"
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control: no-cache"
           },
           "browser_check": null
         },
@@ -5557,7 +5561,7 @@
           "source_type": "Official Sapienza international pre-selection requirements PDF",
           "cycle": "2026-2027",
           "accessed_at": "2026-11-11",
-          "evidence": "The June 8, 2026 revision lists Engineering in Computer Science and Artificial Intelligence among the 2026/27 English-taught Master's programmes in MoveIN pre-selection. For this pre-selection it states a minimum GPA of 75/100, English B2 (with accepted evidence/exemptions), and individual academic review; the course call separately governs final Infostud eligibility and enrollment. Non-EU visa applicants' MoveIN deadline was 15 May 2026, and the document says Italian, EU and EU-equivalent students must not apply through MoveIN. It lists admissions@diag.uniroma1.it as the programme contact. Historical 2026/27 evidence only.",
+          "evidence": "The June 8, 2026 revision includes both BSc Economics and Finance and MSc Engineering in Computer Science and Artificial Intelligence among the 2026/27 English-taught programmes in MoveIN pre-selection. For Economics and Finance, the document sets an 80/100 minimum GPA, requires a SAT score of at least 960 or a positive converted CEnT-S score, and specifies English B2 with listed evidence and exemptions. For Engineering in Computer Science and AI it separately states 75/100. These are programme-specific MoveIN pre-selection criteria, not general course-admission rules; course calls govern final eligibility and enrollment. The central admissions page gives the 2026/27 MoveIN deadlines by applicant group (15 May for non-EU visa applicants and 31 July for EU/equivalent applicants). Historical evidence only.",
           "supports": [
             "program.previous_cycle_admission_route",
             "program.previous_cycle_application_windows",
@@ -5586,6 +5590,157 @@
             "error": null,
             "checked_at": "2026-11-11",
             "method": "GET with byte range and Cache-Control: no-cache"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-SAPIENZA-ECFIN-PROFILE-2026",
+          "title": "Economics and Finance course profile 2026/27",
+          "url": "https://corsidilaurea.uniroma1.it/en/course/34177",
+          "source_type": "Official course catalogue",
+          "cycle": "2026-2027",
+          "accessed_at": "2026-11-11",
+          "evidence": "The current 2026/27 catalogue identifies Economics and Finance as programme code 34177, test code 14613, a three-year Bachelor's degree in class L-33 at Sapienza's Faculty of Economics, Department of Economics and Law, taught in person in Rome. The catalogue lists Italian and English; the official course regulation specifies three Italian curricula and one fully English curriculum. This does not establish a 2027/28 intake.",
+          "supports": [
+            "program.previous_cycle_course_listing",
+            "program.previous_cycle_language",
+            "program.official_course_url"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://corsidilaurea.uniroma1.it/en/course/34177",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": null,
+            "etag": "W/\"1794394088-1\"",
+            "last_modified": "Wed, 11 Nov 2026 10:48:08 GMT",
+            "cache_control": "public, max-age=0",
+            "age": "0",
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Economics and Finance | Course catalogue",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 19784,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control: no-cache"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-SAPIENZA-ECFIN-APPLY-2026",
+          "title": "Economics and Finance enrollment page 2026/27",
+          "url": "https://corsidilaurea.uniroma1.it/en/course/34177/apply",
+          "source_type": "Official course application page",
+          "cycle": "2026-2027",
+          "accessed_at": "2026-11-11",
+          "evidence": "The official 2026/27 apply page links the Faculty of Economics' combined admission call for the Bachelor's programmes, including Economics and Finance. It says the call governs enrollment and confirms that test results below its thresholds lead to an OFA to be completed in the first year. No 2027/28 call is shown.",
+          "supports": [
+            "program.previous_cycle_admission_route",
+            "program.previous_cycle_application_windows",
+            "program.previous_cycle_entrance_test",
+            "program.application_windows_2027_2028"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://corsidilaurea.uniroma1.it/en/course/34177/apply",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": null,
+            "etag": "W/\"1794392788-1\"",
+            "last_modified": "Wed, 11 Nov 2026 10:26:28 GMT",
+            "cache_control": "public, max-age=0",
+            "age": "0",
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Economics and Finance | Course catalogue",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 19522,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control: no-cache"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-SAPIENZA-ECFIN-CALL-2026",
+          "title": "Economics and Finance 2026/27 admission call (English version)",
+          "url": "https://corsidilaurea.uniroma1.it/sites/default/files/offertaformativa/documenti_ufficiali/187/14613_e_0.pdf",
+          "source_type": "Official admission call PDF",
+          "cycle": "2026-2027",
+          "accessed_at": "2026-11-11",
+          "evidence": "The 22 June 2026 call (Rector's Decree 1285/2026) covers test code 14613 and the 2026/27 Economics and Finance L-33 Bachelor's degree. It makes access open and requires a non-selective knowledge test: TOLC-E or CEnT-S, with SAT also accepted for the English curriculum. Infostud registration and the €10 contribution ran 2 July–29 October 2026; the test had to be taken by 29 October and the first tuition installment was due 1 September–5 November. The call distinguishes Italian and English curricula, requires valid English B2 evidence for the English curriculum (with listed exemptions), and sets OFA thresholds below 9/36 TOLC-E, 8 in the selected CEnT-S sections, or 960/1600 SAT. Non-EU applicants resident abroad who need a study visa require the applicable pre-acceptance/pre-enrolment steps; Universitaly deadline was 30 June 2026. These terms are prior-cycle only.",
+          "supports": [
+            "program.previous_cycle_admission_route",
+            "program.previous_cycle_application_windows",
+            "program.previous_cycle_application_fee",
+            "program.previous_cycle_program_requirements",
+            "program.previous_cycle_entrance_test",
+            "program.previous_cycle_language"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 206,
+            "effective_url": "https://corsidilaurea.uniroma1.it/sites/default/files/offertaformativa/documenti_ufficiali/187/14613_e_0.pdf",
+            "content_type": "application/pdf",
+            "content_length_header": "4096",
+            "etag": "\"aecce-65743e2bf83d7\"",
+            "last_modified": "Thu, 23 Jul 2026 09:28:58 GMT",
+            "cache_control": null,
+            "age": "304",
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": null,
+            "pdf_signature": true,
+            "has_2027_marker": null,
+            "bytes_read": 4096,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with byte range and Cache-Control: no-cache"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-SAPIENZA-ECFIN-ARCHIVE-2025",
+          "title": "Economics and Finance archived course profile 2025/26",
+          "url": "https://www.corsidilaurea.uniroma1.it/en/corso/2025/33438/home",
+          "source_type": "Official archived course catalogue",
+          "cycle": "2025-2026",
+          "accessed_at": "2026-11-11",
+          "evidence": "Sapienza's official 2025/26 archive identifies the same-name Economics and Finance course, code 33438, as a three-year L-33 Bachelor's degree with Italian and English curricula. The following year's current catalogue uses code 34177 for the L-33 course. These official course records contradict the previous tracker MSc label; the old classification is retained only as provenance, not as the current degree identity.",
+          "supports": [
+            "program.previous_cycle_course_listing",
+            "program.previous_tracker_classification_review"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.corsidilaurea.uniroma1.it/en/corso/2025/33438/home",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": null,
+            "etag": "W/\"1794396573-1\"",
+            "last_modified": "Wed, 11 Nov 2026 11:29:33 GMT",
+            "cache_control": "public, max-age=0",
+            "age": "0",
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Economics and Finance | Course catalogue",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 16333,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control: no-cache"
           },
           "browser_check": null
         }
@@ -41451,7 +41606,7 @@
           "url": "https://www.uniroma1.it/en/en/admissions",
           "source_type": "Official university page",
           "cycle": "2026-2027",
-          "accessed_at": "2026-11-10",
+          "accessed_at": "2026-11-11",
           "evidence": "English-taught degree applicants used MoveIN pre-selection. The 2026/27 cycle opened 22 December 2025; the non-EU visa-applicant deadline was 15 May 2026, the EU/equivalent deadline was 31 July 2026, and Universitaly pre-enrolment was due 30 June 2026. A candidate could submit up to two applications. Pre-selection was only one step and did not guarantee final admission. No 2027/28 first-year schedule is stated on the reviewed page.",
           "supports": [
             "university.previous_cycle_admission_process",
@@ -41464,8 +41619,8 @@
             "effective_url": "https://www.uniroma1.it/en/en/admissions",
             "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
-            "etag": "\"1794345752-1\"",
-            "last_modified": "Tue, 10 Nov 2026 21:22:32 GMT",
+            "etag": "\"1794396199-1\"",
+            "last_modified": "Wed, 11 Nov 2026 11:23:19 GMT",
             "cache_control": "public, max-age=86400",
             "age": null,
             "x_vercel_cache": null,
@@ -41477,8 +41632,8 @@
             "bytes_read": 49669,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
-            "method": "GET"
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control: no-cache"
           },
           "browser_check": null
         },
@@ -41768,7 +41923,7 @@
           "url": "https://www.uniroma1.it/en/en/admissions",
           "source_type": "Official university page",
           "cycle": "2026-2027",
-          "accessed_at": "2026-11-10",
+          "accessed_at": "2026-11-11",
           "evidence": "English-taught degree applicants used MoveIN pre-selection. The 2026/27 cycle opened 22 December 2025; the non-EU visa-applicant deadline was 15 May 2026, the EU/equivalent deadline was 31 July 2026, and Universitaly pre-enrolment was due 30 June 2026. A candidate could submit up to two applications. Pre-selection was only one step and did not guarantee final admission. No 2027/28 first-year schedule is stated on the reviewed page.",
           "supports": [
             "university.previous_cycle_admission_process",
@@ -41781,8 +41936,8 @@
             "effective_url": "https://www.uniroma1.it/en/en/admissions",
             "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
-            "etag": "\"1794345752-1\"",
-            "last_modified": "Tue, 10 Nov 2026 21:22:32 GMT",
+            "etag": "\"1794396199-1\"",
+            "last_modified": "Wed, 11 Nov 2026 11:23:19 GMT",
             "cache_control": "public, max-age=86400",
             "age": null,
             "x_vercel_cache": null,
@@ -41794,8 +41949,8 @@
             "bytes_read": 49669,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
-            "method": "GET"
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control: no-cache"
           },
           "browser_check": null
         },
@@ -42085,7 +42240,7 @@
           "url": "https://www.uniroma1.it/en/en/admissions",
           "source_type": "Official university page",
           "cycle": "2026-2027",
-          "accessed_at": "2026-11-10",
+          "accessed_at": "2026-11-11",
           "evidence": "English-taught degree applicants used MoveIN pre-selection. The 2026/27 cycle opened 22 December 2025; the non-EU visa-applicant deadline was 15 May 2026, the EU/equivalent deadline was 31 July 2026, and Universitaly pre-enrolment was due 30 June 2026. A candidate could submit up to two applications. Pre-selection was only one step and did not guarantee final admission. No 2027/28 first-year schedule is stated on the reviewed page.",
           "supports": [
             "university.previous_cycle_admission_process",
@@ -42098,8 +42253,8 @@
             "effective_url": "https://www.uniroma1.it/en/en/admissions",
             "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
-            "etag": "\"1794345752-1\"",
-            "last_modified": "Tue, 10 Nov 2026 21:22:32 GMT",
+            "etag": "\"1794396199-1\"",
+            "last_modified": "Wed, 11 Nov 2026 11:23:19 GMT",
             "cache_control": "public, max-age=86400",
             "age": null,
             "x_vercel_cache": null,
@@ -42111,8 +42266,8 @@
             "bytes_read": 49669,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
-            "method": "GET"
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control: no-cache"
           },
           "browser_check": null
         },
@@ -42402,7 +42557,7 @@
           "url": "https://www.uniroma1.it/en/en/admissions",
           "source_type": "Official university page",
           "cycle": "2026-2027",
-          "accessed_at": "2026-11-10",
+          "accessed_at": "2026-11-11",
           "evidence": "English-taught degree applicants used MoveIN pre-selection. The 2026/27 cycle opened 22 December 2025; the non-EU visa-applicant deadline was 15 May 2026, the EU/equivalent deadline was 31 July 2026, and Universitaly pre-enrolment was due 30 June 2026. A candidate could submit up to two applications. Pre-selection was only one step and did not guarantee final admission. No 2027/28 first-year schedule is stated on the reviewed page.",
           "supports": [
             "university.previous_cycle_admission_process",
@@ -42415,8 +42570,8 @@
             "effective_url": "https://www.uniroma1.it/en/en/admissions",
             "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
-            "etag": "\"1794345752-1\"",
-            "last_modified": "Tue, 10 Nov 2026 21:22:32 GMT",
+            "etag": "\"1794396199-1\"",
+            "last_modified": "Wed, 11 Nov 2026 11:23:19 GMT",
             "cache_control": "public, max-age=86400",
             "age": null,
             "x_vercel_cache": null,
@@ -42428,8 +42583,8 @@
             "bytes_read": 49669,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
-            "method": "GET"
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control: no-cache"
           },
           "browser_check": null
         },
@@ -42719,7 +42874,7 @@
           "url": "https://www.uniroma1.it/en/en/admissions",
           "source_type": "Official university page",
           "cycle": "2026-2027",
-          "accessed_at": "2026-11-10",
+          "accessed_at": "2026-11-11",
           "evidence": "English-taught degree applicants used MoveIN pre-selection. The 2026/27 cycle opened 22 December 2025; the non-EU visa-applicant deadline was 15 May 2026, the EU/equivalent deadline was 31 July 2026, and Universitaly pre-enrolment was due 30 June 2026. A candidate could submit up to two applications. Pre-selection was only one step and did not guarantee final admission. No 2027/28 first-year schedule is stated on the reviewed page.",
           "supports": [
             "university.previous_cycle_admission_process",
@@ -42732,8 +42887,8 @@
             "effective_url": "https://www.uniroma1.it/en/en/admissions",
             "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
-            "etag": "\"1794345752-1\"",
-            "last_modified": "Tue, 10 Nov 2026 21:22:32 GMT",
+            "etag": "\"1794396199-1\"",
+            "last_modified": "Wed, 11 Nov 2026 11:23:19 GMT",
             "cache_control": "public, max-age=86400",
             "age": null,
             "x_vercel_cache": null,
@@ -42745,8 +42900,8 @@
             "bytes_read": 49669,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
-            "method": "GET"
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control: no-cache"
           },
           "browser_check": null
         },
@@ -43035,7 +43190,7 @@
           "url": "https://www.uniroma1.it/en/en/admissions",
           "source_type": "Official university page",
           "cycle": "2026-2027",
-          "accessed_at": "2026-11-10",
+          "accessed_at": "2026-11-11",
           "evidence": "English-taught degree applicants used MoveIN pre-selection. The 2026/27 cycle opened 22 December 2025; the non-EU visa-applicant deadline was 15 May 2026, the EU/equivalent deadline was 31 July 2026, and Universitaly pre-enrolment was due 30 June 2026. A candidate could submit up to two applications. Pre-selection was only one step and did not guarantee final admission. No 2027/28 first-year schedule is stated on the reviewed page.",
           "supports": [
             "university.previous_cycle_admission_process",
@@ -43048,8 +43203,8 @@
             "effective_url": "https://www.uniroma1.it/en/en/admissions",
             "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
-            "etag": "\"1794345752-1\"",
-            "last_modified": "Tue, 10 Nov 2026 21:22:32 GMT",
+            "etag": "\"1794396199-1\"",
+            "last_modified": "Wed, 11 Nov 2026 11:23:19 GMT",
             "cache_control": "public, max-age=86400",
             "age": null,
             "x_vercel_cache": null,
@@ -43061,8 +43216,8 @@
             "bytes_read": 49669,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
-            "method": "GET"
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control: no-cache"
           },
           "browser_check": null
         },
@@ -43388,7 +43543,7 @@
           "url": "https://www.uniroma1.it/en/en/admissions",
           "source_type": "Official university page",
           "cycle": "2026-2027",
-          "accessed_at": "2026-11-10",
+          "accessed_at": "2026-11-11",
           "evidence": "English-taught degree applicants used MoveIN pre-selection. The 2026/27 cycle opened 22 December 2025; the non-EU visa-applicant deadline was 15 May 2026, the EU/equivalent deadline was 31 July 2026, and Universitaly pre-enrolment was due 30 June 2026. A candidate could submit up to two applications. Pre-selection was only one step and did not guarantee final admission. No 2027/28 first-year schedule is stated on the reviewed page.",
           "supports": [
             "university.previous_cycle_admission_process",
@@ -43401,8 +43556,8 @@
             "effective_url": "https://www.uniroma1.it/en/en/admissions",
             "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
-            "etag": "\"1794345752-1\"",
-            "last_modified": "Tue, 10 Nov 2026 21:22:32 GMT",
+            "etag": "\"1794396199-1\"",
+            "last_modified": "Wed, 11 Nov 2026 11:23:19 GMT",
             "cache_control": "public, max-age=86400",
             "age": null,
             "x_vercel_cache": null,
@@ -43414,8 +43569,8 @@
             "bytes_read": 49669,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
-            "method": "GET"
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control: no-cache"
           },
           "browser_check": null
         },
@@ -43860,7 +44015,7 @@
           "url": "https://www.uniroma1.it/en/en/admissions",
           "source_type": "Official university page",
           "cycle": "2026-2027",
-          "accessed_at": "2026-11-10",
+          "accessed_at": "2026-11-11",
           "evidence": "English-taught degree applicants used MoveIN pre-selection. The 2026/27 cycle opened 22 December 2025; the non-EU visa-applicant deadline was 15 May 2026, the EU/equivalent deadline was 31 July 2026, and Universitaly pre-enrolment was due 30 June 2026. A candidate could submit up to two applications. Pre-selection was only one step and did not guarantee final admission. No 2027/28 first-year schedule is stated on the reviewed page.",
           "supports": [
             "university.previous_cycle_admission_process",
@@ -43873,8 +44028,8 @@
             "effective_url": "https://www.uniroma1.it/en/en/admissions",
             "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
-            "etag": "\"1794345752-1\"",
-            "last_modified": "Tue, 10 Nov 2026 21:22:32 GMT",
+            "etag": "\"1794396199-1\"",
+            "last_modified": "Wed, 11 Nov 2026 11:23:19 GMT",
             "cache_control": "public, max-age=86400",
             "age": null,
             "x_vercel_cache": null,
@@ -43886,8 +44041,8 @@
             "bytes_read": 49669,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
-            "method": "GET"
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control: no-cache"
           },
           "browser_check": null
         },
@@ -43972,7 +44127,7 @@
           "source_type": "Official university page",
           "cycle": "2026-2027",
           "accessed_at": "2026-11-11",
-          "evidence": "Art. 38 lists a €2,924 second-contribution-bracket standard for second-level two-year, single-cycle and unified Master's degrees in named faculties, including Civil and Industrial Engineering; this is not a quoted fee for the three-year Aerospace BSc. The page also lists foreign-income contribution bands of €300, €700 or €1,500 by country group. Check the course, residence, income and exemptions before quoting a student's amount.",
+          "evidence": "Article 38's €2,821 and €2,924 standard amounts are specifically for second-level two-year, single-cycle and unified Master's degrees, not this three-year L-33 Bachelor's course. It also lists foreign-income contribution bands of €300, €700 or €1,500 by country group. Check the course and the student's residence, income and exemptions before quoting an amount.",
           "supports": [
             "university.previous_cycle_tuition",
             "program.previous_cycle_tuition",
@@ -43984,8 +44139,8 @@
             "effective_url": "https://www.uniroma1.it/en/node/29732",
             "content_type": "text/html; charset=utf-8",
             "content_length_header": "47296",
-            "etag": "\"1794394388-1\"",
-            "last_modified": "Wed, 11 Nov 2026 10:53:08 GMT",
+            "etag": "\"1794396456-1\"",
+            "last_modified": "Wed, 11 Nov 2026 11:27:36 GMT",
             "cache_control": "public, max-age=86400",
             "age": null,
             "x_vercel_cache": null,
@@ -43998,7 +44153,7 @@
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
+            "method": "GET with Cache-Control: no-cache"
           },
           "browser_check": null
         },
@@ -44009,7 +44164,7 @@
           "source_type": "Official university page",
           "cycle": "2026-2027",
           "accessed_at": "2026-11-11",
-          "evidence": "The 2026/27 tuition page describes ISEE-based reductions, three installments of 30%, 35% and 35%, the ordinary fee framework and foreign-income rules. These are annual rules and the amount depends on course area and individual circumstances.",
+          "evidence": "The official 2026/27 fees page describes ISEE-based reductions, three installments of 30%, 35% and 35%, and country-group fixed contributions for students with foreign tax residence. Amounts depend on course and student circumstances; it does not supply a course-specific amount for this L-33 Bachelor's course.",
           "supports": [
             "university.previous_cycle_tuition",
             "program.previous_cycle_tuition",
@@ -44021,8 +44176,8 @@
             "effective_url": "https://www.uniroma1.it/en/pagina/tuition-fees-and-benefits",
             "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
-            "etag": "\"1794394387-1\"",
-            "last_modified": "Wed, 11 Nov 2026 10:53:07 GMT",
+            "etag": "\"1794396405-1\"",
+            "last_modified": "Wed, 11 Nov 2026 11:26:45 GMT",
             "cache_control": "public, max-age=86400",
             "age": null,
             "x_vercel_cache": null,
@@ -44030,12 +44185,12 @@
             "location": null,
             "observed_title": "Tuition Fees and Benefits | Sapienza Università di Roma",
             "pdf_signature": null,
-            "has_2027_marker": true,
+            "has_2027_marker": false,
             "bytes_read": 49893,
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
+            "method": "GET with Cache-Control: no-cache"
           },
           "browser_check": null
         },
@@ -44538,7 +44693,7 @@
           "source_type": "Official university page",
           "cycle": "2026-2027",
           "accessed_at": "2026-11-11",
-          "evidence": "Art. 38 lists a €2,924 second-contribution-bracket standard for second-level two-year, single-cycle and unified Master's degrees in named faculties, including Civil and Industrial Engineering; this is not a quoted fee for the three-year Aerospace BSc. The page also lists foreign-income contribution bands of €300, €700 or €1,500 by country group. Check the course, residence, income and exemptions before quoting a student's amount.",
+          "evidence": "Article 38's €2,821 and €2,924 standard amounts are specifically for second-level two-year, single-cycle and unified Master's degrees, not this three-year L-33 Bachelor's course. It also lists foreign-income contribution bands of €300, €700 or €1,500 by country group. Check the course and the student's residence, income and exemptions before quoting an amount.",
           "supports": [
             "university.previous_cycle_tuition",
             "program.previous_cycle_tuition",
@@ -44550,8 +44705,8 @@
             "effective_url": "https://www.uniroma1.it/en/node/29732",
             "content_type": "text/html; charset=utf-8",
             "content_length_header": "47296",
-            "etag": "\"1794394388-1\"",
-            "last_modified": "Wed, 11 Nov 2026 10:53:08 GMT",
+            "etag": "\"1794396456-1\"",
+            "last_modified": "Wed, 11 Nov 2026 11:27:36 GMT",
             "cache_control": "public, max-age=86400",
             "age": null,
             "x_vercel_cache": null,
@@ -44564,7 +44719,7 @@
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
+            "method": "GET with Cache-Control: no-cache"
           },
           "browser_check": null
         },
@@ -44575,7 +44730,7 @@
           "source_type": "Official university page",
           "cycle": "2026-2027",
           "accessed_at": "2026-11-11",
-          "evidence": "The 2026/27 tuition page describes ISEE-based reductions, three installments of 30%, 35% and 35%, the ordinary fee framework and foreign-income rules. These are annual rules and the amount depends on course area and individual circumstances.",
+          "evidence": "The official 2026/27 fees page describes ISEE-based reductions, three installments of 30%, 35% and 35%, and country-group fixed contributions for students with foreign tax residence. Amounts depend on course and student circumstances; it does not supply a course-specific amount for this L-33 Bachelor's course.",
           "supports": [
             "university.previous_cycle_tuition",
             "program.previous_cycle_tuition",
@@ -44587,8 +44742,8 @@
             "effective_url": "https://www.uniroma1.it/en/pagina/tuition-fees-and-benefits",
             "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
-            "etag": "\"1794394387-1\"",
-            "last_modified": "Wed, 11 Nov 2026 10:53:07 GMT",
+            "etag": "\"1794396405-1\"",
+            "last_modified": "Wed, 11 Nov 2026 11:26:45 GMT",
             "cache_control": "public, max-age=86400",
             "age": null,
             "x_vercel_cache": null,
@@ -44596,12 +44751,12 @@
             "location": null,
             "observed_title": "Tuition Fees and Benefits | Sapienza Università di Roma",
             "pdf_signature": null,
-            "has_2027_marker": true,
+            "has_2027_marker": false,
             "bytes_read": 49893,
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
+            "method": "GET with Cache-Control: no-cache"
           },
           "browser_check": null
         },
@@ -45152,7 +45307,7 @@
           "source_type": "Official university page",
           "cycle": "2026-2027",
           "accessed_at": "2026-11-11",
-          "evidence": "Art. 38 lists a €2,924 second-contribution-bracket standard for second-level two-year, single-cycle and unified Master's degrees in named faculties, including Civil and Industrial Engineering; this is not a quoted fee for the three-year Aerospace BSc. The page also lists foreign-income contribution bands of €300, €700 or €1,500 by country group. Check the course, residence, income and exemptions before quoting a student's amount.",
+          "evidence": "Article 38's €2,821 and €2,924 standard amounts are specifically for second-level two-year, single-cycle and unified Master's degrees, not this three-year L-33 Bachelor's course. It also lists foreign-income contribution bands of €300, €700 or €1,500 by country group. Check the course and the student's residence, income and exemptions before quoting an amount.",
           "supports": [
             "university.previous_cycle_tuition",
             "program.previous_cycle_tuition",
@@ -45164,8 +45319,8 @@
             "effective_url": "https://www.uniroma1.it/en/node/29732",
             "content_type": "text/html; charset=utf-8",
             "content_length_header": "47296",
-            "etag": "\"1794394388-1\"",
-            "last_modified": "Wed, 11 Nov 2026 10:53:08 GMT",
+            "etag": "\"1794396456-1\"",
+            "last_modified": "Wed, 11 Nov 2026 11:27:36 GMT",
             "cache_control": "public, max-age=86400",
             "age": null,
             "x_vercel_cache": null,
@@ -45178,7 +45333,7 @@
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
+            "method": "GET with Cache-Control: no-cache"
           },
           "browser_check": null
         },
@@ -45189,7 +45344,7 @@
           "source_type": "Official university page",
           "cycle": "2026-2027",
           "accessed_at": "2026-11-11",
-          "evidence": "The 2026/27 tuition page describes ISEE-based reductions, three installments of 30%, 35% and 35%, the ordinary fee framework and foreign-income rules. These are annual rules and the amount depends on course area and individual circumstances.",
+          "evidence": "The official 2026/27 fees page describes ISEE-based reductions, three installments of 30%, 35% and 35%, and country-group fixed contributions for students with foreign tax residence. Amounts depend on course and student circumstances; it does not supply a course-specific amount for this L-33 Bachelor's course.",
           "supports": [
             "university.previous_cycle_tuition",
             "program.previous_cycle_tuition",
@@ -45201,8 +45356,8 @@
             "effective_url": "https://www.uniroma1.it/en/pagina/tuition-fees-and-benefits",
             "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
-            "etag": "\"1794394387-1\"",
-            "last_modified": "Wed, 11 Nov 2026 10:53:07 GMT",
+            "etag": "\"1794396405-1\"",
+            "last_modified": "Wed, 11 Nov 2026 11:26:45 GMT",
             "cache_control": "public, max-age=86400",
             "age": null,
             "x_vercel_cache": null,
@@ -45210,12 +45365,12 @@
             "location": null,
             "observed_title": "Tuition Fees and Benefits | Sapienza Università di Roma",
             "pdf_signature": null,
-            "has_2027_marker": true,
+            "has_2027_marker": false,
             "bytes_read": 49893,
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
+            "method": "GET with Cache-Control: no-cache"
           },
           "browser_check": null
         },
@@ -45752,7 +45907,7 @@
           "source_type": "Official university page",
           "cycle": "2026-2027",
           "accessed_at": "2026-11-11",
-          "evidence": "Art. 38 lists a €2,924 second-contribution-bracket standard for second-level two-year, single-cycle and unified Master's degrees in named faculties, including Civil and Industrial Engineering; this is not a quoted fee for the three-year Aerospace BSc. The page also lists foreign-income contribution bands of €300, €700 or €1,500 by country group. Check the course, residence, income and exemptions before quoting a student's amount.",
+          "evidence": "Article 38's €2,821 and €2,924 standard amounts are specifically for second-level two-year, single-cycle and unified Master's degrees, not this three-year L-33 Bachelor's course. It also lists foreign-income contribution bands of €300, €700 or €1,500 by country group. Check the course and the student's residence, income and exemptions before quoting an amount.",
           "supports": [
             "university.previous_cycle_tuition",
             "program.previous_cycle_tuition",
@@ -45764,8 +45919,8 @@
             "effective_url": "https://www.uniroma1.it/en/node/29732",
             "content_type": "text/html; charset=utf-8",
             "content_length_header": "47296",
-            "etag": "\"1794394388-1\"",
-            "last_modified": "Wed, 11 Nov 2026 10:53:08 GMT",
+            "etag": "\"1794396456-1\"",
+            "last_modified": "Wed, 11 Nov 2026 11:27:36 GMT",
             "cache_control": "public, max-age=86400",
             "age": null,
             "x_vercel_cache": null,
@@ -45778,7 +45933,7 @@
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
+            "method": "GET with Cache-Control: no-cache"
           },
           "browser_check": null
         },
@@ -45789,7 +45944,7 @@
           "source_type": "Official university page",
           "cycle": "2026-2027",
           "accessed_at": "2026-11-11",
-          "evidence": "The 2026/27 tuition page describes ISEE-based reductions, three installments of 30%, 35% and 35%, the ordinary fee framework and foreign-income rules. These are annual rules and the amount depends on course area and individual circumstances.",
+          "evidence": "The official 2026/27 fees page describes ISEE-based reductions, three installments of 30%, 35% and 35%, and country-group fixed contributions for students with foreign tax residence. Amounts depend on course and student circumstances; it does not supply a course-specific amount for this L-33 Bachelor's course.",
           "supports": [
             "university.previous_cycle_tuition",
             "program.previous_cycle_tuition",
@@ -45801,8 +45956,8 @@
             "effective_url": "https://www.uniroma1.it/en/pagina/tuition-fees-and-benefits",
             "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
-            "etag": "\"1794394387-1\"",
-            "last_modified": "Wed, 11 Nov 2026 10:53:07 GMT",
+            "etag": "\"1794396405-1\"",
+            "last_modified": "Wed, 11 Nov 2026 11:26:45 GMT",
             "cache_control": "public, max-age=86400",
             "age": null,
             "x_vercel_cache": null,
@@ -45810,12 +45965,12 @@
             "location": null,
             "observed_title": "Tuition Fees and Benefits | Sapienza Università di Roma",
             "pdf_signature": null,
-            "has_2027_marker": true,
+            "has_2027_marker": false,
             "bytes_read": 49893,
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
+            "method": "GET with Cache-Control: no-cache"
           },
           "browser_check": null
         },
@@ -46534,34 +46689,149 @@
       "university_id": "sapienza",
       "university": "Sapienza Università di Roma",
       "city": "Rome",
-      "program": "Economia e finanza",
+      "program": "Economics and Finance",
       "level": {
-        "value": "BSc",
+        "value": "Bachelor's degree (Laurea, class L-33)",
         "status": "REQUIRES_VERIFICATION",
         "source_ids": [
-          "SRC-SAPIENZA-ECONOMICS-FINANCE-2026"
+          "SRC-SAPIENZA-ECFIN-PROFILE-2026",
+          "SRC-SAPIENZA-ECFIN-ARCHIVE-2025"
         ],
-        "notes": "Official 2026/27 evidence only; it does not confirm a 2027/28 new-entry offer or current terms."
+        "notes": "Sapienza's 2025/26 archived and 2026/27 current course records identify this as a three-year L-33 Bachelor's degree. The previous tracker MSc label is retained in previous_tracker_tags only; confirm the 2027/28 catalogue when published."
       },
       "language": {
-        "value": "Italian and English listed",
+        "value": "Italian and English (three Italian curricula; one fully English curriculum)",
         "status": "REQUIRES_VERIFICATION",
         "source_ids": [
-          "SRC-SAPIENZA-ECONOMICS-FINANCE-2026"
+          "SRC-SAPIENZA-ECFIN-PROFILE-2026",
+          "SRC-SAPIENZA-ECFIN-ARCHIVE-2025",
+          "SRC-SAPIENZA-ECFIN-CALL-2026",
+          "SRC-SAPIENZA-MOVEIN-REQUIREMENTS-JUN2026"
         ],
-        "notes": "Official 2026/27 evidence only; it does not confirm a 2027/28 new-entry offer or current terms."
+        "notes": "Official 2026/27 evidence: the course lists Italian and English curricula, with the Economics and Finance path delivered fully in English. This does not establish the 2027/28 offer."
       },
       "program_page_url": "https://italy-it-programs.vercel.app/programs/legacy-158/",
       "university_page_url": "https://italy-it-programs.vercel.app/universities/sapienza/",
       "official_program_source_urls": [
+        {
+          "id": "SRC-SAPIENZA-ECFIN-APPLY-2026",
+          "title": "Economics and Finance enrollment page 2026/27",
+          "url": "https://corsidilaurea.uniroma1.it/en/course/34177/apply",
+          "source_type": "Official course application page",
+          "cycle": "2026-2027",
+          "accessed_at": "2026-11-11",
+          "evidence": "The official 2026/27 apply page links the Faculty of Economics' combined admission call for the Bachelor's programmes, including Economics and Finance. It says the call governs enrollment and confirms that test results below its thresholds lead to an OFA to be completed in the first year. No 2027/28 call is shown.",
+          "supports": [
+            "program.previous_cycle_admission_route",
+            "program.previous_cycle_application_windows",
+            "program.previous_cycle_entrance_test",
+            "program.application_windows_2027_2028"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://corsidilaurea.uniroma1.it/en/course/34177/apply",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": null,
+            "etag": "W/\"1794392788-1\"",
+            "last_modified": "Wed, 11 Nov 2026 10:26:28 GMT",
+            "cache_control": "public, max-age=0",
+            "age": "0",
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Economics and Finance | Course catalogue",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 19522,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control: no-cache"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-SAPIENZA-ECFIN-ARCHIVE-2025",
+          "title": "Economics and Finance archived course profile 2025/26",
+          "url": "https://www.corsidilaurea.uniroma1.it/en/corso/2025/33438/home",
+          "source_type": "Official archived course catalogue",
+          "cycle": "2025-2026",
+          "accessed_at": "2026-11-11",
+          "evidence": "Sapienza's official 2025/26 archive identifies the same-name Economics and Finance course, code 33438, as a three-year L-33 Bachelor's degree with Italian and English curricula. The following year's current catalogue uses code 34177 for the L-33 course. These official course records contradict the previous tracker MSc label; the old classification is retained only as provenance, not as the current degree identity.",
+          "supports": [
+            "program.previous_cycle_course_listing",
+            "program.previous_tracker_classification_review"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.corsidilaurea.uniroma1.it/en/corso/2025/33438/home",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": null,
+            "etag": "W/\"1794396573-1\"",
+            "last_modified": "Wed, 11 Nov 2026 11:29:33 GMT",
+            "cache_control": "public, max-age=0",
+            "age": "0",
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Economics and Finance | Course catalogue",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 16333,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control: no-cache"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-SAPIENZA-ECFIN-PROFILE-2026",
+          "title": "Economics and Finance course profile 2026/27",
+          "url": "https://corsidilaurea.uniroma1.it/en/course/34177",
+          "source_type": "Official course catalogue",
+          "cycle": "2026-2027",
+          "accessed_at": "2026-11-11",
+          "evidence": "The current 2026/27 catalogue identifies Economics and Finance as programme code 34177, test code 14613, a three-year Bachelor's degree in class L-33 at Sapienza's Faculty of Economics, Department of Economics and Law, taught in person in Rome. The catalogue lists Italian and English; the official course regulation specifies three Italian curricula and one fully English curriculum. This does not establish a 2027/28 intake.",
+          "supports": [
+            "program.previous_cycle_course_listing",
+            "program.previous_cycle_language",
+            "program.official_course_url"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://corsidilaurea.uniroma1.it/en/course/34177",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": null,
+            "etag": "W/\"1794394088-1\"",
+            "last_modified": "Wed, 11 Nov 2026 10:48:08 GMT",
+            "cache_control": "public, max-age=0",
+            "age": "0",
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Economics and Finance | Course catalogue",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 19784,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control: no-cache"
+          },
+          "browser_check": null
+        },
         {
           "id": "SRC-SAPIENZA-ECONOMICS-FINANCE-2026",
           "title": "Economics and Finance bachelor’s listing 2026/27",
           "url": "https://corsidilaurea.uniroma1.it/en/timeview/2026/34177/organization",
           "source_type": "Official course catalogue",
           "cycle": "2026-2027",
-          "accessed_at": "2026-11-10",
-          "evidence": "The same-name 2026/27 course is Economia e finanza, an L-33 three-year bachelor’s program, not the MSc classification in the previous tracker. The catalogue lists Italian and English, but this does not establish that the entire course is English-taught. The match to the old MSc lead is unresolved.",
+          "accessed_at": "2026-11-11",
+          "evidence": "A fresh no-cache GET of the official 2026/27 archived organization view returned the Economics and Finance catalogue record. It confirms class L-33 and the three-year Bachelor's identity; the currently served full profile and admission call are separately linked as SRC-SAPIENZA-ECFIN-PROFILE-2026 and SRC-SAPIENZA-ECFIN-CALL-2026. This source does not support the previous tracker MSc classification or a 2027/28 offer.",
           "supports": [
             "program.previous_cycle_course_listing",
             "program.previous_cycle_language"
@@ -46585,8 +46855,87 @@
             "bytes_read": 41760,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
-            "method": "GET"
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control: no-cache"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-SAPIENZA-ECFIN-CALL-2026",
+          "title": "Economics and Finance 2026/27 admission call (English version)",
+          "url": "https://corsidilaurea.uniroma1.it/sites/default/files/offertaformativa/documenti_ufficiali/187/14613_e_0.pdf",
+          "source_type": "Official admission call PDF",
+          "cycle": "2026-2027",
+          "accessed_at": "2026-11-11",
+          "evidence": "The 22 June 2026 call (Rector's Decree 1285/2026) covers test code 14613 and the 2026/27 Economics and Finance L-33 Bachelor's degree. It makes access open and requires a non-selective knowledge test: TOLC-E or CEnT-S, with SAT also accepted for the English curriculum. Infostud registration and the €10 contribution ran 2 July–29 October 2026; the test had to be taken by 29 October and the first tuition installment was due 1 September–5 November. The call distinguishes Italian and English curricula, requires valid English B2 evidence for the English curriculum (with listed exemptions), and sets OFA thresholds below 9/36 TOLC-E, 8 in the selected CEnT-S sections, or 960/1600 SAT. Non-EU applicants resident abroad who need a study visa require the applicable pre-acceptance/pre-enrolment steps; Universitaly deadline was 30 June 2026. These terms are prior-cycle only.",
+          "supports": [
+            "program.previous_cycle_admission_route",
+            "program.previous_cycle_application_windows",
+            "program.previous_cycle_application_fee",
+            "program.previous_cycle_program_requirements",
+            "program.previous_cycle_entrance_test",
+            "program.previous_cycle_language"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 206,
+            "effective_url": "https://corsidilaurea.uniroma1.it/sites/default/files/offertaformativa/documenti_ufficiali/187/14613_e_0.pdf",
+            "content_type": "application/pdf",
+            "content_length_header": "4096",
+            "etag": "\"aecce-65743e2bf83d7\"",
+            "last_modified": "Thu, 23 Jul 2026 09:28:58 GMT",
+            "cache_control": null,
+            "age": "304",
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": null,
+            "pdf_signature": true,
+            "has_2027_marker": null,
+            "bytes_read": 4096,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with byte range and Cache-Control: no-cache"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-SAPIENZA-MOVEIN-REQUIREMENTS-JUN2026",
+          "title": "English-program MoveIN academic and language requirements – June 2026 revision",
+          "url": "https://www.uniroma1.it/sites/default/files/field_file_allegati/academic_requirements_movein_2026-2027_web_20260608.pdf",
+          "source_type": "Official Sapienza international pre-selection requirements PDF",
+          "cycle": "2026-2027",
+          "accessed_at": "2026-11-11",
+          "evidence": "The June 8, 2026 revision includes both BSc Economics and Finance and MSc Engineering in Computer Science and Artificial Intelligence among the 2026/27 English-taught programmes in MoveIN pre-selection. For Economics and Finance, the document sets an 80/100 minimum GPA, requires a SAT score of at least 960 or a positive converted CEnT-S score, and specifies English B2 with listed evidence and exemptions. For Engineering in Computer Science and AI it separately states 75/100. These are programme-specific MoveIN pre-selection criteria, not general course-admission rules; course calls govern final eligibility and enrollment. The central admissions page gives the 2026/27 MoveIN deadlines by applicant group (15 May for non-EU visa applicants and 31 July for EU/equivalent applicants). Historical evidence only.",
+          "supports": [
+            "program.previous_cycle_admission_route",
+            "program.previous_cycle_application_windows",
+            "program.previous_cycle_application_fee",
+            "program.previous_cycle_program_requirements",
+            "program.previous_cycle_contacts"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 206,
+            "effective_url": "https://www.uniroma1.it/sites/default/files/field_file_allegati/academic_requirements_movein_2026-2027_web_20260608.pdf",
+            "content_type": "application/pdf",
+            "content_length_header": "4096",
+            "etag": "\"184921-653bcdb3da29d\"",
+            "last_modified": "Mon, 08 Jun 2026 12:07:37 GMT",
+            "cache_control": null,
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": null,
+            "pdf_signature": true,
+            "has_2027_marker": null,
+            "bytes_read": 4096,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with byte range and Cache-Control: no-cache"
           },
           "browser_check": null
         },
@@ -46596,7 +46945,7 @@
           "url": "https://www.uniroma1.it/en/en/admissions",
           "source_type": "Official university page",
           "cycle": "2026-2027",
-          "accessed_at": "2026-11-10",
+          "accessed_at": "2026-11-11",
           "evidence": "English-taught degree applicants used MoveIN pre-selection. The 2026/27 cycle opened 22 December 2025; the non-EU visa-applicant deadline was 15 May 2026, the EU/equivalent deadline was 31 July 2026, and Universitaly pre-enrolment was due 30 June 2026. A candidate could submit up to two applications. Pre-selection was only one step and did not guarantee final admission. No 2027/28 first-year schedule is stated on the reviewed page.",
           "supports": [
             "university.previous_cycle_admission_process",
@@ -46609,8 +46958,8 @@
             "effective_url": "https://www.uniroma1.it/en/en/admissions",
             "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
-            "etag": "\"1794345752-1\"",
-            "last_modified": "Tue, 10 Nov 2026 21:22:32 GMT",
+            "etag": "\"1794396199-1\"",
+            "last_modified": "Wed, 11 Nov 2026 11:23:19 GMT",
             "cache_control": "public, max-age=86400",
             "age": null,
             "x_vercel_cache": null,
@@ -46622,8 +46971,8 @@
             "bytes_read": 49669,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
-            "method": "GET"
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control: no-cache"
           },
           "browser_check": null
         },
@@ -46663,82 +47012,334 @@
             "method": "GET"
           },
           "browser_check": null
+        },
+        {
+          "id": "SRC-SAPIENZA-APPLICATION-FEE-2026",
+          "title": "MoveIN pre-selection application fee 2026/27",
+          "url": "https://www.uniroma1.it/it/pagina/international-admissions-2026-2027",
+          "source_type": "Official university page",
+          "cycle": "2026-2027",
+          "accessed_at": "2026-11-11",
+          "evidence": "The official admissions information states a €30 fee for each pre-selection application, up to two applications per candidate and intake, with no waiver. The general International Student Office separately describes a €10 course requirement-assessment payment for applicable Master’s routes; these are different processes.",
+          "supports": [
+            "university.previous_cycle_application_fee",
+            "program.previous_cycle_application_fee"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.uniroma1.it/it/pagina/international-admissions-2026-2027",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": null,
+            "etag": "\"1794396208-1\"",
+            "last_modified": "Wed, 11 Nov 2026 11:23:28 GMT",
+            "cache_control": "public, max-age=86400",
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Programmes in English | Sapienza Università di Roma",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 51191,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control: no-cache"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-SAPIENZA-DISCO-LAZIO-2026",
+          "title": "DiSCo Lazio Right to Education call 2026/27",
+          "url": "https://laziodisco.it/on-line-il-bando-diritto-allo-studio-2026-2027/?lang=en",
+          "source_type": "Official regional scholarship call",
+          "cycle": "2026-2027",
+          "accessed_at": "2026-11-11",
+          "evidence": "The regional competitive call covered students at Lazio universities, including Sapienza, and offered scholarships, housing, mobility grants and other benefits subject to the annual economic and merit rules. The application deadline was extended to 23 July 2026 at 20:00; corrections in the second phase closed 11 August. It is prior-cycle regional aid, not a guaranteed Sapienza or program award.",
+          "supports": [
+            "university.previous_cycle_regional_aid",
+            "university.previous_cycle_scholarships",
+            "program.previous_cycle_scholarships"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://laziodisco.it/on-line-il-bando-diritto-allo-studio-2026-2027/?lang=en",
+            "content_type": "text/html; charset=UTF-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": null,
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "On line il Bando diritto allo studio 2026/2027 - Lazio DiSCo",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 119124,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-SAPIENZA-FEE-TABLE-2026",
+          "title": "Standard registration-fee amounts for 2026/27",
+          "url": "https://www.uniroma1.it/en/node/29732",
+          "source_type": "Official university page",
+          "cycle": "2026-2027",
+          "accessed_at": "2026-11-11",
+          "evidence": "Article 38's €2,821 and €2,924 standard amounts are specifically for second-level two-year, single-cycle and unified Master's degrees, not this three-year L-33 Bachelor's course. It also lists foreign-income contribution bands of €300, €700 or €1,500 by country group. Check the course and the student's residence, income and exemptions before quoting an amount.",
+          "supports": [
+            "university.previous_cycle_tuition",
+            "program.previous_cycle_tuition",
+            "university.fee_conditions"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.uniroma1.it/en/node/29732",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": "47296",
+            "etag": "\"1794396456-1\"",
+            "last_modified": "Wed, 11 Nov 2026 11:27:36 GMT",
+            "cache_control": "public, max-age=86400",
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Standard registration fee amounts | Sapienza Università di Roma",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 47296,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control: no-cache"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-SAPIENZA-FEES-2026",
+          "title": "Tuition, payment and foreign-income guidance 2026/27",
+          "url": "https://www.uniroma1.it/en/pagina/tuition-fees-and-benefits",
+          "source_type": "Official university page",
+          "cycle": "2026-2027",
+          "accessed_at": "2026-11-11",
+          "evidence": "The official 2026/27 fees page describes ISEE-based reductions, three installments of 30%, 35% and 35%, and country-group fixed contributions for students with foreign tax residence. Amounts depend on course and student circumstances; it does not supply a course-specific amount for this L-33 Bachelor's course.",
+          "supports": [
+            "university.previous_cycle_tuition",
+            "program.previous_cycle_tuition",
+            "university.fee_conditions"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.uniroma1.it/en/pagina/tuition-fees-and-benefits",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": null,
+            "etag": "\"1794396405-1\"",
+            "last_modified": "Wed, 11 Nov 2026 11:26:45 GMT",
+            "cache_control": "public, max-age=86400",
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Tuition Fees and Benefits | Sapienza Università di Roma",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 49893,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control: no-cache"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-SAPIENZA-SCHOLARSHIPS-2026",
+          "title": "Sapienza scholarships and student benefits inventory",
+          "url": "https://www.uniroma1.it/en/pagina/scholarships",
+          "source_type": "Official university scholarship inventory",
+          "cycle": "general",
+          "accessed_at": "2026-11-11",
+          "evidence": "The official scholarship inventory describes regional DiSCo Lazio benefits and other competitive or eligibility-limited schemes. The reviewed page did not publish a 2027/28 incoming-student scholarship call for this Bachelor's course; annual calls and individual eligibility must be checked when issued.",
+          "supports": [
+            "program.previous_cycle_scholarships",
+            "program.scholarships_2027_2028"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.uniroma1.it/en/pagina/scholarships",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": null,
+            "etag": "\"1794394388-1\"",
+            "last_modified": "Wed, 11 Nov 2026 10:53:08 GMT",
+            "cache_control": "public, max-age=86400",
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Scholarships | Sapienza Università di Roma",
+            "pdf_signature": null,
+            "has_2027_marker": true,
+            "bytes_read": 50499,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-SAPIENZA-WANTED-BEST-2026",
+          "title": "Wanted the Best merit scholarship call 2026/27",
+          "url": "https://www.uniroma1.it/en/pagina/scholarships-meritorious-students-italian-and-international-universities",
+          "source_type": "Official scholarship call",
+          "cycle": "2026-2027",
+          "accessed_at": "2026-11-11",
+          "evidence": "The 2026/27 call offered 85 two-year awards of €3,000 gross per year to students enrolling in a Sapienza Master’s after earning their first degree at another Italian university with a grade from 105/110 to 110/110 cum laude. Deadline: 30 October 2026. It is not a general award for applicants whose prior degree is from abroad.",
+          "supports": [
+            "university.previous_cycle_scholarships",
+            "program.previous_cycle_scholarships"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.uniroma1.it/en/pagina/scholarships-meritorious-students-italian-and-international-universities",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": "40281",
+            "etag": "\"1794393654-1\"",
+            "last_modified": "Wed, 11 Nov 2026 10:40:54 GMT",
+            "cache_control": "public, max-age=86400",
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Scholarships for Meritorious Students from Italian and International Universities | Sapienza Università di Roma",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 40281,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
+          },
+          "browser_check": null
         }
       ],
       "availability_2027_2028": {
         "value": null,
-        "status": "REQUIRES_VERIFICATION",
+        "status": "NOT_YET_PUBLISHED",
         "source_ids": [
-          "SRC-SAPIENZA-ECONOMICS-FINANCE-2026",
-          "SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026",
-          "SRC-SAPIENZA-INTL-OFFICE-2026"
+          "SRC-SAPIENZA-ECFIN-PROFILE-2026",
+          "SRC-SAPIENZA-ECFIN-APPLY-2026",
+          "SRC-SAPIENZA-ECFIN-CALL-2026",
+          "SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026"
         ],
-        "notes": "The reviewed university admissions and course materials concern 2026/27 or older. No 2027/28 first-year call was found, and absence from these pages is not treated as discontinuation."
+        "notes": "Not yet announced for 2027/28 in the Sapienza catalogue and admission pages reviewed as of 11 November 2026. This does not mean discontinued."
       },
       "existing_overall_status": "REQUIRES_VERIFICATION",
-      "existing_last_checked": "2026-11-10",
+      "existing_last_checked": "2026-11-11",
       "fields_needing_review": [
         {
           "field": "level",
           "status": "REQUIRES_VERIFICATION",
-          "value": "BSc",
-          "notes": "Official 2026/27 evidence only; it does not confirm a 2027/28 new-entry offer or current terms.",
+          "value": "Bachelor's degree (Laurea, class L-33)",
+          "notes": "Sapienza's 2025/26 archived and 2026/27 current course records identify this as a three-year L-33 Bachelor's degree. The previous tracker MSc label is retained in previous_tracker_tags only; confirm the 2027/28 catalogue when published.",
           "source_ids": [
-            "SRC-SAPIENZA-ECONOMICS-FINANCE-2026"
+            "SRC-SAPIENZA-ECFIN-PROFILE-2026",
+            "SRC-SAPIENZA-ECFIN-ARCHIVE-2025"
           ]
         },
         {
           "field": "language",
           "status": "REQUIRES_VERIFICATION",
-          "value": "Italian and English listed",
-          "notes": "Official 2026/27 evidence only; it does not confirm a 2027/28 new-entry offer or current terms.",
+          "value": "Italian and English (three Italian curricula; one fully English curriculum)",
+          "notes": "Official 2026/27 evidence: the course lists Italian and English curricula, with the Economics and Finance path delivered fully in English. This does not establish the 2027/28 offer.",
           "source_ids": [
-            "SRC-SAPIENZA-ECONOMICS-FINANCE-2026"
+            "SRC-SAPIENZA-ECFIN-PROFILE-2026",
+            "SRC-SAPIENZA-ECFIN-ARCHIVE-2025",
+            "SRC-SAPIENZA-ECFIN-CALL-2026",
+            "SRC-SAPIENZA-MOVEIN-REQUIREMENTS-JUN2026"
           ]
         },
         {
           "field": "field",
           "status": "REQUIRES_VERIFICATION",
           "value": "Economics and Finance",
-          "notes": "Official 2026/27 evidence only; it does not confirm a 2027/28 new-entry offer or current terms.",
+          "notes": "Official course identity is confirmed for the 2025/26 archive and 2026/27 catalogue only.",
           "source_ids": [
-            "SRC-SAPIENZA-ECONOMICS-FINANCE-2026"
+            "SRC-SAPIENZA-ECFIN-PROFILE-2026",
+            "SRC-SAPIENZA-ECFIN-ARCHIVE-2025"
           ]
         },
         {
           "field": "availability_2027_2028",
-          "status": "REQUIRES_VERIFICATION",
+          "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "The reviewed university admissions and course materials concern 2026/27 or older. No 2027/28 first-year call was found, and absence from these pages is not treated as discontinuation.",
+          "notes": "Not yet announced for 2027/28 in the Sapienza catalogue and admission pages reviewed as of 11 November 2026. This does not mean discontinued.",
           "source_ids": [
-            "SRC-SAPIENZA-ECONOMICS-FINANCE-2026",
-            "SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026",
-            "SRC-SAPIENZA-INTL-OFFICE-2026"
+            "SRC-SAPIENZA-ECFIN-PROFILE-2026",
+            "SRC-SAPIENZA-ECFIN-APPLY-2026",
+            "SRC-SAPIENZA-ECFIN-CALL-2026",
+            "SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026"
           ]
         },
         {
           "field": "facts.application_windows_2027_2028",
-          "status": "REQUIRES_VERIFICATION",
+          "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "The reviewed application schedule is for 2026/27 only.",
+          "notes": "No 2027/28 course listing or admission calendar was published on the official pages reviewed as of 11 November 2026.",
           "source_ids": [
+            "SRC-SAPIENZA-ECFIN-PROFILE-2026",
+            "SRC-SAPIENZA-ECFIN-APPLY-2026",
+            "SRC-SAPIENZA-ECFIN-CALL-2026",
             "SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026"
           ]
         },
         {
           "field": "facts.application_fee_2027_2028",
-          "status": "REQUIRES_VERIFICATION",
+          "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "No 2027/28 course application fee was identified.",
+          "notes": "The €10 course contribution and €30 MoveIN charge are 2026/27 terms only; no 2027/28 amounts were published.",
           "source_ids": [
+            "SRC-SAPIENZA-ECFIN-CALL-2026",
             "SRC-SAPIENZA-APPLICATION-FEE-2026"
           ]
         },
         {
-          "field": "facts.tuition_2027_2028",
-          "status": "REQUIRES_VERIFICATION",
+          "field": "facts.program_specific_requirements_2027_2028",
+          "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "No 2027/28 tuition regulation or amount was identified.",
+          "notes": "No 2027/28 course call or updated MoveIN requirements were identified; 2026/27 qualifications, test routes and thresholds are not carried forward.",
+          "source_ids": [
+            "SRC-SAPIENZA-ECFIN-PROFILE-2026",
+            "SRC-SAPIENZA-ECFIN-CALL-2026",
+            "SRC-SAPIENZA-MOVEIN-REQUIREMENTS-JUN2026"
+          ]
+        },
+        {
+          "field": "facts.english_language_requirement_2027_2028",
+          "status": "NOT_YET_PUBLISHED",
+          "value": null,
+          "notes": "No 2027/28 curriculum or English-certificate rule has been published in the reviewed pages.",
+          "source_ids": [
+            "SRC-SAPIENZA-ECFIN-PROFILE-2026",
+            "SRC-SAPIENZA-ECFIN-CALL-2026",
+            "SRC-SAPIENZA-MOVEIN-REQUIREMENTS-JUN2026"
+          ]
+        },
+        {
+          "field": "facts.tuition_2027_2028",
+          "status": "NOT_YET_PUBLISHED",
+          "value": null,
+          "notes": "No 2027/28 tuition regulation or course-level total was available; the 2026/27 income/residence-dependent framework is historical only.",
           "source_ids": [
             "SRC-SAPIENZA-FEES-2026",
             "SRC-SAPIENZA-FEE-TABLE-2026"
@@ -46746,79 +47347,87 @@
         },
         {
           "field": "facts.scholarships_2027_2028",
-          "status": "REQUIRES_VERIFICATION",
+          "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "No 2027/28 scholarship call for these new entrants was identified.",
+          "notes": "No 2027/28 DiSCo call or incoming-student scholarship call was published in the reviewed official pages. This does not imply that general aid will be unavailable once annual calls open.",
           "source_ids": [
-            "SRC-SAPIENZA-WANTED-BEST-2026",
-            "SRC-SAPIENZA-DISCO-LAZIO-2026"
+            "SRC-SAPIENZA-DISCO-LAZIO-2026",
+            "SRC-SAPIENZA-SCHOLARSHIPS-2026"
           ]
         },
         {
           "field": "facts.acceptance_rate",
           "status": "UNAVAILABLE",
           "value": null,
-          "notes": "The reviewed sources do not provide a comparable complete applicant and admitted-student denominator.",
+          "notes": "The programme is open access with a non-selective knowledge-verification test; no comparable applicant/admitted denominator is published, so no acceptance rate is inferred.",
           "source_ids": [
-            "SRC-SAPIENZA-ECONOMICS-FINANCE-2026",
-            "SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026",
-            "SRC-SAPIENZA-INTL-OFFICE-2026"
-          ]
-        },
-        {
-          "field": "facts.previous_cycle_application_windows",
-          "status": "REQUIRES_VERIFICATION",
-          "value": null,
-          "notes": "No course-specific 2026/27 application calendar was captured for this lead; the general MoveIN schedule applies only to the programs listed for pre-selection.",
-          "source_ids": [
-            "SRC-SAPIENZA-ECONOMICS-FINANCE-2026"
-          ]
-        },
-        {
-          "field": "facts.previous_cycle_application_fee",
-          "status": "REQUIRES_VERIFICATION",
-          "value": null,
-          "notes": "No course-specific 2026/27 application charge was captured for this lead; the €30 MoveIN charge applies only to listed pre-selection applications.",
-          "source_ids": [
-            "SRC-SAPIENZA-ECONOMICS-FINANCE-2026"
+            "SRC-SAPIENZA-ECFIN-CALL-2026",
+            "SRC-SAPIENZA-ECFIN-PROFILE-2026"
           ]
         }
       ],
       "missing_fields": [
         {
           "field": "availability_2027_2028",
-          "status": "REQUIRES_VERIFICATION",
+          "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "The reviewed university admissions and course materials concern 2026/27 or older. No 2027/28 first-year call was found, and absence from these pages is not treated as discontinuation.",
+          "notes": "Not yet announced for 2027/28 in the Sapienza catalogue and admission pages reviewed as of 11 November 2026. This does not mean discontinued.",
           "source_ids": [
-            "SRC-SAPIENZA-ECONOMICS-FINANCE-2026",
-            "SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026",
-            "SRC-SAPIENZA-INTL-OFFICE-2026"
+            "SRC-SAPIENZA-ECFIN-PROFILE-2026",
+            "SRC-SAPIENZA-ECFIN-APPLY-2026",
+            "SRC-SAPIENZA-ECFIN-CALL-2026",
+            "SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026"
           ]
         },
         {
           "field": "facts.application_windows_2027_2028",
-          "status": "REQUIRES_VERIFICATION",
+          "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "The reviewed application schedule is for 2026/27 only.",
+          "notes": "No 2027/28 course listing or admission calendar was published on the official pages reviewed as of 11 November 2026.",
           "source_ids": [
+            "SRC-SAPIENZA-ECFIN-PROFILE-2026",
+            "SRC-SAPIENZA-ECFIN-APPLY-2026",
+            "SRC-SAPIENZA-ECFIN-CALL-2026",
             "SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026"
           ]
         },
         {
           "field": "facts.application_fee_2027_2028",
-          "status": "REQUIRES_VERIFICATION",
+          "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "No 2027/28 course application fee was identified.",
+          "notes": "The €10 course contribution and €30 MoveIN charge are 2026/27 terms only; no 2027/28 amounts were published.",
           "source_ids": [
+            "SRC-SAPIENZA-ECFIN-CALL-2026",
             "SRC-SAPIENZA-APPLICATION-FEE-2026"
           ]
         },
         {
-          "field": "facts.tuition_2027_2028",
-          "status": "REQUIRES_VERIFICATION",
+          "field": "facts.program_specific_requirements_2027_2028",
+          "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "No 2027/28 tuition regulation or amount was identified.",
+          "notes": "No 2027/28 course call or updated MoveIN requirements were identified; 2026/27 qualifications, test routes and thresholds are not carried forward.",
+          "source_ids": [
+            "SRC-SAPIENZA-ECFIN-PROFILE-2026",
+            "SRC-SAPIENZA-ECFIN-CALL-2026",
+            "SRC-SAPIENZA-MOVEIN-REQUIREMENTS-JUN2026"
+          ]
+        },
+        {
+          "field": "facts.english_language_requirement_2027_2028",
+          "status": "NOT_YET_PUBLISHED",
+          "value": null,
+          "notes": "No 2027/28 curriculum or English-certificate rule has been published in the reviewed pages.",
+          "source_ids": [
+            "SRC-SAPIENZA-ECFIN-PROFILE-2026",
+            "SRC-SAPIENZA-ECFIN-CALL-2026",
+            "SRC-SAPIENZA-MOVEIN-REQUIREMENTS-JUN2026"
+          ]
+        },
+        {
+          "field": "facts.tuition_2027_2028",
+          "status": "NOT_YET_PUBLISHED",
+          "value": null,
+          "notes": "No 2027/28 tuition regulation or course-level total was available; the 2026/27 income/residence-dependent framework is historical only.",
           "source_ids": [
             "SRC-SAPIENZA-FEES-2026",
             "SRC-SAPIENZA-FEE-TABLE-2026"
@@ -46826,56 +47435,48 @@
         },
         {
           "field": "facts.scholarships_2027_2028",
-          "status": "REQUIRES_VERIFICATION",
+          "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "No 2027/28 scholarship call for these new entrants was identified.",
+          "notes": "No 2027/28 DiSCo call or incoming-student scholarship call was published in the reviewed official pages. This does not imply that general aid will be unavailable once annual calls open.",
           "source_ids": [
-            "SRC-SAPIENZA-WANTED-BEST-2026",
-            "SRC-SAPIENZA-DISCO-LAZIO-2026"
+            "SRC-SAPIENZA-DISCO-LAZIO-2026",
+            "SRC-SAPIENZA-SCHOLARSHIPS-2026"
           ]
         },
         {
           "field": "facts.acceptance_rate",
           "status": "UNAVAILABLE",
           "value": null,
-          "notes": "The reviewed sources do not provide a comparable complete applicant and admitted-student denominator.",
+          "notes": "The programme is open access with a non-selective knowledge-verification test; no comparable applicant/admitted denominator is published, so no acceptance rate is inferred.",
           "source_ids": [
-            "SRC-SAPIENZA-ECONOMICS-FINANCE-2026",
-            "SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026",
-            "SRC-SAPIENZA-INTL-OFFICE-2026"
-          ]
-        },
-        {
-          "field": "facts.previous_cycle_application_windows",
-          "status": "REQUIRES_VERIFICATION",
-          "value": null,
-          "notes": "No course-specific 2026/27 application calendar was captured for this lead; the general MoveIN schedule applies only to the programs listed for pre-selection.",
-          "source_ids": [
-            "SRC-SAPIENZA-ECONOMICS-FINANCE-2026"
-          ]
-        },
-        {
-          "field": "facts.previous_cycle_application_fee",
-          "status": "REQUIRES_VERIFICATION",
-          "value": null,
-          "notes": "No course-specific 2026/27 application charge was captured for this lead; the €30 MoveIN charge applies only to listed pre-selection applications.",
-          "source_ids": [
-            "SRC-SAPIENZA-ECONOMICS-FINANCE-2026"
+            "SRC-SAPIENZA-ECFIN-CALL-2026",
+            "SRC-SAPIENZA-ECFIN-PROFILE-2026"
           ]
         }
       ],
       "known_source_conflicts": [],
       "source_ids": [
         "SRC-SAPIENZA-ECONOMICS-FINANCE-2026",
+        "SRC-SAPIENZA-ECFIN-PROFILE-2026",
+        "SRC-SAPIENZA-ECFIN-APPLY-2026",
+        "SRC-SAPIENZA-ECFIN-CALL-2026",
+        "SRC-SAPIENZA-ECFIN-ARCHIVE-2025",
+        "SRC-SAPIENZA-MOVEIN-REQUIREMENTS-JUN2026",
         "SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026",
-        "SRC-SAPIENZA-INTL-OFFICE-2026"
+        "SRC-SAPIENZA-INTL-OFFICE-2026",
+        "SRC-SAPIENZA-APPLICATION-FEE-2026",
+        "SRC-SAPIENZA-FEES-2026",
+        "SRC-SAPIENZA-FEE-TABLE-2026",
+        "SRC-SAPIENZA-DISCO-LAZIO-2026",
+        "SRC-SAPIENZA-WANTED-BEST-2026",
+        "SRC-SAPIENZA-SCHOLARSHIPS-2026"
       ],
       "previous_cycle_tags": {
-        "level": "BSc",
-        "language": "Italian and English listed",
+        "level": "Bachelor's degree (Laurea, class L-33)",
+        "language": "Italian and English (three Italian curricula; one fully English curriculum)",
         "field": "Economics and Finance",
         "cycle": "2026-2027",
-        "label": "Official 2026/27 evidence only; 2027/28 intake remains unverified"
+        "label": "Official course 34177 and 2026/27 call; 2027/28 entry remains unannounced"
       },
       "refresh_status": "pending",
       "refresh_checked_at": null,
@@ -47070,7 +47671,7 @@
           "source_type": "Official Sapienza international pre-selection requirements PDF",
           "cycle": "2026-2027",
           "accessed_at": "2026-11-11",
-          "evidence": "The June 8, 2026 revision lists Engineering in Computer Science and Artificial Intelligence among the 2026/27 English-taught Master's programmes in MoveIN pre-selection. For this pre-selection it states a minimum GPA of 75/100, English B2 (with accepted evidence/exemptions), and individual academic review; the course call separately governs final Infostud eligibility and enrollment. Non-EU visa applicants' MoveIN deadline was 15 May 2026, and the document says Italian, EU and EU-equivalent students must not apply through MoveIN. It lists admissions@diag.uniroma1.it as the programme contact. Historical 2026/27 evidence only.",
+          "evidence": "The June 8, 2026 revision includes both BSc Economics and Finance and MSc Engineering in Computer Science and Artificial Intelligence among the 2026/27 English-taught programmes in MoveIN pre-selection. For Economics and Finance, the document sets an 80/100 minimum GPA, requires a SAT score of at least 960 or a positive converted CEnT-S score, and specifies English B2 with listed evidence and exemptions. For Engineering in Computer Science and AI it separately states 75/100. These are programme-specific MoveIN pre-selection criteria, not general course-admission rules; course calls govern final eligibility and enrollment. The central admissions page gives the 2026/27 MoveIN deadlines by applicant group (15 May for non-EU visa applicants and 31 July for EU/equivalent applicants). Historical evidence only.",
           "supports": [
             "program.previous_cycle_admission_route",
             "program.previous_cycle_application_windows",
@@ -47108,7 +47709,7 @@
           "url": "https://www.uniroma1.it/en/en/admissions",
           "source_type": "Official university page",
           "cycle": "2026-2027",
-          "accessed_at": "2026-11-10",
+          "accessed_at": "2026-11-11",
           "evidence": "English-taught degree applicants used MoveIN pre-selection. The 2026/27 cycle opened 22 December 2025; the non-EU visa-applicant deadline was 15 May 2026, the EU/equivalent deadline was 31 July 2026, and Universitaly pre-enrolment was due 30 June 2026. A candidate could submit up to two applications. Pre-selection was only one step and did not guarantee final admission. No 2027/28 first-year schedule is stated on the reviewed page.",
           "supports": [
             "university.previous_cycle_admission_process",
@@ -47121,8 +47722,8 @@
             "effective_url": "https://www.uniroma1.it/en/en/admissions",
             "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
-            "etag": "\"1794345752-1\"",
-            "last_modified": "Tue, 10 Nov 2026 21:22:32 GMT",
+            "etag": "\"1794396199-1\"",
+            "last_modified": "Wed, 11 Nov 2026 11:23:19 GMT",
             "cache_control": "public, max-age=86400",
             "age": null,
             "x_vercel_cache": null,
@@ -47134,8 +47735,8 @@
             "bytes_read": 49669,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
-            "method": "GET"
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control: no-cache"
           },
           "browser_check": null
         },
@@ -47182,7 +47783,7 @@
           "url": "https://www.uniroma1.it/it/pagina/international-admissions-2026-2027",
           "source_type": "Official university page",
           "cycle": "2026-2027",
-          "accessed_at": "2026-11-10",
+          "accessed_at": "2026-11-11",
           "evidence": "The official admissions information states a €30 fee for each pre-selection application, up to two applications per candidate and intake, with no waiver. The general International Student Office separately describes a €10 course requirement-assessment payment for applicable Master’s routes; these are different processes.",
           "supports": [
             "university.previous_cycle_application_fee",
@@ -47194,8 +47795,8 @@
             "effective_url": "https://www.uniroma1.it/it/pagina/international-admissions-2026-2027",
             "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
-            "etag": "\"1794345880-1\"",
-            "last_modified": "Tue, 10 Nov 2026 21:24:40 GMT",
+            "etag": "\"1794396208-1\"",
+            "last_modified": "Wed, 11 Nov 2026 11:23:28 GMT",
             "cache_control": "public, max-age=86400",
             "age": null,
             "x_vercel_cache": null,
@@ -47204,11 +47805,11 @@
             "observed_title": "Programmes in English | Sapienza Università di Roma",
             "pdf_signature": null,
             "has_2027_marker": false,
-            "bytes_read": 51231,
+            "bytes_read": 51191,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
-            "method": "GET"
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control: no-cache"
           },
           "browser_check": null
         },
@@ -47256,7 +47857,7 @@
           "source_type": "Official university page",
           "cycle": "2026-2027",
           "accessed_at": "2026-11-11",
-          "evidence": "Art. 38 lists a €2,924 second-contribution-bracket standard for second-level two-year, single-cycle and unified Master's degrees in named faculties, including Civil and Industrial Engineering; this is not a quoted fee for the three-year Aerospace BSc. The page also lists foreign-income contribution bands of €300, €700 or €1,500 by country group. Check the course, residence, income and exemptions before quoting a student's amount.",
+          "evidence": "Article 38's €2,821 and €2,924 standard amounts are specifically for second-level two-year, single-cycle and unified Master's degrees, not this three-year L-33 Bachelor's course. It also lists foreign-income contribution bands of €300, €700 or €1,500 by country group. Check the course and the student's residence, income and exemptions before quoting an amount.",
           "supports": [
             "university.previous_cycle_tuition",
             "program.previous_cycle_tuition",
@@ -47268,8 +47869,8 @@
             "effective_url": "https://www.uniroma1.it/en/node/29732",
             "content_type": "text/html; charset=utf-8",
             "content_length_header": "47296",
-            "etag": "\"1794394388-1\"",
-            "last_modified": "Wed, 11 Nov 2026 10:53:08 GMT",
+            "etag": "\"1794396456-1\"",
+            "last_modified": "Wed, 11 Nov 2026 11:27:36 GMT",
             "cache_control": "public, max-age=86400",
             "age": null,
             "x_vercel_cache": null,
@@ -47282,7 +47883,7 @@
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
+            "method": "GET with Cache-Control: no-cache"
           },
           "browser_check": null
         },
@@ -47293,7 +47894,7 @@
           "source_type": "Official university page",
           "cycle": "2026-2027",
           "accessed_at": "2026-11-11",
-          "evidence": "The 2026/27 tuition page describes ISEE-based reductions, three installments of 30%, 35% and 35%, the ordinary fee framework and foreign-income rules. These are annual rules and the amount depends on course area and individual circumstances.",
+          "evidence": "The official 2026/27 fees page describes ISEE-based reductions, three installments of 30%, 35% and 35%, and country-group fixed contributions for students with foreign tax residence. Amounts depend on course and student circumstances; it does not supply a course-specific amount for this L-33 Bachelor's course.",
           "supports": [
             "university.previous_cycle_tuition",
             "program.previous_cycle_tuition",
@@ -47305,8 +47906,8 @@
             "effective_url": "https://www.uniroma1.it/en/pagina/tuition-fees-and-benefits",
             "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
-            "etag": "\"1794394387-1\"",
-            "last_modified": "Wed, 11 Nov 2026 10:53:07 GMT",
+            "etag": "\"1794396405-1\"",
+            "last_modified": "Wed, 11 Nov 2026 11:26:45 GMT",
             "cache_control": "public, max-age=86400",
             "age": null,
             "x_vercel_cache": null,
@@ -47314,12 +47915,12 @@
             "location": null,
             "observed_title": "Tuition Fees and Benefits | Sapienza Università di Roma",
             "pdf_signature": null,
-            "has_2027_marker": true,
+            "has_2027_marker": false,
             "bytes_read": 49893,
             "outcome": "accessible",
             "error": null,
             "checked_at": "2026-11-11",
-            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
+            "method": "GET with Cache-Control: no-cache"
           },
           "browser_check": null
         },
@@ -47686,7 +48287,7 @@
           "url": "https://www.uniroma1.it/en/en/admissions",
           "source_type": "Official university page",
           "cycle": "2026-2027",
-          "accessed_at": "2026-11-10",
+          "accessed_at": "2026-11-11",
           "evidence": "English-taught degree applicants used MoveIN pre-selection. The 2026/27 cycle opened 22 December 2025; the non-EU visa-applicant deadline was 15 May 2026, the EU/equivalent deadline was 31 July 2026, and Universitaly pre-enrolment was due 30 June 2026. A candidate could submit up to two applications. Pre-selection was only one step and did not guarantee final admission. No 2027/28 first-year schedule is stated on the reviewed page.",
           "supports": [
             "university.previous_cycle_admission_process",
@@ -47699,8 +48300,8 @@
             "effective_url": "https://www.uniroma1.it/en/en/admissions",
             "content_type": "text/html; charset=utf-8",
             "content_length_header": null,
-            "etag": "\"1794345752-1\"",
-            "last_modified": "Tue, 10 Nov 2026 21:22:32 GMT",
+            "etag": "\"1794396199-1\"",
+            "last_modified": "Wed, 11 Nov 2026 11:23:19 GMT",
             "cache_control": "public, max-age=86400",
             "age": null,
             "x_vercel_cache": null,
@@ -47712,8 +48313,8 @@
             "bytes_read": 49669,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
-            "method": "GET"
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control: no-cache"
           },
           "browser_check": null
         },
@@ -126114,7 +126715,7 @@
       "url": "https://www.uniroma1.it/en/en/admissions",
       "source_type": "Official university page",
       "cycle": "2026-2027",
-      "accessed_at": "2026-11-10",
+      "accessed_at": "2026-11-11",
       "evidence": "English-taught degree applicants used MoveIN pre-selection. The 2026/27 cycle opened 22 December 2025; the non-EU visa-applicant deadline was 15 May 2026, the EU/equivalent deadline was 31 July 2026, and Universitaly pre-enrolment was due 30 June 2026. A candidate could submit up to two applications. Pre-selection was only one step and did not guarantee final admission. No 2027/28 first-year schedule is stated on the reviewed page.",
       "supports": [
         "university.previous_cycle_admission_process",
@@ -126127,8 +126728,8 @@
         "effective_url": "https://www.uniroma1.it/en/en/admissions",
         "content_type": "text/html; charset=utf-8",
         "content_length_header": null,
-        "etag": "\"1794345752-1\"",
-        "last_modified": "Tue, 10 Nov 2026 21:22:32 GMT",
+        "etag": "\"1794396199-1\"",
+        "last_modified": "Wed, 11 Nov 2026 11:23:19 GMT",
         "cache_control": "public, max-age=86400",
         "age": null,
         "x_vercel_cache": null,
@@ -126140,8 +126741,8 @@
         "bytes_read": 49669,
         "outcome": "accessible",
         "error": null,
-        "checked_at": "2026-11-10",
-        "method": "GET"
+        "checked_at": "2026-11-11",
+        "method": "GET with Cache-Control: no-cache"
       },
       "browser_check": null
     },
@@ -126442,8 +127043,8 @@
       "url": "https://corsidilaurea.uniroma1.it/en/timeview/2026/34177/organization",
       "source_type": "Official course catalogue",
       "cycle": "2026-2027",
-      "accessed_at": "2026-11-10",
-      "evidence": "The same-name 2026/27 course is Economia e finanza, an L-33 three-year bachelor’s program, not the MSc classification in the previous tracker. The catalogue lists Italian and English, but this does not establish that the entire course is English-taught. The match to the old MSc lead is unresolved.",
+      "accessed_at": "2026-11-11",
+      "evidence": "A fresh no-cache GET of the official 2026/27 archived organization view returned the Economics and Finance catalogue record. It confirms class L-33 and the three-year Bachelor's identity; the currently served full profile and admission call are separately linked as SRC-SAPIENZA-ECFIN-PROFILE-2026 and SRC-SAPIENZA-ECFIN-CALL-2026. This source does not support the previous tracker MSc classification or a 2027/28 offer.",
       "supports": [
         "program.previous_cycle_course_listing",
         "program.previous_cycle_language"
@@ -126467,8 +127068,8 @@
         "bytes_read": 41760,
         "outcome": "accessible",
         "error": null,
-        "checked_at": "2026-11-10",
-        "method": "GET"
+        "checked_at": "2026-11-11",
+        "method": "GET with Cache-Control: no-cache"
       },
       "browser_check": null
     },
@@ -126550,7 +127151,7 @@
       "source_type": "Official university page",
       "cycle": "2026-2027",
       "accessed_at": "2026-11-11",
-      "evidence": "The 2026/27 tuition page describes ISEE-based reductions, three installments of 30%, 35% and 35%, the ordinary fee framework and foreign-income rules. These are annual rules and the amount depends on course area and individual circumstances.",
+      "evidence": "The official 2026/27 fees page describes ISEE-based reductions, three installments of 30%, 35% and 35%, and country-group fixed contributions for students with foreign tax residence. Amounts depend on course and student circumstances; it does not supply a course-specific amount for this L-33 Bachelor's course.",
       "supports": [
         "university.previous_cycle_tuition",
         "program.previous_cycle_tuition",
@@ -126562,8 +127163,8 @@
         "effective_url": "https://www.uniroma1.it/en/pagina/tuition-fees-and-benefits",
         "content_type": "text/html; charset=utf-8",
         "content_length_header": null,
-        "etag": "\"1794394387-1\"",
-        "last_modified": "Wed, 11 Nov 2026 10:53:07 GMT",
+        "etag": "\"1794396405-1\"",
+        "last_modified": "Wed, 11 Nov 2026 11:26:45 GMT",
         "cache_control": "public, max-age=86400",
         "age": null,
         "x_vercel_cache": null,
@@ -126571,12 +127172,12 @@
         "location": null,
         "observed_title": "Tuition Fees and Benefits | Sapienza Università di Roma",
         "pdf_signature": null,
-        "has_2027_marker": true,
+        "has_2027_marker": false,
         "bytes_read": 49893,
         "outcome": "accessible",
         "error": null,
         "checked_at": "2026-11-11",
-        "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
+        "method": "GET with Cache-Control: no-cache"
       },
       "browser_check": null
     },
@@ -126587,7 +127188,7 @@
       "source_type": "Official university page",
       "cycle": "2026-2027",
       "accessed_at": "2026-11-11",
-      "evidence": "Art. 38 lists a €2,924 second-contribution-bracket standard for second-level two-year, single-cycle and unified Master's degrees in named faculties, including Civil and Industrial Engineering; this is not a quoted fee for the three-year Aerospace BSc. The page also lists foreign-income contribution bands of €300, €700 or €1,500 by country group. Check the course, residence, income and exemptions before quoting a student's amount.",
+      "evidence": "Article 38's €2,821 and €2,924 standard amounts are specifically for second-level two-year, single-cycle and unified Master's degrees, not this three-year L-33 Bachelor's course. It also lists foreign-income contribution bands of €300, €700 or €1,500 by country group. Check the course and the student's residence, income and exemptions before quoting an amount.",
       "supports": [
         "university.previous_cycle_tuition",
         "program.previous_cycle_tuition",
@@ -126599,8 +127200,8 @@
         "effective_url": "https://www.uniroma1.it/en/node/29732",
         "content_type": "text/html; charset=utf-8",
         "content_length_header": "47296",
-        "etag": "\"1794394388-1\"",
-        "last_modified": "Wed, 11 Nov 2026 10:53:08 GMT",
+        "etag": "\"1794396456-1\"",
+        "last_modified": "Wed, 11 Nov 2026 11:27:36 GMT",
         "cache_control": "public, max-age=86400",
         "age": null,
         "x_vercel_cache": null,
@@ -126613,7 +127214,7 @@
         "outcome": "accessible",
         "error": null,
         "checked_at": "2026-11-11",
-        "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
+        "method": "GET with Cache-Control: no-cache"
       },
       "browser_check": null
     },
@@ -126623,7 +127224,7 @@
       "url": "https://www.uniroma1.it/it/pagina/international-admissions-2026-2027",
       "source_type": "Official university page",
       "cycle": "2026-2027",
-      "accessed_at": "2026-11-10",
+      "accessed_at": "2026-11-11",
       "evidence": "The official admissions information states a €30 fee for each pre-selection application, up to two applications per candidate and intake, with no waiver. The general International Student Office separately describes a €10 course requirement-assessment payment for applicable Master’s routes; these are different processes.",
       "supports": [
         "university.previous_cycle_application_fee",
@@ -126635,8 +127236,8 @@
         "effective_url": "https://www.uniroma1.it/it/pagina/international-admissions-2026-2027",
         "content_type": "text/html; charset=utf-8",
         "content_length_header": null,
-        "etag": "\"1794345880-1\"",
-        "last_modified": "Tue, 10 Nov 2026 21:24:40 GMT",
+        "etag": "\"1794396208-1\"",
+        "last_modified": "Wed, 11 Nov 2026 11:23:28 GMT",
         "cache_control": "public, max-age=86400",
         "age": null,
         "x_vercel_cache": null,
@@ -126645,11 +127246,11 @@
         "observed_title": "Programmes in English | Sapienza Università di Roma",
         "pdf_signature": null,
         "has_2027_marker": false,
-        "bytes_read": 51231,
+        "bytes_read": 51191,
         "outcome": "accessible",
         "error": null,
-        "checked_at": "2026-11-10",
-        "method": "GET"
+        "checked_at": "2026-11-11",
+        "method": "GET with Cache-Control: no-cache"
       },
       "browser_check": null
     },
@@ -134757,7 +135358,7 @@
       "source_type": "Official Sapienza international pre-selection requirements PDF",
       "cycle": "2026-2027",
       "accessed_at": "2026-11-11",
-      "evidence": "The June 8, 2026 revision lists Engineering in Computer Science and Artificial Intelligence among the 2026/27 English-taught Master's programmes in MoveIN pre-selection. For this pre-selection it states a minimum GPA of 75/100, English B2 (with accepted evidence/exemptions), and individual academic review; the course call separately governs final Infostud eligibility and enrollment. Non-EU visa applicants' MoveIN deadline was 15 May 2026, and the document says Italian, EU and EU-equivalent students must not apply through MoveIN. It lists admissions@diag.uniroma1.it as the programme contact. Historical 2026/27 evidence only.",
+      "evidence": "The June 8, 2026 revision includes both BSc Economics and Finance and MSc Engineering in Computer Science and Artificial Intelligence among the 2026/27 English-taught programmes in MoveIN pre-selection. For Economics and Finance, the document sets an 80/100 minimum GPA, requires a SAT score of at least 960 or a positive converted CEnT-S score, and specifies English B2 with listed evidence and exemptions. For Engineering in Computer Science and AI it separately states 75/100. These are programme-specific MoveIN pre-selection criteria, not general course-admission rules; course calls govern final eligibility and enrollment. The central admissions page gives the 2026/27 MoveIN deadlines by applicant group (15 May for non-EU visa applicants and 31 July for EU/equivalent applicants). Historical evidence only.",
       "supports": [
         "program.previous_cycle_admission_route",
         "program.previous_cycle_application_windows",
@@ -134786,6 +135387,157 @@
         "error": null,
         "checked_at": "2026-11-11",
         "method": "GET with byte range and Cache-Control: no-cache"
+      },
+      "browser_check": null
+    },
+    {
+      "id": "SRC-SAPIENZA-ECFIN-PROFILE-2026",
+      "title": "Economics and Finance course profile 2026/27",
+      "url": "https://corsidilaurea.uniroma1.it/en/course/34177",
+      "source_type": "Official course catalogue",
+      "cycle": "2026-2027",
+      "accessed_at": "2026-11-11",
+      "evidence": "The current 2026/27 catalogue identifies Economics and Finance as programme code 34177, test code 14613, a three-year Bachelor's degree in class L-33 at Sapienza's Faculty of Economics, Department of Economics and Law, taught in person in Rome. The catalogue lists Italian and English; the official course regulation specifies three Italian curricula and one fully English curriculum. This does not establish a 2027/28 intake.",
+      "supports": [
+        "program.previous_cycle_course_listing",
+        "program.previous_cycle_language",
+        "program.official_course_url"
+      ],
+      "refresh_status": "accessible",
+      "url_check": {
+        "http_status": 200,
+        "effective_url": "https://corsidilaurea.uniroma1.it/en/course/34177",
+        "content_type": "text/html; charset=utf-8",
+        "content_length_header": null,
+        "etag": "W/\"1794394088-1\"",
+        "last_modified": "Wed, 11 Nov 2026 10:48:08 GMT",
+        "cache_control": "public, max-age=0",
+        "age": "0",
+        "x_vercel_cache": null,
+        "x_vercel_id": null,
+        "location": null,
+        "observed_title": "Economics and Finance | Course catalogue",
+        "pdf_signature": null,
+        "has_2027_marker": false,
+        "bytes_read": 19784,
+        "outcome": "accessible",
+        "error": null,
+        "checked_at": "2026-11-11",
+        "method": "GET with Cache-Control: no-cache"
+      },
+      "browser_check": null
+    },
+    {
+      "id": "SRC-SAPIENZA-ECFIN-APPLY-2026",
+      "title": "Economics and Finance enrollment page 2026/27",
+      "url": "https://corsidilaurea.uniroma1.it/en/course/34177/apply",
+      "source_type": "Official course application page",
+      "cycle": "2026-2027",
+      "accessed_at": "2026-11-11",
+      "evidence": "The official 2026/27 apply page links the Faculty of Economics' combined admission call for the Bachelor's programmes, including Economics and Finance. It says the call governs enrollment and confirms that test results below its thresholds lead to an OFA to be completed in the first year. No 2027/28 call is shown.",
+      "supports": [
+        "program.previous_cycle_admission_route",
+        "program.previous_cycle_application_windows",
+        "program.previous_cycle_entrance_test",
+        "program.application_windows_2027_2028"
+      ],
+      "refresh_status": "accessible",
+      "url_check": {
+        "http_status": 200,
+        "effective_url": "https://corsidilaurea.uniroma1.it/en/course/34177/apply",
+        "content_type": "text/html; charset=utf-8",
+        "content_length_header": null,
+        "etag": "W/\"1794392788-1\"",
+        "last_modified": "Wed, 11 Nov 2026 10:26:28 GMT",
+        "cache_control": "public, max-age=0",
+        "age": "0",
+        "x_vercel_cache": null,
+        "x_vercel_id": null,
+        "location": null,
+        "observed_title": "Economics and Finance | Course catalogue",
+        "pdf_signature": null,
+        "has_2027_marker": false,
+        "bytes_read": 19522,
+        "outcome": "accessible",
+        "error": null,
+        "checked_at": "2026-11-11",
+        "method": "GET with Cache-Control: no-cache"
+      },
+      "browser_check": null
+    },
+    {
+      "id": "SRC-SAPIENZA-ECFIN-CALL-2026",
+      "title": "Economics and Finance 2026/27 admission call (English version)",
+      "url": "https://corsidilaurea.uniroma1.it/sites/default/files/offertaformativa/documenti_ufficiali/187/14613_e_0.pdf",
+      "source_type": "Official admission call PDF",
+      "cycle": "2026-2027",
+      "accessed_at": "2026-11-11",
+      "evidence": "The 22 June 2026 call (Rector's Decree 1285/2026) covers test code 14613 and the 2026/27 Economics and Finance L-33 Bachelor's degree. It makes access open and requires a non-selective knowledge test: TOLC-E or CEnT-S, with SAT also accepted for the English curriculum. Infostud registration and the €10 contribution ran 2 July–29 October 2026; the test had to be taken by 29 October and the first tuition installment was due 1 September–5 November. The call distinguishes Italian and English curricula, requires valid English B2 evidence for the English curriculum (with listed exemptions), and sets OFA thresholds below 9/36 TOLC-E, 8 in the selected CEnT-S sections, or 960/1600 SAT. Non-EU applicants resident abroad who need a study visa require the applicable pre-acceptance/pre-enrolment steps; Universitaly deadline was 30 June 2026. These terms are prior-cycle only.",
+      "supports": [
+        "program.previous_cycle_admission_route",
+        "program.previous_cycle_application_windows",
+        "program.previous_cycle_application_fee",
+        "program.previous_cycle_program_requirements",
+        "program.previous_cycle_entrance_test",
+        "program.previous_cycle_language"
+      ],
+      "refresh_status": "accessible",
+      "url_check": {
+        "http_status": 206,
+        "effective_url": "https://corsidilaurea.uniroma1.it/sites/default/files/offertaformativa/documenti_ufficiali/187/14613_e_0.pdf",
+        "content_type": "application/pdf",
+        "content_length_header": "4096",
+        "etag": "\"aecce-65743e2bf83d7\"",
+        "last_modified": "Thu, 23 Jul 2026 09:28:58 GMT",
+        "cache_control": null,
+        "age": "304",
+        "x_vercel_cache": null,
+        "x_vercel_id": null,
+        "location": null,
+        "observed_title": null,
+        "pdf_signature": true,
+        "has_2027_marker": null,
+        "bytes_read": 4096,
+        "outcome": "accessible",
+        "error": null,
+        "checked_at": "2026-11-11",
+        "method": "GET with byte range and Cache-Control: no-cache"
+      },
+      "browser_check": null
+    },
+    {
+      "id": "SRC-SAPIENZA-ECFIN-ARCHIVE-2025",
+      "title": "Economics and Finance archived course profile 2025/26",
+      "url": "https://www.corsidilaurea.uniroma1.it/en/corso/2025/33438/home",
+      "source_type": "Official archived course catalogue",
+      "cycle": "2025-2026",
+      "accessed_at": "2026-11-11",
+      "evidence": "Sapienza's official 2025/26 archive identifies the same-name Economics and Finance course, code 33438, as a three-year L-33 Bachelor's degree with Italian and English curricula. The following year's current catalogue uses code 34177 for the L-33 course. These official course records contradict the previous tracker MSc label; the old classification is retained only as provenance, not as the current degree identity.",
+      "supports": [
+        "program.previous_cycle_course_listing",
+        "program.previous_tracker_classification_review"
+      ],
+      "refresh_status": "accessible",
+      "url_check": {
+        "http_status": 200,
+        "effective_url": "https://www.corsidilaurea.uniroma1.it/en/corso/2025/33438/home",
+        "content_type": "text/html; charset=utf-8",
+        "content_length_header": null,
+        "etag": "W/\"1794396573-1\"",
+        "last_modified": "Wed, 11 Nov 2026 11:29:33 GMT",
+        "cache_control": "public, max-age=0",
+        "age": "0",
+        "x_vercel_cache": null,
+        "x_vercel_id": null,
+        "location": null,
+        "observed_title": "Economics and Finance | Course catalogue",
+        "pdf_signature": null,
+        "has_2027_marker": false,
+        "bytes_read": 16333,
+        "outcome": "accessible",
+        "error": null,
+        "checked_at": "2026-11-11",
+        "method": "GET with Cache-Control: no-cache"
       },
       "browser_check": null
     }

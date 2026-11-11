@@ -345,6 +345,11 @@
       "id": "official-source-url-recheck-and-browser-review-2026-11-11",
       "status": "partial",
       "result": "Direct HTTP review covers 554 unique URLs across 568 source records: 519 accessible, 13 redirected, 22 inconclusive and 0 confirmed broken. All 21 previously inconclusive URLs were retried via direct HTTP on 11 November and remained inconclusive. The three Padua scholarship, scheme and tuition URLs, five earlier Padua admissions/Statistical Science source URLs, the central Astrophysics and Cosmology profile, and the new student-awards page returned HTTP 200. The new Astrophysics Department call URL was inconclusive by direct HTTP and content-open; an official indexed result exposed its 2027/28 call details, but the link is not counted as directly verified. Twelve older inconclusive sources were separately opened and inspected through the official content fetcher: ten Camerino pages/PDFs, one Trieste historical catalogue PDF, and one Federico II Quantum Science and Engineering page. Nine older URLs still lack a successful independent content fetch; a 11 November retry of those nine also timed out or could not retrieve the PDF. Keep all inconclusive links classified as inconclusive, not broken."
+    },
+    {
+      "id": "sapienza-economics-finance-degree-identity-and-2026-27-admissions-review",
+      "status": "partial",
+      "result": "Rechecked legacy-158 against Sapienza's current course catalogue, 2025/26 archived profile, 2026/27 official enrollment call, international MoveIN requirements, general fee pages and scholarship sources. Corrected the old tracker MSc label: the same-name official course was a three-year L-33 Bachelor's in the 2025/26 archive (code 33438) and is listed for 2026/27 as course 34177, test code 14613, in-person in Rome. Its four curricula comprise three in Italian and one fully in English. The 2026/27 course is open access with a mandatory non-selective knowledge-verification test: TOLC-E or CEnT-S, with SAT also accepted for the English curriculum; low scores trigger first-year OFAs rather than exclusion. Recorded the 2 July–29 October Infostud/test-fee window, the €10 university contribution, conditional €35 TOLC-E fee, 1 September–5 November first tuition installment window, English B2 requirement and exceptions. For non-EU applicants abroad needing a visa, the English route also involved MoveIN pre-selection, its 2026/27 GPA/test/language criteria and separate €30 per application charge, plus Universitaly by 30 June. Corrected the tuition record: the former €2,924 figure is a second-level Master's standard and does not apply to this Bachelor's course; the applicable 2026/27 tuition is income/residence dependent and the course call does not state one course-specific amount. DiSCo is competitive regional aid; Wanted the Best is restricted to Master's entrants. No 2027/28 course listing, call, dates, fees, tuition schedule or incoming scholarship call was found, so those remain not yet announced rather than discontinued. Fresh no-cache GETs returned HTTP 200 for the live profile, enrollment page, 2025/26 archive, English admissions and fee pages, and HTTP 206 with valid PDF signatures for the course call and MoveIN requirements. No deployment or Vercel changes were made."
     }
   ],
   "counts": {
@@ -637,8 +642,8 @@
       "trento",
       "udine"
     ],
-    "source_records": 634,
-    "official_source_supported_fields": 1330,
+    "source_records": 638,
+    "official_source_supported_fields": 1338,
     "verification_statuses": [
       "CONFIRMED",
       "NOT_YET_PUBLISHED",

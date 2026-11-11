@@ -32926,82 +32926,264 @@
     "university_id": "sapienza",
     "university": "Sapienza Università di Roma",
     "city": "Rome",
-    "program": "Economia e finanza",
+    "program": "Economics and Finance",
     "level": {
-      "value": "BSc",
+      "value": "Bachelor's degree (Laurea, class L-33)",
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
-        "SRC-SAPIENZA-ECONOMICS-FINANCE-2026"
+        "SRC-SAPIENZA-ECFIN-PROFILE-2026",
+        "SRC-SAPIENZA-ECFIN-ARCHIVE-2025"
       ],
-      "notes": "Official 2026/27 evidence only; it does not confirm a 2027/28 new-entry offer or current terms."
+      "notes": "Sapienza's 2025/26 archived and 2026/27 current course records identify this as a three-year L-33 Bachelor's degree. The previous tracker MSc label is retained in previous_tracker_tags only; confirm the 2027/28 catalogue when published."
     },
     "language": {
-      "value": "Italian and English listed",
+      "value": "Italian and English (three Italian curricula; one fully English curriculum)",
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
-        "SRC-SAPIENZA-ECONOMICS-FINANCE-2026"
+        "SRC-SAPIENZA-ECFIN-PROFILE-2026",
+        "SRC-SAPIENZA-ECFIN-ARCHIVE-2025",
+        "SRC-SAPIENZA-ECFIN-CALL-2026",
+        "SRC-SAPIENZA-MOVEIN-REQUIREMENTS-JUN2026"
       ],
-      "notes": "Official 2026/27 evidence only; it does not confirm a 2027/28 new-entry offer or current terms."
+      "notes": "Official 2026/27 evidence: the course lists Italian and English curricula, with the Economics and Finance path delivered fully in English. This does not establish the 2027/28 offer."
     },
     "field": {
       "value": "Economics and Finance",
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
-        "SRC-SAPIENZA-ECONOMICS-FINANCE-2026"
+        "SRC-SAPIENZA-ECFIN-PROFILE-2026",
+        "SRC-SAPIENZA-ECFIN-ARCHIVE-2025"
       ],
-      "notes": "Official 2026/27 evidence only; it does not confirm a 2027/28 new-entry offer or current terms."
+      "notes": "Official course identity is confirmed for the 2025/26 archive and 2026/27 catalogue only."
     },
     "availability_2027_2028": {
       "value": null,
-      "status": "REQUIRES_VERIFICATION",
+      "status": "NOT_YET_PUBLISHED",
       "source_ids": [
-        "SRC-SAPIENZA-ECONOMICS-FINANCE-2026",
-        "SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026",
-        "SRC-SAPIENZA-INTL-OFFICE-2026"
+        "SRC-SAPIENZA-ECFIN-PROFILE-2026",
+        "SRC-SAPIENZA-ECFIN-APPLY-2026",
+        "SRC-SAPIENZA-ECFIN-CALL-2026",
+        "SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026"
       ],
-      "notes": "The reviewed university admissions and course materials concern 2026/27 or older. No 2027/28 first-year call was found, and absence from these pages is not treated as discontinuation."
+      "notes": "Not yet announced for 2027/28 in the Sapienza catalogue and admission pages reviewed as of 11 November 2026. This does not mean discontinued."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
     "facts": {
-      "application_windows_2027_2028": {
-        "value": null,
-        "status": "REQUIRES_VERIFICATION",
+      "previous_tracker_classification_review": {
+        "value": {
+          "previous_tracker_tags": {
+            "level": "MSc",
+            "language": "Italian",
+            "field": "Economics"
+          },
+          "official_2025_2026_record": {
+            "course_code": "33438",
+            "degree_class": "L-33",
+            "degree_type": "Three-year Bachelor's degree",
+            "catalogue_languages": [
+              "Italian",
+              "English"
+            ]
+          },
+          "official_2026_2027_record": {
+            "course_code": "34177",
+            "test_code": "14613",
+            "degree_class": "L-33",
+            "degree_type": "Three-year Bachelor's degree",
+            "catalogue_languages": [
+              "Italian",
+              "English"
+            ]
+          },
+          "finding": "The previous MSc classification is contradicted by both official course records; no master's facts are attached to this course."
+        },
+        "status": "CONFIRMED",
         "source_ids": [
-          "SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026"
+          "SRC-SAPIENZA-ECFIN-ARCHIVE-2025",
+          "SRC-SAPIENZA-ECFIN-PROFILE-2026"
         ],
-        "notes": "The reviewed application schedule is for 2026/27 only."
+        "notes": "The prior tracker tags remain unchanged as provenance. Official records for two consecutive cycles identify the same-name course as a Bachelor's degree; the current listing is course 34177."
       },
-      "application_fee_2027_2028": {
-        "value": null,
-        "status": "REQUIRES_VERIFICATION",
+      "previous_cycle_course_listing": {
+        "value": {
+          "academic_year": "2026/27",
+          "official_name": "Economics and Finance (Economia e finanza)",
+          "course_code": "34177",
+          "test_code": "14613",
+          "degree_class": "L-33",
+          "degree_type": "Three-year Bachelor's degree (Laurea)",
+          "campus": "Rome",
+          "faculty": "Economics",
+          "department": "Economics and Law",
+          "delivery": "In person",
+          "access": "Open access; mandatory non-selective knowledge-verification test",
+          "curricula": [
+            {
+              "name": "Economics and Finance",
+              "language": "English",
+              "delivery": "Fully taught in English"
+            },
+            {
+              "name": "Economia e integrazione internazionale",
+              "language": "Italian"
+            },
+            {
+              "name": "Economia e ambiente",
+              "language": "Italian"
+            },
+            {
+              "name": "Economia e mercati finanziari",
+              "language": "Italian"
+            }
+          ]
+        },
+        "status": "CONFIRMED",
         "source_ids": [
+          "SRC-SAPIENZA-ECFIN-PROFILE-2026",
+          "SRC-SAPIENZA-ECFIN-CALL-2026",
+          "SRC-SAPIENZA-ECONOMICS-FINANCE-2026"
+        ],
+        "notes": "These are prior-cycle course identity facts, not a confirmation of the 2027/28 first-year intake."
+      },
+      "official_course_url": {
+        "value": "https://corsidilaurea.uniroma1.it/en/course/34177",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-SAPIENZA-ECFIN-PROFILE-2026"
+        ],
+        "notes": null
+      },
+      "official_application_url": {
+        "value": "https://corsidilaurea.uniroma1.it/en/course/34177/apply",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-SAPIENZA-ECFIN-APPLY-2026"
+        ],
+        "notes": null
+      },
+      "previous_cycle_admission_route": {
+        "value": {
+          "academic_year": "2026/27",
+          "general_route": "Infostud registration, €10 course access contribution, and a mandatory but non-selective initial-knowledge test",
+          "qualification": "Secondary school diploma obtained or to be obtained in 2026",
+          "Italian_curriculum_test": "TOLC-E or CEnT-S",
+          "English_curriculum_test": "CEnT-S or SAT General Test",
+          "english_curriculum_language_requirement": "Valid English B2 certificate, with official exemptions",
+          "english_curriculum_preselection": "MoveIN pre-selection was listed as mandatory for the English programmes in the central admissions instructions; deadline depended on applicant group",
+          "non_eu_abroad_visa_route": "Non-EU applicants residing abroad and requiring a study visa needed successful MoveIN pre-selection/pre-acceptance and Universitaly pre-enrolment by 30 June 2026; final enrollment still followed the course call"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-SAPIENZA-ECFIN-CALL-2026",
+          "SRC-SAPIENZA-MOVEIN-REQUIREMENTS-JUN2026",
+          "SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026",
+          "SRC-SAPIENZA-INTL-OFFICE-2026"
+        ],
+        "notes": "The knowledge test is not a competitive ranking for places. MoveIN is a separate pre-selection step for its eligible English-program applicant group and does not itself complete course admission or enrollment."
+      },
+      "previous_cycle_application_windows": {
+        "value": {
+          "academic_year": "2026/27",
+          "infostud_registration_and_10_eur_payment": {
+            "opens": "2026-07-02",
+            "deadline": "2026-10-29"
+          },
+          "test_deadline": "2026-10-29",
+          "first_university_tuition_installment": {
+            "opens": "2026-09-01",
+            "deadline": "2026-11-05"
+          },
+          "movein_preselection_for_non_eu_visa_applicants": {
+            "opens": "2025-12-22",
+            "deadline": "2026-05-15"
+          },
+          "movein_preselection_for_eu_and_equivalent_applicants": {
+            "deadline": "2026-07-31"
+          },
+          "universitaly_pre_enrolment_for_visa_applicants": "2026-06-30"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-SAPIENZA-ECFIN-CALL-2026",
+          "SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026",
+          "SRC-SAPIENZA-INTL-OFFICE-2026"
+        ],
+        "notes": "These windows belong to 2026/27. MoveIN and Universitaly are international pre-selection/visa steps, distinct from the course's Infostud test-and-fee deadline."
+      },
+      "previous_cycle_application_fee": {
+        "value": {
+          "academic_year": "2026/27",
+          "infostud_course_contribution_eur": 10,
+          "movein_preselection_eur_per_application": 30,
+          "movein_maximum_applications": 2,
+          "conditional_cisia_tolc_e_test_fee_eur": 35
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-SAPIENZA-ECFIN-CALL-2026",
           "SRC-SAPIENZA-APPLICATION-FEE-2026"
         ],
-        "notes": "No 2027/28 course application fee was identified."
+        "notes": "The €10 course contribution and MoveIN's €30 per application are different charges. The €35 CISIA fee is specifically for applicants choosing TOLC-E; this amount is not asserted for CEnT-S or SAT."
       },
-      "tuition_2027_2028": {
-        "value": null,
-        "status": "REQUIRES_VERIFICATION",
+      "previous_cycle_program_requirements": {
+        "value": {
+          "academic_year": "2026/27",
+          "school_qualification": "Secondary school leaving diploma obtained or to be obtained in 2026; foreign qualifications must meet Sapienza recognition rules",
+          "italian_curriculum": "No English-language certificate is required by this course call for the Italian curriculum",
+          "english_curriculum": {
+            "minimum_english": "CEFR B2",
+            "official_exemptions": [
+              "Native English speakers",
+              "English-taught secondary diploma or university degree from an accredited institution in EU/EEA/Schengen, Australia, Canada, New Zealand, United Kingdom or United States",
+              "International Baccalaureate, GCSE or equivalent"
+            ]
+          },
+          "movein_preselection_criteria": {
+            "minimum_schooling": "12 years, or 11 years plus a Foundation Year or one year of higher education",
+            "minimum_gpa_100_scale": 80,
+            "minimum_test": {
+              "SAT": "960/1600 or higher",
+              "CEnT-S": "overall converted score higher than zero"
+            },
+            "english": "B2; accepted evidence includes IELTS 5.5, TOEFL iBT 80, Cambridge B2 First, or Trinity ISE II, with listed exemptions"
+          }
+        },
+        "status": "CONFIRMED",
         "source_ids": [
-          "SRC-SAPIENZA-FEES-2026",
-          "SRC-SAPIENZA-FEE-TABLE-2026"
+          "SRC-SAPIENZA-ECFIN-CALL-2026",
+          "SRC-SAPIENZA-MOVEIN-REQUIREMENTS-JUN2026"
         ],
-        "notes": "No 2027/28 tuition regulation or amount was identified."
+        "notes": "The 80/100 GPA and the listed test thresholds belong to the 2026/27 MoveIN pre-selection route, not a general course-admission GPA rule. The central admissions page gives different pre-selection deadlines for non-EU visa applicants and EU/equivalent applicants."
       },
-      "scholarships_2027_2028": {
-        "value": null,
-        "status": "REQUIRES_VERIFICATION",
+      "previous_cycle_entrance_test": {
+        "value": {
+          "academic_year": "2026/27",
+          "nature": "Mandatory, non-selective initial-knowledge assessment",
+          "test_routes": {
+            "Italian_curriculum": "TOLC-E or CEnT-S",
+            "English_curriculum": "CEnT-S or SAT"
+          },
+          "OFA_if_below": {
+            "TOLC-E": "9/36",
+            "selected_CEnT-S_sections": 8,
+            "SAT_for_English_curriculum": "960/1600"
+          },
+          "OFA_completion_deadline": "Within the first year",
+          "TOLC_E_structure": "36 scored questions in Logic, Verbal Comprehension and Mathematics, plus a separate 30-question English section that does not affect the result"
+        },
+        "status": "CONFIRMED",
         "source_ids": [
-          "SRC-SAPIENZA-WANTED-BEST-2026",
-          "SRC-SAPIENZA-DISCO-LAZIO-2026"
+          "SRC-SAPIENZA-ECFIN-CALL-2026",
+          "SRC-SAPIENZA-ECFIN-PROFILE-2026"
         ],
-        "notes": "No 2027/28 scholarship call for these new entrants was identified."
+        "notes": "The test verifies initial knowledge and does not select among a fixed number of seats. Scores below the call's threshold assign OFA rather than denying access."
       },
       "previous_cycle_tuition": {
         "value": {
           "academic_year": "2026/27",
-          "standard_second_faculty_group_total_eur": 2924,
+          "course_specific_total_published": false,
+          "calculation": "General Sapienza tuition depends on ISEE, eligibility and exemptions; foreign tax residents use the published country-group fixed-contribution schedule",
           "foreign_income_fixed_contribution_bands_eur": [
             300,
             700,
@@ -33011,87 +33193,121 @@
             30,
             35,
             35
-          ],
-          "calculation": "ISEE and course/faculty group, foreign-income band, eligibility and exemptions affect the amount"
+          ]
         },
         "status": "CONFIRMED",
         "source_ids": [
+          "SRC-SAPIENZA-ECFIN-CALL-2026",
           "SRC-SAPIENZA-FEES-2026",
           "SRC-SAPIENZA-FEE-TABLE-2026"
         ],
-        "notes": "Prior-cycle university fee framework only; the amounts are not a 2027/28 or individual quote."
+        "notes": "The course call does not quote a course-specific total. The €2,924 figure previously attached to this record is the standard second-level Master's rate and must not be applied to this L-33 Bachelor's programme."
       },
       "previous_cycle_scholarships": {
         "value": {
           "academic_year": "2026/27",
-          "Wanted_the_Best": {
-            "awards": 85,
-            "gross_eur_per_year": 3000,
-            "duration_years": 2,
-            "eligibility": "Master’s entrants graduating from another Italian university with 105/110 to 110/110 cum laude",
-            "deadline": "2026-10-30"
-          },
           "DiSCo_Lazio": {
+            "type": "Competitive regional right-to-study benefits",
             "application_deadline_after_extension": "2026-07-23 20:00",
-            "second_phase_corrections_deadline": "2026-08-11 12:00",
-            "scope": "Competitive regional scholarship, housing and other benefits"
-          }
+            "corrections_deadline": "2026-08-11 12:00"
+          },
+          "Wanted_the_Best": {
+            "eligible_for_this_Bachelors": false,
+            "scope": "Competitive award for eligible Master's entrants only"
+          },
+          "course_specific_university_award": "None identified in the reviewed official sources"
         },
         "status": "CONFIRMED",
         "source_ids": [
+          "SRC-SAPIENZA-DISCO-LAZIO-2026",
           "SRC-SAPIENZA-WANTED-BEST-2026",
-          "SRC-SAPIENZA-DISCO-LAZIO-2026"
+          "SRC-SAPIENZA-SCHOLARSHIPS-2026"
         ],
-        "notes": "Annual 2026/27 competitions only. The university award is restricted and the regional award is competitive; neither is a guaranteed 2027/28 offer."
+        "notes": "DiSCo is general competitive regional aid, not a guaranteed course award. The cited Wanted the Best scholarship targets Master's entrants and is not for new L-33 Bachelor's entrants."
+      },
+      "application_windows_2027_2028": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-SAPIENZA-ECFIN-PROFILE-2026",
+          "SRC-SAPIENZA-ECFIN-APPLY-2026",
+          "SRC-SAPIENZA-ECFIN-CALL-2026",
+          "SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026"
+        ],
+        "notes": "No 2027/28 course listing or admission calendar was published on the official pages reviewed as of 11 November 2026."
+      },
+      "application_fee_2027_2028": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-SAPIENZA-ECFIN-CALL-2026",
+          "SRC-SAPIENZA-APPLICATION-FEE-2026"
+        ],
+        "notes": "The €10 course contribution and €30 MoveIN charge are 2026/27 terms only; no 2027/28 amounts were published."
+      },
+      "program_specific_requirements_2027_2028": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-SAPIENZA-ECFIN-PROFILE-2026",
+          "SRC-SAPIENZA-ECFIN-CALL-2026",
+          "SRC-SAPIENZA-MOVEIN-REQUIREMENTS-JUN2026"
+        ],
+        "notes": "No 2027/28 course call or updated MoveIN requirements were identified; 2026/27 qualifications, test routes and thresholds are not carried forward."
+      },
+      "english_language_requirement_2027_2028": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-SAPIENZA-ECFIN-PROFILE-2026",
+          "SRC-SAPIENZA-ECFIN-CALL-2026",
+          "SRC-SAPIENZA-MOVEIN-REQUIREMENTS-JUN2026"
+        ],
+        "notes": "No 2027/28 curriculum or English-certificate rule has been published in the reviewed pages."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-SAPIENZA-FEES-2026",
+          "SRC-SAPIENZA-FEE-TABLE-2026"
+        ],
+        "notes": "No 2027/28 tuition regulation or course-level total was available; the 2026/27 income/residence-dependent framework is historical only."
+      },
+      "scholarships_2027_2028": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-SAPIENZA-DISCO-LAZIO-2026",
+          "SRC-SAPIENZA-SCHOLARSHIPS-2026"
+        ],
+        "notes": "No 2027/28 DiSCo call or incoming-student scholarship call was published in the reviewed official pages. This does not imply that general aid will be unavailable once annual calls open."
       },
       "acceptance_rate": {
         "value": null,
         "status": "UNAVAILABLE",
         "source_ids": [
-          "SRC-SAPIENZA-ECONOMICS-FINANCE-2026",
-          "SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026",
-          "SRC-SAPIENZA-INTL-OFFICE-2026"
+          "SRC-SAPIENZA-ECFIN-CALL-2026",
+          "SRC-SAPIENZA-ECFIN-PROFILE-2026"
         ],
-        "notes": "The reviewed sources do not provide a comparable complete applicant and admitted-student denominator."
-      },
-      "previous_cycle_application_windows": {
-        "value": null,
-        "status": "REQUIRES_VERIFICATION",
-        "source_ids": [
-          "SRC-SAPIENZA-ECONOMICS-FINANCE-2026"
-        ],
-        "notes": "No course-specific 2026/27 application calendar was captured for this lead; the general MoveIN schedule applies only to the programs listed for pre-selection."
-      },
-      "previous_cycle_application_fee": {
-        "value": null,
-        "status": "REQUIRES_VERIFICATION",
-        "source_ids": [
-          "SRC-SAPIENZA-ECONOMICS-FINANCE-2026"
-        ],
-        "notes": "No course-specific 2026/27 application charge was captured for this lead; the €30 MoveIN charge applies only to listed pre-selection applications."
-      },
-      "previous_cycle_course_listing": {
-        "value": {
-          "academic_year": "2026/27",
-          "degree_class": "L-33",
-          "duration_years": 3,
-          "catalogue_languages": [
-            "Italian",
-            "English"
-          ],
-          "legacy_conflict": "The previous tracker called this an MSc; the current same-name entry is a bachelor’s degree, so the intended match remains unresolved"
-        },
-        "status": "CONFIRMED",
-        "source_ids": [
-          "SRC-SAPIENZA-ECONOMICS-FINANCE-2026"
-        ],
-        "notes": "Official 2026/27 evidence only; it does not confirm a 2027/28 new-entry offer or current terms."
+        "notes": "The programme is open access with a non-selective knowledge-verification test; no comparable applicant/admitted denominator is published, so no acceptance rate is inferred."
       }
     },
     "source_ids": [
       "SRC-SAPIENZA-ECONOMICS-FINANCE-2026",
+      "SRC-SAPIENZA-ECFIN-PROFILE-2026",
+      "SRC-SAPIENZA-ECFIN-APPLY-2026",
+      "SRC-SAPIENZA-ECFIN-CALL-2026",
+      "SRC-SAPIENZA-ECFIN-ARCHIVE-2025",
+      "SRC-SAPIENZA-MOVEIN-REQUIREMENTS-JUN2026",
       "SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026",
-      "SRC-SAPIENZA-INTL-OFFICE-2026"
+      "SRC-SAPIENZA-INTL-OFFICE-2026",
+      "SRC-SAPIENZA-APPLICATION-FEE-2026",
+      "SRC-SAPIENZA-FEES-2026",
+      "SRC-SAPIENZA-FEE-TABLE-2026",
+      "SRC-SAPIENZA-DISCO-LAZIO-2026",
+      "SRC-SAPIENZA-WANTED-BEST-2026",
+      "SRC-SAPIENZA-SCHOLARSHIPS-2026"
     ],
     "previous_tracker_tags": {
       "level": "MSc",
@@ -33100,13 +33316,13 @@
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
     "previous_cycle_tags": {
-      "level": "BSc",
-      "language": "Italian and English listed",
+      "level": "Bachelor's degree (Laurea, class L-33)",
+      "language": "Italian and English (three Italian curricula; one fully English curriculum)",
       "field": "Economics and Finance",
       "cycle": "2026-2027",
-      "label": "Official 2026/27 evidence only; 2027/28 intake remains unverified"
+      "label": "Official course 34177 and 2026/27 call; 2027/28 entry remains unannounced"
     },
-    "last_checked": "2026-11-10"
+    "last_checked": "2026-11-11"
   },
   {
     "id": "legacy-159",
