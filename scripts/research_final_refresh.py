@@ -937,6 +937,17 @@ SOURCES = [
         "evidence": "The latest linked annual tuition notice is for 2026/27. The page says degree-program fees range from €0 to approximately €3,000/year, first-year initial instalment €208 (including €192 regional tax and €16 stamp duty), subsequent-year initial instalment €588 including €380 contribution, with remaining amounts varying by programme and personal/financial circumstances. It also gives 2026/27 fixed fees for non-EU citizens whose household is outside Italy: €2,790 / €930 low-HDI Group A and €2,990 / €996.66 low-HDI Group B. It does not publish a 2027/28 annual tuition notice on the reviewed page; do not carry any 2026/27 amount forward.",
         "supports": ["university.previous_cycle_tuition", "university.tuition_2027_2028_publication_status", "university.non_eu_tuition_2026_2027"],
     },
+    {
+        "id": "SRC-PADUA-STUDENT-AWARDS-CYBERSECURITY-2026",
+        "university_id": "padova",
+        "title": "Padua student study awards – Cybersecurity existing-student award, Fourth Edition 2026",
+        "url": "https://www.unipd.it/en/node/93620",
+        "source_type": "Official University student-awards page",
+        "accessed_at": "2026-11-11",
+        "cycle": "2026-2028",
+        "evidence": "The University lists two awards of €11,280 each for high-achieving students in the final two years of the MSc in Cybersecurity, paid in two annual instalments for 2026/27 and 2027/28, with an application deadline of 18 March 2027. Because payments begin in 2026/27 and eligibility is for students in the final two years, this is an award for the existing cohort and not a scholarship for students newly entering in 2027/28. The same page lists Computer Engineering awards tied to students entering in 2025/26; those are not carried forward as 2027/28 entrant funding.",
+        "supports": ["program.current_student_award", "program.previous_cycle_scholarships", "program.scholarship_scope"],
+    },
 ]
 
 BATCH = {
@@ -961,6 +972,12 @@ BATCH4 = {
     "id": "padua-astrophysics-cosmology-2027-28-intake-discovery",
     "status": "partial",
     "result": "Discovered and source-linked Padua's English-taught Astrophysics and Cosmology MSc, which was absent from the tracker. The current official degree profile confirms its name, LM-17 R/LM-58 R classes, two-year duration and Padua location. The Department's official page names an open first international call for AY 2027/28 (October 2027 entry), with a 15 November 2026 deadline; the deadline and route were added with an explicit scope limited to applicants with an international Bachelor's degree. Its 24-ECTS Physics and 24-ECTS Mathematics criteria are recorded as not cycle-labelled, so the 2027/28 course-specific requirements and English certificate threshold remain unconfirmed. The current Padua scholarship scheme is associated with the course but is not presented as a guaranteed award; 2027/28 tuition remains unannounced. The central degree profile returned HTTP 200. Direct HTTP and content retrieval for the Department call page were inconclusive, but official indexed results exposed its stated 2027/28 call; it remains inconclusive, not broken. The rebuilt dataset contains 202 program records and 567 sources; data audit passed, all 12 static-site tests passed, UI regression passed, and desktop/mobile browser tests passed after updating the browser test to navigate through paginated results. Production and preview remain untouched while the full research refresh continues.",
+}
+
+BATCH5 = {
+    "id": "padua-course-award-cohort-scope-review",
+    "status": "partial",
+    "result": "Checked Padua's current official student-awards page. It lists two €11,280 Cybersecurity awards for high-achieving students in the final two years, paid in 2026/27 and 2027/28, with an 18 March 2027 deadline. Recorded this as current-student funding and explicitly excluded it from the 2027/28 incoming-cohort scholarship offer. The same page's Computer Engineering awards target students entering in 2025/26 and were not carried into the new-intake funding fields. Padua's separate University-wide International Excellence scheme remains the applicable 2027/28 headline scheme for confirmed English-taught intakes; detailed eligibility and the annual call are still pending. The official student-awards page returned HTTP 200. Rebuilt and audited the 202-program, 568-source dataset; all 12 static tests, the UI regression test and desktop/mobile browser tests passed. Production and preview remain untouched while the full research refresh continues.",
 }
 
 
@@ -1608,6 +1625,15 @@ def apply(
     programs.append(astro)
 
     apply_legacy_course_reviews(programs, fact)
+
+    cybersecurity = next(program for program in programs if program.get("id") == "legacy-031")
+    cybersecurity_award_source = "SRC-PADUA-STUDENT-AWARDS-CYBERSECURITY-2026"
+    cybersecurity.setdefault("facts", {})["current_student_award_2026_2028"] = fact(
+        {"name":"Awards in memory of Engineer Giuseppe Mariani, Fourth Edition 2026", "academic_years":["2026/27", "2027/28"], "number_of_awards":2, "gross_eur_per_award":11280, "application_deadline":"2027-03-18", "eligible_population":"High-achieving students in the final two years of the Cybersecurity Master's degree"},
+        "CONFIRMED", [cybersecurity_award_source],
+        "This award is for students in the existing cohort during 2026/27 and 2027/28, not a scholarship for students newly entering in 2027/28. Keep it separate from the incoming-student scholarship offer.",
+    )
+    cybersecurity["source_ids"] = list(dict.fromkeys(cybersecurity.get("source_ids", []) + [cybersecurity_award_source]))
 
     padua_scholarship_sources = [
         "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",

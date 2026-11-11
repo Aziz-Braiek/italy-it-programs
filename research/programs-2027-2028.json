@@ -5417,6 +5417,24 @@
         ],
         "notes": "The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred."
       },
+      "current_student_award_2026_2028": {
+        "value": {
+          "name": "Awards in memory of Engineer Giuseppe Mariani, Fourth Edition 2026",
+          "academic_years": [
+            "2026/27",
+            "2027/28"
+          ],
+          "number_of_awards": 2,
+          "gross_eur_per_award": 11280,
+          "application_deadline": "2027-03-18",
+          "eligible_population": "High-achieving students in the final two years of the Cybersecurity Master's degree"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADUA-STUDENT-AWARDS-CYBERSECURITY-2026"
+        ],
+        "notes": "This award is for students in the existing cohort during 2026/27 and 2027/28, not a scholarship for students newly entering in 2027/28. Keep it separate from the incoming-student scholarship offer."
+      },
       "scholarship_call_details_2027_2028": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
@@ -5428,6 +5446,7 @@
     },
     "source_ids": [
       "SRC-PADOVA-CYBERSECURITY-2026",
+      "SRC-PADUA-STUDENT-AWARDS-CYBERSECURITY-2026",
       "SRC-PADUA-TUITION-2026",
       "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
       "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"

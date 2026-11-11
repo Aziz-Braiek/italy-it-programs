@@ -202,6 +202,11 @@
       "result": "Discovered and source-linked Padua's English-taught Astrophysics and Cosmology MSc, which was absent from the tracker. The current official degree profile confirms its name, LM-17 R/LM-58 R classes, two-year duration and Padua location. The Department's official page names an open first international call for AY 2027/28 (October 2027 entry), with a 15 November 2026 deadline; the deadline and route were added with an explicit scope limited to applicants with an international Bachelor's degree. Its 24-ECTS Physics and 24-ECTS Mathematics criteria are recorded as not cycle-labelled, so the 2027/28 course-specific requirements and English certificate threshold remain unconfirmed. The current Padua scholarship scheme is associated with the course but is not presented as a guaranteed award; 2027/28 tuition remains unannounced. The central degree profile returned HTTP 200. Direct HTTP and content retrieval for the Department call page were inconclusive, but official indexed results exposed its stated 2027/28 call; it remains inconclusive, not broken. The rebuilt dataset contains 202 program records and 567 sources; data audit passed, all 12 static-site tests passed, UI regression passed, and desktop/mobile browser tests passed after updating the browser test to navigate through paginated results. Production and preview remain untouched while the full research refresh continues."
     },
     {
+      "id": "padua-course-award-cohort-scope-review",
+      "status": "partial",
+      "result": "Checked Padua's current official student-awards page. It lists two €11,280 Cybersecurity awards for high-achieving students in the final two years, paid in 2026/27 and 2027/28, with an 18 March 2027 deadline. Recorded this as current-student funding and explicitly excluded it from the 2027/28 incoming-cohort scholarship offer. The same page's Computer Engineering awards target students entering in 2025/26 and were not carried into the new-intake funding fields. Padua's separate University-wide International Excellence scheme remains the applicable 2027/28 headline scheme for confirmed English-taught intakes; detailed eligibility and the annual call are still pending. The official student-awards page returned HTTP 200. Rebuilt and audited the 202-program, 568-source dataset; all 12 static tests, the UI regression test and desktop/mobile browser tests passed. Production and preview remain untouched while the full research refresh continues."
+    },
+    {
       "id": "claude-independent-review-inventory",
       "status": "complete",
       "result": "Created a review manifest and checklist covering all 34 universities, 193 programs, and 454 existing official source records. The checklist exposes current unresolved fields and conflicts; all refresh outcomes remain pending until evidence is checked."
@@ -214,7 +219,7 @@
     {
       "id": "official-source-url-recheck-and-browser-review-2026-11-11",
       "status": "partial",
-      "result": "Direct HTTP review covers 553 unique URLs across 567 source records: 518 accessible, 13 redirected, 22 inconclusive and 0 confirmed broken. All 21 previously inconclusive URLs were retried via direct HTTP on 11 November and remained inconclusive. The three new Padua scholarship, scheme and tuition URLs, five earlier Padua admissions/Statistical Science source URLs, and the central Astrophysics and Cosmology profile returned HTTP 200. The new Department call URL was inconclusive by direct HTTP and content-open; an official indexed result exposed its 2027/28 call details, but the link is not counted as directly verified. Twelve older inconclusive sources were separately opened and inspected through the official content fetcher: ten Camerino pages/PDFs, one Trieste historical catalogue PDF, and one Federico II Quantum Science and Engineering page. Nine older URLs still lack a successful independent content fetch; a 11 November retry of those nine also timed out or could not retrieve the PDF. Keep all inconclusive links classified as inconclusive, not broken."
+      "result": "Direct HTTP review covers 554 unique URLs across 568 source records: 519 accessible, 13 redirected, 22 inconclusive and 0 confirmed broken. All 21 previously inconclusive URLs were retried via direct HTTP on 11 November and remained inconclusive. The three Padua scholarship, scheme and tuition URLs, five earlier Padua admissions/Statistical Science source URLs, the central Astrophysics and Cosmology profile, and the new student-awards page returned HTTP 200. The new Astrophysics Department call URL was inconclusive by direct HTTP and content-open; an official indexed result exposed its 2027/28 call details, but the link is not counted as directly verified. Twelve older inconclusive sources were separately opened and inspected through the official content fetcher: ten Camerino pages/PDFs, one Trieste historical catalogue PDF, and one Federico II Quantum Science and Engineering page. Nine older URLs still lack a successful independent content fetch; a 11 November retry of those nine also timed out or could not retrieve the PDF. Keep all inconclusive links classified as inconclusive, not broken."
     }
   ],
   "counts": {
@@ -508,8 +513,8 @@
       "trento",
       "udine"
     ],
-    "source_records": 567,
-    "official_source_supported_fields": 1128,
+    "source_records": 568,
+    "official_source_supported_fields": 1129,
     "verification_statuses": [
       "CONFIRMED",
       "NOT_YET_PUBLISHED",

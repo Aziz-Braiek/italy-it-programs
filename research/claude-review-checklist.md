@@ -2,7 +2,7 @@
 
 Prepared 2026-11-11 for academic year 2027/28. Review each record against official university pages, calls, portals, regulations, and PDFs.
 
-Snapshot inventory: 34 universities, 202 program records, 567 source records.
+Snapshot inventory: 34 universities, 202 program records, 568 source records.
 
 ## Review rules
 
@@ -3326,6 +3326,7 @@ Official university-level sources:
 - [ ] `SRC-PADUA-INTL-EXCELLENCE-2027-BOARD` — [2027/28 Padua International Excellence Scholarship – Board allocation announcement](https://www.unipd.it/node/93348) (cycle: 2027-2028; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-PADUA-INTL-EXCELLENCE-PROGRAMME` — [Padua International Excellence Scholarship Programme – general terms and call status](https://www.unipd.it/en/padua-international-excellence-scholarship-programme) (cycle: general; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-PADUA-TUITION-2026` — [Student fees – 2026/27 fee notice and published tariff guidance](https://www.unipd.it/en/contribuzione-studentesca) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-PADUA-STUDENT-AWARDS-CYBERSECURITY-2026` — [Padua student study awards – Cybersecurity existing-student award, Fourth Edition 2026](https://www.unipd.it/en/node/93620) (cycle: 2026-2028; checked in prior snapshot: 2026-11-11)
 
 #### Computer Engineering — `legacy-029`
 
@@ -3379,6 +3380,7 @@ Official linked sources to revisit:
 - [ ] `SRC-PADOVA-CYBERSECURITY-2026` — [Cybersecurity – official 2026/27 Master's course and admissions page](https://cybersecurity.math.unipd.it/study-plan/) (cycle: 2026-2027; prior check: 2026-11-10)
 - [ ] `SRC-PADUA-INTL-EXCELLENCE-2027-BOARD` — [2027/28 Padua International Excellence Scholarship – Board allocation announcement](https://www.unipd.it/node/93348) (cycle: 2027-2028; prior check: 2026-11-11)
 - [ ] `SRC-PADUA-INTL-EXCELLENCE-PROGRAMME` — [Padua International Excellence Scholarship Programme – general terms and call status](https://www.unipd.it/en/padua-international-excellence-scholarship-programme) (cycle: general; prior check: 2026-11-11)
+- [ ] `SRC-PADUA-STUDENT-AWARDS-CYBERSECURITY-2026` — [Padua student study awards – Cybersecurity existing-student award, Fourth Edition 2026](https://www.unipd.it/en/node/93620) (cycle: 2026-2028; prior check: 2026-11-11)
 - [ ] `SRC-PADUA-TUITION-2026` — [Student fees – 2026/27 fee notice and published tariff guidance](https://www.unipd.it/en/contribuzione-studentesca) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
   - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
@@ -5071,7 +5073,7 @@ Currently missing or unpublished fields:
 
 ## Source URL recheck results
 
-Checked 553 unique URLs representing 567 source records on 2026-11-11. Unique URL outcomes: {'accessible': 518, 'redirected': 13, 'inconclusive': 22}. HTTP 404/410 outcomes are listed as broken; TLS, timeout, and remote-disconnect cases remain inconclusive.
+Checked 554 unique URLs representing 568 source records on 2026-11-11. Unique URL outcomes: {'accessible': 519, 'redirected': 13, 'inconclusive': 22}. HTTP 404/410 outcomes are listed as broken; TLS, timeout, and remote-disconnect cases remain inconclusive.
 
 ### Redirected sources
 

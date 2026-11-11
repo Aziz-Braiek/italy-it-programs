@@ -20441,5 +20441,41 @@
       "checked_at": "2026-11-11",
       "method": "GET"
     }
+  },
+  {
+    "id": "SRC-PADUA-STUDENT-AWARDS-CYBERSECURITY-2026",
+    "university_id": "padova",
+    "title": "Padua student study awards – Cybersecurity existing-student award, Fourth Edition 2026",
+    "url": "https://www.unipd.it/en/node/93620",
+    "source_type": "Official University student-awards page",
+    "accessed_at": "2026-11-11",
+    "cycle": "2026-2028",
+    "evidence": "The University lists two awards of €11,280 each for high-achieving students in the final two years of the MSc in Cybersecurity, paid in two annual instalments for 2026/27 and 2027/28, with an application deadline of 18 March 2027. Because payments begin in 2026/27 and eligibility is for students in the final two years, this is an award for the existing cohort and not a scholarship for students newly entering in 2027/28. The same page lists Computer Engineering awards tied to students entering in 2025/26; those are not carried forward as 2027/28 entrant funding.",
+    "supports": [
+      "program.current_student_award",
+      "program.previous_cycle_scholarships",
+      "program.scholarship_scope"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://www.unipd.it/en/node/93620",
+      "content_type": "text/html; charset=utf-8",
+      "content_length_header": null,
+      "etag": null,
+      "last_modified": null,
+      "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate",
+      "age": null,
+      "x_vercel_cache": null,
+      "x_vercel_id": null,
+      "location": null,
+      "observed_title": "Study awards for students | Università di Padova",
+      "pdf_signature": null,
+      "has_2027_marker": false,
+      "bytes_read": 131072,
+      "outcome": "accessible",
+      "error": null,
+      "checked_at": "2026-11-11",
+      "method": "GET"
+    }
   }
 ]

@@ -9,15 +9,15 @@
     "counts": {
       "universities": 34,
       "programs": 202,
-      "sources": 567
+      "sources": 568
     },
     "previous_snapshot_inconclusive_url_checks": "The prior audit reported approximately 100 inconclusive checks. This refresh rechecked every unique URL and preserves the response by source record below.",
     "current_url_audit": {
       "checked_at": "2026-11-11",
-      "source_records": 567,
-      "unique_urls_checked": 553,
+      "source_records": 568,
+      "unique_urls_checked": 554,
       "unique_url_outcomes": {
-        "accessible": 518,
+        "accessible": 519,
         "redirected": 13,
         "inconclusive": 22
       },
@@ -14974,7 +14974,8 @@
         "SRC-PADUA-STUDY-ENGLISH-APPLY-ITALIAN-2027",
         "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
         "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME",
-        "SRC-PADUA-TUITION-2026"
+        "SRC-PADUA-TUITION-2026",
+        "SRC-PADUA-STUDENT-AWARDS-CYBERSECURITY-2026"
       ],
       "source_urls": [
         {
@@ -16488,6 +16489,43 @@
             "x_vercel_id": null,
             "location": null,
             "observed_title": "Student fees | Università di Padova",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 131072,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-PADUA-STUDENT-AWARDS-CYBERSECURITY-2026",
+          "title": "Padua student study awards – Cybersecurity existing-student award, Fourth Edition 2026",
+          "url": "https://www.unipd.it/en/node/93620",
+          "source_type": "Official University student-awards page",
+          "cycle": "2026-2028",
+          "accessed_at": "2026-11-11",
+          "evidence": "The University lists two awards of €11,280 each for high-achieving students in the final two years of the MSc in Cybersecurity, paid in two annual instalments for 2026/27 and 2027/28, with an application deadline of 18 March 2027. Because payments begin in 2026/27 and eligibility is for students in the final two years, this is an award for the existing cohort and not a scholarship for students newly entering in 2027/28. The same page lists Computer Engineering awards tied to students entering in 2025/26; those are not carried forward as 2027/28 entrant funding.",
+          "supports": [
+            "program.current_student_award",
+            "program.previous_cycle_scholarships",
+            "program.scholarship_scope"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.unipd.it/en/node/93620",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Study awards for students | Università di Padova",
             "pdf_signature": null,
             "has_2027_marker": false,
             "bytes_read": 131072,
@@ -75783,6 +75821,43 @@
           "browser_check": null
         },
         {
+          "id": "SRC-PADUA-STUDENT-AWARDS-CYBERSECURITY-2026",
+          "title": "Padua student study awards – Cybersecurity existing-student award, Fourth Edition 2026",
+          "url": "https://www.unipd.it/en/node/93620",
+          "source_type": "Official University student-awards page",
+          "cycle": "2026-2028",
+          "accessed_at": "2026-11-11",
+          "evidence": "The University lists two awards of €11,280 each for high-achieving students in the final two years of the MSc in Cybersecurity, paid in two annual instalments for 2026/27 and 2027/28, with an application deadline of 18 March 2027. Because payments begin in 2026/27 and eligibility is for students in the final two years, this is an award for the existing cohort and not a scholarship for students newly entering in 2027/28. The same page lists Computer Engineering awards tied to students entering in 2025/26; those are not carried forward as 2027/28 entrant funding.",
+          "supports": [
+            "program.current_student_award",
+            "program.previous_cycle_scholarships",
+            "program.scholarship_scope"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.unipd.it/en/node/93620",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": null,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "age": null,
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Study awards for students | Università di Padova",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 131072,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET"
+          },
+          "browser_check": null
+        },
+        {
           "id": "SRC-PADUA-TUITION-2026",
           "title": "Student fees – 2026/27 fee notice and published tariff guidance",
           "url": "https://www.unipd.it/en/contribuzione-studentesca",
@@ -76020,6 +76095,7 @@
       "known_source_conflicts": [],
       "source_ids": [
         "SRC-PADOVA-CYBERSECURITY-2026",
+        "SRC-PADUA-STUDENT-AWARDS-CYBERSECURITY-2026",
         "SRC-PADUA-TUITION-2026",
         "SRC-PADUA-INTL-EXCELLENCE-2027-BOARD",
         "SRC-PADUA-INTL-EXCELLENCE-PROGRAMME"
@@ -123905,6 +123981,43 @@
         "x_vercel_id": null,
         "location": null,
         "observed_title": "Student fees | Università di Padova",
+        "pdf_signature": null,
+        "has_2027_marker": false,
+        "bytes_read": 131072,
+        "outcome": "accessible",
+        "error": null,
+        "checked_at": "2026-11-11",
+        "method": "GET"
+      },
+      "browser_check": null
+    },
+    {
+      "id": "SRC-PADUA-STUDENT-AWARDS-CYBERSECURITY-2026",
+      "title": "Padua student study awards – Cybersecurity existing-student award, Fourth Edition 2026",
+      "url": "https://www.unipd.it/en/node/93620",
+      "source_type": "Official University student-awards page",
+      "cycle": "2026-2028",
+      "accessed_at": "2026-11-11",
+      "evidence": "The University lists two awards of €11,280 each for high-achieving students in the final two years of the MSc in Cybersecurity, paid in two annual instalments for 2026/27 and 2027/28, with an application deadline of 18 March 2027. Because payments begin in 2026/27 and eligibility is for students in the final two years, this is an award for the existing cohort and not a scholarship for students newly entering in 2027/28. The same page lists Computer Engineering awards tied to students entering in 2025/26; those are not carried forward as 2027/28 entrant funding.",
+      "supports": [
+        "program.current_student_award",
+        "program.previous_cycle_scholarships",
+        "program.scholarship_scope"
+      ],
+      "refresh_status": "accessible",
+      "url_check": {
+        "http_status": 200,
+        "effective_url": "https://www.unipd.it/en/node/93620",
+        "content_type": "text/html; charset=utf-8",
+        "content_length_header": null,
+        "etag": null,
+        "last_modified": null,
+        "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate",
+        "age": null,
+        "x_vercel_cache": null,
+        "x_vercel_id": null,
+        "location": null,
+        "observed_title": "Study awards for students | Università di Padova",
         "pdf_signature": null,
         "has_2027_marker": false,
         "bytes_read": 131072,
