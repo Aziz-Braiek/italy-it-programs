@@ -219,11 +219,11 @@ SOURCES = [
     },
     {
         "id": "SRC-UNIBO-BBS-GREEN-MGMT-2026",
-        "university_id": "bologna", "title": "Green Management and Sustainable Businesses – BBS professional master",
+        "university_id": "bologna", "title": "Business Management – Green Management and Sustainable Businesses – BBS course and current application information",
         "url": "https://www.bbs.unibo.it/en/master-fulltime/business-management-green-management-and-sustainable-businesses/",
-        "source_type": "Official Bologna Business School programme page", "accessed_at": "2026-11-10", "cycle": "2026-2027",
-        "evidence": "Identifies Green Management and Sustainable Businesses as a concentration in the one-year, 60-CFU professional Master in Business Management, with BBS course structure and not a standalone MSc/Laurea Magistrale. Current displayed application rounds are for the 2026/27 edition.",
-        "supports": ["program.name", "program.level", "program.language", "program.program_type", "program.previous_cycle_application_windows"],
+        "source_type": "Official Bologna Business School programme and application page", "accessed_at": "2026-11-11", "cycle": "general",
+        "evidence": "Identifies the exact track as Business Management – Green Management and Sustainable Businesses, within BBS's first-level Professional Master in Business Management, not a separate Laurea Magistrale. Current page facts: full-time on-campus, English, 12 months, 60 CFU/ECTS; BBS states 1,500 learning hours (360 lecture, 540 independent study, 600 internship) and collaboration with the University of Bologna Department of Management (DISA). Its current displayed calendar gives a last application date of 16 November 2026, selection on 18–19 November, enrollment by 1 December, crash courses from 9 December, and classes starting 7 January 2027, but does not label the academic-year cycle; these dates are not used as 2027/28 deadlines. The page displays a current €13,800 tuition, €60 selection fee, partial €3,000/€5,000 awards, Bachelor's degree and B2 English requirements, and aptitude/English tests plus interview. It contains no 2027/28 marker or call; these current facts are not promoted to the new cycle.",
+        "supports": ["program.name", "program.level", "program.language", "program.program_type", "program.previous_cycle_application_windows", "program.current_published_calendar", "program.current_published_tuition", "program.current_published_scholarships", "program.current_published_requirements"],
     },
     {
         "id": "SRC-UNIBO-GESTIONALE-BSC-2026",
@@ -1193,6 +1193,12 @@ BATCH13 = {
     "result": "Continued the BBS professional-master catalogue review and added discovered-043 Finance – Finance and Artificial Intelligence and discovered-044 Marketing Management – Analytics and AI for Marketing. Both official pages explicitly advertise the 2027/28 intake, four selection rounds between March and September 2027, and an October 2027 start. Finance and Artificial Intelligence is a first-level Professional Master; Analytics and AI for Marketing is a track within the Marketing Management first-level Professional Master, not a separate Laurea Magistrale. Both pages identify English-language, full-time, 12-month, 60-ECTS delivery in Bologna with the University of Bologna Department of Management (DISA). Exact dates and the annual call remain pending. The current displayed €14,800 fee, €60 application fee, B2/degree/test requirements and partial scholarship terms are explicitly kept separate from 2027/28 confirmed fields. Fresh PowerShell GET requests with Cache-Control: no-cache returned HTTP 200 for both pages (179,806 and 177,732 response bytes).",
 }
 
+BATCH14 = {
+    "id": "bbs-green-management-track-2027-28-cycle-and-current-details-review",
+    "status": "partial",
+    "result": "Individually rechecked the existing Bologna BBS Green Management and Sustainable Businesses tracker record. Corrected its level to a first-level Professional Master track and confirmed its English delivery, 12-month/60-ECTS format and DISA collaboration. The official page currently displays an application deadline of 16 November 2026, written test on 18 November, interview on 19 November, enrollment by 1 December and January 2027 class start; it does not state the academic-year label and contains no 2027/28 text or call. Preserved those currently displayed dates, €13,800 tuition, €60 selection fee, €3,000/€5,000 partial awards, and Bachelor's/B2/test/interview requirements as current non-cycle-labelled information. Kept 2027/28 availability, exact application dates, fees, admissions requirements and scholarships pending; no current amount or deadline was carried forward. A fresh PowerShell GET with Cache-Control: no-cache returned HTTP 200 (177,197 bytes); the HTML did not contain a 2027/28 marker.",
+}
+
 
 def _fact(value: Any, status: str, source_ids: list[str], notes: str | None = None) -> dict[str, Any]:
     return {"value": value, "status": status, "source_ids": source_ids, "notes": notes}
@@ -1297,6 +1303,31 @@ def apply_legacy_course_reviews(programs: list[dict[str, Any]], fact: Callable[.
             continue
         prior(by_id[pid], official_name=name, level=level, language=language, field=field_name,
               source_ids=sources, city=city, program_type=program_type)
+
+    green_management = by_id["legacy-028"]
+    green_source = "SRC-UNIBO-BBS-GREEN-MGMT-2026"
+    green_management["level"] = _fact("Professional Master's track (First Level)", "CONFIRMED", [green_source], "BBS identifies Green Management and Sustainable Businesses as a track within the first-level Professional Master in Business Management; it is not a Laurea Magistrale.")
+    green_management["language"] = _fact("English", "CONFIRMED", [green_source])
+    green_management["field"] = _fact("Green Management and Sustainable Businesses", "CONFIRMED", [green_source])
+    green_management["availability_2027_2028"] = _fact(None, "NOT_YET_PUBLISHED", [green_source], "The official track page checked on 11 November 2026 shows a current schedule ending with a January 2027 start but contains no 2027/28 marker or new-cycle call. The intake remains unconfirmed, not discontinued.")
+    green_management["overall_status"] = "REQUIRES_VERIFICATION"
+    green_management["source_ids"] = [green_source]
+    green_management["previous_cycle_tags"] = None
+    green_management["facts"] = {
+        "previous_cycle_course_listing": _fact({"academic_year":"Not stated on current BBS page", "official_name":"Business Management – Green Management and Sustainable Businesses", "programme_type":"Track within a first-level Professional Master", "duration_months":12, "credits_ects":60, "language":"English", "format":"Full-time, on campus", "learning_hours":1500, "learning_hours_breakdown":{"lectures":360,"independent_study":540,"internship":600}, "collaborating_department":"University of Bologna Department of Management (DISA)"}, "CONFIRMED", [green_source], "Current official course facts only; BBS does not label the programme page's calendar as 2027/28."),
+        "current_published_calendar": _fact({"application_deadline":"2026-11-16", "selection":{"written_test":"2026-11-18","motivational_interview":"2026-11-19"}, "enrollment_deadline":"2026-12-01", "crash_courses_start":"2026-12-09", "classes_start":"2027-01-07", "academic_year_label":"Not stated on page"}, "CONFIRMED", [green_source], "These are the dates currently displayed on the BBS page. The page does not assign them to AY 2027/28; do not reuse them as next-cycle dates."),
+        "application_windows": _fact(None, "NOT_YET_PUBLISHED", [green_source], "No 2027/28 application dates are published on the official programme page; its current displayed last round leads to January 2027 classes."),
+        "application_fee_currently_displayed": _fact({"amount_eur":60,"cycle_label":"Not stated"}, "CONFIRMED", [green_source], "Current application-page amount only; 2027/28 fee unconfirmed."),
+        "application_fee_2027_2028": _fact(None, "NOT_YET_PUBLISHED", [green_source], "No 2027/28 application fee is stated on the official track page."),
+        "current_published_requirements": _fact({"qualifying_degree":"First-cycle Bachelor's degree by the selected-round enrollment deadline", "english":"Minimum B2", "selection":["Online aptitude test","English-language test","Motivational interview in English"], "cycle_label":"Not stated"}, "CONFIRMED", [green_source], "Current displayed requirements; confirm the annual 2027/28 call before relying on them."),
+        "program_specific_requirements_2027_2028": _fact(None, "NOT_YET_PUBLISHED", [green_source], "No 2027/28 call or cycle-labelled detailed requirements are published on the page."),
+        "tuition_currently_displayed": _fact({"amount_eur":13800,"vat_free":True,"installments_eur":[1850,7000,4950],"cycle_label":"Not stated"}, "CONFIRMED", [green_source], "The BBS page currently displays this tuition and installment schedule but does not label it for 2027/28."),
+        "tuition_2027_2028": _fact(None, "NOT_YET_PUBLISHED", [green_source], "No 2027/28 fee amount is stated; do not carry forward the current €13,800 display."),
+        "scholarships_currently_displayed": _fact({"partial_awards_per_round_eur":[3000,5000], "full_awards":"Not available per page", "university_dsu_ergo":"Not eligible per page", "cycle_label":"Not stated"}, "CONFIRMED", [green_source], "Current general BBS track information only; the page does not promise these awards for 2027/28."),
+        "scholarships_2027_2028": _fact(None, "NOT_YET_PUBLISHED", [green_source], "No 2027/28 scholarship call or cycle-labelled award terms are published on the page."),
+        "acceptance_rate": _fact(None, "UNAVAILABLE", [green_source], "BBS does not publish applicant and admission counts; no acceptance rate is inferred."),
+    }
+    green_management["last_checked"] = "2026-11-11"
 
     # AI and Manufacturing is a named 2027/28 Global MBA concentration, not an MSc.
     mba = by_id["legacy-023"]

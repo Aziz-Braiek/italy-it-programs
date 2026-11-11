@@ -247,6 +247,11 @@
       "result": "Continued the BBS professional-master catalogue review and added discovered-043 Finance – Finance and Artificial Intelligence and discovered-044 Marketing Management – Analytics and AI for Marketing. Both official pages explicitly advertise the 2027/28 intake, four selection rounds between March and September 2027, and an October 2027 start. Finance and Artificial Intelligence is a first-level Professional Master; Analytics and AI for Marketing is a track within the Marketing Management first-level Professional Master, not a separate Laurea Magistrale. Both pages identify English-language, full-time, 12-month, 60-ECTS delivery in Bologna with the University of Bologna Department of Management (DISA). Exact dates and the annual call remain pending. The current displayed €14,800 fee, €60 application fee, B2/degree/test requirements and partial scholarship terms are explicitly kept separate from 2027/28 confirmed fields. Fresh PowerShell GET requests with Cache-Control: no-cache returned HTTP 200 for both pages (179,806 and 177,732 response bytes)."
     },
     {
+      "id": "bbs-green-management-track-2027-28-cycle-and-current-details-review",
+      "status": "partial",
+      "result": "Individually rechecked the existing Bologna BBS Green Management and Sustainable Businesses tracker record. Corrected its level to a first-level Professional Master track and confirmed its English delivery, 12-month/60-ECTS format and DISA collaboration. The official page currently displays an application deadline of 16 November 2026, written test on 18 November, interview on 19 November, enrollment by 1 December and January 2027 class start; it does not state the academic-year label and contains no 2027/28 text or call. Preserved those currently displayed dates, €13,800 tuition, €60 selection fee, €3,000/€5,000 partial awards, and Bachelor's/B2/test/interview requirements as current non-cycle-labelled information. Kept 2027/28 availability, exact application dates, fees, admissions requirements and scholarships pending; no current amount or deadline was carried forward. A fresh PowerShell GET with Cache-Control: no-cache returned HTTP 200 (177,197 bytes); the HTML did not contain a 2027/28 marker."
+    },
+    {
       "id": "claude-independent-review-inventory",
       "status": "complete",
       "result": "Created a review manifest and checklist covering all 34 universities, 193 programs, and 454 existing official source records. The checklist exposes current unresolved fields and conflicts; all refresh outcomes remain pending until evidence is checked."
@@ -317,7 +322,7 @@
     "programs_fully_verified": 34,
     "programs_requiring_verification": 172,
     "programs_not_offered_2027_2028": 3,
-    "programs_supported_only_by_previous_cycle": 156,
+    "programs_supported_only_by_previous_cycle": 155,
     "program_ids_supported_only_by_previous_cycle": [
       "discovered-023",
       "discovered-024",
@@ -348,7 +353,6 @@
       "legacy-025",
       "legacy-026",
       "legacy-027",
-      "legacy-028",
       "legacy-029",
       "legacy-030",
       "legacy-031",
@@ -554,7 +558,7 @@
       "udine"
     ],
     "source_records": 583,
-    "official_source_supported_fields": 1226,
+    "official_source_supported_fields": 1234,
     "verification_statuses": [
       "CONFIRMED",
       "NOT_YET_PUBLISHED",

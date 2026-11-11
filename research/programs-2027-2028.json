@@ -4854,28 +4854,28 @@
     "city": "Bologna",
     "program": "Business Management — Green Management and Sustainable Businesses (BBS professional-master track)",
     "level": {
-      "value": "Professional Master's track",
-      "status": "REQUIRES_VERIFICATION",
+      "value": "Professional Master's track (First Level)",
+      "status": "CONFIRMED",
       "source_ids": [
         "SRC-UNIBO-BBS-GREEN-MGMT-2026"
       ],
-      "notes": "Official course identity is confirmed for the 2026/2027 catalogue; this value is not promoted to 2027/28 without a named-cycle source."
+      "notes": "BBS identifies Green Management and Sustainable Businesses as a track within the first-level Professional Master in Business Management; it is not a Laurea Magistrale."
     },
     "language": {
       "value": "English",
-      "status": "REQUIRES_VERIFICATION",
+      "status": "CONFIRMED",
       "source_ids": [
         "SRC-UNIBO-BBS-GREEN-MGMT-2026"
       ],
-      "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
+      "notes": null
     },
     "field": {
-      "value": "Sustainable Business and Green Management",
-      "status": "REQUIRES_VERIFICATION",
+      "value": "Green Management and Sustainable Businesses",
+      "status": "CONFIRMED",
       "source_ids": [
         "SRC-UNIBO-BBS-GREEN-MGMT-2026"
       ],
-      "notes": "Course subject identity is based on current official profile/catalogue evidence; next-cycle catalogue not yet verified."
+      "notes": null
     },
     "availability_2027_2028": {
       "value": null,
@@ -4883,24 +4883,51 @@
       "source_ids": [
         "SRC-UNIBO-BBS-GREEN-MGMT-2026"
       ],
-      "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued."
+      "notes": "The official track page checked on 11 November 2026 shows a current schedule ending with a January 2027 start but contains no 2027/28 marker or new-cycle call. The intake remains unconfirmed, not discontinued."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
     "facts": {
       "previous_cycle_course_listing": {
         "value": {
-          "academic_year": "2026/2027",
-          "official_name": "Business Management — Green Management and Sustainable Businesses (BBS professional-master track)",
-          "level": "Professional Master's track",
+          "academic_year": "Not stated on current BBS page",
+          "official_name": "Business Management – Green Management and Sustainable Businesses",
+          "programme_type": "Track within a first-level Professional Master",
+          "duration_months": 12,
+          "credits_ects": 60,
           "language": "English",
-          "program_type": "Professional Master's concentration; not a separate MSc/Laurea Magistrale"
+          "format": "Full-time, on campus",
+          "learning_hours": 1500,
+          "learning_hours_breakdown": {
+            "lectures": 360,
+            "independent_study": 540,
+            "internship": 600
+          },
+          "collaborating_department": "University of Bologna Department of Management (DISA)"
         },
         "status": "CONFIRMED",
         "source_ids": [
           "SRC-UNIBO-BBS-GREEN-MGMT-2026"
         ],
-        "notes": "Official course profile/catalogue evidence is cycle-scoped to 2026/2027 and does not establish 2027/28 first-year admission."
+        "notes": "Current official course facts only; BBS does not label the programme page's calendar as 2027/28."
+      },
+      "current_published_calendar": {
+        "value": {
+          "application_deadline": "2026-11-16",
+          "selection": {
+            "written_test": "2026-11-18",
+            "motivational_interview": "2026-11-19"
+          },
+          "enrollment_deadline": "2026-12-01",
+          "crash_courses_start": "2026-12-09",
+          "classes_start": "2027-01-07",
+          "academic_year_label": "Not stated on page"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-BBS-GREEN-MGMT-2026"
+        ],
+        "notes": "These are the dates currently displayed on the BBS page. The page does not assign them to AY 2027/28; do not reuse them as next-cycle dates."
       },
       "application_windows": {
         "value": null,
@@ -4908,7 +4935,18 @@
         "source_ids": [
           "SRC-UNIBO-BBS-GREEN-MGMT-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates."
+        "notes": "No 2027/28 application dates are published on the official programme page; its current displayed last round leads to January 2027 classes."
+      },
+      "application_fee_currently_displayed": {
+        "value": {
+          "amount_eur": 60,
+          "cycle_label": "Not stated"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-BBS-GREEN-MGMT-2026"
+        ],
+        "notes": "Current application-page amount only; 2027/28 fee unconfirmed."
       },
       "application_fee_2027_2028": {
         "value": null,
@@ -4916,7 +4954,24 @@
         "source_ids": [
           "SRC-UNIBO-BBS-GREEN-MGMT-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal."
+        "notes": "No 2027/28 application fee is stated on the official track page."
+      },
+      "current_published_requirements": {
+        "value": {
+          "qualifying_degree": "First-cycle Bachelor's degree by the selected-round enrollment deadline",
+          "english": "Minimum B2",
+          "selection": [
+            "Online aptitude test",
+            "English-language test",
+            "Motivational interview in English"
+          ],
+          "cycle_label": "Not stated"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-BBS-GREEN-MGMT-2026"
+        ],
+        "notes": "Current displayed requirements; confirm the annual 2027/28 call before relying on them."
       },
       "program_specific_requirements_2027_2028": {
         "value": null,
@@ -4924,7 +4979,24 @@
         "source_ids": [
           "SRC-UNIBO-BBS-GREEN-MGMT-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only."
+        "notes": "No 2027/28 call or cycle-labelled detailed requirements are published on the page."
+      },
+      "tuition_currently_displayed": {
+        "value": {
+          "amount_eur": 13800,
+          "vat_free": true,
+          "installments_eur": [
+            1850,
+            7000,
+            4950
+          ],
+          "cycle_label": "Not stated"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-BBS-GREEN-MGMT-2026"
+        ],
+        "notes": "The BBS page currently displays this tuition and installment schedule but does not label it for 2027/28."
       },
       "tuition_2027_2028": {
         "value": null,
@@ -4932,7 +5004,23 @@
         "source_ids": [
           "SRC-UNIBO-BBS-GREEN-MGMT-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts."
+        "notes": "No 2027/28 fee amount is stated; do not carry forward the current €13,800 display."
+      },
+      "scholarships_currently_displayed": {
+        "value": {
+          "partial_awards_per_round_eur": [
+            3000,
+            5000
+          ],
+          "full_awards": "Not available per page",
+          "university_dsu_ergo": "Not eligible per page",
+          "cycle_label": "Not stated"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-BBS-GREEN-MGMT-2026"
+        ],
+        "notes": "Current general BBS track information only; the page does not promise these awards for 2027/28."
       },
       "scholarships_2027_2028": {
         "value": null,
@@ -4940,7 +5028,7 @@
         "source_ids": [
           "SRC-UNIBO-BBS-GREEN-MGMT-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking."
+        "notes": "No 2027/28 scholarship call or cycle-labelled award terms are published on the page."
       },
       "acceptance_rate": {
         "value": null,
@@ -4948,7 +5036,7 @@
         "source_ids": [
           "SRC-UNIBO-BBS-GREEN-MGMT-2026"
         ],
-        "notes": "The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred."
+        "notes": "BBS does not publish applicant and admission counts; no acceptance rate is inferred."
       }
     },
     "source_ids": [
@@ -4960,14 +5048,8 @@
       "field": "Economics",
       "label": "Previous tracker classification — not reverified for 2027/28"
     },
-    "previous_cycle_tags": {
-      "level": "Professional Master's track",
-      "language": "English",
-      "field": "Sustainable Business and Green Management",
-      "cycle": "2026-2027",
-      "label": "Official course identity checked for 2026/2027; 2027/28 first-year intake and terms remain unconfirmed"
-    },
-    "last_checked": "2026-11-10"
+    "previous_cycle_tags": null,
+    "last_checked": "2026-11-11"
   },
   {
     "id": "legacy-029",

@@ -17092,18 +17092,22 @@
   {
     "id": "SRC-UNIBO-BBS-GREEN-MGMT-2026",
     "university_id": "bologna",
-    "title": "Green Management and Sustainable Businesses – BBS professional master",
+    "title": "Business Management – Green Management and Sustainable Businesses – BBS course and current application information",
     "url": "https://www.bbs.unibo.it/en/master-fulltime/business-management-green-management-and-sustainable-businesses/",
-    "source_type": "Official Bologna Business School programme page",
-    "accessed_at": "2026-11-10",
-    "cycle": "2026-2027",
-    "evidence": "Identifies Green Management and Sustainable Businesses as a concentration in the one-year, 60-CFU professional Master in Business Management, with BBS course structure and not a standalone MSc/Laurea Magistrale. Current displayed application rounds are for the 2026/27 edition.",
+    "source_type": "Official Bologna Business School programme and application page",
+    "accessed_at": "2026-11-11",
+    "cycle": "general",
+    "evidence": "Identifies the exact track as Business Management – Green Management and Sustainable Businesses, within BBS's first-level Professional Master in Business Management, not a separate Laurea Magistrale. Current page facts: full-time on-campus, English, 12 months, 60 CFU/ECTS; BBS states 1,500 learning hours (360 lecture, 540 independent study, 600 internship) and collaboration with the University of Bologna Department of Management (DISA). Its current displayed calendar gives a last application date of 16 November 2026, selection on 18–19 November, enrollment by 1 December, crash courses from 9 December, and classes starting 7 January 2027, but does not label the academic-year cycle; these dates are not used as 2027/28 deadlines. The page displays a current €13,800 tuition, €60 selection fee, partial €3,000/€5,000 awards, Bachelor's degree and B2 English requirements, and aptitude/English tests plus interview. It contains no 2027/28 marker or call; these current facts are not promoted to the new cycle.",
     "supports": [
       "program.name",
       "program.level",
       "program.language",
       "program.program_type",
-      "program.previous_cycle_application_windows"
+      "program.previous_cycle_application_windows",
+      "program.current_published_calendar",
+      "program.current_published_tuition",
+      "program.current_published_scholarships",
+      "program.current_published_requirements"
     ],
     "url_check": {
       "http_status": 200,
@@ -17120,11 +17124,18 @@
       "observed_title": "Master Sustainable Businesses & Green Management | BBS Italy",
       "pdf_signature": null,
       "has_2027_marker": false,
-      "bytes_read": 131072,
+      "bytes_read": 177197,
       "outcome": "accessible",
       "error": null,
-      "checked_at": "2026-11-10",
-      "method": "GET"
+      "checked_at": "2026-11-11",
+      "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache"
+    },
+    "browser_check": {
+      "outcome": "accessible",
+      "checked_at": "2026-11-11",
+      "method": "Codex web reader open and find",
+      "observed_title": "Master Sustainable Businesses & Green Management | BBS Italy",
+      "notes": "Official programme page opened. The page currently displays a last application round ending 16 November 2026 and January 2027 classes, but contains no 2027/28 text; current details were kept separate from next-cycle fields."
     }
   },
   {

@@ -2174,7 +2174,7 @@ Official university-level sources:
 - [ ] `SRC-UNIBO-MED-EN-PROFILE-2026` — [Medicine and Surgery – English-taught single-cycle course profile](https://corsi.unibo.it/singlecycle/MedicineAndSurgery/overview) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-UNIBO-MED-IT-PROFILE-2026` — [Medicina e chirurgia – Italian-taught single-cycle course profile](https://corsi.unibo.it/magistralecu/MedicinaChirurgia) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-UNIBO-BBS-AI-MFG-2027` — [Global MBA in AI and Manufacturing – 2027/28 admissions schedule](https://www.bbs.unibo.it/en/global-mba/ai-and-manufacturing-2/) (cycle: 2027-2028; checked in prior snapshot: 2026-11-10)
-- [ ] `SRC-UNIBO-BBS-GREEN-MGMT-2026` — [Green Management and Sustainable Businesses – BBS professional master](https://www.bbs.unibo.it/en/master-fulltime/business-management-green-management-and-sustainable-businesses/) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIBO-BBS-GREEN-MGMT-2026` — [Business Management – Green Management and Sustainable Businesses – BBS course and current application information](https://www.bbs.unibo.it/en/master-fulltime/business-management-green-management-and-sustainable-businesses/) (cycle: general; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-UNIBO-GESTIONALE-BSC-2026` — [Ingegneria gestionale – Bologna bachelor's profile](https://corsi.unibo.it/laurea/IngegneriaGestionale) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-UNIBO-ECON-COMMERCIO-2026` — [Economia e commercio – official degree profile at Forlì](https://corsi.unibo.it/laurea/EconomiaCommercio) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-UNIBO-MED-IT-ENROL-2026` — [Medicina e chirurgia – Italian course admission procedure](https://corsi.unibo.it/magistralecu/MedicinaChirurgia/iscriversi-al-corso) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
@@ -2359,20 +2359,20 @@ Currently missing or unpublished fields:
 
 #### Business Management — Green Management and Sustainable Businesses (BBS professional-master track) — `legacy-028`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-028/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
-- [ ] `SRC-UNIBO-BBS-GREEN-MGMT-2026` — [Green Management and Sustainable Businesses – BBS professional master](https://www.bbs.unibo.it/en/master-fulltime/business-management-green-management-and-sustainable-businesses/) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-UNIBO-BBS-GREEN-MGMT-2026` — [Business Management – Green Management and Sustainable Businesses – BBS course and current application information](https://www.bbs.unibo.it/en/master-fulltime/business-management-green-management-and-sustainable-businesses/) (cycle: general; prior check: 2026-11-11)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
-  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
-  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
-  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
-  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
-  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
-  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — The official track page checked on 11 November 2026 shows a current schedule ending with a January 2027 start but contains no 2027/28 marker or new-cycle call. The intake remains unconfirmed, not discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — No 2027/28 application dates are published on the official programme page; its current displayed last round leads to January 2027 classes.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — No 2027/28 application fee is stated on the official track page.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — No 2027/28 call or cycle-labelled detailed requirements are published on the page.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — No 2027/28 fee amount is stated; do not carry forward the current €13,800 display.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — No 2027/28 scholarship call or cycle-labelled award terms are published on the page.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — BBS does not publish applicant and admission counts; no acceptance rate is inferred.
 
 #### Ingegneria gestionale — `legacy-147`
 
