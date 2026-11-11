@@ -2,7 +2,7 @@
 
 Prepared 2026-11-11 for academic year 2027/28. Review each record against official university pages, calls, portals, regulations, and PDFs.
 
-Snapshot inventory: 34 universities, 209 program records, 608 source records.
+Snapshot inventory: 34 universities, 209 program records, 611 source records.
 
 ## Review rules
 
@@ -2195,7 +2195,7 @@ Official university-level sources:
 - [ ] `SRC-UNIBO-LAW-CATALOGUE-2026` — [Giurisprudenza – 2026/27 University catalogue entry (code 6827)](https://www.unibo.it/it/studiare/lauree-e-lauree-magistrali-a-ciclo-unico/corso/2026/6827) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-UNIBO-LAW-ENROLMENT-2026` — [Giurisprudenza Bologna – current enrolment and TOLC-SU page](https://corsi.unibo.it/magistralecu/Giurisprudenza-Bologna/iscriversi-al-corso) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-UNIBO-LAW-OFA-2026` — [Giurisprudenza Bologna – TOLC-SU OFA and completion guidance](https://corsi.unibo.it/magistralecu/Giurisprudenza-Bologna/ofa) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
-- [ ] `SRC-UNIBO-COMMUNICATION-2026` — [Scienze della comunicazione – Bologna bachelor's profile](https://corsi.unibo.it/laurea/ScienzeComunicazione) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIBO-COMMUNICATION-2026` — [Scienze della comunicazione – Bologna bachelor's profile](https://corsi.unibo.it/laurea/ScienzeComunicazione) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-UNIBO-ING-INF-MSC-2026` — [Ingegneria informatica – Bologna MSc profile and admission page](https://corsi.unibo.it/magistrale/ingegneriainformatica/index.html) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-UNIBO-ING-INF-ADMISSIONS-2026` — [Ingegneria informatica – 2026/27 admission requirements](https://corsi.unibo.it/magistrale/ingegneriainformatica/iscriversi-al-corso) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-UNIBO-BA-BBS-2026` — [Business Analytics and Data Science – BBS professional-master classification](https://www.bbs.unibo.it/en/professional-masters-programs/) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
@@ -2215,7 +2215,10 @@ Official university-level sources:
 - [ ] `SRC-UNIBO-REGULAR-COURSES-2026` — [University of Bologna regular degree course catalogue](https://corsi.unibo.it/) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-UNIBO-CLABE-PROGRAM-CODE-2026` — [Business and Economics – official course code and programme profile](https://corsi.unibo.it/1cycle/CLaBE/prospects) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-UNIBO-DHDK-CALL-2026` — [Digital Humanities and Digital Knowledge – AY 2026/27 admission call](https://corsi.unibo.it/s/3391/p/en/digital-humanities-and-digital-knowledge-dhdk/call-dhdk-2026.pdf/@@download/file/Call%20DHDK%202026.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
-- [ ] `SRC-UNIBO-COMM-ADMISSION-2026` — [Scienze della comunicazione – 2026/27 admissions page](https://corsi.unibo.it/laurea/ScienzeComunicazione/iscriversi-al-corso) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIBO-COMM-ADMISSION-2026` — [Scienze della comunicazione – 2026/27 admissions page](https://corsi.unibo.it/laurea/ScienzeComunicazione/iscriversi-al-corso) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-UNIBO-COMM-CATALOGUE-2026` — [Scienze della comunicazione – 2026/27 University course catalogue entry](https://www.unibo.it/it/studiare/lauree-e-lauree-magistrali-a-ciclo-unico/corso/2026/6620) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-UNIBO-COMM-CALL-2026` — [Scienze della comunicazione – 2026/27 admission call](https://corsi.unibo.it/s/3391/p/it/iscriversi-11/bando-scienze-della-comunicazione-a-a-2025-2026.pdf/@@download/file/BANDO%20SCIENZE%20DELLA%20COMUNICAZIONE%2026_27%20firmato.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-UNIBO-COMM-EXTRA-2026` — [Scienze della comunicazione – 2026/27 extraordinary selection notice](https://corsi.unibo.it/s/3391/p/it/iscriversi-11/avviso-selezione-straordinaria-scienze-della-comunicazione-1.pdf/@@download/file/Avviso%20selezione%20straordinaria%20SCIENZE%20DELLA%20COMUNICAZIONE.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-UNIBO-LAW-COURSE-2026` — [Giurisprudenza – 2026/27 programme regulation](https://corsi.unibo.it/magistralecu/Giurisprudenza-Bologna/il-corso/all-e-regolamento-parte-normativa-26-27.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-BBS-DSBA-2027` — [Data Science and Business Analytics – 2027/28 BBS Professional Master](https://www.bbs.unibo.it/en/master-fulltime/master-in-data-science-2/) (cycle: 2027-2028; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-BBS-AI-MANAGEMENT-2027` — [Artificial Intelligence for Management – 2027/28 BBS Professional Master](https://www.bbs.unibo.it/en/master-fulltime/artificial-intelligence-2/) (cycle: 2027-2028; checked in prior snapshot: 2026-11-11)
@@ -2506,20 +2509,25 @@ Currently missing or unpublished fields:
 
 #### Scienze della comunicazione — `legacy-151`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-151/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
-- [ ] `SRC-UNIBO-COMM-ADMISSION-2026` — [Scienze della comunicazione – 2026/27 admissions page](https://corsi.unibo.it/laurea/ScienzeComunicazione/iscriversi-al-corso) (cycle: 2026-2027; prior check: 2026-11-10)
-- [ ] `SRC-UNIBO-COMMUNICATION-2026` — [Scienze della comunicazione – Bologna bachelor's profile](https://corsi.unibo.it/laurea/ScienzeComunicazione) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-UNIBO-COMM-CATALOGUE-2026` — [Scienze della comunicazione – 2026/27 University course catalogue entry](https://www.unibo.it/it/studiare/lauree-e-lauree-magistrali-a-ciclo-unico/corso/2026/6620) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-UNIBO-COMM-CALL-2026` — [Scienze della comunicazione – 2026/27 admission call](https://corsi.unibo.it/s/3391/p/it/iscriversi-11/bando-scienze-della-comunicazione-a-a-2025-2026.pdf/@@download/file/BANDO%20SCIENZE%20DELLA%20COMUNICAZIONE%2026_27%20firmato.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-UNIBO-TUITION-TABLE-2026` — [University of Bologna – 2026/27 maximum course tuition table](https://www.unibo.it/it/allegati/Tabellaimportimassimi2627.pdf/@@download/file/Tabella%20importi%20massimi%202026-2027.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-UNIBO-COMM-ADMISSION-2026` — [Scienze della comunicazione – 2026/27 admissions page](https://corsi.unibo.it/laurea/ScienzeComunicazione/iscriversi-al-corso) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-UNIBO-COMMUNICATION-2026` — [Scienze della comunicazione – Bologna bachelor's profile](https://corsi.unibo.it/laurea/ScienzeComunicazione) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-UNIBO-COMM-EXTRA-2026` — [Scienze della comunicazione – 2026/27 extraordinary selection notice](https://corsi.unibo.it/s/3391/p/it/iscriversi-11/avviso-selezione-straordinaria-scienze-della-comunicazione-1.pdf/@@download/file/Avviso%20selezione%20straordinaria%20SCIENZE%20DELLA%20COMUNICAZIONE.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-UNIBO-TUITION-PAGE-2026` — [University of Bologna – 2026/27 tuition framework and exemptions](https://www.unibo.it/it/studiare/iscrizioni-tasse-e-altre-procedure/lauree-e-lauree-magistrali/tasse-e-contributi) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
-  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
-  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
-  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
-  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
-  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-11. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-11; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; annual university and regional calls still need checking.
   - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
 #### Ingegneria informatica — `legacy-152`
@@ -5260,7 +5268,7 @@ Currently missing or unpublished fields:
 
 ## Source URL recheck results
 
-Checked 593 unique URLs representing 608 source records on 2026-11-11. Unique URL outcomes: {'accessible': 574, 'redirected': 13, 'inconclusive': 5, 'broken': 1}. HTTP 404/410 outcomes are listed as broken; TLS, timeout, and remote-disconnect cases remain inconclusive.
+Checked 596 unique URLs representing 611 source records on 2026-11-11. Unique URL outcomes: {'accessible': 577, 'redirected': 13, 'inconclusive': 5, 'broken': 1}. HTTP 404/410 outcomes are listed as broken; TLS, timeout, and remote-disconnect cases remain inconclusive.
 
 ### Redirected sources
 

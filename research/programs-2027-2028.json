@@ -30220,7 +30220,12 @@
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
         "SRC-UNIBO-COMMUNICATION-2026",
-        "SRC-UNIBO-COMM-ADMISSION-2026"
+        "SRC-UNIBO-COMM-ADMISSION-2026",
+        "SRC-UNIBO-COMM-CATALOGUE-2026",
+        "SRC-UNIBO-COMM-CALL-2026",
+        "SRC-UNIBO-COMM-EXTRA-2026",
+        "SRC-UNIBO-TUITION-PAGE-2026",
+        "SRC-UNIBO-TUITION-TABLE-2026"
       ],
       "notes": "Official course identity is confirmed for the 2026/2027 catalogue; this value is not promoted to 2027/28 without a named-cycle source."
     },
@@ -30229,7 +30234,12 @@
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
         "SRC-UNIBO-COMMUNICATION-2026",
-        "SRC-UNIBO-COMM-ADMISSION-2026"
+        "SRC-UNIBO-COMM-ADMISSION-2026",
+        "SRC-UNIBO-COMM-CATALOGUE-2026",
+        "SRC-UNIBO-COMM-CALL-2026",
+        "SRC-UNIBO-COMM-EXTRA-2026",
+        "SRC-UNIBO-TUITION-PAGE-2026",
+        "SRC-UNIBO-TUITION-TABLE-2026"
       ],
       "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
     },
@@ -30238,7 +30248,12 @@
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
         "SRC-UNIBO-COMMUNICATION-2026",
-        "SRC-UNIBO-COMM-ADMISSION-2026"
+        "SRC-UNIBO-COMM-ADMISSION-2026",
+        "SRC-UNIBO-COMM-CATALOGUE-2026",
+        "SRC-UNIBO-COMM-CALL-2026",
+        "SRC-UNIBO-COMM-EXTRA-2026",
+        "SRC-UNIBO-TUITION-PAGE-2026",
+        "SRC-UNIBO-TUITION-TABLE-2026"
       ],
       "notes": "Course subject identity is based on current official profile/catalogue evidence; next-cycle catalogue not yet verified."
     },
@@ -30247,85 +30262,372 @@
       "status": "NOT_YET_PUBLISHED",
       "source_ids": [
         "SRC-UNIBO-COMMUNICATION-2026",
-        "SRC-UNIBO-COMM-ADMISSION-2026"
+        "SRC-UNIBO-COMM-ADMISSION-2026",
+        "SRC-UNIBO-COMM-CATALOGUE-2026",
+        "SRC-UNIBO-COMM-CALL-2026",
+        "SRC-UNIBO-COMM-EXTRA-2026",
+        "SRC-UNIBO-TUITION-PAGE-2026",
+        "SRC-UNIBO-TUITION-TABLE-2026"
       ],
-      "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued."
+      "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-11. This does not mean discontinued."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
     "facts": {
       "previous_cycle_course_listing": {
         "value": {
-          "academic_year": "2026/2027",
+          "academic_year": "2026/27",
           "official_name": "Scienze della comunicazione",
-          "level": "BSc",
-          "language": "Italian"
+          "course_code": "6620",
+          "degree_class": "L-20 R",
+          "level": "Bachelor's degree",
+          "duration_years": 3,
+          "language": "Italian",
+          "campus": "Bologna",
+          "access": "Locally restricted admission by TOLC-SU",
+          "places": 600
         },
         "status": "CONFIRMED",
         "source_ids": [
-          "SRC-UNIBO-COMMUNICATION-2026",
-          "SRC-UNIBO-COMM-ADMISSION-2026"
+          "SRC-UNIBO-COMM-CATALOGUE-2026",
+          "SRC-UNIBO-COMMUNICATION-2026"
         ],
-        "notes": "Official course profile/catalogue evidence is cycle-scoped to 2026/2027 and does not establish 2027/28 first-year admission."
+        "notes": "These are the 2026/27 catalogue facts only; they do not establish that a 2027/28 cohort will be offered."
       },
       "application_windows": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
           "SRC-UNIBO-COMMUNICATION-2026",
-          "SRC-UNIBO-COMM-ADMISSION-2026"
+          "SRC-UNIBO-COMM-ADMISSION-2026",
+          "SRC-UNIBO-COMM-CATALOGUE-2026",
+          "SRC-UNIBO-COMM-CALL-2026",
+          "SRC-UNIBO-COMM-EXTRA-2026",
+          "SRC-UNIBO-TUITION-PAGE-2026",
+          "SRC-UNIBO-TUITION-TABLE-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates."
+        "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-11; do not reuse 2026/27 dates."
       },
       "application_fee_2027_2028": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
           "SRC-UNIBO-COMMUNICATION-2026",
-          "SRC-UNIBO-COMM-ADMISSION-2026"
+          "SRC-UNIBO-COMM-ADMISSION-2026",
+          "SRC-UNIBO-COMM-CATALOGUE-2026",
+          "SRC-UNIBO-COMM-CALL-2026",
+          "SRC-UNIBO-COMM-EXTRA-2026",
+          "SRC-UNIBO-TUITION-PAGE-2026",
+          "SRC-UNIBO-TUITION-TABLE-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal."
+        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; check the annual call and application portal."
       },
       "program_specific_requirements_2027_2028": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
           "SRC-UNIBO-COMMUNICATION-2026",
-          "SRC-UNIBO-COMM-ADMISSION-2026"
+          "SRC-UNIBO-COMM-ADMISSION-2026",
+          "SRC-UNIBO-COMM-CATALOGUE-2026",
+          "SRC-UNIBO-COMM-CALL-2026",
+          "SRC-UNIBO-COMM-EXTRA-2026",
+          "SRC-UNIBO-TUITION-PAGE-2026",
+          "SRC-UNIBO-TUITION-TABLE-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only."
+        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; any 2026/27 criteria are historical only."
       },
       "tuition_2027_2028": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
           "SRC-UNIBO-COMMUNICATION-2026",
-          "SRC-UNIBO-COMM-ADMISSION-2026"
+          "SRC-UNIBO-COMM-ADMISSION-2026",
+          "SRC-UNIBO-COMM-CATALOGUE-2026",
+          "SRC-UNIBO-COMM-CALL-2026",
+          "SRC-UNIBO-COMM-EXTRA-2026",
+          "SRC-UNIBO-TUITION-PAGE-2026",
+          "SRC-UNIBO-TUITION-TABLE-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts."
+        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; do not carry forward prior-cycle amounts."
       },
       "scholarships_2027_2028": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
           "SRC-UNIBO-COMMUNICATION-2026",
-          "SRC-UNIBO-COMM-ADMISSION-2026"
+          "SRC-UNIBO-COMM-ADMISSION-2026",
+          "SRC-UNIBO-COMM-CATALOGUE-2026",
+          "SRC-UNIBO-COMM-CALL-2026",
+          "SRC-UNIBO-COMM-EXTRA-2026",
+          "SRC-UNIBO-TUITION-PAGE-2026",
+          "SRC-UNIBO-TUITION-TABLE-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking."
+        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; annual university and regional calls still need checking."
       },
       "acceptance_rate": {
         "value": null,
         "status": "UNAVAILABLE",
         "source_ids": [
           "SRC-UNIBO-COMMUNICATION-2026",
-          "SRC-UNIBO-COMM-ADMISSION-2026"
+          "SRC-UNIBO-COMM-ADMISSION-2026",
+          "SRC-UNIBO-COMM-CATALOGUE-2026",
+          "SRC-UNIBO-COMM-CALL-2026",
+          "SRC-UNIBO-COMM-EXTRA-2026",
+          "SRC-UNIBO-TUITION-PAGE-2026",
+          "SRC-UNIBO-TUITION-TABLE-2026"
         ],
         "notes": "The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred."
+      },
+      "previous_cycle_places": {
+        "value": {
+          "academic_year": "2026/27",
+          "total_places": 600,
+          "first_selection_places": 350,
+          "second_selection": {
+            "italian_eu_and_equivalent_base_places": 230,
+            "non_eu_resident_abroad_places": 20,
+            "plus_unfilled_places_from_previous_selection": true
+          },
+          "extraordinary_selection_remaining_places": 156,
+          "extraordinary_places_are_additional_to_the_600_total": false
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-COMM-CATALOGUE-2026",
+          "SRC-UNIBO-COMM-CALL-2026",
+          "SRC-UNIBO-COMM-EXTRA-2026"
+        ],
+        "notes": "The 156 seats are reported by the extraordinary notice as places still available after ordinary selections; they are not additional capacity. The call splits the initial 600-seat allocation across the first and second selections and contingents."
+      },
+      "previous_cycle_application_windows": {
+        "value": [
+          {
+            "selection": "First ordinary",
+            "tolc_su_valid_from": "2025-01-01",
+            "tolc_su_deadline": "2026-04-28",
+            "application_open": "2026-03-03",
+            "application_deadline": "2026-04-29T13:00",
+            "ranking": "2026-05-15",
+            "enrollment_window": [
+              "2026-05-15",
+              "2026-05-22"
+            ],
+            "first_recovery_interest_window": [
+              "2026-05-15",
+              "2026-05-22"
+            ],
+            "subsequent_recovery_publications": [
+              "2026-05-26",
+              "2026-06-04"
+            ],
+            "final_recovery_enrollment_deadline": "2026-06-10"
+          },
+          {
+            "selection": "Second ordinary",
+            "tolc_su_valid_from": "2025-01-01",
+            "tolc_su_deadline": "2026-07-10",
+            "application_open": "2026-04-30",
+            "application_deadline": "2026-07-13T13:00",
+            "ranking": "2026-07-22",
+            "enrollment_window": [
+              "2026-07-22",
+              "2026-07-28"
+            ],
+            "recovery_interest_window": [
+              "2026-07-22",
+              "2026-07-28"
+            ],
+            "recovery_publication": "2026-07-31",
+            "recovery_enrollment_window": [
+              "2026-07-31",
+              "2026-08-25"
+            ]
+          },
+          {
+            "selection": "Extraordinary",
+            "tolc_su_valid_from": "2025-01-01",
+            "tolc_su_deadline": "2026-09-10",
+            "application_open": "2026-09-02",
+            "application_deadline": "2026-09-11T13:00",
+            "ranking": "2026-09-24",
+            "enrollment_window": [
+              "2026-09-24",
+              "2026-09-29"
+            ],
+            "recovery_interest_window": [
+              "2026-09-24",
+              "2026-09-29"
+            ],
+            "recovery_publication": "2026-10-01",
+            "recovery_enrollment_window": [
+              "2026-10-01",
+              "2026-10-07"
+            ]
+          }
+        ],
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-COMM-CALL-2026",
+          "SRC-UNIBO-COMM-EXTRA-2026"
+        ],
+        "notes": "All windows are historical AY 2026/27 dates from the expired call and its extraordinary notice. The extraordinary selection was conditional on unfilled seats. Do not reuse these dates for 2027/28."
+      },
+      "previous_cycle_admission_requirements": {
+        "value": {
+          "school_qualification": "Upper-secondary diploma or recognized equivalent; the call also allowed candidates completing the diploma by 31 December 2026 to apply",
+          "entrance_test": "TOLC-SU required",
+          "first_selection_minimum_score": 26,
+          "first_selection_score_denominator": 50,
+          "later_selection_minimum_score": null,
+          "later_selection_minimum_score_required": false,
+          "separate_gpa_requirement": false,
+          "below_26_after_admission_in_second_or_extra_selection": "OFA assigned",
+          "international_non_eu_residing_abroad": "Foreign qualification eligibility, Italian-language requirement and Universitaly pre-enrolment apply as specified in the annual call"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-COMM-CALL-2026",
+          "SRC-UNIBO-COMM-ADMISSION-2026",
+          "SRC-UNIBO-COMM-EXTRA-2026"
+        ],
+        "notes": "Historical 2026/27 call rules only. Selection rounds had different score thresholds; the first-round threshold must not be generalized to the other rounds or to 2027/28."
+      },
+      "previous_cycle_test_scoring": {
+        "value": {
+          "test": "TOLC-SU",
+          "scored_questions": 50,
+          "duration_minutes": 100,
+          "sections": [
+            {
+              "name": "Reading comprehension and Italian-language knowledge",
+              "questions": 30,
+              "weight": 1
+            },
+            {
+              "name": "Knowledge and skills acquired in studies",
+              "questions": 10,
+              "weight": 1
+            },
+            {
+              "name": "Logical reasoning",
+              "questions": 10,
+              "weight": 1
+            }
+          ],
+          "additional_english_section": {
+            "questions": 30,
+            "minutes": 15,
+            "counts_toward_ranking": false
+          },
+          "scoring": {
+            "correct": 1,
+            "incorrect": -0.25,
+            "unanswered": 0
+          },
+          "ranking_order": "Descending weighted TOLC-SU score",
+          "tie_breakers": [
+            "Higher reading-comprehension/Italian score",
+            "Younger candidate"
+          ]
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-COMM-ADMISSION-2026",
+          "SRC-UNIBO-COMM-CALL-2026"
+        ],
+        "notes": "Format and selection scoring describe the 2026/27 TOLC-SU admission process only."
+      },
+      "previous_cycle_additional_learning_requirement": {
+        "value": {
+          "trigger": "Admission in second or extraordinary selection with TOLC-SU below 26/50",
+          "deadline": "2028-03-31",
+          "consequence_if_unfulfilled": "Enrollment in the first year as a repeat student"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-COMM-CALL-2026"
+        ],
+        "notes": "The first selection instead required 26/50 for eligibility and did not permit enrollment below that threshold. The OFA rule applies to admitted 2026/27 candidates in later selections."
+      },
+      "previous_cycle_application_route": {
+        "value": {
+          "test_registration": "Register for TOLC-SU through CISIA; TOLC result normally transmitted to the University",
+          "university_selection_application": "Studenti Online; University selection contribution paid through PagoPA",
+          "international_route": "Universitaly pre-enrolment and additional qualification/Italian-language steps where applicable"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-COMM-ADMISSION-2026",
+          "SRC-UNIBO-COMM-CALL-2026"
+        ],
+        "notes": "Historical 2026/27 procedure. Recheck platforms and steps against the 2027/28 call."
+      },
+      "previous_cycle_application_fee": {
+        "value": {
+          "university_selection_contribution_eur": 20,
+          "payment_method": "PagoPA",
+          "non_refundable": true,
+          "covers_next_ordinary_and_possible_extraordinary_selection": true,
+          "separate_cisia_tolc_fee_amount_eur": null
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-COMM-ADMISSION-2026",
+          "SRC-UNIBO-COMM-CALL-2026"
+        ],
+        "notes": "The €20 is the 2026/27 University selection contribution, not the CISIA TOLC registration fee. The call directs TOLC payment to CISIA but does not state its amount."
+      },
+      "previous_cycle_gpa_requirement": {
+        "value": {
+          "separate_school_gpa_threshold_stated": false
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-COMM-CALL-2026"
+        ],
+        "notes": "No separate GPA cutoff appears in the 2026/27 call; access uses the specified TOLC-SU selection thresholds and ranking rules."
+      },
+      "previous_cycle_tuition": {
+        "value": {
+          "academic_year": "2026/27",
+          "fixed_component_eur": 157.04,
+          "isee_progressive_variable_component": true,
+          "maximum_comprehensive_contribution_first_cycle_eur": 2040,
+          "course_code_6620_separately_listed_as_higher_contribution": false,
+          "maximum_excludes": [
+            "Regional study tax",
+            "Stamp duty",
+            "Insurance"
+          ]
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-COMM-CALL-2026",
+          "SRC-UNIBO-TUITION-PAGE-2026",
+          "SRC-UNIBO-TUITION-TABLE-2026"
+        ],
+        "notes": "The official 2026/27 schedule lists a €2,040 maximum comprehensive contribution for first-cycle courses and separately lists the higher-rate exceptions; course 6620 is not among them. This is a maximum contribution reference before the excluded charges, not a promised net tuition bill. No 2027/28 amount is inferred."
+      },
+      "last_cycle_scholarships": {
+        "value": {
+          "course_specific_award": null,
+          "general_support": "University and ER.GO benefits are handled through separate annual calls"
+        },
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-UNIBO-COMM-CALL-2026"
+        ],
+        "notes": "The reviewed admission call refers to general benefits but establishes no course-specific scholarship terms; 2027/28 aid remains pending."
       }
     },
     "source_ids": [
       "SRC-UNIBO-COMMUNICATION-2026",
-      "SRC-UNIBO-COMM-ADMISSION-2026"
+      "SRC-UNIBO-COMM-ADMISSION-2026",
+      "SRC-UNIBO-COMM-CATALOGUE-2026",
+      "SRC-UNIBO-COMM-CALL-2026",
+      "SRC-UNIBO-COMM-EXTRA-2026",
+      "SRC-UNIBO-TUITION-PAGE-2026",
+      "SRC-UNIBO-TUITION-TABLE-2026"
     ],
     "previous_tracker_tags": {
       "level": "BSc",
@@ -30340,7 +30642,7 @@
       "cycle": "2026-2027",
       "label": "Official course identity checked for 2026/2027; 2027/28 first-year intake and terms remain unconfirmed"
     },
-    "last_checked": "2026-11-10"
+    "last_checked": "2026-11-11"
   },
   {
     "id": "legacy-152",

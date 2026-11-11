@@ -297,6 +297,11 @@
       "result": "Rechecked Bologna Giurisprudenza against its current degree profile, 2026/27 catalogue entry, admission page, official annual enrollment notice, course regulation, OFA guidance and University tuition references. Confirmed a five-year Italian single-cycle Bologna degree, course code 6827, class LMG/01 R, free access with required TOLC-SU knowledge verification. The 2026/27 notice sets enrollment from 22 July to 24 September without late fee, then late-fee periods through 19 November; TOLC-SU is accepted from 1 January 2025 and should be completed by 48 hours before enrollment. A score below 20/50 assigns an OFA but does not block enrollment; the 2026/27 rule requires the alignment course and final check by 31 March 2028. The test has 50 scored questions in three sections over 100 minutes plus an optional 30-question English self-assessment; TOLC fee is paid to CISIA but no amount is stated in the University notice. The 2026/27 tuition framework is ISEE-progressive with a €157.04 fixed component and the general €2,244 single-cycle maximum-contribution reference; code 6827 is not listed separately among higher-contribution exceptions, so the value is recorded as the standard-category reference only. No separate GPA threshold is stated. No 2027/28 admissions call or terms were found; new intake, dates, TOLC conditions, fee, tuition and aid remain pending. Fresh no-cache GETs returned HTTP 200 for six official pages/PDFs, and both PDF signatures were valid."
     },
     {
+      "id": "unibo-scienze-comunicazione-2026-27-admissions-review",
+      "status": "partial",
+      "result": "Reviewed Bologna Scienze della comunicazione against the 2026/27 catalogue, current course profile and admissions page, the full 2026/27 selection call, the posted extraordinary-selection notice, and the University 2026/27 tuition schedule. Confirmed course 6620: three-year Italian L-20 R bachelor's degree in Bologna, locally capped at 600 places and admitted by TOLC-SU. The 2026/27 call provided first selection (applications 3 March–29 April 2026, 13:00; ranking 15 May; enrollment 15–22 May), second selection (30 April–13 July, 13:00; ranking 22 July; enrollment 22–28 July), and an extraordinary selection for remaining seats (applications 2–11 September, 13:00; ranking 24 September; enrollment 24–29 September). The extraordinary notice listed 156 remaining seats; this is a vacancy count, not added capacity. The first round required 26/50; later rounds had no minimum admission score, while admitted second/extra-round candidates below 26/50 received an OFA due by 31 March 2028. The TOLC-SU score weights the 30 reading/Italian, 10 prior-study knowledge, and 10 logical reasoning questions equally; the extra English section does not count. The University selection contribution was €20; TOLC payment was separate through CISIA and its price is not specified in the reviewed University notice. 2026/27 tuition was ISEE-progressive with a €157.04 fixed component and a €2,040 maximum comprehensive contribution for first-cycle courses, excluding regional tax, stamp duty, and insurance; code 6620 is not among separately listed higher-contribution programmes. No separate GPA requirement appears in the call. No 2027/28 course listing or admission call was found on the reviewed pages, so availability, dates, places, thresholds, application and tuition fees, requirements, and scholarships for that cycle remain pending. Fresh no-cache GETs returned HTTP 200 for all five official pages/PDFs; both PDF signatures were valid."
+    },
+    {
       "id": "claude-independent-review-inventory",
       "status": "complete",
       "result": "Created a review manifest and checklist covering all 34 universities, 193 programs, and 454 existing official source records. The checklist exposes current unresolved fields and conflicts; all refresh outcomes remain pending until evidence is checked."
@@ -602,8 +607,8 @@
       "trento",
       "udine"
     ],
-    "source_records": 608,
-    "official_source_supported_fields": 1285,
+    "source_records": 611,
+    "official_source_supported_fields": 1294,
     "verification_statuses": [
       "CONFIRMED",
       "NOT_YET_PUBLISHED",

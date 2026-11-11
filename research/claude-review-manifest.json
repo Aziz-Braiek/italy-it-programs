@@ -9,15 +9,15 @@
     "counts": {
       "universities": 34,
       "programs": 209,
-      "sources": 608
+      "sources": 611
     },
     "previous_snapshot_inconclusive_url_checks": "The prior audit reported approximately 100 inconclusive checks. This refresh rechecked every unique URL and preserves the response by source record below.",
     "current_url_audit": {
       "checked_at": "2026-11-11",
-      "source_records": 608,
-      "unique_urls_checked": 593,
+      "source_records": 611,
+      "unique_urls_checked": 596,
       "unique_url_outcomes": {
-        "accessible": 574,
+        "accessible": 577,
         "redirected": 13,
         "inconclusive": 5,
         "broken": 1
@@ -9414,6 +9414,9 @@
         "SRC-UNIBO-CLABE-PROGRAM-CODE-2026",
         "SRC-UNIBO-DHDK-CALL-2026",
         "SRC-UNIBO-COMM-ADMISSION-2026",
+        "SRC-UNIBO-COMM-CATALOGUE-2026",
+        "SRC-UNIBO-COMM-CALL-2026",
+        "SRC-UNIBO-COMM-EXTRA-2026",
         "SRC-UNIBO-LAW-COURSE-2026",
         "SRC-BBS-DSBA-2027",
         "SRC-BBS-AI-MANAGEMENT-2027",
@@ -10968,8 +10971,8 @@
           "url": "https://corsi.unibo.it/laurea/ScienzeComunicazione",
           "source_type": "Official degree programme profile",
           "cycle": "2026-2027",
-          "accessed_at": "2026-11-10",
-          "evidence": "Lists an Italian-taught three-year Bologna bachelor's degree in Communication Sciences, class L-20 R, with restricted admission.",
+          "accessed_at": "2026-11-11",
+          "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026. The profile describes the Italian-taught Bologna three-year bachelor's degree in Communication Sciences, class L-20 R, with restricted admission; the current course material is labelled 2026/27 and does not announce 2027/28 intake.",
           "supports": [
             "program.name",
             "program.level",
@@ -10981,23 +10984,23 @@
           "url_check": {
             "http_status": 200,
             "effective_url": "https://corsi.unibo.it/laurea/ScienzeComunicazione",
-            "content_type": "text/html;charset=utf-8",
-            "content_length_header": null,
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": 306020,
             "etag": null,
             "last_modified": null,
-            "cache_control": "max-age=0, s-maxage=0, must-revalidate",
-            "age": "655",
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "275",
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
             "observed_title": "Scienze della comunicazione - Laurea - Bologna",
             "pdf_signature": null,
             "has_2027_marker": false,
-            "bytes_read": 131072,
+            "bytes_read": 306020,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
-            "method": "GET"
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
           },
           "browser_check": null
         },
@@ -11706,33 +11709,149 @@
           "url": "https://corsi.unibo.it/laurea/ScienzeComunicazione/iscriversi-al-corso",
           "source_type": "Official programme admission page",
           "cycle": "2026-2027",
-          "accessed_at": "2026-11-10",
-          "evidence": "The official page links an expired 2026/27 call and an additional selection notice, confirming the prior-cycle restricted-entry procedure only.",
+          "accessed_at": "2026-11-11",
+          "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026. The 2026/27 page describes the TOLC-SU format, 20 EUR application contribution, and links the expired annual call and extraordinary-selection notice; it does not announce 2027/28 terms.",
           "supports": [
             "program.previous_cycle_admission",
-            "program.previous_cycle_application_route"
+            "program.previous_cycle_application_route",
+            "program.previous_cycle_test_scoring"
           ],
           "refresh_status": "accessible",
           "url_check": {
             "http_status": 200,
             "effective_url": "https://corsi.unibo.it/laurea/ScienzeComunicazione/iscriversi-al-corso",
-            "content_type": "text/html;charset=utf-8",
-            "content_length_header": null,
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": 367778,
             "etag": null,
             "last_modified": null,
-            "cache_control": "max-age=0, s-maxage=0, must-revalidate",
-            "age": "6369",
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "4926",
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
             "observed_title": "Iscriversi al Corso: requisiti, tempi e modalità — Scienze della comunicazione - Laurea - Bologna",
             "pdf_signature": null,
             "has_2027_marker": false,
-            "bytes_read": 131072,
+            "bytes_read": 367778,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
-            "method": "GET"
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-UNIBO-COMM-CATALOGUE-2026",
+          "title": "Scienze della comunicazione – 2026/27 University course catalogue entry",
+          "url": "https://www.unibo.it/it/studiare/lauree-e-lauree-magistrali-a-ciclo-unico/corso/2026/6620",
+          "source_type": "Official University course catalogue entry",
+          "cycle": "2026-2027",
+          "accessed_at": "2026-11-11",
+          "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026. The catalogue labels the entry 2026/27, course code 6620, three years, Bologna, Italian, class L-20 R, local restricted access by TOLC-SU, with 600 places; it does not establish a 2027/28 intake.",
+          "supports": [
+            "program.previous_cycle_course_listing",
+            "program.previous_cycle_places",
+            "program.availability_2027_2028"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.unibo.it/it/studiare/lauree-e-lauree-magistrali-a-ciclo-unico/corso/2026/6620",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": 493837,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "445",
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Scienze della comunicazione — Università di Bologna",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 493837,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-UNIBO-COMM-CALL-2026",
+          "title": "Scienze della comunicazione – 2026/27 admission call",
+          "url": "https://corsi.unibo.it/s/3391/p/it/iscriversi-11/bando-scienze-della-comunicazione-a-a-2025-2026.pdf/@@download/file/BANDO%20SCIENZE%20DELLA%20COMUNICAZIONE%2026_27%20firmato.pdf",
+          "source_type": "Official programme admission notice PDF",
+          "cycle": "2026-2027",
+          "accessed_at": "2026-11-11",
+          "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026 with a valid PDF signature (1,062,159 bytes). The 45-page 2026/27 call sets two ordinary TOLC-SU selections, their dated deadlines and ranking rules, a 26/50 first-round eligibility threshold, no minimum score in later rounds, a 20 EUR University selection contribution, OFA rules, and course tuition framework; these are historical terms only.",
+          "supports": [
+            "program.previous_cycle_admission",
+            "program.previous_cycle_application_windows",
+            "program.previous_cycle_places",
+            "program.previous_cycle_test_scoring",
+            "program.previous_cycle_program_requirements",
+            "program.previous_cycle_application_fee",
+            "program.previous_cycle_tuition"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://corsi.unibo.it/s/3391/p/it/iscriversi-11/bando-scienze-della-comunicazione-a-a-2025-2026.pdf/@@download/file/BANDO%20SCIENZE%20DELLA%20COMUNICAZIONE%2026_27%20firmato.pdf",
+            "content_type": "application/pdf",
+            "content_length_header": 1062159,
+            "etag": null,
+            "last_modified": "02/17/2026 08:44:55 +00:00",
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "1620",
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": null,
+            "pdf_signature": true,
+            "has_2027_marker": false,
+            "bytes_read": 1062159,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-UNIBO-COMM-EXTRA-2026",
+          "title": "Scienze della comunicazione – 2026/27 extraordinary selection notice",
+          "url": "https://corsi.unibo.it/s/3391/p/it/iscriversi-11/avviso-selezione-straordinaria-scienze-della-comunicazione-1.pdf/@@download/file/Avviso%20selezione%20straordinaria%20SCIENZE%20DELLA%20COMUNICAZIONE.pdf",
+          "source_type": "Official programme extraordinary-selection notice PDF",
+          "cycle": "2026-2027",
+          "accessed_at": "2026-11-11",
+          "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026 with a valid PDF signature (352,704 bytes). The notice explicitly applies to AY 2026/27 and lists 156 remaining places for course 6620 after ordinary selections; it refers back to the 2026/27 call for dates and selection rules and is not evidence of a 2027/28 intake.",
+          "supports": [
+            "program.previous_cycle_places",
+            "program.previous_cycle_application_windows",
+            "program.availability_2027_2028"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://corsi.unibo.it/s/3391/p/it/iscriversi-11/avviso-selezione-straordinaria-scienze-della-comunicazione-1.pdf/@@download/file/Avviso%20selezione%20straordinaria%20SCIENZE%20DELLA%20COMUNICAZIONE.pdf",
+            "content_type": "application/pdf",
+            "content_length_header": 352704,
+            "etag": null,
+            "last_modified": "08/28/2026 07:14:48 +00:00",
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "49",
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": null,
+            "pdf_signature": true,
+            "has_2027_marker": false,
+            "bytes_read": 352704,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
           },
           "browser_check": null
         },
@@ -64119,7 +64238,12 @@
         "status": "REQUIRES_VERIFICATION",
         "source_ids": [
           "SRC-UNIBO-COMMUNICATION-2026",
-          "SRC-UNIBO-COMM-ADMISSION-2026"
+          "SRC-UNIBO-COMM-ADMISSION-2026",
+          "SRC-UNIBO-COMM-CATALOGUE-2026",
+          "SRC-UNIBO-COMM-CALL-2026",
+          "SRC-UNIBO-COMM-EXTRA-2026",
+          "SRC-UNIBO-TUITION-PAGE-2026",
+          "SRC-UNIBO-TUITION-TABLE-2026"
         ],
         "notes": "Official course identity is confirmed for the 2026/2027 catalogue; this value is not promoted to 2027/28 without a named-cycle source."
       },
@@ -64128,7 +64252,12 @@
         "status": "REQUIRES_VERIFICATION",
         "source_ids": [
           "SRC-UNIBO-COMMUNICATION-2026",
-          "SRC-UNIBO-COMM-ADMISSION-2026"
+          "SRC-UNIBO-COMM-ADMISSION-2026",
+          "SRC-UNIBO-COMM-CATALOGUE-2026",
+          "SRC-UNIBO-COMM-CALL-2026",
+          "SRC-UNIBO-COMM-EXTRA-2026",
+          "SRC-UNIBO-TUITION-PAGE-2026",
+          "SRC-UNIBO-TUITION-TABLE-2026"
         ],
         "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
       },
@@ -64136,38 +64265,153 @@
       "university_page_url": "https://italy-it-programs.vercel.app/universities/bologna/",
       "official_program_source_urls": [
         {
+          "id": "SRC-UNIBO-COMM-CATALOGUE-2026",
+          "title": "Scienze della comunicazione – 2026/27 University course catalogue entry",
+          "url": "https://www.unibo.it/it/studiare/lauree-e-lauree-magistrali-a-ciclo-unico/corso/2026/6620",
+          "source_type": "Official University course catalogue entry",
+          "cycle": "2026-2027",
+          "accessed_at": "2026-11-11",
+          "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026. The catalogue labels the entry 2026/27, course code 6620, three years, Bologna, Italian, class L-20 R, local restricted access by TOLC-SU, with 600 places; it does not establish a 2027/28 intake.",
+          "supports": [
+            "program.previous_cycle_course_listing",
+            "program.previous_cycle_places",
+            "program.availability_2027_2028"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.unibo.it/it/studiare/lauree-e-lauree-magistrali-a-ciclo-unico/corso/2026/6620",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": 493837,
+            "etag": null,
+            "last_modified": null,
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "445",
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Scienze della comunicazione — Università di Bologna",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 493837,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-UNIBO-COMM-CALL-2026",
+          "title": "Scienze della comunicazione – 2026/27 admission call",
+          "url": "https://corsi.unibo.it/s/3391/p/it/iscriversi-11/bando-scienze-della-comunicazione-a-a-2025-2026.pdf/@@download/file/BANDO%20SCIENZE%20DELLA%20COMUNICAZIONE%2026_27%20firmato.pdf",
+          "source_type": "Official programme admission notice PDF",
+          "cycle": "2026-2027",
+          "accessed_at": "2026-11-11",
+          "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026 with a valid PDF signature (1,062,159 bytes). The 45-page 2026/27 call sets two ordinary TOLC-SU selections, their dated deadlines and ranking rules, a 26/50 first-round eligibility threshold, no minimum score in later rounds, a 20 EUR University selection contribution, OFA rules, and course tuition framework; these are historical terms only.",
+          "supports": [
+            "program.previous_cycle_admission",
+            "program.previous_cycle_application_windows",
+            "program.previous_cycle_places",
+            "program.previous_cycle_test_scoring",
+            "program.previous_cycle_program_requirements",
+            "program.previous_cycle_application_fee",
+            "program.previous_cycle_tuition"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://corsi.unibo.it/s/3391/p/it/iscriversi-11/bando-scienze-della-comunicazione-a-a-2025-2026.pdf/@@download/file/BANDO%20SCIENZE%20DELLA%20COMUNICAZIONE%2026_27%20firmato.pdf",
+            "content_type": "application/pdf",
+            "content_length_header": 1062159,
+            "etag": null,
+            "last_modified": "02/17/2026 08:44:55 +00:00",
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "1620",
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": null,
+            "pdf_signature": true,
+            "has_2027_marker": false,
+            "bytes_read": 1062159,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-UNIBO-TUITION-TABLE-2026",
+          "title": "University of Bologna – 2026/27 maximum course tuition table",
+          "url": "https://www.unibo.it/it/allegati/Tabellaimportimassimi2627.pdf/@@download/file/Tabella%20importi%20massimi%202026-2027.pdf",
+          "source_type": "Official University fee schedule PDF",
+          "cycle": "2026-2027",
+          "accessed_at": "2026-11-11",
+          "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026. The official table lists 2026/27 programme code 6264 Medicine and Surgery with a maximum comprehensive contribution of €3,315, excluding regional study tax, stamp duty and insurance; the fixed €157.04 fee is specified on the linked fee framework page.",
+          "supports": [
+            "program.previous_cycle_tuition",
+            "program.tuition_2027_2028"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.unibo.it/it/allegati/Tabellaimportimassimi2627.pdf/@@download/file/Tabella%20importi%20massimi%202026-2027.pdf",
+            "content_type": "application/pdf",
+            "content_length_header": "314600",
+            "etag": null,
+            "last_modified": "Fri, 08 May 2026 12:14:12 GMT",
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "355",
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": null,
+            "pdf_signature": true,
+            "has_2027_marker": null,
+            "bytes_read": 314600,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
+          },
+          "browser_check": null
+        },
+        {
           "id": "SRC-UNIBO-COMM-ADMISSION-2026",
           "title": "Scienze della comunicazione – 2026/27 admissions page",
           "url": "https://corsi.unibo.it/laurea/ScienzeComunicazione/iscriversi-al-corso",
           "source_type": "Official programme admission page",
           "cycle": "2026-2027",
-          "accessed_at": "2026-11-10",
-          "evidence": "The official page links an expired 2026/27 call and an additional selection notice, confirming the prior-cycle restricted-entry procedure only.",
+          "accessed_at": "2026-11-11",
+          "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026. The 2026/27 page describes the TOLC-SU format, 20 EUR application contribution, and links the expired annual call and extraordinary-selection notice; it does not announce 2027/28 terms.",
           "supports": [
             "program.previous_cycle_admission",
-            "program.previous_cycle_application_route"
+            "program.previous_cycle_application_route",
+            "program.previous_cycle_test_scoring"
           ],
           "refresh_status": "accessible",
           "url_check": {
             "http_status": 200,
             "effective_url": "https://corsi.unibo.it/laurea/ScienzeComunicazione/iscriversi-al-corso",
-            "content_type": "text/html;charset=utf-8",
-            "content_length_header": null,
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": 367778,
             "etag": null,
             "last_modified": null,
-            "cache_control": "max-age=0, s-maxage=0, must-revalidate",
-            "age": "6369",
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "4926",
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
             "observed_title": "Iscriversi al Corso: requisiti, tempi e modalità — Scienze della comunicazione - Laurea - Bologna",
             "pdf_signature": null,
             "has_2027_marker": false,
-            "bytes_read": 131072,
+            "bytes_read": 367778,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
-            "method": "GET"
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
           },
           "browser_check": null
         },
@@ -64177,8 +64421,8 @@
           "url": "https://corsi.unibo.it/laurea/ScienzeComunicazione",
           "source_type": "Official degree programme profile",
           "cycle": "2026-2027",
-          "accessed_at": "2026-11-10",
-          "evidence": "Lists an Italian-taught three-year Bologna bachelor's degree in Communication Sciences, class L-20 R, with restricted admission.",
+          "accessed_at": "2026-11-11",
+          "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026. The profile describes the Italian-taught Bologna three-year bachelor's degree in Communication Sciences, class L-20 R, with restricted admission; the current course material is labelled 2026/27 and does not announce 2027/28 intake.",
           "supports": [
             "program.name",
             "program.level",
@@ -64190,23 +64434,96 @@
           "url_check": {
             "http_status": 200,
             "effective_url": "https://corsi.unibo.it/laurea/ScienzeComunicazione",
-            "content_type": "text/html;charset=utf-8",
-            "content_length_header": null,
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": 306020,
             "etag": null,
             "last_modified": null,
-            "cache_control": "max-age=0, s-maxage=0, must-revalidate",
-            "age": "655",
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "275",
             "x_vercel_cache": null,
             "x_vercel_id": null,
             "location": null,
             "observed_title": "Scienze della comunicazione - Laurea - Bologna",
             "pdf_signature": null,
             "has_2027_marker": false,
-            "bytes_read": 131072,
+            "bytes_read": 306020,
             "outcome": "accessible",
             "error": null,
-            "checked_at": "2026-11-10",
-            "method": "GET"
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-UNIBO-COMM-EXTRA-2026",
+          "title": "Scienze della comunicazione – 2026/27 extraordinary selection notice",
+          "url": "https://corsi.unibo.it/s/3391/p/it/iscriversi-11/avviso-selezione-straordinaria-scienze-della-comunicazione-1.pdf/@@download/file/Avviso%20selezione%20straordinaria%20SCIENZE%20DELLA%20COMUNICAZIONE.pdf",
+          "source_type": "Official programme extraordinary-selection notice PDF",
+          "cycle": "2026-2027",
+          "accessed_at": "2026-11-11",
+          "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026 with a valid PDF signature (352,704 bytes). The notice explicitly applies to AY 2026/27 and lists 156 remaining places for course 6620 after ordinary selections; it refers back to the 2026/27 call for dates and selection rules and is not evidence of a 2027/28 intake.",
+          "supports": [
+            "program.previous_cycle_places",
+            "program.previous_cycle_application_windows",
+            "program.availability_2027_2028"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://corsi.unibo.it/s/3391/p/it/iscriversi-11/avviso-selezione-straordinaria-scienze-della-comunicazione-1.pdf/@@download/file/Avviso%20selezione%20straordinaria%20SCIENZE%20DELLA%20COMUNICAZIONE.pdf",
+            "content_type": "application/pdf",
+            "content_length_header": 352704,
+            "etag": null,
+            "last_modified": "08/28/2026 07:14:48 +00:00",
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "49",
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": null,
+            "pdf_signature": true,
+            "has_2027_marker": false,
+            "bytes_read": 352704,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
+          },
+          "browser_check": null
+        },
+        {
+          "id": "SRC-UNIBO-TUITION-PAGE-2026",
+          "title": "University of Bologna – 2026/27 tuition framework and exemptions",
+          "url": "https://www.unibo.it/it/studiare/iscrizioni-tasse-e-altre-procedure/lauree-e-lauree-magistrali/tasse-e-contributi",
+          "source_type": "Official University tuition and exemption page",
+          "cycle": "2026-2027",
+          "accessed_at": "2026-11-11",
+          "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026. The 2026/27 fee framework states a fixed €157.04 amount plus an ISEE-dependent course contribution, and points students in restricted-entry courses to their course call for due dates. The separate open-semester fees on the page apply to Italian-taught medicine courses, not this English-taught IMAT programme.",
+          "supports": [
+            "program.previous_cycle_tuition",
+            "program.tuition_2027_2028"
+          ],
+          "refresh_status": "accessible",
+          "url_check": {
+            "http_status": 200,
+            "effective_url": "https://www.unibo.it/it/studiare/iscrizioni-tasse-e-altre-procedure/lauree-e-lauree-magistrali/tasse-e-contributi",
+            "content_type": "text/html; charset=utf-8",
+            "content_length_header": "558106",
+            "etag": null,
+            "last_modified": null,
+            "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+            "age": "185",
+            "x_vercel_cache": null,
+            "x_vercel_id": null,
+            "location": null,
+            "observed_title": "Tasse ed esenzioni: importi e scadenze — Università di Bologna",
+            "pdf_signature": null,
+            "has_2027_marker": false,
+            "bytes_read": 558106,
+            "outcome": "accessible",
+            "error": null,
+            "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
           },
           "browser_check": null
         }
@@ -64216,12 +64533,17 @@
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
           "SRC-UNIBO-COMMUNICATION-2026",
-          "SRC-UNIBO-COMM-ADMISSION-2026"
+          "SRC-UNIBO-COMM-ADMISSION-2026",
+          "SRC-UNIBO-COMM-CATALOGUE-2026",
+          "SRC-UNIBO-COMM-CALL-2026",
+          "SRC-UNIBO-COMM-EXTRA-2026",
+          "SRC-UNIBO-TUITION-PAGE-2026",
+          "SRC-UNIBO-TUITION-TABLE-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued."
+        "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-11. This does not mean discontinued."
       },
       "existing_overall_status": "REQUIRES_VERIFICATION",
-      "existing_last_checked": "2026-11-10",
+      "existing_last_checked": "2026-11-11",
       "fields_needing_review": [
         {
           "field": "level",
@@ -64230,7 +64552,12 @@
           "notes": "Official course identity is confirmed for the 2026/2027 catalogue; this value is not promoted to 2027/28 without a named-cycle source.",
           "source_ids": [
             "SRC-UNIBO-COMMUNICATION-2026",
-            "SRC-UNIBO-COMM-ADMISSION-2026"
+            "SRC-UNIBO-COMM-ADMISSION-2026",
+            "SRC-UNIBO-COMM-CATALOGUE-2026",
+            "SRC-UNIBO-COMM-CALL-2026",
+            "SRC-UNIBO-COMM-EXTRA-2026",
+            "SRC-UNIBO-TUITION-PAGE-2026",
+            "SRC-UNIBO-TUITION-TABLE-2026"
           ]
         },
         {
@@ -64240,7 +64567,12 @@
           "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record.",
           "source_ids": [
             "SRC-UNIBO-COMMUNICATION-2026",
-            "SRC-UNIBO-COMM-ADMISSION-2026"
+            "SRC-UNIBO-COMM-ADMISSION-2026",
+            "SRC-UNIBO-COMM-CATALOGUE-2026",
+            "SRC-UNIBO-COMM-CALL-2026",
+            "SRC-UNIBO-COMM-EXTRA-2026",
+            "SRC-UNIBO-TUITION-PAGE-2026",
+            "SRC-UNIBO-TUITION-TABLE-2026"
           ]
         },
         {
@@ -64250,67 +64582,102 @@
           "notes": "Course subject identity is based on current official profile/catalogue evidence; next-cycle catalogue not yet verified.",
           "source_ids": [
             "SRC-UNIBO-COMMUNICATION-2026",
-            "SRC-UNIBO-COMM-ADMISSION-2026"
+            "SRC-UNIBO-COMM-ADMISSION-2026",
+            "SRC-UNIBO-COMM-CATALOGUE-2026",
+            "SRC-UNIBO-COMM-CALL-2026",
+            "SRC-UNIBO-COMM-EXTRA-2026",
+            "SRC-UNIBO-TUITION-PAGE-2026",
+            "SRC-UNIBO-TUITION-TABLE-2026"
           ]
         },
         {
           "field": "availability_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.",
+          "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-11. This does not mean discontinued.",
           "source_ids": [
             "SRC-UNIBO-COMMUNICATION-2026",
-            "SRC-UNIBO-COMM-ADMISSION-2026"
+            "SRC-UNIBO-COMM-ADMISSION-2026",
+            "SRC-UNIBO-COMM-CATALOGUE-2026",
+            "SRC-UNIBO-COMM-CALL-2026",
+            "SRC-UNIBO-COMM-EXTRA-2026",
+            "SRC-UNIBO-TUITION-PAGE-2026",
+            "SRC-UNIBO-TUITION-TABLE-2026"
           ]
         },
         {
           "field": "facts.application_windows",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.",
+          "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-11; do not reuse 2026/27 dates.",
           "source_ids": [
             "SRC-UNIBO-COMMUNICATION-2026",
-            "SRC-UNIBO-COMM-ADMISSION-2026"
+            "SRC-UNIBO-COMM-ADMISSION-2026",
+            "SRC-UNIBO-COMM-CATALOGUE-2026",
+            "SRC-UNIBO-COMM-CALL-2026",
+            "SRC-UNIBO-COMM-EXTRA-2026",
+            "SRC-UNIBO-TUITION-PAGE-2026",
+            "SRC-UNIBO-TUITION-TABLE-2026"
           ]
         },
         {
           "field": "facts.application_fee_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.",
+          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; check the annual call and application portal.",
           "source_ids": [
             "SRC-UNIBO-COMMUNICATION-2026",
-            "SRC-UNIBO-COMM-ADMISSION-2026"
+            "SRC-UNIBO-COMM-ADMISSION-2026",
+            "SRC-UNIBO-COMM-CATALOGUE-2026",
+            "SRC-UNIBO-COMM-CALL-2026",
+            "SRC-UNIBO-COMM-EXTRA-2026",
+            "SRC-UNIBO-TUITION-PAGE-2026",
+            "SRC-UNIBO-TUITION-TABLE-2026"
           ]
         },
         {
           "field": "facts.program_specific_requirements_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.",
+          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; any 2026/27 criteria are historical only.",
           "source_ids": [
             "SRC-UNIBO-COMMUNICATION-2026",
-            "SRC-UNIBO-COMM-ADMISSION-2026"
+            "SRC-UNIBO-COMM-ADMISSION-2026",
+            "SRC-UNIBO-COMM-CATALOGUE-2026",
+            "SRC-UNIBO-COMM-CALL-2026",
+            "SRC-UNIBO-COMM-EXTRA-2026",
+            "SRC-UNIBO-TUITION-PAGE-2026",
+            "SRC-UNIBO-TUITION-TABLE-2026"
           ]
         },
         {
           "field": "facts.tuition_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.",
+          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; do not carry forward prior-cycle amounts.",
           "source_ids": [
             "SRC-UNIBO-COMMUNICATION-2026",
-            "SRC-UNIBO-COMM-ADMISSION-2026"
+            "SRC-UNIBO-COMM-ADMISSION-2026",
+            "SRC-UNIBO-COMM-CATALOGUE-2026",
+            "SRC-UNIBO-COMM-CALL-2026",
+            "SRC-UNIBO-COMM-EXTRA-2026",
+            "SRC-UNIBO-TUITION-PAGE-2026",
+            "SRC-UNIBO-TUITION-TABLE-2026"
           ]
         },
         {
           "field": "facts.scholarships_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.",
+          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; annual university and regional calls still need checking.",
           "source_ids": [
             "SRC-UNIBO-COMMUNICATION-2026",
-            "SRC-UNIBO-COMM-ADMISSION-2026"
+            "SRC-UNIBO-COMM-ADMISSION-2026",
+            "SRC-UNIBO-COMM-CATALOGUE-2026",
+            "SRC-UNIBO-COMM-CALL-2026",
+            "SRC-UNIBO-COMM-EXTRA-2026",
+            "SRC-UNIBO-TUITION-PAGE-2026",
+            "SRC-UNIBO-TUITION-TABLE-2026"
           ]
         },
         {
@@ -64320,7 +64687,24 @@
           "notes": "The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.",
           "source_ids": [
             "SRC-UNIBO-COMMUNICATION-2026",
-            "SRC-UNIBO-COMM-ADMISSION-2026"
+            "SRC-UNIBO-COMM-ADMISSION-2026",
+            "SRC-UNIBO-COMM-CATALOGUE-2026",
+            "SRC-UNIBO-COMM-CALL-2026",
+            "SRC-UNIBO-COMM-EXTRA-2026",
+            "SRC-UNIBO-TUITION-PAGE-2026",
+            "SRC-UNIBO-TUITION-TABLE-2026"
+          ]
+        },
+        {
+          "field": "facts.last_cycle_scholarships",
+          "status": "UNAVAILABLE",
+          "value": {
+            "course_specific_award": null,
+            "general_support": "University and ER.GO benefits are handled through separate annual calls"
+          },
+          "notes": "The reviewed admission call refers to general benefits but establishes no course-specific scholarship terms; 2027/28 aid remains pending.",
+          "source_ids": [
+            "SRC-UNIBO-COMM-CALL-2026"
           ]
         }
       ],
@@ -64329,60 +64713,90 @@
           "field": "availability_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.",
+          "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-11. This does not mean discontinued.",
           "source_ids": [
             "SRC-UNIBO-COMMUNICATION-2026",
-            "SRC-UNIBO-COMM-ADMISSION-2026"
+            "SRC-UNIBO-COMM-ADMISSION-2026",
+            "SRC-UNIBO-COMM-CATALOGUE-2026",
+            "SRC-UNIBO-COMM-CALL-2026",
+            "SRC-UNIBO-COMM-EXTRA-2026",
+            "SRC-UNIBO-TUITION-PAGE-2026",
+            "SRC-UNIBO-TUITION-TABLE-2026"
           ]
         },
         {
           "field": "facts.application_windows",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.",
+          "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-11; do not reuse 2026/27 dates.",
           "source_ids": [
             "SRC-UNIBO-COMMUNICATION-2026",
-            "SRC-UNIBO-COMM-ADMISSION-2026"
+            "SRC-UNIBO-COMM-ADMISSION-2026",
+            "SRC-UNIBO-COMM-CATALOGUE-2026",
+            "SRC-UNIBO-COMM-CALL-2026",
+            "SRC-UNIBO-COMM-EXTRA-2026",
+            "SRC-UNIBO-TUITION-PAGE-2026",
+            "SRC-UNIBO-TUITION-TABLE-2026"
           ]
         },
         {
           "field": "facts.application_fee_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.",
+          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; check the annual call and application portal.",
           "source_ids": [
             "SRC-UNIBO-COMMUNICATION-2026",
-            "SRC-UNIBO-COMM-ADMISSION-2026"
+            "SRC-UNIBO-COMM-ADMISSION-2026",
+            "SRC-UNIBO-COMM-CATALOGUE-2026",
+            "SRC-UNIBO-COMM-CALL-2026",
+            "SRC-UNIBO-COMM-EXTRA-2026",
+            "SRC-UNIBO-TUITION-PAGE-2026",
+            "SRC-UNIBO-TUITION-TABLE-2026"
           ]
         },
         {
           "field": "facts.program_specific_requirements_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.",
+          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; any 2026/27 criteria are historical only.",
           "source_ids": [
             "SRC-UNIBO-COMMUNICATION-2026",
-            "SRC-UNIBO-COMM-ADMISSION-2026"
+            "SRC-UNIBO-COMM-ADMISSION-2026",
+            "SRC-UNIBO-COMM-CATALOGUE-2026",
+            "SRC-UNIBO-COMM-CALL-2026",
+            "SRC-UNIBO-COMM-EXTRA-2026",
+            "SRC-UNIBO-TUITION-PAGE-2026",
+            "SRC-UNIBO-TUITION-TABLE-2026"
           ]
         },
         {
           "field": "facts.tuition_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.",
+          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; do not carry forward prior-cycle amounts.",
           "source_ids": [
             "SRC-UNIBO-COMMUNICATION-2026",
-            "SRC-UNIBO-COMM-ADMISSION-2026"
+            "SRC-UNIBO-COMM-ADMISSION-2026",
+            "SRC-UNIBO-COMM-CATALOGUE-2026",
+            "SRC-UNIBO-COMM-CALL-2026",
+            "SRC-UNIBO-COMM-EXTRA-2026",
+            "SRC-UNIBO-TUITION-PAGE-2026",
+            "SRC-UNIBO-TUITION-TABLE-2026"
           ]
         },
         {
           "field": "facts.scholarships_2027_2028",
           "status": "NOT_YET_PUBLISHED",
           "value": null,
-          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.",
+          "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; annual university and regional calls still need checking.",
           "source_ids": [
             "SRC-UNIBO-COMMUNICATION-2026",
-            "SRC-UNIBO-COMM-ADMISSION-2026"
+            "SRC-UNIBO-COMM-ADMISSION-2026",
+            "SRC-UNIBO-COMM-CATALOGUE-2026",
+            "SRC-UNIBO-COMM-CALL-2026",
+            "SRC-UNIBO-COMM-EXTRA-2026",
+            "SRC-UNIBO-TUITION-PAGE-2026",
+            "SRC-UNIBO-TUITION-TABLE-2026"
           ]
         },
         {
@@ -64392,14 +64806,24 @@
           "notes": "The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.",
           "source_ids": [
             "SRC-UNIBO-COMMUNICATION-2026",
-            "SRC-UNIBO-COMM-ADMISSION-2026"
+            "SRC-UNIBO-COMM-ADMISSION-2026",
+            "SRC-UNIBO-COMM-CATALOGUE-2026",
+            "SRC-UNIBO-COMM-CALL-2026",
+            "SRC-UNIBO-COMM-EXTRA-2026",
+            "SRC-UNIBO-TUITION-PAGE-2026",
+            "SRC-UNIBO-TUITION-TABLE-2026"
           ]
         }
       ],
       "known_source_conflicts": [],
       "source_ids": [
         "SRC-UNIBO-COMMUNICATION-2026",
-        "SRC-UNIBO-COMM-ADMISSION-2026"
+        "SRC-UNIBO-COMM-ADMISSION-2026",
+        "SRC-UNIBO-COMM-CATALOGUE-2026",
+        "SRC-UNIBO-COMM-CALL-2026",
+        "SRC-UNIBO-COMM-EXTRA-2026",
+        "SRC-UNIBO-TUITION-PAGE-2026",
+        "SRC-UNIBO-TUITION-TABLE-2026"
       ],
       "previous_cycle_tags": {
         "level": "BSc",
@@ -126402,8 +126826,8 @@
       "url": "https://corsi.unibo.it/laurea/ScienzeComunicazione",
       "source_type": "Official degree programme profile",
       "cycle": "2026-2027",
-      "accessed_at": "2026-11-10",
-      "evidence": "Lists an Italian-taught three-year Bologna bachelor's degree in Communication Sciences, class L-20 R, with restricted admission.",
+      "accessed_at": "2026-11-11",
+      "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026. The profile describes the Italian-taught Bologna three-year bachelor's degree in Communication Sciences, class L-20 R, with restricted admission; the current course material is labelled 2026/27 and does not announce 2027/28 intake.",
       "supports": [
         "program.name",
         "program.level",
@@ -126415,23 +126839,23 @@
       "url_check": {
         "http_status": 200,
         "effective_url": "https://corsi.unibo.it/laurea/ScienzeComunicazione",
-        "content_type": "text/html;charset=utf-8",
-        "content_length_header": null,
+        "content_type": "text/html; charset=utf-8",
+        "content_length_header": 306020,
         "etag": null,
         "last_modified": null,
-        "cache_control": "max-age=0, s-maxage=0, must-revalidate",
-        "age": "655",
+        "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+        "age": "275",
         "x_vercel_cache": null,
         "x_vercel_id": null,
         "location": null,
         "observed_title": "Scienze della comunicazione - Laurea - Bologna",
         "pdf_signature": null,
         "has_2027_marker": false,
-        "bytes_read": 131072,
+        "bytes_read": 306020,
         "outcome": "accessible",
         "error": null,
-        "checked_at": "2026-11-10",
-        "method": "GET"
+        "checked_at": "2026-11-11",
+        "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
       },
       "browser_check": null
     },
@@ -127140,33 +127564,149 @@
       "url": "https://corsi.unibo.it/laurea/ScienzeComunicazione/iscriversi-al-corso",
       "source_type": "Official programme admission page",
       "cycle": "2026-2027",
-      "accessed_at": "2026-11-10",
-      "evidence": "The official page links an expired 2026/27 call and an additional selection notice, confirming the prior-cycle restricted-entry procedure only.",
+      "accessed_at": "2026-11-11",
+      "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026. The 2026/27 page describes the TOLC-SU format, 20 EUR application contribution, and links the expired annual call and extraordinary-selection notice; it does not announce 2027/28 terms.",
       "supports": [
         "program.previous_cycle_admission",
-        "program.previous_cycle_application_route"
+        "program.previous_cycle_application_route",
+        "program.previous_cycle_test_scoring"
       ],
       "refresh_status": "accessible",
       "url_check": {
         "http_status": 200,
         "effective_url": "https://corsi.unibo.it/laurea/ScienzeComunicazione/iscriversi-al-corso",
-        "content_type": "text/html;charset=utf-8",
-        "content_length_header": null,
+        "content_type": "text/html; charset=utf-8",
+        "content_length_header": 367778,
         "etag": null,
         "last_modified": null,
-        "cache_control": "max-age=0, s-maxage=0, must-revalidate",
-        "age": "6369",
+        "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+        "age": "4926",
         "x_vercel_cache": null,
         "x_vercel_id": null,
         "location": null,
         "observed_title": "Iscriversi al Corso: requisiti, tempi e modalità — Scienze della comunicazione - Laurea - Bologna",
         "pdf_signature": null,
         "has_2027_marker": false,
-        "bytes_read": 131072,
+        "bytes_read": 367778,
         "outcome": "accessible",
         "error": null,
-        "checked_at": "2026-11-10",
-        "method": "GET"
+        "checked_at": "2026-11-11",
+        "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
+      },
+      "browser_check": null
+    },
+    {
+      "id": "SRC-UNIBO-COMM-CATALOGUE-2026",
+      "title": "Scienze della comunicazione – 2026/27 University course catalogue entry",
+      "url": "https://www.unibo.it/it/studiare/lauree-e-lauree-magistrali-a-ciclo-unico/corso/2026/6620",
+      "source_type": "Official University course catalogue entry",
+      "cycle": "2026-2027",
+      "accessed_at": "2026-11-11",
+      "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026. The catalogue labels the entry 2026/27, course code 6620, three years, Bologna, Italian, class L-20 R, local restricted access by TOLC-SU, with 600 places; it does not establish a 2027/28 intake.",
+      "supports": [
+        "program.previous_cycle_course_listing",
+        "program.previous_cycle_places",
+        "program.availability_2027_2028"
+      ],
+      "refresh_status": "accessible",
+      "url_check": {
+        "http_status": 200,
+        "effective_url": "https://www.unibo.it/it/studiare/lauree-e-lauree-magistrali-a-ciclo-unico/corso/2026/6620",
+        "content_type": "text/html; charset=utf-8",
+        "content_length_header": 493837,
+        "etag": null,
+        "last_modified": null,
+        "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+        "age": "445",
+        "x_vercel_cache": null,
+        "x_vercel_id": null,
+        "location": null,
+        "observed_title": "Scienze della comunicazione — Università di Bologna",
+        "pdf_signature": null,
+        "has_2027_marker": false,
+        "bytes_read": 493837,
+        "outcome": "accessible",
+        "error": null,
+        "checked_at": "2026-11-11",
+        "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
+      },
+      "browser_check": null
+    },
+    {
+      "id": "SRC-UNIBO-COMM-CALL-2026",
+      "title": "Scienze della comunicazione – 2026/27 admission call",
+      "url": "https://corsi.unibo.it/s/3391/p/it/iscriversi-11/bando-scienze-della-comunicazione-a-a-2025-2026.pdf/@@download/file/BANDO%20SCIENZE%20DELLA%20COMUNICAZIONE%2026_27%20firmato.pdf",
+      "source_type": "Official programme admission notice PDF",
+      "cycle": "2026-2027",
+      "accessed_at": "2026-11-11",
+      "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026 with a valid PDF signature (1,062,159 bytes). The 45-page 2026/27 call sets two ordinary TOLC-SU selections, their dated deadlines and ranking rules, a 26/50 first-round eligibility threshold, no minimum score in later rounds, a 20 EUR University selection contribution, OFA rules, and course tuition framework; these are historical terms only.",
+      "supports": [
+        "program.previous_cycle_admission",
+        "program.previous_cycle_application_windows",
+        "program.previous_cycle_places",
+        "program.previous_cycle_test_scoring",
+        "program.previous_cycle_program_requirements",
+        "program.previous_cycle_application_fee",
+        "program.previous_cycle_tuition"
+      ],
+      "refresh_status": "accessible",
+      "url_check": {
+        "http_status": 200,
+        "effective_url": "https://corsi.unibo.it/s/3391/p/it/iscriversi-11/bando-scienze-della-comunicazione-a-a-2025-2026.pdf/@@download/file/BANDO%20SCIENZE%20DELLA%20COMUNICAZIONE%2026_27%20firmato.pdf",
+        "content_type": "application/pdf",
+        "content_length_header": 1062159,
+        "etag": null,
+        "last_modified": "02/17/2026 08:44:55 +00:00",
+        "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+        "age": "1620",
+        "x_vercel_cache": null,
+        "x_vercel_id": null,
+        "location": null,
+        "observed_title": null,
+        "pdf_signature": true,
+        "has_2027_marker": false,
+        "bytes_read": 1062159,
+        "outcome": "accessible",
+        "error": null,
+        "checked_at": "2026-11-11",
+        "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
+      },
+      "browser_check": null
+    },
+    {
+      "id": "SRC-UNIBO-COMM-EXTRA-2026",
+      "title": "Scienze della comunicazione – 2026/27 extraordinary selection notice",
+      "url": "https://corsi.unibo.it/s/3391/p/it/iscriversi-11/avviso-selezione-straordinaria-scienze-della-comunicazione-1.pdf/@@download/file/Avviso%20selezione%20straordinaria%20SCIENZE%20DELLA%20COMUNICAZIONE.pdf",
+      "source_type": "Official programme extraordinary-selection notice PDF",
+      "cycle": "2026-2027",
+      "accessed_at": "2026-11-11",
+      "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026 with a valid PDF signature (352,704 bytes). The notice explicitly applies to AY 2026/27 and lists 156 remaining places for course 6620 after ordinary selections; it refers back to the 2026/27 call for dates and selection rules and is not evidence of a 2027/28 intake.",
+      "supports": [
+        "program.previous_cycle_places",
+        "program.previous_cycle_application_windows",
+        "program.availability_2027_2028"
+      ],
+      "refresh_status": "accessible",
+      "url_check": {
+        "http_status": 200,
+        "effective_url": "https://corsi.unibo.it/s/3391/p/it/iscriversi-11/avviso-selezione-straordinaria-scienze-della-comunicazione-1.pdf/@@download/file/Avviso%20selezione%20straordinaria%20SCIENZE%20DELLA%20COMUNICAZIONE.pdf",
+        "content_type": "application/pdf",
+        "content_length_header": 352704,
+        "etag": null,
+        "last_modified": "08/28/2026 07:14:48 +00:00",
+        "cache_control": "must-revalidate, max-age=0, s-maxage=0",
+        "age": "49",
+        "x_vercel_cache": null,
+        "x_vercel_id": null,
+        "location": null,
+        "observed_title": null,
+        "pdf_signature": true,
+        "has_2027_marker": false,
+        "bytes_read": 352704,
+        "outcome": "accessible",
+        "error": null,
+        "checked_at": "2026-11-11",
+        "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
       },
       "browser_check": null
     },

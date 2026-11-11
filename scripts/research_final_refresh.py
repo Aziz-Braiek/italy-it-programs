@@ -389,8 +389,8 @@ SOURCES = [
         "id": "SRC-UNIBO-COMMUNICATION-2026",
         "university_id": "bologna", "title": "Scienze della comunicazione – Bologna bachelor's profile",
         "url": "https://corsi.unibo.it/laurea/ScienzeComunicazione",
-        "source_type": "Official degree programme profile", "accessed_at": "2026-11-10", "cycle": "2026-2027",
-        "evidence": "Lists an Italian-taught three-year Bologna bachelor's degree in Communication Sciences, class L-20 R, with restricted admission.",
+        "source_type": "Official degree programme profile", "accessed_at": "2026-11-11", "cycle": "2026-2027",
+        "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026. The profile describes the Italian-taught Bologna three-year bachelor's degree in Communication Sciences, class L-20 R, with restricted admission; the current course material is labelled 2026/27 and does not announce 2027/28 intake.",
         "supports": ["program.name", "program.level", "program.language", "program.location", "program.access"],
     },
     {
@@ -549,9 +549,33 @@ SOURCES = [
         "id": "SRC-UNIBO-COMM-ADMISSION-2026",
         "university_id": "bologna", "title": "Scienze della comunicazione – 2026/27 admissions page",
         "url": "https://corsi.unibo.it/laurea/ScienzeComunicazione/iscriversi-al-corso",
-        "source_type": "Official programme admission page", "accessed_at": "2026-11-10", "cycle": "2026-2027",
-        "evidence": "The official page links an expired 2026/27 call and an additional selection notice, confirming the prior-cycle restricted-entry procedure only.",
-        "supports": ["program.previous_cycle_admission", "program.previous_cycle_application_route"],
+        "source_type": "Official programme admission page", "accessed_at": "2026-11-11", "cycle": "2026-2027",
+        "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026. The 2026/27 page describes the TOLC-SU format, 20 EUR application contribution, and links the expired annual call and extraordinary-selection notice; it does not announce 2027/28 terms.",
+        "supports": ["program.previous_cycle_admission", "program.previous_cycle_application_route", "program.previous_cycle_test_scoring"],
+    },
+    {
+        "id": "SRC-UNIBO-COMM-CATALOGUE-2026",
+        "university_id": "bologna", "title": "Scienze della comunicazione – 2026/27 University course catalogue entry",
+        "url": "https://www.unibo.it/it/studiare/lauree-e-lauree-magistrali-a-ciclo-unico/corso/2026/6620",
+        "source_type": "Official University course catalogue entry", "accessed_at": "2026-11-11", "cycle": "2026-2027",
+        "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026. The catalogue labels the entry 2026/27, course code 6620, three years, Bologna, Italian, class L-20 R, local restricted access by TOLC-SU, with 600 places; it does not establish a 2027/28 intake.",
+        "supports": ["program.previous_cycle_course_listing", "program.previous_cycle_places", "program.availability_2027_2028"],
+    },
+    {
+        "id": "SRC-UNIBO-COMM-CALL-2026",
+        "university_id": "bologna", "title": "Scienze della comunicazione – 2026/27 admission call",
+        "url": "https://corsi.unibo.it/s/3391/p/it/iscriversi-11/bando-scienze-della-comunicazione-a-a-2025-2026.pdf/@@download/file/BANDO%20SCIENZE%20DELLA%20COMUNICAZIONE%2026_27%20firmato.pdf",
+        "source_type": "Official programme admission notice PDF", "accessed_at": "2026-11-11", "cycle": "2026-2027",
+        "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026 with a valid PDF signature (1,062,159 bytes). The 45-page 2026/27 call sets two ordinary TOLC-SU selections, their dated deadlines and ranking rules, a 26/50 first-round eligibility threshold, no minimum score in later rounds, a 20 EUR University selection contribution, OFA rules, and course tuition framework; these are historical terms only.",
+        "supports": ["program.previous_cycle_admission", "program.previous_cycle_application_windows", "program.previous_cycle_places", "program.previous_cycle_test_scoring", "program.previous_cycle_program_requirements", "program.previous_cycle_application_fee", "program.previous_cycle_tuition"],
+    },
+    {
+        "id": "SRC-UNIBO-COMM-EXTRA-2026",
+        "university_id": "bologna", "title": "Scienze della comunicazione – 2026/27 extraordinary selection notice",
+        "url": "https://corsi.unibo.it/s/3391/p/it/iscriversi-11/avviso-selezione-straordinaria-scienze-della-comunicazione-1.pdf/@@download/file/Avviso%20selezione%20straordinaria%20SCIENZE%20DELLA%20COMUNICAZIONE.pdf",
+        "source_type": "Official programme extraordinary-selection notice PDF", "accessed_at": "2026-11-11", "cycle": "2026-2027",
+        "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026 with a valid PDF signature (352,704 bytes). The notice explicitly applies to AY 2026/27 and lists 156 remaining places for course 6620 after ordinary selections; it refers back to the 2026/27 call for dates and selection rules and is not evidence of a 2027/28 intake.",
+        "supports": ["program.previous_cycle_places", "program.previous_cycle_application_windows", "program.availability_2027_2028"],
     },
     {
         "id": "SRC-UNIBO-LAW-COURSE-2026",
@@ -1453,6 +1477,12 @@ BATCH23 = {
     "result": "Rechecked Bologna Giurisprudenza against its current degree profile, 2026/27 catalogue entry, admission page, official annual enrollment notice, course regulation, OFA guidance and University tuition references. Confirmed a five-year Italian single-cycle Bologna degree, course code 6827, class LMG/01 R, free access with required TOLC-SU knowledge verification. The 2026/27 notice sets enrollment from 22 July to 24 September without late fee, then late-fee periods through 19 November; TOLC-SU is accepted from 1 January 2025 and should be completed by 48 hours before enrollment. A score below 20/50 assigns an OFA but does not block enrollment; the 2026/27 rule requires the alignment course and final check by 31 March 2028. The test has 50 scored questions in three sections over 100 minutes plus an optional 30-question English self-assessment; TOLC fee is paid to CISIA but no amount is stated in the University notice. The 2026/27 tuition framework is ISEE-progressive with a €157.04 fixed component and the general €2,244 single-cycle maximum-contribution reference; code 6827 is not listed separately among higher-contribution exceptions, so the value is recorded as the standard-category reference only. No separate GPA threshold is stated. No 2027/28 admissions call or terms were found; new intake, dates, TOLC conditions, fee, tuition and aid remain pending. Fresh no-cache GETs returned HTTP 200 for six official pages/PDFs, and both PDF signatures were valid.",
 }
 
+BATCH24 = {
+    "id": "unibo-scienze-comunicazione-2026-27-admissions-review",
+    "status": "partial",
+    "result": "Reviewed Bologna Scienze della comunicazione against the 2026/27 catalogue, current course profile and admissions page, the full 2026/27 selection call, the posted extraordinary-selection notice, and the University 2026/27 tuition schedule. Confirmed course 6620: three-year Italian L-20 R bachelor's degree in Bologna, locally capped at 600 places and admitted by TOLC-SU. The 2026/27 call provided first selection (applications 3 March–29 April 2026, 13:00; ranking 15 May; enrollment 15–22 May), second selection (30 April–13 July, 13:00; ranking 22 July; enrollment 22–28 July), and an extraordinary selection for remaining seats (applications 2–11 September, 13:00; ranking 24 September; enrollment 24–29 September). The extraordinary notice listed 156 remaining seats; this is a vacancy count, not added capacity. The first round required 26/50; later rounds had no minimum admission score, while admitted second/extra-round candidates below 26/50 received an OFA due by 31 March 2028. The TOLC-SU score weights the 30 reading/Italian, 10 prior-study knowledge, and 10 logical reasoning questions equally; the extra English section does not count. The University selection contribution was €20; TOLC payment was separate through CISIA and its price is not specified in the reviewed University notice. 2026/27 tuition was ISEE-progressive with a €157.04 fixed component and a €2,040 maximum comprehensive contribution for first-cycle courses, excluding regional tax, stamp duty, and insurance; code 6620 is not among separately listed higher-contribution programmes. No separate GPA requirement appears in the call. No 2027/28 course listing or admission call was found on the reviewed pages, so availability, dates, places, thresholds, application and tuition fees, requirements, and scholarships for that cycle remain pending. Fresh no-cache GETs returned HTTP 200 for all five official pages/PDFs; both PDF signatures were valid.",
+}
+
 SOURCE_RECHECKS = {
     "SRC-UNIBO-AI-PROFILE-2026": {
         "accessed_at": "2026-11-11",
@@ -1791,6 +1821,67 @@ SOURCE_RECHECKS.update({
             "error": None,
             "checked_at": "2026-11-11",
             "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)",
+        },
+    },
+})
+
+SOURCE_RECHECKS.update({
+    "SRC-UNIBO-COMMUNICATION-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://corsi.unibo.it/laurea/ScienzeComunicazione",
+            "content_type": "text/html; charset=utf-8", "content_length_header": 306020,
+            "etag": None, "last_modified": None, "cache_control": "must-revalidate, max-age=0, s-maxage=0", "age": "275",
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Scienze della comunicazione - Laurea - Bologna", "pdf_signature": None,
+            "has_2027_marker": False, "bytes_read": 306020, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)",
+        },
+    },
+    "SRC-UNIBO-COMM-CATALOGUE-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://www.unibo.it/it/studiare/lauree-e-lauree-magistrali-a-ciclo-unico/corso/2026/6620",
+            "content_type": "text/html; charset=utf-8", "content_length_header": 493837,
+            "etag": None, "last_modified": None, "cache_control": "must-revalidate, max-age=0, s-maxage=0", "age": "445",
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Scienze della comunicazione — Università di Bologna", "pdf_signature": None,
+            "has_2027_marker": False, "bytes_read": 493837, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)",
+        },
+    },
+    "SRC-UNIBO-COMM-ADMISSION-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://corsi.unibo.it/laurea/ScienzeComunicazione/iscriversi-al-corso",
+            "content_type": "text/html; charset=utf-8", "content_length_header": 367778,
+            "etag": None, "last_modified": None, "cache_control": "must-revalidate, max-age=0, s-maxage=0", "age": "4926",
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Iscriversi al Corso: requisiti, tempi e modalità — Scienze della comunicazione - Laurea - Bologna", "pdf_signature": None,
+            "has_2027_marker": False, "bytes_read": 367778, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)",
+        },
+    },
+    "SRC-UNIBO-COMM-CALL-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://corsi.unibo.it/s/3391/p/it/iscriversi-11/bando-scienze-della-comunicazione-a-a-2025-2026.pdf/@@download/file/BANDO%20SCIENZE%20DELLA%20COMUNICAZIONE%2026_27%20firmato.pdf",
+            "content_type": "application/pdf", "content_length_header": 1062159,
+            "etag": None, "last_modified": "02/17/2026 08:44:55 +00:00", "cache_control": "must-revalidate, max-age=0, s-maxage=0", "age": "1620",
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None, "observed_title": None,
+            "pdf_signature": True, "has_2027_marker": False, "bytes_read": 1062159, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)",
+        },
+    },
+    "SRC-UNIBO-COMM-EXTRA-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://corsi.unibo.it/s/3391/p/it/iscriversi-11/avviso-selezione-straordinaria-scienze-della-comunicazione-1.pdf/@@download/file/Avviso%20selezione%20straordinaria%20SCIENZE%20DELLA%20COMUNICAZIONE.pdf",
+            "content_type": "application/pdf", "content_length_header": 352704,
+            "etag": None, "last_modified": "08/28/2026 07:14:48 +00:00", "cache_control": "must-revalidate, max-age=0, s-maxage=0", "age": "49",
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None, "observed_title": None,
+            "pdf_signature": True, "has_2027_marker": False, "bytes_read": 352704, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)",
         },
     },
 })
@@ -2311,7 +2402,7 @@ def apply_legacy_course_reviews(programs: list[dict[str, Any]], fact: Callable[.
         ("legacy-148", "Economia e commercio", "BSc", "Italian", "Economics and Commerce", ["SRC-UNIBO-ECON-COMMERCIO-2026", "SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026"], "Forlì"),
         ("legacy-149", "Medicina e chirurgia", "Single-cycle Master's (LM-41)", "Italian", "Medicine and Surgery", ["SRC-UNIBO-MED-IT-PROFILE-2026", "SRC-UNIBO-MED-IT-ENROL-2026"]),
         ("legacy-150", "Giurisprudenza", "Single-cycle Master's (LMG/01)", "Italian", "Law", ["SRC-UNIBO-LAW-2026", "SRC-UNIBO-GIURISPRUDENZA-REG-2026"]),
-        ("legacy-151", "Scienze della comunicazione", "BSc", "Italian", "Communication Sciences", ["SRC-UNIBO-COMMUNICATION-2026", "SRC-UNIBO-COMM-ADMISSION-2026"]),
+        ("legacy-151", "Scienze della comunicazione", "BSc", "Italian", "Communication Sciences", ["SRC-UNIBO-COMMUNICATION-2026", "SRC-UNIBO-COMM-ADMISSION-2026", "SRC-UNIBO-COMM-CATALOGUE-2026", "SRC-UNIBO-COMM-CALL-2026", "SRC-UNIBO-COMM-EXTRA-2026", "SRC-UNIBO-TUITION-PAGE-2026", "SRC-UNIBO-TUITION-TABLE-2026"]),
         ("legacy-152", "Ingegneria informatica", "MSc", "Italian and English", "Computer Engineering", ["SRC-UNIBO-ING-INF-MSC-2026", "SRC-UNIBO-ING-INF-ADMISSIONS-2026"]),
     ]
     for item in bologna:
@@ -2728,6 +2819,78 @@ def apply_legacy_course_reviews(programs: list[dict[str, Any]], fact: Callable[.
         "No dedicated Giurisprudenza award is stated in the reviewed course admissions sources; general University and ER.GO aid is handled through separate annual calls.",
     )
     law["last_checked"] = "2026-11-11"
+
+    communication = by_id["legacy-151"]
+    comm_profile = "SRC-UNIBO-COMMUNICATION-2026"
+    comm_admissions = "SRC-UNIBO-COMM-ADMISSION-2026"
+    comm_catalogue = "SRC-UNIBO-COMM-CATALOGUE-2026"
+    comm_call = "SRC-UNIBO-COMM-CALL-2026"
+    comm_extra = "SRC-UNIBO-COMM-EXTRA-2026"
+    comm_tuition_page = "SRC-UNIBO-TUITION-PAGE-2026"
+    comm_tuition_table = "SRC-UNIBO-TUITION-TABLE-2026"
+    comm_sources = [comm_profile, comm_admissions, comm_catalogue, comm_call, comm_extra, comm_tuition_page, comm_tuition_table]
+    prior(communication, official_name="Scienze della comunicazione", level="BSc", language="Italian",
+          field="Communication Sciences", source_ids=comm_sources, city="Bologna",
+          cycle="2026-2027", checked_at="2026-11-11")
+    communication["facts"]["previous_cycle_course_listing"] = _fact(
+        {"academic_year":"2026/27", "official_name":"Scienze della comunicazione", "course_code":"6620", "degree_class":"L-20 R", "level":"Bachelor's degree", "duration_years":3, "language":"Italian", "campus":"Bologna", "access":"Locally restricted admission by TOLC-SU", "places":600},
+        "CONFIRMED", [comm_catalogue, comm_profile],
+        "These are the 2026/27 catalogue facts only; they do not establish that a 2027/28 cohort will be offered.",
+    )
+    communication["facts"]["previous_cycle_places"] = _fact(
+        {"academic_year":"2026/27", "total_places":600, "first_selection_places":350, "second_selection":{"italian_eu_and_equivalent_base_places":230, "non_eu_resident_abroad_places":20, "plus_unfilled_places_from_previous_selection":True}, "extraordinary_selection_remaining_places":156, "extraordinary_places_are_additional_to_the_600_total":False},
+        "CONFIRMED", [comm_catalogue, comm_call, comm_extra],
+        "The 156 seats are reported by the extraordinary notice as places still available after ordinary selections; they are not additional capacity. The call splits the initial 600-seat allocation across the first and second selections and contingents.",
+    )
+    communication["facts"]["previous_cycle_application_windows"] = _fact(
+        [
+            {"selection":"First ordinary", "tolc_su_valid_from":"2025-01-01", "tolc_su_deadline":"2026-04-28", "application_open":"2026-03-03", "application_deadline":"2026-04-29T13:00", "ranking":"2026-05-15", "enrollment_window":["2026-05-15","2026-05-22"], "first_recovery_interest_window":["2026-05-15","2026-05-22"], "subsequent_recovery_publications":["2026-05-26","2026-06-04"], "final_recovery_enrollment_deadline":"2026-06-10"},
+            {"selection":"Second ordinary", "tolc_su_valid_from":"2025-01-01", "tolc_su_deadline":"2026-07-10", "application_open":"2026-04-30", "application_deadline":"2026-07-13T13:00", "ranking":"2026-07-22", "enrollment_window":["2026-07-22","2026-07-28"], "recovery_interest_window":["2026-07-22","2026-07-28"], "recovery_publication":"2026-07-31", "recovery_enrollment_window":["2026-07-31","2026-08-25"]},
+            {"selection":"Extraordinary", "tolc_su_valid_from":"2025-01-01", "tolc_su_deadline":"2026-09-10", "application_open":"2026-09-02", "application_deadline":"2026-09-11T13:00", "ranking":"2026-09-24", "enrollment_window":["2026-09-24","2026-09-29"], "recovery_interest_window":["2026-09-24","2026-09-29"], "recovery_publication":"2026-10-01", "recovery_enrollment_window":["2026-10-01","2026-10-07"]},
+        ],
+        "CONFIRMED", [comm_call, comm_extra],
+        "All windows are historical AY 2026/27 dates from the expired call and its extraordinary notice. The extraordinary selection was conditional on unfilled seats. Do not reuse these dates for 2027/28.",
+    )
+    communication["facts"]["previous_cycle_admission_requirements"] = _fact(
+        {"school_qualification":"Upper-secondary diploma or recognized equivalent; the call also allowed candidates completing the diploma by 31 December 2026 to apply", "entrance_test":"TOLC-SU required", "first_selection_minimum_score":26, "first_selection_score_denominator":50, "later_selection_minimum_score":None, "later_selection_minimum_score_required":False, "separate_gpa_requirement":False, "below_26_after_admission_in_second_or_extra_selection":"OFA assigned", "international_non_eu_residing_abroad":"Foreign qualification eligibility, Italian-language requirement and Universitaly pre-enrolment apply as specified in the annual call"},
+        "CONFIRMED", [comm_call, comm_admissions, comm_extra],
+        "Historical 2026/27 call rules only. Selection rounds had different score thresholds; the first-round threshold must not be generalized to the other rounds or to 2027/28.",
+    )
+    communication["facts"]["previous_cycle_test_scoring"] = _fact(
+        {"test":"TOLC-SU", "scored_questions":50, "duration_minutes":100, "sections":[{"name":"Reading comprehension and Italian-language knowledge","questions":30,"weight":1},{"name":"Knowledge and skills acquired in studies","questions":10,"weight":1},{"name":"Logical reasoning","questions":10,"weight":1}], "additional_english_section":{"questions":30,"minutes":15,"counts_toward_ranking":False}, "scoring":{"correct":1,"incorrect":-0.25,"unanswered":0}, "ranking_order":"Descending weighted TOLC-SU score", "tie_breakers":["Higher reading-comprehension/Italian score","Younger candidate"]},
+        "CONFIRMED", [comm_admissions, comm_call],
+        "Format and selection scoring describe the 2026/27 TOLC-SU admission process only.",
+    )
+    communication["facts"]["previous_cycle_additional_learning_requirement"] = _fact(
+        {"trigger":"Admission in second or extraordinary selection with TOLC-SU below 26/50", "deadline":"2028-03-31", "consequence_if_unfulfilled":"Enrollment in the first year as a repeat student"},
+        "CONFIRMED", [comm_call],
+        "The first selection instead required 26/50 for eligibility and did not permit enrollment below that threshold. The OFA rule applies to admitted 2026/27 candidates in later selections.",
+    )
+    communication["facts"]["previous_cycle_application_route"] = _fact(
+        {"test_registration":"Register for TOLC-SU through CISIA; TOLC result normally transmitted to the University", "university_selection_application":"Studenti Online; University selection contribution paid through PagoPA", "international_route":"Universitaly pre-enrolment and additional qualification/Italian-language steps where applicable"},
+        "CONFIRMED", [comm_admissions, comm_call],
+        "Historical 2026/27 procedure. Recheck platforms and steps against the 2027/28 call.",
+    )
+    communication["facts"]["previous_cycle_application_fee"] = _fact(
+        {"university_selection_contribution_eur":20, "payment_method":"PagoPA", "non_refundable":True, "covers_next_ordinary_and_possible_extraordinary_selection":True, "separate_cisia_tolc_fee_amount_eur":None},
+        "CONFIRMED", [comm_admissions, comm_call],
+        "The €20 is the 2026/27 University selection contribution, not the CISIA TOLC registration fee. The call directs TOLC payment to CISIA but does not state its amount.",
+    )
+    communication["facts"]["previous_cycle_gpa_requirement"] = _fact(
+        {"separate_school_gpa_threshold_stated":False}, "CONFIRMED", [comm_call],
+        "No separate GPA cutoff appears in the 2026/27 call; access uses the specified TOLC-SU selection thresholds and ranking rules.",
+    )
+    communication["facts"]["previous_cycle_tuition"] = _fact(
+        {"academic_year":"2026/27", "fixed_component_eur":157.04, "isee_progressive_variable_component":True, "maximum_comprehensive_contribution_first_cycle_eur":2040, "course_code_6620_separately_listed_as_higher_contribution":False, "maximum_excludes":["Regional study tax","Stamp duty","Insurance"]},
+        "CONFIRMED", [comm_call, comm_tuition_page, comm_tuition_table],
+        "The official 2026/27 schedule lists a €2,040 maximum comprehensive contribution for first-cycle courses and separately lists the higher-rate exceptions; course 6620 is not among them. This is a maximum contribution reference before the excluded charges, not a promised net tuition bill. No 2027/28 amount is inferred.",
+    )
+    communication["facts"]["last_cycle_scholarships"] = _fact(
+        {"course_specific_award":None, "general_support":"University and ER.GO benefits are handled through separate annual calls"},
+        "UNAVAILABLE", [comm_call],
+        "The reviewed admission call refers to general benefits but establishes no course-specific scholarship terms; 2027/28 aid remains pending.",
+    )
+    communication["last_checked"] = "2026-11-11"
 
     business_analytics = by_id["legacy-022"]
     business_analytics_sources = ["SRC-UNIBO-BA-CURRICULUM-2026", "SRC-UNIBO-BA-CURRICULUM-PARENT-2026", "SRC-UNIBO-BA-BBS-2026"]
