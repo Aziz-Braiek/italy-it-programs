@@ -2,7 +2,7 @@
 
 Prepared 2026-11-11 for academic year 2027/28. Review each record against official university pages, calls, portals, regulations, and PDFs.
 
-Snapshot inventory: 34 universities, 209 program records, 591 source records.
+Snapshot inventory: 34 universities, 209 program records, 600 source records.
 
 ## Review rules
 
@@ -2179,7 +2179,8 @@ Official university-level sources:
 - [ ] `SRC-UNIBO-CLEF-ENROLMENT-2026` — [Economics and Finance (CLEF) – current enrolment and admissions page](https://corsi.unibo.it/1cycle/EconomicsFinance/how-to-enrol) (cycle: general; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-UNIBO-CLEF-NOTICE-BOARD-2026` — [Economics and Finance (CLEF) – current notice board](https://corsi.unibo.it/1cycle/EconomicsFinance/notice-board) (cycle: general; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-UNIBO-CLEF-EXTRA-INTAKE-2026` — [CLEF – 2026/27 extra-selection notice](https://corsi.unibo.it/s/3394/p/en/enrolling-clef/notice-of-extra-selection-process_etac-clef-2026-2027.pdf/@@download/file/Notice%20of%20extra%20selection%20process_ETAC-CLEF%202026-2027.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
-- [ ] `SRC-UNIBO-MED-EN-PROFILE-2026` — [Medicine and Surgery – English-taught single-cycle course profile](https://corsi.unibo.it/singlecycle/MedicineAndSurgery/overview) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIBO-MED-EN-PROFILE-2026` — [Medicine and Surgery – English-taught single-cycle course profile](https://corsi.unibo.it/singlecycle/MedicineAndSurgery/overview) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-UNIBO-MED-EN-CATALOGUE-2026` — [Medicine and Surgery – 2026/27 University course catalogue entry (code 6264)](https://www.unibo.it/en/study/first-and-single-cycle-degree/programme/2026/6264) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-UNIBO-MED-IT-PROFILE-2026` — [Medicina e chirurgia – Italian-taught single-cycle course profile](https://corsi.unibo.it/magistralecu/MedicinaChirurgia) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-UNIBO-BBS-AI-MFG-2027` — [Global MBA in AI and Manufacturing – 2027/28 admissions schedule](https://www.bbs.unibo.it/en/global-mba/ai-and-manufacturing-2/) (cycle: 2027-2028; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-UNIBO-BBS-GREEN-MGMT-2026` — [Business Management – Green Management and Sustainable Businesses – BBS course and current application information](https://www.bbs.unibo.it/en/master-fulltime/business-management-green-management-and-sustainable-businesses/) (cycle: general; checked in prior snapshot: 2026-11-11)
@@ -2193,7 +2194,15 @@ Official university-level sources:
 - [ ] `SRC-UNIBO-BA-BBS-2026` — [Business Analytics and Data Science – BBS professional-master classification](https://www.bbs.unibo.it/en/professional-masters-programs/) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-UNIBO-GIURISPRUDENZA-REG-2026` — [Giurisprudenza – 2026/27 Bologna degree regulation](https://corsi.unibo.it/magistralecu/Giurisprudenza-Bologna/il-corso/all-e-regolamento-parte-normativa-26-27.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-UNIBO-AI-MFG-2026-27-MASTER` — [AI and Manufacturing – Global MBA official course entry](https://www.unibo.it/en/study/phd-professional-masters-specialisation-schools-and-other-programmes/professional-master/2026-2027/global-master-in-business-administration-4) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
-- [ ] `SRC-UNIBO-MED-EN-2026-CALL` — [Medicine and Surgery – English course admission information](https://corsi.unibo.it/singlecycle/MedicineAndSurgery) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-UNIBO-MED-EN-2026-CALL` — [Medicine and Surgery – English course admission information](https://corsi.unibo.it/singlecycle/MedicineAndSurgery) (cycle: general; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-UNIBO-MED-EN-ENROLMENT-2026` — [Medicine and Surgery – English programme current enrolment page](https://corsi.unibo.it/singlecycle/MedicineAndSurgery/how-to-enrol) (cycle: general; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-UNIBO-MED-EN-IT-CALL-2026` — [Medicine and Surgery in English – 2026/27 official Italian admission call](https://corsi.unibo.it/s/3317/p/en/enrolling-1/bando-medicine-and-surgery-2024-2025-1.pdf/@@download/file/BANDO%20MEDICINE%20AND%20SURGERY%20%2B%20VETERINARY%20MEDICINE%202026-2027.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-UNIBO-MED-EN-CALL-SUMMARY-2026` — [Medicine and Surgery in English – 2026/27 call English summary](https://corsi.unibo.it/s/3317/p/en/enrolling-1/abstract-2024-2025-3.pdf/@@download/file/ABSTRACT%202026-2027%20%283%29.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-UNIBO-MED-EN-LANGUAGE-ANNEX-2026` — [Medicine and Surgery – 2026/27 call English-certificate list](https://corsi.unibo.it/s/3317/p/en/enrolling-1/allegato-2-certificazioni-linguistiche.pdf/@@download/file/Allegato%202%20-%20Certificazioni%20linguistiche.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-MUR-IMAT-2026-DECREE` — [MUR – 2026/27 decree for English-language Medicine and IMAT (DM 1005/2026)](https://www.mur.gov.it/it/atti-e-normativa/decreto-ministeriale-n-1005-del-06-08-2026) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-UNIBO-MED-OPEN-SEMESTER-2026` — [University of Bologna – 2026/27 open-semester procedures for Italian-language Medicine](https://www.unibo.it/en/study/enrolment-fees-and-other-procedures/enrolment-in-combined-bachelors-and-masters-degree-programmes-in-medicine-and-surgery-dentistry-and-orthodontics%2C-veterinary-medicine) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-UNIBO-TUITION-PAGE-2026` — [University of Bologna – 2026/27 tuition framework and exemptions](https://www.unibo.it/it/studiare/iscrizioni-tasse-e-altre-procedure/lauree-e-lauree-magistrali/tasse-e-contributi) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-UNIBO-TUITION-TABLE-2026` — [University of Bologna – 2026/27 maximum course tuition table](https://www.unibo.it/it/allegati/Tabellaimportimassimi2627.pdf/@@download/file/Tabella%20importi%20massimi%202026-2027.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026` — [Economia e commercio – official Forlì campus course page](https://corsi.unibo.it/laurea/EconomiaCommercio/sedute-di-laurea) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-UNIBO-REGULAR-COURSES-2026` — [University of Bologna regular degree course catalogue](https://corsi.unibo.it/) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-UNIBO-CLABE-PROGRAM-CODE-2026` — [Business and Economics – official course code and programme profile](https://corsi.unibo.it/1cycle/CLaBE/prospects) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
@@ -2359,23 +2368,33 @@ Currently missing or unpublished fields:
   - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; annual university and regional calls still need checking.
   - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
-#### Medicine and Surgery (English-taught single-cycle degree) — `legacy-027`
+#### Medicine and Surgery — `legacy-027`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-027/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
-- [ ] `SRC-UNIBO-MED-EN-2026-CALL` — [Medicine and Surgery – English course admission information](https://corsi.unibo.it/singlecycle/MedicineAndSurgery) (cycle: 2026-2027; prior check: 2026-11-10)
-- [ ] `SRC-UNIBO-MED-EN-PROFILE-2026` — [Medicine and Surgery – English-taught single-cycle course profile](https://corsi.unibo.it/singlecycle/MedicineAndSurgery/overview) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-UNIBO-MED-EN-2026-CALL` — [Medicine and Surgery – English course admission information](https://corsi.unibo.it/singlecycle/MedicineAndSurgery) (cycle: general; prior check: 2026-11-11)
+- [ ] `SRC-UNIBO-MED-EN-CATALOGUE-2026` — [Medicine and Surgery – 2026/27 University course catalogue entry (code 6264)](https://www.unibo.it/en/study/first-and-single-cycle-degree/programme/2026/6264) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-UNIBO-MED-EN-PROFILE-2026` — [Medicine and Surgery – English-taught single-cycle course profile](https://corsi.unibo.it/singlecycle/MedicineAndSurgery/overview) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-UNIBO-MED-EN-ENROLMENT-2026` — [Medicine and Surgery – English programme current enrolment page](https://corsi.unibo.it/singlecycle/MedicineAndSurgery/how-to-enrol) (cycle: general; prior check: 2026-11-11)
+- [ ] `SRC-UNIBO-TUITION-TABLE-2026` — [University of Bologna – 2026/27 maximum course tuition table](https://www.unibo.it/it/allegati/Tabellaimportimassimi2627.pdf/@@download/file/Tabella%20importi%20massimi%202026-2027.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-MUR-IMAT-2026-DECREE` — [MUR – 2026/27 decree for English-language Medicine and IMAT (DM 1005/2026)](https://www.mur.gov.it/it/atti-e-normativa/decreto-ministeriale-n-1005-del-06-08-2026) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-UNIBO-MED-EN-CALL-SUMMARY-2026` — [Medicine and Surgery in English – 2026/27 call English summary](https://corsi.unibo.it/s/3317/p/en/enrolling-1/abstract-2024-2025-3.pdf/@@download/file/ABSTRACT%202026-2027%20%283%29.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-UNIBO-MED-EN-IT-CALL-2026` — [Medicine and Surgery in English – 2026/27 official Italian admission call](https://corsi.unibo.it/s/3317/p/en/enrolling-1/bando-medicine-and-surgery-2024-2025-1.pdf/@@download/file/BANDO%20MEDICINE%20AND%20SURGERY%20%2B%20VETERINARY%20MEDICINE%202026-2027.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-UNIBO-MED-OPEN-SEMESTER-2026` — [University of Bologna – 2026/27 open-semester procedures for Italian-language Medicine](https://www.unibo.it/en/study/enrolment-fees-and-other-procedures/enrolment-in-combined-bachelors-and-masters-degree-programmes-in-medicine-and-surgery-dentistry-and-orthodontics%2C-veterinary-medicine) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-UNIBO-MED-EN-LANGUAGE-ANNEX-2026` — [Medicine and Surgery – 2026/27 call English-certificate list](https://corsi.unibo.it/s/3317/p/en/enrolling-1/allegato-2-certificazioni-linguistiche.pdf/@@download/file/Allegato%202%20-%20Certificazioni%20linguistiche.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-UNIBO-TUITION-PAGE-2026` — [University of Bologna – 2026/27 tuition framework and exemptions](https://www.unibo.it/it/studiare/iscrizioni-tasse-e-altre-procedure/lauree-e-lauree-magistrali/tasse-e-contributi) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
-  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
-  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
-  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
-  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts.
-  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 on the English programme profile or enrolment page checked 11 November 2026: the current page links only the expired 2026/27 IMAT call. The named 2026/27 course catalogue and national test decree do not confirm a 2027/28 intake or seat count. This does not mean discontinued.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-11; do not reuse 2026/27 dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; check the annual call and application portal.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; any 2026/27 criteria are historical only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; do not carry forward prior-cycle amounts.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; annual university and regional calls still need checking.
   - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
+  - `facts.last_cycle_scholarships` — `UNAVAILABLE` — The reviewed programme-specific 2026/27 admissions page does not state a dedicated programme scholarship award or amount; general University and ER.GO aid is handled through separate annual calls.
 
 #### Business Management — Green Management and Sustainable Businesses (BBS professional-master track) — `legacy-028`
 
@@ -5221,7 +5240,7 @@ Currently missing or unpublished fields:
 
 ## Source URL recheck results
 
-Checked 576 unique URLs representing 591 source records on 2026-11-11. Unique URL outcomes: {'accessible': 557, 'redirected': 13, 'inconclusive': 5, 'broken': 1}. HTTP 404/410 outcomes are listed as broken; TLS, timeout, and remote-disconnect cases remain inconclusive.
+Checked 585 unique URLs representing 600 source records on 2026-11-11. Unique URL outcomes: {'accessible': 566, 'redirected': 13, 'inconclusive': 5, 'broken': 1}. HTTP 404/410 outcomes are listed as broken; TLS, timeout, and remote-disconnect cases remain inconclusive.
 
 ### Redirected sources
 

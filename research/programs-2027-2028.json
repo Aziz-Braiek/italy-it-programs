@@ -5300,13 +5300,22 @@
     "university_id": "bologna",
     "university": "Università di Bologna",
     "city": "Bologna",
-    "program": "Medicine and Surgery (English-taught single-cycle degree)",
+    "program": "Medicine and Surgery",
     "level": {
       "value": "Single-cycle Master's (LM-41)",
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
         "SRC-UNIBO-MED-EN-PROFILE-2026",
-        "SRC-UNIBO-MED-EN-2026-CALL"
+        "SRC-UNIBO-MED-EN-CATALOGUE-2026",
+        "SRC-UNIBO-MED-EN-2026-CALL",
+        "SRC-UNIBO-MED-EN-ENROLMENT-2026",
+        "SRC-UNIBO-MED-EN-IT-CALL-2026",
+        "SRC-UNIBO-MED-EN-CALL-SUMMARY-2026",
+        "SRC-UNIBO-MED-EN-LANGUAGE-ANNEX-2026",
+        "SRC-MUR-IMAT-2026-DECREE",
+        "SRC-UNIBO-MED-OPEN-SEMESTER-2026",
+        "SRC-UNIBO-TUITION-PAGE-2026",
+        "SRC-UNIBO-TUITION-TABLE-2026"
       ],
       "notes": "Official course identity is confirmed for the 2026/2027 catalogue; this value is not promoted to 2027/28 without a named-cycle source."
     },
@@ -5315,7 +5324,16 @@
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
         "SRC-UNIBO-MED-EN-PROFILE-2026",
-        "SRC-UNIBO-MED-EN-2026-CALL"
+        "SRC-UNIBO-MED-EN-CATALOGUE-2026",
+        "SRC-UNIBO-MED-EN-2026-CALL",
+        "SRC-UNIBO-MED-EN-ENROLMENT-2026",
+        "SRC-UNIBO-MED-EN-IT-CALL-2026",
+        "SRC-UNIBO-MED-EN-CALL-SUMMARY-2026",
+        "SRC-UNIBO-MED-EN-LANGUAGE-ANNEX-2026",
+        "SRC-MUR-IMAT-2026-DECREE",
+        "SRC-UNIBO-MED-OPEN-SEMESTER-2026",
+        "SRC-UNIBO-TUITION-PAGE-2026",
+        "SRC-UNIBO-TUITION-TABLE-2026"
       ],
       "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
     },
@@ -5324,7 +5342,16 @@
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
         "SRC-UNIBO-MED-EN-PROFILE-2026",
-        "SRC-UNIBO-MED-EN-2026-CALL"
+        "SRC-UNIBO-MED-EN-CATALOGUE-2026",
+        "SRC-UNIBO-MED-EN-2026-CALL",
+        "SRC-UNIBO-MED-EN-ENROLMENT-2026",
+        "SRC-UNIBO-MED-EN-IT-CALL-2026",
+        "SRC-UNIBO-MED-EN-CALL-SUMMARY-2026",
+        "SRC-UNIBO-MED-EN-LANGUAGE-ANNEX-2026",
+        "SRC-MUR-IMAT-2026-DECREE",
+        "SRC-UNIBO-MED-OPEN-SEMESTER-2026",
+        "SRC-UNIBO-TUITION-PAGE-2026",
+        "SRC-UNIBO-TUITION-TABLE-2026"
       ],
       "notes": "Course subject identity is based on current official profile/catalogue evidence; next-cycle catalogue not yet verified."
     },
@@ -5333,85 +5360,346 @@
       "status": "NOT_YET_PUBLISHED",
       "source_ids": [
         "SRC-UNIBO-MED-EN-PROFILE-2026",
-        "SRC-UNIBO-MED-EN-2026-CALL"
+        "SRC-UNIBO-MED-EN-CATALOGUE-2026",
+        "SRC-UNIBO-MED-EN-2026-CALL",
+        "SRC-UNIBO-MED-EN-ENROLMENT-2026",
+        "SRC-UNIBO-MED-EN-IT-CALL-2026",
+        "SRC-UNIBO-MED-EN-CALL-SUMMARY-2026",
+        "SRC-UNIBO-MED-EN-LANGUAGE-ANNEX-2026",
+        "SRC-MUR-IMAT-2026-DECREE",
+        "SRC-UNIBO-MED-OPEN-SEMESTER-2026",
+        "SRC-UNIBO-TUITION-PAGE-2026",
+        "SRC-UNIBO-TUITION-TABLE-2026"
       ],
-      "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued."
+      "notes": "Not yet announced for 2027/28 on the English programme profile or enrolment page checked 11 November 2026: the current page links only the expired 2026/27 IMAT call. The named 2026/27 course catalogue and national test decree do not confirm a 2027/28 intake or seat count. This does not mean discontinued."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
     "facts": {
       "previous_cycle_course_listing": {
         "value": {
-          "academic_year": "2026/2027",
-          "official_name": "Medicine and Surgery (English-taught single-cycle degree)",
+          "academic_year": "2026/27",
+          "official_name": "Medicine and Surgery",
+          "course_code": "6264",
+          "degree_class": "LM-41 R",
           "level": "Single-cycle Master's (LM-41)",
-          "language": "English"
+          "duration_years": 6,
+          "language": "English",
+          "campus": "Bologna",
+          "access": "National restricted access",
+          "places": 160
         },
         "status": "CONFIRMED",
         "source_ids": [
           "SRC-UNIBO-MED-EN-PROFILE-2026",
-          "SRC-UNIBO-MED-EN-2026-CALL"
+          "SRC-UNIBO-MED-EN-CATALOGUE-2026"
         ],
-        "notes": "Official course profile/catalogue evidence is cycle-scoped to 2026/2027 and does not establish 2027/28 first-year admission."
+        "notes": "Cycle-specific course identity and seat count are for 2026/27 only; they do not establish 2027/28 availability or capacity."
       },
       "application_windows": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
           "SRC-UNIBO-MED-EN-PROFILE-2026",
-          "SRC-UNIBO-MED-EN-2026-CALL"
+          "SRC-UNIBO-MED-EN-CATALOGUE-2026",
+          "SRC-UNIBO-MED-EN-2026-CALL",
+          "SRC-UNIBO-MED-EN-ENROLMENT-2026",
+          "SRC-UNIBO-MED-EN-IT-CALL-2026",
+          "SRC-UNIBO-MED-EN-CALL-SUMMARY-2026",
+          "SRC-UNIBO-MED-EN-LANGUAGE-ANNEX-2026",
+          "SRC-MUR-IMAT-2026-DECREE",
+          "SRC-UNIBO-MED-OPEN-SEMESTER-2026",
+          "SRC-UNIBO-TUITION-PAGE-2026",
+          "SRC-UNIBO-TUITION-TABLE-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates."
+        "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-11; do not reuse 2026/27 dates."
       },
       "application_fee_2027_2028": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
           "SRC-UNIBO-MED-EN-PROFILE-2026",
-          "SRC-UNIBO-MED-EN-2026-CALL"
+          "SRC-UNIBO-MED-EN-CATALOGUE-2026",
+          "SRC-UNIBO-MED-EN-2026-CALL",
+          "SRC-UNIBO-MED-EN-ENROLMENT-2026",
+          "SRC-UNIBO-MED-EN-IT-CALL-2026",
+          "SRC-UNIBO-MED-EN-CALL-SUMMARY-2026",
+          "SRC-UNIBO-MED-EN-LANGUAGE-ANNEX-2026",
+          "SRC-MUR-IMAT-2026-DECREE",
+          "SRC-UNIBO-MED-OPEN-SEMESTER-2026",
+          "SRC-UNIBO-TUITION-PAGE-2026",
+          "SRC-UNIBO-TUITION-TABLE-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal."
+        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; check the annual call and application portal."
       },
       "program_specific_requirements_2027_2028": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
           "SRC-UNIBO-MED-EN-PROFILE-2026",
-          "SRC-UNIBO-MED-EN-2026-CALL"
+          "SRC-UNIBO-MED-EN-CATALOGUE-2026",
+          "SRC-UNIBO-MED-EN-2026-CALL",
+          "SRC-UNIBO-MED-EN-ENROLMENT-2026",
+          "SRC-UNIBO-MED-EN-IT-CALL-2026",
+          "SRC-UNIBO-MED-EN-CALL-SUMMARY-2026",
+          "SRC-UNIBO-MED-EN-LANGUAGE-ANNEX-2026",
+          "SRC-MUR-IMAT-2026-DECREE",
+          "SRC-UNIBO-MED-OPEN-SEMESTER-2026",
+          "SRC-UNIBO-TUITION-PAGE-2026",
+          "SRC-UNIBO-TUITION-TABLE-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only."
+        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; any 2026/27 criteria are historical only."
       },
       "tuition_2027_2028": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
           "SRC-UNIBO-MED-EN-PROFILE-2026",
-          "SRC-UNIBO-MED-EN-2026-CALL"
+          "SRC-UNIBO-MED-EN-CATALOGUE-2026",
+          "SRC-UNIBO-MED-EN-2026-CALL",
+          "SRC-UNIBO-MED-EN-ENROLMENT-2026",
+          "SRC-UNIBO-MED-EN-IT-CALL-2026",
+          "SRC-UNIBO-MED-EN-CALL-SUMMARY-2026",
+          "SRC-UNIBO-MED-EN-LANGUAGE-ANNEX-2026",
+          "SRC-MUR-IMAT-2026-DECREE",
+          "SRC-UNIBO-MED-OPEN-SEMESTER-2026",
+          "SRC-UNIBO-TUITION-PAGE-2026",
+          "SRC-UNIBO-TUITION-TABLE-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts."
+        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; do not carry forward prior-cycle amounts."
       },
       "scholarships_2027_2028": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
           "SRC-UNIBO-MED-EN-PROFILE-2026",
-          "SRC-UNIBO-MED-EN-2026-CALL"
+          "SRC-UNIBO-MED-EN-CATALOGUE-2026",
+          "SRC-UNIBO-MED-EN-2026-CALL",
+          "SRC-UNIBO-MED-EN-ENROLMENT-2026",
+          "SRC-UNIBO-MED-EN-IT-CALL-2026",
+          "SRC-UNIBO-MED-EN-CALL-SUMMARY-2026",
+          "SRC-UNIBO-MED-EN-LANGUAGE-ANNEX-2026",
+          "SRC-MUR-IMAT-2026-DECREE",
+          "SRC-UNIBO-MED-OPEN-SEMESTER-2026",
+          "SRC-UNIBO-TUITION-PAGE-2026",
+          "SRC-UNIBO-TUITION-TABLE-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking."
+        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; annual university and regional calls still need checking."
       },
       "acceptance_rate": {
         "value": null,
         "status": "UNAVAILABLE",
         "source_ids": [
           "SRC-UNIBO-MED-EN-PROFILE-2026",
-          "SRC-UNIBO-MED-EN-2026-CALL"
+          "SRC-UNIBO-MED-EN-CATALOGUE-2026",
+          "SRC-UNIBO-MED-EN-2026-CALL",
+          "SRC-UNIBO-MED-EN-ENROLMENT-2026",
+          "SRC-UNIBO-MED-EN-IT-CALL-2026",
+          "SRC-UNIBO-MED-EN-CALL-SUMMARY-2026",
+          "SRC-UNIBO-MED-EN-LANGUAGE-ANNEX-2026",
+          "SRC-MUR-IMAT-2026-DECREE",
+          "SRC-UNIBO-MED-OPEN-SEMESTER-2026",
+          "SRC-UNIBO-TUITION-PAGE-2026",
+          "SRC-UNIBO-TUITION-TABLE-2026"
         ],
         "notes": "The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred."
+      },
+      "previous_cycle_application_windows": {
+        "value": [
+          {
+            "route": "IMAT admission selection",
+            "registration_portal": "Universitaly",
+            "registration_open": "2026-08-26",
+            "registration_deadline": "2026-09-09 15:00 Italian time",
+            "test_date": "2026-09-29",
+            "anonymous_score": "2026-10-08",
+            "answers_and_scores": "2026-10-19",
+            "ranking_and_enrolment_start": "2026-10-26",
+            "additional_non_eu_steps": {
+              "open": "2026-09-10",
+              "close": "2026-10-05 13:00 Italian time",
+              "portal": "Studenti Online"
+            }
+          }
+        ],
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-MED-EN-IT-CALL-2026",
+          "SRC-UNIBO-MED-EN-CALL-SUMMARY-2026"
+        ],
+        "notes": "All dates are from the expired 2026/27 IMAT call and must not be reused as 2027/28 dates. Non-EU candidates have additional quota-document and university-portal steps; timing and ranking route depend on EU-equivalent status or residence abroad."
+      },
+      "previous_cycle_admission_requirements": {
+        "value": {
+          "school_qualification": "Five-year upper-secondary diploma or suitable equivalent; foreign qualifications must meet Italian university-access rules, generally after at least twelve years of schooling",
+          "entrance_test": "International Medical Admissions Test (IMAT), administered under the 2026/27 national procedure",
+          "selection": "National ranking for Italian/EU/EU-equivalent candidates; local University of Bologna ranking for non-EU citizens residing abroad",
+          "non_eu_equivalent_status": "Non-EU citizens meeting the official equivalence criteria compete in the EU-equivalent quota; non-EU citizens resident abroad compete in the reserved local quota",
+          "program_language": "English"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-MED-EN-IT-CALL-2026",
+          "SRC-UNIBO-MED-EN-CALL-SUMMARY-2026"
+        ],
+        "notes": "Historical 2026/27 requirements only. The Italian call is the legally authoritative version; non-EU categories must be checked against the official eligibility rules and the 2027/28 call."
+      },
+      "previous_cycle_english_requirement": {
+        "value": {
+          "certificate_required_for_all_test_applicants": false,
+          "listed_certificate_level": "B2 or higher",
+          "examples": {
+            "IELTS": "5.5–6.5 at B2",
+            "TOEFL": "87–109 at B2",
+            "Cambridge": "First (FCE) at B2",
+            "Trinity": "ISE II at B2"
+          },
+          "schooling_alternative": "At least one academic year at a school whose instruction was in English is treated as certificate possession",
+          "role": "Optional certificate declaration in 2026/27 test registration; certificate possession is a tie-break criterion"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-MED-EN-IT-CALL-2026",
+          "SRC-UNIBO-MED-EN-LANGUAGE-ANNEX-2026"
+        ],
+        "notes": "The 2026/27 call does not state that every applicant must submit a language certificate to sit IMAT; it records possession as optional and uses it for tie-breaking. Do not turn the examples into a 2027/28 requirement."
+      },
+      "previous_cycle_test_scoring": {
+        "value": {
+          "test": "IMAT",
+          "question_count": 60,
+          "duration_minutes": 100,
+          "maximum_score": 90,
+          "correct_answer_points": 1.5,
+          "incorrect_answer_points": -0.4,
+          "omitted_answer_points": 0,
+          "minimum_score_eu_or_equivalent": 20,
+          "minimum_score_non_eu_resident_abroad": ">0; a completely blank test is excluded"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-MED-EN-IT-CALL-2026",
+          "SRC-UNIBO-MED-EN-CALL-SUMMARY-2026",
+          "SRC-MUR-IMAT-2026-DECREE"
+        ],
+        "notes": "Scoring and thresholds belong to the 2026/27 admission call only; annual ministerial rules may change."
+      },
+      "previous_cycle_gpa_requirement": {
+        "value": "No separate GPA threshold is stated in the 2026/27 call; admission ranking is based on the IMAT score and the applicable quota.",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-MED-EN-IT-CALL-2026"
+        ],
+        "notes": "Historical 2026/27 call only; future cycle eligibility and ranking rules must be rechecked."
+      },
+      "previous_cycle_available_places": {
+        "value": {
+          "total": 160,
+          "italian_eu_and_non_eu_equivalent_national_quota": 140,
+          "non_eu_resident_abroad_local_quota": 20
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-MED-EN-CATALOGUE-2026",
+          "SRC-UNIBO-MED-EN-IT-CALL-2026",
+          "SRC-MUR-IMAT-2026-DECREE"
+        ],
+        "notes": "These are 2026/27 places for course code 6264; no 2027/28 seat count is published in the reviewed material."
+      },
+      "previous_cycle_application_route": {
+        "value": {
+          "test_registration_portal": "https://www.universitaly.it/",
+          "test_date_location": "29 September 2026; Bologna or an approved overseas test venue",
+          "additional_non_eu_steps": "Studenti Online from 10 September to 5 October 2026; documents and quota status depend on applicant category",
+          "visa_pre_enrolment": "Universitaly for non-EU applicants residing abroad where applicable"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-MED-EN-IT-CALL-2026",
+          "SRC-UNIBO-MED-EN-CALL-SUMMARY-2026",
+          "SRC-UNIBO-MED-EN-ENROLMENT-2026"
+        ],
+        "notes": "This is the 2026/27 application route. The exact 2027/28 route and portals must be verified from the next annual call."
+      },
+      "application_fee_2026_2027": {
+        "value": {
+          "amount_eur": null,
+          "test_payment_required": true,
+          "amount_stated_in_call": false
+        },
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-UNIBO-MED-EN-IT-CALL-2026",
+          "SRC-UNIBO-MED-EN-CALL-SUMMARY-2026"
+        ],
+        "notes": "The 2026/27 call requires payment of an admission-test contribution but does not state its amount in the reviewed official call documents. No fee is inferred from another year or from the portal payment flow."
+      },
+      "previous_cycle_additional_learning_requirement": {
+        "value": {
+          "condition": "An admitted candidate with a 2026/27 IMAT score below 40 may receive an OFA",
+          "deadline": "2027-03-31",
+          "consequence": "Candidates who do not fulfil the OFA by the deadline are enrolled as repeat first-year students"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-MED-EN-IT-CALL-2026"
+        ],
+        "notes": "This condition and deadline apply to the 2026/27 admitted cohort only, not to new 2027/28 entrants."
+      },
+      "previous_cycle_tuition": {
+        "value": {
+          "academic_year": "2026/27",
+          "fixed_fee_eur": 157.04,
+          "maximum_comprehensive_course_contribution_eur": 3315,
+          "maximum_before_other_charges_eur": 3472.04,
+          "additional_charges_excluded_from_3315": [
+            "Regional study tax",
+            "Stamp duty",
+            "Insurance"
+          ],
+          "variable_component": "Depends on ISEE/family financial situation; exemptions and reductions may apply"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-TUITION-PAGE-2026",
+          "SRC-UNIBO-TUITION-TABLE-2026"
+        ],
+        "notes": "Historical 2026/27 tuition only. The €3,315 programme maximum is code 6264 and excludes regional tax, stamp duty and insurance; do not treat this as 2027/28 tuition."
+      },
+      "previous_cycle_admissions_route_scope": {
+        "value": {
+          "English_taught_course": "IMAT national admission test under the 2026/27 English-course call",
+          "Italian_taught_medicine": "Separate open-semester procedure described by University of Bologna for Italian-language courses"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-MED-EN-IT-CALL-2026",
+          "SRC-MUR-IMAT-2026-DECREE",
+          "SRC-UNIBO-MED-OPEN-SEMESTER-2026"
+        ],
+        "notes": "The distinction prevents applying the 2026/27 Italian-language open-semester procedure to the English-taught course. It does not predict the 2027/28 rules."
+      },
+      "last_cycle_scholarships": {
+        "value": null,
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-UNIBO-MED-EN-ENROLMENT-2026"
+        ],
+        "notes": "The reviewed programme-specific 2026/27 admissions page does not state a dedicated programme scholarship award or amount; general University and ER.GO aid is handled through separate annual calls."
       }
     },
     "source_ids": [
       "SRC-UNIBO-MED-EN-PROFILE-2026",
-      "SRC-UNIBO-MED-EN-2026-CALL"
+      "SRC-UNIBO-MED-EN-CATALOGUE-2026",
+      "SRC-UNIBO-MED-EN-2026-CALL",
+      "SRC-UNIBO-MED-EN-ENROLMENT-2026",
+      "SRC-UNIBO-MED-EN-IT-CALL-2026",
+      "SRC-UNIBO-MED-EN-CALL-SUMMARY-2026",
+      "SRC-UNIBO-MED-EN-LANGUAGE-ANNEX-2026",
+      "SRC-MUR-IMAT-2026-DECREE",
+      "SRC-UNIBO-MED-OPEN-SEMESTER-2026",
+      "SRC-UNIBO-TUITION-PAGE-2026",
+      "SRC-UNIBO-TUITION-TABLE-2026"
     ],
     "previous_tracker_tags": {
       "level": "BSc",
@@ -5426,7 +5714,7 @@
       "cycle": "2026-2027",
       "label": "Official course identity checked for 2026/2027; 2027/28 first-year intake and terms remain unconfirmed"
     },
-    "last_checked": "2026-11-10"
+    "last_checked": "2026-11-11"
   },
   {
     "id": "legacy-028",
