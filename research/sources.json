@@ -14731,23 +14731,23 @@
   {
     "id": "SRC-SAPIENZA-AEROSPACE-BSC-2026",
     "university_id": "sapienza",
-    "title": "Aerospace Engineering bachelor’s course profile 2026/27",
-    "url": "https://corsidilaurea.uniroma1.it/it/corso/2023/30837/cds",
+    "title": "Ingegneria Aerospaziale course profile 2026/27",
+    "url": "https://corsidilaurea.uniroma1.it/it/course/33474",
     "source_type": "Official course catalogue",
-    "accessed_at": "2026-11-10",
+    "accessed_at": "2026-11-11",
     "cycle": "2026-2027",
-    "evidence": "The 2026/27 catalogue identifies Ingegneria Aerospaziale as a three-year L-9 bachelor’s degree in Rome, taught in Italian, with an entry test.",
+    "evidence": "The current official profile identifies course 33474 / test code 14616 as a three-year L-9 Italian bachelor's degree in Rome with admission-test access. Its current-student notices include a 2027/28 laboratory-assignment notice for third-year students; that notice is not a 2027/28 first-year admission announcement.",
     "supports": [
       "program.previous_cycle_course_listing",
       "program.previous_cycle_language"
     ],
     "url_check": {
       "http_status": 200,
-      "effective_url": "https://corsidilaurea.uniroma1.it/it/corso/2023/30837/cds",
+      "effective_url": "https://corsidilaurea.uniroma1.it/it/course/33474",
       "content_type": "text/html; charset=utf-8",
       "content_length_header": null,
-      "etag": "W/\"1794349054-1\"",
-      "last_modified": "Tue, 10 Nov 2026 22:17:34 GMT",
+      "etag": "W/\"1794389844-1\"",
+      "last_modified": "Wed, 11 Nov 2026 09:37:24 GMT",
       "cache_control": "public, max-age=0",
       "age": "0",
       "x_vercel_cache": null,
@@ -14759,8 +14759,8 @@
       "bytes_read": 21810,
       "outcome": "accessible",
       "error": null,
-      "checked_at": "2026-11-10",
-      "method": "GET"
+      "checked_at": "2026-11-11",
+      "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
     }
   },
   {
@@ -14943,7 +14943,7 @@
     "title": "Tuition, payment and foreign-income guidance 2026/27",
     "url": "https://www.uniroma1.it/en/pagina/tuition-fees-and-benefits",
     "source_type": "Official university page",
-    "accessed_at": "2026-11-10",
+    "accessed_at": "2026-11-11",
     "cycle": "2026-2027",
     "evidence": "The 2026/27 tuition page describes ISEE-based reductions, three installments of 30%, 35% and 35%, the ordinary fee framework and foreign-income rules. These are annual rules and the amount depends on course area and individual circumstances.",
     "supports": [
@@ -14956,8 +14956,8 @@
       "effective_url": "https://www.uniroma1.it/en/pagina/tuition-fees-and-benefits",
       "content_type": "text/html; charset=utf-8",
       "content_length_header": null,
-      "etag": "\"1794345751-1\"",
-      "last_modified": "Tue, 10 Nov 2026 21:22:31 GMT",
+      "etag": "\"1794393528-1\"",
+      "last_modified": "Wed, 11 Nov 2026 10:38:48 GMT",
       "cache_control": "public, max-age=86400",
       "age": null,
       "x_vercel_cache": null,
@@ -14966,11 +14966,11 @@
       "observed_title": "Tuition Fees and Benefits | Sapienza Università di Roma",
       "pdf_signature": null,
       "has_2027_marker": false,
-      "bytes_read": 49253,
+      "bytes_read": 49893,
       "outcome": "accessible",
       "error": null,
-      "checked_at": "2026-11-10",
-      "method": "GET"
+      "checked_at": "2026-11-11",
+      "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
     }
   },
   {
@@ -14979,9 +14979,9 @@
     "title": "Standard registration-fee amounts for 2026/27",
     "url": "https://www.uniroma1.it/en/node/29732",
     "source_type": "Official university page",
-    "accessed_at": "2026-11-10",
+    "accessed_at": "2026-11-11",
     "cycle": "2026-2027",
-    "evidence": "The listed standard total for the Information Engineering, Computer Science and Statistics faculty group is €2,924 in three installments. For students declaring foreign income, the page lists fixed contribution bands of €300, €700 or €1,500 by country group. These categories and amounts should not be combined into an individual quote without checking the student’s course, residence, income and exemptions.",
+    "evidence": "Art. 38 lists a €2,924 second-contribution-bracket standard for second-level two-year, single-cycle and unified Master's degrees in named faculties, including Civil and Industrial Engineering; this is not a quoted fee for the three-year Aerospace BSc. The page also lists foreign-income contribution bands of €300, €700 or €1,500 by country group. Check the course, residence, income and exemptions before quoting a student's amount.",
     "supports": [
       "university.previous_cycle_tuition",
       "program.previous_cycle_tuition",
@@ -14992,8 +14992,8 @@
       "effective_url": "https://www.uniroma1.it/en/node/29732",
       "content_type": "text/html; charset=utf-8",
       "content_length_header": "47296",
-      "etag": "\"1794349054-1\"",
-      "last_modified": "Tue, 10 Nov 2026 22:17:34 GMT",
+      "etag": "\"1794393487-1\"",
+      "last_modified": "Wed, 11 Nov 2026 10:38:07 GMT",
       "cache_control": "public, max-age=86400",
       "age": null,
       "x_vercel_cache": null,
@@ -15005,8 +15005,8 @@
       "bytes_read": 47296,
       "outcome": "accessible",
       "error": null,
-      "checked_at": "2026-11-10",
-      "method": "GET"
+      "checked_at": "2026-11-11",
+      "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
     }
   },
   {
@@ -15050,7 +15050,7 @@
     "title": "Wanted the Best merit scholarship call 2026/27",
     "url": "https://www.uniroma1.it/en/pagina/scholarships-meritorious-students-italian-and-international-universities",
     "source_type": "Official scholarship call",
-    "accessed_at": "2026-11-10",
+    "accessed_at": "2026-11-11",
     "cycle": "2026-2027",
     "evidence": "The 2026/27 call offered 85 two-year awards of €3,000 gross per year to students enrolling in a Sapienza Master’s after earning their first degree at another Italian university with a grade from 105/110 to 110/110 cum laude. Deadline: 30 October 2026. It is not a general award for applicants whose prior degree is from abroad.",
     "supports": [
@@ -15062,8 +15062,8 @@
       "effective_url": "https://www.uniroma1.it/en/pagina/scholarships-meritorious-students-italian-and-international-universities",
       "content_type": "text/html; charset=utf-8",
       "content_length_header": "40281",
-      "etag": "\"1794349055-1\"",
-      "last_modified": "Tue, 10 Nov 2026 22:17:35 GMT",
+      "etag": "\"1794393654-1\"",
+      "last_modified": "Wed, 11 Nov 2026 10:40:54 GMT",
       "cache_control": "public, max-age=86400",
       "age": null,
       "x_vercel_cache": null,
@@ -15075,8 +15075,8 @@
       "bytes_read": 40281,
       "outcome": "accessible",
       "error": null,
-      "checked_at": "2026-11-10",
-      "method": "GET"
+      "checked_at": "2026-11-11",
+      "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
     }
   },
   {
@@ -15085,7 +15085,7 @@
     "title": "DiSCo Lazio Right to Education call 2026/27",
     "url": "https://laziodisco.it/on-line-il-bando-diritto-allo-studio-2026-2027/?lang=en",
     "source_type": "Official regional scholarship call",
-    "accessed_at": "2026-11-10",
+    "accessed_at": "2026-11-11",
     "cycle": "2026-2027",
     "evidence": "The regional competitive call covered students at Lazio universities, including Sapienza, and offered scholarships, housing, mobility grants and other benefits subject to the annual economic and merit rules. The application deadline was extended to 23 July 2026 at 20:00; corrections in the second phase closed 11 August. It is prior-cycle regional aid, not a guaranteed Sapienza or program award.",
     "supports": [
@@ -15111,8 +15111,8 @@
       "bytes_read": 119124,
       "outcome": "accessible",
       "error": null,
-      "checked_at": "2026-11-10",
-      "method": "GET"
+      "checked_at": "2026-11-11",
+      "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
     }
   },
   {
@@ -22418,6 +22418,152 @@
       "pdf_signature": null,
       "has_2027_marker": false,
       "bytes_read": 70538,
+      "outcome": "accessible",
+      "error": null,
+      "checked_at": "2026-11-11",
+      "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
+    }
+  },
+  {
+    "id": "SRC-SAPIENZA-AEROSPACE-ADMISSION-CALL-2026",
+    "university_id": "sapienza",
+    "title": "Ingegneria Aerospaziale – AY 2026/27 TOLC-I admission call (Bando 14616)",
+    "url": "https://www.uniroma1.it/sites/default/files/field_file_allegati/14616_bando_ici.pdf",
+    "source_type": "Official Sapienza admission call PDF",
+    "accessed_at": "2026-11-11",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 call for course 33474 (test code 14616, L-9) sets 250 total places: 60 EU/equivalent in selection one; 110 plus unused seats from selection one in selection two; 72 plus unused seats from selection two for EU/equivalent in selection three; and 8 non-EU visa-applicant seats in selection three, one reserved for Marco Polo. It gives three TOLC-I selection windows, test format/scoring, cutoffs, qualification and language requirements, €10 per Sapienza selection, a separate €35 CISIA test fee, first-round €200 pre-enrolment contribution credited against tuition, and 2026/27 enrollment dates. All details are historical and do not establish the 2027/28 call.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_application_windows",
+      "program.previous_cycle_available_places",
+      "program.previous_cycle_admission_requirements",
+      "program.previous_cycle_entrance_test",
+      "program.previous_cycle_application_fee",
+      "program.previous_cycle_tuition"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://www.uniroma1.it/sites/default/files/field_file_allegati/14616_bando_ici.pdf",
+      "content_type": "application/pdf",
+      "content_length_header": "608590",
+      "etag": "\"9494e-64e61bacdf9a7\"",
+      "last_modified": "Wed, 01 Apr 2026 08:18:33 GMT",
+      "cache_control": null,
+      "age": null,
+      "x_vercel_cache": null,
+      "x_vercel_id": null,
+      "location": null,
+      "observed_title": null,
+      "pdf_signature": true,
+      "has_2027_marker": false,
+      "bytes_read": 608590,
+      "outcome": "accessible",
+      "error": null,
+      "checked_at": "2026-11-11",
+      "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
+    }
+  },
+  {
+    "id": "SRC-SAPIENZA-AEROSPACE-ICI-CALLS-2026",
+    "university_id": "sapienza",
+    "title": "Civil and Industrial Engineering – AY 2026/27 restricted-access call listing",
+    "url": "https://ici.web.uniroma1.it/it/bandi-di-accesso-ai-corsi-di-studio-numero-programmato-aa-202627",
+    "source_type": "Official Sapienza faculty admissions page",
+    "accessed_at": "2026-11-11",
+    "cycle": "2026-2027",
+    "evidence": "The Faculty of Civil and Industrial Engineering's 2026/27 call index links Bando 14616 for course 33474 Ingegneria Aerospaziale and identifies the L-9 call inventory. It is prior-cycle evidence only.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_admission_route"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://ici.web.uniroma1.it/it/bandi-di-accesso-ai-corsi-di-studio-numero-programmato-aa-202627",
+      "content_type": "text/html; charset=UTF-8",
+      "content_length_header": "78290",
+      "etag": "\"1794388025\"",
+      "last_modified": "Wed, 11 Nov 2026 09:07:05 GMT",
+      "cache_control": "public, max-age=10800",
+      "age": null,
+      "x_vercel_cache": null,
+      "x_vercel_id": null,
+      "location": null,
+      "observed_title": "BANDI DI ACCESSO AI CORSI DI STUDIO A NUMERO PROGRAMMATO A.A. 2026/27 | Facoltà Ingegneria Civile e Industriale - ICI",
+      "pdf_signature": null,
+      "has_2027_marker": false,
+      "bytes_read": 78290,
+      "outcome": "accessible",
+      "error": null,
+      "checked_at": "2026-11-11",
+      "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
+    }
+  },
+  {
+    "id": "SRC-SAPIENZA-ENGINEERING-ADMISSIONS-2026",
+    "university_id": "sapienza",
+    "title": "Engineering restricted-access admissions and 2026/27 selection results",
+    "url": "https://www.uniroma1.it/it/pagina/corsi-ad-accesso-programmato-delle-facolta-di-ingegneria",
+    "source_type": "Official Sapienza admissions and results page",
+    "accessed_at": "2026-11-11",
+    "cycle": "2026-2027",
+    "evidence": "The current page lists the Sapienza engineering restricted-access procedures and results for AY 2026/27. For Aerospace Engineering 33474, it says that all places in the DR 688/2026 call were assigned after the second scrolling, so a third list would not be published. This is a closed prior-cycle result, not evidence about 2027/28 availability.",
+    "supports": [
+      "program.previous_cycle_admission_windows",
+      "program.previous_cycle_available_places",
+      "program.previous_cycle_outcome"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://www.uniroma1.it/it/pagina/corsi-ad-accesso-programmato-delle-facolta-di-ingegneria",
+      "content_type": "text/html; charset=utf-8",
+      "content_length_header": null,
+      "etag": "\"1794393473-1\"",
+      "last_modified": "Wed, 11 Nov 2026 10:37:53 GMT",
+      "cache_control": "public, max-age=86400",
+      "age": null,
+      "x_vercel_cache": null,
+      "x_vercel_id": null,
+      "location": null,
+      "observed_title": "Corsi ad accesso programmato delle Facoltà di Ingegneria | Sapienza Università di Roma",
+      "pdf_signature": null,
+      "has_2027_marker": false,
+      "bytes_read": 100126,
+      "outcome": "accessible",
+      "error": null,
+      "checked_at": "2026-11-11",
+      "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)"
+    }
+  },
+  {
+    "id": "SRC-SAPIENZA-SCHOLARSHIPS-2026",
+    "university_id": "sapienza",
+    "title": "Sapienza scholarships and student benefits inventory",
+    "url": "https://www.uniroma1.it/en/pagina/scholarships",
+    "source_type": "Official university scholarship inventory",
+    "accessed_at": "2026-11-11",
+    "cycle": "general",
+    "evidence": "The official scholarship inventory describes regional DiSCo Lazio benefits and other competitive or eligibility-limited schemes. The reviewed page did not publish a 2027/28 incoming-student scholarship call for this Bachelor's course; annual calls and individual eligibility must be checked when issued.",
+    "supports": [
+      "program.previous_cycle_scholarships",
+      "program.scholarships_2027_2028"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://www.uniroma1.it/en/pagina/scholarships",
+      "content_type": "text/html; charset=utf-8",
+      "content_length_header": null,
+      "etag": "\"1794393528-1\"",
+      "last_modified": "Wed, 11 Nov 2026 10:38:48 GMT",
+      "cache_control": "public, max-age=86400",
+      "age": null,
+      "x_vercel_cache": null,
+      "x_vercel_id": null,
+      "location": null,
+      "observed_title": "Scholarships | Sapienza Università di Roma",
+      "pdf_signature": null,
+      "has_2027_marker": false,
+      "bytes_read": 50499,
       "outcome": "accessible",
       "error": null,
       "checked_at": "2026-11-11",

@@ -2,7 +2,7 @@
 
 Prepared 2026-11-11 for academic year 2027/28. Review each record against official university pages, calls, portals, regulations, and PDFs.
 
-Snapshot inventory: 34 universities, 209 program records, 619 source records.
+Snapshot inventory: 34 universities, 209 program records, 623 source records.
 
 ## Review rules
 
@@ -1023,21 +1023,25 @@ Official university-level sources:
 - [ ] `SRC-SAPIENZA-ENGCSAI-COURSE-2026` — [Engineering in Computer Science and Artificial Intelligence course regulations 2026/27](https://corsidilaurea.uniroma1.it/en/timeview/2026/33515/organization) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-SAPIENZA-AERONAUTICAL-2026` — [Aeronautical Engineering course profile 2026/27](https://corsidilaurea.uniroma1.it/it/course/33483) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-SAPIENZA-MEDICINE-2026` — [Medicine and Surgery course catalogue entries 2026/27](https://corsidilaurea.uniroma1.it/it/solr-offerta-formativa-t?search_api_views_fulltext=Medicina+e+chirurgia) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
-- [ ] `SRC-SAPIENZA-AEROSPACE-BSC-2026` — [Aerospace Engineering bachelor’s course profile 2026/27](https://corsidilaurea.uniroma1.it/it/corso/2023/30837/cds) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-SAPIENZA-AEROSPACE-BSC-2026` — [Ingegneria Aerospaziale course profile 2026/27](https://corsidilaurea.uniroma1.it/it/course/33474) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-SAPIENZA-POLITICAL-SCIENCE-2026` — [Political Science and International Relations bachelor’s profile 2026/27](https://corsidilaurea.uniroma1.it/it/course/33618) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-SAPIENZA-PSYCHOLOGY-2026` — [Psychology and Health bachelor’s profile 2026/27](https://corsidilaurea.uniroma1.it/it/course/33570) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-SAPIENZA-ECONOMICS-FINANCE-2026` — [Economics and Finance bachelor’s listing 2026/27](https://corsidilaurea.uniroma1.it/en/timeview/2026/34177/organization) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-SAPIENZA-FINANCE-INSURANCE-2026` — [Finance and Insurance Master’s profile 2026/27](https://www.corsidilaurea.uniroma1.it/en/course/33439) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-SAPIENZA-INGINFO-ARCHIVE-2024` — [Ingegneria Informatica historical course archive](https://corsidilaurea.uniroma1.it/sites/default/files/archive/2024/30430.pdf) (cycle: 2024-2025; checked in prior snapshot: 2026-11-10)
-- [ ] `SRC-SAPIENZA-FEES-2026` — [Tuition, payment and foreign-income guidance 2026/27](https://www.uniroma1.it/en/pagina/tuition-fees-and-benefits) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
-- [ ] `SRC-SAPIENZA-FEE-TABLE-2026` — [Standard registration-fee amounts for 2026/27](https://www.uniroma1.it/en/node/29732) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-SAPIENZA-FEES-2026` — [Tuition, payment and foreign-income guidance 2026/27](https://www.uniroma1.it/en/pagina/tuition-fees-and-benefits) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-SAPIENZA-FEE-TABLE-2026` — [Standard registration-fee amounts for 2026/27](https://www.uniroma1.it/en/node/29732) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-SAPIENZA-APPLICATION-FEE-2026` — [MoveIN pre-selection application fee 2026/27](https://www.uniroma1.it/it/pagina/international-admissions-2026-2027) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
-- [ ] `SRC-SAPIENZA-WANTED-BEST-2026` — [Wanted the Best merit scholarship call 2026/27](https://www.uniroma1.it/en/pagina/scholarships-meritorious-students-italian-and-international-universities) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
-- [ ] `SRC-SAPIENZA-DISCO-LAZIO-2026` — [DiSCo Lazio Right to Education call 2026/27](https://laziodisco.it/on-line-il-bando-diritto-allo-studio-2026-2027/?lang=en) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-SAPIENZA-WANTED-BEST-2026` — [Wanted the Best merit scholarship call 2026/27](https://www.uniroma1.it/en/pagina/scholarships-meritorious-students-italian-and-international-universities) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-SAPIENZA-DISCO-LAZIO-2026` — [DiSCo Lazio Right to Education call 2026/27](https://laziodisco.it/on-line-il-bando-diritto-allo-studio-2026-2027/?lang=en) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-SAPIENZA-MEDICINE-VARIANTS-2026` — [Medicine and Surgery course variants – AY 2026/27 catalogue](https://corsidilaurea.uniroma1.it/it/solr-offerta-formativa-t?search_api_views_fulltext=Medicina+e+chirurgia) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-SAPIENZA-MEDICINE-F-PROFILE-2026` — [Medicine and Surgery F – AY 2026/27 course profile](https://corsidilaurea.uniroma1.it/en/course/33454) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-SAPIENZA-MEDICINE-F-CALL-2026` — [Medicine and Surgery F – AY 2026/27 admission call](https://www.corsidilaurea.uniroma1.it/sites/default/files/offertaformativa/documenti_ufficiali/187/33454_i.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-SAPIENZA-MEDICINE-OPEN-SEMESTER-2026` — [Medicine and Surgery – AY 2026/27 open-semester procedure](https://www.uniroma1.it/it/notizia/semestre-aperto-2026-2027-i-corsi-di-medicina-e-chirurgia-e-di-odontoiatria-e-protesi) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-SAPIENZA-AEROSPACE-ADMISSION-CALL-2026` — [Ingegneria Aerospaziale – AY 2026/27 TOLC-I admission call (Bando 14616)](https://www.uniroma1.it/sites/default/files/field_file_allegati/14616_bando_ici.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-SAPIENZA-AEROSPACE-ICI-CALLS-2026` — [Civil and Industrial Engineering – AY 2026/27 restricted-access call listing](https://ici.web.uniroma1.it/it/bandi-di-accesso-ai-corsi-di-studio-numero-programmato-aa-202627) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-SAPIENZA-ENGINEERING-ADMISSIONS-2026` — [Engineering restricted-access admissions and 2026/27 selection results](https://www.uniroma1.it/it/pagina/corsi-ad-accesso-programmato-delle-facolta-di-ingegneria) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-SAPIENZA-SCHOLARSHIPS-2026` — [Sapienza scholarships and student benefits inventory](https://www.uniroma1.it/en/pagina/scholarships) (cycle: general; checked in prior snapshot: 2026-11-11)
 
 #### Computer Science — `legacy-038`
 
@@ -1181,10 +1185,10 @@ Official linked sources to revisit:
 - [ ] `SRC-SAPIENZA-MEDICINE-2026` — [Medicine and Surgery course catalogue entries 2026/27](https://corsidilaurea.uniroma1.it/it/solr-offerta-formativa-t?search_api_views_fulltext=Medicina+e+chirurgia) (cycle: 2026-2027; prior check: 2026-11-11)
 - [ ] `SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026` — [Programmes in English and 2026/27 pre-selection](https://www.uniroma1.it/en/en/admissions) (cycle: 2026-2027; prior check: 2026-11-10)
 - [ ] `SRC-SAPIENZA-INTL-OFFICE-2026` — [International Student Office admissions procedures 2026/27](https://www.uniroma1.it/en/node/24774) (cycle: 2026-2027; prior check: 2026-11-10)
-- [ ] `SRC-SAPIENZA-DISCO-LAZIO-2026` — [DiSCo Lazio Right to Education call 2026/27](https://laziodisco.it/on-line-il-bando-diritto-allo-studio-2026-2027/?lang=en) (cycle: 2026-2027; prior check: 2026-11-10)
-- [ ] `SRC-SAPIENZA-FEE-TABLE-2026` — [Standard registration-fee amounts for 2026/27](https://www.uniroma1.it/en/node/29732) (cycle: 2026-2027; prior check: 2026-11-10)
-- [ ] `SRC-SAPIENZA-FEES-2026` — [Tuition, payment and foreign-income guidance 2026/27](https://www.uniroma1.it/en/pagina/tuition-fees-and-benefits) (cycle: 2026-2027; prior check: 2026-11-10)
-- [ ] `SRC-SAPIENZA-WANTED-BEST-2026` — [Wanted the Best merit scholarship call 2026/27](https://www.uniroma1.it/en/pagina/scholarships-meritorious-students-italian-and-international-universities) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-SAPIENZA-DISCO-LAZIO-2026` — [DiSCo Lazio Right to Education call 2026/27](https://laziodisco.it/on-line-il-bando-diritto-allo-studio-2026-2027/?lang=en) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-SAPIENZA-FEE-TABLE-2026` — [Standard registration-fee amounts for 2026/27](https://www.uniroma1.it/en/node/29732) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-SAPIENZA-FEES-2026` — [Tuition, payment and foreign-income guidance 2026/27](https://www.uniroma1.it/en/pagina/tuition-fees-and-benefits) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-SAPIENZA-WANTED-BEST-2026` — [Wanted the Best merit scholarship call 2026/27](https://www.uniroma1.it/en/pagina/scholarships-meritorious-students-italian-and-international-universities) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
   - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official Sapienza catalogue, course page and admissions material reviewed on 11 November 2026. The prior tracker did not identify a campus or track, so the nine 2026/27 variants remain an umbrella identity match; absence of a 2027/28 call is not treated as discontinuation.
   - `facts.previous_cycle_application_fee` — `UNAVAILABLE` — No separate course application-fee amount is published in the reviewed 2026/27 calls. The €250 open-semester contribution is recorded separately; the English test fee is paid through Universitaly but its amount is not given in Sapienza's call.
@@ -1197,23 +1201,28 @@ Currently missing or unpublished fields:
 
 #### Ingegneria Aerospaziale — `legacy-154`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `REQUIRES_VERIFICATION` | Last checked: `2026-11-10`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-154/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/sapienza/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
-- [ ] `SRC-SAPIENZA-AEROSPACE-BSC-2026` — [Aerospace Engineering bachelor’s course profile 2026/27](https://corsidilaurea.uniroma1.it/it/corso/2023/30837/cds) (cycle: 2026-2027; prior check: 2026-11-10)
-- [ ] `SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026` — [Programmes in English and 2026/27 pre-selection](https://www.uniroma1.it/en/en/admissions) (cycle: 2026-2027; prior check: 2026-11-10)
-- [ ] `SRC-SAPIENZA-INTL-OFFICE-2026` — [International Student Office admissions procedures 2026/27](https://www.uniroma1.it/en/node/24774) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-SAPIENZA-AEROSPACE-ADMISSION-CALL-2026` — [Ingegneria Aerospaziale – AY 2026/27 TOLC-I admission call (Bando 14616)](https://www.uniroma1.it/sites/default/files/field_file_allegati/14616_bando_ici.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-SAPIENZA-AEROSPACE-ICI-CALLS-2026` — [Civil and Industrial Engineering – AY 2026/27 restricted-access call listing](https://ici.web.uniroma1.it/it/bandi-di-accesso-ai-corsi-di-studio-numero-programmato-aa-202627) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-SAPIENZA-AEROSPACE-BSC-2026` — [Ingegneria Aerospaziale course profile 2026/27](https://corsidilaurea.uniroma1.it/it/course/33474) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-SAPIENZA-ENGINEERING-ADMISSIONS-2026` — [Engineering restricted-access admissions and 2026/27 selection results](https://www.uniroma1.it/it/pagina/corsi-ad-accesso-programmato-delle-facolta-di-ingegneria) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-SAPIENZA-DISCO-LAZIO-2026` — [DiSCo Lazio Right to Education call 2026/27](https://laziodisco.it/on-line-il-bando-diritto-allo-studio-2026-2027/?lang=en) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-SAPIENZA-FEE-TABLE-2026` — [Standard registration-fee amounts for 2026/27](https://www.uniroma1.it/en/node/29732) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-SAPIENZA-FEES-2026` — [Tuition, payment and foreign-income guidance 2026/27](https://www.uniroma1.it/en/pagina/tuition-fees-and-benefits) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-SAPIENZA-SCHOLARSHIPS-2026` — [Sapienza scholarships and student benefits inventory](https://www.uniroma1.it/en/pagina/scholarships) (cycle: general; prior check: 2026-11-11)
+- [ ] `SRC-SAPIENZA-WANTED-BEST-2026` — [Wanted the Best merit scholarship call 2026/27](https://www.uniroma1.it/en/pagina/scholarships-meritorious-students-italian-and-international-universities) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `REQUIRES_VERIFICATION` — The reviewed university admissions and course materials concern 2026/27 or older. No 2027/28 first-year call was found, and absence from these pages is not treated as discontinuation.
-  - `facts.application_windows_2027_2028` — `REQUIRES_VERIFICATION` — The reviewed application schedule is for 2026/27 only.
-  - `facts.application_fee_2027_2028` — `REQUIRES_VERIFICATION` — No 2027/28 course application fee was identified.
-  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — No 2027/28 tuition regulation or amount was identified.
-  - `facts.scholarships_2027_2028` — `REQUIRES_VERIFICATION` — No 2027/28 scholarship call for these new entrants was identified.
-  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed sources do not provide a comparable complete applicant and admitted-student denominator.
-  - `facts.previous_cycle_application_windows` — `REQUIRES_VERIFICATION` — No course-specific 2026/27 application calendar was captured for this lead; the general MoveIN schedule applies only to the programs listed for pre-selection.
-  - `facts.previous_cycle_application_fee` — `REQUIRES_VERIFICATION` — No course-specific 2026/27 application charge was captured for this lead; the €30 MoveIN charge applies only to listed pre-selection applications.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — No 2027/28 first-year Aerospace Engineering intake or admission call appears in the official course profile, Faculty call index or current engineering admissions page reviewed on 11 November 2026. The profile's 2027/28 laboratory assignment notice is for students already in year three and is not new-entry evidence; absence of a new call is not treated as discontinuation.
+  - `facts.application_windows_2027_2028` — `NOT_YET_PUBLISHED` — No first-year 2027/28 selection dates were published on the reviewed course, faculty or engineering admissions pages as of 11 November 2026. The 2026/27 dates are not carried forward.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — No course-specific application or TOLC fee for the 2027/28 selection was announced in the reviewed official material.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — No 2027/28 call or named new-entry requirement was published on the reviewed course and admissions pages as of 11 November 2026.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — No 2027/28 tuition regulation or Aerospace BSc amount was published in the reviewed official pages as of 11 November 2026.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — No 2027/28 incoming-student scholarship call was present in the reviewed university and DiSCo material; do not assume 2026/27 competitions recur.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The official call gives capacity and later seat-fill status, but the reviewed evidence does not provide comparable total applicant and admitted-student counts for an acceptance-rate calculation.
 
 #### Scienze politiche e relazioni internazionali — `legacy-155`
 
@@ -5290,7 +5299,7 @@ Currently missing or unpublished fields:
 
 ## Source URL recheck results
 
-Checked 603 unique URLs representing 619 source records on 2026-11-11. Unique URL outcomes: {'accessible': 584, 'redirected': 13, 'inconclusive': 5, 'broken': 1}. HTTP 404/410 outcomes are listed as broken; TLS, timeout, and remote-disconnect cases remain inconclusive.
+Checked 607 unique URLs representing 623 source records on 2026-11-11. Unique URL outcomes: {'accessible': 588, 'redirected': 13, 'inconclusive': 5, 'broken': 1}. HTTP 404/410 outcomes are listed as broken; TLS, timeout, and remote-disconnect cases remain inconclusive.
 
 ### Redirected sources
 
