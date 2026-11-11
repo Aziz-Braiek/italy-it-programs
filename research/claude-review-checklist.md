@@ -2,7 +2,7 @@
 
 Prepared 2026-11-11 for academic year 2027/28. Review each record against official university pages, calls, portals, regulations, and PDFs.
 
-Snapshot inventory: 34 universities, 209 program records, 638 source records.
+Snapshot inventory: 34 universities, 209 program records, 641 source records.
 
 ## Review rules
 
@@ -3541,8 +3541,11 @@ Official university-level sources:
 - [ ] `SRC-PADOVA-INFORMATION-ENGINEERING-BSC-2026` — [Information Engineering – official degree profile](https://www.unipd.it/en/corsi-di-laurea/information-engineering) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-PADOVA-PSYCHOLOGICAL-SCIENCE-BSC-2026` — [Psychological Science – current Padua English BSc profile](https://www.unipd.it/corsi-di-laurea/psychological-science) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-PADOVA-MEDICINE-2026` — [Medicine and Surgery – current English single-cycle degree admissions guide](https://www.unipd.it/en/studiare-inglese-come-fare-domanda) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
-- [ ] `SRC-PADOVA-PSYCHOLOGY-MSC-2026` — [Padua Italian-taught psychology Master's admissions catalogue – AY 2026/27](https://www.unipd.it/ammissioni-psi-magistrali-linguaitaliana) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-PADOVA-PSYCHOLOGY-MSC-2026` — [Padua Italian-taught psychology Master's admissions catalogue – AY 2026/27](https://www.unipd.it/ammissioni-psi-magistrali-linguaitaliana) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-PADOVA-CLINICAL-PSYCHOLOGY-2026` — [Psicologia clinica – official current degree profile](https://www.unipd.it/corsi-di-laurea/psicologia-clinica) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
+- [ ] `SRC-PADOVA-PSYCHOLOGY-CALL-2026` — [Italian-taught Psychology Master's admission call – AY 2026/27](https://wwwassets.unipd.it/sites/default/files/2026-07/2026_Bando_LM_PsicologiaItaliano.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-PADOVA-PSYCHOLOGY-NON-EU-CALL-2026` — [Italian-taught Psychology Master's call for non-EU applicants abroad – AY 2026/27](https://wwwassets.unipd.it/sites/default/files/pdf_imported_files/nonUE_LM%20Psicologia_0.pdf) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-PADOVA-REGIONAL-SCHOLARSHIP-2026` — [Regional scholarship eligibility and 2026/27 call page](https://www.unipd.it/servizi/supporto-studio/borse-premi-studio/borse-studio-alloggi-sussidi-straordinari) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-PADOVA-DEVELOPMENTAL-PSYCHOLOGY-2026` — [Psicologia dello sviluppo e dell'educazione – official current degree profile](https://psicologia.unipd.it/offerta-didattica/lauree-magistrali?key=PS2975&ordinamento=2025&tipo=LM) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-PADOVA-MANAGEMENT-ENGINEERING-2026` — [Ingegneria gestionale – official Master's course profile](https://www.unipd.it/corsi-di-laurea-magistrali/ingegneria-gestionale) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
 - [ ] `SRC-PADOVA-AGRICULTURAL-SCIENCES-2026` — [Scienze e tecnologie agrarie – official programme profile](https://www.unipd.it/de/node/79184) (cycle: 2026-2027; checked in prior snapshot: 2026-11-10)
@@ -3751,22 +3754,25 @@ Currently missing or unpublished fields:
 
 #### Psicologia clinica — `legacy-159`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-10`
+- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `NOT_YET_PUBLISHED` | Last checked: `2026-11-11`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/legacy-159/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
-- [ ] `SRC-PADOVA-PSYCHOLOGY-MSC-2026` — [Padua Italian-taught psychology Master's admissions catalogue – AY 2026/27](https://www.unipd.it/ammissioni-psi-magistrali-linguaitaliana) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-PADOVA-PSYCHOLOGY-CALL-2026` — [Italian-taught Psychology Master's admission call – AY 2026/27](https://wwwassets.unipd.it/sites/default/files/2026-07/2026_Bando_LM_PsicologiaItaliano.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-PADOVA-PSYCHOLOGY-MSC-2026` — [Padua Italian-taught psychology Master's admissions catalogue – AY 2026/27](https://www.unipd.it/ammissioni-psi-magistrali-linguaitaliana) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-PADOVA-PSYCHOLOGY-NON-EU-CALL-2026` — [Italian-taught Psychology Master's call for non-EU applicants abroad – AY 2026/27](https://wwwassets.unipd.it/sites/default/files/pdf_imported_files/nonUE_LM%20Psicologia_0.pdf) (cycle: 2026-2027; prior check: 2026-11-11)
 - [ ] `SRC-PADOVA-CLINICAL-PSYCHOLOGY-2026` — [Psicologia clinica – official current degree profile](https://www.unipd.it/corsi-di-laurea/psicologia-clinica) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-PADOVA-REGIONAL-SCHOLARSHIP-2026` — [Regional scholarship eligibility and 2026/27 call page](https://www.unipd.it/servizi/supporto-studio/borse-premi-studio/borse-studio-alloggi-sussidi-straordinari) (cycle: 2026-2027; prior check: 2026-11-11)
 - [ ] `SRC-PADUA-TUITION-2026` — [Student fees – 2026/27 fee notice and published tariff guidance](https://www.unipd.it/en/contribuzione-studentesca) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
-  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued.
-  - `facts.application_windows` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates.
-  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal.
-  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only.
-  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.
-  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking.
-  - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
+  - `availability_2027_2028` — `NOT_YET_PUBLISHED` — The official Psychology admissions catalogue and linked calls reviewed on 11 November 2026 are explicitly for 2026/27. No 2027/28 first-year listing or call was found; this is not evidence of discontinuation.
+  - `facts.application_windows` — `NOT_YET_PUBLISHED` — The official admissions index and its linked call reviewed on 11 November 2026 remain for 2026/27. Do not reuse the prior-cycle dates.
+  - `facts.application_fee_2027_2028` — `NOT_YET_PUBLISHED` — No 2027/28 selection contribution has been published; prior-cycle route-specific amounts are historical.
+  - `facts.program_specific_requirements_2027_2028` — `NOT_YET_PUBLISHED` — No 2027/28 call or updated curricular/language requirements were identified. The 2026/27 thresholds are preserved as historical facts only.
+  - `facts.tuition_2027_2028` — `NOT_YET_PUBLISHED` — The University fee page and call reviewed on 11 November 2026 provide 2026/27 information only; no 2027/28 annual schedule or course-specific amount was found. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed.
+  - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — The regional aid page links the 2026/27 competition only. No 2027/28 regional, university or course-specific scholarship call was identified.
+  - `facts.acceptance_rate` — `UNAVAILABLE` — The calls list available places but do not provide comparable applicant and admitted counts; no acceptance rate is inferred.
 
 #### Psicologia dello sviluppo e dell'educazione — `legacy-160`
 
@@ -3775,7 +3781,7 @@ Currently missing or unpublished fields:
 - [ ] University page: https://italy-it-programs.vercel.app/universities/padova/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
-- [ ] `SRC-PADOVA-PSYCHOLOGY-MSC-2026` — [Padua Italian-taught psychology Master's admissions catalogue – AY 2026/27](https://www.unipd.it/ammissioni-psi-magistrali-linguaitaliana) (cycle: 2026-2027; prior check: 2026-11-10)
+- [ ] `SRC-PADOVA-PSYCHOLOGY-MSC-2026` — [Padua Italian-taught psychology Master's admissions catalogue – AY 2026/27](https://www.unipd.it/ammissioni-psi-magistrali-linguaitaliana) (cycle: 2026-2027; prior check: 2026-11-11)
 - [ ] `SRC-PADOVA-DEVELOPMENTAL-PSYCHOLOGY-2026` — [Psicologia dello sviluppo e dell'educazione – official current degree profile](https://psicologia.unipd.it/offerta-didattica/lauree-magistrali?key=PS2975&ordinamento=2025&tipo=LM) (cycle: 2026-2027; prior check: 2026-11-10)
 - [ ] `SRC-PADUA-TUITION-2026` — [Student fees – 2026/27 fee notice and published tariff guidance](https://www.unipd.it/en/contribuzione-studentesca) (cycle: 2026-2027; prior check: 2026-11-11)
 Currently missing or unpublished fields:
@@ -5347,7 +5353,7 @@ Currently missing or unpublished fields:
 
 ## Source URL recheck results
 
-Checked 620 unique URLs representing 638 source records on 2026-11-11. Unique URL outcomes: {'accessible': 601, 'redirected': 13, 'inconclusive': 5, 'broken': 1}. HTTP 404/410 outcomes are listed as broken; TLS, timeout, and remote-disconnect cases remain inconclusive.
+Checked 623 unique URLs representing 641 source records on 2026-11-11. Unique URL outcomes: {'accessible': 604, 'redirected': 13, 'inconclusive': 5, 'broken': 1}. HTTP 404/410 outcomes are listed as broken; TLS, timeout, and remote-disconnect cases remain inconclusive.
 
 ### Redirected sources
 

@@ -19294,7 +19294,7 @@
     "title": "Padua Italian-taught psychology Master's admissions catalogue – AY 2026/27",
     "url": "https://www.unipd.it/ammissioni-psi-magistrali-linguaitaliana",
     "source_type": "Official School of Psychology admission catalogue",
-    "accessed_at": "2026-11-10",
+    "accessed_at": "2026-11-11",
     "cycle": "2026-2027",
     "evidence": "Lists the 2026/27 Italian-taught Master's programs including Clinical Psychology and Developmental and Educational Psychology and links the annual admission call; no 2027/28 selection was confirmed.",
     "supports": [
@@ -19313,14 +19313,14 @@
       "x_vercel_cache": null,
       "x_vercel_id": null,
       "location": null,
-      "observed_title": "Corsi di laurea magistrale in lingua italiana della scuola di Psicologia | Università di Padova",
+      "observed_title": "Corsi di laurea magistrale in lingua italiana della scuola di Psicologia | Universit� di Padova",
       "pdf_signature": null,
       "has_2027_marker": false,
       "bytes_read": 131072,
       "outcome": "accessible",
       "error": null,
-      "checked_at": "2026-11-10",
-      "method": "GET"
+      "checked_at": "2026-11-11",
+      "method": "GET with Cache-Control and Pragma no-cache"
     }
   },
   {
@@ -19357,6 +19357,121 @@
       "error": null,
       "checked_at": "2026-11-10",
       "method": "GET"
+    }
+  },
+  {
+    "id": "SRC-PADOVA-PSYCHOLOGY-CALL-2026",
+    "university_id": "padova",
+    "title": "Italian-taught Psychology Master's admission call – AY 2026/27",
+    "url": "https://wwwassets.unipd.it/sites/default/files/2026-07/2026_Bando_LM_PsicologiaItaliano.pdf",
+    "source_type": "Official University of Padua admission call PDF",
+    "accessed_at": "2026-11-11",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 call covers Psicologia clinica and gives its EU/equivalent quota, separate quota for non-EU applicants residing abroad, eligibility requirements, curricular and English-language thresholds, ranking formula, application charge, Uniweb dates and enrollment schedule. Historical evidence only; it does not establish 2027/28 terms.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_available_places",
+      "program.previous_cycle_admission_requirements",
+      "program.previous_cycle_application_windows",
+      "program.previous_cycle_application_fee",
+      "program.previous_cycle_entrance_test",
+      "program.previous_cycle_tuition"
+    ],
+    "url_check": {
+      "http_status": 206,
+      "effective_url": "https://wwwassets.unipd.it/sites/default/files/2026-07/2026_Bando_LM_PsicologiaItaliano.pdf",
+      "content_type": "application/pdf",
+      "content_length_header": "4096",
+      "etag": "\"157aec-657e3349a8330\"",
+      "last_modified": "Fri, 31 Jul 2026 07:33:31 GMT",
+      "cache_control": "max-age=31536000",
+      "age": "174811",
+      "x_vercel_cache": null,
+      "x_vercel_id": null,
+      "location": null,
+      "observed_title": null,
+      "pdf_signature": true,
+      "has_2027_marker": null,
+      "bytes_read": 4096,
+      "outcome": "accessible",
+      "error": null,
+      "checked_at": "2026-11-11",
+      "method": "GET with byte range and Cache-Control: no-cache"
+    }
+  },
+  {
+    "id": "SRC-PADOVA-PSYCHOLOGY-NON-EU-CALL-2026",
+    "university_id": "padova",
+    "title": "Italian-taught Psychology Master's call for non-EU applicants abroad – AY 2026/27",
+    "url": "https://wwwassets.unipd.it/sites/default/files/pdf_imported_files/nonUE_LM%20Psicologia_0.pdf",
+    "source_type": "Official Global Engagement Office admission call PDF",
+    "accessed_at": "2026-11-11",
+    "cycle": "2026-2027",
+    "evidence": "The separate 2026/27 international call assigns Psicologia clinica 9 places, including 2 Marco Polo places, and states the 7 January–7 March application window, €60 non-refundable pre-enrolment contribution, qualification, language and subject-background requirements and selection process. Historical evidence only.",
+    "supports": [
+      "program.previous_cycle_course_listing",
+      "program.previous_cycle_available_places",
+      "program.previous_cycle_admission_requirements",
+      "program.previous_cycle_english_requirement",
+      "program.previous_cycle_italian_requirement",
+      "program.previous_cycle_application_windows",
+      "program.previous_cycle_application_fee"
+    ],
+    "url_check": {
+      "http_status": 206,
+      "effective_url": "https://wwwassets.unipd.it/sites/default/files/pdf_imported_files/nonUE_LM%20Psicologia_0.pdf",
+      "content_type": "application/pdf",
+      "content_length_header": "4096",
+      "etag": "\"71961-64ce5c44559c8\"",
+      "last_modified": "Fri, 13 Mar 2026 10:59:44 GMT",
+      "cache_control": "max-age=31536000",
+      "age": "4384",
+      "x_vercel_cache": null,
+      "x_vercel_id": null,
+      "location": null,
+      "observed_title": null,
+      "pdf_signature": true,
+      "has_2027_marker": null,
+      "bytes_read": 4096,
+      "outcome": "accessible",
+      "error": null,
+      "checked_at": "2026-11-11",
+      "method": "GET with byte range and Cache-Control: no-cache"
+    }
+  },
+  {
+    "id": "SRC-PADOVA-REGIONAL-SCHOLARSHIP-2026",
+    "university_id": "padova",
+    "title": "Regional scholarship eligibility and 2026/27 call page",
+    "url": "https://www.unipd.it/servizi/supporto-studio/borse-premi-studio/borse-studio-alloggi-sussidi-straordinari",
+    "source_type": "Official University of Padua regional student-aid page",
+    "accessed_at": "2026-11-11",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 regional scholarship call is open to eligible Laurea Magistrale students and is competitive, with economic and merit requirements, ISEE/ISPE limits and a 30 September 2026 application step. The reviewed page links the 2026/27 call only; no 2027/28 award or deadline is established.",
+    "supports": [
+      "program.previous_cycle_scholarships",
+      "program.scholarships_2027_2028"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://www.unipd.it/servizi/supporto-studio/borse-premi-studio/borse-studio-alloggi-sussidi-straordinari",
+      "content_type": "text/html; charset=utf-8",
+      "content_length_header": null,
+      "etag": null,
+      "last_modified": null,
+      "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate",
+      "age": null,
+      "x_vercel_cache": null,
+      "x_vercel_id": null,
+      "location": null,
+      "observed_title": null,
+      "pdf_signature": null,
+      "has_2027_marker": false,
+      "bytes_read": 131072,
+      "outcome": "accessible",
+      "error": null,
+      "checked_at": "2026-11-11",
+      "method": "GET with Cache-Control and Pragma no-cache"
     }
   },
   {

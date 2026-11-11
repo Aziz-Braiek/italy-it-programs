@@ -33335,114 +33335,333 @@
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
         "SRC-PADOVA-CLINICAL-PSYCHOLOGY-2026",
-        "SRC-PADOVA-PSYCHOLOGY-MSC-2026"
+        "SRC-PADOVA-PSYCHOLOGY-MSC-2026",
+        "SRC-PADOVA-PSYCHOLOGY-CALL-2026",
+        "SRC-PADOVA-PSYCHOLOGY-NON-EU-CALL-2026",
+        "SRC-PADUA-TUITION-2026",
+        "SRC-PADOVA-REGIONAL-SCHOLARSHIP-2026"
       ],
-      "notes": "Official course identity is confirmed for the 2026/2027 catalogue; this value is not promoted to 2027/28 without a named-cycle source."
+      "notes": "The two-year Laurea Magistrale (LM-51 R) is confirmed for 2026/27. The 2027/28 course listing has not yet been published."
     },
     "language": {
       "value": "Italian",
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
         "SRC-PADOVA-CLINICAL-PSYCHOLOGY-2026",
-        "SRC-PADOVA-PSYCHOLOGY-MSC-2026"
+        "SRC-PADOVA-PSYCHOLOGY-MSC-2026",
+        "SRC-PADOVA-PSYCHOLOGY-CALL-2026",
+        "SRC-PADOVA-PSYCHOLOGY-NON-EU-CALL-2026",
+        "SRC-PADUA-TUITION-2026",
+        "SRC-PADOVA-REGIONAL-SCHOLARSHIP-2026"
       ],
-      "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
+      "notes": "The official profile and 2026/27 call identify Italian as the teaching language; no 2027/28 listing has been published."
     },
     "field": {
       "value": "Clinical Psychology",
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
         "SRC-PADOVA-CLINICAL-PSYCHOLOGY-2026",
-        "SRC-PADOVA-PSYCHOLOGY-MSC-2026"
+        "SRC-PADOVA-PSYCHOLOGY-MSC-2026",
+        "SRC-PADOVA-PSYCHOLOGY-CALL-2026",
+        "SRC-PADOVA-PSYCHOLOGY-NON-EU-CALL-2026",
+        "SRC-PADUA-TUITION-2026",
+        "SRC-PADOVA-REGIONAL-SCHOLARSHIP-2026"
       ],
-      "notes": "Course subject identity is based on current official profile/catalogue evidence; next-cycle catalogue not yet verified."
+      "notes": null
     },
     "availability_2027_2028": {
       "value": null,
       "status": "NOT_YET_PUBLISHED",
       "source_ids": [
-        "SRC-PADOVA-CLINICAL-PSYCHOLOGY-2026",
-        "SRC-PADOVA-PSYCHOLOGY-MSC-2026"
+        "SRC-PADOVA-PSYCHOLOGY-MSC-2026",
+        "SRC-PADOVA-PSYCHOLOGY-CALL-2026"
       ],
-      "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued."
+      "notes": "The official Psychology admissions catalogue and linked calls reviewed on 11 November 2026 are explicitly for 2026/27. No 2027/28 first-year listing or call was found; this is not evidence of discontinuation."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
     "facts": {
       "previous_cycle_course_listing": {
         "value": {
-          "academic_year": "2026/2027",
+          "academic_year": "2026/27",
           "official_name": "Psicologia clinica",
-          "level": "MSc",
-          "language": "Italian"
+          "degree": "Two-year Laurea Magistrale",
+          "degree_class": "LM-51 R",
+          "duration_years": 2,
+          "location": "Padua",
+          "study_mode": "In person",
+          "teaching_language": "Italian",
+          "admission": "Restricted access",
+          "professional_qualification": "The degree is habilitating for psychologist practice in Italy, subject to required professional practical-evaluation training"
         },
         "status": "CONFIRMED",
         "source_ids": [
           "SRC-PADOVA-CLINICAL-PSYCHOLOGY-2026",
-          "SRC-PADOVA-PSYCHOLOGY-MSC-2026"
+          "SRC-PADOVA-PSYCHOLOGY-MSC-2026",
+          "SRC-PADOVA-PSYCHOLOGY-CALL-2026"
         ],
-        "notes": "Official course profile/catalogue evidence is cycle-scoped to 2026/2027 and does not establish 2027/28 first-year admission."
+        "notes": "This confirms the prior cycle only; course accreditation and activation remain subject to the University's stated conditions."
+      },
+      "previous_cycle_available_places": {
+        "value": {
+          "academic_year": "2026/27",
+          "eu_or_equivalent_selection": 116,
+          "non_eu_resident_abroad_selection": 9,
+          "marco_polo_places_in_non_eu_quota": 2
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-PSYCHOLOGY-CALL-2026",
+          "SRC-PADOVA-PSYCHOLOGY-NON-EU-CALL-2026"
+        ],
+        "notes": "The calls use separate applicant-category selections. The nine non-EU-abroad places include two Marco Polo places and must not be mistaken for additional seats in the EU/equivalent selection."
+      },
+      "previous_cycle_admission_requirements": {
+        "value": {
+          "eu_or_equivalent": {
+            "qualifying_degree": "First-cycle university qualification or recognized equivalent, earned by 30 September 2026",
+            "minimum_psychology_credits": 88,
+            "credit_sector_minima": {
+              "M-PSI/01": 4,
+              "M-PSI/02": 4,
+              "M-PSI/03": 4,
+              "M-PSI/04": 4,
+              "M-PSI/05": 4,
+              "at_least_one_of": {
+                "M-PSI/06": 4,
+                "M-PSI/07": 4,
+                "M-PSI/08": 4
+              }
+            },
+            "weighted_average_minimum": "24/30 across the highest 88 CFU in M-PSI sectors",
+            "english": "B2 CEFR"
+          },
+          "non_eu_resident_abroad": {
+            "qualifying_degree": "Foreign first-cycle university degree of at least three years, earned by 31 July 2026",
+            "subject_background": [
+              "General psychology",
+              "Psychobiology",
+              "Psychometrics",
+              "Developmental and educational psychology",
+              "Social psychology",
+              "Work and organizational psychology",
+              "Dynamic psychology",
+              "Clinical psychology"
+            ],
+            "italian": "B2 CEFR",
+            "english": "B2 CEFR"
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-PSYCHOLOGY-CALL-2026",
+          "SRC-PADOVA-PSYCHOLOGY-NON-EU-CALL-2026"
+        ],
+        "notes": "The two categories have separate calls and different document/timing procedures; do not mix one category's deadlines or requirements with the other."
+      },
+      "previous_cycle_admission": {
+        "value": {
+          "academic_year": "2026/27",
+          "access": "Restricted / programmed access",
+          "eu_or_equivalent_selection": "Ranked by M-PSI coursework score; no written entrance test is specified in the reviewed call",
+          "international_non_eu_abroad_selection": "Committee assessment of curriculum and personal preparation; possible video interview",
+          "tie_break": "Younger candidate has precedence"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-PSYCHOLOGY-CALL-2026",
+          "SRC-PADOVA-PSYCHOLOGY-NON-EU-CALL-2026"
+        ],
+        "notes": "These routes and selection methods are specific to the 2026/27 calls and do not establish 2027/28 procedures."
+      },
+      "previous_cycle_entrance_test": {
+        "value": {
+          "academic_year": "2026/27",
+          "eu_or_equivalent": "The call specifies a merit ranking from M-PSI grades and CFU, not a written entrance test",
+          "ranking_formula": "Sum of each M-PSI examination grade multiplied by its CFU, up to 110 CFU; 30 e lode is counted as 33; when over 110 CFU, the higher-mark credits are used",
+          "tie_break": "Younger candidate has precedence",
+          "non_eu_resident_abroad": "Committee review may include a video interview"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-PSYCHOLOGY-CALL-2026",
+          "SRC-PADOVA-PSYCHOLOGY-NON-EU-CALL-2026"
+        ],
+        "notes": "This describes the 2026/27 selection only; the next-cycle selection format has not been published."
+      },
+      "previous_cycle_application_windows": {
+        "value": {
+          "academic_year": "2026/27",
+          "eu_or_equivalent": {
+            "pre_enrolment_start": "2026-07-15 15:00",
+            "pre_enrolment_deadline": "2026-09-01 12:00",
+            "curricular_review_deadline": "2026-09-01 15:00",
+            "maximum_ordered_preferences": 3,
+            "first_ranking": "2026-09-14 15:00",
+            "initial_enrolment": "2026-09-15 through 2026-09-17 15:00",
+            "vacancy_round": "New pre-enrolment 2026-10-07 through 2026-10-09; subsequent reassignment/enrolment schedule through 2026-10-26"
+          },
+          "non_eu_resident_abroad": {
+            "application_start": "2026-01-07",
+            "application_deadline": "2026-03-07 23:59 local time",
+            "maximum_programme_applications": 2,
+            "results_from": "2026-04-10",
+            "degree_and_language_documents_deadline": "2026-07-31"
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-PSYCHOLOGY-CALL-2026",
+          "SRC-PADOVA-PSYCHOLOGY-NON-EU-CALL-2026"
+        ],
+        "notes": "All dates are historical 2026/27 deadlines, recorded to prevent accidental reuse for 2027/28."
+      },
+      "previous_cycle_application_fee": {
+        "value": {
+          "academic_year": "2026/27",
+          "eu_or_equivalent_selection_contribution_eur": 30,
+          "non_eu_abroad_pre_enrolment_contribution_eur": 60,
+          "non_eu_contribution_refundable": false
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-PSYCHOLOGY-CALL-2026",
+          "SRC-PADOVA-PSYCHOLOGY-NON-EU-CALL-2026"
+        ],
+        "notes": "The €30 Uniweb selection contribution and €60 apply to different applicant routes; neither is the tuition charge. The non-EU call permits up to two course applications."
+      },
+      "previous_cycle_enrollment_contribution": {
+        "value": {
+          "academic_year": "2026/27",
+          "amount_eur": 205,
+          "description": "Initial contribution quoted in the non-EU call, including regional right-to-study tax and stamp duty; amount may change annually"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-PSYCHOLOGY-NON-EU-CALL-2026"
+        ],
+        "notes": "This is the call's then-current initial enrollment contribution, separate from the €60 application charge and the annual tuition amount."
+      },
+      "previous_cycle_english_requirement": {
+        "value": {
+          "academic_year": "2026/27",
+          "eu_or_equivalent": "B2 CEFR",
+          "non_eu_resident_abroad": "B2 CEFR"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-PSYCHOLOGY-CALL-2026",
+          "SRC-PADOVA-PSYCHOLOGY-NON-EU-CALL-2026"
+        ],
+        "notes": "The annual 2026/27 calls state B2; do not assume this certificate rule for 2027/28 until the new call is issued."
+      },
+      "previous_cycle_italian_requirement": {
+        "value": {
+          "academic_year": "2026/27",
+          "non_eu_resident_abroad": "B2 CEFR or equivalent"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-PSYCHOLOGY-NON-EU-CALL-2026"
+        ],
+        "notes": "The non-EU-abroad call explicitly requires Italian B2 for this Italian-taught degree; no separate Italian certificate threshold is stated in the EU/equivalent call."
+      },
+      "previous_cycle_tuition": {
+        "value": {
+          "academic_year": "2026/27",
+          "course_specific_amount": null,
+          "general_degree_fee_guidance_eur_per_year": "€0 to approximately €3,000",
+          "basis": "Varies by programme, income and residence category",
+          "first_year_initial_installment_eur": 208
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADUA-TUITION-2026",
+          "SRC-PADOVA-PSYCHOLOGY-CALL-2026"
+        ],
+        "notes": "General University tariff context, not a Clinical Psychology quote. The course call directs students to the annual fee schedule and Uniweb; first-installment components/amounts are subject to annual update."
+      },
+      "previous_cycle_scholarships": {
+        "value": {
+          "academic_year": "2026/27",
+          "regional_right_to_study_scholarship": {
+            "type": "Competitive; not guaranteed or course-specific",
+            "eligible_degree_level": "Laurea Magistrale",
+            "economic_and_merit_requirements": true,
+            "published_isee_limit_eur": 26306.25,
+            "published_ispe_limit_eur": 43125.94,
+            "application_step_deadline": "2026-09-30"
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-PADOVA-REGIONAL-SCHOLARSHIP-2026",
+          "SRC-PADOVA-PSYCHOLOGY-CALL-2026"
+        ],
+        "notes": "Eligibility and award depend on the regional annual call, economic/merit requirements and applicant circumstances; no individual award is implied."
       },
       "application_windows": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
-          "SRC-PADOVA-CLINICAL-PSYCHOLOGY-2026",
-          "SRC-PADOVA-PSYCHOLOGY-MSC-2026"
+          "SRC-PADOVA-PSYCHOLOGY-MSC-2026",
+          "SRC-PADOVA-PSYCHOLOGY-CALL-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates."
+        "notes": "The official admissions index and its linked call reviewed on 11 November 2026 remain for 2026/27. Do not reuse the prior-cycle dates."
       },
       "application_fee_2027_2028": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
-          "SRC-PADOVA-CLINICAL-PSYCHOLOGY-2026",
-          "SRC-PADOVA-PSYCHOLOGY-MSC-2026"
+          "SRC-PADOVA-PSYCHOLOGY-CALL-2026",
+          "SRC-PADOVA-PSYCHOLOGY-NON-EU-CALL-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal."
+        "notes": "No 2027/28 selection contribution has been published; prior-cycle route-specific amounts are historical."
       },
       "program_specific_requirements_2027_2028": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
-          "SRC-PADOVA-CLINICAL-PSYCHOLOGY-2026",
-          "SRC-PADOVA-PSYCHOLOGY-MSC-2026"
+          "SRC-PADOVA-PSYCHOLOGY-MSC-2026",
+          "SRC-PADOVA-PSYCHOLOGY-CALL-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only."
+        "notes": "No 2027/28 call or updated curricular/language requirements were identified. The 2026/27 thresholds are preserved as historical facts only."
       },
       "tuition_2027_2028": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
-          "SRC-PADOVA-CLINICAL-PSYCHOLOGY-2026",
-          "SRC-PADOVA-PSYCHOLOGY-MSC-2026",
-          "SRC-PADUA-TUITION-2026"
+          "SRC-PADUA-TUITION-2026",
+          "SRC-PADOVA-PSYCHOLOGY-CALL-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed."
+        "notes": "The University fee page and call reviewed on 11 November 2026 provide 2026/27 information only; no 2027/28 annual schedule or course-specific amount was found. The University fee page reviewed on 11 November 2026 still links the 2026/27 annual fee notice; no 2027/28 programme-specific amount is confirmed."
       },
       "scholarships_2027_2028": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
-          "SRC-PADOVA-CLINICAL-PSYCHOLOGY-2026",
+          "SRC-PADOVA-REGIONAL-SCHOLARSHIP-2026",
           "SRC-PADOVA-PSYCHOLOGY-MSC-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking."
+        "notes": "The regional aid page links the 2026/27 competition only. No 2027/28 regional, university or course-specific scholarship call was identified."
       },
       "acceptance_rate": {
         "value": null,
         "status": "UNAVAILABLE",
         "source_ids": [
-          "SRC-PADOVA-CLINICAL-PSYCHOLOGY-2026",
-          "SRC-PADOVA-PSYCHOLOGY-MSC-2026"
+          "SRC-PADOVA-PSYCHOLOGY-CALL-2026",
+          "SRC-PADOVA-PSYCHOLOGY-NON-EU-CALL-2026"
         ],
-        "notes": "The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred."
+        "notes": "The calls list available places but do not provide comparable applicant and admitted counts; no acceptance rate is inferred."
       }
     },
     "source_ids": [
       "SRC-PADOVA-CLINICAL-PSYCHOLOGY-2026",
       "SRC-PADOVA-PSYCHOLOGY-MSC-2026",
-      "SRC-PADUA-TUITION-2026"
+      "SRC-PADOVA-PSYCHOLOGY-CALL-2026",
+      "SRC-PADOVA-PSYCHOLOGY-NON-EU-CALL-2026",
+      "SRC-PADUA-TUITION-2026",
+      "SRC-PADOVA-REGIONAL-SCHOLARSHIP-2026"
     ],
     "previous_tracker_tags": {
       "level": "MSc",
@@ -33455,9 +33674,9 @@
       "language": "Italian",
       "field": "Clinical Psychology",
       "cycle": "2026-2027",
-      "label": "Official course identity checked for 2026/2027; 2027/28 first-year intake and terms remain unconfirmed"
+      "label": "Official course and 2026/27 admission routes reviewed; 2027/28 intake and terms not yet published"
     },
-    "last_checked": "2026-11-10"
+    "last_checked": "2026-11-11"
   },
   {
     "id": "legacy-160",
