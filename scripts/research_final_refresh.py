@@ -2032,6 +2032,12 @@ BATCH38 = {
     "result": "Reviewed legacy-165, Scienze psicologiche cognitive e psicobiologiche, against the official School of Psychology profile, its 2026/27 Italian-taught bachelor's admissions page, the EU/equivalent call, the separate non-EU-abroad call, the University 2026/27 admissions index, the general 2027/28 international-student page and Padua's current fee page. Confirmed a three-year Italian-taught Laurea in class L-24 R at Padua with restricted access. The 2026/27 EU/equivalent quota was 186 places (93 in each of two selections); selection one required TOLC-PSI at least 30/50, while selection two had no minimum score. Ranking considered Text Comprehension, Basic Mathematics, Verbal Reasoning, Numerical Reasoning and Biology, excluding English; OFAs applied below 6/10 in Basic Mathematics or 4/10 in Biology. The separate non-EU-abroad route allocated 14 places including five Marco Polo, with applications 7 January–7 March 2026, TOLC-PSI by 13 March and result upload by 16 March, a recognized foreign secondary qualification after at least 12 years, and Italian B2 by 31 July. Its call does not state a minimum overall TOLC score. The €35 payment is the CISIA TOLC fee; €205 is a non-refundable enrolment contribution after an offer, not a University application fee or complete tuition amount. The 2027/28 University international first call applies to most degree programmes, but the reviewed course-specific admissions pages and index remain for 2026/27 and do not confirm this course's 2027/28 intake or applicant-category procedures. No 2027/28 course call, places, deadlines, TOLC rule, application charge, requirements, tuition total or entrant scholarship terms were verified. Fresh no-cache GETs returned HTTP 200 for the course profile, admissions page, admissions index, international page and fee page, and HTTP 206 with valid PDF signatures for both 2026/27 calls. No deployment or Vercel changes were made.",
 }
 
+BATCH39 = {
+    "id": "catania-data-science-prior-cycle-routes-and-2027-28-call-status",
+    "status": "partial",
+    "result": "Reviewed discovered-023, Data Science at Catania, against the official current course overview, the 2026/27 degree profile, ordinary Master's admission procedure and course annex, the separate 2026/27 non-EU-abroad call and its Data Science annex, the admissions-call archive and the Department's current admissions notice. Confirmed the latest year-labelled course as a two-year, 120-credit English-taught LM/DATA degree in Catania with data-analysis/modelling and data-driven-application paths. The 2026/27 ordinary route listed eligible bachelor classes L-7, L-8, L-9, L-18, L-30, L-31, L-33, L-35 and L-41 (or equivalents); other backgrounds needed 9 CFU across MAT-06/SECS-S/01 and 9 CFU across INF/01/ING-INF/05. A 90/110 degree result or 24/30 current average met the stated preparation benchmark; other cases could receive individual curriculum review and interview/test. English B2 was required, with Italian B2 for non-native speakers before the final examination. That route's 2026/27 application period was 6 July–2 September 2026, with 30 June foreign-title pre-evaluation for specified resident applicants. The distinct non-EU-abroad call ran 10 February–17 March 2026 at €10 per course; Data Science assessment weights were curriculum 60, prior-study relevance 25, data-treatment/analysis experience 10 and reference 5, with a separate €75 post-offer confirmation payment. Its course row did not specify places. The 2026/27 call also allowed a narrowly defined visa-related deferral into 2027/28 without another selection for already admitted candidates, but did not transfer their scholarship. The official Department notice says the next extra-EU call will be in February 2027, consistent with the overview's annual February call for the next academic year; exact 2027/28 dates, course terms, places, fee, tuition and scholarships remain unpublished. Fresh no-cache GETs returned HTTP 200 for the official HTML pages and HTTP 206 with valid PDF signatures for the ordinary procedure, ordinary course annex and non-EU call. No Vercel or production changes were made.",
+}
+
 SOURCE_RECHECKS = {
     "SRC-UNIBO-AI-PROFILE-2026": {
         "accessed_at": "2026-11-11",
@@ -2370,6 +2376,134 @@ SOURCE_RECHECKS.update({
             "error": None,
             "checked_at": "2026-11-11",
             "method": "GET with Cache-Control and Pragma no-cache (PowerShell/curl)",
+        },
+    },
+})
+
+SOURCE_RECHECKS.update({
+    "SRC-UNICT-DS-PROGRAM-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://www.unict.it/en/node/32509",
+            "content_type": "text/html; charset=utf-8", "content_length_header": None,
+            "etag": "\"1794407749-0\"", "last_modified": "Wed, 11 Nov 2026 14:35:49 GMT",
+            "cache_control": "public, max-age=0", "age": None, "x_vercel_cache": None,
+            "x_vercel_id": None, "location": None,
+            "observed_title": "Data Science | University of Catania", "pdf_signature": None,
+            "has_2027_marker": True, "bytes_read": 27182, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "Full GET with Cache-Control: no-cache, no-store, max-age=0 and Pragma: no-cache (Python urllib)",
+        },
+    },
+    "SRC-UNICT-ENGLISH-MASTERS-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://www.unict.it/en/node/25736",
+            "content_type": "text/html; charset=utf-8", "content_length_header": None,
+            "etag": "\"1794407749-0\"", "last_modified": "Wed, 11 Nov 2026 14:35:49 GMT",
+            "cache_control": "public, max-age=0", "age": None, "x_vercel_cache": None,
+            "x_vercel_id": None, "location": None,
+            "observed_title": "Master's Degree programmes taught in English | University of Catania", "pdf_signature": None,
+            "has_2027_marker": True, "bytes_read": 40915, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "Full GET with Cache-Control: no-cache, no-store, max-age=0 and Pragma: no-cache (Python urllib)",
+        },
+    },
+    "SRC-UNICT-MASTER-ADMISSION-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://www.unict.it/it/corsi-numero-non-programmato/2026-2027/procedura-di-ammissione-al-1%C2%B0-anno-corsi-di-laurea-magistrale",
+            "content_type": "text/html; charset=utf-8", "content_length_header": None,
+            "etag": "\"1794407749-0\"", "last_modified": "Wed, 11 Nov 2026 14:35:49 GMT",
+            "cache_control": "public, max-age=0", "age": None, "x_vercel_cache": None,
+            "x_vercel_id": None, "location": None,
+            "observed_title": "Procedura di ammissione al 1° anno - Corsi di laurea MAGISTRALE (biennale) a numero NON PROGRAMMATO | Università di Catania", "pdf_signature": None,
+            "has_2027_marker": True, "bytes_read": 69073, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "Full GET with Cache-Control: no-cache, no-store, max-age=0 and Pragma: no-cache (Python urllib)",
+        },
+    },
+    "SRC-UNICT-DS-CALL-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://www.unict.it/it/corsi-numero-programmato/2026-2027/public-selection-admission-non-eu-students-living-abroad-english",
+            "content_type": "text/html; charset=utf-8", "content_length_header": None,
+            "etag": "\"1794407749-0\"", "last_modified": "Wed, 11 Nov 2026 14:35:49 GMT",
+            "cache_control": "public, max-age=0", "age": None, "x_vercel_cache": None,
+            "x_vercel_id": None, "location": None,
+            "observed_title": "Public selection for admission of Non EU Students living abroad to English taught Masters' Degrees | Università di Catania", "pdf_signature": None,
+            "has_2027_marker": True, "bytes_read": 39529, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "Full GET with Cache-Control: no-cache, no-store, max-age=0 and Pragma: no-cache (Python urllib)",
+        },
+    },
+    "SRC-UNICT-MASTER-CALLS-INDEX": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://www.unict.it/ammissioni-ai-corsi-di-laurea-magistrale/numero-programmato",
+            "content_type": "text/html; charset=utf-8", "content_length_header": None,
+            "etag": "\"1794407749-0\"", "last_modified": "Wed, 11 Nov 2026 14:35:49 GMT",
+            "cache_control": "public, max-age=0", "age": None, "x_vercel_cache": None,
+            "x_vercel_id": None, "location": None,
+            "observed_title": "Laurea Magistrale - Numero programmato | Università di Catania", "pdf_signature": None,
+            "has_2027_marker": True, "bytes_read": 31690, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "Full GET with Cache-Control: no-cache, no-store, max-age=0 and Pragma: no-cache (Python urllib)",
+        },
+    },
+    "SRC-UNICT-DS-COURSE-OVERVIEW": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://www.interdip.unict.it/it/corsi/lm-data/course-overview",
+            "content_type": "text/html; charset=utf-8", "content_length_header": None,
+            "etag": None, "last_modified": None, "cache_control": "no-cache, must-revalidate",
+            "age": None, "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Course Overview | Degree Course in Data Science", "pdf_signature": None,
+            "has_2027_marker": False, "bytes_read": 25055, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "Full GET with Cache-Control: no-cache, no-store, max-age=0 and Pragma: no-cache (Python urllib)",
+        },
+    },
+    "SRC-UNICT-DS-NEXT-CALL-2027": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://www.interdip.unict.it/corsi/lm-data/avvisi/call-admission-extra-eu-students-now-closed-record-number-applications",
+            "content_type": "text/html; charset=utf-8", "content_length_header": None,
+            "etag": None, "last_modified": None, "cache_control": "no-cache, must-revalidate",
+            "age": None, "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Call for admission of extra-EU students now closed - record in the number of applications | Degree Course in Data Science", "pdf_signature": None,
+            "has_2027_marker": True, "bytes_read": 24239, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "Full GET with Cache-Control: no-cache, no-store, max-age=0 and Pragma: no-cache (Python urllib)",
+        },
+    },
+    "SRC-UNICT-MASTER-ADMISSION-PROCEDURE-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 206, "effective_url": "https://www.unict.it/sites/default/files/ds_bandi/326134_bando-lm_2233.pdf",
+            "content_type": "application/pdf", "content_length_header": "4096",
+            "etag": "\"a8ad1-655103eecd93e\"", "last_modified": "Thu, 25 Jun 2026 09:02:03 GMT",
+            "cache_control": None, "age": None, "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": None, "pdf_signature": True, "has_2027_marker": True,
+            "bytes_read": 4096, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Range: bytes=0-4095 and Cache-Control/Pragma no-cache (Python urllib)",
+        },
+    },
+    "SRC-UNICT-DS-REGULAR-ANNEX-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 206, "effective_url": "https://www.unict.it/sites/default/files/ds_altri_documenti/0046_lm-data_data_science_2026-27.pdf",
+            "content_type": "application/pdf", "content_length_header": "4096",
+            "etag": "\"35b11-655105e727c97\"", "last_modified": "Thu, 25 Jun 2026 09:10:52 GMT",
+            "cache_control": None, "age": None, "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": None, "pdf_signature": True, "has_2027_marker": True,
+            "bytes_read": 4096, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Range: bytes=0-4095 and Cache-Control/Pragma no-cache (Python urllib)",
+        },
+    },
+    "SRC-UNICT-DS-NON-EU-CALL-PDF-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 206, "effective_url": "https://www.unict.it/sites/default/files/ds_altri_documenti/bando_eng_con_allegati_signed_signed_0.pdf",
+            "content_type": "application/pdf", "content_length_header": "4096",
+            "etag": "\"229f00-649fb74e235c8\"", "last_modified": "Wed, 04 Feb 2026 08:36:46 GMT",
+            "cache_control": None, "age": None, "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": None, "pdf_signature": True, "has_2027_marker": True,
+            "bytes_read": 4096, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Range: bytes=0-4095 and Cache-Control/Pragma no-cache (Python urllib)",
         },
     },
 })

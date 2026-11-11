@@ -39947,65 +39947,223 @@
     },
     "availability_2027_2028": {
       "value": null,
-      "status": "REQUIRES_VERIFICATION",
+      "status": "NOT_YET_PUBLISHED",
       "source_ids": [
         "SRC-UNICT-DS-PROGRAM-2026",
-        "SRC-UNICT-ENGLISH-MASTERS-2026",
+        "SRC-UNICT-DS-COURSE-OVERVIEW",
+        "SRC-UNICT-DS-NEXT-CALL-2027",
         "SRC-UNICT-MASTER-CALLS-INDEX"
       ],
-      "notes": "The latest official course and English-MSc call evidence located is for 2026/27. No 2027/28 first-year intake or program call was identified on the pages checked on 9 November 2026; absence from the reviewed pages is not treated as an explicit cancellation or publication statement."
+      "notes": "The Department says its next Data Science extra-EU call will be in February 2027, and the course overview says such invitations are published each February for the next academic year. As of 11 November 2026, the actual 2027/28 call and first-year intake terms are not published; this is an announced call-publication expectation, not confirmation of all applicant routes or places."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "newly_discovered",
     "facts": {
       "previous_cycle_course_listing": {
-        "value": null,
-        "status": "REQUIRES_VERIFICATION",
+        "value": {
+          "academic_year": "2026/27",
+          "course": "Data Science",
+          "level": "two-year Laurea Magistrale (MSc)",
+          "class": "LM/DATA (LM-Data)",
+          "duration_years": 2,
+          "credits": 120,
+          "language": "English",
+          "location": "Catania",
+          "tracks": [
+            "Data analysis and modelling",
+            "Data-driven applications"
+          ],
+          "teaching_locations": [
+            "Department of Economics (DEI)",
+            "Department of Mathematics and Computer Science (DMI)"
+          ]
+        },
+        "status": "CONFIRMED",
         "source_ids": [
           "SRC-UNICT-DS-PROGRAM-2026",
-          "SRC-UNICT-ENGLISH-MASTERS-2026"
+          "SRC-UNICT-DS-COURSE-OVERVIEW"
         ],
-        "notes": "Latest official listing reviewed is 2026/27: Data Science, two-year Master's Degree (LM/DATA), taught in English in Catania. These prior-cycle descriptors do not confirm the 2027/28 offer."
+        "notes": "These course descriptors are supported by official pages, but the year-specific degree profile is 2026/27; they do not independently confirm a 2027/28 first-year cohort."
+      },
+      "previous_cycle_ordinary_admission": {
+        "value": {
+          "academic_year": "2026/27",
+          "route": "Ordinary first-year procedure for non-programmed two-year Master's courses, used by Italian, EU/equivalent and specified resident/Italian-qualified applicants; visa-seeking non-EU applicants abroad followed the separate international call",
+          "application_period": "6 July–2 September 2026",
+          "pre_evaluation_deadline_for_resident_foreign_qualification": "30 June 2026",
+          "eligible_bachelor_classes": [
+            "L-7",
+            "L-8",
+            "L-9",
+            "L-18",
+            "L-30",
+            "L-31",
+            "L-33",
+            "L-35",
+            "L-41",
+            "or equivalent classes under DM 509/1999"
+          ],
+          "alternative_curricular_requirements": "For degrees outside the listed classes: at least 9 CFU combined across MAT-06/SECS-S/01 and at least 9 CFU combined across INF/01/ING-INF/05",
+          "preparation_benchmark": "At least 90/110 final grade, or 24/30 current average if not yet graduated; other cases receive individual review and may be assigned an interview/test",
+          "english": "B2; a completed university course/certificate or attestation can satisfy the requirement, otherwise it could be checked by an interview",
+          "italian": "Students whose first language is not Italian had to attain Italian B2 before the final examination",
+          "other": "No enrolment with educational debts"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNICT-MASTER-ADMISSION-PROCEDURE-2026",
+          "SRC-UNICT-DS-REGULAR-ANNEX-2026",
+          "SRC-UNICT-MASTER-ADMISSION-2026"
+        ],
+        "notes": "All route, curricular, language and date details are historical 2026/27 terms and must not be carried forward as 2027/28 rules."
       },
       "previous_cycle_non_eu_admission": {
-        "value": null,
-        "status": "REQUIRES_VERIFICATION",
+        "value": {
+          "academic_year": "2026/27",
+          "applicant_category": "Non-EU students living abroad applying to the first year",
+          "application_period": "10 February 2026 12:00–17 March 2026 23:59 (GMT+1)",
+          "application_fee_eur_per_course": 10,
+          "selection": "Course board review of admissibility, curricular requirements and personal preparation; scored out of 100 with Data Science weights: curriculum 60, relevance of previous studies 25, documented data-treatment/analysis experience 10, reference letter 5; interview/test could be required; the general call considered scores of at least 50/100 suitable",
+          "confirmation_fee_eur_after_offer": 75,
+          "confirmation_deadline": "Within 15 days of admission notice",
+          "visa_deferral": "Applicants admitted for 2026/27 who accepted the place, paid the confirmation fee and applied through Universitaly could request enrolment in 2027/28 without a second selection if visa processing was late; the call says scholarship benefits do not transfer with a deferral",
+          "available_places": "Not stated in the Data Science row of the 2026/27 call"
+        },
+        "status": "CONFIRMED",
         "source_ids": [
-          "SRC-UNICT-DS-CALL-2026"
+          "SRC-UNICT-DS-CALL-2026",
+          "SRC-UNICT-DS-NON-EU-CALL-PDF-2026"
         ],
-        "notes": "The 2026/27 call included Data Science for non-EU applicants living abroad, with an application period of 10 February–17 March 2026 and a €10 fee per course. The call used title assessment and, where applicable, an interview or test. No 2027/28 rules or dates are confirmed by this prior-cycle source."
+        "notes": "These are confirmed 2026/27 terms only. The one-year visa deferral is an exception for already-admitted 2026/27 applicants, not a general 2027/28 intake call."
+      },
+      "previous_cycle_non_eu_requirements": {
+        "value": {
+          "academic_background": [
+            "Computer Science",
+            "Economics and management",
+            "Engineering",
+            "Mathematics",
+            "Physics",
+            "Statistics"
+          ],
+          "degree": "Foreign bachelor's or higher degree after at least three years of study, recognized as suitable in its country; final-year applicants could graduate by 31 July 2026",
+          "subject_knowledge": [
+            "Computer science",
+            "Mathematics",
+            "Probability",
+            "Statistics"
+          ],
+          "assessment_evidence": "Knowledge assessed from transcript ECTS/course marks",
+          "english": "CEFR B2; IELTS overall at least 5.5, TOEFL at least 72, Cambridge First Certificate (FCE) or higher, or exemptions for English-medium prior study / English-speaking-country citizenship",
+          "required_application_materials": [
+            "Passport identity page",
+            "Degree certificate or expected-graduation proof",
+            "Transcript",
+            "Course syllabi",
+            "Academic reference",
+            "English CV",
+            "English certificate or exemption evidence",
+            "Course-specific statement of purpose if required",
+            "Application summary sheet"
+          ]
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNICT-DS-NON-EU-CALL-PDF-2026"
+        ],
+        "notes": "Specific non-EU-abroad requirements are drawn from the 2026/27 English call and its Data Science annex. They are not 2027/28 requirements."
+      },
+      "previous_cycle_non_eu_costs_and_funding": {
+        "value": {
+          "academic_year": "2026/27",
+          "tuition_eur_total_for_non_eu_abroad": 306,
+          "tuition_breakdown_eur": {
+            "regional_tax": 140,
+            "stamp_duty": 16,
+            "annual_university_contribution": 150
+          },
+          "application_fee_eur_per_course": 10,
+          "post_offer_confirmation_fee_eur": 75,
+          "scholarship": "The first five candidates in each course ranking were eligible for a €2,000 gross annual award for up to two years; award benefits did not transfer with a visa deferral"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNICT-DS-NON-EU-CALL-PDF-2026"
+        ],
+        "notes": "Every amount and award term is 2026/27 evidence only; no 2027/28 fee or scholarship is implied."
+      },
+      "application_windows_2027_2028": {
+        "value": {
+          "expected_call_publication": "February 2027",
+          "route": "Non-EU students living abroad",
+          "application_opening_date": null,
+          "application_deadline": null
+        },
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-UNICT-DS-COURSE-OVERVIEW",
+          "SRC-UNICT-DS-NEXT-CALL-2027"
+        ],
+        "notes": "The department announced the next extra-EU call for February 2027 and describes annual February invitations for the next academic year. The application dates and call document are not yet published as of 11 November 2026."
       },
       "program_specific_requirements": {
         "value": null,
-        "status": "REQUIRES_VERIFICATION",
+        "status": "NOT_YET_PUBLISHED",
         "source_ids": [
-          "SRC-UNICT-DS-CALL-2026",
-          "SRC-UNICT-MASTER-ADMISSION-2026"
+          "SRC-UNICT-DS-COURSE-OVERVIEW",
+          "SRC-UNICT-DS-NEXT-CALL-2027",
+          "SRC-UNICT-DS-REGULAR-ANNEX-2026",
+          "SRC-UNICT-DS-NON-EU-CALL-PDF-2026"
         ],
-        "notes": "The reviewed course-level admission annexes and procedures are for 2026/27. 2027/28 curricular requirements, language evidence, selection details and applicant eligibility remain to be checked."
+        "notes": "The latest ordinary-route and non-EU course-specific requirements found are for 2026/27. The next extra-EU call is expected in February 2027; no 2027/28 academic-background, language, scoring or eligibility rules have been published."
       },
       "application_fee": {
         "value": null,
-        "status": "REQUIRES_VERIFICATION",
+        "status": "NOT_YET_PUBLISHED",
         "source_ids": [
-          "SRC-UNICT-DS-CALL-2026"
+          "SRC-UNICT-DS-NEXT-CALL-2027",
+          "SRC-UNICT-DS-NON-EU-CALL-PDF-2026"
         ],
-        "notes": "The official prior-cycle non-EU call charged €10 per course application in 2026/27; this is not presented as the 2027/28 fee."
+        "notes": "The 2026/27 non-EU-abroad application fee was €10 per course, distinct from the €75 post-offer confirmation fee. The next call's 2027/28 application fee is not yet published."
       },
       "available_places": {
         "value": null,
-        "status": "REQUIRES_VERIFICATION",
+        "status": "NOT_YET_PUBLISHED",
         "source_ids": [
+          "SRC-UNICT-DS-NEXT-CALL-2027",
           "SRC-UNICT-DS-CALL-2026"
         ],
-        "notes": "The 2026/27 call table leaves the Data Science places field blank. No 2027/28 places have been identified."
+        "notes": "The 2026/27 non-EU call did not state a Data Science place count. No 2027/28 course-specific places have been published."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-UNICT-DS-NON-EU-CALL-PDF-2026"
+        ],
+        "notes": "The only course-specific tuition amount found is €306 for non-EU students living abroad in 2026/27. No 2027/28 amount has been published in the reviewed sources."
+      },
+      "scholarships_2027_2028": {
+        "value": null,
+        "status": "NOT_YET_PUBLISHED",
+        "source_ids": [
+          "SRC-UNICT-DS-NON-EU-CALL-PDF-2026",
+          "SRC-UNICT-DS-NEXT-CALL-2027"
+        ],
+        "notes": "The 2026/27 non-EU call offered five €2,000-per-year awards in the course ranking. The upcoming 2027/28 call and scholarship terms are not yet published."
       }
     },
     "source_ids": [
       "SRC-UNICT-DS-PROGRAM-2026",
       "SRC-UNICT-ENGLISH-MASTERS-2026",
       "SRC-UNICT-MASTER-ADMISSION-2026",
-      "SRC-UNICT-DS-CALL-2026"
+      "SRC-UNICT-DS-CALL-2026",
+      "SRC-UNICT-MASTER-CALLS-INDEX",
+      "SRC-UNICT-DS-COURSE-OVERVIEW",
+      "SRC-UNICT-DS-NEXT-CALL-2027",
+      "SRC-UNICT-MASTER-ADMISSION-PROCEDURE-2026",
+      "SRC-UNICT-DS-REGULAR-ANNEX-2026",
+      "SRC-UNICT-DS-NON-EU-CALL-PDF-2026"
     ],
     "previous_tracker_tags": null,
     "previous_cycle_tags": {
