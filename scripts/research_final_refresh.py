@@ -397,17 +397,49 @@ SOURCES = [
         "id": "SRC-UNIBO-ING-INF-MSC-2026",
         "university_id": "bologna", "title": "Ingegneria informatica – Bologna MSc profile and admission page",
         "url": "https://corsi.unibo.it/magistrale/ingegneriainformatica/index.html",
-        "source_type": "Official degree programme profile", "accessed_at": "2026-11-10", "cycle": "2026-2027",
-        "evidence": "Lists the two-year LM-32 Bologna MSc as taught in both Italian and English, with open access; the historic Italian-only label was inaccurate.",
+        "source_type": "Official degree programme profile", "accessed_at": "2026-11-11", "cycle": "2026-2027",
+        "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026. Confirms the Bologna LM-32 Master's with open access and two curricula, Ingegneria dei sistemi informatici and Ubiquitous Systems and Networks; the University lists Italian and English as languages overall. Current profile and study-plan markers are for 2026/27 and do not announce 2027/28 entry.",
         "supports": ["program.name", "program.level", "program.language", "program.location", "program.access"],
     },
     {
         "id": "SRC-UNIBO-ING-INF-ADMISSIONS-2026",
         "university_id": "bologna", "title": "Ingegneria informatica – 2026/27 admission requirements",
         "url": "https://corsi.unibo.it/magistrale/ingegneriainformatica/iscriversi-al-corso",
-        "source_type": "Official programme admission page", "accessed_at": "2026-11-10", "cycle": "2026-2027",
-        "evidence": "Provides 2026/27 curricular and English-language requirements and links the annual 2026/27 admission notice; no 2027/28 notice was linked on the reviewed page.",
+        "source_type": "Official programme admission page", "accessed_at": "2026-11-11", "cycle": "2026-2027",
+        "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026. Provides the 2026/27 eligible degree classes and subject-credit routes, 165-CFU rule for current undergraduates, English B2 requirement, and links the current year's call and assessment guide; no 2027/28 notice is posted.",
         "supports": ["program.previous_cycle_program_requirements", "program.previous_cycle_english_requirement", "program.previous_cycle_application_route"],
+    },
+    {
+        "id": "SRC-UNIBO-ING-INF-CATALOGUE-2026",
+        "university_id": "bologna", "title": "Ingegneria informatica – 2026/27 University course catalogue entry",
+        "url": "https://www.unibo.it/it/studiare/lauree-magistrali/corso/2026/6719",
+        "source_type": "Official University course catalogue entry", "accessed_at": "2026-11-11", "cycle": "2026-2027",
+        "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026. The catalogue labels the entry 2026/27, course code 6719, Bologna, LM-32 Computer Engineering, Italian and English, and open access; it does not establish 2027/28 first-year admission.",
+        "supports": ["program.previous_cycle_course_listing", "program.availability_2027_2028"],
+    },
+    {
+        "id": "SRC-UNIBO-ING-INF-CALL-2026",
+        "university_id": "bologna", "title": "Engineering Master's programmes – 2026/27 admission notice (includes Ingegneria informatica)",
+        "url": "https://corsi.unibo.it/s/3387/p/it/iscriversi-nuova-13/avviso-lm-a-libero-accesso-2025-26.pdf/@@download/file/Avviso%20ammissioni%202026-2027_nuovi%20intakes.pdf",
+        "source_type": "Official University multi-course admission notice PDF", "accessed_at": "2026-11-11", "cycle": "2026-2027",
+        "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026 with a valid PDF signature (616,454 bytes). The 2026/27 notice expressly includes course 6719 and sets four dated application intakes, committee review of curricular and language eligibility and personal preparation, enrollment dates and ISEE-based tuition structure; these dates and requirements are historical only.",
+        "supports": ["program.previous_cycle_admission", "program.previous_cycle_application_windows", "program.previous_cycle_application_route", "program.previous_cycle_program_requirements", "program.previous_cycle_tuition"],
+    },
+    {
+        "id": "SRC-UNIBO-ING-INF-ACCESS-GUIDE-2026",
+        "university_id": "bologna", "title": "Ingegneria informatica – official access and personal-preparation assessment guide",
+        "url": "https://corsi.unibo.it/s/3387/p/it/iscriversi-nuova-13/informativa-sulle-modalita-di-accesso.pdf/@@download/file/INFORMATIVA%20SULLE%20MODALITA%20DI%20ACCESSO.pdf",
+        "source_type": "Official course access and assessment guide PDF", "accessed_at": "2026-11-11", "cycle": "general",
+        "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026 with a valid PDF signature (471,943 bytes). The 2026/27 admissions page currently links this guide; the PDF itself is not cycle-labelled. It specifies qualifying degree classes, subject-credit thresholds for other degrees, the personal-preparation assessment by final degree mark and subject credits, English B2, and a required pre-assessment workbook; confirm against the next cycle's call.",
+        "supports": ["program.previous_cycle_program_requirements", "program.previous_cycle_english_requirement", "program.previous_cycle_personal_preparation"],
+    },
+    {
+        "id": "SRC-UNIBO-ING-INF-DOUBLE-DEGREE-2026",
+        "university_id": "bologna", "title": "Ubiquitous Systems and Networks – 2026/27 double-degree selection call",
+        "url": "https://corsi.unibo.it/s/3387/p/it/iscriversi-nuova-13/call-for-admission-to-join-the-double-degree-program.pdf/@@download/file/CALL%20FOR%20ADMISSION%20TO%20JOIN%20THE%20DOUBLE%20DEGREE%20PROGRAM.pdf",
+        "source_type": "Official University double-degree selection call PDF", "accessed_at": "2026-11-11", "cycle": "2026-2027",
+        "evidence": "Fresh no-cache GET returned HTTP 200 on 11 November 2026 with a valid PDF signature (238,447 bytes). This separate call offers at most five double-degree places to students already admitted to course 6719 in the first or second 2026/27 intake; the successful students spend the second year at Université Côte d’Azur. It is a supplementary mobility selection, not the general course admission call or a 2027/28 intake notice.",
+        "supports": ["program.previous_cycle_double_degree", "program.availability_2027_2028"],
     },
     {
         "id": "SRC-UNIBO-BA-BBS-2026",
@@ -1483,6 +1515,12 @@ BATCH24 = {
     "result": "Reviewed Bologna Scienze della comunicazione against the 2026/27 catalogue, current course profile and admissions page, the full 2026/27 selection call, the posted extraordinary-selection notice, and the University 2026/27 tuition schedule. Confirmed course 6620: three-year Italian L-20 R bachelor's degree in Bologna, locally capped at 600 places and admitted by TOLC-SU. The 2026/27 call provided first selection (applications 3 March–29 April 2026, 13:00; ranking 15 May; enrollment 15–22 May), second selection (30 April–13 July, 13:00; ranking 22 July; enrollment 22–28 July), and an extraordinary selection for remaining seats (applications 2–11 September, 13:00; ranking 24 September; enrollment 24–29 September). The extraordinary notice listed 156 remaining seats; this is a vacancy count, not added capacity. The first round required 26/50; later rounds had no minimum admission score, while admitted second/extra-round candidates below 26/50 received an OFA due by 31 March 2028. The TOLC-SU score weights the 30 reading/Italian, 10 prior-study knowledge, and 10 logical reasoning questions equally; the extra English section does not count. The University selection contribution was €20; TOLC payment was separate through CISIA and its price is not specified in the reviewed University notice. 2026/27 tuition was ISEE-progressive with a €157.04 fixed component and a €2,040 maximum comprehensive contribution for first-cycle courses, excluding regional tax, stamp duty, and insurance; code 6620 is not among separately listed higher-contribution programmes. No separate GPA requirement appears in the call. No 2027/28 course listing or admission call was found on the reviewed pages, so availability, dates, places, thresholds, application and tuition fees, requirements, and scholarships for that cycle remain pending. Fresh no-cache GETs returned HTTP 200 for all five official pages/PDFs; both PDF signatures were valid.",
 }
 
+BATCH25 = {
+    "id": "unibo-ingegneria-informatica-2026-27-admissions-review",
+    "status": "partial",
+        "result": "Rechecked Bologna Ingegneria informatica against its current course profile, 2026/27 catalogue, four-intake annual admission call, current linked course-specific personal-preparation guide (the PDF is not cycle-labelled), and the separate Ubiquitous Systems and Networks double-degree notice. Confirmed course 6719: two-year LM-32 in Bologna, open access without a capped cohort, with the Italian/English curricula listed by the University. The 2026/27 base call opened four application intakes from 4 June through 28 October 2026, with outcomes through 9 November and enrollment deadlines through 19 November; all application windows are closed, and the call is not next-cycle evidence. Applicants needed a first-cycle three-year degree or recognized foreign equivalent, defined curricular credits (or specified degree classes), English B2, and a positive committee assessment of personal preparation. The course guide ties assessment to final degree marks and subject-credit totals: at least 107/110 satisfies the mark route; 92–106 requires at least 60 relevant CFU with subfield minima; below 92 requires at least 90 relevant CFU with higher subfield minima. Current undergraduates needed 165 CFU and a weighted-average equivalent assessed by those criteria. Applications were submitted through Studenti Online with the required course workbook; the call does not state an application-fee amount, so none is inferred. 2026/27 tuition was ISEE-progressive with a €157.04 fixed component and a €2,550 maximum comprehensive contribution for second-cycle courses, excluding regional tax, stamp duty and insurance; code 6719 is not separately listed as a higher-contribution course. A distinct 2026/27 supplementary double-degree call limited Ubiquitous Systems and Networks to five already-admitted students, with a second year at Université Côte d’Azur; it is not the main intake process. No 2027/28 catalogue or admissions call was present in the reviewed material; availability, deadlines, curricular and language rules, fees, tuition, scholarships, and double-degree terms remain pending for that cycle. Fresh no-cache GETs returned HTTP 200 for all six official pages/PDFs, and all three PDF signatures were valid.",
+}
+
 SOURCE_RECHECKS = {
     "SRC-UNIBO-AI-PROFILE-2026": {
         "accessed_at": "2026-11-11",
@@ -2311,6 +2349,79 @@ SOURCE_RECHECKS.update({
 })
 
 
+SOURCE_RECHECKS.update({
+    "SRC-UNIBO-ING-INF-MSC-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://corsi.unibo.it/magistrale/ingegneriainformatica/index.html",
+            "content_type": "text/html; charset=utf-8", "content_length_header": 303946,
+            "etag": None, "last_modified": None, "cache_control": "must-revalidate, max-age=0, s-maxage=0", "age": "40747",
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Ingegneria informatica - Laurea Magistrale - Bologna", "pdf_signature": None,
+            "has_2027_marker": False, "bytes_read": 303946, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)",
+        },
+    },
+    "SRC-UNIBO-ING-INF-CATALOGUE-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://www.unibo.it/it/studiare/lauree-magistrali/corso/2026/6719",
+            "content_type": "text/html; charset=utf-8", "content_length_header": 493715,
+            "etag": None, "last_modified": None, "cache_control": "must-revalidate, max-age=0, s-maxage=0", "age": "1768",
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Ingegneria informatica — Università di Bologna", "pdf_signature": None,
+            "has_2027_marker": False, "bytes_read": 493715, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)",
+        },
+    },
+    "SRC-UNIBO-ING-INF-ADMISSIONS-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://corsi.unibo.it/magistrale/ingegneriainformatica/iscriversi-al-corso",
+            "content_type": "text/html; charset=utf-8", "content_length_header": 340639,
+            "etag": None, "last_modified": None, "cache_control": "must-revalidate, max-age=0, s-maxage=0", "age": "3339",
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Iscriversi al Corso: requisiti, tempi e modalità — Ingegneria informatica - Laurea Magistrale - Bologna", "pdf_signature": None,
+            "has_2027_marker": False, "bytes_read": 340639, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)",
+        },
+    },
+    "SRC-UNIBO-ING-INF-CALL-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://corsi.unibo.it/s/3387/p/it/iscriversi-nuova-13/avviso-lm-a-libero-accesso-2025-26.pdf/@@download/file/Avviso%20ammissioni%202026-2027_nuovi%20intakes.pdf",
+            "content_type": "application/pdf", "content_length_header": 616454,
+            "etag": None, "last_modified": "06/04/2026 07:32:13 +00:00", "cache_control": "must-revalidate, max-age=0, s-maxage=0", "age": "120",
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None, "observed_title": None,
+            "pdf_signature": True, "has_2027_marker": False, "bytes_read": 616454, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)",
+        },
+    },
+    "SRC-UNIBO-ING-INF-ACCESS-GUIDE-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://corsi.unibo.it/s/3387/p/it/iscriversi-nuova-13/informativa-sulle-modalita-di-accesso.pdf/@@download/file/INFORMATIVA%20SULLE%20MODALITA%20DI%20ACCESSO.pdf",
+            "content_type": "application/pdf", "content_length_header": 471943,
+            "etag": None, "last_modified": "02/26/2025 15:27:36 +00:00", "cache_control": "must-revalidate, max-age=0, s-maxage=0", "age": "121",
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None, "observed_title": None,
+            "pdf_signature": True, "has_2027_marker": False, "bytes_read": 471943, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)",
+        },
+    },
+    "SRC-UNIBO-ING-INF-DOUBLE-DEGREE-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://corsi.unibo.it/s/3387/p/it/iscriversi-nuova-13/call-for-admission-to-join-the-double-degree-program.pdf/@@download/file/CALL%20FOR%20ADMISSION%20TO%20JOIN%20THE%20DOUBLE%20DEGREE%20PROGRAM.pdf",
+            "content_type": "application/pdf", "content_length_header": 238447,
+            "etag": None, "last_modified": "06/09/2026 10:25:44 +00:00", "cache_control": "must-revalidate, max-age=0, s-maxage=0", "age": "120",
+            "x_vercel_cache": None, "x_vercel_id": None, "location": None, "observed_title": None,
+            "pdf_signature": True, "has_2027_marker": False, "bytes_read": 238447, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control and Pragma no-cache (PowerShell HttpClient)",
+        },
+    },
+})
+
+
 def _fact(value: Any, status: str, source_ids: list[str], notes: str | None = None) -> dict[str, Any]:
     return {"value": value, "status": status, "source_ids": source_ids, "notes": notes}
 
@@ -2403,7 +2514,7 @@ def apply_legacy_course_reviews(programs: list[dict[str, Any]], fact: Callable[.
         ("legacy-149", "Medicina e chirurgia", "Single-cycle Master's (LM-41)", "Italian", "Medicine and Surgery", ["SRC-UNIBO-MED-IT-PROFILE-2026", "SRC-UNIBO-MED-IT-ENROL-2026"]),
         ("legacy-150", "Giurisprudenza", "Single-cycle Master's (LMG/01)", "Italian", "Law", ["SRC-UNIBO-LAW-2026", "SRC-UNIBO-GIURISPRUDENZA-REG-2026"]),
         ("legacy-151", "Scienze della comunicazione", "BSc", "Italian", "Communication Sciences", ["SRC-UNIBO-COMMUNICATION-2026", "SRC-UNIBO-COMM-ADMISSION-2026", "SRC-UNIBO-COMM-CATALOGUE-2026", "SRC-UNIBO-COMM-CALL-2026", "SRC-UNIBO-COMM-EXTRA-2026", "SRC-UNIBO-TUITION-PAGE-2026", "SRC-UNIBO-TUITION-TABLE-2026"]),
-        ("legacy-152", "Ingegneria informatica", "MSc", "Italian and English", "Computer Engineering", ["SRC-UNIBO-ING-INF-MSC-2026", "SRC-UNIBO-ING-INF-ADMISSIONS-2026"]),
+        ("legacy-152", "Ingegneria informatica", "MSc", "Italian and English", "Computer Engineering", ["SRC-UNIBO-ING-INF-MSC-2026", "SRC-UNIBO-ING-INF-ADMISSIONS-2026", "SRC-UNIBO-ING-INF-CATALOGUE-2026", "SRC-UNIBO-ING-INF-CALL-2026", "SRC-UNIBO-ING-INF-ACCESS-GUIDE-2026", "SRC-UNIBO-ING-INF-DOUBLE-DEGREE-2026", "SRC-UNIBO-TUITION-PAGE-2026", "SRC-UNIBO-TUITION-TABLE-2026"]),
     ]
     for item in bologna:
         pid, name, level, language, field_name, sources, *optional = item
@@ -2891,6 +3002,91 @@ def apply_legacy_course_reviews(programs: list[dict[str, Any]], fact: Callable[.
         "The reviewed admission call refers to general benefits but establishes no course-specific scholarship terms; 2027/28 aid remains pending.",
     )
     communication["last_checked"] = "2026-11-11"
+
+    computer_engineering = by_id["legacy-152"]
+    enginf_profile = "SRC-UNIBO-ING-INF-MSC-2026"
+    enginf_admissions = "SRC-UNIBO-ING-INF-ADMISSIONS-2026"
+    enginf_catalogue = "SRC-UNIBO-ING-INF-CATALOGUE-2026"
+    enginf_call = "SRC-UNIBO-ING-INF-CALL-2026"
+    enginf_guide = "SRC-UNIBO-ING-INF-ACCESS-GUIDE-2026"
+    enginf_double = "SRC-UNIBO-ING-INF-DOUBLE-DEGREE-2026"
+    enginf_tuition_page = "SRC-UNIBO-TUITION-PAGE-2026"
+    enginf_tuition_table = "SRC-UNIBO-TUITION-TABLE-2026"
+    enginf_sources = [enginf_profile, enginf_admissions, enginf_catalogue, enginf_call, enginf_guide, enginf_double, enginf_tuition_page, enginf_tuition_table]
+    prior(computer_engineering, official_name="Ingegneria informatica", level="MSc", language="Italian and English",
+          field="Computer Engineering", source_ids=enginf_sources, city="Bologna",
+          cycle="2026-2027", checked_at="2026-11-11")
+    computer_engineering["facts"]["previous_cycle_course_listing"] = _fact(
+        {"academic_year":"2026/27", "official_name":"Ingegneria informatica", "course_code":"6719", "degree_class":"LM-32 - Computer Engineering", "level":"Master's degree", "duration_years":2, "campus":"Bologna", "languages_listed_by_university":["Italian","English"], "curricula":["Ingegneria dei sistemi informatici","Ubiquitous Systems and Networks"], "access":"Open access subject to curricular, language and personal-preparation verification", "maximum_enrollment_cap":None},
+        "CONFIRMED", [enginf_catalogue, enginf_profile, enginf_call],
+        "The University lists Italian and English across the degree and identifies separate curricula with separate study plans. AY 2026/27 open access means no maximum cohort size; applicants still had to pass the published eligibility checks. These facts do not establish 2027/28 availability.",
+    )
+    computer_engineering["facts"]["previous_cycle_places"] = _fact(
+        {"academic_year":"2026/27", "access_type":"Open access", "maximum_places":None, "selection_by_ranked_limited_seats":False},
+        "CONFIRMED", [enginf_call, enginf_catalogue],
+        "The notice expressly says this course has no maximum enrollment for 2026/27. Admission was conditional on meeting the curricular, language and personal-preparation checks.",
+    )
+    computer_engineering["facts"]["previous_cycle_admission"] = _fact(
+        {"academic_year":"2026/27", "access":"Open access without an enrollment cap", "process":"Four application intakes followed by committee review of qualification, curricular credits, English-language evidence and personal preparation", "standardized_entry_test":None, "passing_review_required_before_enrollment":True},
+        "CONFIRMED", [enginf_call, enginf_catalogue, enginf_guide],
+        "Historical 2026/27 admission process. Open access did not waive the stated eligibility and academic-preparation checks.",
+    )
+    computer_engineering["facts"]["previous_cycle_application_windows"] = _fact(
+        [
+            {"intake":1,"application_open":"2026-06-04","application_deadline":"2026-07-02T13:00","outcome_by":"2026-07-21","enrollment_window":["2026-07-28","2026-11-19"],"late_fee_applies_from":"2026-10-30","not_admitted_candidates_may_reapply_in_later_intakes":False},
+            {"intake":2,"application_open":"2026-07-03","application_deadline":"2026-09-02T13:00","outcome_by":"2026-09-24","enrollment_window":["2026-10-01","2026-11-19"],"late_fee_applies_from":"2026-10-30","not_admitted_candidates_may_reapply_in_later_intakes":False},
+            {"intake":3,"application_open":"2026-09-03","application_deadline":"2026-09-30T13:00","outcome_by":"2026-10-15","enrollment_window":["2026-10-22","2026-11-19"],"late_fee_applies_from":"2026-10-30","not_admitted_candidates_may_reapply_in_later_intakes":False},
+            {"intake":4,"application_open":"2026-10-01","application_deadline":"2026-10-28T13:00","outcome_by":"2026-11-09","enrollment_window":["2026-11-13","2026-11-19"],"late_fee_applies_from":"2026-10-30","not_admitted_candidates_may_reapply_in_later_intakes":False},
+        ],
+        "CONFIRMED", [enginf_call],
+        "These are the 2026/27 dates in the expired four-intake call. Application deadlines have passed; the final enrollment date listed was 19 November 2026. Do not reuse them for 2027/28.",
+    )
+    computer_engineering["facts"]["previous_cycle_program_requirements"] = _fact(
+        {"academic_qualification":"Three-year first-cycle degree or recognized foreign equivalent", "accepted_italian_degree_classes":{"DM_270_2004":["L-8","L-31"],"DM_509_1999":["L-9","L-26"]}, "alternative_degree_credit_requirements":[{"subject_areas":["ING-INF/05","INF/01"],"minimum_cfu":36},{"subject_areas":["ING-INF/01","ING-INF/02","ING-INF/03","ING-INF/04","ING-INF/07"],"minimum_cfu":18},{"subject_areas":["MAT/02","MAT/03","MAT/05","MAT/06","MAT/07","MAT/08","MAT/09","FIS/01","FIS/03"],"minimum_cfu":24}], "foreign_degree":"Committee assesses equivalence; application includes transcript and full syllabus of exams", "undergraduate_applicant_minimum_cfu":165, "english_requirement":"B2 CEFR", "assessment":"Committee verifies personal preparation against degree-grade and subject-credit criteria", "required_preassessment_workbook":"Course-specific AccessoLM.xlsx uploaded through Studenti Online"},
+        "CONFIRMED", [enginf_admissions, enginf_call, enginf_guide],
+        "Historical 2026/27 requirements only. Applicants without one of the listed Italian degree classes could qualify through the stated subject-credit minima; the committee assessment remains a separate condition.",
+    )
+    computer_engineering["facts"]["previous_cycle_english_requirement"] = _fact(
+        {"minimum_level":"B2 CEFR", "accepted_evidence":["IELTS accepted scores listed by the course","TOEFL accepted scores listed by the course","Trinity ISE II","Cambridge First Certificate","TOEIC accepted section scores listed by the course","PTE Academic accepted scores listed by the course","Curricular B2 language eligibility from CLA at Bologna or another university"]},
+        "CONFIRMED", [enginf_admissions, enginf_call, enginf_guide],
+        "B2 is required in the 2026/27 course admission material, even though the University catalogue lists two curricula and two languages overall. Recheck the next-cycle rule and currently accepted certificate tables.",
+    )
+    computer_engineering["facts"]["previous_cycle_personal_preparation"] = _fact(
+        {"assessment":"Document review by a course committee", "relevant_subjects":["INF/01","ING-INF/01","ING-INF/02","ING-INF/03","ING-INF/04","ING-INF/05","ING-INF/07","ING-IND/31","ING-IND/35"], "core_subjects":["INF/01","ING-INF/05"], "degree_mark_at_least_107_of_110":"Personal-preparation requirement satisfied", "degree_mark_92_to_106_of_110":{"minimum_relevant_cfu":60,"minimum_cfu_in_core_subjects":33,"minimum_cfu_in_other_listed_technical_subjects":12,"other_listed_technical_subjects":["ING-INF/01","ING-INF/02","ING-INF/03","ING-INF/04","ING-INF/07","ING-IND/31","ING-IND/35"]}, "degree_mark_below_92_of_110":{"minimum_relevant_cfu":90,"minimum_cfu_in_core_subjects":66,"minimum_cfu_in_other_listed_technical_subjects":18,"other_listed_technical_subjects":["ING-INF/01","ING-INF/02","ING-INF/03","ING-INF/04","ING-INF/07","ING-IND/31","ING-IND/35"]}, "candidate_without_degree":{"minimum_cfu":165,"grade_basis":"Weighted-average exam mark converted to a 110-point equivalent and assessed under the same criteria"}},
+        "CONFIRMED", [enginf_guide, enginf_admissions],
+        "These are the published 2026/27 personal-preparation thresholds. A degree mark is part of a conditional credit-and-preparation assessment, not a stand-alone general GPA cutoff.",
+    )
+    computer_engineering["facts"]["previous_cycle_application_route"] = _fact(
+        {"application":"Submit a separate request through Studenti Online for the selected intake", "documents":"Identity document, qualification and exams/transcript, B2 proof, and the course workbook for preliminary checking; candidates with foreign degrees upload a full exam syllabus", "international_non_eu_residing_abroad":"Universitaly pre-enrolment and study visa steps apply", "committee_result":"Published to the applicant in Studenti Online"},
+        "CONFIRMED", [enginf_admissions, enginf_call, enginf_guide],
+        "Historical AY 2026/27 route; the admission notice says incomplete mandatory uploads can exclude an application. Recheck the next cycle's portal and document list.",
+    )
+    computer_engineering["facts"]["previous_cycle_application_fee"] = _fact(
+        {"application_fee_amount_eur":None, "fee_amount_stated_in_reviewed_2026_27_call":False},
+        "UNAVAILABLE", [enginf_call],
+        "The multi-course 2026/27 notice reviewed describes submitting the application but does not state a selection-fee amount. No zero-fee assumption is made.",
+    )
+    computer_engineering["facts"]["previous_cycle_gpa_requirement"] = _fact(
+        {"standalone_gpa_cutoff":False, "personal_preparation_uses_degree_mark_and_credit_thresholds":True, "degree_mark_bands":{"at_least_107_of_110":"Pass mark route", "92_to_106_of_110":"Pass only with at least 60 specified CFU and subfield minima", "below_92_of_110":"Pass only with at least 90 specified CFU and subfield minima"}},
+        "CONFIRMED", [enginf_guide],
+        "The course uses final-degree-mark bands combined with curricular credit totals to verify preparation; these are not an independent GPA ranking threshold.",
+    )
+    computer_engineering["facts"]["previous_cycle_tuition"] = _fact(
+        {"academic_year":"2026/27", "fixed_component_eur":157.04, "isee_progressive_variable_component":True, "maximum_comprehensive_contribution_second_cycle_eur":2550, "course_code_6719_separately_listed_as_higher_contribution":False, "maximum_excludes":["Regional study tax","Stamp duty","Insurance"]},
+        "CONFIRMED", [enginf_call, enginf_tuition_page, enginf_tuition_table],
+        "The official 2026/27 schedule gives €2,550 as the ordinary maximum comprehensive contribution for second-cycle courses and separately lists higher-rate exceptions; code 6719 is not among them. This is a maximum before the excluded charges, not a guaranteed net fee. No 2027/28 amount is inferred.",
+    )
+    computer_engineering["facts"]["previous_cycle_double_degree"] = _fact(
+        {"academic_year":"2026/27", "curriculum":"Ubiquitous Systems and Networks", "partner":"Université Côte d’Azur", "maximum_places":5, "eligible_applicants":"Students already admitted to course 6719 in intake 1 or 2", "application_window":["2026-07-23","2026-09-16T12:00"], "results_date":"2026-09-23", "selection_criteria":["Bachelor's (and Master's, if held) CGPA","ECTS count","Final degree mark","Length of previous career versus standard duration"], "mobility_requirement":"Spend second year in Nice; complete 60 ECTS of year-1 exams by the September 2026 exam session before departure"},
+        "CONFIRMED", [enginf_double],
+        "This was a separate 2026/27 selection after admission to the LM-32; it did not replace the general course admission procedure and does not establish next-cycle double-degree availability.",
+    )
+    computer_engineering["facts"]["last_cycle_scholarships"] = _fact(
+        {"course_specific_award":None, "general_support":"University and ER.GO scholarships and benefits are handled through separate annual calls"},
+        "UNAVAILABLE", [enginf_call],
+        "The reviewed general admission notice points to separate ER.GO and University benefit procedures but does not establish a course-specific 2026/27 award amount.",
+    )
+    computer_engineering["last_checked"] = "2026-11-11"
 
     business_analytics = by_id["legacy-022"]
     business_analytics_sources = ["SRC-UNIBO-BA-CURRICULUM-2026", "SRC-UNIBO-BA-CURRICULUM-PARENT-2026", "SRC-UNIBO-BA-BBS-2026"]

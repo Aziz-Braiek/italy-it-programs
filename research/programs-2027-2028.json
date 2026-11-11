@@ -30655,7 +30655,13 @@
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
         "SRC-UNIBO-ING-INF-MSC-2026",
-        "SRC-UNIBO-ING-INF-ADMISSIONS-2026"
+        "SRC-UNIBO-ING-INF-ADMISSIONS-2026",
+        "SRC-UNIBO-ING-INF-CATALOGUE-2026",
+        "SRC-UNIBO-ING-INF-CALL-2026",
+        "SRC-UNIBO-ING-INF-ACCESS-GUIDE-2026",
+        "SRC-UNIBO-ING-INF-DOUBLE-DEGREE-2026",
+        "SRC-UNIBO-TUITION-PAGE-2026",
+        "SRC-UNIBO-TUITION-TABLE-2026"
       ],
       "notes": "Official course identity is confirmed for the 2026/2027 catalogue; this value is not promoted to 2027/28 without a named-cycle source."
     },
@@ -30664,7 +30670,13 @@
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
         "SRC-UNIBO-ING-INF-MSC-2026",
-        "SRC-UNIBO-ING-INF-ADMISSIONS-2026"
+        "SRC-UNIBO-ING-INF-ADMISSIONS-2026",
+        "SRC-UNIBO-ING-INF-CATALOGUE-2026",
+        "SRC-UNIBO-ING-INF-CALL-2026",
+        "SRC-UNIBO-ING-INF-ACCESS-GUIDE-2026",
+        "SRC-UNIBO-ING-INF-DOUBLE-DEGREE-2026",
+        "SRC-UNIBO-TUITION-PAGE-2026",
+        "SRC-UNIBO-TUITION-TABLE-2026"
       ],
       "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
     },
@@ -30673,7 +30685,13 @@
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
         "SRC-UNIBO-ING-INF-MSC-2026",
-        "SRC-UNIBO-ING-INF-ADMISSIONS-2026"
+        "SRC-UNIBO-ING-INF-ADMISSIONS-2026",
+        "SRC-UNIBO-ING-INF-CATALOGUE-2026",
+        "SRC-UNIBO-ING-INF-CALL-2026",
+        "SRC-UNIBO-ING-INF-ACCESS-GUIDE-2026",
+        "SRC-UNIBO-ING-INF-DOUBLE-DEGREE-2026",
+        "SRC-UNIBO-TUITION-PAGE-2026",
+        "SRC-UNIBO-TUITION-TABLE-2026"
       ],
       "notes": "Course subject identity is based on current official profile/catalogue evidence; next-cycle catalogue not yet verified."
     },
@@ -30682,85 +30700,474 @@
       "status": "NOT_YET_PUBLISHED",
       "source_ids": [
         "SRC-UNIBO-ING-INF-MSC-2026",
-        "SRC-UNIBO-ING-INF-ADMISSIONS-2026"
+        "SRC-UNIBO-ING-INF-ADMISSIONS-2026",
+        "SRC-UNIBO-ING-INF-CATALOGUE-2026",
+        "SRC-UNIBO-ING-INF-CALL-2026",
+        "SRC-UNIBO-ING-INF-ACCESS-GUIDE-2026",
+        "SRC-UNIBO-ING-INF-DOUBLE-DEGREE-2026",
+        "SRC-UNIBO-TUITION-PAGE-2026",
+        "SRC-UNIBO-TUITION-TABLE-2026"
       ],
-      "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued."
+      "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-11. This does not mean discontinued."
     },
     "overall_status": "REQUIRES_VERIFICATION",
     "discovery_source": "previous_tracker",
     "facts": {
       "previous_cycle_course_listing": {
         "value": {
-          "academic_year": "2026/2027",
+          "academic_year": "2026/27",
           "official_name": "Ingegneria informatica",
-          "level": "MSc",
-          "language": "Italian and English"
+          "course_code": "6719",
+          "degree_class": "LM-32 - Computer Engineering",
+          "level": "Master's degree",
+          "duration_years": 2,
+          "campus": "Bologna",
+          "languages_listed_by_university": [
+            "Italian",
+            "English"
+          ],
+          "curricula": [
+            "Ingegneria dei sistemi informatici",
+            "Ubiquitous Systems and Networks"
+          ],
+          "access": "Open access subject to curricular, language and personal-preparation verification",
+          "maximum_enrollment_cap": null
         },
         "status": "CONFIRMED",
         "source_ids": [
+          "SRC-UNIBO-ING-INF-CATALOGUE-2026",
           "SRC-UNIBO-ING-INF-MSC-2026",
-          "SRC-UNIBO-ING-INF-ADMISSIONS-2026"
+          "SRC-UNIBO-ING-INF-CALL-2026"
         ],
-        "notes": "Official course profile/catalogue evidence is cycle-scoped to 2026/2027 and does not establish 2027/28 first-year admission."
+        "notes": "The University lists Italian and English across the degree and identifies separate curricula with separate study plans. AY 2026/27 open access means no maximum cohort size; applicants still had to pass the published eligibility checks. These facts do not establish 2027/28 availability."
       },
       "application_windows": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
           "SRC-UNIBO-ING-INF-MSC-2026",
-          "SRC-UNIBO-ING-INF-ADMISSIONS-2026"
+          "SRC-UNIBO-ING-INF-ADMISSIONS-2026",
+          "SRC-UNIBO-ING-INF-CATALOGUE-2026",
+          "SRC-UNIBO-ING-INF-CALL-2026",
+          "SRC-UNIBO-ING-INF-ACCESS-GUIDE-2026",
+          "SRC-UNIBO-ING-INF-DOUBLE-DEGREE-2026",
+          "SRC-UNIBO-TUITION-PAGE-2026",
+          "SRC-UNIBO-TUITION-TABLE-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates."
+        "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-11; do not reuse 2026/27 dates."
       },
       "application_fee_2027_2028": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
           "SRC-UNIBO-ING-INF-MSC-2026",
-          "SRC-UNIBO-ING-INF-ADMISSIONS-2026"
+          "SRC-UNIBO-ING-INF-ADMISSIONS-2026",
+          "SRC-UNIBO-ING-INF-CATALOGUE-2026",
+          "SRC-UNIBO-ING-INF-CALL-2026",
+          "SRC-UNIBO-ING-INF-ACCESS-GUIDE-2026",
+          "SRC-UNIBO-ING-INF-DOUBLE-DEGREE-2026",
+          "SRC-UNIBO-TUITION-PAGE-2026",
+          "SRC-UNIBO-TUITION-TABLE-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal."
+        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; check the annual call and application portal."
       },
       "program_specific_requirements_2027_2028": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
           "SRC-UNIBO-ING-INF-MSC-2026",
-          "SRC-UNIBO-ING-INF-ADMISSIONS-2026"
+          "SRC-UNIBO-ING-INF-ADMISSIONS-2026",
+          "SRC-UNIBO-ING-INF-CATALOGUE-2026",
+          "SRC-UNIBO-ING-INF-CALL-2026",
+          "SRC-UNIBO-ING-INF-ACCESS-GUIDE-2026",
+          "SRC-UNIBO-ING-INF-DOUBLE-DEGREE-2026",
+          "SRC-UNIBO-TUITION-PAGE-2026",
+          "SRC-UNIBO-TUITION-TABLE-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only."
+        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; any 2026/27 criteria are historical only."
       },
       "tuition_2027_2028": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
           "SRC-UNIBO-ING-INF-MSC-2026",
-          "SRC-UNIBO-ING-INF-ADMISSIONS-2026"
+          "SRC-UNIBO-ING-INF-ADMISSIONS-2026",
+          "SRC-UNIBO-ING-INF-CATALOGUE-2026",
+          "SRC-UNIBO-ING-INF-CALL-2026",
+          "SRC-UNIBO-ING-INF-ACCESS-GUIDE-2026",
+          "SRC-UNIBO-ING-INF-DOUBLE-DEGREE-2026",
+          "SRC-UNIBO-TUITION-PAGE-2026",
+          "SRC-UNIBO-TUITION-TABLE-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts."
+        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; do not carry forward prior-cycle amounts."
       },
       "scholarships_2027_2028": {
         "value": null,
         "status": "NOT_YET_PUBLISHED",
         "source_ids": [
           "SRC-UNIBO-ING-INF-MSC-2026",
-          "SRC-UNIBO-ING-INF-ADMISSIONS-2026"
+          "SRC-UNIBO-ING-INF-ADMISSIONS-2026",
+          "SRC-UNIBO-ING-INF-CATALOGUE-2026",
+          "SRC-UNIBO-ING-INF-CALL-2026",
+          "SRC-UNIBO-ING-INF-ACCESS-GUIDE-2026",
+          "SRC-UNIBO-ING-INF-DOUBLE-DEGREE-2026",
+          "SRC-UNIBO-TUITION-PAGE-2026",
+          "SRC-UNIBO-TUITION-TABLE-2026"
         ],
-        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking."
+        "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; annual university and regional calls still need checking."
       },
       "acceptance_rate": {
         "value": null,
         "status": "UNAVAILABLE",
         "source_ids": [
           "SRC-UNIBO-ING-INF-MSC-2026",
-          "SRC-UNIBO-ING-INF-ADMISSIONS-2026"
+          "SRC-UNIBO-ING-INF-ADMISSIONS-2026",
+          "SRC-UNIBO-ING-INF-CATALOGUE-2026",
+          "SRC-UNIBO-ING-INF-CALL-2026",
+          "SRC-UNIBO-ING-INF-ACCESS-GUIDE-2026",
+          "SRC-UNIBO-ING-INF-DOUBLE-DEGREE-2026",
+          "SRC-UNIBO-TUITION-PAGE-2026",
+          "SRC-UNIBO-TUITION-TABLE-2026"
         ],
         "notes": "The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred."
+      },
+      "previous_cycle_places": {
+        "value": {
+          "academic_year": "2026/27",
+          "access_type": "Open access",
+          "maximum_places": null,
+          "selection_by_ranked_limited_seats": false
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-ING-INF-CALL-2026",
+          "SRC-UNIBO-ING-INF-CATALOGUE-2026"
+        ],
+        "notes": "The notice expressly says this course has no maximum enrollment for 2026/27. Admission was conditional on meeting the curricular, language and personal-preparation checks."
+      },
+      "previous_cycle_admission": {
+        "value": {
+          "academic_year": "2026/27",
+          "access": "Open access without an enrollment cap",
+          "process": "Four application intakes followed by committee review of qualification, curricular credits, English-language evidence and personal preparation",
+          "standardized_entry_test": null,
+          "passing_review_required_before_enrollment": true
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-ING-INF-CALL-2026",
+          "SRC-UNIBO-ING-INF-CATALOGUE-2026",
+          "SRC-UNIBO-ING-INF-ACCESS-GUIDE-2026"
+        ],
+        "notes": "Historical 2026/27 admission process. Open access did not waive the stated eligibility and academic-preparation checks."
+      },
+      "previous_cycle_application_windows": {
+        "value": [
+          {
+            "intake": 1,
+            "application_open": "2026-06-04",
+            "application_deadline": "2026-07-02T13:00",
+            "outcome_by": "2026-07-21",
+            "enrollment_window": [
+              "2026-07-28",
+              "2026-11-19"
+            ],
+            "late_fee_applies_from": "2026-10-30",
+            "not_admitted_candidates_may_reapply_in_later_intakes": false
+          },
+          {
+            "intake": 2,
+            "application_open": "2026-07-03",
+            "application_deadline": "2026-09-02T13:00",
+            "outcome_by": "2026-09-24",
+            "enrollment_window": [
+              "2026-10-01",
+              "2026-11-19"
+            ],
+            "late_fee_applies_from": "2026-10-30",
+            "not_admitted_candidates_may_reapply_in_later_intakes": false
+          },
+          {
+            "intake": 3,
+            "application_open": "2026-09-03",
+            "application_deadline": "2026-09-30T13:00",
+            "outcome_by": "2026-10-15",
+            "enrollment_window": [
+              "2026-10-22",
+              "2026-11-19"
+            ],
+            "late_fee_applies_from": "2026-10-30",
+            "not_admitted_candidates_may_reapply_in_later_intakes": false
+          },
+          {
+            "intake": 4,
+            "application_open": "2026-10-01",
+            "application_deadline": "2026-10-28T13:00",
+            "outcome_by": "2026-11-09",
+            "enrollment_window": [
+              "2026-11-13",
+              "2026-11-19"
+            ],
+            "late_fee_applies_from": "2026-10-30",
+            "not_admitted_candidates_may_reapply_in_later_intakes": false
+          }
+        ],
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-ING-INF-CALL-2026"
+        ],
+        "notes": "These are the 2026/27 dates in the expired four-intake call. Application deadlines have passed; the final enrollment date listed was 19 November 2026. Do not reuse them for 2027/28."
+      },
+      "previous_cycle_program_requirements": {
+        "value": {
+          "academic_qualification": "Three-year first-cycle degree or recognized foreign equivalent",
+          "accepted_italian_degree_classes": {
+            "DM_270_2004": [
+              "L-8",
+              "L-31"
+            ],
+            "DM_509_1999": [
+              "L-9",
+              "L-26"
+            ]
+          },
+          "alternative_degree_credit_requirements": [
+            {
+              "subject_areas": [
+                "ING-INF/05",
+                "INF/01"
+              ],
+              "minimum_cfu": 36
+            },
+            {
+              "subject_areas": [
+                "ING-INF/01",
+                "ING-INF/02",
+                "ING-INF/03",
+                "ING-INF/04",
+                "ING-INF/07"
+              ],
+              "minimum_cfu": 18
+            },
+            {
+              "subject_areas": [
+                "MAT/02",
+                "MAT/03",
+                "MAT/05",
+                "MAT/06",
+                "MAT/07",
+                "MAT/08",
+                "MAT/09",
+                "FIS/01",
+                "FIS/03"
+              ],
+              "minimum_cfu": 24
+            }
+          ],
+          "foreign_degree": "Committee assesses equivalence; application includes transcript and full syllabus of exams",
+          "undergraduate_applicant_minimum_cfu": 165,
+          "english_requirement": "B2 CEFR",
+          "assessment": "Committee verifies personal preparation against degree-grade and subject-credit criteria",
+          "required_preassessment_workbook": "Course-specific AccessoLM.xlsx uploaded through Studenti Online"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-ING-INF-ADMISSIONS-2026",
+          "SRC-UNIBO-ING-INF-CALL-2026",
+          "SRC-UNIBO-ING-INF-ACCESS-GUIDE-2026"
+        ],
+        "notes": "Historical 2026/27 requirements only. Applicants without one of the listed Italian degree classes could qualify through the stated subject-credit minima; the committee assessment remains a separate condition."
+      },
+      "previous_cycle_english_requirement": {
+        "value": {
+          "minimum_level": "B2 CEFR",
+          "accepted_evidence": [
+            "IELTS accepted scores listed by the course",
+            "TOEFL accepted scores listed by the course",
+            "Trinity ISE II",
+            "Cambridge First Certificate",
+            "TOEIC accepted section scores listed by the course",
+            "PTE Academic accepted scores listed by the course",
+            "Curricular B2 language eligibility from CLA at Bologna or another university"
+          ]
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-ING-INF-ADMISSIONS-2026",
+          "SRC-UNIBO-ING-INF-CALL-2026",
+          "SRC-UNIBO-ING-INF-ACCESS-GUIDE-2026"
+        ],
+        "notes": "B2 is required in the 2026/27 course admission material, even though the University catalogue lists two curricula and two languages overall. Recheck the next-cycle rule and currently accepted certificate tables."
+      },
+      "previous_cycle_personal_preparation": {
+        "value": {
+          "assessment": "Document review by a course committee",
+          "relevant_subjects": [
+            "INF/01",
+            "ING-INF/01",
+            "ING-INF/02",
+            "ING-INF/03",
+            "ING-INF/04",
+            "ING-INF/05",
+            "ING-INF/07",
+            "ING-IND/31",
+            "ING-IND/35"
+          ],
+          "core_subjects": [
+            "INF/01",
+            "ING-INF/05"
+          ],
+          "degree_mark_at_least_107_of_110": "Personal-preparation requirement satisfied",
+          "degree_mark_92_to_106_of_110": {
+            "minimum_relevant_cfu": 60,
+            "minimum_cfu_in_core_subjects": 33,
+            "minimum_cfu_in_other_listed_technical_subjects": 12,
+            "other_listed_technical_subjects": [
+              "ING-INF/01",
+              "ING-INF/02",
+              "ING-INF/03",
+              "ING-INF/04",
+              "ING-INF/07",
+              "ING-IND/31",
+              "ING-IND/35"
+            ]
+          },
+          "degree_mark_below_92_of_110": {
+            "minimum_relevant_cfu": 90,
+            "minimum_cfu_in_core_subjects": 66,
+            "minimum_cfu_in_other_listed_technical_subjects": 18,
+            "other_listed_technical_subjects": [
+              "ING-INF/01",
+              "ING-INF/02",
+              "ING-INF/03",
+              "ING-INF/04",
+              "ING-INF/07",
+              "ING-IND/31",
+              "ING-IND/35"
+            ]
+          },
+          "candidate_without_degree": {
+            "minimum_cfu": 165,
+            "grade_basis": "Weighted-average exam mark converted to a 110-point equivalent and assessed under the same criteria"
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-ING-INF-ACCESS-GUIDE-2026",
+          "SRC-UNIBO-ING-INF-ADMISSIONS-2026"
+        ],
+        "notes": "These are the published 2026/27 personal-preparation thresholds. A degree mark is part of a conditional credit-and-preparation assessment, not a stand-alone general GPA cutoff."
+      },
+      "previous_cycle_application_route": {
+        "value": {
+          "application": "Submit a separate request through Studenti Online for the selected intake",
+          "documents": "Identity document, qualification and exams/transcript, B2 proof, and the course workbook for preliminary checking; candidates with foreign degrees upload a full exam syllabus",
+          "international_non_eu_residing_abroad": "Universitaly pre-enrolment and study visa steps apply",
+          "committee_result": "Published to the applicant in Studenti Online"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-ING-INF-ADMISSIONS-2026",
+          "SRC-UNIBO-ING-INF-CALL-2026",
+          "SRC-UNIBO-ING-INF-ACCESS-GUIDE-2026"
+        ],
+        "notes": "Historical AY 2026/27 route; the admission notice says incomplete mandatory uploads can exclude an application. Recheck the next cycle's portal and document list."
+      },
+      "previous_cycle_application_fee": {
+        "value": {
+          "application_fee_amount_eur": null,
+          "fee_amount_stated_in_reviewed_2026_27_call": false
+        },
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-UNIBO-ING-INF-CALL-2026"
+        ],
+        "notes": "The multi-course 2026/27 notice reviewed describes submitting the application but does not state a selection-fee amount. No zero-fee assumption is made."
+      },
+      "previous_cycle_gpa_requirement": {
+        "value": {
+          "standalone_gpa_cutoff": false,
+          "personal_preparation_uses_degree_mark_and_credit_thresholds": true,
+          "degree_mark_bands": {
+            "at_least_107_of_110": "Pass mark route",
+            "92_to_106_of_110": "Pass only with at least 60 specified CFU and subfield minima",
+            "below_92_of_110": "Pass only with at least 90 specified CFU and subfield minima"
+          }
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-ING-INF-ACCESS-GUIDE-2026"
+        ],
+        "notes": "The course uses final-degree-mark bands combined with curricular credit totals to verify preparation; these are not an independent GPA ranking threshold."
+      },
+      "previous_cycle_tuition": {
+        "value": {
+          "academic_year": "2026/27",
+          "fixed_component_eur": 157.04,
+          "isee_progressive_variable_component": true,
+          "maximum_comprehensive_contribution_second_cycle_eur": 2550,
+          "course_code_6719_separately_listed_as_higher_contribution": false,
+          "maximum_excludes": [
+            "Regional study tax",
+            "Stamp duty",
+            "Insurance"
+          ]
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-ING-INF-CALL-2026",
+          "SRC-UNIBO-TUITION-PAGE-2026",
+          "SRC-UNIBO-TUITION-TABLE-2026"
+        ],
+        "notes": "The official 2026/27 schedule gives €2,550 as the ordinary maximum comprehensive contribution for second-cycle courses and separately lists higher-rate exceptions; code 6719 is not among them. This is a maximum before the excluded charges, not a guaranteed net fee. No 2027/28 amount is inferred."
+      },
+      "previous_cycle_double_degree": {
+        "value": {
+          "academic_year": "2026/27",
+          "curriculum": "Ubiquitous Systems and Networks",
+          "partner": "Université Côte d’Azur",
+          "maximum_places": 5,
+          "eligible_applicants": "Students already admitted to course 6719 in intake 1 or 2",
+          "application_window": [
+            "2026-07-23",
+            "2026-09-16T12:00"
+          ],
+          "results_date": "2026-09-23",
+          "selection_criteria": [
+            "Bachelor's (and Master's, if held) CGPA",
+            "ECTS count",
+            "Final degree mark",
+            "Length of previous career versus standard duration"
+          ],
+          "mobility_requirement": "Spend second year in Nice; complete 60 ECTS of year-1 exams by the September 2026 exam session before departure"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-ING-INF-DOUBLE-DEGREE-2026"
+        ],
+        "notes": "This was a separate 2026/27 selection after admission to the LM-32; it did not replace the general course admission procedure and does not establish next-cycle double-degree availability."
+      },
+      "last_cycle_scholarships": {
+        "value": {
+          "course_specific_award": null,
+          "general_support": "University and ER.GO scholarships and benefits are handled through separate annual calls"
+        },
+        "status": "UNAVAILABLE",
+        "source_ids": [
+          "SRC-UNIBO-ING-INF-CALL-2026"
+        ],
+        "notes": "The reviewed general admission notice points to separate ER.GO and University benefit procedures but does not establish a course-specific 2026/27 award amount."
       }
     },
     "source_ids": [
       "SRC-UNIBO-ING-INF-MSC-2026",
-      "SRC-UNIBO-ING-INF-ADMISSIONS-2026"
+      "SRC-UNIBO-ING-INF-ADMISSIONS-2026",
+      "SRC-UNIBO-ING-INF-CATALOGUE-2026",
+      "SRC-UNIBO-ING-INF-CALL-2026",
+      "SRC-UNIBO-ING-INF-ACCESS-GUIDE-2026",
+      "SRC-UNIBO-ING-INF-DOUBLE-DEGREE-2026",
+      "SRC-UNIBO-TUITION-PAGE-2026",
+      "SRC-UNIBO-TUITION-TABLE-2026"
     ],
     "previous_tracker_tags": {
       "level": "MSc",
@@ -30775,7 +31182,7 @@
       "cycle": "2026-2027",
       "label": "Official course identity checked for 2026/2027; 2027/28 first-year intake and terms remain unconfirmed"
     },
-    "last_checked": "2026-11-10"
+    "last_checked": "2026-11-11"
   },
   {
     "id": "legacy-153",
