@@ -37534,28 +37534,49 @@
     "university_id": "bologna",
     "university": "Università di Bologna",
     "city": "Bologna",
-    "program": "Cultures Littéraires Européennes (CLE) Erasmus Mundus Joint Master",
+    "program": "Cultures Littéraires Européennes (CLE) Erasmus Mundus Joint Master's Degree",
     "level": {
       "value": "MSc",
-      "status": "REQUIRES_VERIFICATION",
+      "status": "CONFIRMED",
       "source_ids": [
-        "SRC-BOLOGNA-CLE-2027"
+        "SRC-BOLOGNA-CLE-2027",
+        "SRC-BOLOGNA-CLE-PROFILE-2026",
+        "SRC-BOLOGNA-CLE-ABOUT",
+        "SRC-BOLOGNA-CLE-REQUIREMENTS",
+        "SRC-BOLOGNA-CLE-FAQ",
+        "SRC-BOLOGNA-CLE-COSTS-2026",
+        "SRC-BOLOGNA-CLE-FINANCIAL-SUPPORTS",
+        "SRC-BOLOGNA-CLE-SUPPORTS-2025"
       ],
       "notes": null
     },
     "language": {
-      "value": "REQUIRES_VERIFICATION",
-      "status": "REQUIRES_VERIFICATION",
+      "value": "Multilingual (Italian/English at Bologna; varies by consortium campus)",
+      "status": "CONFIRMED",
       "source_ids": [
-        "SRC-BOLOGNA-CLE-2027"
+        "SRC-BOLOGNA-CLE-2027",
+        "SRC-BOLOGNA-CLE-PROFILE-2026",
+        "SRC-BOLOGNA-CLE-ABOUT",
+        "SRC-BOLOGNA-CLE-REQUIREMENTS",
+        "SRC-BOLOGNA-CLE-FAQ",
+        "SRC-BOLOGNA-CLE-COSTS-2026",
+        "SRC-BOLOGNA-CLE-FINANCIAL-SUPPORTS",
+        "SRC-BOLOGNA-CLE-SUPPORTS-2025"
       ],
       "notes": null
     },
     "field": {
       "value": "Humanities",
-      "status": "REQUIRES_VERIFICATION",
+      "status": "CONFIRMED",
       "source_ids": [
-        "SRC-BOLOGNA-CLE-2027"
+        "SRC-BOLOGNA-CLE-2027",
+        "SRC-BOLOGNA-CLE-PROFILE-2026",
+        "SRC-BOLOGNA-CLE-ABOUT",
+        "SRC-BOLOGNA-CLE-REQUIREMENTS",
+        "SRC-BOLOGNA-CLE-FAQ",
+        "SRC-BOLOGNA-CLE-COSTS-2026",
+        "SRC-BOLOGNA-CLE-FINANCIAL-SUPPORTS",
+        "SRC-BOLOGNA-CLE-SUPPORTS-2025"
       ],
       "notes": null
     },
@@ -37563,39 +37584,182 @@
       "value": true,
       "status": "CONFIRMED",
       "source_ids": [
-        "SRC-BOLOGNA-CLE-2027"
+        "SRC-BOLOGNA-CLE-2027",
+        "SRC-BOLOGNA-CLE-PROFILE-2026",
+        "SRC-BOLOGNA-CLE-ABOUT",
+        "SRC-BOLOGNA-CLE-REQUIREMENTS",
+        "SRC-BOLOGNA-CLE-FAQ",
+        "SRC-BOLOGNA-CLE-COSTS-2026",
+        "SRC-BOLOGNA-CLE-FINANCIAL-SUPPORTS",
+        "SRC-BOLOGNA-CLE-SUPPORTS-2025"
       ],
       "notes": null
     },
-    "overall_status": "REQUIRES_VERIFICATION",
+    "overall_status": "CONFIRMED",
     "discovery_source": "newly_discovered",
     "facts": {
+      "official_course_identity": {
+        "value": {
+          "university_course": "Italianistica e culture letterarie europee",
+          "curriculum": "Culture letterarie europee (CLE Erasmus Mundus)",
+          "class": "LM-14 Filologia moderna",
+          "bologna_campus": true
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BOLOGNA-CLE-2027",
+          "SRC-BOLOGNA-CLE-PROFILE-2026"
+        ],
+        "notes": "The current 2027/28 application page routes applicants to the second-cycle course and named CLE curriculum; the detailed Bologna profile is for 2026/27."
+      },
+      "course_structure_and_mobility": {
+        "value": {
+          "duration_years": 2,
+          "consortium_universities": 8,
+          "study_locations_required": 2,
+          "study_locations_maximum": 3,
+          "degree": "Double or multiple Master's degree from consortium universities attended"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BOLOGNA-CLE-ABOUT",
+          "SRC-BOLOGNA-CLE-FAQ"
+        ],
+        "notes": "Bologna is the coordinating university; the student's actual study locations depend on the mobility plan."
+      },
+      "teaching_language_details": {
+        "value": {
+          "bologna_profile_languages": [
+            "Italian",
+            "English"
+          ],
+          "consortium_delivery": "Varies by partner university; most classes are taught in the host-country language",
+          "minimum_for_first_year_host": "B2 in the selected host university's language",
+          "english_minimum": "B1"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BOLOGNA-CLE-PROFILE-2026",
+          "SRC-BOLOGNA-CLE-ABOUT",
+          "SRC-BOLOGNA-CLE-REQUIREMENTS",
+          "SRC-BOLOGNA-CLE-FAQ"
+        ],
+        "notes": "This is a multilingual joint course, not an English-only programme. Language requirements are described on the criteria page linked from the 2027/28 application page."
+      },
       "application_windows": {
         "value": [
           {
             "start": "2026-11",
             "end": "2027-02",
-            "label": "Intake 1"
+            "label": "Intake 1",
+            "applicant_scope": "EU and non-EU applicants"
           },
           {
             "start": "2027-03",
             "end": "2027-04",
-            "label": "Intake 2"
+            "label": "Intake 2",
+            "applicant_scope": "EU and non-EU applicants"
           }
         ],
         "status": "CONFIRMED",
         "source_ids": [
           "SRC-BOLOGNA-CLE-2027"
         ],
-        "notes": "Month-level windows only; exact days are not listed."
+        "notes": "Month-level 2027/28 windows only; the official page does not give exact opening/closing days."
       },
-      "language": {
+      "exact_application_dates_2027_2028": {
         "value": null,
-        "status": "REQUIRES_VERIFICATION",
+        "status": "NOT_YET_PUBLISHED",
         "source_ids": [
           "SRC-BOLOGNA-CLE-2027"
         ],
-        "notes": "The reviewed call does not state the language of instruction."
+        "notes": "As checked on 11 November 2026, the 2027/28 page gives month ranges only. The linked admission notice is still labelled 2026/27 despite text saying the new notice would be available from October 2026."
+      },
+      "application_route_2027_2028": {
+        "value": "Studenti Online → Admission application → Second cycle degree programme → Italianistica e culture letterarie europee → Culture letterarie europee curriculum",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BOLOGNA-CLE-2027"
+        ],
+        "notes": "The course page identifies this as the University of Bologna route; the separate CLE site also describes consortium mobility choices."
+      },
+      "application_and_enrolment_milestones_2027_2028": {
+        "value": {
+          "intake_1_results": "March 2027",
+          "intake_2_results": "May 2027",
+          "degree_obtained_by": "2027-07-31",
+          "documents_to_CLE_by": "2027-08-31",
+          "original_documents_to_host_by": "2027-09-10",
+          "final_enrolment": "Host-university dates"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BOLOGNA-CLE-2027"
+        ],
+        "notes": null
+      },
+      "published_admission_criteria": {
+        "value": {
+          "first_cycle_degree": "Three-year degree or equivalent recognized for second-cycle entry",
+          "italian_degree_classes": [
+            "L-10",
+            "L-3",
+            "L-5",
+            "L-11",
+            "L-42"
+          ],
+          "additional_credits_for_L3_L5_L11_L42": 27,
+          "credit_subjects": [
+            "Italian literature",
+            "Contemporary Italian literature",
+            "Italian linguistics"
+          ],
+          "personal_preparation": "Assessed by the programme; foreign-qualification applicants may be invited to an oral interview"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BOLOGNA-CLE-REQUIREMENTS",
+          "SRC-BOLOGNA-CLE-2027"
+        ],
+        "notes": "The criteria page is linked from the current 2027/28 application page. The specific degree-class/27-CFU thresholds are not explicitly dated to 2027/28 and should be reconfirmed against the updated call before applicants rely on them."
+      },
+      "program_specific_requirements_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-BOLOGNA-CLE-2027",
+          "SRC-BOLOGNA-CLE-REQUIREMENTS"
+        ],
+        "notes": "The live 2027/28 application page links an admission-criteria page but still links the 2026/27 admission notice; detailed curriculum thresholds are not explicitly cycle-labelled."
+      },
+      "language_requirements_2027_2028": {
+        "value": {
+          "first_year_host_language_minimum": "B2",
+          "english_minimum": "B1",
+          "proof_options": [
+            "Language certificate",
+            "Previous university studies entirely in the required language",
+            "Primary and secondary education entirely in the required language"
+          ]
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BOLOGNA-CLE-2027",
+          "SRC-BOLOGNA-CLE-REQUIREMENTS"
+        ],
+        "notes": "The current 2027/28 application page directs applicants to this language-criteria page and requires language documentation."
+      },
+      "applicant_scope_2027_2028": {
+        "value": {
+          "intakes": "Same month-level intakes for EU and non-EU applicants",
+          "applicants_awaiting_degree": "May apply before graduation",
+          "degree_deadline": "2027-07-31"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BOLOGNA-CLE-2027"
+        ],
+        "notes": null
       },
       "application_fee": {
         "value": null,
@@ -37603,11 +37767,82 @@
         "source_ids": [
           "SRC-BOLOGNA-CLE-2027"
         ],
-        "notes": "The reviewed 2027/28 page does not establish an application fee."
+        "notes": "No application fee amount is stated on the reviewed 2027/28 course page; the separate application portal may provide a fee during submission."
+      },
+      "previous_cycle_tuition_2026_2027": {
+        "value": {
+          "programme_country_full_annual_eur": 3000,
+          "partner_country_full_annual_eur": 6000,
+          "first_instalment_eur": 157.04,
+          "reduced_fixed_fee_routes": [
+            {
+              "eligibility": "Eligible non-OECD countries",
+              "annual_eur": 1200
+            },
+            {
+              "eligibility": "Particularly poor/developing countries",
+              "annual_eur": 600
+            }
+          ],
+          "income_based_exemption": "Total or partial exemption may be available subject to income/assets documentation and merit conditions"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BOLOGNA-CLE-COSTS-2026"
+        ],
+        "notes": "Historical fee schedule only; the CLE page labels these costs 2026/27 and says fee schedules vary by year."
+      },
+      "tuition_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-BOLOGNA-CLE-COSTS-2026"
+        ],
+        "notes": "No 2027/28 tuition schedule was available in the reviewed official material; do not carry forward 2026/27 amounts."
+      },
+      "possible_financial_support_2027_2028": {
+        "value": "The application page permits applicants to request possible financial support, subject to availability of funds.",
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BOLOGNA-CLE-2027"
+        ],
+        "notes": null
+      },
+      "scholarship_details_2027_2028": {
+        "value": null,
+        "status": "REQUIRES_VERIFICATION",
+        "source_ids": [
+          "SRC-BOLOGNA-CLE-FINANCIAL-SUPPORTS",
+          "SRC-BOLOGNA-CLE-SUPPORTS-2025"
+        ],
+        "notes": "The current page says opportunities depend on available funds, but its linked partner-award PDF is for 2025/26. No 2027/28 award amounts, number of awards or eligibility rules are confirmed."
+      },
+      "previous_cycle_financial_supports_2025_2026": {
+        "value": {
+          "uha_award_eur": 3000,
+          "strasbourg_lethica_support": "Amount not stated",
+          "other_options": [
+            "Erasmus+ mobility",
+            "ER.GO for Bologna mobility",
+            "External government and partner funding"
+          ]
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-BOLOGNA-CLE-SUPPORTS-2025"
+        ],
+        "notes": "Historical 2025/26 examples; they do not establish current offers or amounts."
       }
     },
     "source_ids": [
-      "SRC-BOLOGNA-CLE-2027"
+      "SRC-BOLOGNA-CLE-2027",
+      "SRC-BOLOGNA-CLE-PROFILE-2026",
+      "SRC-BOLOGNA-CLE-ABOUT",
+      "SRC-BOLOGNA-CLE-REQUIREMENTS",
+      "SRC-BOLOGNA-CLE-FAQ",
+      "SRC-BOLOGNA-CLE-COSTS-2026",
+      "SRC-BOLOGNA-CLE-FINANCIAL-SUPPORTS",
+      "SRC-BOLOGNA-CLE-SUPPORTS-2025"
     ],
     "previous_tracker_tags": null,
     "previous_cycle_tags": null,

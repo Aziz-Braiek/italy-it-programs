@@ -2232,6 +2232,12 @@ BATCH50 = {
     "result": "Retried five unique official source URLs that had been inconclusive. Padua Astrophysics and Cosmology's 2027/28 admissions page now returns HTTP 200 (23,773 bytes; title captured; 2027 marker present). Four remain inconclusive: Camerino's fees page fails TLS hostname validation; Padua Psychology's catalogue returns HTTP 500; and the two Federico II sites fail TLS certificate validation (expired certificates). Official-domain search results still surfaced indexed snippets for these pages, but direct page opens timed out, so those snippets were not treated as fresh HTTP verification. The historical Trieste DSSC 2022 call PDF independently returned an explicit HTTP 404 and remains marked broken as a historical provenance link, not as current admissions evidence. Aggregate source checks now show 672 accessible, 13 redirected, 4 inconclusive and 1 broken record. No production changes were made.",
 }
 
+BATCH51 = {
+    "id": "bologna-cle-2027-2028-program-details-and-mobility-review",
+    "status": "partial",
+    "result": "Completed a program-level review for discovered-012, Bologna's Erasmus Mundus CLE joint Master's. The current 2027/28 application page confirms the active intake, month-level application windows for EU and non-EU applicants, results and enrolment/document milestones, and the Studenti Online second-cycle route. The official Bologna course profile confirms the 2026/27 base degree is a two-year LM-14 course with an international Culture letterarie europee curriculum, Italian/English at Bologna and Bologna as the teaching campus. The consortium describes mandatory mobility at two or three partner universities, variable host-campus teaching languages, English B1 plus B2 in the first-year host language, and double/multiple degrees. These sources support the core level, discipline and multilingual delivery; exact 2027/28 day-level deadlines remain unpublished. The 2027/28 page still links a 2026/27 admission notice, so detailed curricular thresholds remain marked for verification. The reviewed fee schedule and partner-award PDF are for 2026/27 and 2025/26 respectively; 2027/28 tuition and scholarship terms remain unconfirmed, while the current call only says possible support depends on available funds. Seven fresh official-page/PDF GETs returned HTTP 200 (the prior-cycle PDF returned HTTP 206 for the requested byte range); browser content opens succeeded. No production changes were made.",
+}
+
 SOURCE_RECHECKS = {
     "SRC-UNIBO-AI-PROFILE-2026": {
         "accessed_at": "2026-11-11",
@@ -8805,6 +8811,139 @@ SOURCE_RECHECKS.update({
             "checked_at": "2026-11-11",
             "method": "Windows PowerShell Invoke-WebRequest GET; Cache-Control: no-cache",
             "notes": "Explicit response body: HTTP 404 Not Found. This is a historical 2022/23 PDF retained as provenance, not a current admissions offer.",
+        },
+    },
+})
+
+SOURCE_RECHECKS.update({
+    "SRC-BOLOGNA-CLE-2027": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://cle.unibo.it/pages/23/presentazione-della-domanda/lang/en",
+            "content_type": "text/html; charset=UTF-8", "content_length_header": None,
+            "etag": None, "last_modified": None, "cache_control": "no-store, no-cache, must-revalidate",
+            "age": None, "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Application | Master CLE Erasmus Mundus", "pdf_signature": None,
+            "has_2027_marker": True, "bytes_read": 42232, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control: no-cache and byte-range disabled",
+        },
+        "browser_check": {
+            "checked_at": "2026-11-11", "outcome": "accessible", "method": "Codex web reader open",
+            "notes": "Opened the current application page. It states the 2027/28 intake windows and milestone dates; the linked admission notice still displays 2026/27.",
+        },
+    },
+    "SRC-BOLOGNA-CLE-PROFILE-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://corsi.unibo.it/magistrale/ItalianisticaCultureLetterarieLinguistica",
+            "content_type": "text/html;charset=utf-8", "content_length_header": None,
+            "etag": None, "last_modified": None, "cache_control": "max-age=0, s-maxage=0, must-revalidate",
+            "age": "417", "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Italianistica e culture letterarie europee - Laurea Magistrale - Bologna",
+            "pdf_signature": None, "has_2027_marker": False, "bytes_read": 131072,
+            "outcome": "accessible", "error": None, "checked_at": "2026-11-11",
+            "method": "GET with Cache-Control: no-cache (first 128 KiB read)",
+        },
+        "browser_check": {
+            "checked_at": "2026-11-11", "outcome": "accessible", "method": "Codex web reader open",
+            "notes": "The official profile shows the 2026/27 Bologna course, LM-14 class, Italian/English languages, Bologna campus and the international CLE curriculum. The cycle-specific CLE intake is supported separately by the 2027/28 consortium application page.",
+        },
+    },
+    "SRC-BOLOGNA-CLE-ABOUT": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://cle.unibo.it/pages/8/about-cle",
+            "content_type": "text/html; charset=UTF-8", "content_length_header": None,
+            "etag": None, "last_modified": None, "cache_control": "no-store, no-cache, must-revalidate",
+            "age": None, "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "About CLE | Master CLE Erasmus Mundus", "pdf_signature": None,
+            "has_2027_marker": False, "bytes_read": 39894, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control: no-cache",
+        },
+        "browser_check": {
+            "checked_at": "2026-11-11", "outcome": "accessible", "method": "Codex web reader open",
+            "notes": "Opened the official consortium overview describing two-year study, partner mobility, variable languages of instruction and multiple degrees.",
+        },
+    },
+    "SRC-BOLOGNA-CLE-REQUIREMENTS": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://cle.unibo.it/pages/24/",
+            "content_type": "text/html; charset=UTF-8", "content_length_header": None,
+            "etag": None, "last_modified": None, "cache_control": "no-store, no-cache, must-revalidate",
+            "age": None, "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Admission criteria | Master CLE Erasmus Mundus", "pdf_signature": None,
+            "has_2027_marker": False, "bytes_read": 42729, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control: no-cache",
+        },
+        "browser_check": {
+            "checked_at": "2026-11-11", "outcome": "accessible", "method": "Codex web reader open",
+            "notes": "Opened the linked admission criteria and verified degree, curriculum, personal-preparation and language details. Exact curricular thresholds are not explicitly labelled 2027/28.",
+        },
+    },
+    "SRC-BOLOGNA-CLE-FAQ": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://cle.unibo.it/faq",
+            "content_type": "text/html; charset=UTF-8", "content_length_header": None,
+            "etag": None, "last_modified": None, "cache_control": "no-store, no-cache, must-revalidate",
+            "age": None, "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Frequently asked questions | Master CLE Erasmus Mundus", "pdf_signature": None,
+            "has_2027_marker": False, "bytes_read": 50118, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control: no-cache",
+        },
+        "browser_check": {
+            "checked_at": "2026-11-11", "outcome": "accessible", "method": "Codex web reader open",
+            "notes": "Opened the official FAQ and reviewed course duration, mobility, language and degree-award statements.",
+        },
+    },
+    "SRC-BOLOGNA-CLE-COSTS-2026": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://cle.unibo.it/pages/25/participation-costs",
+            "content_type": "text/html; charset=UTF-8", "content_length_header": None,
+            "etag": None, "last_modified": None, "cache_control": "no-store, no-cache, must-revalidate",
+            "age": None, "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Participation costs | Master CLE Erasmus Mundus", "pdf_signature": None,
+            "has_2027_marker": False, "bytes_read": 41752, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control: no-cache",
+        },
+        "browser_check": {
+            "checked_at": "2026-11-11", "outcome": "accessible", "method": "Codex web reader open",
+            "notes": "The fee page explicitly labels the reviewed schedule 2026/27; amounts have been retained as prior-cycle context only.",
+        },
+    },
+    "SRC-BOLOGNA-CLE-FINANCIAL-SUPPORTS": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 200, "effective_url": "https://cle.unibo.it/pages/29/financial-supports",
+            "content_type": "text/html; charset=UTF-8", "content_length_header": None,
+            "etag": None, "last_modified": None, "cache_control": "no-store, no-cache, must-revalidate",
+            "age": None, "x_vercel_cache": None, "x_vercel_id": None, "location": None,
+            "observed_title": "Financial supports | Master CLE Erasmus Mundus", "pdf_signature": None,
+            "has_2027_marker": False, "bytes_read": 33230, "outcome": "accessible", "error": None,
+            "checked_at": "2026-11-11", "method": "GET with Cache-Control: no-cache",
+        },
+        "browser_check": {
+            "checked_at": "2026-11-11", "outcome": "accessible", "method": "Codex web reader open",
+            "notes": "Opened the official page; it says support depends on available funds and was last updated 1 April 2025.",
+        },
+    },
+    "SRC-BOLOGNA-CLE-SUPPORTS-2025": {
+        "accessed_at": "2026-11-11",
+        "url_check": {
+            "http_status": 206, "effective_url": "https://cle.unibo.it/uploads/uploadfiles/Supporti%20Finanziari%202022/FinancialSupports_EN-2025-26.pdf",
+            "content_type": "application/pdf", "content_length_header": "4096",
+            "etag": None, "last_modified": "Tue, 01 Apr 2025 09:28:23 GMT",
+            "cache_control": "max-age=31536000", "age": None, "x_vercel_cache": None,
+            "x_vercel_id": None, "location": None, "observed_title": None,
+            "pdf_signature": True, "has_2027_marker": None, "bytes_read": 4096,
+            "outcome": "accessible", "error": None, "checked_at": "2026-11-11",
+            "method": "GET with Range: bytes=0-4095",
+        },
+        "browser_check": {
+            "checked_at": "2026-11-11", "outcome": "accessible", "method": "Codex PDF fetch",
+            "notes": "The official PDF has three pages and is expressly a 2025/26 partner-support list; listed amounts and deadlines are historical.",
         },
     },
 })

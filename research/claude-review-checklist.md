@@ -2,7 +2,7 @@
 
 Prepared 2026-11-11 for academic year 2027/28. Review each record against official university pages, calls, portals, regulations, and PDFs.
 
-Snapshot inventory: 34 universities, 209 program records, 690 source records.
+Snapshot inventory: 34 universities, 209 program records, 697 source records.
 
 ## Review rules
 
@@ -2252,7 +2252,14 @@ Currently missing or unpublished fields:
 
 Official university-level sources:
 
-- [ ] `SRC-BOLOGNA-CLE-2027` — [Application – Erasmus Mundus CLE](https://cle.unibo.it/pages/23/presentazione-della-domanda/lang/en) (cycle: 2027-2028; checked in prior snapshot: 2026-11-09)
+- [ ] `SRC-BOLOGNA-CLE-2027` — [Application – Erasmus Mundus CLE](https://cle.unibo.it/pages/23/presentazione-della-domanda/lang/en) (cycle: 2027-2028; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-BOLOGNA-CLE-PROFILE-2026` — [Italianistica e culture letterarie europee – degree profile](https://corsi.unibo.it/magistrale/ItalianisticaCultureLetterarieLinguistica) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-BOLOGNA-CLE-ABOUT` — [About CLE – consortium programme overview](https://cle.unibo.it/pages/8/about-cle) (cycle: general; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-BOLOGNA-CLE-REQUIREMENTS` — [Admission criteria – Master CLE Erasmus Mundus](https://cle.unibo.it/pages/24/) (cycle: general; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-BOLOGNA-CLE-FAQ` — [Frequently asked questions – Master CLE Erasmus Mundus](https://cle.unibo.it/faq) (cycle: general; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-BOLOGNA-CLE-COSTS-2026` — [Participation costs – CLE 2026/27 fee guidance](https://cle.unibo.it/pages/25/participation-costs) (cycle: 2026-2027; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-BOLOGNA-CLE-FINANCIAL-SUPPORTS` — [Financial supports – Master CLE Erasmus Mundus](https://cle.unibo.it/pages/29/financial-supports) (cycle: general; checked in prior snapshot: 2026-11-11)
+- [ ] `SRC-BOLOGNA-CLE-SUPPORTS-2025` — [CLE financial supports offered by partner universities – 2025/26 PDF](https://cle.unibo.it/uploads/uploadfiles/Supporti%20Finanziari%202022/FinancialSupports_EN-2025-26.pdf) (cycle: 2025-2026; checked in prior snapshot: 2026-11-11)
 - [ ] `SRC-UNIBO-CSE-2027` — [Computer Science and Engineering – admissions and requirements](https://corsi.unibo.it/2cycle/ComputerScienceEngineering/how-to-enrol) (cycle: 2027-2028; checked in prior snapshot: 2026-11-09)
 - [ ] `SRC-UNIBO-28DIGITAL-2027` — [Intelligent Embedded Systems – 28Digital track](https://corsi.unibo.it/magistrale/IngegneriaScienzeInformatiche/curriculum-intelligent-embedded-systems-28digital-track) (cycle: 2027-2028; checked in prior snapshot: 2026-11-09)
 - [ ] `SRC-UNIBO-GRENFIN-2027-PROFILE` — [Greening Energy Market and Finance – official degree profile](https://corsi.unibo.it/2cycle/GreeningEnergyMarketFinance) (cycle: 2027-2028; checked in prior snapshot: 2026-11-10)
@@ -2655,17 +2662,27 @@ Currently missing or unpublished fields:
   - `facts.scholarships_2027_2028` — `NOT_YET_PUBLISHED` — Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-11; annual university and regional calls still need checking.
   - `facts.acceptance_rate` — `UNAVAILABLE` — The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred.
 
-#### Cultures Littéraires Européennes (CLE) Erasmus Mundus Joint Master — `discovered-012`
+#### Cultures Littéraires Européennes (CLE) Erasmus Mundus Joint Master's Degree — `discovered-012`
 
-- [ ] Review program and 2027/28 intake | Current status: `REQUIRES_VERIFICATION` | Availability: `CONFIRMED` | Last checked: `2026-11-09`
+- [ ] Review program and 2027/28 intake | Current status: `CONFIRMED` | Availability: `CONFIRMED` | Last checked: `2026-11-09`
 - [ ] Program page: https://italy-it-programs.vercel.app/programs/discovered-012/
 - [ ] University page: https://italy-it-programs.vercel.app/universities/bologna/
 - [ ] Verify official name, university/campus, level, teaching language, new 2027/28 intake, eligibility, application windows and rounds, fee, tuition, entry/GPA/language requirements, tests, scholarships/aid, and official application/program URLs.
 Official linked sources to revisit:
-- [ ] `SRC-BOLOGNA-CLE-2027` — [Application – Erasmus Mundus CLE](https://cle.unibo.it/pages/23/presentazione-della-domanda/lang/en) (cycle: 2027-2028; prior check: 2026-11-09)
+- [ ] `SRC-BOLOGNA-CLE-PROFILE-2026` — [Italianistica e culture letterarie europee – degree profile](https://corsi.unibo.it/magistrale/ItalianisticaCultureLetterarieLinguistica) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-BOLOGNA-CLE-REQUIREMENTS` — [Admission criteria – Master CLE Erasmus Mundus](https://cle.unibo.it/pages/24/) (cycle: general; prior check: 2026-11-11)
+- [ ] `SRC-BOLOGNA-CLE-FAQ` — [Frequently asked questions – Master CLE Erasmus Mundus](https://cle.unibo.it/faq) (cycle: general; prior check: 2026-11-11)
+- [ ] `SRC-BOLOGNA-CLE-2027` — [Application – Erasmus Mundus CLE](https://cle.unibo.it/pages/23/presentazione-della-domanda/lang/en) (cycle: 2027-2028; prior check: 2026-11-11)
+- [ ] `SRC-BOLOGNA-CLE-ABOUT` — [About CLE – consortium programme overview](https://cle.unibo.it/pages/8/about-cle) (cycle: general; prior check: 2026-11-11)
+- [ ] `SRC-BOLOGNA-CLE-COSTS-2026` — [Participation costs – CLE 2026/27 fee guidance](https://cle.unibo.it/pages/25/participation-costs) (cycle: 2026-2027; prior check: 2026-11-11)
+- [ ] `SRC-BOLOGNA-CLE-FINANCIAL-SUPPORTS` — [Financial supports – Master CLE Erasmus Mundus](https://cle.unibo.it/pages/29/financial-supports) (cycle: general; prior check: 2026-11-11)
+- [ ] `SRC-BOLOGNA-CLE-SUPPORTS-2025` — [CLE financial supports offered by partner universities – 2025/26 PDF](https://cle.unibo.it/uploads/uploadfiles/Supporti%20Finanziari%202022/FinancialSupports_EN-2025-26.pdf) (cycle: 2025-2026; prior check: 2026-11-11)
 Currently missing or unpublished fields:
-  - `facts.language` — `REQUIRES_VERIFICATION` — The reviewed call does not state the language of instruction.
-  - `facts.application_fee` — `REQUIRES_VERIFICATION` — The reviewed 2027/28 page does not establish an application fee.
+  - `facts.exact_application_dates_2027_2028` — `NOT_YET_PUBLISHED` — As checked on 11 November 2026, the 2027/28 page gives month ranges only. The linked admission notice is still labelled 2026/27 despite text saying the new notice would be available from October 2026.
+  - `facts.program_specific_requirements_2027_2028` — `REQUIRES_VERIFICATION` — The live 2027/28 application page links an admission-criteria page but still links the 2026/27 admission notice; detailed curriculum thresholds are not explicitly cycle-labelled.
+  - `facts.application_fee` — `REQUIRES_VERIFICATION` — No application fee amount is stated on the reviewed 2027/28 course page; the separate application portal may provide a fee during submission.
+  - `facts.tuition_2027_2028` — `REQUIRES_VERIFICATION` — No 2027/28 tuition schedule was available in the reviewed official material; do not carry forward 2026/27 amounts.
+  - `facts.scholarship_details_2027_2028` — `REQUIRES_VERIFICATION` — The current page says opportunities depend on available funds, but its linked partner-award PDF is for 2025/26. No 2027/28 award amounts, number of awards or eligibility rules are confirmed.
 
 #### Greening Energy Market and Finance (GrEnFIn Erasmus Mundus Joint Master) — `discovered-029`
 
@@ -5480,7 +5497,7 @@ Currently missing or unpublished fields:
 
 ## Source URL recheck results
 
-Checked 668 unique URLs representing 690 source records on 2026-11-11. Unique URL outcomes: {'accessible': 650, 'redirected': 13, 'inconclusive': 4, 'broken': 1}. HTTP 404/410 outcomes are listed as broken; TLS, timeout, and remote-disconnect cases remain inconclusive.
+Checked 675 unique URLs representing 697 source records on 2026-11-11. Unique URL outcomes: {'accessible': 657, 'redirected': 13, 'inconclusive': 4, 'broken': 1}. HTTP 404/410 outcomes are listed as broken; TLS, timeout, and remote-disconnect cases remain inconclusive.
 
 ### Redirected sources
 
