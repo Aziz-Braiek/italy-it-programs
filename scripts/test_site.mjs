@@ -48,6 +48,17 @@ try {
   await noJs.close();
   await noJsContext.close();
 
+  const firstVisitContext = await browser.newContext({ viewport: { width: 390, height: 844 } });
+  const firstVisit = await firstVisitContext.newPage();
+  await firstVisit.goto(baseUrl, { waitUntil: "networkidle" });
+  for (const width of [390, 320]) {
+    await firstVisit.setViewportSize({ width, height: 844 });
+    assert.equal(await firstVisit.evaluate(() => document.documentElement.scrollWidth), width, "first-visit English navigation fits before any language toggle");
+    assert.equal(await firstVisit.locator("#language-toggle").isVisible(), true);
+    assert.equal(await firstVisit.locator("#theme-toggle").isVisible(), true);
+  }
+  await firstVisitContext.close();
+
   const context = await browser.newContext({ viewport: { width: 1365, height: 900 }, acceptDownloads: true });
   const page = await context.newPage();
   page.on("console", (message) => { if (message.type() === "error") consoleErrors.push(message.text()); });
