@@ -1,0 +1,21 @@
+{
+  "checked_at_utc": "2026-11-12T22:39:44.289869+00:00",
+  "baseline_commit": "c3af9dccfaa534fad27a83a9308124a83fe66c45",
+  "branch": "research/final-2027-2028-refresh",
+  "local_checks": {
+    "independent_ledger": "PASS:34universities,209programs,700baseline source outcomes;0missing comparisons or baseline mismatches",
+    "research_data_invariants": "PASS",
+    "python_regressions": "PASS:17tests",
+    "legacy_tracker_ui": "PASS",
+    "static_browser_regression": "PASS:209programs,34universities,47core-confirmed;desktop and390pxmobile;no-JavaScript fallback",
+    "research_rebuild_idempotence": "PASS:all six generated research outputs unchanged"
+  },
+  "interpretation": "These checks validate implementation and coverage. They do not prove admissions facts. Unpublished, conflicting and inaccessible evidence remains explicit in the ledger.",
+  "production_baseline": {
+    "deployment_id": "dpl_9qrszHqJoWi8BsMYFrLg1Q84Caxq",
+    "commit": "e6995e70e7fc4673a561af69fbb7fa14ea84491b",
+    "domain": "https://italy-it-programs.vercel.app/",
+    "status": "unchanged before preview release"
+  },
+  "preview_policy": "Create only a preview for this research branch; retain project protection; no production promotion."
+}

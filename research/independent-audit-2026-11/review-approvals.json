@@ -1,0 +1,49 @@
+{
+  "as_of": "2026-11-12",
+  "review_status": "REVIEWED_WITH_EXPLICIT_LIMITATIONS",
+  "method": "Manual official-source research, content and scope conclusions, inspection of exact before/after proposals and source provenance; formal PDF calls prevail over stale general pages. Passing HTTP/software checks do not constitute factual approval.",
+  "batches": [
+    {
+      "file": "batch-pisa-messina.json",
+      "sha256": "5ca062b0ea14112d06a9f0181fa1fe8d6a19de643c4b085ff7ac611230b9128c",
+      "reviewed_at": "2026-11-12",
+      "scope": "46 exact root-reviewed programme, university and source corrections, including provisional catalogue wording."
+    },
+    {
+      "file": "batch-north.json",
+      "sha256": "d1dbeb8d140e9fe77f789cf464581ed9feb86e4a8163943ac4d1d163c041acbb",
+      "reviewed_at": "2026-11-12",
+      "scope": "All complete exact corrections in this frozen batch; unresolved evidence and conflicts remain explicit."
+    },
+    {
+      "file": "batch-central-west.json",
+      "sha256": "1713187ef68e19c60ae2903f2812b4f42fb9ec0423240b976304db41df459634",
+      "reviewed_at": "2026-11-12",
+      "scope": "All complete exact corrections in this frozen batch; unresolved evidence and conflicts remain explicit."
+    },
+    {
+      "file": "batch-south-venice.json",
+      "sha256": "d722531425794b5bbec1519278ab3f28597413c5d3163985dc5cbcf5162973f7",
+      "reviewed_at": "2026-11-12",
+      "scope": "Exact independently sourced corrections reviewed with their before/after and source scope; conflicts remain explicit."
+    },
+    {
+      "file": "batch-bologna-bbs.json",
+      "sha256": "bbe146d4ac0afbe40405917fc2792e6fea26ba4c79ac032fe4c4248c9e7299dc",
+      "reviewed_at": "2026-11-12",
+      "scope": "Exact independently sourced corrections reviewed with their before/after and source scope; conflicts remain explicit."
+    },
+    {
+      "file": "batch-bologna-additional.json",
+      "sha256": "15daa8fa00bcd1d5a8ac4bb1d43e21ec669d736447fc74cf549edc460b91b8eb",
+      "reviewed_at": "2026-11-12",
+      "scope": "Exact independently sourced corrections reviewed with their before/after and source scope; conflicts remain explicit."
+    },
+    {
+      "file": "batch-bologna.json",
+      "sha256": "050088566093aa8c053fa42e9f113a4ad1b68614469297383de87c95c1cf082e",
+      "reviewed_at": "2026-11-12",
+      "scope": "19 complete exact corrections independently supported by official programme calls, separate applicant tracks, fee schedules and explicit source conflicts."
+    }
+  ]
+}

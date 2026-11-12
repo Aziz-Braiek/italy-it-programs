@@ -31,6 +31,9 @@ ROOT = Path(__file__).resolve().parents[1]
 RESEARCH = ROOT / "research"
 AS_OF = "2026-11-09"
 SNAPSHOT_AS_OF = "2026-11-11"
+AUDIT_PLAN = RESEARCH / "independent-audit-2026-11" / "approved-corrections.json"
+if AUDIT_PLAN.exists():
+    SNAPSHOT_AS_OF = max(SNAPSHOT_AS_OF, json.loads(AUDIT_PLAN.read_text(encoding="utf-8"))["as_of"])
 CYCLE = "2027-2028"
 
 
@@ -422,6 +425,7 @@ def make_program(pid, uid, name, level, language, field, status, evidence_source
 
 
 def build():
+    import independent_audit_corrections
     RESEARCH.mkdir(exist_ok=True)
     (RESEARCH / "archive").mkdir(exist_ok=True)
     progress_path = RESEARCH / "research-progress.json"
@@ -431,6 +435,9 @@ def build():
         source["id"]: source
         for source in json.loads(sources_path.read_text(encoding="utf-8"))
     } if sources_path.exists() else {}
+    audit_baseline_sources=independent_audit_corrections.baseline_source_records()
+    if audit_baseline_sources is not None:
+        previous_sources={source["id"]:source for source in audit_baseline_sources}
     old = json.loads((RESEARCH / "archive" / "legacy-programs.json").read_text(encoding="utf-8-sig"))
     uni_rows = []
     for uid, name, city, region, homepage, admissions, cycle_status, note in UNIVERSITIES:
@@ -1425,6 +1432,18 @@ def build():
     research_unito.apply(uni_rows, programs, fact)
     research_trento.apply(uni_rows, programs, fact)
     research_final_refresh.apply(programs, fact, make_program)
+    # Restore saved transport metadata before factual corrections. Approved source
+    # URL/evidence changes must not be overwritten by an older reachability pass.
+    for source in SOURCES:
+        previous = previous_sources.get(source["id"])
+        if previous and previous.get("url") == source.get("url"):
+            for key in ("url_check", "browser_check"):
+                if key in previous:
+                    source[key] = previous[key]
+        if source["id"] in research_final_refresh.SOURCE_RECHECKS:
+            source.update(research_final_refresh.SOURCE_RECHECKS[source["id"]])
+    # Factual audit corrections are evidence-linked and check exact old values.
+    independent_audit_corrections.apply(uni_rows, programs, SOURCES)
     verified = [p for p in programs if p["overall_status"] == "CONFIRMED"]
     level_counts = Counter(p["level"]["value"] for p in verified)
     fully_verified_count = len(verified)
@@ -1503,17 +1522,6 @@ def build():
             "No university is marked fully verified until its complete relevant BSc/MSc offer and the required fields have been checked program by program.",
         ],
     }
-
-    # Keep independently recorded reachability and browser checks across rebuilds.
-    # A changed URL must be checked again instead of inheriting an old outcome.
-    for source in SOURCES:
-        previous = previous_sources.get(source["id"])
-        if previous and previous.get("url") == source.get("url"):
-            for key in ("url_check", "browser_check"):
-                if key in previous:
-                    source[key] = previous[key]
-        if source["id"] in research_final_refresh.SOURCE_RECHECKS:
-            source.update(research_final_refresh.SOURCE_RECHECKS[source["id"]])
 
     (RESEARCH / "sources.json").write_text(json.dumps(SOURCES, ensure_ascii=False, indent=2)+"\n",encoding="utf-8")
     (RESEARCH / "universities-2027-2028.json").write_text(json.dumps(uni_rows, ensure_ascii=False, indent=2)+"\n",encoding="utf-8")
@@ -1643,6 +1651,10 @@ def build():
             batch for batch in progress["completed_batches"]
             if batch.get("id") != latest_generated_id
         ] + [latest_generated_batch]
+    audit_summary = independent_audit_corrections.audit_summary()
+    if audit_summary:
+        progress["independent_factual_audit"] = audit_summary
+        progress["phase"] = "independent_factual_audit_preview_review"
     (RESEARCH / "research-progress.json").write_text(json.dumps(progress, ensure_ascii=False, indent=2)+"\n",encoding="utf-8")
     source_map = {s["id"]: s for s in SOURCES}
     lines = [
@@ -1789,7 +1801,8 @@ def build():
         "- `coverage-report.json` and `research-progress.json` — computed counts and work state.",
         "- `archive/legacy-programs.json` — preserved historic input; not used as current admissions data.",
     ]
-    (RESEARCH / "2027-2028-final-report.md").write_text("\n".join(lines)+"\n",encoding="utf-8")
+    lines = independent_audit_corrections.report_lines(uni_rows, programs, SOURCES, coverage) or lines
+    (RESEARCH / "2027-2028-final-report.md").write_text("\n".join(lines).rstrip()+"\n",encoding="utf-8")
     if (ROOT / "build").is_dir():
         shutil.copyfile(ROOT / "index.html", ROOT / "build" / "index.html")
     print(json.dumps({"universities":len(uni_rows),"programs":len(programs),"confirmed_programs":len(verified),"confirmed_bsc":level_counts.get("BSc",0),"confirmed_msc":level_counts.get("MSc",0),"sources":len(SOURCES),"deadline_universities":len(deadlines)},indent=2))

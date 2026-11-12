@@ -1,0 +1,86 @@
+{
+  "responses": [
+    {
+      "url": "https://www.unibo.it/en/study/phd-professional-masters-specialisation-schools-and-other-programmes/professional-master/2026-2027/finance-2",
+      "source_ids": [
+        "AUDIT-BBS-FINANCE-UNIBO-2026"
+      ],
+      "evidence_key": "5f190c6cc3e72cd73e66",
+      "checked_at_utc": "2026-11-12T13:43:59.983945+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://www.unibo.it/en/study/phd-professional-masters-specialisation-schools-and-other-programmes/professional-master/2026-2027/finance-2",
+      "redirects": [],
+      "headers": {
+        "date": "Thu, 12 Nov 2026 13:44:00 GMT",
+        "content-type": "text/html;charset=utf-8",
+        "age": "0",
+        "cache-control": "max-age=0, s-maxage=0, must-revalidate"
+      },
+      "bytes": 487819,
+      "sha256": "888eaf0185a0ede51d68cecb7fec3f856cfcebf273d05f28130320ec73556786",
+      "elapsed_seconds": 0.782,
+      "local_raw_path": "tmp/independent-audit-2026-11/capture-20261112T134359Z/5f190c6cc3e72cd73e66.html",
+      "local_text_path": "tmp/independent-audit-2026-11/capture-20261112T134359Z/5f190c6cc3e72cd73e66.txt",
+      "text_characters": 14528,
+      "transport_outcome": "accessible"
+    },
+    {
+      "url": "https://www.bbs.unibo.it/wp-content/uploads/2025/12/FIN_A.A.-2026-2027_EN.pdf",
+      "source_ids": [
+        "AUDIT-BBS-FINANCE-SHEET-2026"
+      ],
+      "evidence_key": "c16d15bc0abe90803615",
+      "checked_at_utc": "2026-11-12T13:43:59.983945+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://www.bbs.unibo.it/wp-content/uploads/2025/12/FIN_A.A.-2026-2027_EN.pdf",
+      "redirects": [],
+      "headers": {
+        "date": "Thu, 12 Nov 2026 13:44:00 GMT",
+        "last-modified": "Tue, 23 Dec 2025 14:49:51 GMT",
+        "etag": "\"53f75-6469fa7e9240a\"",
+        "content-length": "343925",
+        "content-type": "application/pdf"
+      },
+      "bytes": 343925,
+      "sha256": "a8aae13fc1307996617d6e36f18d851130e8bc1be7db9fb0dc6fb141c814d1b3",
+      "elapsed_seconds": 0.313,
+      "local_raw_path": "tmp/independent-audit-2026-11/capture-20261112T134359Z/c16d15bc0abe90803615.pdf",
+      "pdf_pages": 7,
+      "local_text_path": "tmp/independent-audit-2026-11/capture-20261112T134359Z/c16d15bc0abe90803615.txt",
+      "text_characters": 14804,
+      "transport_outcome": "accessible"
+    },
+    {
+      "url": "https://www.bbs.unibo.it/wp-content/uploads/2025/12/MGI-MBM_A.A.-2026-2027_EN.pdf",
+      "source_ids": [
+        "AUDIT-BBS-BUSINESS-MANAGEMENT-SHEET-2026"
+      ],
+      "evidence_key": "e2d217282087ed492c31",
+      "checked_at_utc": "2026-11-12T13:43:59.983945+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://www.bbs.unibo.it/wp-content/uploads/2025/12/MGI-MBM_A.A.-2026-2027_EN.pdf",
+      "redirects": [],
+      "headers": {
+        "date": "Thu, 12 Nov 2026 13:44:00 GMT",
+        "last-modified": "Tue, 23 Dec 2025 14:49:50 GMT",
+        "etag": "\"584b4-6469fa7dfcd5f\"",
+        "content-length": "361652",
+        "content-type": "application/pdf"
+      },
+      "bytes": 361652,
+      "sha256": "18d02a201cf9b99dca5fc6321464d2b9856b62308ad0b584c2cd9f48dd50f849",
+      "elapsed_seconds": 0.313,
+      "local_raw_path": "tmp/independent-audit-2026-11/capture-20261112T134359Z/e2d217282087ed492c31.pdf",
+      "pdf_pages": 9,
+      "local_text_path": "tmp/independent-audit-2026-11/capture-20261112T134359Z/e2d217282087ed492c31.txt",
+      "text_characters": 18019,
+      "transport_outcome": "accessible"
+    }
+  ]
+}

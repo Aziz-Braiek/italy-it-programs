@@ -1,0 +1,20 @@
+[
+  {
+    "source_id": "SRC-UNIME-DS-COURSE-ICT-2027",
+    "url": "https://unime.coursecatalogue.cineca.it/af/2027?ad=A001855&annoOrdinamento=2026&coorte=2026&corso=9237R&linguaCC=EN&pds=110",
+    "status": 200,
+    "checked_at_utc": "2026-11-11T23:40:44.568Z",
+    "method": "Fresh headless Edge page rendering, no account context",
+    "text_path": "tmp/independent-audit-2026-11/browser-2026-11-12/SRC-UNIME-DS-COURSE-ICT-2027.txt",
+    "sha256": "555ee0b24bab6b54e6c69684575c63d55537ef6d7a8637e9c85f51d60d3656e5"
+  },
+  {
+    "source_id": "SRC-UNIME-DS-COURSE-ECONOMY-2027",
+    "url": "https://unime.coursecatalogue.cineca.it/af/2027?ad=A001898&annoOrdinamento=2026&coorte=2026&corso=9237R&linguaCC=EN&pds=120",
+    "status": 200,
+    "checked_at_utc": "2026-11-11T23:40:47.845Z",
+    "method": "Fresh headless Edge page rendering, no account context",
+    "text_path": "tmp/independent-audit-2026-11/browser-2026-11-12/SRC-UNIME-DS-COURSE-ECONOMY-2027.txt",
+    "sha256": "14dedba4c37335be159a3a8e161645df0dde8b7de3d2347ab3440969d10ea9f2"
+  }
+]

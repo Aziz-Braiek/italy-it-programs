@@ -1,0 +1,225 @@
+[
+  {
+    "url": "https://www.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/masters-degree-held-in-english/",
+    "source_ids": [
+      "SRC-AUDIT-UNIPI-YEAR-TABLE"
+    ],
+    "evidence_key": "53c7d8e258209896b24e",
+    "checked_at_utc": "2026-11-11T18:57:09.875641+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://www.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/masters-degree-held-in-english/",
+    "redirects": [],
+    "headers": {
+      "date": "Wed, 11 Nov 2026 18:57:10 GMT",
+      "content-type": "text/html; charset=UTF-8"
+    },
+    "bytes": 725694,
+    "sha256": "a9652dfde2a8bed2c35d351d35d174cf23cb1983a9d2a10959fe348e34c4824a",
+    "elapsed_seconds": 1.25,
+    "local_raw_path": "tmp/independent-audit-2026-11/53c7d8e258209896b24e.html",
+    "local_text_path": "tmp/independent-audit-2026-11/53c7d8e258209896b24e.txt",
+    "text_characters": 10868,
+    "transport_outcome": "accessible"
+  },
+  {
+    "url": "https://didattica.di.unipi.it/en/27933-2/",
+    "source_ids": [
+      "SRC-AUDIT-UNIPI-CS-REQUIREMENTS"
+    ],
+    "evidence_key": "ddb92023f74c588615e8",
+    "checked_at_utc": "2026-11-11T18:57:09.875641+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://didattica.di.unipi.it/en/27933-2/",
+    "redirects": [],
+    "headers": {
+      "date": "Wed, 11 Nov 2026 18:57:10 GMT",
+      "content-length": "15269",
+      "content-type": "text/html; charset=UTF-8"
+    },
+    "bytes": 64606,
+    "sha256": "d04703bfaaf659d8c15964d3284d7fd34158d424941a437c3bcbf720d62169cc",
+    "elapsed_seconds": 1.109,
+    "local_raw_path": "tmp/independent-audit-2026-11/ddb92023f74c588615e8.html",
+    "local_text_path": "tmp/independent-audit-2026-11/ddb92023f74c588615e8.txt",
+    "text_characters": 5023,
+    "transport_outcome": "accessible"
+  },
+  {
+    "url": "https://www.unipi.it/en/education/courses/master-degree/data-science-and-business-informatics-wdb-lm-en/",
+    "source_ids": [
+      "SRC-AUDIT-UNIPI-DSBI-PROFILE"
+    ],
+    "evidence_key": "fae813380361931eeac5",
+    "checked_at_utc": "2026-11-11T18:57:09.875641+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://www.unipi.it/en/education/courses/master-degree/data-science-and-business-informatics-wdb-lm-en/",
+    "redirects": [],
+    "headers": {
+      "date": "Wed, 11 Nov 2026 18:57:10 GMT",
+      "content-type": "text/html; charset=UTF-8"
+    },
+    "bytes": 733048,
+    "sha256": "31cb2a0936cc8eb793064a5a418d82a1270501855df3c02130b738bfdc88ef55",
+    "elapsed_seconds": 1.203,
+    "local_raw_path": "tmp/independent-audit-2026-11/fae813380361931eeac5.html",
+    "local_text_path": "tmp/independent-audit-2026-11/fae813380361931eeac5.txt",
+    "text_characters": 15073,
+    "transport_outcome": "accessible"
+  },
+  {
+    "url": "https://didattica.di.unipi.it/en/master-programme-in-informatics-for-digital-health/regolamenti-e-delibere/",
+    "source_ids": [
+      "SRC-AUDIT-UNIPI-DH-RULES"
+    ],
+    "evidence_key": "ca7d33a19823fb425740",
+    "checked_at_utc": "2026-11-11T18:57:09.875641+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://didattica.di.unipi.it/en/master-programme-in-informatics-for-digital-health/regolamenti-e-delibere/",
+    "redirects": [],
+    "headers": {
+      "date": "Wed, 11 Nov 2026 18:57:10 GMT",
+      "content-length": "14099",
+      "content-type": "text/html; charset=UTF-8"
+    },
+    "bytes": 64439,
+    "sha256": "4c6a744f4003b22b26417f2e4791ff2e60d38dab87dacecee4311f911a028de4",
+    "elapsed_seconds": 1.078,
+    "local_raw_path": "tmp/independent-audit-2026-11/ca7d33a19823fb425740.html",
+    "local_text_path": "tmp/independent-audit-2026-11/ca7d33a19823fb425740.txt",
+    "text_characters": 2055,
+    "transport_outcome": "accessible"
+  },
+  {
+    "url": "https://cysec.unipi.it/?page_id=140",
+    "source_ids": [
+      "SRC-AUDIT-UNIPI-CYBER-CALL"
+    ],
+    "evidence_key": "8a548f4d9cbfe7f6f874",
+    "checked_at_utc": "2026-11-11T18:57:09.876641+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://cysec.unipi.it/?page_id=140",
+    "redirects": [],
+    "headers": {
+      "date": "Wed, 11 Nov 2026 18:57:10 GMT",
+      "content-length": "9212",
+      "content-type": "text/html; charset=UTF-8"
+    },
+    "bytes": 36495,
+    "sha256": "6e18538d132edee7384448694484215e450b8a1bc4e868c0ed8df62fc772c482",
+    "elapsed_seconds": 0.359,
+    "local_raw_path": "tmp/independent-audit-2026-11/8a548f4d9cbfe7f6f874.html",
+    "local_text_path": "tmp/independent-audit-2026-11/8a548f4d9cbfe7f6f874.txt",
+    "text_characters": 6555,
+    "transport_outcome": "accessible"
+  },
+  {
+    "url": "https://cysec.unipi.it/?page_id=24",
+    "source_ids": [
+      "SRC-AUDIT-UNIPI-CYBER-ADMISSION"
+    ],
+    "evidence_key": "c795a3df2bd1d9c329fe",
+    "checked_at_utc": "2026-11-11T18:57:09.876641+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://cysec.unipi.it/?page_id=24",
+    "redirects": [],
+    "headers": {
+      "date": "Wed, 11 Nov 2026 18:57:09 GMT",
+      "content-length": "9456",
+      "content-type": "text/html; charset=UTF-8"
+    },
+    "bytes": 41978,
+    "sha256": "d60f1f1f2006f91743ecaa08db9b76d8f209f1d951efa100ff445d827df174cb",
+    "elapsed_seconds": 0.312,
+    "local_raw_path": "tmp/independent-audit-2026-11/c795a3df2bd1d9c329fe.html",
+    "local_text_path": "tmp/independent-audit-2026-11/c795a3df2bd1d9c329fe.txt",
+    "text_characters": 6179,
+    "transport_outcome": "accessible"
+  },
+  {
+    "url": "https://www.unipi.it/en/education/courses/master-degree/nuclear-engineering-wsnr-lm-en/",
+    "source_ids": [
+      "SRC-AUDIT-UNIPI-NUCLEAR-PROFILE"
+    ],
+    "evidence_key": "0f8bc31513e37564dd89",
+    "checked_at_utc": "2026-11-11T18:57:10.195034+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://www.unipi.it/en/education/courses/master-degree/nuclear-engineering-wsnr-lm-en/",
+    "redirects": [],
+    "headers": {
+      "date": "Wed, 11 Nov 2026 18:57:10 GMT",
+      "content-type": "text/html; charset=UTF-8"
+    },
+    "bytes": 729897,
+    "sha256": "7de296fa671f1433ed611eb1dfb5634d60ca9d5a9c1331bb6d1e3db19a4dd861",
+    "elapsed_seconds": 1.094,
+    "local_raw_path": "tmp/independent-audit-2026-11/0f8bc31513e37564dd89.html",
+    "local_text_path": "tmp/independent-audit-2026-11/0f8bc31513e37564dd89.txt",
+    "text_characters": 15792,
+    "transport_outcome": "accessible"
+  },
+  {
+    "url": "https://nucleare.ing.unipi.it/it/students/foreign-students",
+    "source_ids": [
+      "SRC-AUDIT-UNIPI-NUCLEAR-FOREIGN"
+    ],
+    "evidence_key": "20b824a6c40016740b27",
+    "checked_at_utc": "2026-11-11T18:57:10.246102+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://nucleare.ing.unipi.it/it/students/foreign-students",
+    "redirects": [],
+    "headers": {
+      "date": "Wed, 11 Nov 2026 18:57:10 GMT",
+      "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+      "last-modified": "Wed, 11 Nov 2026 18:57:11 GMT",
+      "content-type": "text/html; charset=utf-8"
+    },
+    "bytes": 55625,
+    "sha256": "23fcbc97729151c15fb0df323e866ee774634655a7806fc36156802a53d1fb5b",
+    "elapsed_seconds": 1.094,
+    "local_raw_path": "tmp/independent-audit-2026-11/20b824a6c40016740b27.html",
+    "local_text_path": "tmp/independent-audit-2026-11/20b824a6c40016740b27.txt",
+    "text_characters": 7892,
+    "transport_outcome": "accessible"
+  },
+  {
+    "url": "https://masterschool.28digital.eu/intelligent-chips-and-systems",
+    "source_ids": [
+      "SRC-AUDIT-BOLOGNA-ICS-2027"
+    ],
+    "evidence_key": "1bb26366c574830df2e1",
+    "checked_at_utc": "2026-11-11T18:57:10.955955+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://masterschool.28digital.eu/intelligent-chips-and-systems",
+    "redirects": [],
+    "headers": {
+      "date": "Wed, 11 Nov 2026 18:57:11 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "cache-control": "private, no-store, max-age=0"
+    },
+    "bytes": 88156,
+    "sha256": "5f07817108fd6a568f201ac82fdf8e508bd7c0513301b274f5326ada36e6f6c1",
+    "elapsed_seconds": 0.312,
+    "local_raw_path": "tmp/independent-audit-2026-11/1bb26366c574830df2e1.html",
+    "local_text_path": "tmp/independent-audit-2026-11/1bb26366c574830df2e1.txt",
+    "text_characters": 8713,
+    "transport_outcome": "accessible"
+  }
+]

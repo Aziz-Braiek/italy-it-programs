@@ -613,7 +613,7 @@
     "url": "https://didattica.di.unipi.it/en/master-programme-in-computer-science/",
     "source_type": "Official program page",
     "accessed_at": "2026-11-09",
-    "cycle": "2027-2028",
+    "cycle": "general",
     "evidence": "Official page describes the English-taught MSc Computer Science and links to international admissions. Cycle availability is confirmed separately by the 2027/28 department call.",
     "supports": [
       "program.name",
@@ -649,7 +649,7 @@
     "url": "https://didattica.di.unipi.it/en/master-programme-in-data-science-and-business-informatics/",
     "source_type": "Official program page",
     "accessed_at": "2026-11-09",
-    "cycle": "2027-2028",
+    "cycle": "general",
     "evidence": "Official page describes the English-taught MSc. Cycle availability is confirmed separately by the 2027/28 department call.",
     "supports": [
       "program.name",
@@ -685,7 +685,7 @@
     "url": "https://didattica.di.unipi.it/en/master-programme-in-informatics-for-digital-health/",
     "source_type": "Official program page",
     "accessed_at": "2026-11-09",
-    "cycle": "2027-2028",
+    "cycle": "general",
     "evidence": "Describes an English-taught open-admission MSc and links to foreign-student enrollment for AY 2027/28. The department call confirms cycle availability.",
     "supports": [
       "program.name",
@@ -5788,12 +5788,12 @@
   {
     "id": "SRC-UNIVPM-INTL",
     "university_id": "marche",
-    "title": "International admissions – AY 2026/27",
-    "url": "https://www.international.univpm.it/international-admissions/",
-    "source_type": "Official international admissions page",
-    "accessed_at": "2026-11-09",
+    "title": "International admissions guidelines 2026/27, updated May 2026",
+    "url": "https://www.international.univpm.it/wp-content/uploads/2026/05/UNIVPM-ADMISSION-GUIDELINES_movein_2026-2027_updated.pdf",
+    "source_type": "Official admissions guidelines PDF",
+    "accessed_at": "2026-11-12",
     "cycle": "2026-2027",
-    "evidence": "The page explicitly limits the pre-evaluation procedure to AY 2026/27, lists up to two program applications with a €10 fee per application, and gives category-specific calls from December 2025 through November 2026. Non-EU applicants requiring visas proceed through Universitaly after positive evaluation; the visa pre-enrolment deadline shown is 30 November 2026. These procedures and dates are prior-cycle evidence only.",
+    "evidence": "Original source URL https://www.international.univpm.it/international-admissions/ returned a genuine HTTP 404 page in fresh 12 November 2026 requests. Replaced with the accessible official International admissions 2026/27 guidelines, updated May 2026 (15 pages); original URL retained here for provenance. Admissions procedures, maximum two course applications and €10 per application are supported at pp. 2–3; Universitaly visa deadline is 30 November 2026. The May 2026 PDF third call begins 1 June, while the formerly indexed admissions webpage gave 8 June; do not silently replace the calendar as though the versions agree.",
     "supports": [
       "university.previous_cycle_application_windows",
       "university.previous_cycle_application_fee",
@@ -5801,24 +5801,24 @@
     ],
     "url_check": {
       "http_status": 200,
-      "effective_url": "https://www.international.univpm.it/international-admissions/",
-      "content_type": "text/html; charset=UTF-8",
-      "content_length_header": null,
-      "etag": null,
-      "last_modified": null,
+      "effective_url": "https://www.international.univpm.it/wp-content/uploads/2026/05/UNIVPM-ADMISSION-GUIDELINES_movein_2026-2027_updated.pdf",
+      "content_type": "application/pdf",
+      "content_length_header": "1178387",
+      "etag": "\"11fb13-652b36e72c460\"",
+      "last_modified": "Tue, 26 May 2026 07:27:45 GMT",
       "cache_control": null,
       "age": null,
       "x_vercel_cache": null,
       "x_vercel_id": null,
       "location": null,
-      "observed_title": "International admissions – AY 2026/27 - International Univpm",
-      "pdf_signature": null,
-      "has_2027_marker": false,
-      "bytes_read": 105131,
+      "observed_title": null,
+      "pdf_signature": "%PDF-",
+      "has_2027_marker": null,
+      "bytes_read": 1178387,
       "outcome": "accessible",
       "error": null,
-      "checked_at": "2026-11-10",
-      "method": "GET"
+      "checked_at": "2026-11-12",
+      "method": "Fresh GET; TLS verified; no-cache; no account cookies"
     }
   },
   {
@@ -5964,35 +5964,35 @@
   {
     "id": "SRC-UNIVPM-DS-ENGLISH-2026",
     "university_id": "marche",
-    "title": "Language requirements for programs taught in English",
-    "url": "https://www.international.univpm.it/english-language-requirement/",
-    "source_type": "Official language requirements page",
-    "accessed_at": "2026-11-09",
+    "title": "International admissions guidelines 2026/27, updated May 2026 — English B2 requirements, pp. 5 and 10",
+    "url": "https://www.international.univpm.it/wp-content/uploads/2026/05/UNIVPM-ADMISSION-GUIDELINES_movein_2026-2027_updated.pdf",
+    "source_type": "Official admissions guidelines PDF",
+    "accessed_at": "2026-11-12",
     "cycle": "2026-2027",
-    "evidence": "The international office states that students entering English-taught programs must demonstrate English at CEFR B2 through recognized certification or accepted documentation. Program-specific acceptable evidence and exemptions must be checked in the annual course procedure.",
+    "evidence": "Original source URL https://www.international.univpm.it/english-language-requirement/ returned a genuine HTTP 404 page in fresh 12 November 2026 requests. Replaced with the accessible official International admissions 2026/27 guidelines, updated May 2026 (15 pages); original URL retained here for provenance. Page 5 lists the English Data Science for Finance and Economics curriculum and B2; p. 10 requires English B2 while leaving accepted documentation and exceptions course-specific. It does not establish a 2027/28 requirement or a universal accepted-certificate/exemption list.",
     "supports": [
       "program.previous_cycle_english_requirement"
     ],
     "url_check": {
       "http_status": 200,
-      "effective_url": "https://www.international.univpm.it/english-language-requirement/",
-      "content_type": "text/html; charset=UTF-8",
-      "content_length_header": null,
-      "etag": null,
-      "last_modified": null,
+      "effective_url": "https://www.international.univpm.it/wp-content/uploads/2026/05/UNIVPM-ADMISSION-GUIDELINES_movein_2026-2027_updated.pdf",
+      "content_type": "application/pdf",
+      "content_length_header": "1178387",
+      "etag": "\"11fb13-652b36e72c460\"",
+      "last_modified": "Tue, 26 May 2026 07:27:45 GMT",
       "cache_control": null,
       "age": null,
       "x_vercel_cache": null,
       "x_vercel_id": null,
       "location": null,
-      "observed_title": "Language requirement for programs taught in English and additional language requirements for master's degrees - International Univpm",
-      "pdf_signature": null,
-      "has_2027_marker": false,
-      "bytes_read": 104601,
+      "observed_title": null,
+      "pdf_signature": "%PDF-",
+      "has_2027_marker": null,
+      "bytes_read": 1178387,
       "outcome": "accessible",
       "error": null,
-      "checked_at": "2026-11-10",
-      "method": "GET"
+      "checked_at": "2026-11-12",
+      "method": "Fresh GET; TLS verified; no-cache; no account cookies"
     }
   },
   {
@@ -25545,5 +25545,1396 @@
       "checked_at": "2026-11-11",
       "method": "GET with Cache-Control: no-cache"
     }
+  },
+  {
+    "id": "SRC-AUDIT-UNIPI-YEAR-TABLE",
+    "university_id": "pisa",
+    "title": "UNIPI YEAR TABLE — independent official-source audit",
+    "url": "https://www.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/masters-degree-held-in-english/",
+    "source_type": "Official university programme, admission or application portal",
+    "accessed_at": "2026-11-12",
+    "cycle": "Mixed: heading 2026/27; dates 2026–2027",
+    "evidence": "The University page says 'Applications deadlines a.a.2026-2027' while displaying November2026 openings and2027 deadlines. The table cannot alone establish the academic year. Programme-specific formal calls and the live portal resolve several rows; Nuclear remains without a named new annual call.",
+    "supports": [
+      "independent_audit.field_comparison"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://www.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/masters-degree-held-in-english/",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes_read": 725694,
+      "outcome": "accessible",
+      "checked_at": "2026-11-12",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers"
+    }
+  },
+  {
+    "id": "SRC-AUDIT-UNIPI-CS-REQUIREMENTS",
+    "university_id": "pisa",
+    "title": "UNIPI CS REQUIREMENTS — independent official-source audit",
+    "url": "https://didattica.di.unipi.it/en/27933-2/",
+    "source_type": "Official university programme, admission or application portal",
+    "accessed_at": "2026-11-12",
+    "cycle": "2025/26 excerpt",
+    "evidence": "The page explicitly says its MSc Computer Science rules are taken from AY2025/26: L-31/L-8/L-35/L-30 or other degree with72 CFU, of which36 computing and18 mathematics/physics, B2, assessment/possible test. Do not silently label these numerical rules2027/28.",
+    "supports": [
+      "independent_audit.field_comparison"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://didattica.di.unipi.it/en/27933-2/",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes_read": 64606,
+      "outcome": "accessible",
+      "checked_at": "2026-11-12",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers"
+    }
+  },
+  {
+    "id": "SRC-AUDIT-UNIPI-DSBI-PROFILE",
+    "university_id": "pisa",
+    "title": "UNIPI DSBI PROFILE — independent official-source audit",
+    "url": "https://www.unipi.it/en/education/courses/master-degree/data-science-and-business-informatics-wdb-lm-en/",
+    "source_type": "Official university programme, admission or application portal",
+    "accessed_at": "2026-11-12",
+    "cycle": "2026/27 study plan/general profile",
+    "evidence": "LM-18/LM-DATA, English, Pisa, two years and open admission with assessment. Listed degree classes L-31/L-8/L-41/L-18/L-33/L-30/L-35 or40 relevant CFU, B2 and curriculum/possible interview assessment are current displayed guidance; its study plan is2026/27.",
+    "supports": [
+      "independent_audit.field_comparison"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://www.unipi.it/en/education/courses/master-degree/data-science-and-business-informatics-wdb-lm-en/",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes_read": 733048,
+      "outcome": "accessible",
+      "checked_at": "2026-11-12",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers"
+    }
+  },
+  {
+    "id": "SRC-AUDIT-UNIPI-DH-RULES",
+    "university_id": "pisa",
+    "title": "UNIPI DH RULES — independent official-source audit",
+    "url": "https://didattica.di.unipi.it/en/master-programme-in-informatics-for-digital-health/regolamenti-e-delibere/",
+    "source_type": "Official university programme, admission or application portal",
+    "accessed_at": "2026-11-12",
+    "cycle": "2026/27 and older rules listed",
+    "evidence": "The rules page explicitly warns that each student follows their enrolment-year regulation and lists2026/27,2025/26 and2024/25, with no2027/28 regulation yet. The annual foreign-admission call separately confirms a2027/28 intake.",
+    "supports": [
+      "independent_audit.field_comparison"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://didattica.di.unipi.it/en/master-programme-in-informatics-for-digital-health/regolamenti-e-delibere/",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes_read": 64439,
+      "outcome": "accessible",
+      "checked_at": "2026-11-12",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers"
+    }
+  },
+  {
+    "id": "SRC-AUDIT-UNIPI-CYBER-CALL",
+    "university_id": "pisa",
+    "title": "UNIPI CYBER CALL — independent official-source audit",
+    "url": "https://cysec.unipi.it/?page_id=140",
+    "source_type": "Official university programme, admission or application portal",
+    "accessed_at": "2026-11-12",
+    "cycle": "Undated stale closed-call notice",
+    "evidence": "Still says the call is closed and new call will appear December2026/January2027, and says an English certificate is not needed. The application portal now links a formal2027/28 call with current requirements and language alternatives; record this as stale-course-page conflict and follow the PDF.",
+    "supports": [
+      "independent_audit.field_comparison"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://cysec.unipi.it/?page_id=140",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes_read": 36495,
+      "outcome": "accessible",
+      "checked_at": "2026-11-12",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers"
+    }
+  },
+  {
+    "id": "SRC-AUDIT-UNIPI-CYBER-ADMISSION",
+    "university_id": "pisa",
+    "title": "UNIPI CYBER ADMISSION — independent official-source audit",
+    "url": "https://cysec.unipi.it/?page_id=24",
+    "source_type": "Official university programme, admission or application portal",
+    "accessed_at": "2026-11-12",
+    "cycle": "General rules; study structure from2024/25",
+    "evidence": "Confirms L-31/L-8 or54 relevant credits split36 computing/18 mathematics-physics and B2. It is not itself the annual2027/28 call; the new PDF independently confirms these prerequisites and a75% CGPA floor.",
+    "supports": [
+      "independent_audit.field_comparison"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://cysec.unipi.it/?page_id=24",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes_read": 41978,
+      "outcome": "accessible",
+      "checked_at": "2026-11-12",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers"
+    }
+  },
+  {
+    "id": "SRC-AUDIT-UNIPI-NUCLEAR-PROFILE",
+    "university_id": "pisa",
+    "title": "UNIPI NUCLEAR PROFILE — independent official-source audit",
+    "url": "https://www.unipi.it/en/education/courses/master-degree/nuclear-engineering-wsnr-lm-en/",
+    "source_type": "Official university programme, admission or application portal",
+    "accessed_at": "2026-11-12",
+    "cycle": "2026/27 study plan/current profile",
+    "evidence": "English two-year LM-30 R in Pisa, open access with assessment. L-9 or42 basic plus18 engineering CFU and B2 are displayed current rules. A generic pre-registration2027/28 link is not a named annual course call.",
+    "supports": [
+      "independent_audit.field_comparison"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://www.unipi.it/en/education/courses/master-degree/nuclear-engineering-wsnr-lm-en/",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes_read": 729897,
+      "outcome": "accessible",
+      "checked_at": "2026-11-12",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers"
+    }
+  },
+  {
+    "id": "SRC-AUDIT-UNIPI-NUCLEAR-FOREIGN",
+    "university_id": "pisa",
+    "title": "UNIPI NUCLEAR FOREIGN — independent official-source audit",
+    "url": "https://nucleare.ing.unipi.it/it/students/foreign-students",
+    "source_type": "Official university programme, admission or application portal",
+    "accessed_at": "2026-11-12",
+    "cycle": "2026/27 foreign admission page",
+    "evidence": "Faculty foreign-student page remains explicitly2026/27, while the live application portal now marks Nuclear open with dates in2027. Record the mismatch instead of carrying the old call forward or asserting there is no published portal schedule.",
+    "supports": [
+      "independent_audit.field_comparison"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://nucleare.ing.unipi.it/it/students/foreign-students",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 55625,
+      "outcome": "accessible",
+      "checked_at": "2026-11-12",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers"
+    }
+  },
+  {
+    "id": "SRC-AUDIT-MESSINA-DS-INFO-2026",
+    "university_id": "messina",
+    "title": "MESSINA DS INFO 2026 — independent official-source audit",
+    "url": "https://international.unime.it/sites/sten/files/2026-04/EXE%20%5B%20Data%20Science%20%20%5D%2026.pdf",
+    "source_type": "Official university programme, admission or application portal",
+    "accessed_at": "2026-11-12",
+    "cycle": "No academic year stated; file published2026",
+    "evidence": "Three-page official sheet, visually checked page2, confirms two-year LM-DATA, three curricula, scientific/economic Bachelor's degree, certified mathematics/computing knowledge and B2 international English certificate recognized by MUR. It is not a2027/28 admission call; tuition is country-group based with no amount in the sheet.",
+    "supports": [
+      "independent_audit.field_comparison"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://international.unime.it/sites/sten/files/2026-04/EXE%20%5B%20Data%20Science%20%20%5D%2026.pdf",
+      "content_type": "application/pdf",
+      "bytes_read": 1130826,
+      "outcome": "accessible",
+      "checked_at": "2026-11-12",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers"
+    }
+  },
+  {
+    "id": "SRC-AUDIT-UNIPI-COMPUTER-STUDY-PLAN",
+    "university_id": "pisa",
+    "title": "UNIPI COMPUTER STUDY PLAN — independent official-source audit",
+    "url": "https://computer.ing.unipi.it/en/study-plan-masters-degree-in-computer-engineering/",
+    "source_type": "Official university programme, admission or application portal",
+    "accessed_at": "2026-11-12",
+    "cycle": "2026/27",
+    "evidence": "Explicit AY2026/27 study plan lists Cloud and Network Infrastructures and Services, Cyber-Physical Systems and Cybersecurity. These names match the stored list but were incorrectly placed inside a2027/28-profile fact. Preserve them as historical curricula.",
+    "supports": [
+      "independent_audit.field_comparison"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://computer.ing.unipi.it/en/study-plan-masters-degree-in-computer-engineering/",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes_read": 190436,
+      "outcome": "accessible",
+      "checked_at": "2026-11-12",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers"
+    }
+  },
+  {
+    "id": "SRC-AUDIT-UNIPI-BIONICS-ADMISSION",
+    "university_id": "pisa",
+    "title": "UNIPI BIONICS ADMISSION — independent official-source audit",
+    "url": "https://www.santannapisa.it/it/laurea-magistrale-bionics/ammissione",
+    "source_type": "Official university programme, admission or application portal",
+    "accessed_at": "2026-11-12",
+    "cycle": "2026/27",
+    "evidence": "Sant'Anna page is explicitly2026/27, with15 non-EU-abroad and15 EU/Italy-resident places,16February and27July2026 deadlines, B2 and selection by qualifications/interview. It contains no new2027/28 call; all those dates/places are historical.",
+    "supports": [
+      "independent_audit.field_comparison"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://www.santannapisa.it/it/laurea-magistrale-bionics/ammissione",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes_read": 51617,
+      "outcome": "accessible",
+      "checked_at": "2026-11-12",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers"
+    }
+  },
+  {
+    "id": "SRC-AUDIT-UNIPI-APPLICATION-PORTAL",
+    "university_id": "pisa",
+    "title": "UNIPI APPLICATION PORTAL — independent official-source audit",
+    "url": "https://applymscenglish.unipi.it/en/studenti",
+    "source_type": "Official university programme, admission or application portal",
+    "accessed_at": "2026-11-12",
+    "cycle": "Current public portal",
+    "evidence": "Public landing page describes foreign-qualification applications and links the public active-course list; registration is needed only to submit. No account or personal application was used in this audit.",
+    "supports": [
+      "independent_audit.field_comparison"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://applymscenglish.unipi.it/en/studenti",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes_read": 8253,
+      "outcome": "accessible",
+      "checked_at": "2026-11-12",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers"
+    }
+  },
+  {
+    "id": "SRC-AUDIT-UNIPI-PORTAL-COURSE-LIST",
+    "university_id": "pisa",
+    "title": "UNIPI PORTAL COURSE LIST — independent official-source audit",
+    "url": "https://applymscenglish.unipi.it/en/studenti/cdlattivi/1",
+    "source_type": "Official university programme, admission or application portal",
+    "accessed_at": "2026-11-12",
+    "cycle": "Current portal with programme-specific2027 call links",
+    "evidence": "Lists active CS/DSBI/DH opening9Nov2026, CE/AIDE10Nov2026, Cybersecurity10Nov2026 and Nuclear9Nov2026. Links formal2027/28 Cybersecurity and CE/AIDE PDFs. It shows Nuclear non-EU deadline1Feb2027 noon and EU31May2027 noon, but has no Nuclear annual-call attachment. Portal clock times have no stated timezone; do not override formal GMT/AoE deadline zones.",
+    "supports": [
+      "independent_audit.field_comparison"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://applymscenglish.unipi.it/en/studenti/cdlattivi/1",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes_read": 36050,
+      "outcome": "accessible",
+      "checked_at": "2026-11-12",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers"
+    }
+  },
+  {
+    "id": "SRC-AUDIT-UNIPI-CYBER-2027-CALL",
+    "university_id": "pisa",
+    "title": "UNIPI CYBER 2027 CALL — independent official-source audit",
+    "url": "https://applymscenglish.unipi.it/downloads/downloadpdf/bandicdl/2027/bando_10_wcy-lm_en.pdf",
+    "source_type": "Official university programme, admission or application portal",
+    "accessed_at": "2026-11-12",
+    "cycle": "2027-2028",
+    "evidence": "Formal five-page call expressly announces Cybersecurity LM-66 for foreign qualifications in2027/28;75% CGPA with all exams and no institution-specific conversion, L-8/L-31 or18 math/physics+36 computing CFU, B2, EUR30/application, at most two,1Feb2027 23:59GMT. Documents score60 with42 minimum, interview40 with28 minimum. Visa B2 proof must cover four skills; Pisa CLI tests are an academic alternative, visa acceptance is consular discretion. Fees for2027/28 remain not published.",
+    "supports": [
+      "independent_audit.field_comparison"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://applymscenglish.unipi.it/downloads/downloadpdf/bandicdl/2027/bando_10_wcy-lm_en.pdf",
+      "content_type": "application/pdf",
+      "bytes_read": 227975,
+      "outcome": "accessible",
+      "checked_at": "2026-11-12",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers"
+    }
+  },
+  {
+    "id": "SRC-AUDIT-UNIPI-ENGINEERING-2027-CALL-PDF",
+    "university_id": "pisa",
+    "title": "UNIPI ENGINEERING 2027 CALL PDF — independent official-source audit",
+    "url": "https://computer.ing.unipi.it/wp-content/uploads/2026/11/CE-AIDE-call-2027-non-IT-qualification.pdf",
+    "source_type": "Official university programme, admission or application portal",
+    "accessed_at": "2026-11-12",
+    "cycle": "2027-2028",
+    "evidence": "Formal five-page shared CE/AIDE call corroborates foreign-qualification scope, required five computing subjects, no BCA/professional degrees, B2 four-skill visa certification, EUR30/application, maximum two, strict1Feb2027 23:59GMT and tentative12March decisions. No2027/28 tuition or guaranteed scholarship is stated.",
+    "supports": [
+      "independent_audit.field_comparison"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://computer.ing.unipi.it/wp-content/uploads/2026/11/CE-AIDE-call-2027-non-IT-qualification.pdf",
+      "content_type": "application/pdf",
+      "bytes_read": 453849,
+      "outcome": "accessible",
+      "checked_at": "2026-11-12",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers"
+    }
+  },
+  {
+    "id": "AUDIT-HYSET-SEND-APPLICATION-2027",
+    "university_id": "politecnico-torino",
+    "title": "Send application",
+    "url": "https://hysetmaster.polito.it/send-application",
+    "source_type": "Official programme application page",
+    "accessed_at": "2026-11-12",
+    "cycle": "2027-2028",
+    "evidence": "Rechecked12NovemberRome:Sendapplicationpageexplicitopening1Oct00:00CEST,closing15Nov23:59CET,Apply@PoliTOlinks.",
+    "supports": [
+      "facts.application_windows",
+      "facts.application_deadline",
+      "facts.application_route"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://hysetmaster.polito.it/send-application",
+      "content_type": "text/html; charset=UTF-8",
+      "content_length_header": "3920",
+      "etag": null,
+      "last_modified": null,
+      "cache_control": "no-cache, private",
+      "age": null,
+      "location": null,
+      "outcome": "accessible",
+      "checked_at": "2026-11-12",
+      "method": "Fresh full GET; TLS verified; no authentication cookies; source content independently read.",
+      "bytes_read": 16670
+    }
+  },
+  {
+    "id": "AUDIT-BOCCONI-CYBER-INTERNATIONAL-2027",
+    "university_id": "politecnico-milano",
+    "title": "Joint Degree programs with Politecnico di Milano | Bocconi University",
+    "url": "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/joint-degree-programs-politecnico-di-milano",
+    "source_type": "Official joint-degree admissions page",
+    "accessed_at": "2026-11-12",
+    "cycle": "2027-2028",
+    "evidence": "Bocconi current 2027/28 programmes elector and joint admission page explicitly names Cyber Risk. English 2-year MSc, 50 placesoneclass. Official joint degree page charges€100; Polimi €50/150 max2 route is wrong scope. International standard4 rounds and Italian -degreejoint2 rounds are distinct; these are Bocconi applications. Read all three current official admissions pages, programme-specific Bocconi international route and Italian -degree exemptions.",
+    "supports": [
+      "availability_2027_2028",
+      "facts.application_fee_2027_2028",
+      "facts.application_windows",
+      "facts.program_specific_requirements_2027_2028"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/joint-degree-programs-politecnico-di-milano",
+      "content_type": "text/html; charset=utf-8",
+      "content_length_header": null,
+      "etag": "W/\"1794411923\"",
+      "last_modified": "Wed, 11 Nov 2026 15:45:23 GMT",
+      "cache_control": "max-age=60, public",
+      "age": null,
+      "location": null,
+      "outcome": "accessible",
+      "checked_at": "2026-11-12",
+      "method": "Fresh full GET; TLS verified; no authentication cookies; source content independently read.",
+      "bytes_read": 162966
+    }
+  },
+  {
+    "id": "AUDIT-BOCCONI-CYBER-ITALIAN-DEGREES-2027",
+    "university_id": "politecnico-milano",
+    "title": "Cyber Risk Strategy and Governance and Transformative Sustainability | Bocconi University",
+    "url": "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/cyber-risk-strategy-and-governance-and-transformative-sustainability",
+    "source_type": "Official joint-degree admissions page",
+    "accessed_at": "2026-11-12",
+    "cycle": "2027-2028",
+    "evidence": "Bocconi current 2027/28 programmes elector and joint admission page explicitly names Cyber Risk. English 2-year MSc, 50 placesoneclass. Official joint degree page charges€100; Polimi €50/150 max2 route is wrong scope. International standard4 rounds and Italian -degreejoint2 rounds are distinct; these are Bocconi applications. Read all three current official admissions pages, programme-specific Bocconi international route and Italian -degree exemptions.",
+    "supports": [
+      "availability_2027_2028",
+      "facts.application_fee_2027_2028",
+      "facts.application_windows",
+      "facts.program_specific_requirements_2027_2028"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/cyber-risk-strategy-and-governance-and-transformative-sustainability",
+      "content_type": "text/html; charset=utf-8",
+      "content_length_header": null,
+      "etag": "W/\"1794412058\"",
+      "last_modified": "Wed, 11 Nov 2026 15:47:38 GMT",
+      "cache_control": "max-age=60, public",
+      "age": null,
+      "location": null,
+      "outcome": "accessible",
+      "checked_at": "2026-11-12",
+      "method": "Fresh full GET; TLS verified; no authentication cookies; source content independently read.",
+      "bytes_read": 169223
+    }
+  },
+  {
+    "id": "AUDIT-BOCCONI-MSC-ROUNDS-2027",
+    "university_id": "politecnico-milano",
+    "title": "Admissions | Bocconi University",
+    "url": "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/admissions",
+    "source_type": "Official joint-degree admissions page",
+    "accessed_at": "2026-11-12",
+    "cycle": "2027-2028",
+    "evidence": "Bocconi current 2027/28 programmes elector and joint admission page explicitly names Cyber Risk. English 2-year MSc, 50 placesoneclass. Official joint degree page charges€100; Polimi €50/150 max2 route is wrong scope. International standard4 rounds and Italian -degreejoint2 rounds are distinct; these are Bocconi applications. Read all three current official admissions pages, programme-specific Bocconi international route and Italian -degree exemptions.",
+    "supports": [
+      "availability_2027_2028",
+      "facts.application_fee_2027_2028",
+      "facts.application_windows",
+      "facts.program_specific_requirements_2027_2028"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/admissions",
+      "content_type": "text/html; charset=utf-8",
+      "content_length_header": null,
+      "etag": "W/\"1794411897\"",
+      "last_modified": "Wed, 11 Nov 2026 15:44:57 GMT",
+      "cache_control": "max-age=60, public",
+      "age": null,
+      "location": null,
+      "outcome": "accessible",
+      "checked_at": "2026-11-12",
+      "method": "Fresh full GET; TLS verified; no authentication cookies; source content independently read.",
+      "bytes_read": 299907
+    }
+  },
+  {
+    "id": "AUDIT-PADUA-DATA-SCIENCE-PORTAL",
+    "university_id": "padova",
+    "title": "Data Science - University of Padua",
+    "url": "https://apply.unipd.it/courses/course/33-data-science",
+    "source_type": "Official programme application portal",
+    "accessed_at": "2026-11-12",
+    "cycle": "2027-2028",
+    "evidence": "Named official public programme portal explicitly displays AY 2027/28, studies commence1 October 2027, deadline 15 November 2026 23:59:59 CET; title/course-code 2026 does not override the separately explicit intake. International-qualification route, not Italian -qualification call. Named 2027 portalstates€60 one-time. Max2 programmes university wide; only one application per course per year. Readprogramme-specific eligibility and language fields. Country-level table comparison remains a separate limitation. Do not replace pending 2027 tariff with un caveat ed 2950. Portal amount and annual fee scope are inconsistent.",
+    "supports": [
+      "availability_2027_2028",
+      "facts.application_windows",
+      "facts.application_fee_2027_2028",
+      "facts.program_specific_requirements_2027_2028",
+      "program",
+      "university",
+      "city",
+      "level",
+      "language",
+      "facts.tuition_2027_2028"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://apply.unipd.it/courses/course/33-data-science",
+      "content_type": "text/html; charset=UTF-8",
+      "content_length_header": null,
+      "etag": null,
+      "last_modified": null,
+      "cache_control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-transform",
+      "age": null,
+      "location": null,
+      "outcome": "accessible",
+      "checked_at": "2026-11-12",
+      "method": "Fresh full GET; TLS verified; no authentication cookies; source content independently read.",
+      "bytes_read": 54773
+    }
+  },
+  {
+    "id": "AUDIT-PADUA-CYBERSECURITY-PORTAL",
+    "university_id": "padova",
+    "title": "Cybersecurity - University of Padua",
+    "url": "https://apply.unipd.it/courses/course/93-cybersecurity",
+    "source_type": "Official programme application portal",
+    "accessed_at": "2026-11-12",
+    "cycle": "2027-2028",
+    "evidence": "Named official public programme portal explicitly displays AY 2027/28, studies commence1 October 2027, deadline 15 November 2026 23:59:59 CET; title/course-code 2026 does not override the separately explicit intake. International-qualification route, not Italian -qualification call. Named 2027 portalstates€60 one-time. Max2 programmes university wide; only one application per course per year. Readprogramme-specific eligibility and language fields. Country-level table comparison remains a separate limitation. Do not replace pending 2027 tariff with un caveat ed 2950. Portal amount and annual fee scope are inconsistent.",
+    "supports": [
+      "availability_2027_2028",
+      "facts.application_windows",
+      "facts.application_fee_2027_2028",
+      "facts.program_specific_requirements_2027_2028",
+      "program",
+      "university",
+      "city",
+      "level",
+      "language",
+      "facts.tuition_2027_2028"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://apply.unipd.it/courses/course/93-cybersecurity",
+      "content_type": "text/html; charset=UTF-8",
+      "content_length_header": null,
+      "etag": null,
+      "last_modified": null,
+      "cache_control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-transform",
+      "age": null,
+      "location": null,
+      "outcome": "accessible",
+      "checked_at": "2026-11-12",
+      "method": "Fresh full GET; TLS verified; no authentication cookies; source content independently read.",
+      "bytes_read": 56203
+    }
+  },
+  {
+    "id": "AUDIT-PADUA-INFORMATICA-PORTAL",
+    "university_id": "padova",
+    "title": "Computer Science - University of Padua",
+    "url": "https://apply.unipd.it/courses/course/63-informatica",
+    "source_type": "Official programme application portal",
+    "accessed_at": "2026-11-12",
+    "cycle": "2027-2028",
+    "evidence": "Named official public programme portal explicitly displays AY 2027/28, studies commence1 October 2027, deadline 15 November 2026 23:59:59 CET; title/course-code 2026 does not override the separately explicit intake. International-qualification route, not Italian -qualification call. Named 2027 portalstates€60 one-time. Max2 programmes university wide; only one application per course per year. Readprogramme-specific eligibility and language fields. Country-level table comparison remains a separate limitation. Do not replace pending 2027 tariff with un caveat ed 2950. Portal amount and annual fee scope are inconsistent.",
+    "supports": [
+      "availability_2027_2028",
+      "facts.application_windows",
+      "facts.application_fee_2027_2028",
+      "facts.program_specific_requirements_2027_2028",
+      "program",
+      "university",
+      "city",
+      "level",
+      "language",
+      "facts.tuition_2027_2028"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://apply.unipd.it/courses/course/63-computer-science",
+      "content_type": "text/html; charset=UTF-8",
+      "content_length_header": null,
+      "etag": null,
+      "last_modified": null,
+      "cache_control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-transform",
+      "age": null,
+      "location": null,
+      "outcome": "accessible",
+      "checked_at": "2026-11-12",
+      "method": "Fresh full GET; TLS verified; no authentication cookies; source content independently read.",
+      "bytes_read": 55145
+    }
+  },
+  {
+    "id": "AUDIT-PADUA-ASTROPHYSICS-PORTAL",
+    "university_id": "padova",
+    "title": "Astrophysics and Cosmology - University of Padua",
+    "url": "https://apply.unipd.it/courses/course/12-astrophysics-and-cosmology",
+    "source_type": "Official programme application portal",
+    "accessed_at": "2026-11-12",
+    "cycle": "2027-2028",
+    "evidence": "Official apply course 12 independently establishes 2027/28 call and current entry/languagefields.",
+    "supports": [
+      "facts.program_specific_requirements_2027_2028",
+      "facts.english_certificate_requirement_2027_2028",
+      "availability_2027_2028",
+      "facts.application_windows",
+      "facts.application_fee_2027_2028"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://apply.unipd.it/courses/course/12-astrophysics-and-cosmology",
+      "content_type": "text/html; charset=UTF-8",
+      "content_length_header": null,
+      "etag": null,
+      "last_modified": null,
+      "cache_control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-transform",
+      "age": null,
+      "location": null,
+      "outcome": "accessible",
+      "checked_at": "2026-11-12",
+      "method": "Fresh full GET; TLS verified; no authentication cookies; source content independently read.",
+      "bytes_read": 54756
+    }
+  },
+  {
+    "id": "AUDIT-PADUA-INFORMATION-ENGINEERING-PORTAL",
+    "university_id": "padova",
+    "title": "Information Engineering - University of Padua",
+    "url": "https://apply.unipd.it/courses/course/182-information-engineering",
+    "source_type": "Official programme application portal",
+    "accessed_at": "2026-11-12",
+    "cycle": "2027-2028",
+    "evidence": "Current named portal explicitly labels 2027/28 future in take and separates non EU/EUrounds.€55 CEn T -Snotuniversal€60. Named 2027 Information Engineering portal clarifies mixed applications:only all- CEn T -S applications avoid€60; mixing CEn T -S and non- CEn T programmes requires both€55 CISIA and€60 University . Named portal confirms English 3 yr 180 ECTS restricted BSc, Padua, start1 Oct 2027.",
+    "supports": [
+      "availability_2027_2028",
+      "facts.application_windows",
+      "facts.application_fee_2027_2028",
+      "facts.program_specific_requirements_2027_2028",
+      "cycle_facts.application_fee",
+      "program",
+      "university",
+      "city",
+      "level",
+      "language"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://apply.unipd.it/courses/course/182-information-engineering",
+      "content_type": "text/html; charset=UTF-8",
+      "content_length_header": null,
+      "etag": null,
+      "last_modified": null,
+      "cache_control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-transform",
+      "age": null,
+      "location": null,
+      "outcome": "accessible",
+      "checked_at": "2026-11-12",
+      "method": "Fresh full GET; TLS verified; no authentication cookies; source content independently read.",
+      "bytes_read": 59489
+    }
+  },
+  {
+    "id": "AUDIT-PADUA-COMPUTER-ENGINEERING-PROFILE",
+    "university_id": "padova",
+    "title": "COMPUTER ENGINEERING | Università di Padova",
+    "url": "https://www.unipd.it/en/corsi-di-laurea/computer-engineering",
+    "source_type": "Official course profile",
+    "accessed_at": "2026-11-12",
+    "cycle": "Current profile; not cycle-labelled",
+    "evidence": "Current official profile supports the named programme identity. A separate explicit annual intake notice is required for cycle-specific admission.",
+    "supports": [
+      "program.identity"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://www.unipd.it/en/corsi-di-laurea/computer-engineering",
+      "content_type": "text/html; charset=utf-8",
+      "content_length_header": null,
+      "etag": null,
+      "last_modified": null,
+      "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate",
+      "age": null,
+      "location": null,
+      "outcome": "accessible",
+      "checked_at": "2026-11-12",
+      "method": "Fresh full GET; TLS verified; no authentication cookies; source content independently read.",
+      "bytes_read": 1509004
+    }
+  },
+  {
+    "id": "AUDIT-PADUA-AEROSPACE-PROFILE",
+    "university_id": "padova",
+    "title": "AEROSPACE ENGINEERING | Università di Padova",
+    "url": "https://www.unipd.it/en/corsi-di-laurea/aerospace-engineering",
+    "source_type": "Official course profile",
+    "accessed_at": "2026-11-12",
+    "cycle": "Current profile; not cycle-labelled",
+    "evidence": "Current official profile supports the named programme identity. A separate explicit annual intake notice is required for cycle-specific admission.",
+    "supports": [
+      "program.identity"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://www.unipd.it/en/corsi-di-laurea/aerospace-engineering",
+      "content_type": "text/html; charset=utf-8",
+      "content_length_header": null,
+      "etag": null,
+      "last_modified": null,
+      "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate",
+      "age": null,
+      "location": null,
+      "outcome": "accessible",
+      "checked_at": "2026-11-12",
+      "method": "Fresh full GET; TLS verified; no authentication cookies; source content independently read.",
+      "bytes_read": 1518949
+    }
+  },
+  {
+    "id": "AUDIT-PADUA-COMPUTER-ENGINEERING-PORTAL",
+    "university_id": "padova",
+    "title": "Computer Engineering - University of Padua",
+    "url": "https://apply.unipd.it/courses/course/90-computer-engineering",
+    "source_type": "Official programme application portal",
+    "accessed_at": "2026-11-12",
+    "cycle": "2027-2028",
+    "evidence": "Named official public programme portal explicitly displays AY 2027/28, studies commence1 October 2027, deadline 15 November 2026 23:59:59 CET; title/course-code 2026 does not override the separately explicit intake. International-qualification route, not Italian -qualification call. Named 2027 portalstates€60 one-time. Max2 programmes university wide; only one application per course per year. Readprogramme-specific eligibility and language fields. Country-level table comparison remains a separate limitation. Do not replace pending 2027 tariff with un caveat ed 2950. Portal amount and annual fee scope are inconsistent.",
+    "supports": [
+      "availability_2027_2028",
+      "facts.application_windows",
+      "facts.application_fee_2027_2028",
+      "facts.program_specific_requirements_2027_2028",
+      "program",
+      "university",
+      "city",
+      "level",
+      "language",
+      "facts.tuition_2027_2028"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://apply.unipd.it/courses/course/90-computer-engineering",
+      "content_type": "text/html; charset=UTF-8",
+      "content_length_header": null,
+      "etag": null,
+      "last_modified": null,
+      "cache_control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-transform",
+      "age": null,
+      "location": null,
+      "outcome": "accessible",
+      "checked_at": "2026-11-12",
+      "method": "Fresh full GET; TLS verified; no authentication cookies; source content independently read.",
+      "bytes_read": 54590
+    }
+  },
+  {
+    "id": "AUDIT-PADUA-AEROSPACE-PORTAL",
+    "university_id": "padova",
+    "title": "Aerospace Engineering - University of Padua",
+    "url": "https://apply.unipd.it/courses/course/232-aerospace-engineering",
+    "source_type": "Official programme application portal",
+    "accessed_at": "2026-11-12",
+    "cycle": "2027-2028",
+    "evidence": "Named official public programme portal explicitly displays AY 2027/28, studies commence1 October 2027, deadline 15 November 2026 23:59:59 CET; title/course-code 2026 does not override the separately explicit intake. International-qualification route, not Italian -qualification call. Named 2027 portalstates€60 one-time. Max2 programmes university wide; only one application per course per year. Readprogramme-specific eligibility and language fields. Country-level table comparison remains a separate limitation. Do not replace pending 2027 tariff with un caveat ed 2950. Portal amount and annual fee scope are inconsistent.",
+    "supports": [
+      "availability_2027_2028",
+      "facts.application_windows",
+      "facts.application_fee_2027_2028",
+      "facts.program_specific_requirements_2027_2028",
+      "program",
+      "university",
+      "city",
+      "level",
+      "language",
+      "facts.tuition_2027_2028"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://apply.unipd.it/courses/course/232-aerospace-engineering",
+      "content_type": "text/html; charset=UTF-8",
+      "content_length_header": null,
+      "etag": null,
+      "last_modified": null,
+      "cache_control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-transform",
+      "age": null,
+      "location": null,
+      "outcome": "accessible",
+      "checked_at": "2026-11-12",
+      "method": "Fresh full GET; TLS verified; no authentication cookies; source content independently read.",
+      "bytes_read": 55563
+    }
+  },
+  {
+    "id": "SRC-AUDIT-CW-CEILS-CALL-2026",
+    "university_id": "trento",
+    "title": "CEILS CALL 2026",
+    "url": "https://corsi.unitn.it/sites/cds/files/2026-02/call-admission-comparative-euro-int-legal-studies-26-27_eng.pdf",
+    "source_type": "Official university or regional agency evidence, independently read",
+    "accessed_at": "2026-11-11",
+    "cycle": "2026-2027",
+    "evidence": "Full2026/27 CEILS annual call read; secondary qualification,B2,nonEU age,35EUR fee,March firstsession and EU-only secondsession.",
+    "supports": [
+      "independent_audit.field_comparisons"
+    ],
+    "capture_sha256": "fe261017544a6cfa9b4cb6b3dcab460968f2ccc9e603cd8e2bb3fdea4dd2384a",
+    "content_review_outcome": "SUPPORTS_RECORDED_SCOPE"
+  },
+  {
+    "id": "SRC-AUDIT-CW-UNITN-CS-EU-2026",
+    "university_id": "trento",
+    "title": "UNITN CS EU 2026",
+    "url": "https://corsi.unitn.it/en/computer-science-master/enrollment/admission-europeans-and-equivalents",
+    "source_type": "Official university or regional agency evidence, independently read",
+    "accessed_at": "2026-11-11",
+    "cycle": "2026-2027",
+    "evidence": "ComputerScience EU/equivalent2026/27 page:requests18May–12November2026,enrollment21December2026; not2027/28 admission.",
+    "supports": [
+      "independent_audit.field_comparisons"
+    ],
+    "capture_sha256": "488a89d0635c3ae4e85c6be92663c4f441f0d701cf1633af8457aa46fcf1f4fb",
+    "content_review_outcome": "SUPPORTS_RECORDED_SCOPE"
+  },
+  {
+    "id": "SRC-AUDIT-CW-UNITN-AIS-EU-2026",
+    "university_id": "trento",
+    "title": "UNITN AIS EU 2026",
+    "url": "https://corsi.unitn.it/en/artificial-intelligence-systems/enrollment/admission-and-enrollment-europeans-and-equivalents",
+    "source_type": "Official university or regional agency evidence, independently read",
+    "accessed_at": "2026-11-11",
+    "cycle": "2026-2027",
+    "evidence": "ArtificialIntelligenceSystems EU/equivalent2026/27 page:requests18May–12November2026,enrollment21December2026; not2027/28 admission.",
+    "supports": [
+      "independent_audit.field_comparisons"
+    ],
+    "capture_sha256": "5e8a5a369421f87c18b2656875eeea89b1c592d93c5a325017671a480ad285bf",
+    "content_review_outcome": "SUPPORTS_RECORDED_SCOPE"
+  },
+  {
+    "id": "SRC-AUDIT-CW-EDISU-CALL-2026",
+    "university_id": "pavia",
+    "title": "EDISU CALL 2026",
+    "url": "https://www.edisu.pv.it/en/download/4769/",
+    "source_type": "Official university or regional agency evidence, independently read",
+    "accessed_at": "2026-11-11",
+    "cycle": "2026-2027",
+    "evidence": "2026/27 EDiSU call read: room+meal+cash deadline4August2026 at15:00; meal+cash without room15September15:00;8248maximumtotal includes service values,not cash-only.",
+    "supports": [
+      "independent_audit.field_comparisons"
+    ],
+    "capture_sha256": "6ceaabc7fbe34af8b5d900f7590d0bb4e4d4feefe76d208114db00c103d6aa0d",
+    "content_review_outcome": "SUPPORTS_RECORDED_SCOPE"
+  },
+  {
+    "id": "SRC-AUDIT-CW-SST-GRADE-2027",
+    "university_id": "firenze",
+    "title": "SST GRADE 2027",
+    "url": "https://www.sst.unifi.it/upload/sub/docs/SST_admission_requirements.pdf",
+    "source_type": "Official university or regional agency evidence, independently read",
+    "accessed_at": "2026-11-12",
+    "cycle": "2027-2028",
+    "evidence": "Linked four-page2027/28 SST country-grade requirements:strict listedcountry thresholds and default75%maximum forunlistedcountries. Fulltext saved; Tunisia/Algeria/Morocco15/20,Italy83/110.",
+    "supports": [
+      "independent_audit.field_comparisons"
+    ],
+    "capture_sha256": "4f7e2f33bc116c2f5e6c80e77b00643f0e1d6f406929ec66a8dfe5db2646dd67",
+    "content_review_outcome": "SUPPORTS_RECORDED_SCOPE"
+  },
+  {
+    "id": "SRC-AUDIT-CW-SUSBUS-CALL-2026",
+    "university_id": "firenze",
+    "title": "SUSBUS CALL 2026",
+    "url": "https://www.economia.unifi.it/upload/sub/Bando%20test/2026-27_-_BANDO_Susbus_def_1_fto.pdf",
+    "source_type": "Official university or regional agency evidence, independently read",
+    "accessed_at": "2026-11-12",
+    "cycle": "2026-2027",
+    "evidence": "17-page2026/27 SUSBUScall read:195EU/equivalent+50nonEUabroad+5MarcoPolo,60EURnonrefundable fee percall,B2proofbyapplicationclose,online36questions90minutes.",
+    "supports": [
+      "independent_audit.field_comparisons"
+    ],
+    "capture_sha256": "7ce7c3543b38d403a8333987ee650375e601ec82eb85e4006cfdbb1563ef8514",
+    "content_review_outcome": "SUPPORTS_RECORDED_SCOPE"
+  },
+  {
+    "id": "SRC-AUDIT-CW-SUSBUS-ADMISSION-2026",
+    "university_id": "firenze",
+    "title": "SUSBUS ADMISSION 2026",
+    "url": "https://www.susbus.unifi.it/vp-144-how-to-enroll.html",
+    "source_type": "Official university or regional agency evidence, independently read",
+    "accessed_at": "2026-11-12",
+    "cycle": "2026-2027",
+    "evidence": "SUSBUSgeneral2026/27 guidance confirms noTOLCE,newmaths/reasoningtest andB2,but loose200EUclassification andcertificatebyenrollment differ from formalcall; formalcallcontrols.",
+    "supports": [
+      "independent_audit.field_comparisons"
+    ],
+    "capture_sha256": "3f271cbf18efe17a4b7a1f639ad10e3beabc3c01d6f6edb76be2e75ea57e7828",
+    "content_review_outcome": "CONFLICT"
+  },
+  {
+    "id": "SRC-CA-FOSCARI-BAR-ENROL-2027",
+    "university_id": "ca-foscari",
+    "title": "BAR enrolment: curricular eligibility, preparation and certified B2",
+    "url": "https://www.unive.it/web/en/20997/enrol",
+    "source_type": "Official program admission page",
+    "accessed_at": "2026-11-12",
+    "cycle": "2027-2028",
+    "evidence": "The BAR Enrol page describes curricular requirements, personal-preparation assessment and certified English B2, and points applicants to the separate admission procedures page. It does not supply a currently published application deadline.",
+    "supports": [
+      "program.requirements",
+      "program.deadline_status"
+    ]
+  },
+  {
+    "id": "SRC-CA-FOSCARI-BAR-ADMISSIONS-2027",
+    "university_id": "ca-foscari",
+    "title": "BAR admission: detailed procedures due March 2027",
+    "url": "https://www.unive.it/web/en/21002/admission-and-enrolment",
+    "source_type": "Official program admission page",
+    "accessed_at": "2026-11-12",
+    "cycle": "2027-2028",
+    "evidence": "The BAR admission page explicitly identifies 2027/28 degree requirements but states that detailed admission procedures and deadlines will be published in March 2027. Current programme availability does not establish an already open application window.",
+    "supports": [
+      "program.requirements",
+      "program.deadline_status"
+    ]
+  },
+  {
+    "id": "SRC-TORVERGATA-MECH-FORMAL-CALL-2027-INDEPENDENT",
+    "university_id": "tor-vergata",
+    "title": "Mechatronics Engineering 2027/28 formal call, decree 3026/2026",
+    "url": "https://mechatronics.uniroma2.it/wp-content/uploads/2026/10/AVVISO_CDLM_MECHATRONICS_2027-2028_DR-3026-2026.pdf",
+    "source_type": "Official admission call PDF",
+    "accessed_at": "2026-11-12",
+    "cycle": "2027-2028",
+    "evidence": "Decree dated 26 October 2026. Article 1 p. 2 includes Italian, EU, non-EU legally resident in Italy and non-EU abroad applicants. Article 2 pp. 4–5 addresses all students for the first three rounds; the webpage instead labels those rounds Visa Applicants. Dates agree, including 9–27 November 2026.",
+    "supports": [
+      "program.application_windows",
+      "program.requirements",
+      "program.application_fee"
+    ]
+  },
+  {
+    "id": "SRC-DISCO-DEADLINE-EXTENSION-2026-INDEPENDENT",
+    "university_id": "roma-tre",
+    "title": "DiSCo official scholarship deadline extension to 23 July 2026 at 20:00",
+    "url": "https://laziodisco.it/prorogato-alle-ore-2000-del-23-luglio-il-termine-di-presentazione-delle-domande/",
+    "source_type": "Official regional aid notice",
+    "accessed_at": "2026-11-12",
+    "cycle": "2026-2027",
+    "evidence": "The official extension notice sets submission at 23 July 2026 at 20:00; the ISEE deadline remains 22 July. It supersedes the original submission deadline but does not publish a 2027/28 call.",
+    "supports": [
+      "program.previous_cycle_university_scholarships",
+      "university.previous_cycle_scholarships"
+    ]
+  },
+  {
+    "id": "SRC-SAPIENZA-ART38-IT-2026-INDEPENDENT",
+    "university_id": "sapienza",
+    "title": "Sapienza Italian student regulations Article 38: annual contributions",
+    "url": "https://www.uniroma1.it/it/node/29732",
+    "source_type": "Official student regulations",
+    "accessed_at": "2026-11-12",
+    "cycle": "2026-2027",
+    "evidence": "Authoritative Italian Article 38 covers bachelor and master degrees, with ordinary faculty-group references of €2,821 for Economics and €2,924 for science/engineering; foreign-income and individual contribution rules are separate. The English translation suggests a narrower scope.",
+    "supports": [
+      "program.previous_cycle_tuition"
+    ]
+  },
+  {
+    "id": "SRC-SAPIENZA-ART42-IT-2026-INDEPENDENT",
+    "university_id": "sapienza",
+    "title": "Sapienza Italian student regulations Article 42: payment deadlines",
+    "url": "https://www.uniroma1.it/it/content/scadenze-pagare-i-contributi-di-iscrizione-ai-corsi-di-studio-e-conseguenze-caso-di-ritardo",
+    "source_type": "Official student regulations",
+    "accessed_at": "2026-11-12",
+    "cycle": "2026-2027",
+    "evidence": "Italian Article 42 gives the second tuition instalment as 17 December 2026 and third as 25 March 2027; open-entry first-instalment extension reaches 25 November. These are 2026/27 dates only.",
+    "supports": [
+      "program.previous_cycle_application_windows",
+      "program.previous_cycle_tuition"
+    ]
+  },
+  {
+    "id": "SRC-SAPIENZA-SBE-RIETI-2026-INDEPENDENT",
+    "university_id": "sapienza",
+    "title": "Sustainable Building Engineering 33482 annual profile: Rieti",
+    "url": "https://corsidilaurea.uniroma1.it/it/course/33482",
+    "source_type": "Official annual program profile",
+    "accessed_at": "2026-11-12",
+    "cycle": "2026-2027",
+    "evidence": "The 2026/27 course 33482 profile identifies Sustainable Building Engineering as a three-year L-23 English bachelor in Rieti.",
+    "supports": [
+      "program.city",
+      "program.level",
+      "program.language"
+    ]
+  },
+  {
+    "id": "SRC-SAPIENZA-SBE-ORGANISATION-2026-INDEPENDENT",
+    "university_id": "sapienza",
+    "title": "Sustainable Building Engineering 33482 organisation",
+    "url": "https://www.corsidilaurea.uniroma1.it/en/course/33482/organization",
+    "source_type": "Official program organisation page",
+    "accessed_at": "2026-11-12",
+    "cycle": "2026-2027",
+    "evidence": "Programme organisation confirms English delivery at Rieti and links the 2026/27 course regulations.",
+    "supports": [
+      "program.city",
+      "program.language"
+    ]
+  },
+  {
+    "id": "SRC-UNIVPM-GUIDELINES-MAY2026-INDEPENDENT",
+    "university_id": "marche",
+    "title": "UnivPM international admissions guidelines, updated May 2026",
+    "url": "https://www.international.univpm.it/wp-content/uploads/2026/05/UNIVPM-ADMISSION-GUIDELINES_movein_2026-2027_updated.pdf",
+    "source_type": "Official admissions guidelines PDF",
+    "accessed_at": "2026-11-12",
+    "cycle": "2026-2027",
+    "evidence": "The 15-page May 2026 guide covers foreign-qualification assessment, €10 per application and maximum two programmes (pp. 2–3); English Data Science curriculum in Ancona (p. 5); course-specific B2 proof (p. 10). Its third call starts 1 June, differing from the formerly indexed admissions webpage 8 June. This is historical 2026/27 evidence only.",
+    "supports": [
+      "university.previous_cycle_application_windows",
+      "university.previous_cycle_application_fee",
+      "university.previous_cycle_non_eu_process",
+      "program.previous_cycle_english_requirement"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://www.international.univpm.it/wp-content/uploads/2026/05/UNIVPM-ADMISSION-GUIDELINES_movein_2026-2027_updated.pdf",
+      "content_type": "application/pdf",
+      "content_length_header": "1178387",
+      "etag": "\"11fb13-652b36e72c460\"",
+      "last_modified": "Tue, 26 May 2026 07:27:45 GMT",
+      "cache_control": null,
+      "age": null,
+      "x_vercel_cache": null,
+      "x_vercel_id": null,
+      "location": null,
+      "observed_title": null,
+      "pdf_signature": "%PDF-",
+      "has_2027_marker": null,
+      "bytes_read": 1178387,
+      "outcome": "accessible",
+      "error": null,
+      "checked_at": "2026-11-12",
+      "method": "Fresh GET; TLS verified; no-cache; no account cookies"
+    }
+  },
+  {
+    "id": "SRC-UNIVPM-PRE-EVALUATION-2026-INDEPENDENT",
+    "university_id": "marche",
+    "title": "UnivPM foreign-qualification pre-evaluation",
+    "url": "https://www.international.univpm.it/become-a-student/pre-evaluation/",
+    "source_type": "Official international admissions page",
+    "accessed_at": "2026-11-12",
+    "cycle": "2026-2027",
+    "evidence": "Current page identifies pre-evaluation for foreign qualifications, academic and authenticity checks, and a 2026/27 platform opening of 16 December 2025. It does not establish a 2027/28 call.",
+    "supports": [
+      "university.previous_cycle_non_eu_process"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://www.international.univpm.it/become-a-student/pre-evaluation/",
+      "content_type": "text/html; charset=UTF-8",
+      "content_length_header": null,
+      "etag": null,
+      "last_modified": null,
+      "cache_control": null,
+      "age": null,
+      "x_vercel_cache": null,
+      "x_vercel_id": null,
+      "location": null,
+      "observed_title": "Pre-evaluation - International Univpm",
+      "pdf_signature": null,
+      "has_2027_marker": true,
+      "bytes_read": 82119,
+      "outcome": "accessible",
+      "error": null,
+      "checked_at": "2026-11-12",
+      "method": "Fresh GET; TLS verified; no-cache; no account cookies"
+    }
+  },
+  {
+    "id": "SRC-UNIVPM-FAQ-2026-INDEPENDENT",
+    "university_id": "marche",
+    "title": "UnivPM admissions FAQ: foreign qualifications and language proof",
+    "url": "https://www.international.univpm.it/faq/",
+    "source_type": "Official international admissions FAQ",
+    "accessed_at": "2026-11-12",
+    "cycle": "2026-2027",
+    "evidence": "FAQ 1.8–1.9 explicitly gives the 2026/27 €10 fee and two-programme maximum. Sections 1.2–1.3 require course-specific accepted language proof; English-medium studies do not automatically exempt every applicant. Section 1.18 says admission cannot be deferred to another year. Other FAQ content has older dates and is not a substitute for annual calls.",
+    "supports": [
+      "university.previous_cycle_application_fee",
+      "program.previous_cycle_english_requirement"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://www.international.univpm.it/faq/",
+      "content_type": "text/html; charset=UTF-8",
+      "content_length_header": null,
+      "etag": null,
+      "last_modified": null,
+      "cache_control": null,
+      "age": null,
+      "x_vercel_cache": null,
+      "x_vercel_id": null,
+      "location": null,
+      "observed_title": "FAQ - International Univpm",
+      "pdf_signature": null,
+      "has_2027_marker": false,
+      "bytes_read": 148354,
+      "outcome": "accessible",
+      "error": null,
+      "checked_at": "2026-11-12",
+      "method": "Fresh GET; TLS verified; no-cache; no account cookies"
+    }
+  },
+  {
+    "id": "SRC-CA-FOSCARI-REGIONAL-AID-CALL-2026-INDEPENDENT",
+    "university_id": "ca-foscari",
+    "title": "Ca’ Foscari binding 2026/27 regional scholarship call, decree 2410/2026",
+    "url": "https://www.unive.it/pag/fileadmin/user_upload/ateneo/diritto-allo-studio/borse-studio/2026_27/Bando_Borse_di_studio_2026-2027_ITA.pdf",
+    "source_type": "Official regional scholarship call PDF",
+    "accessed_at": "2026-11-12",
+    "cycle": "2026-2027",
+    "evidence": "Decree 2410/2026 of 28 July 2026. Article 4(1)(b), p. 5, and Article 7(13)–(14), p. 15, set inclusive economic ceilings: ISEE ≤€26,306.25 and ISPE ≤€43,125.94. Article 4, pp. 5–6, separates 30 September 2026 12:30 application submission from later first-year master ISEE documents. The binding PDF resolves the summary webpage’s inconsistent €26,306.35 detailed figure. It concerns 2026/27 only.",
+    "supports": [
+      "university.previous_cycle_regional_scholarships"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://www.unive.it/pag/fileadmin/user_upload/ateneo/diritto-allo-studio/borse-studio/2026_27/Bando_Borse_di_studio_2026-2027_ITA.pdf",
+      "content_type": "application/pdf",
+      "content_length_header": "721583",
+      "etag": "\"540109-b02af-657ab775d091f\"",
+      "last_modified": "Tue, 28 Jul 2026 13:03:33 GMT",
+      "cache_control": "max-age=2592000",
+      "age": null,
+      "x_vercel_cache": null,
+      "x_vercel_id": null,
+      "location": null,
+      "observed_title": null,
+      "pdf_signature": "%PDF-",
+      "has_2027_marker": true,
+      "bytes_read": 721583,
+      "outcome": "accessible",
+      "error": null,
+      "checked_at": "2026-11-12",
+      "method": "Fresh GET; TLS verified; no-cache; no account cookies"
+    }
+  },
+  {
+    "id": "AUDIT-BBS-FINANCE-UNIBO-2026",
+    "university_id": "bologna",
+    "title": "University of Bologna Finance professional master:2026/27",
+    "url": "https://www.unibo.it/en/study/phd-professional-masters-specialisation-schools-and-other-programmes/professional-master/2026-2027/finance-2",
+    "source_type": "Official University professional-master page",
+    "accessed_at": "2026-11-12",
+    "cycle": "2026-2027",
+    "evidence": "Official University 2026/27 Finance page identifies one Level I professional master with two tracks:Finance and Artificial Intelligence and Entrepreneurial Finance; English, annual, 60 ECTS, Bologna. Not a 2027 admission call.",
+    "supports": [
+      "level",
+      "facts.program_type",
+      "source_ids",
+      "facts.official_course_listing_2027_2028"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://www.unibo.it/en/study/phd-professional-masters-specialisation-schools-and-other-programmes/professional-master/2026-2027/finance-2",
+      "content_type": "text/html;charset=utf-8",
+      "content_length_header": null,
+      "etag": null,
+      "last_modified": null,
+      "cache_control": "max-age=0, s-maxage=0, must-revalidate",
+      "age": "0",
+      "outcome": "accessible",
+      "checked_at": "2026-11-12",
+      "bytes_read": 487819,
+      "method": "Fresh full GET; TLS verified; no authentication cookies; official content independently read."
+    }
+  },
+  {
+    "id": "AUDIT-BBS-FINANCE-SHEET-2026",
+    "university_id": "bologna",
+    "title": "Official 2026/27 Finance professional-master programme sheet",
+    "url": "https://www.bbs.unibo.it/wp-content/uploads/2025/12/FIN_A.A.-2026-2027_EN.pdf",
+    "source_type": "Official University professional-master programme sheet PDF",
+    "accessed_at": "2026-11-12",
+    "cycle": "2026-2027",
+    "evidence": "Formal 2026/27 Finance sheet, code 6212, Level I, explicit two tracks.€60 selection/€14800 tuition, 550 GMATor GRE exemption, B2/test route; first-cycle or equivalent foreign degrees; conditional external-funded waivers and minimum seven enrolled per track. These historical terms do not establish 2027 rules.",
+    "supports": [
+      "level",
+      "facts.program_type",
+      "source_ids",
+      "facts.official_course_listing_2027_2028"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://www.bbs.unibo.it/wp-content/uploads/2025/12/FIN_A.A.-2026-2027_EN.pdf",
+      "content_type": "application/pdf",
+      "content_length_header": "343925",
+      "etag": "\"53f75-6469fa7e9240a\"",
+      "last_modified": "Tue, 23 Dec 2025 14:49:51 GMT",
+      "cache_control": null,
+      "age": null,
+      "outcome": "accessible",
+      "checked_at": "2026-11-12",
+      "bytes_read": 343925,
+      "method": "Fresh full GET; TLS verified; no authentication cookies; official content independently read."
+    }
+  },
+  {
+    "id": "AUDIT-BBS-BUSINESS-MANAGEMENT-SHEET-2026",
+    "university_id": "bologna",
+    "title": "Official 2026/27 Business Management professional-master programme sheet",
+    "url": "https://www.bbs.unibo.it/wp-content/uploads/2025/12/MGI-MBM_A.A.-2026-2027_EN.pdf",
+    "source_type": "Official University professional-master programme sheet PDF",
+    "accessed_at": "2026-11-12",
+    "cycle": "2026-2027",
+    "evidence": "Formal 2026/27 Business Management sheet, code 5838, Level I, English Green Management concentration, annual 60 ECTS, Bologna, €13800/€60, 600-hourinternship. Last round deadline2 November 2026, tests5 and 10–11 November, enrolment1 December; third instalment 30 March 2027. These conflict with the linked live Green page. Conditional external-funded full waiver is permitted; no 2027 call is established.",
+    "supports": [
+      "facts.current_published_calendar"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://www.bbs.unibo.it/wp-content/uploads/2025/12/MGI-MBM_A.A.-2026-2027_EN.pdf",
+      "content_type": "application/pdf",
+      "content_length_header": "361652",
+      "etag": "\"584b4-6469fa7dfcd5f\"",
+      "last_modified": "Tue, 23 Dec 2025 14:49:50 GMT",
+      "cache_control": null,
+      "age": null,
+      "outcome": "accessible",
+      "checked_at": "2026-11-12",
+      "bytes_read": 361652,
+      "method": "Fresh full GET; TLS verified; no authentication cookies; official content independently read."
+    }
+  },
+  {
+    "id": "SRC-AUDIT-BOLOGNA-GESTIONALE-ADMISSION",
+    "university_id": "bologna",
+    "title": "GESTIONALE ADMISSION",
+    "url": "https://corsi.unibo.it/laurea/IngegneriaGestionale/iscriversi",
+    "source_type": "Official course admissions page or linked annual call",
+    "accessed_at": "2026-11-12",
+    "cycle": "2026-2027",
+    "evidence": "Admissions navigation page links programme-specific requirements, annual call, OFA and international/fee guidance. It is a navigation source, not an independent annual admission announcement.",
+    "supports": [
+      "independent_audit.programme_comparison"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://corsi.unibo.it/laurea/IngegneriaGestionale/iscriversi",
+      "content_type": "text/html;charset=utf-8",
+      "bytes_read": 292704,
+      "outcome": "accessible",
+      "checked_at": "2026-11-12",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers"
+    }
+  },
+  {
+    "id": "SRC-AUDIT-BOLOGNA-ECONCOM-ADMISSION",
+    "university_id": "bologna",
+    "title": "ECONCOM ADMISSION",
+    "url": "https://corsi.unibo.it/laurea/EconomiaCommercio/iscriversi",
+    "source_type": "Official course admissions page or linked annual call",
+    "accessed_at": "2026-11-12",
+    "cycle": "2026-2027",
+    "evidence": "Admissions navigation page links programme-specific requirements, annual call, OFA and international/fee guidance. It is a navigation source, not an independent annual admission announcement.",
+    "supports": [
+      "independent_audit.programme_comparison"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://corsi.unibo.it/laurea/EconomiaCommercio/iscriversi",
+      "content_type": "text/html;charset=utf-8",
+      "bytes_read": 292568,
+      "outcome": "accessible",
+      "checked_at": "2026-11-12",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers"
+    }
+  },
+  {
+    "id": "SRC-AUDIT-BOLOGNA-GESTIONALE-REQUIREMENTS",
+    "university_id": "bologna",
+    "title": "GESTIONALE REQUIREMENTS",
+    "url": "https://corsi.unibo.it/laurea/IngegneriaGestionale/iscriversi-al-corso",
+    "source_type": "Official course admissions page or linked annual call",
+    "accessed_at": "2026-11-12",
+    "cycle": "2026-2027",
+    "evidence": "Read course-specific admission page: linked annual call2026/27, Italian TOLC-I or TOLC-E as appropriate, Italian-language requirement/exemptions for non-EU-abroad route, separate EUR20 selection and EUR35 test fees, annual quota and qualification checks. Dates/fees remain historical.",
+    "supports": [
+      "independent_audit.programme_comparison"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://corsi.unibo.it/laurea/IngegneriaGestionale/iscriversi-al-corso",
+      "content_type": "text/html;charset=utf-8",
+      "bytes_read": 382648,
+      "outcome": "accessible",
+      "checked_at": "2026-11-12",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers"
+    }
+  },
+  {
+    "id": "SRC-AUDIT-BOLOGNA-ECONCOM-REQUIREMENTS",
+    "university_id": "bologna",
+    "title": "ECONCOM REQUIREMENTS",
+    "url": "https://corsi.unibo.it/laurea/EconomiaCommercio/iscriversi-al-corso",
+    "source_type": "Official course admissions page or linked annual call",
+    "accessed_at": "2026-11-12",
+    "cycle": "2026-2027",
+    "evidence": "Read course-specific admission page: linked annual call2026/27, Italian TOLC-I or TOLC-E as appropriate, Italian-language requirement/exemptions for non-EU-abroad route, separate EUR20 selection and EUR35 test fees, annual quota and qualification checks. Dates/fees remain historical.",
+    "supports": [
+      "independent_audit.programme_comparison"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://corsi.unibo.it/laurea/EconomiaCommercio/iscriversi-al-corso",
+      "content_type": "text/html;charset=utf-8",
+      "bytes_read": 372677,
+      "outcome": "accessible",
+      "checked_at": "2026-11-12",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers"
+    }
+  },
+  {
+    "id": "SRC-AUDIT-BOLOGNA-GESTIONALE-CALL-2026",
+    "university_id": "bologna",
+    "title": "GESTIONALE CALL 2026",
+    "url": "https://corsi.unibo.it/s/3387/p/it/iscriversi-nuova-2/bandotolc_ingegneria-e-scienze-area-informatica-_a-a-2025-2026.pdf/@@download/file/BandoTOLC_Ingegneria e Scienze (area informatica)_A.A. 2026-2027.pdf",
+    "source_type": "Official course admissions page or linked annual call",
+    "accessed_at": "2026-11-12",
+    "cycle": "2026-2027",
+    "evidence": "Formal annual PDF expressly says2026/27. Read cover, course/seat table, applicant categories, secondary qualification, TOLC delivery and selection-contribution sections. Non-EU-abroad applicants use the second ordinary selection. EUR20 is paid once, not once per round; new online applications remain necessary. No2027/28 rules are established.",
+    "supports": [
+      "independent_audit.programme_comparison"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://corsi.unibo.it/s/3387/p/it/iscriversi-nuova-2/bandotolc_ingegneria-e-scienze-area-informatica-_a-a-2025-2026.pdf/@@download/file/BandoTOLC_Ingegneria%20e%20Scienze%20(area%20informatica)_A.A.%202026-2027.pdf",
+      "content_type": "application/pdf",
+      "bytes_read": 1554096,
+      "outcome": "accessible",
+      "checked_at": "2026-11-12",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers"
+    }
+  },
+  {
+    "id": "SRC-AUDIT-BOLOGNA-ECONCOM-CALL-2026",
+    "university_id": "bologna",
+    "title": "ECONCOM CALL 2026",
+    "url": "https://corsi.unibo.it/s/3427/p/it/iscriversi-al-corso/bando-tolc-economia-25-26-con-stampigliatura.pdf/@@download/file/BANDO TOLC 26_27 Economia con stampigliatura.pdf",
+    "source_type": "Official course admissions page or linked annual call",
+    "accessed_at": "2026-11-12",
+    "cycle": "2026-2027",
+    "evidence": "Formal annual PDF expressly says2026/27. Read cover, course/seat table, applicant categories, secondary qualification, TOLC delivery and selection-contribution sections. Non-EU-abroad applicants use the second ordinary selection. EUR20 is paid once, not once per round; new online applications remain necessary. No2027/28 rules are established.",
+    "supports": [
+      "independent_audit.programme_comparison"
+    ],
+    "url_check": {
+      "http_status": 200,
+      "effective_url": "https://corsi.unibo.it/s/3427/p/it/iscriversi-al-corso/bando-tolc-economia-25-26-con-stampigliatura.pdf/@@download/file/BANDO%20TOLC%2026_27%20Economia%20con%20stampigliatura.pdf",
+      "content_type": "application/pdf",
+      "bytes_read": 1420222,
+      "outcome": "accessible",
+      "checked_at": "2026-11-12",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers"
+    }
+  },
+  {
+    "id": "SRC-AUDIT-BO-CLE-CALL-2026",
+    "university_id": "bologna",
+    "title": "CLE formal linked admission notice 2026/27",
+    "url": "https://cle.unibo.it/uploads/uploadfiles/Avviso-LM_CLE-26-27_DEFINITIVO_2025_PROT.pdf",
+    "source_type": "Official university, ministry or test-provider evidence independently read",
+    "accessed_at": "2026-11-12",
+    "cycle": "2026/27",
+    "evidence": "Fresh 12 November linkedcall is 2026/27, notpromised 2027/28; historicaldates 17 Nov 2025-3 Mar 2026 and 1 Apr-28 May 2026; LM14/CLE degreeandgrade/languagerules.",
+    "supports": [
+      "independent_audit.field_comparisons"
+    ],
+    "capture_sha256": "4880acd19d1a66068de043f6cbe53cc831d7df0a70cc777d00488ce33fab38b9",
+    "http_status": 200,
+    "final_url": "https://cle.unibo.it/uploads/uploadfiles/Avviso-LM_CLE-26-27_DEFINITIVO_2025_PROT.pdf",
+    "content_review_outcome": "SUPPORTS_RECORDED_SCOPE"
+  },
+  {
+    "id": "SRC-AUDIT-BO-CISIA-SU",
+    "university_id": "bologna",
+    "title": "CISIA TOLC-SU official structure",
+    "url": "https://www.cisiaonline.it/tolc/tolc-su/struttura-della-prova-e-sillabo",
+    "source_type": "Official university, ministry or test-provider evidence independently read",
+    "accessed_at": "2026-11-12",
+    "cycle": "current 2026 test structure",
+    "evidence": "OfficialCISIAstructure 50 scoredquestions 100 min:30/10/10 and 60/20/20 min; English 30 questions 15 min; core+1/-.25/0.",
+    "supports": [
+      "independent_audit.field_comparisons"
+    ],
+    "capture_sha256": "c465942ea5fc73be99117848a987213dd037f3f261752b117c2dfbc430aa960f",
+    "http_status": 200,
+    "final_url": "https://www.cisiaonline.it/tolc/tolc-su/struttura-della-prova-e-sillabo",
+    "content_review_outcome": "SUPPORTS_RECORDED_SCOPE"
+  },
+  {
+    "id": "SRC-AUDIT-BO-MUR-1472-2026",
+    "university_id": "bologna",
+    "title": "MUR1472 EnglishMedicine places amendment",
+    "url": "https://www.mur.gov.it/sites/default/files/2026-11/Decreto%20Ministeriale%20n.%201472%20del%2030-10-2026.pdf",
+    "source_type": "Official university, ministry or test-provider evidence independently read",
+    "accessed_at": "2026-11-12",
+    "cycle": "2026/27",
+    "evidence": "Readfour-page 30 October 2026 amendment:onlyFirenzeEnglishMedicinegains 5 nonEU-abroadplaces; allotheruniversitiesunchanged, soBologna 140+20 remainsapplicable.",
+    "supports": [
+      "independent_audit.field_comparisons"
+    ],
+    "capture_sha256": "323f01525a039e08e98dbc79230cc67c8598d7edb9a644921ef4bcbcbcbe8c58",
+    "http_status": 200,
+    "final_url": "https://www.mur.gov.it/sites/default/files/2026-11/Decreto%20Ministeriale%20n.%201472%20del%2030-10-2026.pdf",
+    "content_review_outcome": "SUPPORTS_RECORDED_SCOPE"
   }
 ]

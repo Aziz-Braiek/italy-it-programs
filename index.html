@@ -212,7 +212,7 @@
       var confirmed=programs.filter(function(p){return p.overall_status==="CONFIRMED"});
       var needingReview=programs.filter(function(p){return p.overall_status==="REQUIRES_VERIFICATION"}).length;
       var deadlineIds={};
-      function hasExactDeadline(value){if(Array.isArray(value))return value.some(hasExactDeadline);if(value&&typeof value==="object")return Object.keys(value).some(function(k){return k==="end"&&/^\d{4}-\d{2}-\d{2}$/.test(value[k]||"")||hasExactDeadline(value[k])});return false}
+      function hasExactDeadline(value){if(Array.isArray(value))return value.some(hasExactDeadline);if(value&&typeof value==="object")return Object.keys(value).some(function(k){return k==="end"&&/^\d{4}-\d{2}-\d{2}(?:T|$)/.test(value[k]||"")&&!isNaN(Date.parse(value[k]))||hasExactDeadline(value[k])});return false}
       universities.forEach(function(u){Object.keys(u.cycle_facts||{}).forEach(function(k){var f=u.cycle_facts[k];if(["application_windows","bachelor_call"].indexOf(k)>=0&&f.status==="CONFIRMED"&&hasExactDeadline(f.value))deadlineIds[u.id]=true})});
       programs.forEach(function(p){Object.keys(p.facts||{}).forEach(function(k){var f=p.facts[k];if(["application_windows","application_deadline"].indexOf(k)>=0&&f.status==="CONFIRMED"&&hasExactDeadline(f.value))deadlineIds[p.university_id]=true})});
       document.getElementById("stat-universities").textContent=universities.length;

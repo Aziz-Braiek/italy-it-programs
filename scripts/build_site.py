@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import html
+import importlib.util
 import json
 import re
 import shutil
@@ -195,7 +196,13 @@ def pretty_value(value: Any) -> str:
 def fact_status(fact: dict[str, Any], key: str) -> str:
     status = fact.get("status", "REQUIRES_VERIFICATION")
     if key.startswith(("previous_cycle", "historical", "prior_cycle")):
+        if status=="CONFLICTING_SOURCES":
+            return "Earlier-cycle information · sources disagree"
+        if status=="REQUIRES_VERIFICATION":
+            return "Earlier-cycle scope unverified"
         return "Earlier-cycle information"
+    if status=="CONFIRMED" and (key.startswith("current_published_") or key in {"tuition_currently_displayed","scholarships_currently_displayed","current_foreign_student_fee_guidance"}):
+        return "Published guidance · year unconfirmed"
     return status_label(status, current=CURRENT_CYCLE in record_source_cycles(fact.get("source_ids")))
 
 
@@ -233,6 +240,13 @@ def date_candidates(program: dict[str, Any]) -> list[tuple[str, dict[str, Any], 
             continue
         value = fact.get("value")
         values = value if isinstance(value, list) else [value]
+        # Bocconi's joint degree has two different qualification routes. Keep
+        # applicant labels when exporting its nested, independently verified rounds.
+        if isinstance(value,dict) and "international_degree_rounds" in value:
+            values=[]
+            for route,label in [("international_degree_rounds","International bachelor's qualification —Bocconi standard application"),("italian_degree_dedicated_joint_rounds","Italian bachelor's qualification —dedicated joint-degree application")]:
+                for window in value.get(route,[]):
+                    values.append({**window,"eligible_group":label})
         for row in values:
             if not isinstance(row, dict):
                 continue
@@ -550,6 +564,13 @@ def updates_page() -> str:
         for p in reviewed
     )
     body = f'''<section class="page-hero"><p class="eyebrow light">REVIEW ACTIVITY</p><h1>Recent record checks</h1><p>A review date tells you when a record was last checked. It is not a change history and does not guarantee that the university has not published something since then.</p></section><section class="section narrow table-section"><div class="table-scroll"><table><caption>30 most recently reviewed program records</caption><thead><tr><th scope="col">Last checked</th><th scope="col">Program</th><th scope="col">University</th><th scope="col">2027/28 status</th></tr></thead><tbody>{rows}</tbody></table></div><p>We do not yet have a reliable historical snapshot for every individual field, so this page shows review dates rather than claiming a record of changes. <a href="/methodology/">Read the source and status method.</a></p></section>'''
+    audit_path=ROOT/"research/independent-audit-2026-11/review-ledger.json"
+    if audit_path.exists():
+        audit=json.loads(audit_path.read_text(encoding="utf-8"))["metadata"]
+        counts=audit["counts"]
+        audit_section=f'<section class="section narrow prose"><h2>Independent evidence audit</h2><p>The review covers {counts["baseline_programs"]} program records, {counts["baseline_universities"]} universities and {counts["baseline_sources"]} original official source records. The ledger compares stored values with official evidence and records each academic year, applicant route, source and check date. Unpublished fields, inaccessible evidence and conflicting notices remain explicit.</p><p>Review status: {esc(audit["audit_state"].replace("_"," ").lower())}.</p><ul><li><a href="/data/independent-audit/correction-report.md" download>Correction report</a></li><li><a href="/data/independent-audit/review-ledger.json" download>Complete review ledger (JSON)</a></li><li><a href="/data/independent-audit/findings.json" download>Structured findings (JSON)</a></li><li><a href="/data/independent-audit/independent-audit-review.zip" download>Complete audit and data package (ZIP)</a></li></ul></section>'
+        body=body.replace('<section class="section narrow table-section">',audit_section+'<section class="section narrow table-section">')
+        body=body.replace('We do not yet have a reliable historical snapshot for every individual field, so this page shows review dates rather than claiming a record of changes.','The independent audit ledger records the original values, official findings and corrections. This table lists recent program check dates.')
     return page("Research Review Updates | Italy University Tracker 2027/28", "Recent review dates for program records in the Italy University Tracker.", body, path="/updates/")
 
 
@@ -658,6 +679,17 @@ def write_site() -> None:
         shutil.copy2(ROOT / "site" / asset, OUT / "assets" / asset)
     for filename in ("programs-2027-2028.json", "universities-2027-2028.json", "sources.json"):
         shutil.copy2(ROOT / "research" / filename, OUT / "data" / filename)
+    audit_dir=ROOT/"research/independent-audit-2026-11"
+    if (audit_dir/"approved-corrections.json").exists():
+        package_spec=importlib.util.spec_from_file_location("independent_review_package",ROOT/"scripts/build_independent_review_package.py")
+        package_module=importlib.util.module_from_spec(package_spec)
+        package_spec.loader.exec_module(package_module)
+        package_module.build()
+        destination=OUT/"data/independent-audit"
+        destination.mkdir()
+        for filename in ("correction-report.md","review-ledger.json","findings.json","approved-corrections.json"):
+            shutil.copy2(audit_dir/filename,destination/filename)
+        shutil.copy2(ROOT/"review-package/independent-audit-review.zip",destination/"independent-audit-review.zip")
     generate_social_card()
     generate_favicon()
     (OUT / "index.html").write_text(homepage(), encoding="utf-8")

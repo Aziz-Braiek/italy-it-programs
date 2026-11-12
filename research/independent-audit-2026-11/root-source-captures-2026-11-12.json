@@ -1,0 +1,870 @@
+[
+  {
+    "url": "https://didattica.di.unipi.it/wp-content/uploads/sites/2/2026/11/Bando2026_corsi_internazionali.pdf",
+    "source_ids": [
+      "SRC-PISA-CALL-2027"
+    ],
+    "evidence_key": "06562f77dfd39f66d085",
+    "checked_at_utc": "2026-11-11T23:38:52.254713+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://didattica.di.unipi.it/wp-content/uploads/sites/2/2026/11/Bando2026_corsi_internazionali.pdf",
+    "redirects": [],
+    "headers": {
+      "date": "Wed, 11 Nov 2026 23:38:52 GMT",
+      "last-modified": "Mon, 09 Nov 2026 10:35:40 GMT",
+      "etag": "\"229ac-65fd585fc6ce4\"",
+      "content-length": "141740",
+      "content-type": "application/pdf"
+    },
+    "bytes": 141740,
+    "sha256": "1c99263d016bf882fe561a9338583ca6911c19dc5abe581ed94e5833bd09a59e",
+    "elapsed_seconds": 0.187,
+    "local_raw_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/06562f77dfd39f66d085.pdf",
+    "pdf_pages": 2,
+    "local_text_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/06562f77dfd39f66d085.txt",
+    "text_characters": 7372,
+    "transport_outcome": "accessible"
+  },
+  {
+    "url": "https://didattica.di.unipi.it/en/master-programme-in-computer-science/",
+    "source_ids": [
+      "SRC-PISA-CS"
+    ],
+    "evidence_key": "ad163e6176c0ed55885b",
+    "checked_at_utc": "2026-11-11T23:38:52.255712+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://didattica.di.unipi.it/en/master-programme-in-computer-science/",
+    "redirects": [],
+    "headers": {
+      "date": "Wed, 11 Nov 2026 23:38:52 GMT",
+      "content-length": "19268",
+      "content-type": "text/html; charset=UTF-8"
+    },
+    "bytes": 83753,
+    "sha256": "72391ad75b7808491cdd0237f1157b042552c4c43a302690c52c2426b67a6ca5",
+    "elapsed_seconds": 0.625,
+    "local_raw_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/ad163e6176c0ed55885b.html",
+    "local_text_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/ad163e6176c0ed55885b.txt",
+    "text_characters": 5682,
+    "transport_outcome": "accessible"
+  },
+  {
+    "url": "https://didattica.di.unipi.it/en/master-programme-in-data-science-and-business-informatics/",
+    "source_ids": [
+      "SRC-PISA-DSBI"
+    ],
+    "evidence_key": "c10adc4369dca95ed300",
+    "checked_at_utc": "2026-11-11T23:38:52.255712+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://didattica.di.unipi.it/en/master-programme-in-data-science-and-business-informatics/",
+    "redirects": [],
+    "headers": {
+      "date": "Wed, 11 Nov 2026 23:38:52 GMT",
+      "content-length": "18941",
+      "content-type": "text/html; charset=UTF-8"
+    },
+    "bytes": 83725,
+    "sha256": "ec00bd28dc621b6a5739d5946466246ea26dee0fa0530ba092196c4a7a4a2cd7",
+    "elapsed_seconds": 0.563,
+    "local_raw_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/c10adc4369dca95ed300.html",
+    "local_text_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/c10adc4369dca95ed300.txt",
+    "text_characters": 4699,
+    "transport_outcome": "accessible"
+  },
+  {
+    "url": "https://didattica.di.unipi.it/en/master-programme-in-informatics-for-digital-health/",
+    "source_ids": [
+      "SRC-PISA-DH"
+    ],
+    "evidence_key": "81339e4557f1880f20b6",
+    "checked_at_utc": "2026-11-11T23:38:52.255712+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://didattica.di.unipi.it/en/master-programme-in-informatics-for-digital-health/",
+    "redirects": [],
+    "headers": {
+      "date": "Wed, 11 Nov 2026 23:38:52 GMT",
+      "content-length": "21333",
+      "content-type": "text/html; charset=UTF-8"
+    },
+    "bytes": 90017,
+    "sha256": "e52ed3d7d6a679d283b21b789d300587c923ae51fcb7de2bcc69c59124bc72a1",
+    "elapsed_seconds": 0.578,
+    "local_raw_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/81339e4557f1880f20b6.html",
+    "local_text_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/81339e4557f1880f20b6.txt",
+    "text_characters": 9256,
+    "transport_outcome": "accessible"
+  },
+  {
+    "url": "https://international.unime.it/study-us/application-and-admission",
+    "source_ids": [
+      "SRC-UNIME-2027"
+    ],
+    "evidence_key": "1b760d3e8e248f8c8d35",
+    "checked_at_utc": "2026-11-11T23:38:52.256713+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://international.unime.it/study-us/application-and-admission",
+    "redirects": [],
+    "headers": {
+      "date": "Wed, 11 Nov 2026 23:38:52 GMT",
+      "content-type": "text/html; charset=UTF-8",
+      "content-length": "25950",
+      "cache-control": "max-age=3600, public",
+      "last-modified": "Wed, 11 Nov 2026 19:40:59 GMT",
+      "etag": "\"1794426059-gzip\"",
+      "age": "1281"
+    },
+    "bytes": 180874,
+    "sha256": "6b997725d4dba10d436b51fd357097cda073efc9b053e2d5d03fe624216213d3",
+    "elapsed_seconds": 0.125,
+    "local_raw_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/1b760d3e8e248f8c8d35.html",
+    "local_text_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/1b760d3e8e248f8c8d35.txt",
+    "text_characters": 23756,
+    "transport_outcome": "accessible"
+  },
+  {
+    "url": "https://unime.coursecatalogue.cineca.it/af/2027?ad=A001855&annoOrdinamento=2026&coorte=2026&corso=9237R&linguaCC=EN&pds=110",
+    "source_ids": [
+      "SRC-UNIME-DS-COURSE-ICT-2027"
+    ],
+    "evidence_key": "f48c7f65caf4925bb066",
+    "checked_at_utc": "2026-11-11T23:38:52.256713+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://unime.coursecatalogue.cineca.it/af/2027?ad=A001855&annoOrdinamento=2026&coorte=2026&corso=9237R&linguaCC=EN&pds=110",
+    "redirects": [],
+    "headers": {
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Wed, 11 Nov 2026 23:38:52 GMT",
+      "cache-control": "public, max-age=0",
+      "last-modified": "Wed, 04 Nov 2026 11:33:58 GMT",
+      "etag": "W/\"1141d-1a1a6565470\""
+    },
+    "bytes": 70685,
+    "sha256": "98aceede124601b861b30d011945487fbfb381daedd77c6af38eb0fb00a41c1f",
+    "elapsed_seconds": 0.11,
+    "local_raw_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/f48c7f65caf4925bb066.html",
+    "local_text_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/f48c7f65caf4925bb066.txt",
+    "text_characters": 0,
+    "transport_outcome": "accessible"
+  },
+  {
+    "url": "https://unime.coursecatalogue.cineca.it/af/2027?ad=A001898&annoOrdinamento=2026&coorte=2026&corso=9237R&linguaCC=EN&pds=120",
+    "source_ids": [
+      "SRC-UNIME-DS-COURSE-ECONOMY-2027"
+    ],
+    "evidence_key": "50c3110d615a89542479",
+    "checked_at_utc": "2026-11-11T23:38:52.256713+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://unime.coursecatalogue.cineca.it/af/2027?ad=A001898&annoOrdinamento=2026&coorte=2026&corso=9237R&linguaCC=EN&pds=120",
+    "redirects": [],
+    "headers": {
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Wed, 11 Nov 2026 23:38:52 GMT",
+      "cache-control": "public, max-age=0",
+      "last-modified": "Wed, 04 Nov 2026 11:33:58 GMT",
+      "etag": "W/\"1141d-1a1a6565470\""
+    },
+    "bytes": 70685,
+    "sha256": "98aceede124601b861b30d011945487fbfb381daedd77c6af38eb0fb00a41c1f",
+    "elapsed_seconds": 0.125,
+    "local_raw_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/50c3110d615a89542479.html",
+    "local_text_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/50c3110d615a89542479.txt",
+    "text_characters": 0,
+    "transport_outcome": "accessible"
+  },
+  {
+    "url": "https://international.unime.it/study-us/english-taught-programmes",
+    "source_ids": [
+      "SRC-UNIME-ENGLISH-PROGRAMS"
+    ],
+    "evidence_key": "d97ab5e2541c79ad85f0",
+    "checked_at_utc": "2026-11-11T23:38:52.258112+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://international.unime.it/study-us/english-taught-programmes",
+    "redirects": [],
+    "headers": {
+      "date": "Wed, 11 Nov 2026 23:38:52 GMT",
+      "content-type": "text/html; charset=UTF-8",
+      "content-length": "23841",
+      "cache-control": "max-age=3600, public",
+      "last-modified": "Wed, 11 Nov 2026 19:54:10 GMT",
+      "etag": "\"1794426850-gzip\"",
+      "age": "1313"
+    },
+    "bytes": 188196,
+    "sha256": "12e6eade905965eeaf1e0fb44b4c1c2dcfd9778960c263157601388863da11a6",
+    "elapsed_seconds": 0.125,
+    "local_raw_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/d97ab5e2541c79ad85f0.html",
+    "local_text_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/d97ab5e2541c79ad85f0.txt",
+    "text_characters": 14883,
+    "transport_outcome": "accessible"
+  },
+  {
+    "url": "https://international.unime.it/study-us/masters-degrees",
+    "source_ids": [
+      "SRC-UNIME-MASTERS-PROGRAMS"
+    ],
+    "evidence_key": "301e73ad2849e53b81dd",
+    "checked_at_utc": "2026-11-11T23:38:52.367892+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://international.unime.it/study-us/masters-degrees",
+    "redirects": [],
+    "headers": {
+      "date": "Wed, 11 Nov 2026 23:38:52 GMT",
+      "content-type": "text/html; charset=UTF-8",
+      "content-length": "18137",
+      "cache-control": "max-age=3600, public",
+      "last-modified": "Wed, 11 Nov 2026 23:35:17 GMT",
+      "etag": "\"1794440117-gzip\"",
+      "age": "211"
+    },
+    "bytes": 121805,
+    "sha256": "47689a321a8c9d96591ac3fe47965d8f46b75c7fe2bf5fe01acb9157784dfb58",
+    "elapsed_seconds": 0.062,
+    "local_raw_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/301e73ad2849e53b81dd.html",
+    "local_text_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/301e73ad2849e53b81dd.txt",
+    "text_characters": 5827,
+    "transport_outcome": "accessible"
+  },
+  {
+    "url": "https://international.unime.it/didattica/corsi-di-laurea-magistrale/data-science",
+    "source_ids": [
+      "SRC-UNIME-DS-PAGE"
+    ],
+    "evidence_key": "a3f17e339b55f8f05556",
+    "checked_at_utc": "2026-11-11T23:38:52.386037+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://international.unime.it/didattica/corsi-di-laurea-magistrale/data-science",
+    "redirects": [],
+    "headers": {
+      "date": "Wed, 11 Nov 2026 23:38:54 GMT",
+      "content-type": "text/html; charset=UTF-8",
+      "content-length": "18996",
+      "cache-control": "max-age=3600, public",
+      "last-modified": "Wed, 11 Nov 2026 23:38:52 GMT",
+      "etag": "\"1794440332-gzip\"",
+      "age": "0"
+    },
+    "bytes": 265698,
+    "sha256": "1f80b50ee8a561751ed123aa6bd19af5654b67981e5dfab86fc804ba60e3de24",
+    "elapsed_seconds": 2.141,
+    "local_raw_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/a3f17e339b55f8f05556.html",
+    "local_text_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/a3f17e339b55f8f05556.txt",
+    "text_characters": 30259,
+    "transport_outcome": "accessible"
+  },
+  {
+    "url": "https://didattica.di.unipi.it/en/internazionale/degrees-offered-in-english/",
+    "source_ids": [
+      "SRC-UNIPI-ENGLISH"
+    ],
+    "evidence_key": "0e87b9fc7f5101ab1ca3",
+    "checked_at_utc": "2026-11-11T23:38:52.423647+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://didattica.di.unipi.it/en/internazionale/degrees-offered-in-english/",
+    "redirects": [],
+    "headers": {
+      "date": "Wed, 11 Nov 2026 23:38:52 GMT",
+      "content-length": "15812",
+      "content-type": "text/html; charset=UTF-8"
+    },
+    "bytes": 69475,
+    "sha256": "72df2c501e0259189485b8e36e0f0d11c0f05930120ec49cc34edd2eaa82b31a",
+    "elapsed_seconds": 1.218,
+    "local_raw_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/0e87b9fc7f5101ab1ca3.html",
+    "local_text_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/0e87b9fc7f5101ab1ca3.txt",
+    "text_characters": 4602,
+    "transport_outcome": "accessible"
+  },
+  {
+    "url": "https://www.unipi.it/didattica/corsi/lauree-magistrali/",
+    "source_ids": [
+      "SRC-UNIPI-MSC-CATALOGUE-2026"
+    ],
+    "evidence_key": "eff98cebae7d8a205178",
+    "checked_at_utc": "2026-11-11T23:38:52.424652+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://www.unipi.it/didattica/corsi/lauree-magistrali/",
+    "redirects": [],
+    "headers": {
+      "date": "Wed, 11 Nov 2026 23:38:52 GMT",
+      "content-type": "text/html; charset=UTF-8"
+    },
+    "bytes": 1227375,
+    "sha256": "b9c6573479fc3c85fdc3e36624c8e6db1fc54ece1d675b1071eac153eb46a767",
+    "elapsed_seconds": 1.593,
+    "local_raw_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/eff98cebae7d8a205178.html",
+    "local_text_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/eff98cebae7d8a205178.txt",
+    "text_characters": 142761,
+    "transport_outcome": "accessible"
+  },
+  {
+    "url": "https://cysec.unipi.it/?page_id=253",
+    "source_ids": [
+      "SRC-UNIPI-CYBERSECURITY-2026"
+    ],
+    "evidence_key": "523418f38b63c6ece87c",
+    "checked_at_utc": "2026-11-11T23:38:52.450270+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://cysec.unipi.it/?page_id=253",
+    "redirects": [],
+    "headers": {
+      "date": "Wed, 11 Nov 2026 23:38:52 GMT",
+      "content-length": "8877",
+      "content-type": "text/html; charset=UTF-8"
+    },
+    "bytes": 35333,
+    "sha256": "afe54b660751a0df66652e78241896dc960ba03b36c2e7b27c23f78adf6d2cac",
+    "elapsed_seconds": 0.375,
+    "local_raw_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/523418f38b63c6ece87c.html",
+    "local_text_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/523418f38b63c6ece87c.txt",
+    "text_characters": 5310,
+    "transport_outcome": "accessible"
+  },
+  {
+    "url": "https://computer.ing.unipi.it/en/masters-degree-in-artificial-intelligence-and-data-engineering/",
+    "source_ids": [
+      "SRC-UNIPI-AIDE-2026",
+      "SRC-UNIPI-AIDE-COURSE-PROFILE"
+    ],
+    "evidence_key": "8079fbc13ff40aaf9fd1",
+    "checked_at_utc": "2026-11-11T23:38:52.624684+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://computer.ing.unipi.it/en/masters-degree-in-artificial-intelligence-and-data-engineering/",
+    "redirects": [],
+    "headers": {
+      "date": "Wed, 11 Nov 2026 23:38:52 GMT",
+      "cache-control": "max-age=3600, public",
+      "last-modified": "Wed, 11 Nov 2026 23:38:58 GMT",
+      "etag": "\"f4a6fc7d064a5a7c9961f99d6a904aad\"",
+      "content-type": "text/html; charset=UTF-8"
+    },
+    "bytes": 204017,
+    "sha256": "637e042604452ac9d65923d66c548f2ca2a506d5451c33b94f5a66822da93a8d",
+    "elapsed_seconds": 6.422,
+    "local_raw_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/8079fbc13ff40aaf9fd1.html",
+    "local_text_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/8079fbc13ff40aaf9fd1.txt",
+    "text_characters": 7309,
+    "transport_outcome": "accessible"
+  },
+  {
+    "url": "https://www.unipi.it/didattica/corsi/lauree-magistrali/bionics-engineering-wber-lm/",
+    "source_ids": [
+      "SRC-UNIPI-BIONICS-2026"
+    ],
+    "evidence_key": "95431916835e7eed7a32",
+    "checked_at_utc": "2026-11-11T23:38:52.837915+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://www.unipi.it/didattica/corsi/lauree-magistrali/bionics-engineering-wber-lm/",
+    "redirects": [],
+    "headers": {
+      "date": "Wed, 11 Nov 2026 23:38:53 GMT",
+      "content-type": "text/html; charset=UTF-8"
+    },
+    "bytes": 911301,
+    "sha256": "19c85cf30b14cc2234444bfcbfe9a4529836f37be725726cbc5c43b3381edc14",
+    "elapsed_seconds": 1.297,
+    "local_raw_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/95431916835e7eed7a32.html",
+    "local_text_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/95431916835e7eed7a32.txt",
+    "text_characters": 19759,
+    "transport_outcome": "accessible"
+  },
+  {
+    "url": "https://nucleare.ing.unipi.it/images/files/SUA_2023.pdf",
+    "source_ids": [
+      "SRC-UNIPI-NUCLEAR-2026"
+    ],
+    "evidence_key": "d9d1ad3fcba5a0f98d87",
+    "checked_at_utc": "2026-11-11T23:38:52.839434+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://nucleare.ing.unipi.it/images/files/SUA_2023.pdf",
+    "redirects": [],
+    "headers": {
+      "date": "Wed, 11 Nov 2026 23:38:53 GMT",
+      "last-modified": "Fri, 08 Nov 2024 14:06:07 GMT",
+      "etag": "\"bf1eb-62667409111c0\"",
+      "content-length": "782827",
+      "content-type": "application/pdf"
+    },
+    "bytes": 782827,
+    "sha256": "40bf871c53907c42e3b2417a3d7e443dd07c4e87b30c5f5869876c5c025723da",
+    "elapsed_seconds": 0.86,
+    "local_raw_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/d9d1ad3fcba5a0f98d87.pdf",
+    "pdf_pages": 46,
+    "local_text_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/d9d1ad3fcba5a0f98d87.txt",
+    "text_characters": 88623,
+    "transport_outcome": "accessible"
+  },
+  {
+    "url": "https://computer.ing.unipi.it/call-for-international-students/",
+    "source_ids": [
+      "SRC-UNIPI-INFO-ENG-2027-CALL"
+    ],
+    "evidence_key": "b4eaa5ee0487c7565b93",
+    "checked_at_utc": "2026-11-11T23:38:52.855904+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://computer.ing.unipi.it/call-for-international-students/",
+    "redirects": [],
+    "headers": {
+      "date": "Wed, 11 Nov 2026 23:38:52 GMT",
+      "last-modified": "Wed, 11 Nov 2026 22:49:07 GMT",
+      "etag": "\"629a-6600800a969df\"",
+      "content-length": "25242",
+      "cache-control": "max-age=3600, public",
+      "content-type": "text/html; charset=UTF-8"
+    },
+    "bytes": 131673,
+    "sha256": "b423cc6cb72efeb13c08b9e13e91b9eb9bcdb93de94a62c0a3926f23001a8ef6",
+    "elapsed_seconds": 0.266,
+    "local_raw_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/b4eaa5ee0487c7565b93.html",
+    "local_text_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/b4eaa5ee0487c7565b93.txt",
+    "text_characters": 13112,
+    "transport_outcome": "accessible"
+  },
+  {
+    "url": "https://computer.ing.unipi.it/en/masters-degree-in-computer-engineering/",
+    "source_ids": [
+      "SRC-UNIPI-COMPUTER-ENGINEERING-PROFILE"
+    ],
+    "evidence_key": "100765d51c24adfff6b4",
+    "checked_at_utc": "2026-11-11T23:38:52.891422+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://computer.ing.unipi.it/en/masters-degree-in-computer-engineering/",
+    "redirects": [],
+    "headers": {
+      "date": "Wed, 11 Nov 2026 23:38:53 GMT",
+      "cache-control": "max-age=3600, public",
+      "last-modified": "Wed, 11 Nov 2026 23:38:59 GMT",
+      "etag": "\"a3ad482e1e9778c6ddaf8a1a7bdd9df5\"",
+      "content-type": "text/html; charset=UTF-8"
+    },
+    "bytes": 204944,
+    "sha256": "952275f91be36fdd9fb092c4c1545a753ec0f905e3b08066bebd7263f16ffd6e",
+    "elapsed_seconds": 6.625,
+    "local_raw_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/100765d51c24adfff6b4.html",
+    "local_text_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/100765d51c24adfff6b4.txt",
+    "text_characters": 6004,
+    "transport_outcome": "accessible"
+  },
+  {
+    "url": "https://www.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/masters-degree-held-in-english/",
+    "source_ids": [
+      "SRC-AUDIT-UNIPI-YEAR-TABLE"
+    ],
+    "evidence_key": "53c7d8e258209896b24e",
+    "checked_at_utc": "2026-11-11T23:38:53.130572+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://www.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/masters-degree-held-in-english/",
+    "redirects": [],
+    "headers": {
+      "date": "Wed, 11 Nov 2026 23:38:53 GMT",
+      "content-type": "text/html; charset=UTF-8"
+    },
+    "bytes": 725694,
+    "sha256": "f883d2a4ad267326a9b6dd9755836426c0e5d93975fb59fc890609e6108abb94",
+    "elapsed_seconds": 1.125,
+    "local_raw_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/53c7d8e258209896b24e.html",
+    "local_text_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/53c7d8e258209896b24e.txt",
+    "text_characters": 10868,
+    "transport_outcome": "accessible"
+  },
+  {
+    "url": "https://didattica.di.unipi.it/en/27933-2/",
+    "source_ids": [
+      "SRC-AUDIT-UNIPI-CS-REQUIREMENTS"
+    ],
+    "evidence_key": "ddb92023f74c588615e8",
+    "checked_at_utc": "2026-11-11T23:38:53.642106+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://didattica.di.unipi.it/en/27933-2/",
+    "redirects": [],
+    "headers": {
+      "date": "Wed, 11 Nov 2026 23:38:53 GMT",
+      "content-length": "15269",
+      "content-type": "text/html; charset=UTF-8"
+    },
+    "bytes": 64606,
+    "sha256": "d04703bfaaf659d8c15964d3284d7fd34158d424941a437c3bcbf720d62169cc",
+    "elapsed_seconds": 0.5,
+    "local_raw_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/ddb92023f74c588615e8.html",
+    "local_text_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/ddb92023f74c588615e8.txt",
+    "text_characters": 5023,
+    "transport_outcome": "accessible"
+  },
+  {
+    "url": "https://www.unipi.it/en/education/courses/master-degree/data-science-and-business-informatics-wdb-lm-en/",
+    "source_ids": [
+      "SRC-AUDIT-UNIPI-DSBI-PROFILE"
+    ],
+    "evidence_key": "fae813380361931eeac5",
+    "checked_at_utc": "2026-11-11T23:38:54.131934+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://www.unipi.it/en/education/courses/master-degree/data-science-and-business-informatics-wdb-lm-en/",
+    "redirects": [],
+    "headers": {
+      "date": "Wed, 11 Nov 2026 23:38:54 GMT",
+      "content-type": "text/html; charset=UTF-8"
+    },
+    "bytes": 733048,
+    "sha256": "00ef898aaf7fa9f9fc1f66610113a2dd3369abf8bd272d7e04c2981e5336253e",
+    "elapsed_seconds": 1.016,
+    "local_raw_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/fae813380361931eeac5.html",
+    "local_text_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/fae813380361931eeac5.txt",
+    "text_characters": 15073,
+    "transport_outcome": "accessible"
+  },
+  {
+    "url": "https://didattica.di.unipi.it/en/master-programme-in-informatics-for-digital-health/regolamenti-e-delibere/",
+    "source_ids": [
+      "SRC-AUDIT-UNIPI-DH-RULES"
+    ],
+    "evidence_key": "ca7d33a19823fb425740",
+    "checked_at_utc": "2026-11-11T23:38:54.131934+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://didattica.di.unipi.it/en/master-programme-in-informatics-for-digital-health/regolamenti-e-delibere/",
+    "redirects": [],
+    "headers": {
+      "date": "Wed, 11 Nov 2026 23:38:54 GMT",
+      "content-length": "14099",
+      "content-type": "text/html; charset=UTF-8"
+    },
+    "bytes": 64439,
+    "sha256": "4c6a744f4003b22b26417f2e4791ff2e60d38dab87dacecee4311f911a028de4",
+    "elapsed_seconds": 0.313,
+    "local_raw_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/ca7d33a19823fb425740.html",
+    "local_text_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/ca7d33a19823fb425740.txt",
+    "text_characters": 2055,
+    "transport_outcome": "accessible"
+  },
+  {
+    "url": "https://cysec.unipi.it/?page_id=140",
+    "source_ids": [
+      "SRC-AUDIT-UNIPI-CYBER-CALL"
+    ],
+    "evidence_key": "8a548f4d9cbfe7f6f874",
+    "checked_at_utc": "2026-11-11T23:38:54.137783+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://cysec.unipi.it/?page_id=140",
+    "redirects": [],
+    "headers": {
+      "date": "Wed, 11 Nov 2026 23:38:54 GMT",
+      "content-length": "9212",
+      "content-type": "text/html; charset=UTF-8"
+    },
+    "bytes": 36495,
+    "sha256": "6e18538d132edee7384448694484215e450b8a1bc4e868c0ed8df62fc772c482",
+    "elapsed_seconds": 0.266,
+    "local_raw_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/8a548f4d9cbfe7f6f874.html",
+    "local_text_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/8a548f4d9cbfe7f6f874.txt",
+    "text_characters": 6555,
+    "transport_outcome": "accessible"
+  },
+  {
+    "url": "https://cysec.unipi.it/?page_id=24",
+    "source_ids": [
+      "SRC-AUDIT-UNIPI-CYBER-ADMISSION"
+    ],
+    "evidence_key": "c795a3df2bd1d9c329fe",
+    "checked_at_utc": "2026-11-11T23:38:54.156882+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://cysec.unipi.it/?page_id=24",
+    "redirects": [],
+    "headers": {
+      "date": "Wed, 11 Nov 2026 23:38:54 GMT",
+      "content-length": "9456",
+      "content-type": "text/html; charset=UTF-8"
+    },
+    "bytes": 41978,
+    "sha256": "d60f1f1f2006f91743ecaa08db9b76d8f209f1d951efa100ff445d827df174cb",
+    "elapsed_seconds": 0.25,
+    "local_raw_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/c795a3df2bd1d9c329fe.html",
+    "local_text_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/c795a3df2bd1d9c329fe.txt",
+    "text_characters": 6179,
+    "transport_outcome": "accessible"
+  },
+  {
+    "url": "https://www.unipi.it/en/education/courses/master-degree/nuclear-engineering-wsnr-lm-en/",
+    "source_ids": [
+      "SRC-AUDIT-UNIPI-NUCLEAR-PROFILE"
+    ],
+    "evidence_key": "0f8bc31513e37564dd89",
+    "checked_at_utc": "2026-11-11T23:38:54.281763+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://www.unipi.it/en/education/courses/master-degree/nuclear-engineering-wsnr-lm-en/",
+    "redirects": [],
+    "headers": {
+      "date": "Wed, 11 Nov 2026 23:38:54 GMT",
+      "content-type": "text/html; charset=UTF-8"
+    },
+    "bytes": 729897,
+    "sha256": "f640f21025a700d7af915db72c7eae5c0eface8d55e35306a69e210fb5830045",
+    "elapsed_seconds": 1.016,
+    "local_raw_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/0f8bc31513e37564dd89.html",
+    "local_text_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/0f8bc31513e37564dd89.txt",
+    "text_characters": 15792,
+    "transport_outcome": "accessible"
+  },
+  {
+    "url": "https://nucleare.ing.unipi.it/it/students/foreign-students",
+    "source_ids": [
+      "SRC-AUDIT-UNIPI-NUCLEAR-FOREIGN"
+    ],
+    "evidence_key": "20b824a6c40016740b27",
+    "checked_at_utc": "2026-11-11T23:38:54.406420+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://nucleare.ing.unipi.it/it/students/foreign-students",
+    "redirects": [],
+    "headers": {
+      "date": "Wed, 11 Nov 2026 23:38:54 GMT",
+      "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+      "last-modified": "Wed, 11 Nov 2026 23:38:55 GMT",
+      "content-type": "text/html; charset=utf-8"
+    },
+    "bytes": 55625,
+    "sha256": "13d0e733c5b2d63be3ac43d0683293baf8a9e33244e8b4477b5223027a1ce544",
+    "elapsed_seconds": 1.625,
+    "local_raw_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/20b824a6c40016740b27.html",
+    "local_text_path": "tmp/independent-audit-2026-11/capture-20261111T233852Z/20b824a6c40016740b27.txt",
+    "text_characters": 7892,
+    "transport_outcome": "accessible"
+  },
+  {
+    "url": "https://international.unime.it/sites/sten/files/2026-04/EXE%20%5B%20Data%20Science%20%20%5D%2026.pdf",
+    "source_ids": [
+      "SRC-AUDIT-MESSINA-DS-INFO-2026"
+    ],
+    "evidence_key": "02e74699e86fc9cc7129",
+    "checked_at_utc": "2026-11-11T23:43:08.175494+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://international.unime.it/sites/sten/files/2026-04/EXE%20%5B%20Data%20Science%20%20%5D%2026.pdf",
+    "redirects": [],
+    "headers": {
+      "date": "Wed, 11 Nov 2026 23:43:08 GMT",
+      "content-type": "application/pdf",
+      "content-length": "1130826",
+      "last-modified": "Thu, 02 Apr 2026 10:41:07 GMT",
+      "etag": "\"11414a-64e77d6875add\"",
+      "age": "0"
+    },
+    "bytes": 1130826,
+    "sha256": "175bdbca91362982d0d56e6c26923d6da96bf0ba49d4162b021d594f47075f9c",
+    "elapsed_seconds": 0.172,
+    "local_raw_path": "tmp/independent-audit-2026-11/capture-20261111T234308Z/02e74699e86fc9cc7129.pdf",
+    "pdf_pages": 3,
+    "local_text_path": "tmp/independent-audit-2026-11/capture-20261111T234308Z/02e74699e86fc9cc7129.txt",
+    "text_characters": 4110,
+    "transport_outcome": "accessible"
+  },
+  {
+    "url": "https://computer.ing.unipi.it/en/study-plan-masters-degree-in-computer-engineering/",
+    "source_ids": [
+      "SRC-AUDIT-UNIPI-COMPUTER-STUDY-PLAN"
+    ],
+    "evidence_key": "1ed4c7b96ea8d8ea8a77",
+    "checked_at_utc": "2026-11-11T23:43:08.176493+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://computer.ing.unipi.it/en/study-plan-masters-degree-in-computer-engineering/",
+    "redirects": [],
+    "headers": {
+      "date": "Wed, 11 Nov 2026 23:43:08 GMT",
+      "last-modified": "Wed, 11 Nov 2026 23:19:08 GMT",
+      "etag": "\"8517-660086c0764c5\"",
+      "content-length": "34071",
+      "cache-control": "max-age=3600, public",
+      "content-type": "text/html; charset=UTF-8"
+    },
+    "bytes": 190436,
+    "sha256": "be8c758a38e428406e2335aa43c528e92cb5c87472513ed1f5e8114fef81431a",
+    "elapsed_seconds": 0.156,
+    "local_raw_path": "tmp/independent-audit-2026-11/capture-20261111T234308Z/1ed4c7b96ea8d8ea8a77.html",
+    "local_text_path": "tmp/independent-audit-2026-11/capture-20261111T234308Z/1ed4c7b96ea8d8ea8a77.txt",
+    "text_characters": 6986,
+    "transport_outcome": "accessible"
+  },
+  {
+    "url": "https://www.santannapisa.it/it/laurea-magistrale-bionics/ammissione",
+    "source_ids": [
+      "SRC-AUDIT-UNIPI-BIONICS-ADMISSION"
+    ],
+    "evidence_key": "3666d769eb7492f84152",
+    "checked_at_utc": "2026-11-11T23:43:08.176493+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://www.santannapisa.it/it/laurea-magistrale-bionics/ammissione",
+    "redirects": [],
+    "headers": {
+      "date": "Wed, 11 Nov 2026 23:43:08 GMT",
+      "cache-control": "must-revalidate, no-cache, private",
+      "content-type": "text/html; charset=UTF-8"
+    },
+    "bytes": 51617,
+    "sha256": "3e31b79fcb4eb8953b8804a72975530c43522446f9d51dff0ac264619cd6e5d1",
+    "elapsed_seconds": 0.438,
+    "local_raw_path": "tmp/independent-audit-2026-11/capture-20261111T234308Z/3666d769eb7492f84152.html",
+    "local_text_path": "tmp/independent-audit-2026-11/capture-20261111T234308Z/3666d769eb7492f84152.txt",
+    "text_characters": 4404,
+    "transport_outcome": "accessible"
+  },
+  {
+    "url": "https://applymscenglish.unipi.it/en/studenti",
+    "source_ids": [
+      "SRC-AUDIT-UNIPI-APPLICATION-PORTAL"
+    ],
+    "evidence_key": "25e5e8d0ae1d63bb9533",
+    "checked_at_utc": "2026-11-11T23:44:28.350445+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://applymscenglish.unipi.it/en/studenti",
+    "redirects": [],
+    "headers": {
+      "date": "Wed, 11 Nov 2026 23:44:28 GMT",
+      "cache-control": "max-age=0, must-revalidate, private",
+      "content-type": "text/html; charset=UTF-8"
+    },
+    "bytes": 8253,
+    "sha256": "2f27bc04ab85df69e8660af08ce50744024dfae1749fe92c251ffa2ecfc472b3",
+    "elapsed_seconds": 0.188,
+    "local_raw_path": "tmp/independent-audit-2026-11/capture-20261111T234428Z/25e5e8d0ae1d63bb9533.html",
+    "local_text_path": "tmp/independent-audit-2026-11/capture-20261111T234428Z/25e5e8d0ae1d63bb9533.txt",
+    "text_characters": 1031,
+    "transport_outcome": "accessible"
+  },
+  {
+    "url": "https://applymscenglish.unipi.it/en/studenti/cdlattivi/1",
+    "source_ids": [
+      "SRC-AUDIT-UNIPI-PORTAL-COURSE-LIST"
+    ],
+    "evidence_key": "4fc32aca411bc2ccbba4",
+    "checked_at_utc": "2026-11-11T23:45:19.627443+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://applymscenglish.unipi.it/en/studenti/cdlattivi/1",
+    "redirects": [],
+    "headers": {
+      "date": "Wed, 11 Nov 2026 23:45:19 GMT",
+      "cache-control": "no-cache, private",
+      "content-type": "text/html; charset=UTF-8"
+    },
+    "bytes": 36050,
+    "sha256": "d09264556b46730014b00967730268107f34d8310b2d1e3deccbafe2b56dc406",
+    "elapsed_seconds": 0.297,
+    "local_raw_path": "tmp/independent-audit-2026-11/capture-20261111T234519Z/4fc32aca411bc2ccbba4.html",
+    "local_text_path": "tmp/independent-audit-2026-11/capture-20261111T234519Z/4fc32aca411bc2ccbba4.txt",
+    "text_characters": 5399,
+    "transport_outcome": "accessible"
+  },
+  {
+    "url": "https://applymscenglish.unipi.it/downloads/downloadpdf/bandicdl/2027/bando_10_wcy-lm_en.pdf",
+    "source_ids": [
+      "SRC-AUDIT-UNIPI-CYBER-2027-CALL"
+    ],
+    "evidence_key": "6ed44b11be49660d3e75",
+    "checked_at_utc": "2026-11-11T23:45:19.628281+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://applymscenglish.unipi.it/downloads/downloadpdf/bandicdl/2027/bando_10_wcy-lm_en.pdf",
+    "redirects": [],
+    "headers": {
+      "date": "Wed, 11 Nov 2026 23:45:19 GMT",
+      "cache-control": "public",
+      "last-modified": "Tue, 10 Nov 2026 08:00:00 GMT",
+      "content-length": "227975",
+      "content-type": "application/pdf"
+    },
+    "bytes": 227975,
+    "sha256": "eee23bd0ff66e4c16838ca51f944d0ab118544b0f6858b9c0ad7f07843162237",
+    "elapsed_seconds": 0.219,
+    "local_raw_path": "tmp/independent-audit-2026-11/capture-20261111T234519Z/6ed44b11be49660d3e75.pdf",
+    "pdf_pages": 5,
+    "local_text_path": "tmp/independent-audit-2026-11/capture-20261111T234519Z/6ed44b11be49660d3e75.txt",
+    "text_characters": 11670,
+    "transport_outcome": "accessible"
+  },
+  {
+    "url": "https://computer.ing.unipi.it/wp-content/uploads/2026/11/CE-AIDE-call-2027-non-IT-qualification.pdf",
+    "source_ids": [
+      "SRC-AUDIT-UNIPI-ENGINEERING-2027-CALL-PDF"
+    ],
+    "evidence_key": "da3b4ba49e1273372644",
+    "checked_at_utc": "2026-11-11T23:45:19.628281+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://computer.ing.unipi.it/wp-content/uploads/2026/11/CE-AIDE-call-2027-non-IT-qualification.pdf",
+    "redirects": [],
+    "headers": {
+      "date": "Wed, 11 Nov 2026 23:45:19 GMT",
+      "last-modified": "Tue, 10 Nov 2026 12:03:11 GMT",
+      "etag": "\"6ecd9-65feadcc4c3ed-gzip\"",
+      "cache-control": "max-age=31536000, public",
+      "content-type": "application/pdf"
+    },
+    "bytes": 453849,
+    "sha256": "74cdc47a6f26132c6343826f70b0bb907a0929c48be6f24dc611cd247d7d6aa5",
+    "elapsed_seconds": 0.36,
+    "local_raw_path": "tmp/independent-audit-2026-11/capture-20261111T234519Z/da3b4ba49e1273372644.pdf",
+    "pdf_pages": 5,
+    "local_text_path": "tmp/independent-audit-2026-11/capture-20261111T234519Z/da3b4ba49e1273372644.txt",
+    "text_characters": 12120,
+    "transport_outcome": "accessible"
+  }
+]

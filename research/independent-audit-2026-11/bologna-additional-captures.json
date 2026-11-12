@@ -1,0 +1,242 @@
+[
+  {
+    "url": "https://corsi.unibo.it/laurea/IngegneriaGestionale",
+    "source_ids": [
+      "SRC-UNIBO-GESTIONALE-BSC-2026"
+    ],
+    "evidence_key": "5bf622e3621abfd6ea27",
+    "checked_at_utc": "2026-11-12T13:51:16.964459+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://corsi.unibo.it/laurea/IngegneriaGestionale",
+    "redirects": [],
+    "headers": {
+      "date": "Thu, 12 Nov 2026 13:51:17 GMT",
+      "content-type": "text/html;charset=utf-8",
+      "age": "35",
+      "cache-control": "max-age=0, s-maxage=0, must-revalidate"
+    },
+    "bytes": 303638,
+    "sha256": "0f40baa66ea55e4c21a5a198615ddd50110dbf14751502fd2541e32ceb21b4ee",
+    "elapsed_seconds": 0.187,
+    "local_raw_path": "tmp/independent-audit-2026-11/capture-20261112T135116Z/5bf622e3621abfd6ea27.html",
+    "local_text_path": "tmp/independent-audit-2026-11/capture-20261112T135116Z/5bf622e3621abfd6ea27.txt",
+    "text_characters": 5009,
+    "transport_outcome": "accessible"
+  },
+  {
+    "url": "https://corsi.unibo.it/laurea/EconomiaCommercio",
+    "source_ids": [
+      "SRC-UNIBO-ECON-COMMERCIO-2026"
+    ],
+    "evidence_key": "d9a00c6857e999c6e132",
+    "checked_at_utc": "2026-11-12T13:51:16.965551+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://corsi.unibo.it/laurea/EconomiaCommercio",
+    "redirects": [],
+    "headers": {
+      "date": "Thu, 12 Nov 2026 13:51:17 GMT",
+      "content-type": "text/html;charset=utf-8",
+      "age": "433",
+      "cache-control": "max-age=0, s-maxage=0, must-revalidate"
+    },
+    "bytes": 303243,
+    "sha256": "56053b4f52c88ad12582ac12a4c4c2074644994778b2a6db4e58c04ec26a908a",
+    "elapsed_seconds": 0.219,
+    "local_raw_path": "tmp/independent-audit-2026-11/capture-20261112T135116Z/d9a00c6857e999c6e132.html",
+    "local_text_path": "tmp/independent-audit-2026-11/capture-20261112T135116Z/d9a00c6857e999c6e132.txt",
+    "text_characters": 5189,
+    "transport_outcome": "accessible"
+  },
+  {
+    "url": "https://corsi.unibo.it/laurea/EconomiaCommercio/sedute-di-laurea",
+    "source_ids": [
+      "SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026"
+    ],
+    "evidence_key": "041f71a1fa1ed9abdb3e",
+    "checked_at_utc": "2026-11-12T13:51:16.965551+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://corsi.unibo.it/laurea/EconomiaCommercio/sedute-di-laurea",
+    "redirects": [],
+    "headers": {
+      "date": "Thu, 12 Nov 2026 13:51:17 GMT",
+      "content-type": "text/html;charset=utf-8",
+      "age": "39",
+      "cache-control": "max-age=0, s-maxage=0, must-revalidate"
+    },
+    "bytes": 295229,
+    "sha256": "cf0310565a34b3dda2c7b77bf73b1d53fcccd34024cfd37ec054fdf6b948f9a1",
+    "elapsed_seconds": 0.187,
+    "local_raw_path": "tmp/independent-audit-2026-11/capture-20261112T135116Z/041f71a1fa1ed9abdb3e.html",
+    "local_text_path": "tmp/independent-audit-2026-11/capture-20261112T135116Z/041f71a1fa1ed9abdb3e.txt",
+    "text_characters": 5490,
+    "transport_outcome": "accessible"
+  },
+  {
+    "url": "https://corsi.unibo.it/laurea/IngegneriaGestionale/iscriversi",
+    "source_ids": [
+      "SRC-AUDIT-BOLOGNA-GESTIONALE-ADMISSION"
+    ],
+    "evidence_key": "1c7d7b6a8a64aec0e8d6",
+    "checked_at_utc": "2026-11-12T13:51:16.966554+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://corsi.unibo.it/laurea/IngegneriaGestionale/iscriversi",
+    "redirects": [],
+    "headers": {
+      "date": "Thu, 12 Nov 2026 13:51:17 GMT",
+      "content-type": "text/html;charset=utf-8",
+      "age": "12197",
+      "cache-control": "max-age=0, s-maxage=0, must-revalidate"
+    },
+    "bytes": 292704,
+    "sha256": "1c3ea57fbf0478eac43083d9c5fe84bd974ea7993f9a4ed73584f89952d66877",
+    "elapsed_seconds": 0.234,
+    "local_raw_path": "tmp/independent-audit-2026-11/capture-20261112T135116Z/1c7d7b6a8a64aec0e8d6.html",
+    "local_text_path": "tmp/independent-audit-2026-11/capture-20261112T135116Z/1c7d7b6a8a64aec0e8d6.txt",
+    "text_characters": 2412,
+    "transport_outcome": "accessible"
+  },
+  {
+    "url": "https://corsi.unibo.it/laurea/EconomiaCommercio/iscriversi",
+    "source_ids": [
+      "SRC-AUDIT-BOLOGNA-ECONCOM-ADMISSION"
+    ],
+    "evidence_key": "44ea2d4ea77b0a12c1e3",
+    "checked_at_utc": "2026-11-12T13:51:16.966554+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://corsi.unibo.it/laurea/EconomiaCommercio/iscriversi",
+    "redirects": [],
+    "headers": {
+      "date": "Thu, 12 Nov 2026 13:51:17 GMT",
+      "content-type": "text/html;charset=utf-8",
+      "age": "1848",
+      "cache-control": "max-age=0, s-maxage=0, must-revalidate"
+    },
+    "bytes": 292568,
+    "sha256": "07ee90af2b97bd2be33aa13f9f979e5951188b454351b70d68cbf63c67b5f049",
+    "elapsed_seconds": 0.453,
+    "local_raw_path": "tmp/independent-audit-2026-11/capture-20261112T135116Z/44ea2d4ea77b0a12c1e3.html",
+    "local_text_path": "tmp/independent-audit-2026-11/capture-20261112T135116Z/44ea2d4ea77b0a12c1e3.txt",
+    "text_characters": 2488,
+    "transport_outcome": "accessible"
+  },
+  {
+    "url": "https://corsi.unibo.it/laurea/IngegneriaGestionale/iscriversi-al-corso",
+    "source_ids": [
+      "SRC-AUDIT-BOLOGNA-GESTIONALE-REQUIREMENTS"
+    ],
+    "evidence_key": "428be41f0beb290300b8",
+    "checked_at_utc": "2026-11-12T13:51:40.727833+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://corsi.unibo.it/laurea/IngegneriaGestionale/iscriversi-al-corso",
+    "redirects": [],
+    "headers": {
+      "date": "Thu, 12 Nov 2026 13:51:40 GMT",
+      "content-type": "text/html;charset=utf-8",
+      "age": "1211",
+      "cache-control": "max-age=0, s-maxage=0, must-revalidate"
+    },
+    "bytes": 382648,
+    "sha256": "84f7dc30740c636d4e3a0098ec1ed4067430d2cc62f144ffa240c07f6f9524b8",
+    "elapsed_seconds": 0.219,
+    "local_raw_path": "tmp/independent-audit-2026-11/capture-20261112T135140Z/428be41f0beb290300b8.html",
+    "local_text_path": "tmp/independent-audit-2026-11/capture-20261112T135140Z/428be41f0beb290300b8.txt",
+    "text_characters": 44169,
+    "transport_outcome": "accessible"
+  },
+  {
+    "url": "https://corsi.unibo.it/laurea/EconomiaCommercio/iscriversi-al-corso",
+    "source_ids": [
+      "SRC-AUDIT-BOLOGNA-ECONCOM-REQUIREMENTS"
+    ],
+    "evidence_key": "7b5425af434811383bb5",
+    "checked_at_utc": "2026-11-12T13:51:40.728824+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://corsi.unibo.it/laurea/EconomiaCommercio/iscriversi-al-corso",
+    "redirects": [],
+    "headers": {
+      "date": "Thu, 12 Nov 2026 13:51:40 GMT",
+      "content-type": "text/html;charset=utf-8",
+      "age": "2610",
+      "cache-control": "max-age=0, s-maxage=0, must-revalidate"
+    },
+    "bytes": 372677,
+    "sha256": "78bd2bc15b7feea136046d7bdc86ab305e30994ecd926725a253f600d47bbfda",
+    "elapsed_seconds": 0.172,
+    "local_raw_path": "tmp/independent-audit-2026-11/capture-20261112T135140Z/7b5425af434811383bb5.html",
+    "local_text_path": "tmp/independent-audit-2026-11/capture-20261112T135140Z/7b5425af434811383bb5.txt",
+    "text_characters": 41111,
+    "transport_outcome": "accessible"
+  },
+  {
+    "url": "https://corsi.unibo.it/s/3387/p/it/iscriversi-nuova-2/bandotolc_ingegneria-e-scienze-area-informatica-_a-a-2025-2026.pdf/@@download/file/BandoTOLC_Ingegneria e Scienze (area informatica)_A.A. 2026-2027.pdf",
+    "source_ids": [
+      "SRC-AUDIT-BOLOGNA-GESTIONALE-CALL-2026"
+    ],
+    "evidence_key": "e51bee1dd3a4ce4f3e1c",
+    "checked_at_utc": "2026-11-12T13:53:16.690481+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://corsi.unibo.it/s/3387/p/it/iscriversi-nuova-2/bandotolc_ingegneria-e-scienze-area-informatica-_a-a-2025-2026.pdf/@@download/file/BandoTOLC_Ingegneria%20e%20Scienze%20(area%20informatica)_A.A.%202026-2027.pdf",
+    "redirects": [],
+    "headers": {
+      "date": "Thu, 12 Nov 2026 13:53:16 GMT",
+      "content-type": "application/pdf",
+      "content-length": "1554096",
+      "last-modified": "Fri, 15 May 2026 11:55:44 GMT",
+      "age": "1084",
+      "cache-control": "max-age=0, s-maxage=0, must-revalidate"
+    },
+    "bytes": 1554096,
+    "sha256": "da89a5eb7fee7d8a8ef184e3c6bd35ef9aebdae187fa07b984fe3bb43685efcb",
+    "elapsed_seconds": 0.36,
+    "local_raw_path": "tmp/independent-audit-2026-11/capture-20261112T135316Z/e51bee1dd3a4ce4f3e1c.pdf",
+    "pdf_pages": 56,
+    "local_text_path": "tmp/independent-audit-2026-11/capture-20261112T135316Z/e51bee1dd3a4ce4f3e1c.txt",
+    "text_characters": 97166,
+    "transport_outcome": "accessible"
+  },
+  {
+    "url": "https://corsi.unibo.it/s/3427/p/it/iscriversi-al-corso/bando-tolc-economia-25-26-con-stampigliatura.pdf/@@download/file/BANDO TOLC 26_27 Economia con stampigliatura.pdf",
+    "source_ids": [
+      "SRC-AUDIT-BOLOGNA-ECONCOM-CALL-2026"
+    ],
+    "evidence_key": "00df47ded8b6b5bbd889",
+    "checked_at_utc": "2026-11-12T13:53:16.690481+00:00",
+    "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+    "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+    "http_status": 200,
+    "effective_url": "https://corsi.unibo.it/s/3427/p/it/iscriversi-al-corso/bando-tolc-economia-25-26-con-stampigliatura.pdf/@@download/file/BANDO%20TOLC%2026_27%20Economia%20con%20stampigliatura.pdf",
+    "redirects": [],
+    "headers": {
+      "date": "Thu, 12 Nov 2026 13:53:17 GMT",
+      "content-type": "application/pdf",
+      "content-length": "1420222",
+      "last-modified": "Mon, 16 Feb 2026 12:44:28 GMT",
+      "age": "0",
+      "cache-control": "max-age=0, s-maxage=0, must-revalidate"
+    },
+    "bytes": 1420222,
+    "sha256": "3f0eafb10d809b06877c34dcaf68d92efedded1f674a695cb52cb204262469c1",
+    "elapsed_seconds": 1.719,
+    "local_raw_path": "tmp/independent-audit-2026-11/capture-20261112T135316Z/00df47ded8b6b5bbd889.pdf",
+    "pdf_pages": 52,
+    "local_text_path": "tmp/independent-audit-2026-11/capture-20261112T135316Z/00df47ded8b6b5bbd889.txt",
+    "text_characters": 93397,
+    "transport_outcome": "accessible"
+  }
+]

@@ -1,0 +1,258 @@
+{
+  "responses": [
+    {
+      "url": "https://www.bbs.unibo.it/en/global-mba/ai-and-manufacturing-2/",
+      "source_ids": [
+        "SRC-UNIBO-BBS-AI-MFG-2027"
+      ],
+      "evidence_key": "90f472711510db89a3e8",
+      "checked_at_utc": "2026-11-12T13:39:01.251338+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://www.bbs.unibo.it/en/global-mba/ai-and-manufacturing-2/",
+      "redirects": [],
+      "headers": {
+        "date": "Thu, 12 Nov 2026 13:39:01 GMT",
+        "content-length": "39317",
+        "content-type": "text/html; charset=UTF-8"
+      },
+      "bytes": 199753,
+      "sha256": "f03395305a26d8e1ce0c0f9014cb00759243c5065676ad8fae61afb02cdf9abe",
+      "elapsed_seconds": 3.484,
+      "local_raw_path": "tmp/independent-audit-2026-11/capture-20261112T133901Z/90f472711510db89a3e8.html",
+      "local_text_path": "tmp/independent-audit-2026-11/capture-20261112T133901Z/90f472711510db89a3e8.txt",
+      "text_characters": 53912,
+      "transport_outcome": "accessible"
+    },
+    {
+      "url": "https://www.bbs.unibo.it/global-mba/ai-and-manufacturing/",
+      "source_ids": [
+        "SRC-UNIBO-BBS-AI-MFG-2027-IT"
+      ],
+      "evidence_key": "6b4a9d5dcb0809b7e827",
+      "checked_at_utc": "2026-11-12T13:39:01.251338+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://www.bbs.unibo.it/global-mba/ai-and-manufacturing/",
+      "redirects": [],
+      "headers": {
+        "date": "Thu, 12 Nov 2026 13:39:01 GMT",
+        "content-length": "39851",
+        "content-type": "text/html; charset=UTF-8"
+      },
+      "bytes": 200417,
+      "sha256": "01324840a639c6306f2f75574c9ed369d3e0c561417c769e7992376d22eee346",
+      "elapsed_seconds": 3.844,
+      "local_raw_path": "tmp/independent-audit-2026-11/capture-20261112T133901Z/6b4a9d5dcb0809b7e827.html",
+      "local_text_path": "tmp/independent-audit-2026-11/capture-20261112T133901Z/6b4a9d5dcb0809b7e827.txt",
+      "text_characters": 57275,
+      "transport_outcome": "accessible"
+    },
+    {
+      "url": "https://www.unibo.it/en/study/phd-professional-masters-specialisation-schools-and-other-programmes/professional-master/2026-2027/attachments/call-for-application-in-global-master-in-business-administration/data-sheet-of-the-professional-masters-programme-in-global-master-in-business-administration/@@download/file/SCHEDA%20MASTER%20GLOBAL%20MBA%20A.A.%202026-2027_EN.pdf",
+      "source_ids": [
+        "SRC-UNIBO-BBS-GMBA-2026-2027-SHEET"
+      ],
+      "evidence_key": "c213f4362906b3271f73",
+      "checked_at_utc": "2026-11-12T13:39:01.251338+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://www.unibo.it/en/study/phd-professional-masters-specialisation-schools-and-other-programmes/professional-master/2026-2027/attachments/call-for-application-in-global-master-in-business-administration/data-sheet-of-the-professional-masters-programme-in-global-master-in-business-administration/@@download/file/SCHEDA%20MASTER%20GLOBAL%20MBA%20A.A.%202026-2027_EN.pdf",
+      "redirects": [],
+      "headers": {
+        "date": "Thu, 12 Nov 2026 13:39:01 GMT",
+        "content-type": "application/pdf",
+        "content-length": "380075",
+        "last-modified": "Fri, 19 Dec 2025 13:44:31 GMT",
+        "age": "0",
+        "cache-control": "max-age=0, s-maxage=0, must-revalidate"
+      },
+      "bytes": 380075,
+      "sha256": "f39efb981cc2cbb411944078f9a0c5f55101a2952263c37de5b2ee82ef4d533e",
+      "elapsed_seconds": 0.25,
+      "local_raw_path": "tmp/independent-audit-2026-11/capture-20261112T133901Z/c213f4362906b3271f73.pdf",
+      "pdf_pages": 9,
+      "local_text_path": "tmp/independent-audit-2026-11/capture-20261112T133901Z/c213f4362906b3271f73.txt",
+      "text_characters": 19112,
+      "transport_outcome": "accessible"
+    },
+    {
+      "url": "https://www.bbs.unibo.it/en/master-fulltime/business-management-green-management-and-sustainable-businesses/",
+      "source_ids": [
+        "SRC-UNIBO-BBS-GREEN-MGMT-2026"
+      ],
+      "evidence_key": "0f65b980987d177e5eef",
+      "checked_at_utc": "2026-11-12T13:39:01.252337+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://www.bbs.unibo.it/en/master-fulltime/business-management-green-management-and-sustainable-businesses/",
+      "redirects": [],
+      "headers": {
+        "date": "Thu, 12 Nov 2026 13:39:01 GMT",
+        "content-length": "34597",
+        "content-type": "text/html; charset=UTF-8"
+      },
+      "bytes": 177205,
+      "sha256": "c4112f0fc9e3b2a44696e331f8cc936f384a54a8cc89b9697b1254b1f0f58c47",
+      "elapsed_seconds": 2.922,
+      "local_raw_path": "tmp/independent-audit-2026-11/capture-20261112T133901Z/0f65b980987d177e5eef.html",
+      "local_text_path": "tmp/independent-audit-2026-11/capture-20261112T133901Z/0f65b980987d177e5eef.txt",
+      "text_characters": 42951,
+      "transport_outcome": "accessible"
+    },
+    {
+      "url": "https://www.bbs.unibo.it/en/professional-masters-programs/",
+      "source_ids": [
+        "SRC-UNIBO-BA-BBS-2026"
+      ],
+      "evidence_key": "e0db4064684f161d73f8",
+      "checked_at_utc": "2026-11-12T13:39:01.252337+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://www.bbs.unibo.it/en/professional-masters-programs/",
+      "redirects": [],
+      "headers": {
+        "date": "Thu, 12 Nov 2026 13:39:01 GMT",
+        "content-length": "11024",
+        "content-type": "text/html; charset=UTF-8"
+      },
+      "bytes": 50919,
+      "sha256": "55a3bd5b330b48290edb770400962914d44a25e6b7af1978673b35be529c76d3",
+      "elapsed_seconds": 1.891,
+      "local_raw_path": "tmp/independent-audit-2026-11/capture-20261112T133901Z/e0db4064684f161d73f8.html",
+      "local_text_path": "tmp/independent-audit-2026-11/capture-20261112T133901Z/e0db4064684f161d73f8.txt",
+      "text_characters": 4353,
+      "transport_outcome": "accessible"
+    },
+    {
+      "url": "https://www.bbs.unibo.it/en/master-fulltime/master-in-data-science-2/",
+      "source_ids": [
+        "SRC-BBS-DSBA-2027"
+      ],
+      "evidence_key": "4b67e5aabdce7ebcfa15",
+      "checked_at_utc": "2026-11-12T13:39:01.253336+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://www.bbs.unibo.it/en/master-fulltime/master-in-data-science-2/",
+      "redirects": [],
+      "headers": {
+        "date": "Thu, 12 Nov 2026 13:39:01 GMT",
+        "content-length": "37014",
+        "content-type": "text/html; charset=UTF-8"
+      },
+      "bytes": 189134,
+      "sha256": "347e96e19a428a7deeda4bc17f77c65b0eaa8b46c63591121a6fec4227ed2508",
+      "elapsed_seconds": 3.438,
+      "local_raw_path": "tmp/independent-audit-2026-11/capture-20261112T133901Z/4b67e5aabdce7ebcfa15.html",
+      "local_text_path": "tmp/independent-audit-2026-11/capture-20261112T133901Z/4b67e5aabdce7ebcfa15.txt",
+      "text_characters": 46612,
+      "transport_outcome": "accessible"
+    },
+    {
+      "url": "https://www.bbs.unibo.it/en/master-fulltime/artificial-intelligence-2/",
+      "source_ids": [
+        "SRC-BBS-AI-MANAGEMENT-2027"
+      ],
+      "evidence_key": "e36c2540ad750d85e4ca",
+      "checked_at_utc": "2026-11-12T13:39:01.253336+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://www.bbs.unibo.it/en/master-fulltime/artificial-intelligence-2/",
+      "redirects": [],
+      "headers": {
+        "date": "Thu, 12 Nov 2026 13:39:01 GMT",
+        "content-length": "36186",
+        "content-type": "text/html; charset=UTF-8"
+      },
+      "bytes": 183596,
+      "sha256": "e52d2686061984d6afd1724a906682be420e572c341b3688dcac3e8ac369ea3f",
+      "elapsed_seconds": 3.625,
+      "local_raw_path": "tmp/independent-audit-2026-11/capture-20261112T133901Z/e36c2540ad750d85e4ca.html",
+      "local_text_path": "tmp/independent-audit-2026-11/capture-20261112T133901Z/e36c2540ad750d85e4ca.txt",
+      "text_characters": 45516,
+      "transport_outcome": "accessible"
+    },
+    {
+      "url": "https://www.bbs.unibo.it/en/master-fulltime/entrepreneurial-finance/",
+      "source_ids": [
+        "SRC-BBS-ENTREPRENEURIAL-FINANCE-2027"
+      ],
+      "evidence_key": "38391ebdc2853f8730d2",
+      "checked_at_utc": "2026-11-12T13:39:01.253336+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://www.bbs.unibo.it/en/master-fulltime/entrepreneurial-finance/",
+      "redirects": [],
+      "headers": {
+        "date": "Thu, 12 Nov 2026 13:39:01 GMT",
+        "content-length": "33813",
+        "content-type": "text/html; charset=UTF-8"
+      },
+      "bytes": 171622,
+      "sha256": "388184bf7bd1a056636dfd83952a981bf3c13ec130317258ca9b5fbc505e20de",
+      "elapsed_seconds": 3.609,
+      "local_raw_path": "tmp/independent-audit-2026-11/capture-20261112T133901Z/38391ebdc2853f8730d2.html",
+      "local_text_path": "tmp/independent-audit-2026-11/capture-20261112T133901Z/38391ebdc2853f8730d2.txt",
+      "text_characters": 39089,
+      "transport_outcome": "accessible"
+    },
+    {
+      "url": "https://www.bbs.unibo.it/en/master-fulltime/finance-and-ai-2/",
+      "source_ids": [
+        "SRC-BBS-FINANCE-AI-2027"
+      ],
+      "evidence_key": "0a00f296fb3deb3dc760",
+      "checked_at_utc": "2026-11-12T13:39:01.757273+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://www.bbs.unibo.it/en/master-fulltime/finance-and-ai-2/",
+      "redirects": [],
+      "headers": {
+        "date": "Thu, 12 Nov 2026 13:39:01 GMT",
+        "content-length": "35569",
+        "content-type": "text/html; charset=UTF-8"
+      },
+      "bytes": 179800,
+      "sha256": "f992797b713ab854627863a1cd51d064770f7cfc9b8a9fed5e37a5961864540b",
+      "elapsed_seconds": 3.234,
+      "local_raw_path": "tmp/independent-audit-2026-11/capture-20261112T133901Z/0a00f296fb3deb3dc760.html",
+      "local_text_path": "tmp/independent-audit-2026-11/capture-20261112T133901Z/0a00f296fb3deb3dc760.txt",
+      "text_characters": 42986,
+      "transport_outcome": "accessible"
+    },
+    {
+      "url": "https://www.bbs.unibo.it/en/master-fulltime/analytics-and-ai-for-marketing/",
+      "source_ids": [
+        "SRC-BBS-MARKETING-ANALYTICS-AI-2027"
+      ],
+      "evidence_key": "2d810be55395df472960",
+      "checked_at_utc": "2026-11-12T13:39:03.152074+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://www.bbs.unibo.it/en/master-fulltime/analytics-and-ai-for-marketing/",
+      "redirects": [],
+      "headers": {
+        "date": "Thu, 12 Nov 2026 13:39:03 GMT",
+        "content-length": "34472",
+        "content-type": "text/html; charset=UTF-8"
+      },
+      "bytes": 177720,
+      "sha256": "dbe4f17d57b1578b97b5f9ab82f48bbdf957b68a47674ba3d7156fdfcc24f89a",
+      "elapsed_seconds": 2.485,
+      "local_raw_path": "tmp/independent-audit-2026-11/capture-20261112T133901Z/2d810be55395df472960.html",
+      "local_text_path": "tmp/independent-audit-2026-11/capture-20261112T133901Z/2d810be55395df472960.txt",
+      "text_characters": 40753,
+      "transport_outcome": "accessible"
+    }
+  ]
+}

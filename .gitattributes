@@ -1,0 +1,2 @@
+# Preserve supplied audit evidence bytes and intentional Markdown hard breaks.
+research/independent-audit-2026-11/input-evidence/* -text whitespace=-blank-at-eol

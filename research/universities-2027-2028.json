@@ -49,7 +49,7 @@
       "SRC-UNINA-MED-ENGLISH-2026",
       "SRC-UNINA-CIVIL-ENV-BSC-2026"
     ],
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-12",
     "cycle_facts": {}
   },
   {
@@ -96,7 +96,7 @@
       "SRC-POLIBA-SCHOLARSHIPS-2026",
       "SRC-POLIBA-PALESTINE-SCHOLARSHIP-2026"
     ],
-    "last_checked": "2026-11-10",
+    "last_checked": "2026-11-12",
     "cycle_facts": {
       "bachelor_call": {
         "value": null,
@@ -267,7 +267,7 @@
       "SRC-POLIMI-CIVIL-MSC-2026",
       "SRC-POLIMI-28DIGITAL-APPLICATIONS-2027"
     ],
-    "last_checked": "2026-11-10",
+    "last_checked": "2026-11-12",
     "cycle_facts": {
       "application_windows": {
         "value": [
@@ -380,7 +380,7 @@
       "bachelor_enrolment_schedule": {
         "value": [
           {
-            "label": "Phase 1 (restricted eligibility; excludes English-taught programmes)",
+            "label": "Phase1 (restricted early-test eligibility; Italian-taught programmes and Civil Engineering only)",
             "start": "2027-05-03",
             "end": "2027-06-10"
           },
@@ -401,7 +401,7 @@
         "source_ids": [
           "SRC-POLIMI-BSC-2027"
         ],
-        "notes": "The page also lists ranking and enrolment deadlines after each preference phase; this is not a single university-wide BSc application deadline."
+        "notes": "Independent official-source check on 12 November 2026. Official 2027 phase1 accepts Italian -taught programmes AND Civil Engineering , subject to early-test eligibility. Baseline blanket exclusion of English -taught programmes omits that exception."
       },
       "engineering_bachelor_tests": {
         "value": {
@@ -608,7 +608,7 @@
       "SRC-POLITO-MATHEMATICAL-ENGINEERING-ENGLISH-TRACK-2027",
       "SRC-POLITO-MATHEMATICAL-ENGINEERING-SCHOLARSHIP-2027"
     ],
-    "last_checked": "2026-11-10",
+    "last_checked": "2026-11-12",
     "cycle_facts": {
       "bachelor_call": {
         "value": null,
@@ -745,7 +745,7 @@
       "SRC-ROMATRE-CONTACT-CURRENT",
       "SRC-ROMATRE-UNICORE-2026-COHORT"
     ],
-    "last_checked": "2026-11-10",
+    "last_checked": "2026-11-12",
     "cycle_facts": {
       "application_windows": {
         "value": null,
@@ -892,7 +892,7 @@
           "provider": "DiSCo Lazio",
           "benefits": "Competitive scholarship, accommodation, meals and other annual benefits",
           "application_start": "2026-06-10",
-          "application_deadline": "2026-07-22 12:00 Italy time",
+          "application_deadline": "2026-07-23 20:00 Italy time",
           "enrollment_completion_deadline": "2027-02-10",
           "ISEE_or_ISEEUP_ceiling_eur": 28339.88,
           "ISPE_or_ISPEUP_ceiling_eur": 61608.48,
@@ -1029,7 +1029,7 @@
       "SRC-SAPIENZA-ECFIN-CALL-2026",
       "SRC-SAPIENZA-ECFIN-ARCHIVE-2025"
     ],
-    "last_checked": "2026-11-10",
+    "last_checked": "2026-11-12",
     "cycle_facts": {
       "application_windows": {
         "value": null,
@@ -1209,7 +1209,7 @@
       "SRC-ROMA2-COMPUTER-SCIENCE-MSC-2026",
       "SRC-ROMA2-COMPUTER-SCIENCE-REGULATIONS-2026"
     ],
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-12",
     "cycle_facts": {}
   },
   {
@@ -1266,7 +1266,7 @@
       "SRC-CA-FOSCARI-CS-BSC-ADMISSION-2026",
       "SRC-CA-FOSCARI-CSIT-ADMISSION-2026"
     ],
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-12",
     "cycle_facts": {
       "application_opening": {
         "value": "2026-12",
@@ -1374,8 +1374,8 @@
           "academic_year": "2026/27",
           "annual_fees_eur": {
             "Italy_EU": {
-              "BSc": 2352,
-              "MSc": 2599
+              "BSc": 2385,
+              "MSc": 2636
             },
             "non_EU_OECD": {
               "BSc": 2100,
@@ -1391,8 +1391,8 @@
             }
           },
           "programme_exceptions_eur": {
-            "Digital Management": 8811,
-            "Hospitality Innovation and e-Tourism": 7025
+            "Digital Management": 8934,
+            "Hospitality Innovation and e-Tourism": 7123
           }
         },
         "status": "CONFIRMED",
@@ -1414,16 +1414,18 @@
           "academic_year": "2026/27",
           "administrator": "Ca' Foscari for Regione Veneto; services via ESU Venezia",
           "benefits": "Cash plus possible accommodation and meals",
-          "ISEE_below_eur": 26306.25,
-          "ISPE_below_eur": 43125.94,
           "general_application_deadline": "2026-09-30 12:30 Italy time",
-          "ISEE_equivalent_deadline_first_year_MSc": "2026-12-18"
+          "ISEE_equivalent_deadline_first_year_MSc": "2026-12-18",
+          "ISEE_maximum_eur": 26306.25,
+          "ISPE_maximum_eur": 43125.94,
+          "economic_threshold_comparison": "Not above (≤) each maximum"
         },
         "status": "CONFIRMED",
         "source_ids": [
-          "SRC-CA-FOSCARI-REGIONAL-AID-2026"
+          "SRC-CA-FOSCARI-REGIONAL-AID-2026",
+          "SRC-CA-FOSCARI-REGIONAL-AID-CALL-2026-INDEPENDENT"
         ],
-        "notes": "Prior-cycle regional funding only. The later ISEE-equivalent date for first-year Master's students is not an application deadline. The 2027/28 regional call was not identified."
+        "notes": "Historical 2026/27 regional call only. Binding decree 2410/2026, Article 4(1)(b), p. 5, and Article 7(13)–(14), p. 15, set ISEE no higher than €26,306.25 and ISPE no higher than €43,125.94; equality is allowed. The webpage summary agrees with €26,306.25, but its detailed income section says €26,306.35; the binding call controls the amount and comparator. The later 18 December 2026 ISEE/document date for first-year master students is not the 30 September scholarship application deadline. No 2027/28 call is inferred."
       },
       "regional_scholarships_2027_2028": {
         "value": null,
@@ -1487,7 +1489,7 @@
       "SRC-BICOCCA-DSU-2026",
       "SRC-BICOCCA-CONTACT"
     ],
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-12",
     "cycle_facts": {
       "application_windows": {
         "value": null,
@@ -1643,7 +1645,7 @@
       "SRC-ERDIS-MARCHE-AID",
       "SRC-UNIVPM-CONTACT"
     ],
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-12",
     "cycle_facts": {
       "application_windows": {
         "value": null,
@@ -1700,11 +1702,12 @@
           ],
           "universitaly_visa_deadline": "2026-11-30"
         },
-        "status": "CONFIRMED",
+        "status": "CONFLICTING_SOURCES",
         "source_ids": [
-          "SRC-UNIVPM-INTL"
+          "SRC-UNIVPM-INTL",
+          "SRC-UNIVPM-GUIDELINES-MAY2026-INDEPENDENT"
         ],
-        "notes": "These were the foreign-qualification pre-evaluation windows for 2026/27 and do not establish application dates or eligibility for 2027/28."
+        "notes": "Historical 2026/27 windows only. The originally cited admissions webpage is now HTTP 404. The accessible May 2026 official guidelines PDF p. 3 gives the third call as 1–30 June 2026, whereas the previously indexed webpage and stored value give 8–30 June. The fifth call in the May PDF describes visa applicants for restricted-access programmes, whereas the stored value narrows it to Medicine. Retain these as unresolved version/scope differences rather than silently selecting an earlier schedule. Neither source establishes 2027/28 dates or eligibility."
       },
       "previous_cycle_non_eu_process": {
         "value": {
@@ -1842,7 +1845,7 @@
       "SRC-UNICT-SCHOLARSHIPS-2026",
       "SRC-CATANIA-INTL"
     ],
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-12",
     "cycle_facts": {
       "application_windows": {
         "value": null,
@@ -1928,7 +1931,7 @@
       "SRC-MILANO-EXCELLENCE-2026",
       "SRC-MILANO-CONTACT"
     ],
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-12",
     "cycle_facts": {
       "application_windows": {
         "value": null,
@@ -2014,7 +2017,7 @@
       "previous_cycle_tuition": {
         "value": {
           "academic_year": "2026/27",
-          "first_installment_eur": 156,
+          "first_installment_eur": 146,
           "international_second_installment_by_country_group_and_course_area": {
             "group_A": {
               "area_A_eur": 200,
@@ -2160,7 +2163,7 @@
       "SRC-ADSU-LAQUILA-RESIDENCE-2026",
       "SRC-LAQUILA-CS-RANKING-2026"
     ],
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-12",
     "cycle_facts": {
       "application_windows": {
         "value": null,
@@ -2393,7 +2396,7 @@
       "SRC-INSUBRIA-SCHOLARSHIPS",
       "SRC-INSUBRIA-CONTACT"
     ],
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-12",
     "cycle_facts": {
       "application_windows": {
         "value": null,
@@ -2641,7 +2644,7 @@
       "SRC-BBS-FINANCE-AI-2027",
       "SRC-BBS-MARKETING-ANALYTICS-AI-2027"
     ],
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-12",
     "cycle_facts": {}
   },
   {
@@ -2690,7 +2693,7 @@
       "SRC-ERDIS-MARCHE-2026",
       "SRC-CAMERINO-WELCOMEIN-MSC-2026"
     ],
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-11",
     "cycle_facts": {
       "admissions_contact": {
         "value": {
@@ -2919,7 +2922,7 @@
       "SRC-FERRARA-INCOMING-CONTACT",
       "SRC-FERRARA-PHYSICS-CONTACT"
     ],
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-12",
     "cycle_facts": {
       "application_windows": {
         "value": null,
@@ -3097,7 +3100,7 @@
       "SRC-UNIFI-SUSBUS-BSC-2026",
       "SRC-UNIFI-SUSBUS-CALL-2026"
     ],
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-12",
     "cycle_facts": {}
   },
   {
@@ -3165,7 +3168,7 @@
       "SRC-UNIGE-11871-PROFILE-2026",
       "SRC-UNIGE-11871-ADMISSION"
     ],
-    "last_checked": "2026-11-10",
+    "last_checked": "2026-11-12",
     "cycle_facts": {
       "application_windows": {
         "value": [
@@ -3316,7 +3319,7 @@
     "contact_url": "https://international.unime.it/study-us/application-and-admission",
     "cycle_status": "CONFIRMED",
     "research_stage": "PARTIALLY_RESEARCHED",
-    "research_summary": "Official 2027/28 international calls publish multiple application windows and a €40 fee for up to two applications. The official catalogue shows Data Science MSc coursework taught in 2027/28 for the 2026/27 cohort; a new 2027/28 first-year intake and its program-specific conditions still need confirmation.",
+    "research_summary": "Official2027/28 international calls publish category-specific windows and a EUR40 fee for at most two submissions. Data Science's rendered catalogue shows provisional2027/28 Year2 units for the2026/27 cohort, labelled 'Offer being defined'. A new2027/28 first-year intake and its programme-specific conditions remain unconfirmed.",
     "coverage": {
       "official_website_visited": "complete",
       "international_admissions_page_examined": "partial",
@@ -3337,7 +3340,7 @@
       "SRC-UNIME-MASTERS-PROGRAMS",
       "SRC-UNIME-DS-PAGE"
     ],
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-12",
     "cycle_facts": {
       "application_windows": {
         "value": [
@@ -3345,19 +3348,19 @@
             "label": "Early Bird visa applicants",
             "start": "2026-12-01",
             "end": "2026-12-20",
-            "eligible_group": "Non-EU study-visa applicants with final documents"
+            "eligible_group": "Non-EU study-visa applicants already holding final academic documents, valid language proficiency certificate and DoV/CIMEA Statement of Comparability"
           },
           {
             "label": "Second call",
             "start": "2027-02-02",
             "end": "2027-03-19",
-            "eligible_group": "Visa applicants"
+            "eligible_group": "Non-EU study-visa applicants"
           },
           {
             "label": "Third call",
             "start": "2027-04-08",
             "end": "2027-05-08",
-            "eligible_group": "Visa applicants"
+            "eligible_group": "Non-EU study-visa applicants"
           },
           {
             "label": "Semestre Aperto",
@@ -3375,7 +3378,7 @@
             "label": "Non-visa applicants",
             "start": "2027-07-06",
             "end": "2027-11-13",
-            "eligible_group": "Applicants who do not need a study visa"
+            "eligible_group": "Italians with international qualifications, EU and EU-equivalent applicants; non-EU EU-equivalent applicants must hold an Italian residence permit"
           }
         ],
         "status": "CONFIRMED",
@@ -3446,7 +3449,7 @@
       "SRC-UNIMORE-CONTACT",
       "SRC-UNIMORE-BSC-CE-2026"
     ],
-    "last_checked": "2026-11-10",
+    "last_checked": "2026-11-12",
     "cycle_facts": {
       "application_windows": {
         "value": null,
@@ -3680,7 +3683,7 @@
       "SRC-PADUA-TUITION-2026",
       "SRC-PADUA-STUDENT-AWARDS-CYBERSECURITY-2026"
     ],
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-12",
     "cycle_facts": {
       "application_windows": {
         "value": [
@@ -3734,14 +3737,15 @@
           "non_refundable": true,
           "maximum_programmes": 2,
           "route": "apply.unipd.it",
-          "exception": "For courses requiring CEnT-S, do not pay the €60 fee; pay €55 test registration on CISIA instead",
+          "exception": "Only applications exclusively to CEnT-S programmes avoid the€60University fee;€55CISIA test fee remains. Mixed CEnT-S/non-CEnT-S applications require both fees.",
           "excluded_programme": "Medicine and Surgery uses Universitaly and its separate annual national call"
         },
         "status": "CONFIRMED",
         "source_ids": [
-          "SRC-PADUA-STUDY-ENGLISH-APPLY-ITALIAN-2027"
+          "SRC-PADUA-STUDY-ENGLISH-APPLY-ITALIAN-2027",
+          "AUDIT-PADUA-INFORMATION-ENGINEERING-PORTAL"
         ],
-        "notes": "General University English-degree application procedure. Course-specific requirements may differ; the CEnT-S and Medicine and Surgery exceptions are explicit on the official page."
+        "notes": "Independent official-source check on 12 November 2026. Named 2027 Information Engineering portal clarifies mixed applications:only all- CEn T -S applications avoid€60; mixing CEn T -S and non- CEn T programmes requires both€55 CISIA and€60 University ."
       },
       "international_scholarships_2027_2028": {
         "value": {
@@ -3874,7 +3878,7 @@
       "SRC-ERSU-PALERMO-CALL-2026",
       "SRC-PALERMO-FEE-REG-2024"
     ],
-    "last_checked": "2026-11-10",
+    "last_checked": "2026-11-12",
     "cycle_facts": {
       "application_deadlines": {
         "value": null,
@@ -4079,7 +4083,7 @@
       "SRC-PARMA-ERGO-INTL-2026",
       "SRC-PARMA-LATAM-2026"
     ],
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-12",
     "cycle_facts": {
       "application_procedure": {
         "value": null,
@@ -4131,7 +4135,7 @@
       "SRC-PAVIA-FINANCIAL-SUPPORT-2026",
       "SRC-PAVIA-EXEMPTIONS-2026"
     ],
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-12",
     "cycle_facts": {
       "application_windows": {
         "value": [
@@ -4242,7 +4246,7 @@
       "SRC-UNIPG-ADISU-2026",
       "SRC-UNIPG-ADISU-CALL-2026"
     ],
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-12",
     "cycle_facts": {
       "admissions_contact": {
         "value": {
@@ -4348,7 +4352,7 @@
       "SRC-UNIPI-AIDE-COURSE-PROFILE",
       "SRC-UNIPI-COMPUTER-ENGINEERING-PROFILE"
     ],
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-12",
     "cycle_facts": {
       "application_windows": {
         "value": [
@@ -4385,6 +4389,19 @@
           "SRC-PISA-CALL-2027"
         ],
         "notes": "The call says annual fees are usually published in June; the listed 2026/27 range is not carried forward."
+      },
+      "general_admissions_year_conflict": {
+        "value": {
+          "university_table_heading": "2026-2027",
+          "listed_dates": "November2026 openings and2027 deadlines",
+          "resolution": "Use programme-specific2027/28 calls for CS/DSBI/DH, CE/AIDE and Cybersecurity; Nuclear formal annual scope remains unresolved"
+        },
+        "status": "CONFLICTING_SOURCES",
+        "source_ids": [
+          "SRC-AUDIT-UNIPI-YEAR-TABLE",
+          "SRC-AUDIT-UNIPI-PORTAL-COURSE-LIST"
+        ],
+        "notes": "The overview heading does not independently establish the year of each listed programme."
       }
     }
   },
@@ -4440,7 +4457,7 @@
       "SRC-SALERNO-CS-CAMPUS",
       "SRC-SALERNO-NATIONAL-VISA-2027"
     ],
-    "last_checked": "2026-11-10",
+    "last_checked": "2026-11-12",
     "cycle_facts": {
       "application_windows": {
         "value": null,
@@ -4578,14 +4595,14 @@
             "eligibility": "Enrolment, economic, merit and annual documentation requirements"
           }
         },
-        "status": "CONFIRMED",
+        "status": "CONFLICTING_SOURCES",
         "source_ids": [
           "SRC-SALERNO-SCHOLARSHIP-NOTICE-2026",
           "SRC-SALERNO-SCHOLARSHIP-CALL-2026",
           "SRC-SALERNO-ADISURC-NOTICE-2026",
           "SRC-SALERNO-ADISURC-CALL-2026"
         ],
-        "notes": "Both competitions concern 2026/27 and are closed. UNISA's €8,000 includes services; 2027/28 is conditional second-year renewal only. ADISURC award values depend on income, status, services, merit and ranking. No 2027/28 award is inferred."
+        "notes": "Both competitions concern 2026/27 and are closed. The UNISA €8,000 combines €1,800 cash and €6,200 service value; the 2027/28 reference concerns conditional second-year renewal. ADISURC English call Section 4.1 (p. 17) prints the ISPE ceiling numerically as €54,000 but writes sixty-four thousand in words. The stored €54,000 reproduces the numeric figure; this internal inconsistency is unresolved and must be checked against the binding Italian call or office before relying on eligibility. Other award figures depend on income, residency, services, merit and ranking. No 2027/28 award is inferred."
       },
       "previous_cycle_general_access_test_contribution": {
         "value": {
@@ -4651,7 +4668,7 @@
       "SRC-SIENA-AM-APPLY",
       "SRC-SIENA-EXCELLENCE-2026"
     ],
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-12",
     "cycle_facts": {
       "application_opening": {
         "value": "2026-11",
@@ -4726,7 +4743,7 @@
       "SRC-EPOG-TUITION-FEES",
       "SRC-EPOG-DEGREE-POLICY"
     ],
-    "last_checked": "2026-11-10",
+    "last_checked": "2026-11-12",
     "cycle_facts": {
       "english_program_inventory_2026_2027": {
         "value": {
@@ -4891,7 +4908,7 @@
       "SRC-UNITN-GENERAL-ADMISSIONS",
       "SRC-UNITN-FEES-NEU-2026"
     ],
-    "last_checked": "2026-11-10",
+    "last_checked": "2026-11-11",
     "cycle_facts": {
       "28digital_application_windows": {
         "value": {
@@ -4926,7 +4943,7 @@
               "label": "Period 2",
               "start": "2027-02-01",
               "end": "2027-04-18",
-              "eligible_group": "Primarily EU and applicants who do not need a study permit; non-EU applicants may face visa timing constraints"
+              "eligible_group": "Primarily EU and applicants who do not need a study permit; UNITN entry cannot accept non-EU applicants without an existing EU residence permit; UT entry requires an existing Dutch residence permit"
             },
             {
               "label": "Period 3",
@@ -5114,7 +5131,7 @@
       "SRC-TRIESTE-ARDIS-CALL-2026",
       "SRC-TRIESTE-ENROLMENT-PORTAL"
     ],
-    "last_checked": "2026-11-11",
+    "last_checked": "2026-11-12",
     "cycle_facts": {
       "application_windows": {
         "value": null,
@@ -5342,7 +5359,7 @@
       "SRC-UDINE-ARDIS-2026",
       "SRC-UDINE-ARDIS-DEADLINES-2026"
     ],
-    "last_checked": "2026-11-10",
+    "last_checked": "2026-11-12",
     "cycle_facts": {
       "application_windows": {
         "value": null,
@@ -5494,7 +5511,7 @@
       "SRC-VERONA-BIOLOGY-INTERNATIONAL-CALL-2026",
       "SRC-VERONA-BIOLOGY-STUDY-PLAN-2027"
     ],
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-12",
     "cycle_facts": {}
   }
 ]

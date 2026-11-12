@@ -1,0 +1,416 @@
+{
+  "responses": [
+    {
+      "url": "https://hysetmaster.polito.it/send-application",
+      "source_ids": [
+        "AUDIT-HYSET-SEND-APPLICATION-2027"
+      ],
+      "evidence_key": "b230f51df75e984bad7e",
+      "checked_at_utc": "2026-11-11T23:39:47.190355+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://hysetmaster.polito.it/send-application",
+      "redirects": [],
+      "headers": {
+        "date": "Wed, 11 Nov 2026 23:39:47 GMT",
+        "cache-control": "no-cache, private",
+        "content-length": "3920",
+        "content-type": "text/html; charset=UTF-8"
+      },
+      "bytes": 16670,
+      "sha256": "ce0ea58d0557de070c378cd076c08381a7fc51045fb3579ec0029df6309a30d4",
+      "elapsed_seconds": 0.281,
+      "local_raw_path": "tmp/independent-audit-2026-11/capture-20261111T233947Z/b230f51df75e984bad7e.html",
+      "local_text_path": "tmp/independent-audit-2026-11/capture-20261111T233947Z/b230f51df75e984bad7e.txt",
+      "text_characters": 1447,
+      "transport_outcome": "accessible"
+    },
+    {
+      "url": "https://www.unipd.it/studiare-inglese-come-fare-domanda",
+      "source_ids": [
+        "SRC-PADUA-STUDY-ENGLISH-APPLY-ITALIAN-2027"
+      ],
+      "evidence_key": "92972e6592896627f0a6",
+      "checked_at_utc": "2026-11-11T23:39:47.190355+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://www.unipd.it/studiare-inglese-come-fare-domanda",
+      "redirects": [],
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "date": "Wed, 11 Nov 2026 23:39:47 GMT",
+        "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate"
+      },
+      "bytes": 1541586,
+      "sha256": "f4c26ead8a5aa969dffcc4a2610a8fadfa43e67bead663477aa6b7488615dcd2",
+      "elapsed_seconds": 0.656,
+      "local_raw_path": "tmp/independent-audit-2026-11/capture-20261111T233947Z/92972e6592896627f0a6.html",
+      "local_text_path": "tmp/independent-audit-2026-11/capture-20261111T233947Z/92972e6592896627f0a6.txt",
+      "text_characters": 16941,
+      "transport_outcome": "accessible"
+    },
+    {
+      "url": "https://pod.dfa.unipd.it/the-first-call-for-international-students/",
+      "source_ids": [
+        "SRC-PADUA-PHYSICS-DATA-2027-CALL"
+      ],
+      "evidence_key": "22a69f748b24dbf940dd",
+      "checked_at_utc": "2026-11-11T23:39:47.190355+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "transport_outcome": "inconclusive",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='pod.dfa.unipd.it', port=443): Read timed out. (read timeout=24)"
+    },
+    {
+      "url": "https://apply.unipd.it/courses/course/185-management-engineering",
+      "source_ids": [
+        "SRC-PADOVA-MANAGEMENT-ENGINEERING-APPLY-2027"
+      ],
+      "evidence_key": "6e5822da95e63b6179b8",
+      "checked_at_utc": "2026-11-11T23:39:47.190355+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://apply.unipd.it/courses/course/185-management-engineering",
+      "redirects": [],
+      "headers": {
+        "date": "Wed, 11 Nov 2026 23:39:47 GMT",
+        "content-type": "text/html; charset=UTF-8",
+        "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-transform"
+      },
+      "bytes": 56035,
+      "sha256": "bb579da26dde67dcc600887926ebf8ed9530d216462bf517fa9ae32f3a4d64d2",
+      "elapsed_seconds": 0.281,
+      "local_raw_path": "tmp/independent-audit-2026-11/capture-20261111T233947Z/6e5822da95e63b6179b8.html",
+      "local_text_path": "tmp/independent-audit-2026-11/capture-20261111T233947Z/6e5822da95e63b6179b8.txt",
+      "text_characters": 9387,
+      "transport_outcome": "accessible"
+    },
+    {
+      "url": "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/joint-degree-programs-politecnico-di-milano",
+      "source_ids": [
+        "AUDIT-BOCCONI-CYBER-INTERNATIONAL-2027"
+      ],
+      "evidence_key": "1d8d5852592a0c805210",
+      "checked_at_utc": "2026-11-11T23:39:47.190355+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/joint-degree-programs-politecnico-di-milano",
+      "redirects": [],
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "date": "Wed, 11 Nov 2026 23:39:47 GMT",
+        "cache-control": "max-age=60, public",
+        "last-modified": "Wed, 11 Nov 2026 15:45:23 GMT",
+        "etag": "W/\"1794411923\""
+      },
+      "bytes": 162966,
+      "sha256": "83926dcd63f75a12ae8838a959f0ac8ce9e83b2970631cf0c4bf237fa4d68d6f",
+      "elapsed_seconds": 0.172,
+      "local_raw_path": "tmp/independent-audit-2026-11/capture-20261111T233947Z/1d8d5852592a0c805210.html",
+      "local_text_path": "tmp/independent-audit-2026-11/capture-20261111T233947Z/1d8d5852592a0c805210.txt",
+      "text_characters": 4842,
+      "transport_outcome": "accessible"
+    },
+    {
+      "url": "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/cyber-risk-strategy-and-governance-and-transformative-sustainability",
+      "source_ids": [
+        "AUDIT-BOCCONI-CYBER-ITALIAN-DEGREES-2027"
+      ],
+      "evidence_key": "a06343eb18161fe883c4",
+      "checked_at_utc": "2026-11-11T23:39:47.190355+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/cyber-risk-strategy-and-governance-and-transformative-sustainability",
+      "redirects": [],
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "date": "Wed, 11 Nov 2026 23:39:47 GMT",
+        "cache-control": "max-age=60, public",
+        "last-modified": "Wed, 11 Nov 2026 15:47:38 GMT",
+        "etag": "W/\"1794412058\""
+      },
+      "bytes": 169223,
+      "sha256": "7afdd9e103ca353ae5d189b5fd8107c622fdfe71d67cff303e6c2e711efc6c57",
+      "elapsed_seconds": 0.266,
+      "local_raw_path": "tmp/independent-audit-2026-11/capture-20261111T233947Z/a06343eb18161fe883c4.html",
+      "local_text_path": "tmp/independent-audit-2026-11/capture-20261111T233947Z/a06343eb18161fe883c4.txt",
+      "text_characters": 6811,
+      "transport_outcome": "accessible"
+    },
+    {
+      "url": "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/admissions",
+      "source_ids": [
+        "AUDIT-BOCCONI-MSC-ROUNDS-2027"
+      ],
+      "evidence_key": "b864c0c82441cff7c9a9",
+      "checked_at_utc": "2026-11-11T23:39:47.376914+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/admissions",
+      "redirects": [],
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "date": "Wed, 11 Nov 2026 23:39:47 GMT",
+        "cache-control": "max-age=60, public",
+        "last-modified": "Wed, 11 Nov 2026 15:44:57 GMT",
+        "etag": "W/\"1794411897\""
+      },
+      "bytes": 299907,
+      "sha256": "bb94ed1ae3bc270d9e7cad1f540dc9bab54c4208532bc5796f1a28b6cbdd04a6",
+      "elapsed_seconds": 0.187,
+      "local_raw_path": "tmp/independent-audit-2026-11/capture-20261111T233947Z/b864c0c82441cff7c9a9.html",
+      "local_text_path": "tmp/independent-audit-2026-11/capture-20261111T233947Z/b864c0c82441cff7c9a9.txt",
+      "text_characters": 15452,
+      "transport_outcome": "accessible"
+    },
+    {
+      "url": "https://astrophysics-and-cosmology.dfa.unipd.it/masters-degree/application-and-admission-requirements/",
+      "source_ids": [
+        "SRC-PADUA-ASTROPHYSICS-2027-CALL"
+      ],
+      "evidence_key": "22d6c46086954afbae79",
+      "checked_at_utc": "2026-11-11T23:39:47.469736+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "transport_outcome": "inconclusive",
+      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"
+    },
+    {
+      "url": "https://apply.unipd.it/courses/course/33-data-science",
+      "source_ids": [
+        "AUDIT-PADUA-DATA-SCIENCE-PORTAL"
+      ],
+      "evidence_key": "d12a870c3e76b5a0a73f",
+      "checked_at_utc": "2026-11-11T23:43:47.067644+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://apply.unipd.it/courses/course/33-data-science",
+      "redirects": [],
+      "headers": {
+        "date": "Wed, 11 Nov 2026 23:43:47 GMT",
+        "content-type": "text/html; charset=UTF-8",
+        "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-transform"
+      },
+      "bytes": 54773,
+      "sha256": "15c2813b741111a4c31471a901973da38884bd1dadf59aa4034807a3216b6bfd",
+      "elapsed_seconds": 0.234,
+      "local_raw_path": "tmp/independent-audit-2026-11/capture-20261111T234347Z/d12a870c3e76b5a0a73f.html",
+      "local_text_path": "tmp/independent-audit-2026-11/capture-20261111T234347Z/d12a870c3e76b5a0a73f.txt",
+      "text_characters": 8297,
+      "transport_outcome": "accessible"
+    },
+    {
+      "url": "https://apply.unipd.it/courses/course/93-cybersecurity",
+      "source_ids": [
+        "AUDIT-PADUA-CYBERSECURITY-PORTAL"
+      ],
+      "evidence_key": "af9d0a9b129e37c36b5f",
+      "checked_at_utc": "2026-11-11T23:43:47.069148+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://apply.unipd.it/courses/course/93-cybersecurity",
+      "redirects": [],
+      "headers": {
+        "date": "Wed, 11 Nov 2026 23:43:47 GMT",
+        "content-type": "text/html; charset=UTF-8",
+        "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-transform"
+      },
+      "bytes": 56203,
+      "sha256": "0043a2f379f1f6fdcf1342b2bed6ddcb7f8b52fa3014dff0c886880dfea280ab",
+      "elapsed_seconds": 0.234,
+      "local_raw_path": "tmp/independent-audit-2026-11/capture-20261111T234347Z/af9d0a9b129e37c36b5f.html",
+      "local_text_path": "tmp/independent-audit-2026-11/capture-20261111T234347Z/af9d0a9b129e37c36b5f.txt",
+      "text_characters": 9597,
+      "transport_outcome": "accessible"
+    },
+    {
+      "url": "https://apply.unipd.it/courses/course/63-informatica",
+      "source_ids": [
+        "AUDIT-PADUA-INFORMATICA-PORTAL"
+      ],
+      "evidence_key": "8f9ec2127e8f8745840c",
+      "checked_at_utc": "2026-11-11T23:43:47.069148+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://apply.unipd.it/courses/course/63-computer-science",
+      "redirects": [
+        {
+          "status": 301,
+          "url": "https://apply.unipd.it/courses/course/63-informatica",
+          "location": "/courses/course/63-computer-science"
+        }
+      ],
+      "headers": {
+        "date": "Wed, 11 Nov 2026 23:43:47 GMT",
+        "content-type": "text/html; charset=UTF-8",
+        "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-transform"
+      },
+      "bytes": 55145,
+      "sha256": "45a85f881db91aa1cfa1f230fda0977cb857347add3125772249777ae9ead308",
+      "elapsed_seconds": 0.312,
+      "local_raw_path": "tmp/independent-audit-2026-11/capture-20261111T234347Z/8f9ec2127e8f8745840c.html",
+      "local_text_path": "tmp/independent-audit-2026-11/capture-20261111T234347Z/8f9ec2127e8f8745840c.txt",
+      "text_characters": 8730,
+      "transport_outcome": "accessible"
+    },
+    {
+      "url": "https://apply.unipd.it/courses/course/12-astrophysics-and-cosmology",
+      "source_ids": [
+        "AUDIT-PADUA-ASTROPHYSICS-PORTAL"
+      ],
+      "evidence_key": "e03006b3f4f8aa2e767e",
+      "checked_at_utc": "2026-11-11T23:43:47.069148+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://apply.unipd.it/courses/course/12-astrophysics-and-cosmology",
+      "redirects": [],
+      "headers": {
+        "date": "Wed, 11 Nov 2026 23:43:47 GMT",
+        "content-type": "text/html; charset=UTF-8",
+        "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-transform"
+      },
+      "bytes": 54756,
+      "sha256": "6c5fd9bbbbfdbfddc79fb89683097f702ffc7e8c50c7da8987eddfee404d4ccf",
+      "elapsed_seconds": 0.25,
+      "local_raw_path": "tmp/independent-audit-2026-11/capture-20261111T234347Z/e03006b3f4f8aa2e767e.html",
+      "local_text_path": "tmp/independent-audit-2026-11/capture-20261111T234347Z/e03006b3f4f8aa2e767e.txt",
+      "text_characters": 8506,
+      "transport_outcome": "accessible"
+    },
+    {
+      "url": "https://apply.unipd.it/courses/course/182-information-engineering",
+      "source_ids": [
+        "AUDIT-PADUA-INFORMATION-ENGINEERING-PORTAL"
+      ],
+      "evidence_key": "32d7bdb1151db9440d92",
+      "checked_at_utc": "2026-11-11T23:43:47.069148+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://apply.unipd.it/courses/course/182-information-engineering",
+      "redirects": [],
+      "headers": {
+        "date": "Wed, 11 Nov 2026 23:43:47 GMT",
+        "content-type": "text/html; charset=UTF-8",
+        "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-transform"
+      },
+      "bytes": 59489,
+      "sha256": "822ccb95c253dd06cd909ed10a44dbd885105341ef9e7d85dd4ee25ff9b2005a",
+      "elapsed_seconds": 0.25,
+      "local_raw_path": "tmp/independent-audit-2026-11/capture-20261111T234347Z/32d7bdb1151db9440d92.html",
+      "local_text_path": "tmp/independent-audit-2026-11/capture-20261111T234347Z/32d7bdb1151db9440d92.txt",
+      "text_characters": 11046,
+      "transport_outcome": "accessible"
+    },
+    {
+      "url": "https://www.unipd.it/en/corsi-di-laurea/computer-engineering",
+      "source_ids": [
+        "AUDIT-PADUA-COMPUTER-ENGINEERING-PROFILE"
+      ],
+      "evidence_key": "971f1ef05e49b8ccec31",
+      "checked_at_utc": "2026-11-11T23:44:47.762596+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://www.unipd.it/en/corsi-di-laurea/computer-engineering",
+      "redirects": [],
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "date": "Wed, 11 Nov 2026 23:44:48 GMT",
+        "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate"
+      },
+      "bytes": 1509004,
+      "sha256": "bd98c54be45f9da1ef961a2fced6637a2bfab811231d3f4074327aec54e2b34a",
+      "elapsed_seconds": 0.782,
+      "local_raw_path": "tmp/independent-audit-2026-11/capture-20261111T234447Z/971f1ef05e49b8ccec31.html",
+      "local_text_path": "tmp/independent-audit-2026-11/capture-20261111T234447Z/971f1ef05e49b8ccec31.txt",
+      "text_characters": 2466,
+      "transport_outcome": "accessible"
+    },
+    {
+      "url": "https://www.unipd.it/en/corsi-di-laurea/aerospace-engineering",
+      "source_ids": [
+        "AUDIT-PADUA-AEROSPACE-PROFILE"
+      ],
+      "evidence_key": "6a3ea43119c7d68f15c0",
+      "checked_at_utc": "2026-11-11T23:44:47.763592+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://www.unipd.it/en/corsi-di-laurea/aerospace-engineering",
+      "redirects": [],
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "date": "Wed, 11 Nov 2026 23:44:48 GMT",
+        "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate"
+      },
+      "bytes": 1518949,
+      "sha256": "d5eaffc92c993f99d1abf2dc1dee621240de771eea7ba1395357d491994ddeb7",
+      "elapsed_seconds": 0.422,
+      "local_raw_path": "tmp/independent-audit-2026-11/capture-20261111T234447Z/6a3ea43119c7d68f15c0.html",
+      "local_text_path": "tmp/independent-audit-2026-11/capture-20261111T234447Z/6a3ea43119c7d68f15c0.txt",
+      "text_characters": 2497,
+      "transport_outcome": "accessible"
+    },
+    {
+      "url": "https://apply.unipd.it/courses/course/90-computer-engineering",
+      "source_ids": [
+        "AUDIT-PADUA-COMPUTER-ENGINEERING-PORTAL"
+      ],
+      "evidence_key": "5e7c183f33501cbe441d",
+      "checked_at_utc": "2026-11-11T23:45:09.454308+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://apply.unipd.it/courses/course/90-computer-engineering",
+      "redirects": [],
+      "headers": {
+        "date": "Wed, 11 Nov 2026 23:45:09 GMT",
+        "content-type": "text/html; charset=UTF-8",
+        "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-transform"
+      },
+      "bytes": 54590,
+      "sha256": "51d20aa79f92ace211c8d1963c7419274a7ed4252dcf89207a3a17743dd66dae",
+      "elapsed_seconds": 0.25,
+      "local_raw_path": "tmp/independent-audit-2026-11/capture-20261111T234509Z/5e7c183f33501cbe441d.html",
+      "local_text_path": "tmp/independent-audit-2026-11/capture-20261111T234509Z/5e7c183f33501cbe441d.txt",
+      "text_characters": 8289,
+      "transport_outcome": "accessible"
+    },
+    {
+      "url": "https://apply.unipd.it/courses/course/232-aerospace-engineering",
+      "source_ids": [
+        "AUDIT-PADUA-AEROSPACE-PORTAL"
+      ],
+      "evidence_key": "01b7b28b967246946894",
+      "checked_at_utc": "2026-11-11T23:45:09.461800+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://apply.unipd.it/courses/course/232-aerospace-engineering",
+      "redirects": [],
+      "headers": {
+        "date": "Wed, 11 Nov 2026 23:45:09 GMT",
+        "content-type": "text/html; charset=UTF-8",
+        "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-transform"
+      },
+      "bytes": 55563,
+      "sha256": "dd81d876a8adaa1a09e19ce4b64727c8eae43788086c741c882fbfdd0c486731",
+      "elapsed_seconds": 0.25,
+      "local_raw_path": "tmp/independent-audit-2026-11/capture-20261111T234509Z/01b7b28b967246946894.html",
+      "local_text_path": "tmp/independent-audit-2026-11/capture-20261111T234509Z/01b7b28b967246946894.txt",
+      "text_characters": 9430,
+      "transport_outcome": "accessible"
+    }
+  ]
+}

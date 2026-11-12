@@ -1,0 +1,1549 @@
+{
+  "metadata": {
+    "baseline_commit": "c3af9dc",
+    "checked_at": "2026-11-12",
+    "method": "Manually read fresh profiles, admissions summaries and relevant formal2026/27 call sections; inspected annual labels and degree-specific table rows. No2027/28 rules inferred from older calls."
+  },
+  "program_reviews": [
+    {
+      "program_id": "legacy-147",
+      "university_id": "bologna",
+      "university": "Università di Bologna",
+      "program": "Ingegneria gestionale",
+      "checked_at": "2026-11-12",
+      "overall_outcome": "CORRECTION_CONFIRMED",
+      "comparisons": [
+        {
+          "field_path": "program",
+          "existing_value": "Ingegneria gestionale",
+          "official_value": "Ingegneria gestionale",
+          "academic_year": "2026/27",
+          "checked_at": "2026-11-12",
+          "source_ids": [
+            "SRC-UNIBO-GESTIONALE-BSC-2026",
+            "SRC-AUDIT-BOLOGNA-GESTIONALE-REQUIREMENTS",
+            "SRC-AUDIT-BOLOGNA-GESTIONALE-CALL-2026"
+          ],
+          "source_urls": [
+            "https://corsi.unibo.it/laurea/IngegneriaGestionale",
+            "https://corsi.unibo.it/laurea/IngegneriaGestionale/iscriversi-al-corso",
+            "https://corsi.unibo.it/s/3387/p/it/iscriversi-nuova-2/bandotolc_ingegneria-e-scienze-area-informatica-_a-a-2025-2026.pdf/@@download/file/BandoTOLC_Ingegneria e Scienze (area informatica)_A.A. 2026-2027.pdf"
+          ],
+          "evidence_summary": "The official course profile and formal2026/27 call identify the named Bologna University BSc: Italian, L-9, Bologna, locally restricted TOLC-I. No named2027/28 intake is established.",
+          "outcome": "MATCH"
+        },
+        {
+          "field_path": "university",
+          "existing_value": "Università di Bologna",
+          "official_value": "Università di Bologna",
+          "academic_year": "2026/27",
+          "checked_at": "2026-11-12",
+          "source_ids": [
+            "SRC-UNIBO-GESTIONALE-BSC-2026",
+            "SRC-AUDIT-BOLOGNA-GESTIONALE-REQUIREMENTS",
+            "SRC-AUDIT-BOLOGNA-GESTIONALE-CALL-2026"
+          ],
+          "source_urls": [
+            "https://corsi.unibo.it/laurea/IngegneriaGestionale",
+            "https://corsi.unibo.it/laurea/IngegneriaGestionale/iscriversi-al-corso",
+            "https://corsi.unibo.it/s/3387/p/it/iscriversi-nuova-2/bandotolc_ingegneria-e-scienze-area-informatica-_a-a-2025-2026.pdf/@@download/file/BandoTOLC_Ingegneria e Scienze (area informatica)_A.A. 2026-2027.pdf"
+          ],
+          "evidence_summary": "The official course profile and formal2026/27 call identify the named Bologna University BSc: Italian, L-9, Bologna, locally restricted TOLC-I. No named2027/28 intake is established.",
+          "outcome": "MATCH"
+        },
+        {
+          "field_path": "city",
+          "existing_value": "Bologna",
+          "official_value": "Bologna",
+          "academic_year": "2026/27",
+          "checked_at": "2026-11-12",
+          "source_ids": [
+            "SRC-UNIBO-GESTIONALE-BSC-2026",
+            "SRC-AUDIT-BOLOGNA-GESTIONALE-REQUIREMENTS",
+            "SRC-AUDIT-BOLOGNA-GESTIONALE-CALL-2026"
+          ],
+          "source_urls": [
+            "https://corsi.unibo.it/laurea/IngegneriaGestionale",
+            "https://corsi.unibo.it/laurea/IngegneriaGestionale/iscriversi-al-corso",
+            "https://corsi.unibo.it/s/3387/p/it/iscriversi-nuova-2/bandotolc_ingegneria-e-scienze-area-informatica-_a-a-2025-2026.pdf/@@download/file/BandoTOLC_Ingegneria e Scienze (area informatica)_A.A. 2026-2027.pdf"
+          ],
+          "evidence_summary": "The official course profile and formal2026/27 call identify the named Bologna University BSc: Italian, L-9, Bologna, locally restricted TOLC-I. No named2027/28 intake is established.",
+          "outcome": "MATCH"
+        },
+        {
+          "field_path": "level",
+          "existing_value": {
+            "value": "BSc",
+            "status": "REQUIRES_VERIFICATION",
+            "source_ids": [
+              "SRC-UNIBO-GESTIONALE-BSC-2026"
+            ],
+            "notes": "Official course identity is confirmed for the 2026/2027 catalogue; this value is not promoted to 2027/28 without a named-cycle source."
+          },
+          "official_value": "BSc",
+          "academic_year": "2026/27",
+          "checked_at": "2026-11-12",
+          "source_ids": [
+            "SRC-UNIBO-GESTIONALE-BSC-2026",
+            "SRC-AUDIT-BOLOGNA-GESTIONALE-REQUIREMENTS",
+            "SRC-AUDIT-BOLOGNA-GESTIONALE-CALL-2026"
+          ],
+          "source_urls": [
+            "https://corsi.unibo.it/laurea/IngegneriaGestionale",
+            "https://corsi.unibo.it/laurea/IngegneriaGestionale/iscriversi-al-corso",
+            "https://corsi.unibo.it/s/3387/p/it/iscriversi-nuova-2/bandotolc_ingegneria-e-scienze-area-informatica-_a-a-2025-2026.pdf/@@download/file/BandoTOLC_Ingegneria e Scienze (area informatica)_A.A. 2026-2027.pdf"
+          ],
+          "evidence_summary": "The official course profile and formal2026/27 call identify the named Bologna University BSc: Italian, L-9, Bologna, locally restricted TOLC-I. No named2027/28 intake is established.",
+          "outcome": "MATCH"
+        },
+        {
+          "field_path": "language",
+          "existing_value": {
+            "value": "Italian",
+            "status": "REQUIRES_VERIFICATION",
+            "source_ids": [
+              "SRC-UNIBO-GESTIONALE-BSC-2026"
+            ],
+            "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
+          },
+          "official_value": "Italian",
+          "academic_year": "2026/27",
+          "checked_at": "2026-11-12",
+          "source_ids": [
+            "SRC-UNIBO-GESTIONALE-BSC-2026",
+            "SRC-AUDIT-BOLOGNA-GESTIONALE-REQUIREMENTS",
+            "SRC-AUDIT-BOLOGNA-GESTIONALE-CALL-2026"
+          ],
+          "source_urls": [
+            "https://corsi.unibo.it/laurea/IngegneriaGestionale",
+            "https://corsi.unibo.it/laurea/IngegneriaGestionale/iscriversi-al-corso",
+            "https://corsi.unibo.it/s/3387/p/it/iscriversi-nuova-2/bandotolc_ingegneria-e-scienze-area-informatica-_a-a-2025-2026.pdf/@@download/file/BandoTOLC_Ingegneria e Scienze (area informatica)_A.A. 2026-2027.pdf"
+          ],
+          "evidence_summary": "The official course profile and formal2026/27 call identify the named Bologna University BSc: Italian, L-9, Bologna, locally restricted TOLC-I. No named2027/28 intake is established.",
+          "outcome": "MATCH"
+        },
+        {
+          "field_path": "field",
+          "existing_value": {
+            "value": "Industrial and Management Engineering",
+            "status": "REQUIRES_VERIFICATION",
+            "source_ids": [
+              "SRC-UNIBO-GESTIONALE-BSC-2026"
+            ],
+            "notes": "Course subject identity is based on current official profile/catalogue evidence; next-cycle catalogue not yet verified."
+          },
+          "official_value": "Industrial and Management Engineering",
+          "academic_year": "2026/27",
+          "checked_at": "2026-11-12",
+          "source_ids": [
+            "SRC-UNIBO-GESTIONALE-BSC-2026",
+            "SRC-AUDIT-BOLOGNA-GESTIONALE-REQUIREMENTS",
+            "SRC-AUDIT-BOLOGNA-GESTIONALE-CALL-2026"
+          ],
+          "source_urls": [
+            "https://corsi.unibo.it/laurea/IngegneriaGestionale",
+            "https://corsi.unibo.it/laurea/IngegneriaGestionale/iscriversi-al-corso",
+            "https://corsi.unibo.it/s/3387/p/it/iscriversi-nuova-2/bandotolc_ingegneria-e-scienze-area-informatica-_a-a-2025-2026.pdf/@@download/file/BandoTOLC_Ingegneria e Scienze (area informatica)_A.A. 2026-2027.pdf"
+          ],
+          "evidence_summary": "The official course profile and formal2026/27 call identify the named Bologna University BSc: Italian, L-9, Bologna, locally restricted TOLC-I. No named2027/28 intake is established.",
+          "outcome": "MATCH"
+        },
+        {
+          "field_path": "availability_2027_2028",
+          "existing_value": {
+            "value": null,
+            "status": "NOT_YET_PUBLISHED",
+            "source_ids": [
+              "SRC-UNIBO-GESTIONALE-BSC-2026"
+            ],
+            "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued."
+          },
+          "official_value": null,
+          "academic_year": "2027/28 not established",
+          "checked_at": "2026-11-12",
+          "source_ids": [
+            "SRC-UNIBO-GESTIONALE-BSC-2026",
+            "SRC-AUDIT-BOLOGNA-GESTIONALE-REQUIREMENTS",
+            "SRC-AUDIT-BOLOGNA-GESTIONALE-CALL-2026"
+          ],
+          "source_urls": [
+            "https://corsi.unibo.it/laurea/IngegneriaGestionale",
+            "https://corsi.unibo.it/laurea/IngegneriaGestionale/iscriversi-al-corso",
+            "https://corsi.unibo.it/s/3387/p/it/iscriversi-nuova-2/bandotolc_ingegneria-e-scienze-area-informatica-_a-a-2025-2026.pdf/@@download/file/BandoTOLC_Ingegneria e Scienze (area informatica)_A.A. 2026-2027.pdf"
+          ],
+          "evidence_summary": "Current linked first-year formal call expressly says2026/27. The2027 news/Overseas links and ministerial-activation boilerplate do not establish a new first-year2027/28 intake.",
+          "outcome": "PENDING_ANNOUNCEMENT"
+        },
+        {
+          "field_path": "facts.previous_cycle_course_listing",
+          "existing_value": {
+            "value": {
+              "academic_year": "2026/2027",
+              "official_name": "Ingegneria gestionale",
+              "level": "BSc",
+              "language": "Italian"
+            },
+            "status": "CONFIRMED",
+            "source_ids": [
+              "SRC-UNIBO-GESTIONALE-BSC-2026"
+            ],
+            "notes": "Official course profile/catalogue evidence is cycle-scoped to 2026/2027 and does not establish 2027/28 first-year admission."
+          },
+          "official_value": {
+            "value": {
+              "academic_year": "2026/2027",
+              "official_name": "Ingegneria gestionale",
+              "level": "BSc",
+              "language": "Italian"
+            },
+            "status": "CONFIRMED",
+            "source_ids": [
+              "SRC-UNIBO-GESTIONALE-BSC-2026",
+              "SRC-AUDIT-BOLOGNA-GESTIONALE-REQUIREMENTS",
+              "SRC-AUDIT-BOLOGNA-GESTIONALE-CALL-2026"
+            ],
+            "notes": "The linked formal2026/27 call independently corroborates the named course, level, language and campus. Profile news dates alone are not annual admissions evidence."
+          },
+          "academic_year": "2026/27",
+          "checked_at": "2026-11-12",
+          "source_ids": [
+            "SRC-UNIBO-GESTIONALE-BSC-2026",
+            "SRC-AUDIT-BOLOGNA-GESTIONALE-REQUIREMENTS",
+            "SRC-AUDIT-BOLOGNA-GESTIONALE-CALL-2026"
+          ],
+          "source_urls": [
+            "https://corsi.unibo.it/laurea/IngegneriaGestionale",
+            "https://corsi.unibo.it/laurea/IngegneriaGestionale/iscriversi-al-corso",
+            "https://corsi.unibo.it/s/3387/p/it/iscriversi-nuova-2/bandotolc_ingegneria-e-scienze-area-informatica-_a-a-2025-2026.pdf/@@download/file/BandoTOLC_Ingegneria e Scienze (area informatica)_A.A. 2026-2027.pdf"
+          ],
+          "evidence_summary": "Add the independently read annual-call provenance for the historical course listing, preserving its2026/27 scope.",
+          "outcome": "CORRECTION_CONFIRMED"
+        },
+        {
+          "field_path": "facts.application_windows",
+          "existing_value": {
+            "value": null,
+            "status": "NOT_YET_PUBLISHED",
+            "source_ids": [
+              "SRC-UNIBO-GESTIONALE-BSC-2026"
+            ],
+            "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates."
+          },
+          "official_value": null,
+          "academic_year": "2027/28 not established",
+          "checked_at": "2026-11-12",
+          "source_ids": [
+            "SRC-UNIBO-GESTIONALE-BSC-2026",
+            "SRC-AUDIT-BOLOGNA-GESTIONALE-REQUIREMENTS",
+            "SRC-AUDIT-BOLOGNA-GESTIONALE-CALL-2026"
+          ],
+          "source_urls": [
+            "https://corsi.unibo.it/laurea/IngegneriaGestionale",
+            "https://corsi.unibo.it/laurea/IngegneriaGestionale/iscriversi-al-corso",
+            "https://corsi.unibo.it/s/3387/p/it/iscriversi-nuova-2/bandotolc_ingegneria-e-scienze-area-informatica-_a-a-2025-2026.pdf/@@download/file/BandoTOLC_Ingegneria e Scienze (area informatica)_A.A. 2026-2027.pdf"
+          ],
+          "evidence_summary": "Only2026/27 annual-call rounds and extraordinary-selection notices were linked; they are not2027/28 dates.",
+          "outcome": "PENDING_ANNOUNCEMENT"
+        },
+        {
+          "field_path": "facts.application_fee_2027_2028",
+          "existing_value": {
+            "value": null,
+            "status": "NOT_YET_PUBLISHED",
+            "source_ids": [
+              "SRC-UNIBO-GESTIONALE-BSC-2026"
+            ],
+            "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal."
+          },
+          "official_value": null,
+          "academic_year": "2027/28 not established",
+          "checked_at": "2026-11-12",
+          "source_ids": [
+            "SRC-UNIBO-GESTIONALE-BSC-2026",
+            "SRC-AUDIT-BOLOGNA-GESTIONALE-REQUIREMENTS",
+            "SRC-AUDIT-BOLOGNA-GESTIONALE-CALL-2026"
+          ],
+          "source_urls": [
+            "https://corsi.unibo.it/laurea/IngegneriaGestionale",
+            "https://corsi.unibo.it/laurea/IngegneriaGestionale/iscriversi-al-corso",
+            "https://corsi.unibo.it/s/3387/p/it/iscriversi-nuova-2/bandotolc_ingegneria-e-scienze-area-informatica-_a-a-2025-2026.pdf/@@download/file/BandoTOLC_Ingegneria e Scienze (area informatica)_A.A. 2026-2027.pdf"
+          ],
+          "evidence_summary": "The2026/27 call charges EUR20 once for its selections, separate from the displayed CISIA test fee; it publishes no2027/28 course application fee.",
+          "outcome": "PENDING_ANNOUNCEMENT"
+        },
+        {
+          "field_path": "facts.program_specific_requirements_2027_2028",
+          "existing_value": {
+            "value": null,
+            "status": "NOT_YET_PUBLISHED",
+            "source_ids": [
+              "SRC-UNIBO-GESTIONALE-BSC-2026"
+            ],
+            "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only."
+          },
+          "official_value": null,
+          "academic_year": "2027/28 not established",
+          "checked_at": "2026-11-12",
+          "source_ids": [
+            "SRC-UNIBO-GESTIONALE-BSC-2026",
+            "SRC-AUDIT-BOLOGNA-GESTIONALE-REQUIREMENTS",
+            "SRC-AUDIT-BOLOGNA-GESTIONALE-CALL-2026"
+          ],
+          "source_urls": [
+            "https://corsi.unibo.it/laurea/IngegneriaGestionale",
+            "https://corsi.unibo.it/laurea/IngegneriaGestionale/iscriversi-al-corso",
+            "https://corsi.unibo.it/s/3387/p/it/iscriversi-nuova-2/bandotolc_ingegneria-e-scienze-area-informatica-_a-a-2025-2026.pdf/@@download/file/BandoTOLC_Ingegneria e Scienze (area informatica)_A.A. 2026-2027.pdf"
+          ],
+          "evidence_summary": "The older call requires a suitable secondary qualification and programme-specific Italian TOLC, with separate non-EU-abroad eligibility; no2027/28 test, score, quota or language procedure is established.",
+          "outcome": "PENDING_ANNOUNCEMENT"
+        },
+        {
+          "field_path": "facts.tuition_2027_2028",
+          "existing_value": {
+            "value": null,
+            "status": "NOT_YET_PUBLISHED",
+            "source_ids": [
+              "SRC-UNIBO-GESTIONALE-BSC-2026"
+            ],
+            "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts."
+          },
+          "official_value": null,
+          "academic_year": "2027/28 not established",
+          "checked_at": "2026-11-12",
+          "source_ids": [
+            "SRC-UNIBO-GESTIONALE-BSC-2026",
+            "SRC-AUDIT-BOLOGNA-GESTIONALE-REQUIREMENTS",
+            "SRC-AUDIT-BOLOGNA-GESTIONALE-CALL-2026"
+          ],
+          "source_urls": [
+            "https://corsi.unibo.it/laurea/IngegneriaGestionale",
+            "https://corsi.unibo.it/laurea/IngegneriaGestionale/iscriversi-al-corso",
+            "https://corsi.unibo.it/s/3387/p/it/iscriversi-nuova-2/bandotolc_ingegneria-e-scienze-area-informatica-_a-a-2025-2026.pdf/@@download/file/BandoTOLC_Ingegneria e Scienze (area informatica)_A.A. 2026-2027.pdf"
+          ],
+          "evidence_summary": "The admissions page links2026 ISEE documentation and2026/27 tuition rules; no programme-specific2027/28 amount is established. Income, country and exemption rules prevent one universal price.",
+          "outcome": "PENDING_ANNOUNCEMENT"
+        },
+        {
+          "field_path": "facts.scholarships_2027_2028",
+          "existing_value": {
+            "value": null,
+            "status": "NOT_YET_PUBLISHED",
+            "source_ids": [
+              "SRC-UNIBO-GESTIONALE-BSC-2026"
+            ],
+            "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking."
+          },
+          "official_value": null,
+          "academic_year": "2027/28 not established",
+          "checked_at": "2026-11-12",
+          "source_ids": [
+            "SRC-UNIBO-GESTIONALE-BSC-2026",
+            "SRC-AUDIT-BOLOGNA-GESTIONALE-REQUIREMENTS",
+            "SRC-AUDIT-BOLOGNA-GESTIONALE-CALL-2026"
+          ],
+          "source_urls": [
+            "https://corsi.unibo.it/laurea/IngegneriaGestionale",
+            "https://corsi.unibo.it/laurea/IngegneriaGestionale/iscriversi-al-corso",
+            "https://corsi.unibo.it/s/3387/p/it/iscriversi-nuova-2/bandotolc_ingegneria-e-scienze-area-informatica-_a-a-2025-2026.pdf/@@download/file/BandoTOLC_Ingegneria e Scienze (area informatica)_A.A. 2026-2027.pdf"
+          ],
+          "evidence_summary": "Displayed health/tutoring benefits concern2026/27 or existing students. The2027/28 Overseas mobility notice is not a new-entrant degree scholarship. No2027/28 entry-award amount or guaranteed eligibility is established.",
+          "outcome": "PENDING_ANNOUNCEMENT"
+        },
+        {
+          "field_path": "facts.acceptance_rate",
+          "existing_value": {
+            "value": null,
+            "status": "UNAVAILABLE",
+            "source_ids": [
+              "SRC-UNIBO-GESTIONALE-BSC-2026"
+            ],
+            "notes": "The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred."
+          },
+          "official_value": null,
+          "academic_year": "2026/27",
+          "checked_at": "2026-11-12",
+          "source_ids": [
+            "SRC-UNIBO-GESTIONALE-BSC-2026",
+            "SRC-AUDIT-BOLOGNA-GESTIONALE-REQUIREMENTS",
+            "SRC-AUDIT-BOLOGNA-GESTIONALE-CALL-2026"
+          ],
+          "source_urls": [
+            "https://corsi.unibo.it/laurea/IngegneriaGestionale",
+            "https://corsi.unibo.it/laurea/IngegneriaGestionale/iscriversi-al-corso",
+            "https://corsi.unibo.it/s/3387/p/it/iscriversi-nuova-2/bandotolc_ingegneria-e-scienze-area-informatica-_a-a-2025-2026.pdf/@@download/file/BandoTOLC_Ingegneria e Scienze (area informatica)_A.A. 2026-2027.pdf"
+          ],
+          "evidence_summary": "The call gives seat quotas and selection procedures, but the reviewed sources do not give a comparable total of applicants and admitted students. A quota is not an acceptance rate.",
+          "outcome": "UNPUBLISHED_IN_REVIEWED_SOURCES"
+        },
+        {
+          "field_path": "facts.previous_cycle_2026_2027_admission_context",
+          "existing_value": null,
+          "official_value": {
+            "value": {
+              "academic_year": "2026/27",
+              "degree_class": "L-9",
+              "secondary_qualification": "Eligible Italian upper-secondary qualification or suitable foreign qualification after at least12 years of schooling; formal recognition checks apply",
+              "admission_test": "TOLC-I",
+              "english_test_section": "Does not count toward ranking; not an English-taught programme",
+              "italian_language": "Non-EU-abroad applicants must satisfy the University Italian-language requirement or an applicable exemption",
+              "test_delivery_scope": "TOLC@UNI2025/2026; TOLC@CASA accepted only for the dedicated non-EU-abroad contingent",
+              "non_eu_abroad_round": "Second ordinary selection only, within its reserved quota",
+              "application_contribution_eur": 20,
+              "contribution_rule": "Paid once for this call; a new online application is needed for each selection, without paying the contribution again",
+              "published_total_seats": 283,
+              "reserved_non_eu_abroad_seats": 6,
+              "current_year_warning": "These are historical2026/27 rules, not a2027/28 offer"
+            },
+            "status": "CONFIRMED",
+            "source_ids": [
+              "SRC-UNIBO-GESTIONALE-BSC-2026",
+              "SRC-AUDIT-BOLOGNA-GESTIONALE-REQUIREMENTS",
+              "SRC-AUDIT-BOLOGNA-GESTIONALE-CALL-2026"
+            ],
+            "notes": "Independently checked formal2026/27 call Sections2–4 and course admissions page. No numerical school-GPA floor is stated in the inspected eligibility sections; ranking is based on the required TOLC and annual selection rules. Do not transfer the separate English Bologna degree routes or their SAT/CEnT-S rules to this programme."
+          },
+          "academic_year": "2026/27",
+          "checked_at": "2026-11-12",
+          "source_ids": [
+            "SRC-UNIBO-GESTIONALE-BSC-2026",
+            "SRC-AUDIT-BOLOGNA-GESTIONALE-REQUIREMENTS",
+            "SRC-AUDIT-BOLOGNA-GESTIONALE-CALL-2026"
+          ],
+          "source_urls": [
+            "https://corsi.unibo.it/laurea/IngegneriaGestionale",
+            "https://corsi.unibo.it/laurea/IngegneriaGestionale/iscriversi-al-corso",
+            "https://corsi.unibo.it/s/3387/p/it/iscriversi-nuova-2/bandotolc_ingegneria-e-scienze-area-informatica-_a-a-2025-2026.pdf/@@download/file/BandoTOLC_Ingegneria e Scienze (area informatica)_A.A. 2026-2027.pdf"
+          ],
+          "evidence_summary": "Add previously missing, independently verified historical applicant/test/fee/quota scope without promoting it to2027/28.",
+          "outcome": "CORRECTION_CONFIRMED"
+        },
+        {
+          "field_path": "source_ids",
+          "existing_value": [
+            "SRC-UNIBO-GESTIONALE-BSC-2026"
+          ],
+          "official_value": [
+            "SRC-UNIBO-GESTIONALE-BSC-2026",
+            "SRC-AUDIT-BOLOGNA-GESTIONALE-REQUIREMENTS",
+            "SRC-AUDIT-BOLOGNA-GESTIONALE-CALL-2026"
+          ],
+          "academic_year": "2026/27",
+          "checked_at": "2026-11-12",
+          "source_ids": [
+            "SRC-UNIBO-GESTIONALE-BSC-2026",
+            "SRC-AUDIT-BOLOGNA-GESTIONALE-REQUIREMENTS",
+            "SRC-AUDIT-BOLOGNA-GESTIONALE-CALL-2026"
+          ],
+          "source_urls": [
+            "https://corsi.unibo.it/laurea/IngegneriaGestionale",
+            "https://corsi.unibo.it/laurea/IngegneriaGestionale/iscriversi-al-corso",
+            "https://corsi.unibo.it/s/3387/p/it/iscriversi-nuova-2/bandotolc_ingegneria-e-scienze-area-informatica-_a-a-2025-2026.pdf/@@download/file/BandoTOLC_Ingegneria e Scienze (area informatica)_A.A. 2026-2027.pdf"
+          ],
+          "evidence_summary": "Preserve original source IDs and add inspected programme-specific admissions/call evidence.",
+          "outcome": "CORRECTION_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "program_id": "legacy-148",
+      "university_id": "bologna",
+      "university": "Università di Bologna",
+      "program": "Economia e commercio",
+      "checked_at": "2026-11-12",
+      "overall_outcome": "CORRECTION_CONFIRMED",
+      "comparisons": [
+        {
+          "field_path": "program",
+          "existing_value": "Economia e commercio",
+          "official_value": "Economia e commercio",
+          "academic_year": "2026/27",
+          "checked_at": "2026-11-12",
+          "source_ids": [
+            "SRC-UNIBO-ECON-COMMERCIO-2026",
+            "SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026",
+            "SRC-AUDIT-BOLOGNA-ECONCOM-REQUIREMENTS",
+            "SRC-AUDIT-BOLOGNA-ECONCOM-CALL-2026"
+          ],
+          "source_urls": [
+            "https://corsi.unibo.it/laurea/EconomiaCommercio",
+            "https://corsi.unibo.it/laurea/EconomiaCommercio/sedute-di-laurea",
+            "https://corsi.unibo.it/laurea/EconomiaCommercio/iscriversi-al-corso",
+            "https://corsi.unibo.it/s/3427/p/it/iscriversi-al-corso/bando-tolc-economia-25-26-con-stampigliatura.pdf/@@download/file/BANDO TOLC 26_27 Economia con stampigliatura.pdf"
+          ],
+          "evidence_summary": "The official course profile and formal2026/27 call identify the named Bologna University BSc: Italian, L-18, Forlì, locally restricted TOLC-E. This is not the Bologna CLaBE/CLEF English route. No named2027/28 intake is established.",
+          "outcome": "MATCH"
+        },
+        {
+          "field_path": "university",
+          "existing_value": "Università di Bologna",
+          "official_value": "Università di Bologna",
+          "academic_year": "2026/27",
+          "checked_at": "2026-11-12",
+          "source_ids": [
+            "SRC-UNIBO-ECON-COMMERCIO-2026",
+            "SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026",
+            "SRC-AUDIT-BOLOGNA-ECONCOM-REQUIREMENTS",
+            "SRC-AUDIT-BOLOGNA-ECONCOM-CALL-2026"
+          ],
+          "source_urls": [
+            "https://corsi.unibo.it/laurea/EconomiaCommercio",
+            "https://corsi.unibo.it/laurea/EconomiaCommercio/sedute-di-laurea",
+            "https://corsi.unibo.it/laurea/EconomiaCommercio/iscriversi-al-corso",
+            "https://corsi.unibo.it/s/3427/p/it/iscriversi-al-corso/bando-tolc-economia-25-26-con-stampigliatura.pdf/@@download/file/BANDO TOLC 26_27 Economia con stampigliatura.pdf"
+          ],
+          "evidence_summary": "The official course profile and formal2026/27 call identify the named Bologna University BSc: Italian, L-18, Forlì, locally restricted TOLC-E. This is not the Bologna CLaBE/CLEF English route. No named2027/28 intake is established.",
+          "outcome": "MATCH"
+        },
+        {
+          "field_path": "city",
+          "existing_value": "Forlì",
+          "official_value": "Forlì",
+          "academic_year": "2026/27",
+          "checked_at": "2026-11-12",
+          "source_ids": [
+            "SRC-UNIBO-ECON-COMMERCIO-2026",
+            "SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026",
+            "SRC-AUDIT-BOLOGNA-ECONCOM-REQUIREMENTS",
+            "SRC-AUDIT-BOLOGNA-ECONCOM-CALL-2026"
+          ],
+          "source_urls": [
+            "https://corsi.unibo.it/laurea/EconomiaCommercio",
+            "https://corsi.unibo.it/laurea/EconomiaCommercio/sedute-di-laurea",
+            "https://corsi.unibo.it/laurea/EconomiaCommercio/iscriversi-al-corso",
+            "https://corsi.unibo.it/s/3427/p/it/iscriversi-al-corso/bando-tolc-economia-25-26-con-stampigliatura.pdf/@@download/file/BANDO TOLC 26_27 Economia con stampigliatura.pdf"
+          ],
+          "evidence_summary": "The official course profile and formal2026/27 call identify the named Bologna University BSc: Italian, L-18, Forlì, locally restricted TOLC-E. This is not the Bologna CLaBE/CLEF English route. No named2027/28 intake is established.",
+          "outcome": "MATCH"
+        },
+        {
+          "field_path": "level",
+          "existing_value": {
+            "value": "BSc",
+            "status": "REQUIRES_VERIFICATION",
+            "source_ids": [
+              "SRC-UNIBO-ECON-COMMERCIO-2026",
+              "SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026"
+            ],
+            "notes": "Official course identity is confirmed for the 2026/2027 catalogue; this value is not promoted to 2027/28 without a named-cycle source."
+          },
+          "official_value": "BSc",
+          "academic_year": "2026/27",
+          "checked_at": "2026-11-12",
+          "source_ids": [
+            "SRC-UNIBO-ECON-COMMERCIO-2026",
+            "SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026",
+            "SRC-AUDIT-BOLOGNA-ECONCOM-REQUIREMENTS",
+            "SRC-AUDIT-BOLOGNA-ECONCOM-CALL-2026"
+          ],
+          "source_urls": [
+            "https://corsi.unibo.it/laurea/EconomiaCommercio",
+            "https://corsi.unibo.it/laurea/EconomiaCommercio/sedute-di-laurea",
+            "https://corsi.unibo.it/laurea/EconomiaCommercio/iscriversi-al-corso",
+            "https://corsi.unibo.it/s/3427/p/it/iscriversi-al-corso/bando-tolc-economia-25-26-con-stampigliatura.pdf/@@download/file/BANDO TOLC 26_27 Economia con stampigliatura.pdf"
+          ],
+          "evidence_summary": "The official course profile and formal2026/27 call identify the named Bologna University BSc: Italian, L-18, Forlì, locally restricted TOLC-E. This is not the Bologna CLaBE/CLEF English route. No named2027/28 intake is established.",
+          "outcome": "MATCH"
+        },
+        {
+          "field_path": "language",
+          "existing_value": {
+            "value": "Italian",
+            "status": "REQUIRES_VERIFICATION",
+            "source_ids": [
+              "SRC-UNIBO-ECON-COMMERCIO-2026",
+              "SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026"
+            ],
+            "notes": "Official delivery is confirmed for the 2026/2027 catalogue only; verify the 2027/28 course record."
+          },
+          "official_value": "Italian",
+          "academic_year": "2026/27",
+          "checked_at": "2026-11-12",
+          "source_ids": [
+            "SRC-UNIBO-ECON-COMMERCIO-2026",
+            "SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026",
+            "SRC-AUDIT-BOLOGNA-ECONCOM-REQUIREMENTS",
+            "SRC-AUDIT-BOLOGNA-ECONCOM-CALL-2026"
+          ],
+          "source_urls": [
+            "https://corsi.unibo.it/laurea/EconomiaCommercio",
+            "https://corsi.unibo.it/laurea/EconomiaCommercio/sedute-di-laurea",
+            "https://corsi.unibo.it/laurea/EconomiaCommercio/iscriversi-al-corso",
+            "https://corsi.unibo.it/s/3427/p/it/iscriversi-al-corso/bando-tolc-economia-25-26-con-stampigliatura.pdf/@@download/file/BANDO TOLC 26_27 Economia con stampigliatura.pdf"
+          ],
+          "evidence_summary": "The official course profile and formal2026/27 call identify the named Bologna University BSc: Italian, L-18, Forlì, locally restricted TOLC-E. This is not the Bologna CLaBE/CLEF English route. No named2027/28 intake is established.",
+          "outcome": "MATCH"
+        },
+        {
+          "field_path": "field",
+          "existing_value": {
+            "value": "Economics and Commerce",
+            "status": "REQUIRES_VERIFICATION",
+            "source_ids": [
+              "SRC-UNIBO-ECON-COMMERCIO-2026",
+              "SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026"
+            ],
+            "notes": "Course subject identity is based on current official profile/catalogue evidence; next-cycle catalogue not yet verified."
+          },
+          "official_value": "Economics and Commerce",
+          "academic_year": "2026/27",
+          "checked_at": "2026-11-12",
+          "source_ids": [
+            "SRC-UNIBO-ECON-COMMERCIO-2026",
+            "SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026",
+            "SRC-AUDIT-BOLOGNA-ECONCOM-REQUIREMENTS",
+            "SRC-AUDIT-BOLOGNA-ECONCOM-CALL-2026"
+          ],
+          "source_urls": [
+            "https://corsi.unibo.it/laurea/EconomiaCommercio",
+            "https://corsi.unibo.it/laurea/EconomiaCommercio/sedute-di-laurea",
+            "https://corsi.unibo.it/laurea/EconomiaCommercio/iscriversi-al-corso",
+            "https://corsi.unibo.it/s/3427/p/it/iscriversi-al-corso/bando-tolc-economia-25-26-con-stampigliatura.pdf/@@download/file/BANDO TOLC 26_27 Economia con stampigliatura.pdf"
+          ],
+          "evidence_summary": "The official course profile and formal2026/27 call identify the named Bologna University BSc: Italian, L-18, Forlì, locally restricted TOLC-E. This is not the Bologna CLaBE/CLEF English route. No named2027/28 intake is established.",
+          "outcome": "MATCH"
+        },
+        {
+          "field_path": "availability_2027_2028",
+          "existing_value": {
+            "value": null,
+            "status": "NOT_YET_PUBLISHED",
+            "source_ids": [
+              "SRC-UNIBO-ECON-COMMERCIO-2026",
+              "SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026"
+            ],
+            "notes": "Not yet announced for 2027/28 in the official programme/admission pages reviewed as of 2026-11-10. This does not mean discontinued."
+          },
+          "official_value": null,
+          "academic_year": "2027/28 not established",
+          "checked_at": "2026-11-12",
+          "source_ids": [
+            "SRC-UNIBO-ECON-COMMERCIO-2026",
+            "SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026",
+            "SRC-AUDIT-BOLOGNA-ECONCOM-REQUIREMENTS",
+            "SRC-AUDIT-BOLOGNA-ECONCOM-CALL-2026"
+          ],
+          "source_urls": [
+            "https://corsi.unibo.it/laurea/EconomiaCommercio",
+            "https://corsi.unibo.it/laurea/EconomiaCommercio/sedute-di-laurea",
+            "https://corsi.unibo.it/laurea/EconomiaCommercio/iscriversi-al-corso",
+            "https://corsi.unibo.it/s/3427/p/it/iscriversi-al-corso/bando-tolc-economia-25-26-con-stampigliatura.pdf/@@download/file/BANDO TOLC 26_27 Economia con stampigliatura.pdf"
+          ],
+          "evidence_summary": "Current linked first-year formal call expressly says2026/27. The2027 news/Overseas links and ministerial-activation boilerplate do not establish a new first-year2027/28 intake.",
+          "outcome": "PENDING_ANNOUNCEMENT"
+        },
+        {
+          "field_path": "facts.previous_cycle_course_listing",
+          "existing_value": {
+            "value": {
+              "academic_year": "2026/2027",
+              "official_name": "Economia e commercio",
+              "level": "BSc",
+              "language": "Italian"
+            },
+            "status": "CONFIRMED",
+            "source_ids": [
+              "SRC-UNIBO-ECON-COMMERCIO-2026",
+              "SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026"
+            ],
+            "notes": "Official course profile/catalogue evidence is cycle-scoped to 2026/2027 and does not establish 2027/28 first-year admission."
+          },
+          "official_value": {
+            "value": {
+              "academic_year": "2026/2027",
+              "official_name": "Economia e commercio",
+              "level": "BSc",
+              "language": "Italian"
+            },
+            "status": "CONFIRMED",
+            "source_ids": [
+              "SRC-UNIBO-ECON-COMMERCIO-2026",
+              "SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026",
+              "SRC-AUDIT-BOLOGNA-ECONCOM-REQUIREMENTS",
+              "SRC-AUDIT-BOLOGNA-ECONCOM-CALL-2026"
+            ],
+            "notes": "The linked formal2026/27 call independently corroborates the named course, level, language and campus. Profile news dates alone are not annual admissions evidence."
+          },
+          "academic_year": "2026/27",
+          "checked_at": "2026-11-12",
+          "source_ids": [
+            "SRC-UNIBO-ECON-COMMERCIO-2026",
+            "SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026",
+            "SRC-AUDIT-BOLOGNA-ECONCOM-REQUIREMENTS",
+            "SRC-AUDIT-BOLOGNA-ECONCOM-CALL-2026"
+          ],
+          "source_urls": [
+            "https://corsi.unibo.it/laurea/EconomiaCommercio",
+            "https://corsi.unibo.it/laurea/EconomiaCommercio/sedute-di-laurea",
+            "https://corsi.unibo.it/laurea/EconomiaCommercio/iscriversi-al-corso",
+            "https://corsi.unibo.it/s/3427/p/it/iscriversi-al-corso/bando-tolc-economia-25-26-con-stampigliatura.pdf/@@download/file/BANDO TOLC 26_27 Economia con stampigliatura.pdf"
+          ],
+          "evidence_summary": "Add the independently read annual-call provenance for the historical course listing, preserving its2026/27 scope.",
+          "outcome": "CORRECTION_CONFIRMED"
+        },
+        {
+          "field_path": "facts.application_windows",
+          "existing_value": {
+            "value": null,
+            "status": "NOT_YET_PUBLISHED",
+            "source_ids": [
+              "SRC-UNIBO-ECON-COMMERCIO-2026",
+              "SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026"
+            ],
+            "notes": "Not yet announced for 2027/28 in the official programme page reviewed as of 2026-11-10; do not reuse 2026/27 dates."
+          },
+          "official_value": null,
+          "academic_year": "2027/28 not established",
+          "checked_at": "2026-11-12",
+          "source_ids": [
+            "SRC-UNIBO-ECON-COMMERCIO-2026",
+            "SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026",
+            "SRC-AUDIT-BOLOGNA-ECONCOM-REQUIREMENTS",
+            "SRC-AUDIT-BOLOGNA-ECONCOM-CALL-2026"
+          ],
+          "source_urls": [
+            "https://corsi.unibo.it/laurea/EconomiaCommercio",
+            "https://corsi.unibo.it/laurea/EconomiaCommercio/sedute-di-laurea",
+            "https://corsi.unibo.it/laurea/EconomiaCommercio/iscriversi-al-corso",
+            "https://corsi.unibo.it/s/3427/p/it/iscriversi-al-corso/bando-tolc-economia-25-26-con-stampigliatura.pdf/@@download/file/BANDO TOLC 26_27 Economia con stampigliatura.pdf"
+          ],
+          "evidence_summary": "Only2026/27 annual-call rounds and extraordinary-selection notices were linked; they are not2027/28 dates.",
+          "outcome": "PENDING_ANNOUNCEMENT"
+        },
+        {
+          "field_path": "facts.application_fee_2027_2028",
+          "existing_value": {
+            "value": null,
+            "status": "NOT_YET_PUBLISHED",
+            "source_ids": [
+              "SRC-UNIBO-ECON-COMMERCIO-2026",
+              "SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026"
+            ],
+            "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; check the annual call and application portal."
+          },
+          "official_value": null,
+          "academic_year": "2027/28 not established",
+          "checked_at": "2026-11-12",
+          "source_ids": [
+            "SRC-UNIBO-ECON-COMMERCIO-2026",
+            "SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026",
+            "SRC-AUDIT-BOLOGNA-ECONCOM-REQUIREMENTS",
+            "SRC-AUDIT-BOLOGNA-ECONCOM-CALL-2026"
+          ],
+          "source_urls": [
+            "https://corsi.unibo.it/laurea/EconomiaCommercio",
+            "https://corsi.unibo.it/laurea/EconomiaCommercio/sedute-di-laurea",
+            "https://corsi.unibo.it/laurea/EconomiaCommercio/iscriversi-al-corso",
+            "https://corsi.unibo.it/s/3427/p/it/iscriversi-al-corso/bando-tolc-economia-25-26-con-stampigliatura.pdf/@@download/file/BANDO TOLC 26_27 Economia con stampigliatura.pdf"
+          ],
+          "evidence_summary": "The2026/27 call charges EUR20 once for its selections, separate from the displayed CISIA test fee; it publishes no2027/28 course application fee.",
+          "outcome": "PENDING_ANNOUNCEMENT"
+        },
+        {
+          "field_path": "facts.program_specific_requirements_2027_2028",
+          "existing_value": {
+            "value": null,
+            "status": "NOT_YET_PUBLISHED",
+            "source_ids": [
+              "SRC-UNIBO-ECON-COMMERCIO-2026",
+              "SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026"
+            ],
+            "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; any 2026/27 criteria are historical only."
+          },
+          "official_value": null,
+          "academic_year": "2027/28 not established",
+          "checked_at": "2026-11-12",
+          "source_ids": [
+            "SRC-UNIBO-ECON-COMMERCIO-2026",
+            "SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026",
+            "SRC-AUDIT-BOLOGNA-ECONCOM-REQUIREMENTS",
+            "SRC-AUDIT-BOLOGNA-ECONCOM-CALL-2026"
+          ],
+          "source_urls": [
+            "https://corsi.unibo.it/laurea/EconomiaCommercio",
+            "https://corsi.unibo.it/laurea/EconomiaCommercio/sedute-di-laurea",
+            "https://corsi.unibo.it/laurea/EconomiaCommercio/iscriversi-al-corso",
+            "https://corsi.unibo.it/s/3427/p/it/iscriversi-al-corso/bando-tolc-economia-25-26-con-stampigliatura.pdf/@@download/file/BANDO TOLC 26_27 Economia con stampigliatura.pdf"
+          ],
+          "evidence_summary": "The older call requires a suitable secondary qualification and programme-specific Italian TOLC, with separate non-EU-abroad eligibility; no2027/28 test, score, quota or language procedure is established.",
+          "outcome": "PENDING_ANNOUNCEMENT"
+        },
+        {
+          "field_path": "facts.tuition_2027_2028",
+          "existing_value": {
+            "value": null,
+            "status": "NOT_YET_PUBLISHED",
+            "source_ids": [
+              "SRC-UNIBO-ECON-COMMERCIO-2026",
+              "SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026"
+            ],
+            "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; do not carry forward prior-cycle amounts."
+          },
+          "official_value": null,
+          "academic_year": "2027/28 not established",
+          "checked_at": "2026-11-12",
+          "source_ids": [
+            "SRC-UNIBO-ECON-COMMERCIO-2026",
+            "SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026",
+            "SRC-AUDIT-BOLOGNA-ECONCOM-REQUIREMENTS",
+            "SRC-AUDIT-BOLOGNA-ECONCOM-CALL-2026"
+          ],
+          "source_urls": [
+            "https://corsi.unibo.it/laurea/EconomiaCommercio",
+            "https://corsi.unibo.it/laurea/EconomiaCommercio/sedute-di-laurea",
+            "https://corsi.unibo.it/laurea/EconomiaCommercio/iscriversi-al-corso",
+            "https://corsi.unibo.it/s/3427/p/it/iscriversi-al-corso/bando-tolc-economia-25-26-con-stampigliatura.pdf/@@download/file/BANDO TOLC 26_27 Economia con stampigliatura.pdf"
+          ],
+          "evidence_summary": "The admissions page links2026 ISEE documentation and2026/27 tuition rules; no programme-specific2027/28 amount is established. Income, country and exemption rules prevent one universal price.",
+          "outcome": "PENDING_ANNOUNCEMENT"
+        },
+        {
+          "field_path": "facts.scholarships_2027_2028",
+          "existing_value": {
+            "value": null,
+            "status": "NOT_YET_PUBLISHED",
+            "source_ids": [
+              "SRC-UNIBO-ECON-COMMERCIO-2026",
+              "SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026"
+            ],
+            "notes": "Not yet announced for 2027/28 in the programme-specific material reviewed as of 2026-11-10; annual university and regional calls still need checking."
+          },
+          "official_value": null,
+          "academic_year": "2027/28 not established",
+          "checked_at": "2026-11-12",
+          "source_ids": [
+            "SRC-UNIBO-ECON-COMMERCIO-2026",
+            "SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026",
+            "SRC-AUDIT-BOLOGNA-ECONCOM-REQUIREMENTS",
+            "SRC-AUDIT-BOLOGNA-ECONCOM-CALL-2026"
+          ],
+          "source_urls": [
+            "https://corsi.unibo.it/laurea/EconomiaCommercio",
+            "https://corsi.unibo.it/laurea/EconomiaCommercio/sedute-di-laurea",
+            "https://corsi.unibo.it/laurea/EconomiaCommercio/iscriversi-al-corso",
+            "https://corsi.unibo.it/s/3427/p/it/iscriversi-al-corso/bando-tolc-economia-25-26-con-stampigliatura.pdf/@@download/file/BANDO TOLC 26_27 Economia con stampigliatura.pdf"
+          ],
+          "evidence_summary": "Displayed health/tutoring benefits concern2026/27 or existing students. The2027/28 Overseas mobility notice is not a new-entrant degree scholarship. No2027/28 entry-award amount or guaranteed eligibility is established.",
+          "outcome": "PENDING_ANNOUNCEMENT"
+        },
+        {
+          "field_path": "facts.acceptance_rate",
+          "existing_value": {
+            "value": null,
+            "status": "UNAVAILABLE",
+            "source_ids": [
+              "SRC-UNIBO-ECON-COMMERCIO-2026",
+              "SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026"
+            ],
+            "notes": "The reviewed official course/admission sources do not provide both applicants and admitted students; no acceptance rate is inferred."
+          },
+          "official_value": null,
+          "academic_year": "2026/27",
+          "checked_at": "2026-11-12",
+          "source_ids": [
+            "SRC-UNIBO-ECON-COMMERCIO-2026",
+            "SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026",
+            "SRC-AUDIT-BOLOGNA-ECONCOM-REQUIREMENTS",
+            "SRC-AUDIT-BOLOGNA-ECONCOM-CALL-2026"
+          ],
+          "source_urls": [
+            "https://corsi.unibo.it/laurea/EconomiaCommercio",
+            "https://corsi.unibo.it/laurea/EconomiaCommercio/sedute-di-laurea",
+            "https://corsi.unibo.it/laurea/EconomiaCommercio/iscriversi-al-corso",
+            "https://corsi.unibo.it/s/3427/p/it/iscriversi-al-corso/bando-tolc-economia-25-26-con-stampigliatura.pdf/@@download/file/BANDO TOLC 26_27 Economia con stampigliatura.pdf"
+          ],
+          "evidence_summary": "The call gives seat quotas and selection procedures, but the reviewed sources do not give a comparable total of applicants and admitted students. A quota is not an acceptance rate.",
+          "outcome": "UNPUBLISHED_IN_REVIEWED_SOURCES"
+        },
+        {
+          "field_path": "facts.previous_cycle_2026_2027_admission_context",
+          "existing_value": null,
+          "official_value": {
+            "value": {
+              "academic_year": "2026/27",
+              "degree_class": "L-18",
+              "secondary_qualification": "Eligible Italian upper-secondary qualification or suitable foreign qualification after at least12 years of schooling; formal recognition checks apply",
+              "admission_test": "Italian TOLC-E; English TOLC-E is not accepted for this Italian course",
+              "english_test_section": "Does not count toward ranking; not an English-taught programme",
+              "italian_language": "Non-EU-abroad applicants must satisfy the University Italian-language requirement or an applicable exemption",
+              "test_delivery_scope": "TOLC@UNI2025/2026; TOLC@CASA accepted only for the dedicated non-EU-abroad contingent",
+              "non_eu_abroad_round": "Second ordinary selection only, within its reserved quota",
+              "application_contribution_eur": 20,
+              "contribution_rule": "Paid once for this call; a new online application is needed for each selection, without paying the contribution again",
+              "published_total_seats": 330,
+              "reserved_non_eu_abroad_seats": 20,
+              "current_year_warning": "These are historical2026/27 rules, not a2027/28 offer"
+            },
+            "status": "CONFIRMED",
+            "source_ids": [
+              "SRC-UNIBO-ECON-COMMERCIO-2026",
+              "SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026",
+              "SRC-AUDIT-BOLOGNA-ECONCOM-REQUIREMENTS",
+              "SRC-AUDIT-BOLOGNA-ECONCOM-CALL-2026"
+            ],
+            "notes": "Independently checked formal2026/27 call Sections2–4 and course admissions page. No numerical school-GPA floor is stated in the inspected eligibility sections; ranking is based on the required TOLC and annual selection rules. Do not transfer the separate English Bologna degree routes or their SAT/CEnT-S rules to this programme."
+          },
+          "academic_year": "2026/27",
+          "checked_at": "2026-11-12",
+          "source_ids": [
+            "SRC-UNIBO-ECON-COMMERCIO-2026",
+            "SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026",
+            "SRC-AUDIT-BOLOGNA-ECONCOM-REQUIREMENTS",
+            "SRC-AUDIT-BOLOGNA-ECONCOM-CALL-2026"
+          ],
+          "source_urls": [
+            "https://corsi.unibo.it/laurea/EconomiaCommercio",
+            "https://corsi.unibo.it/laurea/EconomiaCommercio/sedute-di-laurea",
+            "https://corsi.unibo.it/laurea/EconomiaCommercio/iscriversi-al-corso",
+            "https://corsi.unibo.it/s/3427/p/it/iscriversi-al-corso/bando-tolc-economia-25-26-con-stampigliatura.pdf/@@download/file/BANDO TOLC 26_27 Economia con stampigliatura.pdf"
+          ],
+          "evidence_summary": "Add previously missing, independently verified historical applicant/test/fee/quota scope without promoting it to2027/28.",
+          "outcome": "CORRECTION_CONFIRMED"
+        },
+        {
+          "field_path": "source_ids",
+          "existing_value": [
+            "SRC-UNIBO-ECON-COMMERCIO-2026",
+            "SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026"
+          ],
+          "official_value": [
+            "SRC-UNIBO-ECON-COMMERCIO-2026",
+            "SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026",
+            "SRC-AUDIT-BOLOGNA-ECONCOM-REQUIREMENTS",
+            "SRC-AUDIT-BOLOGNA-ECONCOM-CALL-2026"
+          ],
+          "academic_year": "2026/27",
+          "checked_at": "2026-11-12",
+          "source_ids": [
+            "SRC-UNIBO-ECON-COMMERCIO-2026",
+            "SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026",
+            "SRC-AUDIT-BOLOGNA-ECONCOM-REQUIREMENTS",
+            "SRC-AUDIT-BOLOGNA-ECONCOM-CALL-2026"
+          ],
+          "source_urls": [
+            "https://corsi.unibo.it/laurea/EconomiaCommercio",
+            "https://corsi.unibo.it/laurea/EconomiaCommercio/sedute-di-laurea",
+            "https://corsi.unibo.it/laurea/EconomiaCommercio/iscriversi-al-corso",
+            "https://corsi.unibo.it/s/3427/p/it/iscriversi-al-corso/bando-tolc-economia-25-26-con-stampigliatura.pdf/@@download/file/BANDO TOLC 26_27 Economia con stampigliatura.pdf"
+          ],
+          "evidence_summary": "Preserve original source IDs and add inspected programme-specific admissions/call evidence.",
+          "outcome": "CORRECTION_CONFIRMED"
+        }
+      ]
+    }
+  ],
+  "university_reviews": [],
+  "source_reviews": [
+    {
+      "source_id": "SRC-UNIBO-GESTIONALE-BSC-2026",
+      "url": "https://corsi.unibo.it/laurea/IngegneriaGestionale",
+      "content_reviewed": true,
+      "content_review_outcome": "SUPPORTS_RECORDED_SCOPE",
+      "observed_cycle": "2026/27 call; general current profile/navigation",
+      "checked_at": "2026-11-12",
+      "evidence_summary": "Profile confirms Bologna, Italian, L-9 BSc, locally restricted TOLC-I. A2027/28 Overseas mobility link is not a new first-year offer; linked admissions call is2026/27.",
+      "capture_sha256": "0f40baa66ea55e4c21a5a198615ddd50110dbf14751502fd2541e32ceb21b4ee",
+      "capture_evidence_key": "5bf622e3621abfd6ea27",
+      "linked_program_ids": [
+        "legacy-147"
+      ]
+    },
+    {
+      "source_id": "SRC-UNIBO-ECON-COMMERCIO-2026",
+      "url": "https://corsi.unibo.it/laurea/EconomiaCommercio",
+      "content_reviewed": true,
+      "content_review_outcome": "SUPPORTS_RECORDED_SCOPE",
+      "observed_cycle": "2026/27 call; general current profile/navigation",
+      "checked_at": "2026-11-12",
+      "evidence_summary": "Profile confirms Italian L-18 BSc at Forlì, TOLC-E and the two administration/finance and economics/management curricula. This is distinct from the English CLaBE/CLEF courses. Linked first-year call is2026/27.",
+      "capture_sha256": "56053b4f52c88ad12582ac12a4c4c2074644994778b2a6db4e58c04ec26a908a",
+      "capture_evidence_key": "d9a00c6857e999c6e132",
+      "linked_program_ids": [
+        "legacy-148"
+      ]
+    },
+    {
+      "source_id": "SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026",
+      "url": "https://corsi.unibo.it/laurea/EconomiaCommercio/sedute-di-laurea",
+      "content_reviewed": true,
+      "content_review_outcome": "SUPPORTS_RECORDED_SCOPE",
+      "observed_cycle": "General graduation page; not annual admission evidence",
+      "checked_at": "2026-11-12",
+      "evidence_summary": "Graduation-session page identifies the Forlì degree in its header but concerns final-degree ceremonies, not first-year admission rules or a new annual offer. Location matches; no admission inference is made.",
+      "capture_sha256": "cf0310565a34b3dda2c7b77bf73b1d53fcccd34024cfd37ec054fdf6b948f9a1",
+      "capture_evidence_key": "041f71a1fa1ed9abdb3e",
+      "linked_program_ids": [
+        "legacy-148"
+      ]
+    },
+    {
+      "source_id": "SRC-AUDIT-BOLOGNA-GESTIONALE-ADMISSION",
+      "url": "https://corsi.unibo.it/laurea/IngegneriaGestionale/iscriversi",
+      "content_reviewed": true,
+      "content_review_outcome": "SUPPORTS_RECORDED_SCOPE",
+      "observed_cycle": "2026/27 call; general current profile/navigation",
+      "checked_at": "2026-11-12",
+      "evidence_summary": "Admissions navigation page links programme-specific requirements, annual call, OFA and international/fee guidance. It is a navigation source, not an independent annual admission announcement.",
+      "capture_sha256": "1c3ea57fbf0478eac43083d9c5fe84bd974ea7993f9a4ed73584f89952d66877",
+      "capture_evidence_key": "1c7d7b6a8a64aec0e8d6",
+      "linked_program_ids": [
+        "legacy-147"
+      ]
+    },
+    {
+      "source_id": "SRC-AUDIT-BOLOGNA-ECONCOM-ADMISSION",
+      "url": "https://corsi.unibo.it/laurea/EconomiaCommercio/iscriversi",
+      "content_reviewed": true,
+      "content_review_outcome": "SUPPORTS_RECORDED_SCOPE",
+      "observed_cycle": "2026/27 call; general current profile/navigation",
+      "checked_at": "2026-11-12",
+      "evidence_summary": "Admissions navigation page links programme-specific requirements, annual call, OFA and international/fee guidance. It is a navigation source, not an independent annual admission announcement.",
+      "capture_sha256": "07ee90af2b97bd2be33aa13f9f979e5951188b454351b70d68cbf63c67b5f049",
+      "capture_evidence_key": "44ea2d4ea77b0a12c1e3",
+      "linked_program_ids": [
+        "legacy-148"
+      ]
+    },
+    {
+      "source_id": "SRC-AUDIT-BOLOGNA-GESTIONALE-REQUIREMENTS",
+      "url": "https://corsi.unibo.it/laurea/IngegneriaGestionale/iscriversi-al-corso",
+      "content_reviewed": true,
+      "content_review_outcome": "SUPPORTS_RECORDED_SCOPE",
+      "observed_cycle": "2026/27 call; general current profile/navigation",
+      "checked_at": "2026-11-12",
+      "evidence_summary": "Read course-specific admission page: linked annual call2026/27, Italian TOLC-I or TOLC-E as appropriate, Italian-language requirement/exemptions for non-EU-abroad route, separate EUR20 selection and EUR35 test fees, annual quota and qualification checks. Dates/fees remain historical.",
+      "capture_sha256": "84f7dc30740c636d4e3a0098ec1ed4067430d2cc62f144ffa240c07f6f9524b8",
+      "capture_evidence_key": "428be41f0beb290300b8",
+      "linked_program_ids": [
+        "legacy-147"
+      ]
+    },
+    {
+      "source_id": "SRC-AUDIT-BOLOGNA-ECONCOM-REQUIREMENTS",
+      "url": "https://corsi.unibo.it/laurea/EconomiaCommercio/iscriversi-al-corso",
+      "content_reviewed": true,
+      "content_review_outcome": "SUPPORTS_RECORDED_SCOPE",
+      "observed_cycle": "2026/27 call; general current profile/navigation",
+      "checked_at": "2026-11-12",
+      "evidence_summary": "Read course-specific admission page: linked annual call2026/27, Italian TOLC-I or TOLC-E as appropriate, Italian-language requirement/exemptions for non-EU-abroad route, separate EUR20 selection and EUR35 test fees, annual quota and qualification checks. Dates/fees remain historical.",
+      "capture_sha256": "78bd2bc15b7feea136046d7bdc86ab305e30994ecd926725a253f600d47bbfda",
+      "capture_evidence_key": "7b5425af434811383bb5",
+      "linked_program_ids": [
+        "legacy-148"
+      ]
+    },
+    {
+      "source_id": "SRC-AUDIT-BOLOGNA-GESTIONALE-CALL-2026",
+      "url": "https://corsi.unibo.it/s/3387/p/it/iscriversi-nuova-2/bandotolc_ingegneria-e-scienze-area-informatica-_a-a-2025-2026.pdf/@@download/file/BandoTOLC_Ingegneria e Scienze (area informatica)_A.A. 2026-2027.pdf",
+      "content_reviewed": true,
+      "content_review_outcome": "SUPPORTS_RECORDED_SCOPE",
+      "observed_cycle": "2026/27 call; general current profile/navigation",
+      "checked_at": "2026-11-12",
+      "evidence_summary": "Formal annual PDF expressly says2026/27. Read cover, course/seat table, applicant categories, secondary qualification, TOLC delivery and selection-contribution sections. Non-EU-abroad applicants use the second ordinary selection. EUR20 is paid once, not once per round; new online applications remain necessary. No2027/28 rules are established.",
+      "capture_sha256": "da89a5eb7fee7d8a8ef184e3c6bd35ef9aebdae187fa07b984fe3bb43685efcb",
+      "capture_evidence_key": "e51bee1dd3a4ce4f3e1c",
+      "linked_program_ids": [
+        "legacy-147"
+      ]
+    },
+    {
+      "source_id": "SRC-AUDIT-BOLOGNA-ECONCOM-CALL-2026",
+      "url": "https://corsi.unibo.it/s/3427/p/it/iscriversi-al-corso/bando-tolc-economia-25-26-con-stampigliatura.pdf/@@download/file/BANDO TOLC 26_27 Economia con stampigliatura.pdf",
+      "content_reviewed": true,
+      "content_review_outcome": "SUPPORTS_RECORDED_SCOPE",
+      "observed_cycle": "2026/27 call; general current profile/navigation",
+      "checked_at": "2026-11-12",
+      "evidence_summary": "Formal annual PDF expressly says2026/27. Read cover, course/seat table, applicant categories, secondary qualification, TOLC delivery and selection-contribution sections. Non-EU-abroad applicants use the second ordinary selection. EUR20 is paid once, not once per round; new online applications remain necessary. No2027/28 rules are established.",
+      "capture_sha256": "3f0eafb10d809b06877c34dcaf68d92efedded1f674a695cb52cb204262469c1",
+      "capture_evidence_key": "00df47ded8b6b5bbd889",
+      "linked_program_ids": [
+        "legacy-148"
+      ]
+    }
+  ],
+  "confirmed_corrections": [
+    {
+      "record_type": "program",
+      "record_id": "legacy-147",
+      "program_id": "legacy-147",
+      "field_path": "facts.previous_cycle_course_listing",
+      "existing_value": {
+        "value": {
+          "academic_year": "2026/2027",
+          "official_name": "Ingegneria gestionale",
+          "level": "BSc",
+          "language": "Italian"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-GESTIONALE-BSC-2026"
+        ],
+        "notes": "Official course profile/catalogue evidence is cycle-scoped to 2026/2027 and does not establish 2027/28 first-year admission."
+      },
+      "official_value": {
+        "value": {
+          "academic_year": "2026/2027",
+          "official_name": "Ingegneria gestionale",
+          "level": "BSc",
+          "language": "Italian"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-GESTIONALE-BSC-2026",
+          "SRC-AUDIT-BOLOGNA-GESTIONALE-REQUIREMENTS",
+          "SRC-AUDIT-BOLOGNA-GESTIONALE-CALL-2026"
+        ],
+        "notes": "The linked formal2026/27 call independently corroborates the named course, level, language and campus. Profile news dates alone are not annual admissions evidence."
+      },
+      "academic_year": "2026/27",
+      "checked_at": "2026-11-12",
+      "source_ids": [
+        "SRC-UNIBO-GESTIONALE-BSC-2026",
+        "SRC-AUDIT-BOLOGNA-GESTIONALE-REQUIREMENTS",
+        "SRC-AUDIT-BOLOGNA-GESTIONALE-CALL-2026"
+      ],
+      "source_urls": [
+        "https://corsi.unibo.it/laurea/IngegneriaGestionale",
+        "https://corsi.unibo.it/laurea/IngegneriaGestionale/iscriversi-al-corso",
+        "https://corsi.unibo.it/s/3387/p/it/iscriversi-nuova-2/bandotolc_ingegneria-e-scienze-area-informatica-_a-a-2025-2026.pdf/@@download/file/BandoTOLC_Ingegneria e Scienze (area informatica)_A.A. 2026-2027.pdf"
+      ],
+      "evidence_summary": "Add the independently read annual-call provenance for the historical course listing, preserving its2026/27 scope.",
+      "outcome": "CORRECTION_CONFIRMED",
+      "replacement_value": {
+        "value": {
+          "academic_year": "2026/2027",
+          "official_name": "Ingegneria gestionale",
+          "level": "BSc",
+          "language": "Italian"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-GESTIONALE-BSC-2026",
+          "SRC-AUDIT-BOLOGNA-GESTIONALE-REQUIREMENTS",
+          "SRC-AUDIT-BOLOGNA-GESTIONALE-CALL-2026"
+        ],
+        "notes": "The linked formal2026/27 call independently corroborates the named course, level, language and campus. Profile news dates alone are not annual admissions evidence."
+      },
+      "reason": "Add the independently read annual-call provenance for the historical course listing, preserving its2026/27 scope."
+    },
+    {
+      "record_type": "program",
+      "record_id": "legacy-147",
+      "program_id": "legacy-147",
+      "field_path": "facts.previous_cycle_2026_2027_admission_context",
+      "existing_value": null,
+      "official_value": {
+        "value": {
+          "academic_year": "2026/27",
+          "degree_class": "L-9",
+          "secondary_qualification": "Eligible Italian upper-secondary qualification or suitable foreign qualification after at least12 years of schooling; formal recognition checks apply",
+          "admission_test": "TOLC-I",
+          "english_test_section": "Does not count toward ranking; not an English-taught programme",
+          "italian_language": "Non-EU-abroad applicants must satisfy the University Italian-language requirement or an applicable exemption",
+          "test_delivery_scope": "TOLC@UNI2025/2026; TOLC@CASA accepted only for the dedicated non-EU-abroad contingent",
+          "non_eu_abroad_round": "Second ordinary selection only, within its reserved quota",
+          "application_contribution_eur": 20,
+          "contribution_rule": "Paid once for this call; a new online application is needed for each selection, without paying the contribution again",
+          "published_total_seats": 283,
+          "reserved_non_eu_abroad_seats": 6,
+          "current_year_warning": "These are historical2026/27 rules, not a2027/28 offer"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-GESTIONALE-BSC-2026",
+          "SRC-AUDIT-BOLOGNA-GESTIONALE-REQUIREMENTS",
+          "SRC-AUDIT-BOLOGNA-GESTIONALE-CALL-2026"
+        ],
+        "notes": "Independently checked formal2026/27 call Sections2–4 and course admissions page. No numerical school-GPA floor is stated in the inspected eligibility sections; ranking is based on the required TOLC and annual selection rules. Do not transfer the separate English Bologna degree routes or their SAT/CEnT-S rules to this programme."
+      },
+      "academic_year": "2026/27",
+      "checked_at": "2026-11-12",
+      "source_ids": [
+        "SRC-UNIBO-GESTIONALE-BSC-2026",
+        "SRC-AUDIT-BOLOGNA-GESTIONALE-REQUIREMENTS",
+        "SRC-AUDIT-BOLOGNA-GESTIONALE-CALL-2026"
+      ],
+      "source_urls": [
+        "https://corsi.unibo.it/laurea/IngegneriaGestionale",
+        "https://corsi.unibo.it/laurea/IngegneriaGestionale/iscriversi-al-corso",
+        "https://corsi.unibo.it/s/3387/p/it/iscriversi-nuova-2/bandotolc_ingegneria-e-scienze-area-informatica-_a-a-2025-2026.pdf/@@download/file/BandoTOLC_Ingegneria e Scienze (area informatica)_A.A. 2026-2027.pdf"
+      ],
+      "evidence_summary": "Add previously missing, independently verified historical applicant/test/fee/quota scope without promoting it to2027/28.",
+      "outcome": "CORRECTION_CONFIRMED",
+      "replacement_value": {
+        "value": {
+          "academic_year": "2026/27",
+          "degree_class": "L-9",
+          "secondary_qualification": "Eligible Italian upper-secondary qualification or suitable foreign qualification after at least12 years of schooling; formal recognition checks apply",
+          "admission_test": "TOLC-I",
+          "english_test_section": "Does not count toward ranking; not an English-taught programme",
+          "italian_language": "Non-EU-abroad applicants must satisfy the University Italian-language requirement or an applicable exemption",
+          "test_delivery_scope": "TOLC@UNI2025/2026; TOLC@CASA accepted only for the dedicated non-EU-abroad contingent",
+          "non_eu_abroad_round": "Second ordinary selection only, within its reserved quota",
+          "application_contribution_eur": 20,
+          "contribution_rule": "Paid once for this call; a new online application is needed for each selection, without paying the contribution again",
+          "published_total_seats": 283,
+          "reserved_non_eu_abroad_seats": 6,
+          "current_year_warning": "These are historical2026/27 rules, not a2027/28 offer"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-GESTIONALE-BSC-2026",
+          "SRC-AUDIT-BOLOGNA-GESTIONALE-REQUIREMENTS",
+          "SRC-AUDIT-BOLOGNA-GESTIONALE-CALL-2026"
+        ],
+        "notes": "Independently checked formal2026/27 call Sections2–4 and course admissions page. No numerical school-GPA floor is stated in the inspected eligibility sections; ranking is based on the required TOLC and annual selection rules. Do not transfer the separate English Bologna degree routes or their SAT/CEnT-S rules to this programme."
+      },
+      "reason": "Add previously missing, independently verified historical applicant/test/fee/quota scope without promoting it to2027/28."
+    },
+    {
+      "record_type": "program",
+      "record_id": "legacy-147",
+      "program_id": "legacy-147",
+      "field_path": "source_ids",
+      "existing_value": [
+        "SRC-UNIBO-GESTIONALE-BSC-2026"
+      ],
+      "official_value": [
+        "SRC-UNIBO-GESTIONALE-BSC-2026",
+        "SRC-AUDIT-BOLOGNA-GESTIONALE-REQUIREMENTS",
+        "SRC-AUDIT-BOLOGNA-GESTIONALE-CALL-2026"
+      ],
+      "academic_year": "2026/27",
+      "checked_at": "2026-11-12",
+      "source_ids": [
+        "SRC-UNIBO-GESTIONALE-BSC-2026",
+        "SRC-AUDIT-BOLOGNA-GESTIONALE-REQUIREMENTS",
+        "SRC-AUDIT-BOLOGNA-GESTIONALE-CALL-2026"
+      ],
+      "source_urls": [
+        "https://corsi.unibo.it/laurea/IngegneriaGestionale",
+        "https://corsi.unibo.it/laurea/IngegneriaGestionale/iscriversi-al-corso",
+        "https://corsi.unibo.it/s/3387/p/it/iscriversi-nuova-2/bandotolc_ingegneria-e-scienze-area-informatica-_a-a-2025-2026.pdf/@@download/file/BandoTOLC_Ingegneria e Scienze (area informatica)_A.A. 2026-2027.pdf"
+      ],
+      "evidence_summary": "Preserve original source IDs and add inspected programme-specific admissions/call evidence.",
+      "outcome": "CORRECTION_CONFIRMED",
+      "replacement_value": [
+        "SRC-UNIBO-GESTIONALE-BSC-2026",
+        "SRC-AUDIT-BOLOGNA-GESTIONALE-REQUIREMENTS",
+        "SRC-AUDIT-BOLOGNA-GESTIONALE-CALL-2026"
+      ],
+      "reason": "Preserve original source IDs and add inspected programme-specific admissions/call evidence."
+    },
+    {
+      "record_type": "program",
+      "record_id": "legacy-148",
+      "program_id": "legacy-148",
+      "field_path": "facts.previous_cycle_course_listing",
+      "existing_value": {
+        "value": {
+          "academic_year": "2026/2027",
+          "official_name": "Economia e commercio",
+          "level": "BSc",
+          "language": "Italian"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-ECON-COMMERCIO-2026",
+          "SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026"
+        ],
+        "notes": "Official course profile/catalogue evidence is cycle-scoped to 2026/2027 and does not establish 2027/28 first-year admission."
+      },
+      "official_value": {
+        "value": {
+          "academic_year": "2026/2027",
+          "official_name": "Economia e commercio",
+          "level": "BSc",
+          "language": "Italian"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-ECON-COMMERCIO-2026",
+          "SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026",
+          "SRC-AUDIT-BOLOGNA-ECONCOM-REQUIREMENTS",
+          "SRC-AUDIT-BOLOGNA-ECONCOM-CALL-2026"
+        ],
+        "notes": "The linked formal2026/27 call independently corroborates the named course, level, language and campus. Profile news dates alone are not annual admissions evidence."
+      },
+      "academic_year": "2026/27",
+      "checked_at": "2026-11-12",
+      "source_ids": [
+        "SRC-UNIBO-ECON-COMMERCIO-2026",
+        "SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026",
+        "SRC-AUDIT-BOLOGNA-ECONCOM-REQUIREMENTS",
+        "SRC-AUDIT-BOLOGNA-ECONCOM-CALL-2026"
+      ],
+      "source_urls": [
+        "https://corsi.unibo.it/laurea/EconomiaCommercio",
+        "https://corsi.unibo.it/laurea/EconomiaCommercio/sedute-di-laurea",
+        "https://corsi.unibo.it/laurea/EconomiaCommercio/iscriversi-al-corso",
+        "https://corsi.unibo.it/s/3427/p/it/iscriversi-al-corso/bando-tolc-economia-25-26-con-stampigliatura.pdf/@@download/file/BANDO TOLC 26_27 Economia con stampigliatura.pdf"
+      ],
+      "evidence_summary": "Add the independently read annual-call provenance for the historical course listing, preserving its2026/27 scope.",
+      "outcome": "CORRECTION_CONFIRMED",
+      "replacement_value": {
+        "value": {
+          "academic_year": "2026/2027",
+          "official_name": "Economia e commercio",
+          "level": "BSc",
+          "language": "Italian"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-ECON-COMMERCIO-2026",
+          "SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026",
+          "SRC-AUDIT-BOLOGNA-ECONCOM-REQUIREMENTS",
+          "SRC-AUDIT-BOLOGNA-ECONCOM-CALL-2026"
+        ],
+        "notes": "The linked formal2026/27 call independently corroborates the named course, level, language and campus. Profile news dates alone are not annual admissions evidence."
+      },
+      "reason": "Add the independently read annual-call provenance for the historical course listing, preserving its2026/27 scope."
+    },
+    {
+      "record_type": "program",
+      "record_id": "legacy-148",
+      "program_id": "legacy-148",
+      "field_path": "facts.previous_cycle_2026_2027_admission_context",
+      "existing_value": null,
+      "official_value": {
+        "value": {
+          "academic_year": "2026/27",
+          "degree_class": "L-18",
+          "secondary_qualification": "Eligible Italian upper-secondary qualification or suitable foreign qualification after at least12 years of schooling; formal recognition checks apply",
+          "admission_test": "Italian TOLC-E; English TOLC-E is not accepted for this Italian course",
+          "english_test_section": "Does not count toward ranking; not an English-taught programme",
+          "italian_language": "Non-EU-abroad applicants must satisfy the University Italian-language requirement or an applicable exemption",
+          "test_delivery_scope": "TOLC@UNI2025/2026; TOLC@CASA accepted only for the dedicated non-EU-abroad contingent",
+          "non_eu_abroad_round": "Second ordinary selection only, within its reserved quota",
+          "application_contribution_eur": 20,
+          "contribution_rule": "Paid once for this call; a new online application is needed for each selection, without paying the contribution again",
+          "published_total_seats": 330,
+          "reserved_non_eu_abroad_seats": 20,
+          "current_year_warning": "These are historical2026/27 rules, not a2027/28 offer"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-ECON-COMMERCIO-2026",
+          "SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026",
+          "SRC-AUDIT-BOLOGNA-ECONCOM-REQUIREMENTS",
+          "SRC-AUDIT-BOLOGNA-ECONCOM-CALL-2026"
+        ],
+        "notes": "Independently checked formal2026/27 call Sections2–4 and course admissions page. No numerical school-GPA floor is stated in the inspected eligibility sections; ranking is based on the required TOLC and annual selection rules. Do not transfer the separate English Bologna degree routes or their SAT/CEnT-S rules to this programme."
+      },
+      "academic_year": "2026/27",
+      "checked_at": "2026-11-12",
+      "source_ids": [
+        "SRC-UNIBO-ECON-COMMERCIO-2026",
+        "SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026",
+        "SRC-AUDIT-BOLOGNA-ECONCOM-REQUIREMENTS",
+        "SRC-AUDIT-BOLOGNA-ECONCOM-CALL-2026"
+      ],
+      "source_urls": [
+        "https://corsi.unibo.it/laurea/EconomiaCommercio",
+        "https://corsi.unibo.it/laurea/EconomiaCommercio/sedute-di-laurea",
+        "https://corsi.unibo.it/laurea/EconomiaCommercio/iscriversi-al-corso",
+        "https://corsi.unibo.it/s/3427/p/it/iscriversi-al-corso/bando-tolc-economia-25-26-con-stampigliatura.pdf/@@download/file/BANDO TOLC 26_27 Economia con stampigliatura.pdf"
+      ],
+      "evidence_summary": "Add previously missing, independently verified historical applicant/test/fee/quota scope without promoting it to2027/28.",
+      "outcome": "CORRECTION_CONFIRMED",
+      "replacement_value": {
+        "value": {
+          "academic_year": "2026/27",
+          "degree_class": "L-18",
+          "secondary_qualification": "Eligible Italian upper-secondary qualification or suitable foreign qualification after at least12 years of schooling; formal recognition checks apply",
+          "admission_test": "Italian TOLC-E; English TOLC-E is not accepted for this Italian course",
+          "english_test_section": "Does not count toward ranking; not an English-taught programme",
+          "italian_language": "Non-EU-abroad applicants must satisfy the University Italian-language requirement or an applicable exemption",
+          "test_delivery_scope": "TOLC@UNI2025/2026; TOLC@CASA accepted only for the dedicated non-EU-abroad contingent",
+          "non_eu_abroad_round": "Second ordinary selection only, within its reserved quota",
+          "application_contribution_eur": 20,
+          "contribution_rule": "Paid once for this call; a new online application is needed for each selection, without paying the contribution again",
+          "published_total_seats": 330,
+          "reserved_non_eu_abroad_seats": 20,
+          "current_year_warning": "These are historical2026/27 rules, not a2027/28 offer"
+        },
+        "status": "CONFIRMED",
+        "source_ids": [
+          "SRC-UNIBO-ECON-COMMERCIO-2026",
+          "SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026",
+          "SRC-AUDIT-BOLOGNA-ECONCOM-REQUIREMENTS",
+          "SRC-AUDIT-BOLOGNA-ECONCOM-CALL-2026"
+        ],
+        "notes": "Independently checked formal2026/27 call Sections2–4 and course admissions page. No numerical school-GPA floor is stated in the inspected eligibility sections; ranking is based on the required TOLC and annual selection rules. Do not transfer the separate English Bologna degree routes or their SAT/CEnT-S rules to this programme."
+      },
+      "reason": "Add previously missing, independently verified historical applicant/test/fee/quota scope without promoting it to2027/28."
+    },
+    {
+      "record_type": "program",
+      "record_id": "legacy-148",
+      "program_id": "legacy-148",
+      "field_path": "source_ids",
+      "existing_value": [
+        "SRC-UNIBO-ECON-COMMERCIO-2026",
+        "SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026"
+      ],
+      "official_value": [
+        "SRC-UNIBO-ECON-COMMERCIO-2026",
+        "SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026",
+        "SRC-AUDIT-BOLOGNA-ECONCOM-REQUIREMENTS",
+        "SRC-AUDIT-BOLOGNA-ECONCOM-CALL-2026"
+      ],
+      "academic_year": "2026/27",
+      "checked_at": "2026-11-12",
+      "source_ids": [
+        "SRC-UNIBO-ECON-COMMERCIO-2026",
+        "SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026",
+        "SRC-AUDIT-BOLOGNA-ECONCOM-REQUIREMENTS",
+        "SRC-AUDIT-BOLOGNA-ECONCOM-CALL-2026"
+      ],
+      "source_urls": [
+        "https://corsi.unibo.it/laurea/EconomiaCommercio",
+        "https://corsi.unibo.it/laurea/EconomiaCommercio/sedute-di-laurea",
+        "https://corsi.unibo.it/laurea/EconomiaCommercio/iscriversi-al-corso",
+        "https://corsi.unibo.it/s/3427/p/it/iscriversi-al-corso/bando-tolc-economia-25-26-con-stampigliatura.pdf/@@download/file/BANDO TOLC 26_27 Economia con stampigliatura.pdf"
+      ],
+      "evidence_summary": "Preserve original source IDs and add inspected programme-specific admissions/call evidence.",
+      "outcome": "CORRECTION_CONFIRMED",
+      "replacement_value": [
+        "SRC-UNIBO-ECON-COMMERCIO-2026",
+        "SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026",
+        "SRC-AUDIT-BOLOGNA-ECONCOM-REQUIREMENTS",
+        "SRC-AUDIT-BOLOGNA-ECONCOM-CALL-2026"
+      ],
+      "reason": "Preserve original source IDs and add inspected programme-specific admissions/call evidence."
+    }
+  ],
+  "additional_official_sources": [
+    {
+      "id": "SRC-AUDIT-BOLOGNA-GESTIONALE-ADMISSION",
+      "university_id": "bologna",
+      "title": "GESTIONALE ADMISSION",
+      "url": "https://corsi.unibo.it/laurea/IngegneriaGestionale/iscriversi",
+      "source_type": "Official course admissions page or linked annual call",
+      "accessed_at": "2026-11-12",
+      "cycle": "2026-2027",
+      "evidence": "Admissions navigation page links programme-specific requirements, annual call, OFA and international/fee guidance. It is a navigation source, not an independent annual admission announcement.",
+      "supports": [
+        "independent_audit.programme_comparison"
+      ],
+      "url_check": {
+        "http_status": 200,
+        "effective_url": "https://corsi.unibo.it/laurea/IngegneriaGestionale/iscriversi",
+        "content_type": "text/html;charset=utf-8",
+        "bytes_read": 292704,
+        "outcome": "accessible",
+        "checked_at": "2026-11-12",
+        "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers"
+      }
+    },
+    {
+      "id": "SRC-AUDIT-BOLOGNA-ECONCOM-ADMISSION",
+      "university_id": "bologna",
+      "title": "ECONCOM ADMISSION",
+      "url": "https://corsi.unibo.it/laurea/EconomiaCommercio/iscriversi",
+      "source_type": "Official course admissions page or linked annual call",
+      "accessed_at": "2026-11-12",
+      "cycle": "2026-2027",
+      "evidence": "Admissions navigation page links programme-specific requirements, annual call, OFA and international/fee guidance. It is a navigation source, not an independent annual admission announcement.",
+      "supports": [
+        "independent_audit.programme_comparison"
+      ],
+      "url_check": {
+        "http_status": 200,
+        "effective_url": "https://corsi.unibo.it/laurea/EconomiaCommercio/iscriversi",
+        "content_type": "text/html;charset=utf-8",
+        "bytes_read": 292568,
+        "outcome": "accessible",
+        "checked_at": "2026-11-12",
+        "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers"
+      }
+    },
+    {
+      "id": "SRC-AUDIT-BOLOGNA-GESTIONALE-REQUIREMENTS",
+      "university_id": "bologna",
+      "title": "GESTIONALE REQUIREMENTS",
+      "url": "https://corsi.unibo.it/laurea/IngegneriaGestionale/iscriversi-al-corso",
+      "source_type": "Official course admissions page or linked annual call",
+      "accessed_at": "2026-11-12",
+      "cycle": "2026-2027",
+      "evidence": "Read course-specific admission page: linked annual call2026/27, Italian TOLC-I or TOLC-E as appropriate, Italian-language requirement/exemptions for non-EU-abroad route, separate EUR20 selection and EUR35 test fees, annual quota and qualification checks. Dates/fees remain historical.",
+      "supports": [
+        "independent_audit.programme_comparison"
+      ],
+      "url_check": {
+        "http_status": 200,
+        "effective_url": "https://corsi.unibo.it/laurea/IngegneriaGestionale/iscriversi-al-corso",
+        "content_type": "text/html;charset=utf-8",
+        "bytes_read": 382648,
+        "outcome": "accessible",
+        "checked_at": "2026-11-12",
+        "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers"
+      }
+    },
+    {
+      "id": "SRC-AUDIT-BOLOGNA-ECONCOM-REQUIREMENTS",
+      "university_id": "bologna",
+      "title": "ECONCOM REQUIREMENTS",
+      "url": "https://corsi.unibo.it/laurea/EconomiaCommercio/iscriversi-al-corso",
+      "source_type": "Official course admissions page or linked annual call",
+      "accessed_at": "2026-11-12",
+      "cycle": "2026-2027",
+      "evidence": "Read course-specific admission page: linked annual call2026/27, Italian TOLC-I or TOLC-E as appropriate, Italian-language requirement/exemptions for non-EU-abroad route, separate EUR20 selection and EUR35 test fees, annual quota and qualification checks. Dates/fees remain historical.",
+      "supports": [
+        "independent_audit.programme_comparison"
+      ],
+      "url_check": {
+        "http_status": 200,
+        "effective_url": "https://corsi.unibo.it/laurea/EconomiaCommercio/iscriversi-al-corso",
+        "content_type": "text/html;charset=utf-8",
+        "bytes_read": 372677,
+        "outcome": "accessible",
+        "checked_at": "2026-11-12",
+        "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers"
+      }
+    },
+    {
+      "id": "SRC-AUDIT-BOLOGNA-GESTIONALE-CALL-2026",
+      "university_id": "bologna",
+      "title": "GESTIONALE CALL 2026",
+      "url": "https://corsi.unibo.it/s/3387/p/it/iscriversi-nuova-2/bandotolc_ingegneria-e-scienze-area-informatica-_a-a-2025-2026.pdf/@@download/file/BandoTOLC_Ingegneria e Scienze (area informatica)_A.A. 2026-2027.pdf",
+      "source_type": "Official course admissions page or linked annual call",
+      "accessed_at": "2026-11-12",
+      "cycle": "2026-2027",
+      "evidence": "Formal annual PDF expressly says2026/27. Read cover, course/seat table, applicant categories, secondary qualification, TOLC delivery and selection-contribution sections. Non-EU-abroad applicants use the second ordinary selection. EUR20 is paid once, not once per round; new online applications remain necessary. No2027/28 rules are established.",
+      "supports": [
+        "independent_audit.programme_comparison"
+      ],
+      "url_check": {
+        "http_status": 200,
+        "effective_url": "https://corsi.unibo.it/s/3387/p/it/iscriversi-nuova-2/bandotolc_ingegneria-e-scienze-area-informatica-_a-a-2025-2026.pdf/@@download/file/BandoTOLC_Ingegneria%20e%20Scienze%20(area%20informatica)_A.A.%202026-2027.pdf",
+        "content_type": "application/pdf",
+        "bytes_read": 1554096,
+        "outcome": "accessible",
+        "checked_at": "2026-11-12",
+        "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers"
+      }
+    },
+    {
+      "id": "SRC-AUDIT-BOLOGNA-ECONCOM-CALL-2026",
+      "university_id": "bologna",
+      "title": "ECONCOM CALL 2026",
+      "url": "https://corsi.unibo.it/s/3427/p/it/iscriversi-al-corso/bando-tolc-economia-25-26-con-stampigliatura.pdf/@@download/file/BANDO TOLC 26_27 Economia con stampigliatura.pdf",
+      "source_type": "Official course admissions page or linked annual call",
+      "accessed_at": "2026-11-12",
+      "cycle": "2026-2027",
+      "evidence": "Formal annual PDF expressly says2026/27. Read cover, course/seat table, applicant categories, secondary qualification, TOLC delivery and selection-contribution sections. Non-EU-abroad applicants use the second ordinary selection. EUR20 is paid once, not once per round; new online applications remain necessary. No2027/28 rules are established.",
+      "supports": [
+        "independent_audit.programme_comparison"
+      ],
+      "url_check": {
+        "http_status": 200,
+        "effective_url": "https://corsi.unibo.it/s/3427/p/it/iscriversi-al-corso/bando-tolc-economia-25-26-con-stampigliatura.pdf/@@download/file/BANDO%20TOLC%2026_27%20Economia%20con%20stampigliatura.pdf",
+        "content_type": "application/pdf",
+        "bytes_read": 1420222,
+        "outcome": "accessible",
+        "checked_at": "2026-11-12",
+        "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers"
+      }
+    }
+  ]
+}
