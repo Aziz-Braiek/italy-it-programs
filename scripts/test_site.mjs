@@ -38,24 +38,28 @@ const consoleErrors = [];
 const pageErrors = [];
 
 try {
-  const noJsContext = await browser.newContext({ javaScriptEnabled: false, viewport: { width: 1365, height: 900 } });
+  const noJsContext = await browser.newContext({ javaScriptEnabled: false, colorScheme: "light", viewport: { width: 1365, height: 900 } });
   const noJs = await noJsContext.newPage();
   await noJs.goto(baseUrl, { waitUntil: "networkidle" });
   assert.equal(await noJs.locator("[data-program-card]").count(), totalPrograms, "all program entries are in the initial HTML with JavaScript disabled");
   assert.equal(await noJs.locator("[data-university-card]").count(), totalUniversities, "all universities are in the initial HTML with JavaScript disabled");
   assert.equal(await noJs.locator(".program-card:not([hidden])").count(), totalPrograms, "static fallback exposes every entry");
   assert.equal(await noJs.locator("[data-program-card][data-status='CONFIRMED']").count(), confirmedPrograms);
+  assert.equal(await noJs.locator("html").getAttribute("data-theme"), "dark");
+  assert.equal(await noJs.locator("body").evaluate((body) => getComputedStyle(body).backgroundColor), "rgb(17, 26, 38)", "dark mode renders without JavaScript or an OS dark preference");
   await noJs.close();
   await noJsContext.close();
 
-  const firstVisitContext = await browser.newContext({ viewport: { width: 390, height: 844 } });
+  const firstVisitContext = await browser.newContext({ colorScheme: "light", viewport: { width: 390, height: 844 } });
+  await firstVisitContext.addInitScript(() => { localStorage.setItem("itu-tracker-theme-v2", "light"); });
   const firstVisit = await firstVisitContext.newPage();
   await firstVisit.goto(baseUrl, { waitUntil: "networkidle" });
   for (const width of [390, 320]) {
     await firstVisit.setViewportSize({ width, height: 844 });
     assert.equal(await firstVisit.evaluate(() => document.documentElement.scrollWidth), width, "first-visit English navigation fits before any language toggle");
     assert.equal(await firstVisit.locator("#language-toggle").isVisible(), true);
-    assert.equal(await firstVisit.locator("#theme-toggle").isVisible(), true);
+    assert.equal(await firstVisit.locator("#theme-toggle").count(), 0);
+    assert.equal(await firstVisit.locator("html").getAttribute("data-theme"), "dark", "a saved old light preference cannot enable light mode");
   }
   await firstVisitContext.close();
 
@@ -150,15 +154,12 @@ try {
   await page.locator("#language-toggle").click();
   assert.equal(await page.locator("html").getAttribute("lang"), "en");
 
-  await page.locator("#theme-toggle").click();
   assert.equal(await page.locator("html").getAttribute("data-theme"), "dark");
-  assert.equal(await page.locator("#theme-toggle").getAttribute("aria-pressed"), "true");
+  assert.equal(await page.locator("#theme-toggle").count(), 0);
   assert.equal(await page.locator("body").evaluate((body) => getComputedStyle(body).backgroundColor), "rgb(17, 26, 38)");
   assert.equal(await page.locator(".hero .button-primary").evaluate((button) => getComputedStyle(button).color), "rgb(16, 35, 63)", "primary button text keeps dark-on-light contrast in dark theme");
   await page.reload({ waitUntil: "networkidle" });
-  assert.equal(await page.locator("html").getAttribute("data-theme"), "dark", "dark theme preference persists across reloads");
-  await page.locator("#theme-toggle").click();
-  assert.equal(await page.locator("html").getAttribute("data-theme"), "light");
+  assert.equal(await page.locator("html").getAttribute("data-theme"), "dark", "the sole dark theme persists across reloads");
 
   await page.locator("#university-search").fill("Rome");
   const universityCount = await page.locator("#university-count").textContent();
@@ -188,7 +189,6 @@ try {
     return Boolean(name);
   }));
   assert.equal(accessibleControls, true, "interactive controls have an accessible name");
-  await page.locator("#theme-toggle").click();
   assert.equal(await page.locator("html").getAttribute("data-theme"), "dark");
   const darkDimensions = await page.evaluate(() => ({ viewport: document.documentElement.clientWidth, body: document.body.scrollWidth, document: document.documentElement.scrollWidth }));
   assert.equal(darkDimensions.body, darkDimensions.viewport, "dark mobile body has no horizontal overflow");

@@ -160,17 +160,23 @@ class StaticSiteTests(unittest.TestCase):
         for behavior in ("history.replaceState", "localStorage", "text/calendar", "text/csv", "showModal", "Next confirmed application date"):
             self.assertIn(behavior, js)
 
-    def test_accessible_dark_theme_toggle_is_generated(self) -> None:
+    def test_dark_only_pages_do_not_depend_on_theme_preferences(self) -> None:
         homepage = read("index.html")
-        self.assertIn('id="theme-toggle"', homepage)
-        self.assertIn('aria-label="Switch to dark theme"', homepage)
-        self.assertIn('itu-tracker-theme-v2', homepage)
+        self.assertIn('<html lang="en" data-theme="dark">', homepage)
+        self.assertIn('<meta name="color-scheme" content="dark">', homepage)
+        self.assertNotIn('id="theme-toggle"', homepage)
+        self.assertNotIn('itu-tracker-theme-v2', homepage)
+        for path in DIST.rglob("index.html"):
+            document = path.read_text(encoding="utf-8")
+            self.assertIn('data-theme="dark"', document, str(path))
+            self.assertNotIn('id="theme-toggle"', document, str(path))
         css = (DIST / "assets" / "site.css").read_text(encoding="utf-8")
-        self.assertIn('html[data-theme="dark"]', css)
+        self.assertIn('color-scheme: dark', css)
+        self.assertNotIn('color-scheme: light', css)
         self.assertIn('--canvas: #111a26', css)
         javascript = (DIST / "assets" / "site.js").read_text(encoding="utf-8")
-        self.assertIn('aria-pressed', javascript)
-        self.assertIn('themeToLight', javascript)
+        self.assertNotIn('themeToLight', javascript)
+        self.assertNotIn('itu-tracker-theme-v2', javascript)
 
     def test_seo_canonical_sitemap_and_robots(self) -> None:
         homepage = read("index.html")

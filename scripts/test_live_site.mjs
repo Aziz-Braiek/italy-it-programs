@@ -4,7 +4,6 @@ import { resolve, join } from "node:path";
 import { pathToFileURL } from "node:url";
 
 const baseUrl = (process.env.SITE_URL || "https://italy-it-programs-git-upgrade-809c06-azizbraaiek-7011s-projects.vercel.app/").replace(/\/$/, "");
-const expectTheme = process.env.EXPECT_THEME !== "false";
 const screenshotDir = resolve(process.env.SCREENSHOT_DIR || "work/qa/v2-release-preview");
 mkdirSync(screenshotDir, { recursive: true });
 const moduleUrl = new URL("../work/qa/playwright-tools/node_modules/playwright-core/index.mjs", import.meta.url);
@@ -22,7 +21,7 @@ const badSameOriginResponses = [];
 const origin = new URL(baseUrl).origin;
 
 try {
-  const noJsContext = await browser.newContext({ javaScriptEnabled: false, viewport: { width: 1440, height: 1000 } });
+  const noJsContext = await browser.newContext({ javaScriptEnabled: false, colorScheme: "light", viewport: { width: 1440, height: 1000 } });
   const noJs = await noJsContext.newPage();
   const noJsResponse = await noJs.goto(baseUrl, { waitUntil: "networkidle" });
   assert.equal(noJsResponse?.status(), 200, "preview homepage responds with HTTP 200 without JavaScript");
@@ -31,9 +30,13 @@ try {
   assert.equal(await noJs.locator("[data-university-card]").count(), totalUniversities, "no-JS HTML contains every university");
   assert.equal(await noJs.locator(".program-card:not([hidden])").count(), totalPrograms, "no-JS mode keeps every program visible");
   assert.ok((await noJs.locator("h1").textContent())?.includes("Italy"), "no-JS mode keeps the page heading");
+  assert.equal(await noJs.locator("html").getAttribute("data-theme"), "dark");
+  assert.equal(await noJs.locator("body").evaluate((body) => getComputedStyle(body).backgroundColor), "rgb(17, 26, 38)");
+  assert.equal(await noJs.locator("#theme-toggle").count(), 0);
   await noJsContext.close();
 
-  const context = await browser.newContext({ viewport: { width: 1440, height: 1000 }, acceptDownloads: true });
+  const context = await browser.newContext({ colorScheme: "light", viewport: { width: 1440, height: 1000 }, acceptDownloads: true });
+  await context.addInitScript(() => { localStorage.setItem("itu-tracker-theme-v2", "light"); });
   const page = await context.newPage();
   page.on("console", (message) => { if (message.type() === "error") consoleErrors.push(message.text()); });
   page.on("pageerror", (error) => pageErrors.push(error.message));
@@ -139,11 +142,10 @@ try {
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto(baseUrl, { waitUntil: "networkidle" });
   const mobileDimensions = await page.evaluate(() => ({ viewport: document.documentElement.clientWidth, body: document.body.scrollWidth, document: document.documentElement.scrollWidth }));
-  assert.deepEqual(mobileDimensions, { viewport: 390, body: 390, document: 390 }, "mobile light theme has no horizontal overflow at 390px");
+  assert.deepEqual(mobileDimensions, { viewport: 390, body: 390, document: 390 }, "dark-only mobile layout has no horizontal overflow at 390px");
   assert.equal(await page.locator("#filter-panel").evaluate((details) => details.open), false, "mobile filters start collapsed");
-  await page.screenshot({ path: join(screenshotDir, "home-mobile-light.png") });
-  if (expectTheme) {
-    await page.locator("#theme-toggle").click();
+  {
+    assert.equal(await page.locator("#theme-toggle").count(), 0);
     assert.equal(await page.locator("html").getAttribute("data-theme"), "dark");
     const darkDimensions = await page.evaluate(() => ({ viewport: document.documentElement.clientWidth, body: document.body.scrollWidth, document: document.documentElement.scrollWidth }));
     assert.deepEqual(darkDimensions, { viewport: 390, body: 390, document: 390 }, "mobile dark theme has no horizontal overflow at 390px");
