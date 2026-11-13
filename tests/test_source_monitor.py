@@ -230,5 +230,14 @@ class MonitorTests(unittest.TestCase):
         self.assertEqual(ta,tb);self.assertNotEqual(la,lb)
         self.assertEqual(M.classify_metadata({**M.content_metadata(ta),'link_fingerprint':la},{**M.content_metadata(tb),'link_fingerprint':lb})[0],'substantive')
 
+    def test_repeated_snapshot_version_remains_latest_for_local_diff(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            store=M.Store(tmp);files,_=store.keep('fixture','first version',{})
+            files,_=store.keep('fixture','second version',{'snapshots':files})
+            files,_=store.keep('fixture','first version',{'snapshots':files})
+            latest=max(Path(tmp).glob('*.gz'),key=lambda p:p.stat().st_mtime_ns)
+            self.assertIn(M.digest('first version')[:20],latest.name)
+            self.assertEqual(len(list(Path(tmp).glob('*.gz'))),2)
+
 
 if __name__=='__main__':unittest.main()

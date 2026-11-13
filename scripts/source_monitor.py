@@ -389,6 +389,7 @@ class Store:
                 compressed=gzip.compress(text.encode(),compresslevel=9,mtime=0)
                 if self.bytes+len(compressed)>128*1024*1024:raise ValueError('128 MiB compressed snapshot budget exhausted')
                 p.write_bytes(compressed);self.bytes+=len(compressed)
+            else:p.touch()  # A repeated earlier version is the latest local observation.
             files=[x for x in previous.get('snapshots',[]) if x!=name]+[name]
             for old in files[:-2]:
                 old_path=self.path/old
