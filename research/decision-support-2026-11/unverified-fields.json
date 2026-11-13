@@ -5845,7 +5845,8 @@
     },
     "missing_components": [
       "programme-specific 2027/28 subject/sector-credit minima"
-    ]
+    ],
+    "covered_scope": "Standard foreign-qualification MSc route only. Italian-qualification admissions and the joint Bocconi route are not covered by this policy."
   },
   {
     "record_type": "program",
@@ -5872,7 +5873,8 @@
     },
     "missing_components": [
       "Exact subject-credit minimum for a foreign qualification"
-    ]
+    ],
+    "covered_scope": "Joint Bocconi/Polimi Cyber Risk Strategy and Governance only. Italian-qualification and international-qualification pathways have different tests; the standard Polimi MSc route is separate."
   },
   {
     "record_type": "program",
@@ -5926,7 +5928,8 @@
     },
     "missing_components": [
       "programme-specific 2027/28 subject/sector-credit minima"
-    ]
+    ],
+    "covered_scope": "Standard foreign-qualification MSc route only. Italian-qualification admissions and the joint Bocconi route are not covered by this policy."
   },
   {
     "record_type": "program",
@@ -6217,7 +6220,8 @@
     },
     "missing_components": [
       "Exact sector-credit minima"
-    ]
+    ],
+    "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
   },
   {
     "record_type": "program",
@@ -6244,7 +6248,8 @@
     },
     "missing_components": [
       "Exact sector-credit minima"
-    ]
+    ],
+    "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
   },
   {
     "record_type": "program",
@@ -6271,7 +6276,8 @@
     },
     "missing_components": [
       "Exact sector-credit minima"
-    ]
+    ],
+    "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
   },
   {
     "record_type": "program",
@@ -6298,7 +6304,8 @@
     },
     "missing_components": [
       "Exact sector-credit minima"
-    ]
+    ],
+    "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
   },
   {
     "record_type": "program",
@@ -6325,7 +6332,8 @@
     },
     "missing_components": [
       "Formal 2027/28 admission calls and non-EU quota are still marked TBD"
-    ]
+    ],
+    "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
   },
   {
     "record_type": "program",
@@ -6390,7 +6398,8 @@
     },
     "missing_components": [
       "Exact sector-credit minima"
-    ]
+    ],
+    "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
   },
   {
     "record_type": "program",
@@ -8794,7 +8803,8 @@
     },
     "missing_components": [
       "The precise subject/sector-credit thresholds for this programme"
-    ]
+    ],
+    "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
   },
   {
     "record_type": "program",
@@ -8821,7 +8831,8 @@
     },
     "missing_components": [
       "The precise subject/sector-credit thresholds for this programme"
-    ]
+    ],
+    "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
   },
   {
     "record_type": "program",
@@ -8848,7 +8859,8 @@
     },
     "missing_components": [
       "The precise subject/sector-credit thresholds for this programme"
-    ]
+    ],
+    "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
   },
   {
     "record_type": "program",
@@ -8875,7 +8887,8 @@
     },
     "missing_components": [
       "The precise subject/sector-credit thresholds for this programme"
-    ]
+    ],
+    "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
   },
   {
     "record_type": "program",
@@ -8902,7 +8915,8 @@
     },
     "missing_components": [
       "The precise subject/sector-credit thresholds for this programme"
-    ]
+    ],
+    "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
   },
   {
     "record_type": "program",
@@ -8929,7 +8943,8 @@
     },
     "missing_components": [
       "The precise subject/sector-credit thresholds for this programme"
-    ]
+    ],
+    "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
   },
   {
     "record_type": "program",
@@ -8973,7 +8988,8 @@
     },
     "missing_components": [
       "Exact disciplinary-credit minimum"
-    ]
+    ],
+    "covered_scope": "Mechatronics Engineering 2027/28 only; programme-specific conditions must not be extended to other Tor Vergata courses."
   },
   {
     "record_type": "program",
@@ -9000,7 +9016,8 @@
     },
     "missing_components": [
       "detailed subject-credit requirements"
-    ]
+    ],
+    "covered_scope": "The named Buddhism and Asian Religions programme and the stated foreign-qualification or scholarship conditions only."
   },
   {
     "record_type": "program",
@@ -9027,7 +9044,8 @@
     },
     "missing_components": [
       "exact 2027/28 sector-credit thresholds"
-    ]
+    ],
+    "covered_scope": "Only the named GrEnFIn, CLE, BBS or 28DIGITAL route stated above; these admission and fee routes are distinct."
   },
   {
     "record_type": "program",
@@ -9060,7 +9078,8 @@
     },
     "missing_components": [
       "Numerical sector-credit minimum"
-    ]
+    ],
+    "covered_scope": "The named 28DIGITAL track/partner conditions only; ordinary UniTrento fee and admission routes are separate."
   },
   {
     "record_type": "program",
@@ -9378,7 +9397,8 @@
     },
     "missing_components": [
       "those thresholds for 2027/28"
-    ]
+    ],
+    "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
   },
   {
     "record_type": "program",
@@ -9408,7 +9428,8 @@
     },
     "missing_components": [
       "applicability of the local 18+6 threshold to the chosen route/minor"
-    ]
+    ],
+    "covered_scope": "The named EAP/EPOG online route or local TAPP route as stated; the two credit thresholds are not interchangeable."
   },
   {
     "record_type": "program",
@@ -10137,7 +10158,8 @@
       "CLI assessment dates"
     ],
     "answer": "yes",
-    "short_value": "B2 certificate for visa validation; MOI not accepted"
+    "short_value": "B2 certificate for visa validation; MOI not accepted",
+    "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
   },
   {
     "record_type": "program",
@@ -10166,7 +10188,8 @@
     "answer": "conditional",
     "missing_components": [
       "Exact external test-score table"
-    ]
+    ],
+    "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
   },
   {
     "record_type": "program",
@@ -10195,7 +10218,8 @@
     "answer": "yes",
     "missing_components": [
       "Exact accepted-test score list and exemptions"
-    ]
+    ],
+    "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
   },
   {
     "record_type": "program",
@@ -10228,7 +10252,8 @@
       "CLI assessment dates"
     ],
     "answer": "yes",
-    "short_value": "B2 certificate for visa validation; MOI not accepted"
+    "short_value": "B2 certificate for visa validation; MOI not accepted",
+    "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
   },
   {
     "record_type": "program",
@@ -11592,7 +11617,8 @@
     "answer": "conditional",
     "missing_components": [
       "interpretation of the overlapping Cambridge numerical bands for a borderline score"
-    ]
+    ],
+    "covered_scope": "Software: Science and Technology admission, or the stated non-EU/foreign-qualification university procedure; each published country/test condition still applies."
   },
   {
     "record_type": "program",
@@ -12370,7 +12396,8 @@
       "CLI assessment dates"
     ],
     "answer": "yes",
-    "short_value": "B2 certificate for visa validation; MOI not accepted"
+    "short_value": "B2 certificate for visa validation; MOI not accepted",
+    "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
   },
   {
     "record_type": "program",
@@ -12506,7 +12533,8 @@
     "answer": "conditional",
     "missing_components": [
       "Exact test-score equivalence and exemptions beyond the published routes"
-    ]
+    ],
+    "covered_scope": "Mechatronics Engineering 2027/28 only; programme-specific conditions must not be extended to other Tor Vergata courses."
   },
   {
     "record_type": "program",
@@ -12535,7 +12563,8 @@
     "answer": "yes",
     "missing_components": [
       "The exact accepted-test scores and certificate exemptions"
-    ]
+    ],
+    "covered_scope": "The named Buddhism and Asian Religions programme and the stated foreign-qualification or scholarship conditions only."
   },
   {
     "record_type": "program",
@@ -12586,7 +12615,8 @@
     "answer": "conditional",
     "missing_components": [
       "New TOEFL-scale equivalence"
-    ]
+    ],
+    "covered_scope": "HySET 2027–29 consortium route only, not ordinary Polito MSc admission or a guaranteed scholarship."
   },
   {
     "record_type": "program",
@@ -12908,7 +12938,8 @@
       "new TOEFL-scale equivalent"
     ],
     "answer": "conditional",
-    "short_value": "C1; IELTS 7.0 / TOEFL 95; GRE alternative"
+    "short_value": "C1; IELTS 7.0 / TOEFL 95; GRE alternative",
+    "covered_scope": "The named EAP/EPOG online route or local TAPP route as stated; the two credit thresholds are not interchangeable."
   },
   {
     "record_type": "program",
@@ -12937,7 +12968,8 @@
     "answer": "yes",
     "missing_components": [
       "Exact accepted-test score list and exemptions"
-    ]
+    ],
+    "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
   },
   {
     "record_type": "program",
@@ -13081,7 +13113,8 @@
     "answer": "conditional",
     "missing_components": [
       "Exact test date and GMAT/GRE remote rules"
-    ]
+    ],
+    "covered_scope": "Joint Bocconi/Polimi Cyber Risk Strategy and Governance only. Italian-qualification and international-qualification pathways have different tests; the standard Polimi MSc route is separate."
   },
   {
     "record_type": "program",
@@ -13639,7 +13672,8 @@
     "missing_components": [
       "Remote modality",
       "Formal 2027/28 admission call remains TBD"
-    ]
+    ],
+    "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
   },
   {
     "record_type": "program",
@@ -14029,7 +14063,8 @@
     "answer": "not confirmed",
     "missing_components": [
       "A separate standardised entrance exam"
-    ]
+    ],
+    "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
   },
   {
     "record_type": "program",
@@ -14058,7 +14093,8 @@
     "answer": "conditional",
     "missing_components": [
       "A named standard test and test date"
-    ]
+    ],
+    "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
   },
   {
     "record_type": "program",
@@ -15443,7 +15479,8 @@
       "remote/in-person modality"
     ],
     "answer": "conditional",
-    "short_value": "Possible preparation/English interview; exam requirement not confirmed"
+    "short_value": "Possible preparation/English interview; exam requirement not confirmed",
+    "covered_scope": "Software: Science and Technology admission, or the stated non-EU/foreign-qualification university procedure; each published country/test condition still applies."
   },
   {
     "record_type": "program",
@@ -16407,7 +16444,8 @@
     "answer": "conditional",
     "missing_components": [
       "Date and remote modality"
-    ]
+    ],
+    "covered_scope": "Mechatronics Engineering 2027/28 only; programme-specific conditions must not be extended to other Tor Vergata courses."
   },
   {
     "record_type": "program",
@@ -16612,7 +16650,8 @@
       "individual interview dates"
     ],
     "answer": "conditional",
-    "short_value": "Online interview possible; standardised exam not confirmed"
+    "short_value": "Online interview possible; standardised exam not confirmed",
+    "covered_scope": "HySET 2027–29 consortium route only, not ordinary Polito MSc admission or a guaranteed scholarship."
   },
   {
     "record_type": "program",
@@ -16959,7 +16998,8 @@
       "separate standardised-test requirement"
     ],
     "answer": "conditional",
-    "short_value": "Local TAPP: 15-minute Skype interview; route clarification needed"
+    "short_value": "Local TAPP: 15-minute Skype interview; route clarification needed",
+    "covered_scope": "The named EAP/EPOG online route or local TAPP route as stated; the two credit thresholds are not interchangeable."
   },
   {
     "record_type": "program",
@@ -16988,7 +17028,8 @@
     "answer": "conditional",
     "missing_components": [
       "A named standard test and test date"
-    ]
+    ],
+    "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
   },
   {
     "record_type": "program",
@@ -17110,7 +17151,8 @@
       "programme scoring weights",
       "interview policy",
       "programme-specific admission-exam requirement"
-    ]
+    ],
+    "covered_scope": "Standard foreign-qualification MSc route only. Italian-qualification admissions and the joint Bocconi route are not covered by this policy."
   },
   {
     "record_type": "program",
@@ -17137,7 +17179,8 @@
     },
     "missing_components": [
       "universal numeric selection/GPA cutoff, if any"
-    ]
+    ],
+    "covered_scope": "Joint Bocconi/Polimi Cyber Risk Strategy and Governance only. Italian-qualification and international-qualification pathways have different tests; the standard Polimi MSc route is separate."
   },
   {
     "record_type": "program",
@@ -17190,7 +17233,8 @@
       "programme scoring weights",
       "interview policy",
       "programme-specific admission-exam requirement"
-    ]
+    ],
+    "covered_scope": "Standard foreign-qualification MSc route only. Italian-qualification admissions and the joint Bocconi route are not covered by this policy."
   },
   {
     "record_type": "program",
@@ -17762,7 +17806,8 @@
     },
     "missing_components": [
       "Formal programme call and quota are still TBD"
-    ]
+    ],
+    "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
   },
   {
     "record_type": "program",
@@ -18110,7 +18155,8 @@
     },
     "missing_components": [
       "universal numeric selection/GPA cutoff, if any"
-    ]
+    ],
+    "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
   },
   {
     "record_type": "program",
@@ -18137,7 +18183,8 @@
     },
     "missing_components": [
       "universal numeric selection/GPA cutoff, if any"
-    ]
+    ],
+    "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
   },
   {
     "record_type": "program",
@@ -19500,7 +19547,8 @@
     "missing_components": [
       "interview remote/in-person modality",
       "individual interview/test date"
-    ]
+    ],
+    "covered_scope": "Software: Science and Technology admission, or the stated non-EU/foreign-qualification university procedure; each published country/test condition still applies."
   },
   {
     "record_type": "program",
@@ -20272,7 +20320,8 @@
     },
     "missing_components": [
       "universal numeric selection/GPA cutoff, if any"
-    ]
+    ],
+    "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
   },
   {
     "record_type": "program",
@@ -21027,7 +21076,8 @@
     },
     "missing_components": [
       "programme-specific additional grade restrictions, if any"
-    ]
+    ],
+    "covered_scope": "Standard foreign-qualification MSc route only. Italian-qualification admissions and the joint Bocconi route are not covered by this policy."
   },
   {
     "record_type": "program",
@@ -21102,7 +21152,8 @@
     },
     "missing_components": [
       "programme-specific additional grade restrictions, if any"
-    ]
+    ],
+    "covered_scope": "Standard foreign-qualification MSc route only. Italian-qualification admissions and the joint Bocconi route are not covered by this policy."
   },
   {
     "record_type": "program",
@@ -21592,7 +21643,8 @@
     },
     "missing_components": [
       "additional programme-specific GPA threshold, if any"
-    ]
+    ],
+    "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
   },
   {
     "record_type": "program",
@@ -21619,7 +21671,8 @@
     },
     "missing_components": [
       "additional programme-specific GPA threshold, if any"
-    ]
+    ],
+    "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
   },
   {
     "record_type": "program",
@@ -21646,7 +21699,8 @@
     },
     "missing_components": [
       "additional programme-specific GPA threshold, if any"
-    ]
+    ],
+    "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
   },
   {
     "record_type": "program",
@@ -21673,7 +21727,8 @@
     },
     "missing_components": [
       "additional programme-specific GPA threshold, if any"
-    ]
+    ],
+    "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
   },
   {
     "record_type": "program",
@@ -21700,7 +21755,8 @@
     },
     "missing_components": [
       "programme-specific grade threshold, if any"
-    ]
+    ],
+    "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
   },
   {
     "record_type": "program",
@@ -21727,7 +21783,8 @@
     },
     "missing_components": [
       "additional programme-specific GPA threshold, if any"
-    ]
+    ],
+    "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
   },
   {
     "record_type": "program",
@@ -21792,7 +21849,8 @@
     },
     "missing_components": [
       "additional programme-specific GPA threshold, if any"
-    ]
+    ],
+    "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
   },
   {
     "record_type": "program",
@@ -24134,7 +24192,8 @@
     },
     "missing_components": [
       "additional programme-specific GPA threshold, if any"
-    ]
+    ],
+    "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
   },
   {
     "record_type": "program",
@@ -24261,7 +24320,8 @@
     },
     "missing_components": [
       "programme-specific grade threshold, if any"
-    ]
+    ],
+    "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
   },
   {
     "record_type": "program",
@@ -24288,7 +24348,8 @@
     },
     "missing_components": [
       "additional programme-specific GPA threshold, if any"
-    ]
+    ],
+    "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
   },
   {
     "record_type": "program",
@@ -24315,7 +24376,8 @@
     },
     "missing_components": [
       "additional programme-specific GPA threshold, if any"
-    ]
+    ],
+    "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
   },
   {
     "record_type": "program",
@@ -24342,7 +24404,8 @@
     },
     "missing_components": [
       "additional programme-specific GPA threshold, if any"
-    ]
+    ],
+    "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
   },
   {
     "record_type": "program",
@@ -24369,7 +24432,8 @@
     },
     "missing_components": [
       "additional programme-specific GPA threshold, if any"
-    ]
+    ],
+    "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
   },
   {
     "record_type": "program",
@@ -24396,7 +24460,8 @@
     },
     "missing_components": [
       "additional programme-specific GPA threshold, if any"
-    ]
+    ],
+    "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
   },
   {
     "record_type": "program",
@@ -24423,7 +24488,8 @@
     },
     "missing_components": [
       "additional programme-specific GPA threshold, if any"
-    ]
+    ],
+    "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
   },
   {
     "record_type": "program",
@@ -24969,7 +25035,8 @@
     },
     "missing_components": [
       "additional programme-specific GPA threshold, if any"
-    ]
+    ],
+    "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
   },
   {
     "record_type": "program",
@@ -32536,7 +32603,8 @@
     "short_value": "EUR 157.04 + income-assessed contribution; maximum Not confirmed",
     "missing_components": [
       "Exact 2027/28 course maximum"
-    ]
+    ],
+    "covered_scope": "Only the named GrEnFIn, CLE, BBS or 28DIGITAL route stated above; these admission and fee routes are distinct."
   },
   {
     "record_type": "program",
@@ -32797,7 +32865,8 @@
     },
     "missing_components": [
       "university/programme-specific Universitaly deadline"
-    ]
+    ],
+    "covered_scope": "Only the university-published visa/insurance guidance and national visa-applicant rule; programme admission criteria are not established."
   },
   {
     "record_type": "university",
@@ -32845,7 +32914,8 @@
     },
     "missing_components": [
       "university/programme-specific Universitaly deadline"
-    ]
+    ],
+    "covered_scope": "Standard foreign-qualification MSc route only. Italian-qualification admissions and the joint Bocconi route are not covered by this policy."
   },
   {
     "record_type": "university",
@@ -32872,7 +32942,8 @@
     },
     "missing_components": [
       "university/programme-specific Universitaly deadline"
-    ]
+    ],
+    "covered_scope": "HySET 2027–29 consortium route only, not ordinary Polito MSc admission or a guaranteed scholarship."
   },
   {
     "record_type": "university",
@@ -32965,7 +33036,8 @@
     ],
     "missing_components": [
       "A university-wide deadline for other programmes"
-    ]
+    ],
+    "covered_scope": "Mechatronics Engineering 2027/28 only; programme-specific conditions must not be extended to other Tor Vergata courses."
   },
   {
     "record_type": "university",
@@ -32992,7 +33064,8 @@
     },
     "missing_components": [
       "university/programme-specific Universitaly deadline"
-    ]
+    ],
+    "covered_scope": "The named Buddhism and Asian Religions programme and the stated foreign-qualification or scholarship conditions only."
   },
   {
     "record_type": "university",
@@ -33165,7 +33238,8 @@
     },
     "missing_components": [
       "university/programme-specific Universitaly deadline"
-    ]
+    ],
+    "covered_scope": "Only the named GrEnFIn, CLE, BBS or 28DIGITAL route stated above; these admission and fee routes are distinct."
   },
   {
     "record_type": "university",
@@ -33235,7 +33309,8 @@
     },
     "missing_components": [
       "university/programme-specific Universitaly deadline"
-    ]
+    ],
+    "covered_scope": "Software: Science and Technology admission, or the stated non-EU/foreign-qualification university procedure; each published country/test condition still applies."
   },
   {
     "record_type": "university",
@@ -33338,7 +33413,8 @@
     },
     "missing_components": [
       "university/programme-specific Universitaly deadline"
-    ]
+    ],
+    "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
   },
   {
     "record_type": "university",
@@ -33450,7 +33526,8 @@
     },
     "missing_components": [
       "university/programme-specific Universitaly deadline"
-    ]
+    ],
+    "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
   },
   {
     "record_type": "university",
@@ -33518,7 +33595,8 @@
     },
     "missing_components": [
       "university/programme-specific Universitaly deadline"
-    ]
+    ],
+    "covered_scope": "The named EAP/EPOG online route or local TAPP route as stated; the two credit thresholds are not interchangeable."
   },
   {
     "record_type": "university",
@@ -33545,7 +33623,8 @@
     },
     "missing_components": [
       "university/programme-specific Universitaly deadline"
-    ]
+    ],
+    "covered_scope": "The named 28DIGITAL track/partner conditions only; ordinary UniTrento fee and admission routes are separate."
   },
   {
     "record_type": "university",
@@ -33694,7 +33773,8 @@
     ],
     "missing_components": [
       "The exact 2027/28 enrolment apostille/legalisation rules"
-    ]
+    ],
+    "covered_scope": "Standard foreign-qualification MSc route only. Italian-qualification admissions and the joint Bocconi route are not covered by this policy."
   },
   {
     "record_type": "university",
@@ -33724,7 +33804,8 @@
     ],
     "missing_components": [
       "Exact DoV/CIMEA alternatives, apostille/legalisation and translation substitutions for 2027 entry"
-    ]
+    ],
+    "covered_scope": "HySET 2027–29 consortium route only, not ordinary Polito MSc admission or a guaranteed scholarship."
   },
   {
     "record_type": "university",
@@ -33817,7 +33898,8 @@
     ],
     "missing_components": [
       "General DoV/CIMEA alternatives and apostille/translation substitutions"
-    ]
+    ],
+    "covered_scope": "Mechatronics Engineering 2027/28 only; programme-specific conditions must not be extended to other Tor Vergata courses."
   },
   {
     "record_type": "university",
@@ -34035,7 +34117,8 @@
     "missing_components": [
       "Italian DoV/CIMEA and apostille substitutions",
       "University-wide DoV/CIMEA substitution rules"
-    ]
+    ],
+    "covered_scope": "Only the named GrEnFIn, CLE, BBS or 28DIGITAL route stated above; these admission and fee routes are distinct."
   },
   {
     "record_type": "university",
@@ -34112,7 +34195,8 @@
     "missing_components": [
       "country-specific legalisation/apostille exemptions",
       "final 2027/28 university checklist changes"
-    ]
+    ],
+    "covered_scope": "Software: Science and Technology admission, or the stated non-EU/foreign-qualification university procedure; each published country/test condition still applies."
   },
   {
     "record_type": "university",
@@ -34250,7 +34334,8 @@
     ],
     "missing_components": [
       "The precise DoV/CIMEA alternatives and apostille exemptions for each country"
-    ]
+    ],
+    "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
   },
   {
     "record_type": "university",
@@ -34364,7 +34449,8 @@
     ],
     "missing_components": [
       "The 2027/28 DoV/CIMEA substitution rules and apostille/legalisation conditions"
-    ]
+    ],
+    "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
   },
   {
     "record_type": "university",
@@ -34437,7 +34523,8 @@
     ],
     "program_ids": [
       "discovered-038"
-    ]
+    ],
+    "covered_scope": "The named EAP/EPOG online route or local TAPP route as stated; the two credit thresholds are not interchangeable."
   },
   {
     "record_type": "university",
@@ -34476,7 +34563,8 @@
     ],
     "missing_components": [
       "Italian DoV/CIMEA and apostille substitutions"
-    ]
+    ],
+    "covered_scope": "The named 28DIGITAL track/partner conditions only; ordinary UniTrento fee and admission routes are separate."
   },
   {
     "record_type": "university",
@@ -34815,7 +34903,8 @@
     },
     "missing_components": [
       "exact 2027/28 thresholds and deadline"
-    ]
+    ],
+    "covered_scope": "Only the named GrEnFIn, CLE, BBS or 28DIGITAL route stated above; these admission and fee routes are distinct."
   },
   {
     "record_type": "university",
@@ -35054,7 +35143,8 @@
     ],
     "missing_components": [
       "2027/28 award amounts, detailed eligibility and deadline"
-    ]
+    ],
+    "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
   },
   {
     "record_type": "university",
@@ -35191,7 +35281,8 @@
       "programme-specific 2027/28 visa/arrival deadline",
       "future university office-procedure changes",
       "university-specific permit application timetable"
-    ]
+    ],
+    "covered_scope": "Only the university-published visa/insurance guidance and national visa-applicant rule; programme admission criteria are not established."
   },
   {
     "record_type": "university",
@@ -35243,7 +35334,8 @@
     "missing_components": [
       "programme-specific 2027/28 visa/arrival deadline",
       "future university office-procedure changes"
-    ]
+    ],
+    "covered_scope": "Standard foreign-qualification MSc route only. Italian-qualification admissions and the joint Bocconi route are not covered by this policy."
   },
   {
     "record_type": "university",
@@ -35373,7 +35465,8 @@
     ],
     "missing_components": [
       "Permit timing"
-    ]
+    ],
+    "covered_scope": "Mechatronics Engineering 2027/28 only; programme-specific conditions must not be extended to other Tor Vergata courses."
   },
   {
     "record_type": "university",
@@ -35695,7 +35788,8 @@
     "missing_components": [
       "programme-specific 2027/28 visa/arrival deadline",
       "future university office-procedure changes"
-    ]
+    ],
+    "covered_scope": "Software: Science and Technology admission, or the stated non-EU/foreign-qualification university procedure; each published country/test condition still applies."
   },
   {
     "record_type": "university",
@@ -35951,7 +36045,8 @@
     ],
     "missing_components": [
       "Permit details and a universal visa deadline"
-    ]
+    ],
+    "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
   },
   {
     "record_type": "university",
@@ -36026,7 +36121,8 @@
     "missing_components": [
       "programme-specific 2027/28 visa/arrival deadline",
       "future university office-procedure changes"
-    ]
+    ],
+    "covered_scope": "The named EAP/EPOG online route or local TAPP route as stated; the two credit thresholds are not interchangeable."
   },
   {
     "record_type": "university",
@@ -36060,7 +36156,8 @@
     "missing_components": [
       "programme-specific 2027/28 visa/arrival deadline",
       "future university office-procedure changes"
-    ]
+    ],
+    "covered_scope": "The named 28DIGITAL track/partner conditions only; ordinary UniTrento fee and admission routes are separate."
   },
   {
     "record_type": "university",
@@ -36215,7 +36312,8 @@
     "offer_id": "merit-2027",
     "missing_components": [
       "compatibility with partner/28DIGITAL awards where generic guidance differs from the formal call"
-    ]
+    ],
+    "covered_scope": "Standard foreign-qualification MSc route only. Italian-qualification admissions and the joint Bocconi route are not covered by this policy."
   },
   {
     "record_type": "university",
@@ -36491,7 +36589,8 @@
     "missing_components": [
       "track/partner-specific waiver eligibility where the published wording differs",
       "compatibility with another award where a partner call restricts combination"
-    ]
+    ],
+    "covered_scope": "Only the named GrEnFIn, CLE, BBS or 28DIGITAL route stated above; these admission and fee routes are distinct."
   },
   {
     "record_type": "university",
@@ -36742,7 +36841,8 @@
     ],
     "missing_components": [
       "Amount, application route and award deadline"
-    ]
+    ],
+    "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
   },
   {
     "record_type": "university",
@@ -36828,7 +36928,8 @@
     "missing_components": [
       "track/partner-specific waiver eligibility where the published wording differs",
       "compatibility with another award where a partner call restricts combination"
-    ]
+    ],
+    "covered_scope": "The named 28DIGITAL track/partner conditions only; ordinary UniTrento fee and admission routes are separate."
   },
   {
     "record_type": "university",

@@ -74,7 +74,8 @@
         },
         "missing_components": [
           "Exact sector-credit minima"
-        ]
+        ],
+        "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
       },
       "english_requirement": {
         "university_policy": "english_b2"
@@ -173,7 +174,8 @@
         },
         "missing_components": [
           "Exact sector-credit minima"
-        ]
+        ],
+        "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
       },
       "english_requirement": {
         "university_policy": "english_b2"
@@ -272,7 +274,8 @@
         },
         "missing_components": [
           "Exact sector-credit minima"
-        ]
+        ],
+        "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
       },
       "english_requirement": {
         "university_policy": "english_b2"
@@ -371,7 +374,8 @@
         },
         "missing_components": [
           "Exact sector-credit minima"
-        ]
+        ],
+        "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
       },
       "english_requirement": {
         "university_policy": "english_b2"
@@ -470,7 +474,8 @@
         },
         "missing_components": [
           "Formal 2027/28 admission calls and non-EU quota are still marked TBD"
-        ]
+        ],
+        "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
       },
       "english_requirement": {
         "university_policy": "english_b2"
@@ -515,7 +520,8 @@
         "missing_components": [
           "Remote modality",
           "Formal 2027/28 admission call remains TBD"
-        ]
+        ],
+        "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
       },
       "selection_method": {
         "value": "Limited access; places are assigned through a ranking list. Formal programme call and quota are still TBD.",
@@ -538,7 +544,8 @@
         },
         "missing_components": [
           "Formal programme call and quota are still TBD"
-        ]
+        ],
+        "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
       },
       "minimum_grade": {
         "university_policy": "country_grade_bachelors_2027"
@@ -734,7 +741,8 @@
         },
         "missing_components": [
           "Exact sector-credit minima"
-        ]
+        ],
+        "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
       },
       "english_requirement": {
         "university_policy": "english_b2"
@@ -949,7 +957,8 @@
         },
         "missing_components": [
           "those thresholds for 2027/28"
-        ]
+        ],
+        "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
       },
       "english_requirement": {
         "university_policy": "english_b2"
@@ -1018,7 +1027,8 @@
         "answer": "yes",
         "missing_components": [
           "Exact accepted-test score list and exemptions"
-        ]
+        ],
+        "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
       },
       "admission_test": {
         "value": "The committee may require online tests or interviews; shortlisted candidates have a final online interview. A named standard test and test date are Not confirmed.",
@@ -1043,7 +1053,8 @@
         "answer": "conditional",
         "missing_components": [
           "A named standard test and test date"
-        ]
+        ],
+        "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
       },
       "selection_method": {
         "value": "Committee assessment of academic performance in country context, subject alignment and CV; possible online tests/interviews followed by a final online interview for shortlisted candidates.",
@@ -1113,7 +1124,8 @@
         "answer": "yes",
         "missing_components": [
           "Exact accepted-test score list and exemptions"
-        ]
+        ],
+        "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
       },
       "admission_test": {
         "value": "The committee may require online tests or interviews; shortlisted candidates have a final online interview. A named standard test and test date are Not confirmed.",
@@ -1138,7 +1150,8 @@
         "answer": "conditional",
         "missing_components": [
           "A named standard test and test date"
-        ]
+        ],
+        "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
       },
       "selection_method": {
         "value": "Committee assessment of academic performance in country context, subject alignment and CV; possible online tests/interviews followed by a final online interview for shortlisted candidates.",
@@ -1228,7 +1241,8 @@
         "answer": "conditional",
         "missing_components": [
           "Exact external test-score table"
-        ]
+        ],
+        "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
       },
       "selection_method": {
         "value": "Documents scored out of 60, with at least 42 required; shortlisted applicants attend a videoconference interview scored out of 40, with at least 28 required. Missing the interview excludes the applicant.",
@@ -1273,7 +1287,8 @@
         "answer": "not confirmed",
         "missing_components": [
           "A separate standardised entrance exam"
-        ]
+        ],
+        "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
       },
       "tuition": {
         "university_policy": "tuition_2026"
@@ -1301,7 +1316,8 @@
         },
         "missing_components": [
           "universal numeric selection/GPA cutoff, if any"
-        ]
+        ],
+        "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
       },
       "prerequisites": {
         "value": "2025/26 regulation: Computer Science (class 26/L-31) or Physics (class 25/L-30), or another Italian/foreign degree with at least 72 ECTS in INF/01, ING-INF/05, MAT or FIS, including 36 Computing and 18 Mathematics/Physics. Computer Engineering appears in the separate preparation-assessment provision, not as an unconditional exemption from every curricular requirement. 2027/28 application of this rule is Not confirmed.",
@@ -1347,7 +1363,8 @@
         },
         "missing_components": [
           "universal numeric selection/GPA cutoff, if any"
-        ]
+        ],
+        "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
       },
       "tuition": {
         "university_policy": "tuition_2026"
@@ -1378,7 +1395,8 @@
         },
         "missing_components": [
           "universal numeric selection/GPA cutoff, if any"
-        ]
+        ],
+        "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
       },
       "tuition": {
         "university_policy": "tuition_2026"
@@ -1683,7 +1701,8 @@
         },
         "missing_components": [
           "Numerical sector-credit minimum"
-        ]
+        ],
+        "covered_scope": "The named 28DIGITAL track/partner conditions only; ordinary UniTrento fee and admission routes are separate."
       }
     },
     "discovered-017": {
@@ -2018,7 +2037,8 @@
         },
         "missing_components": [
           "Exact subject-credit minimum for a foreign qualification"
-        ]
+        ],
+        "covered_scope": "Joint Bocconi/Polimi Cyber Risk Strategy and Governance only. Italian-qualification and international-qualification pathways have different tests; the standard Polimi MSc route is separate."
       },
       "admission_test": {
         "value": "International-qualification applicants require GMAT, GRE or the Bocconi online test. Bocconi/Polimi Bachelor graduates are exempt under the dedicated Italian-qualification route; other Italian-university graduates require a test. Exact test date and GMAT/GRE remote rules: Not confirmed.",
@@ -2046,7 +2066,8 @@
         "answer": "conditional",
         "missing_components": [
           "Exact test date and GMAT/GRE remote rules"
-        ]
+        ],
+        "covered_scope": "Joint Bocconi/Polimi Cyber Risk Strategy and Governance only. Italian-qualification and international-qualification pathways have different tests; the standard Polimi MSc route is separate."
       },
       "selection_method": {
         "value": "Joint Bocconi/Polimi admissions board assesses GPA, application dossier/motivation and the route-appropriate admission test. A universal minimum GPA is not stated.",
@@ -2069,7 +2090,8 @@
         },
         "missing_components": [
           "universal numeric selection/GPA cutoff, if any"
-        ]
+        ],
+        "covered_scope": "Joint Bocconi/Polimi Cyber Risk Strategy and Governance only. Italian-qualification and international-qualification pathways have different tests; the standard Polimi MSc route is separate."
       }
     },
     "discovered-029": {
@@ -2233,7 +2255,8 @@
         "short_value": "EUR 157.04 + income-assessed contribution; maximum Not confirmed",
         "missing_components": [
           "Exact 2027/28 course maximum"
-        ]
+        ],
+        "covered_scope": "Only the named GrEnFIn, CLE, BBS or 28DIGITAL route stated above; these admission and fee routes are distinct."
       }
     },
     "discovered-010": {
@@ -2298,7 +2321,8 @@
         },
         "missing_components": [
           "Exact disciplinary-credit minimum"
-        ]
+        ],
+        "covered_scope": "Mechatronics Engineering 2027/28 only; programme-specific conditions must not be extended to other Tor Vergata courses."
       },
       "english_requirement": {
         "value": "Non-native applicants need a B2 certificate issued from August 2021; native speakers provide the nationality/citizenship/residence declaration. Alternative: university B2 proficiency certificate AND GRE General score. Exact test-score equivalence and exemptions beyond the published routes: Not confirmed.",
@@ -2323,7 +2347,8 @@
         "answer": "conditional",
         "missing_components": [
           "Exact test-score equivalence and exemptions beyond the published routes"
-        ]
+        ],
+        "covered_scope": "Mechatronics Engineering 2027/28 only; programme-specific conditions must not be extended to other Tor Vergata courses."
       },
       "admission_test": {
         "value": "GRE General is required only for the university B2 proficiency-certificate alternative, not universally stated for all applicants. Date and remote modality: Not confirmed.",
@@ -2348,7 +2373,8 @@
         "answer": "conditional",
         "missing_components": [
           "Date and remote modality"
-        ]
+        ],
+        "covered_scope": "Mechatronics Engineering 2027/28 only; programme-specific conditions must not be extended to other Tor Vergata courses."
       },
       "non_eu_seats": {
         "value": "60 places for non-EU residents abroad seeking a visa, plus 4 Marco Polo places for Chinese applicants.",
@@ -2415,7 +2441,8 @@
         "answer": "conditional",
         "missing_components": [
           "interpretation of the overlapping Cambridge numerical bands for a borderline score"
-        ]
+        ],
+        "covered_scope": "Software: Science and Technology admission, or the stated non-EU/foreign-qualification university procedure; each published country/test condition still applies."
       },
       "selection_method": {
         "value": "Teaching committee assesses the curriculum and preparation; it may interview applicants, including to assess English. The published page does not specify remote modality or a single test date.",
@@ -2439,7 +2466,8 @@
         "missing_components": [
           "interview remote/in-person modality",
           "individual interview/test date"
-        ]
+        ],
+        "covered_scope": "Software: Science and Technology admission, or the stated non-EU/foreign-qualification university procedure; each published country/test condition still applies."
       },
       "minimum_grade": {
         "value": "Apply the country-specific table linked by the 2027/28 Software: Science and Technology enrolment page. Where no specific country threshold is listed, the minimum is 75% of the bachelor’s maximum score. Examples: India 75/100 (four-year bachelor, with the stated Honours exception); Pakistan 3.3/4 (continuous four-year bachelor; 2+2 not accepted); Algeria and Tunisia 15/20; Italy 83/110. Requirements are strict. If the transcript omits GPA/weighted average, obtain a university-issued stamped statement and official translation.",
@@ -2489,7 +2517,8 @@
           "remote/in-person modality"
         ],
         "answer": "conditional",
-        "short_value": "Possible preparation/English interview; exam requirement not confirmed"
+        "short_value": "Possible preparation/English interview; exam requirement not confirmed",
+        "covered_scope": "Software: Science and Technology admission, or the stated non-EU/foreign-qualification university procedure; each published country/test condition still applies."
       }
     },
     "discovered-011": {
@@ -2566,7 +2595,8 @@
         },
         "missing_components": [
           "detailed subject-credit requirements"
-        ]
+        ],
+        "covered_scope": "The named Buddhism and Asian Religions programme and the stated foreign-qualification or scholarship conditions only."
       },
       "english_requirement": {
         "value": "The 2027/28 programme enrolment page requires certified evidence of at least B2 English and says English is evaluated. The exact accepted-test scores and certificate exemptions are Not confirmed.",
@@ -2591,7 +2621,8 @@
         "answer": "yes",
         "missing_components": [
           "The exact accepted-test scores and certificate exemptions"
-        ]
+        ],
+        "covered_scope": "The named Buddhism and Asian Religions programme and the stated foreign-qualification or scholarship conditions only."
       },
       "selection_method": {
         "value": "The open-access programme does not use a ranked selection process; applicants must demonstrate the specified requisites and adequate preparation, and English is evaluated. Detailed 2027/28 admission procedures are still due to be updated.",
@@ -3736,7 +3767,8 @@
         "answer": "conditional",
         "missing_components": [
           "New TOEFL-scale equivalence"
-        ]
+        ],
+        "covered_scope": "HySET 2027–29 consortium route only, not ordinary Polito MSc admission or a guaranteed scholarship."
       },
       "minimum_grade": {
         "value": "Selection criterion specifies GPA at least 3.0/4.0. Separate eligibility wording permits rejection when the average falls in the lower third above pass level. Do not invent a conversion for your national grading scale.",
@@ -3818,7 +3850,8 @@
           "individual interview dates"
         ],
         "answer": "conditional",
-        "short_value": "Online interview possible; standardised exam not confirmed"
+        "short_value": "Online interview possible; standardised exam not confirmed",
+        "covered_scope": "HySET 2027–29 consortium route only, not ordinary Polito MSc admission or a guaranteed scholarship."
       }
     },
     "discovered-038": {
@@ -3867,7 +3900,8 @@
           "new TOEFL-scale equivalent"
         ],
         "answer": "conditional",
-        "short_value": "C1; IELTS 7.0 / TOEFL 95; GRE alternative"
+        "short_value": "C1; IELTS 7.0 / TOEFL 95; GRE alternative",
+        "covered_scope": "The named EAP/EPOG online route or local TAPP route as stated; the two credit thresholds are not interchangeable."
       },
       "selection_method": {
         "value": "Consortium reviews the dossier and preselects applicants for interviews by videoconference in March 2027; results expected at the end of March. The local UniTo profile separately describes a 15-minute Zoom TAPP, without an annual label.",
@@ -3913,7 +3947,8 @@
         },
         "missing_components": [
           "applicability of the local 18+6 threshold to the chosen route/minor"
-        ]
+        ],
+        "covered_scope": "The named EAP/EPOG online route or local TAPP route as stated; the two credit thresholds are not interchangeable."
       },
       "tuition": {
         "value": "Not confirmed",
@@ -3959,7 +3994,8 @@
           "separate standardised-test requirement"
         ],
         "answer": "conditional",
-        "short_value": "Local TAPP: 15-minute Skype interview; route clarification needed"
+        "short_value": "Local TAPP: 15-minute Skype interview; route clarification needed",
+        "covered_scope": "The named EAP/EPOG online route or local TAPP route as stated; the two credit thresholds are not interchangeable."
       }
     },
     "discovered-012": {
@@ -4007,7 +4043,8 @@
         },
         "missing_components": [
           "exact 2027/28 sector-credit thresholds"
-        ]
+        ],
+        "covered_scope": "Only the named GrEnFIn, CLE, BBS or 28DIGITAL route stated above; these admission and fee routes are distinct."
       },
       "english_requirement": {
         "value": "Not confirmed",
@@ -5512,7 +5549,8 @@
           },
           "missing_components": [
             "The precise subject/sector-credit thresholds for this programme"
-          ]
+          ],
+          "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
         },
         "country_grade_masters_2027": {
           "value": "The official country-entry table is explicitly valid for 27/28. Minimum GPA depends on the country and type of the qualifying degree, not citizenship. Examples from its Master’s column: Afghanistan 75/100; Albania 7/10; Algeria 11/20; India 70/100 (or the explicitly listed alternatives 7/10, 5.6/8, 2.8/4); Pakistan 3.3/4. These examples do not replace the full table or qualification-length rules. Unlisted countries may still apply; the Admissions & Welcome Unit decides qualification eligibility. Any additional programme-specific grade threshold is Not confirmed.",
@@ -5535,7 +5573,8 @@
           },
           "missing_components": [
             "additional programme-specific GPA threshold, if any"
-          ]
+          ],
+          "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
         },
         "country_grade_bachelors_2027": {
           "value": "The 27/28 country-entry table sets secondary-qualification requirements by education system. Examples from its Bachelor’s/single-cycle column: Albania requires a minimum average grade of 6.5 for the specified Maturës/Pjekurie qualification; Algeria requires a Baccalauréat examination average of at least 10. These are country-specific entry-title minima, not a universal grade or a substitute for the programme admission test/ranking. A programme-specific grade threshold is Not confirmed.",
@@ -5558,7 +5597,8 @@
           },
           "missing_components": [
             "programme-specific grade threshold, if any"
-          ]
+          ],
+          "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
         }
       },
       "documents": {
@@ -5617,7 +5657,8 @@
         ],
         "missing_components": [
           "The precise DoV/CIMEA alternatives and apostille exemptions for each country"
-        ]
+        ],
+        "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
       },
       "scholarships": [
         {
@@ -5674,7 +5715,8 @@
         },
         "missing_components": [
           "university/programme-specific Universitaly deadline"
-        ]
+        ],
+        "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
       }
     },
     "pisa": {
@@ -5731,7 +5773,8 @@
             "CLI assessment dates"
           ],
           "answer": "yes",
-          "short_value": "B2 certificate for visa validation; MOI not accepted"
+          "short_value": "B2 certificate for visa validation; MOI not accepted",
+          "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
         }
       },
       "universitaly": {
@@ -5761,7 +5804,8 @@
         },
         "missing_components": [
           "university/programme-specific Universitaly deadline"
-        ]
+        ],
+        "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
       },
       "visa_permit": {
         "value": "The university warns that visa processing may take weeks or months and that it cannot liaise with embassies/consulates on an applicant’s behalf. Admission precedes Universitaly; final enrolment follows the visa. Permit details and a universal visa deadline are Not confirmed.",
@@ -5795,7 +5839,8 @@
         ],
         "missing_components": [
           "Permit details and a universal visa deadline"
-        ]
+        ],
+        "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
       },
       "documents": {
         "value": "For the Engineering/Cybersecurity international calls: qualifying degree (or current transcripts if graduating), transcript translated into English/Italian, passport, CV and the route-specific B2 proof, uploaded as PDFs. The 2027/28 DoV/CIMEA substitution rules and apostille/legalisation conditions are Not confirmed.",
@@ -5826,7 +5871,8 @@
         ],
         "missing_components": [
           "The 2027/28 DoV/CIMEA substitution rules and apostille/legalisation conditions"
-        ]
+        ],
+        "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
       },
       "regional_dsu": {
         "value": "DSU Toscana (Agenzia Regionale Diritto allo Studio Universitario) is named as the regional support body for these international MSc applicants. Accommodation, meals and tuition exemption are mentioned; 2027/28 award amounts, detailed eligibility and deadline are Not confirmed.",
@@ -5863,7 +5909,8 @@
         ],
         "missing_components": [
           "2027/28 award amounts, detailed eligibility and deadline"
-        ]
+        ],
+        "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
       },
       "scholarships": [
         {
@@ -5903,7 +5950,8 @@
           ],
           "missing_components": [
             "Amount, application route and award deadline"
-          ]
+          ],
+          "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
         },
         {
           "value": "DSU Toscana publishes a scholarship and accommodation call for 2026/27. The detailed applicable amount, international income-document conditions and 2027/28 call have not been verified here; follow the official DSU call.",
@@ -6013,7 +6061,8 @@
           "missing_components": [
             "track/partner-specific waiver eligibility where the published wording differs",
             "compatibility with another award where a partner call restricts combination"
-          ]
+          ],
+          "covered_scope": "The named 28DIGITAL track/partner conditions only; ordinary UniTrento fee and admission routes are separate."
         }
       ],
       "regional_dsu": {
@@ -6064,7 +6113,8 @@
         ],
         "missing_components": [
           "Italian DoV/CIMEA and apostille substitutions"
-        ]
+        ],
+        "covered_scope": "The named 28DIGITAL track/partner conditions only; ordinary UniTrento fee and admission routes are separate."
       },
       "universitaly": {
         "value": "Under the national procedures explicitly valid for 2027/28, applicants who need a study visa must submit the visa pre-enrolment application through the official, free Universitaly portal. University validation is not a visa guarantee. The university/programme-specific 2027/28 submission deadline is Not confirmed; the national visa ceiling is not a substitute for that deadline.",
@@ -6087,7 +6137,8 @@
         },
         "missing_components": [
           "university/programme-specific Universitaly deadline"
-        ]
+        ],
+        "covered_scope": "The named 28DIGITAL track/partner conditions only; ordinary UniTrento fee and admission routes are separate."
       },
       "visa_permit": {
         "value": "Trento directs non-EU visa applicants to Universitaly and the Italian diplomatic representation. Its residence-permit page instructs type-D student-visa holders staying longer than 90 days to apply within 8 working days and offers International Mobility Office assistance. The exact programme-specific 2027/28 visa/arrival deadline and future office-procedure changes are Not confirmed.",
@@ -6117,7 +6168,8 @@
         "missing_components": [
           "programme-specific 2027/28 visa/arrival deadline",
           "future university office-procedure changes"
-        ]
+        ],
+        "covered_scope": "The named 28DIGITAL track/partner conditions only; ordinary UniTrento fee and admission routes are separate."
       }
     },
     "bologna": {
@@ -6203,7 +6255,8 @@
           "missing_components": [
             "track/partner-specific waiver eligibility where the published wording differs",
             "compatibility with another award where a partner call restricts combination"
-          ]
+          ],
+          "covered_scope": "Only the named GrEnFIn, CLE, BBS or 28DIGITAL route stated above; these admission and fee routes are distinct."
         },
         {
           "value": "GrEnFIn 2027/28: up to 18 full Erasmus Mundus scholarships, for the best-ranked applicants worldwide, calculated at EUR 1,400/month for the actual study period. Covers travel, visa, installation and subsistence costs. Apply through the programme selection; scholarship interview and programme deadlines apply.",
@@ -6255,7 +6308,8 @@
         },
         "missing_components": [
           "exact 2027/28 thresholds and deadline"
-        ]
+        ],
+        "covered_scope": "Only the named GrEnFIn, CLE, BBS or 28DIGITAL route stated above; these admission and fee routes are distinct."
       },
       "documents": {
         "value": "GrEnFIn: qualifying-degree/transcript documents, language proof and the dossier specified by the call; translation/authenticity/value are checked where required, and originals are verified later. For degrees from China/India/Vietnam, UniBo can accept APS as authenticity evidence; another authenticity proof accepted by UniBo can also satisfy LMU enrolment, but a German visa authority may still request APS. CLE: mandatory ID/passport, qualifying-degree/transcript evidence (Italian/English translation), and route-specific language proof; CV, motivation and references are additional funding documents, not universally mandatory for course admission. For the 28DIGITAL track: 28DIGITAL application only: degree certificate and stamped transcript in original language AND English; authorised translation where the university does not provide it. Final-year applicants provide a degree-administration statement. Also upload English proof, CV, a motivation letter (maximum two pages) and colour ID; GPA/rank statement and video are optional. Present original degree/transcript before enrolment. Specific countries require direct registrar/HEC documentation. One email-receipt paragraph still gives 2026 dates while postal instructions give 2027; those receipt deadlines need clarification. Italian DoV/CIMEA and apostille substitutions are Not confirmed. University-wide DoV/CIMEA substitution rules are Not confirmed.",
@@ -6290,7 +6344,8 @@
         "missing_components": [
           "Italian DoV/CIMEA and apostille substitutions",
           "University-wide DoV/CIMEA substitution rules"
-        ]
+        ],
+        "covered_scope": "Only the named GrEnFIn, CLE, BBS or 28DIGITAL route stated above; these admission and fee routes are distinct."
       },
       "universitaly": {
         "value": "Under the national procedures explicitly valid for 2027/28, applicants who need a study visa must submit the visa pre-enrolment application through the official, free Universitaly portal. University validation is not a visa guarantee. The university/programme-specific 2027/28 submission deadline is Not confirmed; the national visa ceiling is not a substitute for that deadline.",
@@ -6316,7 +6371,8 @@
         },
         "missing_components": [
           "university/programme-specific Universitaly deadline"
-        ]
+        ],
+        "covered_scope": "Only the named GrEnFIn, CLE, BBS or 28DIGITAL route stated above; these admission and fee routes are distinct."
       }
     },
     "politecnico-milano": {
@@ -6367,7 +6423,8 @@
           },
           "missing_components": [
             "programme-specific additional grade restrictions, if any"
-          ]
+          ],
+          "covered_scope": "Standard foreign-qualification MSc route only. Italian-qualification admissions and the joint Bocconi route are not covered by this policy."
         },
         "foreign_msc_background": {
           "value": "The standard foreign-qualification MSc route requires a recognised first-cycle qualification giving access to EQF level 7; the country-specific degree-type rules apply. Assessment is based on the Bachelor’s degree even if a Master’s degree is also held. Current programme-specific subject/sector-credit minima for this 2027/28 route are Not confirmed.",
@@ -6396,7 +6453,8 @@
           },
           "missing_components": [
             "programme-specific 2027/28 subject/sector-credit minima"
-          ]
+          ],
+          "covered_scope": "Standard foreign-qualification MSc route only. Italian-qualification admissions and the joint Bocconi route are not covered by this policy."
         },
         "foreign_msc_selection": {
           "value": "The standard foreign-qualification MSc process checks eligibility/CGPA and evaluates the Bachelor’s academic documents, not a later Master’s degree. Applicants upload their original transcript, qualifying degree/attendance evidence and required dossier through Online Services. Programme-specific scoring weights, interview policy and admission-exam requirement for 2027/28 are Not confirmed.",
@@ -6424,7 +6482,8 @@
             "programme scoring weights",
             "interview policy",
             "programme-specific admission-exam requirement"
-          ]
+          ],
+          "covered_scope": "Standard foreign-qualification MSc route only. Italian-qualification admissions and the joint Bocconi route are not covered by this policy."
         },
         "tuition_2026": {
           "value": "Published 2026/27 ordinary-degree schedule: for 46–74 ECTS, income-based annual amounts range from EUR 157.04 (ISEE up to EUR 22,000) to EUR 3,943.04, with study-plan-credit scaling. Reserved-category non-EU MSc students with a foreign first degree who do not hold an eligible scholarship/DSU award pay the maximum scaled amount; an ISEE reduction must not be promised to that category. The 2027/28 tariff is Not confirmed.",
@@ -6468,7 +6527,8 @@
         ],
         "missing_components": [
           "The exact 2027/28 enrolment apostille/legalisation rules"
-        ]
+        ],
+        "covered_scope": "Standard foreign-qualification MSc route only. Italian-qualification admissions and the joint Bocconi route are not covered by this policy."
       },
       "scholarships": [
         {
@@ -6499,7 +6559,8 @@
           "offer_id": "merit-2027",
           "missing_components": [
             "compatibility with partner/28DIGITAL awards where generic guidance differs from the formal call"
-          ]
+          ],
+          "covered_scope": "Standard foreign-qualification MSc route only. Italian-qualification admissions and the joint Bocconi route are not covered by this policy."
         }
       ],
       "regional_dsu": {
@@ -6538,7 +6599,8 @@
         },
         "missing_components": [
           "university/programme-specific Universitaly deadline"
-        ]
+        ],
+        "covered_scope": "Standard foreign-qualification MSc route only. Italian-qualification admissions and the joint Bocconi route are not covered by this policy."
       },
       "visa_permit": {
         "value": "Polimi instructs non-EU arrivals to apply for a residence permit within 8 working days. The post-office kit is accompanied by passport/visa, health insurance and the MSc admission letter or stated enrolment alternative; the International Students Office provides help. The exact programme-specific 2027/28 visa/arrival deadline and future office-procedure changes are Not confirmed.",
@@ -6565,7 +6627,8 @@
         "missing_components": [
           "programme-specific 2027/28 visa/arrival deadline",
           "future university office-procedure changes"
-        ]
+        ],
+        "covered_scope": "Standard foreign-qualification MSc route only. Italian-qualification admissions and the joint Bocconi route are not covered by this policy."
       }
     },
     "tor-vergata": {
@@ -6593,7 +6656,8 @@
         ],
         "missing_components": [
           "A university-wide deadline for other programmes"
-        ]
+        ],
+        "covered_scope": "Mechatronics Engineering 2027/28 only; programme-specific conditions must not be extended to other Tor Vergata courses."
       },
       "visa_permit": {
         "value": "For Mechatronics visa applicants: after Universitaly validation contact the competent diplomatic/consular representation. Only that authority issues the visa; final enrolment follows the visa and verification of qualifications. Permit timing is Not confirmed.",
@@ -6619,7 +6683,8 @@
         ],
         "missing_components": [
           "Permit timing"
-        ]
+        ],
+        "covered_scope": "Mechatronics Engineering 2027/28 only; programme-specific conditions must not be extended to other Tor Vergata courses."
       },
       "documents": {
         "value": "For Mechatronics: passport/ID, scientific CV on the official form, Bachelor certificate/GPA if awarded, transcripts with dates and grades, thesis excerpt if available, and route-specific English proof/GRE. Pending graduates provide expected graduation date and remaining exams. General DoV/CIMEA alternatives and apostille/translation substitutions: Not confirmed.",
@@ -6645,7 +6710,8 @@
         ],
         "missing_components": [
           "General DoV/CIMEA alternatives and apostille/translation substitutions"
-        ]
+        ],
+        "covered_scope": "Mechatronics Engineering 2027/28 only; programme-specific conditions must not be extended to other Tor Vergata courses."
       },
       "regional_dsu": {
         "value": "DiSCo Lazio administers the 2026/27 regional scholarship, housing, meal and mobility competition for institutions registered in Lazio. First application deadline: 22 July 2026 at 12:00. The precise foreign-student documentary conditions and 2027/28 call are Not confirmed.",
@@ -6729,7 +6795,8 @@
         ],
         "missing_components": [
           "Exact DoV/CIMEA alternatives, apostille/legalisation and translation substitutions for 2027 entry"
-        ]
+        ],
+        "covered_scope": "HySET 2027–29 consortium route only, not ordinary Polito MSc admission or a guaranteed scholarship."
       },
       "scholarships": [
         {
@@ -6812,7 +6879,8 @@
         },
         "missing_components": [
           "university/programme-specific Universitaly deadline"
-        ]
+        ],
+        "covered_scope": "HySET 2027–29 consortium route only, not ordinary Polito MSc admission or a guaranteed scholarship."
       }
     },
     "torino": {
@@ -6842,7 +6910,8 @@
         ],
         "program_ids": [
           "discovered-038"
-        ]
+        ],
+        "covered_scope": "The named EAP/EPOG online route or local TAPP route as stated; the two credit thresholds are not interchangeable."
       },
       "regional_dsu": {
         "value": "EDISU Piemonte: scholarship and accommodation competition for Piedmont university students. International students without SPID/CIE can request a Temporary Access Code; foreign-family financial/consular documents and possible translation/apostille exemptions follow the call. The ordinary-degree 2026/27 application deadline was 4 Sep 2026 at 12:00. 2027/28 terms are Not confirmed.",
@@ -6905,7 +6974,8 @@
         },
         "missing_components": [
           "university/programme-specific Universitaly deadline"
-        ]
+        ],
+        "covered_scope": "The named EAP/EPOG online route or local TAPP route as stated; the two credit thresholds are not interchangeable."
       },
       "visa_permit": {
         "value": "Turin directs applicants to the competent embassy/consulate for the visa and says a residence-permit application must be made within 8 working days after arrival in Italy. The university offers application support; keep the postal receipt for the subsequent police appointment. The exact programme-specific 2027/28 visa/arrival deadline and future office-procedure changes are Not confirmed.",
@@ -6935,7 +7005,8 @@
         "missing_components": [
           "programme-specific 2027/28 visa/arrival deadline",
           "future university office-procedure changes"
-        ]
+        ],
+        "covered_scope": "The named EAP/EPOG online route or local TAPP route as stated; the two credit thresholds are not interchangeable."
       }
     },
     "ca-foscari": {
@@ -6994,7 +7065,8 @@
         },
         "missing_components": [
           "university/programme-specific Universitaly deadline"
-        ]
+        ],
+        "covered_scope": "The named Buddhism and Asian Religions programme and the stated foreign-qualification or scholarship conditions only."
       }
     },
     "firenze": {
@@ -7053,7 +7125,8 @@
         },
         "missing_components": [
           "university/programme-specific Universitaly deadline"
-        ]
+        ],
+        "covered_scope": "Software: Science and Technology admission, or the stated non-EU/foreign-qualification university procedure; each published country/test condition still applies."
       },
       "documents": {
         "value": "Florence’s published non-EU/foreign-qualification MSc route requires passport, study visa, residence-permit application receipts, Admission Document, bachelor certificate and transcript in the original language, legalised or apostilled. For recognition it states Declaration of Value OR CIMEA verification + comparability certificates. English, French or Spanish documents do not need an official Italian translation; other languages do. The pre-enrolment dossier additionally lists a photograph and the course’s English proof. Country-specific legalisation exemptions and final 2027/28 checklist changes are Not confirmed.",
@@ -7083,7 +7156,8 @@
         "missing_components": [
           "country-specific legalisation/apostille exemptions",
           "final 2027/28 university checklist changes"
-        ]
+        ],
+        "covered_scope": "Software: Science and Technology admission, or the stated non-EU/foreign-qualification university procedure; each published country/test condition still applies."
       },
       "visa_permit": {
         "value": "Florence directs non-EU residents abroad to obtain a type-D study/enrolment visa after Universitaly validation and to apply for the residence permit within 8 working days of arrival. Its PER-Università desk offers assistance. University validation does not guarantee a visa or appointment. The exact programme-specific 2027/28 visa/arrival deadline and future office-procedure changes are Not confirmed.",
@@ -7113,7 +7187,8 @@
         "missing_components": [
           "programme-specific 2027/28 visa/arrival deadline",
           "future university office-procedure changes"
-        ]
+        ],
+        "covered_scope": "Software: Science and Technology admission, or the stated non-EU/foreign-qualification university procedure; each published country/test condition still applies."
       }
     },
     "napoli-federico-ii": {
@@ -7152,7 +7227,8 @@
         },
         "missing_components": [
           "university/programme-specific Universitaly deadline"
-        ]
+        ],
+        "covered_scope": "Only the university-published visa/insurance guidance and national visa-applicant rule; programme admission criteria are not established."
       },
       "visa_permit": {
         "value": "Naples publishes instructions directing study-visa applicants through Universitaly validation and the competent diplomatic representation. It states that non-EU students must provide health-insurance evidence when applying for a residence permit. A university-specific 2027 permit-application timetable is Not confirmed. The exact programme-specific 2027/28 visa/arrival deadline and future office-procedure changes are Not confirmed.",
@@ -7180,7 +7256,8 @@
           "programme-specific 2027/28 visa/arrival deadline",
           "future university office-procedure changes",
           "university-specific permit application timetable"
-        ]
+        ],
+        "covered_scope": "Only the university-published visa/insurance guidance and national visa-applicant rule; programme admission criteria are not established."
       }
     }
   }

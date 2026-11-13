@@ -74,6 +74,27 @@ class DecisionSupportTests(unittest.TestCase):
             current['answer'] = answer
             self.assertEqual(D.binary_state(current), answer if answer in {'yes', 'no'} else D.UNKNOWN)
 
+    def test_yes_no_count_labels_and_uncertainty_hints(self):
+        home = B.homepage()
+        self.assertTrue('Confirmed no test (1)' in home)
+        self.assertTrue('Confirmed certificate required (6)' in home)
+        self.assertTrue('Most programs: test requirement not confirmed.' in home)
+        self.assertTrue('Most programs: certificate requirement not confirmed.' in home)
+
+    def test_partial_grade_and_prerequisite_routes_are_explicit(self):
+        counts = {'minimum_grade': 0, 'prerequisites': 0}
+        for p in B.PROGRAMS:
+            if p['overall_status'] != 'CONFIRMED':
+                continue
+            for key in counts:
+                f = D.resolve(p, key, self.universities[p['university_id']])
+                if D.is_current(f) and f.get('missing_components'):
+                    counts[key] += 1
+                    self.assertTrue(f.get('covered_scope'), f"{p['id']}/{key}")
+        self.assertEqual(counts, {'minimum_grade': 18, 'prerequisites': 21})
+        joint = D.resolve(self.programs['legacy-002'], 'prerequisites', self.universities['politecnico-milano'])
+        self.assertIn('Joint Bocconi/Polimi', joint['covered_scope'])
+
     def test_rendered_yes_no_flags_require_matching_current_evidence(self):
         for attr in ('admission-test', 'english-certificate'):
             with self.assertRaises(ValueError):

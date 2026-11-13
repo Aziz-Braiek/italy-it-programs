@@ -1,0 +1,188 @@
+[
+  {
+    "record": "programs/legacy-029/prerequisites",
+    "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here.",
+    "missing_components": [
+      "Exact sector-credit minima"
+    ],
+    "source_urls": [
+      "https://apply.unipd.it/courses/course/90-computer-engineering"
+    ]
+  },
+  {
+    "record": "programs/legacy-030/prerequisites",
+    "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here.",
+    "missing_components": [
+      "Exact sector-credit minima"
+    ],
+    "source_urls": [
+      "https://apply.unipd.it/courses/course/63-informatica"
+    ]
+  },
+  {
+    "record": "programs/legacy-031/prerequisites",
+    "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here.",
+    "missing_components": [
+      "Exact sector-credit minima"
+    ],
+    "source_urls": [
+      "https://apply.unipd.it/courses/course/93-cybersecurity"
+    ]
+  },
+  {
+    "record": "programs/legacy-032/prerequisites",
+    "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here.",
+    "missing_components": [
+      "Exact sector-credit minima"
+    ],
+    "source_urls": [
+      "https://apply.unipd.it/courses/course/33-data-science"
+    ]
+  },
+  {
+    "record": "programs/legacy-033/prerequisites",
+    "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here.",
+    "missing_components": [
+      "Formal 2027/28 admission calls and non-EU quota are still marked TBD"
+    ],
+    "source_urls": [
+      "https://apply.unipd.it/courses/course/182-information-engineering"
+    ]
+  },
+  {
+    "record": "programs/legacy-037/prerequisites",
+    "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here.",
+    "missing_components": [
+      "Exact sector-credit minima"
+    ],
+    "source_urls": [
+      "https://apply.unipd.it/courses/course/30-physics-data"
+    ]
+  },
+  {
+    "record": "programs/discovered-037/prerequisites",
+    "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here.",
+    "missing_components": [
+      "those thresholds for 2027/28"
+    ],
+    "source_urls": [
+      "https://apply.unipd.it/courses/course/12-astrophysics-and-cosmology"
+    ]
+  },
+  {
+    "record": "programs/discovered-016/prerequisites",
+    "covered_scope": "The named 28DIGITAL track/partner conditions only; ordinary UniTrento fee and admission routes are separate.",
+    "missing_components": [
+      "Numerical sector-credit minimum"
+    ],
+    "source_urls": [
+      "https://masterschool.28digital.eu/human-computer-interaction-and-design-with-extended-reality",
+      "https://masterschool.28digital.eu/admissions",
+      "https://www.disi.unitn.it/eit-digital"
+    ]
+  },
+  {
+    "record": "programs/legacy-002/prerequisites",
+    "covered_scope": "Standard foreign-qualification MSc route only. Italian-qualification admissions and the joint Bocconi route are not covered by this policy.",
+    "missing_components": [
+      "Exact subject-credit minimum for a foreign qualification"
+    ],
+    "source_urls": [
+      "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/joint-degree-programs-politecnico-di-milano"
+    ]
+  },
+  {
+    "record": "programs/discovered-010/prerequisites",
+    "covered_scope": "Mechatronics Engineering 2027/28 only; programme-specific conditions must not be extended to other Tor Vergata courses.",
+    "missing_components": [
+      "Exact disciplinary-credit minimum"
+    ],
+    "source_urls": [
+      "https://mechatronics.uniroma2.it/how-to-apply-for-mechatronics/admission-a-y-2027-28/"
+    ]
+  },
+  {
+    "record": "programs/discovered-011/prerequisites",
+    "covered_scope": "The named Buddhism and Asian Religions programme and the stated foreign-qualification or scholarship conditions only.",
+    "missing_components": [
+      "detailed subject-credit requirements"
+    ],
+    "source_urls": [
+      "https://www.unive.it/web/en/21002/admission-and-enrolment"
+    ]
+  },
+  {
+    "record": "programs/discovered-038/prerequisites",
+    "covered_scope": "The named EAP/EPOG online route or local TAPP route as stated; the two credit thresholds are not interchangeable.",
+    "missing_components": [
+      "applicability of the local 18+6 threshold to the chosen route/minor"
+    ],
+    "source_urls": [
+      "https://www.eap.unito.it/do/home.pl/View?doc=how_to_apply.html",
+      "https://www.eap.unito.it/do/home.pl/View?doc=admission_requirements.html"
+    ]
+  },
+  {
+    "record": "programs/discovered-012/prerequisites",
+    "covered_scope": "Only the named GrEnFIn, CLE, BBS or 28DIGITAL route stated above; these admission and fee routes are distinct.",
+    "missing_components": [
+      "exact 2027/28 sector-credit thresholds"
+    ],
+    "source_urls": [
+      "https://cle.unibo.it/pages/23/presentazione-della-domanda/lang/en"
+    ]
+  },
+  {
+    "record": "universities/padova/policies/master_entry",
+    "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here.",
+    "missing_components": [
+      "The precise subject/sector-credit thresholds for this programme"
+    ],
+    "source_urls": [
+      "https://www.unipd.it/en/ammissione-studenti-internazionali"
+    ]
+  },
+  {
+    "record": "universities/padova/policies/country_grade_masters_2027",
+    "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here.",
+    "missing_components": [
+      "additional programme-specific GPA threshold, if any"
+    ],
+    "source_urls": [
+      "https://wwwassets.unipd.it/sites/default/files/2026-09/Entry%20requirements%20per%20Country%2027-28%20.pdf"
+    ]
+  },
+  {
+    "record": "universities/padova/policies/country_grade_bachelors_2027",
+    "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here.",
+    "missing_components": [
+      "programme-specific grade threshold, if any"
+    ],
+    "source_urls": [
+      "https://wwwassets.unipd.it/sites/default/files/2026-09/Entry%20requirements%20per%20Country%2027-28%20.pdf"
+    ]
+  },
+  {
+    "record": "universities/politecnico-milano/policies/foreign_msc_grade",
+    "covered_scope": "Standard foreign-qualification MSc route only. Italian-qualification admissions and the joint Bocconi route are not covered by this policy.",
+    "missing_components": [
+      "programme-specific additional grade restrictions, if any"
+    ],
+    "source_urls": [
+      "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/requirements",
+      "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/application/list-of-documents-required-by-the-admissions-office"
+    ]
+  },
+  {
+    "record": "universities/politecnico-milano/policies/foreign_msc_background",
+    "covered_scope": "Standard foreign-qualification MSc route only. Italian-qualification admissions and the joint Bocconi route are not covered by this policy.",
+    "missing_components": [
+      "programme-specific 2027/28 subject/sector-credit minima"
+    ],
+    "source_urls": [
+      "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/application/",
+      "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/requirements",
+      "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/application/list-of-documents-required-by-the-admissions-office"
+    ]
+  }
+]

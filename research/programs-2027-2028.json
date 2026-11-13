@@ -590,7 +590,8 @@
         },
         "missing_components": [
           "Exact subject-credit minimum for a foreign qualification"
-        ]
+        ],
+        "covered_scope": "Joint Bocconi/Polimi Cyber Risk Strategy and Governance only. Italian-qualification and international-qualification pathways have different tests; the standard Polimi MSc route is separate."
       },
       "english_requirement": {
         "value": "Not confirmed",
@@ -638,7 +639,8 @@
         "answer": "conditional",
         "missing_components": [
           "Exact test date and GMAT/GRE remote rules"
-        ]
+        ],
+        "covered_scope": "Joint Bocconi/Polimi Cyber Risk Strategy and Governance only. Italian-qualification and international-qualification pathways have different tests; the standard Polimi MSc route is separate."
       },
       "selection_method": {
         "value": "Joint Bocconi/Polimi admissions board assesses GPA, application dossier/motivation and the route-appropriate admission test. A universal minimum GPA is not stated.",
@@ -661,7 +663,8 @@
         },
         "missing_components": [
           "universal numeric selection/GPA cutoff, if any"
-        ]
+        ],
+        "covered_scope": "Joint Bocconi/Polimi Cyber Risk Strategy and Governance only. Italian-qualification and international-qualification pathways have different tests; the standard Polimi MSc route is separate."
       },
       "minimum_grade": {
         "value": "Not confirmed",
@@ -10362,7 +10365,8 @@
         },
         "missing_components": [
           "Exact sector-credit minima"
-        ]
+        ],
+        "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
       },
       "english_requirement": {
         "university_policy": "english_b2"
@@ -10718,7 +10722,8 @@
         },
         "missing_components": [
           "Exact sector-credit minima"
-        ]
+        ],
+        "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
       },
       "english_requirement": {
         "university_policy": "english_b2"
@@ -11082,7 +11087,8 @@
         },
         "missing_components": [
           "Exact sector-credit minima"
-        ]
+        ],
+        "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
       },
       "english_requirement": {
         "university_policy": "english_b2"
@@ -11427,7 +11433,8 @@
         },
         "missing_components": [
           "Exact sector-credit minima"
-        ]
+        ],
+        "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
       },
       "english_requirement": {
         "university_policy": "english_b2"
@@ -11766,7 +11773,8 @@
         },
         "missing_components": [
           "Formal 2027/28 admission calls and non-EU quota are still marked TBD"
-        ]
+        ],
+        "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
       },
       "english_requirement": {
         "university_policy": "english_b2"
@@ -11795,7 +11803,8 @@
         "missing_components": [
           "Remote modality",
           "Formal 2027/28 admission call remains TBD"
-        ]
+        ],
+        "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
       },
       "selection_method": {
         "value": "Limited access; places are assigned through a ranking list. Formal programme call and quota are still TBD.",
@@ -11818,7 +11827,8 @@
         },
         "missing_components": [
           "Formal programme call and quota are still TBD"
-        ]
+        ],
+        "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
       },
       "minimum_grade": {
         "university_policy": "country_grade_bachelors_2027"
@@ -13087,7 +13097,8 @@
         },
         "missing_components": [
           "Exact sector-credit minima"
-        ]
+        ],
+        "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
       },
       "english_requirement": {
         "university_policy": "english_b2"
@@ -18383,7 +18394,8 @@
         },
         "missing_components": [
           "universal numeric selection/GPA cutoff, if any"
-        ]
+        ],
+        "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
       },
       "minimum_grade": {
         "value": "Not confirmed",
@@ -18683,7 +18695,8 @@
         "answer": "conditional",
         "missing_components": [
           "Exact external test-score table"
-        ]
+        ],
+        "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
       },
       "admission_test": {
         "value": "A videoconference selection interview is compulsory for shortlisted applicants. A separate standardised entrance exam is Not confirmed; CLI written/oral tests are an alternative English-proof route, not the course entrance exam.",
@@ -18708,7 +18721,8 @@
         "answer": "not confirmed",
         "missing_components": [
           "A separate standardised entrance exam"
-        ]
+        ],
+        "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
       },
       "selection_method": {
         "value": "Documents scored out of 60, with at least 42 required; shortlisted applicants attend a videoconference interview scored out of 40, with at least 28 required. Missing the interview excludes the applicant.",
@@ -19103,7 +19117,8 @@
         "answer": "yes",
         "missing_components": [
           "Exact accepted-test score list and exemptions"
-        ]
+        ],
+        "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
       },
       "admission_test": {
         "value": "The committee may require online tests or interviews; shortlisted candidates have a final online interview. A named standard test and test date are Not confirmed.",
@@ -19128,7 +19143,8 @@
         "answer": "conditional",
         "missing_components": [
           "A named standard test and test date"
-        ]
+        ],
+        "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
       },
       "selection_method": {
         "value": "Committee assessment of academic performance in country context, subject alignment and CV; possible online tests/interviews followed by a final online interview for shortlisted candidates.",
@@ -19391,7 +19407,8 @@
         },
         "missing_components": [
           "universal numeric selection/GPA cutoff, if any"
-        ]
+        ],
+        "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
       },
       "minimum_grade": {
         "value": "Not confirmed",
@@ -43887,7 +43904,8 @@
         "answer": "conditional",
         "missing_components": [
           "interpretation of the overlapping Cambridge numerical bands for a borderline score"
-        ]
+        ],
+        "covered_scope": "Software: Science and Technology admission, or the stated non-EU/foreign-qualification university procedure; each published country/test condition still applies."
       },
       "admission_test": {
         "value": "The 2027/28 programme page says the Committee may interview individual applicants to assess preparation and English. A separate compulsory standardised admission exam, individual interview date and remote/in-person modality are Not confirmed.",
@@ -43914,7 +43932,8 @@
           "remote/in-person modality"
         ],
         "answer": "conditional",
-        "short_value": "Possible preparation/English interview; exam requirement not confirmed"
+        "short_value": "Possible preparation/English interview; exam requirement not confirmed",
+        "covered_scope": "Software: Science and Technology admission, or the stated non-EU/foreign-qualification university procedure; each published country/test condition still applies."
       },
       "selection_method": {
         "value": "Teaching committee assesses the curriculum and preparation; it may interview applicants, including to assess English. The published page does not specify remote modality or a single test date.",
@@ -43938,7 +43957,8 @@
         "missing_components": [
           "interview remote/in-person modality",
           "individual interview/test date"
-        ]
+        ],
+        "covered_scope": "Software: Science and Technology admission, or the stated non-EU/foreign-qualification university procedure; each published country/test condition still applies."
       },
       "minimum_grade": {
         "value": "Apply the country-specific table linked by the 2027/28 Software: Science and Technology enrolment page. Where no specific country threshold is listed, the minimum is 75% of the bachelor’s maximum score. Examples: India 75/100 (four-year bachelor, with the stated Honours exception); Pakistan 3.3/4 (continuous four-year bachelor; 2+2 not accepted); Algeria and Tunisia 15/20; Italy 83/110. Requirements are strict. If the transcript omits GPA/weighted average, obtain a university-issued stamped statement and official translation.",
@@ -60981,7 +61001,8 @@
         },
         "missing_components": [
           "universal numeric selection/GPA cutoff, if any"
-        ]
+        ],
+        "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
       },
       "minimum_grade": {
         "value": "Not confirmed",
@@ -62988,7 +63009,8 @@
         },
         "missing_components": [
           "Exact disciplinary-credit minimum"
-        ]
+        ],
+        "covered_scope": "Mechatronics Engineering 2027/28 only; programme-specific conditions must not be extended to other Tor Vergata courses."
       },
       "english_requirement": {
         "value": "Non-native applicants need a B2 certificate issued from August 2021; native speakers provide the nationality/citizenship/residence declaration. Alternative: university B2 proficiency certificate AND GRE General score. Exact test-score equivalence and exemptions beyond the published routes: Not confirmed.",
@@ -63013,7 +63035,8 @@
         "answer": "conditional",
         "missing_components": [
           "Exact test-score equivalence and exemptions beyond the published routes"
-        ]
+        ],
+        "covered_scope": "Mechatronics Engineering 2027/28 only; programme-specific conditions must not be extended to other Tor Vergata courses."
       },
       "admission_test": {
         "value": "GRE General is required only for the university B2 proficiency-certificate alternative, not universally stated for all applicants. Date and remote modality: Not confirmed.",
@@ -63038,7 +63061,8 @@
         "answer": "conditional",
         "missing_components": [
           "Date and remote modality"
-        ]
+        ],
+        "covered_scope": "Mechatronics Engineering 2027/28 only; programme-specific conditions must not be extended to other Tor Vergata courses."
       },
       "selection_method": {
         "value": "Not confirmed",
@@ -63272,7 +63296,8 @@
         },
         "missing_components": [
           "detailed subject-credit requirements"
-        ]
+        ],
+        "covered_scope": "The named Buddhism and Asian Religions programme and the stated foreign-qualification or scholarship conditions only."
       },
       "english_requirement": {
         "value": "The 2027/28 programme enrolment page requires certified evidence of at least B2 English and says English is evaluated. The exact accepted-test scores and certificate exemptions are Not confirmed.",
@@ -63297,7 +63322,8 @@
         "answer": "yes",
         "missing_components": [
           "The exact accepted-test scores and certificate exemptions"
-        ]
+        ],
+        "covered_scope": "The named Buddhism and Asian Religions programme and the stated foreign-qualification or scholarship conditions only."
       },
       "admission_test": {
         "value": "Not confirmed",
@@ -63781,7 +63807,8 @@
         },
         "missing_components": [
           "exact 2027/28 sector-credit thresholds"
-        ]
+        ],
+        "covered_scope": "Only the named GrEnFIn, CLE, BBS or 28DIGITAL route stated above; these admission and fee routes are distinct."
       },
       "english_requirement": {
         "value": "Not confirmed",
@@ -65483,7 +65510,8 @@
         },
         "missing_components": [
           "Numerical sector-credit minimum"
-        ]
+        ],
+        "covered_scope": "The named 28DIGITAL track/partner conditions only; ordinary UniTrento fee and admission routes are separate."
       },
       "english_requirement": {
         "university_policy": "28digital_english"
@@ -67142,7 +67170,8 @@
         "answer": "conditional",
         "missing_components": [
           "New TOEFL-scale equivalence"
-        ]
+        ],
+        "covered_scope": "HySET 2027–29 consortium route only, not ordinary Polito MSc admission or a guaranteed scholarship."
       },
       "admission_test": {
         "value": "HySET 2027–29 first checks documents/eligibility and may arrange a video-conference clarification interview; potentially admitted/reserve applicants can be interviewed online. Attendance is required when invited. A compulsory standardised entrance exam and individual interview dates are Not confirmed.",
@@ -67168,7 +67197,8 @@
           "individual interview dates"
         ],
         "answer": "conditional",
-        "short_value": "Online interview possible; standardised exam not confirmed"
+        "short_value": "Online interview possible; standardised exam not confirmed",
+        "covered_scope": "HySET 2027–29 consortium route only, not ordinary Polito MSc admission or a guaranteed scholarship."
       },
       "selection_method": {
         "value": "Documents/eligibility check followed by up to 100 points: academic achievements 30, study relevance 30, references/video 15, CV/experience/awards 25. Potentially admitted/reserve applicants may have an online interview; absence when invited excludes the applicant.",
@@ -70954,7 +70984,8 @@
         "short_value": "EUR 157.04 + income-assessed contribution; maximum Not confirmed",
         "missing_components": [
           "Exact 2027/28 course maximum"
-        ]
+        ],
+        "covered_scope": "Only the named GrEnFIn, CLE, BBS or 28DIGITAL route stated above; these admission and fee routes are distinct."
       }
     }
   },
@@ -73580,7 +73611,8 @@
         },
         "missing_components": [
           "those thresholds for 2027/28"
-        ]
+        ],
+        "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
       },
       "english_requirement": {
         "university_policy": "english_b2"
@@ -74000,7 +74032,8 @@
         },
         "missing_components": [
           "applicability of the local 18+6 threshold to the chosen route/minor"
-        ]
+        ],
+        "covered_scope": "The named EAP/EPOG online route or local TAPP route as stated; the two credit thresholds are not interchangeable."
       },
       "english_requirement": {
         "value": "The EAP 2027/28 application page accepts C1 CEFR, TOEFL iBT 95 (MyBest accepted), IELTS Academic 7.0, CAE grade B, CPE grade C or PTE Academic 67. GRE verbal 150, analytical writing 4 and quantitative 151 can also serve as English proof. Selected Major A/Minor C1 applicants may need certification by end-April. Exact April date, additional exemptions and a new TOEFL-scale equivalent are Not confirmed.",
@@ -74027,7 +74060,8 @@
           "new TOEFL-scale equivalent"
         ],
         "answer": "conditional",
-        "short_value": "C1; IELTS 7.0 / TOEFL 95; GRE alternative"
+        "short_value": "C1; IELTS 7.0 / TOEFL 95; GRE alternative",
+        "covered_scope": "The named EAP/EPOG online route or local TAPP route as stated; the two credit thresholds are not interchangeable."
       },
       "admission_test": {
         "value": "The university’s local EAP requirements page describes TAPP, a 15-minute preparation-assessment interview via Skype, after the committee checks curricular eligibility. Its separate 2027/28 EPOG application route schedules interviews in early March 2027. Individual dates, exact route applicability and a separate standardised-test requirement are Not confirmed.",
@@ -74057,7 +74091,8 @@
           "separate standardised-test requirement"
         ],
         "answer": "conditional",
-        "short_value": "Local TAPP: 15-minute Skype interview; route clarification needed"
+        "short_value": "Local TAPP: 15-minute Skype interview; route clarification needed",
+        "covered_scope": "The named EAP/EPOG online route or local TAPP route as stated; the two credit thresholds are not interchangeable."
       },
       "selection_method": {
         "value": "Consortium reviews the dossier and preselects applicants for interviews by videoconference in March 2027; results expected at the end of March. The local UniTo profile separately describes a 15-minute Zoom TAPP, without an annual label.",
@@ -74465,7 +74500,8 @@
         "answer": "yes",
         "missing_components": [
           "Exact accepted-test score list and exemptions"
-        ]
+        ],
+        "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
       },
       "admission_test": {
         "value": "The committee may require online tests or interviews; shortlisted candidates have a final online interview. A named standard test and test date are Not confirmed.",
@@ -74490,7 +74526,8 @@
         "answer": "conditional",
         "missing_components": [
           "A named standard test and test date"
-        ]
+        ],
+        "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
       },
       "selection_method": {
         "value": "Committee assessment of academic performance in country context, subject alignment and CV; possible online tests/interviews followed by a final online interview for shortlisted candidates.",

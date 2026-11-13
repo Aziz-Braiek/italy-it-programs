@@ -73,7 +73,8 @@
         },
         "missing_components": [
           "university/programme-specific Universitaly deadline"
-        ]
+        ],
+        "covered_scope": "Only the university-published visa/insurance guidance and national visa-applicant rule; programme admission criteria are not established."
       },
       "documents": {
         "value": "Not confirmed",
@@ -144,7 +145,8 @@
           "programme-specific 2027/28 visa/arrival deadline",
           "future university office-procedure changes",
           "university-specific permit application timetable"
-        ]
+        ],
+        "covered_scope": "Only the university-published visa/insurance guidance and national visa-applicant rule; programme admission criteria are not established."
       },
       "scholarships": [
         {
@@ -788,7 +790,8 @@
         },
         "missing_components": [
           "university/programme-specific Universitaly deadline"
-        ]
+        ],
+        "covered_scope": "Standard foreign-qualification MSc route only. Italian-qualification admissions and the joint Bocconi route are not covered by this policy."
       },
       "documents": {
         "value": "For standard foreign-qualification MSc applications: official Bachelor/provisional or final-year enrolment document, original transcript, official cumulative GPA statement and CV (maximum two pages). Academic documents are accepted in Italian, English, French or Spanish; other languages need officially signed/stamped translations. Registrar-verifiable official links/QR codes may replace stamps as stated. DoV OR CIMEA Comparability may be requested at any stage; neither is a universal automatic substitute for every document. The exact 2027/28 enrolment apostille/legalisation rules are Not confirmed.",
@@ -815,7 +818,8 @@
         ],
         "missing_components": [
           "The exact 2027/28 enrolment apostille/legalisation rules"
-        ]
+        ],
+        "covered_scope": "Standard foreign-qualification MSc route only. Italian-qualification admissions and the joint Bocconi route are not covered by this policy."
       },
       "regional_dsu": {
         "value": "Polimi administers its own DSU competition, with cash and meal benefits and possible subsidised housing. The published call is 2026/27. Income and merit rules apply; detailed international eligibility and 2027/28 deadlines are Not confirmed.",
@@ -857,7 +861,8 @@
         "missing_components": [
           "programme-specific 2027/28 visa/arrival deadline",
           "future university office-procedure changes"
-        ]
+        ],
+        "covered_scope": "Standard foreign-qualification MSc route only. Italian-qualification admissions and the joint Bocconi route are not covered by this policy."
       },
       "scholarships": [
         {
@@ -888,7 +893,8 @@
           "offer_id": "merit-2027",
           "missing_components": [
             "compatibility with partner/28DIGITAL awards where generic guidance differs from the formal call"
-          ]
+          ],
+          "covered_scope": "Standard foreign-qualification MSc route only. Italian-qualification admissions and the joint Bocconi route are not covered by this policy."
         }
       ],
       "policies": {
@@ -938,7 +944,8 @@
           },
           "missing_components": [
             "programme-specific additional grade restrictions, if any"
-          ]
+          ],
+          "covered_scope": "Standard foreign-qualification MSc route only. Italian-qualification admissions and the joint Bocconi route are not covered by this policy."
         },
         "foreign_msc_background": {
           "value": "The standard foreign-qualification MSc route requires a recognised first-cycle qualification giving access to EQF level 7; the country-specific degree-type rules apply. Assessment is based on the Bachelor’s degree even if a Master’s degree is also held. Current programme-specific subject/sector-credit minima for this 2027/28 route are Not confirmed.",
@@ -967,7 +974,8 @@
           },
           "missing_components": [
             "programme-specific 2027/28 subject/sector-credit minima"
-          ]
+          ],
+          "covered_scope": "Standard foreign-qualification MSc route only. Italian-qualification admissions and the joint Bocconi route are not covered by this policy."
         },
         "foreign_msc_selection": {
           "value": "The standard foreign-qualification MSc process checks eligibility/CGPA and evaluates the Bachelor’s academic documents, not a later Master’s degree. Applicants upload their original transcript, qualifying degree/attendance evidence and required dossier through Online Services. Programme-specific scoring weights, interview policy and admission-exam requirement for 2027/28 are Not confirmed.",
@@ -995,7 +1003,8 @@
             "programme scoring weights",
             "interview policy",
             "programme-specific admission-exam requirement"
-          ]
+          ],
+          "covered_scope": "Standard foreign-qualification MSc route only. Italian-qualification admissions and the joint Bocconi route are not covered by this policy."
         },
         "tuition_2026": {
           "value": "Published 2026/27 ordinary-degree schedule: for 46–74 ECTS, income-based annual amounts range from EUR 157.04 (ISEE up to EUR 22,000) to EUR 3,943.04, with study-plan-credit scaling. Reserved-category non-EU MSc students with a foreign first degree who do not hold an eligible scholarship/DSU award pay the maximum scaled amount; an ISEE reduction must not be promised to that category. The 2027/28 tariff is Not confirmed.",
@@ -1182,7 +1191,8 @@
         },
         "missing_components": [
           "university/programme-specific Universitaly deadline"
-        ]
+        ],
+        "covered_scope": "HySET 2027–29 consortium route only, not ordinary Polito MSc admission or a guaranteed scholarship."
       },
       "documents": {
         "value": "HySET 2027–29 application only: Europass CV, certified Bachelor/degree and transcript copies (or final-year registration/transcripts), two reference letters, a 2–3 minute introduction video, ID/passport, English-test evidence and a photo. Submit electronically; originals/final certificates are requested before enrolment. Exact DoV/CIMEA alternatives, apostille/legalisation and translation substitutions for 2027 entry are Not confirmed.",
@@ -1208,7 +1218,8 @@
         ],
         "missing_components": [
           "Exact DoV/CIMEA alternatives, apostille/legalisation and translation substitutions for 2027 entry"
-        ]
+        ],
+        "covered_scope": "HySET 2027–29 consortium route only, not ordinary Polito MSc admission or a guaranteed scholarship."
       },
       "regional_dsu": {
         "value": "EDISU Piemonte: scholarship and accommodation competition for Piedmont university students. International students without SPID/CIE can request a Temporary Access Code; foreign-family financial/consular documents and possible translation/apostille exemptions follow the call. The ordinary-degree 2026/27 application deadline was 4 Sep 2026 at 12:00. 2027/28 terms are Not confirmed.",
@@ -2154,7 +2165,8 @@
         ],
         "missing_components": [
           "A university-wide deadline for other programmes"
-        ]
+        ],
+        "covered_scope": "Mechatronics Engineering 2027/28 only; programme-specific conditions must not be extended to other Tor Vergata courses."
       },
       "documents": {
         "value": "For Mechatronics: passport/ID, scientific CV on the official form, Bachelor certificate/GPA if awarded, transcripts with dates and grades, thesis excerpt if available, and route-specific English proof/GRE. Pending graduates provide expected graduation date and remaining exams. General DoV/CIMEA alternatives and apostille/translation substitutions: Not confirmed.",
@@ -2180,7 +2192,8 @@
         ],
         "missing_components": [
           "General DoV/CIMEA alternatives and apostille/translation substitutions"
-        ]
+        ],
+        "covered_scope": "Mechatronics Engineering 2027/28 only; programme-specific conditions must not be extended to other Tor Vergata courses."
       },
       "regional_dsu": {
         "value": "DiSCo Lazio administers the 2026/27 regional scholarship, housing, meal and mobility competition for institutions registered in Lazio. First application deadline: 22 July 2026 at 12:00. The precise foreign-student documentary conditions and 2027/28 call are Not confirmed.",
@@ -2221,7 +2234,8 @@
         ],
         "missing_components": [
           "Permit timing"
-        ]
+        ],
+        "covered_scope": "Mechatronics Engineering 2027/28 only; programme-specific conditions must not be extended to other Tor Vergata courses."
       },
       "scholarships": [
         {
@@ -2491,7 +2505,8 @@
         },
         "missing_components": [
           "university/programme-specific Universitaly deadline"
-        ]
+        ],
+        "covered_scope": "The named Buddhism and Asian Religions programme and the stated foreign-qualification or scholarship conditions only."
       },
       "documents": {
         "value": "Not confirmed",
@@ -4453,7 +4468,8 @@
         },
         "missing_components": [
           "university/programme-specific Universitaly deadline"
-        ]
+        ],
+        "covered_scope": "Only the named GrEnFIn, CLE, BBS or 28DIGITAL route stated above; these admission and fee routes are distinct."
       },
       "documents": {
         "value": "GrEnFIn: qualifying-degree/transcript documents, language proof and the dossier specified by the call; translation/authenticity/value are checked where required, and originals are verified later. For degrees from China/India/Vietnam, UniBo can accept APS as authenticity evidence; another authenticity proof accepted by UniBo can also satisfy LMU enrolment, but a German visa authority may still request APS. CLE: mandatory ID/passport, qualifying-degree/transcript evidence (Italian/English translation), and route-specific language proof; CV, motivation and references are additional funding documents, not universally mandatory for course admission. For the 28DIGITAL track: 28DIGITAL application only: degree certificate and stamped transcript in original language AND English; authorised translation where the university does not provide it. Final-year applicants provide a degree-administration statement. Also upload English proof, CV, a motivation letter (maximum two pages) and colour ID; GPA/rank statement and video are optional. Present original degree/transcript before enrolment. Specific countries require direct registrar/HEC documentation. One email-receipt paragraph still gives 2026 dates while postal instructions give 2027; those receipt deadlines need clarification. Italian DoV/CIMEA and apostille substitutions are Not confirmed. University-wide DoV/CIMEA substitution rules are Not confirmed.",
@@ -4488,7 +4504,8 @@
         "missing_components": [
           "Italian DoV/CIMEA and apostille substitutions",
           "University-wide DoV/CIMEA substitution rules"
-        ]
+        ],
+        "covered_scope": "Only the named GrEnFIn, CLE, BBS or 28DIGITAL route stated above; these admission and fee routes are distinct."
       },
       "regional_dsu": {
         "value": "ER.GO is the regional right-to-study body. The 2027/28 GrEnFIn call points to its separate annual scholarship, housing and catering competition; exact 2027/28 thresholds and deadline are Not confirmed. BBS Professional Masters explicitly state that ER.GO/DSU aid does not apply to them.",
@@ -4514,7 +4531,8 @@
         },
         "missing_components": [
           "exact 2027/28 thresholds and deadline"
-        ]
+        ],
+        "covered_scope": "Only the named GrEnFIn, CLE, BBS or 28DIGITAL route stated above; these admission and fee routes are distinct."
       },
       "visa_permit": {
         "value": "Not confirmed",
@@ -4609,7 +4627,8 @@
           "missing_components": [
             "track/partner-specific waiver eligibility where the published wording differs",
             "compatibility with another award where a partner call restricts combination"
-          ]
+          ],
+          "covered_scope": "Only the named GrEnFIn, CLE, BBS or 28DIGITAL route stated above; these admission and fee routes are distinct."
         },
         {
           "value": "GrEnFIn 2027/28: up to 18 full Erasmus Mundus scholarships, for the best-ranked applicants worldwide, calculated at EUR 1,400/month for the actual study period. Covers travel, visa, installation and subsistence costs. Apply through the programme selection; scholarship interview and programme deadlines apply.",
@@ -5352,7 +5371,8 @@
         },
         "missing_components": [
           "university/programme-specific Universitaly deadline"
-        ]
+        ],
+        "covered_scope": "Software: Science and Technology admission, or the stated non-EU/foreign-qualification university procedure; each published country/test condition still applies."
       },
       "documents": {
         "value": "Florence’s published non-EU/foreign-qualification MSc route requires passport, study visa, residence-permit application receipts, Admission Document, bachelor certificate and transcript in the original language, legalised or apostilled. For recognition it states Declaration of Value OR CIMEA verification + comparability certificates. English, French or Spanish documents do not need an official Italian translation; other languages do. The pre-enrolment dossier additionally lists a photograph and the course’s English proof. Country-specific legalisation exemptions and final 2027/28 checklist changes are Not confirmed.",
@@ -5382,7 +5402,8 @@
         "missing_components": [
           "country-specific legalisation/apostille exemptions",
           "final 2027/28 university checklist changes"
-        ]
+        ],
+        "covered_scope": "Software: Science and Technology admission, or the stated non-EU/foreign-qualification university procedure; each published country/test condition still applies."
       },
       "regional_dsu": {
         "value": "DSU Toscana is the regional right-to-study body. Its captured scholarship/accommodation notice is 2026/27; exact international eligibility, amount and all 2027/28 terms are Not confirmed.",
@@ -5427,7 +5448,8 @@
         "missing_components": [
           "programme-specific 2027/28 visa/arrival deadline",
           "future university office-procedure changes"
-        ]
+        ],
+        "covered_scope": "Software: Science and Technology admission, or the stated non-EU/foreign-qualification university procedure; each published country/test condition still applies."
       },
       "scholarships": [
         {
@@ -6531,7 +6553,8 @@
         },
         "missing_components": [
           "university/programme-specific Universitaly deadline"
-        ]
+        ],
+        "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
       },
       "documents": {
         "value": "For the English-course international application profiles reviewed: qualifying diploma and transcript in English or Italian, or official translations with verified copies; bring originals for enrolment. No legalised documents are required at application stage. Admission may require original, translated/legalised qualifications later. The precise DoV/CIMEA alternatives and apostille exemptions for each country remain Not confirmed.",
@@ -6589,7 +6612,8 @@
         ],
         "missing_components": [
           "The precise DoV/CIMEA alternatives and apostille exemptions for each country"
-        ]
+        ],
+        "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
       },
       "regional_dsu": {
         "value": "2026/27 Veneto regional study grants are administered by the University of Padua; ESU Padova is separately referenced for accommodation/services. The university requires the Uniweb concession request and ISEE/ISEE-equivalent documentation. International eligibility must satisfy the annual call; the exact 2027/28 terms are Not confirmed.",
@@ -6757,7 +6781,8 @@
           },
           "missing_components": [
             "The precise subject/sector-credit thresholds for this programme"
-          ]
+          ],
+          "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
         },
         "country_grade_masters_2027": {
           "value": "The official country-entry table is explicitly valid for 27/28. Minimum GPA depends on the country and type of the qualifying degree, not citizenship. Examples from its Master’s column: Afghanistan 75/100; Albania 7/10; Algeria 11/20; India 70/100 (or the explicitly listed alternatives 7/10, 5.6/8, 2.8/4); Pakistan 3.3/4. These examples do not replace the full table or qualification-length rules. Unlisted countries may still apply; the Admissions & Welcome Unit decides qualification eligibility. Any additional programme-specific grade threshold is Not confirmed.",
@@ -6780,7 +6805,8 @@
           },
           "missing_components": [
             "additional programme-specific GPA threshold, if any"
-          ]
+          ],
+          "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
         },
         "country_grade_bachelors_2027": {
           "value": "The 27/28 country-entry table sets secondary-qualification requirements by education system. Examples from its Bachelor’s/single-cycle column: Albania requires a minimum average grade of 6.5 for the specified Maturës/Pjekurie qualification; Algeria requires a Baccalauréat examination average of at least 10. These are country-specific entry-title minima, not a universal grade or a substitute for the programme admission test/ranking. A programme-specific grade threshold is Not confirmed.",
@@ -6803,7 +6829,8 @@
           },
           "missing_components": [
             "programme-specific grade threshold, if any"
-          ]
+          ],
+          "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
         }
       }
     }
@@ -7748,7 +7775,8 @@
         },
         "missing_components": [
           "university/programme-specific Universitaly deadline"
-        ]
+        ],
+        "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
       },
       "documents": {
         "value": "For the Engineering/Cybersecurity international calls: qualifying degree (or current transcripts if graduating), transcript translated into English/Italian, passport, CV and the route-specific B2 proof, uploaded as PDFs. The 2027/28 DoV/CIMEA substitution rules and apostille/legalisation conditions are Not confirmed.",
@@ -7779,7 +7807,8 @@
         ],
         "missing_components": [
           "The 2027/28 DoV/CIMEA substitution rules and apostille/legalisation conditions"
-        ]
+        ],
+        "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
       },
       "regional_dsu": {
         "value": "DSU Toscana (Agenzia Regionale Diritto allo Studio Universitario) is named as the regional support body for these international MSc applicants. Accommodation, meals and tuition exemption are mentioned; 2027/28 award amounts, detailed eligibility and deadline are Not confirmed.",
@@ -7816,7 +7845,8 @@
         ],
         "missing_components": [
           "2027/28 award amounts, detailed eligibility and deadline"
-        ]
+        ],
+        "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
       },
       "visa_permit": {
         "value": "The university warns that visa processing may take weeks or months and that it cannot liaise with embassies/consulates on an applicant’s behalf. Admission precedes Universitaly; final enrolment follows the visa. Permit details and a universal visa deadline are Not confirmed.",
@@ -7850,7 +7880,8 @@
         ],
         "missing_components": [
           "Permit details and a universal visa deadline"
-        ]
+        ],
+        "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
       },
       "scholarships": [
         {
@@ -7890,7 +7921,8 @@
           ],
           "missing_components": [
             "Amount, application route and award deadline"
-          ]
+          ],
+          "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
         },
         {
           "value": "DSU Toscana publishes a scholarship and accommodation call for 2026/27. The detailed applicable amount, international income-document conditions and 2027/28 call have not been verified here; follow the official DSU call.",
@@ -7963,7 +7995,8 @@
             "CLI assessment dates"
           ],
           "answer": "yes",
-          "short_value": "B2 certificate for visa validation; MOI not accepted"
+          "short_value": "B2 certificate for visa validation; MOI not accepted",
+          "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
         }
       }
     }
@@ -8609,7 +8642,8 @@
         },
         "missing_components": [
           "university/programme-specific Universitaly deadline"
-        ]
+        ],
+        "covered_scope": "The named EAP/EPOG online route or local TAPP route as stated; the two credit thresholds are not interchangeable."
       },
       "documents": {
         "value": "For the EAP/EPOG 2027/28 online route: full CV; relevant diploma (at least 180 ECTS) or final-year sworn expected-graduation statement; all higher-education transcripts; English proof; statement of purpose (maximum 500 words); two references; passport (EU ID accepted); residence proof/sworn statement for scholarship applicants. Original-language academic documents need English translations. Unofficial translations can be uploaded initially, but official/certified translations are required after pre-selection. The page also names June 10 as a certified-translation deadline without a year. Torino-specific DoV/CIMEA and apostille substitutions are Not confirmed.",
@@ -8637,7 +8671,8 @@
         ],
         "program_ids": [
           "discovered-038"
-        ]
+        ],
+        "covered_scope": "The named EAP/EPOG online route or local TAPP route as stated; the two credit thresholds are not interchangeable."
       },
       "regional_dsu": {
         "value": "EDISU Piemonte: scholarship and accommodation competition for Piedmont university students. International students without SPID/CIE can request a Temporary Access Code; foreign-family financial/consular documents and possible translation/apostille exemptions follow the call. The ordinary-degree 2026/27 application deadline was 4 Sep 2026 at 12:00. 2027/28 terms are Not confirmed.",
@@ -8685,7 +8720,8 @@
         "missing_components": [
           "programme-specific 2027/28 visa/arrival deadline",
           "future university office-procedure changes"
-        ]
+        ],
+        "covered_scope": "The named EAP/EPOG online route or local TAPP route as stated; the two credit thresholds are not interchangeable."
       },
       "scholarships": [
         {
@@ -8958,7 +8994,8 @@
         },
         "missing_components": [
           "university/programme-specific Universitaly deadline"
-        ]
+        ],
+        "covered_scope": "The named 28DIGITAL track/partner conditions only; ordinary UniTrento fee and admission routes are separate."
       },
       "documents": {
         "value": "28DIGITAL application only: degree certificate and stamped transcript in original language AND English; authorised translation where the university does not provide it. Final-year applicants provide a degree-administration statement. Also upload English proof, CV, a motivation letter (maximum two pages) and colour ID; GPA/rank statement and video are optional. Present original degree/transcript before enrolment. Specific countries require direct registrar/HEC documentation. One email-receipt paragraph still gives 2026 dates while postal instructions give 2027; those receipt deadlines need clarification. Italian DoV/CIMEA and apostille substitutions are Not confirmed.",
@@ -8993,7 +9030,8 @@
         ],
         "missing_components": [
           "Italian DoV/CIMEA and apostille substitutions"
-        ]
+        ],
+        "covered_scope": "The named 28DIGITAL track/partner conditions only; ordinary UniTrento fee and admission routes are separate."
       },
       "regional_dsu": {
         "value": "Opera Universitaria publishes the regional right-to-study benefits. In 2026/27, scholarship/fee-waiver applications were due 7 Sep 2026; new accommodation applications 19 Aug 2026. Income/merit conditions apply; international and 28DIGITAL mobility-specific eligibility for 2027/28 is Not confirmed.",
@@ -9038,7 +9076,8 @@
         "missing_components": [
           "programme-specific 2027/28 visa/arrival deadline",
           "future university office-procedure changes"
-        ]
+        ],
+        "covered_scope": "The named 28DIGITAL track/partner conditions only; ordinary UniTrento fee and admission routes are separate."
       },
       "scholarships": [
         {
@@ -9077,7 +9116,8 @@
           "missing_components": [
             "track/partner-specific waiver eligibility where the published wording differs",
             "compatibility with another award where a partner call restricts combination"
-          ]
+          ],
+          "covered_scope": "The named 28DIGITAL track/partner conditions only; ordinary UniTrento fee and admission routes are separate."
         }
       ],
       "policies": {

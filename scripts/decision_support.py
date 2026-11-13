@@ -153,6 +153,8 @@ def validate_fact(fact, location):
     if known:
         if 'missing_components' in fact and (not isinstance(fact['missing_components'], list) or any(not isinstance(item, str) or not item.strip() for item in fact['missing_components'])):
             raise ValueError(f"Missing components must be named explicitly: {location}")
+        if is_current(fact) and fact.get('missing_components') and not fact.get('covered_scope'):
+            raise ValueError(f"Partly confirmed field must name its covered route/components: {location}")
         if is_current(fact) and re.search(r"not confirmed|\bTBD\b|forthcoming|not yet published|not stated|does not specify|needs clarification|seek clarification", value, re.I) and not fact.get("missing_components"):
             raise ValueError(f"Partly resolved field lacks named missing components: {location}")
         if fact.get("evidence_scope") == "degree_structure":
