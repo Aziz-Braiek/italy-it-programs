@@ -370,3 +370,10 @@ th { background: #f6f8fa; color: #425168; font-size: .77rem; text-transform: upp
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
 }
+
+.application-state { display: flex; flex-wrap: wrap; gap: .4rem; margin: .8rem 0; }
+.program-context { border-left: 3px solid var(--green); padding-left: .8rem; }
+.previous-cycle { border: 1px dashed var(--muted); border-left: 3px solid var(--muted); border-radius: 8px; padding: 1rem; margin: 1rem 0; font-size: .85rem; overflow-wrap: anywhere; }
+.previous-cycle > strong { display: block; }
+.previous-cycle p { margin: .65rem 0; }
+.previous-cycle ul { padding-left: 1.2rem; }

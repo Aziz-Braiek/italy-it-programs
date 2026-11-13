@@ -1444,6 +1444,8 @@ def build():
             source.update(research_final_refresh.SOURCE_RECHECKS[source["id"]])
     # Factual audit corrections are evidence-linked and check exact old values.
     independent_audit_corrections.apply(uni_rows, programs, SOURCES)
+    import site_data_cleanup
+    site_data_cleanup.apply(uni_rows, programs)
     verified = [p for p in programs if p["overall_status"] == "CONFIRMED"]
     level_counts = Counter(p["level"]["value"] for p in verified)
     fully_verified_count = len(verified)

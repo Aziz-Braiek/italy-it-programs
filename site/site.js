@@ -135,7 +135,8 @@
     const names = { q: "query", level: "level", university: "university", city: "city", language: "language", field: "field", status: "status", deadline: "deadline", tuition: "tuition", scholarship: "scholarship", sort: "sort" };
     Object.entries(names).forEach(([param, key]) => {
       const control = filters[key];
-      const value = params.get(param);
+      const raw = params.get(param);
+      const value = param === "sort" && raw === "recommended" ? "availability" : raw;
       if (control && value && Array.from(control.options || []).some((option) => option.value.toLowerCase() === value.toLowerCase())) control.value = value;
       else if (control && value && control.tagName === "INPUT") control.value = value;
     });
@@ -187,7 +188,7 @@
   }
 
   function sortCards(result) {
-    const sort = filters.sort?.value || "recommended";
+    const sort = filters.sort?.value || "availability";
     const getName = (card) => $("h3", card)?.textContent?.trim() || "";
     const getUniversity = (card) => card.querySelector(".card-title-row .eyebrow")?.textContent?.split("·")[0]?.trim() || "";
     result.sort((a, b) => {
@@ -208,7 +209,7 @@
     const params = new URLSearchParams();
     const controls = { q: filters.query, level: filters.level, university: filters.university, city: filters.city, language: filters.language, field: filters.field, status: filters.status, deadline: filters.deadline, tuition: filters.tuition, scholarship: filters.scholarship, sort: filters.sort };
     Object.entries(controls).forEach(([param, control]) => {
-      if (control?.value) params.set(param, control.value);
+      if (control?.value && !(param === "sort" && control.value === "availability")) params.set(param, control.value);
     });
     if (filters.pending?.checked) params.set("pending", "1");
     if (showFavorites) params.set("favorites", "1");
@@ -255,6 +256,7 @@
   });
   $("#clear-filters")?.addEventListener("click", () => {
     Object.values(filters).forEach((control) => { if (control) control.value = ""; });
+    if (filters.sort) filters.sort.value = "availability";
     if (filters.pending) filters.pending.checked = false;
     showFavorites = false;
     $("#show-favorites")?.setAttribute("aria-pressed", "false");

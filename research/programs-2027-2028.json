@@ -1131,7 +1131,7 @@
     "city": "Milan",
     "program": "Aerospace Engineering",
     "level": {
-      "value": "MSc lead unresolved",
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
         "SRC-POLIMI-AERONAUTICAL-2026"
@@ -1139,7 +1139,7 @@
       "notes": "Do not map the generic tracker MSc name onto Aeronautical Engineering, Space Engineering or the separate Aerospace Engineering BSc without evidence. The programme identity and 2027/28 availability remain unresolved."
     },
     "language": {
-      "value": "Unresolved",
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [
         "SRC-POLIMI-AERONAUTICAL-2026"
@@ -1270,8 +1270,8 @@
       "label": "Previous tracker generic Aerospace Engineering MSc name; exact official programme identity not established."
     },
     "previous_cycle_tags": {
-      "level": "MSc lead unresolved",
-      "language": "Unresolved",
+      "level": null,
+      "language": null,
       "field": "Aerospace Engineering",
       "cycle": "2026-2027",
       "label": "Official prior-cycle profile/catalogue; not evidence of 2027/28 first-year availability"
@@ -41343,7 +41343,7 @@
       "notes": null
     },
     "language": {
-      "value": "REQUIRES_VERIFICATION",
+      "value": null,
       "status": "REQUIRES_VERIFICATION",
       "source_ids": [],
       "notes": null

@@ -1,0 +1,33 @@
+{
+  "checked_at": "2026-11-13",
+  "scope": "Italy; international-student program records across all fields",
+  "university_admissions": {
+    "politecnico-torino": "https://www.polito.it/en/education/applying-studying-graduating/admissions-and-enrolment",
+    "tor-vergata": "https://web.uniroma2.it/en/percorso/admissions"
+  },
+  "degree_admissions": {
+    "politecnico-torino": {
+      "MSc": "SRC-POLITO-MSC-ADMISSIONS-2026"
+    }
+  },
+  "programs": {
+    "legacy-002": {
+      "primary_source_id": "AUDIT-BOCCONI-CYBER-INTERNATIONAL-2027",
+      "note": "Joint Polimi–Bocconi degree. Bocconi administers the application rounds shown here; international and Italian bachelor's qualifications follow separate routes.",
+      "evidence_source_ids": [
+        "AUDIT-BOCCONI-CYBER-INTERNATIONAL-2027",
+        "AUDIT-BOCCONI-MSC-ROUNDS-2027"
+      ]
+    },
+    "legacy-095": {
+      "primary_source_id": "SRC-ROMA2-COMPUTER-SCIENCE-MSC-2026",
+      "note": "The official Computer Science profile supports course identity, not a published 2027/28 intake. Current admissions remain unconfirmed."
+    },
+    "discovered-022": {
+      "primary_source_id": "SRC-UNIGE-CORES-2027"
+    },
+    "legacy-028": {
+      "primary_source_id": "SRC-UNIBO-BBS-GREEN-MGMT-2026"
+    }
+  }
+}

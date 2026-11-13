@@ -86,7 +86,7 @@ try {
   await page.locator("#sort-by").selectOption("program");
   const sortedNames = await page.locator(".program-card:not([hidden]) h3").allTextContents();
   assert.deepEqual(sortedNames, [...sortedNames].sort((a, b) => a.localeCompare(b)), "program-name sorting is alphabetic");
-  await page.locator("#sort-by").selectOption("recommended");
+  await page.locator("#sort-by").selectOption("availability");
 
   const firstCard = page.locator(".program-card:not([hidden])").first();
   const firstProgramName = (await firstCard.locator("h3").textContent())?.trim() || "";

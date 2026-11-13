@@ -67,7 +67,9 @@ try {
   const page = await context.newPage();
   page.on("console", (message) => { if (message.type() === "error") consoleErrors.push(message.text()); });
   page.on("pageerror", (error) => pageErrors.push(error.message));
-  await page.goto(baseUrl, { waitUntil: "networkidle" });
+  await page.goto(`${baseUrl}/?sort=recommended`, { waitUntil: "networkidle" });
+  assert.equal(await page.locator("#sort-by").inputValue(), "availability", "legacy recommended links map to the documented availability ordering");
+  assert.equal(new URL(page.url()).searchParams.has("sort"), false, "default sorting normalizes to a clean URL");
   await page.waitForFunction((count) => document.querySelector("#result-count")?.textContent.includes(`${count} programs`), confirmedPrograms);
   assert.equal(await page.locator(".program-card:not([hidden])").count(), 18, "enhanced results are paginated");
   assert.equal(await page.locator(".program-card:not([hidden])[data-status='CONFIRMED']").count(), 18, "pending candidates are not initially mixed into confirmed offers");

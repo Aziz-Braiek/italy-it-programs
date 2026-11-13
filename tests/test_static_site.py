@@ -4,6 +4,9 @@ import importlib.util
 import json
 import re
 import unittest
+from copy import deepcopy
+from datetime import date
+from unittest.mock import patch
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urlparse
@@ -74,7 +77,7 @@ class StaticSiteTests(unittest.TestCase):
         page_text = "".join(parsed.text)
         for record in self.programs:
             self.assertIn(f'id="program-{record["id"]}"', homepage)
-            self.assertIn(record["program"], page_text)
+            self.assertIn(BUILD.public_text(record["program"]), page_text)
         for item in self.universities:
             self.assertIn(item["name"], [attrs.get("data-name") for attrs in universities])
         self.assertNotIn("Loading program records", homepage)
@@ -232,6 +235,86 @@ class StaticSiteTests(unittest.TestCase):
         source = next(s for s in BUILD.SOURCES if s["id"] == "SRC-SAPIENZA-MOVEIN-REQUIREMENTS-2026")
         self.assertTrue(source["url"].endswith("academic_requirements_movein_2026-2027_web.pdf"))
         self.assertNotIn("_web_1.pdf", source["url"])
+
+    def test_scope_metadata_and_legacy_sort_name(self) -> None:
+        home = read("index.html")
+        self.assertIn("Italy University Tracker 2027/28 | International Programs", home)
+        for path in ("index.html", "about/index.html", "methodology/index.html"):
+            self.assertNotRegex(read(path), r"IT (?:degrees|programs|study)|information-technology study")
+        self.assertIn("all fields", home)
+        self.assertIn('value="availability"', home)
+        self.assertNotIn('value="recommended"', home)
+        self.assertIn("then university name, then program name", read("methodology/index.html"))
+
+    def test_visible_sentinel_and_degree_link_lints(self) -> None:
+        for text in ("REQUIRES_VERIFICATION", "NOT_YET_PUBLISHED", "Unresolved", "unresolved", "REQUIRES_<b>VERIFICATION</b>"):
+            with self.assertRaises(ValueError, msg=text):
+                BUILD.lint_visible_text(f"<p>{text}</p>")
+        BUILD.lint_visible_text('<p data-status="REQUIRES_VERIFICATION">Not confirmed</p><script>const x="REQUIRES_VERIFICATION";</script>')
+        for document in DIST.rglob("*.html"):
+            BUILD.lint_visible_text(document.read_text(encoding="utf-8"), str(document))
+        for level, wrong in (("MSc", "bachelor-s-degree-programmes"), ("BSc", "master-s-degree-programmes")):
+            record = {"id": "lint-fixture", "level": {"value": level}}
+            with self.assertRaises(ValueError):
+                BUILD.lint_degree_link(record, f"https://example.edu/{wrong}/")
+        BUILD.lint_degree_link({"id": "shared-parent", "level": {"value": "MSc"}}, "https://example.edu/bachelors-and-masters-degree-programs/second-cycle-degree-course/computer-engineering")
+
+    def test_course_source_links_and_joint_degree_context(self) -> None:
+        programs = {p["id"]: p for p in self.programs}
+        url, label = BUILD.primary_official_link(programs["legacy-095"])
+        self.assertIn("computer_science-93169", url)
+        self.assertEqual(label, "Official program source")
+        for p in self.programs:
+            url, _ = BUILD.primary_official_link(p)
+            BUILD.lint_degree_link(p, url)
+            if p["university_id"] == "politecnico-torino" and BUILD.verified_or_previous(p, "level")[0] == "MSc":
+                card = BUILD.program_card(p)
+                self.assertIn("University master’s admissions page", card)
+                self.assertNotIn("bachelor-s-degree-programmes", card)
+        self.assertIn("Joint Polimi–Bocconi degree", read("programs/legacy-002/index.html"))
+        self.assertIn("Bocconi administers", read("programs/legacy-002/index.html"))
+        self.assertIsNone(programs["discovered-022"]["language"]["value"])
+        self.assertIn("Language: Not confirmed", BUILD.program_card(programs["discovered-022"]))
+        self.assertIn("Degree: Not confirmed", BUILD.program_card(programs["legacy-007"]))
+
+    def test_application_badges_require_confirmed_scope_and_opening(self) -> None:
+        record = {"id": "date-fixture", "overall_status": "CONFIRMED", "facts": {"application_windows": {"status": "CONFIRMED", "source_ids": ["SRC-PISA-CALL-2027"], "value": [{"start": "2026-11-01", "end": "2026-11-15", "eligible_group": "Non-EU abroad"}]}}}
+        with patch.object(BUILD, "TODAY", date(2026, 11, 13)):
+            self.assertIn("Applications open · Non-EU abroad", BUILD.application_badges(record))
+            self.assertIn("Deadline known", BUILD.application_badges(record))
+            with patch.object(BUILD, "TODAY", date(2026, 11, 15)):
+                self.assertNotIn("Applications open", BUILD.application_badges(record), "unknown closing times must not imply an open round on its last day")
+            del record["facts"]["application_windows"]["value"][0]["start"]
+            self.assertNotIn("Applications open", BUILD.application_badges(record))
+            self.assertIn("Deadline known", BUILD.application_badges(record))
+            record["overall_status"] = "REQUIRES_VERIFICATION"
+            self.assertNotIn("Program confirmed", BUILD.application_badges(record))
+            self.assertNotIn("Applications open", BUILD.application_badges(record))
+            record["overall_status"] = "CONFIRMED"
+            record["facts"]["application_windows"].update(value=None, status="CONFLICTING_SOURCES")
+            self.assertIn("need clarification", BUILD.application_badges(record))
+            record["facts"]["application_windows"]["status"] = "NOT_YET_PUBLISHED"
+            self.assertIn("Deadline not yet published", BUILD.application_badges(record))
+
+    def test_previous_dates_never_feed_sort_or_calendar(self) -> None:
+        record = deepcopy(next(p for p in self.programs if p["id"] == "legacy-011"))
+        with patch.object(BUILD, "TODAY", date(2026, 11, 13)):
+            historical = BUILD.previous_cycle_dates(record)
+            self.assertIn("Previous cycle (estimate only, not a confirmed 2027/28 date)", historical)
+            self.assertIn("2026-11-17", historical)
+            self.assertIn("2026/27", historical)
+            self.assertIn("EU applicants and non-EU applicants residing in Italy", historical)
+            self.assertEqual(BUILD.date_candidates(record), [])
+            self.assertEqual(BUILD.deadline_display(record), "")
+            attrs = BUILD.program_data_attrs(record)
+            self.assertIn('data-deadline=""', attrs)
+            self.assertIn('data-deadlines="[]"', attrs)
+            self.assertNotIn("2026-11-17", attrs)
+            visa_applicant = next(p for p in self.programs if p["id"] == "legacy-058")
+            self.assertIn("2026-04-30", BUILD.previous_cycle_dates(visa_applicant), "visa-applicant admissions are distinct from the later visa process")
+            record["overall_status"] = "CONFIRMED"
+            record["facts"]["application_deadline"] = {"value": {"date": "2026-11-12"}, "status": "CONFIRMED", "source_ids": ["SRC-PISA-CALL-2027"]}
+            self.assertEqual(BUILD.previous_cycle_dates(record), "", "an expired current-cycle deadline is not a missing deadline")
 
 
 if __name__ == "__main__":

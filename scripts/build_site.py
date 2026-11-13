@@ -12,15 +12,17 @@ import struct
 import sys
 import zlib
 from datetime import date, datetime
+from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any
-from urllib.parse import quote
+from urllib.parse import quote, unquote, urlsplit
+from zoneinfo import ZoneInfo
 
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "dist"
 BASE = "https://italy-it-programs.vercel.app"
-TODAY = date.today()
+TODAY = datetime.now(ZoneInfo("Europe/Rome")).date()
 CURRENT_CYCLE = "2027-2028"
 sys.stdout.reconfigure(encoding="utf-8")
 
@@ -33,6 +35,7 @@ def read_json(name: str) -> Any:
 PROGRAMS = read_json("programs-2027-2028.json")
 UNIVERSITIES = read_json("universities-2027-2028.json")
 SOURCES = read_json("sources.json")
+PRESENTATION = read_json("site-presentation.json")
 UNIVERSITY_BY_ID = {item["id"]: item for item in UNIVERSITIES}
 SOURCE_BY_ID = {item["id"]: item for item in SOURCES}
 PROGRAMS_BY_UNIVERSITY: dict[str, list[dict[str, Any]]] = {}
@@ -47,7 +50,9 @@ def esc(value: Any) -> str:
 def public_text(value: Any) -> str:
     """Normalize current-year formatting without changing the research file."""
     text = str(value)
-    return re.sub(r"2027(?:–|-|/)2028|2027–28", "2027/28", text)
+    text = re.sub(r"2027(?:–|-|/)2028|2027–28", "2027/28", text)
+    text = re.sub(r"\bunresolved\b", "Not confirmed", text, flags=re.I)
+    return re.sub(r"\b[A-Z][A-Z0-9]*(?:_[A-Z0-9]+)+\b", lambda m: status_label(m[0]) if m[0] in {"REQUIRES_VERIFICATION", "NOT_YET_PUBLISHED", "CONFLICTING_SOURCES", "NOT_APPLICABLE"} else m[0].replace("_", " ").capitalize(), text)
 
 
 def plain(value: Any) -> str:
@@ -228,7 +233,7 @@ def fact_cards(facts: dict[str, Any]) -> str:
     return "".join(cards) if cards else '<p class="muted">No program-specific admissions details are confirmed yet.</p>'
 
 
-def date_candidates(program: dict[str, Any]) -> list[tuple[str, dict[str, Any], str]]:
+def date_candidates(program: dict[str, Any], *, include_past: bool = False) -> list[tuple[str, dict[str, Any], str]]:
     candidates = []
     if program.get("overall_status") != "CONFIRMED":
         return candidates
@@ -257,7 +262,7 @@ def date_candidates(program: dict[str, Any]) -> list[tuple[str, dict[str, Any], 
                 date.fromisoformat(str(end)[:10])
             except ValueError:
                 continue
-            if date.fromisoformat(str(end)[:10]) < TODAY:
+            if not include_past and date.fromisoformat(str(end)[:10]) < TODAY:
                 continue
             candidates.append((str(end)[:10], row, key))
     return sorted(candidates, key=lambda entry: entry[0])
@@ -286,6 +291,156 @@ def has_current_fact(program: dict[str, Any], keys: tuple[str, ...]) -> bool:
         and CURRENT_CYCLE in record_source_cycles(fact.get("source_ids"))
         for key in keys
     )
+
+
+def primary_official_link(program: dict[str, Any]) -> tuple[str, str]:
+    """Prefer an existing course-specific source; never invent a course URL."""
+    override = PRESENTATION["programs"].get(program["id"], {}).get("primary_source_id")
+    if override:
+        return SOURCE_BY_ID[override]["url"], "Official program source"
+    core_ids = [sid for key in ("level", "language", "field") for sid in (program.get(key) or {}).get("source_ids", [])]
+    candidates = list(dict.fromkeys(core_ids + all_program_source_ids(program)))
+    name = re.sub(r"\s+", " ", program.get("program", "").casefold()).split(" (")[0]
+    for sid in candidates:
+        source = SOURCE_BY_ID.get(sid, {})
+        title = source.get("title", "").casefold()
+        kind = source.get("source_type", "").casefold()
+        if not source.get("url") or (source.get("url_check") or {}).get("http_status") in {404, 410}:
+            continue
+        specific = any(word in kind for word in ("course profile", "program page", "programme profile", "programme page")) or "profile" in title
+        named = len(name) >= 8 and name in title
+        if specific or named:
+            return source["url"], "Official program source"
+    uni = UNIVERSITY_BY_ID.get(program["university_id"], {})
+    level, _ = verified_or_previous(program, "level")
+    degree_source = PRESENTATION.get("degree_admissions", {}).get(program["university_id"], {}).get(level)
+    if degree_source:
+        return SOURCE_BY_ID[degree_source]["url"], "University admissions page"
+    return uni.get("international_admissions_url") or uni.get("official_website", ""), "University admissions page"
+
+
+def lint_degree_link(program: dict[str, Any], url: str) -> None:
+    level, _ = verified_or_previous(program, "level")
+    path = unquote(urlsplit(url).path).casefold()
+    # Shared catalogue parents name both levels; the specific child route controls.
+    path = re.sub(r"bachelors?-and-masters?(?:-degree-programs)?", "catalogue", path)
+    bachelor_path = re.search(r"bachelor|first[-_/ ]cycle|laurea[-_]triennale", path)
+    master_path = re.search(r"master|second[-_/ ]cycle|laurea[-_]magistrale", path)
+    if (level == "MSc" and bachelor_path) or (level == "BSc" and master_path):
+        raise ValueError(f"Degree/link mismatch: {program['id']} ({level}) -> {url}")
+
+
+class VisibleTextLint(HTMLParser):
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.ignored = 0
+        self.chunks = []
+
+    def handle_starttag(self, tag, attrs):
+        if tag in {"script", "style"}:
+            self.ignored += 1
+
+    def handle_endtag(self, tag):
+        if tag in {"script", "style"}:
+            self.ignored -= 1
+
+    def handle_data(self, data):
+        if not self.ignored:
+            self.chunks.append(data)
+
+
+def lint_visible_text(document: str, path: str = "document") -> None:
+    parser = VisibleTextLint()
+    parser.feed(document)
+    # Join inline fragments so markup cannot hide a sentinel from this check.
+    text = "".join(parser.chunks)
+    match = re.search(r"\b[A-Z][A-Z0-9]*(?:_[A-Z0-9]+)+\b", text)
+    unresolved = re.search(r"\bunresolved\b", text, re.I)
+    if match or unresolved:
+        raise ValueError(f"UI-visible internal value in {path}: {(match or unresolved)[0]}")
+
+
+def application_badges(program: dict[str, Any]) -> str:
+    if program.get("overall_status") == "NOT_APPLICABLE":
+        return '<div class="application-state"><span class="tag">Applications: Not offered</span></div>'
+    if program.get("overall_status") != "CONFIRMED":
+        return '<div class="application-state"><span class="tag">Applications: Not confirmed</span></div>'
+    badges = ['<span class="tag">Program confirmed</span>']
+    dates = date_candidates(program)
+    # Both boundaries must be known. A deadline alone never implies applications are open.
+    open_rows = []
+    for end, row, _ in dates:
+        start = row.get("start")
+        try:
+            # Date-only closing days are conservative: the unspecified closing time may have passed.
+            if start and date.fromisoformat(str(start)[:10]) <= TODAY < date.fromisoformat(end):
+                open_rows.append(row)
+        except ValueError:
+            pass
+    if open_rows:
+        scope = open_rows[0].get("eligible_group") or open_rows[0].get("applies_to")
+        badges.append(f'<span class="tag tag-date">Applications open{esc(" · " + str(scope)) if scope else " · specified round"}</span>')
+    if dates:
+        badges.append('<span class="tag">Deadline known</span>')
+    else:
+        facts = program.get("facts") or {}
+        date_facts = [facts[k] for k in ("application_deadline", "application_windows", "application_windows_2027_2028") if isinstance(facts.get(k), dict)]
+        if any(f.get("status") == "CONFLICTING_SOURCES" for f in date_facts):
+            label = "Application dates need clarification"
+        elif date_candidates(program, include_past=True):
+            label = "Published application deadlines passed"
+        elif any(f.get("status") == "NOT_YET_PUBLISHED" for f in date_facts):
+            label = "Deadline not yet published"
+        else:
+            label = "Deadline: Not confirmed"
+        badges.append(f'<span class="tag">{label}</span>')
+    return '<div class="application-state">' + "".join(badges) + f'<small class="muted">Date status as of {TODAY.isoformat()} (Italy)</small></div>'
+
+
+def previous_cycle_dates(program: dict[str, Any]) -> str:
+    if date_candidates(program, include_past=True):
+        return ""
+    rows = []
+
+    def collect(value, path=""):
+        # Visa-applicant *admissions* deadlines are application dates; keep them.
+        # Only the later visa/pre-enrolment process and unrelated milestones are excluded.
+        if re.search(r"enrol|universitaly|national_visa|consular|result|interview|ranking|qualifying_degree|documents", path, re.I):
+            return
+        if isinstance(value, dict):
+            scope = value.get("eligible_group") or value.get("applies_to") or value.get("eligibility") or value.get("description")
+            if scope:
+                path = f"{path} ({scope})"
+            for key, item in value.items():
+                collect(item, f"{path} / {key}".strip(" /"))
+        elif isinstance(value, list):
+            if len(value) == 2 and all(isinstance(v, str) and re.match(r"^\d{4}-\d{2}-\d{2}", v) for v in value):
+                rows.append((path, " – ".join(value)))
+            else:
+                for i, item in enumerate(value, 1):
+                    collect(item, f"{path} / Round {i}".strip(" /"))
+        elif isinstance(value, str) and re.match(r"^\d{4}-\d{2}-\d{2}", value) and re.search(r"deadline|closing|(?:^| / )end$|extension_to$", path, re.I):
+            rows.append((path, value))
+
+    blocks = []
+    for key, fact in (program.get("facts") or {}).items():
+        if not key.startswith(("previous_cycle", "historical", "prior_cycle")) or not re.search(r"application_(?:windows|deadline)", key):
+            continue
+        if fact.get("status") != "CONFIRMED":
+            continue
+        rows.clear()
+        collect(fact.get("value"))
+        if not rows:
+            continue
+        dates = "".join(f'<li>{esc(public_text(label.replace("_", " ")))}: <strong>{esc(value)}</strong></li>' for label, value in rows)
+        note = f'<p>{esc(public_text(fact["notes"]))}</p>' if fact.get("notes") else ""
+        value = fact.get("value")
+        cycle = value.get("academic_year") if isinstance(value, dict) else None
+        cycle = cycle or ", ".join(sorted(record_source_cycles(fact.get("source_ids"))))
+        blocks.append(f'<p>Evidence cycle: {esc(cycle or "Earlier cycle")}</p><ul>{dates}</ul>{note}{source_links(fact.get("source_ids"))}')
+    if not blocks:
+        return ""
+    return '<aside class="previous-cycle"><strong>Previous cycle (estimate only, not a confirmed 2027/28 date)</strong><p>Original dates and applicant scope are retained; no date has been projected into 2027/28.</p>' + "".join(blocks) + '</aside>'
 
 
 def program_data_attrs(program: dict[str, Any]) -> str:
@@ -354,10 +509,8 @@ def program_card(program: dict[str, Any], *, detailed: bool = False) -> str:
         # Avoid presenting historical profile values as current course facts.
         pass
     tags = []
-    if level:
-        tags.append(f'<span class="tag">{"Degree" if level_current else "Earlier listing"}: {esc(level)}</span>')
-    if language:
-        tags.append(f'<span class="tag">{"Language" if language_current else "Earlier listing"}: {esc(language)}</span>')
+    tags.append(f'<span class="tag">{"Degree" if level_current or not level else "Earlier listing: Degree"}: {esc(level or "Not confirmed")}</span>')
+    tags.append(f'<span class="tag">{"Language" if language_current or not language else "Earlier listing: Language"}: {esc(language or "Not confirmed")}</span>')
     if field:
         tags.append(f'<span class="tag">{"Field" if field_current else "Earlier listing"}: {esc(field)}</span>')
     deadline = deadline_display(program)
@@ -365,13 +518,22 @@ def program_card(program: dict[str, Any], *, detailed: bool = False) -> str:
         tags.append(f'<span class="tag tag-date">Next confirmed date: {esc(deadline)}</span>')
     header = (
         f'<div class="card-title-row"><div><p class="eyebrow">{esc(uni.get("name", program.get("university", "")))} · '
-        f'{esc(program.get("city") or uni.get("city", ""))}</p><h3><a href="/programs/{quote(program["id"], safe="")}/">{esc(program.get("program", "Program title unavailable"))}</a></h3></div>'
+        f'{esc(program.get("city") or uni.get("city", ""))}</p><h3><a href="/programs/{quote(program["id"], safe="")}/">{esc(public_text(program.get("program", "Program title unavailable")))}</a></h3></div>'
         f'<span class="status status-{status_class}" data-status-copy="{esc(program.get("overall_status", ""))}">{esc(status_text)}</span></div>'
     )
     detail_content = f'<p class="card-summary">{esc(summary)}</p>'
-    official = uni.get("international_admissions_url") or uni.get("official_website")
+    presentation = PRESENTATION["programs"].get(program["id"], {})
+    if presentation.get("note"):
+        detail_content += f'<p class="program-context">{esc(presentation["note"])}</p>'
+    official, link_label = primary_official_link(program)
+    lint_degree_link(program, official)
     if official:
-        detail_content += f'<p class="official-link"><a href="{esc(official)}" target="_blank" rel="noopener noreferrer">University admissions page <span aria-hidden="true">↗</span></a></p>'
+        detail_content += f'<p class="official-link"><a href="{esc(official)}" target="_blank" rel="noopener noreferrer">{link_label} <span aria-hidden="true">↗</span></a></p>'
+    degree_source = PRESENTATION.get("degree_admissions", {}).get(program["university_id"], {}).get(level)
+    if degree_source and SOURCE_BY_ID[degree_source]["url"] != official:
+        lint_degree_link(program, SOURCE_BY_ID[degree_source]["url"])
+        detail_content += f'<p class="official-link"><a href="{esc(SOURCE_BY_ID[degree_source]["url"])}" target="_blank" rel="noopener noreferrer">University master’s admissions page ↗</a></p>'
+    detail_content += previous_cycle_dates(program)
     if detailed:
         detail_content += (
             '<div class="detail-fields"><h2>Admissions information</h2>'
@@ -395,7 +557,7 @@ def program_card(program: dict[str, Any], *, detailed: bool = False) -> str:
         attrs = attrs.replace('data-program-card="" ', "")
     return (
         f'<article class="program-card" id="program-{esc(program["id"])}" {attrs}>'
-        f'{header}<div class="tag-row">{"".join(tags)}</div>{detail_content}</article>'
+        f'{header}<div class="tag-row">{"".join(tags)}</div>{application_badges(program)}{detail_content}</article>'
     )
 
 
@@ -431,7 +593,7 @@ def university_card(university: dict[str, Any], *, detailed: bool = False) -> st
         note = f'<p class="research-summary">{esc(status_note)}</p>'
         programs = '<section class="university-programs"><h2>Programs in this tracker</h2>'
         programs += '<div class="program-list">' + "".join(
-            f'<article><a href="/programs/{quote(p["id"], safe="")}/">{esc(p.get("program", "Program"))}</a>'
+            f'<article><a href="/programs/{quote(p["id"], safe="")}/">{esc(public_text(p.get("program", "Program")))}</a>'
             f'<span class="status status-{record_status(p.get("overall_status", ""))[1]}" data-status-copy="{esc(p.get("overall_status", ""))}">{esc(record_status(p.get("overall_status", ""))[0])}</span></article>'
             for p in sorted(rows, key=lambda item: (item.get("overall_status") != "CONFIRMED", item.get("program", "").casefold()))
         ) + '</div></section>'
@@ -454,7 +616,7 @@ def nav() -> str:
 
 
 def footer() -> str:
-    return '''<footer class="site-footer"><div class="footer-grid"><div><a class="brand footer-brand" href="/"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>Italy University<br><strong>Tracker</strong></span></a><p>Independent research for international applicants exploring IT degrees in Italy.</p></div><div><h2 data-i18n="footerExplore">Explore</h2><a href="/#programs">Programs</a><a href="/#universities">Universities</a><a href="/guide/">Application guide</a></div><div><h2 data-i18n="footerAbout">About this site</h2><a href="/about/">Scope and disclaimer</a><a href="/methodology/">Methodology</a><a href="/updates/">Review updates</a><a href="https://github.com/Aziz-Braiek/italy-it-programs/issues/new?template=correction.yml&amp;title=Correction%3A" target="_blank" rel="noopener noreferrer">Report a correction ↗</a></div></div><p class="footer-note">This independent tracker is not affiliated with Italian universities or government agencies. It is a research aid, not an application or immigration portal. Always follow the official notice for your program and applicant category.</p><p class="back-to-top"><a href="#top">Back to top ↑</a></p></footer>'''
+    return '''<footer class="site-footer"><div class="footer-grid"><div><a class="brand footer-brand" href="/"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>Italy University<br><strong>Tracker</strong></span></a><p>Independent research for international applicants exploring programs across all fields at Italian universities.</p></div><div><h2 data-i18n="footerExplore">Explore</h2><a href="/#programs">Programs</a><a href="/#universities">Universities</a><a href="/guide/">Application guide</a></div><div><h2 data-i18n="footerAbout">About this site</h2><a href="/about/">Scope and disclaimer</a><a href="/methodology/">Methodology</a><a href="/updates/">Review updates</a><a href="https://github.com/Aziz-Braiek/italy-it-programs/issues/new?template=correction.yml&amp;title=Correction%3A" target="_blank" rel="noopener noreferrer">Report a correction ↗</a></div></div><p class="footer-note">This independent tracker is not affiliated with Italian universities or government agencies. It is a research aid, not an application or immigration portal. Always follow the official notice for your program and applicant category.</p><p class="back-to-top"><a href="#top">Back to top ↑</a></p></footer>'''
 
 
 def global_tools() -> str:
@@ -462,6 +624,7 @@ def global_tools() -> str:
 
 
 def page(title: str, description: str, body: str, *, path: str = "/", noindex: bool = False, dataset_schema: bool = False) -> str:
+    title, description = public_text(title), public_text(description)
     canonical = BASE + path
     robots_meta = '<meta name="robots" content="noindex,follow">' if noindex else '<meta name="robots" content="index,follow,max-image-preview:large">'
     schema = ""
@@ -470,7 +633,7 @@ def page(title: str, description: str, body: str, *, path: str = "/", noindex: b
             "@context": "https://schema.org",
             "@type": "Dataset",
             "name": "Italy University Tracker 2027/28 program research",
-            "description": "A source-linked research dataset of international IT program listings at 34 selected Italian universities. Availability is marked per record; pending historical leads are not shown as confirmed offers.",
+            "description": "A source-linked research dataset of international-student program listings across all fields at 34 selected Italian universities. Availability is marked per record; pending historical leads are not shown as confirmed offers.",
             "inLanguage": "en",
             "dateModified": TODAY.isoformat(),
             "url": canonical,
@@ -499,17 +662,17 @@ def homepage() -> str:
 <label class="filter-control"><span>Application dates</span><select id="filter-deadline"><option value="">Any date status</option><option value="known">Confirmed future date</option><option value="pending">No confirmed future date</option></select></label>
 <label class="filter-control"><span>Tuition information</span><select id="filter-tuition"><option value="">Any</option><option value="documented">2027/28 amount documented</option><option value="pending">No confirmed amount</option></select></label>
 <label class="filter-control"><span>Scholarship information</span><select id="filter-scholarship"><option value="">Any</option><option value="documented">2027/28 information documented</option><option value="pending">No confirmed details</option></select></label>
-<label class="filter-control"><span>Sort by</span><select id="sort-by"><option value="recommended">Confirmed availability first</option><option value="deadline">Next confirmed deadline</option><option value="university">University name</option><option value="program">Program name</option></select></label>
+<label class="filter-control"><span>Sort by</span><select id="sort-by"><option value="availability">Confirmed availability first</option><option value="deadline">Next confirmed deadline</option><option value="university">University name</option><option value="program">Program name</option></select></label>
 <div class="filter-actions"><label class="check-control"><input id="include-pending" type="checkbox"><span>Show programs awaiting confirmation</span></label><button class="text-button" type="button" id="show-favorites" aria-pressed="false">Saved programs</button><button class="text-button" type="button" id="clear-filters">Clear filters</button></div>
 </div></details>'''
     cards = "".join(program_card(program) for program in PROGRAMS)
     university_cards = "".join(university_card(university) for university in sorted(UNIVERSITIES, key=lambda u:u["name"]))
-    body = f'''<section class="hero"><div class="hero-inner"><div class="hero-copy"><p class="eyebrow light">INTERNATIONAL STUDENTS · ACADEMIC YEAR 2027/28</p><h1>Find your next step<br><span>in Italy.</span></h1><p class="hero-lede">Explore source-linked IT degree information at a curated group of Italian universities. See what is confirmed for 2027/28 and what is still waiting for an official update.</p><div class="hero-actions"><a class="button button-primary" href="#programs">Explore programs <span aria-hidden="true">↓</span></a><a class="button button-ghost" href="#universities">Browse universities</a></div><p class="hero-reviewed">Latest program review: {esc(reviewed_display)}</p></div><div class="hero-card"><p class="eyebrow">AT A GLANCE</p><div class="hero-stat"><strong>{len(UNIVERSITIES)}</strong><span>selected universities<br><small>from the earlier tracker scope</small></span></div><div class="hero-stat"><strong>{len(PROGRAMS)}</strong><span>program records<br><small>historical leads and new finds</small></span></div><div class="hero-stat"><strong>{confirmed}</strong><span>available for 2027/28<br><small>official core details verified</small></span></div><div class="hero-stat"><strong>{pending}</strong><span>awaiting confirmation<br><small>not current admission offers</small></span></div></div></div><div class="hero-orbit" aria-hidden="true"></div></section>
+    body = f'''<section class="hero"><div class="hero-inner"><div class="hero-copy"><p class="eyebrow light">INTERNATIONAL STUDENTS · ACADEMIC YEAR 2027/28</p><h1>Find your next step<br><span>in Italy.</span></h1><p class="hero-lede">Explore source-linked program information across all fields at a curated group of Italian universities. See what is confirmed for 2027/28 and what is still waiting for an official update.</p><div class="hero-actions"><a class="button button-primary" href="#programs">Explore programs <span aria-hidden="true">↓</span></a><a class="button button-ghost" href="#universities">Browse universities</a></div><p class="hero-reviewed">Latest program review: {esc(reviewed_display)}</p></div><div class="hero-card"><p class="eyebrow">AT A GLANCE</p><div class="hero-stat"><strong>{len(UNIVERSITIES)}</strong><span>selected universities<br><small>from the earlier tracker scope</small></span></div><div class="hero-stat"><strong>{len(PROGRAMS)}</strong><span>program records<br><small>historical leads and new finds</small></span></div><div class="hero-stat"><strong>{confirmed}</strong><span>available for 2027/28<br><small>official core details verified</small></span></div><div class="hero-stat"><strong>{pending}</strong><span>awaiting confirmation<br><small>not current admission offers</small></span></div></div></div><div class="hero-orbit" aria-hidden="true"></div></section>
 <section class="notice-band" aria-labelledby="notice-title"><div class="notice-icon" aria-hidden="true">i</div><div><h2 id="notice-title">Many 2027/28 calls are still being published</h2><p>{pending} program entries are waiting for program-specific confirmation. Earlier course listings can help you decide what to investigate, but they do not confirm a new intake. We add a current-year status only when the cited official evidence supports it.</p></div><a href="/methodology/">How statuses work <span aria-hidden="true">→</span></a></section>
 <section class="section directory-section" id="programs"><div class="section-heading"><div><p class="eyebrow">SEARCH THE TRACKER</p><h2>Programs</h2><p>Filter by degree, location and admissions information. Save options on this device or share a filtered search.</p></div><div class="directory-tools"><button class="small-button" type="button" id="export-csv">Download shortlist CSV</button><button class="small-button" type="button" id="export-ics">Add confirmed deadlines to calendar</button></div></div><div class="status-legend" aria-label="Program status legend"><span><i class="legend-dot dot-confirmed"></i><strong>Available:</strong> official 2027/28 program evidence found</span><span><i class="legend-dot dot-pending"></i><strong>Awaiting confirmation:</strong> current intake not confirmed</span><span><i class="legend-dot dot-unavailable"></i><strong>Not offered:</strong> official evidence says no 2027/28 intake</span></div>{filter_html}<p class="result-count" id="result-count" aria-live="polite" aria-atomic="true">{len(PROGRAMS)} program records. Turn on “Show programs awaiting confirmation” to include pending entries after filtering.</p><noscript><p class="noscript-note">All {len(PROGRAMS)} program records are included below with their status. Use your browser’s find command to search. Interactive filters, saved programs and comparison need JavaScript.</p></noscript><div class="program-grid" id="program-grid">{cards}</div><div class="pagination" id="pagination" aria-label="Program result pages"><button class="small-button" id="page-previous" type="button">Previous</button><span id="page-summary" aria-live="polite"></span><button class="small-button" id="page-next" type="button">Next</button></div></section>
 <section class="section university-section" id="universities"><div class="section-heading"><div><p class="eyebrow">INSTITUTION DIRECTORY</p><h2>Universities in this tracker</h2><p>This is a selected set carried forward from the original tracker—not a complete list of Italian universities.</p></div></div><label class="university-search"><span>Search universities by name or location</span><input type="search" id="university-search" placeholder="Type a university, city, or region" autocomplete="off"></label><p class="result-count" id="university-count" aria-live="polite">{len(UNIVERSITIES)} universities</p><div class="university-grid" id="university-grid">{university_cards}</div><p class="empty-state" id="university-empty" hidden>No universities match this search.</p></section>
 <section class="guide-cta"><div><p class="eyebrow light">PLAN WITH OFFICIAL SOURCES</p><h2>New to applying in Italy?</h2><p>Start with a plain-language guide to university calls, international procedures, documents, costs and arrival steps.</p></div><a class="button button-primary" href="/guide/">Read the application guide <span aria-hidden="true">→</span></a></section>'''
-    return page("Italy University Tracker 2027/28 | International IT Programs", f"Explore {len(PROGRAMS)} source-linked program records at {len(UNIVERSITIES)} selected Italian universities. See what is confirmed for 2027/28, compare options and follow official admissions sources.", body, dataset_schema=True)
+    return page("Italy University Tracker 2027/28 | International Programs", f"Explore {len(PROGRAMS)} source-linked program records at {len(UNIVERSITIES)} selected Italian universities. Explore all fields; see what is confirmed for 2027/28, compare options and follow official admissions sources.", body, dataset_schema=True)
 
 
 def guide_page() -> str:
@@ -529,7 +692,7 @@ def guide_page() -> str:
 
 def about_page() -> str:
     available_count = sum(program.get("overall_status") == "CONFIRMED" for program in PROGRAMS)
-    body = '''<section class="page-hero"><p class="eyebrow light">ABOUT THE TRACKER</p><h1>A focused guide to IT study in Italy</h1><p>Independent, source-linked research to help international students explore selected IT degrees and find the university information that matters next.</p></section><article class="prose narrow"><h2>What is in scope?</h2><p>The tracker follows a curated group of 34 universities carried forward from an earlier information-technology program tracker. It is not a directory of all Italian universities, and it does not cover every degree, institution type or language of instruction in Italy.</p><p>The word “IT” refers to information-technology study. Program records include computing and adjacent technology fields represented in the underlying research data.</p><h2>What this site can and cannot tell you</h2><p>Program entries point to official sources and separate current-cycle evidence from earlier listings and information that is still pending. The count of 23 records marked available means official 2027/28 evidence was found for the core program details; it is not a count of admissions decisions or a promise that every applicant is eligible.</p><p>This site is not an application portal, university service, government service or immigration adviser. It is not affiliated with the listed universities or Italian government agencies. Universities and relevant public authorities make admissions, qualification, funding and visa decisions.</p><h2>How to report an issue</h2><p>Each correction report is submitted as a GitHub issue with the program or university, the suggested correction and an official source. Reports are reviewed before changes are made. Please do not submit private documents or sensitive personal information.</p><p><a class="button button-primary" href="https://github.com/Aziz-Braiek/italy-it-programs/issues/new?template=correction.yml&amp;title=Correction%3A" target="_blank" rel="noopener noreferrer">Report a correction ↗</a></p><p>For detailed status definitions, source handling and counting rules, read the <a href="/methodology/">methodology</a>.</p></article>'''
+    body = '''<section class="page-hero"><p class="eyebrow light">ABOUT THE TRACKER</p><h1>Explore university study in Italy</h1><p>Independent, source-linked research to help international students explore selected programs across all fields and find the university information that matters next.</p></section><article class="prose narrow"><h2>What is in scope?</h2><p>The tracker follows a curated group of 34 universities carried forward from the earlier Italy university tracker. It is not a directory of all Italian universities, and it does not cover every degree, institution type or language of instruction in Italy.</p><p>“Italy” describes the country covered by this tracker. Program records span all fields represented in the underlying research, including humanities, sciences, medicine, business and engineering. Use the field-of-study filter to explore your interests.</p><h2>What this site can and cannot tell you</h2><p>Program entries point to official sources and separate current-cycle evidence from earlier listings and information that is still pending. The count of 23 records marked available means official 2027/28 evidence was found for the core program details; it is not a count of admissions decisions or a promise that every applicant is eligible.</p><p>This site is not an application portal, university service, government service or immigration adviser. It is not affiliated with the listed universities or Italian government agencies. Universities and relevant public authorities make admissions, qualification, funding and visa decisions.</p><h2>How to report an issue</h2><p>Each correction report is submitted as a GitHub issue with the program or university, the suggested correction and an official source. Reports are reviewed before changes are made. Please do not submit private documents or sensitive personal information.</p><p><a class="button button-primary" href="https://github.com/Aziz-Braiek/italy-it-programs/issues/new?template=correction.yml&amp;title=Correction%3A" target="_blank" rel="noopener noreferrer">Report a correction ↗</a></p><p>For detailed status definitions, source handling and counting rules, read the <a href="/methodology/">methodology</a>.</p></article>'''
     body = body.replace("group of 34 universities", f"group of {len(UNIVERSITIES)} universities")
     body = body.replace("count of 23 records", f"count of {available_count} records")
     return page("About | Italy University Tracker 2027/28", "The Italy University Tracker covers a selected set of 34 Italian institutions and explains the scope and limits of its information.", body, path="/about/")
@@ -548,11 +711,11 @@ def methodology_page() -> str:
         f'<li><strong>{len(PROGRAMS)} program records:</strong> prior tracker leads plus newer discoveries; some may be historical or still awaiting confirmation.</li>'
         f'<li><strong>{status_counts["confirmed"]} available:</strong> records whose overall status is CONFIRMED for 2027/28 with official core evidence.</li>'
         f'<li><strong>{status_counts["pending"]} awaiting confirmation:</strong> records that still need current-cycle verification or a published call.</li>'
-        f'<li><strong>{status_counts["conflicting"]} sources needing review:</strong> records with unresolved conflicts in official evidence.</li>'
+        f'<li><strong>{status_counts["conflicting"]} sources needing review:</strong> records with conflicts needing clarification in official evidence.</li>'
         f'<li><strong>{status_counts["unavailable"]} without a current offer found:</strong> records with no current offer evidence.</li>'
         f'<li><strong>{status_counts["not_offered"]} not offered:</strong> records with official evidence that the program will not run in 2027/28.</li>'
     )
-    body = '''<section class="page-hero"><p class="eyebrow light">TRANSPARENCY</p><h1>How to read the information</h1><p>The public wording is simpler than the underlying research codes, but every status remains tied to the source evidence and review date.</p></section><article class="prose narrow"><h2>Program status</h2><dl class="status-definitions"><dt><span class="status status-confirmed">Available for 2027/28</span></dt><dd>An official source supports the current-cycle program identity and core details. This does not mean a student has been admitted or that all applicant categories are eligible.</dd><dt><span class="status status-pending">Awaiting 2027/28 confirmation</span></dt><dd>The record is a candidate or earlier listing. Current first-year availability has not been confirmed. Do not treat historical course facts as current admission terms.</dd><dt><span class="status status-unavailable">Not offered for 2027/28</span></dt><dd>The reviewed official information says the program will not run for this cycle.</dd></dl><h2>Field-level information</h2><p>A program can be pending while a separate field—such as application dates or fees—is supported by current-cycle evidence. Each field shows whether it is confirmed for 2027/28, remains unconfirmed, has not yet been announced, or comes from earlier-cycle evidence. A date is sorted or exported only if the relevant fact is marked confirmed and supported by a 2027/28 source.</p><h2>Counts</h2><ul><li><strong>34 universities:</strong> institutions in this curated tracker scope.</li><li><strong>193 program records:</strong> prior tracker leads plus newer discoveries; some may be historical or still awaiting confirmation.</li><li><strong>23 available:</strong> records whose overall status is CONFIRMED for 2027/28 with official core evidence.</li><li><strong>167 awaiting confirmation:</strong> program records that do not yet have sufficient current-cycle evidence for the core program identity.</li></ul><p>Counts are record counts, not unique courses or admissions opportunities. Multiple tracks under a shared course may appear separately when official evidence distinguishes them.</p><h2>Sources and review dates</h2><p>Links go to official university, ministry or other cited pages. The source record notes its title, date accessed, cycle and the facts it supports. A “Last reviewed” date shows when that record was last checked; it does not mean every fact changed or that the page remains current after that date.</p><h2>Dates, fees and scholarships</h2><p>The site does not infer missing deadlines, tuition values, scholarship eligibility, acceptance rates or availability. Amounts and dates should be compared only when the same cycle, applicant group and fee basis apply. A university-wide deadline is not assumed to apply to every program.</p><h2>Research limits</h2><p>Coverage is partial. An unlisted program may exist; a missing deadline may have been published after the record was checked; and some official pages may be difficult to access or may change without notice. Please confirm directly with the university before applying.</p><p><a href="/updates/">View recent record review dates</a> · <a href="/about/">Read the site scope</a></p></article>'''
+    body = '''<section class="page-hero"><p class="eyebrow light">TRANSPARENCY</p><h1>How to read the information</h1><p>The public wording is simpler than the underlying research codes, but every status remains tied to the source evidence and review date.</p></section><article class="prose narrow"><h2>Program status</h2><dl class="status-definitions"><dt><span class="status status-confirmed">Available for 2027/28</span></dt><dd>An official source supports the current-cycle program identity and core details. This does not mean a student has been admitted or that all applicant categories are eligible.</dd><dt><span class="status status-pending">Awaiting 2027/28 confirmation</span></dt><dd>The record is a candidate or earlier listing. Current first-year availability has not been confirmed. Do not treat historical course facts as current admission terms.</dd><dt><span class="status status-unavailable">Not offered for 2027/28</span></dt><dd>The reviewed official information says the program will not run for this cycle.</dd></dl><h2>Field-level information</h2><p>A program can be pending while a separate field—such as application dates or fees—is supported by current-cycle evidence. Each field shows whether it is confirmed for 2027/28, remains unconfirmed, has not yet been announced, or comes from earlier-cycle evidence. A date is sorted or exported only if the relevant fact is marked confirmed and supported by a 2027/28 source.</p><h2>Application badges and planning dates</h2><p>Program confirmed describes current-cycle course evidence, not an open application. Applications open requires a confirmed 2027/28 intake and a sourced round with both start and end dates covering the build date in Italy; it applies only to that round and its stated applicant category. A deadline alone does not imply applications are open. Check the official page for changes and exact closing times. Deadline known means a future confirmed application date is recorded. Deadline not yet published is used only when the date field is explicitly marked not yet published; other gaps remain Not confirmed. Conflicting dates are labeled separately.</p><p>Previous-cycle estimates retain the actual earlier dates and applicant scope, with no year shifted forward. They are shown only when no confirmed current-cycle application deadline is recorded. Conflicting or unverified historical dates stay in the detailed evidence; estimates never feed the next confirmed deadline, deadline sort or calendar export.</p><h2>Sorting</h2><p>Confirmed availability first is a deterministic ordering: confirmed records first, then university name, then program name. It is not a personalized recommendation. The URL value is sort=availability; old sort=recommended links map to this same default and are normalized. Next confirmed deadline uses only future, source-supported 2027/28 dates. Records without such a date sort last.</p><h2>Counts</h2><ul><li><strong>34 universities:</strong> institutions in this curated tracker scope.</li><li><strong>193 program records:</strong> prior tracker leads plus newer discoveries; some may be historical or still awaiting confirmation.</li><li><strong>23 available:</strong> records whose overall status is CONFIRMED for 2027/28 with official core evidence.</li><li><strong>167 awaiting confirmation:</strong> program records that do not yet have sufficient current-cycle evidence for the core program identity.</li></ul><p>Counts are record counts, not unique courses or admissions opportunities. Multiple tracks under a shared course may appear separately when official evidence distinguishes them.</p><h2>Sources and review dates</h2><p>Links go to official university, ministry or other cited pages. The source record notes its title, date accessed, cycle and the facts it supports. A “Last reviewed” date shows when that record was last checked; it does not mean every fact changed or that the page remains current after that date.</p><h2>Dates, fees and scholarships</h2><p>The site does not infer missing deadlines, tuition values, scholarship eligibility, acceptance rates or availability. Amounts and dates should be compared only when the same cycle, applicant group and fee basis apply. A university-wide deadline is not assumed to apply to every program.</p><h2>Research limits</h2><p>Coverage is partial. An unlisted program may exist; a missing deadline may have been published after the record was checked; and some official pages may be difficult to access or may change without notice. Please confirm directly with the university before applying.</p><p><a href="/updates/">View recent record review dates</a> · <a href="/about/">Read the site scope</a></p></article>'''
     body = body.replace("<li><strong>34 universities:</strong> institutions in this curated tracker scope.</li><li><strong>193 program records:</strong> prior tracker leads plus newer discoveries; some may be historical or still awaiting confirmation.</li><li><strong>23 available:</strong> records whose overall status is CONFIRMED for 2027/28 with official core evidence.</li><li><strong>167 awaiting confirmation:</strong> program records that do not yet have sufficient current-cycle evidence for the core program identity.</li>", count_items)
     return page("Methodology and Status Definitions | Italy University Tracker", "Definitions for confirmed, pending and unavailable program records, source cycles, dates, tuition and tracker statistics.", body, path="/methodology/")
 
@@ -560,7 +723,7 @@ def methodology_page() -> str:
 def updates_page() -> str:
     reviewed = sorted(PROGRAMS, key=lambda p: p.get("last_checked") or "", reverse=True)[:30]
     rows = "".join(
-        f'<tr><td>{esc(p.get("last_checked") or "—")}</td><td><a href="/programs/{quote(p["id"], safe="")}/">{esc(p.get("program", "Program"))}</a></td><td>{esc(p.get("university", ""))}</td><td><span class="status status-{record_status(p.get("overall_status", ""))[1]}">{esc(record_status(p.get("overall_status", ""))[0])}</span></td></tr>'
+        f'<tr><td>{esc(p.get("last_checked") or "—")}</td><td><a href="/programs/{quote(p["id"], safe="")}/">{esc(public_text(p.get("program", "Program")))}</a></td><td>{esc(p.get("university", ""))}</td><td><span class="status status-{record_status(p.get("overall_status", ""))[1]}">{esc(record_status(p.get("overall_status", ""))[0])}</span></td></tr>'
         for p in reviewed
     )
     body = f'''<section class="page-hero"><p class="eyebrow light">REVIEW ACTIVITY</p><h1>Recent record checks</h1><p>A review date tells you when a record was last checked. It is not a change history and does not guarantee that the university has not published something since then.</p></section><section class="section narrow table-section"><div class="table-scroll"><table><caption>30 most recently reviewed program records</caption><thead><tr><th scope="col">Last checked</th><th scope="col">Program</th><th scope="col">University</th><th scope="col">2027/28 status</th></tr></thead><tbody>{rows}</tbody></table></div><p>We do not yet have a reliable historical snapshot for every individual field, so this page shows review dates rather than claiming a record of changes. <a href="/methodology/">Read the source and status method.</a></p></section>'''
@@ -706,7 +869,7 @@ def write_site() -> None:
         path = f"/universities/{quote(university['id'], safe='')}/"
         body = f'<section class="page-hero"><p class="eyebrow light">{esc(university.get("city", ""))} · {esc(university.get("region", ""))}</p><h1>{esc(university.get("name", "University"))}</h1><p>Official admissions links, program records and source-linked information reviewed for the 2027/28 academic year.</p></section><section class="section detail-page">{university_card(university, detailed=True)}</section>'
         (OUT / "universities" / quote(university["id"], safe="") / "index.html").parent.mkdir(parents=True, exist_ok=True)
-        (OUT / "universities" / quote(university["id"], safe="") / "index.html").write_text(page(f'{university["name"]} 2027/28 | Italy University Tracker', f'International admissions links and IT program records at {university["name"]} in {university.get("city", "Italy")}.', body, path=path), encoding="utf-8")
+        (OUT / "universities" / quote(university["id"], safe="") / "index.html").write_text(page(f'{university["name"]} 2027/28 | Italy University Tracker', f'International admissions links and program records at {university["name"]} in {university.get("city", "Italy")}.', body, path=path), encoding="utf-8")
         indexable_urls.append(path)
     for program in PROGRAMS:
         path = "/programs/" + quote(program["id"], safe="") + "/"
@@ -714,7 +877,7 @@ def write_site() -> None:
         level, current = verified_or_previous(program, "level")
         status_text, _ = record_status(program.get("overall_status", ""))
         subtitle = f'{uni.get("name", program.get("university", ""))} · {program.get("city") or uni.get("city", "")}'
-        body = f'<section class="page-hero"><p class="eyebrow light">{esc(subtitle)}</p><h1>{esc(program.get("program", "Program"))}</h1><p>{esc(level + (" · verified for 2027/28" if current else " · earlier listing")) if level else "Degree level not confirmed"}</p><p><span class="status status-{record_status(program.get("overall_status", ""))[1]}" data-status-copy="{esc(program.get("overall_status", ""))}">{esc(status_text)}</span></p></section><section class="section detail-page">{program_card(program, detailed=True)}<p class="last-checked">Last reviewed: {esc(program.get("last_checked") or "Date not recorded")}</p><p><a href="/universities/{quote(program["university_id"], safe="")}/">See {esc(uni.get("name", "university"))} in the university directory</a></p></section>'
+        body = f'<section class="page-hero"><p class="eyebrow light">{esc(subtitle)}</p><h1>{esc(public_text(program.get("program", "Program")))}</h1><p>{esc(level + (" · verified for 2027/28" if current else " · earlier listing")) if level else "Degree: Not confirmed"}</p><p><span class="status status-{record_status(program.get("overall_status", ""))[1]}" data-status-copy="{esc(program.get("overall_status", ""))}">{esc(status_text)}</span></p></section><section class="section detail-page">{program_card(program, detailed=True)}<p class="last-checked">Last reviewed: {esc(program.get("last_checked") or "Date not recorded")}</p><p><a href="/universities/{quote(program["university_id"], safe="")}/">See {esc(uni.get("name", "university"))} in the university directory</a></p></section>'
         noindex = program.get("overall_status") != "CONFIRMED"
         (OUT / "programs" / quote(program["id"], safe="") / "index.html").parent.mkdir(parents=True, exist_ok=True)
         (OUT / "programs" / quote(program["id"], safe="") / "index.html").write_text(page(f'{program.get("program", "Program")} · {uni.get("name", "University")} 2027/28', f'{status_text} — source-linked admissions information and official sources for {program.get("program", "this program")} at {uni.get("name", "the university")}.', body, path=path, noindex=noindex), encoding="utf-8")
@@ -723,6 +886,8 @@ def write_site() -> None:
     (OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\nDisallow: /data/\nSitemap: {BASE}/sitemap.xml\n", encoding="utf-8")
     sitemap_entries = "\n".join(f"  <url><loc>{BASE}{esc(url)}</loc></url>" for url in indexable_urls)
     (OUT / "sitemap.xml").write_text(f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{sitemap_entries}\n</urlset>\n', encoding="utf-8")
+    for document in sorted(OUT.rglob("*.html")):
+        lint_visible_text(document.read_text(encoding="utf-8"), str(document.relative_to(OUT)))
     print(f"Built {len(PROGRAMS)} program pages, {len(UNIVERSITIES)} university pages, and {len(indexable_urls)} sitemap URLs in {OUT}")
 
 
