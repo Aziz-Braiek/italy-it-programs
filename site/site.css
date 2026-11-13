@@ -392,6 +392,21 @@ th { background: #f6f8fa; color: #425168; font-size: .77rem; text-transform: upp
 .decision-unknown-summary, .decision-conflict-summary { font-size: .8rem; color: var(--muted); margin: .6rem 0; }
 .decision-summary:empty { display: none; }
 .decision-conflict { border-left: 3px solid #d9af62; padding: .7rem 1rem; margin: 1rem 0; overflow-wrap: anywhere; }
+.profile-selector { position: static; margin-bottom: 1rem; max-height: none; overflow: visible; }
+.profile-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.profile-help { grid-column: 1 / -1; color: var(--muted); font-size: .8rem; margin: 0; }
+#profile-status { margin: 0; color: var(--muted); font-size: .8rem; flex: 1 1 18rem; }
+.profile-route-label { color: var(--muted); font-size: .8rem; overflow-wrap: anywhere; }
+.profile-fields { display: grid; gap: .8rem; }
+.profile-other-routes { margin: 1rem 0; overflow-wrap: anywhere; }
+.profile-other-routes > summary, .national-rule > summary { cursor: pointer; color: var(--teal); font-weight: 700; }
+.profile-alternatives { margin: .8rem 0; }
+.has-profile > .application-state, .has-profile > .tag-row .profile-base-deadline { display: none; }
+.profile-current[hidden], .profile-other-routes[hidden] { display: none; }
+@media (max-width: 680px) {
+  .profile-grid { grid-template-columns: 1fr; }
+  #profile-status { flex: initial; }
+}
 .decision-details { margin: 1.5rem 0; }
 .decision-details > dl { display: grid; gap: .8rem; }
 .decision-details p { font-size: .85rem; }

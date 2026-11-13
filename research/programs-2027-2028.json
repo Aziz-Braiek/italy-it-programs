@@ -309,6 +309,33 @@
       "tuition": {
         "university_policy": "tuition_2026"
       }
+    },
+    "applicant_routes": {
+      "prerequisites": [
+        "legacy-001-prerequisites"
+      ],
+      "minimum_grade": [
+        "legacy-001-minimum_grade"
+      ],
+      "english_requirement": [
+        "legacy-001-english_requirement"
+      ],
+      "admission_test": [
+        "legacy-001-admission_test"
+      ],
+      "selection_method": [
+        "legacy-001-selection_method"
+      ],
+      "documents": [
+        "legacy-001-documents-foreign"
+      ],
+      "scholarships": [
+        "legacy-001-scholarships"
+      ],
+      "tuition": [
+        "polimi-2026-income-band"
+      ],
+      "deadline": []
     }
   },
   {
@@ -594,24 +621,34 @@
         "covered_scope": "Joint Bocconi/Polimi Cyber Risk Strategy and Governance only. Italian-qualification and international-qualification pathways have different tests; the standard Polimi MSc route is separate."
       },
       "english_requirement": {
-        "value": "Not confirmed",
-        "cycle_status": "not confirmed",
-        "academic_cycle": null,
-        "source_urls": [],
-        "verified_date": null,
-        "checked_urls": [
-          "https://www.polimi.it/en/education/laurea-magistrale-programmes",
-          "https://www.polimi.it/en/education/laurea-magistrale-programmes/programme-detail/cyber-risk-strategy-and-governance",
-          "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/application/list-of-documents-required-by-the-admissions-office",
-          "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/deadlines",
-          "https://www.polimi.it/en/students/tuition-fees-scholarships-and-financial-aid/tuition-fees",
-          "https://www.polimi.it/fileadmin/user_upload/futuri_studenti/borse-di-studio/Merit_Based_Call_For_Applications_a.y._2027-2028.pdf",
-          "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/admissions",
-          "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/cyber-risk-strategy-and-governance-and-transformative-sustainability",
-          "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/joint-degree-programs-politecnico-di-milano"
+        "value": "For the joint Cyber programme, the foreign-qualification admission page requires an English qualification accepted by Bocconi or Polimi. Polimi’s current accepted-test list includes IELTS 6.0 or TOEFL 78 on the older scale / 4.5 on the new scale. Joint-route waiver acceptance and the Italian-qualification procedure are Not confirmed here.",
+        "cycle_status": "2027/28 confirmed",
+        "academic_cycle": "2027/28",
+        "source_urls": [
+          "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/joint-degree-programs-politecnico-di-milano",
+          "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/application/list-of-documents-required-by-the-admissions-office"
         ],
-        "checked_at": "2026-11-13",
-        "reason": "Applicable English certificate scores, acceptance and waivers are not verified. English teaching language alone does not establish a certificate policy. Reviewed official material does not establish this field for a named applicable cycle. Check the linked pages and program call."
+        "verified_date": "2026-11-13",
+        "evidence_source_ids": [
+          "PROFILE-BOCCONI-JOINT-2027",
+          "SRC-POLIMI-ENGLISH-2027"
+        ],
+        "evidence_sha256": {
+          "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/joint-degree-programs-politecnico-di-milano": "42575c9baafc8f6c07be312337af5843f3f605666729999a3008e091888ffc95",
+          "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/application/list-of-documents-required-by-the-admissions-office": "1e8cc06275fd6e6c42beadc160a2ee6174e08cd8ab3c206610b726250ee31aa0"
+        },
+        "current_cycle_evidence": {
+          "url": "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/joint-degree-programs-politecnico-di-milano",
+          "cycle_marker": "2027/28 explicit applicable programme/cohort context",
+          "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
+        },
+        "missing_components": [
+          "joint-route waiver acceptance",
+          "Italian-qualification route English procedure"
+        ],
+        "covered_scope": "Joint Bocconi/Polimi Cyber MSc foreign-qualification admission/enrolment route; not standard Polimi MSc admission.",
+        "short_value": "Joint foreign route: accepted Bocconi/Polimi English proof; waivers not confirmed",
+        "answer": "conditional"
       },
       "admission_test": {
         "value": "International-qualification applicants require GMAT, GRE or the Bocconi online test. Bocconi/Polimi Bachelor graduates are exempt under the dedicated Italian-qualification route; other Italian-university graduates require a test. Exact test date and GMAT/GRE remote rules: Not confirmed.",
@@ -707,25 +744,60 @@
         "reason": "A reserved non-EU/visa-applicant quota is not verified. A general intake limit is not treated as a non-EU quota. Reviewed official material does not establish this field for a named applicable cycle. Check the linked pages and program call."
       },
       "tuition": {
-        "value": "Not confirmed",
-        "cycle_status": "not confirmed",
-        "academic_cycle": null,
-        "source_urls": [],
-        "verified_date": null,
-        "checked_urls": [
-          "https://www.polimi.it/en/education/laurea-magistrale-programmes",
-          "https://www.polimi.it/en/education/laurea-magistrale-programmes/programme-detail/cyber-risk-strategy-and-governance",
-          "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/application/list-of-documents-required-by-the-admissions-office",
-          "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/deadlines",
-          "https://www.polimi.it/en/students/tuition-fees-scholarships-and-financial-aid/tuition-fees",
-          "https://www.polimi.it/fileadmin/user_upload/futuri_studenti/borse-di-studio/Merit_Based_Call_For_Applications_a.y._2027-2028.pdf",
-          "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/admissions",
-          "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/cyber-risk-strategy-and-governance-and-transformative-sustainability",
+        "value": "Bocconi publishes current 2027/28 ordinary MSc contribution and awarded-funding rules. The full joint Cyber programme annual amount and any partner charge are Not confirmed; consult the structured fee rule and both institutions.",
+        "cycle_status": "2027/28 confirmed",
+        "academic_cycle": "2027/28",
+        "source_urls": [
+          "https://www.unibocconi.it/it/entrare-bocconi/corsi-di-laurea-magistrale/tasse-e-contributi",
           "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/joint-degree-programs-politecnico-di-milano"
         ],
-        "checked_at": "2026-11-13",
-        "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Reviewed official material does not establish this field for a named applicable cycle. Check the linked pages and program call."
+        "verified_date": "2026-11-13",
+        "evidence_source_ids": [
+          "PROFILE-BOCCONI-FEES-2027",
+          "PROFILE-BOCCONI-JOINT-2027"
+        ],
+        "evidence_sha256": {
+          "https://www.unibocconi.it/it/entrare-bocconi/corsi-di-laurea-magistrale/tasse-e-contributi": "75cee69436e768d57d5b7e7b0441ce7144dba97a51d4267e815903a46f34b573",
+          "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/joint-degree-programs-politecnico-di-milano": "42575c9baafc8f6c07be312337af5843f3f605666729999a3008e091888ffc95"
+        },
+        "current_cycle_evidence": {
+          "url": "https://www.unibocconi.it/it/entrare-bocconi/corsi-di-laurea-magistrale/tasse-e-contributi",
+          "cycle_marker": "2027/28 explicit applicable programme/cohort context",
+          "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
+        },
+        "missing_components": [
+          "complete joint Cyber annual fee and any partner charge"
+        ],
+        "covered_scope": "Bocconi first-year 2027/28 MSc ordinary contribution relevant to the joint Cyber route; complete partner/joint fee basis still needs confirmation.",
+        "short_value": "Rule only — complete joint annual amount Not confirmed"
       }
+    },
+    "applicant_routes": {
+      "deadline": [
+        "cyber-joint-foreign-dates",
+        "cyber-joint-italian-dates"
+      ],
+      "english_requirement": [
+        "legacy-002-english_requirement"
+      ],
+      "prerequisites": [
+        "legacy-002-prerequisites"
+      ],
+      "minimum_grade": [
+        "legacy-002-minimum_grade"
+      ],
+      "selection_method": [
+        "legacy-002-selection_method"
+      ],
+      "admission_test": [
+        "cyber-joint-foreign-test"
+      ],
+      "documents": [
+        "cyber-joint-foreign-documents"
+      ],
+      "tuition": [
+        "joint-cyber-bocconi-rule-2027"
+      ]
     }
   },
   {
@@ -1034,7 +1106,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-004",
@@ -1346,6 +1419,33 @@
       "tuition": {
         "university_policy": "tuition_2026"
       }
+    },
+    "applicant_routes": {
+      "prerequisites": [
+        "legacy-004-prerequisites"
+      ],
+      "minimum_grade": [
+        "legacy-004-minimum_grade"
+      ],
+      "english_requirement": [
+        "legacy-004-english_requirement"
+      ],
+      "admission_test": [
+        "legacy-004-admission_test"
+      ],
+      "selection_method": [
+        "legacy-004-selection_method"
+      ],
+      "documents": [
+        "legacy-004-documents-foreign"
+      ],
+      "scholarships": [
+        "legacy-004-scholarships"
+      ],
+      "tuition": [
+        "polimi-2026-income-band"
+      ],
+      "deadline": []
     }
   },
   {
@@ -1660,7 +1760,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-006",
@@ -1974,7 +2075,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-007",
@@ -2283,7 +2385,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-008",
@@ -2609,7 +2712,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-009",
@@ -2930,7 +3034,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-010",
@@ -3256,7 +3361,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-011",
@@ -3630,7 +3736,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-012",
@@ -4004,7 +4111,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-013",
@@ -4378,7 +4486,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-014",
@@ -4751,7 +4860,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-015",
@@ -5124,7 +5234,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-016",
@@ -5497,7 +5608,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-017",
@@ -5870,7 +5982,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-018",
@@ -6243,7 +6356,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-019",
@@ -6495,7 +6609,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-020",
@@ -6791,6 +6906,38 @@
       "tuition": {
         "university_policy": "28digital_tuition"
       }
+    },
+    "applicant_routes": {
+      "deadline": [
+        "unibo-28digital-visa",
+        "unibo-28digital-eu-resident-eu",
+        "unibo-28digital-eu-resident-resident"
+      ],
+      "prerequisites": [
+        "legacy-020-prerequisites"
+      ],
+      "minimum_grade": [
+        "legacy-020-minimum_grade"
+      ],
+      "english_requirement": [
+        "legacy-020-english_requirement"
+      ],
+      "admission_test": [
+        "legacy-020-admission_test"
+      ],
+      "selection_method": [
+        "legacy-020-selection_method"
+      ],
+      "documents": [
+        "28digital-consortium-documents"
+      ],
+      "scholarships": [
+        "legacy-020-scholarships"
+      ],
+      "tuition": [
+        "28digital-non-eu-fixed",
+        "28digital-eu-eea-fixed-partial-ch"
+      ]
     }
   },
   {
@@ -7146,7 +7293,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-022",
@@ -7426,7 +7574,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-023",
@@ -7948,6 +8097,12 @@
         },
         "short_value": "2026/27 formal full fee: EUR 35,000; 2027/28 Not confirmed"
       }
+    },
+    "applicant_routes": {
+      "deadline": [],
+      "tuition": [],
+      "english_requirement": [],
+      "documents": []
     }
   },
   {
@@ -8353,7 +8508,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-025",
@@ -8758,7 +8914,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-026",
@@ -9199,7 +9356,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-027",
@@ -9757,7 +9915,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-028",
@@ -10084,7 +10243,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-029",
@@ -10441,6 +10601,31 @@
         ],
         "reason": "The portal displays EUR 2,950/year without a separately dated tariff, while the official 2026/27 schedule gives different non-EU contributions. No 2027/28 tariff is verified; the displayed amount must not enter confirmed filters."
       }
+    },
+    "applicant_routes": {
+      "deadline": [
+        "legacy-029-deadline-foreign",
+        "legacy-029-deadline-italy-resident"
+      ],
+      "prerequisites": [
+        "legacy-029-prerequisites"
+      ],
+      "minimum_grade": [
+        "legacy-029-minimum_grade"
+      ],
+      "english_requirement": [
+        "legacy-029-english_requirement"
+      ],
+      "admission_test": [
+        "legacy-029-admission_test"
+      ],
+      "selection_method": [
+        "legacy-029-selection_method"
+      ],
+      "documents": [
+        "legacy-029-documents-foreign"
+      ],
+      "tuition": []
     }
   },
   {
@@ -10798,6 +10983,31 @@
         ],
         "reason": "The portal displays EUR 2,950/year without a separately dated tariff, while the official 2026/27 schedule gives different non-EU contributions. No 2027/28 tariff is verified; the displayed amount must not enter confirmed filters."
       }
+    },
+    "applicant_routes": {
+      "deadline": [
+        "legacy-030-deadline-foreign",
+        "legacy-030-deadline-italy-resident"
+      ],
+      "prerequisites": [
+        "legacy-030-prerequisites"
+      ],
+      "minimum_grade": [
+        "legacy-030-minimum_grade"
+      ],
+      "english_requirement": [
+        "legacy-030-english_requirement"
+      ],
+      "admission_test": [
+        "legacy-030-admission_test"
+      ],
+      "selection_method": [
+        "legacy-030-selection_method"
+      ],
+      "documents": [
+        "legacy-030-documents-foreign"
+      ],
+      "tuition": []
     }
   },
   {
@@ -11163,6 +11373,31 @@
         ],
         "reason": "The portal displays EUR 2,950/year without a separately dated tariff, while the official 2026/27 schedule gives different non-EU contributions. No 2027/28 tariff is verified; the displayed amount must not enter confirmed filters."
       }
+    },
+    "applicant_routes": {
+      "deadline": [
+        "legacy-031-deadline-foreign",
+        "legacy-031-deadline-italy-resident"
+      ],
+      "prerequisites": [
+        "legacy-031-prerequisites"
+      ],
+      "minimum_grade": [
+        "legacy-031-minimum_grade"
+      ],
+      "english_requirement": [
+        "legacy-031-english_requirement"
+      ],
+      "admission_test": [
+        "legacy-031-admission_test"
+      ],
+      "selection_method": [
+        "legacy-031-selection_method"
+      ],
+      "documents": [
+        "legacy-031-documents-foreign"
+      ],
+      "tuition": []
     }
   },
   {
@@ -11506,6 +11741,31 @@
         ],
         "reason": "The portal displays EUR 2,950/year without a separately dated tariff, while the official 2026/27 schedule gives different non-EU contributions. No 2027/28 tariff is verified; the displayed amount must not enter confirmed filters."
       }
+    },
+    "applicant_routes": {
+      "deadline": [
+        "legacy-032-deadline-foreign",
+        "legacy-032-deadline-italy-resident"
+      ],
+      "prerequisites": [
+        "legacy-032-prerequisites"
+      ],
+      "minimum_grade": [
+        "legacy-032-minimum_grade"
+      ],
+      "english_requirement": [
+        "legacy-032-english_requirement"
+      ],
+      "admission_test": [
+        "legacy-032-admission_test"
+      ],
+      "selection_method": [
+        "legacy-032-selection_method"
+      ],
+      "documents": [
+        "legacy-032-documents-foreign"
+      ],
+      "tuition": []
     }
   },
   {
@@ -11865,6 +12125,31 @@
         ],
         "reason": "The portal displays EUR 2,950/year without a separately dated tariff, while the official 2026/27 schedule gives different non-EU contributions. No 2027/28 tariff is verified; the displayed amount must not enter confirmed filters."
       }
+    },
+    "applicant_routes": {
+      "deadline": [
+        "legacy-033-deadline-foreign",
+        "legacy-033-deadline-italy-resident"
+      ],
+      "prerequisites": [
+        "legacy-033-prerequisites"
+      ],
+      "minimum_grade": [
+        "legacy-033-minimum_grade"
+      ],
+      "english_requirement": [
+        "legacy-033-english_requirement"
+      ],
+      "admission_test": [
+        "legacy-033-admission_test"
+      ],
+      "selection_method": [
+        "legacy-033-selection_method"
+      ],
+      "documents": [
+        "legacy-033-documents-foreign"
+      ],
+      "tuition": []
     }
   },
   {
@@ -12221,6 +12506,31 @@
         ],
         "reason": "The portal displays EUR 2,950/year without a separately dated tariff, while the official 2026/27 schedule gives different non-EU contributions. No 2027/28 tariff is verified; the displayed amount must not enter confirmed filters."
       }
+    },
+    "applicant_routes": {
+      "deadline": [
+        "legacy-034-deadline-foreign",
+        "legacy-034-deadline-italy-resident"
+      ],
+      "prerequisites": [
+        "legacy-034-prerequisites"
+      ],
+      "minimum_grade": [
+        "legacy-034-minimum_grade"
+      ],
+      "english_requirement": [
+        "legacy-034-english_requirement"
+      ],
+      "admission_test": [
+        "legacy-034-admission_test"
+      ],
+      "selection_method": [
+        "legacy-034-selection_method"
+      ],
+      "documents": [
+        "legacy-034-documents-foreign"
+      ],
+      "tuition": []
     }
   },
   {
@@ -12518,7 +12828,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-036",
@@ -12807,7 +13118,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-037",
@@ -13182,6 +13494,31 @@
         ],
         "reason": "The portal displays EUR 2,950/year without a separately dated tariff, while the official 2026/27 schedule gives different non-EU contributions. No 2027/28 tariff is verified; the displayed amount must not enter confirmed filters."
       }
+    },
+    "applicant_routes": {
+      "deadline": [
+        "legacy-037-deadline-foreign",
+        "legacy-037-deadline-italy-resident"
+      ],
+      "prerequisites": [
+        "legacy-037-prerequisites"
+      ],
+      "minimum_grade": [
+        "legacy-037-minimum_grade"
+      ],
+      "english_requirement": [
+        "legacy-037-english_requirement"
+      ],
+      "admission_test": [
+        "legacy-037-admission_test"
+      ],
+      "selection_method": [
+        "legacy-037-selection_method"
+      ],
+      "documents": [
+        "legacy-037-documents-foreign"
+      ],
+      "tuition": []
     }
   },
   {
@@ -13517,7 +13854,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-039",
@@ -13851,7 +14189,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-040",
@@ -14185,7 +14524,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-041",
@@ -14520,7 +14860,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-042",
@@ -14858,7 +15199,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-043",
@@ -15169,7 +15511,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-044",
@@ -15503,7 +15846,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-045",
@@ -15888,7 +16232,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-046",
@@ -16273,7 +16618,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-047",
@@ -16654,7 +17000,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-048",
@@ -17040,7 +17387,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-049",
@@ -17429,7 +17777,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-050",
@@ -17818,7 +18167,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-051",
@@ -18186,7 +18536,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-052",
@@ -18430,6 +18781,23 @@
       "tuition": {
         "university_policy": "tuition_2026"
       }
+    },
+    "applicant_routes": {
+      "deadline": [
+        "legacy-052-deadline-non-eu",
+        "legacy-052-deadline-eu-resident-eu",
+        "legacy-052-deadline-eu-resident-resident"
+      ],
+      "english_requirement": [
+        "legacy-052-english_requirement"
+      ],
+      "selection_method": [
+        "legacy-052-selection_method"
+      ],
+      "tuition": [
+        "pisa-2026-rule-only"
+      ],
+      "documents": []
     }
   },
   {
@@ -18782,6 +19150,32 @@
       "tuition": {
         "university_policy": "tuition_2026"
       }
+    },
+    "applicant_routes": {
+      "deadline": [
+        "legacy-053-deadline-foreign"
+      ],
+      "prerequisites": [
+        "legacy-053-prerequisites"
+      ],
+      "minimum_grade": [
+        "legacy-053-minimum_grade"
+      ],
+      "admission_test": [
+        "legacy-053-admission_test"
+      ],
+      "selection_method": [
+        "legacy-053-selection_method"
+      ],
+      "english_requirement": [
+        "legacy-053-english_requirement"
+      ],
+      "documents": [
+        "legacy-053-documents-foreign"
+      ],
+      "tuition": [
+        "pisa-2026-rule-only"
+      ]
     }
   },
   {
@@ -19199,6 +19593,32 @@
       "tuition": {
         "university_policy": "tuition_2026"
       }
+    },
+    "applicant_routes": {
+      "deadline": [
+        "legacy-054-deadline-foreign"
+      ],
+      "prerequisites": [
+        "legacy-054-prerequisites"
+      ],
+      "minimum_grade": [
+        "legacy-054-minimum_grade"
+      ],
+      "admission_test": [
+        "legacy-054-admission_test"
+      ],
+      "selection_method": [
+        "legacy-054-selection_method"
+      ],
+      "english_requirement": [
+        "legacy-054-english_requirement"
+      ],
+      "documents": [
+        "legacy-054-documents-foreign"
+      ],
+      "tuition": [
+        "pisa-2026-rule-only"
+      ]
     }
   },
   {
@@ -19443,6 +19863,23 @@
       "tuition": {
         "university_policy": "tuition_2026"
       }
+    },
+    "applicant_routes": {
+      "deadline": [
+        "legacy-055-deadline-non-eu",
+        "legacy-055-deadline-eu-resident-eu",
+        "legacy-055-deadline-eu-resident-resident"
+      ],
+      "english_requirement": [
+        "legacy-055-english_requirement"
+      ],
+      "selection_method": [
+        "legacy-055-selection_method"
+      ],
+      "tuition": [
+        "pisa-2026-rule-only"
+      ],
+      "documents": []
     }
   },
   {
@@ -19696,7 +20133,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-057",
@@ -19982,7 +20420,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-058",
@@ -20382,7 +20821,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-059",
@@ -20834,7 +21274,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-060",
@@ -21247,7 +21688,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-061",
@@ -21685,7 +22127,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-062",
@@ -22089,7 +22532,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-063",
@@ -22489,7 +22933,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-064",
@@ -22879,7 +23324,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-065",
@@ -23284,7 +23730,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-066",
@@ -23680,7 +24127,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-067",
@@ -24069,7 +24517,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-068",
@@ -24468,7 +24917,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-069",
@@ -24859,7 +25309,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-070",
@@ -25268,7 +25719,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-071",
@@ -25655,7 +26107,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-072",
@@ -25881,7 +26334,8 @@
         "checked_at": null,
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. The programme is not offered in 2027/28. No new admissions decision facts are inferred for this record."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-073",
@@ -26329,7 +26783,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-074",
@@ -26705,7 +27160,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-075",
@@ -27087,7 +27543,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-076",
@@ -27357,7 +27814,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-077",
@@ -27534,7 +27992,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. The programme is not offered in 2027/28. No new admissions decision facts are inferred for this record."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-078",
@@ -27964,7 +28423,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-079",
@@ -28292,7 +28752,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-080",
@@ -28678,7 +29139,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-081",
@@ -28930,7 +29392,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-082",
@@ -29173,7 +29636,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-083",
@@ -29478,7 +29942,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-084",
@@ -29762,7 +30227,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-085",
@@ -29993,7 +30459,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-086",
@@ -30259,7 +30726,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-087",
@@ -30523,7 +30991,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-088",
@@ -30942,7 +31411,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-089",
@@ -31355,7 +31825,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-090",
@@ -31906,7 +32377,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-091",
@@ -32384,7 +32856,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-092",
@@ -32874,7 +33347,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-093",
@@ -33330,7 +33804,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-094",
@@ -33806,7 +34281,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-095",
@@ -34070,7 +34546,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-096",
@@ -34366,6 +34843,7 @@
           "https://laziodisco.it/on-line-il-bando-diritto-allo-studio-2026-2027/",
           "https://laziodisco.it/wp-content/uploads/2026/06/BANDO-DIRITTO-ALLO-STUDIO-26-27-1.pdf",
           "https://portalestudente.uniroma3.it/tasse/tasse/",
+          "https://universitaly-private.cineca.it/uploads/universitaly-pubblico/Circolare_2026-2027_studenti_internazionali.pdf",
           "https://www.uniroma3.it/didattica/lauree-ws-l/",
           "https://www.uniroma3.it/didattica/lauree-ws-lm/",
           "https://www.uniroma3.it/int/wp-content/uploads/file_locked/2026/06/GUIDE-HOW-TO-APPLY-ENG-2026-27.pdf",
@@ -34384,6 +34862,7 @@
           "https://laziodisco.it/on-line-il-bando-diritto-allo-studio-2026-2027/",
           "https://laziodisco.it/wp-content/uploads/2026/06/BANDO-DIRITTO-ALLO-STUDIO-26-27-1.pdf",
           "https://portalestudente.uniroma3.it/tasse/tasse/",
+          "https://universitaly-private.cineca.it/uploads/universitaly-pubblico/Circolare_2026-2027_studenti_internazionali.pdf",
           "https://www.uniroma3.it/didattica/lauree-ws-l/",
           "https://www.uniroma3.it/didattica/lauree-ws-lm/",
           "https://www.uniroma3.it/int/wp-content/uploads/file_locked/2026/06/GUIDE-HOW-TO-APPLY-ENG-2026-27.pdf",
@@ -34402,6 +34881,7 @@
           "https://laziodisco.it/on-line-il-bando-diritto-allo-studio-2026-2027/",
           "https://laziodisco.it/wp-content/uploads/2026/06/BANDO-DIRITTO-ALLO-STUDIO-26-27-1.pdf",
           "https://portalestudente.uniroma3.it/tasse/tasse/",
+          "https://universitaly-private.cineca.it/uploads/universitaly-pubblico/Circolare_2026-2027_studenti_internazionali.pdf",
           "https://www.uniroma3.it/didattica/lauree-ws-l/",
           "https://www.uniroma3.it/didattica/lauree-ws-lm/",
           "https://www.uniroma3.it/int/wp-content/uploads/file_locked/2026/06/GUIDE-HOW-TO-APPLY-ENG-2026-27.pdf",
@@ -34420,6 +34900,7 @@
           "https://laziodisco.it/on-line-il-bando-diritto-allo-studio-2026-2027/",
           "https://laziodisco.it/wp-content/uploads/2026/06/BANDO-DIRITTO-ALLO-STUDIO-26-27-1.pdf",
           "https://portalestudente.uniroma3.it/tasse/tasse/",
+          "https://universitaly-private.cineca.it/uploads/universitaly-pubblico/Circolare_2026-2027_studenti_internazionali.pdf",
           "https://www.uniroma3.it/didattica/lauree-ws-l/",
           "https://www.uniroma3.it/didattica/lauree-ws-lm/",
           "https://www.uniroma3.it/int/wp-content/uploads/file_locked/2026/06/GUIDE-HOW-TO-APPLY-ENG-2026-27.pdf",
@@ -34438,6 +34919,7 @@
           "https://laziodisco.it/on-line-il-bando-diritto-allo-studio-2026-2027/",
           "https://laziodisco.it/wp-content/uploads/2026/06/BANDO-DIRITTO-ALLO-STUDIO-26-27-1.pdf",
           "https://portalestudente.uniroma3.it/tasse/tasse/",
+          "https://universitaly-private.cineca.it/uploads/universitaly-pubblico/Circolare_2026-2027_studenti_internazionali.pdf",
           "https://www.uniroma3.it/didattica/lauree-ws-l/",
           "https://www.uniroma3.it/didattica/lauree-ws-lm/",
           "https://www.uniroma3.it/int/wp-content/uploads/file_locked/2026/06/GUIDE-HOW-TO-APPLY-ENG-2026-27.pdf",
@@ -34456,6 +34938,7 @@
           "https://laziodisco.it/on-line-il-bando-diritto-allo-studio-2026-2027/",
           "https://laziodisco.it/wp-content/uploads/2026/06/BANDO-DIRITTO-ALLO-STUDIO-26-27-1.pdf",
           "https://portalestudente.uniroma3.it/tasse/tasse/",
+          "https://universitaly-private.cineca.it/uploads/universitaly-pubblico/Circolare_2026-2027_studenti_internazionali.pdf",
           "https://www.uniroma3.it/didattica/lauree-ws-l/",
           "https://www.uniroma3.it/didattica/lauree-ws-lm/",
           "https://www.uniroma3.it/int/wp-content/uploads/file_locked/2026/06/GUIDE-HOW-TO-APPLY-ENG-2026-27.pdf",
@@ -34474,6 +34957,7 @@
           "https://laziodisco.it/on-line-il-bando-diritto-allo-studio-2026-2027/",
           "https://laziodisco.it/wp-content/uploads/2026/06/BANDO-DIRITTO-ALLO-STUDIO-26-27-1.pdf",
           "https://portalestudente.uniroma3.it/tasse/tasse/",
+          "https://universitaly-private.cineca.it/uploads/universitaly-pubblico/Circolare_2026-2027_studenti_internazionali.pdf",
           "https://www.uniroma3.it/didattica/lauree-ws-l/",
           "https://www.uniroma3.it/didattica/lauree-ws-lm/",
           "https://www.uniroma3.it/int/wp-content/uploads/file_locked/2026/06/GUIDE-HOW-TO-APPLY-ENG-2026-27.pdf",
@@ -34492,6 +34976,7 @@
           "https://laziodisco.it/on-line-il-bando-diritto-allo-studio-2026-2027/",
           "https://laziodisco.it/wp-content/uploads/2026/06/BANDO-DIRITTO-ALLO-STUDIO-26-27-1.pdf",
           "https://portalestudente.uniroma3.it/tasse/tasse/",
+          "https://universitaly-private.cineca.it/uploads/universitaly-pubblico/Circolare_2026-2027_studenti_internazionali.pdf",
           "https://www.uniroma3.it/didattica/lauree-ws-l/",
           "https://www.uniroma3.it/didattica/lauree-ws-lm/",
           "https://www.uniroma3.it/int/wp-content/uploads/file_locked/2026/06/GUIDE-HOW-TO-APPLY-ENG-2026-27.pdf",
@@ -34510,6 +34995,7 @@
           "https://laziodisco.it/on-line-il-bando-diritto-allo-studio-2026-2027/",
           "https://laziodisco.it/wp-content/uploads/2026/06/BANDO-DIRITTO-ALLO-STUDIO-26-27-1.pdf",
           "https://portalestudente.uniroma3.it/tasse/tasse/",
+          "https://universitaly-private.cineca.it/uploads/universitaly-pubblico/Circolare_2026-2027_studenti_internazionali.pdf",
           "https://www.uniroma3.it/didattica/lauree-ws-l/",
           "https://www.uniroma3.it/didattica/lauree-ws-lm/",
           "https://www.uniroma3.it/int/wp-content/uploads/file_locked/2026/06/GUIDE-HOW-TO-APPLY-ENG-2026-27.pdf",
@@ -34518,7 +35004,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-097",
@@ -34962,7 +35449,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-098",
@@ -35387,7 +35875,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-099",
@@ -35710,7 +36199,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-100",
@@ -36032,7 +36522,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-101",
@@ -36336,7 +36827,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-102",
@@ -36640,7 +37132,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-103",
@@ -36944,7 +37437,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-104",
@@ -37263,7 +37757,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-105",
@@ -37581,7 +38076,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-106",
@@ -37899,7 +38395,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-107",
@@ -38203,7 +38700,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-108",
@@ -38573,7 +39071,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-109",
@@ -38943,7 +39442,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-110",
@@ -39313,7 +39813,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-111",
@@ -39708,7 +40209,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-112",
@@ -40111,7 +40613,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-113",
@@ -40532,7 +41035,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-114",
@@ -40951,7 +41455,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-115",
@@ -41321,7 +41826,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-116",
@@ -41691,7 +42197,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-117",
@@ -41957,7 +42464,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-118",
@@ -42203,7 +42711,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-119",
@@ -42457,7 +42966,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-120",
@@ -42688,7 +43198,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-121",
@@ -42991,7 +43502,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-122",
@@ -43243,7 +43755,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-123",
@@ -43495,7 +44008,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-124",
@@ -43739,7 +44253,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-125",
@@ -44009,6 +44524,29 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Reviewed official material does not establish this field for a named applicable cycle. Check the linked pages and program call."
       }
+    },
+    "applicant_routes": {
+      "prerequisites": [
+        "legacy-125-prerequisites"
+      ],
+      "english_requirement": [
+        "legacy-125-english_requirement"
+      ],
+      "admission_test": [
+        "legacy-125-admission_test"
+      ],
+      "selection_method": [
+        "legacy-125-selection_method"
+      ],
+      "minimum_grade": [
+        "legacy-125-minimum_grade",
+        "florence-minimum-grade-italian-qualification"
+      ],
+      "documents": [
+        "florence-foreign-visa-documents"
+      ],
+      "deadline": [],
+      "tuition": []
     }
   },
   {
@@ -44305,7 +44843,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-127",
@@ -44536,7 +45075,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-128",
@@ -44826,7 +45366,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-129",
@@ -45105,7 +45646,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-130",
@@ -45410,7 +45952,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-131",
@@ -45713,7 +46256,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-132",
@@ -46095,7 +46639,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-133",
@@ -46475,7 +47020,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-134",
@@ -46855,7 +47401,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-135",
@@ -47234,7 +47781,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-136",
@@ -47613,7 +48161,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-137",
@@ -47991,7 +48540,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-138",
@@ -48389,7 +48939,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-139",
@@ -48765,7 +49316,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-140",
@@ -49067,7 +49619,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-141",
@@ -49375,7 +49928,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-142",
@@ -49677,7 +50231,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-143",
@@ -49979,7 +50534,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-144",
@@ -50279,7 +50835,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-145",
@@ -50579,7 +51136,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-146",
@@ -50892,7 +51450,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-147",
@@ -51160,7 +51719,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-148",
@@ -51441,7 +52001,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-149",
@@ -51975,7 +52536,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-150",
@@ -52480,7 +53042,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-151",
@@ -53056,7 +53619,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-152",
@@ -53759,7 +54323,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-153",
@@ -54357,7 +54922,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-154",
@@ -54882,7 +55448,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-155",
@@ -55378,7 +55945,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-156",
@@ -55905,7 +56473,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-157",
@@ -56229,7 +56798,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-158",
@@ -56791,7 +57361,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-159",
@@ -57317,7 +57888,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-160",
@@ -57833,7 +58405,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-161",
@@ -58508,6 +59081,31 @@
         ],
         "reason": "The portal displays EUR 2,950/year without a separately dated tariff, while the official 2026/27 schedule gives different non-EU contributions. No 2027/28 tariff is verified; the displayed amount must not enter confirmed filters."
       }
+    },
+    "applicant_routes": {
+      "deadline": [
+        "legacy-161-deadline-foreign",
+        "legacy-161-deadline-italy-resident"
+      ],
+      "prerequisites": [
+        "legacy-161-prerequisites"
+      ],
+      "minimum_grade": [
+        "legacy-161-minimum_grade"
+      ],
+      "english_requirement": [
+        "legacy-161-english_requirement"
+      ],
+      "admission_test": [
+        "legacy-161-admission_test"
+      ],
+      "selection_method": [
+        "legacy-161-selection_method"
+      ],
+      "documents": [
+        "legacy-161-documents-foreign"
+      ],
+      "tuition": []
     }
   },
   {
@@ -59007,7 +59605,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-163",
@@ -59563,7 +60162,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-164",
@@ -60176,7 +60776,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "legacy-165",
@@ -60793,7 +61394,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "discovered-001",
@@ -61037,6 +61639,23 @@
       "tuition": {
         "university_policy": "tuition_2026"
       }
+    },
+    "applicant_routes": {
+      "deadline": [
+        "discovered-001-deadline-non-eu",
+        "discovered-001-deadline-eu-resident-eu",
+        "discovered-001-deadline-eu-resident-resident"
+      ],
+      "english_requirement": [
+        "discovered-001-english_requirement"
+      ],
+      "selection_method": [
+        "discovered-001-selection_method"
+      ],
+      "tuition": [
+        "pisa-2026-rule-only"
+      ],
+      "documents": []
     }
   },
   {
@@ -61249,6 +61868,29 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Reviewed official material does not establish this field for a named applicable cycle. Check the linked pages and program call."
       }
+    },
+    "applicant_routes": {
+      "deadline": [
+        "discovered-002-deadline-foreign",
+        "discovered-002-deadline-italy-resident"
+      ],
+      "prerequisites": [
+        "discovered-002-prerequisites"
+      ],
+      "minimum_grade": [
+        "discovered-002-minimum_grade"
+      ],
+      "english_requirement": [
+        "discovered-002-english_requirement"
+      ],
+      "admission_test": [
+        "discovered-002-admission_test"
+      ],
+      "selection_method": [
+        "discovered-002-selection_method"
+      ],
+      "tuition": [],
+      "documents": []
     }
   },
   {
@@ -61461,6 +62103,29 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Reviewed official material does not establish this field for a named applicable cycle. Check the linked pages and program call."
       }
+    },
+    "applicant_routes": {
+      "deadline": [
+        "discovered-003-deadline-foreign",
+        "discovered-003-deadline-italy-resident"
+      ],
+      "prerequisites": [
+        "discovered-003-prerequisites"
+      ],
+      "minimum_grade": [
+        "discovered-003-minimum_grade"
+      ],
+      "english_requirement": [
+        "discovered-003-english_requirement"
+      ],
+      "admission_test": [
+        "discovered-003-admission_test"
+      ],
+      "selection_method": [
+        "discovered-003-selection_method"
+      ],
+      "tuition": [],
+      "documents": []
     }
   },
   {
@@ -61673,6 +62338,29 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Reviewed official material does not establish this field for a named applicable cycle. Check the linked pages and program call."
       }
+    },
+    "applicant_routes": {
+      "deadline": [
+        "discovered-004-deadline-foreign",
+        "discovered-004-deadline-italy-resident"
+      ],
+      "prerequisites": [
+        "discovered-004-prerequisites"
+      ],
+      "minimum_grade": [
+        "discovered-004-minimum_grade"
+      ],
+      "english_requirement": [
+        "discovered-004-english_requirement"
+      ],
+      "admission_test": [
+        "discovered-004-admission_test"
+      ],
+      "selection_method": [
+        "discovered-004-selection_method"
+      ],
+      "tuition": [],
+      "documents": []
     }
   },
   {
@@ -61885,6 +62573,29 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Reviewed official material does not establish this field for a named applicable cycle. Check the linked pages and program call."
       }
+    },
+    "applicant_routes": {
+      "deadline": [
+        "discovered-005-deadline-foreign",
+        "discovered-005-deadline-italy-resident"
+      ],
+      "prerequisites": [
+        "discovered-005-prerequisites"
+      ],
+      "minimum_grade": [
+        "discovered-005-minimum_grade"
+      ],
+      "english_requirement": [
+        "discovered-005-english_requirement"
+      ],
+      "admission_test": [
+        "discovered-005-admission_test"
+      ],
+      "selection_method": [
+        "discovered-005-selection_method"
+      ],
+      "tuition": [],
+      "documents": []
     }
   },
   {
@@ -62097,6 +62808,29 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Reviewed official material does not establish this field for a named applicable cycle. Check the linked pages and program call."
       }
+    },
+    "applicant_routes": {
+      "deadline": [
+        "discovered-006-deadline-foreign",
+        "discovered-006-deadline-italy-resident"
+      ],
+      "prerequisites": [
+        "discovered-006-prerequisites"
+      ],
+      "minimum_grade": [
+        "discovered-006-minimum_grade"
+      ],
+      "english_requirement": [
+        "discovered-006-english_requirement"
+      ],
+      "admission_test": [
+        "discovered-006-admission_test"
+      ],
+      "selection_method": [
+        "discovered-006-selection_method"
+      ],
+      "tuition": [],
+      "documents": []
     }
   },
   {
@@ -62347,6 +63081,29 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Reviewed official material does not establish this field for a named applicable cycle. Check the linked pages and program call."
       }
+    },
+    "applicant_routes": {
+      "deadline": [
+        "discovered-007-deadline-foreign",
+        "discovered-007-deadline-italy-resident"
+      ],
+      "prerequisites": [
+        "discovered-007-prerequisites"
+      ],
+      "minimum_grade": [
+        "discovered-007-minimum_grade"
+      ],
+      "english_requirement": [
+        "discovered-007-english_requirement"
+      ],
+      "admission_test": [
+        "discovered-007-admission_test"
+      ],
+      "selection_method": [
+        "discovered-007-selection_method"
+      ],
+      "tuition": [],
+      "documents": []
     }
   },
   {
@@ -62597,6 +63354,29 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Reviewed official material does not establish this field for a named applicable cycle. Check the linked pages and program call."
       }
+    },
+    "applicant_routes": {
+      "deadline": [
+        "discovered-008-deadline-foreign",
+        "discovered-008-deadline-italy-resident"
+      ],
+      "prerequisites": [
+        "discovered-008-prerequisites"
+      ],
+      "minimum_grade": [
+        "discovered-008-minimum_grade"
+      ],
+      "english_requirement": [
+        "discovered-008-english_requirement"
+      ],
+      "admission_test": [
+        "discovered-008-admission_test"
+      ],
+      "selection_method": [
+        "discovered-008-selection_method"
+      ],
+      "tuition": [],
+      "documents": []
     }
   },
   {
@@ -62813,6 +63593,12 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Reviewed official material does not establish this field for a named applicable cycle. Check the linked pages and program call."
       }
+    },
+    "applicant_routes": {
+      "deadline": [],
+      "tuition": [],
+      "english_requirement": [],
+      "documents": []
     }
   },
   {
@@ -63126,6 +63912,34 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Reviewed official material does not establish this field for a named applicable cycle. Check the linked pages and program call."
       }
+    },
+    "applicant_routes": {
+      "deadline": [
+        "mech-visa-rounds",
+        "mech-italy-resident-italian-degree"
+      ],
+      "prerequisites": [
+        "discovered-010-prerequisites"
+      ],
+      "minimum_grade": [
+        "discovered-010-minimum_grade"
+      ],
+      "english_requirement": [
+        "discovered-010-english_requirement"
+      ],
+      "admission_test": [
+        "discovered-010-admission_test"
+      ],
+      "selection_method": [
+        "discovered-010-selection_method"
+      ],
+      "documents": [
+        "mech-visa-documents"
+      ],
+      "universitaly": [
+        "mech-universitaly-deadline"
+      ],
+      "tuition": []
     }
   },
   {
@@ -63401,6 +64215,26 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Reviewed official material does not establish this field for a named applicable cycle. Check the linked pages and program call."
       }
+    },
+    "applicant_routes": {
+      "prerequisites": [
+        "discovered-011-prerequisites"
+      ],
+      "minimum_grade": [
+        "discovered-011-minimum_grade"
+      ],
+      "english_requirement": [
+        "discovered-011-english_requirement"
+      ],
+      "admission_test": [
+        "discovered-011-admission_test"
+      ],
+      "selection_method": [
+        "discovered-011-selection_method"
+      ],
+      "deadline": [],
+      "tuition": [],
+      "documents": []
     }
   },
   {
@@ -63928,6 +64762,12 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Reviewed official material does not establish this field for a named applicable cycle. Check the linked pages and program call."
       }
+    },
+    "applicant_routes": {
+      "deadline": [],
+      "tuition": [],
+      "english_requirement": [],
+      "documents": []
     }
   },
   {
@@ -64343,6 +65183,36 @@
       "tuition": {
         "university_policy": "28digital_tuition"
       }
+    },
+    "applicant_routes": {
+      "deadline": [
+        "discovered-013-first-period"
+      ],
+      "prerequisites": [
+        "discovered-013-prerequisites"
+      ],
+      "minimum_grade": [
+        "discovered-013-minimum_grade"
+      ],
+      "english_requirement": [
+        "discovered-013-english_requirement"
+      ],
+      "selection_method": [
+        "discovered-013-selection_method"
+      ],
+      "admission_test": [
+        "discovered-013-admission_test"
+      ],
+      "documents": [
+        "discovered-013-consortium-documents"
+      ],
+      "scholarships": [
+        "discovered-013-scholarships"
+      ],
+      "tuition": [
+        "28digital-non-eu-fixed",
+        "28digital-eu-eea-fixed-partial-ch"
+      ]
     }
   },
   {
@@ -64749,6 +65619,36 @@
       "tuition": {
         "university_policy": "28digital_tuition"
       }
+    },
+    "applicant_routes": {
+      "deadline": [
+        "discovered-014-first-period"
+      ],
+      "prerequisites": [
+        "discovered-014-prerequisites"
+      ],
+      "minimum_grade": [
+        "discovered-014-minimum_grade"
+      ],
+      "english_requirement": [
+        "discovered-014-english_requirement"
+      ],
+      "selection_method": [
+        "discovered-014-selection_method"
+      ],
+      "admission_test": [
+        "discovered-014-admission_test"
+      ],
+      "documents": [
+        "discovered-014-consortium-documents"
+      ],
+      "scholarships": [
+        "discovered-014-scholarships"
+      ],
+      "tuition": [
+        "28digital-non-eu-fixed",
+        "28digital-eu-eea-fixed-partial-ch"
+      ]
     }
   },
   {
@@ -65159,6 +66059,36 @@
       "tuition": {
         "university_policy": "28digital_tuition"
       }
+    },
+    "applicant_routes": {
+      "deadline": [
+        "discovered-015-first-period"
+      ],
+      "prerequisites": [
+        "discovered-015-prerequisites"
+      ],
+      "minimum_grade": [
+        "discovered-015-minimum_grade"
+      ],
+      "english_requirement": [
+        "discovered-015-english_requirement"
+      ],
+      "selection_method": [
+        "discovered-015-selection_method"
+      ],
+      "admission_test": [
+        "discovered-015-admission_test"
+      ],
+      "documents": [
+        "discovered-015-consortium-documents"
+      ],
+      "scholarships": [
+        "discovered-015-scholarships"
+      ],
+      "tuition": [
+        "28digital-non-eu-fixed",
+        "28digital-eu-eea-fixed-partial-ch"
+      ]
     }
   },
   {
@@ -65579,6 +66509,36 @@
       "tuition": {
         "university_policy": "28digital_tuition"
       }
+    },
+    "applicant_routes": {
+      "deadline": [
+        "discovered-016-first-period"
+      ],
+      "prerequisites": [
+        "discovered-016-prerequisites"
+      ],
+      "minimum_grade": [
+        "discovered-016-minimum_grade"
+      ],
+      "english_requirement": [
+        "discovered-016-english_requirement"
+      ],
+      "selection_method": [
+        "discovered-016-selection_method"
+      ],
+      "admission_test": [
+        "discovered-016-admission_test"
+      ],
+      "documents": [
+        "discovered-016-consortium-documents"
+      ],
+      "scholarships": [
+        "discovered-016-scholarships"
+      ],
+      "tuition": [
+        "28digital-non-eu-fixed",
+        "28digital-eu-eea-fixed-partial-ch"
+      ]
     }
   },
   {
@@ -65999,6 +66959,36 @@
       "tuition": {
         "university_policy": "28digital_tuition"
       }
+    },
+    "applicant_routes": {
+      "deadline": [
+        "discovered-017-first-period"
+      ],
+      "prerequisites": [
+        "discovered-017-prerequisites"
+      ],
+      "minimum_grade": [
+        "discovered-017-minimum_grade"
+      ],
+      "english_requirement": [
+        "discovered-017-english_requirement"
+      ],
+      "selection_method": [
+        "discovered-017-selection_method"
+      ],
+      "admission_test": [
+        "discovered-017-admission_test"
+      ],
+      "documents": [
+        "discovered-017-consortium-documents"
+      ],
+      "scholarships": [
+        "discovered-017-scholarships"
+      ],
+      "tuition": [
+        "28digital-non-eu-fixed",
+        "28digital-eu-eea-fixed-partial-ch"
+      ]
     }
   },
   {
@@ -66418,6 +67408,36 @@
       "tuition": {
         "university_policy": "28digital_tuition"
       }
+    },
+    "applicant_routes": {
+      "deadline": [
+        "discovered-018-first-period"
+      ],
+      "prerequisites": [
+        "discovered-018-prerequisites"
+      ],
+      "minimum_grade": [
+        "discovered-018-minimum_grade"
+      ],
+      "english_requirement": [
+        "discovered-018-english_requirement"
+      ],
+      "selection_method": [
+        "discovered-018-selection_method"
+      ],
+      "admission_test": [
+        "discovered-018-admission_test"
+      ],
+      "documents": [
+        "discovered-018-consortium-documents"
+      ],
+      "scholarships": [
+        "discovered-018-scholarships"
+      ],
+      "tuition": [
+        "28digital-non-eu-fixed",
+        "28digital-eu-eea-fixed-partial-ch"
+      ]
     }
   },
   {
@@ -66840,6 +67860,36 @@
       "tuition": {
         "university_policy": "28digital_tuition"
       }
+    },
+    "applicant_routes": {
+      "deadline": [
+        "discovered-019-first-period"
+      ],
+      "prerequisites": [
+        "discovered-019-prerequisites"
+      ],
+      "minimum_grade": [
+        "discovered-019-minimum_grade"
+      ],
+      "english_requirement": [
+        "discovered-019-english_requirement"
+      ],
+      "selection_method": [
+        "discovered-019-selection_method"
+      ],
+      "admission_test": [
+        "discovered-019-admission_test"
+      ],
+      "documents": [
+        "discovered-019-consortium-documents"
+      ],
+      "scholarships": [
+        "discovered-019-scholarships"
+      ],
+      "tuition": [
+        "28digital-non-eu-fixed",
+        "28digital-eu-eea-fixed-partial-ch"
+      ]
     }
   },
   {
@@ -67273,6 +68323,30 @@
         ],
         "reason": "The self-funded page quotes EUR 9,000/year for non-European and EUR 4,500/year for European students, but does not explicitly date the tariff for 2027–29. Exact applicable cohort fee is Not confirmed."
       }
+    },
+    "applicant_routes": {
+      "deadline": [
+        "hyset-worldwide-dates"
+      ],
+      "prerequisites": [
+        "discovered-020-prerequisites"
+      ],
+      "minimum_grade": [
+        "discovered-020-minimum_grade"
+      ],
+      "english_requirement": [
+        "discovered-020-english_requirement"
+      ],
+      "admission_test": [
+        "discovered-020-admission_test"
+      ],
+      "selection_method": [
+        "discovered-020-selection_method"
+      ],
+      "documents": [
+        "hyset-application-documents"
+      ],
+      "tuition": []
     }
   },
   {
@@ -67425,7 +68499,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. The programme is not offered in 2027/28. No new admissions decision facts are inferred for this record."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "discovered-022",
@@ -67612,7 +68687,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "discovered-023",
@@ -68010,7 +69086,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "discovered-024",
@@ -68472,7 +69549,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "discovered-026",
@@ -68972,7 +70050,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "discovered-027",
@@ -69519,7 +70598,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "discovered-028",
@@ -70125,7 +71205,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "discovered-025",
@@ -70597,7 +71678,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "discovered-029",
@@ -70981,12 +72063,41 @@
           "cycle_marker": "2027/28 admission page or call",
           "relationship": "Named intake/cycle context is checked alongside the field-specific official source; generic page retrieval alone does not verify applicability."
         },
-        "short_value": "EUR 157.04 + income-assessed contribution; maximum Not confirmed",
+        "short_value": "Rule only — full annual amount Not confirmed",
         "missing_components": [
           "Exact 2027/28 course maximum"
         ],
-        "covered_scope": "Only the named GrEnFIn, CLE, BBS or 28DIGITAL route stated above; these admission and fee routes are distinct."
+        "covered_scope": "GrEnFIn 2027/28 self-funded students only; Erasmus Mundus scholarship holders follow the published fee-waiver conditions."
       }
+    },
+    "applicant_routes": {
+      "deadline": [
+        "grenfin-all-dates"
+      ],
+      "prerequisites": [
+        "discovered-029-prerequisites"
+      ],
+      "minimum_grade": [
+        "discovered-029-minimum_grade"
+      ],
+      "english_requirement": [
+        "discovered-029-english_requirement"
+      ],
+      "admission_test": [
+        "discovered-029-admission_test"
+      ],
+      "selection_method": [
+        "discovered-029-selection_method"
+      ],
+      "scholarships": [
+        "discovered-029-scholarships"
+      ],
+      "documents": [
+        "grenfin-foreign-documents"
+      ],
+      "tuition": [
+        "grenfin-self-funded-rule"
+      ]
     }
   },
   {
@@ -71272,7 +72383,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "discovered-031",
@@ -71585,7 +72697,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "discovered-032",
@@ -71956,7 +73069,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "discovered-033",
@@ -72253,7 +73367,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "discovered-035",
@@ -72603,7 +73718,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "discovered-036",
@@ -73066,7 +74182,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "discovered-034",
@@ -73320,7 +74437,8 @@
         "checked_at": "2026-11-13",
         "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
       }
-    }
+    },
+    "applicant_routes": {}
   },
   {
     "id": "discovered-037",
@@ -73690,6 +74808,31 @@
         ],
         "reason": "The portal displays EUR 2,950/year without a separately dated tariff, while the official 2026/27 schedule gives different non-EU contributions. No 2027/28 tariff is verified; the displayed amount must not enter confirmed filters."
       }
+    },
+    "applicant_routes": {
+      "deadline": [
+        "discovered-037-deadline-foreign",
+        "discovered-037-deadline-italy-resident"
+      ],
+      "prerequisites": [
+        "discovered-037-prerequisites"
+      ],
+      "minimum_grade": [
+        "discovered-037-minimum_grade"
+      ],
+      "english_requirement": [
+        "discovered-037-english_requirement"
+      ],
+      "admission_test": [
+        "discovered-037-admission_test"
+      ],
+      "selection_method": [
+        "discovered-037-selection_method"
+      ],
+      "documents": [
+        "discovered-037-documents-foreign"
+      ],
+      "tuition": []
     }
   },
   {
@@ -74166,6 +75309,30 @@
         ],
         "reason": "The consortium fee page publishes income-related EUR 1,000 / EUR 9,600 terms and possible waivers without a named 2027–2029 tariff. Cohort-specific cost and award conditions remain Not confirmed."
       }
+    },
+    "applicant_routes": {
+      "deadline": [
+        "eap-epog-cohort-dates"
+      ],
+      "prerequisites": [
+        "discovered-038-prerequisites"
+      ],
+      "minimum_grade": [
+        "discovered-038-minimum_grade"
+      ],
+      "english_requirement": [
+        "discovered-038-english_requirement"
+      ],
+      "admission_test": [
+        "discovered-038-admission_test"
+      ],
+      "selection_method": [
+        "discovered-038-selection_method"
+      ],
+      "documents": [
+        "eap-foreign-dossier"
+      ],
+      "tuition": []
     }
   },
   {
@@ -74584,6 +75751,32 @@
       "tuition": {
         "university_policy": "tuition_2026"
       }
+    },
+    "applicant_routes": {
+      "deadline": [
+        "discovered-039-deadline-foreign"
+      ],
+      "prerequisites": [
+        "discovered-039-prerequisites"
+      ],
+      "minimum_grade": [
+        "discovered-039-minimum_grade"
+      ],
+      "admission_test": [
+        "discovered-039-admission_test"
+      ],
+      "selection_method": [
+        "discovered-039-selection_method"
+      ],
+      "english_requirement": [
+        "discovered-039-english_requirement"
+      ],
+      "documents": [
+        "discovered-039-documents-foreign"
+      ],
+      "tuition": [
+        "pisa-2026-rule-only"
+      ]
     }
   },
   {
@@ -74942,6 +76135,12 @@
         ],
         "reason": "The page advertises the 2027/28 cohort but says the formal call is forthcoming. Its undated requirements, tests, fees and aid sections are not independently dated for that cohort; these must not be promoted automatically."
       }
+    },
+    "applicant_routes": {
+      "deadline": [],
+      "tuition": [],
+      "english_requirement": [],
+      "documents": []
     }
   },
   {
@@ -75299,6 +76498,12 @@
         ],
         "reason": "The page advertises the 2027/28 cohort but says the formal call is forthcoming. Its undated requirements, tests, fees and aid sections are not independently dated for that cohort; these must not be promoted automatically."
       }
+    },
+    "applicant_routes": {
+      "deadline": [],
+      "tuition": [],
+      "english_requirement": [],
+      "documents": []
     }
   },
   {
@@ -75672,6 +76877,12 @@
         },
         "short_value": "2026/27: EUR 14,800 total; 2027/28 Not confirmed"
       }
+    },
+    "applicant_routes": {
+      "deadline": [],
+      "tuition": [],
+      "english_requirement": [],
+      "documents": []
     }
   },
   {
@@ -76045,6 +77256,12 @@
         },
         "short_value": "2026/27: EUR 14,800 total; 2027/28 Not confirmed"
       }
+    },
+    "applicant_routes": {
+      "deadline": [],
+      "tuition": [],
+      "english_requirement": [],
+      "documents": []
     }
   },
   {
@@ -76403,6 +77620,12 @@
         ],
         "reason": "The page advertises the 2027/28 cohort but says the formal call is forthcoming. Its undated requirements, tests, fees and aid sections are not independently dated for that cohort; these must not be promoted automatically."
       }
+    },
+    "applicant_routes": {
+      "deadline": [],
+      "tuition": [],
+      "english_requirement": [],
+      "documents": []
     }
   }
 ]

@@ -1,0 +1,149 @@
+[
+  {
+    "id": "legacy-052",
+    "profile": {
+      "category": "non-eu-abroad",
+      "qualification": "non-eu"
+    },
+    "next_deadline": "2027-02-01",
+    "deadline_source_urls": [
+      "https://didattica.di.unipi.it/wp-content/uploads/sites/2/2026/11/Bando2026_corsi_internazionali.pdf"
+    ],
+    "tuition_type": "not confirmed",
+    "annual_amount": "Not confirmed",
+    "tuition_source_urls": [],
+    "tuition_reason": "No confirmed source-backed value for this selected combination; another route is never substituted."
+  },
+  {
+    "id": "legacy-052",
+    "profile": {
+      "category": "eu-eea-ch",
+      "qualification": "non-eu"
+    },
+    "next_deadline": "2027-08-31",
+    "deadline_source_urls": [
+      "https://didattica.di.unipi.it/en/internazionale/degrees-offered-in-english/",
+      "https://didattica.di.unipi.it/wp-content/uploads/sites/2/2026/11/Bando2026_corsi_internazionali.pdf"
+    ],
+    "tuition_type": "not confirmed",
+    "annual_amount": "Not confirmed",
+    "tuition_source_urls": [],
+    "tuition_reason": "No confirmed source-backed value for this selected combination; another route is never substituted."
+  },
+  {
+    "id": "legacy-052",
+    "profile": {
+      "category": "italian-qualification",
+      "qualification": "italy"
+    },
+    "next_deadline": "Not confirmed",
+    "deadline_source_urls": [],
+    "tuition_type": "not confirmed",
+    "annual_amount": "Not confirmed",
+    "tuition_source_urls": [],
+    "tuition_reason": "No confirmed source-backed value for this selected combination; another route is never substituted."
+  },
+  {
+    "id": "legacy-002",
+    "profile": {
+      "category": "non-eu-abroad",
+      "qualification": "non-eu"
+    },
+    "next_deadline": "2027-01-26",
+    "deadline_source_urls": [
+      "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/joint-degree-programs-politecnico-di-milano",
+      "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/admissions"
+    ],
+    "tuition_type": "rule-only",
+    "annual_amount": "Not confirmed",
+    "tuition_source_urls": [
+      "https://www.unibocconi.it/it/entrare-bocconi/corsi-di-laurea-magistrale/tasse-e-contributi",
+      "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/joint-degree-programs-politecnico-di-milano"
+    ],
+    "tuition_reason": "Bocconi first-year 2027/28 MSc ordinary contribution relevant to the joint Cyber route; complete partner/joint fee basis still needs confirmation."
+  },
+  {
+    "id": "legacy-002",
+    "profile": {
+      "category": "eu-eea-ch",
+      "qualification": "non-eu"
+    },
+    "next_deadline": "2027-01-26",
+    "deadline_source_urls": [
+      "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/joint-degree-programs-politecnico-di-milano",
+      "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/admissions"
+    ],
+    "tuition_type": "rule-only",
+    "annual_amount": "Not confirmed",
+    "tuition_source_urls": [
+      "https://www.unibocconi.it/it/entrare-bocconi/corsi-di-laurea-magistrale/tasse-e-contributi",
+      "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/joint-degree-programs-politecnico-di-milano"
+    ],
+    "tuition_reason": "Bocconi first-year 2027/28 MSc ordinary contribution relevant to the joint Cyber route; complete partner/joint fee basis still needs confirmation."
+  },
+  {
+    "id": "legacy-002",
+    "profile": {
+      "category": "italian-qualification",
+      "qualification": "italy"
+    },
+    "next_deadline": "2027-05-25",
+    "deadline_source_urls": [
+      "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/cyber-risk-strategy-and-governance-and-transformative-sustainability",
+      "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/joint-degree-programs-politecnico-di-milano"
+    ],
+    "tuition_type": "rule-only",
+    "annual_amount": "Not confirmed",
+    "tuition_source_urls": [
+      "https://www.unibocconi.it/it/entrare-bocconi/corsi-di-laurea-magistrale/tasse-e-contributi",
+      "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/joint-degree-programs-politecnico-di-milano"
+    ],
+    "tuition_reason": "Bocconi first-year 2027/28 MSc ordinary contribution relevant to the joint Cyber route; complete partner/joint fee basis still needs confirmation."
+  },
+  {
+    "id": "legacy-020",
+    "profile": {
+      "category": "non-eu-abroad",
+      "qualification": "non-eu"
+    },
+    "next_deadline": "2027-01-31",
+    "deadline_source_urls": [
+      "https://corsi.unibo.it/magistrale/IngegneriaScienzeInformatiche/curriculum-intelligent-embedded-systems-28digital-track"
+    ],
+    "tuition_type": "fixed",
+    "annual_amount": 18000,
+    "tuition_source_urls": [
+      "https://masterschool.28digital.eu/admissions/fees",
+      "https://www.disi.unitn.it/eit-digital"
+    ],
+    "tuition_reason": "28DIGITAL applicants outside the EU/EEA/CH profile group; citizenship, not residence or degree origin, determines this published tariff."
+  },
+  {
+    "id": "legacy-020",
+    "profile": {
+      "category": "eu-eea-ch",
+      "qualification": "non-eu"
+    },
+    "next_deadline": "2027-01-31",
+    "deadline_source_urls": [
+      "https://corsi.unibo.it/magistrale/IngegneriaScienzeInformatiche/curriculum-intelligent-embedded-systems-28digital-track"
+    ],
+    "tuition_type": "not confirmed",
+    "annual_amount": "Not confirmed",
+    "tuition_source_urls": [],
+    "tuition_reason": "The selected category is broader than the published route. 28DIGITAL EU/EEA citizenship fee only; the Swiss/CH tariff is not established by the EU/EEA row."
+  },
+  {
+    "id": "legacy-020",
+    "profile": {
+      "category": "italian-qualification",
+      "qualification": "italy"
+    },
+    "next_deadline": "Not confirmed",
+    "deadline_source_urls": [],
+    "tuition_type": "not confirmed",
+    "annual_amount": "Not confirmed",
+    "tuition_source_urls": [],
+    "tuition_reason": "No confirmed source-backed value for this selected combination; another route is never substituted."
+  }
+]

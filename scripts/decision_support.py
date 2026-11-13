@@ -134,10 +134,16 @@ def apply(universities, programs):
                 defaults.update(scholarships=[unknown(reason, urls, "2026-11-13" if urls else None)], policies={})
             defaults.update(copy.deepcopy(approved.get(kind, {}).get(record["id"], {})))
             record["decision_support"] = defaults
+    import applicant_profiles
+    applicant_profiles.apply(universities, programs)
     validate(universities, programs)
     write_reports(universities, programs)
-    from build_decision_refinement_report import build
-    build(universities, programs)
+    if (ROOT/'research/applicant-profiles-2026-11/verified-routes.json').exists():
+        from build_applicant_profile_report import build
+        build(universities, programs)
+    if not (ROOT/'research/applicant-profiles-2026-11/verified-routes.json').exists():
+        from build_decision_refinement_report import build
+        build(universities, programs)
 
 
 def validate_fact(fact, location):
@@ -187,6 +193,10 @@ def validate_fact(fact, location):
 
 
 def validate_filter_flags(program, university, tuition, scholarship, admission_test=None, english_certificate=None):
+    if tuition is not None and (ROOT/'research/applicant-profiles-2026-11/compiled-routes.json').exists():
+        import applicant_profiles
+        if tuition != applicant_profiles.tuition_state(applicant_profiles.compiled(), program['id']):
+            raise ValueError(f"Tuition filter does not match current fixed/band/rule-only evidence: {program['id']}")
     facts = {"tuition": (tuition, resolve(program, "tuition", university)),
              "scholarship": (scholarship, scholarship_summary(program, university))}
     for key, (flag, fact) in facts.items():

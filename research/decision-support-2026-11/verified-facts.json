@@ -2092,6 +2092,64 @@
           "universal numeric selection/GPA cutoff, if any"
         ],
         "covered_scope": "Joint Bocconi/Polimi Cyber Risk Strategy and Governance only. Italian-qualification and international-qualification pathways have different tests; the standard Polimi MSc route is separate."
+      },
+      "english_requirement": {
+        "value": "For the joint Cyber programme, the foreign-qualification admission page requires an English qualification accepted by Bocconi or Polimi. Polimi’s current accepted-test list includes IELTS 6.0 or TOEFL 78 on the older scale / 4.5 on the new scale. Joint-route waiver acceptance and the Italian-qualification procedure are Not confirmed here.",
+        "cycle_status": "2027/28 confirmed",
+        "academic_cycle": "2027/28",
+        "source_urls": [
+          "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/joint-degree-programs-politecnico-di-milano",
+          "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/application/list-of-documents-required-by-the-admissions-office"
+        ],
+        "verified_date": "2026-11-13",
+        "evidence_source_ids": [
+          "PROFILE-BOCCONI-JOINT-2027",
+          "SRC-POLIMI-ENGLISH-2027"
+        ],
+        "evidence_sha256": {
+          "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/joint-degree-programs-politecnico-di-milano": "42575c9baafc8f6c07be312337af5843f3f605666729999a3008e091888ffc95",
+          "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/application/list-of-documents-required-by-the-admissions-office": "1e8cc06275fd6e6c42beadc160a2ee6174e08cd8ab3c206610b726250ee31aa0"
+        },
+        "current_cycle_evidence": {
+          "url": "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/joint-degree-programs-politecnico-di-milano",
+          "cycle_marker": "2027/28 explicit applicable programme/cohort context",
+          "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
+        },
+        "missing_components": [
+          "joint-route waiver acceptance",
+          "Italian-qualification route English procedure"
+        ],
+        "covered_scope": "Joint Bocconi/Polimi Cyber MSc foreign-qualification admission/enrolment route; not standard Polimi MSc admission.",
+        "short_value": "Joint foreign route: accepted Bocconi/Polimi English proof; waivers not confirmed",
+        "answer": "conditional"
+      },
+      "tuition": {
+        "value": "Bocconi publishes current 2027/28 ordinary MSc contribution and awarded-funding rules. The full joint Cyber programme annual amount and any partner charge are Not confirmed; consult the structured fee rule and both institutions.",
+        "cycle_status": "2027/28 confirmed",
+        "academic_cycle": "2027/28",
+        "source_urls": [
+          "https://www.unibocconi.it/it/entrare-bocconi/corsi-di-laurea-magistrale/tasse-e-contributi",
+          "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/joint-degree-programs-politecnico-di-milano"
+        ],
+        "verified_date": "2026-11-13",
+        "evidence_source_ids": [
+          "PROFILE-BOCCONI-FEES-2027",
+          "PROFILE-BOCCONI-JOINT-2027"
+        ],
+        "evidence_sha256": {
+          "https://www.unibocconi.it/it/entrare-bocconi/corsi-di-laurea-magistrale/tasse-e-contributi": "75cee69436e768d57d5b7e7b0441ce7144dba97a51d4267e815903a46f34b573",
+          "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/joint-degree-programs-politecnico-di-milano": "42575c9baafc8f6c07be312337af5843f3f605666729999a3008e091888ffc95"
+        },
+        "current_cycle_evidence": {
+          "url": "https://www.unibocconi.it/it/entrare-bocconi/corsi-di-laurea-magistrale/tasse-e-contributi",
+          "cycle_marker": "2027/28 explicit applicable programme/cohort context",
+          "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
+        },
+        "missing_components": [
+          "complete joint Cyber annual fee and any partner charge"
+        ],
+        "covered_scope": "Bocconi first-year 2027/28 MSc ordinary contribution relevant to the joint Cyber route; complete partner/joint fee basis still needs confirmation.",
+        "short_value": "Rule only — complete joint annual amount Not confirmed"
       }
     },
     "discovered-029": {
@@ -2252,11 +2310,11 @@
           "cycle_marker": "2027/28 admission page or call",
           "relationship": "Named intake/cycle context is checked alongside the field-specific official source; generic page retrieval alone does not verify applicability."
         },
-        "short_value": "EUR 157.04 + income-assessed contribution; maximum Not confirmed",
+        "short_value": "Rule only — full annual amount Not confirmed",
         "missing_components": [
           "Exact 2027/28 course maximum"
         ],
-        "covered_scope": "Only the named GrEnFIn, CLE, BBS or 28DIGITAL route stated above; these admission and fee routes are distinct."
+        "covered_scope": "GrEnFIn 2027/28 self-funded students only; Erasmus Mundus scholarship holders follow the published fee-waiver conditions."
       }
     },
     "discovered-010": {
@@ -5695,28 +5753,15 @@
         }
       },
       "universitaly": {
-        "value": "Under the national procedures explicitly valid for 2027/28, applicants who need a study visa must submit the visa pre-enrolment application through the official, free Universitaly portal. University validation is not a visa guarantee. The university/programme-specific 2027/28 submission deadline is Not confirmed; the national visa ceiling is not a substitute for that deadline.",
-        "cycle_status": "2027/28 confirmed",
-        "academic_cycle": "2027/28",
-        "source_urls": [
-          "https://www.universitaly.it/en/studenti-stranieri"
-        ],
-        "verified_date": "2026-11-13",
-        "evidence_source_ids": [
-          "REFINE-UNIVERSITALY-2027"
-        ],
-        "evidence_sha256": {
-          "https://www.universitaly.it/en/studenti-stranieri": "d8d8bd4abec1e7eb537e3f99a8047e9683395888810a3d1e9a15c25698eaccf1"
-        },
-        "current_cycle_evidence": {
-          "url": "https://www.universitaly.it/en/studenti-stranieri",
-          "cycle_marker": "2027/28 explicit applicable programme/cohort context",
-          "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
-        },
-        "missing_components": [
-          "university/programme-specific Universitaly deadline"
-        ],
-        "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
+        "value": "Not confirmed",
+        "cycle_status": "not confirmed",
+        "academic_cycle": null,
+        "source_urls": [],
+        "verified_date": null,
+        "checked_urls": [],
+        "checked_at": null,
+        "reason": "A university/programme-specific 2027/28 Universitaly deadline is not established. The separately recorded national visa-applicant requirement does not establish this deadline.",
+        "national_rule_ref": "universitaly_requirement"
       }
     },
     "pisa": {
@@ -5778,34 +5823,19 @@
         }
       },
       "universitaly": {
-        "value": "Under the national procedures explicitly valid for 2027/28, applicants who need a study visa must submit the visa pre-enrolment application through the official, free Universitaly portal. University validation is not a visa guarantee. The university/programme-specific 2027/28 submission deadline is Not confirmed; the national visa ceiling is not a substitute for that deadline.",
-        "cycle_status": "2027/28 confirmed",
-        "academic_cycle": "2027/28",
-        "source_urls": [
+        "value": "Not confirmed",
+        "cycle_status": "not confirmed",
+        "academic_cycle": null,
+        "source_urls": [],
+        "verified_date": null,
+        "checked_urls": [
           "https://computer.ing.unipi.it/call-for-international-students/",
           "https://applymscenglish.unipi.it/downloads/downloadpdf/bandicdl/2027/bando_10_wcy-lm_en.pdf",
-          "https://www.universitaly.it/en/studenti-stranieri"
+          "https://www.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/pre-registration-on-universitaly/"
         ],
-        "verified_date": "2026-11-13",
-        "evidence_source_ids": [
-          "SRC-UNIPI-INFO-ENG-2027-CALL",
-          "SRC-AUDIT-UNIPI-CYBER-2027-CALL",
-          "REFINE-UNIVERSITALY-2027"
-        ],
-        "evidence_sha256": {
-          "https://www.universitaly.it/en/studenti-stranieri": "d8d8bd4abec1e7eb537e3f99a8047e9683395888810a3d1e9a15c25698eaccf1",
-          "https://computer.ing.unipi.it/call-for-international-students/": "0def6771738113fc088acaf53acb34897c51a7caa76107f1697521abc6301a91",
-          "https://applymscenglish.unipi.it/downloads/downloadpdf/bandicdl/2027/bando_10_wcy-lm_en.pdf": "eee23bd0ff66e4c16838ca51f944d0ab118544b0f6858b9c0ad7f07843162237"
-        },
-        "current_cycle_evidence": {
-          "url": "https://www.universitaly.it/en/studenti-stranieri",
-          "cycle_marker": "2027/28 explicit applicable programme/cohort context",
-          "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
-        },
-        "missing_components": [
-          "university/programme-specific Universitaly deadline"
-        ],
-        "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
+        "checked_at": "2026-11-13",
+        "reason": "The university page gives 30 September 2026 for 2026/27. It does not establish a 2027/28 deadline; neither the programme application deadline nor the national visa ceiling is substituted.",
+        "national_rule_ref": "universitaly_requirement"
       },
       "visa_permit": {
         "value": "The university warns that visa processing may take weeks or months and that it cannot liaise with embassies/consulates on an applicant’s behalf. Admission precedes Universitaly; final enrolment follows the visa. Permit details and a universal visa deadline are Not confirmed.",
@@ -6117,28 +6147,15 @@
         "covered_scope": "The named 28DIGITAL track/partner conditions only; ordinary UniTrento fee and admission routes are separate."
       },
       "universitaly": {
-        "value": "Under the national procedures explicitly valid for 2027/28, applicants who need a study visa must submit the visa pre-enrolment application through the official, free Universitaly portal. University validation is not a visa guarantee. The university/programme-specific 2027/28 submission deadline is Not confirmed; the national visa ceiling is not a substitute for that deadline.",
-        "cycle_status": "2027/28 confirmed",
-        "academic_cycle": "2027/28",
-        "source_urls": [
-          "https://www.universitaly.it/en/studenti-stranieri"
-        ],
-        "verified_date": "2026-11-13",
-        "evidence_source_ids": [
-          "REFINE-UNIVERSITALY-2027"
-        ],
-        "evidence_sha256": {
-          "https://www.universitaly.it/en/studenti-stranieri": "d8d8bd4abec1e7eb537e3f99a8047e9683395888810a3d1e9a15c25698eaccf1"
-        },
-        "current_cycle_evidence": {
-          "url": "https://www.universitaly.it/en/studenti-stranieri",
-          "cycle_marker": "2027/28 explicit applicable programme/cohort context",
-          "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
-        },
-        "missing_components": [
-          "university/programme-specific Universitaly deadline"
-        ],
-        "covered_scope": "The named 28DIGITAL track/partner conditions only; ordinary UniTrento fee and admission routes are separate."
+        "value": "Not confirmed",
+        "cycle_status": "not confirmed",
+        "academic_cycle": null,
+        "source_urls": [],
+        "verified_date": null,
+        "checked_urls": [],
+        "checked_at": null,
+        "reason": "A university/programme-specific 2027/28 Universitaly deadline is not established. The separately recorded national visa-applicant requirement does not establish this deadline.",
+        "national_rule_ref": "universitaly_requirement"
       },
       "visa_permit": {
         "value": "Trento directs non-EU visa applicants to Universitaly and the Italian diplomatic representation. Its residence-permit page instructs type-D student-visa holders staying longer than 90 days to apply within 8 working days and offers International Mobility Office assistance. The exact programme-specific 2027/28 visa/arrival deadline and future office-procedure changes are Not confirmed.",
@@ -6348,31 +6365,17 @@
         "covered_scope": "Only the named GrEnFIn, CLE, BBS or 28DIGITAL route stated above; these admission and fee routes are distinct."
       },
       "universitaly": {
-        "value": "Under the national procedures explicitly valid for 2027/28, applicants who need a study visa must submit the visa pre-enrolment application through the official, free Universitaly portal. University validation is not a visa guarantee. The university/programme-specific 2027/28 submission deadline is Not confirmed; the national visa ceiling is not a substitute for that deadline.",
-        "cycle_status": "2027/28 confirmed",
-        "academic_cycle": "2027/28",
-        "source_urls": [
-          "https://corsi.unibo.it/s/3394/p/en/enrolling-grenfin/avvisolm-grenfin-emjm-27-28_en-2-prot.pdf/@@download/file/AvvisoLM-GrEnFIn-EMJM-27-28_EN-2-PROT.pdf",
-          "https://www.universitaly.it/en/studenti-stranieri"
+        "value": "Not confirmed",
+        "cycle_status": "not confirmed",
+        "academic_cycle": null,
+        "source_urls": [],
+        "verified_date": null,
+        "checked_urls": [
+          "https://corsi.unibo.it/s/3394/p/en/enrolling-grenfin/avvisolm-grenfin-emjm-27-28_en-2-prot.pdf/@@download/file/AvvisoLM-GrEnFIn-EMJM-27-28_EN-2-PROT.pdf"
         ],
-        "verified_date": "2026-11-13",
-        "evidence_source_ids": [
-          "SRC-UNIBO-GRENFIN-2027-CALL",
-          "REFINE-UNIVERSITALY-2027"
-        ],
-        "evidence_sha256": {
-          "https://www.universitaly.it/en/studenti-stranieri": "d8d8bd4abec1e7eb537e3f99a8047e9683395888810a3d1e9a15c25698eaccf1",
-          "https://corsi.unibo.it/s/3394/p/en/enrolling-grenfin/avvisolm-grenfin-emjm-27-28_en-2-prot.pdf/@@download/file/AvvisoLM-GrEnFIn-EMJM-27-28_EN-2-PROT.pdf": "c4cc5e62100963ca3bac8c88bc9fda37838dad51a931568c5dd4aacb4a99361b"
-        },
-        "current_cycle_evidence": {
-          "url": "https://www.universitaly.it/en/studenti-stranieri",
-          "cycle_marker": "2027/28 explicit applicable programme/cohort context",
-          "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
-        },
-        "missing_components": [
-          "university/programme-specific Universitaly deadline"
-        ],
-        "covered_scope": "Only the named GrEnFIn, CLE, BBS or 28DIGITAL route stated above; these admission and fee routes are distinct."
+        "checked_at": "2026-11-13",
+        "reason": "A university/programme-specific 2027/28 Universitaly deadline is not established. The separately recorded national visa-applicant requirement does not establish this deadline.",
+        "national_rule_ref": "universitaly_requirement"
       }
     },
     "politecnico-milano": {
@@ -6579,28 +6582,15 @@
         }
       },
       "universitaly": {
-        "value": "Under the national procedures explicitly valid for 2027/28, applicants who need a study visa must submit the visa pre-enrolment application through the official, free Universitaly portal. University validation is not a visa guarantee. The university/programme-specific 2027/28 submission deadline is Not confirmed; the national visa ceiling is not a substitute for that deadline.",
-        "cycle_status": "2027/28 confirmed",
-        "academic_cycle": "2027/28",
-        "source_urls": [
-          "https://www.universitaly.it/en/studenti-stranieri"
-        ],
-        "verified_date": "2026-11-13",
-        "evidence_source_ids": [
-          "REFINE-UNIVERSITALY-2027"
-        ],
-        "evidence_sha256": {
-          "https://www.universitaly.it/en/studenti-stranieri": "d8d8bd4abec1e7eb537e3f99a8047e9683395888810a3d1e9a15c25698eaccf1"
-        },
-        "current_cycle_evidence": {
-          "url": "https://www.universitaly.it/en/studenti-stranieri",
-          "cycle_marker": "2027/28 explicit applicable programme/cohort context",
-          "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
-        },
-        "missing_components": [
-          "university/programme-specific Universitaly deadline"
-        ],
-        "covered_scope": "Standard foreign-qualification MSc route only. Italian-qualification admissions and the joint Bocconi route are not covered by this policy."
+        "value": "Not confirmed",
+        "cycle_status": "not confirmed",
+        "academic_cycle": null,
+        "source_urls": [],
+        "verified_date": null,
+        "checked_urls": [],
+        "checked_at": null,
+        "reason": "A university/programme-specific 2027/28 Universitaly deadline is not established. The separately recorded national visa-applicant requirement does not establish this deadline.",
+        "national_rule_ref": "universitaly_requirement"
       },
       "visa_permit": {
         "value": "Polimi instructs non-EU arrivals to apply for a residence permit within 8 working days. The post-office kit is accompanied by passport/visa, health insurance and the MSc admission letter or stated enrolment alternative; the International Students Office provides help. The exact programme-specific 2027/28 visa/arrival deadline and future office-procedure changes are Not confirmed.",
@@ -6657,7 +6647,8 @@
         "missing_components": [
           "A university-wide deadline for other programmes"
         ],
-        "covered_scope": "Mechatronics Engineering 2027/28 only; programme-specific conditions must not be extended to other Tor Vergata courses."
+        "covered_scope": "Mechatronics Engineering 2027/28 only; programme-specific conditions must not be extended to other Tor Vergata courses.",
+        "national_rule_ref": "universitaly_requirement"
       },
       "visa_permit": {
         "value": "For Mechatronics visa applicants: after Universitaly validation contact the competent diplomatic/consular representation. Only that authority issues the visa; final enrolment follows the visa and verification of qualifications. Permit timing is Not confirmed.",
@@ -6859,28 +6850,15 @@
         }
       },
       "universitaly": {
-        "value": "Under the national procedures explicitly valid for 2027/28, applicants who need a study visa must submit the visa pre-enrolment application through the official, free Universitaly portal. University validation is not a visa guarantee. The university/programme-specific 2027/28 submission deadline is Not confirmed; the national visa ceiling is not a substitute for that deadline.",
-        "cycle_status": "2027/28 confirmed",
-        "academic_cycle": "2027/28",
-        "source_urls": [
-          "https://www.universitaly.it/en/studenti-stranieri"
-        ],
-        "verified_date": "2026-11-13",
-        "evidence_source_ids": [
-          "REFINE-UNIVERSITALY-2027"
-        ],
-        "evidence_sha256": {
-          "https://www.universitaly.it/en/studenti-stranieri": "d8d8bd4abec1e7eb537e3f99a8047e9683395888810a3d1e9a15c25698eaccf1"
-        },
-        "current_cycle_evidence": {
-          "url": "https://www.universitaly.it/en/studenti-stranieri",
-          "cycle_marker": "2027/28 explicit applicable programme/cohort context",
-          "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
-        },
-        "missing_components": [
-          "university/programme-specific Universitaly deadline"
-        ],
-        "covered_scope": "HySET 2027–29 consortium route only, not ordinary Polito MSc admission or a guaranteed scholarship."
+        "value": "Not confirmed",
+        "cycle_status": "not confirmed",
+        "academic_cycle": null,
+        "source_urls": [],
+        "verified_date": null,
+        "checked_urls": [],
+        "checked_at": null,
+        "reason": "A university/programme-specific 2027/28 Universitaly deadline is not established. The separately recorded national visa-applicant requirement does not establish this deadline.",
+        "national_rule_ref": "universitaly_requirement"
       }
     },
     "torino": {
@@ -6954,28 +6932,15 @@
         }
       ],
       "universitaly": {
-        "value": "Under the national procedures explicitly valid for 2027/28, applicants who need a study visa must submit the visa pre-enrolment application through the official, free Universitaly portal. University validation is not a visa guarantee. The university/programme-specific 2027/28 submission deadline is Not confirmed; the national visa ceiling is not a substitute for that deadline.",
-        "cycle_status": "2027/28 confirmed",
-        "academic_cycle": "2027/28",
-        "source_urls": [
-          "https://www.universitaly.it/en/studenti-stranieri"
-        ],
-        "verified_date": "2026-11-13",
-        "evidence_source_ids": [
-          "REFINE-UNIVERSITALY-2027"
-        ],
-        "evidence_sha256": {
-          "https://www.universitaly.it/en/studenti-stranieri": "d8d8bd4abec1e7eb537e3f99a8047e9683395888810a3d1e9a15c25698eaccf1"
-        },
-        "current_cycle_evidence": {
-          "url": "https://www.universitaly.it/en/studenti-stranieri",
-          "cycle_marker": "2027/28 explicit applicable programme/cohort context",
-          "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
-        },
-        "missing_components": [
-          "university/programme-specific Universitaly deadline"
-        ],
-        "covered_scope": "The named EAP/EPOG online route or local TAPP route as stated; the two credit thresholds are not interchangeable."
+        "value": "Not confirmed",
+        "cycle_status": "not confirmed",
+        "academic_cycle": null,
+        "source_urls": [],
+        "verified_date": null,
+        "checked_urls": [],
+        "checked_at": null,
+        "reason": "A university/programme-specific 2027/28 Universitaly deadline is not established. The separately recorded national visa-applicant requirement does not establish this deadline.",
+        "national_rule_ref": "universitaly_requirement"
       },
       "visa_permit": {
         "value": "Turin directs applicants to the competent embassy/consulate for the visa and says a residence-permit application must be made within 8 working days after arrival in Italy. The university offers application support; keep the postal receipt for the subsequent police appointment. The exact programme-specific 2027/28 visa/arrival deadline and future office-procedure changes are Not confirmed.",
@@ -7045,28 +7010,15 @@
         }
       ],
       "universitaly": {
-        "value": "Under the national procedures explicitly valid for 2027/28, applicants who need a study visa must submit the visa pre-enrolment application through the official, free Universitaly portal. University validation is not a visa guarantee. The university/programme-specific 2027/28 submission deadline is Not confirmed; the national visa ceiling is not a substitute for that deadline.",
-        "cycle_status": "2027/28 confirmed",
-        "academic_cycle": "2027/28",
-        "source_urls": [
-          "https://www.universitaly.it/en/studenti-stranieri"
-        ],
-        "verified_date": "2026-11-13",
-        "evidence_source_ids": [
-          "REFINE-UNIVERSITALY-2027"
-        ],
-        "evidence_sha256": {
-          "https://www.universitaly.it/en/studenti-stranieri": "d8d8bd4abec1e7eb537e3f99a8047e9683395888810a3d1e9a15c25698eaccf1"
-        },
-        "current_cycle_evidence": {
-          "url": "https://www.universitaly.it/en/studenti-stranieri",
-          "cycle_marker": "2027/28 explicit applicable programme/cohort context",
-          "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
-        },
-        "missing_components": [
-          "university/programme-specific Universitaly deadline"
-        ],
-        "covered_scope": "The named Buddhism and Asian Religions programme and the stated foreign-qualification or scholarship conditions only."
+        "value": "Not confirmed",
+        "cycle_status": "not confirmed",
+        "academic_cycle": null,
+        "source_urls": [],
+        "verified_date": null,
+        "checked_urls": [],
+        "checked_at": null,
+        "reason": "A university/programme-specific 2027/28 Universitaly deadline is not established. The separately recorded national visa-applicant requirement does not establish this deadline.",
+        "national_rule_ref": "universitaly_requirement"
       }
     },
     "firenze": {
@@ -7105,28 +7057,15 @@
         }
       },
       "universitaly": {
-        "value": "Under the national procedures explicitly valid for 2027/28, applicants who need a study visa must submit the visa pre-enrolment application through the official, free Universitaly portal. University validation is not a visa guarantee. The university/programme-specific 2027/28 submission deadline is Not confirmed; the national visa ceiling is not a substitute for that deadline.",
-        "cycle_status": "2027/28 confirmed",
-        "academic_cycle": "2027/28",
-        "source_urls": [
-          "https://www.universitaly.it/en/studenti-stranieri"
-        ],
-        "verified_date": "2026-11-13",
-        "evidence_source_ids": [
-          "REFINE-UNIVERSITALY-2027"
-        ],
-        "evidence_sha256": {
-          "https://www.universitaly.it/en/studenti-stranieri": "d8d8bd4abec1e7eb537e3f99a8047e9683395888810a3d1e9a15c25698eaccf1"
-        },
-        "current_cycle_evidence": {
-          "url": "https://www.universitaly.it/en/studenti-stranieri",
-          "cycle_marker": "2027/28 explicit applicable programme/cohort context",
-          "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
-        },
-        "missing_components": [
-          "university/programme-specific Universitaly deadline"
-        ],
-        "covered_scope": "Software: Science and Technology admission, or the stated non-EU/foreign-qualification university procedure; each published country/test condition still applies."
+        "value": "Not confirmed",
+        "cycle_status": "not confirmed",
+        "academic_cycle": null,
+        "source_urls": [],
+        "verified_date": null,
+        "checked_urls": [],
+        "checked_at": null,
+        "reason": "A university/programme-specific 2027/28 Universitaly deadline is not established. The separately recorded national visa-applicant requirement does not establish this deadline.",
+        "national_rule_ref": "universitaly_requirement"
       },
       "documents": {
         "value": "Florence’s published non-EU/foreign-qualification MSc route requires passport, study visa, residence-permit application receipts, Admission Document, bachelor certificate and transcript in the original language, legalised or apostilled. For recognition it states Declaration of Value OR CIMEA verification + comparability certificates. English, French or Spanish documents do not need an official Italian translation; other languages do. The pre-enrolment dossier additionally lists a photograph and the course’s English proof. Country-specific legalisation exemptions and final 2027/28 checklist changes are Not confirmed.",
@@ -7207,28 +7146,15 @@
         "reason": "The official ADISURC page lists Federico II and international-student services, but its substantive application guidance includes stale years. A cycle-specific 2027/28 eligibility rule is not established."
       },
       "universitaly": {
-        "value": "Under the national procedures explicitly valid for 2027/28, applicants who need a study visa must submit the visa pre-enrolment application through the official, free Universitaly portal. University validation is not a visa guarantee. The university/programme-specific 2027/28 submission deadline is Not confirmed; the national visa ceiling is not a substitute for that deadline.",
-        "cycle_status": "2027/28 confirmed",
-        "academic_cycle": "2027/28",
-        "source_urls": [
-          "https://www.universitaly.it/en/studenti-stranieri"
-        ],
-        "verified_date": "2026-11-13",
-        "evidence_source_ids": [
-          "REFINE-UNIVERSITALY-2027"
-        ],
-        "evidence_sha256": {
-          "https://www.universitaly.it/en/studenti-stranieri": "d8d8bd4abec1e7eb537e3f99a8047e9683395888810a3d1e9a15c25698eaccf1"
-        },
-        "current_cycle_evidence": {
-          "url": "https://www.universitaly.it/en/studenti-stranieri",
-          "cycle_marker": "2027/28 explicit applicable programme/cohort context",
-          "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
-        },
-        "missing_components": [
-          "university/programme-specific Universitaly deadline"
-        ],
-        "covered_scope": "Only the university-published visa/insurance guidance and national visa-applicant rule; programme admission criteria are not established."
+        "value": "Not confirmed",
+        "cycle_status": "not confirmed",
+        "academic_cycle": null,
+        "source_urls": [],
+        "verified_date": null,
+        "checked_urls": [],
+        "checked_at": null,
+        "reason": "A university/programme-specific 2027/28 Universitaly deadline is not established. The separately recorded national visa-applicant requirement does not establish this deadline.",
+        "national_rule_ref": "universitaly_requirement"
       },
       "visa_permit": {
         "value": "Naples publishes instructions directing study-visa applicants through Universitaly validation and the competent diplomatic representation. It states that non-EU students must provide health-insurance evidence when applying for a residence permit. A university-specific 2027 permit-application timetable is Not confirmed. The exact programme-specific 2027/28 visa/arrival deadline and future office-procedure changes are Not confirmed.",

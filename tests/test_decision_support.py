@@ -235,7 +235,7 @@ class DecisionSupportTests(unittest.TestCase):
     def test_original_statuses_review_dates_and_deadline_facts_are_unchanged(self):
         for filename, records in (("programs-2027-2028.json", B.PROGRAMS), ("universities-2027-2028.json", B.UNIVERSITIES)):
             original = json.loads(subprocess.check_output(["git", "show", f"778db56:research/{filename}"], cwd=ROOT))
-            stripped = [{k: v for k, v in record.items() if k != "decision_support"} for record in records]
+            stripped = [{k: v for k, v in record.items() if k not in {"decision_support", "applicant_routes"}} for record in records]
             self.assertEqual(stripped, original)
 
 

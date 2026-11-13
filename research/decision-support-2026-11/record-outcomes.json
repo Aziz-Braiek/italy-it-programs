@@ -30,21 +30,21 @@
     "priority_record": true,
     "review_outcome": "reviewed_with_field_gaps",
     "counts": {
-      "2027/28 confirmed": 4,
+      "2027/28 confirmed": 6,
       "previous cycle (estimate only)": 0,
-      "not confirmed": 5
+      "not confirmed": 3
     },
     "unconfirmed_fields": [
       "ects",
-      "english_requirement",
       "minimum_grade",
-      "non_eu_seats",
-      "tuition"
+      "non_eu_seats"
     ],
     "partly_confirmed_fields": [
       "prerequisites",
+      "english_requirement",
       "admission_test",
-      "selection_method"
+      "selection_method",
+      "tuition"
     ],
     "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
   },
@@ -5056,17 +5056,17 @@
     "priority_record": true,
     "review_outcome": "reviewed_with_field_gaps",
     "counts": {
-      "2027/28 confirmed": 2,
+      "2027/28 confirmed": 1,
       "previous cycle (estimate only)": 0,
-      "not confirmed": 3
+      "not confirmed": 4
     },
     "unconfirmed_fields": [
+      "universitaly",
       "documents",
       "regional_dsu",
       "scholarships"
     ],
     "partly_confirmed_fields": [
-      "universitaly",
       "visa_permit"
     ],
     "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
@@ -5099,13 +5099,14 @@
     "priority_record": true,
     "review_outcome": "reviewed_with_field_gaps",
     "counts": {
-      "2027/28 confirmed": 4,
+      "2027/28 confirmed": 3,
       "previous cycle (estimate only)": 1,
-      "not confirmed": 0
+      "not confirmed": 1
     },
-    "unconfirmed_fields": [],
+    "unconfirmed_fields": [
+      "universitaly"
+    ],
     "partly_confirmed_fields": [
-      "universitaly",
       "documents",
       "visa_permit",
       "scholarships"
@@ -5119,16 +5120,16 @@
     "priority_record": true,
     "review_outcome": "reviewed_with_field_gaps",
     "counts": {
-      "2027/28 confirmed": 2,
+      "2027/28 confirmed": 1,
       "previous cycle (estimate only)": 2,
-      "not confirmed": 2
+      "not confirmed": 3
     },
     "unconfirmed_fields": [
+      "universitaly",
       "visa_permit",
       "scholarships"
     ],
     "partly_confirmed_fields": [
-      "universitaly",
       "documents"
     ],
     "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
@@ -5201,17 +5202,16 @@
     "priority_record": true,
     "review_outcome": "reviewed_with_field_gaps",
     "counts": {
-      "2027/28 confirmed": 1,
+      "2027/28 confirmed": 0,
       "previous cycle (estimate only)": 2,
-      "not confirmed": 2
+      "not confirmed": 3
     },
     "unconfirmed_fields": [
+      "universitaly",
       "documents",
       "visa_permit"
     ],
-    "partly_confirmed_fields": [
-      "universitaly"
-    ],
+    "partly_confirmed_fields": [],
     "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
   },
   {
@@ -5347,15 +5347,15 @@
     "priority_record": true,
     "review_outcome": "reviewed_with_field_gaps",
     "counts": {
-      "2027/28 confirmed": 5,
+      "2027/28 confirmed": 4,
       "previous cycle (estimate only)": 0,
-      "not confirmed": 1
+      "not confirmed": 2
     },
     "unconfirmed_fields": [
+      "universitaly",
       "visa_permit"
     ],
     "partly_confirmed_fields": [
-      "universitaly",
       "documents",
       "regional_dsu",
       "scholarships"
@@ -5411,13 +5411,14 @@
     "priority_record": true,
     "review_outcome": "reviewed_with_field_gaps",
     "counts": {
-      "2027/28 confirmed": 3,
+      "2027/28 confirmed": 2,
       "previous cycle (estimate only)": 2,
-      "not confirmed": 0
+      "not confirmed": 1
     },
-    "unconfirmed_fields": [],
+    "unconfirmed_fields": [
+      "universitaly"
+    ],
     "partly_confirmed_fields": [
-      "universitaly",
       "documents",
       "visa_permit"
     ],
@@ -5493,15 +5494,15 @@
     "priority_record": true,
     "review_outcome": "reviewed_with_field_gaps",
     "counts": {
-      "2027/28 confirmed": 2,
+      "2027/28 confirmed": 1,
       "previous cycle (estimate only)": 2,
-      "not confirmed": 1
+      "not confirmed": 2
     },
     "unconfirmed_fields": [
+      "universitaly",
       "visa_permit"
     ],
     "partly_confirmed_fields": [
-      "universitaly",
       "documents"
     ],
     "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
@@ -5597,13 +5598,14 @@
     "priority_record": true,
     "review_outcome": "reviewed_with_field_gaps",
     "counts": {
-      "2027/28 confirmed": 5,
+      "2027/28 confirmed": 4,
       "previous cycle (estimate only)": 1,
-      "not confirmed": 0
+      "not confirmed": 1
     },
-    "unconfirmed_fields": [],
+    "unconfirmed_fields": [
+      "universitaly"
+    ],
     "partly_confirmed_fields": [
-      "universitaly",
       "documents",
       "regional_dsu",
       "visa_permit",
@@ -5660,13 +5662,14 @@
     "priority_record": true,
     "review_outcome": "reviewed_with_field_gaps",
     "counts": {
-      "2027/28 confirmed": 3,
+      "2027/28 confirmed": 2,
       "previous cycle (estimate only)": 2,
-      "not confirmed": 0
+      "not confirmed": 1
     },
-    "unconfirmed_fields": [],
+    "unconfirmed_fields": [
+      "universitaly"
+    ],
     "partly_confirmed_fields": [
-      "universitaly",
       "documents",
       "visa_permit"
     ],
@@ -5679,13 +5682,14 @@
     "priority_record": true,
     "review_outcome": "reviewed_with_field_gaps",
     "counts": {
-      "2027/28 confirmed": 4,
+      "2027/28 confirmed": 3,
       "previous cycle (estimate only)": 1,
-      "not confirmed": 0
+      "not confirmed": 1
     },
-    "unconfirmed_fields": [],
+    "unconfirmed_fields": [
+      "universitaly"
+    ],
     "partly_confirmed_fields": [
-      "universitaly",
       "documents",
       "visa_permit",
       "scholarships"

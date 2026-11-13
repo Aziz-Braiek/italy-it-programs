@@ -97,7 +97,9 @@ try {
     }
   }
   await page.locator("#filter-tuition").selectOption("documented");
-  assert.equal(await page.locator('.program-card:not([hidden])').count(), 9, "only current 28DIGITAL and GrEnFIn tuition rules match");
+  assert.equal(await page.locator('.program-card:not([hidden])').count(), 8, "only current published fixed/band tuition matches; GrEnFIn's variable rule is separate");
+  await page.locator("#filter-tuition").selectOption("rule-only");
+  assert.deepEqual((await page.locator('.program-card:not([hidden])').evaluateAll(cards => cards.map(card => card.dataset.programId))).sort(), ["discovered-029", "legacy-002"], "current fee rules without a verified full annual amount stay separate");
   assert.equal(await page.locator('[data-program-id="legacy-052"]').isVisible(), false, "Pisa's previous-year fee never matches current tuition");
   await page.locator("#clear-filters").click();
   await page.locator("#filter-scholarship").selectOption("documented");

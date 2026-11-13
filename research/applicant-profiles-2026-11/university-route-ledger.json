@@ -1,0 +1,698 @@
+[
+  {
+    "id": "bologna",
+    "university": "Università di Bologna",
+    "national_rule_ref": "universitaly_requirement",
+    "university_universitaly_fact": {
+      "value": "Not confirmed",
+      "cycle_status": "not confirmed",
+      "academic_cycle": null,
+      "source_urls": [],
+      "verified_date": null,
+      "checked_urls": [
+        "https://corsi.unibo.it/s/3394/p/en/enrolling-grenfin/avvisolm-grenfin-emjm-27-28_en-2-prot.pdf/@@download/file/AvvisoLM-GrEnFIn-EMJM-27-28_EN-2-PROT.pdf"
+      ],
+      "checked_at": "2026-11-13",
+      "reason": "A university/programme-specific 2027/28 Universitaly deadline is not established. The separately recorded national visa-applicant requirement does not establish this deadline.",
+      "national_rule_ref": "universitaly_requirement"
+    },
+    "document_fact": {
+      "value": "GrEnFIn: qualifying-degree/transcript documents, language proof and the dossier specified by the call; translation/authenticity/value are checked where required, and originals are verified later. For degrees from China/India/Vietnam, UniBo can accept APS as authenticity evidence; another authenticity proof accepted by UniBo can also satisfy LMU enrolment, but a German visa authority may still request APS. CLE: mandatory ID/passport, qualifying-degree/transcript evidence (Italian/English translation), and route-specific language proof; CV, motivation and references are additional funding documents, not universally mandatory for course admission. For the 28DIGITAL track: 28DIGITAL application only: degree certificate and stamped transcript in original language AND English; authorised translation where the university does not provide it. Final-year applicants provide a degree-administration statement. Also upload English proof, CV, a motivation letter (maximum two pages) and colour ID; GPA/rank statement and video are optional. Present original degree/transcript before enrolment. Specific countries require direct registrar/HEC documentation. One email-receipt paragraph still gives 2026 dates while postal instructions give 2027; those receipt deadlines need clarification. Italian DoV/CIMEA and apostille substitutions are Not confirmed. University-wide DoV/CIMEA substitution rules are Not confirmed.",
+      "cycle_status": "2027/28 confirmed",
+      "academic_cycle": "2027/28",
+      "source_urls": [
+        "https://corsi.unibo.it/s/3394/p/en/enrolling-grenfin/avvisolm-grenfin-emjm-27-28_en-2-prot.pdf/@@download/file/AvvisoLM-GrEnFIn-EMJM-27-28_EN-2-PROT.pdf",
+        "https://cle.unibo.it/pages/23/presentazione-della-domanda/lang/en",
+        "https://masterschool.28digital.eu/admissions/required-documents"
+      ],
+      "verified_date": "2026-11-13",
+      "evidence_source_ids": [
+        "SRC-UNIBO-GRENFIN-2027-CALL",
+        "SRC-BOLOGNA-CLE-2027",
+        "DEC-28DIGITAL-DOCUMENTS"
+      ],
+      "evidence_sha256": {
+        "https://corsi.unibo.it/s/3394/p/en/enrolling-grenfin/avvisolm-grenfin-emjm-27-28_en-2-prot.pdf/@@download/file/AvvisoLM-GrEnFIn-EMJM-27-28_EN-2-PROT.pdf": "c4cc5e62100963ca3bac8c88bc9fda37838dad51a931568c5dd4aacb4a99361b",
+        "https://cle.unibo.it/pages/23/presentazione-della-domanda/lang/en": "229daa9f4a499073b2f49528060a57f1b86f39b0a8e5831a155ef041aa243734",
+        "https://masterschool.28digital.eu/admissions/required-documents": "869fc0a883834fd4f1ae0266cfab9ea2548bbd227efcae8f5bb7e2c1bccbc909"
+      },
+      "current_cycle_evidence": {
+        "url": "https://corsi.unibo.it/s/3394/p/en/enrolling-grenfin/avvisolm-grenfin-emjm-27-28_en-2-prot.pdf/@@download/file/AvvisoLM-GrEnFIn-EMJM-27-28_EN-2-PROT.pdf",
+        "cycle_marker": "2027/28 admission page or call",
+        "relationship": "Named intake/cycle context is checked alongside the field-specific official source; generic page retrieval alone does not verify applicability."
+      },
+      "program_ids": [
+        "discovered-029",
+        "discovered-012",
+        "legacy-020"
+      ],
+      "missing_components": [
+        "Italian DoV/CIMEA and apostille substitutions",
+        "University-wide DoV/CIMEA substitution rules"
+      ],
+      "covered_scope": "Only the named GrEnFIn, CLE, BBS or 28DIGITAL route stated above; these admission and fee routes are distinct."
+    },
+    "route_refs": {},
+    "checked_pages": [
+      "https://cle.unibo.it/pages/23/presentazione-della-domanda/lang/en",
+      "https://cle.unibo.it/pages/8/about-cle",
+      "https://corsi.unibo.it/s/3394/p/en/enrolling-grenfin/avvisolm-grenfin-emjm-27-28_en-2-prot.pdf/@@download/file/AvvisoLM-GrEnFIn-EMJM-27-28_EN-2-PROT.pdf",
+      "https://www.bbs.unibo.it/en/global-mba/ai-and-manufacturing-2/",
+      "https://www.bbs.unibo.it/en/master-fulltime/analytics-and-ai-for-marketing/",
+      "https://www.bbs.unibo.it/en/master-fulltime/artificial-intelligence-2/",
+      "https://www.bbs.unibo.it/en/master-fulltime/entrepreneurial-finance/",
+      "https://www.bbs.unibo.it/en/master-fulltime/finance-and-ai-2/",
+      "https://www.bbs.unibo.it/en/master-fulltime/master-in-data-science-2/",
+      "https://www.unibo.it/en/study/enrolment-fees-and-other-procedures/tuition-fees-and-exemptions/tuition-fees",
+      "https://www.unibo.it/en/study/phd-professional-masters-specialisation-schools-and-other-programmes/professional-master/2026-2027/attachments/call-for-application-in-global-master-in-business-administration/data-sheet-of-the-professional-masters-programme-in-global-master-in-business-administration/@@download/file/SCHEDA%20MASTER%20GLOBAL%20MBA%20A.A.%202026-2027_EN.pdf",
+      "https://www.unibo.it/en/study/phd-professional-masters-specialisation-schools-and-other-programmes/professional-master/2026-2027/finance-2"
+    ],
+    "date_checked": "2026-11-13",
+    "reason": "GrEnFIn has a current formal call and is distinct from Bologna's 28DIGITAL, CLE and BBS tracks. BBS pages advertise 2027/28 but say the formal calls/applications are forthcoming; undated fees, test/waiver sections are not rolled forward. CLE's current page links older formal criteria. Ordinary UniBo tuition and DSU rules do not automatically apply to professional masters.",
+    "limit": "A national portal requirement or visa deadline is not a university-specific pre-enrolment deadline. Recognition alternatives depend on the exact country/qualification; a broad origin region cannot determine DoV/CIMEA/translation substitutions."
+  },
+  {
+    "id": "ca-foscari",
+    "university": "Università Ca' Foscari Venezia",
+    "national_rule_ref": "universitaly_requirement",
+    "university_universitaly_fact": {
+      "value": "Not confirmed",
+      "cycle_status": "not confirmed",
+      "academic_cycle": null,
+      "source_urls": [],
+      "verified_date": null,
+      "checked_urls": [],
+      "checked_at": null,
+      "reason": "A university/programme-specific 2027/28 Universitaly deadline is not established. The separately recorded national visa-applicant requirement does not establish this deadline.",
+      "national_rule_ref": "universitaly_requirement"
+    },
+    "document_fact": {
+      "value": "Not confirmed",
+      "cycle_status": "not confirmed",
+      "academic_cycle": null,
+      "source_urls": [],
+      "verified_date": null,
+      "checked_urls": [
+        "https://www.unive.it/data/it/15241",
+        "https://www.unive.it/degree/cm90",
+        "https://www.unive.it/degree/ctr3",
+        "https://www.unive.it/degree/ctr9",
+        "https://www.unive.it/degree/emr14",
+        "https://www.unive.it/degree/emr15",
+        "https://www.unive.it/degree/emr18",
+        "https://www.unive.it/degree/etr7",
+        "https://www.unive.it/degree/etr9",
+        "https://www.unive.it/degree/lmr60",
+        "https://www.unive.it/degree/ltr6",
+        "https://www.unive.it/pag/15612/",
+        "https://www.unive.it/pag/19545",
+        "https://www.unive.it/pag/8551/",
+        "https://www.unive.it/pag/fileadmin/user_upload/inglese/international/doc/degree-seeking/CaFoscari_EnglishDegreeProgrammes.pdf",
+        "https://www.unive.it/web/en/12082/admission-and-enrolment",
+        "https://www.unive.it/web/en/12519/admission-and-enrolment",
+        "https://www.unive.it/web/en/12613/admission-and-enrolment",
+        "https://www.unive.it/web/en/12701/admission-and-enrolment",
+        "https://www.unive.it/web/en/21007/home",
+        "https://www.unive.it/web/en/7047/admission-and-enrolment"
+      ],
+      "checked_at": "2026-11-13",
+      "reason": "The applicable diploma/transcript, DoV/CIMEA alternatives, apostille/legalisation and translation rules have not been established; documents are not assumed interchangeable. Reviewed official material does not establish this field for a named applicable cycle. Check the linked pages and program call."
+    },
+    "route_refs": {},
+    "checked_pages": [
+      "https://www.unive.it/fees",
+      "https://www.unive.it/pag/19545",
+      "https://www.unive.it/pag/40813/",
+      "https://www.unive.it/web/en/20997/enrol",
+      "https://www.unive.it/web/en/21001/admission-and-enrolment-with-an-international-qualification"
+    ],
+    "date_checked": "2026-11-13",
+    "reason": "The 2027/28 Buddhism route confirms qualification/preparation assessment and B2 proof. Open access is not itself a no-test exemption. The central fee index and pre-enrolment deadline page remain 2026/27; their numerical tariff/deadline is not relabelled as 2027/28. The current scholarship announcement leaves its formal application route/deadline forthcoming.",
+    "limit": "A national portal requirement or visa deadline is not a university-specific pre-enrolment deadline. Recognition alternatives depend on the exact country/qualification; a broad origin region cannot determine DoV/CIMEA/translation substitutions."
+  },
+  {
+    "id": "firenze",
+    "university": "Università degli Studi di Firenze",
+    "national_rule_ref": "universitaly_requirement",
+    "university_universitaly_fact": {
+      "value": "Not confirmed",
+      "cycle_status": "not confirmed",
+      "academic_cycle": null,
+      "source_urls": [],
+      "verified_date": null,
+      "checked_urls": [],
+      "checked_at": null,
+      "reason": "A university/programme-specific 2027/28 Universitaly deadline is not established. The separately recorded national visa-applicant requirement does not establish this deadline.",
+      "national_rule_ref": "universitaly_requirement"
+    },
+    "document_fact": {
+      "value": "Florence’s published non-EU/foreign-qualification MSc route requires passport, study visa, residence-permit application receipts, Admission Document, bachelor certificate and transcript in the original language, legalised or apostilled. For recognition it states Declaration of Value OR CIMEA verification + comparability certificates. English, French or Spanish documents do not need an official Italian translation; other languages do. The pre-enrolment dossier additionally lists a photograph and the course’s English proof. Country-specific legalisation exemptions and final 2027/28 checklist changes are Not confirmed.",
+      "cycle_status": "2027/28 confirmed",
+      "academic_cycle": "2027/28",
+      "source_urls": [
+        "https://www.unifi.it/en/study-us/your-learning-path/start-your-enrolment/international-students/non-eu-students",
+        "https://www.unifi.it/en/study-us/your-learning-path/start-your-enrolment/international-students/pre-enrolment-and-study",
+        "https://www.universitaly.it/en/studenti-stranieri"
+      ],
+      "verified_date": "2026-11-13",
+      "evidence_source_ids": [
+        "REFINE-UNIFI-DOCS",
+        "REFINE-UNIFI-PREENROL",
+        "REFINE-UNIVERSITALY-2027"
+      ],
+      "evidence_sha256": {
+        "https://www.unifi.it/en/study-us/your-learning-path/start-your-enrolment/international-students/non-eu-students": "9708b805f03be6914c51cb64dd6d29c04682f774c45be00898eebd7a6911ff7e",
+        "https://www.unifi.it/en/study-us/your-learning-path/start-your-enrolment/international-students/pre-enrolment-and-study": "ef97c75e6584d40793c328ec28408f87c039699d86556c4d6b07584d05d75a34",
+        "https://www.universitaly.it/en/studenti-stranieri": "d8d8bd4abec1e7eb537e3f99a8047e9683395888810a3d1e9a15c25698eaccf1"
+      },
+      "current_cycle_evidence": {
+        "url": "https://www.universitaly.it/en/studenti-stranieri",
+        "cycle_marker": "2027/28 explicit applicable programme/cohort context",
+        "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
+      },
+      "missing_components": [
+        "country-specific legalisation/apostille exemptions",
+        "final 2027/28 university checklist changes"
+      ],
+      "covered_scope": "Software: Science and Technology admission, or the stated non-EU/foreign-qualification university procedure; each published country/test condition still applies."
+    },
+    "route_refs": {},
+    "checked_pages": [
+      "https://www.sst.unifi.it/index.php?func=viewpage&module=CMpro&newlang=eng&pageid=168",
+      "https://www.sst.unifi.it/upload/sub/docs/SST_admission_requirements.pdf",
+      "https://www.unifi.it/en/study-us/your-learning-path/start-your-enrolment/international-students/non-eu-students",
+      "https://www.unifi.it/en/study-us/your-learning-path/start-your-enrolment/international-students/pre-enrolment-and-study"
+    ],
+    "date_checked": "2026-11-13",
+    "reason": "The current Software page links an explicit country-grade annex and describes possible preparation/English interviews. It does not establish a reserved non-EU quota, a separate compulsory standardised exam or its date/modality. General pre-enrolment guidance lists 31 July without an academic year; it is not promoted to a confirmed 2027/28 deadline.",
+    "limit": "A national portal requirement or visa deadline is not a university-specific pre-enrolment deadline. Recognition alternatives depend on the exact country/qualification; a broad origin region cannot determine DoV/CIMEA/translation substitutions."
+  },
+  {
+    "id": "napoli-federico-ii",
+    "university": "Università degli Studi di Napoli Federico II",
+    "national_rule_ref": "universitaly_requirement",
+    "university_universitaly_fact": {
+      "value": "Not confirmed",
+      "cycle_status": "not confirmed",
+      "academic_cycle": null,
+      "source_urls": [],
+      "verified_date": null,
+      "checked_urls": [],
+      "checked_at": null,
+      "reason": "A university/programme-specific 2027/28 Universitaly deadline is not established. The separately recorded national visa-applicant requirement does not establish this deadline.",
+      "national_rule_ref": "universitaly_requirement"
+    },
+    "document_fact": {
+      "value": "Not confirmed",
+      "cycle_status": "not confirmed",
+      "academic_cycle": null,
+      "source_urls": [],
+      "verified_date": null,
+      "checked_urls": [
+        "https://data-science.dieti.unina.it/index.php/studying-with-us/information-to-apply",
+        "https://informatica.dieti.unina.it/index.php/en/degree-programs/degree-programs-overview",
+        "https://move.dii.unina.it/",
+        "https://www.civil-environmental.unina.it/admission/",
+        "https://www.corsi.unina.it/DB2/home",
+        "https://www.diarc.archer.unina.it/images/ARCHER_2024-25_DidacticRegulations_CdS_ENGL_2023_SA_DM96_v6.pdf",
+        "https://www.dicmapi.unina.it/ingegneria-chimica/notice-for-international-students-academic-year-2027-2028-msc-chemical-engineering/",
+        "https://www.dicmapi.unina.it/mag_ingchim/masters-degree-in-chemical-engineering/?lang=en",
+        "https://www.dii.unina.it/source/brochures-cds/magistrale/MOVE_eng.pdf",
+        "https://www.dises.unina.it/en_GB/il-dipartimento/presentazione",
+        "https://www.fisica.unina.it/corso-di-laurea-magistrale-in-quantum-science-and-engineering",
+        "https://www.medicina.unina.it/pdf/P11/SMA-2024.pdf",
+        "https://www.orientamento.unina.it/corsidistudio/data-science-eng/",
+        "https://www.orientamento.unina.it/corsidistudio/economics-and-finance-eng/",
+        "https://www.orientamento.unina.it/corsidistudio/industrial-bio-engineering/",
+        "https://www.orientamento.unina.it/corsidistudio/international-relations-eng/",
+        "https://www.orientamento.unina.it/corsidistudio/quantum-science-and-engineering/",
+        "https://www.unina.it/en/w/semestre-filtro-2026/27-al-via-le-lezioni-per-i-corsi-di-area-sanitaria"
+      ],
+      "checked_at": "2026-11-13",
+      "reason": "The applicable diploma/transcript, DoV/CIMEA alternatives, apostille/legalisation and translation rules have not been established; documents are not assumed interchangeable. Reviewed official material does not establish this field for a named applicable cycle. Check the linked pages and program call."
+    },
+    "route_refs": {},
+    "checked_pages": [
+      "https://www.adisurcampania.it/borse-e-contributi/borse-di-studio",
+      "https://www.dicmapi.unina.it/international-students-and-doctoral-candidates",
+      "https://www.international.unina.it/academic-and-student-life/"
+    ],
+    "date_checked": "2026-11-13",
+    "reason": "Chemical Engineering's 2027/28 notice announces pre-evaluation and says guidelines/precise dates will follow. Its linked international-candidates page does not supply the promised current programme eligibility/fee/quota regulation. General visa/insurance guidance and the national Universitaly requirement do not establish programme admission criteria.",
+    "limit": "A national portal requirement or visa deadline is not a university-specific pre-enrolment deadline. Recognition alternatives depend on the exact country/qualification; a broad origin region cannot determine DoV/CIMEA/translation substitutions."
+  },
+  {
+    "id": "padova",
+    "university": "Università degli Studi di Padova",
+    "national_rule_ref": "universitaly_requirement",
+    "university_universitaly_fact": {
+      "value": "Not confirmed",
+      "cycle_status": "not confirmed",
+      "academic_cycle": null,
+      "source_urls": [],
+      "verified_date": null,
+      "checked_urls": [],
+      "checked_at": null,
+      "reason": "A university/programme-specific 2027/28 Universitaly deadline is not established. The separately recorded national visa-applicant requirement does not establish this deadline.",
+      "national_rule_ref": "universitaly_requirement"
+    },
+    "document_fact": {
+      "value": "For the English-course international application profiles reviewed: qualifying diploma and transcript in English or Italian, or official translations with verified copies; bring originals for enrolment. No legalised documents are required at application stage. Admission may require original, translated/legalised qualifications later. The precise DoV/CIMEA alternatives and apostille exemptions for each country remain Not confirmed.",
+      "cycle_status": "2027/28 confirmed",
+      "academic_cycle": "2027/28",
+      "source_urls": [
+        "https://apply.unipd.it/courses/course/90-computer-engineering",
+        "https://apply.unipd.it/courses/course/63-informatica",
+        "https://apply.unipd.it/courses/course/93-cybersecurity",
+        "https://apply.unipd.it/courses/course/33-data-science",
+        "https://apply.unipd.it/courses/course/182-information-engineering",
+        "https://apply.unipd.it/courses/course/232-aerospace-engineering",
+        "https://apply.unipd.it/courses/course/30-physics-data",
+        "https://apply.unipd.it/courses/course/185-management-engineering",
+        "https://apply.unipd.it/courses/course/12-astrophysics-and-cosmology"
+      ],
+      "verified_date": "2026-11-13",
+      "evidence_source_ids": [
+        "AUDIT-PADUA-COMPUTER-ENGINEERING-PORTAL",
+        "AUDIT-PADUA-INFORMATICA-PORTAL",
+        "AUDIT-PADUA-CYBERSECURITY-PORTAL",
+        "AUDIT-PADUA-DATA-SCIENCE-PORTAL",
+        "AUDIT-PADUA-INFORMATION-ENGINEERING-PORTAL",
+        "AUDIT-PADUA-AEROSPACE-PORTAL",
+        "DEC-PADUA-PHYSICS-DATA",
+        "SRC-PADOVA-MANAGEMENT-ENGINEERING-APPLY-2027",
+        "AUDIT-PADUA-ASTROPHYSICS-PORTAL"
+      ],
+      "evidence_sha256": {
+        "https://apply.unipd.it/courses/course/90-computer-engineering": "f7e1a0266357e8beccfdf47bdfcf79ed659e7ecdcb06e2016a3b7b03d29f65cd",
+        "https://apply.unipd.it/courses/course/63-informatica": "c79b2749f4d6bac5b7a98ad11cd117cc44cedaae6de7943b56832386becf30c7",
+        "https://apply.unipd.it/courses/course/93-cybersecurity": "d3efbc0e86ae44a0edc582825baf7be47f4a3b55d7ac1999044120528e2d80c8",
+        "https://apply.unipd.it/courses/course/33-data-science": "3a251eae838a4916f8bd29bd911a564043019414d7768b6c74b7aa7370d7fe07",
+        "https://apply.unipd.it/courses/course/182-information-engineering": "39a96a63cbf64b80df39b83a4233bee507909795e619a50e630f1431c5eb6d1a",
+        "https://apply.unipd.it/courses/course/232-aerospace-engineering": "5f5e84d0447267c0e445be66a2f8cba9bee021c70fef5e67843fc221a6538d0a",
+        "https://apply.unipd.it/courses/course/30-physics-data": "d2f1d42df51e8d07d01259b58c63d4c7b0448d5d3c4e289d1d2714d24ab92e67",
+        "https://apply.unipd.it/courses/course/185-management-engineering": "fd5150df71e5908d6657fd3ac0cbefbb6e734925eb6cb945b7b67d1a42679c5d",
+        "https://apply.unipd.it/courses/course/12-astrophysics-and-cosmology": "62de4a26b6bd2dc12307d7df74c42bc386d8dab1c7614fc47e2d681890cd4c15"
+      },
+      "current_cycle_evidence": {
+        "url": "https://apply.unipd.it/courses/course/90-computer-engineering",
+        "cycle_marker": "2027/28 admission page or call",
+        "relationship": "Named intake/cycle context is checked alongside the field-specific official source; generic page retrieval alone does not verify applicability."
+      },
+      "program_ids": [
+        "legacy-029",
+        "legacy-030",
+        "legacy-031",
+        "legacy-032",
+        "legacy-033",
+        "legacy-034",
+        "legacy-037",
+        "legacy-161",
+        "discovered-037"
+      ],
+      "missing_components": [
+        "The precise DoV/CIMEA alternatives and apostille exemptions for each country"
+      ],
+      "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
+    },
+    "route_refs": {},
+    "checked_pages": [
+      "https://www.unipd.it/en/ammissione-studenti-internazionali",
+      "https://www.unipd.it/en/entry-title-requirements",
+      "https://www.unipd.it/en/iscriversi-titolo-estero",
+      "https://www.unipd.it/en/tuition-fees",
+      "https://wwwassets.unipd.it/sites/default/files/2026-09/Entry%20requirements%20per%20Country%2027-28%20.pdf"
+    ],
+    "date_checked": "2026-11-13",
+    "reason": "The country table explicitly covers 27/28 and separates Bachelor and Master columns. Programme profiles link this table but do not establish every programme-specific grade/test/selection/quota rule. Some formal calls/quota fields are TBD. Undated portal EUR 2,950 is not a verified 2027/28 tariff and differs from the 2026/27 contribution notice.",
+    "limit": "A national portal requirement or visa deadline is not a university-specific pre-enrolment deadline. Recognition alternatives depend on the exact country/qualification; a broad origin region cannot determine DoV/CIMEA/translation substitutions."
+  },
+  {
+    "id": "pisa",
+    "university": "Università di Pisa",
+    "national_rule_ref": "universitaly_requirement",
+    "university_universitaly_fact": {
+      "value": "Not confirmed",
+      "cycle_status": "not confirmed",
+      "academic_cycle": null,
+      "source_urls": [],
+      "verified_date": null,
+      "checked_urls": [
+        "https://computer.ing.unipi.it/call-for-international-students/",
+        "https://applymscenglish.unipi.it/downloads/downloadpdf/bandicdl/2027/bando_10_wcy-lm_en.pdf",
+        "https://www.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/pre-registration-on-universitaly/"
+      ],
+      "checked_at": "2026-11-13",
+      "reason": "The university page gives 30 September 2026 for 2026/27. It does not establish a 2027/28 deadline; neither the programme application deadline nor the national visa ceiling is substituted.",
+      "national_rule_ref": "universitaly_requirement"
+    },
+    "document_fact": {
+      "value": "For the Engineering/Cybersecurity international calls: qualifying degree (or current transcripts if graduating), transcript translated into English/Italian, passport, CV and the route-specific B2 proof, uploaded as PDFs. The 2027/28 DoV/CIMEA substitution rules and apostille/legalisation conditions are Not confirmed.",
+      "cycle_status": "2027/28 confirmed",
+      "academic_cycle": "2027/28",
+      "source_urls": [
+        "https://computer.ing.unipi.it/call-for-international-students/",
+        "https://applymscenglish.unipi.it/downloads/downloadpdf/bandicdl/2027/bando_10_wcy-lm_en.pdf"
+      ],
+      "verified_date": "2026-11-13",
+      "evidence_source_ids": [
+        "SRC-UNIPI-INFO-ENG-2027-CALL",
+        "SRC-AUDIT-UNIPI-CYBER-2027-CALL"
+      ],
+      "evidence_sha256": {
+        "https://computer.ing.unipi.it/call-for-international-students/": "0def6771738113fc088acaf53acb34897c51a7caa76107f1697521abc6301a91",
+        "https://applymscenglish.unipi.it/downloads/downloadpdf/bandicdl/2027/bando_10_wcy-lm_en.pdf": "eee23bd0ff66e4c16838ca51f944d0ab118544b0f6858b9c0ad7f07843162237"
+      },
+      "current_cycle_evidence": {
+        "url": "https://computer.ing.unipi.it/call-for-international-students/",
+        "cycle_marker": "2027/28 admission page or call",
+        "relationship": "Named intake/cycle context is checked alongside the field-specific official source; generic page retrieval alone does not verify applicability."
+      },
+      "program_ids": [
+        "legacy-053",
+        "legacy-054",
+        "discovered-039"
+      ],
+      "missing_components": [
+        "The 2027/28 DoV/CIMEA substitution rules and apostille/legalisation conditions"
+      ],
+      "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
+    },
+    "route_refs": {},
+    "checked_pages": [
+      "https://computer.ing.unipi.it/call-for-international-students/",
+      "https://computer.ing.unipi.it/wp-content/uploads/2026/11/CE-AIDE-call-2027-non-IT-qualification.pdf",
+      "https://didattica.di.unipi.it/en/internazionale/degrees-offered-in-english/",
+      "https://didattica.di.unipi.it/wp-content/uploads/sites/2/2026/11/Bando2026_corsi_internazionali.pdf",
+      "https://www.unipi.it/en/about-us/international-relations/welcome-services/entry-and-stay-information-for-non-eu-citizens/student-entry-visa/",
+      "https://www.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/masters-degree-held-in-english/",
+      "https://www.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/pre-registration-on-universitaly/",
+      "https://www.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/university-fees-and-scholarships/"
+    ],
+    "date_checked": "2026-11-13",
+    "reason": "The 2027 calls and department page establish applicant routes and B2 certification timing, but annual fees are determined separately (the call's numerical examples are 2026/27). Old teaching regulations do not automatically establish 2027/28 credit rules. Absence of a quota or exam statement is not a no-quota/no-test exemption.",
+    "limit": "A national portal requirement or visa deadline is not a university-specific pre-enrolment deadline. Recognition alternatives depend on the exact country/qualification; a broad origin region cannot determine DoV/CIMEA/translation substitutions."
+  },
+  {
+    "id": "politecnico-milano",
+    "university": "Politecnico di Milano",
+    "national_rule_ref": "universitaly_requirement",
+    "university_universitaly_fact": {
+      "value": "Not confirmed",
+      "cycle_status": "not confirmed",
+      "academic_cycle": null,
+      "source_urls": [],
+      "verified_date": null,
+      "checked_urls": [],
+      "checked_at": null,
+      "reason": "A university/programme-specific 2027/28 Universitaly deadline is not established. The separately recorded national visa-applicant requirement does not establish this deadline.",
+      "national_rule_ref": "universitaly_requirement"
+    },
+    "document_fact": {
+      "value": "For standard foreign-qualification MSc applications: official Bachelor/provisional or final-year enrolment document, original transcript, official cumulative GPA statement and CV (maximum two pages). Academic documents are accepted in Italian, English, French or Spanish; other languages need officially signed/stamped translations. Registrar-verifiable official links/QR codes may replace stamps as stated. DoV OR CIMEA Comparability may be requested at any stage; neither is a universal automatic substitute for every document. The exact 2027/28 enrolment apostille/legalisation rules are Not confirmed.",
+      "cycle_status": "2027/28 confirmed",
+      "academic_cycle": "2027/28",
+      "source_urls": [
+        "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/application/list-of-documents-required-by-the-admissions-office"
+      ],
+      "verified_date": "2026-11-13",
+      "evidence_source_ids": [
+        "SRC-POLIMI-ENGLISH-2027"
+      ],
+      "evidence_sha256": {
+        "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/application/list-of-documents-required-by-the-admissions-office": "1e8cc06275fd6e6c42beadc160a2ee6174e08cd8ab3c206610b726250ee31aa0"
+      },
+      "current_cycle_evidence": {
+        "url": "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/application/list-of-documents-required-by-the-admissions-office",
+        "cycle_marker": "2027/28 admission page or call",
+        "relationship": "Named intake/cycle context is checked alongside the field-specific official source; generic page retrieval alone does not verify applicability."
+      },
+      "program_ids": [
+        "legacy-001",
+        "legacy-004"
+      ],
+      "missing_components": [
+        "The exact 2027/28 enrolment apostille/legalisation rules"
+      ],
+      "covered_scope": "Standard foreign-qualification MSc route only. Italian-qualification admissions and the joint Bocconi route are not covered by this policy."
+    },
+    "route_refs": {},
+    "checked_pages": [
+      "https://masterhpc.polimi.it/en/ammissioni/",
+      "https://www.polimi.it/en/prospective-students/how-much-does-it-cost/laurea-laurea-magistrale-and-single-cycle-programmes",
+      "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/application/",
+      "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/application/list-of-documents-required-by-the-admissions-office",
+      "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/requirements",
+      "https://www.polimi.it/en/prospective-students/how-to-apply/on-arrival-information/residence-permit",
+      "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/joint-degree-programs-politecnico-di-milano",
+      "https://www.unibocconi.it/it/entrare-bocconi/corsi-di-laurea-magistrale/tasse-e-contributi"
+    ],
+    "date_checked": "2026-11-13",
+    "reason": "The central tariff and HPC-specific curricular page explicitly cover 2026/27, so they do not prove a 2027/28 tariff or subject-credit rule. The current standard MSc dossier/country tables support the stated rules, with programme scoring/test/quota details still not established. Bocconi's joint route is separate.",
+    "limit": "A national portal requirement or visa deadline is not a university-specific pre-enrolment deadline. Recognition alternatives depend on the exact country/qualification; a broad origin region cannot determine DoV/CIMEA/translation substitutions."
+  },
+  {
+    "id": "politecnico-torino",
+    "university": "Politecnico di Torino",
+    "national_rule_ref": "universitaly_requirement",
+    "university_universitaly_fact": {
+      "value": "Not confirmed",
+      "cycle_status": "not confirmed",
+      "academic_cycle": null,
+      "source_urls": [],
+      "verified_date": null,
+      "checked_urls": [],
+      "checked_at": null,
+      "reason": "A university/programme-specific 2027/28 Universitaly deadline is not established. The separately recorded national visa-applicant requirement does not establish this deadline.",
+      "national_rule_ref": "universitaly_requirement"
+    },
+    "document_fact": {
+      "value": "HySET 2027–29 application only: Europass CV, certified Bachelor/degree and transcript copies (or final-year registration/transcripts), two reference letters, a 2–3 minute introduction video, ID/passport, English-test evidence and a photo. Submit electronically; originals/final certificates are requested before enrolment. Exact DoV/CIMEA alternatives, apostille/legalisation and translation substitutions for 2027 entry are Not confirmed.",
+      "cycle_status": "2027/28 confirmed",
+      "academic_cycle": "2027–2029",
+      "source_urls": [
+        "https://hysetmaster.polito.it/admission-requirements"
+      ],
+      "verified_date": "2026-11-13",
+      "evidence_source_ids": [
+        "SRC-POLITO-HYSET-REQ-2027"
+      ],
+      "evidence_sha256": {
+        "https://hysetmaster.polito.it/admission-requirements": "16f1bb3d4ef86d521a6e9a926a46e943ac8cdcccdc1253c5ec02f84ccdedeb9b"
+      },
+      "current_cycle_evidence": {
+        "url": "https://hysetmaster.polito.it/admission-requirements",
+        "cycle_marker": "2027–2029 cohort",
+        "relationship": "Named intake/cycle context is checked alongside the field-specific official source; generic page retrieval alone does not verify applicability."
+      },
+      "program_ids": [
+        "discovered-020"
+      ],
+      "missing_components": [
+        "Exact DoV/CIMEA alternatives, apostille/legalisation and translation substitutions for 2027 entry"
+      ],
+      "covered_scope": "HySET 2027–29 consortium route only, not ordinary Polito MSc admission or a guaranteed scholarship."
+    },
+    "route_refs": {},
+    "checked_pages": [
+      "https://hysetmaster.polito.it/admission-requirements",
+      "https://hysetmaster.polito.it/faq",
+      "https://hysetmaster.polito.it/news/programme-continuation-beyond-2026-funding-and-admissions",
+      "https://hysetmaster.polito.it/self-funded-students"
+    ],
+    "date_checked": "2026-11-13",
+    "reason": "HySET publishes 2027–29 eligibility, grade scoring and possible interviews, but does not establish a compulsory standardised exam or reserved non-EU quota. The dated continuation notice says funding is not secured. Its undated self-funded fee quotation is not promoted to the 2027 cohort. Ordinary Polito 2026/27 instructions are a different route.",
+    "limit": "A national portal requirement or visa deadline is not a university-specific pre-enrolment deadline. Recognition alternatives depend on the exact country/qualification; a broad origin region cannot determine DoV/CIMEA/translation substitutions."
+  },
+  {
+    "id": "tor-vergata",
+    "university": "Università degli Studi di Roma Tor Vergata",
+    "national_rule_ref": "universitaly_requirement",
+    "university_universitaly_fact": {
+      "value": "Mechatronics Engineering 2027/28 only: non-EU residents abroad must submit Universitaly pre-enrolment by 31 July 2027, with subsequent university validation. This is not the optional local Delphi pre-enrolment or its 14 July date. A university-wide deadline for other programmes is Not confirmed.",
+      "cycle_status": "2027/28 confirmed",
+      "academic_cycle": "2027/28",
+      "source_urls": [
+        "https://mechatronics.uniroma2.it/how-to-apply-for-mechatronics/admission-a-y-2027-28/"
+      ],
+      "verified_date": "2026-11-13",
+      "evidence_source_ids": [
+        "SRC-TORVERGATA-MECH-2027"
+      ],
+      "evidence_sha256": {
+        "https://mechatronics.uniroma2.it/how-to-apply-for-mechatronics/admission-a-y-2027-28/": "59cfd7304ac2bda942ace89e4301b038ad9132461b620e4b6022967ba4508449"
+      },
+      "current_cycle_evidence": {
+        "url": "https://mechatronics.uniroma2.it/how-to-apply-for-mechatronics/admission-a-y-2027-28/",
+        "cycle_marker": "2027/28 admission page or call",
+        "relationship": "Named intake/cycle context is checked alongside the field-specific official source; generic page retrieval alone does not verify applicability."
+      },
+      "program_ids": [
+        "discovered-010"
+      ],
+      "missing_components": [
+        "A university-wide deadline for other programmes"
+      ],
+      "covered_scope": "Mechatronics Engineering 2027/28 only; programme-specific conditions must not be extended to other Tor Vergata courses.",
+      "national_rule_ref": "universitaly_requirement"
+    },
+    "document_fact": {
+      "value": "For Mechatronics: passport/ID, scientific CV on the official form, Bachelor certificate/GPA if awarded, transcripts with dates and grades, thesis excerpt if available, and route-specific English proof/GRE. Pending graduates provide expected graduation date and remaining exams. General DoV/CIMEA alternatives and apostille/translation substitutions: Not confirmed.",
+      "cycle_status": "2027/28 confirmed",
+      "academic_cycle": "2027/28",
+      "source_urls": [
+        "https://mechatronics.uniroma2.it/how-to-apply-for-mechatronics/admission-a-y-2027-28/"
+      ],
+      "verified_date": "2026-11-13",
+      "evidence_source_ids": [
+        "SRC-TORVERGATA-MECH-2027"
+      ],
+      "evidence_sha256": {
+        "https://mechatronics.uniroma2.it/how-to-apply-for-mechatronics/admission-a-y-2027-28/": "59cfd7304ac2bda942ace89e4301b038ad9132461b620e4b6022967ba4508449"
+      },
+      "current_cycle_evidence": {
+        "url": "https://mechatronics.uniroma2.it/how-to-apply-for-mechatronics/admission-a-y-2027-28/",
+        "cycle_marker": "2027/28 admission page or call",
+        "relationship": "Named intake/cycle context is checked alongside the field-specific official source; generic page retrieval alone does not verify applicability."
+      },
+      "program_ids": [
+        "discovered-010"
+      ],
+      "missing_components": [
+        "General DoV/CIMEA alternatives and apostille/translation substitutions"
+      ],
+      "covered_scope": "Mechatronics Engineering 2027/28 only; programme-specific conditions must not be extended to other Tor Vergata courses."
+    },
+    "route_refs": {},
+    "checked_pages": [
+      "https://web.uniroma2.it/en/percorso/admissions"
+    ],
+    "date_checked": "2026-11-13",
+    "reason": "Mechatronics has its own current call, B2/GRE conditions, quota and Universitaly date. The general admissions landing page does not add a 2027/28 fee schedule or complete country-specific recognition alternatives. Conditional GRE routes cannot become a universal yes/no test flag.",
+    "limit": "A national portal requirement or visa deadline is not a university-specific pre-enrolment deadline. Recognition alternatives depend on the exact country/qualification; a broad origin region cannot determine DoV/CIMEA/translation substitutions."
+  },
+  {
+    "id": "torino",
+    "university": "Università degli Studi di Torino",
+    "national_rule_ref": "universitaly_requirement",
+    "university_universitaly_fact": {
+      "value": "Not confirmed",
+      "cycle_status": "not confirmed",
+      "academic_cycle": null,
+      "source_urls": [],
+      "verified_date": null,
+      "checked_urls": [],
+      "checked_at": null,
+      "reason": "A university/programme-specific 2027/28 Universitaly deadline is not established. The separately recorded national visa-applicant requirement does not establish this deadline.",
+      "national_rule_ref": "universitaly_requirement"
+    },
+    "document_fact": {
+      "value": "For the EAP/EPOG 2027/28 online route: full CV; relevant diploma (at least 180 ECTS) or final-year sworn expected-graduation statement; all higher-education transcripts; English proof; statement of purpose (maximum 500 words); two references; passport (EU ID accepted); residence proof/sworn statement for scholarship applicants. Original-language academic documents need English translations. Unofficial translations can be uploaded initially, but official/certified translations are required after pre-selection. The page also names June 10 as a certified-translation deadline without a year. Torino-specific DoV/CIMEA and apostille substitutions are Not confirmed.",
+      "cycle_status": "2027/28 confirmed",
+      "academic_cycle": "2027/28",
+      "source_urls": [
+        "https://www.eap.unito.it/do/home.pl/View?doc=how_to_apply.html"
+      ],
+      "verified_date": "2026-11-13",
+      "evidence_source_ids": [
+        "REFINE-EAP-APPLY"
+      ],
+      "evidence_sha256": {
+        "https://www.eap.unito.it/do/home.pl/View?doc=how_to_apply.html": "16fce99b54f0d0bcb961b60cb7823cae7811b7170cff30c71534088a2d580fa0"
+      },
+      "current_cycle_evidence": {
+        "url": "https://www.eap.unito.it/do/home.pl/View?doc=how_to_apply.html",
+        "cycle_marker": "2027/28 explicit applicable programme/cohort context",
+        "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
+      },
+      "missing_components": [
+        "year/applicability of the June 10 translation deadline",
+        "DoV/CIMEA alternatives",
+        "apostille/legalisation substitutions"
+      ],
+      "program_ids": [
+        "discovered-038"
+      ],
+      "covered_scope": "The named EAP/EPOG online route or local TAPP route as stated; the two credit thresholds are not interchangeable."
+    },
+    "route_refs": {},
+    "checked_pages": [
+      "https://en.unito.it/living-turin/when-you-arrive/residence-permit",
+      "https://en.unito.it/living-turin/you-leave-home/visa",
+      "https://en.unito.it/studying-unito/tuition-fees",
+      "https://www.eap.unito.it/do/home.pl/View?doc=admission_requirements.html",
+      "https://www.eap.unito.it/do/home.pl/View?doc=how_to_apply.html",
+      "https://www.epog.eu/admission-and-scholarships/faq/",
+      "https://www.epog.eu/admission-and-scholarships/tuition-fees/"
+    ],
+    "date_checked": "2026-11-13",
+    "reason": "The recovered current EAP application page states 24+6 credits; its local requirements page says 18+6 and TAPP. Present both by route and retain the unresolved applicability. The central fee schedule is 2026/27; the linked EPOG tariff page has no independently dated 2027/28 tariff. Its June 10 translation date omits a year.",
+    "limit": "A national portal requirement or visa deadline is not a university-specific pre-enrolment deadline. Recognition alternatives depend on the exact country/qualification; a broad origin region cannot determine DoV/CIMEA/translation substitutions."
+  },
+  {
+    "id": "trento",
+    "university": "Università degli Studi di Trento",
+    "national_rule_ref": "universitaly_requirement",
+    "university_universitaly_fact": {
+      "value": "Not confirmed",
+      "cycle_status": "not confirmed",
+      "academic_cycle": null,
+      "source_urls": [],
+      "verified_date": null,
+      "checked_urls": [],
+      "checked_at": null,
+      "reason": "A university/programme-specific 2027/28 Universitaly deadline is not established. The separately recorded national visa-applicant requirement does not establish this deadline.",
+      "national_rule_ref": "universitaly_requirement"
+    },
+    "document_fact": {
+      "value": "28DIGITAL application only: degree certificate and stamped transcript in original language AND English; authorised translation where the university does not provide it. Final-year applicants provide a degree-administration statement. Also upload English proof, CV, a motivation letter (maximum two pages) and colour ID; GPA/rank statement and video are optional. Present original degree/transcript before enrolment. Specific countries require direct registrar/HEC documentation. One email-receipt paragraph still gives 2026 dates while postal instructions give 2027; those receipt deadlines need clarification. Italian DoV/CIMEA and apostille substitutions are Not confirmed.",
+      "cycle_status": "2027/28 confirmed",
+      "academic_cycle": "2027/28",
+      "source_urls": [
+        "https://masterschool.28digital.eu/admissions/required-documents",
+        "https://www.disi.unitn.it/eit-digital"
+      ],
+      "verified_date": "2026-11-13",
+      "evidence_source_ids": [
+        "DEC-28DIGITAL-DOCUMENTS",
+        "SRC-UNITRENTO-28DIGITAL-2027"
+      ],
+      "evidence_sha256": {
+        "https://masterschool.28digital.eu/admissions/required-documents": "869fc0a883834fd4f1ae0266cfab9ea2548bbd227efcae8f5bb7e2c1bccbc909",
+        "https://www.disi.unitn.it/eit-digital": "de669ecb20ebeee9c7538b2564b271fe7397f91f3d01919ada0bf85a792372ad"
+      },
+      "current_cycle_evidence": {
+        "url": "https://www.disi.unitn.it/eit-digital",
+        "cycle_marker": "2027/28 admission page or call",
+        "relationship": "Named intake/cycle context is checked alongside the field-specific official source; generic page retrieval alone does not verify applicability."
+      },
+      "program_ids": [
+        "discovered-013",
+        "discovered-014",
+        "discovered-015",
+        "discovered-016",
+        "discovered-017",
+        "discovered-018",
+        "discovered-019"
+      ],
+      "missing_components": [
+        "Italian DoV/CIMEA and apostille substitutions"
+      ],
+      "covered_scope": "The named 28DIGITAL track/partner conditions only; ordinary UniTrento fee and admission routes are separate."
+    },
+    "route_refs": {},
+    "checked_pages": [
+      "https://masterschool.28digital.eu/admissions",
+      "https://masterschool.28digital.eu/admissions/fees",
+      "https://masterschool.28digital.eu/admissions/required-documents",
+      "https://masterschool.28digital.eu/admissions/university-specific-language-tests-and-exemptions",
+      "https://www.disi.unitn.it/eit-digital",
+      "https://www.unitn.it/en/international/coming-unitrento/all-you-need-know/residence-permit",
+      "https://www.unitn.it/en/international/coming-unitrento/all-you-need-know/visa",
+      "https://www.unitn.it/en/study/fees-scholarships-accommodation/tuition-fees/non-eu-citizens"
+    ],
+    "date_checked": "2026-11-13",
+    "reason": "The seven tracks use 28DIGITAL consortium rules, not ordinary UniTrento tuition. Published dossier/language/fee rules do not establish a universal no-test exemption, numeric GPA minimum, selection weights or reserved non-EU quota. University and consortium calendars/documents contain route/year differences; exact recipient instructions need confirmation.",
+    "limit": "A national portal requirement or visa deadline is not a university-specific pre-enrolment deadline. Recognition alternatives depend on the exact country/qualification; a broad origin region cannot determine DoV/CIMEA/translation substitutions."
+  }
+]

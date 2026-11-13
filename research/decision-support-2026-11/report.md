@@ -19,13 +19,13 @@ Program-field rows each total 209; university-field rows each total 34. Scholars
 | program.duration | 29 | 44 | 136 |
 | program.ects | 26 | 16 | 167 |
 | program.prerequisites | 37 | 10 | 162 |
-| program.english_requirement | 33 | 9 | 167 |
+| program.english_requirement | 34 | 9 | 166 |
 | program.admission_test | 10 | 3 | 196 |
 | program.selection_method | 17 | 0 | 192 |
 | program.minimum_grade | 21 | 0 | 188 |
 | program.non_eu_seats | 1 | 0 | 208 |
-| program.tuition | 9 | 11 | 189 |
-| university.universitaly | 11 | 0 | 23 |
+| program.tuition | 10 | 11 | 188 |
+| university.universitaly | 1 | 0 | 33 |
 | university.documents | 9 | 0 | 25 |
 | university.regional_dsu | 2 | 8 | 24 |
 | university.visa_permit | 7 | 0 | 27 |
@@ -33,7 +33,7 @@ Program-field rows each total 209; university-field rows each total 34. Scholars
 
 ## Source coverage and limits
 
-Freshly captured official URLs: 512; HTTP 200 responses: 500. Captures include university sites/application portals, official joint-program admissions and regional right-to-study bodies. A transport result alone does not approve a field.
+Freshly captured official URLs: 517; HTTP 200 responses: 505. Captures include university sites/application portals, official joint-program admissions and regional right-to-study bodies. A transport result alone does not approve a field.
 
 Responses not established as readable by the capture client: 12. Some sources initially failed through resets, TLS errors or timeouts; the EAP application page was subsequently recovered. Other old/broken, access-limited or unreadable sources remain explicit. HTTP 200 can also contain a soft error and does not establish readable admissions content. Successful alternatives were used only where applicable; TLS verification was not disabled. Each latest URL/outcome remains in source-checks.json.
 
@@ -54,7 +54,7 @@ See source-conflicts.json for exact competing claims, URLs and handling. The com
 | Type | Stable ID | Program / university | Current | Previous | Unknown | Review outcome |
 |---|---|---|---:|---:|---:|---|
 | program | legacy-001 | Computer Science and Engineering | 4 | 1 | 4 | reviewed_with_field_gaps |
-| program | legacy-002 | Cyber Risk Strategy and Governance | 4 | 0 | 5 | reviewed_with_field_gaps |
+| program | legacy-002 | Cyber Risk Strategy and Governance | 6 | 0 | 3 | reviewed_with_field_gaps |
 | program | legacy-003 | Artificial Intelligence (study plan within Computer Science and Engineering) | 0 | 0 | 9 | awaiting_record_research_incomplete |
 | program | legacy-004 | High Performance Computing Engineering | 4 | 1 | 4 | reviewed_with_field_gaps |
 | program | legacy-005 | Biomedical Engineering | 0 | 1 | 8 | partial_previous_cycle_review |
@@ -262,37 +262,37 @@ See source-conflicts.json for exact competing claims, URLs and handling. The com
 | program | discovered-042 | Finance – Entrepreneurial Finance | 2 | 1 | 6 | reviewed_with_field_gaps |
 | program | discovered-043 | Finance – Finance and Artificial Intelligence | 2 | 1 | 6 | reviewed_with_field_gaps |
 | program | discovered-044 | Marketing Management – Analytics and AI for Marketing | 2 | 0 | 7 | reviewed_with_field_gaps |
-| university | napoli-federico-ii | Università degli Studi di Napoli Federico II | 2 | 0 | 3 | reviewed_with_field_gaps |
+| university | napoli-federico-ii | Università degli Studi di Napoli Federico II | 1 | 0 | 4 | reviewed_with_field_gaps |
 | university | politecnico-bari | Politecnico di Bari | 0 | 0 | 5 | awaiting_record_research_incomplete |
-| university | politecnico-milano | Politecnico di Milano | 4 | 1 | 0 | reviewed_with_field_gaps |
-| university | politecnico-torino | Politecnico di Torino | 2 | 2 | 2 | reviewed_with_field_gaps |
+| university | politecnico-milano | Politecnico di Milano | 3 | 1 | 1 | reviewed_with_field_gaps |
+| university | politecnico-torino | Politecnico di Torino | 1 | 2 | 3 | reviewed_with_field_gaps |
 | university | roma-tre | Università degli Studi Roma Tre | 0 | 0 | 5 | awaiting_record_research_incomplete |
 | university | sapienza | Sapienza Università di Roma | 0 | 0 | 5 | awaiting_record_research_incomplete |
 | university | tor-vergata | Università degli Studi di Roma Tor Vergata | 3 | 2 | 0 | reviewed_with_field_gaps |
-| university | ca-foscari | Università Ca' Foscari Venezia | 1 | 2 | 2 | reviewed_with_field_gaps |
+| university | ca-foscari | Università Ca' Foscari Venezia | 0 | 2 | 3 | reviewed_with_field_gaps |
 | university | milano-bicocca | Università degli Studi di Milano-Bicocca | 0 | 0 | 5 | awaiting_record_research_incomplete |
 | university | marche | Università Politecnica delle Marche | 0 | 0 | 5 | awaiting_record_research_incomplete |
 | university | catania | Università degli Studi di Catania | 0 | 0 | 5 | awaiting_record_research_incomplete |
 | university | milano-statale | Università degli Studi di Milano | 0 | 0 | 5 | awaiting_record_research_incomplete |
 | university | laquila | Università degli Studi dell'Aquila | 0 | 0 | 5 | awaiting_record_research_incomplete |
 | university | insubria | Università degli Studi dell’Insubria | 0 | 0 | 5 | awaiting_record_research_incomplete |
-| university | bologna | Università di Bologna | 5 | 0 | 1 | reviewed_with_field_gaps |
+| university | bologna | Università di Bologna | 4 | 0 | 2 | reviewed_with_field_gaps |
 | university | camerino | Università di Camerino | 0 | 0 | 5 | awaiting_record_research_incomplete |
 | university | ferrara | Università degli Studi di Ferrara | 0 | 0 | 5 | awaiting_record_research_incomplete |
-| university | firenze | Università degli Studi di Firenze | 3 | 2 | 0 | reviewed_with_field_gaps |
+| university | firenze | Università degli Studi di Firenze | 2 | 2 | 1 | reviewed_with_field_gaps |
 | university | genova | Università degli Studi di Genova | 0 | 0 | 5 | awaiting_record_research_incomplete |
 | university | messina | Università degli Studi di Messina | 0 | 0 | 5 | awaiting_record_research_incomplete |
 | university | modena-reggio | Università degli Studi di Modena e Reggio Emilia | 0 | 0 | 5 | awaiting_record_research_incomplete |
-| university | padova | Università degli Studi di Padova | 2 | 2 | 1 | reviewed_with_field_gaps |
+| university | padova | Università degli Studi di Padova | 1 | 2 | 2 | reviewed_with_field_gaps |
 | university | palermo | Università degli Studi di Palermo | 0 | 0 | 5 | awaiting_record_research_incomplete |
 | university | parma | Università degli Studi di Parma | 0 | 0 | 5 | awaiting_record_research_incomplete |
 | university | pavia | Università degli Studi di Pavia | 0 | 0 | 5 | awaiting_record_research_incomplete |
 | university | perugia | Università degli Studi di Perugia | 0 | 0 | 5 | awaiting_record_research_incomplete |
-| university | pisa | Università di Pisa | 5 | 1 | 0 | reviewed_with_field_gaps |
+| university | pisa | Università di Pisa | 4 | 1 | 1 | reviewed_with_field_gaps |
 | university | salerno | Università degli Studi di Salerno | 0 | 0 | 5 | awaiting_record_research_incomplete |
 | university | siena | Università degli Studi di Siena | 0 | 0 | 5 | awaiting_record_research_incomplete |
-| university | torino | Università degli Studi di Torino | 3 | 2 | 0 | reviewed_with_field_gaps |
-| university | trento | Università degli Studi di Trento | 4 | 1 | 0 | reviewed_with_field_gaps |
+| university | torino | Università degli Studi di Torino | 2 | 2 | 1 | reviewed_with_field_gaps |
+| university | trento | Università degli Studi di Trento | 3 | 1 | 1 | reviewed_with_field_gaps |
 | university | trieste | Università degli Studi di Trieste | 0 | 0 | 5 | awaiting_record_research_incomplete |
 | university | udine | Università degli Studi di Udine | 0 | 0 | 5 | awaiting_record_research_incomplete |
 | university | verona | Università degli Studi di Verona | 0 | 0 | 5 | awaiting_record_research_incomplete |

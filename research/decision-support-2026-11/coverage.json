@@ -15,9 +15,9 @@
     "not confirmed": 162
   },
   "program.english_requirement": {
-    "2027/28 confirmed": 33,
+    "2027/28 confirmed": 34,
     "previous cycle (estimate only)": 9,
-    "not confirmed": 167
+    "not confirmed": 166
   },
   "program.admission_test": {
     "2027/28 confirmed": 10,
@@ -40,14 +40,14 @@
     "not confirmed": 208
   },
   "program.tuition": {
-    "2027/28 confirmed": 9,
+    "2027/28 confirmed": 10,
     "previous cycle (estimate only)": 11,
-    "not confirmed": 189
+    "not confirmed": 188
   },
   "university.universitaly": {
-    "2027/28 confirmed": 11,
+    "2027/28 confirmed": 1,
     "previous cycle (estimate only)": 0,
-    "not confirmed": 23
+    "not confirmed": 33
   },
   "university.documents": {
     "2027/28 confirmed": 9,

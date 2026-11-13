@@ -2218,5 +2218,47 @@
     "title": "Pisa official student entry visa guidance",
     "url": "https://www.unipi.it/en/about-us/international-relations/welcome-services/entry-and-stay-information-for-non-eu-citizens/student-entry-visa/",
     "official_basis": "Exact university-owned link extracted from its international admissions portal."
+  },
+  {
+    "id": "PROFILE-BOCCONI-FEES-2027",
+    "title": "Bocconi MSc 2027/28 official fee notice",
+    "url": "https://www.unibocconi.it/it/entrare-bocconi/corsi-di-laurea-magistrale/tasse-e-contributi",
+    "official_basis": "Official university notice or the official joint-programme admissions service linked directly by its Italian partner universities."
+  },
+  {
+    "id": "PROFILE-BOCCONI-JOINT-2027",
+    "title": "Joint Cyber MSc applicant routes",
+    "url": "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/joint-degree-programs-politecnico-di-milano",
+    "official_basis": "Official university notice or the official joint-programme admissions service linked directly by its Italian partner universities."
+  },
+  {
+    "id": "PROFILE-PISA-UNIVERSITALY",
+    "title": "Pisa own pre-enrolment deadlines",
+    "url": "https://www.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/pre-registration-on-universitaly/",
+    "official_basis": "Official university notice or the official joint-programme admissions service linked directly by its Italian partner universities."
+  },
+  {
+    "id": "PROFILE-PISA-ENGLISH-DEGREES",
+    "title": "Pisa course category timetable",
+    "url": "https://www.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/masters-degree-held-in-english/",
+    "official_basis": "Official university notice or the official joint-programme admissions service linked directly by its Italian partner universities."
+  },
+  {
+    "id": "PROFILE-PISA-ENG-PDF-2027",
+    "title": "Pisa CE/AIDE foreign-qualification formal call",
+    "url": "https://computer.ing.unipi.it/wp-content/uploads/2026/11/CE-AIDE-call-2027-non-IT-qualification.pdf",
+    "official_basis": "Official university notice or the official joint-programme admissions service linked directly by its Italian partner universities."
+  },
+  {
+    "id": "PROFILE-28DIGITAL-LANGUAGE",
+    "title": "28DIGITAL partner-specific English exemptions",
+    "url": "https://masterschool.28digital.eu/admissions/university-specific-language-tests-and-exemptions",
+    "official_basis": "Official university notice or the official joint-programme admissions service linked directly by its Italian partner universities."
+  },
+  {
+    "id": "PROFILE-MUR-PROCEDURES-2027",
+    "title": "MUR international student procedures, two-year validity",
+    "url": "https://universitaly-private.cineca.it/uploads/universitaly-pubblico/Circolare_2026-2027_studenti_internazionali.pdf",
+    "official_basis": "Exact procedure PDF linked by the official Universitaly foreign-students portal; verify body validity rather than filename."
   }
 ]

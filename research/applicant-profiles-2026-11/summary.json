@@ -1,0 +1,272 @@
+{
+  "baseline_commit": "d1d75fe",
+  "checked_date": "2026-11-13",
+  "scope": {
+    "programs": 209,
+    "universities": 34,
+    "priority_programs": 47,
+    "priority_universities": 11,
+    "availability": {
+      "confirmed": 47,
+      "awaiting": 159,
+      "not_offered": 3
+    }
+  },
+  "counts": {
+    "program": {
+      "duration": {
+        "before": {
+          "fully_confirmed": 29,
+          "partly_confirmed": 0,
+          "not_currently_confirmed": 18,
+          "previous_cycle_only": 0,
+          "not_confirmed": 18
+        },
+        "after": {
+          "fully_confirmed": 29,
+          "partly_confirmed": 0,
+          "not_currently_confirmed": 18,
+          "previous_cycle_only": 0,
+          "not_confirmed": 18
+        }
+      },
+      "ects": {
+        "before": {
+          "fully_confirmed": 26,
+          "partly_confirmed": 0,
+          "not_currently_confirmed": 21,
+          "previous_cycle_only": 0,
+          "not_confirmed": 21
+        },
+        "after": {
+          "fully_confirmed": 26,
+          "partly_confirmed": 0,
+          "not_currently_confirmed": 21,
+          "previous_cycle_only": 0,
+          "not_confirmed": 21
+        }
+      },
+      "prerequisites": {
+        "before": {
+          "fully_confirmed": 16,
+          "partly_confirmed": 21,
+          "not_currently_confirmed": 10,
+          "previous_cycle_only": 2,
+          "not_confirmed": 8
+        },
+        "after": {
+          "fully_confirmed": 16,
+          "partly_confirmed": 21,
+          "not_currently_confirmed": 10,
+          "previous_cycle_only": 2,
+          "not_confirmed": 8
+        }
+      },
+      "english_requirement": {
+        "before": {
+          "fully_confirmed": 22,
+          "partly_confirmed": 11,
+          "not_currently_confirmed": 14,
+          "previous_cycle_only": 1,
+          "not_confirmed": 13
+        },
+        "after": {
+          "fully_confirmed": 22,
+          "partly_confirmed": 12,
+          "not_currently_confirmed": 13,
+          "previous_cycle_only": 1,
+          "not_confirmed": 12
+        }
+      },
+      "admission_test": {
+        "before": {
+          "fully_confirmed": 1,
+          "partly_confirmed": 9,
+          "not_currently_confirmed": 37,
+          "previous_cycle_only": 0,
+          "not_confirmed": 37
+        },
+        "after": {
+          "fully_confirmed": 1,
+          "partly_confirmed": 9,
+          "not_currently_confirmed": 37,
+          "previous_cycle_only": 0,
+          "not_confirmed": 37
+        }
+      },
+      "selection_method": {
+        "before": {
+          "fully_confirmed": 9,
+          "partly_confirmed": 8,
+          "not_currently_confirmed": 30,
+          "previous_cycle_only": 0,
+          "not_confirmed": 30
+        },
+        "after": {
+          "fully_confirmed": 9,
+          "partly_confirmed": 8,
+          "not_currently_confirmed": 30,
+          "previous_cycle_only": 0,
+          "not_confirmed": 30
+        }
+      },
+      "minimum_grade": {
+        "before": {
+          "fully_confirmed": 3,
+          "partly_confirmed": 18,
+          "not_currently_confirmed": 26,
+          "previous_cycle_only": 0,
+          "not_confirmed": 26
+        },
+        "after": {
+          "fully_confirmed": 3,
+          "partly_confirmed": 18,
+          "not_currently_confirmed": 26,
+          "previous_cycle_only": 0,
+          "not_confirmed": 26
+        }
+      },
+      "non_eu_seats": {
+        "before": {
+          "fully_confirmed": 1,
+          "partly_confirmed": 0,
+          "not_currently_confirmed": 46,
+          "previous_cycle_only": 0,
+          "not_confirmed": 46
+        },
+        "after": {
+          "fully_confirmed": 1,
+          "partly_confirmed": 0,
+          "not_currently_confirmed": 46,
+          "previous_cycle_only": 0,
+          "not_confirmed": 46
+        }
+      },
+      "tuition": {
+        "before": {
+          "fully_confirmed": 8,
+          "partly_confirmed": 1,
+          "not_currently_confirmed": 38,
+          "previous_cycle_only": 11,
+          "not_confirmed": 27
+        },
+        "after": {
+          "fully_confirmed": 8,
+          "partly_confirmed": 2,
+          "not_currently_confirmed": 37,
+          "previous_cycle_only": 11,
+          "not_confirmed": 26
+        }
+      }
+    },
+    "university": {
+      "universitaly": {
+        "before": {
+          "fully_confirmed": 0,
+          "partly_confirmed": 11,
+          "not_currently_confirmed": 0,
+          "previous_cycle_only": 0,
+          "not_confirmed": 0
+        },
+        "after": {
+          "fully_confirmed": 0,
+          "partly_confirmed": 1,
+          "not_currently_confirmed": 10,
+          "previous_cycle_only": 0,
+          "not_confirmed": 10
+        }
+      },
+      "documents": {
+        "before": {
+          "fully_confirmed": 0,
+          "partly_confirmed": 9,
+          "not_currently_confirmed": 2,
+          "previous_cycle_only": 0,
+          "not_confirmed": 2
+        },
+        "after": {
+          "fully_confirmed": 0,
+          "partly_confirmed": 9,
+          "not_currently_confirmed": 2,
+          "previous_cycle_only": 0,
+          "not_confirmed": 2
+        }
+      },
+      "regional_dsu": {
+        "before": {
+          "fully_confirmed": 0,
+          "partly_confirmed": 2,
+          "not_currently_confirmed": 9,
+          "previous_cycle_only": 8,
+          "not_confirmed": 1
+        },
+        "after": {
+          "fully_confirmed": 0,
+          "partly_confirmed": 2,
+          "not_currently_confirmed": 9,
+          "previous_cycle_only": 8,
+          "not_confirmed": 1
+        }
+      },
+      "visa_permit": {
+        "before": {
+          "fully_confirmed": 0,
+          "partly_confirmed": 7,
+          "not_currently_confirmed": 4,
+          "previous_cycle_only": 0,
+          "not_confirmed": 4
+        },
+        "after": {
+          "fully_confirmed": 0,
+          "partly_confirmed": 7,
+          "not_currently_confirmed": 4,
+          "previous_cycle_only": 0,
+          "not_confirmed": 4
+        }
+      },
+      "scholarships": {
+        "before": {
+          "fully_confirmed": 1,
+          "partly_confirmed": 3,
+          "not_currently_confirmed": 7,
+          "previous_cycle_only": 5,
+          "not_confirmed": 2
+        },
+        "after": {
+          "fully_confirmed": 1,
+          "partly_confirmed": 3,
+          "not_currently_confirmed": 7,
+          "previous_cycle_only": 5,
+          "not_confirmed": 2
+        }
+      }
+    }
+  },
+  "tuition_current_program_counts": {
+    "fixed": 8,
+    "band": 0,
+    "rule-only": 2,
+    "not confirmed": 37
+  },
+  "tuition_historical_program_counts": {
+    "band": 2,
+    "rule-only": 6
+  },
+  "tuition_count_basis": "Per programme, at least one fully covered published current category; not all applicants. The current fixed total is the non-EU 28DIGITAL tariff. EU/EEA/CH combined profile tariff remains unresolved. No current band established.",
+  "national_rule": "Stored once; 1 partly confirmed university-specific Universitaly deadline, 10 unconfirmed in priority hosts.",
+  "route_matrix": {
+    "program_field_rows": 470,
+    "profile_combinations_per_row": 12,
+    "explicit_outcomes": 5640
+  },
+  "sources": {
+    "unique_captured_urls": 517,
+    "original_source_registry_unchanged": 759
+  },
+  "limits": [
+    "No new awaiting-program route research was approved; priority annual rules remain incomplete.",
+    "No exact citizenship/permit/country/income/language-history input; unresolved conditional combinations are not silently inferred.",
+    "The checked material did not establish three different current complete annual tuition amounts.",
+    "Existing record-level review dates, core statuses and original deadline facts remain unchanged."
+  ]
+}

@@ -2042,6 +2042,7 @@
       "https://laziodisco.it/on-line-il-bando-diritto-allo-studio-2026-2027/",
       "https://laziodisco.it/wp-content/uploads/2026/06/BANDO-DIRITTO-ALLO-STUDIO-26-27-1.pdf",
       "https://portalestudente.uniroma3.it/tasse/tasse/",
+      "https://universitaly-private.cineca.it/uploads/universitaly-pubblico/Circolare_2026-2027_studenti_internazionali.pdf",
       "https://www.uniroma3.it/didattica/lauree-ws-l/",
       "https://www.uniroma3.it/didattica/lauree-ws-lm/",
       "https://www.uniroma3.it/int/wp-content/uploads/file_locked/2026/06/GUIDE-HOW-TO-APPLY-ENG-2026-27.pdf",
@@ -6535,6 +6536,7 @@
       "https://laziodisco.it/on-line-il-bando-diritto-allo-studio-2026-2027/",
       "https://laziodisco.it/wp-content/uploads/2026/06/BANDO-DIRITTO-ALLO-STUDIO-26-27-1.pdf",
       "https://portalestudente.uniroma3.it/tasse/tasse/",
+      "https://universitaly-private.cineca.it/uploads/universitaly-pubblico/Circolare_2026-2027_studenti_internazionali.pdf",
       "https://www.uniroma3.it/didattica/lauree-ws-l/",
       "https://www.uniroma3.it/didattica/lauree-ws-lm/",
       "https://www.uniroma3.it/int/wp-content/uploads/file_locked/2026/06/GUIDE-HOW-TO-APPLY-ENG-2026-27.pdf",
@@ -10863,6 +10865,7 @@
       "https://laziodisco.it/on-line-il-bando-diritto-allo-studio-2026-2027/",
       "https://laziodisco.it/wp-content/uploads/2026/06/BANDO-DIRITTO-ALLO-STUDIO-26-27-1.pdf",
       "https://portalestudente.uniroma3.it/tasse/tasse/",
+      "https://universitaly-private.cineca.it/uploads/universitaly-pubblico/Circolare_2026-2027_studenti_internazionali.pdf",
       "https://www.uniroma3.it/didattica/lauree-ws-l/",
       "https://www.uniroma3.it/didattica/lauree-ws-lm/",
       "https://www.uniroma3.it/int/wp-content/uploads/file_locked/2026/06/GUIDE-HOW-TO-APPLY-ENG-2026-27.pdf",
@@ -13255,24 +13258,34 @@
     "id": "legacy-002",
     "name": "Cyber Risk Strategy and Governance",
     "field": "english_requirement",
-    "value": "Not confirmed",
-    "cycle_status": "not confirmed",
-    "academic_cycle": null,
-    "source_urls": [],
-    "verified_date": null,
-    "checked_urls": [
-      "https://www.polimi.it/en/education/laurea-magistrale-programmes",
-      "https://www.polimi.it/en/education/laurea-magistrale-programmes/programme-detail/cyber-risk-strategy-and-governance",
-      "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/application/list-of-documents-required-by-the-admissions-office",
-      "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/deadlines",
-      "https://www.polimi.it/en/students/tuition-fees-scholarships-and-financial-aid/tuition-fees",
-      "https://www.polimi.it/fileadmin/user_upload/futuri_studenti/borse-di-studio/Merit_Based_Call_For_Applications_a.y._2027-2028.pdf",
-      "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/admissions",
-      "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/cyber-risk-strategy-and-governance-and-transformative-sustainability",
-      "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/joint-degree-programs-politecnico-di-milano"
+    "value": "For the joint Cyber programme, the foreign-qualification admission page requires an English qualification accepted by Bocconi or Polimi. Polimi’s current accepted-test list includes IELTS 6.0 or TOEFL 78 on the older scale / 4.5 on the new scale. Joint-route waiver acceptance and the Italian-qualification procedure are Not confirmed here.",
+    "cycle_status": "2027/28 confirmed",
+    "academic_cycle": "2027/28",
+    "source_urls": [
+      "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/joint-degree-programs-politecnico-di-milano",
+      "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/application/list-of-documents-required-by-the-admissions-office"
     ],
-    "checked_at": "2026-11-13",
-    "reason": "Applicable English certificate scores, acceptance and waivers are not verified. English teaching language alone does not establish a certificate policy. Reviewed official material does not establish this field for a named applicable cycle. Check the linked pages and program call."
+    "verified_date": "2026-11-13",
+    "evidence_source_ids": [
+      "PROFILE-BOCCONI-JOINT-2027",
+      "SRC-POLIMI-ENGLISH-2027"
+    ],
+    "evidence_sha256": {
+      "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/joint-degree-programs-politecnico-di-milano": "42575c9baafc8f6c07be312337af5843f3f605666729999a3008e091888ffc95",
+      "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/application/list-of-documents-required-by-the-admissions-office": "1e8cc06275fd6e6c42beadc160a2ee6174e08cd8ab3c206610b726250ee31aa0"
+    },
+    "current_cycle_evidence": {
+      "url": "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/joint-degree-programs-politecnico-di-milano",
+      "cycle_marker": "2027/28 explicit applicable programme/cohort context",
+      "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
+    },
+    "missing_components": [
+      "joint-route waiver acceptance",
+      "Italian-qualification route English procedure"
+    ],
+    "covered_scope": "Joint Bocconi/Polimi Cyber MSc foreign-qualification admission/enrolment route; not standard Polimi MSc admission.",
+    "short_value": "Joint foreign route: accepted Bocconi/Polimi English proof; waivers not confirmed",
+    "answer": "conditional"
   },
   {
     "record_type": "program",
@@ -15301,6 +15314,7 @@
       "https://laziodisco.it/on-line-il-bando-diritto-allo-studio-2026-2027/",
       "https://laziodisco.it/wp-content/uploads/2026/06/BANDO-DIRITTO-ALLO-STUDIO-26-27-1.pdf",
       "https://portalestudente.uniroma3.it/tasse/tasse/",
+      "https://universitaly-private.cineca.it/uploads/universitaly-pubblico/Circolare_2026-2027_studenti_internazionali.pdf",
       "https://www.uniroma3.it/didattica/lauree-ws-l/",
       "https://www.uniroma3.it/didattica/lauree-ws-lm/",
       "https://www.uniroma3.it/int/wp-content/uploads/file_locked/2026/06/GUIDE-HOW-TO-APPLY-ENG-2026-27.pdf",
@@ -19593,6 +19607,7 @@
       "https://laziodisco.it/on-line-il-bando-diritto-allo-studio-2026-2027/",
       "https://laziodisco.it/wp-content/uploads/2026/06/BANDO-DIRITTO-ALLO-STUDIO-26-27-1.pdf",
       "https://portalestudente.uniroma3.it/tasse/tasse/",
+      "https://universitaly-private.cineca.it/uploads/universitaly-pubblico/Circolare_2026-2027_studenti_internazionali.pdf",
       "https://www.uniroma3.it/didattica/lauree-ws-l/",
       "https://www.uniroma3.it/didattica/lauree-ws-lm/",
       "https://www.uniroma3.it/int/wp-content/uploads/file_locked/2026/06/GUIDE-HOW-TO-APPLY-ENG-2026-27.pdf",
@@ -23762,6 +23777,7 @@
       "https://laziodisco.it/on-line-il-bando-diritto-allo-studio-2026-2027/",
       "https://laziodisco.it/wp-content/uploads/2026/06/BANDO-DIRITTO-ALLO-STUDIO-26-27-1.pdf",
       "https://portalestudente.uniroma3.it/tasse/tasse/",
+      "https://universitaly-private.cineca.it/uploads/universitaly-pubblico/Circolare_2026-2027_studenti_internazionali.pdf",
       "https://www.uniroma3.it/didattica/lauree-ws-l/",
       "https://www.uniroma3.it/didattica/lauree-ws-lm/",
       "https://www.uniroma3.it/int/wp-content/uploads/file_locked/2026/06/GUIDE-HOW-TO-APPLY-ENG-2026-27.pdf",
@@ -27912,6 +27928,7 @@
       "https://laziodisco.it/on-line-il-bando-diritto-allo-studio-2026-2027/",
       "https://laziodisco.it/wp-content/uploads/2026/06/BANDO-DIRITTO-ALLO-STUDIO-26-27-1.pdf",
       "https://portalestudente.uniroma3.it/tasse/tasse/",
+      "https://universitaly-private.cineca.it/uploads/universitaly-pubblico/Circolare_2026-2027_studenti_internazionali.pdf",
       "https://www.uniroma3.it/didattica/lauree-ws-l/",
       "https://www.uniroma3.it/didattica/lauree-ws-lm/",
       "https://www.uniroma3.it/int/wp-content/uploads/file_locked/2026/06/GUIDE-HOW-TO-APPLY-ENG-2026-27.pdf",
@@ -32032,6 +32049,7 @@
       "https://laziodisco.it/on-line-il-bando-diritto-allo-studio-2026-2027/",
       "https://laziodisco.it/wp-content/uploads/2026/06/BANDO-DIRITTO-ALLO-STUDIO-26-27-1.pdf",
       "https://portalestudente.uniroma3.it/tasse/tasse/",
+      "https://universitaly-private.cineca.it/uploads/universitaly-pubblico/Circolare_2026-2027_studenti_internazionali.pdf",
       "https://www.uniroma3.it/didattica/lauree-ws-l/",
       "https://www.uniroma3.it/didattica/lauree-ws-lm/",
       "https://www.uniroma3.it/int/wp-content/uploads/file_locked/2026/06/GUIDE-HOW-TO-APPLY-ENG-2026-27.pdf",
@@ -34215,24 +34233,32 @@
     "id": "legacy-002",
     "name": "Cyber Risk Strategy and Governance",
     "field": "tuition",
-    "value": "Not confirmed",
-    "cycle_status": "not confirmed",
-    "academic_cycle": null,
-    "source_urls": [],
-    "verified_date": null,
-    "checked_urls": [
-      "https://www.polimi.it/en/education/laurea-magistrale-programmes",
-      "https://www.polimi.it/en/education/laurea-magistrale-programmes/programme-detail/cyber-risk-strategy-and-governance",
-      "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/application/list-of-documents-required-by-the-admissions-office",
-      "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/deadlines",
-      "https://www.polimi.it/en/students/tuition-fees-scholarships-and-financial-aid/tuition-fees",
-      "https://www.polimi.it/fileadmin/user_upload/futuri_studenti/borse-di-studio/Merit_Based_Call_For_Applications_a.y._2027-2028.pdf",
-      "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/admissions",
-      "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/cyber-risk-strategy-and-governance-and-transformative-sustainability",
+    "value": "Bocconi publishes current 2027/28 ordinary MSc contribution and awarded-funding rules. The full joint Cyber programme annual amount and any partner charge are Not confirmed; consult the structured fee rule and both institutions.",
+    "cycle_status": "2027/28 confirmed",
+    "academic_cycle": "2027/28",
+    "source_urls": [
+      "https://www.unibocconi.it/it/entrare-bocconi/corsi-di-laurea-magistrale/tasse-e-contributi",
       "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/joint-degree-programs-politecnico-di-milano"
     ],
-    "checked_at": "2026-11-13",
-    "reason": "A programme-applicable tuition amount/range/calculation for a named cycle is not established. Application fees are not tuition. Reviewed official material does not establish this field for a named applicable cycle. Check the linked pages and program call."
+    "verified_date": "2026-11-13",
+    "evidence_source_ids": [
+      "PROFILE-BOCCONI-FEES-2027",
+      "PROFILE-BOCCONI-JOINT-2027"
+    ],
+    "evidence_sha256": {
+      "https://www.unibocconi.it/it/entrare-bocconi/corsi-di-laurea-magistrale/tasse-e-contributi": "75cee69436e768d57d5b7e7b0441ce7144dba97a51d4267e815903a46f34b573",
+      "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/joint-degree-programs-politecnico-di-milano": "42575c9baafc8f6c07be312337af5843f3f605666729999a3008e091888ffc95"
+    },
+    "current_cycle_evidence": {
+      "url": "https://www.unibocconi.it/it/entrare-bocconi/corsi-di-laurea-magistrale/tasse-e-contributi",
+      "cycle_marker": "2027/28 explicit applicable programme/cohort context",
+      "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
+    },
+    "missing_components": [
+      "complete joint Cyber annual fee and any partner charge"
+    ],
+    "covered_scope": "Bocconi first-year 2027/28 MSc ordinary contribution relevant to the joint Cyber route; complete partner/joint fee basis still needs confirmation.",
+    "short_value": "Rule only — complete joint annual amount Not confirmed"
   },
   {
     "record_type": "program",
@@ -36105,6 +36131,7 @@
       "https://laziodisco.it/on-line-il-bando-diritto-allo-studio-2026-2027/",
       "https://laziodisco.it/wp-content/uploads/2026/06/BANDO-DIRITTO-ALLO-STUDIO-26-27-1.pdf",
       "https://portalestudente.uniroma3.it/tasse/tasse/",
+      "https://universitaly-private.cineca.it/uploads/universitaly-pubblico/Circolare_2026-2027_studenti_internazionali.pdf",
       "https://www.uniroma3.it/didattica/lauree-ws-l/",
       "https://www.uniroma3.it/didattica/lauree-ws-lm/",
       "https://www.uniroma3.it/int/wp-content/uploads/file_locked/2026/06/GUIDE-HOW-TO-APPLY-ENG-2026-27.pdf",
@@ -38043,11 +38070,11 @@
       "cycle_marker": "2027/28 admission page or call",
       "relationship": "Named intake/cycle context is checked alongside the field-specific official source; generic page retrieval alone does not verify applicability."
     },
-    "short_value": "EUR 157.04 + income-assessed contribution; maximum Not confirmed",
+    "short_value": "Rule only — full annual amount Not confirmed",
     "missing_components": [
       "Exact 2027/28 course maximum"
     ],
-    "covered_scope": "Only the named GrEnFIn, CLE, BBS or 28DIGITAL route stated above; these admission and fee routes are distinct."
+    "covered_scope": "GrEnFIn 2027/28 self-funded students only; Erasmus Mundus scholarship holders follow the published fee-waiver conditions."
   },
   {
     "record_type": "program",
@@ -38357,28 +38384,15 @@
     "id": "napoli-federico-ii",
     "name": "Università degli Studi di Napoli Federico II",
     "field": "universitaly",
-    "value": "Under the national procedures explicitly valid for 2027/28, applicants who need a study visa must submit the visa pre-enrolment application through the official, free Universitaly portal. University validation is not a visa guarantee. The university/programme-specific 2027/28 submission deadline is Not confirmed; the national visa ceiling is not a substitute for that deadline.",
-    "cycle_status": "2027/28 confirmed",
-    "academic_cycle": "2027/28",
-    "source_urls": [
-      "https://www.universitaly.it/en/studenti-stranieri"
-    ],
-    "verified_date": "2026-11-13",
-    "evidence_source_ids": [
-      "REFINE-UNIVERSITALY-2027"
-    ],
-    "evidence_sha256": {
-      "https://www.universitaly.it/en/studenti-stranieri": "d8d8bd4abec1e7eb537e3f99a8047e9683395888810a3d1e9a15c25698eaccf1"
-    },
-    "current_cycle_evidence": {
-      "url": "https://www.universitaly.it/en/studenti-stranieri",
-      "cycle_marker": "2027/28 explicit applicable programme/cohort context",
-      "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
-    },
-    "missing_components": [
-      "university/programme-specific Universitaly deadline"
-    ],
-    "covered_scope": "Only the university-published visa/insurance guidance and national visa-applicant rule; programme admission criteria are not established."
+    "value": "Not confirmed",
+    "cycle_status": "not confirmed",
+    "academic_cycle": null,
+    "source_urls": [],
+    "verified_date": null,
+    "checked_urls": [],
+    "checked_at": null,
+    "reason": "A university/programme-specific 2027/28 Universitaly deadline is not established. The separately recorded national visa-applicant requirement does not establish this deadline.",
+    "national_rule_ref": "universitaly_requirement"
   },
   {
     "record_type": "university",
@@ -38406,56 +38420,30 @@
     "id": "politecnico-milano",
     "name": "Politecnico di Milano",
     "field": "universitaly",
-    "value": "Under the national procedures explicitly valid for 2027/28, applicants who need a study visa must submit the visa pre-enrolment application through the official, free Universitaly portal. University validation is not a visa guarantee. The university/programme-specific 2027/28 submission deadline is Not confirmed; the national visa ceiling is not a substitute for that deadline.",
-    "cycle_status": "2027/28 confirmed",
-    "academic_cycle": "2027/28",
-    "source_urls": [
-      "https://www.universitaly.it/en/studenti-stranieri"
-    ],
-    "verified_date": "2026-11-13",
-    "evidence_source_ids": [
-      "REFINE-UNIVERSITALY-2027"
-    ],
-    "evidence_sha256": {
-      "https://www.universitaly.it/en/studenti-stranieri": "d8d8bd4abec1e7eb537e3f99a8047e9683395888810a3d1e9a15c25698eaccf1"
-    },
-    "current_cycle_evidence": {
-      "url": "https://www.universitaly.it/en/studenti-stranieri",
-      "cycle_marker": "2027/28 explicit applicable programme/cohort context",
-      "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
-    },
-    "missing_components": [
-      "university/programme-specific Universitaly deadline"
-    ],
-    "covered_scope": "Standard foreign-qualification MSc route only. Italian-qualification admissions and the joint Bocconi route are not covered by this policy."
+    "value": "Not confirmed",
+    "cycle_status": "not confirmed",
+    "academic_cycle": null,
+    "source_urls": [],
+    "verified_date": null,
+    "checked_urls": [],
+    "checked_at": null,
+    "reason": "A university/programme-specific 2027/28 Universitaly deadline is not established. The separately recorded national visa-applicant requirement does not establish this deadline.",
+    "national_rule_ref": "universitaly_requirement"
   },
   {
     "record_type": "university",
     "id": "politecnico-torino",
     "name": "Politecnico di Torino",
     "field": "universitaly",
-    "value": "Under the national procedures explicitly valid for 2027/28, applicants who need a study visa must submit the visa pre-enrolment application through the official, free Universitaly portal. University validation is not a visa guarantee. The university/programme-specific 2027/28 submission deadline is Not confirmed; the national visa ceiling is not a substitute for that deadline.",
-    "cycle_status": "2027/28 confirmed",
-    "academic_cycle": "2027/28",
-    "source_urls": [
-      "https://www.universitaly.it/en/studenti-stranieri"
-    ],
-    "verified_date": "2026-11-13",
-    "evidence_source_ids": [
-      "REFINE-UNIVERSITALY-2027"
-    ],
-    "evidence_sha256": {
-      "https://www.universitaly.it/en/studenti-stranieri": "d8d8bd4abec1e7eb537e3f99a8047e9683395888810a3d1e9a15c25698eaccf1"
-    },
-    "current_cycle_evidence": {
-      "url": "https://www.universitaly.it/en/studenti-stranieri",
-      "cycle_marker": "2027/28 explicit applicable programme/cohort context",
-      "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
-    },
-    "missing_components": [
-      "university/programme-specific Universitaly deadline"
-    ],
-    "covered_scope": "HySET 2027–29 consortium route only, not ordinary Polito MSc admission or a guaranteed scholarship."
+    "value": "Not confirmed",
+    "cycle_status": "not confirmed",
+    "academic_cycle": null,
+    "source_urls": [],
+    "verified_date": null,
+    "checked_urls": [],
+    "checked_at": null,
+    "reason": "A university/programme-specific 2027/28 Universitaly deadline is not established. The separately recorded national visa-applicant requirement does not establish this deadline.",
+    "national_rule_ref": "universitaly_requirement"
   },
   {
     "record_type": "university",
@@ -38472,6 +38460,7 @@
       "https://laziodisco.it/wp-content/uploads/2026/06/BANDO-DIRITTO-ALLO-STUDIO-26-27-1.pdf",
       "https://orientamento.uniroma3.it/en/about-roma-tre/international-students-admissions/",
       "https://portalestudente.uniroma3.it/tasse/tasse/",
+      "https://universitaly-private.cineca.it/uploads/universitaly-pubblico/Circolare_2026-2027_studenti_internazionali.pdf",
       "https://www.uniroma3.it/didattica/lauree-ws-l/",
       "https://www.uniroma3.it/didattica/lauree-ws-lm/",
       "https://www.uniroma3.it/int/wp-content/uploads/file_locked/2026/06/GUIDE-HOW-TO-APPLY-ENG-2026-27.pdf",
@@ -38549,35 +38538,23 @@
     "missing_components": [
       "A university-wide deadline for other programmes"
     ],
-    "covered_scope": "Mechatronics Engineering 2027/28 only; programme-specific conditions must not be extended to other Tor Vergata courses."
+    "covered_scope": "Mechatronics Engineering 2027/28 only; programme-specific conditions must not be extended to other Tor Vergata courses.",
+    "national_rule_ref": "universitaly_requirement"
   },
   {
     "record_type": "university",
     "id": "ca-foscari",
     "name": "Università Ca' Foscari Venezia",
     "field": "universitaly",
-    "value": "Under the national procedures explicitly valid for 2027/28, applicants who need a study visa must submit the visa pre-enrolment application through the official, free Universitaly portal. University validation is not a visa guarantee. The university/programme-specific 2027/28 submission deadline is Not confirmed; the national visa ceiling is not a substitute for that deadline.",
-    "cycle_status": "2027/28 confirmed",
-    "academic_cycle": "2027/28",
-    "source_urls": [
-      "https://www.universitaly.it/en/studenti-stranieri"
-    ],
-    "verified_date": "2026-11-13",
-    "evidence_source_ids": [
-      "REFINE-UNIVERSITALY-2027"
-    ],
-    "evidence_sha256": {
-      "https://www.universitaly.it/en/studenti-stranieri": "d8d8bd4abec1e7eb537e3f99a8047e9683395888810a3d1e9a15c25698eaccf1"
-    },
-    "current_cycle_evidence": {
-      "url": "https://www.universitaly.it/en/studenti-stranieri",
-      "cycle_marker": "2027/28 explicit applicable programme/cohort context",
-      "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
-    },
-    "missing_components": [
-      "university/programme-specific Universitaly deadline"
-    ],
-    "covered_scope": "The named Buddhism and Asian Religions programme and the stated foreign-qualification or scholarship conditions only."
+    "value": "Not confirmed",
+    "cycle_status": "not confirmed",
+    "academic_cycle": null,
+    "source_urls": [],
+    "verified_date": null,
+    "checked_urls": [],
+    "checked_at": null,
+    "reason": "A university/programme-specific 2027/28 Universitaly deadline is not established. The separately recorded national visa-applicant requirement does not establish this deadline.",
+    "national_rule_ref": "universitaly_requirement"
   },
   {
     "record_type": "university",
@@ -38727,31 +38704,17 @@
     "id": "bologna",
     "name": "Università di Bologna",
     "field": "universitaly",
-    "value": "Under the national procedures explicitly valid for 2027/28, applicants who need a study visa must submit the visa pre-enrolment application through the official, free Universitaly portal. University validation is not a visa guarantee. The university/programme-specific 2027/28 submission deadline is Not confirmed; the national visa ceiling is not a substitute for that deadline.",
-    "cycle_status": "2027/28 confirmed",
-    "academic_cycle": "2027/28",
-    "source_urls": [
-      "https://corsi.unibo.it/s/3394/p/en/enrolling-grenfin/avvisolm-grenfin-emjm-27-28_en-2-prot.pdf/@@download/file/AvvisoLM-GrEnFIn-EMJM-27-28_EN-2-PROT.pdf",
-      "https://www.universitaly.it/en/studenti-stranieri"
+    "value": "Not confirmed",
+    "cycle_status": "not confirmed",
+    "academic_cycle": null,
+    "source_urls": [],
+    "verified_date": null,
+    "checked_urls": [
+      "https://corsi.unibo.it/s/3394/p/en/enrolling-grenfin/avvisolm-grenfin-emjm-27-28_en-2-prot.pdf/@@download/file/AvvisoLM-GrEnFIn-EMJM-27-28_EN-2-PROT.pdf"
     ],
-    "verified_date": "2026-11-13",
-    "evidence_source_ids": [
-      "SRC-UNIBO-GRENFIN-2027-CALL",
-      "REFINE-UNIVERSITALY-2027"
-    ],
-    "evidence_sha256": {
-      "https://www.universitaly.it/en/studenti-stranieri": "d8d8bd4abec1e7eb537e3f99a8047e9683395888810a3d1e9a15c25698eaccf1",
-      "https://corsi.unibo.it/s/3394/p/en/enrolling-grenfin/avvisolm-grenfin-emjm-27-28_en-2-prot.pdf/@@download/file/AvvisoLM-GrEnFIn-EMJM-27-28_EN-2-PROT.pdf": "c4cc5e62100963ca3bac8c88bc9fda37838dad51a931568c5dd4aacb4a99361b"
-    },
-    "current_cycle_evidence": {
-      "url": "https://www.universitaly.it/en/studenti-stranieri",
-      "cycle_marker": "2027/28 explicit applicable programme/cohort context",
-      "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
-    },
-    "missing_components": [
-      "university/programme-specific Universitaly deadline"
-    ],
-    "covered_scope": "Only the named GrEnFIn, CLE, BBS or 28DIGITAL route stated above; these admission and fee routes are distinct."
+    "checked_at": "2026-11-13",
+    "reason": "A university/programme-specific 2027/28 Universitaly deadline is not established. The separately recorded national visa-applicant requirement does not establish this deadline.",
+    "national_rule_ref": "universitaly_requirement"
   },
   {
     "record_type": "university",
@@ -38801,28 +38764,15 @@
     "id": "firenze",
     "name": "Università degli Studi di Firenze",
     "field": "universitaly",
-    "value": "Under the national procedures explicitly valid for 2027/28, applicants who need a study visa must submit the visa pre-enrolment application through the official, free Universitaly portal. University validation is not a visa guarantee. The university/programme-specific 2027/28 submission deadline is Not confirmed; the national visa ceiling is not a substitute for that deadline.",
-    "cycle_status": "2027/28 confirmed",
-    "academic_cycle": "2027/28",
-    "source_urls": [
-      "https://www.universitaly.it/en/studenti-stranieri"
-    ],
-    "verified_date": "2026-11-13",
-    "evidence_source_ids": [
-      "REFINE-UNIVERSITALY-2027"
-    ],
-    "evidence_sha256": {
-      "https://www.universitaly.it/en/studenti-stranieri": "d8d8bd4abec1e7eb537e3f99a8047e9683395888810a3d1e9a15c25698eaccf1"
-    },
-    "current_cycle_evidence": {
-      "url": "https://www.universitaly.it/en/studenti-stranieri",
-      "cycle_marker": "2027/28 explicit applicable programme/cohort context",
-      "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
-    },
-    "missing_components": [
-      "university/programme-specific Universitaly deadline"
-    ],
-    "covered_scope": "Software: Science and Technology admission, or the stated non-EU/foreign-qualification university procedure; each published country/test condition still applies."
+    "value": "Not confirmed",
+    "cycle_status": "not confirmed",
+    "academic_cycle": null,
+    "source_urls": [],
+    "verified_date": null,
+    "checked_urls": [],
+    "checked_at": null,
+    "reason": "A university/programme-specific 2027/28 Universitaly deadline is not established. The separately recorded national visa-applicant requirement does not establish this deadline.",
+    "national_rule_ref": "universitaly_requirement"
   },
   {
     "record_type": "university",
@@ -38905,28 +38855,15 @@
     "id": "padova",
     "name": "Università degli Studi di Padova",
     "field": "universitaly",
-    "value": "Under the national procedures explicitly valid for 2027/28, applicants who need a study visa must submit the visa pre-enrolment application through the official, free Universitaly portal. University validation is not a visa guarantee. The university/programme-specific 2027/28 submission deadline is Not confirmed; the national visa ceiling is not a substitute for that deadline.",
-    "cycle_status": "2027/28 confirmed",
-    "academic_cycle": "2027/28",
-    "source_urls": [
-      "https://www.universitaly.it/en/studenti-stranieri"
-    ],
-    "verified_date": "2026-11-13",
-    "evidence_source_ids": [
-      "REFINE-UNIVERSITALY-2027"
-    ],
-    "evidence_sha256": {
-      "https://www.universitaly.it/en/studenti-stranieri": "d8d8bd4abec1e7eb537e3f99a8047e9683395888810a3d1e9a15c25698eaccf1"
-    },
-    "current_cycle_evidence": {
-      "url": "https://www.universitaly.it/en/studenti-stranieri",
-      "cycle_marker": "2027/28 explicit applicable programme/cohort context",
-      "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
-    },
-    "missing_components": [
-      "university/programme-specific Universitaly deadline"
-    ],
-    "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
+    "value": "Not confirmed",
+    "cycle_status": "not confirmed",
+    "academic_cycle": null,
+    "source_urls": [],
+    "verified_date": null,
+    "checked_urls": [],
+    "checked_at": null,
+    "reason": "A university/programme-specific 2027/28 Universitaly deadline is not established. The separately recorded national visa-applicant requirement does not establish this deadline.",
+    "national_rule_ref": "universitaly_requirement"
   },
   {
     "record_type": "university",
@@ -39012,34 +38949,19 @@
     "id": "pisa",
     "name": "Università di Pisa",
     "field": "universitaly",
-    "value": "Under the national procedures explicitly valid for 2027/28, applicants who need a study visa must submit the visa pre-enrolment application through the official, free Universitaly portal. University validation is not a visa guarantee. The university/programme-specific 2027/28 submission deadline is Not confirmed; the national visa ceiling is not a substitute for that deadline.",
-    "cycle_status": "2027/28 confirmed",
-    "academic_cycle": "2027/28",
-    "source_urls": [
+    "value": "Not confirmed",
+    "cycle_status": "not confirmed",
+    "academic_cycle": null,
+    "source_urls": [],
+    "verified_date": null,
+    "checked_urls": [
       "https://computer.ing.unipi.it/call-for-international-students/",
       "https://applymscenglish.unipi.it/downloads/downloadpdf/bandicdl/2027/bando_10_wcy-lm_en.pdf",
-      "https://www.universitaly.it/en/studenti-stranieri"
+      "https://www.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/pre-registration-on-universitaly/"
     ],
-    "verified_date": "2026-11-13",
-    "evidence_source_ids": [
-      "SRC-UNIPI-INFO-ENG-2027-CALL",
-      "SRC-AUDIT-UNIPI-CYBER-2027-CALL",
-      "REFINE-UNIVERSITALY-2027"
-    ],
-    "evidence_sha256": {
-      "https://www.universitaly.it/en/studenti-stranieri": "d8d8bd4abec1e7eb537e3f99a8047e9683395888810a3d1e9a15c25698eaccf1",
-      "https://computer.ing.unipi.it/call-for-international-students/": "0def6771738113fc088acaf53acb34897c51a7caa76107f1697521abc6301a91",
-      "https://applymscenglish.unipi.it/downloads/downloadpdf/bandicdl/2027/bando_10_wcy-lm_en.pdf": "eee23bd0ff66e4c16838ca51f944d0ab118544b0f6858b9c0ad7f07843162237"
-    },
-    "current_cycle_evidence": {
-      "url": "https://www.universitaly.it/en/studenti-stranieri",
-      "cycle_marker": "2027/28 explicit applicable programme/cohort context",
-      "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
-    },
-    "missing_components": [
-      "university/programme-specific Universitaly deadline"
-    ],
-    "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
+    "checked_at": "2026-11-13",
+    "reason": "The university page gives 30 September 2026 for 2026/27. It does not establish a 2027/28 deadline; neither the programme application deadline nor the national visa ceiling is substituted.",
+    "national_rule_ref": "universitaly_requirement"
   },
   {
     "record_type": "university",
@@ -39087,56 +39009,30 @@
     "id": "torino",
     "name": "Università degli Studi di Torino",
     "field": "universitaly",
-    "value": "Under the national procedures explicitly valid for 2027/28, applicants who need a study visa must submit the visa pre-enrolment application through the official, free Universitaly portal. University validation is not a visa guarantee. The university/programme-specific 2027/28 submission deadline is Not confirmed; the national visa ceiling is not a substitute for that deadline.",
-    "cycle_status": "2027/28 confirmed",
-    "academic_cycle": "2027/28",
-    "source_urls": [
-      "https://www.universitaly.it/en/studenti-stranieri"
-    ],
-    "verified_date": "2026-11-13",
-    "evidence_source_ids": [
-      "REFINE-UNIVERSITALY-2027"
-    ],
-    "evidence_sha256": {
-      "https://www.universitaly.it/en/studenti-stranieri": "d8d8bd4abec1e7eb537e3f99a8047e9683395888810a3d1e9a15c25698eaccf1"
-    },
-    "current_cycle_evidence": {
-      "url": "https://www.universitaly.it/en/studenti-stranieri",
-      "cycle_marker": "2027/28 explicit applicable programme/cohort context",
-      "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
-    },
-    "missing_components": [
-      "university/programme-specific Universitaly deadline"
-    ],
-    "covered_scope": "The named EAP/EPOG online route or local TAPP route as stated; the two credit thresholds are not interchangeable."
+    "value": "Not confirmed",
+    "cycle_status": "not confirmed",
+    "academic_cycle": null,
+    "source_urls": [],
+    "verified_date": null,
+    "checked_urls": [],
+    "checked_at": null,
+    "reason": "A university/programme-specific 2027/28 Universitaly deadline is not established. The separately recorded national visa-applicant requirement does not establish this deadline.",
+    "national_rule_ref": "universitaly_requirement"
   },
   {
     "record_type": "university",
     "id": "trento",
     "name": "Università degli Studi di Trento",
     "field": "universitaly",
-    "value": "Under the national procedures explicitly valid for 2027/28, applicants who need a study visa must submit the visa pre-enrolment application through the official, free Universitaly portal. University validation is not a visa guarantee. The university/programme-specific 2027/28 submission deadline is Not confirmed; the national visa ceiling is not a substitute for that deadline.",
-    "cycle_status": "2027/28 confirmed",
-    "academic_cycle": "2027/28",
-    "source_urls": [
-      "https://www.universitaly.it/en/studenti-stranieri"
-    ],
-    "verified_date": "2026-11-13",
-    "evidence_source_ids": [
-      "REFINE-UNIVERSITALY-2027"
-    ],
-    "evidence_sha256": {
-      "https://www.universitaly.it/en/studenti-stranieri": "d8d8bd4abec1e7eb537e3f99a8047e9683395888810a3d1e9a15c25698eaccf1"
-    },
-    "current_cycle_evidence": {
-      "url": "https://www.universitaly.it/en/studenti-stranieri",
-      "cycle_marker": "2027/28 explicit applicable programme/cohort context",
-      "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
-    },
-    "missing_components": [
-      "university/programme-specific Universitaly deadline"
-    ],
-    "covered_scope": "The named 28DIGITAL track/partner conditions only; ordinary UniTrento fee and admission routes are separate."
+    "value": "Not confirmed",
+    "cycle_status": "not confirmed",
+    "academic_cycle": null,
+    "source_urls": [],
+    "verified_date": null,
+    "checked_urls": [],
+    "checked_at": null,
+    "reason": "A university/programme-specific 2027/28 Universitaly deadline is not established. The separately recorded national visa-applicant requirement does not establish this deadline.",
+    "national_rule_ref": "universitaly_requirement"
   },
   {
     "record_type": "university",
@@ -39334,6 +39230,7 @@
       "https://laziodisco.it/wp-content/uploads/2026/06/BANDO-DIRITTO-ALLO-STUDIO-26-27-1.pdf",
       "https://orientamento.uniroma3.it/en/about-roma-tre/international-students-admissions/",
       "https://portalestudente.uniroma3.it/tasse/tasse/",
+      "https://universitaly-private.cineca.it/uploads/universitaly-pubblico/Circolare_2026-2027_studenti_internazionali.pdf",
       "https://www.uniroma3.it/didattica/lauree-ws-l/",
       "https://www.uniroma3.it/didattica/lauree-ws-lm/",
       "https://www.uniroma3.it/int/wp-content/uploads/file_locked/2026/06/GUIDE-HOW-TO-APPLY-ENG-2026-27.pdf",
@@ -40237,6 +40134,7 @@
       "https://laziodisco.it/wp-content/uploads/2026/06/BANDO-DIRITTO-ALLO-STUDIO-26-27-1.pdf",
       "https://orientamento.uniroma3.it/en/about-roma-tre/international-students-admissions/",
       "https://portalestudente.uniroma3.it/tasse/tasse/",
+      "https://universitaly-private.cineca.it/uploads/universitaly-pubblico/Circolare_2026-2027_studenti_internazionali.pdf",
       "https://www.uniroma3.it/didattica/lauree-ws-l/",
       "https://www.uniroma3.it/didattica/lauree-ws-lm/",
       "https://www.uniroma3.it/int/wp-content/uploads/file_locked/2026/06/GUIDE-HOW-TO-APPLY-ENG-2026-27.pdf",
@@ -41059,6 +40957,7 @@
       "https://laziodisco.it/wp-content/uploads/2026/06/BANDO-DIRITTO-ALLO-STUDIO-26-27-1.pdf",
       "https://orientamento.uniroma3.it/en/about-roma-tre/international-students-admissions/",
       "https://portalestudente.uniroma3.it/tasse/tasse/",
+      "https://universitaly-private.cineca.it/uploads/universitaly-pubblico/Circolare_2026-2027_studenti_internazionali.pdf",
       "https://www.uniroma3.it/didattica/lauree-ws-l/",
       "https://www.uniroma3.it/didattica/lauree-ws-lm/",
       "https://www.uniroma3.it/int/wp-content/uploads/file_locked/2026/06/GUIDE-HOW-TO-APPLY-ENG-2026-27.pdf",
@@ -42051,6 +41950,7 @@
       "https://laziodisco.it/wp-content/uploads/2026/06/BANDO-DIRITTO-ALLO-STUDIO-26-27-1.pdf",
       "https://orientamento.uniroma3.it/en/about-roma-tre/international-students-admissions/",
       "https://portalestudente.uniroma3.it/tasse/tasse/",
+      "https://universitaly-private.cineca.it/uploads/universitaly-pubblico/Circolare_2026-2027_studenti_internazionali.pdf",
       "https://www.uniroma3.it/didattica/lauree-ws-l/",
       "https://www.uniroma3.it/didattica/lauree-ws-lm/",
       "https://www.uniroma3.it/int/wp-content/uploads/file_locked/2026/06/GUIDE-HOW-TO-APPLY-ENG-2026-27.pdf",

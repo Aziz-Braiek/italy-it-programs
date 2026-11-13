@@ -124,6 +124,8 @@
   const cards = $$("[data-program-card]");
   const programById = new Map(cards.map((card) => [card.dataset.programId, card]));
   const decisionData = JSON.parse($("#decision-support-data")?.textContent || "{}");
+  const profileView = window.ItalyProfileView;
+  const profileEngine = window.ItalyProfileEngine;
   const filters = {
     query: $("#search"), level: $("#filter-level"), university: $("#filter-university"), city: $("#filter-city"),
     language: $("#filter-language"), field: $("#filter-field"), status: $("#filter-status"), deadline: $("#filter-deadline"),
@@ -159,6 +161,7 @@
   }
 
   function matches(card) {
+    if (card.dataset.profileDegreeHidden === "true") return false;
     const q = (filters.query?.value || "").trim().toLowerCase();
     const level = (filters.level?.value || "").toLowerCase();
     const university = filters.university?.value || "";
@@ -217,6 +220,7 @@
     });
     if (filters.pending?.checked) params.set("pending", "1");
     if (showFavorites) params.set("favorites", "1");
+    profileView?.paramsInto(params);
     const query = params.toString();
     history.replaceState(null, "", location.pathname + (query ? `?${query}` : "") + location.hash);
   }
@@ -245,8 +249,18 @@
     if (next) next.disabled = pageNumber >= pages;
     const pagination = $("#pagination");
     if (pagination) pagination.hidden = count <= PAGE_SIZE;
+    const pool = cards.filter((card) => card.dataset.profileDegreeHidden !== "true" && ((filters.pending.checked || showFavorites) || card.dataset.status === "CONFIRMED"));
+    for (const [control, key] of [[filters.admissionTest, "admissionTest"], [filters.englishCertificate, "englishCertificate"]]) {
+      for (const option of control?.options || []) {
+        if (!option.dataset.countLabel) continue;
+        const state = option.value === "required" ? "yes" : option.value;
+        option.textContent = `${option.dataset.countLabel} (${pool.filter((card) => card.dataset[key] === state).length})`;
+      }
+    }
     updateUrl();
   }
+
+  window.addEventListener("itu-profile-change", () => { pageNumber = 1; renderResults(); });
 
   readFiltersFromUrl();
   const filterPanel = $("#filter-panel");
@@ -369,13 +383,18 @@
   function exportCsv() {
     const rows = favoriteIds.map((id) => programById.get(id)).filter(Boolean);
     if (!rows.length) { announce("Save one or more programs before exporting a shortlist."); return; }
-    const headers = ["Program", "University", "City", "2027/28 status", "Degree value", "Degree verified for 2027/28", "Language value", "Language verified for 2027/28", "Next confirmed date", "Tuition information", "Scholarship information", "Tracker page"];
+    const headers = ["Program", "University", "City", "2027/28 status", "Degree value", "Degree verified for 2027/28", "Language value", "Language verified for 2027/28", "Next confirmed date", "Tuition information", "Scholarship information", "Tracker page", "Applicant category", "Qualifying degree origin", "Degree sought", "Profile deadline source URL", "Profile deadline verified date", "Tuition model type", "Tuition regulation URL", "Tuition calculation basis", "Published annual amount", "Published minimum", "Published maximum"];
     const decisionFields = [...Object.entries(decisionData.program_fields || {}).map(([key, label]) => ["program", key, label]), ...Object.entries(decisionData.university_fields || {}).map(([key, label]) => ["university", key, label])];
     decisionFields.forEach(([, , label]) => headers.push(label, `${label} — cycle status`, `${label} — source URL`, `${label} — verified date`, `${label} — confirmation`, `${label} — missing components`));
     const exportedDecision = (card) => {
       const program = decisionData.programs?.[card.dataset.programId] || {};
       const university = decisionData.universities?.[program.university_id] || {};
       return decisionFields.flatMap(([owner, key]) => {
+        if (profileView?.active && !["duration", "ects"].includes(key)) {
+          const fact = profileView.selected(card.dataset.programId, key);
+          if (!profileEngine.current(fact)) return ["Not confirmed", "not confirmed", "", "", "Not confirmed", ""];
+          return [fact.value, fact.cycle_status, (fact.source_urls || []).join(" | "), fact.verified_date || "", fact.missing_components?.length ? "Partly confirmed" : "Confirmed", (fact.missing_components || []).join(" | ")];
+        }
         let fact = owner === "program" ? program.facts?.[key] : university[key];
         if (fact?.university_policy) fact = university.policies?.[fact.university_policy];
         if (key === "scholarships") {
@@ -388,13 +407,24 @@
         return [fact.value, fact.cycle_status, (fact.source_urls || []).join(" | "), fact.verified_date || "", fact.evidence_scope === "degree_structure" ? "Degree structure" : fact.missing_components?.length ? "Partly confirmed" : "Confirmed", (fact.missing_components || []).join(" | ")];
       });
     };
+    const profileColumns = (card) => {
+      const id = card.dataset.programId;
+      const p = profileView?.active ? profileView.profile : {};
+      const deadline = profileView?.active ? profileView.selected(id, "deadline") : null;
+      const rules = profileView ? profileEngine.routesFor(profileView.data, id, "tuition").filter(profileEngine.current) : [];
+      const fee = profileView?.active ? profileView.selected(id, "tuition") : null;
+      const supported = profileEngine?.current(fee);
+      const types = [...new Set(rules.filter((r) => !r.partial_profile_coverage).map((r) => r.type))].join(" | ") || "not confirmed";
+      return [p.category || "", p.qualification || "", p.degree || "", profileEngine?.current(deadline) ? (deadline.source_urls || []).join(" | ") : "", deadline?.verified_date || "", supported ? fee.type : profileView?.active ? "not confirmed" : types, supported ? fee.regulation_url : profileView?.active ? "" : [...new Set(rules.map((r) => r.regulation_url))].join(" | "), supported ? fee.calculation_basis || fee.scope : "", supported && fee.type === "fixed" ? fee.amount : "Not confirmed", supported && fee.type === "band" ? fee.minimum : "Not confirmed", supported && fee.type === "band" ? fee.maximum : "Not confirmed"];
+    };
     const lines = [headers, ...rows.map((card) => [
       valueFor(card, "h3"), card.querySelector(".card-title-row .eyebrow")?.textContent?.split("·")[0]?.trim() || "",
       card.dataset.city, valueFor(card, ".status"), card.dataset.levelCurrent === "true" ? card.dataset.level : "Not confirmed", card.dataset.levelCurrent === "true" ? "Yes" : "No",
       card.dataset.languageCurrent === "true" ? card.dataset.language : "Not confirmed", card.dataset.languageCurrent === "true" ? "Yes" : "No", card.dataset.deadline,
-      card.dataset.tuition === "documented" ? "2027/28 information documented" : "Not confirmed",
+      card.dataset.tuition === "documented" ? "2027/28 fixed amount or band documented" : card.dataset.tuition === "rule-only" ? "2027/28 rule only; full annual amount Not confirmed" : "Not confirmed",
       card.dataset.scholarship === "documented" ? "2027/28 information documented" : "Not confirmed",
       new URL($('h3 a', card).getAttribute("href"), location.origin).href,
+      ...profileColumns(card),
       ...exportedDecision(card)
     ])].map((row) => row.map(csvCell).join(",")).join("\r\n");
     downloadFile("italy-university-tracker-shortlist.csv", "text/csv;charset=utf-8", "\uFEFF" + lines);
@@ -409,7 +439,7 @@
     const stamp = new Date().toISOString().replace(/[-:]/g, "").replace(/\.\d{3}Z$/, "Z");
     const events = rows.flatMap((card) => {
       let deadlines = [];
-      try { deadlines = JSON.parse(card.dataset.deadlines || "[]"); } catch { deadlines = []; }
+      try { deadlines = profileView?.active ? profileView.deadlines(card.dataset.programId) : JSON.parse(card.dataset.deadlines || "[]"); } catch { deadlines = []; }
       const future = deadlines.filter((event) => /^\d{4}-\d{2}-\d{2}$/.test(event.date) && event.date >= today);
       const title = valueFor(card, "h3");
       const university = card.querySelector(".card-title-row .eyebrow")?.textContent?.split("·")[0]?.trim() || "";
@@ -421,7 +451,9 @@
       const endDate = nextDay.toISOString().slice(0, 10).replace(/-/g, "");
       const eventLabel = event.type === "window" ? "Application window closes" : "Application deadline";
       const eligibility = event.eligible ? ` This date is listed for: ${event.eligible}.` : " Confirm that this date applies to your applicant category.";
-      return ["BEGIN:VEVENT", `UID:${card.dataset.programId}-${event.date}-${index}@italy-it-programs.vercel.app`, `DTSTAMP:${stamp}`, `DTSTART;VALUE=DATE:${deadline}`, `DTEND;VALUE=DATE:${endDate}`, `SUMMARY:${escapeIcs(`${eventLabel}: ${title}`)}`, `DESCRIPTION:${escapeIcs(`${university}.${eligibility} Confirm details on the official university source.`)}`, `URL:${url}`, "END:VEVENT"].join("\r\n");
+      const route = profileView?.active ? ` Profile: ${profileView.label()}. Source: ${(profileView.selected(card.dataset.programId, "deadline").source_urls || []).join(" ")}. Published closing time: ${event.time || "Not confirmed"}.` : "";
+      const uidProfile = profileView?.active ? `-${encodeURIComponent(profileView.label())}` : "";
+      return ["BEGIN:VEVENT", `UID:${card.dataset.programId}-${event.date}-${index}${uidProfile}@italy-it-programs.vercel.app`, `DTSTAMP:${stamp}`, `DTSTART;VALUE=DATE:${deadline}`, `DTEND;VALUE=DATE:${endDate}`, `SUMMARY:${escapeIcs(`${eventLabel}: ${title}`)}`, `DESCRIPTION:${escapeIcs(`${university}.${eligibility}${route} Confirm details on the official university source.`)}`, `URL:${url}`, "END:VEVENT"].join("\r\n");
       });
     });
     if (!events.length) { announce("No saved programs have a confirmed future application date to export."); return; }

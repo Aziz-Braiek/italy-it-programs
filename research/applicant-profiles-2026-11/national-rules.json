@@ -1,0 +1,23 @@
+{
+  "universitaly_requirement": {
+    "value": "Applicants who require a study-entry visa must submit the official pre-enrolment application through Universitaly. The MUR procedures explicitly apply to 2026/27 and 2027/28. University validation does not guarantee a visa; universities may set their own earlier deadlines. This national rule is not a university-specific deadline.",
+    "cycle_status": "2027/28 confirmed",
+    "academic_cycle": "2027/28",
+    "source_urls": [
+      "https://universitaly-private.cineca.it/uploads/universitaly-pubblico/Circolare_2026-2027_studenti_internazionali.pdf"
+    ],
+    "verified_date": "2026-11-13",
+    "evidence_source_ids": [
+      "PROFILE-MUR-PROCEDURES-2027"
+    ],
+    "evidence_sha256": {
+      "https://universitaly-private.cineca.it/uploads/universitaly-pubblico/Circolare_2026-2027_studenti_internazionali.pdf": "b443d561cabe34a6b1cda9d213b5655332ec2cdb90d77a0620ab480bf0e5779a"
+    },
+    "current_cycle_evidence": {
+      "url": "https://universitaly-private.cineca.it/uploads/universitaly-pubblico/Circolare_2026-2027_studenti_internazionali.pdf",
+      "cycle_marker": "2027/28 explicit applicable programme/cohort context",
+      "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
+    },
+    "covered_scope": "Visa-requiring applicants; exceptions and residence-permit conditions follow the national procedure."
+  }
+}

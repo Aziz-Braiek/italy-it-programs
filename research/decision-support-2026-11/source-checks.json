@@ -1115,6 +1115,7 @@
     {
       "url": "https://computer.ing.unipi.it/wp-content/uploads/2026/11/CE-AIDE-call-2027-non-IT-qualification.pdf",
       "source_ids": [
+        "PROFILE-PISA-ENG-PDF-2027",
         "SRC-AUDIT-UNIPI-ENGINEERING-2027-CALL-PDF"
       ],
       "evidence_key": "da3b4ba49e1273372644",
@@ -5477,6 +5478,32 @@
       "academic_cycles_detected": []
     },
     {
+      "url": "https://masterschool.28digital.eu/admissions/university-specific-language-tests-and-exemptions",
+      "source_ids": [
+        "PROFILE-28DIGITAL-LANGUAGE"
+      ],
+      "evidence_key": "a82caad60d5f6f6dd8e2",
+      "checked_at_utc": "2026-11-13T13:00:17.649690+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://masterschool.28digital.eu/admissions/university-specific-language-tests-and-exemptions",
+      "redirects": [],
+      "headers": {
+        "date": "Fri, 13 Nov 2026 13:00:18 GMT",
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "private, no-store, max-age=0"
+      },
+      "bytes": 126423,
+      "sha256": "8cecefb429d5b53fd6050d16b7e432fea1310efde1979fcc07a654fd265e235d",
+      "elapsed_seconds": 0.625,
+      "local_raw_path": "tmp/decision-support-2026-11-13/a82caad60d5f6f6dd8e2.html",
+      "local_text_path": "tmp/decision-support-2026-11-13/a82caad60d5f6f6dd8e2.txt",
+      "text_characters": 39155,
+      "transport_outcome": "accessible",
+      "academic_cycles_detected": []
+    },
+    {
       "url": "https://masterschool.28digital.eu/artificial-intelligence-with-affective-computing",
       "source_ids": [
         "SRC-28DIGITAL-AIAC-2027"
@@ -6375,6 +6402,38 @@
       "text_characters": 0,
       "transport_outcome": "accessible",
       "academic_cycles_detected": []
+    },
+    {
+      "url": "https://universitaly-private.cineca.it/uploads/universitaly-pubblico/Circolare_2026-2027_studenti_internazionali.pdf",
+      "source_ids": [
+        "PROFILE-MUR-PROCEDURES-2027"
+      ],
+      "evidence_key": "14e74d00d5b950e39e71",
+      "checked_at_utc": "2026-11-13T13:05:27.336563+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://universitaly-private.cineca.it/uploads/universitaly-pubblico/Circolare_2026-2027_studenti_internazionali.pdf",
+      "redirects": [],
+      "headers": {
+        "content-type": "application/pdf",
+        "date": "Fri, 13 Nov 2026 13:05:27 GMT",
+        "last-modified": "Wed, 29 Apr 2026 14:30:22 GMT",
+        "cache-control": "max-age=3600, private",
+        "etag": "W/\"d71c2-6509a30187051-gzip\""
+      },
+      "bytes": 881090,
+      "sha256": "b443d561cabe34a6b1cda9d213b5655332ec2cdb90d77a0620ab480bf0e5779a",
+      "elapsed_seconds": 0.172,
+      "local_raw_path": "tmp/decision-support-2026-11-13/14e74d00d5b950e39e71.pdf",
+      "pdf_pages": 23,
+      "local_text_path": "tmp/decision-support-2026-11-13/14e74d00d5b950e39e71.txt",
+      "text_characters": 82379,
+      "transport_outcome": "accessible",
+      "academic_cycles_detected": [
+        "2026/27",
+        "2027/28"
+      ]
     },
     {
       "url": "https://web.uniroma2.it/en/contenuto/computer_science-93169",
@@ -10221,7 +10280,8 @@
     {
       "url": "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/application-and-admissions/joint-degree-programs-politecnico-di-milano",
       "source_ids": [
-        "AUDIT-BOCCONI-CYBER-INTERNATIONAL-2027"
+        "AUDIT-BOCCONI-CYBER-INTERNATIONAL-2027",
+        "PROFILE-BOCCONI-JOINT-2027"
       ],
       "evidence_key": "1d8d5852592a0c805210",
       "checked_at_utc": "2026-11-13T00:10:34.960271+00:00",
@@ -10243,6 +10303,37 @@
       "local_raw_path": "tmp/decision-support-2026-11-13/1d8d5852592a0c805210.html",
       "local_text_path": "tmp/decision-support-2026-11-13/1d8d5852592a0c805210.txt",
       "text_characters": 4842,
+      "transport_outcome": "accessible",
+      "academic_cycles_detected": [
+        "2026/27",
+        "2027/28"
+      ]
+    },
+    {
+      "url": "https://www.unibocconi.it/it/entrare-bocconi/corsi-di-laurea-magistrale/tasse-e-contributi",
+      "source_ids": [
+        "PROFILE-BOCCONI-FEES-2027"
+      ],
+      "evidence_key": "a451ef17bb2ffc09b170",
+      "checked_at_utc": "2026-11-13T13:00:17.647689+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://www.unibocconi.it/it/entrare-bocconi/corsi-di-laurea-magistrale/tasse-e-contributi",
+      "redirects": [],
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "date": "Fri, 13 Nov 2026 13:00:17 GMT",
+        "cache-control": "max-age=60, public",
+        "last-modified": "Fri, 13 Nov 2026 11:51:43 GMT",
+        "etag": "W/\"1794570703\""
+      },
+      "bytes": 309099,
+      "sha256": "75cee69436e768d57d5b7e7b0441ce7144dba97a51d4267e815903a46f34b573",
+      "elapsed_seconds": 0.187,
+      "local_raw_path": "tmp/decision-support-2026-11-13/a451ef17bb2ffc09b170.html",
+      "local_text_path": "tmp/decision-support-2026-11-13/a451ef17bb2ffc09b170.txt",
+      "text_characters": 15950,
       "transport_outcome": "accessible",
       "academic_cycles_detected": [
         "2026/27",
@@ -13010,6 +13101,60 @@
       "local_raw_path": "tmp/decision-support-2026-11-13/8c18bdd03016fd498f86.html",
       "local_text_path": "tmp/decision-support-2026-11-13/8c18bdd03016fd498f86.txt",
       "text_characters": 13107,
+      "transport_outcome": "accessible",
+      "academic_cycles_detected": [
+        "2026/27"
+      ]
+    },
+    {
+      "url": "https://www.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/masters-degree-held-in-english/",
+      "source_ids": [
+        "PROFILE-PISA-ENGLISH-DEGREES"
+      ],
+      "evidence_key": "53c7d8e258209896b24e",
+      "checked_at_utc": "2026-11-13T13:00:17.648697+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://www.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/masters-degree-held-in-english/",
+      "redirects": [],
+      "headers": {
+        "date": "Fri, 13 Nov 2026 13:00:17 GMT",
+        "content-type": "text/html; charset=UTF-8"
+      },
+      "bytes": 725953,
+      "sha256": "24136be620ffe1dfe6feef623b10941ac6503bce2f0dc0ccdd312598d54e444d",
+      "elapsed_seconds": 1.578,
+      "local_raw_path": "tmp/decision-support-2026-11-13/53c7d8e258209896b24e.html",
+      "local_text_path": "tmp/decision-support-2026-11-13/53c7d8e258209896b24e.txt",
+      "text_characters": 10963,
+      "transport_outcome": "accessible",
+      "academic_cycles_detected": [
+        "2026/27"
+      ]
+    },
+    {
+      "url": "https://www.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/pre-registration-on-universitaly/",
+      "source_ids": [
+        "PROFILE-PISA-UNIVERSITALY"
+      ],
+      "evidence_key": "76ca571147441964337c",
+      "checked_at_utc": "2026-11-13T13:00:17.648697+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://www.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/pre-registration-on-universitaly/",
+      "redirects": [],
+      "headers": {
+        "date": "Fri, 13 Nov 2026 13:00:17 GMT",
+        "content-type": "text/html; charset=UTF-8"
+      },
+      "bytes": 733358,
+      "sha256": "b97ee978a1a003eb927464a672379871f1d90f42e5c8582c66a7e1c9732b1be9",
+      "elapsed_seconds": 1.172,
+      "local_raw_path": "tmp/decision-support-2026-11-13/76ca571147441964337c.html",
+      "local_text_path": "tmp/decision-support-2026-11-13/76ca571147441964337c.txt",
+      "text_characters": 15864,
       "transport_outcome": "accessible",
       "academic_cycles_detected": [
         "2026/27"

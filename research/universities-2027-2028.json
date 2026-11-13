@@ -53,28 +53,15 @@
     "cycle_facts": {},
     "decision_support": {
       "universitaly": {
-        "value": "Under the national procedures explicitly valid for 2027/28, applicants who need a study visa must submit the visa pre-enrolment application through the official, free Universitaly portal. University validation is not a visa guarantee. The university/programme-specific 2027/28 submission deadline is Not confirmed; the national visa ceiling is not a substitute for that deadline.",
-        "cycle_status": "2027/28 confirmed",
-        "academic_cycle": "2027/28",
-        "source_urls": [
-          "https://www.universitaly.it/en/studenti-stranieri"
-        ],
-        "verified_date": "2026-11-13",
-        "evidence_source_ids": [
-          "REFINE-UNIVERSITALY-2027"
-        ],
-        "evidence_sha256": {
-          "https://www.universitaly.it/en/studenti-stranieri": "d8d8bd4abec1e7eb537e3f99a8047e9683395888810a3d1e9a15c25698eaccf1"
-        },
-        "current_cycle_evidence": {
-          "url": "https://www.universitaly.it/en/studenti-stranieri",
-          "cycle_marker": "2027/28 explicit applicable programme/cohort context",
-          "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
-        },
-        "missing_components": [
-          "university/programme-specific Universitaly deadline"
-        ],
-        "covered_scope": "Only the university-published visa/insurance guidance and national visa-applicant rule; programme admission criteria are not established."
+        "value": "Not confirmed",
+        "cycle_status": "not confirmed",
+        "academic_cycle": null,
+        "source_urls": [],
+        "verified_date": null,
+        "checked_urls": [],
+        "checked_at": null,
+        "reason": "A university/programme-specific 2027/28 Universitaly deadline is not established. The separately recorded national visa-applicant requirement does not establish this deadline.",
+        "national_rule_ref": "universitaly_requirement"
       },
       "documents": {
         "value": "Not confirmed",
@@ -179,8 +166,10 @@
           "reason": "Reviewed official material does not establish this field for a named applicable cycle. Check the linked pages and program call."
         }
       ],
-      "policies": {}
-    }
+      "policies": {},
+      "tuition_rule_ids": []
+    },
+    "applicant_routes": {}
   },
   {
     "id": "politecnico-bari",
@@ -426,8 +415,10 @@
           "reason": "Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
         }
       ],
-      "policies": {}
-    }
+      "policies": {},
+      "tuition_rule_ids": []
+    },
+    "applicant_routes": {}
   },
   {
     "id": "politecnico-milano",
@@ -770,28 +761,15 @@
     },
     "decision_support": {
       "universitaly": {
-        "value": "Under the national procedures explicitly valid for 2027/28, applicants who need a study visa must submit the visa pre-enrolment application through the official, free Universitaly portal. University validation is not a visa guarantee. The university/programme-specific 2027/28 submission deadline is Not confirmed; the national visa ceiling is not a substitute for that deadline.",
-        "cycle_status": "2027/28 confirmed",
-        "academic_cycle": "2027/28",
-        "source_urls": [
-          "https://www.universitaly.it/en/studenti-stranieri"
-        ],
-        "verified_date": "2026-11-13",
-        "evidence_source_ids": [
-          "REFINE-UNIVERSITALY-2027"
-        ],
-        "evidence_sha256": {
-          "https://www.universitaly.it/en/studenti-stranieri": "d8d8bd4abec1e7eb537e3f99a8047e9683395888810a3d1e9a15c25698eaccf1"
-        },
-        "current_cycle_evidence": {
-          "url": "https://www.universitaly.it/en/studenti-stranieri",
-          "cycle_marker": "2027/28 explicit applicable programme/cohort context",
-          "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
-        },
-        "missing_components": [
-          "university/programme-specific Universitaly deadline"
-        ],
-        "covered_scope": "Standard foreign-qualification MSc route only. Italian-qualification admissions and the joint Bocconi route are not covered by this policy."
+        "value": "Not confirmed",
+        "cycle_status": "not confirmed",
+        "academic_cycle": null,
+        "source_urls": [],
+        "verified_date": null,
+        "checked_urls": [],
+        "checked_at": null,
+        "reason": "A university/programme-specific 2027/28 Universitaly deadline is not established. The separately recorded national visa-applicant requirement does not establish this deadline.",
+        "national_rule_ref": "universitaly_requirement"
       },
       "documents": {
         "value": "For standard foreign-qualification MSc applications: official Bachelor/provisional or final-year enrolment document, original transcript, official cumulative GPA statement and CV (maximum two pages). Academic documents are accepted in Italian, English, French or Spanish; other languages need officially signed/stamped translations. Registrar-verifiable official links/QR codes may replace stamps as stated. DoV OR CIMEA Comparability may be requested at any stage; neither is a universal automatic substitute for every document. The exact 2027/28 enrolment apostille/legalisation rules are Not confirmed.",
@@ -1022,8 +1000,13 @@
           },
           "short_value": "2026/27 reserved non-EU: maximum scaled fee; 2027/28 unknown"
         }
-      }
-    }
+      },
+      "tuition_rule_ids": [
+        "polimi-2026-income-band",
+        "joint-cyber-bocconi-rule-2027"
+      ]
+    },
+    "applicant_routes": {}
   },
   {
     "id": "politecnico-torino",
@@ -1171,28 +1154,15 @@
     },
     "decision_support": {
       "universitaly": {
-        "value": "Under the national procedures explicitly valid for 2027/28, applicants who need a study visa must submit the visa pre-enrolment application through the official, free Universitaly portal. University validation is not a visa guarantee. The university/programme-specific 2027/28 submission deadline is Not confirmed; the national visa ceiling is not a substitute for that deadline.",
-        "cycle_status": "2027/28 confirmed",
-        "academic_cycle": "2027/28",
-        "source_urls": [
-          "https://www.universitaly.it/en/studenti-stranieri"
-        ],
-        "verified_date": "2026-11-13",
-        "evidence_source_ids": [
-          "REFINE-UNIVERSITALY-2027"
-        ],
-        "evidence_sha256": {
-          "https://www.universitaly.it/en/studenti-stranieri": "d8d8bd4abec1e7eb537e3f99a8047e9683395888810a3d1e9a15c25698eaccf1"
-        },
-        "current_cycle_evidence": {
-          "url": "https://www.universitaly.it/en/studenti-stranieri",
-          "cycle_marker": "2027/28 explicit applicable programme/cohort context",
-          "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
-        },
-        "missing_components": [
-          "university/programme-specific Universitaly deadline"
-        ],
-        "covered_scope": "HySET 2027–29 consortium route only, not ordinary Polito MSc admission or a guaranteed scholarship."
+        "value": "Not confirmed",
+        "cycle_status": "not confirmed",
+        "academic_cycle": null,
+        "source_urls": [],
+        "verified_date": null,
+        "checked_urls": [],
+        "checked_at": null,
+        "reason": "A university/programme-specific 2027/28 Universitaly deadline is not established. The separately recorded national visa-applicant requirement does not establish this deadline.",
+        "national_rule_ref": "universitaly_requirement"
       },
       "documents": {
         "value": "HySET 2027–29 application only: Europass CV, certified Bachelor/degree and transcript copies (or final-year registration/transcripts), two reference letters, a 2–3 minute introduction video, ID/passport, English-test evidence and a photo. Submit electronically; originals/final certificates are requested before enrolment. Exact DoV/CIMEA alternatives, apostille/legalisation and translation substitutions for 2027 entry are Not confirmed.",
@@ -1335,8 +1305,10 @@
           "short_value": "2026/27: IELTS 5.5 / B2; 2027/28 Not confirmed",
           "answer": "conditional"
         }
-      }
-    }
+      },
+      "tuition_rule_ids": []
+    },
+    "applicant_routes": {}
   },
   {
     "id": "roma-tre",
@@ -1607,6 +1579,7 @@
           "https://laziodisco.it/wp-content/uploads/2026/06/BANDO-DIRITTO-ALLO-STUDIO-26-27-1.pdf",
           "https://orientamento.uniroma3.it/en/about-roma-tre/international-students-admissions/",
           "https://portalestudente.uniroma3.it/tasse/tasse/",
+          "https://universitaly-private.cineca.it/uploads/universitaly-pubblico/Circolare_2026-2027_studenti_internazionali.pdf",
           "https://www.uniroma3.it/didattica/lauree-ws-l/",
           "https://www.uniroma3.it/didattica/lauree-ws-lm/",
           "https://www.uniroma3.it/int/wp-content/uploads/file_locked/2026/06/GUIDE-HOW-TO-APPLY-ENG-2026-27.pdf",
@@ -1626,6 +1599,7 @@
           "https://laziodisco.it/wp-content/uploads/2026/06/BANDO-DIRITTO-ALLO-STUDIO-26-27-1.pdf",
           "https://orientamento.uniroma3.it/en/about-roma-tre/international-students-admissions/",
           "https://portalestudente.uniroma3.it/tasse/tasse/",
+          "https://universitaly-private.cineca.it/uploads/universitaly-pubblico/Circolare_2026-2027_studenti_internazionali.pdf",
           "https://www.uniroma3.it/didattica/lauree-ws-l/",
           "https://www.uniroma3.it/didattica/lauree-ws-lm/",
           "https://www.uniroma3.it/int/wp-content/uploads/file_locked/2026/06/GUIDE-HOW-TO-APPLY-ENG-2026-27.pdf",
@@ -1645,6 +1619,7 @@
           "https://laziodisco.it/wp-content/uploads/2026/06/BANDO-DIRITTO-ALLO-STUDIO-26-27-1.pdf",
           "https://orientamento.uniroma3.it/en/about-roma-tre/international-students-admissions/",
           "https://portalestudente.uniroma3.it/tasse/tasse/",
+          "https://universitaly-private.cineca.it/uploads/universitaly-pubblico/Circolare_2026-2027_studenti_internazionali.pdf",
           "https://www.uniroma3.it/didattica/lauree-ws-l/",
           "https://www.uniroma3.it/didattica/lauree-ws-lm/",
           "https://www.uniroma3.it/int/wp-content/uploads/file_locked/2026/06/GUIDE-HOW-TO-APPLY-ENG-2026-27.pdf",
@@ -1664,6 +1639,7 @@
           "https://laziodisco.it/wp-content/uploads/2026/06/BANDO-DIRITTO-ALLO-STUDIO-26-27-1.pdf",
           "https://orientamento.uniroma3.it/en/about-roma-tre/international-students-admissions/",
           "https://portalestudente.uniroma3.it/tasse/tasse/",
+          "https://universitaly-private.cineca.it/uploads/universitaly-pubblico/Circolare_2026-2027_studenti_internazionali.pdf",
           "https://www.uniroma3.it/didattica/lauree-ws-l/",
           "https://www.uniroma3.it/didattica/lauree-ws-lm/",
           "https://www.uniroma3.it/int/wp-content/uploads/file_locked/2026/06/GUIDE-HOW-TO-APPLY-ENG-2026-27.pdf",
@@ -1684,6 +1660,7 @@
             "https://laziodisco.it/wp-content/uploads/2026/06/BANDO-DIRITTO-ALLO-STUDIO-26-27-1.pdf",
             "https://orientamento.uniroma3.it/en/about-roma-tre/international-students-admissions/",
             "https://portalestudente.uniroma3.it/tasse/tasse/",
+            "https://universitaly-private.cineca.it/uploads/universitaly-pubblico/Circolare_2026-2027_studenti_internazionali.pdf",
             "https://www.uniroma3.it/didattica/lauree-ws-l/",
             "https://www.uniroma3.it/didattica/lauree-ws-lm/",
             "https://www.uniroma3.it/int/wp-content/uploads/file_locked/2026/06/GUIDE-HOW-TO-APPLY-ENG-2026-27.pdf",
@@ -1693,8 +1670,10 @@
           "reason": "Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
         }
       ],
-      "policies": {}
-    }
+      "policies": {},
+      "tuition_rule_ids": []
+    },
+    "applicant_routes": {}
   },
   {
     "id": "sapienza",
@@ -2100,8 +2079,10 @@
           "reason": "Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
         }
       ],
-      "policies": {}
-    }
+      "policies": {},
+      "tuition_rule_ids": []
+    },
+    "applicant_routes": {}
   },
   {
     "id": "tor-vergata",
@@ -2166,7 +2147,8 @@
         "missing_components": [
           "A university-wide deadline for other programmes"
         ],
-        "covered_scope": "Mechatronics Engineering 2027/28 only; programme-specific conditions must not be extended to other Tor Vergata courses."
+        "covered_scope": "Mechatronics Engineering 2027/28 only; programme-specific conditions must not be extended to other Tor Vergata courses.",
+        "national_rule_ref": "universitaly_requirement"
       },
       "documents": {
         "value": "For Mechatronics: passport/ID, scientific CV on the official form, Bachelor certificate/GPA if awarded, transcripts with dates and grades, thesis excerpt if available, and route-specific English proof/GRE. Pending graduates provide expected graduation date and remaining exams. General DoV/CIMEA alternatives and apostille/translation substitutions: Not confirmed.",
@@ -2256,8 +2238,10 @@
           "offer_id": "disco-2026"
         }
       ],
-      "policies": {}
-    }
+      "policies": {},
+      "tuition_rule_ids": []
+    },
+    "applicant_routes": {}
   },
   {
     "id": "ca-foscari",
@@ -2485,28 +2469,15 @@
     },
     "decision_support": {
       "universitaly": {
-        "value": "Under the national procedures explicitly valid for 2027/28, applicants who need a study visa must submit the visa pre-enrolment application through the official, free Universitaly portal. University validation is not a visa guarantee. The university/programme-specific 2027/28 submission deadline is Not confirmed; the national visa ceiling is not a substitute for that deadline.",
-        "cycle_status": "2027/28 confirmed",
-        "academic_cycle": "2027/28",
-        "source_urls": [
-          "https://www.universitaly.it/en/studenti-stranieri"
-        ],
-        "verified_date": "2026-11-13",
-        "evidence_source_ids": [
-          "REFINE-UNIVERSITALY-2027"
-        ],
-        "evidence_sha256": {
-          "https://www.universitaly.it/en/studenti-stranieri": "d8d8bd4abec1e7eb537e3f99a8047e9683395888810a3d1e9a15c25698eaccf1"
-        },
-        "current_cycle_evidence": {
-          "url": "https://www.universitaly.it/en/studenti-stranieri",
-          "cycle_marker": "2027/28 explicit applicable programme/cohort context",
-          "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
-        },
-        "missing_components": [
-          "university/programme-specific Universitaly deadline"
-        ],
-        "covered_scope": "The named Buddhism and Asian Religions programme and the stated foreign-qualification or scholarship conditions only."
+        "value": "Not confirmed",
+        "cycle_status": "not confirmed",
+        "academic_cycle": null,
+        "source_urls": [],
+        "verified_date": null,
+        "checked_urls": [],
+        "checked_at": null,
+        "reason": "A university/programme-specific 2027/28 Universitaly deadline is not established. The separately recorded national visa-applicant requirement does not establish this deadline.",
+        "national_rule_ref": "universitaly_requirement"
       },
       "documents": {
         "value": "Not confirmed",
@@ -2606,8 +2577,10 @@
           "offer_id": "veneto-2026"
         }
       ],
-      "policies": {}
-    }
+      "policies": {},
+      "tuition_rule_ids": []
+    },
+    "applicant_routes": {}
   },
   {
     "id": "milano-bicocca",
@@ -2916,8 +2889,10 @@
           "reason": "Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
         }
       ],
-      "policies": {}
-    }
+      "policies": {},
+      "tuition_rule_ids": []
+    },
+    "applicant_routes": {}
   },
   {
     "id": "marche",
@@ -3193,8 +3168,10 @@
           "reason": "Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
         }
       ],
-      "policies": {}
-    }
+      "policies": {},
+      "tuition_rule_ids": []
+    },
+    "applicant_routes": {}
   },
   {
     "id": "catania",
@@ -3368,8 +3345,10 @@
           "reason": "Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
         }
       ],
-      "policies": {}
-    }
+      "policies": {},
+      "tuition_rule_ids": []
+    },
+    "applicant_routes": {}
   },
   {
     "id": "milano-statale",
@@ -3723,8 +3702,10 @@
           "reason": "Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
         }
       ],
-      "policies": {}
-    }
+      "policies": {},
+      "tuition_rule_ids": []
+    },
+    "applicant_routes": {}
   },
   {
     "id": "laquila",
@@ -4058,8 +4039,10 @@
           "reason": "Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
         }
       ],
-      "policies": {}
-    }
+      "policies": {},
+      "tuition_rule_ids": []
+    },
+    "applicant_routes": {}
   },
   {
     "id": "insubria",
@@ -4324,8 +4307,10 @@
           "reason": "Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
         }
       ],
-      "policies": {}
-    }
+      "policies": {},
+      "tuition_rule_ids": []
+    },
+    "applicant_routes": {}
   },
   {
     "id": "bologna",
@@ -4445,31 +4430,17 @@
     "cycle_facts": {},
     "decision_support": {
       "universitaly": {
-        "value": "Under the national procedures explicitly valid for 2027/28, applicants who need a study visa must submit the visa pre-enrolment application through the official, free Universitaly portal. University validation is not a visa guarantee. The university/programme-specific 2027/28 submission deadline is Not confirmed; the national visa ceiling is not a substitute for that deadline.",
-        "cycle_status": "2027/28 confirmed",
-        "academic_cycle": "2027/28",
-        "source_urls": [
-          "https://corsi.unibo.it/s/3394/p/en/enrolling-grenfin/avvisolm-grenfin-emjm-27-28_en-2-prot.pdf/@@download/file/AvvisoLM-GrEnFIn-EMJM-27-28_EN-2-PROT.pdf",
-          "https://www.universitaly.it/en/studenti-stranieri"
+        "value": "Not confirmed",
+        "cycle_status": "not confirmed",
+        "academic_cycle": null,
+        "source_urls": [],
+        "verified_date": null,
+        "checked_urls": [
+          "https://corsi.unibo.it/s/3394/p/en/enrolling-grenfin/avvisolm-grenfin-emjm-27-28_en-2-prot.pdf/@@download/file/AvvisoLM-GrEnFIn-EMJM-27-28_EN-2-PROT.pdf"
         ],
-        "verified_date": "2026-11-13",
-        "evidence_source_ids": [
-          "SRC-UNIBO-GRENFIN-2027-CALL",
-          "REFINE-UNIVERSITALY-2027"
-        ],
-        "evidence_sha256": {
-          "https://www.universitaly.it/en/studenti-stranieri": "d8d8bd4abec1e7eb537e3f99a8047e9683395888810a3d1e9a15c25698eaccf1",
-          "https://corsi.unibo.it/s/3394/p/en/enrolling-grenfin/avvisolm-grenfin-emjm-27-28_en-2-prot.pdf/@@download/file/AvvisoLM-GrEnFIn-EMJM-27-28_EN-2-PROT.pdf": "c4cc5e62100963ca3bac8c88bc9fda37838dad51a931568c5dd4aacb4a99361b"
-        },
-        "current_cycle_evidence": {
-          "url": "https://www.universitaly.it/en/studenti-stranieri",
-          "cycle_marker": "2027/28 explicit applicable programme/cohort context",
-          "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
-        },
-        "missing_components": [
-          "university/programme-specific Universitaly deadline"
-        ],
-        "covered_scope": "Only the named GrEnFIn, CLE, BBS or 28DIGITAL route stated above; these admission and fee routes are distinct."
+        "checked_at": "2026-11-13",
+        "reason": "A university/programme-specific 2027/28 Universitaly deadline is not established. The separately recorded national visa-applicant requirement does not establish this deadline.",
+        "national_rule_ref": "universitaly_requirement"
       },
       "documents": {
         "value": "GrEnFIn: qualifying-degree/transcript documents, language proof and the dossier specified by the call; translation/authenticity/value are checked where required, and originals are verified later. For degrees from China/India/Vietnam, UniBo can accept APS as authenticity evidence; another authenticity proof accepted by UniBo can also satisfy LMU enrolment, but a German visa authority may still request APS. CLE: mandatory ID/passport, qualifying-degree/transcript evidence (Italian/English translation), and route-specific language proof; CV, motivation and references are additional funding documents, not universally mandatory for course admission. For the 28DIGITAL track: 28DIGITAL application only: degree certificate and stamped transcript in original language AND English; authorised translation where the university does not provide it. Final-year applicants provide a degree-administration statement. Also upload English proof, CV, a motivation letter (maximum two pages) and colour ID; GPA/rank statement and video are optional. Present original degree/transcript before enrolment. Specific countries require direct registrar/HEC documentation. One email-receipt paragraph still gives 2026 dates while postal instructions give 2027; those receipt deadlines need clarification. Italian DoV/CIMEA and apostille substitutions are Not confirmed. University-wide DoV/CIMEA substitution rules are Not confirmed.",
@@ -4706,8 +4677,14 @@
           },
           "short_value": "Non-EU EUR 18,000/year; EU/EEA EUR 6,000/year"
         }
-      }
-    }
+      },
+      "tuition_rule_ids": [
+        "28digital-non-eu-fixed",
+        "28digital-eu-eea-fixed-partial-ch",
+        "grenfin-self-funded-rule"
+      ]
+    },
+    "applicant_routes": {}
   },
   {
     "id": "camerino",
@@ -5037,8 +5014,10 @@
           "reason": "Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
         }
       ],
-      "policies": {}
-    }
+      "policies": {},
+      "tuition_rule_ids": []
+    },
+    "applicant_routes": {}
   },
   {
     "id": "ferrara",
@@ -5296,8 +5275,10 @@
           "reason": "Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
         }
       ],
-      "policies": {}
-    }
+      "policies": {},
+      "tuition_rule_ids": []
+    },
+    "applicant_routes": {}
   },
   {
     "id": "firenze",
@@ -5351,28 +5332,15 @@
     "cycle_facts": {},
     "decision_support": {
       "universitaly": {
-        "value": "Under the national procedures explicitly valid for 2027/28, applicants who need a study visa must submit the visa pre-enrolment application through the official, free Universitaly portal. University validation is not a visa guarantee. The university/programme-specific 2027/28 submission deadline is Not confirmed; the national visa ceiling is not a substitute for that deadline.",
-        "cycle_status": "2027/28 confirmed",
-        "academic_cycle": "2027/28",
-        "source_urls": [
-          "https://www.universitaly.it/en/studenti-stranieri"
-        ],
-        "verified_date": "2026-11-13",
-        "evidence_source_ids": [
-          "REFINE-UNIVERSITALY-2027"
-        ],
-        "evidence_sha256": {
-          "https://www.universitaly.it/en/studenti-stranieri": "d8d8bd4abec1e7eb537e3f99a8047e9683395888810a3d1e9a15c25698eaccf1"
-        },
-        "current_cycle_evidence": {
-          "url": "https://www.universitaly.it/en/studenti-stranieri",
-          "cycle_marker": "2027/28 explicit applicable programme/cohort context",
-          "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
-        },
-        "missing_components": [
-          "university/programme-specific Universitaly deadline"
-        ],
-        "covered_scope": "Software: Science and Technology admission, or the stated non-EU/foreign-qualification university procedure; each published country/test condition still applies."
+        "value": "Not confirmed",
+        "cycle_status": "not confirmed",
+        "academic_cycle": null,
+        "source_urls": [],
+        "verified_date": null,
+        "checked_urls": [],
+        "checked_at": null,
+        "reason": "A university/programme-specific 2027/28 Universitaly deadline is not established. The separately recorded national visa-applicant requirement does not establish this deadline.",
+        "national_rule_ref": "universitaly_requirement"
       },
       "documents": {
         "value": "Florence’s published non-EU/foreign-qualification MSc route requires passport, study visa, residence-permit application receipts, Admission Document, bachelor certificate and transcript in the original language, legalised or apostilled. For recognition it states Declaration of Value OR CIMEA verification + comparability certificates. English, French or Spanish documents do not need an official Italian translation; other languages do. The pre-enrolment dossier additionally lists a photograph and the course’s English proof. Country-specific legalisation exemptions and final 2027/28 checklist changes are Not confirmed.",
@@ -5470,8 +5438,10 @@
           "offer_id": "dsu-toscana-2026"
         }
       ],
-      "policies": {}
-    }
+      "policies": {},
+      "tuition_rule_ids": []
+    },
+    "applicant_routes": {}
   },
   {
     "id": "genova",
@@ -5850,8 +5820,10 @@
           "reason": "Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
         }
       ],
-      "policies": {}
-    }
+      "policies": {},
+      "tuition_rule_ids": []
+    },
+    "applicant_routes": {}
   },
   {
     "id": "messina",
@@ -6023,8 +5995,10 @@
           "reason": "Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
         }
       ],
-      "policies": {}
-    }
+      "policies": {},
+      "tuition_rule_ids": []
+    },
+    "applicant_routes": {}
   },
   {
     "id": "modena-reggio",
@@ -6275,8 +6249,10 @@
           "reason": "Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
         }
       ],
-      "policies": {}
-    }
+      "policies": {},
+      "tuition_rule_ids": []
+    },
+    "applicant_routes": {}
   },
   {
     "id": "padova",
@@ -6533,28 +6509,15 @@
     },
     "decision_support": {
       "universitaly": {
-        "value": "Under the national procedures explicitly valid for 2027/28, applicants who need a study visa must submit the visa pre-enrolment application through the official, free Universitaly portal. University validation is not a visa guarantee. The university/programme-specific 2027/28 submission deadline is Not confirmed; the national visa ceiling is not a substitute for that deadline.",
-        "cycle_status": "2027/28 confirmed",
-        "academic_cycle": "2027/28",
-        "source_urls": [
-          "https://www.universitaly.it/en/studenti-stranieri"
-        ],
-        "verified_date": "2026-11-13",
-        "evidence_source_ids": [
-          "REFINE-UNIVERSITALY-2027"
-        ],
-        "evidence_sha256": {
-          "https://www.universitaly.it/en/studenti-stranieri": "d8d8bd4abec1e7eb537e3f99a8047e9683395888810a3d1e9a15c25698eaccf1"
-        },
-        "current_cycle_evidence": {
-          "url": "https://www.universitaly.it/en/studenti-stranieri",
-          "cycle_marker": "2027/28 explicit applicable programme/cohort context",
-          "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
-        },
-        "missing_components": [
-          "university/programme-specific Universitaly deadline"
-        ],
-        "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
+        "value": "Not confirmed",
+        "cycle_status": "not confirmed",
+        "academic_cycle": null,
+        "source_urls": [],
+        "verified_date": null,
+        "checked_urls": [],
+        "checked_at": null,
+        "reason": "A university/programme-specific 2027/28 Universitaly deadline is not established. The separately recorded national visa-applicant requirement does not establish this deadline.",
+        "national_rule_ref": "universitaly_requirement"
       },
       "documents": {
         "value": "For the English-course international application profiles reviewed: qualifying diploma and transcript in English or Italian, or official translations with verified copies; bring originals for enrolment. No legalised documents are required at application stage. Admission may require original, translated/legalised qualifications later. The precise DoV/CIMEA alternatives and apostille exemptions for each country remain Not confirmed.",
@@ -6832,8 +6795,10 @@
           ],
           "covered_scope": "Applicants holding a non-Italian entry qualification; country-of-qualification rules, not citizenship or an admission guarantee. The Italian-qualification route is not covered here."
         }
-      }
-    }
+      },
+      "tuition_rule_ids": []
+    },
+    "applicant_routes": {}
   },
   {
     "id": "palermo",
@@ -7139,8 +7104,10 @@
           "reason": "Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
         }
       ],
-      "policies": {}
-    }
+      "policies": {},
+      "tuition_rule_ids": []
+    },
+    "applicant_routes": {}
   },
   {
     "id": "parma",
@@ -7270,8 +7237,10 @@
           "reason": "Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
         }
       ],
-      "policies": {}
-    }
+      "policies": {},
+      "tuition_rule_ids": []
+    },
+    "applicant_routes": {}
   },
   {
     "id": "pavia",
@@ -7462,8 +7431,10 @@
           "reason": "Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
         }
       ],
-      "policies": {}
-    }
+      "policies": {},
+      "tuition_rule_ids": []
+    },
+    "applicant_routes": {}
   },
   {
     "id": "perugia",
@@ -7648,8 +7619,10 @@
           "reason": "Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
         }
       ],
-      "policies": {}
-    }
+      "policies": {},
+      "tuition_rule_ids": []
+    },
+    "applicant_routes": {}
   },
   {
     "id": "pisa",
@@ -7749,34 +7722,19 @@
     },
     "decision_support": {
       "universitaly": {
-        "value": "Under the national procedures explicitly valid for 2027/28, applicants who need a study visa must submit the visa pre-enrolment application through the official, free Universitaly portal. University validation is not a visa guarantee. The university/programme-specific 2027/28 submission deadline is Not confirmed; the national visa ceiling is not a substitute for that deadline.",
-        "cycle_status": "2027/28 confirmed",
-        "academic_cycle": "2027/28",
-        "source_urls": [
+        "value": "Not confirmed",
+        "cycle_status": "not confirmed",
+        "academic_cycle": null,
+        "source_urls": [],
+        "verified_date": null,
+        "checked_urls": [
           "https://computer.ing.unipi.it/call-for-international-students/",
           "https://applymscenglish.unipi.it/downloads/downloadpdf/bandicdl/2027/bando_10_wcy-lm_en.pdf",
-          "https://www.universitaly.it/en/studenti-stranieri"
+          "https://www.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/pre-registration-on-universitaly/"
         ],
-        "verified_date": "2026-11-13",
-        "evidence_source_ids": [
-          "SRC-UNIPI-INFO-ENG-2027-CALL",
-          "SRC-AUDIT-UNIPI-CYBER-2027-CALL",
-          "REFINE-UNIVERSITALY-2027"
-        ],
-        "evidence_sha256": {
-          "https://www.universitaly.it/en/studenti-stranieri": "d8d8bd4abec1e7eb537e3f99a8047e9683395888810a3d1e9a15c25698eaccf1",
-          "https://computer.ing.unipi.it/call-for-international-students/": "0def6771738113fc088acaf53acb34897c51a7caa76107f1697521abc6301a91",
-          "https://applymscenglish.unipi.it/downloads/downloadpdf/bandicdl/2027/bando_10_wcy-lm_en.pdf": "eee23bd0ff66e4c16838ca51f944d0ab118544b0f6858b9c0ad7f07843162237"
-        },
-        "current_cycle_evidence": {
-          "url": "https://www.universitaly.it/en/studenti-stranieri",
-          "cycle_marker": "2027/28 explicit applicable programme/cohort context",
-          "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
-        },
-        "missing_components": [
-          "university/programme-specific Universitaly deadline"
-        ],
-        "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
+        "checked_at": "2026-11-13",
+        "reason": "The university page gives 30 September 2026 for 2026/27. It does not establish a 2027/28 deadline; neither the programme application deadline nor the national visa ceiling is substituted.",
+        "national_rule_ref": "universitaly_requirement"
       },
       "documents": {
         "value": "For the Engineering/Cybersecurity international calls: qualifying degree (or current transcripts if graduating), transcript translated into English/Italian, passport, CV and the route-specific B2 proof, uploaded as PDFs. The 2027/28 DoV/CIMEA substitution rules and apostille/legalisation conditions are Not confirmed.",
@@ -7998,8 +7956,12 @@
           "short_value": "B2 certificate for visa validation; MOI not accepted",
           "covered_scope": "Only the named department/programme route and applicant conditions stated above; visa-certificate rules concern applicants requiring Universitaly validation."
         }
-      }
-    }
+      },
+      "tuition_rule_ids": [
+        "pisa-2026-rule-only"
+      ]
+    },
+    "applicant_routes": {}
   },
   {
     "id": "salerno",
@@ -8319,8 +8281,10 @@
           "reason": "Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
         }
       ],
-      "policies": {}
-    }
+      "policies": {},
+      "tuition_rule_ids": []
+    },
+    "applicant_routes": {}
   },
   {
     "id": "siena",
@@ -8457,8 +8421,10 @@
           "reason": "Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
         }
       ],
-      "policies": {}
-    }
+      "policies": {},
+      "tuition_rule_ids": []
+    },
+    "applicant_routes": {}
   },
   {
     "id": "torino",
@@ -8622,28 +8588,15 @@
     },
     "decision_support": {
       "universitaly": {
-        "value": "Under the national procedures explicitly valid for 2027/28, applicants who need a study visa must submit the visa pre-enrolment application through the official, free Universitaly portal. University validation is not a visa guarantee. The university/programme-specific 2027/28 submission deadline is Not confirmed; the national visa ceiling is not a substitute for that deadline.",
-        "cycle_status": "2027/28 confirmed",
-        "academic_cycle": "2027/28",
-        "source_urls": [
-          "https://www.universitaly.it/en/studenti-stranieri"
-        ],
-        "verified_date": "2026-11-13",
-        "evidence_source_ids": [
-          "REFINE-UNIVERSITALY-2027"
-        ],
-        "evidence_sha256": {
-          "https://www.universitaly.it/en/studenti-stranieri": "d8d8bd4abec1e7eb537e3f99a8047e9683395888810a3d1e9a15c25698eaccf1"
-        },
-        "current_cycle_evidence": {
-          "url": "https://www.universitaly.it/en/studenti-stranieri",
-          "cycle_marker": "2027/28 explicit applicable programme/cohort context",
-          "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
-        },
-        "missing_components": [
-          "university/programme-specific Universitaly deadline"
-        ],
-        "covered_scope": "The named EAP/EPOG online route or local TAPP route as stated; the two credit thresholds are not interchangeable."
+        "value": "Not confirmed",
+        "cycle_status": "not confirmed",
+        "academic_cycle": null,
+        "source_urls": [],
+        "verified_date": null,
+        "checked_urls": [],
+        "checked_at": null,
+        "reason": "A university/programme-specific 2027/28 Universitaly deadline is not established. The separately recorded national visa-applicant requirement does not establish this deadline.",
+        "national_rule_ref": "universitaly_requirement"
       },
       "documents": {
         "value": "For the EAP/EPOG 2027/28 online route: full CV; relevant diploma (at least 180 ECTS) or final-year sworn expected-graduation statement; all higher-education transcripts; English proof; statement of purpose (maximum 500 words); two references; passport (EU ID accepted); residence proof/sworn statement for scholarship applicants. Original-language academic documents need English translations. Unofficial translations can be uploaded initially, but official/certified translations are required after pre-selection. The page also names June 10 as a certified-translation deadline without a year. Torino-specific DoV/CIMEA and apostille substitutions are Not confirmed.",
@@ -8745,8 +8698,10 @@
           "offer_id": "edisu-2026"
         }
       ],
-      "policies": {}
-    }
+      "policies": {},
+      "tuition_rule_ids": []
+    },
+    "applicant_routes": {}
   },
   {
     "id": "trento",
@@ -8974,28 +8929,15 @@
     },
     "decision_support": {
       "universitaly": {
-        "value": "Under the national procedures explicitly valid for 2027/28, applicants who need a study visa must submit the visa pre-enrolment application through the official, free Universitaly portal. University validation is not a visa guarantee. The university/programme-specific 2027/28 submission deadline is Not confirmed; the national visa ceiling is not a substitute for that deadline.",
-        "cycle_status": "2027/28 confirmed",
-        "academic_cycle": "2027/28",
-        "source_urls": [
-          "https://www.universitaly.it/en/studenti-stranieri"
-        ],
-        "verified_date": "2026-11-13",
-        "evidence_source_ids": [
-          "REFINE-UNIVERSITALY-2027"
-        ],
-        "evidence_sha256": {
-          "https://www.universitaly.it/en/studenti-stranieri": "d8d8bd4abec1e7eb537e3f99a8047e9683395888810a3d1e9a15c25698eaccf1"
-        },
-        "current_cycle_evidence": {
-          "url": "https://www.universitaly.it/en/studenti-stranieri",
-          "cycle_marker": "2027/28 explicit applicable programme/cohort context",
-          "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
-        },
-        "missing_components": [
-          "university/programme-specific Universitaly deadline"
-        ],
-        "covered_scope": "The named 28DIGITAL track/partner conditions only; ordinary UniTrento fee and admission routes are separate."
+        "value": "Not confirmed",
+        "cycle_status": "not confirmed",
+        "academic_cycle": null,
+        "source_urls": [],
+        "verified_date": null,
+        "checked_urls": [],
+        "checked_at": null,
+        "reason": "A university/programme-specific 2027/28 Universitaly deadline is not established. The separately recorded national visa-applicant requirement does not establish this deadline.",
+        "national_rule_ref": "universitaly_requirement"
       },
       "documents": {
         "value": "28DIGITAL application only: degree certificate and stamped transcript in original language AND English; authorised translation where the university does not provide it. Final-year applicants provide a degree-administration statement. Also upload English proof, CV, a motivation letter (maximum two pages) and colour ID; GPA/rank statement and video are optional. Present original degree/transcript before enrolment. Specific countries require direct registrar/HEC documentation. One email-receipt paragraph still gives 2026 dates while postal instructions give 2027; those receipt deadlines need clarification. Italian DoV/CIMEA and apostille substitutions are Not confirmed.",
@@ -9170,8 +9112,13 @@
           },
           "short_value": "Non-EU EUR 18,000/year; EU/EEA EUR 6,000/year"
         }
-      }
-    }
+      },
+      "tuition_rule_ids": [
+        "28digital-non-eu-fixed",
+        "28digital-eu-eea-fixed-partial-ch"
+      ]
+    },
+    "applicant_routes": {}
   },
   {
     "id": "trieste",
@@ -9517,8 +9464,10 @@
           "reason": "Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
         }
       ],
-      "policies": {}
-    }
+      "policies": {},
+      "tuition_rule_ids": []
+    },
+    "applicant_routes": {}
   },
   {
     "id": "udine",
@@ -9769,8 +9718,10 @@
           "reason": "Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
         }
       ],
-      "policies": {}
-    }
+      "policies": {},
+      "tuition_rule_ids": []
+    },
+    "applicant_routes": {}
   },
   {
     "id": "verona",
@@ -9884,7 +9835,9 @@
           "reason": "Awaiting-record research is incomplete this round; no applicable official value has been approved for this field."
         }
       ],
-      "policies": {}
-    }
+      "policies": {},
+      "tuition_rule_ids": []
+    },
+    "applicant_routes": {}
   }
 ]

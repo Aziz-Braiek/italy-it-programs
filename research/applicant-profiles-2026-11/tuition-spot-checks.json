@@ -1,0 +1,40 @@
+{
+  "checked_date": "2026-11-13",
+  "selection": "Three different universities; no shared 28DIGITAL tariff substitution.",
+  "checks": [
+    {
+      "university": "University of Bologna",
+      "id": "discovered-029",
+      "source_id": "SRC-UNIBO-GRENFIN-2027-CALL",
+      "cycle": "2027/28 confirmed",
+      "type": "rule-only",
+      "official_url": "https://corsi.unibo.it/s/3394/p/en/enrolling-grenfin/avvisolm-grenfin-emjm-27-28_en-2-prot.pdf/@@download/file/AvvisoLM-GrEnFIn-EMJM-27-28_EN-2-PROT.pdf",
+      "exact_passage": "consists of a fixed element of € 157.04",
+      "context": "PDF page 15, section 8.1: a variable ISEE element follows. EUR 157.04 is not the total annual fee. No published course maximum is inferred.",
+      "annual_amount": "Not confirmed"
+    },
+    {
+      "university": "Politecnico di Milano",
+      "id": "legacy-001",
+      "source_id": "REFINE-POLIMI-FEES",
+      "cycle": "previous cycle (estimate only) — 2026/27",
+      "type": "band",
+      "official_url": "https://www.polimi.it/en/prospective-students/how-much-does-it-cost/laurea-laurea-magistrale-and-single-cycle-programmes",
+      "exact_passage": "the amount gradually increases up to a maximum of € 3,943.04",
+      "context": "The page identifies 2026/27. Published ordinary-degree band EUR 157.04–3943.04 for a 46–74 ECTS plan, income/credit rules; reserved non-EU foreign-degree MSc students without eligible awards pay the applicable maximum. Not a confirmed 2027/28 fee.",
+      "annual_amount": "2027/28 Not confirmed"
+    },
+    {
+      "university": "University of Pisa",
+      "id": "legacy-052",
+      "source_id": "DEC-PISA-FEES",
+      "cycle": "previous cycle (estimate only) — 2026/27",
+      "type": "rule-only",
+      "official_url": "https://www.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/university-fees-and-scholarships/",
+      "exact_passage": "the maximum annual all-inclusive tuition fee for students enrolled within the standard duration of their programme is €2,900.",
+      "context": "The sentence explicitly says 2026-2027. This is a named contribution maximum, not a verified new-cycle total or a computed range; regional tax/stamp and differently stated lower examples remain distinct.",
+      "annual_amount": "2027/28 Not confirmed"
+    }
+  ],
+  "limitation": "Three independent current 2027/28 complete annual tariffs could not be established. Historical checks remain historical; no fabricated current amounts."
+}
