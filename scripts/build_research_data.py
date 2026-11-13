@@ -1446,6 +1446,8 @@ def build():
     independent_audit_corrections.apply(uni_rows, programs, SOURCES)
     import site_data_cleanup
     site_data_cleanup.apply(uni_rows, programs)
+    import decision_support
+    decision_support.apply(uni_rows, programs)
     verified = [p for p in programs if p["overall_status"] == "CONFIRMED"]
     level_counts = Counter(p["level"]["value"] for p in verified)
     fully_verified_count = len(verified)

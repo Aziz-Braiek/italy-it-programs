@@ -123,16 +123,17 @@
 
   const cards = $$("[data-program-card]");
   const programById = new Map(cards.map((card) => [card.dataset.programId, card]));
+  const decisionData = JSON.parse($("#decision-support-data")?.textContent || "{}");
   const filters = {
     query: $("#search"), level: $("#filter-level"), university: $("#filter-university"), city: $("#filter-city"),
     language: $("#filter-language"), field: $("#filter-field"), status: $("#filter-status"), deadline: $("#filter-deadline"),
-    tuition: $("#filter-tuition"), scholarship: $("#filter-scholarship"), sort: $("#sort-by"), pending: $("#include-pending")
+    tuition: $("#filter-tuition"), scholarship: $("#filter-scholarship"), admissionTest: $("#filter-admission-test"), englishCertificate: $("#filter-english-certificate"), sort: $("#sort-by"), pending: $("#include-pending")
   };
 
   function readFiltersFromUrl() {
     if (!cards.length) return;
     const params = new URLSearchParams(location.search);
-    const names = { q: "query", level: "level", university: "university", city: "city", language: "language", field: "field", status: "status", deadline: "deadline", tuition: "tuition", scholarship: "scholarship", sort: "sort" };
+    const names = { q: "query", level: "level", university: "university", city: "city", language: "language", field: "field", status: "status", deadline: "deadline", tuition: "tuition", scholarship: "scholarship", admission_test: "admissionTest", english_certificate: "englishCertificate", sort: "sort" };
     Object.entries(names).forEach(([param, key]) => {
       const control = filters[key];
       const raw = params.get(param);
@@ -184,6 +185,8 @@
     if (deadline === "pending" && card.dataset.deadline) return false;
     if (tuition && card.dataset.tuition !== tuition) return false;
     if (scholarship && card.dataset.scholarship !== scholarship) return false;
+    if (filters.admissionTest?.value === "no" && card.dataset.admissionTest !== "no") return false;
+    if (filters.englishCertificate?.value === "required" && !["yes", "conditional"].includes(card.dataset.englishCertificate)) return false;
     return true;
   }
 
@@ -207,7 +210,7 @@
   function updateUrl() {
     if (!cards.length) return;
     const params = new URLSearchParams();
-    const controls = { q: filters.query, level: filters.level, university: filters.university, city: filters.city, language: filters.language, field: filters.field, status: filters.status, deadline: filters.deadline, tuition: filters.tuition, scholarship: filters.scholarship, sort: filters.sort };
+    const controls = { q: filters.query, level: filters.level, university: filters.university, city: filters.city, language: filters.language, field: filters.field, status: filters.status, deadline: filters.deadline, tuition: filters.tuition, scholarship: filters.scholarship, admission_test: filters.admissionTest, english_certificate: filters.englishCertificate, sort: filters.sort };
     Object.entries(controls).forEach(([param, control]) => {
       if (control?.value && !(param === "sort" && control.value === "availability")) params.set(param, control.value);
     });
@@ -366,13 +369,32 @@
     const rows = favoriteIds.map((id) => programById.get(id)).filter(Boolean);
     if (!rows.length) { announce("Save one or more programs before exporting a shortlist."); return; }
     const headers = ["Program", "University", "City", "2027/28 status", "Degree value", "Degree verified for 2027/28", "Language value", "Language verified for 2027/28", "Next confirmed date", "Tuition information", "Scholarship information", "Tracker page"];
+    const decisionFields = [...Object.entries(decisionData.program_fields || {}).map(([key, label]) => ["program", key, label]), ...Object.entries(decisionData.university_fields || {}).map(([key, label]) => ["university", key, label])];
+    decisionFields.forEach(([, , label]) => headers.push(label, `${label} — cycle status`, `${label} — source URL`, `${label} — verified date`));
+    const exportedDecision = (card) => {
+      const program = decisionData.programs?.[card.dataset.programId] || {};
+      const university = decisionData.universities?.[program.university_id] || {};
+      return decisionFields.flatMap(([owner, key]) => {
+        let fact = owner === "program" ? program.facts?.[key] : university[key];
+        if (fact?.university_policy) fact = university.policies?.[fact.university_policy];
+        if (key === "scholarships") {
+          const offers = (fact || []).filter((offer) => !offer.program_ids || offer.program_ids.includes(card.dataset.programId));
+          const current = offers.filter((offer) => offer.cycle_status === "2027/28 confirmed");
+          fact = current.length ? { value: current.map((offer) => offer.value).join(" | "), cycle_status: "2027/28 confirmed", source_urls: [...new Set(current.flatMap((offer) => offer.source_urls || []))], verified_date: current.map((offer) => offer.verified_date).sort().at(-1) } : offers[0];
+        }
+        if (fact?.program_ids && !fact.program_ids.includes(card.dataset.programId)) fact = null;
+        if (fact?.cycle_status !== "2027/28 confirmed") return ["Not confirmed", fact?.cycle_status || "not confirmed", "", ""];
+        return [fact.value, fact.cycle_status, (fact.source_urls || []).join(" | "), fact.verified_date || ""];
+      });
+    };
     const lines = [headers, ...rows.map((card) => [
       valueFor(card, "h3"), card.querySelector(".card-title-row .eyebrow")?.textContent?.split("·")[0]?.trim() || "",
-      card.dataset.city, valueFor(card, ".status"), card.dataset.level, card.dataset.levelCurrent === "true" ? "Yes" : "No",
-      card.dataset.language, card.dataset.languageCurrent === "true" ? "Yes" : "No", card.dataset.deadline,
+      card.dataset.city, valueFor(card, ".status"), card.dataset.levelCurrent === "true" ? card.dataset.level : "Not confirmed", card.dataset.levelCurrent === "true" ? "Yes" : "No",
+      card.dataset.languageCurrent === "true" ? card.dataset.language : "Not confirmed", card.dataset.languageCurrent === "true" ? "Yes" : "No", card.dataset.deadline,
       card.dataset.tuition === "documented" ? "2027/28 information documented" : "Not confirmed",
       card.dataset.scholarship === "documented" ? "2027/28 information documented" : "Not confirmed",
-      new URL($('h3 a', card).getAttribute("href"), location.origin).href
+      new URL($('h3 a', card).getAttribute("href"), location.origin).href,
+      ...exportedDecision(card)
     ])].map((row) => row.map(csvCell).join(",")).join("\r\n");
     downloadFile("italy-university-tracker-shortlist.csv", "text/csv;charset=utf-8", "\uFEFF" + lines);
     announce(`${rows.length} saved programs exported as CSV.`);

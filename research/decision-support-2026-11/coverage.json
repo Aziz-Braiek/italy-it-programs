@@ -1,0 +1,72 @@
+{
+  "program.duration": {
+    "2027/28 confirmed": 29,
+    "previous cycle (estimate only)": 44,
+    "not confirmed": 136
+  },
+  "program.ects": {
+    "2027/28 confirmed": 26,
+    "previous cycle (estimate only)": 16,
+    "not confirmed": 167
+  },
+  "program.prerequisites": {
+    "2027/28 confirmed": 34,
+    "previous cycle (estimate only)": 10,
+    "not confirmed": 165
+  },
+  "program.english_requirement": {
+    "2027/28 confirmed": 30,
+    "previous cycle (estimate only)": 10,
+    "not confirmed": 169
+  },
+  "program.admission_test": {
+    "2027/28 confirmed": 7,
+    "previous cycle (estimate only)": 3,
+    "not confirmed": 199
+  },
+  "program.selection_method": {
+    "2027/28 confirmed": 15,
+    "previous cycle (estimate only)": 0,
+    "not confirmed": 194
+  },
+  "program.minimum_grade": {
+    "2027/28 confirmed": 2,
+    "previous cycle (estimate only)": 0,
+    "not confirmed": 207
+  },
+  "program.non_eu_seats": {
+    "2027/28 confirmed": 1,
+    "previous cycle (estimate only)": 0,
+    "not confirmed": 208
+  },
+  "program.tuition": {
+    "2027/28 confirmed": 9,
+    "previous cycle (estimate only)": 9,
+    "not confirmed": 191
+  },
+  "university.universitaly": {
+    "2027/28 confirmed": 3,
+    "previous cycle (estimate only)": 0,
+    "not confirmed": 31
+  },
+  "university.documents": {
+    "2027/28 confirmed": 7,
+    "previous cycle (estimate only)": 0,
+    "not confirmed": 27
+  },
+  "university.regional_dsu": {
+    "2027/28 confirmed": 2,
+    "previous cycle (estimate only)": 8,
+    "not confirmed": 24
+  },
+  "university.visa_permit": {
+    "2027/28 confirmed": 2,
+    "previous cycle (estimate only)": 0,
+    "not confirmed": 32
+  },
+  "university.scholarship_offers": {
+    "2027/28 confirmed": 5,
+    "previous cycle (estimate only)": 7,
+    "not confirmed": 25
+  }
+}

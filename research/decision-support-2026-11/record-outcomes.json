@@ -1,0 +1,5420 @@
+[
+  {
+    "record_type": "program",
+    "id": "legacy-001",
+    "name": "Computer Science and Engineering",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 1,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 8
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-002",
+    "name": "Cyber Risk Strategy and Governance",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 4,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 5
+    },
+    "unconfirmed_fields": [
+      "ects",
+      "english_requirement",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-003",
+    "name": "Artificial Intelligence (study plan within Computer Science and Engineering)",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-004",
+    "name": "High Performance Computing Engineering",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 1,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 8
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-005",
+    "name": "Biomedical Engineering",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 1,
+      "not confirmed": 8
+    },
+    "unconfirmed_fields": [
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-006",
+    "name": "Mechanical Engineering",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 1,
+      "not confirmed": 8
+    },
+    "unconfirmed_fields": [
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-007",
+    "name": "Aerospace Engineering",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-008",
+    "name": "Design & Engineering",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 1,
+      "not confirmed": 8
+    },
+    "unconfirmed_fields": [
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-009",
+    "name": "Architecture",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-010",
+    "name": "Communication Design",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 1,
+      "not confirmed": 8
+    },
+    "unconfirmed_fields": [
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-011",
+    "name": "Computer Engineering",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 3,
+      "not confirmed": 6
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-012",
+    "name": "Cybersecurity Engineering",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 3,
+      "not confirmed": 6
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-013",
+    "name": "Data Science and Engineering",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 3,
+      "not confirmed": 6
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-014",
+    "name": "Automotive Engineering",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 2,
+      "not confirmed": 7
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-015",
+    "name": "Aerospace Engineering",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 2,
+      "not confirmed": 7
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-016",
+    "name": "ICT Engineering for Smart Societies",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 2,
+      "not confirmed": 7
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-017",
+    "name": "Quantum Engineering",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 2,
+      "not confirmed": 7
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-018",
+    "name": "Architecture Construction City",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 2,
+      "not confirmed": 7
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-019",
+    "name": "Artificial intelligence",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-020",
+    "name": "Computer Science and Engineering — Intelligent Embedded Systems (28Digital track)",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 3,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 6
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-021",
+    "name": "Digital Humanities and Digital Knowledge",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-022",
+    "name": "Statistics, Economics and Business — Business Analytics curriculum",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-023",
+    "name": "Global MBA in AI and Manufacturing (Bologna Business School)",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 2,
+      "previous cycle (estimate only)": 3,
+      "not confirmed": 4
+    },
+    "unconfirmed_fields": [
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-024",
+    "name": "Mechanical Engineering for Sustainability",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-025",
+    "name": "Business and Economics (CLaBE)",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-026",
+    "name": "Economics and Finance (CLEF)",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-027",
+    "name": "Medicine and Surgery",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-028",
+    "name": "Business Management — Green Management and Sustainable Businesses (BBS professional-master track)",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-029",
+    "name": "Computer Engineering",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 4,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 5
+    },
+    "unconfirmed_fields": [
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-030",
+    "name": "Computer Science",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 4,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 5
+    },
+    "unconfirmed_fields": [
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-031",
+    "name": "Cybersecurity",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 4,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 5
+    },
+    "unconfirmed_fields": [
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-032",
+    "name": "Data Science",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 4,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 5
+    },
+    "unconfirmed_fields": [
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-033",
+    "name": "Information Engineering",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 6,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 3
+    },
+    "unconfirmed_fields": [
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-034",
+    "name": "Aerospace Engineering",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 5,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 4
+    },
+    "unconfirmed_fields": [
+      "admission_test",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-035",
+    "name": "Medicine and Surgery (single-cycle degree)",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-036",
+    "name": "Psychological Science",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-037",
+    "name": "Physics of Data",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 4,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 5
+    },
+    "unconfirmed_fields": [
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-038",
+    "name": "Computer Science",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-039",
+    "name": "Artificial Intelligence and Robotics",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-040",
+    "name": "Cybersecurity",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-041",
+    "name": "Data Science",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-042",
+    "name": "Applied Computer Science and Artificial Intelligence",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-043",
+    "name": "Ingegneria aeronautica - Aeronautical engineering",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-044",
+    "name": "Sustainable Building Engineering",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-045",
+    "name": "Computer Science",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 2,
+      "not confirmed": 7
+    },
+    "unconfirmed_fields": [
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-046",
+    "name": "Artificial Intelligence Systems",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 2,
+      "not confirmed": 7
+    },
+    "unconfirmed_fields": [
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-047",
+    "name": "Data Science",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-048",
+    "name": "Human-Computer Interaction",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 2,
+      "not confirmed": 7
+    },
+    "unconfirmed_fields": [
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-049",
+    "name": "Cognitive Science",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 2,
+      "not confirmed": 7
+    },
+    "unconfirmed_fields": [
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-050",
+    "name": "International Security Studies",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 2,
+      "not confirmed": 7
+    },
+    "unconfirmed_fields": [
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-051",
+    "name": "Comparative, European and International Legal Studies",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-052",
+    "name": "Computer Science",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 1,
+      "previous cycle (estimate only)": 3,
+      "not confirmed": 5
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "admission_test",
+      "minimum_grade",
+      "non_eu_seats"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-053",
+    "name": "Cybersecurity",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 5,
+      "previous cycle (estimate only)": 1,
+      "not confirmed": 3
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "non_eu_seats"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-054",
+    "name": "Artificial Intelligence and Data Engineering",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 4,
+      "previous cycle (estimate only)": 1,
+      "not confirmed": 4
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "minimum_grade",
+      "non_eu_seats"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-055",
+    "name": "Data Science and Business Informatics",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 1,
+      "previous cycle (estimate only)": 1,
+      "not confirmed": 7
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "minimum_grade",
+      "non_eu_seats"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-056",
+    "name": "Bionics Engineering",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-057",
+    "name": "Nuclear Engineering",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-058",
+    "name": "Computer Science",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-059",
+    "name": "Artificial Intelligence for Science and Technology",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-060",
+    "name": "Data Science for Economics and Health",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-061",
+    "name": "Bioinformatics for Computational Genomics",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-062",
+    "name": "Artificial Intelligence for Science and Technology",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-063",
+    "name": "Data Science",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-064",
+    "name": "Human-Centered Artificial Intelligence",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-065",
+    "name": "Artificial Intelligence",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-066",
+    "name": "Astrophysics and Space Physics",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-067",
+    "name": "International Economics",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-068",
+    "name": "Computer Science",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-069",
+    "name": "Chemistry",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-070",
+    "name": "Mathematics and Applications",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-071",
+    "name": "Physics",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-072",
+    "name": "Data Science and Scientific Computing",
+    "priority_record": false,
+    "review_outcome": "not_offered_no_admissions_research",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-073",
+    "name": "Physics",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-074",
+    "name": "Computer Science",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 2,
+      "not confirmed": 7
+    },
+    "unconfirmed_fields": [
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-075",
+    "name": "Robotics Engineering",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 2,
+      "not confirmed": 7
+    },
+    "unconfirmed_fields": [
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-076",
+    "name": "Data Science",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-077",
+    "name": "Data Science for Management",
+    "priority_record": false,
+    "review_outcome": "not_offered_no_admissions_research",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-078",
+    "name": "Data Science for Finance and Economics (curriculum)",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-079",
+    "name": "Data Science for Management",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-080",
+    "name": "Physics",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-081",
+    "name": "Applied Mathematics",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 1,
+      "not confirmed": 8
+    },
+    "unconfirmed_fields": [
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-082",
+    "name": "Digital Management",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-083",
+    "name": "Hospitality Innovation and e-Tourism",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-084",
+    "name": "Biology for Translational Research and Precision Medicine",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-085",
+    "name": "Computer Science",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-086",
+    "name": "Data Science",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-087",
+    "name": "Architecture — Architectural Design (iCAD) curriculum",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-088",
+    "name": "Computer Engineering",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 1,
+      "not confirmed": 8
+    },
+    "unconfirmed_fields": [
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-089",
+    "name": "Engineering Management",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-090",
+    "name": "Computer Science",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-091",
+    "name": "Computer Science and Artificial Intelligence",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-092",
+    "name": "Computer Science",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 1,
+      "not confirmed": 8
+    },
+    "unconfirmed_fields": [
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-093",
+    "name": "Computer Science",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-094",
+    "name": "Computer Engineering",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 1,
+      "not confirmed": 8
+    },
+    "unconfirmed_fields": [
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-095",
+    "name": "Computer Science",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-096",
+    "name": "Engineering",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-097",
+    "name": "Computer Engineering",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-098",
+    "name": "Computer Science",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 1,
+      "not confirmed": 8
+    },
+    "unconfirmed_fields": [
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-099",
+    "name": "Computer Science and Information Technology",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-100",
+    "name": "Data Analytics for Business and Society",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-101",
+    "name": "Economics, Finance and Sustainability",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-102",
+    "name": "International Management",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-103",
+    "name": "Comparative International Relations",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-104",
+    "name": "Digital Management",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-105",
+    "name": "Economics and Business",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-106",
+    "name": "Computer Science – Data Science curriculum",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-107",
+    "name": "Philosophy, International and Economic Studies",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-108",
+    "name": "Artificial Intelligence and High Performance Computing Technologies",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 1,
+      "not confirmed": 8
+    },
+    "unconfirmed_fields": [
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-109",
+    "name": "Stochastics and Data Science",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 1,
+      "not confirmed": 8
+    },
+    "unconfirmed_fields": [
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-110",
+    "name": "Economics",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 1,
+      "not confirmed": 8
+    },
+    "unconfirmed_fields": [
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-111",
+    "name": "Business Administration",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 1,
+      "not confirmed": 8
+    },
+    "unconfirmed_fields": [
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-112",
+    "name": "Language Technologies and Digital Humanities",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 1,
+      "not confirmed": 8
+    },
+    "unconfirmed_fields": [
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-113",
+    "name": "Business and Management",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 1,
+      "not confirmed": 8
+    },
+    "unconfirmed_fields": [
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-114",
+    "name": "Economics and Finance with Data Science",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 1,
+      "not confirmed": 8
+    },
+    "unconfirmed_fields": [
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-115",
+    "name": "Global Law and Transnational Legal Studies",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 1,
+      "not confirmed": 8
+    },
+    "unconfirmed_fields": [
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-116",
+    "name": "Molecular Biotechnology",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 1,
+      "not confirmed": 8
+    },
+    "unconfirmed_fields": [
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-117",
+    "name": "Autonomous Vehicle Engineering (MOVE)",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-118",
+    "name": "Industrial Bioengineering",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-119",
+    "name": "Economics and Finance (LMEF)",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-120",
+    "name": "International Relations (English-taught MSc)",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-121",
+    "name": "Quantum Science and Engineering",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-122",
+    "name": "Architecture and Heritage",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-123",
+    "name": "Medicine and Surgery in English (single-cycle degree)",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-124",
+    "name": "Civil and Environmental Engineering",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-125",
+    "name": "Software: Science and Technology",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 3,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 6
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "admission_test",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-126",
+    "name": "Finance and Risk Management",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-127",
+    "name": "Economics and Development",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-128",
+    "name": "Geoengineering",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-129",
+    "name": "Urban and Regional Planning and Design for Sustainability — English-taught curriculum",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-130",
+    "name": "International Relations and European Studies — English-only pathway",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-131",
+    "name": "Sustainable Business for Societal Challenges",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-132",
+    "name": "Computer Engineering",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 2,
+      "not confirmed": 7
+    },
+    "unconfirmed_fields": [
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-133",
+    "name": "Economics and Data Science",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 2,
+      "not confirmed": 7
+    },
+    "unconfirmed_fields": [
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-134",
+    "name": "Bioengineering",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 2,
+      "not confirmed": 7
+    },
+    "unconfirmed_fields": [
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-135",
+    "name": "Electronic Engineering",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 2,
+      "not confirmed": 7
+    },
+    "unconfirmed_fields": [
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-136",
+    "name": "Energy Engineering",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 2,
+      "not confirmed": 7
+    },
+    "unconfirmed_fields": [
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-137",
+    "name": "Computer Science",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 2,
+      "not confirmed": 7
+    },
+    "unconfirmed_fields": [
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-138",
+    "name": "Computer Engineering",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 2,
+      "not confirmed": 7
+    },
+    "unconfirmed_fields": [
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-139",
+    "name": "Business Administration",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 2,
+      "not confirmed": 7
+    },
+    "unconfirmed_fields": [
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-140",
+    "name": "Ingegneria Aerospaziale",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 1,
+      "not confirmed": 8
+    },
+    "unconfirmed_fields": [
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-141",
+    "name": "Ingegneria Biomedica",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 2,
+      "not confirmed": 7
+    },
+    "unconfirmed_fields": [
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-142",
+    "name": "Ingegneria Gestionale",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 1,
+      "not confirmed": 8
+    },
+    "unconfirmed_fields": [
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-143",
+    "name": "Ingegneria Informatica",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 1,
+      "not confirmed": 8
+    },
+    "unconfirmed_fields": [
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-144",
+    "name": "Design degli Interni",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 1,
+      "not confirmed": 8
+    },
+    "unconfirmed_fields": [
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-145",
+    "name": "Progettazione dell'Architettura",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 1,
+      "not confirmed": 8
+    },
+    "unconfirmed_fields": [
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-146",
+    "name": "Ingegneria Civile - Civil Engineering",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 1,
+      "not confirmed": 8
+    },
+    "unconfirmed_fields": [
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-147",
+    "name": "Ingegneria gestionale",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-148",
+    "name": "Economia e commercio",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-149",
+    "name": "Medicina e chirurgia",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-150",
+    "name": "Giurisprudenza",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-151",
+    "name": "Scienze della comunicazione",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-152",
+    "name": "Ingegneria informatica",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-153",
+    "name": "Medicina e Chirurgia (campus/track unresolved)",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-154",
+    "name": "Ingegneria Aerospaziale",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 1,
+      "not confirmed": 8
+    },
+    "unconfirmed_fields": [
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-155",
+    "name": "Scienze politiche e relazioni internazionali",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 1,
+      "not confirmed": 8
+    },
+    "unconfirmed_fields": [
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-156",
+    "name": "Psicologia e Salute",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 1,
+      "not confirmed": 8
+    },
+    "unconfirmed_fields": [
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-157",
+    "name": "Ingegneria Informatica",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-158",
+    "name": "Economics and Finance",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-159",
+    "name": "Psicologia clinica",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-160",
+    "name": "Psicologia dello sviluppo e dell'educazione",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-161",
+    "name": "Ingegneria gestionale — Management Engineering English-taught track",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 5,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 4
+    },
+    "unconfirmed_fields": [
+      "admission_test",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-162",
+    "name": "Scienze e tecnologie agrarie",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-163",
+    "name": "Biologia Molecolare",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-164",
+    "name": "Ingegneria informatica",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "legacy-165",
+    "name": "Scienze psicologiche cognitive e psicobiologiche",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "discovered-001",
+    "name": "Informatics for Digital Health",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 1,
+      "previous cycle (estimate only)": 1,
+      "not confirmed": 7
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "minimum_grade",
+      "non_eu_seats"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "discovered-002",
+    "name": "History",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 1,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 8
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "discovered-003",
+    "name": "Classical Languages and Literatures and Ancient History",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 1,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 8
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "discovered-004",
+    "name": "Historical Sciences",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 1,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 8
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "discovered-005",
+    "name": "Landscape Studies",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 1,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 8
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "discovered-006",
+    "name": "Religious Studies",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 1,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 8
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "discovered-007",
+    "name": "Local Development",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 2,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 7
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "discovered-008",
+    "name": "Mobility Studies",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 2,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 7
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "discovered-009",
+    "name": "Chemical Engineering",
+    "priority_record": true,
+    "review_outcome": "reviewed_no_approved_values",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "discovered-010",
+    "name": "Mechatronics Engineering",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 6,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 3
+    },
+    "unconfirmed_fields": [
+      "selection_method",
+      "minimum_grade",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "discovered-011",
+    "name": "Buddhism and Asian Religions",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 5,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 4
+    },
+    "unconfirmed_fields": [
+      "admission_test",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "discovered-012",
+    "name": "Cultures Littéraires Européennes (CLE) Erasmus Mundus Joint Master's Degree",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 2,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 7
+    },
+    "unconfirmed_fields": [
+      "ects",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "discovered-013",
+    "name": "Cyber Security (CSES) – 28DIGITAL Master’s track",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 5,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 4
+    },
+    "unconfirmed_fields": [
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "discovered-014",
+    "name": "Data Science (DSC) – 28DIGITAL Master’s track",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 5,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 4
+    },
+    "unconfirmed_fields": [
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "discovered-015",
+    "name": "Fintech (FT) – 28DIGITAL Master’s track",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 5,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 4
+    },
+    "unconfirmed_fields": [
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "discovered-016",
+    "name": "Human-Computer Interaction and Design with Extended Reality (HCID/XR) – 28DIGITAL track",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 5,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 4
+    },
+    "unconfirmed_fields": [
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "discovered-017",
+    "name": "Cloud and Networking Infrastructure and HPC (CNIHPC) – 28DIGITAL track",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 5,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 4
+    },
+    "unconfirmed_fields": [
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "discovered-018",
+    "name": "Intelligent Chips and Systems (ICS) – 28DIGITAL track",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 5,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 4
+    },
+    "unconfirmed_fields": [
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "discovered-019",
+    "name": "Artificial Intelligence with Affective Computing (AIAC) – 28DIGITAL track",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 5,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 4
+    },
+    "unconfirmed_fields": [
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "discovered-020",
+    "name": "Hydrogen Systems and Enabling Technologies (HySET Erasmus Mundus Joint Master)",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 6,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 3
+    },
+    "unconfirmed_fields": [
+      "admission_test",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "discovered-021",
+    "name": "Maritime Science and Technology",
+    "priority_record": false,
+    "review_outcome": "not_offered_no_admissions_research",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "discovered-022",
+    "name": "Conservation and Restoration Sciences (CORES Joint Master)",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "discovered-023",
+    "name": "Data Science",
+    "priority_record": false,
+    "review_outcome": "partial_previous_cycle_review",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 1,
+      "not confirmed": 8
+    },
+    "unconfirmed_fields": [
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "discovered-024",
+    "name": "Engineering Management",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "discovered-026",
+    "name": "Engineering in Computer Science and Artificial Intelligence",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "discovered-027",
+    "name": "Finance and Insurance",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "discovered-028",
+    "name": "Digital Skills for Sustainable Societal Transitions",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "discovered-025",
+    "name": "Data Science and Artificial Intelligence",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "discovered-029",
+    "name": "Greening Energy Market and Finance (GrEnFIn Erasmus Mundus Joint Master)",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 7,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 2
+    },
+    "unconfirmed_fields": [
+      "minimum_grade",
+      "non_eu_seats"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "discovered-030",
+    "name": "Mathematical Engineering – planned English-taught track",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "discovered-031",
+    "name": "Management, Finance and Business Analytics (proposed 2027/28)",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "discovered-032",
+    "name": "Food Safety for Global Health (proposed 2027/28)",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "discovered-033",
+    "name": "Innovative Technologies in Agriculture (proposed 2027/28)",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "discovered-035",
+    "name": "Data Analytics and Decision Support (proposed 2027/28)",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "discovered-036",
+    "name": "Statistical Science (proposed 2027/28)",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "discovered-034",
+    "name": "Physics for Technology (planned Arqus joint Bachelor's)",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 9
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "discovered-037",
+    "name": "Astrophysics and Cosmology",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 4,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 5
+    },
+    "unconfirmed_fields": [
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "discovered-038",
+    "name": "Economic Analysis and Policy",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 3,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 6
+    },
+    "unconfirmed_fields": [
+      "ects",
+      "prerequisites",
+      "admission_test",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "discovered-039",
+    "name": "Computer Engineering",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 4,
+      "previous cycle (estimate only)": 1,
+      "not confirmed": 4
+    },
+    "unconfirmed_fields": [
+      "duration",
+      "ects",
+      "minimum_grade",
+      "non_eu_seats"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "discovered-040",
+    "name": "Data Science and Business Analytics",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 2,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 7
+    },
+    "unconfirmed_fields": [
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "discovered-041",
+    "name": "Artificial Intelligence for Management",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 2,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 7
+    },
+    "unconfirmed_fields": [
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "discovered-042",
+    "name": "Finance – Entrepreneurial Finance",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 2,
+      "previous cycle (estimate only)": 1,
+      "not confirmed": 6
+    },
+    "unconfirmed_fields": [
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "discovered-043",
+    "name": "Finance – Finance and Artificial Intelligence",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 2,
+      "previous cycle (estimate only)": 1,
+      "not confirmed": 6
+    },
+    "unconfirmed_fields": [
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "program",
+    "id": "discovered-044",
+    "name": "Marketing Management – Analytics and AI for Marketing",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 2,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 7
+    },
+    "unconfirmed_fields": [
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "university",
+    "id": "napoli-federico-ii",
+    "name": "Università degli Studi di Napoli Federico II",
+    "priority_record": true,
+    "review_outcome": "reviewed_no_approved_values",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 5
+    },
+    "unconfirmed_fields": [
+      "universitaly",
+      "documents",
+      "regional_dsu",
+      "visa_permit",
+      "scholarships"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "university",
+    "id": "politecnico-bari",
+    "name": "Politecnico di Bari",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 5
+    },
+    "unconfirmed_fields": [
+      "universitaly",
+      "documents",
+      "regional_dsu",
+      "visa_permit",
+      "scholarships"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "university",
+    "id": "politecnico-milano",
+    "name": "Politecnico di Milano",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 2,
+      "previous cycle (estimate only)": 1,
+      "not confirmed": 2
+    },
+    "unconfirmed_fields": [
+      "universitaly",
+      "visa_permit"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "university",
+    "id": "politecnico-torino",
+    "name": "Politecnico di Torino",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 1,
+      "previous cycle (estimate only)": 2,
+      "not confirmed": 3
+    },
+    "unconfirmed_fields": [
+      "universitaly",
+      "visa_permit",
+      "scholarships"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "university",
+    "id": "roma-tre",
+    "name": "Università degli Studi Roma Tre",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 5
+    },
+    "unconfirmed_fields": [
+      "universitaly",
+      "documents",
+      "regional_dsu",
+      "visa_permit",
+      "scholarships"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "university",
+    "id": "sapienza",
+    "name": "Sapienza Università di Roma",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 5
+    },
+    "unconfirmed_fields": [
+      "universitaly",
+      "documents",
+      "regional_dsu",
+      "visa_permit",
+      "scholarships"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "university",
+    "id": "tor-vergata",
+    "name": "Università degli Studi di Roma Tor Vergata",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 3,
+      "previous cycle (estimate only)": 2,
+      "not confirmed": 0
+    },
+    "unconfirmed_fields": [],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "university",
+    "id": "ca-foscari",
+    "name": "Università Ca' Foscari Venezia",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 2,
+      "not confirmed": 3
+    },
+    "unconfirmed_fields": [
+      "universitaly",
+      "documents",
+      "visa_permit"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "university",
+    "id": "milano-bicocca",
+    "name": "Università degli Studi di Milano-Bicocca",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 5
+    },
+    "unconfirmed_fields": [
+      "universitaly",
+      "documents",
+      "regional_dsu",
+      "visa_permit",
+      "scholarships"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "university",
+    "id": "marche",
+    "name": "Università Politecnica delle Marche",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 5
+    },
+    "unconfirmed_fields": [
+      "universitaly",
+      "documents",
+      "regional_dsu",
+      "visa_permit",
+      "scholarships"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "university",
+    "id": "catania",
+    "name": "Università degli Studi di Catania",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 5
+    },
+    "unconfirmed_fields": [
+      "universitaly",
+      "documents",
+      "regional_dsu",
+      "visa_permit",
+      "scholarships"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "university",
+    "id": "milano-statale",
+    "name": "Università degli Studi di Milano",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 5
+    },
+    "unconfirmed_fields": [
+      "universitaly",
+      "documents",
+      "regional_dsu",
+      "visa_permit",
+      "scholarships"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "university",
+    "id": "laquila",
+    "name": "Università degli Studi dell'Aquila",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 5
+    },
+    "unconfirmed_fields": [
+      "universitaly",
+      "documents",
+      "regional_dsu",
+      "visa_permit",
+      "scholarships"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "university",
+    "id": "insubria",
+    "name": "Università degli Studi dell’Insubria",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 5
+    },
+    "unconfirmed_fields": [
+      "universitaly",
+      "documents",
+      "regional_dsu",
+      "visa_permit",
+      "scholarships"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "university",
+    "id": "bologna",
+    "name": "Università di Bologna",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 5,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 1
+    },
+    "unconfirmed_fields": [
+      "visa_permit"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "university",
+    "id": "camerino",
+    "name": "Università di Camerino",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 5
+    },
+    "unconfirmed_fields": [
+      "universitaly",
+      "documents",
+      "regional_dsu",
+      "visa_permit",
+      "scholarships"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "university",
+    "id": "ferrara",
+    "name": "Università degli Studi di Ferrara",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 5
+    },
+    "unconfirmed_fields": [
+      "universitaly",
+      "documents",
+      "regional_dsu",
+      "visa_permit",
+      "scholarships"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "university",
+    "id": "firenze",
+    "name": "Università degli Studi di Firenze",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 2,
+      "not confirmed": 3
+    },
+    "unconfirmed_fields": [
+      "universitaly",
+      "documents",
+      "visa_permit"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "university",
+    "id": "genova",
+    "name": "Università degli Studi di Genova",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 5
+    },
+    "unconfirmed_fields": [
+      "universitaly",
+      "documents",
+      "regional_dsu",
+      "visa_permit",
+      "scholarships"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "university",
+    "id": "messina",
+    "name": "Università degli Studi di Messina",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 5
+    },
+    "unconfirmed_fields": [
+      "universitaly",
+      "documents",
+      "regional_dsu",
+      "visa_permit",
+      "scholarships"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "university",
+    "id": "modena-reggio",
+    "name": "Università degli Studi di Modena e Reggio Emilia",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 5
+    },
+    "unconfirmed_fields": [
+      "universitaly",
+      "documents",
+      "regional_dsu",
+      "visa_permit",
+      "scholarships"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "university",
+    "id": "padova",
+    "name": "Università degli Studi di Padova",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 1,
+      "previous cycle (estimate only)": 2,
+      "not confirmed": 2
+    },
+    "unconfirmed_fields": [
+      "universitaly",
+      "visa_permit"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "university",
+    "id": "palermo",
+    "name": "Università degli Studi di Palermo",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 5
+    },
+    "unconfirmed_fields": [
+      "universitaly",
+      "documents",
+      "regional_dsu",
+      "visa_permit",
+      "scholarships"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "university",
+    "id": "parma",
+    "name": "Università degli Studi di Parma",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 5
+    },
+    "unconfirmed_fields": [
+      "universitaly",
+      "documents",
+      "regional_dsu",
+      "visa_permit",
+      "scholarships"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "university",
+    "id": "pavia",
+    "name": "Università degli Studi di Pavia",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 5
+    },
+    "unconfirmed_fields": [
+      "universitaly",
+      "documents",
+      "regional_dsu",
+      "visa_permit",
+      "scholarships"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "university",
+    "id": "perugia",
+    "name": "Università degli Studi di Perugia",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 5
+    },
+    "unconfirmed_fields": [
+      "universitaly",
+      "documents",
+      "regional_dsu",
+      "visa_permit",
+      "scholarships"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "university",
+    "id": "pisa",
+    "name": "Università di Pisa",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 5,
+      "previous cycle (estimate only)": 1,
+      "not confirmed": 0
+    },
+    "unconfirmed_fields": [],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "university",
+    "id": "salerno",
+    "name": "Università degli Studi di Salerno",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 5
+    },
+    "unconfirmed_fields": [
+      "universitaly",
+      "documents",
+      "regional_dsu",
+      "visa_permit",
+      "scholarships"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "university",
+    "id": "siena",
+    "name": "Università degli Studi di Siena",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 5
+    },
+    "unconfirmed_fields": [
+      "universitaly",
+      "documents",
+      "regional_dsu",
+      "visa_permit",
+      "scholarships"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "university",
+    "id": "torino",
+    "name": "Università degli Studi di Torino",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 2,
+      "not confirmed": 3
+    },
+    "unconfirmed_fields": [
+      "universitaly",
+      "documents",
+      "visa_permit"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "university",
+    "id": "trento",
+    "name": "Università degli Studi di Trento",
+    "priority_record": true,
+    "review_outcome": "reviewed_with_field_gaps",
+    "counts": {
+      "2027/28 confirmed": 2,
+      "previous cycle (estimate only)": 1,
+      "not confirmed": 2
+    },
+    "unconfirmed_fields": [
+      "universitaly",
+      "visa_permit"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "university",
+    "id": "trieste",
+    "name": "Università degli Studi di Trieste",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 5
+    },
+    "unconfirmed_fields": [
+      "universitaly",
+      "documents",
+      "regional_dsu",
+      "visa_permit",
+      "scholarships"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "university",
+    "id": "udine",
+    "name": "Università degli Studi di Udine",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 5
+    },
+    "unconfirmed_fields": [
+      "universitaly",
+      "documents",
+      "regional_dsu",
+      "visa_permit",
+      "scholarships"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  },
+  {
+    "record_type": "university",
+    "id": "verona",
+    "name": "Università degli Studi di Verona",
+    "priority_record": false,
+    "review_outcome": "awaiting_record_research_incomplete",
+    "counts": {
+      "2027/28 confirmed": 0,
+      "previous cycle (estimate only)": 0,
+      "not confirmed": 5
+    },
+    "unconfirmed_fields": [
+      "universitaly",
+      "documents",
+      "regional_dsu",
+      "visa_permit",
+      "scholarships"
+    ],
+    "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."
+  }
+]

@@ -1,0 +1,1976 @@
+[
+  {
+    "id": "SRC-POLITO-MSC-FOREIGN-2026",
+    "title": "Applicants with a non-Italian qualification – Master's degree programmes",
+    "url": "https://www.polito.it/en/education/applying-studying-graduating/admissions-and-enrolment/master-s-degree-programmes/applicants-with-a-non-italian-qualification",
+    "official_basis": "Existing official university source; rechecked for applicant guidance"
+  },
+  {
+    "id": "SRC-POLITO-TUITION-2026",
+    "title": "Tuition fees and EDISU scholarships",
+    "url": "https://www.polito.it/en/education/services-and-life-at-politecnico/right-to-education-and-tuition-fees/tuition-fees",
+    "official_basis": "Existing official university source; rechecked for applicant guidance"
+  },
+  {
+    "id": "SRC-CA-FOSCARI-REGIONAL-AID-2026",
+    "title": "Regional right-to-study scholarship (2026/27)",
+    "url": "https://www.unive.it/pag/8551/",
+    "official_basis": "Existing official university source; rechecked for applicant guidance"
+  },
+  {
+    "id": "SRC-PADOVA-REGIONAL-SCHOLARSHIP-2026",
+    "title": "Regional scholarship eligibility and 2026/27 call page",
+    "url": "https://www.unipd.it/servizi/supporto-studio/borse-premi-studio/borse-studio-alloggi-sussidi-straordinari",
+    "official_basis": "Existing official university source; rechecked for applicant guidance"
+  },
+  {
+    "id": "DEC-PADUA-LANGUAGE",
+    "title": "Padua language requirements",
+    "url": "https://www.unipd.it/en/studying-padua/admission/language-requirement",
+    "official_basis": "Official university, its application portal, or regional DSU; linked or found in official-site search"
+  },
+  {
+    "id": "DEC-PADUA-ENTRY-TITLE",
+    "title": "Padua country qualification requirements",
+    "url": "https://www.unipd.it/en/entry-title-requirements",
+    "official_basis": "Official university, its application portal, or regional DSU; linked or found in official-site search"
+  },
+  {
+    "id": "DEC-PADUA-PHYSICS-DATA",
+    "title": "Physics of Data application profile",
+    "url": "https://apply.unipd.it/courses/course/30-physics-data",
+    "official_basis": "Official university, its application portal, or regional DSU; linked or found in official-site search"
+  },
+  {
+    "id": "DEC-PISA-FEES",
+    "title": "Pisa international fees",
+    "url": "https://www.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/university-fees-and-scholarships/",
+    "official_basis": "Official university, its application portal, or regional DSU; linked or found in official-site search"
+  },
+  {
+    "id": "DEC-TORVERGATA-ADMISSIONS",
+    "title": "Tor Vergata admissions",
+    "url": "https://web.uniroma2.it/en/percorso/admissions",
+    "official_basis": "Official university, its application portal, or regional DSU; linked or found in official-site search"
+  },
+  {
+    "id": "DEC-ERGO-INTERNATIONAL",
+    "title": "ER.GO international-student documents",
+    "url": "https://www.er-go.it/studenti-internazionali",
+    "official_basis": "Official university, its application portal, or regional DSU; linked or found in official-site search"
+  },
+  {
+    "id": "DEC-PADUA-CERTIFICATES",
+    "title": "Padua accepted English certificates",
+    "url": "https://wwwassets.unipd.it/sites/default/files/2026-10/ELENCO%20CERTIFICAZIONI%20DI%20LINGUA%20INGLESE%20.docx.pdf",
+    "official_basis": "Official university document linked directly from the captured admissions or language page"
+  },
+  {
+    "id": "DEC-PADUA-EXEMPTIONS",
+    "title": "Padua English exemptions",
+    "url": "https://wwwassets.unipd.it/sites/default/files/2026-09/EXEMPTIONS-English-language-certification.pdf",
+    "official_basis": "Official university document linked directly from the captured admissions or language page"
+  },
+  {
+    "id": "DEC-PADUA-FEE-NOTICE-2026",
+    "title": "Padua 2026/27 fee notice",
+    "url": "https://wwwassets.unipd.it/sites/default/files/2026-07/1.Bando%20ContribuzioneEsoneri%202026-27_ENG.pdf",
+    "official_basis": "Official university document linked directly from the captured admissions or language page"
+  },
+  {
+    "id": "DEC-POLITO-REQ-2026",
+    "title": "Polito course-specific 2026/27 requirements",
+    "url": "https://www.polito.it/sites/default/files/2025-12/A.%20Y.%2020262027%20COURSE%20SPECIFIC%20REQUIREMENTS.pdf",
+    "official_basis": "Official university document linked directly from the captured admissions or language page"
+  },
+  {
+    "id": "DEC-POLITO-ENROL-2026",
+    "title": "Polito MSc enrolment guidelines 2026/27",
+    "url": "https://www.polito.it/sites/default/files/2026-09/Ms_Enrolment_Guidelines_0.pdf",
+    "official_basis": "Official university document linked directly from the captured admissions or language page"
+  },
+  {
+    "id": "DEC-CLE-CALL-2026",
+    "title": "CLE linked 2026/27 admission notice",
+    "url": "https://cle.unibo.it/uploads/uploadfiles/Avviso-LM_CLE-26-27_DEFINITIVO_2025_PROT.pdf",
+    "official_basis": "Official university document linked directly from the captured admissions or language page"
+  },
+  {
+    "id": "DEC-EDISU-2026",
+    "title": "EDISU scholarship 2026/27",
+    "url": "https://www.edisu.piemonte.it/en/scholarships-and-grants/financial-benefits/scholarship-and-grants",
+    "official_basis": "Official university or regional DSU website returned by official-domain search"
+  },
+  {
+    "id": "DEC-EDISU-INTERNATIONAL",
+    "title": "EDISU international student procedure",
+    "url": "https://edisu.piemonte.it/en/international-students",
+    "official_basis": "Official university or regional DSU website returned by official-domain search"
+  },
+  {
+    "id": "DEC-LAZIO-2026",
+    "title": "Lazio DiSCo 2026/27 call",
+    "url": "https://laziodisco.it/on-line-il-bando-diritto-allo-studio-2026-2027/",
+    "official_basis": "Official university or regional DSU website returned by official-domain search"
+  },
+  {
+    "id": "DEC-LAZIO-CALL-2026",
+    "title": "Lazio DiSCo 2026/27 formal call",
+    "url": "https://laziodisco.it/wp-content/uploads/2026/06/BANDO-DIRITTO-ALLO-STUDIO-26-27-1.pdf",
+    "official_basis": "Official university or regional DSU website returned by official-domain search"
+  },
+  {
+    "id": "DEC-OPERA-2026",
+    "title": "Opera Universitaria 2026/27 call",
+    "url": "https://www.operauni.tn.it/en/news/call-for-application-2026-2027-applications-now-open/",
+    "official_basis": "Official university or regional DSU website returned by official-domain search"
+  },
+  {
+    "id": "DEC-POLIMI-DSU-2026",
+    "title": "Polimi DSU 2026/27",
+    "url": "https://www.polimi.it/studenti/tasse-borse-e-agevolazioni/diritto-allo-studio",
+    "official_basis": "Official university or regional DSU website returned by official-domain search"
+  },
+  {
+    "id": "DEC-DSU-TOSCANA-2026",
+    "title": "DSU Toscana scholarship and housing 2026/27",
+    "url": "https://www.dsu.toscana.it/it/-/borsa-di-studio-e-posto-alloggio-a.a.-2026-2027",
+    "official_basis": "Official university or regional DSU website returned by official-domain search"
+  },
+  {
+    "id": "DEC-UNINA-DSU-2026",
+    "title": "Napoli regional scholarships 2026/27",
+    "url": "https://www.adisurcampania.it/borse-e-contributi/borse-di-studio",
+    "official_basis": "Official university or regional DSU website returned by official-domain search"
+  },
+  {
+    "id": "DEC-28DIGITAL-DOCUMENTS",
+    "title": "28DIGITAL required application documents",
+    "url": "https://masterschool.28digital.eu/admissions/required-documents",
+    "official_basis": "Direct link from the programme official 2027 admission page"
+  },
+  {
+    "id": "SRC-ADSU-LAQUILA-BDS-2026",
+    "url": "https://adsuaq.org/2026/07/16/bando-borse-di-studio-a-a-2026-2027/",
+    "title": "ADSU L'Aquila scholarship call 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-ADSU-LAQUILA-RESIDENCE-2026",
+    "url": "https://adsuaq.org/2026/06/24/bando-studentato-a-a-2026-2027/",
+    "title": "ADSU L'Aquila student residence call 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-ARQUS-PHYS-TECH-MEETING-2026",
+    "url": "https://arqus-alliance.eu/news/7th-meeting-of-the-bsc-physics-for-technology-programme-at-the-university-of-wroclaw/",
+    "title": "7th meeting of the BSc Physics for Technology Programme",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-AUDIT-BOLOGNA-GESTIONALE-REQUIREMENTS",
+    "url": "https://corsi.unibo.it/laurea/IngegneriaGestionale/iscriversi-al-corso",
+    "title": "GESTIONALE REQUIREMENTS",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-BICOCCA-2027",
+    "url": "https://en.unimib.it/study/information-international-students/access-students-international-qualification",
+    "title": "Access for students with an international qualification",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-BICOCCA-AI-BSC-CALL-2026",
+    "url": "https://en.unipv.it/sites/sten/files/2026-04/Artificial%20Intelligence%202026-2027_ENG.pdf",
+    "title": "Artificial Intelligence – admission call 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-BICOCCA-AI-BSC-COURSE-2026",
+    "url": "https://en.unimib.it/undergraduate/artificial-intelligence",
+    "title": "Artificial Intelligence – inter-university Bachelor's degree",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-BICOCCA-AI-MSC-CALL-2026",
+    "url": "https://www.unimib.it/sites/default/files/2026-03/AI4ST_ENG_26_27_0.pdf",
+    "title": "Artificial Intelligence for Science and Technology – admission procedure 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-BICOCCA-AI-MSC-COURSE-2026",
+    "url": "https://www.unimib.it/graduate/artificial-intelligence",
+    "title": "Artificial Intelligence for Science and Technology – Master's profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-BICOCCA-ASTRO-CALL-2026",
+    "url": "https://www.unimib.it/sites/default/files/2026-04/Astro_ENG_26_27.pdf",
+    "title": "Astrophysics and Space Physics – admission procedure 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-BICOCCA-ASTRO-COURSE-2026",
+    "url": "https://www.unimib.it/graduate/astrophysics-and-space-physics",
+    "title": "Astrophysics and Space Physics – Master's profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-BICOCCA-DS-CALL-2026",
+    "url": "https://www.unimib.it/sites/default/files/2026-04/DATA%20SCIENCE_ENG_26_27_0.pdf",
+    "title": "Data Science – admission procedure 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-BICOCCA-DS-COURSE-2026",
+    "url": "https://www.unimib.it/graduate/data-science",
+    "title": "Data Science – Master's profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-BICOCCA-DSU-2026",
+    "url": "https://en.unimib.it/news/benefits-right-university-education",
+    "title": "Benefits for the right to university education – call AY 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-BICOCCA-ENGLISH-PROGRAMS",
+    "url": "https://en.unimib.it/study/international-courses",
+    "title": "International Courses – programmes entirely taught in English",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-BICOCCA-FEES-2026",
+    "url": "https://www.unimib.it/studiare/servizi-studenti-e-laureati/segreterie/immatricolazione/contribuzione-studentesca",
+    "title": "Student contribution fees AY 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-BICOCCA-FEES-FAQ-2026",
+    "url": "https://www.unimib.it/studiare/servizi-studenti-e-laureati/segreterie/immatricolazione/faq",
+    "title": "Student contribution and fees FAQ 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-BICOCCA-HCAI-CALL-2026",
+    "url": "https://hcai.cdl.unimi.it/en/enrolment",
+    "title": "Human-Centered Artificial Intelligence – application AY 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-BICOCCA-HCAI-COURSE-2026",
+    "url": "https://en.unimib.it/graduate/human-centered-artificial-intelligence",
+    "title": "Human-Centered Artificial Intelligence – inter-university Master's profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-BICOCCA-INTECO-CALL-2026",
+    "url": "https://www.unimib.it/sites/default/files/2026-03/INTECO_call_26_27-def.pdf",
+    "title": "International Economics – admission procedure 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-BICOCCA-INTECO-COURSE-2026",
+    "url": "https://www.unimib.it/graduate/international-economics",
+    "title": "International Economics – Master's profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-CA-FOSCARI-CATALOGUE-2026",
+    "url": "https://www.unive.it/data/it/15241",
+    "title": "Bachelor's and Master's degrees – course catalogue (2026/27)",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-CA-FOSCARI-CIR-MSC-2026",
+    "url": "https://www.unive.it/degree/lmr60",
+    "title": "Comparative International Relations – Master's programme profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-CA-FOSCARI-CS-BSC-2026",
+    "url": "https://www.unive.it/degree/ctr3",
+    "title": "Computer Science – Bachelor's programme profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-CA-FOSCARI-CSIT-MSC-2026",
+    "url": "https://www.unive.it/degree/cm90",
+    "title": "Computer Science and Information Technology – Master's programme profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-CA-FOSCARI-DABS-MSC-2026",
+    "url": "https://www.unive.it/degree/emr14",
+    "title": "Data Analytics for Business and Society – Master's programme profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-CA-FOSCARI-DM-BSC-2026",
+    "url": "https://www.unive.it/degree/etr7",
+    "title": "Digital Management – Bachelor's programme profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-CA-FOSCARI-EB-BSC-2026",
+    "url": "https://www.unive.it/degree/etr9",
+    "title": "Economics and Business – Bachelor's programme profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-CA-FOSCARI-EFS-MSC-2026",
+    "url": "https://www.unive.it/degree/emr15",
+    "title": "Economics, Finance and Sustainability – Master's programme profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-CA-FOSCARI-ENGLISH-2026",
+    "url": "https://www.unive.it/pag/15612/",
+    "title": "International programmes – English-taught degree list (2026/27)",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-CA-FOSCARI-HOSP-BSC-2026",
+    "url": "https://www.unive.it/degree/ctr9",
+    "title": "Hospitality Innovation and e-Tourism – Bachelor's programme profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-CA-FOSCARI-IM-MSC-2026",
+    "url": "https://www.unive.it/degree/emr18",
+    "title": "International Management – Master's programme profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-CA-FOSCARI-PIES-BSC-2026",
+    "url": "https://www.unive.it/degree/ltr6",
+    "title": "Philosophy, International and Economic Studies – Bachelor's programme profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-CAMERINO-CHEM-PROFILE",
+    "url": "https://chimica.unicam.it/en/node/87",
+    "title": "Master’s Degree in Chemistry – official English degree profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-CAMERINO-CS-PROFILE",
+    "url": "https://sst.unicam.it/corsi/computer-science",
+    "title": "Computer Science – official degree profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-CAMERINO-ENGLISH-MASTERS",
+    "url": "https://international.unicam.it/courses/master",
+    "title": "Master’s degrees – international English course list",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-CAMERINO-FAQ",
+    "url": "https://international.unicam.it/admissions/faq",
+    "title": "International admissions FAQ",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-CAMERINO-FOREIGN-FEES",
+    "url": "https://miiscrivo.unicam.it/fees-foreign-students",
+    "title": "Fees for foreign students",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-CAMERINO-MATH-PROFILE",
+    "url": "https://sst.unicam.it/index.php/corsi/mathematics-and-applications",
+    "title": "Mathematics and Applications – official degree profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-CAMERINO-PHYSICS-PROFILE",
+    "url": "https://sst.unicam.it/corsi/physics",
+    "title": "Physics – official degree profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-CAMERINO-TUITION-2026",
+    "url": "https://www.unicam.it/laureato/segreterie-studenti/tasse",
+    "title": "University tuition and student contributions 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-FERRARA-CATALOGUE-2026",
+    "url": "https://www.unife.it/it/corsi/lauree-e-lauree-magistrali",
+    "title": "Degree catalogue 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-FERRARA-FEES-2026",
+    "url": "https://giuri.unife.it/unife/it/iscriviti/tasse/tasse/simulazione-tasse/come-calcolare-il-contributo",
+    "title": "University fees and contribution rules, 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-FERRARA-FEES-FOREIGN-INCOME",
+    "url": "https://www.unife.it/it/iscriviti/tasse/isee",
+    "title": "ISEE or foreign-income documentation for fees",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-FERRARA-INTL",
+    "url": "https://www.unife.it/en/come-to-study/enroll/how-to-enroll/arrival-enrolment/enrol-in-a-post-graduate-course",
+    "title": "Enrol in a post-graduate course",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-FERRARA-PHYSICS-PROFILE-2026",
+    "url": "https://giuri.unife.it/unife/it/corsi/libero-programmato/libero/fisica-e-scienze-della-terra/lm-physics",
+    "title": "Physics – course profile 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-INSUBRIA-CS-PROFILE-2026",
+    "url": "https://www.uninsubria.it/formazione/offerta-formativa/corsi-di-laurea/informatica-0",
+    "title": "Informatica (Computer Science) – official course profile 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-INSUBRIA-DSU-CALL-2026",
+    "url": "https://www.uninsubria.it/bandi-e-concorsi/bando-di-concorso-lassegnazione-dei-benefici-economici-aa-20262027",
+    "title": "Right-to-study benefits call 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-INSUBRIA-FEES-2026",
+    "url": "https://www.uninsubria.it/sites/default/files/2026-06/Regolamento_Contribuzione__2026_2027.pdf",
+    "title": "Student contribution regulation 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-INSUBRIA-INTL",
+    "url": "https://www.uninsubria.it/servizi/vivere-insubria/immatricolarsi-e-iscriversi/immatricolazioni/studenti-non-ue-residenti",
+    "title": "Enrolment of non-EU students residing abroad",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-INSUBRIA-REGULATION-2026",
+    "url": "https://www.uninsubria.it/sites/default/files/2026-06/Regolamento_2026_LM_INFO.pdf",
+    "title": "Informatica MSc course regulation 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-INSUBRIA-SCHOLARSHIPS",
+    "url": "https://www.uninsubria.it/formazione/opportunita-e-agevolazioni/diritto-allo-studio/borse-di-studio",
+    "title": "Scholarships and right-to-study support",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-LAQUILA-CS-PROFILE-2026",
+    "url": "https://www.univaq.it/en/section.php?id=1670&idcorso=2279&lang_s=en",
+    "title": "Computer Science – official course sheet 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-LAQUILA-CS-REGULATIONS-2026",
+    "url": "https://www.univaq.it/include/utilities/blob.php?id=2279&item=regolamento&table=off_0809",
+    "title": "Computer Science LM-18 teaching regulations 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-LAQUILA-ENGLISH-COURSES-2026",
+    "url": "https://www.univaq.it/en/section.php?id=540&lang=en&lang_s=en&order=corso",
+    "title": "International degree courses 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-LAQUILA-FEES-2026",
+    "url": "https://www.univaq.it/section.php?id=55.&lang_s=it",
+    "title": "Tuition and student contributions 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-LAQUILA-FEES-FAQ",
+    "url": "https://www.univaq.it/section.php?id=829",
+    "title": "Student contribution FAQ – international student provisions",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-LAQUILA-INTL",
+    "url": "https://www.univaq.it/en/section.php?id=2065&lang_s=en",
+    "title": "International students",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-MILANO-AI4ST-PROFILE-2026",
+    "url": "https://www.unimi.it/en/education/master-programme/artificial-intelligence-science-and-technology",
+    "title": "Artificial Intelligence for Science and Technology – inter-university profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-MILANO-BCG-CALL-2026",
+    "url": "https://apps.unimi.it/files/bandi/call-2027-1-bioinformatics-for-computational-genomics-(classe-lm-8-r).pdf?27-MAR-26=",
+    "title": "Bioinformatics for Computational Genomics – admission call AY 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-MILANO-BCG-PROFILE-2026",
+    "url": "https://bcg.cdl.unimi.it/en/programme/bioinformatics-computational-genomics",
+    "title": "Bioinformatics for Computational Genomics – Master's profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-MILANO-CS-CALL-2026",
+    "url": "https://apps.unimi.it/files/bandi/admission-notice-2027-1-computer-science-(classe-lm-18).pdf?30-MAR-26=",
+    "title": "Computer Science – admission notice AY 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-MILANO-CS-PROFILE-2026",
+    "url": "https://www.unimi.it/en/education/master-programme/computer-science-master",
+    "title": "Computer Science – Master's degree profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-MILANO-DSEH-CALL-2026",
+    "url": "https://apps.unimi.it/files/bandi/admission-notice-2027-1-data-science-for-economics-and-health-(classe-lm-data).pdf?30-MAR-26=",
+    "title": "Data Science for Economics and Health – admission notice AY 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-MILANO-DSEH-PROFILE-2026",
+    "url": "https://www.unimi.it/en/education/master-programme/data-science-economics-and-health",
+    "title": "Data Science for Economics and Health – Master's profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-MILANO-DSU-2026",
+    "url": "https://www.unimi.it/en/study/financial-support/regional-scholarships",
+    "title": "Regional scholarships AY 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-MILANO-ENROL",
+    "url": "https://www.unimi.it/en/study/enrolment",
+    "title": "Enrolment",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-MILANO-FEES-2026",
+    "url": "https://www.unimi.it/en/study/bachelor-and-master-study/fees-and-how-pay-them/fees-current-year",
+    "title": "Fees – current year AY 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-MILANO-MASTER-CATALOGUE-2026",
+    "url": "https://www.unimi.it/en/education/masters-degree-programmes",
+    "title": "Master's Degree Programmes – 2026/27 catalogue",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-MILANO-SCHOLARSHIPS-2026",
+    "url": "https://www.unimi.it/en/study/financial-support/university-scholarships",
+    "title": "University scholarships AY 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-PADOVA-AGRICULTURAL-SCIENCES-2026",
+    "url": "https://www.unipd.it/de/node/79184",
+    "title": "Scienze e tecnologie agrarie – official programme profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-PADOVA-AGRICULTURAL-SCIENCES-PROFILE-2026",
+    "url": "https://dafnae.unipd.it/offerta-didattica/corsi-di-laurea-magistrale/?key=AV2880&ordinamento=2026&tipo=LM",
+    "title": "Scienze e tecnologie agrarie – official DAFNAE course profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-PADOVA-CLINICAL-PSYCHOLOGY-2026",
+    "url": "https://www.unipd.it/corsi-di-laurea/psicologia-clinica",
+    "title": "Psicologia clinica – official current degree profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-PADOVA-CLINICAL-PSYCHOLOGY-DPG-PROFILE-2026",
+    "url": "https://dpg.unipd.it/offerta-didattica/corsi-di-laurea-magistrale/?key=PS2968&ordinamento=2026&tipo=LM",
+    "title": "Psicologia clinica – Department of General Psychology course profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-PADOVA-COGNITIVE-PSYCHOLOGY-BSC-2026",
+    "url": "https://psicologia.unipd.it/offerta-didattica/lauree-triennali?key=PS2961&ordinamento=2025&tipo=L",
+    "title": "Scienze psicologiche cognitive e psicobiologiche – official School of Psychology profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-PADOVA-COMPUTER-ENGINEERING-BSC-2026",
+    "url": "https://www.unipd.it/corsi-di-laurea/ingegneria-informatica",
+    "title": "Ingegneria informatica – official bachelor's degree profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-PADOVA-DEVELOPMENTAL-PSYCHOLOGY-2026",
+    "url": "https://dpss.unipd.it/offerta-didattica/corsi-di-laurea-magistrale/?key=PS2975&ordinamento=2026&tipo=LM",
+    "title": "Psicologia dello sviluppo e dell'educazione – official current degree profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-PADOVA-MOLECULAR-BIOLOGY-BSC-2026",
+    "url": "https://biologia-molecolare.biologia.unipd.it/index.php?id=170",
+    "title": "Biologia Molecolare – official bachelor's degree profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-PADOVA-MOLECULAR-BIOLOGY-PROFILE-2026",
+    "url": "https://www.unipd.it/corsi-di-laurea/biologia-molecolare",
+    "title": "Biologia Molecolare – official University degree profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-PADOVA-PSYCHOLOGICAL-SCIENCE-BSC-2026",
+    "url": "https://www.unipd.it/corsi-di-laurea/psychological-science",
+    "title": "Psychological Science – current Padua English BSc profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-PADOVA-PSYCHOLOGY-MSC-2026",
+    "url": "https://www.unipd.it/ammissioni-psi-magistrali-linguaitaliana",
+    "title": "Padua Italian-taught psychology Master's admissions catalogue – AY 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-PADUA-ARQUS-PHYSICS-TECH-2026",
+    "url": "https://www.unipd.it/en/arqus/news/rettrice-partecipa-consiglio-rettori-alleanza-europea-arqus",
+    "title": "Arqus joint Bachelor's Programme in Physics for Technology – development agreement",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-PADUA-ENGLISH-DEGREES-PROPOSED-2027",
+    "url": "https://www.unipd.it/en/corsi-laurea-lingua-inglese",
+    "title": "Degree programmes held in English – proposed 2027/28 BSc and MSc additions",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-PADUA-STATISTICAL-SCIENCE-PROFILE-2027",
+    "url": "https://www.stat.unipd.it/en/statistical-science",
+    "title": "Statistical Science – Department programme profile and projected start",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-PALERMO-2027",
+    "url": "https://www.unipa.it/mobilita/en/useful-information/faq-international-students/faq-international-students-p2/before-applying/index.html",
+    "title": "Before Applying – FAQ International Students",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-PALERMO-CATALOGUE-2026",
+    "url": "https://www.unipa.it/Offerta-Formativa-2026-2027/",
+    "title": "Degree offer 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-PALERMO-CSAI-LANGUAGE",
+    "url": "https://www.unipa.it/dipartimenti/matematicaeinformatica/cds/computerscienceandartificialintelligence2323/?pagina=presentazione",
+    "title": "Computer Science and Artificial Intelligence – course presentation",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-PALERMO-FEES-2026",
+    "url": "https://www.unipa.it/target/futuristudenti/tasse-agevolazioni/tasse-contributi/",
+    "title": "Student fees and contributions",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-PALERMO-FOREIGN-FEES-2026",
+    "url": "https://www.unipa.it/mobilita/en/new-students/tuition-fees/",
+    "title": "International tuition fees – 2026/27 framework",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-PALERMO-SCHOLARSHIPS-2026",
+    "url": "https://www.unipa.it/mobilita/en/new-students/scholarship-for-international-students/",
+    "title": "Scholarships for International Students",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-PARMA-2027",
+    "url": "https://www.unipr.it/en/node/106538",
+    "title": "Admissions for a.y. 2027-2028 – Let’s keep in touch!",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-PARMA-DSM-PROFILE-2026",
+    "url": "https://www.unipr.it/sites/default/files/2026-04/Dipartimento%20di%20Scienze%20economiche%20e%20aziendali_04-2026.pdf",
+    "title": "Data Science for Management – Department of Economics and Management guide 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-PARMA-FEES-2026",
+    "url": "https://www.unipr.it/tasse-e-contributi-universitari-studenti-e-studentesse-tempo-pieno-26-27",
+    "title": "Tuition and university contributions – 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-PARMA-INTL-FEES-2026",
+    "url": "https://www.unipr.it/en/tasse-borse-di-studio-e-agevolazioni-studenti-e-studentesse-internazionali",
+    "title": "Fees, scholarships and benefits for international students",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-PAVIA-CE-PROFILE-2026",
+    "url": "https://en.unipv.it/en/education/bachelors-and-masters-degree-programs/second-cycle-degree-course/computer-engineering",
+    "title": "Computer Engineering – official course profile and 2026/27 plan",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-PAVIA-ENG-INTL",
+    "url": "https://webing.unipv.eu/home/international/international-applications/",
+    "title": "International Applications – Faculty of Engineering",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-PAVIA-FEES-2026",
+    "url": "https://en.unipv.it/en/education/bachelors-and-masters-degree-programs/fees-and-funding/fees/prospective-students/non-eu-students",
+    "title": "Non-EU prospective students – 2026/27 fees",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-PAVIA-MASTERS-2027",
+    "url": "https://en.unipv.it/en/education/bachelors-and-masters-degree-programs/how-apply/how-apply-masters-degree-programs",
+    "title": "How to apply to Master’s degree programs – 2027/28 calendar",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-POLIBA-2027",
+    "url": "https://www.poliba.it/en/ammissioni-corsi-di-laurea-di-1deg-livello",
+    "title": "Admissions to first-level degree courses",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-POLIBA-CENG-PROFILE-2026",
+    "url": "https://www.poliba.it/laurea-magistrale-ingegneria-informatica",
+    "title": "Computer Engineering MSc profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-POLIBA-CENG-REG-2026",
+    "url": "https://www.poliba.it/sites/default/files/regolamenti/regolamentodidattico/LM/Reg.LM32.ComputerScienceEng.A.Y.2026-27.pdf",
+    "title": "Computer Engineering teaching regulations 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-POLIBA-FEES-2026",
+    "url": "https://poliba.it/en/didattica/tasse",
+    "title": "Tuition and fee information 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-POLIBA-PALESTINE-SCHOLARSHIP-2026",
+    "url": "https://www.poliba.it/sites/default/files/Borse%20di%20studio/D.R.%20Bando%20borsa%20di%20studio%20Palestina_signed_signed-signed.pdf",
+    "title": "Targeted scholarship for Palestinian students from Gaza 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-POLIBA-SCHOLARSHIPS-2026",
+    "url": "https://www.poliba.it/en/borse-di-studio",
+    "title": "PoliBa scholarships and international-student support",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-POLIMI-AERO-BSC-2026",
+    "url": "https://www.polimi.it/formazione/corsi-di-laurea/dettaglio-corso/ingegneria-aerospaziale",
+    "title": "Ingegneria Aerospaziale bachelor’s profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-POLIMI-AERONAUTICAL-2026",
+    "url": "https://www.polimi.it/en/education/laurea-programmes/programme-detail/aeronautical-engineering",
+    "title": "Aeronautical Engineering MSc profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-POLIMI-ARCH-BSC-2026",
+    "url": "https://www.polimi.it/formazione/corsi-di-laurea/dettaglio-corso/progettazione-dellarchitettura",
+    "title": "Progettazione dell'Architettura bachelor’s profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-POLIMI-ARCH-MSC-2026",
+    "url": "https://www.polimi.it/en/education/laurea-programmes/programme-detail/architecture",
+    "title": "Architecture MSc profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-POLIMI-BIOMED-BSC-2026",
+    "url": "https://www.polimi.it/formazione/corsi-di-laurea/dettaglio-corso/ingegneria-biomedica",
+    "title": "Ingegneria Biomedica bachelor’s profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-POLIMI-BIOMED-MSC-2026",
+    "url": "https://www.polimi.it/en/education/laurea-magistrale-programmes/programme-detail/biomedical-engineering-1",
+    "title": "Biomedical Engineering MSc profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-POLIMI-CIVIL-MSC-2026",
+    "url": "https://www.polimi.it/formazione/corsi-di-laurea/dettaglio-corso/ingegneria-civile-civil-engineering",
+    "title": "Ingegneria Civile – Civil Engineering MSc profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-POLIMI-COMM-DESIGN-2026",
+    "url": "https://www.polimi.it/en/education/laurea-magistrale-programmes/programme-detail/communication-design-1",
+    "title": "Communication Design MSc profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-POLIMI-COMP-BSC-2026",
+    "url": "https://dynamicpoli.polimi.it/formazione/corsi-di-laurea/dettaglio-corso/ingegneria-informatica",
+    "title": "Ingegneria Informatica bachelor’s profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-POLIMI-DESIGNENG-2025",
+    "url": "https://www.polimi.it/en/education/laurea-programmes/programme-detail/design-engineering",
+    "title": "Design & Engineering MSc profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-POLIMI-INTERIOR-BSC-2026",
+    "url": "https://www.polimi.it/formazione/corsi-di-laurea/dettaglio-corso/design-degli-interni",
+    "title": "Design degli Interni bachelor’s profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-POLIMI-MECH-2025",
+    "url": "https://www.polimi.it/en/education/laurea-magistrale-programmes/programme-detail/mechanical-engineering-1",
+    "title": "Mechanical Engineering MSc profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-POLIMI-MGMT-BSC-2026",
+    "url": "https://www.polimi.it/formazione/corsi-di-laurea/dettaglio-corso/ingegneria-gestionale",
+    "title": "Ingegneria Gestionale bachelor’s profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-POLITO-AERO-2026",
+    "url": "https://www.polito.it/en/education/master-s-degree-programmes/aerospace-engineering",
+    "title": "Aerospace Engineering MSc profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-POLITO-ARCHCC-2026",
+    "url": "https://www.polito.it/en/education/master-s-degree-programmes/architecture-construction-city",
+    "title": "Architecture Construction City MSc profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-POLITO-AUTO-2026",
+    "url": "https://www.polito.it/en/education/master-s-degree-programmes/automotive-engineering",
+    "title": "Automotive Engineering MSc profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-POLITO-COMPUTER-2026",
+    "url": "https://www.polito.it/en/education/master-s-degree-programmes/computer-engineering",
+    "title": "Computer Engineering MSc profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-POLITO-CYBER-2026",
+    "url": "https://www.polito.it/en/education/master-s-degree-programmes/cybersecurity-engineering",
+    "title": "Cybersecurity Engineering MSc profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-POLITO-DATA-2026",
+    "url": "https://www.polito.it/en/education/master-s-degree-programmes/data-science-and-engineering",
+    "title": "Data Science and Engineering MSc profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-POLITO-DIGITAL-SKILLS-2026",
+    "url": "https://www.polito.it/en/education/master-s-degree-programmes/digital-skills-for-sustainable-societal-transitions",
+    "title": "Digital Skills for Sustainable Societal Transitions MSc profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-POLITO-ICT-2026",
+    "url": "https://www.polito.it/en/education/master-s-degree-programmes/ict-engineering-for-smart-societies",
+    "title": "ICT Engineering for Smart Societies MSc profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-POLITO-MATHEMATICAL-ENGINEERING-ENGLISH-TRACK-2027",
+    "url": "https://www.polito.it/en/education/master-s-degree-programmes/mathematical-engineering/guidelines",
+    "title": "Mathematical Engineering – planned English study track from 2027/28",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-POLITO-MATHEMATICAL-ENGINEERING-PROFILE-2026",
+    "url": "https://www.polito.it/en/education/master-s-degree-programmes/mathematical-engineering",
+    "title": "Mathematical Engineering – official programme profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-POLITO-MSC-CATALOGUE-2026",
+    "url": "https://www.polito.it/en/education/master-s-degree-programmes",
+    "title": "Master's degree programme catalogue",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-POLITO-QUANTUM-2026",
+    "url": "https://www.polito.it/en/education/master-s-degree-programmes/quantum-engineering",
+    "title": "Quantum Engineering MSc profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-ROMA2-COMPUTER-SCIENCE-MSC-2026",
+    "url": "https://web.uniroma2.it/en/contenuto/computer_science-93169",
+    "title": "Computer Science – official Tor Vergata MSc catalogue entry",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-ROMA2-COMPUTER-SCIENCE-REGULATIONS-2026",
+    "url": "https://informatica.uniroma2.it/en/home/magistrale/il-corso/regulations/",
+    "title": "Computer Science – official Master's regulations",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-ROMATRE-BSC-CATALOGUE-2026",
+    "url": "https://www.uniroma3.it/didattica/lauree-ws-l/",
+    "title": "Corsi di laurea – A.A. 2026/2027",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-ROMATRE-ENGLISH-INVENTORY",
+    "url": "https://www.uniroma3.it/internazionale/studiare-a-roma-tre/corsi-in-inglese/",
+    "title": "Offerta formativa in lingua inglese e doppi titoli",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-ROMATRE-FEES-2026",
+    "url": "https://portalestudente.uniroma3.it/tasse/tasse/",
+    "title": "Tasse e contributi universitari",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-ROMATRE-FOREIGN-GUIDE-2026",
+    "url": "https://www.uniroma3.it/int/wp-content/uploads/file_locked/2026/06/GUIDE-HOW-TO-APPLY-ENG-2026-27.pdf",
+    "title": "How to apply – students with foreign qualifications 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-ROMATRE-INTL",
+    "url": "https://orientamento.uniroma3.it/en/about-roma-tre/international-students-admissions/",
+    "title": "International Students Admission",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-ROMATRE-MSC-CATALOGUE-2026",
+    "url": "https://www.uniroma3.it/didattica/lauree-ws-lm/",
+    "title": "Corsi di laurea magistrale – A.A. 2026/2027",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-SALERNO-CATALOGUE-2026",
+    "url": "https://web.unisa.it/didattica/immatricolazioni/scegli-uno-dei-nostri",
+    "title": "Enrolment course inventory 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-SALERNO-CS-REGULATION-2026",
+    "url": "https://corsi.unisa.it/uploads/rescue/__regolamenti-cds/2026/NF225.pdf",
+    "title": "Computer Science NF225 course regulation, cohort 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-SALERNO-ENGLISH-OFFER-2026",
+    "url": "https://web.unisa.it/en/teaching/international-teaching/postgraduate-degrees",
+    "title": "International teaching: degrees in English 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-SALERNO-FEES-2026",
+    "url": "https://web.unisa.it/didattica/segreteria/tasse-e-contributi",
+    "title": "Tuition and contributions 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-SALERNO-INTL",
+    "url": "https://web.unisa.it/en/teaching/enrollment/non-eu-citizens-abroad",
+    "title": "Enrolment – Non-EU citizens abroad",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-SALERNO-SCHOLARSHIP-CALL-2026",
+    "url": "https://web.unisa.it/uploads/rescue/167/14294/call-for-applications-unisa-scholarship-2026-2027.pdf",
+    "title": "UNISA Scholarship call 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-SALERNO-SCHOLARSHIP-NOTICE-2026",
+    "url": "https://web.unisa.it/international/bandi/mobilita-in-ingresso?anno=2026&bando=14294",
+    "title": "UNISA Scholarship 2026/27: latest deadline and ranking notice",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-SAPIENZA-AERONAUTICAL-2026",
+    "url": "https://corsidilaurea.uniroma1.it/it/course/33483",
+    "title": "Aeronautical Engineering course profile 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-SAPIENZA-AEROSPACE-ADMISSION-CALL-2026",
+    "url": "https://www.uniroma1.it/sites/default/files/field_file_allegati/14616_bando_ici.pdf",
+    "title": "Ingegneria Aerospaziale – AY 2026/27 TOLC-I admission call (Bando 14616)",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-SAPIENZA-AEROSPACE-BSC-2026",
+    "url": "https://corsidilaurea.uniroma1.it/it/course/33474",
+    "title": "Ingegneria Aerospaziale course profile 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-SAPIENZA-ECFIN-ARCHIVE-2025",
+    "url": "https://www.corsidilaurea.uniroma1.it/en/corso/2025/33438/home",
+    "title": "Economics and Finance archived course profile 2025/26",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-SAPIENZA-ECFIN-PROFILE-2026",
+    "url": "https://corsidilaurea.uniroma1.it/en/course/34177",
+    "title": "Economics and Finance course profile 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-SAPIENZA-ECONOMICS-FINANCE-2026",
+    "url": "https://corsidilaurea.uniroma1.it/en/timeview/2026/34177/organization",
+    "title": "Economics and Finance bachelor’s listing 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-SAPIENZA-ENGCSAI-CALL-2026",
+    "url": "https://corsidilaurea.uniroma1.it/sites/default/files/offertaformativa/documenti_ufficiali/187/33515_e_1.pdf",
+    "title": "Engineering in Computer Science and Artificial Intelligence – AY 2026/27 admission call",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-SAPIENZA-ENGCSAI-COURSE-2026",
+    "url": "https://corsidilaurea.uniroma1.it/en/timeview/2026/33515/organization",
+    "title": "Engineering in Computer Science and Artificial Intelligence course regulations 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-SAPIENZA-ENGCSAI-PROFILE-2026",
+    "url": "https://corsidilaurea.uniroma1.it/en/course/33515/home",
+    "title": "Engineering in Computer Science and Artificial Intelligence – 2026/27 course profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-SAPIENZA-ENGLISH-ADMISSIONS-2026",
+    "url": "https://www.uniroma1.it/en/en/admissions",
+    "title": "Programmes in English and 2026/27 pre-selection",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-SAPIENZA-FEES-2026",
+    "url": "https://www.uniroma1.it/en/pagina/tuition-fees-and-benefits",
+    "title": "Tuition, payment and foreign-income guidance 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-SAPIENZA-FINANCE-INSURANCE-2026",
+    "url": "https://www.corsidilaurea.uniroma1.it/en/course/33439",
+    "title": "Finance and Insurance Master’s profile 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-SAPIENZA-FINANCE-INSURANCE-FACULTY-2026",
+    "url": "https://economia.web.uniroma1.it/it/finanza-e-assicurazioni-20262027",
+    "title": "Finanza e Assicurazioni Faculty profile 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-SAPIENZA-INGINFO-ARCHIVE-2024",
+    "url": "https://corsidilaurea.uniroma1.it/sites/default/files/archive/2024/30430.pdf",
+    "title": "Ingegneria Informatica historical course archive",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-SAPIENZA-INTL",
+    "url": "https://www.uniroma1.it/it/pagina/segreteria-studenti-internazionali",
+    "title": "International Students Office",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-SAPIENZA-MEDICINE-2026",
+    "url": "https://corsidilaurea.uniroma1.it/it/solr-offerta-formativa-t?search_api_views_fulltext=Medicina+e+chirurgia",
+    "title": "Medicine and Surgery course catalogue entries 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-SAPIENZA-MEDICINE-F-PROFILE-2026",
+    "url": "https://corsidilaurea.uniroma1.it/en/course/33454",
+    "title": "Medicine and Surgery F – AY 2026/27 course profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-SAPIENZA-MEDICINE-VARIANTS-2026",
+    "url": "https://corsidilaurea.uniroma1.it/it/solr-offerta-formativa-t?search_api_views_fulltext=Medicina+e+chirurgia",
+    "title": "Medicine and Surgery course variants – AY 2026/27 catalogue",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-SAPIENZA-MOVEIN-REQUIREMENTS-2026",
+    "url": "https://www.uniroma1.it/sites/default/files/field_file_allegati/academic_requirements_movein_2026-2027_web.pdf",
+    "title": "English-program academic and language requirements 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-SAPIENZA-POLITICAL-SCIENCE-2026",
+    "url": "https://corsidilaurea.uniroma1.it/it/course/33618",
+    "title": "Political Science and International Relations bachelor’s profile 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-SAPIENZA-POLITICAL-SCIENCE-APPLY-2026",
+    "url": "https://corsidilaurea.uniroma1.it/it/course/33618/apply",
+    "title": "Scienze politiche e relazioni internazionali – application and OFA page",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-SAPIENZA-POLITICAL-SCIENCE-CALL-2026",
+    "url": "https://corsidilaurea.uniroma1.it/sites/default/files/offertaformativa/documenti_ufficiali/187/14620_i_0.pdf",
+    "title": "Scienze politiche e relazioni internazionali – AY 2026/27 access call (Bando 14620)",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-SAPIENZA-PSYCHOLOGY-2026",
+    "url": "https://corsidilaurea.uniroma1.it/it/course/33570",
+    "title": "Psychology and Health bachelor’s profile 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-SAPIENZA-PSYCHOLOGY-APPLY-2026",
+    "url": "https://corsidilaurea.uniroma1.it/it/course/33570/apply",
+    "title": "Psicologia e Salute – current catalogue application and ranking page",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-SAPIENZA-PSYCHOLOGY-CALL-2026",
+    "url": "https://www.uniroma1.it/sites/default/files/field_file_allegati/05429_i.pdf",
+    "title": "Psychology and Health – AY 2026/27 admission call (Bando 05429)",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-SAPIENZA-SCHOLARSHIPS-2026",
+    "url": "https://www.uniroma1.it/en/pagina/scholarships",
+    "title": "Sapienza scholarships and student benefits inventory",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-SIENA-2027",
+    "url": "https://admission.unisi.it/",
+    "title": "International Students Admissions – Information Portal",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-SIENA-AM-PROFILE-2026",
+    "url": "https://en.unisi.it/ugov/degree/120546",
+    "title": "Applied Mathematics – 2026/27 degree profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-SIENA-AM-PROGRAM",
+    "url": "https://applied-mathematics.unisi.it/en",
+    "title": "Applied Mathematics – program overview",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-SIENA-CALENDAR-2027",
+    "url": "https://admission.unisi.it/?p=3003",
+    "title": "Admission Calendar – 2027/28 status",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-TRIESTE-APPLY",
+    "url": "https://portale.units.it/en/study/application",
+    "title": "Application",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-TRIESTE-CATALOGUE-2026",
+    "url": "https://portale.units.it/it/studiare/offerta-formativa",
+    "title": "UniTS educational offer 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-TRIESTE-DSAI-ADMISSION-2026",
+    "url": "https://degree.units.it/en/0320107313600001/how-apply",
+    "title": "DSAI MSc: how to apply 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-TRIESTE-DSAI-PROFILE",
+    "url": "https://degree.units.it/en/0320107313600001",
+    "title": "Data Science and Artificial Intelligence MSc official profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-TRIESTE-FEES-2026",
+    "url": "https://portale.units.it/en/study/university-fees/bachelor-master-degrees-and-one-cycle-master-degrees",
+    "title": "University fees 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-TRIESTE-FEES-NOTICE-2026",
+    "url": "https://repo.units.it/docs/units_CdL_tasse-avvisoTasse_en.2026-2027.pdf",
+    "title": "Fee notice 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-TRIESTE-FOREIGN-DOCUMENTS",
+    "url": "https://portale.units.it/en/international/destination-units/degree-seekers/documents",
+    "title": "International students: required documents",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-TRIESTE-PHYSICS-ADMISSION-2026",
+    "url": "https://degree.units.it/en/0320107301800010/how-apply",
+    "title": "Physics MSc: how to apply 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-TRIESTE-PHYSICS-PROFILE",
+    "url": "https://degree.units.it/en/0320107301800010",
+    "title": "Physics MSc official profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UDINE-APPLY",
+    "url": "https://www.uniud.it/en/education/info-for/how-to-apply/how-to-apply?set_language=en",
+    "title": "How to apply",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UDINE-CS-PROFILE-2026",
+    "url": "https://www.uniud.it/en/education/offer/courses/scientific-area/mathematics-computer-sciences-multimedia-physics/master-degree-courses-graduate-120-ects/computer-science/computer-science?set_language=en",
+    "title": "Computer Science MSc course profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UDINE-CS-REQ-2026",
+    "url": "https://www.uniud.it/it/didattica/corsi/area-scientifica/scienze-matematiche-informatiche-multimediali-fisiche/laurea-magistrale/informatica/iscrizione/conoscenze-requisiti-accesso/main?set_language=it",
+    "title": "Computer Science course admission requirements",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UDINE-FEES-2026",
+    "url": "https://www.uniud.it/it/didattica/area-servizi-studenti/servizi-studenti/diritto-allo-studio/tasse_merito/tasse-riduzioni-esoneri/allegati/avviso_aggiuntivo_2026-27",
+    "title": "Additional Notice on tuition, contributions and exemptions 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UDINE-FEES-INTERNATIONAL-2026",
+    "url": "https://www.uniud.it/en/uniud-international/International_Students/ammissione-non-ue/prima-arrivo-ue/informazioni-utili?set_language=en",
+    "title": "Useful information for international students: fees and benefits",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UDINE-FOREIGN-QUALIFICATIONS-2026",
+    "url": "https://www.uniud.it/en/uniud-international/International_Students/ammissione-non-ue/prima-arrivo-ue/documentazione/manifesto-aggiuntivo-extra-ue_eng.pdf",
+    "title": "Additional Notice for applicants with foreign qualifications 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UDINE-SCIENCE-MANIFESTO-2026",
+    "url": "https://www.uniud.it/it/didattica/segreteria-studenti/manifesto-degli-studi/scienze-matematiche-informatiche-multimediali-fisiche",
+    "title": "Mathematics, Computer Science and Physics study prospectus 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIBO-AI-PROFILE-2026",
+    "url": "https://corsi.unibo.it/2cycle/artificial-intelligence/",
+    "title": "Artificial Intelligence – official degree profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIBO-BA-CURRICULUM-2026",
+    "url": "https://corsi.unibo.it/2cycle/BusinessAnalytics/overview",
+    "title": "Business Analytics – current official curriculum profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIBO-BA-CURRICULUM-PARENT-2026",
+    "url": "https://corsi.unibo.it/2cycle/StatisticsEconomicsBusiness",
+    "title": "Statistics, Economics and Business – current parent degree profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIBO-BBS-GREEN-MGMT-2026",
+    "url": "https://www.bbs.unibo.it/en/master-fulltime/business-management-green-management-and-sustainable-businesses/",
+    "title": "Business Management – Green Management and Sustainable Businesses – BBS course and current application information",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIBO-CLABE-PROFILE-2026",
+    "url": "https://corsi.unibo.it/1cycle/CLaBE/Presentation",
+    "title": "Business and Economics (CLaBE) – official degree profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIBO-CLABE-PROGRAM-CODE-2026",
+    "url": "https://corsi.unibo.it/1cycle/CLaBE/prospects",
+    "title": "Business and Economics – official course code and programme profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIBO-CLEF-PROFILE-2026",
+    "url": "https://corsi.unibo.it/1cycle/EconomicsFinance/overview",
+    "title": "Economics and Finance (CLEF) – official degree profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIBO-COMMUNICATION-2026",
+    "url": "https://corsi.unibo.it/laurea/ScienzeComunicazione",
+    "title": "Scienze della comunicazione – Bologna bachelor's profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIBO-DHDK-PROFILE-2026",
+    "url": "https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge/",
+    "title": "Digital Humanities and Digital Knowledge – official degree profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIBO-ECON-COMMERCIO-2026",
+    "url": "https://corsi.unibo.it/laurea/EconomiaCommercio",
+    "title": "Economia e commercio – official degree profile at Forlì",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIBO-ECONOMIA-COMMERCIO-LOCATION-2026",
+    "url": "https://corsi.unibo.it/laurea/EconomiaCommercio/sedute-di-laurea",
+    "title": "Economia e commercio – official Forlì campus course page",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIBO-GESTIONALE-BSC-2026",
+    "url": "https://corsi.unibo.it/laurea/IngegneriaGestionale",
+    "title": "Ingegneria gestionale – Bologna bachelor's profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIBO-ING-INF-MSC-2026",
+    "url": "https://corsi.unibo.it/magistrale/ingegneriainformatica/index.html",
+    "title": "Ingegneria informatica – Bologna MSc profile and admission page",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIBO-LAW-2026",
+    "url": "https://corsi.unibo.it/magistralecu/Giurisprudenza-Bologna/esplora-il-corso",
+    "title": "Giurisprudenza – Bologna single-cycle degree profile and 2026/27 regulation",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIBO-LAW-CATALOGUE-2026",
+    "url": "https://www.unibo.it/it/studiare/lauree-e-lauree-magistrali-a-ciclo-unico/corso/2026/6827",
+    "title": "Giurisprudenza – 2026/27 University catalogue entry (code 6827)",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIBO-MED-EN-CATALOGUE-2026",
+    "url": "https://www.unibo.it/en/study/first-and-single-cycle-degree/programme/2026/6264",
+    "title": "Medicine and Surgery – 2026/27 University course catalogue entry (code 6264)",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIBO-MED-EN-PROFILE-2026",
+    "url": "https://corsi.unibo.it/singlecycle/MedicineAndSurgery/overview",
+    "title": "Medicine and Surgery – English-taught single-cycle course profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIBO-MED-IT-CATALOGUE-2026",
+    "url": "https://www.unibo.it/it/studiare/lauree-e-lauree-magistrali-a-ciclo-unico/corso/2026/6733",
+    "title": "Medicina e chirurgia – 2026/27 University catalogue entry (code 6733)",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIBO-MED-IT-PROFILE-2026",
+    "url": "https://corsi.unibo.it/magistralecu/MedicinaChirurgia",
+    "title": "Medicina e chirurgia – Italian-taught single-cycle course profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIBO-MES-PROFILE-2026",
+    "url": "https://corsi.unibo.it/2cycle/MechanicalEngineering-Forli",
+    "title": "Mechanical Engineering for Sustainability – official degree profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNICT-DS-PROGRAM-2026",
+    "url": "https://www.unict.it/en/node/32509",
+    "title": "Data Science – 2026/27 degree page",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNICT-DSM-LEGACY",
+    "url": "https://www.dei.unict.it/corsi/lm-91",
+    "title": "Data Science for Management – course page and replacement notice",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNICT-ENGLISH-MASTERS-2026",
+    "url": "https://www.unict.it/en/node/25736",
+    "title": "Master's Degree programmes taught in English",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNICT-FEES-2026",
+    "url": "https://www.unict.it/en/node/32717",
+    "title": "Manifesto degli studi and student contribution rules, 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNICT-MASTER-ADMISSION-2026",
+    "url": "https://www.unict.it/it/corsi-numero-non-programmato/2026-2027/procedura-di-ammissione-al-1%C2%B0-anno-corsi-di-laurea-magistrale",
+    "title": "First-year admission procedure for non-programmed two-year Master's courses, 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNICT-SCHOLARSHIPS-2026",
+    "url": "https://www.unict.it/it/node/31838",
+    "title": "University of Catania Scholarships 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIFI-ARCH-ICAD-2026",
+    "url": "https://www.icad.unifi.it/vp-238-presentation.html",
+    "title": "Architectural Design (iCAD) – official English curriculum and admission page",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIFI-ARCHITECTURE-MSC-2026",
+    "url": "https://www.unifi.it/en/study-us/degree-programs/second-cycle-degree/architecture",
+    "title": "Architecture – official degree profile and 2026/27 study plan",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIFI-ECON-DEV-MSC-2026",
+    "url": "https://www.unifi.it/en/study-us/degree-programs/second-cycle-degree/economics-and-development",
+    "title": "Economics and Development – official degree profile and 2026/27 plan",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIFI-FINANCE-RISK-MSC-2026",
+    "url": "https://www.unifi.it/en/study-us/degree-programs/second-cycle-degree/finance-and-risk-management",
+    "title": "Finance and Risk Management – official degree profile and 2026/27 plan",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIFI-GEOENGINEERING-ENROLMENT-2026",
+    "url": "https://www.ing-gem.unifi.it/p143.html",
+    "title": "Geoengineering – 2026/27 official enrollment instructions",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIFI-GEOENGINEERING-MSC-2026",
+    "url": "https://www.unifi.it/en/study-us/degree-programs/second-cycle-degree/geoengineering",
+    "title": "Geoengineering – official degree profile and 2026/27 study plan",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIFI-RISE-ENGLISH-PATHWAY-2026",
+    "url": "https://www.rise.unifi.it/index.php?func=viewpage&module=CMpro&newlang=eng&pageid=540",
+    "title": "RISE – English-only study pathway and 2026/27 study plan",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIFI-RISE-MSC-2026",
+    "url": "https://www.unifi.it/en/study-us/degree-programs/second-cycle-degree/international-relations-and-european-studies",
+    "title": "International Relations and European Studies – official 2026/27 course profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIFI-SUSBUS-BSC-2026",
+    "url": "https://www.unifi.it/en/study-us/degree-programs/first-cycle-degree/sustainable-business-societal-challenges",
+    "title": "Sustainable Business for Societal Challenges – official degree profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIFI-SUSBUS-CALL-2026",
+    "url": "https://www.unifi.it/en/node/9897",
+    "title": "Sustainable Business for Societal Challenges – official 2026/27 admission calls",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIFI-URBAN-PLANNING-MSC-2026",
+    "url": "https://www.unifi.it/en/study-us/degree-programs/second-cycle-degree/urban-and-regional-planning-and-design-sustainability",
+    "title": "Urban and Regional Planning and Design for Sustainability – official profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIGE-11871-ADMISSION",
+    "url": "https://corsi.unige.it/en/corsi/11871/prospective-students-admission-criteria-procedure",
+    "title": "Business Administration BSc – admission criteria",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIGE-11871-PROFILE-2026",
+    "url": "https://corsi.unige.it/en/corsi/11871",
+    "title": "Business Administration BSc – course profile 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIGE-11896-ADMISSION",
+    "url": "https://corsi.unige.it/en/corsi/11896/prospective-students-admission-criteria-procedure",
+    "title": "Computer Science BSc – admission criteria",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIGE-11896-PROFILE-2026",
+    "url": "https://corsi.unige.it/en/corsi/11896",
+    "title": "Computer Science BSc – course profile 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIGE-11917-ADMISSION",
+    "url": "https://corsi.unige.it/en/corsi/11917/prospective-students-admission-criteria-procedure",
+    "title": "Energy Engineering MSc – admission criteria",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIGE-11917-PROFILE-2026",
+    "url": "https://corsi.unige.it/en/corsi/11917",
+    "title": "Energy Engineering MSc – course profile 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIGE-11933-ADMISSION",
+    "url": "https://corsi.unige.it/en/corsi/11933/prospective-students-admission-criteria-procedure",
+    "title": "Bioengineering MSc – admission criteria",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIGE-11933-PROFILE-2026",
+    "url": "https://corsi.unige.it/en/corsi/11933",
+    "title": "Bioengineering MSc – course profile 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIGE-11937-ADMISSION",
+    "url": "https://corsi.unige.it/en/corsi/11937/prospective-students-admission-criteria-procedure",
+    "title": "Economics and Data Science MSc – admission criteria",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIGE-11937-PROFILE-2026",
+    "url": "https://corsi.unige.it/en/corsi/11937",
+    "title": "Economics and Data Science MSc – course profile 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIGE-11963-ADMISSION",
+    "url": "https://corsi.unige.it/en/corsi/11963/prospective-students-admission-criteria-procedure",
+    "title": "Robotics Engineering MSc – admission criteria",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIGE-11963-PROFILE-2026",
+    "url": "https://corsi.unige.it/en/corsi/11963",
+    "title": "Robotics Engineering MSc – course profile 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIGE-11964-ADMISSION",
+    "url": "https://corsi.unige.it/en/corsi/11964/prospective-students-admission-criteria-procedure",
+    "title": "Computer Science MSc – admission criteria",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIGE-11964-PROFILE-2026",
+    "url": "https://corsi.unige.it/en/corsi/11964",
+    "title": "Computer Science MSc – course profile 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIGE-11965-ADMISSION",
+    "url": "https://corsi.unige.it/en/corsi/11965/prospective-students-admission-criteria-procedure",
+    "title": "Computer Engineering MSc – admission criteria",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIGE-11965-PROFILE-2026",
+    "url": "https://corsi.unige.it/en/corsi/11965",
+    "title": "Computer Engineering MSc – course profile 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIGE-11970-ADMISSION",
+    "url": "https://corsi.unige.it/en/corsi/11970/prospective-students-admission-criteria-procedure",
+    "title": "Electronic Engineering MSc – admission criteria",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIGE-11970-PROFILE-2026",
+    "url": "https://corsi.unige.it/en/corsi/11970",
+    "title": "Electronic Engineering MSc – course profile 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIGE-12133-ADMISSION",
+    "url": "https://corsi.unige.it/en/corsi/12133/prospective-students-admission-criteria-procedure",
+    "title": "Computer Engineering BSc – admission criteria",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIGE-12133-PROFILE-2026",
+    "url": "https://corsi.unige.it/en/corsi/12133",
+    "title": "Computer Engineering BSc – course profile 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIGE-2027",
+    "url": "https://unige.it/en/international-enrolment",
+    "title": "UniGeApply International Admissions",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIGE-CORES-2027",
+    "url": "https://life.unige.it/index.php/presentazione-cores-mag2026",
+    "title": "CORES Joint Master Degree – planned 2027/28 start",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIGE-FEES-2026",
+    "url": "https://unige.it/en/tasse-e-benefici/calcolo-contributo-universitario",
+    "title": "How tuition fees work – 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIGE-MST-2027",
+    "url": "https://corsi.unige.it/en/corsi/11929/news/attivazione-MST-2027-28",
+    "title": "Maritime Science and Technology – degree programme not offered in 2027/28",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIME-2027",
+    "url": "https://international.unime.it/study-us/application-and-admission",
+    "title": "Application and Admission – 2027/28",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIME-DS-COURSE-ECONOMY-2027",
+    "url": "https://unime.coursecatalogue.cineca.it/af/2027?ad=A001898&annoOrdinamento=2026&coorte=2026&corso=9237R&linguaCC=EN&pds=120",
+    "title": "Course Catalogue – Data Science, Big Data and Artificial Intelligence (Economy curriculum), 2027/28",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIME-DS-COURSE-ICT-2027",
+    "url": "https://unime.coursecatalogue.cineca.it/af/2027?ad=A001855&annoOrdinamento=2026&coorte=2026&corso=9237R&linguaCC=EN&pds=110",
+    "title": "Course Catalogue – Data Science, Big Data (ICT curriculum), 2027/28",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIMORE-CATALOGUE-2026",
+    "url": "https://www.unimore.it/en/education/degree-programmes?page=1",
+    "title": "Degree Programmes – 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIMORE-CE-PROFILE-2026",
+    "url": "https://www.unimore.it/en/education/degree-programmes/computer-engineering-dm27004-1",
+    "title": "Computer Engineering MSc – course 20-362",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIMORE-FEES-2026",
+    "url": "https://www.unimore.it/en/services/fees-and-benefits",
+    "title": "Fees and benefits 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIMORE-FOREIGN-QUALIFICATION",
+    "url": "https://www.unimore.it/en/internationalisation/foreign-qualification",
+    "title": "Foreign study qualification",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIMORE-INTL",
+    "url": "https://www.unimore.it/en/internationalisation/foreign-qualification",
+    "title": "Foreign study qualification",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNINA-ARCH-HERITAGE-2025",
+    "url": "https://www.corsi.unina.it/DB2/home",
+    "title": "Architecture and Heritage – official course catalogue and admission rules",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNINA-ARCH-HERITAGE-REG-2024",
+    "url": "https://www.diarc.archer.unina.it/images/ARCHER_2024-25_DidacticRegulations_CdS_ENGL_2023_SA_DM96_v6.pdf",
+    "title": "Architecture and Heritage – official didactic regulation",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNINA-CIVIL-ENV-BSC-2026",
+    "url": "https://www.civil-environmental.unina.it/admission/",
+    "title": "Civil and Environmental Engineering BSc – official 2026/27 admission page",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNINA-COMPUTER-SCIENCE-2025",
+    "url": "https://informatica.dieti.unina.it/index.php/en/degree-programs/degree-programs-overview",
+    "title": "Computer Science – official programme overview",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNINA-DATA-SCIENCE-GUIDE-2026",
+    "url": "https://www.orientamento.unina.it/corsidistudio/data-science-eng/",
+    "title": "Data Science – 2026/27 official student guide",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNINA-ECONOMICS-FINANCE-2026",
+    "url": "https://www.orientamento.unina.it/corsidistudio/economics-and-finance-eng/",
+    "title": "Economics and Finance (LMEF) – official English Master's profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNINA-ECONOMICS-FINANCE-DEPT-2026",
+    "url": "https://www.dises.unina.it/en_GB/il-dipartimento/presentazione",
+    "title": "Economics and Finance – Department of Economics and Statistics degree list",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNINA-INDUSTRIAL-BIOENGINEERING-2026",
+    "url": "https://www.orientamento.unina.it/corsidistudio/industrial-bio-engineering/",
+    "title": "Industrial Bioengineering – 2026/27 official student guide",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNINA-MED-ENGLISH-2025",
+    "url": "https://www.medicina.unina.it/pdf/P11/SMA-2024.pdf",
+    "title": "Medicine and Surgery in English – official single-cycle degree regulation",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNINA-MED-ENGLISH-2026",
+    "url": "https://www.unina.it/en/w/semestre-filtro-2026/27-al-via-le-lezioni-per-i-corsi-di-area-sanitaria",
+    "title": "Federico II 2026/27 healthcare-course semester-filter announcement",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNINA-MOVE-2026",
+    "url": "https://move.dii.unina.it/",
+    "title": "Autonomous Vehicle Engineering (MOVE) – 2026/27 course and admissions page",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNINA-MOVE-PROFILE-2025",
+    "url": "https://www.dii.unina.it/source/brochures-cds/magistrale/MOVE_eng.pdf",
+    "title": "Autonomous Vehicle Engineering – official programme brochure",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNINA-QUANTUM-2025",
+    "url": "https://www.orientamento.unina.it/corsidistudio/quantum-science-and-engineering/",
+    "title": "Quantum Science and Engineering – official course guide",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNINA-QUANTUM-PROFILE-2026",
+    "url": "https://www.fisica.unina.it/corso-di-laurea-magistrale-in-quantum-science-and-engineering",
+    "title": "Quantum Science and Engineering – Department of Physics 2026/27 course page",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIPG-CATALOGUE-2026",
+    "url": "https://www.unipg.it/didattica/corsi-di-laurea-e-laurea-magistrale/archivio/offerta-formativa-2026-27?annoregolamento=2026&cerca=&classe=&dipartimento=516600&lingua=&nomecorso=&ricerca=on&sede=&tipocorso=",
+    "title": "Engineering degree catalogue 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIPG-EM-BSC-2026",
+    "url": "https://ing.unipg.it/en/courses/engineering-management/first-cycle-degree-course",
+    "title": "Engineering Management – First cycle degree course",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIPG-EM-MSC-2026",
+    "url": "https://ing.unipg.it/en/courses/engineering-management/second-cycle-degree-course",
+    "title": "Engineering Management – Second cycle degree course",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIPG-FEES-2026",
+    "url": "https://www.unipg.it/en/international-students/becoming-a-unipg-student/tuition-fees-and-scholarships",
+    "title": "Tuition Fees and scholarships – 2026/27 guidance",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIPG-INTL",
+    "url": "https://www.unipg.it/en/international-students/becoming-a-unipg-student",
+    "title": "Becoming a UniPG student – international admissions",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIPI-BIONICS-2026",
+    "url": "https://www.unipi.it/didattica/corsi/lauree-magistrali/bionics-engineering-wber-lm/",
+    "title": "Bionics Engineering – official Pisa Master's profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIPI-NUCLEAR-2026",
+    "url": "https://nucleare.ing.unipi.it/images/files/SUA_2023.pdf",
+    "title": "Nuclear Engineering – official course identity in Pisa degree documentation",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNITN-AIS-PROFILE-2026",
+    "url": "https://corsi.unitn.it/en/artificial-intelligence-systems",
+    "title": "Artificial Intelligence Systems Master's degree",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNITN-CEILS-PROFILE-2026",
+    "url": "https://corsi.unitn.it/en/comparative-european-and-international-legal-studies",
+    "title": "Comparative, European and International Legal Studies Bachelor's degree",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNITN-COGSCI-PROFILE-2026",
+    "url": "https://corsi.unitn.it/en/cognitive-science",
+    "title": "Cognitive Science Master's degree",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNITN-CS-PROFILE-2026",
+    "url": "https://corsi.unitn.it/en/computer-science-master",
+    "title": "Computer Science Master's degree",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNITN-DS-PROFILE-2026",
+    "url": "https://corsi.unitn.it/en/data-science",
+    "title": "Data Science Master's degree",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNITN-HCI-PROFILE-2026",
+    "url": "https://corsi.unitn.it/en/human-computer-interaction",
+    "title": "Human-Computer Interaction Master's degree",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNITN-ISS-PROFILE-2026",
+    "url": "https://corsi.unitn.it/en/international-security-studies",
+    "title": "International Security Studies Master's degree",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNITO-AIHPC-2026",
+    "url": "https://en.unito.it/studying-unito/programs/degree-programs/artificial-intelligence-and-high-performance-computing",
+    "title": "Artificial Intelligence and High Performance Computing Technologies",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNITO-BM-BSC-2026",
+    "url": "https://en.unito.it/studying-unito/programs/degree-programs/business-management",
+    "title": "Business and Management Bachelor's degree",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNITO-BUSADMIN-2026",
+    "url": "https://en.unito.it/studying-unito/programs/degree-programs/business-administration-3",
+    "title": "Business Administration Master's degree",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNITO-ECON-MSC-2026",
+    "url": "https://en.unito.it/studying-unito/programs/degree-programs/economics-0",
+    "title": "Economics Master's degree",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNITO-EFDS-BSC-2026",
+    "url": "https://en.unito.it/studying-unito/programs/degree-programs/economics-and-finance-data-science",
+    "title": "Economics and Finance with Data Science Bachelor's degree",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNITO-EN-PROGRAMS-2026",
+    "url": "https://en.unito.it/studying-unito/programs/degree-programs/degree-programs-english",
+    "title": "Degree programs in English, academic year 2026–2027",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNITO-GLTLS-2026",
+    "url": "https://en.unito.it/studying-unito/programs/degree-programs/global-law-and-transnational-legal-studies",
+    "title": "Global Law and Transnational Legal Studies",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNITO-LTDH-2026",
+    "url": "https://en.unito.it/studying-unito/programs/degree-programs/language-technologies-and-digital-humanities",
+    "title": "Language Technologies and Digital Humanities",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNITO-MOLBIOTECH-2026",
+    "url": "https://en.unito.it/studying-unito/programs/degree-programs/molecular-biotechnology",
+    "title": "Molecular Biotechnology",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNITO-STOCH-2026",
+    "url": "https://en.unito.it/studying-unito/programs/degree-programs/stochastics-and-data-science",
+    "title": "Stochastics and Data Science",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIVPM-DS-CATALOGUE-2026",
+    "url": "https://www.econ.univpm.it/EM31_EM33",
+    "title": "Data Science for Economics, Business and Finance – 2026/27 catalogue",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIVPM-DS-PROFILE-2026",
+    "url": "https://www.orienta.univpm.it/en/our-courses/economics/data-science-for-economics-business-and-finance/",
+    "title": "Data Science for Economics, Business and Finance – UnivPM Orienta",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIVPM-FEES-2026",
+    "url": "https://www.univpm.it/Entra/Services_for_students/Scholarships_and_Opportunities/Tasse_e_agevolazioni/Tasse_e_contributi/Tuition_and_Fees",
+    "title": "Tuition and fees AY 2026/27",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-UNIVPM-INTL",
+    "url": "https://www.international.univpm.it/wp-content/uploads/2026/05/UNIVPM-ADMISSION-GUIDELINES_movein_2026-2027_updated.pdf",
+    "title": "International admissions guidelines 2026/27, updated May 2026",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-VERONA-BIOLOGY-ADMISSION-2026",
+    "url": "https://corsi.univr.it/?aa=2026%2F2027&ent=cs&id=1337&lang=en&menu=iscriversi&tab=comeiscriversi",
+    "title": "Biology for Translational Research and Precision Medicine – 2026/27 admissions",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-VERONA-BIOLOGY-PROFILE-2026",
+    "url": "https://corsi.univr.it/?ent=cs&id=1337&lang=en",
+    "title": "Biology for Translational Research and Precision Medicine – course profile",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "SRC-VERONA-INTL",
+    "url": "https://www.univr.it/en/our-services/international-degree-seeking-students",
+    "title": "International degree-seeking students",
+    "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  }
+]

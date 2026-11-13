@@ -377,3 +377,16 @@ th { background: #f6f8fa; color: #425168; font-size: .77rem; text-transform: upp
 .previous-cycle > strong { display: block; }
 .previous-cycle p { margin: .65rem 0; }
 .previous-cycle ul { padding-left: 1.2rem; }
+.decision-summary { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .7rem; margin: 1rem 0; }
+.decision-field { min-width: 0; overflow-wrap: anywhere; border-left: 3px solid var(--line); padding: .6rem .7rem; }
+.decision-field dt { font-weight: 750; font-size: .85rem; margin-bottom: .3rem; }
+.decision-field dd { margin: 0; font-size: .85rem; }
+.decision-field small { display: block; color: var(--muted); margin-top: .3rem; font-size: .72rem; }
+.decision-field .decision-cycle { font-weight: 700; }
+.decision-previous { border-left-color: #c7a15d; background: #302919; }
+.decision-previous .decision-cycle { color: #ecd195; }
+.decision-current { border-left-color: var(--green); }
+.decision-details { margin: 1.5rem 0; }
+.decision-details > dl { display: grid; gap: .8rem; }
+.decision-details p { font-size: .85rem; }
+@media (max-width: 480px) { .decision-summary { grid-template-columns: 1fr; } }

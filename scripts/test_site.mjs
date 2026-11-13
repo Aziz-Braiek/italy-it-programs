@@ -43,6 +43,7 @@ try {
   await noJs.goto(baseUrl, { waitUntil: "networkidle" });
   assert.equal(await noJs.locator("[data-program-card]").count(), totalPrograms, "all program entries are in the initial HTML with JavaScript disabled");
   assert.equal(await noJs.locator("[data-university-card]").count(), totalUniversities, "all universities are in the initial HTML with JavaScript disabled");
+  assert.equal(await noJs.locator(".decision-summary").count(), totalPrograms, "all decision summaries are server rendered without JavaScript");
   assert.equal(await noJs.locator(".program-card:not([hidden])").count(), totalPrograms, "static fallback exposes every entry");
   assert.equal(await noJs.locator("[data-program-card][data-status='CONFIRMED']").count(), confirmedPrograms);
   assert.equal(await noJs.locator("html").getAttribute("data-theme"), "dark");
@@ -74,6 +75,25 @@ try {
   assert.equal(await page.locator(".program-card:not([hidden])").count(), 18, "enhanced results are paginated");
   assert.equal(await page.locator(".program-card:not([hidden])[data-status='CONFIRMED']").count(), 18, "pending candidates are not initially mixed into confirmed offers");
   assert.equal(await page.locator("#pagination").isVisible(), true);
+
+  await page.locator("#filter-admission-test").selectOption("no");
+  await page.locator("#include-pending").check();
+  assert.deepEqual(await page.locator(".program-card:not([hidden])").evaluateAll(cards => cards.map(card => card.dataset.programId)), ["discovered-029"], "optional GRE/GMAT is a sourced current no-compulsory-test route; previous Polito optional GRE is excluded");
+  assert.equal(new URL(page.url()).searchParams.get("admission_test"), "no");
+  await page.locator("#clear-filters").click();
+  await page.locator("#filter-english-certificate").selectOption("required");
+  await page.locator("#filter-university").selectOption("pisa");
+  assert.equal(await page.locator('[data-program-id="legacy-053"]').isVisible(), true, "Pisa Cybersecurity requires current B2 proof");
+  assert.equal(await page.locator('[data-program-id="legacy-052"]').isVisible(), false, "previous-cycle B2 is not a confirmed certificate filter match");
+  assert.equal(new URL(page.url()).searchParams.get("english_certificate"), "required");
+  await page.locator("#clear-filters").click();
+  await page.locator("#filter-tuition").selectOption("documented");
+  assert.equal(await page.locator('.program-card:not([hidden])').count(), 9, "only current 28DIGITAL and GrEnFIn tuition rules match");
+  assert.equal(await page.locator('[data-program-id="legacy-052"]').isVisible(), false, "Pisa's previous-year fee never matches current tuition");
+  await page.locator("#clear-filters").click();
+  await page.locator("#filter-scholarship").selectOption("documented");
+  assert.equal(await page.locator('[data-program-id="discovered-020"]').isVisible(), false, "unsecured HySET funding is not a confirmed scholarship");
+  await page.locator("#clear-filters").click();
 
   await page.locator("#search").fill("Data Science");
   await page.waitForTimeout(100);
@@ -113,6 +133,8 @@ try {
   const csv = await csvPromise;
   const csvText = readFileSync(await csv.path(), "utf8");
   assert.match(csvText, /Program,|"Program"/);
+  assert.ok(csvText.includes("Prerequisite background and credits — cycle status"), "CSV includes field-specific cycle columns");
+  assert.ok(csvText.includes("Universitaly pre-enrolment — source URL"), "CSV includes inherited logistics provenance");
   assert.ok(csvText.includes(firstProgramName.trim()), "CSV contains the saved record");
 
   await page.locator("#clear-compare").click();
@@ -198,6 +220,17 @@ try {
 
   assert.deepEqual(consoleErrors, [], "browser console has no errors");
   assert.deepEqual(pageErrors, [], "browser reports no uncaught exceptions");
+
+  const estimateContext = await browser.newContext({ acceptDownloads: true });
+  await estimateContext.addInitScript(() => localStorage.setItem("itu-tracker-favorites-v2", JSON.stringify(["legacy-052"])));
+  const estimatePage = await estimateContext.newPage();
+  await estimatePage.goto(`${baseUrl}/?favorites=1`, { waitUntil: "networkidle" });
+  const estimateDownload = estimatePage.waitForEvent("download");
+  await estimatePage.locator("#export-csv").click();
+  const estimateCsv = readFileSync(await (await estimateDownload).path(), "utf8");
+  assert.ok(estimateCsv.includes("previous cycle (estimate only)"), "CSV keeps the historical cycle marker");
+  assert.ok(!estimateCsv.includes("2,900") && !estimateCsv.includes("72 ECTS"), "previous tuition amounts and prerequisites are omitted from exported values");
+  await estimateContext.close();
   const htmlSize = statSync(join(root, "index.html")).size;
   const cssSize = statSync(join(root, "assets", "site.css")).size;
   const jsSize = statSync(join(root, "assets", "site.js")).size;

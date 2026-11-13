@@ -20,6 +20,8 @@ from zoneinfo import ZoneInfo
 
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "scripts"))
+import decision_support as DECISION
 OUT = ROOT / "dist"
 BASE = "https://italy-it-programs.vercel.app"
 TODAY = datetime.now(ZoneInfo("Europe/Rome")).date()
@@ -38,6 +40,7 @@ SOURCES = read_json("sources.json")
 PRESENTATION = read_json("site-presentation.json")
 UNIVERSITY_BY_ID = {item["id"]: item for item in UNIVERSITIES}
 SOURCE_BY_ID = {item["id"]: item for item in SOURCES}
+PROGRAM_BY_ID = {item["id"]: item for item in PROGRAMS}
 PROGRAMS_BY_UNIVERSITY: dict[str, list[dict[str, Any]]] = {}
 for item in PROGRAMS:
     PROGRAMS_BY_UNIVERSITY.setdefault(item["university_id"], []).append(item)
@@ -293,6 +296,66 @@ def has_current_fact(program: dict[str, Any], keys: tuple[str, ...]) -> bool:
     )
 
 
+def decision_field(label: str, fact: dict[str, Any], *, compact: bool = False) -> str:
+    value = public_text(fact.get("value") or "Not confirmed")
+    display = public_text(fact.get("short_value") or value) if compact else value
+    cycle = fact.get("cycle_status", DECISION.UNKNOWN)
+    evidence_cycle = fact.get("academic_cycle")
+    cycle_text = cycle + (f" · {evidence_cycle}" if cycle == DECISION.PREVIOUS and evidence_cycle else "")
+    urls = fact.get("source_urls") or fact.get("checked_urls") or []
+    link_label = "Source" if cycle != DECISION.UNKNOWN else "Checked page"
+    shown_urls = urls[:1] if compact or cycle == DECISION.UNKNOWN else urls
+    links = " ".join(f'<a href="{esc(url)}" target="_blank" rel="noopener noreferrer">{link_label}{f" {i}" if i > 1 else ""} ↗</a>' for i, url in enumerate(shown_urls, 1))
+    checked = fact.get("verified_date")
+    provenance = f'Verified: {esc(checked)}' if checked else 'Verified date: Not confirmed'
+    if not checked and fact.get("checked_at"):
+        provenance += f' · Checked: {esc(fact["checked_at"])}'
+    reason = "" if compact else f'<p class="muted">{esc(public_text(fact.get("reason") or fact.get("notes") or ""))}</p>'
+    if not compact and fact.get("checked_urls"):
+        reason += '<details><summary>Official pages checked</summary><ul>' + ''.join(f'<li><a href="{esc(url)}" target="_blank" rel="noopener noreferrer">Checked official page {i}</a></li>' for i, url in enumerate(fact["checked_urls"], 1)) + '</ul></details>'
+    cls = "decision-previous" if cycle == DECISION.PREVIOUS else "decision-current" if cycle == DECISION.CURRENT else "decision-unknown"
+    return f'<div class="decision-field {cls}"><dt>{esc(label)}</dt><dd><span class="decision-value">{esc(display)}</span><small class="decision-cycle">{esc(cycle_text)}</small><small>{provenance} {links}</small>{reason}</dd></div>'
+
+
+def decision_summary(program: dict[str, Any]) -> str:
+    university = UNIVERSITY_BY_ID[program["university_id"]]
+    fields = [("Tuition", DECISION.resolve(program, "tuition", university)),
+              ("English requirement", DECISION.resolve(program, "english_requirement", university)),
+              ("Admission test", DECISION.resolve(program, "admission_test", university)),
+              ("Scholarship available", DECISION.scholarship_summary(program, university))]
+    return '<dl class="decision-summary">' + ''.join(decision_field(label, fact, compact=True) for label, fact in fields) + '</dl>'
+
+
+def university_logistics(university: dict[str, Any], program: dict[str, Any] | None = None) -> str:
+    fields = university.get("decision_support", {})
+    rows = ''
+    for key, label in DECISION.UNIVERSITY_FIELDS.items():
+        fact = fields.get(key) or DECISION.unknown()
+        if program and fact.get("program_ids") and program["id"] not in fact["program_ids"]:
+            fact = DECISION.unknown("The university's verified guidance is scoped to other named programmes; this programme's requirement remains unconfirmed.", fact.get("source_urls"), "2026-11-13")
+        rows += decision_field(label, fact)
+    offers = DECISION.scholarships(program, university) if program else fields.get("scholarships", [DECISION.unknown()])
+    rows += ''.join(decision_field("Scholarships and fee waivers", fact) for fact in offers)
+    return '<section class="decision-details" id="applicant-logistics"><h2>University logistics and funding</h2><p>Inherited from the university record. Requirements depend on qualification, residence and applicant route. Scholarship availability is competitive and does not guarantee eligibility or an award.</p><dl>' + rows + '</dl></section>'
+
+
+def decision_details(program: dict[str, Any]) -> str:
+    university = UNIVERSITY_BY_ID[program["university_id"]]
+    rows = ''.join(decision_field(label, DECISION.resolve(program, key, university)) for key, label in DECISION.PROGRAM_FIELDS.items())
+    return '<section class="decision-details"><h2>Eligibility and costs</h2><p>Each field has its own evidence and academic cycle. A confirmed fact is not an eligibility decision; any components marked Not confirmed remain unknown. Earlier estimates are excluded from confirmed filters and shortlist exports.</p><dl>' + rows + f'</dl><p><a href="/universities/{quote(university["id"], safe="")}/#applicant-logistics">University source record ↗</a></p></section>' + university_logistics(university, program)
+
+
+def decision_registry() -> dict[str, Any]:
+    keep = {"value", "cycle_status", "academic_cycle", "source_urls", "verified_date", "university_policy", "answer", "program_ids"}
+    def compact(fact):
+        return {key: value for key, value in fact.items() if key in keep}
+    return {"program_fields": DECISION.PROGRAM_FIELDS, "university_fields": {**DECISION.UNIVERSITY_FIELDS, "scholarships": "Scholarships and fee waivers"},
+            "programs": {p["id"]: {"university_id": p["university_id"], "facts": {key: compact(fact) for key, fact in p["decision_support"].items()}} for p in PROGRAMS},
+            "universities": {u["id"]: {**{key: compact(u["decision_support"][key]) for key in DECISION.UNIVERSITY_FIELDS},
+                                          "policies": {key: compact(fact) for key, fact in u["decision_support"].get("policies", {}).items()},
+                                          "scholarships": [compact(fact) for fact in u["decision_support"]["scholarships"]]} for u in UNIVERSITIES}}
+
+
 def primary_official_link(program: dict[str, Any]) -> tuple[str, str]:
     """Prefer an existing course-specific source; never invent a course URL."""
     override = PRESENTATION["programs"].get(program["id"], {}).get("primary_source_id")
@@ -337,6 +400,10 @@ class VisibleTextLint(HTMLParser):
         self.chunks = []
 
     def handle_starttag(self, tag, attrs):
+        values = dict(attrs)
+        if tag == "article" and values.get("data-program-id") in PROGRAM_BY_ID:
+            program = PROGRAM_BY_ID[values["data-program-id"]]
+            DECISION.validate_filter_flags(program, UNIVERSITY_BY_ID[program["university_id"]], values.get("data-tuition"), values.get("data-scholarship"))
         if tag in {"script", "style"}:
             self.ignored += 1
 
@@ -358,6 +425,9 @@ def lint_visible_text(document: str, path: str = "document") -> None:
     unresolved = re.search(r"\bunresolved\b", text, re.I)
     if match or unresolved:
         raise ValueError(f"UI-visible internal value in {path}: {(match or unresolved)[0]}")
+    residue = re.search(r"\bREQUIRES\b|Earlier listing:\s*Not confirmed|Not confirmed\s*(?:/|·|:)\s*Not confirmed|\bIT (?:programs?|degrees?)\b", text)
+    if residue:
+        raise ValueError(f"Wording residue in {path}: {residue[0]}")
 
 
 def application_badges(program: dict[str, Any]) -> str:
@@ -460,8 +530,10 @@ def program_data_attrs(program: dict[str, Any]) -> str:
             continue
         seen_deadlines.add(identity)
         deadline_events.append({"date": event_date, "eligible": eligible, "type": event_type})
-    scholarship = has_current_fact(program, ("scholarships_2027_2028", "scholarships"))
-    tuition = has_current_fact(program, ("tuition_2027_2028", "tuition"))
+    scholarship = DECISION.is_current(DECISION.scholarship_summary(program, uni))
+    tuition = DECISION.is_current(DECISION.resolve(program, "tuition", uni))
+    test = DECISION.resolve(program, "admission_test", uni)
+    english = DECISION.resolve(program, "english_requirement", uni)
     return " ".join(
         f'data-{key}="{esc(value)}"'
         for key, value in {
@@ -481,6 +553,8 @@ def program_data_attrs(program: dict[str, Any]) -> str:
             "deadlines": json.dumps(deadline_events, ensure_ascii=False, separators=(",", ":")),
             "tuition": "documented" if tuition else "pending",
             "scholarship": "documented" if scholarship else "pending",
+            "admission-test": test.get("answer", "not confirmed") if DECISION.is_current(test) else "not confirmed",
+            "english-certificate": english.get("answer", "not confirmed") if DECISION.is_current(english) else "not confirmed",
             "search": " ".join(
                 [program.get("program", ""), program.get("university", ""), program.get("city", ""),
                  uni.get("region", ""), field, level, language]
@@ -534,11 +608,16 @@ def program_card(program: dict[str, Any], *, detailed: bool = False) -> str:
         lint_degree_link(program, SOURCE_BY_ID[degree_source]["url"])
         detail_content += f'<p class="official-link"><a href="{esc(SOURCE_BY_ID[degree_source]["url"])}" target="_blank" rel="noopener noreferrer">University master’s admissions page ↗</a></p>'
     detail_content += previous_cycle_dates(program)
+    detail_content += decision_details(program) if detailed else decision_summary(program)
     if detailed:
+        # The frozen research observations remain downloadable; public decision
+        # fields come from their canonical, provenance-aware model above.
+        context_facts = {key: value for key, value in program.get("facts", {}).items()
+                         if not re.search(r"tuition|scholarship|requirements|english|language|selection|duration|ects|available_places|application_documents", key)}
         detail_content += (
             '<div class="detail-fields"><h2>Admissions information</h2>'
             '<p class="muted">Each item is labeled by status and source cycle. Earlier evidence does not confirm a 2027/28 intake.</p>'
-            f'{fact_cards(program.get("facts", {}))}</div>'
+            f'{fact_cards(context_facts)}</div>'
             '<section class="detail-sources"><h2>Official sources</h2>'
             f'{source_links(all_program_source_ids(program))}</section>'
         )
@@ -604,7 +683,7 @@ def university_card(university: dict[str, Any], *, detailed: bool = False) -> st
         for fact in fact_rows.values():
             if isinstance(fact, dict): fact_source_ids.extend(fact.get("source_ids") or [])
         sources_section = '<section class="detail-sources"><h2>Official sources</h2>' + source_links(list(dict.fromkeys(fact_source_ids))) + '</section>'
-        intro += note + links + programs + admissions_facts + sources_section + f'<p class="last-checked">Last reviewed: {esc(university.get("last_checked") or "Date not recorded")}</p>'
+        intro += note + links + programs + university_logistics(university) + admissions_facts + sources_section + f'<p class="last-checked">Last reviewed: {esc(university.get("last_checked") or "Date not recorded")}</p>'
     else:
         intro += links + f'<p class="last-checked">Last reviewed: {esc(university.get("last_checked") or "Date not recorded")}</p>'
     return f'<article class="university-card" data-university-card data-name="{esc(university.get("name", ""))}" data-city="{esc(university.get("city", ""))}" data-region="{esc(university.get("region", ""))}">{intro}</article>'
@@ -662,6 +741,8 @@ def homepage() -> str:
 <label class="filter-control"><span>Application dates</span><select id="filter-deadline"><option value="">Any date status</option><option value="known">Confirmed future date</option><option value="pending">No confirmed future date</option></select></label>
 <label class="filter-control"><span>Tuition information</span><select id="filter-tuition"><option value="">Any</option><option value="documented">2027/28 amount documented</option><option value="pending">No confirmed amount</option></select></label>
 <label class="filter-control"><span>Scholarship information</span><select id="filter-scholarship"><option value="">Any</option><option value="documented">2027/28 information documented</option><option value="pending">No confirmed details</option></select></label>
+<label class="filter-control"><span>Admission test</span><select id="filter-admission-test"><option value="">Any test status</option><option value="no">No compulsory admission test (interview may apply)</option></select></label>
+<label class="filter-control"><span>English certificate</span><select id="filter-english-certificate"><option value="">Any certificate status</option><option value="required">English certificate required (waivers may apply)</option></select></label>
 <label class="filter-control"><span>Sort by</span><select id="sort-by"><option value="availability">Confirmed availability first</option><option value="deadline">Next confirmed deadline</option><option value="university">University name</option><option value="program">Program name</option></select></label>
 <div class="filter-actions"><label class="check-control"><input id="include-pending" type="checkbox"><span>Show programs awaiting confirmation</span></label><button class="text-button" type="button" id="show-favorites" aria-pressed="false">Saved programs</button><button class="text-button" type="button" id="clear-filters">Clear filters</button></div>
 </div></details>'''
@@ -672,6 +753,8 @@ def homepage() -> str:
 <section class="section directory-section" id="programs"><div class="section-heading"><div><p class="eyebrow">SEARCH THE TRACKER</p><h2>Programs</h2><p>Filter by degree, location and admissions information. Save options on this device or share a filtered search.</p></div><div class="directory-tools"><button class="small-button" type="button" id="export-csv">Download shortlist CSV</button><button class="small-button" type="button" id="export-ics">Add confirmed deadlines to calendar</button></div></div><div class="status-legend" aria-label="Program status legend"><span><i class="legend-dot dot-confirmed"></i><strong>Available:</strong> official 2027/28 program evidence found</span><span><i class="legend-dot dot-pending"></i><strong>Awaiting confirmation:</strong> current intake not confirmed</span><span><i class="legend-dot dot-unavailable"></i><strong>Not offered:</strong> official evidence says no 2027/28 intake</span></div>{filter_html}<p class="result-count" id="result-count" aria-live="polite" aria-atomic="true">{len(PROGRAMS)} program records. Turn on “Show programs awaiting confirmation” to include pending entries after filtering.</p><noscript><p class="noscript-note">All {len(PROGRAMS)} program records are included below with their status. Use your browser’s find command to search. Interactive filters, saved programs and comparison need JavaScript.</p></noscript><div class="program-grid" id="program-grid">{cards}</div><div class="pagination" id="pagination" aria-label="Program result pages"><button class="small-button" id="page-previous" type="button">Previous</button><span id="page-summary" aria-live="polite"></span><button class="small-button" id="page-next" type="button">Next</button></div></section>
 <section class="section university-section" id="universities"><div class="section-heading"><div><p class="eyebrow">INSTITUTION DIRECTORY</p><h2>Universities in this tracker</h2><p>This is a selected set carried forward from the original tracker—not a complete list of Italian universities.</p></div></div><label class="university-search"><span>Search universities by name or location</span><input type="search" id="university-search" placeholder="Type a university, city, or region" autocomplete="off"></label><p class="result-count" id="university-count" aria-live="polite">{len(UNIVERSITIES)} universities</p><div class="university-grid" id="university-grid">{university_cards}</div><p class="empty-state" id="university-empty" hidden>No universities match this search.</p></section>
 <section class="guide-cta"><div><p class="eyebrow light">PLAN WITH OFFICIAL SOURCES</p><h2>New to applying in Italy?</h2><p>Start with a plain-language guide to university calls, international procedures, documents, costs and arrival steps.</p></div><a class="button button-primary" href="/guide/">Read the application guide <span aria-hidden="true">→</span></a></section>'''
+    body += '<script type="application/json" id="decision-support-data">' + json.dumps(decision_registry(), ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/") + '</script>'
+    body += '<section class="section"><h2>Decision-data review</h2><p>Eligibility, costs and logistics carry their own academic cycle and sources. Some research is still incomplete. <a href="/data/decision-support/report.md">Read the field counts and record outcomes</a> · <a href="/data/decision-support/unverified-fields.json">View unconfirmed fields and pages checked (JSON)</a> · <a href="/data/decision-support/source-conflicts.json">View source conflicts (JSON)</a></p></section>'
     return page("Italy University Tracker 2027/28 | International Programs", f"Explore {len(PROGRAMS)} source-linked program records at {len(UNIVERSITIES)} selected Italian universities. Explore all fields; see what is confirmed for 2027/28, compare options and follow official admissions sources.", body, dataset_schema=True)
 
 
@@ -717,6 +800,7 @@ def methodology_page() -> str:
     )
     body = '''<section class="page-hero"><p class="eyebrow light">TRANSPARENCY</p><h1>How to read the information</h1><p>The public wording is simpler than the underlying research codes, but every status remains tied to the source evidence and review date.</p></section><article class="prose narrow"><h2>Program status</h2><dl class="status-definitions"><dt><span class="status status-confirmed">Available for 2027/28</span></dt><dd>An official source supports the current-cycle program identity and core details. This does not mean a student has been admitted or that all applicant categories are eligible.</dd><dt><span class="status status-pending">Awaiting 2027/28 confirmation</span></dt><dd>The record is a candidate or earlier listing. Current first-year availability has not been confirmed. Do not treat historical course facts as current admission terms.</dd><dt><span class="status status-unavailable">Not offered for 2027/28</span></dt><dd>The reviewed official information says the program will not run for this cycle.</dd></dl><h2>Field-level information</h2><p>A program can be pending while a separate field—such as application dates or fees—is supported by current-cycle evidence. Each field shows whether it is confirmed for 2027/28, remains unconfirmed, has not yet been announced, or comes from earlier-cycle evidence. A date is sorted or exported only if the relevant fact is marked confirmed and supported by a 2027/28 source.</p><h2>Application badges and planning dates</h2><p>Program confirmed describes current-cycle course evidence, not an open application. Applications open requires a confirmed 2027/28 intake and a sourced round with both start and end dates covering the build date in Italy; it applies only to that round and its stated applicant category. A deadline alone does not imply applications are open. Check the official page for changes and exact closing times. Deadline known means a future confirmed application date is recorded. Deadline not yet published is used only when the date field is explicitly marked not yet published; other gaps remain Not confirmed. Conflicting dates are labeled separately.</p><p>Previous-cycle estimates retain the actual earlier dates and applicant scope, with no year shifted forward. They are shown only when no confirmed current-cycle application deadline is recorded. Conflicting or unverified historical dates stay in the detailed evidence; estimates never feed the next confirmed deadline, deadline sort or calendar export.</p><h2>Sorting</h2><p>Confirmed availability first is a deterministic ordering: confirmed records first, then university name, then program name. It is not a personalized recommendation. The URL value is sort=availability; old sort=recommended links map to this same default and are normalized. Next confirmed deadline uses only future, source-supported 2027/28 dates. Records without such a date sort last.</p><h2>Counts</h2><ul><li><strong>34 universities:</strong> institutions in this curated tracker scope.</li><li><strong>193 program records:</strong> prior tracker leads plus newer discoveries; some may be historical or still awaiting confirmation.</li><li><strong>23 available:</strong> records whose overall status is CONFIRMED for 2027/28 with official core evidence.</li><li><strong>167 awaiting confirmation:</strong> program records that do not yet have sufficient current-cycle evidence for the core program identity.</li></ul><p>Counts are record counts, not unique courses or admissions opportunities. Multiple tracks under a shared course may appear separately when official evidence distinguishes them.</p><h2>Sources and review dates</h2><p>Links go to official university, ministry or other cited pages. The source record notes its title, date accessed, cycle and the facts it supports. A “Last reviewed” date shows when that record was last checked; it does not mean every fact changed or that the page remains current after that date.</p><h2>Dates, fees and scholarships</h2><p>The site does not infer missing deadlines, tuition values, scholarship eligibility, acceptance rates or availability. Amounts and dates should be compared only when the same cycle, applicant group and fee basis apply. A university-wide deadline is not assumed to apply to every program.</p><h2>Research limits</h2><p>Coverage is partial. An unlisted program may exist; a missing deadline may have been published after the record was checked; and some official pages may be difficult to access or may change without notice. Please confirm directly with the university before applying.</p><p><a href="/updates/">View recent record review dates</a> · <a href="/about/">Read the site scope</a></p></article>'''
     body = body.replace("<li><strong>34 universities:</strong> institutions in this curated tracker scope.</li><li><strong>193 program records:</strong> prior tracker leads plus newer discoveries; some may be historical or still awaiting confirmation.</li><li><strong>23 available:</strong> records whose overall status is CONFIRMED for 2027/28 with official core evidence.</li><li><strong>167 awaiting confirmation:</strong> program records that do not yet have sufficient current-cycle evidence for the core program identity.</li>", count_items)
+    body = body.replace('<h2>Research limits</h2>', '<h2>Eligibility, cost and logistics evidence</h2><p>Decision fields use three labels: 2027/28 confirmed, previous cycle (estimate only), and not confirmed. Each known field links its own official source and verification date. Unknowns remain visible; the date a page was checked is distinct from verifying a value. General university rules and scoped funding offers are inherited from the university record.</p><p>Scholarship availability means a published, programme-applicable opportunity with conditions; it does not mean an award or that applications are currently open. No admission test is a filter for an explicitly supported current exemption or optional-test route. English-certificate filtering respects the published waiver conditions.</p><p>Shortlist CSV adds each decision field, its cycle status, official URL and verification date. Previous-cycle values are omitted from CSV values and from confirmed filters; their cycle marker explains why the value is not exported. Raw research and review files retain historical evidence for transparency. Application-deadline calculation, sorting and calendar exports are unchanged.</p><p><a href="/data/decision-support/report.md">Read the decision-field evidence and gaps report</a></p><h2>Research limits</h2>')
     return page("Methodology and Status Definitions | Italy University Tracker", "Definitions for confirmed, pending and unavailable program records, source cycles, dates, tuition and tracker statistics.", body, path="/methodology/")
 
 
@@ -830,6 +914,7 @@ def generate_social_card() -> None:
 
 
 def write_site() -> None:
+    DECISION.validate(UNIVERSITIES, PROGRAMS)
     root = ROOT.resolve()
     output = OUT.resolve()
     if not output.is_relative_to(root):
@@ -838,6 +923,11 @@ def write_site() -> None:
         shutil.rmtree(OUT)
     (OUT / "assets").mkdir(parents=True)
     (OUT / "data").mkdir()
+    (OUT / "data" / "decision-support.json").write_text(json.dumps(decision_registry(), ensure_ascii=False, indent=2)+"\n", encoding="utf-8")
+    decision_downloads = OUT / "data/decision-support"
+    decision_downloads.mkdir()
+    for filename in ("report.md", "coverage.json", "field-ledger.json", "unverified-fields.json", "record-outcomes.json", "source-conflicts.json", "source-checks.json", "additional-sources.json", "verified-facts.json"):
+        shutil.copy2(DECISION.RESEARCH / filename, decision_downloads / filename)
     for asset in ("site.css", "site.js"):
         shutil.copy2(ROOT / "site" / asset, OUT / "assets" / asset)
     for filename in ("programs-2027-2028.json", "universities-2027-2028.json", "sources.json"):

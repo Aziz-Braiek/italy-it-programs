@@ -1,0 +1,210 @@
+[
+  {
+    "id": "padua-fee-year-and-basis",
+    "field": "tuition",
+    "record_ids": [
+      "legacy-029",
+      "legacy-030",
+      "legacy-031",
+      "legacy-032",
+      "legacy-033",
+      "legacy-034",
+      "legacy-037",
+      "legacy-161",
+      "discovered-037"
+    ],
+    "checked_at": "2026-11-13",
+    "state": "conflicting_or_stale_official_guidance",
+    "claims": [
+      {
+        "source_id": "AUDIT-PADUA-CYBERSECURITY-PORTAL",
+        "source_url": "https://apply.unipd.it/courses/course/93-cybersecurity",
+        "published_claim": "Active 2027/28 application profile displays EUR 2,950/year and ISEE wording without a separately dated tariff."
+      },
+      {
+        "source_id": "SRC-PADUA-TUITION-2026",
+        "source_url": "https://www.unipd.it/en/contribuzione-studentesca",
+        "published_claim": "Published 2026/27 fee notice gives fixed non-EU/household-abroad contributions of EUR 2,790 humanities or EUR 2,990 scientific, with distinct lower-country rates."
+      }
+    ],
+    "handling": "Keep programme 2027/28 tuition Not confirmed. Do not infer the annual tariff or ISEE eligibility from the application-platform placeholder. Dates and fee bases differ."
+  },
+  {
+    "id": "hyset-scholarship-funding",
+    "field": "scholarships",
+    "record_ids": [
+      "discovered-020"
+    ],
+    "checked_at": "2026-11-13",
+    "state": "conflicting_or_stale_official_guidance",
+    "claims": [
+      {
+        "source_id": "SRC-POLITO-HYSET-ENGLISH",
+        "source_url": "https://hysetmaster.polito.it/faq",
+        "published_claim": "Generic FAQ describes a tuition waiver plus EUR 1,400/month."
+      },
+      {
+        "source_id": "SRC-POLITO-HYSET-FEES-2027",
+        "source_url": "https://hysetmaster.polito.it/news/programme-continuation-beyond-2026-funding-and-admissions",
+        "published_claim": "Dated continuation notice says 2027 external funding is not secured and scholarship availability cannot be guaranteed."
+      }
+    ],
+    "handling": "Keep 2027 funding Not confirmed; a programme-specific unknown takes precedence over older generic regional aid in the card summary."
+  },
+  {
+    "id": "28digital-application-calendar",
+    "field": "application_logistics",
+    "record_ids": [
+      "discovered-013",
+      "discovered-014",
+      "discovered-015",
+      "discovered-016",
+      "discovered-017",
+      "discovered-018",
+      "discovered-019"
+    ],
+    "checked_at": "2026-11-13",
+    "state": "conflicting_or_stale_official_guidance",
+    "claims": [
+      {
+        "source_id": "SRC-UNITRENTO-28DIGITAL-2027",
+        "source_url": "https://www.disi.unitn.it/eit-digital",
+        "published_claim": "University page gives period-one dates 31 October–11 February and different later rounds."
+      },
+      {
+        "source_id": "SRC-28DIGITAL-ADMISSIONS-2027",
+        "source_url": "https://masterschool.28digital.eu/admissions",
+        "published_claim": "Central 2027 calendar gives period one 30 October 2026–31 January 2027, with distinct later rounds and residence restrictions."
+      }
+    ],
+    "handling": "Existing deadline logic/data remains untouched. The decision layer does not derive eligibility from conflicting local dates; consult the central portal and university for the chosen route."
+  },
+  {
+    "id": "28digital-country-document-receipt-years",
+    "field": "documents",
+    "record_ids": [
+      "legacy-020",
+      "discovered-013",
+      "discovered-014",
+      "discovered-015",
+      "discovered-016",
+      "discovered-017",
+      "discovered-018",
+      "discovered-019"
+    ],
+    "checked_at": "2026-11-13",
+    "state": "conflicting_or_stale_official_guidance",
+    "claims": [
+      {
+        "source_id": "DEC-28DIGITAL-DOCUMENTS",
+        "source_url": "https://masterschool.28digital.eu/admissions/required-documents",
+        "published_claim": "For Cameroon/Eritrea/Ethiopia/Nigeria, the email-transcript paragraph retains February/April 2026 receipt dates; the postal paragraph on the same page gives February/April/June 2027."
+      }
+    ],
+    "handling": "Publish the verified general dossier requirements but explicitly leave country-specific receipt dates needing clarification. Do not promote the stale email dates."
+  },
+  {
+    "id": "polimi-award-combination",
+    "field": "scholarships",
+    "record_ids": [
+      "legacy-001",
+      "legacy-004"
+    ],
+    "checked_at": "2026-11-13",
+    "state": "conflicting_or_stale_official_guidance",
+    "claims": [
+      {
+        "source_id": "SRC-28DIGITAL-FEES-2027",
+        "source_url": "https://masterschool.28digital.eu/admissions/fees",
+        "published_claim": "Generic partner funding section says Polimi scholarship funding can be combined with 28DIGITAL funding."
+      },
+      {
+        "source_id": "SRC-POLIMI-SCHOLARSHIPS-2027",
+        "source_url": "https://www.polimi.it/fileadmin/user_upload/futuri_studenti/borse-di-studio/Merit_Based_Call_For_Applications_a.y._2027-2028.pdf",
+        "published_claim": "Formal 2027/28 merit call prohibits other public/private scholarships except international mobility grants."
+      }
+    ],
+    "handling": "Display the formal-call restriction and require programme-specific compatibility clarification; do not promise stacked funding."
+  },
+  {
+    "id": "cle-admissions-year",
+    "field": "prerequisites_and_languages",
+    "record_ids": [
+      "discovered-012"
+    ],
+    "checked_at": "2026-11-13",
+    "state": "conflicting_or_stale_official_guidance",
+    "claims": [
+      {
+        "source_id": "SRC-BOLOGNA-CLE-2027",
+        "source_url": "https://cle.unibo.it/pages/23/presentazione-della-domanda/lang/en",
+        "published_claim": "Application page advertises 2027/28 but still links a 2026/27 formal notice and says the new one will be available in October 2026."
+      },
+      {
+        "source_id": "SRC-BOLOGNA-CLE-REQUIREMENTS",
+        "source_url": "https://cle.unibo.it/pages/24/",
+        "published_claim": "Detailed curricular and language criteria explicitly refer to 2026/27."
+      }
+    ],
+    "handling": "Verify only the current-page first-cycle qualification deadline and dossier. Current sector-credit and route-specific language criteria remain Not confirmed."
+  },
+  {
+    "id": "eap-credit-threshold-route",
+    "field": "prerequisites",
+    "record_ids": [
+      "discovered-038"
+    ],
+    "checked_at": "2026-11-13",
+    "state": "scope_difference_not_resolved",
+    "claims": [
+      {
+        "source_id": "SRC-UNITO-EAP-PROFILE-2027",
+        "source_url": "https://en.unito.it/studying-unito/programs/degree-programs/economic-analysis-and-policy",
+        "published_claim": "Local profile states 18 economics CFU plus 6 statistics."
+      },
+      {
+        "source_id": "SRC-EPOG-ADMISSION-2027",
+        "source_url": "https://www.epog.eu/admission-and-scholarships/admission/",
+        "published_claim": "General checklist states 24 economics plus 6 statistics/econometrics, while specific minors allow 18+6 or conditional exceptions."
+      },
+      {
+        "source_id": "SRC-UNITO-EAP-APPLICATION-2027",
+        "source_url": "https://www.eap.unito.it/do/home.pl/View?doc=how_to_apply.html",
+        "published_claim": "The route-specific application page timed out in the direct client."
+      }
+    ],
+    "handling": "This may be a route distinction, not an actual contradiction. Keep the programme threshold Not confirmed until the EAP route and applicable minor are established."
+  },
+  {
+    "id": "pisa-historical-tuition-bases",
+    "field": "tuition",
+    "record_ids": [
+      "legacy-052",
+      "legacy-053",
+      "legacy-054",
+      "legacy-055",
+      "discovered-001",
+      "discovered-039"
+    ],
+    "checked_at": "2026-11-13",
+    "state": "different_year_or_fee_basis",
+    "claims": [
+      {
+        "source_id": "SRC-PISA-CALL-2027",
+        "source_url": "https://didattica.di.unipi.it/wp-content/uploads/sites/2/2026/11/Bando2026_corsi_internazionali.pdf",
+        "published_claim": "Historical 2026/27 tuition example is EUR 446–2,900."
+      },
+      {
+        "source_id": "SRC-UNIPI-INFO-ENG-2027-CALL",
+        "source_url": "https://computer.ing.unipi.it/call-for-international-students/",
+        "published_claim": "Historical 2026/27 example is EUR 290–2,900, plus regional tax EUR 140 and stamp EUR 16."
+      },
+      {
+        "source_id": "DEC-PISA-FEES",
+        "source_url": "https://www.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/university-fees-and-scholarships/",
+        "published_claim": "Central fee page defines the maximum all-inclusive contribution as EUR 2,900, with regional tax and stamp additional where due."
+      }
+    ],
+    "handling": "Keep the named 2026/27 basis and label; do not equate differently stated totals or invent a 2027/28 range."
+  }
+]
