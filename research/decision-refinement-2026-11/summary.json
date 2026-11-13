@@ -1,0 +1,158 @@
+{
+  "baseline_commit": "e039301",
+  "programme_scope": 47,
+  "university_scope": 11,
+  "current_evidence_totals_include_partial": true,
+  "counts": {
+    "program": {
+      "duration": {
+        "before_current_evidence": 29,
+        "after_current_evidence": 29,
+        "after_fully_confirmed": 29,
+        "after_partly_confirmed": 0,
+        "degree_structure": 16,
+        "previous_cycle_only": 0,
+        "not_confirmed": 18
+      },
+      "ects": {
+        "before_current_evidence": 26,
+        "after_current_evidence": 26,
+        "after_fully_confirmed": 26,
+        "after_partly_confirmed": 0,
+        "degree_structure": 17,
+        "previous_cycle_only": 0,
+        "not_confirmed": 21
+      },
+      "prerequisites": {
+        "before_current_evidence": 34,
+        "after_current_evidence": 37,
+        "after_fully_confirmed": 16,
+        "after_partly_confirmed": 21,
+        "degree_structure": 0,
+        "previous_cycle_only": 2,
+        "not_confirmed": 8
+      },
+      "english_requirement": {
+        "before_current_evidence": 30,
+        "after_current_evidence": 33,
+        "after_fully_confirmed": 22,
+        "after_partly_confirmed": 11,
+        "degree_structure": 0,
+        "previous_cycle_only": 1,
+        "not_confirmed": 13
+      },
+      "admission_test": {
+        "before_current_evidence": 7,
+        "after_current_evidence": 10,
+        "after_fully_confirmed": 1,
+        "after_partly_confirmed": 9,
+        "degree_structure": 0,
+        "previous_cycle_only": 0,
+        "not_confirmed": 37
+      },
+      "selection_method": {
+        "before_current_evidence": 15,
+        "after_current_evidence": 17,
+        "after_fully_confirmed": 9,
+        "after_partly_confirmed": 8,
+        "degree_structure": 0,
+        "previous_cycle_only": 0,
+        "not_confirmed": 30
+      },
+      "minimum_grade": {
+        "before_current_evidence": 2,
+        "after_current_evidence": 21,
+        "after_fully_confirmed": 3,
+        "after_partly_confirmed": 18,
+        "degree_structure": 0,
+        "previous_cycle_only": 0,
+        "not_confirmed": 26
+      },
+      "non_eu_seats": {
+        "before_current_evidence": 1,
+        "after_current_evidence": 1,
+        "after_fully_confirmed": 1,
+        "after_partly_confirmed": 0,
+        "degree_structure": 0,
+        "previous_cycle_only": 0,
+        "not_confirmed": 46
+      },
+      "tuition": {
+        "before_current_evidence": 9,
+        "after_current_evidence": 9,
+        "after_fully_confirmed": 8,
+        "after_partly_confirmed": 1,
+        "degree_structure": 0,
+        "previous_cycle_only": 11,
+        "not_confirmed": 27
+      }
+    },
+    "university": {
+      "universitaly": {
+        "before_current_evidence": 3,
+        "after_current_evidence": 11,
+        "after_fully_confirmed": 0,
+        "after_partly_confirmed": 11,
+        "degree_structure": 0,
+        "previous_cycle_only": 0,
+        "not_confirmed": 0
+      },
+      "documents": {
+        "before_current_evidence": 7,
+        "after_current_evidence": 9,
+        "after_fully_confirmed": 0,
+        "after_partly_confirmed": 9,
+        "degree_structure": 0,
+        "previous_cycle_only": 0,
+        "not_confirmed": 2
+      },
+      "regional_dsu": {
+        "before_current_evidence": 2,
+        "after_current_evidence": 2,
+        "after_fully_confirmed": 0,
+        "after_partly_confirmed": 2,
+        "degree_structure": 0,
+        "previous_cycle_only": 8,
+        "not_confirmed": 1
+      },
+      "visa_permit": {
+        "before_current_evidence": 2,
+        "after_current_evidence": 7,
+        "after_fully_confirmed": 0,
+        "after_partly_confirmed": 7,
+        "degree_structure": 0,
+        "previous_cycle_only": 0,
+        "not_confirmed": 4
+      },
+      "scholarships": {
+        "before_current_evidence": 4,
+        "after_current_evidence": 4,
+        "after_fully_confirmed": 1,
+        "after_partly_confirmed": 3,
+        "degree_structure": 0,
+        "previous_cycle_only": 5,
+        "not_confirmed": 2
+      }
+    }
+  },
+  "filters": {
+    "before_default": {
+      "no_test": 1,
+      "certificate_required": 30,
+      "tuition_documented": 9,
+      "scholarship_documented": 17
+    },
+    "after_default": {
+      "no_test": 1,
+      "certificate_required": 6,
+      "tuition_documented": 9,
+      "scholarship_documented": 17
+    },
+    "after_include_awaiting": {
+      "no_test": 1,
+      "certificate_required": 6,
+      "tuition_documented": 9,
+      "scholarship_documented": 17
+    }
+  }
+}

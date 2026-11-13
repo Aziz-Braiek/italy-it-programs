@@ -53,33 +53,27 @@
     "cycle_facts": {},
     "decision_support": {
       "universitaly": {
-        "value": "Not confirmed",
-        "cycle_status": "not confirmed",
-        "academic_cycle": null,
-        "source_urls": [],
-        "verified_date": null,
-        "checked_urls": [
-          "https://data-science.dieti.unina.it/index.php/studying-with-us/information-to-apply",
-          "https://informatica.dieti.unina.it/index.php/en/degree-programs/degree-programs-overview",
-          "https://move.dii.unina.it/",
-          "https://www.civil-environmental.unina.it/admission/",
-          "https://www.corsi.unina.it/DB2/home",
-          "https://www.diarc.archer.unina.it/images/ARCHER_2024-25_DidacticRegulations_CdS_ENGL_2023_SA_DM96_v6.pdf",
-          "https://www.dicmapi.unina.it/ingegneria-chimica/notice-for-international-students-academic-year-2027-2028-msc-chemical-engineering/",
-          "https://www.dicmapi.unina.it/mag_ingchim/masters-degree-in-chemical-engineering/?lang=en",
-          "https://www.dii.unina.it/source/brochures-cds/magistrale/MOVE_eng.pdf",
-          "https://www.dises.unina.it/en_GB/il-dipartimento/presentazione",
-          "https://www.fisica.unina.it/corso-di-laurea-magistrale-in-quantum-science-and-engineering",
-          "https://www.medicina.unina.it/pdf/P11/SMA-2024.pdf",
-          "https://www.orientamento.unina.it/corsidistudio/data-science-eng/",
-          "https://www.orientamento.unina.it/corsidistudio/economics-and-finance-eng/",
-          "https://www.orientamento.unina.it/corsidistudio/industrial-bio-engineering/",
-          "https://www.orientamento.unina.it/corsidistudio/international-relations-eng/",
-          "https://www.orientamento.unina.it/corsidistudio/quantum-science-and-engineering/",
-          "https://www.unina.it/en/w/semestre-filtro-2026/27-al-via-le-lezioni-per-i-corsi-di-area-sanitaria"
+        "value": "Under the national procedures explicitly valid for 2027/28, applicants who need a study visa must submit the visa pre-enrolment application through the official, free Universitaly portal. University validation is not a visa guarantee. The university/programme-specific 2027/28 submission deadline is Not confirmed; the national visa ceiling is not a substitute for that deadline.",
+        "cycle_status": "2027/28 confirmed",
+        "academic_cycle": "2027/28",
+        "source_urls": [
+          "https://www.universitaly.it/en/studenti-stranieri"
         ],
-        "checked_at": "2026-11-13",
-        "reason": "The university/programme-specific Universitaly requirement and deadline have not been established for an applicable cycle. Reviewed official material does not establish this field for a named applicable cycle. Check the linked pages and program call."
+        "verified_date": "2026-11-13",
+        "evidence_source_ids": [
+          "REFINE-UNIVERSITALY-2027"
+        ],
+        "evidence_sha256": {
+          "https://www.universitaly.it/en/studenti-stranieri": "d8d8bd4abec1e7eb537e3f99a8047e9683395888810a3d1e9a15c25698eaccf1"
+        },
+        "current_cycle_evidence": {
+          "url": "https://www.universitaly.it/en/studenti-stranieri",
+          "cycle_marker": "2027/28 explicit applicable programme/cohort context",
+          "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
+        },
+        "missing_components": [
+          "university/programme-specific Universitaly deadline"
+        ]
       },
       "documents": {
         "value": "Not confirmed",
@@ -125,33 +119,32 @@
         "reason": "The official ADISURC page lists Federico II and international-student services, but its substantive application guidance includes stale years. A cycle-specific 2027/28 eligibility rule is not established."
       },
       "visa_permit": {
-        "value": "Not confirmed",
-        "cycle_status": "not confirmed",
-        "academic_cycle": null,
-        "source_urls": [],
-        "verified_date": null,
-        "checked_urls": [
-          "https://data-science.dieti.unina.it/index.php/studying-with-us/information-to-apply",
-          "https://informatica.dieti.unina.it/index.php/en/degree-programs/degree-programs-overview",
-          "https://move.dii.unina.it/",
-          "https://www.civil-environmental.unina.it/admission/",
-          "https://www.corsi.unina.it/DB2/home",
-          "https://www.diarc.archer.unina.it/images/ARCHER_2024-25_DidacticRegulations_CdS_ENGL_2023_SA_DM96_v6.pdf",
-          "https://www.dicmapi.unina.it/ingegneria-chimica/notice-for-international-students-academic-year-2027-2028-msc-chemical-engineering/",
-          "https://www.dicmapi.unina.it/mag_ingchim/masters-degree-in-chemical-engineering/?lang=en",
-          "https://www.dii.unina.it/source/brochures-cds/magistrale/MOVE_eng.pdf",
-          "https://www.dises.unina.it/en_GB/il-dipartimento/presentazione",
-          "https://www.fisica.unina.it/corso-di-laurea-magistrale-in-quantum-science-and-engineering",
-          "https://www.medicina.unina.it/pdf/P11/SMA-2024.pdf",
-          "https://www.orientamento.unina.it/corsidistudio/data-science-eng/",
-          "https://www.orientamento.unina.it/corsidistudio/economics-and-finance-eng/",
-          "https://www.orientamento.unina.it/corsidistudio/industrial-bio-engineering/",
-          "https://www.orientamento.unina.it/corsidistudio/international-relations-eng/",
-          "https://www.orientamento.unina.it/corsidistudio/quantum-science-and-engineering/",
-          "https://www.unina.it/en/w/semestre-filtro-2026/27-al-via-le-lezioni-per-i-corsi-di-area-sanitaria"
+        "value": "Naples publishes instructions directing study-visa applicants through Universitaly validation and the competent diplomatic representation. It states that non-EU students must provide health-insurance evidence when applying for a residence permit. A university-specific 2027 permit-application timetable is Not confirmed. The exact programme-specific 2027/28 visa/arrival deadline and future office-procedure changes are Not confirmed.",
+        "cycle_status": "2027/28 confirmed",
+        "academic_cycle": "2027/28",
+        "source_urls": [
+          "https://www.international.unina.it/academic-and-student-life/",
+          "https://www.universitaly.it/en/studenti-stranieri"
         ],
-        "checked_at": "2026-11-13",
-        "reason": "Applicable university-published visa/permit instructions have not been verified. Generic national guidance is not substituted for a university rule. Reviewed official material does not establish this field for a named applicable cycle. Check the linked pages and program call."
+        "verified_date": "2026-11-13",
+        "evidence_source_ids": [
+          "REFINE-UNINA-LIFE",
+          "REFINE-UNIVERSITALY-2027"
+        ],
+        "evidence_sha256": {
+          "https://www.international.unina.it/academic-and-student-life/": "f40d96bb7d08790e1f03868868fa63adf5231160d4a8fbf4ff9e313eee108125",
+          "https://www.universitaly.it/en/studenti-stranieri": "d8d8bd4abec1e7eb537e3f99a8047e9683395888810a3d1e9a15c25698eaccf1"
+        },
+        "current_cycle_evidence": {
+          "url": "https://www.universitaly.it/en/studenti-stranieri",
+          "cycle_marker": "2027/28 explicit applicable programme/cohort context",
+          "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
+        },
+        "missing_components": [
+          "programme-specific 2027/28 visa/arrival deadline",
+          "future university office-procedure changes",
+          "university-specific permit application timetable"
+        ]
       },
       "scholarships": [
         {
@@ -775,37 +768,27 @@
     },
     "decision_support": {
       "universitaly": {
-        "value": "Not confirmed",
-        "cycle_status": "not confirmed",
-        "academic_cycle": null,
-        "source_urls": [],
-        "verified_date": null,
-        "checked_urls": [
-          "https://dynamicpoli.polimi.it/formazione/corsi-di-laurea/dettaglio-corso/ingegneria-informatica",
-          "https://www.mastereit.polimi.it/international-applications/",
-          "https://www.polimi.it/en/education/laurea-magistrale-programmes",
-          "https://www.polimi.it/en/education/laurea-magistrale-programmes/programme-detail/biomedical-engineering-1",
-          "https://www.polimi.it/en/education/laurea-magistrale-programmes/programme-detail/communication-design-1",
-          "https://www.polimi.it/en/education/laurea-magistrale-programmes/programme-detail/cyber-risk-strategy-and-governance",
-          "https://www.polimi.it/en/education/laurea-magistrale-programmes/programme-detail/mechanical-engineering-1",
-          "https://www.polimi.it/en/education/laurea-programmes/programme-detail/aeronautical-engineering",
-          "https://www.polimi.it/en/education/laurea-programmes/programme-detail/architecture",
-          "https://www.polimi.it/en/education/laurea-programmes/programme-detail/computer-science-and-engineering",
-          "https://www.polimi.it/en/education/laurea-programmes/programme-detail/design-engineering",
-          "https://www.polimi.it/en/education/laurea-programmes/programme-detail/high-performance-computing-engineering",
-          "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/application/list-of-documents-required-by-the-admissions-office",
-          "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/deadlines",
-          "https://www.polimi.it/en/students/tuition-fees-scholarships-and-financial-aid/tuition-fees",
-          "https://www.polimi.it/fileadmin/user_upload/futuri_studenti/borse-di-studio/Merit_Based_Call_For_Applications_a.y._2027-2028.pdf",
-          "https://www.polimi.it/formazione/corsi-di-laurea/dettaglio-corso/design-degli-interni",
-          "https://www.polimi.it/formazione/corsi-di-laurea/dettaglio-corso/ingegneria-aerospaziale",
-          "https://www.polimi.it/formazione/corsi-di-laurea/dettaglio-corso/ingegneria-biomedica",
-          "https://www.polimi.it/formazione/corsi-di-laurea/dettaglio-corso/ingegneria-civile-civil-engineering",
-          "https://www.polimi.it/formazione/corsi-di-laurea/dettaglio-corso/ingegneria-gestionale",
-          "https://www.polimi.it/formazione/corsi-di-laurea/dettaglio-corso/progettazione-dellarchitettura"
+        "value": "Under the national procedures explicitly valid for 2027/28, applicants who need a study visa must submit the visa pre-enrolment application through the official, free Universitaly portal. University validation is not a visa guarantee. The university/programme-specific 2027/28 submission deadline is Not confirmed; the national visa ceiling is not a substitute for that deadline.",
+        "cycle_status": "2027/28 confirmed",
+        "academic_cycle": "2027/28",
+        "source_urls": [
+          "https://www.universitaly.it/en/studenti-stranieri"
         ],
-        "checked_at": "2026-11-13",
-        "reason": "The university/programme-specific Universitaly requirement and deadline have not been established for an applicable cycle. Reviewed official material does not establish this field for a named applicable cycle. Check the linked pages and program call."
+        "verified_date": "2026-11-13",
+        "evidence_source_ids": [
+          "REFINE-UNIVERSITALY-2027"
+        ],
+        "evidence_sha256": {
+          "https://www.universitaly.it/en/studenti-stranieri": "d8d8bd4abec1e7eb537e3f99a8047e9683395888810a3d1e9a15c25698eaccf1"
+        },
+        "current_cycle_evidence": {
+          "url": "https://www.universitaly.it/en/studenti-stranieri",
+          "cycle_marker": "2027/28 explicit applicable programme/cohort context",
+          "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
+        },
+        "missing_components": [
+          "university/programme-specific Universitaly deadline"
+        ]
       },
       "documents": {
         "value": "For standard foreign-qualification MSc applications: official Bachelor/provisional or final-year enrolment document, original transcript, official cumulative GPA statement and CV (maximum two pages). Academic documents are accepted in Italian, English, French or Spanish; other languages need officially signed/stamped translations. Registrar-verifiable official links/QR codes may replace stamps as stated. DoV OR CIMEA Comparability may be requested at any stage; neither is a universal automatic substitute for every document. The exact 2027/28 enrolment apostille/legalisation rules are Not confirmed.",
@@ -829,6 +812,9 @@
         "program_ids": [
           "legacy-001",
           "legacy-004"
+        ],
+        "missing_components": [
+          "The exact 2027/28 enrolment apostille/legalisation rules"
         ]
       },
       "regional_dsu": {
@@ -847,37 +833,31 @@
         }
       },
       "visa_permit": {
-        "value": "Not confirmed",
-        "cycle_status": "not confirmed",
-        "academic_cycle": null,
-        "source_urls": [],
-        "verified_date": null,
-        "checked_urls": [
-          "https://dynamicpoli.polimi.it/formazione/corsi-di-laurea/dettaglio-corso/ingegneria-informatica",
-          "https://www.mastereit.polimi.it/international-applications/",
-          "https://www.polimi.it/en/education/laurea-magistrale-programmes",
-          "https://www.polimi.it/en/education/laurea-magistrale-programmes/programme-detail/biomedical-engineering-1",
-          "https://www.polimi.it/en/education/laurea-magistrale-programmes/programme-detail/communication-design-1",
-          "https://www.polimi.it/en/education/laurea-magistrale-programmes/programme-detail/cyber-risk-strategy-and-governance",
-          "https://www.polimi.it/en/education/laurea-magistrale-programmes/programme-detail/mechanical-engineering-1",
-          "https://www.polimi.it/en/education/laurea-programmes/programme-detail/aeronautical-engineering",
-          "https://www.polimi.it/en/education/laurea-programmes/programme-detail/architecture",
-          "https://www.polimi.it/en/education/laurea-programmes/programme-detail/computer-science-and-engineering",
-          "https://www.polimi.it/en/education/laurea-programmes/programme-detail/design-engineering",
-          "https://www.polimi.it/en/education/laurea-programmes/programme-detail/high-performance-computing-engineering",
-          "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/application/list-of-documents-required-by-the-admissions-office",
-          "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/deadlines",
-          "https://www.polimi.it/en/students/tuition-fees-scholarships-and-financial-aid/tuition-fees",
-          "https://www.polimi.it/fileadmin/user_upload/futuri_studenti/borse-di-studio/Merit_Based_Call_For_Applications_a.y._2027-2028.pdf",
-          "https://www.polimi.it/formazione/corsi-di-laurea/dettaglio-corso/design-degli-interni",
-          "https://www.polimi.it/formazione/corsi-di-laurea/dettaglio-corso/ingegneria-aerospaziale",
-          "https://www.polimi.it/formazione/corsi-di-laurea/dettaglio-corso/ingegneria-biomedica",
-          "https://www.polimi.it/formazione/corsi-di-laurea/dettaglio-corso/ingegneria-civile-civil-engineering",
-          "https://www.polimi.it/formazione/corsi-di-laurea/dettaglio-corso/ingegneria-gestionale",
-          "https://www.polimi.it/formazione/corsi-di-laurea/dettaglio-corso/progettazione-dellarchitettura"
+        "value": "Polimi instructs non-EU arrivals to apply for a residence permit within 8 working days. The post-office kit is accompanied by passport/visa, health insurance and the MSc admission letter or stated enrolment alternative; the International Students Office provides help. The exact programme-specific 2027/28 visa/arrival deadline and future office-procedure changes are Not confirmed.",
+        "cycle_status": "2027/28 confirmed",
+        "academic_cycle": "2027/28",
+        "source_urls": [
+          "https://www.polimi.it/en/prospective-students/how-to-apply/on-arrival-information/residence-permit",
+          "https://www.universitaly.it/en/studenti-stranieri"
         ],
-        "checked_at": "2026-11-13",
-        "reason": "Applicable university-published visa/permit instructions have not been verified. Generic national guidance is not substituted for a university rule. Reviewed official material does not establish this field for a named applicable cycle. Check the linked pages and program call."
+        "verified_date": "2026-11-13",
+        "evidence_source_ids": [
+          "REFINE-POLIMI-PERMIT",
+          "REFINE-UNIVERSITALY-2027"
+        ],
+        "evidence_sha256": {
+          "https://www.polimi.it/en/prospective-students/how-to-apply/on-arrival-information/residence-permit": "0dd6baab46b7ec76f5c5adaf75c4a65efe10b737646c3488552889b9073e9d2b",
+          "https://www.universitaly.it/en/studenti-stranieri": "d8d8bd4abec1e7eb537e3f99a8047e9683395888810a3d1e9a15c25698eaccf1"
+        },
+        "current_cycle_evidence": {
+          "url": "https://www.universitaly.it/en/studenti-stranieri",
+          "cycle_marker": "2027/28 explicit applicable programme/cohort context",
+          "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
+        },
+        "missing_components": [
+          "programme-specific 2027/28 visa/arrival deadline",
+          "future university office-procedure changes"
+        ]
       },
       "scholarships": [
         {
@@ -905,7 +885,10 @@
             "legacy-001",
             "legacy-004"
           ],
-          "offer_id": "merit-2027"
+          "offer_id": "merit-2027",
+          "missing_components": [
+            "compatibility with partner/28DIGITAL awards where generic guidance differs from the formal call"
+          ]
         }
       ],
       "policies": {
@@ -930,6 +913,105 @@
           },
           "short_value": "IELTS 6 / TOEFL 78 or 4.5; documented MOI waiver",
           "answer": "conditional"
+        },
+        "foreign_msc_grade": {
+          "value": "For standard foreign-qualification MSc applications, published country-of-degree CGPA minima are strict: Bangladesh 3.3/4; China 80% (the stated default equivalence is 3.0/4); Colombia 3.5/5; Egypt 65/100; Ethiopia 3/4; Ghana 65/100; India 70/100; Indonesia 2.8/4; Iran 15.5/20; Pakistan 3.3/4; Serbia 7.5/10; Turkey 3/4; Vietnam 7/10. Other qualification-type conditions also apply. The page states no country-specific requirements for unlisted countries; this does not guarantee programme admission. Programme-specific additional grade restrictions are Not confirmed.",
+          "cycle_status": "2027/28 confirmed",
+          "academic_cycle": "2027/28",
+          "source_urls": [
+            "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/requirements",
+            "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/application/list-of-documents-required-by-the-admissions-office"
+          ],
+          "verified_date": "2026-11-13",
+          "evidence_source_ids": [
+            "REFINE-POLIMI-COUNTRY",
+            "SRC-POLIMI-ENGLISH-2027"
+          ],
+          "evidence_sha256": {
+            "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/requirements": "c5d7dcfc6b54f8c902c37a9a3bb955cf7d98b27136c46fa5d2fb89a7d1f0bea4",
+            "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/application/list-of-documents-required-by-the-admissions-office": "1e8cc06275fd6e6c42beadc160a2ee6174e08cd8ab3c206610b726250ee31aa0"
+          },
+          "current_cycle_evidence": {
+            "url": "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/application/list-of-documents-required-by-the-admissions-office",
+            "cycle_marker": "2027/28 explicit applicable programme/cohort context",
+            "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
+          },
+          "missing_components": [
+            "programme-specific additional grade restrictions, if any"
+          ]
+        },
+        "foreign_msc_background": {
+          "value": "The standard foreign-qualification MSc route requires a recognised first-cycle qualification giving access to EQF level 7; the country-specific degree-type rules apply. Assessment is based on the Bachelor’s degree even if a Master’s degree is also held. Current programme-specific subject/sector-credit minima for this 2027/28 route are Not confirmed.",
+          "cycle_status": "2027/28 confirmed",
+          "academic_cycle": "2027/28",
+          "source_urls": [
+            "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/application/",
+            "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/requirements",
+            "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/application/list-of-documents-required-by-the-admissions-office"
+          ],
+          "verified_date": "2026-11-13",
+          "evidence_source_ids": [
+            "REFINE-POLIMI-APPLICATION",
+            "REFINE-POLIMI-COUNTRY",
+            "SRC-POLIMI-ENGLISH-2027"
+          ],
+          "evidence_sha256": {
+            "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/application/": "ff64b03cb07aa9261192367bf1a553de70550f492eb4d1a673f62884fa0f1d7a",
+            "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/requirements": "c5d7dcfc6b54f8c902c37a9a3bb955cf7d98b27136c46fa5d2fb89a7d1f0bea4",
+            "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/application/list-of-documents-required-by-the-admissions-office": "1e8cc06275fd6e6c42beadc160a2ee6174e08cd8ab3c206610b726250ee31aa0"
+          },
+          "current_cycle_evidence": {
+            "url": "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/application/list-of-documents-required-by-the-admissions-office",
+            "cycle_marker": "2027/28 explicit applicable programme/cohort context",
+            "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
+          },
+          "missing_components": [
+            "programme-specific 2027/28 subject/sector-credit minima"
+          ]
+        },
+        "foreign_msc_selection": {
+          "value": "The standard foreign-qualification MSc process checks eligibility/CGPA and evaluates the Bachelor’s academic documents, not a later Master’s degree. Applicants upload their original transcript, qualifying degree/attendance evidence and required dossier through Online Services. Programme-specific scoring weights, interview policy and admission-exam requirement for 2027/28 are Not confirmed.",
+          "cycle_status": "2027/28 confirmed",
+          "academic_cycle": "2027/28",
+          "source_urls": [
+            "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/application/",
+            "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/application/list-of-documents-required-by-the-admissions-office"
+          ],
+          "verified_date": "2026-11-13",
+          "evidence_source_ids": [
+            "REFINE-POLIMI-APPLICATION",
+            "SRC-POLIMI-ENGLISH-2027"
+          ],
+          "evidence_sha256": {
+            "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/application/": "ff64b03cb07aa9261192367bf1a553de70550f492eb4d1a673f62884fa0f1d7a",
+            "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/application/list-of-documents-required-by-the-admissions-office": "1e8cc06275fd6e6c42beadc160a2ee6174e08cd8ab3c206610b726250ee31aa0"
+          },
+          "current_cycle_evidence": {
+            "url": "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/application/list-of-documents-required-by-the-admissions-office",
+            "cycle_marker": "2027/28 explicit applicable programme/cohort context",
+            "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
+          },
+          "missing_components": [
+            "programme scoring weights",
+            "interview policy",
+            "programme-specific admission-exam requirement"
+          ]
+        },
+        "tuition_2026": {
+          "value": "Published 2026/27 ordinary-degree schedule: for 46–74 ECTS, income-based annual amounts range from EUR 157.04 (ISEE up to EUR 22,000) to EUR 3,943.04, with study-plan-credit scaling. Reserved-category non-EU MSc students with a foreign first degree who do not hold an eligible scholarship/DSU award pay the maximum scaled amount; an ISEE reduction must not be promised to that category. The 2027/28 tariff is Not confirmed.",
+          "cycle_status": "previous cycle (estimate only)",
+          "academic_cycle": "2026/27",
+          "source_urls": [
+            "https://www.polimi.it/en/prospective-students/how-much-does-it-cost/laurea-laurea-magistrale-and-single-cycle-programmes"
+          ],
+          "verified_date": "2026-11-13",
+          "evidence_source_ids": [
+            "REFINE-POLIMI-FEES"
+          ],
+          "evidence_sha256": {
+            "https://www.polimi.it/en/prospective-students/how-much-does-it-cost/laurea-laurea-magistrale-and-single-cycle-programmes": "5f31ef7ed4a8e43652756a319a6738586fa642db75e9e1bd4169b25ecfc1905b"
+          },
+          "short_value": "2026/27 reserved non-EU: maximum scaled fee; 2027/28 unknown"
         }
       }
     }
@@ -1080,37 +1162,27 @@
     },
     "decision_support": {
       "universitaly": {
-        "value": "Not confirmed",
-        "cycle_status": "not confirmed",
-        "academic_cycle": null,
-        "source_urls": [],
-        "verified_date": null,
-        "checked_urls": [
-          "https://hysetmaster.polito.it/admission-requirements",
-          "https://hysetmaster.polito.it/faq",
-          "https://hysetmaster.polito.it/hyset-in-a-nutshell",
-          "https://hysetmaster.polito.it/news/join-hyset-applications-open-for-2027-29",
-          "https://hysetmaster.polito.it/news/programme-continuation-beyond-2026-funding-and-admissions",
-          "https://hysetmaster.polito.it/self-funded-students",
-          "https://www.polito.it/en/education/applying-studying-graduating/admissions-and-enrolment/master-s-degree-programmes",
-          "https://www.polito.it/en/education/applying-studying-graduating/admissions-and-enrolment/master-s-degree-programmes/applicants-with-a-non-italian-qualification",
-          "https://www.polito.it/en/education/master-s-degree-programmes",
-          "https://www.polito.it/en/education/master-s-degree-programmes/aerospace-engineering",
-          "https://www.polito.it/en/education/master-s-degree-programmes/architecture-construction-city",
-          "https://www.polito.it/en/education/master-s-degree-programmes/automotive-engineering",
-          "https://www.polito.it/en/education/master-s-degree-programmes/computer-engineering",
-          "https://www.polito.it/en/education/master-s-degree-programmes/cybersecurity-engineering",
-          "https://www.polito.it/en/education/master-s-degree-programmes/data-science-and-engineering",
-          "https://www.polito.it/en/education/master-s-degree-programmes/digital-skills-for-sustainable-societal-transitions",
-          "https://www.polito.it/en/education/master-s-degree-programmes/ict-engineering-for-smart-societies",
-          "https://www.polito.it/en/education/master-s-degree-programmes/mathematical-engineering",
-          "https://www.polito.it/en/education/master-s-degree-programmes/mathematical-engineering/guidelines",
-          "https://www.polito.it/en/education/master-s-degree-programmes/quantum-engineering",
-          "https://www.polito.it/en/education/services-and-life-at-politecnico/right-to-education-and-tuition-fees/scholarships-and-awards?tipo_borsa=S",
-          "https://www.polito.it/en/education/services-and-life-at-politecnico/right-to-education-and-tuition-fees/tuition-fees"
+        "value": "Under the national procedures explicitly valid for 2027/28, applicants who need a study visa must submit the visa pre-enrolment application through the official, free Universitaly portal. University validation is not a visa guarantee. The university/programme-specific 2027/28 submission deadline is Not confirmed; the national visa ceiling is not a substitute for that deadline.",
+        "cycle_status": "2027/28 confirmed",
+        "academic_cycle": "2027/28",
+        "source_urls": [
+          "https://www.universitaly.it/en/studenti-stranieri"
         ],
-        "checked_at": "2026-11-13",
-        "reason": "The university/programme-specific Universitaly requirement and deadline have not been established for an applicable cycle. Reviewed official material does not establish this field for a named applicable cycle. Check the linked pages and program call."
+        "verified_date": "2026-11-13",
+        "evidence_source_ids": [
+          "REFINE-UNIVERSITALY-2027"
+        ],
+        "evidence_sha256": {
+          "https://www.universitaly.it/en/studenti-stranieri": "d8d8bd4abec1e7eb537e3f99a8047e9683395888810a3d1e9a15c25698eaccf1"
+        },
+        "current_cycle_evidence": {
+          "url": "https://www.universitaly.it/en/studenti-stranieri",
+          "cycle_marker": "2027/28 explicit applicable programme/cohort context",
+          "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
+        },
+        "missing_components": [
+          "university/programme-specific Universitaly deadline"
+        ]
       },
       "documents": {
         "value": "HySET 2027–29 application only: Europass CV, certified Bachelor/degree and transcript copies (or final-year registration/transcripts), two reference letters, a 2–3 minute introduction video, ID/passport, English-test evidence and a photo. Submit electronically; originals/final certificates are requested before enrolment. Exact DoV/CIMEA alternatives, apostille/legalisation and translation substitutions for 2027 entry are Not confirmed.",
@@ -1133,6 +1205,9 @@
         },
         "program_ids": [
           "discovered-020"
+        ],
+        "missing_components": [
+          "Exact DoV/CIMEA alternatives, apostille/legalisation and translation substitutions for 2027 entry"
         ]
       },
       "regional_dsu": {
@@ -2076,6 +2151,9 @@
         },
         "program_ids": [
           "discovered-010"
+        ],
+        "missing_components": [
+          "A university-wide deadline for other programmes"
         ]
       },
       "documents": {
@@ -2099,6 +2177,9 @@
         },
         "program_ids": [
           "discovered-010"
+        ],
+        "missing_components": [
+          "General DoV/CIMEA alternatives and apostille/translation substitutions"
         ]
       },
       "regional_dsu": {
@@ -2137,6 +2218,9 @@
         },
         "program_ids": [
           "discovered-010"
+        ],
+        "missing_components": [
+          "Permit timing"
         ]
       },
       "scholarships": [
@@ -2387,36 +2471,27 @@
     },
     "decision_support": {
       "universitaly": {
-        "value": "Not confirmed",
-        "cycle_status": "not confirmed",
-        "academic_cycle": null,
-        "source_urls": [],
-        "verified_date": null,
-        "checked_urls": [
-          "https://www.unive.it/data/it/15241",
-          "https://www.unive.it/degree/cm90",
-          "https://www.unive.it/degree/ctr3",
-          "https://www.unive.it/degree/ctr9",
-          "https://www.unive.it/degree/emr14",
-          "https://www.unive.it/degree/emr15",
-          "https://www.unive.it/degree/emr18",
-          "https://www.unive.it/degree/etr7",
-          "https://www.unive.it/degree/etr9",
-          "https://www.unive.it/degree/lmr60",
-          "https://www.unive.it/degree/ltr6",
-          "https://www.unive.it/pag/15612/",
-          "https://www.unive.it/pag/19545",
-          "https://www.unive.it/pag/8551/",
-          "https://www.unive.it/pag/fileadmin/user_upload/inglese/international/doc/degree-seeking/CaFoscari_EnglishDegreeProgrammes.pdf",
-          "https://www.unive.it/web/en/12082/admission-and-enrolment",
-          "https://www.unive.it/web/en/12519/admission-and-enrolment",
-          "https://www.unive.it/web/en/12613/admission-and-enrolment",
-          "https://www.unive.it/web/en/12701/admission-and-enrolment",
-          "https://www.unive.it/web/en/21007/home",
-          "https://www.unive.it/web/en/7047/admission-and-enrolment"
+        "value": "Under the national procedures explicitly valid for 2027/28, applicants who need a study visa must submit the visa pre-enrolment application through the official, free Universitaly portal. University validation is not a visa guarantee. The university/programme-specific 2027/28 submission deadline is Not confirmed; the national visa ceiling is not a substitute for that deadline.",
+        "cycle_status": "2027/28 confirmed",
+        "academic_cycle": "2027/28",
+        "source_urls": [
+          "https://www.universitaly.it/en/studenti-stranieri"
         ],
-        "checked_at": "2026-11-13",
-        "reason": "The university/programme-specific Universitaly requirement and deadline have not been established for an applicable cycle. Reviewed official material does not establish this field for a named applicable cycle. Check the linked pages and program call."
+        "verified_date": "2026-11-13",
+        "evidence_source_ids": [
+          "REFINE-UNIVERSITALY-2027"
+        ],
+        "evidence_sha256": {
+          "https://www.universitaly.it/en/studenti-stranieri": "d8d8bd4abec1e7eb537e3f99a8047e9683395888810a3d1e9a15c25698eaccf1"
+        },
+        "current_cycle_evidence": {
+          "url": "https://www.universitaly.it/en/studenti-stranieri",
+          "cycle_marker": "2027/28 explicit applicable programme/cohort context",
+          "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
+        },
+        "missing_components": [
+          "university/programme-specific Universitaly deadline"
+        ]
       },
       "documents": {
         "value": "Not confirmed",
@@ -4355,26 +4430,29 @@
     "cycle_facts": {},
     "decision_support": {
       "universitaly": {
-        "value": "For GrEnFIn 2027/28, non-EU citizens residing abroad must pre-enrol on Universitaly and request a study-entry visa in addition to programme admission. A specific Universitaly deadline is Not confirmed; do not confuse it with the degree-award or partner-document deadlines.",
+        "value": "Under the national procedures explicitly valid for 2027/28, applicants who need a study visa must submit the visa pre-enrolment application through the official, free Universitaly portal. University validation is not a visa guarantee. The university/programme-specific 2027/28 submission deadline is Not confirmed; the national visa ceiling is not a substitute for that deadline.",
         "cycle_status": "2027/28 confirmed",
         "academic_cycle": "2027/28",
         "source_urls": [
-          "https://corsi.unibo.it/s/3394/p/en/enrolling-grenfin/avvisolm-grenfin-emjm-27-28_en-2-prot.pdf/@@download/file/AvvisoLM-GrEnFIn-EMJM-27-28_EN-2-PROT.pdf"
+          "https://corsi.unibo.it/s/3394/p/en/enrolling-grenfin/avvisolm-grenfin-emjm-27-28_en-2-prot.pdf/@@download/file/AvvisoLM-GrEnFIn-EMJM-27-28_EN-2-PROT.pdf",
+          "https://www.universitaly.it/en/studenti-stranieri"
         ],
         "verified_date": "2026-11-13",
         "evidence_source_ids": [
-          "SRC-UNIBO-GRENFIN-2027-CALL"
+          "SRC-UNIBO-GRENFIN-2027-CALL",
+          "REFINE-UNIVERSITALY-2027"
         ],
         "evidence_sha256": {
+          "https://www.universitaly.it/en/studenti-stranieri": "d8d8bd4abec1e7eb537e3f99a8047e9683395888810a3d1e9a15c25698eaccf1",
           "https://corsi.unibo.it/s/3394/p/en/enrolling-grenfin/avvisolm-grenfin-emjm-27-28_en-2-prot.pdf/@@download/file/AvvisoLM-GrEnFIn-EMJM-27-28_EN-2-PROT.pdf": "c4cc5e62100963ca3bac8c88bc9fda37838dad51a931568c5dd4aacb4a99361b"
         },
         "current_cycle_evidence": {
-          "url": "https://corsi.unibo.it/s/3394/p/en/enrolling-grenfin/avvisolm-grenfin-emjm-27-28_en-2-prot.pdf/@@download/file/AvvisoLM-GrEnFIn-EMJM-27-28_EN-2-PROT.pdf",
-          "cycle_marker": "2027/28 admission page or call",
-          "relationship": "Named intake/cycle context is checked alongside the field-specific official source; generic page retrieval alone does not verify applicability."
+          "url": "https://www.universitaly.it/en/studenti-stranieri",
+          "cycle_marker": "2027/28 explicit applicable programme/cohort context",
+          "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
         },
-        "program_ids": [
-          "discovered-029"
+        "missing_components": [
+          "university/programme-specific Universitaly deadline"
         ]
       },
       "documents": {
@@ -4406,6 +4484,10 @@
           "discovered-029",
           "discovered-012",
           "legacy-020"
+        ],
+        "missing_components": [
+          "Italian DoV/CIMEA and apostille substitutions",
+          "University-wide DoV/CIMEA substitution rules"
         ]
       },
       "regional_dsu": {
@@ -4429,7 +4511,10 @@
           "url": "https://corsi.unibo.it/s/3394/p/en/enrolling-grenfin/avvisolm-grenfin-emjm-27-28_en-2-prot.pdf/@@download/file/AvvisoLM-GrEnFIn-EMJM-27-28_EN-2-PROT.pdf",
           "cycle_marker": "2027/28 admission page or call",
           "relationship": "Named intake/cycle context is checked alongside the field-specific official source; generic page retrieval alone does not verify applicability."
-        }
+        },
+        "missing_components": [
+          "exact 2027/28 thresholds and deadline"
+        ]
       },
       "visa_permit": {
         "value": "Not confirmed",
@@ -4520,6 +4605,10 @@
           "answer": "yes",
           "program_ids": [
             "legacy-020"
+          ],
+          "missing_components": [
+            "track/partner-specific waiver eligibility where the published wording differs",
+            "compatibility with another award where a partner call restricts combination"
           ]
         },
         {
@@ -5243,60 +5332,57 @@
     "cycle_facts": {},
     "decision_support": {
       "universitaly": {
-        "value": "Not confirmed",
-        "cycle_status": "not confirmed",
-        "academic_cycle": null,
-        "source_urls": [],
-        "verified_date": null,
-        "checked_urls": [
-          "https://www.clurpd.unifi.it/vp-173-enrolment.html",
-          "https://www.frm.unifi.it/p107.html",
-          "https://www.icad.unifi.it/vp-238-presentation.html",
-          "https://www.ing-gem.unifi.it/p143.html",
-          "https://www.rise.unifi.it/index.php?func=viewpage&module=CMpro&newlang=eng&pageid=435",
-          "https://www.rise.unifi.it/index.php?func=viewpage&module=CMpro&newlang=eng&pageid=540",
-          "https://www.sst.unifi.it/index.php?func=viewpage&module=CMpro&newlang=eng&pageid=167",
-          "https://www.sst.unifi.it/index.php?func=viewpage&module=CMpro&newlang=eng&pageid=168",
-          "https://www.unifi.it/en/node/9897",
-          "https://www.unifi.it/en/study-us/degree-programs/first-cycle-degree/sustainable-business-societal-challenges",
-          "https://www.unifi.it/en/study-us/degree-programs/second-cycle-degree/architecture",
-          "https://www.unifi.it/en/study-us/degree-programs/second-cycle-degree/economics-and-development",
-          "https://www.unifi.it/en/study-us/degree-programs/second-cycle-degree/finance-and-risk-management",
-          "https://www.unifi.it/en/study-us/degree-programs/second-cycle-degree/geoengineering",
-          "https://www.unifi.it/en/study-us/degree-programs/second-cycle-degree/international-relations-and-european-studies",
-          "https://www.unifi.it/en/study-us/degree-programs/second-cycle-degree/urban-and-regional-planning-and-design-sustainability",
-          "https://www.unifi.it/en/study-us/your-learning-path/start-your-enrolment/international-students/pre-enrolment-and-study"
+        "value": "Under the national procedures explicitly valid for 2027/28, applicants who need a study visa must submit the visa pre-enrolment application through the official, free Universitaly portal. University validation is not a visa guarantee. The university/programme-specific 2027/28 submission deadline is Not confirmed; the national visa ceiling is not a substitute for that deadline.",
+        "cycle_status": "2027/28 confirmed",
+        "academic_cycle": "2027/28",
+        "source_urls": [
+          "https://www.universitaly.it/en/studenti-stranieri"
         ],
-        "checked_at": "2026-11-13",
-        "reason": "The university/programme-specific Universitaly requirement and deadline have not been established for an applicable cycle. Reviewed official material does not establish this field for a named applicable cycle. Check the linked pages and program call."
+        "verified_date": "2026-11-13",
+        "evidence_source_ids": [
+          "REFINE-UNIVERSITALY-2027"
+        ],
+        "evidence_sha256": {
+          "https://www.universitaly.it/en/studenti-stranieri": "d8d8bd4abec1e7eb537e3f99a8047e9683395888810a3d1e9a15c25698eaccf1"
+        },
+        "current_cycle_evidence": {
+          "url": "https://www.universitaly.it/en/studenti-stranieri",
+          "cycle_marker": "2027/28 explicit applicable programme/cohort context",
+          "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
+        },
+        "missing_components": [
+          "university/programme-specific Universitaly deadline"
+        ]
       },
       "documents": {
-        "value": "Not confirmed",
-        "cycle_status": "not confirmed",
-        "academic_cycle": null,
-        "source_urls": [],
-        "verified_date": null,
-        "checked_urls": [
-          "https://www.clurpd.unifi.it/vp-173-enrolment.html",
-          "https://www.frm.unifi.it/p107.html",
-          "https://www.icad.unifi.it/vp-238-presentation.html",
-          "https://www.ing-gem.unifi.it/p143.html",
-          "https://www.rise.unifi.it/index.php?func=viewpage&module=CMpro&newlang=eng&pageid=435",
-          "https://www.rise.unifi.it/index.php?func=viewpage&module=CMpro&newlang=eng&pageid=540",
-          "https://www.sst.unifi.it/index.php?func=viewpage&module=CMpro&newlang=eng&pageid=167",
-          "https://www.sst.unifi.it/index.php?func=viewpage&module=CMpro&newlang=eng&pageid=168",
-          "https://www.unifi.it/en/node/9897",
-          "https://www.unifi.it/en/study-us/degree-programs/first-cycle-degree/sustainable-business-societal-challenges",
-          "https://www.unifi.it/en/study-us/degree-programs/second-cycle-degree/architecture",
-          "https://www.unifi.it/en/study-us/degree-programs/second-cycle-degree/economics-and-development",
-          "https://www.unifi.it/en/study-us/degree-programs/second-cycle-degree/finance-and-risk-management",
-          "https://www.unifi.it/en/study-us/degree-programs/second-cycle-degree/geoengineering",
-          "https://www.unifi.it/en/study-us/degree-programs/second-cycle-degree/international-relations-and-european-studies",
-          "https://www.unifi.it/en/study-us/degree-programs/second-cycle-degree/urban-and-regional-planning-and-design-sustainability",
-          "https://www.unifi.it/en/study-us/your-learning-path/start-your-enrolment/international-students/pre-enrolment-and-study"
+        "value": "Florence’s published non-EU/foreign-qualification MSc route requires passport, study visa, residence-permit application receipts, Admission Document, bachelor certificate and transcript in the original language, legalised or apostilled. For recognition it states Declaration of Value OR CIMEA verification + comparability certificates. English, French or Spanish documents do not need an official Italian translation; other languages do. The pre-enrolment dossier additionally lists a photograph and the course’s English proof. Country-specific legalisation exemptions and final 2027/28 checklist changes are Not confirmed.",
+        "cycle_status": "2027/28 confirmed",
+        "academic_cycle": "2027/28",
+        "source_urls": [
+          "https://www.unifi.it/en/study-us/your-learning-path/start-your-enrolment/international-students/non-eu-students",
+          "https://www.unifi.it/en/study-us/your-learning-path/start-your-enrolment/international-students/pre-enrolment-and-study",
+          "https://www.universitaly.it/en/studenti-stranieri"
         ],
-        "checked_at": "2026-11-13",
-        "reason": "The applicable diploma/transcript, DoV/CIMEA alternatives, apostille/legalisation and translation rules have not been established; documents are not assumed interchangeable. Reviewed official material does not establish this field for a named applicable cycle. Check the linked pages and program call."
+        "verified_date": "2026-11-13",
+        "evidence_source_ids": [
+          "REFINE-UNIFI-DOCS",
+          "REFINE-UNIFI-PREENROL",
+          "REFINE-UNIVERSITALY-2027"
+        ],
+        "evidence_sha256": {
+          "https://www.unifi.it/en/study-us/your-learning-path/start-your-enrolment/international-students/non-eu-students": "9708b805f03be6914c51cb64dd6d29c04682f774c45be00898eebd7a6911ff7e",
+          "https://www.unifi.it/en/study-us/your-learning-path/start-your-enrolment/international-students/pre-enrolment-and-study": "ef97c75e6584d40793c328ec28408f87c039699d86556c4d6b07584d05d75a34",
+          "https://www.universitaly.it/en/studenti-stranieri": "d8d8bd4abec1e7eb537e3f99a8047e9683395888810a3d1e9a15c25698eaccf1"
+        },
+        "current_cycle_evidence": {
+          "url": "https://www.universitaly.it/en/studenti-stranieri",
+          "cycle_marker": "2027/28 explicit applicable programme/cohort context",
+          "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
+        },
+        "missing_components": [
+          "country-specific legalisation/apostille exemptions",
+          "final 2027/28 university checklist changes"
+        ]
       },
       "regional_dsu": {
         "value": "DSU Toscana is the regional right-to-study body. Its captured scholarship/accommodation notice is 2026/27; exact international eligibility, amount and all 2027/28 terms are Not confirmed.",
@@ -5314,32 +5400,34 @@
         }
       },
       "visa_permit": {
-        "value": "Not confirmed",
-        "cycle_status": "not confirmed",
-        "academic_cycle": null,
-        "source_urls": [],
-        "verified_date": null,
-        "checked_urls": [
-          "https://www.clurpd.unifi.it/vp-173-enrolment.html",
-          "https://www.frm.unifi.it/p107.html",
-          "https://www.icad.unifi.it/vp-238-presentation.html",
-          "https://www.ing-gem.unifi.it/p143.html",
-          "https://www.rise.unifi.it/index.php?func=viewpage&module=CMpro&newlang=eng&pageid=435",
-          "https://www.rise.unifi.it/index.php?func=viewpage&module=CMpro&newlang=eng&pageid=540",
-          "https://www.sst.unifi.it/index.php?func=viewpage&module=CMpro&newlang=eng&pageid=167",
-          "https://www.sst.unifi.it/index.php?func=viewpage&module=CMpro&newlang=eng&pageid=168",
-          "https://www.unifi.it/en/node/9897",
-          "https://www.unifi.it/en/study-us/degree-programs/first-cycle-degree/sustainable-business-societal-challenges",
-          "https://www.unifi.it/en/study-us/degree-programs/second-cycle-degree/architecture",
-          "https://www.unifi.it/en/study-us/degree-programs/second-cycle-degree/economics-and-development",
-          "https://www.unifi.it/en/study-us/degree-programs/second-cycle-degree/finance-and-risk-management",
-          "https://www.unifi.it/en/study-us/degree-programs/second-cycle-degree/geoengineering",
-          "https://www.unifi.it/en/study-us/degree-programs/second-cycle-degree/international-relations-and-european-studies",
-          "https://www.unifi.it/en/study-us/degree-programs/second-cycle-degree/urban-and-regional-planning-and-design-sustainability",
-          "https://www.unifi.it/en/study-us/your-learning-path/start-your-enrolment/international-students/pre-enrolment-and-study"
+        "value": "Florence directs non-EU residents abroad to obtain a type-D study/enrolment visa after Universitaly validation and to apply for the residence permit within 8 working days of arrival. Its PER-Università desk offers assistance. University validation does not guarantee a visa or appointment. The exact programme-specific 2027/28 visa/arrival deadline and future office-procedure changes are Not confirmed.",
+        "cycle_status": "2027/28 confirmed",
+        "academic_cycle": "2027/28",
+        "source_urls": [
+          "https://www.unifi.it/en/study-us/your-learning-path/start-your-enrolment/international-students/non-eu-students",
+          "https://www.unifi.it/en/study-us/your-learning-path/start-your-enrolment/international-students/pre-enrolment-and-study",
+          "https://www.universitaly.it/en/studenti-stranieri"
         ],
-        "checked_at": "2026-11-13",
-        "reason": "Applicable university-published visa/permit instructions have not been verified. Generic national guidance is not substituted for a university rule. Reviewed official material does not establish this field for a named applicable cycle. Check the linked pages and program call."
+        "verified_date": "2026-11-13",
+        "evidence_source_ids": [
+          "REFINE-UNIFI-DOCS",
+          "REFINE-UNIFI-PREENROL",
+          "REFINE-UNIVERSITALY-2027"
+        ],
+        "evidence_sha256": {
+          "https://www.unifi.it/en/study-us/your-learning-path/start-your-enrolment/international-students/non-eu-students": "9708b805f03be6914c51cb64dd6d29c04682f774c45be00898eebd7a6911ff7e",
+          "https://www.unifi.it/en/study-us/your-learning-path/start-your-enrolment/international-students/pre-enrolment-and-study": "ef97c75e6584d40793c328ec28408f87c039699d86556c4d6b07584d05d75a34",
+          "https://www.universitaly.it/en/studenti-stranieri": "d8d8bd4abec1e7eb537e3f99a8047e9683395888810a3d1e9a15c25698eaccf1"
+        },
+        "current_cycle_evidence": {
+          "url": "https://www.universitaly.it/en/studenti-stranieri",
+          "cycle_marker": "2027/28 explicit applicable programme/cohort context",
+          "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
+        },
+        "missing_components": [
+          "programme-specific 2027/28 visa/arrival deadline",
+          "future university office-procedure changes"
+        ]
       },
       "scholarships": [
         {
@@ -6423,63 +6511,27 @@
     },
     "decision_support": {
       "universitaly": {
-        "value": "Not confirmed",
-        "cycle_status": "not confirmed",
-        "academic_cycle": null,
-        "source_urls": [],
-        "verified_date": null,
-        "checked_urls": [
-          "https://academics.dii.unipd.it/aerospaceengineering/msc-degree-in-aerospace-engineering/",
-          "https://apply.unipd.it/courses/course/182-information-engineering",
-          "https://apply.unipd.it/courses/course/185-management-engineering",
-          "https://arqus-alliance.eu/news/7th-meeting-of-the-bsc-physics-for-technology-programme-at-the-university-of-wroclaw/",
-          "https://astrophysics-and-cosmology.dfa.unipd.it/masters-degree/application-and-admission-requirements/",
-          "https://biologia-molecolare.biologia.unipd.it/index.php?id=170",
-          "https://cybersecurity.math.unipd.it/study-plan/",
-          "https://dafnae.unipd.it/offerta-didattica/corsi-di-laurea-magistrale/?key=AV2880&ordinamento=2026&tipo=LM",
-          "https://datascience.math.unipd.it/admission/",
-          "https://dpg.unipd.it/offerta-didattica/corsi-di-laurea-magistrale/?key=PS2968&ordinamento=2026&tipo=LM",
-          "https://dpss.unipd.it/offerta-didattica/corsi-di-laurea-magistrale/?key=PS2975&ordinamento=2026&tipo=LM",
-          "https://pod.dfa.unipd.it/requirement/",
-          "https://pod.dfa.unipd.it/the-first-call-for-international-students/",
-          "https://psicologia.unipd.it/offerta-didattica/lauree-triennali?key=PS2961&ordinamento=2025&tipo=L",
-          "https://www.dissgea.unipd.it/en/en/international-students-202728-applications",
-          "https://www.scienze.unipd.it/come-iscriversi-l-2627/",
-          "https://www.scienze.unipd.it/en/courses/english-language/master-degree/2627/",
-          "https://www.scienze.unipd.it/en/courses/how-to-apply/",
-          "https://www.stat.unipd.it/en/statistical-science",
-          "https://www.unipd.it/ammissioni-ing-triennali-programmato",
-          "https://www.unipd.it/ammissioni-psi-magistrali-linguaitaliana",
-          "https://www.unipd.it/avvisi-ammissione-lauree-triennali-ciclo-unico",
-          "https://www.unipd.it/corsi-di-laurea-magistrali/ingegneria-gestionale",
-          "https://www.unipd.it/corsi-di-laurea/biologia-molecolare",
-          "https://www.unipd.it/corsi-di-laurea/ingegneria-informatica",
-          "https://www.unipd.it/corsi-di-laurea/psicologia-clinica",
-          "https://www.unipd.it/corsi-di-laurea/psychological-science",
-          "https://www.unipd.it/de/node/79184",
-          "https://www.unipd.it/en/ammissione-studenti-internazionali",
-          "https://www.unipd.it/en/ammissioni-ing-magistrali",
-          "https://www.unipd.it/en/ammissioni-psi-triennali-programmato",
-          "https://www.unipd.it/en/ammissioni-sc-triennali-programmato",
-          "https://www.unipd.it/en/arqus/news/rettrice-partecipa-consiglio-rettori-alleanza-europea-arqus",
-          "https://www.unipd.it/en/contribuzione-studentesca",
-          "https://www.unipd.it/en/corsi-di-laurea/astrophysics-and-cosmology",
-          "https://www.unipd.it/en/corsi-di-laurea/information-engineering",
-          "https://www.unipd.it/en/corsi-di-laurea/management-engineering-study-track",
-          "https://www.unipd.it/en/corsi-di-laurea/physics-data",
-          "https://www.unipd.it/en/corsi-laurea-lingua-inglese",
-          "https://www.unipd.it/en/corsi-laurea-magistrale-lingua-inglese",
-          "https://www.unipd.it/en/node/79192",
-          "https://www.unipd.it/en/node/93620",
-          "https://www.unipd.it/en/padua-international-excellence-scholarship-programme",
-          "https://www.unipd.it/en/studiare-inglese-come-fare-domanda",
-          "https://www.unipd.it/node/93348",
-          "https://www.unipd.it/servizi/supporto-studio/borse-premi-studio/borse-studio-alloggi-sussidi-straordinari",
-          "https://www.unipd.it/studiare-inglese-come-fare-domanda",
-          "https://wwwassets.unipd.it/sites/default/files/2026-05/2026_EN_Avviso_LM_IngegneriaLiberi.pdf"
+        "value": "Under the national procedures explicitly valid for 2027/28, applicants who need a study visa must submit the visa pre-enrolment application through the official, free Universitaly portal. University validation is not a visa guarantee. The university/programme-specific 2027/28 submission deadline is Not confirmed; the national visa ceiling is not a substitute for that deadline.",
+        "cycle_status": "2027/28 confirmed",
+        "academic_cycle": "2027/28",
+        "source_urls": [
+          "https://www.universitaly.it/en/studenti-stranieri"
         ],
-        "checked_at": "2026-11-13",
-        "reason": "The university/programme-specific Universitaly requirement and deadline have not been established for an applicable cycle. Reviewed official material does not establish this field for a named applicable cycle. Check the linked pages and program call."
+        "verified_date": "2026-11-13",
+        "evidence_source_ids": [
+          "REFINE-UNIVERSITALY-2027"
+        ],
+        "evidence_sha256": {
+          "https://www.universitaly.it/en/studenti-stranieri": "d8d8bd4abec1e7eb537e3f99a8047e9683395888810a3d1e9a15c25698eaccf1"
+        },
+        "current_cycle_evidence": {
+          "url": "https://www.universitaly.it/en/studenti-stranieri",
+          "cycle_marker": "2027/28 explicit applicable programme/cohort context",
+          "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
+        },
+        "missing_components": [
+          "university/programme-specific Universitaly deadline"
+        ]
       },
       "documents": {
         "value": "For the English-course international application profiles reviewed: qualifying diploma and transcript in English or Italian, or official translations with verified copies; bring originals for enrolment. No legalised documents are required at application stage. Admission may require original, translated/legalised qualifications later. The precise DoV/CIMEA alternatives and apostille exemptions for each country remain Not confirmed.",
@@ -6534,6 +6586,9 @@
           "legacy-037",
           "legacy-161",
           "discovered-037"
+        ],
+        "missing_components": [
+          "The precise DoV/CIMEA alternatives and apostille exemptions for each country"
         ]
       },
       "regional_dsu": {
@@ -6699,7 +6754,56 @@
             "url": "https://www.unipd.it/en/ammissione-studenti-internazionali",
             "cycle_marker": "2027/28 admission page or call",
             "relationship": "Named intake/cycle context is checked alongside the field-specific official source; generic page retrieval alone does not verify applicability."
-          }
+          },
+          "missing_components": [
+            "The precise subject/sector-credit thresholds for this programme"
+          ]
+        },
+        "country_grade_masters_2027": {
+          "value": "The official country-entry table is explicitly valid for 27/28. Minimum GPA depends on the country and type of the qualifying degree, not citizenship. Examples from its Master’s column: Afghanistan 75/100; Albania 7/10; Algeria 11/20; India 70/100 (or the explicitly listed alternatives 7/10, 5.6/8, 2.8/4); Pakistan 3.3/4. These examples do not replace the full table or qualification-length rules. Unlisted countries may still apply; the Admissions & Welcome Unit decides qualification eligibility. Any additional programme-specific grade threshold is Not confirmed.",
+          "cycle_status": "2027/28 confirmed",
+          "academic_cycle": "2027/28",
+          "source_urls": [
+            "https://wwwassets.unipd.it/sites/default/files/2026-09/Entry%20requirements%20per%20Country%2027-28%20.pdf"
+          ],
+          "verified_date": "2026-11-13",
+          "evidence_source_ids": [
+            "REFINE-PADUA-COUNTRIES-LINKED"
+          ],
+          "evidence_sha256": {
+            "https://wwwassets.unipd.it/sites/default/files/2026-09/Entry%20requirements%20per%20Country%2027-28%20.pdf": "912175e8f343572def73a8492810e9285576679d38660de4316761396a6a4d1d"
+          },
+          "current_cycle_evidence": {
+            "url": "https://wwwassets.unipd.it/sites/default/files/2026-09/Entry%20requirements%20per%20Country%2027-28%20.pdf",
+            "cycle_marker": "2027/28 explicit applicable programme/cohort context",
+            "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
+          },
+          "missing_components": [
+            "additional programme-specific GPA threshold, if any"
+          ]
+        },
+        "country_grade_bachelors_2027": {
+          "value": "The 27/28 country-entry table sets secondary-qualification requirements by education system. Examples from its Bachelor’s/single-cycle column: Albania requires a minimum average grade of 6.5 for the specified Maturës/Pjekurie qualification; Algeria requires a Baccalauréat examination average of at least 10. These are country-specific entry-title minima, not a universal grade or a substitute for the programme admission test/ranking. A programme-specific grade threshold is Not confirmed.",
+          "cycle_status": "2027/28 confirmed",
+          "academic_cycle": "2027/28",
+          "source_urls": [
+            "https://wwwassets.unipd.it/sites/default/files/2026-09/Entry%20requirements%20per%20Country%2027-28%20.pdf"
+          ],
+          "verified_date": "2026-11-13",
+          "evidence_source_ids": [
+            "REFINE-PADUA-COUNTRIES-LINKED"
+          ],
+          "evidence_sha256": {
+            "https://wwwassets.unipd.it/sites/default/files/2026-09/Entry%20requirements%20per%20Country%2027-28%20.pdf": "912175e8f343572def73a8492810e9285576679d38660de4316761396a6a4d1d"
+          },
+          "current_cycle_evidence": {
+            "url": "https://wwwassets.unipd.it/sites/default/files/2026-09/Entry%20requirements%20per%20Country%2027-28%20.pdf",
+            "cycle_marker": "2027/28 explicit applicable programme/cohort context",
+            "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
+          },
+          "missing_components": [
+            "programme-specific grade threshold, if any"
+          ]
         }
       }
     }
@@ -7618,34 +7722,32 @@
     },
     "decision_support": {
       "universitaly": {
-        "value": "Admitted visa applicants on the named English MSc routes must pre-enrol on Universitaly before seeking a study visa. An applicable 2027/28 Universitaly deadline is Not confirmed; do not substitute the programme application deadline.",
+        "value": "Under the national procedures explicitly valid for 2027/28, applicants who need a study visa must submit the visa pre-enrolment application through the official, free Universitaly portal. University validation is not a visa guarantee. The university/programme-specific 2027/28 submission deadline is Not confirmed; the national visa ceiling is not a substitute for that deadline.",
         "cycle_status": "2027/28 confirmed",
         "academic_cycle": "2027/28",
         "source_urls": [
           "https://computer.ing.unipi.it/call-for-international-students/",
-          "https://applymscenglish.unipi.it/downloads/downloadpdf/bandicdl/2027/bando_10_wcy-lm_en.pdf"
+          "https://applymscenglish.unipi.it/downloads/downloadpdf/bandicdl/2027/bando_10_wcy-lm_en.pdf",
+          "https://www.universitaly.it/en/studenti-stranieri"
         ],
         "verified_date": "2026-11-13",
         "evidence_source_ids": [
           "SRC-UNIPI-INFO-ENG-2027-CALL",
-          "SRC-AUDIT-UNIPI-CYBER-2027-CALL"
+          "SRC-AUDIT-UNIPI-CYBER-2027-CALL",
+          "REFINE-UNIVERSITALY-2027"
         ],
         "evidence_sha256": {
+          "https://www.universitaly.it/en/studenti-stranieri": "d8d8bd4abec1e7eb537e3f99a8047e9683395888810a3d1e9a15c25698eaccf1",
           "https://computer.ing.unipi.it/call-for-international-students/": "0def6771738113fc088acaf53acb34897c51a7caa76107f1697521abc6301a91",
           "https://applymscenglish.unipi.it/downloads/downloadpdf/bandicdl/2027/bando_10_wcy-lm_en.pdf": "eee23bd0ff66e4c16838ca51f944d0ab118544b0f6858b9c0ad7f07843162237"
         },
         "current_cycle_evidence": {
-          "url": "https://computer.ing.unipi.it/call-for-international-students/",
-          "cycle_marker": "2027/28 admission page or call",
-          "relationship": "Named intake/cycle context is checked alongside the field-specific official source; generic page retrieval alone does not verify applicability."
+          "url": "https://www.universitaly.it/en/studenti-stranieri",
+          "cycle_marker": "2027/28 explicit applicable programme/cohort context",
+          "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
         },
-        "program_ids": [
-          "legacy-052",
-          "legacy-053",
-          "legacy-054",
-          "legacy-055",
-          "discovered-001",
-          "discovered-039"
+        "missing_components": [
+          "university/programme-specific Universitaly deadline"
         ]
       },
       "documents": {
@@ -7674,6 +7776,9 @@
           "legacy-053",
           "legacy-054",
           "discovered-039"
+        ],
+        "missing_components": [
+          "The 2027/28 DoV/CIMEA substitution rules and apostille/legalisation conditions"
         ]
       },
       "regional_dsu": {
@@ -7708,6 +7813,9 @@
           "legacy-055",
           "discovered-001",
           "discovered-039"
+        ],
+        "missing_components": [
+          "2027/28 award amounts, detailed eligibility and deadline"
         ]
       },
       "visa_permit": {
@@ -7739,6 +7847,9 @@
           "legacy-055",
           "discovered-001",
           "discovered-039"
+        ],
+        "missing_components": [
+          "Permit details and a universal visa deadline"
         ]
       },
       "scholarships": [
@@ -7776,6 +7887,9 @@
             "legacy-055",
             "discovered-001",
             "discovered-039"
+          ],
+          "missing_components": [
+            "Amount, application route and award deadline"
           ]
         },
         {
@@ -7821,6 +7935,35 @@
             "https://applymscenglish.unipi.it/downloads/downloadpdf/bandicdl/2027/bando_10_wcy-lm_en.pdf": "eee23bd0ff66e4c16838ca51f944d0ab118544b0f6858b9c0ad7f07843162237"
           },
           "short_value": "2026/27: up to EUR 2,900 + tax/stamp; reductions apply"
+        },
+        "cs_english_2027": {
+          "value": "For the Computer Science department’s 2027 application route, demonstrate B2 in listening, reading, speaking and writing. IELTS, TOEFL, Cambridge or equivalent recognised certification is accepted; a B2 skills statement suffices during the application phase. After admission, B2 certification is required for Universitaly validation. Medium of Instruction is not accepted. CLI offers a limited number of B2 assessments for applicants without an accepted certificate; consular acceptance should be checked. Exact test-specific score equivalents and test dates are Not confirmed.",
+          "cycle_status": "2027/28 confirmed",
+          "academic_cycle": "2027/28",
+          "source_urls": [
+            "https://didattica.di.unipi.it/en/internazionale/degrees-offered-in-english/",
+            "https://didattica.di.unipi.it/wp-content/uploads/sites/2/2026/11/Bando2026_corsi_internazionali.pdf"
+          ],
+          "verified_date": "2026-11-13",
+          "evidence_source_ids": [
+            "REFINE-PISA-CS-ENGLISH",
+            "SRC-PISA-CALL-2027"
+          ],
+          "evidence_sha256": {
+            "https://didattica.di.unipi.it/en/internazionale/degrees-offered-in-english/": "72df2c501e0259189485b8e36e0f0d11c0f05930120ec49cc34edd2eaa82b31a",
+            "https://didattica.di.unipi.it/wp-content/uploads/sites/2/2026/11/Bando2026_corsi_internazionali.pdf": "1c99263d016bf882fe561a9338583ca6911c19dc5abe581ed94e5833bd09a59e"
+          },
+          "current_cycle_evidence": {
+            "url": "https://didattica.di.unipi.it/wp-content/uploads/sites/2/2026/11/Bando2026_corsi_internazionali.pdf",
+            "cycle_marker": "2027/28 explicit applicable programme/cohort context",
+            "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
+          },
+          "missing_components": [
+            "exact IELTS/TOEFL/Cambridge score equivalents",
+            "CLI assessment dates"
+          ],
+          "answer": "yes",
+          "short_value": "B2 certificate for visa validation; MOI not accepted"
         }
       }
     }
@@ -8446,51 +8589,55 @@
     },
     "decision_support": {
       "universitaly": {
-        "value": "Not confirmed",
-        "cycle_status": "not confirmed",
-        "academic_cycle": null,
-        "source_urls": [],
-        "verified_date": null,
-        "checked_urls": [
-          "https://application.epog.eu/",
-          "https://en.unito.it/studying-unito/programs/degree-programs/artificial-intelligence-and-high-performance-computing",
-          "https://en.unito.it/studying-unito/programs/degree-programs/business-administration-3",
-          "https://en.unito.it/studying-unito/programs/degree-programs/business-management",
-          "https://en.unito.it/studying-unito/programs/degree-programs/degree-programs-english",
-          "https://en.unito.it/studying-unito/programs/degree-programs/economic-analysis-and-policy",
-          "https://en.unito.it/studying-unito/programs/degree-programs/economics-0",
-          "https://en.unito.it/studying-unito/programs/degree-programs/economics-and-finance-data-science",
-          "https://en.unito.it/studying-unito/programs/degree-programs/global-law-and-transnational-legal-studies",
-          "https://en.unito.it/studying-unito/programs/degree-programs/language-technologies-and-digital-humanities",
-          "https://en.unito.it/studying-unito/programs/degree-programs/molecular-biotechnology",
-          "https://en.unito.it/studying-unito/programs/degree-programs/stochastics-and-data-science",
-          "https://www.eap.unito.it/do/home.pl/View?doc=how_to_apply.html",
-          "https://www.en.unito.it/studying-unito/international-degree-seeking-students/application-international-students",
-          "https://www.en.unito.it/studying-unito/tuition-fees/tuition-fees-international-students",
-          "https://www.epog.eu/admission-and-scholarships/admission/",
-          "https://www.epog.eu/admission-and-scholarships/scholarships/",
-          "https://www.epog.eu/admission-and-scholarships/tuition-fees/",
-          "https://www.epog.eu/outcomes/degree-policy/",
-          "https://www.unito.it/didattica/tasse/corsi-con-contributi-aggiuntivi"
+        "value": "Under the national procedures explicitly valid for 2027/28, applicants who need a study visa must submit the visa pre-enrolment application through the official, free Universitaly portal. University validation is not a visa guarantee. The university/programme-specific 2027/28 submission deadline is Not confirmed; the national visa ceiling is not a substitute for that deadline.",
+        "cycle_status": "2027/28 confirmed",
+        "academic_cycle": "2027/28",
+        "source_urls": [
+          "https://www.universitaly.it/en/studenti-stranieri"
         ],
-        "checked_at": "2026-11-13",
-        "reason": "The university/programme-specific Universitaly requirement and deadline have not been established for an applicable cycle. Reviewed official material does not establish this field for a named applicable cycle. Check the linked pages and program call."
+        "verified_date": "2026-11-13",
+        "evidence_source_ids": [
+          "REFINE-UNIVERSITALY-2027"
+        ],
+        "evidence_sha256": {
+          "https://www.universitaly.it/en/studenti-stranieri": "d8d8bd4abec1e7eb537e3f99a8047e9683395888810a3d1e9a15c25698eaccf1"
+        },
+        "current_cycle_evidence": {
+          "url": "https://www.universitaly.it/en/studenti-stranieri",
+          "cycle_marker": "2027/28 explicit applicable programme/cohort context",
+          "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
+        },
+        "missing_components": [
+          "university/programme-specific Universitaly deadline"
+        ]
       },
       "documents": {
-        "value": "Not confirmed",
-        "cycle_status": "not confirmed",
-        "academic_cycle": null,
-        "verified_date": null,
+        "value": "For the EAP/EPOG 2027/28 online route: full CV; relevant diploma (at least 180 ECTS) or final-year sworn expected-graduation statement; all higher-education transcripts; English proof; statement of purpose (maximum 500 words); two references; passport (EU ID accepted); residence proof/sworn statement for scholarship applicants. Original-language academic documents need English translations. Unofficial translations can be uploaded initially, but official/certified translations are required after pre-selection. The page also names June 10 as a certified-translation deadline without a year. Torino-specific DoV/CIMEA and apostille substitutions are Not confirmed.",
+        "cycle_status": "2027/28 confirmed",
+        "academic_cycle": "2027/28",
         "source_urls": [
-          "https://www.epog.eu/admission-and-scholarships/admission/",
-          "https://en.unito.it/studying-unito/programs/degree-programs/economic-analysis-and-policy"
+          "https://www.eap.unito.it/do/home.pl/View?doc=how_to_apply.html"
         ],
-        "checked_urls": [
-          "https://www.epog.eu/admission-and-scholarships/admission/",
-          "https://en.unito.it/studying-unito/programs/degree-programs/economic-analysis-and-policy"
+        "verified_date": "2026-11-13",
+        "evidence_source_ids": [
+          "REFINE-EAP-APPLY"
         ],
-        "checked_at": "2026-11-13",
-        "reason": "The current EPOG route requires a CV, qualifying-degree evidence, transcripts, English evidence, statement of purpose, references and passport, plus residence evidence for scholarship applicants. University-wide 2027/28 DoV/CIMEA, apostille and translation substitution rules have not been established. The EAP-specific application page was inaccessible."
+        "evidence_sha256": {
+          "https://www.eap.unito.it/do/home.pl/View?doc=how_to_apply.html": "16fce99b54f0d0bcb961b60cb7823cae7811b7170cff30c71534088a2d580fa0"
+        },
+        "current_cycle_evidence": {
+          "url": "https://www.eap.unito.it/do/home.pl/View?doc=how_to_apply.html",
+          "cycle_marker": "2027/28 explicit applicable programme/cohort context",
+          "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
+        },
+        "missing_components": [
+          "year/applicability of the June 10 translation deadline",
+          "DoV/CIMEA alternatives",
+          "apostille/legalisation substitutions"
+        ],
+        "program_ids": [
+          "discovered-038"
+        ]
       },
       "regional_dsu": {
         "value": "EDISU Piemonte: scholarship and accommodation competition for Piedmont university students. International students without SPID/CIE can request a Temporary Access Code; foreign-family financial/consular documents and possible translation/apostille exemptions follow the call. The ordinary-degree 2026/27 application deadline was 4 Sep 2026 at 12:00. 2027/28 terms are Not confirmed.",
@@ -8511,35 +8658,34 @@
         }
       },
       "visa_permit": {
-        "value": "Not confirmed",
-        "cycle_status": "not confirmed",
-        "academic_cycle": null,
-        "source_urls": [],
-        "verified_date": null,
-        "checked_urls": [
-          "https://application.epog.eu/",
-          "https://en.unito.it/studying-unito/programs/degree-programs/artificial-intelligence-and-high-performance-computing",
-          "https://en.unito.it/studying-unito/programs/degree-programs/business-administration-3",
-          "https://en.unito.it/studying-unito/programs/degree-programs/business-management",
-          "https://en.unito.it/studying-unito/programs/degree-programs/degree-programs-english",
-          "https://en.unito.it/studying-unito/programs/degree-programs/economic-analysis-and-policy",
-          "https://en.unito.it/studying-unito/programs/degree-programs/economics-0",
-          "https://en.unito.it/studying-unito/programs/degree-programs/economics-and-finance-data-science",
-          "https://en.unito.it/studying-unito/programs/degree-programs/global-law-and-transnational-legal-studies",
-          "https://en.unito.it/studying-unito/programs/degree-programs/language-technologies-and-digital-humanities",
-          "https://en.unito.it/studying-unito/programs/degree-programs/molecular-biotechnology",
-          "https://en.unito.it/studying-unito/programs/degree-programs/stochastics-and-data-science",
-          "https://www.eap.unito.it/do/home.pl/View?doc=how_to_apply.html",
-          "https://www.en.unito.it/studying-unito/international-degree-seeking-students/application-international-students",
-          "https://www.en.unito.it/studying-unito/tuition-fees/tuition-fees-international-students",
-          "https://www.epog.eu/admission-and-scholarships/admission/",
-          "https://www.epog.eu/admission-and-scholarships/scholarships/",
-          "https://www.epog.eu/admission-and-scholarships/tuition-fees/",
-          "https://www.epog.eu/outcomes/degree-policy/",
-          "https://www.unito.it/didattica/tasse/corsi-con-contributi-aggiuntivi"
+        "value": "Turin directs applicants to the competent embassy/consulate for the visa and says a residence-permit application must be made within 8 working days after arrival in Italy. The university offers application support; keep the postal receipt for the subsequent police appointment. The exact programme-specific 2027/28 visa/arrival deadline and future office-procedure changes are Not confirmed.",
+        "cycle_status": "2027/28 confirmed",
+        "academic_cycle": "2027/28",
+        "source_urls": [
+          "https://en.unito.it/living-turin/when-you-arrive/residence-permit",
+          "https://en.unito.it/living-turin/you-leave-home/visa",
+          "https://www.universitaly.it/en/studenti-stranieri"
         ],
-        "checked_at": "2026-11-13",
-        "reason": "Applicable university-published visa/permit instructions have not been verified. Generic national guidance is not substituted for a university rule. Reviewed official material does not establish this field for a named applicable cycle. Check the linked pages and program call."
+        "verified_date": "2026-11-13",
+        "evidence_source_ids": [
+          "REFINE-UNITO-PERMIT",
+          "REFINE-UNITO-VISA-GUIDE",
+          "REFINE-UNIVERSITALY-2027"
+        ],
+        "evidence_sha256": {
+          "https://en.unito.it/living-turin/when-you-arrive/residence-permit": "ec227f6e696e068421cc59779b0984975125d5ba8c06c1c46d5de77c6495fe3b",
+          "https://en.unito.it/living-turin/you-leave-home/visa": "41a7dc51e83369655b64de7051b512800d6204db7a788b6f0714d9f72978de32",
+          "https://www.universitaly.it/en/studenti-stranieri": "d8d8bd4abec1e7eb537e3f99a8047e9683395888810a3d1e9a15c25698eaccf1"
+        },
+        "current_cycle_evidence": {
+          "url": "https://www.universitaly.it/en/studenti-stranieri",
+          "cycle_marker": "2027/28 explicit applicable programme/cohort context",
+          "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
+        },
+        "missing_components": [
+          "programme-specific 2027/28 visa/arrival deadline",
+          "future university office-procedure changes"
+        ]
       },
       "scholarships": [
         {
@@ -8792,35 +8938,27 @@
     },
     "decision_support": {
       "universitaly": {
-        "value": "Not confirmed",
-        "cycle_status": "not confirmed",
-        "academic_cycle": null,
-        "source_urls": [],
-        "verified_date": null,
-        "checked_urls": [
-          "https://corsi.unitn.it/en/artificial-intelligence-systems",
-          "https://corsi.unitn.it/en/cognitive-science",
-          "https://corsi.unitn.it/en/comparative-european-and-international-legal-studies",
-          "https://corsi.unitn.it/en/computer-science-master",
-          "https://corsi.unitn.it/en/data-science",
-          "https://corsi.unitn.it/en/human-computer-interaction",
-          "https://corsi.unitn.it/en/international-security-studies",
-          "https://masterschool.28digital.eu/admissions",
-          "https://masterschool.28digital.eu/admissions/fees",
-          "https://masterschool.28digital.eu/artificial-intelligence-with-affective-computing",
-          "https://masterschool.28digital.eu/cloud-and-networking-infrastructure-and-hpc",
-          "https://masterschool.28digital.eu/cyber-security",
-          "https://masterschool.28digital.eu/data-science",
-          "https://masterschool.28digital.eu/fintech",
-          "https://masterschool.28digital.eu/human-computer-interaction-and-design-with-extended-reality",
-          "https://masterschool.28digital.eu/intelligent-chips-and-systems",
-          "https://www.disi.unitn.it/eit-digital",
-          "https://www.unitn.it/en/admission-courses-taught-english",
-          "https://www.unitn.it/en/international/coming-unitrento/admission-how-it-works",
-          "https://www.unitn.it/en/study/fees-scholarships-accommodation/tuition-fees/non-eu-citizens"
+        "value": "Under the national procedures explicitly valid for 2027/28, applicants who need a study visa must submit the visa pre-enrolment application through the official, free Universitaly portal. University validation is not a visa guarantee. The university/programme-specific 2027/28 submission deadline is Not confirmed; the national visa ceiling is not a substitute for that deadline.",
+        "cycle_status": "2027/28 confirmed",
+        "academic_cycle": "2027/28",
+        "source_urls": [
+          "https://www.universitaly.it/en/studenti-stranieri"
         ],
-        "checked_at": "2026-11-13",
-        "reason": "The university/programme-specific Universitaly requirement and deadline have not been established for an applicable cycle. Reviewed official material does not establish this field for a named applicable cycle. Check the linked pages and program call."
+        "verified_date": "2026-11-13",
+        "evidence_source_ids": [
+          "REFINE-UNIVERSITALY-2027"
+        ],
+        "evidence_sha256": {
+          "https://www.universitaly.it/en/studenti-stranieri": "d8d8bd4abec1e7eb537e3f99a8047e9683395888810a3d1e9a15c25698eaccf1"
+        },
+        "current_cycle_evidence": {
+          "url": "https://www.universitaly.it/en/studenti-stranieri",
+          "cycle_marker": "2027/28 explicit applicable programme/cohort context",
+          "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
+        },
+        "missing_components": [
+          "university/programme-specific Universitaly deadline"
+        ]
       },
       "documents": {
         "value": "28DIGITAL application only: degree certificate and stamped transcript in original language AND English; authorised translation where the university does not provide it. Final-year applicants provide a degree-administration statement. Also upload English proof, CV, a motivation letter (maximum two pages) and colour ID; GPA/rank statement and video are optional. Present original degree/transcript before enrolment. Specific countries require direct registrar/HEC documentation. One email-receipt paragraph still gives 2026 dates while postal instructions give 2027; those receipt deadlines need clarification. Italian DoV/CIMEA and apostille substitutions are Not confirmed.",
@@ -8852,6 +8990,9 @@
           "discovered-017",
           "discovered-018",
           "discovered-019"
+        ],
+        "missing_components": [
+          "Italian DoV/CIMEA and apostille substitutions"
         ]
       },
       "regional_dsu": {
@@ -8870,35 +9011,34 @@
         }
       },
       "visa_permit": {
-        "value": "Not confirmed",
-        "cycle_status": "not confirmed",
-        "academic_cycle": null,
-        "source_urls": [],
-        "verified_date": null,
-        "checked_urls": [
-          "https://corsi.unitn.it/en/artificial-intelligence-systems",
-          "https://corsi.unitn.it/en/cognitive-science",
-          "https://corsi.unitn.it/en/comparative-european-and-international-legal-studies",
-          "https://corsi.unitn.it/en/computer-science-master",
-          "https://corsi.unitn.it/en/data-science",
-          "https://corsi.unitn.it/en/human-computer-interaction",
-          "https://corsi.unitn.it/en/international-security-studies",
-          "https://masterschool.28digital.eu/admissions",
-          "https://masterschool.28digital.eu/admissions/fees",
-          "https://masterschool.28digital.eu/artificial-intelligence-with-affective-computing",
-          "https://masterschool.28digital.eu/cloud-and-networking-infrastructure-and-hpc",
-          "https://masterschool.28digital.eu/cyber-security",
-          "https://masterschool.28digital.eu/data-science",
-          "https://masterschool.28digital.eu/fintech",
-          "https://masterschool.28digital.eu/human-computer-interaction-and-design-with-extended-reality",
-          "https://masterschool.28digital.eu/intelligent-chips-and-systems",
-          "https://www.disi.unitn.it/eit-digital",
-          "https://www.unitn.it/en/admission-courses-taught-english",
-          "https://www.unitn.it/en/international/coming-unitrento/admission-how-it-works",
-          "https://www.unitn.it/en/study/fees-scholarships-accommodation/tuition-fees/non-eu-citizens"
+        "value": "Trento directs non-EU visa applicants to Universitaly and the Italian diplomatic representation. Its residence-permit page instructs type-D student-visa holders staying longer than 90 days to apply within 8 working days and offers International Mobility Office assistance. The exact programme-specific 2027/28 visa/arrival deadline and future office-procedure changes are Not confirmed.",
+        "cycle_status": "2027/28 confirmed",
+        "academic_cycle": "2027/28",
+        "source_urls": [
+          "https://www.unitn.it/en/international/coming-unitrento/all-you-need-know/visa",
+          "https://www.unitn.it/en/international/coming-unitrento/all-you-need-know/residence-permit",
+          "https://www.universitaly.it/en/studenti-stranieri"
         ],
-        "checked_at": "2026-11-13",
-        "reason": "Applicable university-published visa/permit instructions have not been verified. Generic national guidance is not substituted for a university rule. Reviewed official material does not establish this field for a named applicable cycle. Check the linked pages and program call."
+        "verified_date": "2026-11-13",
+        "evidence_source_ids": [
+          "REFINE-UNITN-VISA",
+          "REFINE-UNITN-PERMIT",
+          "REFINE-UNIVERSITALY-2027"
+        ],
+        "evidence_sha256": {
+          "https://www.unitn.it/en/international/coming-unitrento/all-you-need-know/visa": "99c5518d95fedde2385531b097e9190dbff4317be71d1602ec8f0171b15bfbcb",
+          "https://www.unitn.it/en/international/coming-unitrento/all-you-need-know/residence-permit": "a0e26b0b4ef0df543d7e90e8a96c8d2ca7a439be6cd73e18137ccd96c944e5c3",
+          "https://www.universitaly.it/en/studenti-stranieri": "d8d8bd4abec1e7eb537e3f99a8047e9683395888810a3d1e9a15c25698eaccf1"
+        },
+        "current_cycle_evidence": {
+          "url": "https://www.universitaly.it/en/studenti-stranieri",
+          "cycle_marker": "2027/28 explicit applicable programme/cohort context",
+          "relationship": "Field-specific statements and their applicable route are manually checked; a detected year alone is not verification."
+        },
+        "missing_components": [
+          "programme-specific 2027/28 visa/arrival deadline",
+          "future university office-procedure changes"
+        ]
       },
       "scholarships": [
         {
@@ -8933,6 +9073,10 @@
             "discovered-017",
             "discovered-018",
             "discovered-019"
+          ],
+          "missing_components": [
+            "track/partner-specific waiver eligibility where the published wording differs",
+            "compatibility with another award where a partner call restricts combination"
           ]
         }
       ],

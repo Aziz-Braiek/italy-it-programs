@@ -61,6 +61,24 @@ def is_current(fact):
     return fact.get("cycle_status") == CURRENT and fact.get("academic_cycle") in {"2027/28", "2027-2028", "2027/2028", "2027–2029"} and fact.get("value") not in (None, "", "Not confirmed")
 
 
+def binary_state(fact):
+    """A conditional rule is not a universal yes or no for an unknown applicant."""
+    answer = fact.get("answer")
+    return answer if is_current(fact) and answer in {"yes", "no"} else UNKNOWN
+
+
+def confirmation_label(fact):
+    if fact.get("evidence_scope") == "degree_structure":
+        return "Degree structure"
+    if is_current(fact) and fact.get("missing_components"):
+        return "Partly confirmed · 2027/28"
+    return fact.get("cycle_status", UNKNOWN)
+
+
+def conflicts_for(program_id):
+    return [item for item in read("source-conflicts.json") if program_id in item.get("record_ids", [])]
+
+
 def resolve(program, key, university):
     fact = program.get("decision_support", {}).get(key) or unknown()
     if "university_policy" in fact:
@@ -90,6 +108,7 @@ def scholarship_summary(program, university):
     return {**selected[0], "value": " | ".join(f["value"] for f in selected),
             "source_urls": sorted({url for f in selected for url in f["source_urls"]}),
             "evidence_sha256": {url: sha for f in selected for url, sha in f.get("evidence_sha256", {}).items()},
+            "missing_components": sorted({item for f in selected for item in f.get("missing_components", [])}),
             "answer": "yes" if current and any(f.get("answer") == "yes" for f in current) else "not confirmed"}
 
 
@@ -117,6 +136,8 @@ def apply(universities, programs):
             record["decision_support"] = defaults
     validate(universities, programs)
     write_reports(universities, programs)
+    from build_decision_refinement_report import build
+    build(universities, programs)
 
 
 def validate_fact(fact, location):
@@ -130,6 +151,14 @@ def validate_fact(fact, location):
     if not known and value != "Not confirmed":
         raise ValueError(f"Unknown field must say Not confirmed: {location}")
     if known:
+        if 'missing_components' in fact and (not isinstance(fact['missing_components'], list) or any(not isinstance(item, str) or not item.strip() for item in fact['missing_components'])):
+            raise ValueError(f"Missing components must be named explicitly: {location}")
+        if is_current(fact) and re.search(r"not confirmed|\bTBD\b|forthcoming|not yet published|not stated|does not specify|needs clarification|seek clarification", value, re.I) and not fact.get("missing_components"):
+            raise ValueError(f"Partly resolved field lacks named missing components: {location}")
+        if fact.get("evidence_scope") == "degree_structure":
+            proof = fact.get("structure_evidence") or {}
+            if proof.get("url") not in fact.get("source_urls", []) or not proof.get("passage"):
+                raise ValueError(f"Degree structure lacks explicit official course evidence: {location}")
         if not fact.get("source_urls") or any(not urlsplit(url).scheme == "https" or not urlsplit(url).hostname for url in fact["source_urls"]):
             raise ValueError(f"Value without official source URL: {location}")
         if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", fact.get("verified_date") or ""):
@@ -155,14 +184,21 @@ def validate_fact(fact, location):
                 raise ValueError(f"Value lacks a matching reviewed-source hash: {location}")
 
 
-def validate_filter_flags(program, university, tuition, scholarship):
+def validate_filter_flags(program, university, tuition, scholarship, admission_test=None, english_certificate=None):
     facts = {"tuition": (tuition, resolve(program, "tuition", university)),
              "scholarship": (scholarship, scholarship_summary(program, university))}
     for key, (flag, fact) in facts.items():
         if flag == "documented":
-            if not is_current(fact):
+            if not is_current(fact) or fact.get("evidence_scope") == "degree_structure":
                 raise ValueError(f"Confirmed {key} filter without 2027/28 evidence: {program['id']}")
             validate_fact(fact, f"{program['id']}/{key} filter")
+    for key, flag in (("admission_test", admission_test), ("english_requirement", english_certificate)):
+        if flag is not None:
+            fact = resolve(program, key, university)
+            if flag not in {"yes", "no", UNKNOWN} or flag != binary_state(fact):
+                raise ValueError(f"Unverified yes/no filter state: {program['id']}/{key}")
+            if flag in {"yes", "no"}:
+                validate_fact(fact, f"{program['id']}/{key} filter")
 
 
 def validate(universities, programs):
@@ -178,7 +214,10 @@ def validate(universities, programs):
     for program in programs:
         uni = uni_by_id[program["university_id"]]
         for key in PROGRAM_FIELDS:
-            validate_fact(resolve(program, key, uni), f"{program['id']}/{key}")
+            fact = resolve(program, key, uni)
+            validate_fact(fact, f"{program['id']}/{key}")
+            if fact.get("evidence_scope") == "degree_structure" and key not in {"duration", "ects"}:
+                raise ValueError(f"Degree-structure label on a cycle-dependent field: {program['id']}/{key}")
 
 
 def filter_state(fact):
@@ -188,8 +227,8 @@ def filter_state(fact):
 def export_fact(fact):
     # Previous-cycle values are deliberately excluded from shortlist exports.
     if not is_current(fact):
-        return {"value": "Not confirmed", "cycle_status": fact.get("cycle_status", UNKNOWN), "source_urls": [], "verified_date": ""}
-    return {key: fact.get(key, "") for key in ("value", "cycle_status", "source_urls", "verified_date")}
+        return {"value": "Not confirmed", "cycle_status": fact.get("cycle_status", UNKNOWN), "source_urls": [], "verified_date": "", "confirmation": "Degree structure (historical value omitted)" if fact.get('evidence_scope') == 'degree_structure' else "Not confirmed", "missing_components": []}
+    return {**{key: fact.get(key, "") for key in ("value", "cycle_status", "source_urls", "verified_date")}, "confirmation": confirmation_label(fact), "missing_components": fact.get('missing_components', [])}
 
 
 def write_reports(universities, programs):
@@ -206,7 +245,7 @@ def write_reports(universities, programs):
                 tally[fact["cycle_status"]] += 1
                 row = {"record_type": kind, "id": record["id"], "name": record.get("program") or record.get("name"), "field": key, **fact}
                 ledger.append(row)
-                if fact["cycle_status"] == UNKNOWN:
+                if fact["cycle_status"] == UNKNOWN or fact.get("missing_components"):
                     gaps.append(row)
             counts[f"{kind}.{key}"] = {label: tally[label] for label in (CURRENT, PREVIOUS, UNKNOWN)}
     tally = Counter()
@@ -215,7 +254,7 @@ def write_reports(universities, programs):
             tally[fact["cycle_status"]] += 1
             row = {"record_type": "university", "id": uni["id"], "name": uni["name"], "field": "scholarships", "offer_index": i, **fact}
             ledger.append(row)
-            if fact["cycle_status"] == UNKNOWN:
+            if fact["cycle_status"] == UNKNOWN or fact.get("missing_components"):
                 gaps.append(row)
     counts["university.scholarship_offers"] = {label: tally[label] for label in (CURRENT, PREVIOUS, UNKNOWN)}
     outcomes = []
@@ -233,6 +272,7 @@ def write_reports(universities, programs):
                              "priority_record": priority, "review_outcome": state,
                              "counts": {label: tally[label] for label in (CURRENT, PREVIOUS, UNKNOWN)},
                              "unconfirmed_fields": [row["field"] for row in relevant if row["cycle_status"] == UNKNOWN],
+                             "partly_confirmed_fields": [row["field"] for row in relevant if is_current(row) and row.get("missing_components")],
                              "reason": "See the field ledger for precise missing components, publication limits, source conflicts and pages checked. Awaiting-only records without approved values have not completed the lower-priority research pass."})
     for name, value in (("coverage.json", counts), ("field-ledger.json", ledger), ("unverified-fields.json", gaps)):
         (RESEARCH / name).write_text(json.dumps(value, ensure_ascii=False, indent=2)+"\n", encoding="utf-8")
@@ -241,15 +281,15 @@ def write_reports(universities, programs):
               "", "Program availability, original record review dates and application-deadline facts are unchanged: 47 confirmed / 159 awaiting / 3 not offered; 209 programs and 34 universities.",
               "", "The 47 confirmed programs and their 11 host universities received the priority source review. Eight awaiting Polito records received older-cycle requirements; another 44 awaiting profiles received directly checked older-cycle duration/credit facts. The remaining awaiting-record research is incomplete; no blanket factual-completeness claim is made.",
               "", "Known values are manually approved in verified-facts.json, with official URLs, academic cycle, field verification date and captured-source hashes. Unknowns say Not confirmed. Passing software checks and a successful HTTP fetch are not factual verification.",
-              "", "A confirmed field describes the published statements within its specified scope. Unknown subcomponents (for example a fee maximum, an exact English-test equivalence, a country-specific GPA or a document substitution) remain explicitly Not confirmed; a confirmed field is not an applicant eligibility decision.",
+              "", "Current-cycle evidence totals include partly confirmed fields. The UI labels these Partly confirmed and names the missing components; they must not be read as fully resolved eligibility. Degree structure is displayed separately from intake confirmation. The priority-scope refinement report linked from the homepage separates before/after and full/partial counts.",
               "", "## Field counts across the full tracker", "", "Program-field rows each total 209; university-field rows each total 34. Scholarship offers are counted individually, including one explicit unknown placeholder for universities without an approved scheme.",
               "", "| Field | 2027/28 confirmed | Previous cycle only | Not confirmed |", "|---|---:|---:|---:|"]
     report += [f"| {key} | {value[CURRENT]} | {value[PREVIOUS]} | {value[UNKNOWN]} |" for key, value in counts.items()]
     checks = read("source-checks.json")["responses"]
     report += ["", "## Source coverage and limits", "", f"Freshly captured official URLs: {len(checks)}; HTTP 200 responses: {sum(r.get('http_status') == 200 for r in checks)}. Captures include university sites/application portals, official joint-program admissions and regional right-to-study bodies. A transport result alone does not approve a field.",
-               "", f"Responses not established as readable by the capture client: {sum(r.get('transport_outcome') != 'accessible' for r in checks)}. Priority failures included four Padua resets/TLS-chain errors and one EAP timeout. The lower-priority source pass also encountered old/broken, access-limited and unreadable sources. Successful official alternatives were used only where applicable. TLS verification was not disabled. Each URL/outcome remains in source-checks.json.",
+               "", f"Responses not established as readable by the capture client: {sum(r.get('transport_outcome') != 'accessible' for r in checks)}. Some sources initially failed through resets, TLS errors or timeouts; the EAP application page was subsequently recovered. Other old/broken, access-limited or unreadable sources remain explicit. HTTP 200 can also contain a soft error and does not establish readable admissions content. Successful alternatives were used only where applicable; TLS verification was not disabled. Each latest URL/outcome remains in source-checks.json.",
                "", "## Normalisation and UI", "", "University logistics, scholarship offers and shared fee/English policies live on university records. Program-specific values and policy references live on program records. Program cards resolve those references; they do not store copies of university logistics. Joint-program and applicant scopes are preserved. The older research observations remain frozen for audit transparency; public eligibility/cost sections use the new canonical decision fields.",
-               "", "Cards show tuition, English proof, admission tests and funding, with cycle/date/source labels. Detail pages show all decision fields, including explicit unknowns, without JavaScript. Confirmed tuition/funding and no-test/certificate filters use only current, supported decision facts. A test's absence from a page is not a no-test exemption. General teaching language does not imply a certificate waiver.",
+               "", "Cards show known tuition, English, test and funding facts with cycle/date/source labels; unknown fields collapse into one line. Detail pages retain every field and explicit source conflicts without JavaScript. Yes/no filters accept only the exact current, sourced binary state; conditional rules remain not confirmed for an unspecified applicant. Tuition/funding filters use only current, supported facts. A test's absence is not a no-test exemption. Degree structure never establishes intake or cost/test/funding rules.",
                "", "CSV adds value, cycle, official URL and verification date columns per decision field. Earlier-cycle values are replaced by Not confirmed while retaining their cycle label; historical amounts and requirements are not exported as actionable data. Existing deadline calculation and calendar logic are unchanged.",
                "", "## Conflicts and missing records", "", "See source-conflicts.json for exact competing claims, URLs and handling. The complete field-ledger.json includes every field outcome; unverified-fields.json lists each gap and pages checked. record-outcomes.json and the table below cover every program and university explicitly.",
                "", "## Record outcomes", "", "| Type | Stable ID | Program / university | Current | Previous | Unknown | Review outcome |", "|---|---|---|---:|---:|---:|---|"]

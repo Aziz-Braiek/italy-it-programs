@@ -386,6 +386,12 @@ th { background: #f6f8fa; color: #425168; font-size: .77rem; text-transform: upp
 .decision-previous { border-left-color: #c7a15d; background: #302919; }
 .decision-previous .decision-cycle { color: #ecd195; }
 .decision-current { border-left-color: var(--green); }
+.decision-partial { border-left-color: #d9af62; }
+.decision-partial .decision-cycle, .decision-missing { color: #ecd195; }
+.decision-structure { border-left-color: #7bbbd3; }
+.decision-unknown-summary, .decision-conflict-summary { font-size: .8rem; color: var(--muted); margin: .6rem 0; }
+.decision-summary:empty { display: none; }
+.decision-conflict { border-left: 3px solid #d9af62; padding: .7rem 1rem; margin: 1rem 0; overflow-wrap: anywhere; }
 .decision-details { margin: 1.5rem 0; }
 .decision-details > dl { display: grid; gap: .8rem; }
 .decision-details p { font-size: .85rem; }

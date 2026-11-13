@@ -10,29 +10,29 @@
     "not confirmed": 167
   },
   "program.prerequisites": {
-    "2027/28 confirmed": 34,
+    "2027/28 confirmed": 37,
     "previous cycle (estimate only)": 10,
-    "not confirmed": 165
+    "not confirmed": 162
   },
   "program.english_requirement": {
-    "2027/28 confirmed": 30,
-    "previous cycle (estimate only)": 10,
-    "not confirmed": 169
+    "2027/28 confirmed": 33,
+    "previous cycle (estimate only)": 9,
+    "not confirmed": 167
   },
   "program.admission_test": {
-    "2027/28 confirmed": 7,
+    "2027/28 confirmed": 10,
     "previous cycle (estimate only)": 3,
-    "not confirmed": 199
+    "not confirmed": 196
   },
   "program.selection_method": {
-    "2027/28 confirmed": 15,
+    "2027/28 confirmed": 17,
     "previous cycle (estimate only)": 0,
-    "not confirmed": 194
+    "not confirmed": 192
   },
   "program.minimum_grade": {
-    "2027/28 confirmed": 2,
+    "2027/28 confirmed": 21,
     "previous cycle (estimate only)": 0,
-    "not confirmed": 207
+    "not confirmed": 188
   },
   "program.non_eu_seats": {
     "2027/28 confirmed": 1,
@@ -41,18 +41,18 @@
   },
   "program.tuition": {
     "2027/28 confirmed": 9,
-    "previous cycle (estimate only)": 9,
-    "not confirmed": 191
+    "previous cycle (estimate only)": 11,
+    "not confirmed": 189
   },
   "university.universitaly": {
-    "2027/28 confirmed": 3,
+    "2027/28 confirmed": 11,
     "previous cycle (estimate only)": 0,
-    "not confirmed": 31
+    "not confirmed": 23
   },
   "university.documents": {
-    "2027/28 confirmed": 7,
+    "2027/28 confirmed": 9,
     "previous cycle (estimate only)": 0,
-    "not confirmed": 27
+    "not confirmed": 25
   },
   "university.regional_dsu": {
     "2027/28 confirmed": 2,
@@ -60,9 +60,9 @@
     "not confirmed": 24
   },
   "university.visa_permit": {
-    "2027/28 confirmed": 2,
+    "2027/28 confirmed": 7,
     "previous cycle (estimate only)": 0,
-    "not confirmed": 32
+    "not confirmed": 27
   },
   "university.scholarship_offers": {
     "2027/28 confirmed": 5,

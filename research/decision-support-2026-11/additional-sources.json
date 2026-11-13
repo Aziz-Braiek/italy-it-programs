@@ -1972,5 +1972,251 @@
     "url": "https://www.univr.it/en/our-services/international-degree-seeking-students",
     "title": "International degree-seeking students",
     "official_basis": "Existing university/programme/DSU source from the preserved research registry; awaiting-record decision review"
+  },
+  {
+    "id": "REFINE-UNIVERSITALY-2027",
+    "title": "National procedures 2026/27 and 2027/28",
+    "url": "https://www.universitaly.it/en/studenti-stranieri",
+    "official_basis": "University-owned page or the MUR Universitaly portal; follow only the named applicant/programme/cycle scope."
+  },
+  {
+    "id": "REFINE-POLIMI-APPLICATION",
+    "title": "Foreign-qualification MSc application",
+    "url": "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/application/",
+    "official_basis": "University-owned page or the MUR Universitaly portal; follow only the named applicant/programme/cycle scope."
+  },
+  {
+    "id": "REFINE-POLIMI-FEES",
+    "title": "Degree tuition and calculation",
+    "url": "https://www.polimi.it/en/prospective-students/how-much-does-it-cost/laurea-laurea-magistrale-and-single-cycle-programmes",
+    "official_basis": "University-owned page or the MUR Universitaly portal; follow only the named applicant/programme/cycle scope."
+  },
+  {
+    "id": "REFINE-POLIMI-PERMIT",
+    "title": "Residence permit instructions",
+    "url": "https://www.polimi.it/en/prospective-students/how-to-apply/on-arrival-information/residence-permit",
+    "official_basis": "University-owned page or the MUR Universitaly portal; follow only the named applicant/programme/cycle scope."
+  },
+  {
+    "id": "REFINE-UNIFI-PREENROL",
+    "title": "Florence pre-enrolment and visa",
+    "url": "https://www.unifi.it/en/study-us/your-learning-path/start-your-enrolment/international-students/pre-enrolment-and-study",
+    "official_basis": "University-owned page or the MUR Universitaly portal; follow only the named applicant/programme/cycle scope."
+  },
+  {
+    "id": "REFINE-UNIFI-DOCS",
+    "title": "Florence non-EU enrolment documents",
+    "url": "https://www.unifi.it/en/study-us/your-learning-path/start-your-enrolment/international-students/non-eu-students",
+    "official_basis": "University-owned page or the MUR Universitaly portal; follow only the named applicant/programme/cycle scope."
+  },
+  {
+    "id": "REFINE-UNINA-LIFE",
+    "title": "Naples visa and residence",
+    "url": "https://www.international.unina.it/academic-and-student-life/",
+    "official_basis": "University-owned page or the MUR Universitaly portal; follow only the named applicant/programme/cycle scope."
+  },
+  {
+    "id": "REFINE-UNINA-GUIDELINES",
+    "title": "Chemical Engineering international candidates",
+    "url": "https://www.dicmapi.unina.it/international-students-and-doctoral-candidates",
+    "official_basis": "University-owned page or the MUR Universitaly portal; follow only the named applicant/programme/cycle scope."
+  },
+  {
+    "id": "REFINE-UNIVE-PREENROL",
+    "title": "Ca Foscari pre-enrolment and visa",
+    "url": "https://www.unive.it/pag/40813/",
+    "official_basis": "University-owned page or the MUR Universitaly portal; follow only the named applicant/programme/cycle scope."
+  },
+  {
+    "id": "REFINE-UNIVE-ENROL",
+    "title": "Buddhism 2027/28 enrolment",
+    "url": "https://www.unive.it/web/en/20997/enrol",
+    "official_basis": "University-owned page or the MUR Universitaly portal; follow only the named applicant/programme/cycle scope."
+  },
+  {
+    "id": "REFINE-UNIVE-FUNDING",
+    "title": "Ca Foscari 2027/28 honours scholarships",
+    "url": "https://www.unive.it/pag/19545",
+    "official_basis": "University-owned page or the MUR Universitaly portal; follow only the named applicant/programme/cycle scope."
+  },
+  {
+    "id": "REFINE-EAP-APPLY",
+    "title": "Economic Analysis and Policy 2027/28 application",
+    "url": "https://www.eap.unito.it/do/home.pl/View?doc=how_to_apply.html",
+    "official_basis": "University-owned page or the MUR Universitaly portal; follow only the named applicant/programme/cycle scope."
+  },
+  {
+    "id": "REFINE-UNIPD-INTL",
+    "title": "Padua 2027/28 international admission",
+    "url": "https://www.unipd.it/en/ammissione-studenti-internazionali",
+    "official_basis": "University-owned page or the MUR Universitaly portal; follow only the named applicant/programme/cycle scope."
+  },
+  {
+    "id": "REFINE-UNIPD-FEES",
+    "title": "Padua fee basis",
+    "url": "https://www.unipd.it/en/tuition-fees",
+    "official_basis": "University-owned page or the MUR Universitaly portal; follow only the named applicant/programme/cycle scope."
+  },
+  {
+    "id": "REFINE-UNIBO-FEES",
+    "title": "Bologna tuition",
+    "url": "https://www.unibo.it/en/study/enrolment-fees-and-other-procedures/tuition-fees-and-exemptions/tuition-fees",
+    "official_basis": "University-owned page or the MUR Universitaly portal; follow only the named applicant/programme/cycle scope."
+  },
+  {
+    "id": "REFINE-UNIPI-DOCS",
+    "title": "Pisa international qualification enrolment",
+    "url": "https://www.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/",
+    "official_basis": "University-owned page or the MUR Universitaly portal; follow only the named applicant/programme/cycle scope."
+  },
+  {
+    "id": "REFINE-UNITO-VISA",
+    "title": "Turin international degree-seeking students",
+    "url": "https://en.unito.it/international-relations/students-mobility/international-students",
+    "official_basis": "University-owned page or the MUR Universitaly portal; follow only the named applicant/programme/cycle scope."
+  },
+  {
+    "id": "REFINE-TORVERGATA-ADMISSIONS",
+    "title": "Tor Vergata admissions",
+    "url": "https://web.uniroma2.it/en/percorso/admissions",
+    "official_basis": "University-owned page or the MUR Universitaly portal; follow only the named applicant/programme/cycle scope."
+  },
+  {
+    "id": "REFINE-PISA-CS-ENGLISH",
+    "title": "Pisa CS department international application 2027",
+    "url": "https://didattica.di.unipi.it/en/internazionale/degrees-offered-in-english/",
+    "official_basis": "University-owned service or the official EPOG consortium application site linked directly by the University of Turin EAP programme; retain annual and route scope."
+  },
+  {
+    "id": "REFINE-PISA-DIGITAL-HEALTH",
+    "title": "Pisa Digital Health course",
+    "url": "https://didattica.di.unipi.it/en/master-programme-in-informatics-for-digital-health/",
+    "official_basis": "University-owned service or the official EPOG consortium application site linked directly by the University of Turin EAP programme; retain annual and route scope."
+  },
+  {
+    "id": "REFINE-POLIMI-HPC-REQ",
+    "title": "HPC foreign-qualification prerequisites",
+    "url": "https://masterhpc.polimi.it/en/ammissioni/",
+    "official_basis": "University-owned service or the official EPOG consortium application site linked directly by the University of Turin EAP programme; retain annual and route scope."
+  },
+  {
+    "id": "REFINE-POLIMI-COUNTRY",
+    "title": "Country-specific MSc qualification and CGPA requirements",
+    "url": "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/requirements",
+    "official_basis": "University-owned service or the official EPOG consortium application site linked directly by the University of Turin EAP programme; retain annual and route scope."
+  },
+  {
+    "id": "REFINE-EAP-REQUIREMENTS",
+    "title": "EAP programme admission criteria",
+    "url": "https://www.eap.unito.it/do/home.pl/View?doc=admission_requirements.html",
+    "official_basis": "University-owned service or the official EPOG consortium application site linked directly by the University of Turin EAP programme; retain annual and route scope."
+  },
+  {
+    "id": "REFINE-EAP-FAQ",
+    "title": "Official EPOG joint programme FAQ",
+    "url": "https://www.epog.eu/admission-and-scholarships/faq/",
+    "official_basis": "University-owned service or the official EPOG consortium application site linked directly by the University of Turin EAP programme; retain annual and route scope."
+  },
+  {
+    "id": "REFINE-UNITO-PERMIT",
+    "title": "UniTo residence permit guidance",
+    "url": "https://en.unito.it/living-turin/when-you-arrive/residence-permit",
+    "official_basis": "University-owned service or the official EPOG consortium application site linked directly by the University of Turin EAP programme; retain annual and route scope."
+  },
+  {
+    "id": "REFINE-UNITO-VISA-GUIDE",
+    "title": "UniTo visa guidance",
+    "url": "https://en.unito.it/living-turin/you-leave-home/visa",
+    "official_basis": "University-owned service or the official EPOG consortium application site linked directly by the University of Turin EAP programme; retain annual and route scope."
+  },
+  {
+    "id": "REFINE-UNITO-FEES",
+    "title": "UniTo annual tuition",
+    "url": "https://en.unito.it/studying-unito/tuition-fees",
+    "official_basis": "University-owned service or the official EPOG consortium application site linked directly by the University of Turin EAP programme; retain annual and route scope."
+  },
+  {
+    "id": "REFINE-UNIVE-INTL-ENROL",
+    "title": "Buddhism current foreign qualification route",
+    "url": "https://www.unive.it/web/en/21001/admission-and-enrolment-with-an-international-qualification",
+    "official_basis": "University-owned service or the official EPOG consortium application site linked directly by the University of Turin EAP programme; retain annual and route scope."
+  },
+  {
+    "id": "REFINE-UNIVE-FEES",
+    "title": "Ca Foscari tuition",
+    "url": "https://www.unive.it/fees",
+    "official_basis": "University-owned service or the official EPOG consortium application site linked directly by the University of Turin EAP programme; retain annual and route scope."
+  },
+  {
+    "id": "REFINE-PADUA-ENROL-DOCS",
+    "title": "Padua recognition enrolment",
+    "url": "https://www.unipd.it/en/iscriversi-titolo-estero",
+    "official_basis": "University-owned service or the official EPOG consortium application site linked directly by the University of Turin EAP programme; retain annual and route scope."
+  },
+  {
+    "id": "REFINE-UNIFI-SST",
+    "title": "Florence Software 2027/28 enrolment",
+    "url": "https://www.sst.unifi.it/index.php?func=viewpage&module=CMpro&newlang=eng&pageid=168",
+    "official_basis": "University-owned service or the official EPOG consortium application site linked directly by the University of Turin EAP programme; retain annual and route scope."
+  },
+  {
+    "id": "REFINE-UNIFI-GRADE",
+    "title": "Florence Software country grade thresholds",
+    "url": "https://www.sst.unifi.it/upload/sub/docs/SST_admission_requirements.pdf",
+    "official_basis": "University-owned PDF/page linked by the current programme admissions or official country-requirements page."
+  },
+  {
+    "id": "REFINE-PADUA-COUNTRIES-2027",
+    "title": "Padua entry requirements per country 2027/28",
+    "url": "https://wwwassets.unipd.it/sites/default/files/2026-09/Entry%20requirements%20per%20Country%202027-28%20.pdf",
+    "official_basis": "University-owned PDF/page linked by the current programme admissions or official country-requirements page."
+  },
+  {
+    "id": "REFINE-POLIMI-EVALUATION",
+    "title": "Polimi foreign-qualification evaluation",
+    "url": "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/evaluation",
+    "official_basis": "University-owned PDF/page linked by the current programme admissions or official country-requirements page."
+  },
+  {
+    "id": "REFINE-EAP-COSTS",
+    "title": "EAP participation costs",
+    "url": "https://www.eap.unito.it/do/home.pl/View?doc=partecipation_costs.html",
+    "official_basis": "University-owned PDF/page linked by the current programme admissions or official country-requirements page."
+  },
+  {
+    "id": "REFINE-PADUA-COUNTRIES-LINKED",
+    "title": "Padua linked country requirements 27-28",
+    "url": "https://wwwassets.unipd.it/sites/default/files/2026-09/Entry%20requirements%20per%20Country%2027-28%20.pdf",
+    "official_basis": "Exact official link extracted from the university country-requirements or EAP programme page."
+  },
+  {
+    "id": "REFINE-EPOG-FEES",
+    "title": "Official EPOG participation fees linked by UniTo",
+    "url": "https://www.epog.eu/admission-and-scholarships/tuition-fees/",
+    "official_basis": "Exact official link extracted from the university country-requirements or EAP programme page."
+  },
+  {
+    "id": "REFINE-EAP-AID",
+    "title": "EAP scholarships and study awards",
+    "url": "https://www.eap.unito.it/do/home.pl/View?doc=scholarship_grants_study_awards.html",
+    "official_basis": "Exact official link extracted from the university country-requirements or EAP programme page."
+  },
+  {
+    "id": "REFINE-UNITN-VISA",
+    "title": "Trento official study visa guidance",
+    "url": "https://www.unitn.it/en/international/coming-unitrento/all-you-need-know/visa",
+    "official_basis": "Exact university-owned link extracted from its international admissions portal."
+  },
+  {
+    "id": "REFINE-UNITN-PERMIT",
+    "title": "Trento official residence permit guidance",
+    "url": "https://www.unitn.it/en/international/coming-unitrento/all-you-need-know/residence-permit",
+    "official_basis": "Exact university-owned link extracted from its international admissions portal."
+  },
+  {
+    "id": "REFINE-UNIPI-VISA",
+    "title": "Pisa official student entry visa guidance",
+    "url": "https://www.unipi.it/en/about-us/international-relations/welcome-services/entry-and-stay-information-for-non-eu-citizens/student-entry-visa/",
+    "official_basis": "Exact university-owned link extracted from its international admissions portal."
   }
 ]

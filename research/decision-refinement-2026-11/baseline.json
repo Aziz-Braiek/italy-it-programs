@@ -1,0 +1,33 @@
+{
+  "commit": "e039301",
+  "program_counts": {
+    "duration": 29,
+    "ects": 26,
+    "prerequisites": 34,
+    "english_requirement": 30,
+    "admission_test": 7,
+    "selection_method": 15,
+    "minimum_grade": 2,
+    "non_eu_seats": 1,
+    "tuition": 9
+  },
+  "university_counts": {
+    "universitaly": 3,
+    "documents": 7,
+    "regional_dsu": 2,
+    "visa_permit": 2,
+    "scholarships": 4
+  },
+  "confirmed_filters": {
+    "no_test": 1,
+    "certificate_required": 30,
+    "tuition_documented": 9,
+    "scholarship_documented": 17
+  },
+  "all_filters": {
+    "no_test": 1,
+    "certificate_required": 30,
+    "tuition_documented": 9,
+    "scholarship_documented": 17
+  }
+}

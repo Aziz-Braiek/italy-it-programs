@@ -22,3 +22,5 @@ The 47 confirmed records and 11 host universities received the priority review. 
 Only current, source-supported facts enter confirmed filters and CSV values. Earlier values stay visibly labelled in the HTML/research evidence; CSV retains their cycle marker but replaces their value with `Not confirmed`. No new fact feeds the existing deadline sort or ICS export.
 
 Reproduce with `python scripts/build_research_data.py`, then `python scripts/build_site.py`. The latter validates provenance and rendered filter flags. See the test commands and record-by-record outcomes in the report.
+
+The refinement round adds structured `missing_components` (shown as Partly confirmed), `evidence_scope: degree_structure` with a specific course passage, exact three-state yes/no matching and visible conflict notes. Current-evidence totals include partial fields; see `../decision-refinement-2026-11/report.md` for full/partial and priority-scope before/after counts. Unknown card fields collapse into one linked line; detail pages preserve all fields. Historical values remain omitted from CSV values; CSV now also records confirmation and missing components.

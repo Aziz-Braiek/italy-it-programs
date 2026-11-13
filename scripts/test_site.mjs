@@ -83,10 +83,19 @@ try {
   await page.locator("#clear-filters").click();
   await page.locator("#filter-english-certificate").selectOption("required");
   await page.locator("#filter-university").selectOption("pisa");
-  assert.equal(await page.locator('[data-program-id="legacy-053"]').isVisible(), true, "Pisa Cybersecurity requires current B2 proof");
-  assert.equal(await page.locator('[data-program-id="legacy-052"]').isVisible(), false, "previous-cycle B2 is not a confirmed certificate filter match");
+  assert.equal(await page.locator('[data-program-id="legacy-053"]').isVisible(), false, "conditional proof/waiver routes are not unconditional certificate requirements");
+  assert.equal(await page.locator('[data-program-id="legacy-052"]').isVisible(), true, "current Pisa instructions require B2 certification at visa validation");
   assert.equal(new URL(page.url()).searchParams.get("english_certificate"), "required");
   await page.locator("#clear-filters").click();
+  for (const [selector, dataset] of [["#filter-admission-test", "admissionTest"], ["#filter-english-certificate", "englishCertificate"]]) {
+    for (const [option, state] of [["no", "no"], [selector.includes("admission") ? "yes" : "required", "yes"], ["not confirmed", "not confirmed"]]) {
+      await page.locator(selector).selectOption(option);
+      await page.locator("#include-pending").check();
+      const states = await page.locator('.program-card:not([hidden])').evaluateAll((cards, key) => cards.map(card => card.dataset[key]), dataset);
+      assert.ok(states.every(actual => actual === state), `${selector} never includes another binary state`);
+      await page.locator("#clear-filters").click();
+    }
+  }
   await page.locator("#filter-tuition").selectOption("documented");
   assert.equal(await page.locator('.program-card:not([hidden])').count(), 9, "only current 28DIGITAL and GrEnFIn tuition rules match");
   assert.equal(await page.locator('[data-program-id="legacy-052"]').isVisible(), false, "Pisa's previous-year fee never matches current tuition");
@@ -135,6 +144,8 @@ try {
   assert.match(csvText, /Program,|"Program"/);
   assert.ok(csvText.includes("Prerequisite background and credits — cycle status"), "CSV includes field-specific cycle columns");
   assert.ok(csvText.includes("Universitaly pre-enrolment — source URL"), "CSV includes inherited logistics provenance");
+  assert.ok(csvText.includes("Tuition and calculation — confirmation"), "CSV distinguishes full and partial confirmation");
+  assert.ok(csvText.includes("Tuition and calculation — missing components"), "CSV names unresolved subcomponents");
   assert.ok(csvText.includes(firstProgramName.trim()), "CSV contains the saved record");
 
   await page.locator("#clear-compare").click();
@@ -214,6 +225,13 @@ try {
   }));
   assert.equal(accessibleControls, true, "interactive controls have an accessible name");
   assert.equal(await page.locator("html").getAttribute("data-theme"), "dark");
+  const unknownCard = page.locator('[data-program-id="discovered-009"]');
+  assert.equal(await unknownCard.locator('.decision-summary .decision-field').count(), 0, "unknown card fields are not repeated as rows");
+  assert.match(await unknownCard.locator('.decision-unknown-summary').textContent(), /4 details not confirmed/);
+  for (const width of [320, 390]) {
+    await page.setViewportSize({ width, height: 844 });
+    assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), true, `${width}px cards do not overflow`);
+  }
   const darkDimensions = await page.evaluate(() => ({ viewport: document.documentElement.clientWidth, body: document.body.scrollWidth, document: document.documentElement.scrollWidth }));
   assert.equal(darkDimensions.body, darkDimensions.viewport, "dark mobile body has no horizontal overflow");
   assert.equal(darkDimensions.document, darkDimensions.viewport, "dark mobile document has no horizontal overflow");

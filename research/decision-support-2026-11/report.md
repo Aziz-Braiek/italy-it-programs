@@ -8,7 +8,7 @@ The 47 confirmed programs and their 11 host universities received the priority s
 
 Known values are manually approved in verified-facts.json, with official URLs, academic cycle, field verification date and captured-source hashes. Unknowns say Not confirmed. Passing software checks and a successful HTTP fetch are not factual verification.
 
-A confirmed field describes the published statements within its specified scope. Unknown subcomponents (for example a fee maximum, an exact English-test equivalence, a country-specific GPA or a document substitution) remain explicitly Not confirmed; a confirmed field is not an applicant eligibility decision.
+Current-cycle evidence totals include partly confirmed fields. The UI labels these Partly confirmed and names the missing components; they must not be read as fully resolved eligibility. Degree structure is displayed separately from intake confirmation. The priority-scope refinement report linked from the homepage separates before/after and full/partial counts.
 
 ## Field counts across the full tracker
 
@@ -18,30 +18,30 @@ Program-field rows each total 209; university-field rows each total 34. Scholars
 |---|---:|---:|---:|
 | program.duration | 29 | 44 | 136 |
 | program.ects | 26 | 16 | 167 |
-| program.prerequisites | 34 | 10 | 165 |
-| program.english_requirement | 30 | 10 | 169 |
-| program.admission_test | 7 | 3 | 199 |
-| program.selection_method | 15 | 0 | 194 |
-| program.minimum_grade | 2 | 0 | 207 |
+| program.prerequisites | 37 | 10 | 162 |
+| program.english_requirement | 33 | 9 | 167 |
+| program.admission_test | 10 | 3 | 196 |
+| program.selection_method | 17 | 0 | 192 |
+| program.minimum_grade | 21 | 0 | 188 |
 | program.non_eu_seats | 1 | 0 | 208 |
-| program.tuition | 9 | 9 | 191 |
-| university.universitaly | 3 | 0 | 31 |
-| university.documents | 7 | 0 | 27 |
+| program.tuition | 9 | 11 | 189 |
+| university.universitaly | 11 | 0 | 23 |
+| university.documents | 9 | 0 | 25 |
 | university.regional_dsu | 2 | 8 | 24 |
-| university.visa_permit | 2 | 0 | 32 |
+| university.visa_permit | 7 | 0 | 27 |
 | university.scholarship_offers | 5 | 7 | 25 |
 
 ## Source coverage and limits
 
-Freshly captured official URLs: 480; HTTP 200 responses: 471. Captures include university sites/application portals, official joint-program admissions and regional right-to-study bodies. A transport result alone does not approve a field.
+Freshly captured official URLs: 512; HTTP 200 responses: 500. Captures include university sites/application portals, official joint-program admissions and regional right-to-study bodies. A transport result alone does not approve a field.
 
-Responses not established as readable by the capture client: 9. Priority failures included four Padua resets/TLS-chain errors and one EAP timeout. The lower-priority source pass also encountered old/broken, access-limited and unreadable sources. Successful official alternatives were used only where applicable. TLS verification was not disabled. Each URL/outcome remains in source-checks.json.
+Responses not established as readable by the capture client: 12. Some sources initially failed through resets, TLS errors or timeouts; the EAP application page was subsequently recovered. Other old/broken, access-limited or unreadable sources remain explicit. HTTP 200 can also contain a soft error and does not establish readable admissions content. Successful alternatives were used only where applicable; TLS verification was not disabled. Each latest URL/outcome remains in source-checks.json.
 
 ## Normalisation and UI
 
 University logistics, scholarship offers and shared fee/English policies live on university records. Program-specific values and policy references live on program records. Program cards resolve those references; they do not store copies of university logistics. Joint-program and applicant scopes are preserved. The older research observations remain frozen for audit transparency; public eligibility/cost sections use the new canonical decision fields.
 
-Cards show tuition, English proof, admission tests and funding, with cycle/date/source labels. Detail pages show all decision fields, including explicit unknowns, without JavaScript. Confirmed tuition/funding and no-test/certificate filters use only current, supported decision facts. A test's absence from a page is not a no-test exemption. General teaching language does not imply a certificate waiver.
+Cards show known tuition, English, test and funding facts with cycle/date/source labels; unknown fields collapse into one line. Detail pages retain every field and explicit source conflicts without JavaScript. Yes/no filters accept only the exact current, sourced binary state; conditional rules remain not confirmed for an unspecified applicant. Tuition/funding filters use only current, supported facts. A test's absence is not a no-test exemption. Degree structure never establishes intake or cost/test/funding rules.
 
 CSV adds value, cycle, official URL and verification date columns per decision field. Earlier-cycle values are replaced by Not confirmed while retaining their cycle label; historical amounts and requirements are not exported as actionable data. Existing deadline calculation and calendar logic are unchanged.
 
@@ -53,10 +53,10 @@ See source-conflicts.json for exact competing claims, URLs and handling. The com
 
 | Type | Stable ID | Program / university | Current | Previous | Unknown | Review outcome |
 |---|---|---|---:|---:|---:|---|
-| program | legacy-001 | Computer Science and Engineering | 1 | 0 | 8 | reviewed_with_field_gaps |
+| program | legacy-001 | Computer Science and Engineering | 4 | 1 | 4 | reviewed_with_field_gaps |
 | program | legacy-002 | Cyber Risk Strategy and Governance | 4 | 0 | 5 | reviewed_with_field_gaps |
 | program | legacy-003 | Artificial Intelligence (study plan within Computer Science and Engineering) | 0 | 0 | 9 | awaiting_record_research_incomplete |
-| program | legacy-004 | High Performance Computing Engineering | 1 | 0 | 8 | reviewed_with_field_gaps |
+| program | legacy-004 | High Performance Computing Engineering | 4 | 1 | 4 | reviewed_with_field_gaps |
 | program | legacy-005 | Biomedical Engineering | 0 | 1 | 8 | partial_previous_cycle_review |
 | program | legacy-006 | Mechanical Engineering | 0 | 1 | 8 | partial_previous_cycle_review |
 | program | legacy-007 | Aerospace Engineering | 0 | 0 | 9 | awaiting_record_research_incomplete |
@@ -81,15 +81,15 @@ See source-conflicts.json for exact competing claims, URLs and handling. The com
 | program | legacy-026 | Economics and Finance (CLEF) | 0 | 0 | 9 | awaiting_record_research_incomplete |
 | program | legacy-027 | Medicine and Surgery | 0 | 0 | 9 | awaiting_record_research_incomplete |
 | program | legacy-028 | Business Management — Green Management and Sustainable Businesses (BBS professional-master track) | 0 | 0 | 9 | awaiting_record_research_incomplete |
-| program | legacy-029 | Computer Engineering | 4 | 0 | 5 | reviewed_with_field_gaps |
-| program | legacy-030 | Computer Science | 4 | 0 | 5 | reviewed_with_field_gaps |
-| program | legacy-031 | Cybersecurity | 4 | 0 | 5 | reviewed_with_field_gaps |
-| program | legacy-032 | Data Science | 4 | 0 | 5 | reviewed_with_field_gaps |
-| program | legacy-033 | Information Engineering | 6 | 0 | 3 | reviewed_with_field_gaps |
-| program | legacy-034 | Aerospace Engineering | 5 | 0 | 4 | reviewed_with_field_gaps |
+| program | legacy-029 | Computer Engineering | 5 | 0 | 4 | reviewed_with_field_gaps |
+| program | legacy-030 | Computer Science | 5 | 0 | 4 | reviewed_with_field_gaps |
+| program | legacy-031 | Cybersecurity | 5 | 0 | 4 | reviewed_with_field_gaps |
+| program | legacy-032 | Data Science | 5 | 0 | 4 | reviewed_with_field_gaps |
+| program | legacy-033 | Information Engineering | 7 | 0 | 2 | reviewed_with_field_gaps |
+| program | legacy-034 | Aerospace Engineering | 6 | 0 | 3 | reviewed_with_field_gaps |
 | program | legacy-035 | Medicine and Surgery (single-cycle degree) | 0 | 0 | 9 | awaiting_record_research_incomplete |
 | program | legacy-036 | Psychological Science | 0 | 0 | 9 | awaiting_record_research_incomplete |
-| program | legacy-037 | Physics of Data | 4 | 0 | 5 | reviewed_with_field_gaps |
+| program | legacy-037 | Physics of Data | 5 | 0 | 4 | reviewed_with_field_gaps |
 | program | legacy-038 | Computer Science | 0 | 0 | 9 | awaiting_record_research_incomplete |
 | program | legacy-039 | Artificial Intelligence and Robotics | 0 | 0 | 9 | awaiting_record_research_incomplete |
 | program | legacy-040 | Cybersecurity | 0 | 0 | 9 | awaiting_record_research_incomplete |
@@ -104,10 +104,10 @@ See source-conflicts.json for exact competing claims, URLs and handling. The com
 | program | legacy-049 | Cognitive Science | 0 | 2 | 7 | partial_previous_cycle_review |
 | program | legacy-050 | International Security Studies | 0 | 2 | 7 | partial_previous_cycle_review |
 | program | legacy-051 | Comparative, European and International Legal Studies | 0 | 0 | 9 | awaiting_record_research_incomplete |
-| program | legacy-052 | Computer Science | 1 | 3 | 5 | reviewed_with_field_gaps |
+| program | legacy-052 | Computer Science | 2 | 2 | 5 | reviewed_with_field_gaps |
 | program | legacy-053 | Cybersecurity | 5 | 1 | 3 | reviewed_with_field_gaps |
 | program | legacy-054 | Artificial Intelligence and Data Engineering | 4 | 1 | 4 | reviewed_with_field_gaps |
-| program | legacy-055 | Data Science and Business Informatics | 1 | 1 | 7 | reviewed_with_field_gaps |
+| program | legacy-055 | Data Science and Business Informatics | 2 | 1 | 6 | reviewed_with_field_gaps |
 | program | legacy-056 | Bionics Engineering | 0 | 0 | 9 | awaiting_record_research_incomplete |
 | program | legacy-057 | Nuclear Engineering | 0 | 0 | 9 | awaiting_record_research_incomplete |
 | program | legacy-058 | Computer Science | 0 | 0 | 9 | awaiting_record_research_incomplete |
@@ -177,7 +177,7 @@ See source-conflicts.json for exact competing claims, URLs and handling. The com
 | program | legacy-122 | Architecture and Heritage | 0 | 0 | 9 | awaiting_record_research_incomplete |
 | program | legacy-123 | Medicine and Surgery in English (single-cycle degree) | 0 | 0 | 9 | awaiting_record_research_incomplete |
 | program | legacy-124 | Civil and Environmental Engineering | 0 | 0 | 9 | awaiting_record_research_incomplete |
-| program | legacy-125 | Software: Science and Technology | 3 | 0 | 6 | reviewed_with_field_gaps |
+| program | legacy-125 | Software: Science and Technology | 5 | 0 | 4 | reviewed_with_field_gaps |
 | program | legacy-126 | Finance and Risk Management | 0 | 0 | 9 | awaiting_record_research_incomplete |
 | program | legacy-127 | Economics and Development | 0 | 0 | 9 | awaiting_record_research_incomplete |
 | program | legacy-128 | Geoengineering | 0 | 0 | 9 | awaiting_record_research_incomplete |
@@ -213,19 +213,19 @@ See source-conflicts.json for exact competing claims, URLs and handling. The com
 | program | legacy-158 | Economics and Finance | 0 | 0 | 9 | awaiting_record_research_incomplete |
 | program | legacy-159 | Psicologia clinica | 0 | 0 | 9 | awaiting_record_research_incomplete |
 | program | legacy-160 | Psicologia dello sviluppo e dell'educazione | 0 | 0 | 9 | awaiting_record_research_incomplete |
-| program | legacy-161 | Ingegneria gestionale — Management Engineering English-taught track | 5 | 0 | 4 | reviewed_with_field_gaps |
+| program | legacy-161 | Ingegneria gestionale — Management Engineering English-taught track | 6 | 0 | 3 | reviewed_with_field_gaps |
 | program | legacy-162 | Scienze e tecnologie agrarie | 0 | 0 | 9 | awaiting_record_research_incomplete |
 | program | legacy-163 | Biologia Molecolare | 0 | 0 | 9 | awaiting_record_research_incomplete |
 | program | legacy-164 | Ingegneria informatica | 0 | 0 | 9 | awaiting_record_research_incomplete |
 | program | legacy-165 | Scienze psicologiche cognitive e psicobiologiche | 0 | 0 | 9 | awaiting_record_research_incomplete |
-| program | discovered-001 | Informatics for Digital Health | 1 | 1 | 7 | reviewed_with_field_gaps |
-| program | discovered-002 | History | 1 | 0 | 8 | reviewed_with_field_gaps |
-| program | discovered-003 | Classical Languages and Literatures and Ancient History | 1 | 0 | 8 | reviewed_with_field_gaps |
-| program | discovered-004 | Historical Sciences | 1 | 0 | 8 | reviewed_with_field_gaps |
-| program | discovered-005 | Landscape Studies | 1 | 0 | 8 | reviewed_with_field_gaps |
-| program | discovered-006 | Religious Studies | 1 | 0 | 8 | reviewed_with_field_gaps |
-| program | discovered-007 | Local Development | 2 | 0 | 7 | reviewed_with_field_gaps |
-| program | discovered-008 | Mobility Studies | 2 | 0 | 7 | reviewed_with_field_gaps |
+| program | discovered-001 | Informatics for Digital Health | 2 | 1 | 6 | reviewed_with_field_gaps |
+| program | discovered-002 | History | 2 | 0 | 7 | reviewed_with_field_gaps |
+| program | discovered-003 | Classical Languages and Literatures and Ancient History | 2 | 0 | 7 | reviewed_with_field_gaps |
+| program | discovered-004 | Historical Sciences | 2 | 0 | 7 | reviewed_with_field_gaps |
+| program | discovered-005 | Landscape Studies | 2 | 0 | 7 | reviewed_with_field_gaps |
+| program | discovered-006 | Religious Studies | 2 | 0 | 7 | reviewed_with_field_gaps |
+| program | discovered-007 | Local Development | 3 | 0 | 6 | reviewed_with_field_gaps |
+| program | discovered-008 | Mobility Studies | 3 | 0 | 6 | reviewed_with_field_gaps |
 | program | discovered-009 | Chemical Engineering | 0 | 0 | 9 | reviewed_no_approved_values |
 | program | discovered-010 | Mechatronics Engineering | 6 | 0 | 3 | reviewed_with_field_gaps |
 | program | discovered-011 | Buddhism and Asian Religions | 5 | 0 | 4 | reviewed_with_field_gaps |
@@ -237,7 +237,7 @@ See source-conflicts.json for exact competing claims, URLs and handling. The com
 | program | discovered-017 | Cloud and Networking Infrastructure and HPC (CNIHPC) – 28DIGITAL track | 5 | 0 | 4 | reviewed_with_field_gaps |
 | program | discovered-018 | Intelligent Chips and Systems (ICS) – 28DIGITAL track | 5 | 0 | 4 | reviewed_with_field_gaps |
 | program | discovered-019 | Artificial Intelligence with Affective Computing (AIAC) – 28DIGITAL track | 5 | 0 | 4 | reviewed_with_field_gaps |
-| program | discovered-020 | Hydrogen Systems and Enabling Technologies (HySET Erasmus Mundus Joint Master) | 6 | 0 | 3 | reviewed_with_field_gaps |
+| program | discovered-020 | Hydrogen Systems and Enabling Technologies (HySET Erasmus Mundus Joint Master) | 7 | 0 | 2 | reviewed_with_field_gaps |
 | program | discovered-021 | Maritime Science and Technology | 0 | 0 | 9 | not_offered_no_admissions_research |
 | program | discovered-022 | Conservation and Restoration Sciences (CORES Joint Master) | 0 | 0 | 9 | awaiting_record_research_incomplete |
 | program | discovered-023 | Data Science | 0 | 1 | 8 | partial_previous_cycle_review |
@@ -254,22 +254,22 @@ See source-conflicts.json for exact competing claims, URLs and handling. The com
 | program | discovered-035 | Data Analytics and Decision Support (proposed 2027/28) | 0 | 0 | 9 | awaiting_record_research_incomplete |
 | program | discovered-036 | Statistical Science (proposed 2027/28) | 0 | 0 | 9 | awaiting_record_research_incomplete |
 | program | discovered-034 | Physics for Technology (planned Arqus joint Bachelor's) | 0 | 0 | 9 | awaiting_record_research_incomplete |
-| program | discovered-037 | Astrophysics and Cosmology | 4 | 0 | 5 | reviewed_with_field_gaps |
-| program | discovered-038 | Economic Analysis and Policy | 3 | 0 | 6 | reviewed_with_field_gaps |
+| program | discovered-037 | Astrophysics and Cosmology | 5 | 0 | 4 | reviewed_with_field_gaps |
+| program | discovered-038 | Economic Analysis and Policy | 5 | 0 | 4 | reviewed_with_field_gaps |
 | program | discovered-039 | Computer Engineering | 4 | 1 | 4 | reviewed_with_field_gaps |
 | program | discovered-040 | Data Science and Business Analytics | 2 | 0 | 7 | reviewed_with_field_gaps |
 | program | discovered-041 | Artificial Intelligence for Management | 2 | 0 | 7 | reviewed_with_field_gaps |
 | program | discovered-042 | Finance – Entrepreneurial Finance | 2 | 1 | 6 | reviewed_with_field_gaps |
 | program | discovered-043 | Finance – Finance and Artificial Intelligence | 2 | 1 | 6 | reviewed_with_field_gaps |
 | program | discovered-044 | Marketing Management – Analytics and AI for Marketing | 2 | 0 | 7 | reviewed_with_field_gaps |
-| university | napoli-federico-ii | Università degli Studi di Napoli Federico II | 0 | 0 | 5 | reviewed_no_approved_values |
+| university | napoli-federico-ii | Università degli Studi di Napoli Federico II | 2 | 0 | 3 | reviewed_with_field_gaps |
 | university | politecnico-bari | Politecnico di Bari | 0 | 0 | 5 | awaiting_record_research_incomplete |
-| university | politecnico-milano | Politecnico di Milano | 2 | 1 | 2 | reviewed_with_field_gaps |
-| university | politecnico-torino | Politecnico di Torino | 1 | 2 | 3 | reviewed_with_field_gaps |
+| university | politecnico-milano | Politecnico di Milano | 4 | 1 | 0 | reviewed_with_field_gaps |
+| university | politecnico-torino | Politecnico di Torino | 2 | 2 | 2 | reviewed_with_field_gaps |
 | university | roma-tre | Università degli Studi Roma Tre | 0 | 0 | 5 | awaiting_record_research_incomplete |
 | university | sapienza | Sapienza Università di Roma | 0 | 0 | 5 | awaiting_record_research_incomplete |
 | university | tor-vergata | Università degli Studi di Roma Tor Vergata | 3 | 2 | 0 | reviewed_with_field_gaps |
-| university | ca-foscari | Università Ca' Foscari Venezia | 0 | 2 | 3 | reviewed_with_field_gaps |
+| university | ca-foscari | Università Ca' Foscari Venezia | 1 | 2 | 2 | reviewed_with_field_gaps |
 | university | milano-bicocca | Università degli Studi di Milano-Bicocca | 0 | 0 | 5 | awaiting_record_research_incomplete |
 | university | marche | Università Politecnica delle Marche | 0 | 0 | 5 | awaiting_record_research_incomplete |
 | university | catania | Università degli Studi di Catania | 0 | 0 | 5 | awaiting_record_research_incomplete |
@@ -279,11 +279,11 @@ See source-conflicts.json for exact competing claims, URLs and handling. The com
 | university | bologna | Università di Bologna | 5 | 0 | 1 | reviewed_with_field_gaps |
 | university | camerino | Università di Camerino | 0 | 0 | 5 | awaiting_record_research_incomplete |
 | university | ferrara | Università degli Studi di Ferrara | 0 | 0 | 5 | awaiting_record_research_incomplete |
-| university | firenze | Università degli Studi di Firenze | 0 | 2 | 3 | reviewed_with_field_gaps |
+| university | firenze | Università degli Studi di Firenze | 3 | 2 | 0 | reviewed_with_field_gaps |
 | university | genova | Università degli Studi di Genova | 0 | 0 | 5 | awaiting_record_research_incomplete |
 | university | messina | Università degli Studi di Messina | 0 | 0 | 5 | awaiting_record_research_incomplete |
 | university | modena-reggio | Università degli Studi di Modena e Reggio Emilia | 0 | 0 | 5 | awaiting_record_research_incomplete |
-| university | padova | Università degli Studi di Padova | 1 | 2 | 2 | reviewed_with_field_gaps |
+| university | padova | Università degli Studi di Padova | 2 | 2 | 1 | reviewed_with_field_gaps |
 | university | palermo | Università degli Studi di Palermo | 0 | 0 | 5 | awaiting_record_research_incomplete |
 | university | parma | Università degli Studi di Parma | 0 | 0 | 5 | awaiting_record_research_incomplete |
 | university | pavia | Università degli Studi di Pavia | 0 | 0 | 5 | awaiting_record_research_incomplete |
@@ -291,8 +291,8 @@ See source-conflicts.json for exact competing claims, URLs and handling. The com
 | university | pisa | Università di Pisa | 5 | 1 | 0 | reviewed_with_field_gaps |
 | university | salerno | Università degli Studi di Salerno | 0 | 0 | 5 | awaiting_record_research_incomplete |
 | university | siena | Università degli Studi di Siena | 0 | 0 | 5 | awaiting_record_research_incomplete |
-| university | torino | Università degli Studi di Torino | 0 | 2 | 3 | reviewed_with_field_gaps |
-| university | trento | Università degli Studi di Trento | 2 | 1 | 2 | reviewed_with_field_gaps |
+| university | torino | Università degli Studi di Torino | 3 | 2 | 0 | reviewed_with_field_gaps |
+| university | trento | Università degli Studi di Trento | 4 | 1 | 0 | reviewed_with_field_gaps |
 | university | trieste | Università degli Studi di Trieste | 0 | 0 | 5 | awaiting_record_research_incomplete |
 | university | udine | Università degli Studi di Udine | 0 | 0 | 5 | awaiting_record_research_incomplete |
 | university | verona | Università degli Studi di Verona | 0 | 0 | 5 | awaiting_record_research_incomplete |

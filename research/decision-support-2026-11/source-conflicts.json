@@ -27,7 +27,8 @@
         "published_claim": "Published 2026/27 fee notice gives fixed non-EU/household-abroad contributions of EUR 2,790 humanities or EUR 2,990 scientific, with distinct lower-country rates."
       }
     ],
-    "handling": "Keep programme 2027/28 tuition Not confirmed. Do not infer the annual tariff or ISEE eligibility from the application-platform placeholder. Dates and fee bases differ."
+    "handling": "Keep programme 2027/28 tuition Not confirmed. Do not infer the annual tariff or ISEE eligibility from the application-platform placeholder. Dates and fee bases differ.",
+    "card_note": "Padua fee amounts differ; 2027/28 tuition is not confirmed."
   },
   {
     "id": "hyset-scholarship-funding",
@@ -49,7 +50,8 @@
         "published_claim": "Dated continuation notice says 2027 external funding is not secured and scholarship availability cannot be guaranteed."
       }
     ],
-    "handling": "Keep 2027 funding Not confirmed; a programme-specific unknown takes precedence over older generic regional aid in the card summary."
+    "handling": "Keep 2027 funding Not confirmed; a programme-specific unknown takes precedence over older generic regional aid in the card summary.",
+    "card_note": "HySET 2027 funding is unsecured; no funded place is confirmed."
   },
   {
     "id": "28digital-application-calendar",
@@ -77,7 +79,8 @@
         "published_claim": "Central 2027 calendar gives period one 30 October 2026–31 January 2027, with distinct later rounds and residence restrictions."
       }
     ],
-    "handling": "Existing deadline logic/data remains untouched. The decision layer does not derive eligibility from conflicting local dates; consult the central portal and university for the chosen route."
+    "handling": "Existing deadline logic/data remains untouched. The decision layer does not derive eligibility from conflicting local dates; consult the central portal and university for the chosen route.",
+    "card_note": "28DIGITAL and university calendars differ by application route."
   },
   {
     "id": "28digital-country-document-receipt-years",
@@ -101,7 +104,8 @@
         "published_claim": "For Cameroon/Eritrea/Ethiopia/Nigeria, the email-transcript paragraph retains February/April 2026 receipt dates; the postal paragraph on the same page gives February/April/June 2027."
       }
     ],
-    "handling": "Publish the verified general dossier requirements but explicitly leave country-specific receipt dates needing clarification. Do not promote the stale email dates."
+    "handling": "Publish the verified general dossier requirements but explicitly leave country-specific receipt dates needing clarification. Do not promote the stale email dates.",
+    "card_note": "Country-document instructions mix 2026 and 2027 receipt dates."
   },
   {
     "id": "polimi-award-combination",
@@ -124,7 +128,8 @@
         "published_claim": "Formal 2027/28 merit call prohibits other public/private scholarships except international mobility grants."
       }
     ],
-    "handling": "Display the formal-call restriction and require programme-specific compatibility clarification; do not promise stacked funding."
+    "handling": "Display the formal-call restriction and require programme-specific compatibility clarification; do not promise stacked funding.",
+    "card_note": "Scholarship combination rules differ; follow the formal award call."
   },
   {
     "id": "cle-admissions-year",
@@ -146,7 +151,8 @@
         "published_claim": "Detailed curricular and language criteria explicitly refer to 2026/27."
       }
     ],
-    "handling": "Verify only the current-page first-cycle qualification deadline and dossier. Current sector-credit and route-specific language criteria remain Not confirmed."
+    "handling": "Verify only the current-page first-cycle qualification deadline and dossier. Current sector-credit and route-specific language criteria remain Not confirmed.",
+    "card_note": "The 2027 page still links an older formal call."
   },
   {
     "id": "eap-credit-threshold-route",
@@ -155,25 +161,21 @@
       "discovered-038"
     ],
     "checked_at": "2026-11-13",
-    "state": "scope_difference_not_resolved",
+    "state": "route_specific_conflict_confirmed",
     "claims": [
       {
-        "source_id": "SRC-UNITO-EAP-PROFILE-2027",
-        "source_url": "https://en.unito.it/studying-unito/programs/degree-programs/economic-analysis-and-policy",
-        "published_claim": "Local profile states 18 economics CFU plus 6 statistics."
+        "source_id": "REFINE-EAP-REQUIREMENTS",
+        "source_url": "https://www.eap.unito.it/do/home.pl/View?doc=admission_requirements.html",
+        "published_claim": "Local EAP admission requirements: 18 Economics CFU + 6 Statistics; TAPP is a 15-minute Skype interview."
       },
       {
-        "source_id": "SRC-EPOG-ADMISSION-2027",
-        "source_url": "https://www.epog.eu/admission-and-scholarships/admission/",
-        "published_claim": "General checklist states 24 economics plus 6 statistics/econometrics, while specific minors allow 18+6 or conditional exceptions."
-      },
-      {
-        "source_id": "SRC-UNITO-EAP-APPLICATION-2027",
+        "source_id": "REFINE-EAP-APPLY",
         "source_url": "https://www.eap.unito.it/do/home.pl/View?doc=how_to_apply.html",
-        "published_claim": "The route-specific application page timed out in the direct client."
+        "published_claim": "The recovered 2027/28 EAP/EPOG online application page requires transcript evidence of 24 Economics ECTS + 6 Statistics/Econometrics and chosen major/minor requirements."
       }
     ],
-    "handling": "This may be a route distinction, not an actual contradiction. Keep the programme threshold Not confirmed until the EAP route and applicable minor are established."
+    "handling": "The formerly inaccessible university application page is now readable. Show its 24+6 requirement for the named EPOG online route, alongside the local page’s 18+6/TAPP rule. Do not claim the routes are interchangeable; the reduced threshold’s applicability remains Not confirmed.",
+    "card_note": "Credit thresholds differ by EAP/EPOG route."
   },
   {
     "id": "pisa-historical-tuition-bases",
@@ -205,6 +207,30 @@
         "published_claim": "Central fee page defines the maximum all-inclusive contribution as EUR 2,900, with regional tax and stamp additional where due."
       }
     ],
-    "handling": "Keep the named 2026/27 basis and label; do not equate differently stated totals or invent a 2027/28 range."
+    "handling": "Keep the named 2026/27 basis and label; do not equate differently stated totals or invent a 2027/28 range.",
+    "card_note": "Older Pisa fee examples use different bases; 2027/28 tuition is not confirmed."
+  },
+  {
+    "id": "florence-cambridge-bands",
+    "field": "english_requirement",
+    "record_ids": [
+      "legacy-125"
+    ],
+    "checked_at": "2026-11-13",
+    "state": "internal_published_range_ambiguity",
+    "card_note": "Published Cambridge score bands overlap; borderline scores need clarification.",
+    "claims": [
+      {
+        "source_id": "REFINE-UNIFI-SST",
+        "source_url": "https://www.sst.unifi.it/index.php?func=viewpage&module=CMpro&newlang=eng&pageid=168",
+        "published_claim": "The 2027/28 Software enrolment page lists Cambridge First grade B with numerical range 173–179."
+      },
+      {
+        "source_id": "REFINE-UNIFI-SST",
+        "source_url": "https://www.sst.unifi.it/index.php?func=viewpage&module=CMpro&newlang=eng&pageid=168",
+        "published_claim": "The same page lists grade C with range 160–178, overlapping the stated grade B range."
+      }
+    ],
+    "handling": "Show the published named Cambridge grades and flag the overlapping numerical bands as needing university clarification for a borderline score. Do not silently repair the ranges or invent an equivalence. IELTS/TOEFL alternatives remain as explicitly published; the English field is Partly confirmed."
   }
 ]

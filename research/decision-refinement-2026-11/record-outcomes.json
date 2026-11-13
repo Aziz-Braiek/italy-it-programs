@@ -1,0 +1,1059 @@
+[
+  {
+    "owner": "program",
+    "id": "legacy-001",
+    "name": "Computer Science and Engineering",
+    "university": "Politecnico di Milano",
+    "not_confirmed": [
+      "duration",
+      "ects",
+      "admission_test",
+      "non_eu_seats"
+    ],
+    "partly_confirmed": [
+      "prerequisites",
+      "selection_method",
+      "minimum_grade"
+    ],
+    "previous_cycle_only": [
+      "tuition"
+    ],
+    "reason": "The central tariff and HPC-specific curricular page explicitly cover 2026/27, so they do not prove a 2027/28 tariff or subject-credit rule. The current standard MSc dossier/country tables support the stated rules, with programme scoring/test/quota details still not established. Bocconi's joint route is separate."
+  },
+  {
+    "owner": "program",
+    "id": "legacy-002",
+    "name": "Cyber Risk Strategy and Governance",
+    "university": "Politecnico di Milano",
+    "not_confirmed": [
+      "ects",
+      "english_requirement",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "partly_confirmed": [
+      "prerequisites",
+      "admission_test",
+      "selection_method"
+    ],
+    "previous_cycle_only": [],
+    "reason": "The central tariff and HPC-specific curricular page explicitly cover 2026/27, so they do not prove a 2027/28 tariff or subject-credit rule. The current standard MSc dossier/country tables support the stated rules, with programme scoring/test/quota details still not established. Bocconi's joint route is separate."
+  },
+  {
+    "owner": "program",
+    "id": "legacy-004",
+    "name": "High Performance Computing Engineering",
+    "university": "Politecnico di Milano",
+    "not_confirmed": [
+      "duration",
+      "ects",
+      "admission_test",
+      "non_eu_seats"
+    ],
+    "partly_confirmed": [
+      "prerequisites",
+      "selection_method",
+      "minimum_grade"
+    ],
+    "previous_cycle_only": [
+      "tuition"
+    ],
+    "reason": "The central tariff and HPC-specific curricular page explicitly cover 2026/27, so they do not prove a 2027/28 tariff or subject-credit rule. The current standard MSc dossier/country tables support the stated rules, with programme scoring/test/quota details still not established. Bocconi's joint route is separate."
+  },
+  {
+    "owner": "program",
+    "id": "legacy-020",
+    "name": "Computer Science and Engineering — Intelligent Embedded Systems (28Digital track)",
+    "university": "Università di Bologna",
+    "not_confirmed": [
+      "duration",
+      "ects",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats"
+    ],
+    "partly_confirmed": [],
+    "previous_cycle_only": [],
+    "reason": "GrEnFIn has a current formal call and is distinct from Bologna's 28DIGITAL, CLE and BBS tracks. BBS pages advertise 2027/28 but say the formal calls/applications are forthcoming; undated fees, test/waiver sections are not rolled forward. CLE's current page links older formal criteria. Ordinary UniBo tuition and DSU rules do not automatically apply to professional masters."
+  },
+  {
+    "owner": "program",
+    "id": "legacy-023",
+    "name": "Global MBA in AI and Manufacturing (Bologna Business School)",
+    "university": "Università di Bologna",
+    "not_confirmed": [
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats"
+    ],
+    "partly_confirmed": [],
+    "previous_cycle_only": [
+      "prerequisites",
+      "english_requirement",
+      "tuition"
+    ],
+    "reason": "GrEnFIn has a current formal call and is distinct from Bologna's 28DIGITAL, CLE and BBS tracks. BBS pages advertise 2027/28 but say the formal calls/applications are forthcoming; undated fees, test/waiver sections are not rolled forward. CLE's current page links older formal criteria. Ordinary UniBo tuition and DSU rules do not automatically apply to professional masters."
+  },
+  {
+    "owner": "program",
+    "id": "legacy-029",
+    "name": "Computer Engineering",
+    "university": "Università degli Studi di Padova",
+    "not_confirmed": [
+      "admission_test",
+      "selection_method",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "partly_confirmed": [
+      "prerequisites",
+      "minimum_grade"
+    ],
+    "previous_cycle_only": [],
+    "reason": "The country table explicitly covers 27/28 and separates Bachelor and Master columns. Programme profiles link this table but do not establish every programme-specific grade/test/selection/quota rule. Some formal calls/quota fields are TBD. Undated portal EUR 2,950 is not a verified 2027/28 tariff and differs from the 2026/27 contribution notice."
+  },
+  {
+    "owner": "program",
+    "id": "legacy-030",
+    "name": "Computer Science",
+    "university": "Università degli Studi di Padova",
+    "not_confirmed": [
+      "admission_test",
+      "selection_method",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "partly_confirmed": [
+      "prerequisites",
+      "minimum_grade"
+    ],
+    "previous_cycle_only": [],
+    "reason": "The country table explicitly covers 27/28 and separates Bachelor and Master columns. Programme profiles link this table but do not establish every programme-specific grade/test/selection/quota rule. Some formal calls/quota fields are TBD. Undated portal EUR 2,950 is not a verified 2027/28 tariff and differs from the 2026/27 contribution notice."
+  },
+  {
+    "owner": "program",
+    "id": "legacy-031",
+    "name": "Cybersecurity",
+    "university": "Università degli Studi di Padova",
+    "not_confirmed": [
+      "admission_test",
+      "selection_method",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "partly_confirmed": [
+      "prerequisites",
+      "minimum_grade"
+    ],
+    "previous_cycle_only": [],
+    "reason": "The country table explicitly covers 27/28 and separates Bachelor and Master columns. Programme profiles link this table but do not establish every programme-specific grade/test/selection/quota rule. Some formal calls/quota fields are TBD. Undated portal EUR 2,950 is not a verified 2027/28 tariff and differs from the 2026/27 contribution notice."
+  },
+  {
+    "owner": "program",
+    "id": "legacy-032",
+    "name": "Data Science",
+    "university": "Università degli Studi di Padova",
+    "not_confirmed": [
+      "admission_test",
+      "selection_method",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "partly_confirmed": [
+      "prerequisites",
+      "minimum_grade"
+    ],
+    "previous_cycle_only": [],
+    "reason": "The country table explicitly covers 27/28 and separates Bachelor and Master columns. Programme profiles link this table but do not establish every programme-specific grade/test/selection/quota rule. Some formal calls/quota fields are TBD. Undated portal EUR 2,950 is not a verified 2027/28 tariff and differs from the 2026/27 contribution notice."
+  },
+  {
+    "owner": "program",
+    "id": "legacy-033",
+    "name": "Information Engineering",
+    "university": "Università degli Studi di Padova",
+    "not_confirmed": [
+      "non_eu_seats",
+      "tuition"
+    ],
+    "partly_confirmed": [
+      "prerequisites",
+      "admission_test",
+      "selection_method",
+      "minimum_grade"
+    ],
+    "previous_cycle_only": [],
+    "reason": "The country table explicitly covers 27/28 and separates Bachelor and Master columns. Programme profiles link this table but do not establish every programme-specific grade/test/selection/quota rule. Some formal calls/quota fields are TBD. Undated portal EUR 2,950 is not a verified 2027/28 tariff and differs from the 2026/27 contribution notice."
+  },
+  {
+    "owner": "program",
+    "id": "legacy-034",
+    "name": "Aerospace Engineering",
+    "university": "Università degli Studi di Padova",
+    "not_confirmed": [
+      "admission_test",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "partly_confirmed": [
+      "minimum_grade"
+    ],
+    "previous_cycle_only": [],
+    "reason": "The country table explicitly covers 27/28 and separates Bachelor and Master columns. Programme profiles link this table but do not establish every programme-specific grade/test/selection/quota rule. Some formal calls/quota fields are TBD. Undated portal EUR 2,950 is not a verified 2027/28 tariff and differs from the 2026/27 contribution notice."
+  },
+  {
+    "owner": "program",
+    "id": "legacy-037",
+    "name": "Physics of Data",
+    "university": "Università degli Studi di Padova",
+    "not_confirmed": [
+      "admission_test",
+      "selection_method",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "partly_confirmed": [
+      "prerequisites",
+      "minimum_grade"
+    ],
+    "previous_cycle_only": [],
+    "reason": "The country table explicitly covers 27/28 and separates Bachelor and Master columns. Programme profiles link this table but do not establish every programme-specific grade/test/selection/quota rule. Some formal calls/quota fields are TBD. Undated portal EUR 2,950 is not a verified 2027/28 tariff and differs from the 2026/27 contribution notice."
+  },
+  {
+    "owner": "program",
+    "id": "legacy-052",
+    "name": "Computer Science",
+    "university": "Università di Pisa",
+    "not_confirmed": [
+      "duration",
+      "ects",
+      "admission_test",
+      "minimum_grade",
+      "non_eu_seats"
+    ],
+    "partly_confirmed": [
+      "english_requirement",
+      "selection_method"
+    ],
+    "previous_cycle_only": [
+      "prerequisites",
+      "tuition"
+    ],
+    "reason": "The 2027 calls and department page establish applicant routes and B2 certification timing, but annual fees are determined separately (the call's numerical examples are 2026/27). Old teaching regulations do not automatically establish 2027/28 credit rules. Absence of a quota or exam statement is not a no-quota/no-test exemption."
+  },
+  {
+    "owner": "program",
+    "id": "legacy-053",
+    "name": "Cybersecurity",
+    "university": "Università di Pisa",
+    "not_confirmed": [
+      "duration",
+      "ects",
+      "non_eu_seats"
+    ],
+    "partly_confirmed": [
+      "english_requirement",
+      "admission_test"
+    ],
+    "previous_cycle_only": [
+      "tuition"
+    ],
+    "reason": "The 2027 calls and department page establish applicant routes and B2 certification timing, but annual fees are determined separately (the call's numerical examples are 2026/27). Old teaching regulations do not automatically establish 2027/28 credit rules. Absence of a quota or exam statement is not a no-quota/no-test exemption."
+  },
+  {
+    "owner": "program",
+    "id": "legacy-054",
+    "name": "Artificial Intelligence and Data Engineering",
+    "university": "Università di Pisa",
+    "not_confirmed": [
+      "duration",
+      "ects",
+      "minimum_grade",
+      "non_eu_seats"
+    ],
+    "partly_confirmed": [
+      "english_requirement",
+      "admission_test"
+    ],
+    "previous_cycle_only": [
+      "tuition"
+    ],
+    "reason": "The 2027 calls and department page establish applicant routes and B2 certification timing, but annual fees are determined separately (the call's numerical examples are 2026/27). Old teaching regulations do not automatically establish 2027/28 credit rules. Absence of a quota or exam statement is not a no-quota/no-test exemption."
+  },
+  {
+    "owner": "program",
+    "id": "legacy-055",
+    "name": "Data Science and Business Informatics",
+    "university": "Università di Pisa",
+    "not_confirmed": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "admission_test",
+      "minimum_grade",
+      "non_eu_seats"
+    ],
+    "partly_confirmed": [
+      "english_requirement",
+      "selection_method"
+    ],
+    "previous_cycle_only": [
+      "tuition"
+    ],
+    "reason": "The 2027 calls and department page establish applicant routes and B2 certification timing, but annual fees are determined separately (the call's numerical examples are 2026/27). Old teaching regulations do not automatically establish 2027/28 credit rules. Absence of a quota or exam statement is not a no-quota/no-test exemption."
+  },
+  {
+    "owner": "program",
+    "id": "legacy-125",
+    "name": "Software: Science and Technology",
+    "university": "Università degli Studi di Firenze",
+    "not_confirmed": [
+      "duration",
+      "ects",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "partly_confirmed": [
+      "english_requirement",
+      "admission_test",
+      "selection_method"
+    ],
+    "previous_cycle_only": [],
+    "reason": "The current Software page links an explicit country-grade annex and describes possible preparation/English interviews. It does not establish a reserved non-EU quota, a separate compulsory standardised exam or its date/modality. General pre-enrolment guidance lists 31 July without an academic year; it is not promoted to a confirmed 2027/28 deadline."
+  },
+  {
+    "owner": "program",
+    "id": "legacy-161",
+    "name": "Ingegneria gestionale — Management Engineering English-taught track",
+    "university": "Università degli Studi di Padova",
+    "not_confirmed": [
+      "admission_test",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "partly_confirmed": [
+      "minimum_grade"
+    ],
+    "previous_cycle_only": [],
+    "reason": "The country table explicitly covers 27/28 and separates Bachelor and Master columns. Programme profiles link this table but do not establish every programme-specific grade/test/selection/quota rule. Some formal calls/quota fields are TBD. Undated portal EUR 2,950 is not a verified 2027/28 tariff and differs from the 2026/27 contribution notice."
+  },
+  {
+    "owner": "program",
+    "id": "discovered-001",
+    "name": "Informatics for Digital Health",
+    "university": "Università di Pisa",
+    "not_confirmed": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "admission_test",
+      "minimum_grade",
+      "non_eu_seats"
+    ],
+    "partly_confirmed": [
+      "english_requirement",
+      "selection_method"
+    ],
+    "previous_cycle_only": [
+      "tuition"
+    ],
+    "reason": "The 2027 calls and department page establish applicant routes and B2 certification timing, but annual fees are determined separately (the call's numerical examples are 2026/27). Old teaching regulations do not automatically establish 2027/28 credit rules. Absence of a quota or exam statement is not a no-quota/no-test exemption."
+  },
+  {
+    "owner": "program",
+    "id": "discovered-002",
+    "name": "History",
+    "university": "Università degli Studi di Padova",
+    "not_confirmed": [
+      "duration",
+      "ects",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "partly_confirmed": [
+      "minimum_grade"
+    ],
+    "previous_cycle_only": [],
+    "reason": "The country table explicitly covers 27/28 and separates Bachelor and Master columns. Programme profiles link this table but do not establish every programme-specific grade/test/selection/quota rule. Some formal calls/quota fields are TBD. Undated portal EUR 2,950 is not a verified 2027/28 tariff and differs from the 2026/27 contribution notice."
+  },
+  {
+    "owner": "program",
+    "id": "discovered-003",
+    "name": "Classical Languages and Literatures and Ancient History",
+    "university": "Università degli Studi di Padova",
+    "not_confirmed": [
+      "duration",
+      "ects",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "partly_confirmed": [
+      "prerequisites",
+      "minimum_grade"
+    ],
+    "previous_cycle_only": [],
+    "reason": "The country table explicitly covers 27/28 and separates Bachelor and Master columns. Programme profiles link this table but do not establish every programme-specific grade/test/selection/quota rule. Some formal calls/quota fields are TBD. Undated portal EUR 2,950 is not a verified 2027/28 tariff and differs from the 2026/27 contribution notice."
+  },
+  {
+    "owner": "program",
+    "id": "discovered-004",
+    "name": "Historical Sciences",
+    "university": "Università degli Studi di Padova",
+    "not_confirmed": [
+      "duration",
+      "ects",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "partly_confirmed": [
+      "prerequisites",
+      "minimum_grade"
+    ],
+    "previous_cycle_only": [],
+    "reason": "The country table explicitly covers 27/28 and separates Bachelor and Master columns. Programme profiles link this table but do not establish every programme-specific grade/test/selection/quota rule. Some formal calls/quota fields are TBD. Undated portal EUR 2,950 is not a verified 2027/28 tariff and differs from the 2026/27 contribution notice."
+  },
+  {
+    "owner": "program",
+    "id": "discovered-005",
+    "name": "Landscape Studies",
+    "university": "Università degli Studi di Padova",
+    "not_confirmed": [
+      "duration",
+      "ects",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "partly_confirmed": [
+      "prerequisites",
+      "minimum_grade"
+    ],
+    "previous_cycle_only": [],
+    "reason": "The country table explicitly covers 27/28 and separates Bachelor and Master columns. Programme profiles link this table but do not establish every programme-specific grade/test/selection/quota rule. Some formal calls/quota fields are TBD. Undated portal EUR 2,950 is not a verified 2027/28 tariff and differs from the 2026/27 contribution notice."
+  },
+  {
+    "owner": "program",
+    "id": "discovered-006",
+    "name": "Religious Studies",
+    "university": "Università degli Studi di Padova",
+    "not_confirmed": [
+      "duration",
+      "ects",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "partly_confirmed": [
+      "prerequisites",
+      "minimum_grade"
+    ],
+    "previous_cycle_only": [],
+    "reason": "The country table explicitly covers 27/28 and separates Bachelor and Master columns. Programme profiles link this table but do not establish every programme-specific grade/test/selection/quota rule. Some formal calls/quota fields are TBD. Undated portal EUR 2,950 is not a verified 2027/28 tariff and differs from the 2026/27 contribution notice."
+  },
+  {
+    "owner": "program",
+    "id": "discovered-007",
+    "name": "Local Development",
+    "university": "Università degli Studi di Padova",
+    "not_confirmed": [
+      "duration",
+      "ects",
+      "admission_test",
+      "selection_method",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "partly_confirmed": [
+      "prerequisites",
+      "minimum_grade"
+    ],
+    "previous_cycle_only": [],
+    "reason": "The country table explicitly covers 27/28 and separates Bachelor and Master columns. Programme profiles link this table but do not establish every programme-specific grade/test/selection/quota rule. Some formal calls/quota fields are TBD. Undated portal EUR 2,950 is not a verified 2027/28 tariff and differs from the 2026/27 contribution notice."
+  },
+  {
+    "owner": "program",
+    "id": "discovered-008",
+    "name": "Mobility Studies",
+    "university": "Università degli Studi di Padova",
+    "not_confirmed": [
+      "duration",
+      "ects",
+      "admission_test",
+      "selection_method",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "partly_confirmed": [
+      "prerequisites",
+      "minimum_grade"
+    ],
+    "previous_cycle_only": [],
+    "reason": "The country table explicitly covers 27/28 and separates Bachelor and Master columns. Programme profiles link this table but do not establish every programme-specific grade/test/selection/quota rule. Some formal calls/quota fields are TBD. Undated portal EUR 2,950 is not a verified 2027/28 tariff and differs from the 2026/27 contribution notice."
+  },
+  {
+    "owner": "program",
+    "id": "discovered-009",
+    "name": "Chemical Engineering",
+    "university": "Università degli Studi di Napoli Federico II",
+    "not_confirmed": [
+      "duration",
+      "ects",
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "partly_confirmed": [],
+    "previous_cycle_only": [],
+    "reason": "Chemical Engineering's 2027/28 notice announces pre-evaluation and says guidelines/precise dates will follow. Its linked international-candidates page does not supply the promised current programme eligibility/fee/quota regulation. General visa/insurance guidance and the national Universitaly requirement do not establish programme admission criteria."
+  },
+  {
+    "owner": "program",
+    "id": "discovered-010",
+    "name": "Mechatronics Engineering",
+    "university": "Università degli Studi di Roma Tor Vergata",
+    "not_confirmed": [
+      "selection_method",
+      "minimum_grade",
+      "tuition"
+    ],
+    "partly_confirmed": [
+      "prerequisites",
+      "english_requirement",
+      "admission_test"
+    ],
+    "previous_cycle_only": [],
+    "reason": "Mechatronics has its own current call, B2/GRE conditions, quota and Universitaly date. The general admissions landing page does not add a 2027/28 fee schedule or complete country-specific recognition alternatives. Conditional GRE routes cannot become a universal yes/no test flag."
+  },
+  {
+    "owner": "program",
+    "id": "discovered-011",
+    "name": "Buddhism and Asian Religions",
+    "university": "Università Ca' Foscari Venezia",
+    "not_confirmed": [
+      "admission_test",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "partly_confirmed": [
+      "prerequisites",
+      "english_requirement"
+    ],
+    "previous_cycle_only": [],
+    "reason": "The 2027/28 Buddhism route confirms qualification/preparation assessment and B2 proof. Open access is not itself a no-test exemption. The central fee index and pre-enrolment deadline page remain 2026/27; their numerical tariff/deadline is not relabelled as 2027/28. The current scholarship announcement leaves its formal application route/deadline forthcoming."
+  },
+  {
+    "owner": "program",
+    "id": "discovered-012",
+    "name": "Cultures Littéraires Européennes (CLE) Erasmus Mundus Joint Master's Degree",
+    "university": "Università di Bologna",
+    "not_confirmed": [
+      "ects",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "partly_confirmed": [
+      "prerequisites"
+    ],
+    "previous_cycle_only": [],
+    "reason": "GrEnFIn has a current formal call and is distinct from Bologna's 28DIGITAL, CLE and BBS tracks. BBS pages advertise 2027/28 but say the formal calls/applications are forthcoming; undated fees, test/waiver sections are not rolled forward. CLE's current page links older formal criteria. Ordinary UniBo tuition and DSU rules do not automatically apply to professional masters."
+  },
+  {
+    "owner": "program",
+    "id": "discovered-013",
+    "name": "Cyber Security (CSES) – 28DIGITAL Master’s track",
+    "university": "Università degli Studi di Trento",
+    "not_confirmed": [
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats"
+    ],
+    "partly_confirmed": [],
+    "previous_cycle_only": [],
+    "reason": "The seven tracks use 28DIGITAL consortium rules, not ordinary UniTrento tuition. Published dossier/language/fee rules do not establish a universal no-test exemption, numeric GPA minimum, selection weights or reserved non-EU quota. University and consortium calendars/documents contain route/year differences; exact recipient instructions need confirmation."
+  },
+  {
+    "owner": "program",
+    "id": "discovered-014",
+    "name": "Data Science (DSC) – 28DIGITAL Master’s track",
+    "university": "Università degli Studi di Trento",
+    "not_confirmed": [
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats"
+    ],
+    "partly_confirmed": [],
+    "previous_cycle_only": [],
+    "reason": "The seven tracks use 28DIGITAL consortium rules, not ordinary UniTrento tuition. Published dossier/language/fee rules do not establish a universal no-test exemption, numeric GPA minimum, selection weights or reserved non-EU quota. University and consortium calendars/documents contain route/year differences; exact recipient instructions need confirmation."
+  },
+  {
+    "owner": "program",
+    "id": "discovered-015",
+    "name": "Fintech (FT) – 28DIGITAL Master’s track",
+    "university": "Università degli Studi di Trento",
+    "not_confirmed": [
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats"
+    ],
+    "partly_confirmed": [],
+    "previous_cycle_only": [],
+    "reason": "The seven tracks use 28DIGITAL consortium rules, not ordinary UniTrento tuition. Published dossier/language/fee rules do not establish a universal no-test exemption, numeric GPA minimum, selection weights or reserved non-EU quota. University and consortium calendars/documents contain route/year differences; exact recipient instructions need confirmation."
+  },
+  {
+    "owner": "program",
+    "id": "discovered-016",
+    "name": "Human-Computer Interaction and Design with Extended Reality (HCID/XR) – 28DIGITAL track",
+    "university": "Università degli Studi di Trento",
+    "not_confirmed": [
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats"
+    ],
+    "partly_confirmed": [
+      "prerequisites"
+    ],
+    "previous_cycle_only": [],
+    "reason": "The seven tracks use 28DIGITAL consortium rules, not ordinary UniTrento tuition. Published dossier/language/fee rules do not establish a universal no-test exemption, numeric GPA minimum, selection weights or reserved non-EU quota. University and consortium calendars/documents contain route/year differences; exact recipient instructions need confirmation."
+  },
+  {
+    "owner": "program",
+    "id": "discovered-017",
+    "name": "Cloud and Networking Infrastructure and HPC (CNIHPC) – 28DIGITAL track",
+    "university": "Università degli Studi di Trento",
+    "not_confirmed": [
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats"
+    ],
+    "partly_confirmed": [],
+    "previous_cycle_only": [],
+    "reason": "The seven tracks use 28DIGITAL consortium rules, not ordinary UniTrento tuition. Published dossier/language/fee rules do not establish a universal no-test exemption, numeric GPA minimum, selection weights or reserved non-EU quota. University and consortium calendars/documents contain route/year differences; exact recipient instructions need confirmation."
+  },
+  {
+    "owner": "program",
+    "id": "discovered-018",
+    "name": "Intelligent Chips and Systems (ICS) – 28DIGITAL track",
+    "university": "Università degli Studi di Trento",
+    "not_confirmed": [
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats"
+    ],
+    "partly_confirmed": [],
+    "previous_cycle_only": [],
+    "reason": "The seven tracks use 28DIGITAL consortium rules, not ordinary UniTrento tuition. Published dossier/language/fee rules do not establish a universal no-test exemption, numeric GPA minimum, selection weights or reserved non-EU quota. University and consortium calendars/documents contain route/year differences; exact recipient instructions need confirmation."
+  },
+  {
+    "owner": "program",
+    "id": "discovered-019",
+    "name": "Artificial Intelligence with Affective Computing (AIAC) – 28DIGITAL track",
+    "university": "Università degli Studi di Trento",
+    "not_confirmed": [
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats"
+    ],
+    "partly_confirmed": [],
+    "previous_cycle_only": [],
+    "reason": "The seven tracks use 28DIGITAL consortium rules, not ordinary UniTrento tuition. Published dossier/language/fee rules do not establish a universal no-test exemption, numeric GPA minimum, selection weights or reserved non-EU quota. University and consortium calendars/documents contain route/year differences; exact recipient instructions need confirmation."
+  },
+  {
+    "owner": "program",
+    "id": "discovered-020",
+    "name": "Hydrogen Systems and Enabling Technologies (HySET Erasmus Mundus Joint Master)",
+    "university": "Politecnico di Torino",
+    "not_confirmed": [
+      "non_eu_seats",
+      "tuition"
+    ],
+    "partly_confirmed": [
+      "english_requirement",
+      "admission_test"
+    ],
+    "previous_cycle_only": [],
+    "reason": "HySET publishes 2027–29 eligibility, grade scoring and possible interviews, but does not establish a compulsory standardised exam or reserved non-EU quota. The dated continuation notice says funding is not secured. Its undated self-funded fee quotation is not promoted to the 2027 cohort. Ordinary Polito 2026/27 instructions are a different route."
+  },
+  {
+    "owner": "program",
+    "id": "discovered-029",
+    "name": "Greening Energy Market and Finance (GrEnFIn Erasmus Mundus Joint Master)",
+    "university": "Università di Bologna",
+    "not_confirmed": [
+      "minimum_grade",
+      "non_eu_seats"
+    ],
+    "partly_confirmed": [
+      "tuition"
+    ],
+    "previous_cycle_only": [],
+    "reason": "GrEnFIn has a current formal call and is distinct from Bologna's 28DIGITAL, CLE and BBS tracks. BBS pages advertise 2027/28 but say the formal calls/applications are forthcoming; undated fees, test/waiver sections are not rolled forward. CLE's current page links older formal criteria. Ordinary UniBo tuition and DSU rules do not automatically apply to professional masters."
+  },
+  {
+    "owner": "program",
+    "id": "discovered-037",
+    "name": "Astrophysics and Cosmology",
+    "university": "Università degli Studi di Padova",
+    "not_confirmed": [
+      "admission_test",
+      "selection_method",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "partly_confirmed": [
+      "prerequisites",
+      "minimum_grade"
+    ],
+    "previous_cycle_only": [],
+    "reason": "The country table explicitly covers 27/28 and separates Bachelor and Master columns. Programme profiles link this table but do not establish every programme-specific grade/test/selection/quota rule. Some formal calls/quota fields are TBD. Undated portal EUR 2,950 is not a verified 2027/28 tariff and differs from the 2026/27 contribution notice."
+  },
+  {
+    "owner": "program",
+    "id": "discovered-038",
+    "name": "Economic Analysis and Policy",
+    "university": "Università degli Studi di Torino",
+    "not_confirmed": [
+      "ects",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "partly_confirmed": [
+      "prerequisites",
+      "english_requirement",
+      "admission_test"
+    ],
+    "previous_cycle_only": [],
+    "reason": "The recovered current EAP application page states 24+6 credits; its local requirements page says 18+6 and TAPP. Present both by route and retain the unresolved applicability. The central fee schedule is 2026/27; the linked EPOG tariff page has no independently dated 2027/28 tariff. Its June 10 translation date omits a year."
+  },
+  {
+    "owner": "program",
+    "id": "discovered-039",
+    "name": "Computer Engineering",
+    "university": "Università di Pisa",
+    "not_confirmed": [
+      "duration",
+      "ects",
+      "minimum_grade",
+      "non_eu_seats"
+    ],
+    "partly_confirmed": [
+      "english_requirement",
+      "admission_test"
+    ],
+    "previous_cycle_only": [
+      "tuition"
+    ],
+    "reason": "The 2027 calls and department page establish applicant routes and B2 certification timing, but annual fees are determined separately (the call's numerical examples are 2026/27). Old teaching regulations do not automatically establish 2027/28 credit rules. Absence of a quota or exam statement is not a no-quota/no-test exemption."
+  },
+  {
+    "owner": "program",
+    "id": "discovered-040",
+    "name": "Data Science and Business Analytics",
+    "university": "Università di Bologna",
+    "not_confirmed": [
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "partly_confirmed": [],
+    "previous_cycle_only": [],
+    "reason": "GrEnFIn has a current formal call and is distinct from Bologna's 28DIGITAL, CLE and BBS tracks. BBS pages advertise 2027/28 but say the formal calls/applications are forthcoming; undated fees, test/waiver sections are not rolled forward. CLE's current page links older formal criteria. Ordinary UniBo tuition and DSU rules do not automatically apply to professional masters."
+  },
+  {
+    "owner": "program",
+    "id": "discovered-041",
+    "name": "Artificial Intelligence for Management",
+    "university": "Università di Bologna",
+    "not_confirmed": [
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "partly_confirmed": [],
+    "previous_cycle_only": [],
+    "reason": "GrEnFIn has a current formal call and is distinct from Bologna's 28DIGITAL, CLE and BBS tracks. BBS pages advertise 2027/28 but say the formal calls/applications are forthcoming; undated fees, test/waiver sections are not rolled forward. CLE's current page links older formal criteria. Ordinary UniBo tuition and DSU rules do not automatically apply to professional masters."
+  },
+  {
+    "owner": "program",
+    "id": "discovered-042",
+    "name": "Finance – Entrepreneurial Finance",
+    "university": "Università di Bologna",
+    "not_confirmed": [
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats"
+    ],
+    "partly_confirmed": [],
+    "previous_cycle_only": [
+      "tuition"
+    ],
+    "reason": "GrEnFIn has a current formal call and is distinct from Bologna's 28DIGITAL, CLE and BBS tracks. BBS pages advertise 2027/28 but say the formal calls/applications are forthcoming; undated fees, test/waiver sections are not rolled forward. CLE's current page links older formal criteria. Ordinary UniBo tuition and DSU rules do not automatically apply to professional masters."
+  },
+  {
+    "owner": "program",
+    "id": "discovered-043",
+    "name": "Finance – Finance and Artificial Intelligence",
+    "university": "Università di Bologna",
+    "not_confirmed": [
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats"
+    ],
+    "partly_confirmed": [],
+    "previous_cycle_only": [
+      "tuition"
+    ],
+    "reason": "GrEnFIn has a current formal call and is distinct from Bologna's 28DIGITAL, CLE and BBS tracks. BBS pages advertise 2027/28 but say the formal calls/applications are forthcoming; undated fees, test/waiver sections are not rolled forward. CLE's current page links older formal criteria. Ordinary UniBo tuition and DSU rules do not automatically apply to professional masters."
+  },
+  {
+    "owner": "program",
+    "id": "discovered-044",
+    "name": "Marketing Management – Analytics and AI for Marketing",
+    "university": "Università di Bologna",
+    "not_confirmed": [
+      "prerequisites",
+      "english_requirement",
+      "admission_test",
+      "selection_method",
+      "minimum_grade",
+      "non_eu_seats",
+      "tuition"
+    ],
+    "partly_confirmed": [],
+    "previous_cycle_only": [],
+    "reason": "GrEnFIn has a current formal call and is distinct from Bologna's 28DIGITAL, CLE and BBS tracks. BBS pages advertise 2027/28 but say the formal calls/applications are forthcoming; undated fees, test/waiver sections are not rolled forward. CLE's current page links older formal criteria. Ordinary UniBo tuition and DSU rules do not automatically apply to professional masters."
+  },
+  {
+    "owner": "university",
+    "id": "bologna",
+    "name": "Università di Bologna",
+    "university": "Università di Bologna",
+    "not_confirmed": [
+      "visa_permit"
+    ],
+    "partly_confirmed": [
+      "universitaly",
+      "documents",
+      "regional_dsu"
+    ],
+    "previous_cycle_only": [],
+    "reason": "GrEnFIn has a current formal call and is distinct from Bologna's 28DIGITAL, CLE and BBS tracks. BBS pages advertise 2027/28 but say the formal calls/applications are forthcoming; undated fees, test/waiver sections are not rolled forward. CLE's current page links older formal criteria. Ordinary UniBo tuition and DSU rules do not automatically apply to professional masters."
+  },
+  {
+    "owner": "university",
+    "id": "ca-foscari",
+    "name": "Università Ca' Foscari Venezia",
+    "university": "Università Ca' Foscari Venezia",
+    "not_confirmed": [
+      "documents",
+      "visa_permit"
+    ],
+    "partly_confirmed": [
+      "universitaly"
+    ],
+    "previous_cycle_only": [
+      "regional_dsu",
+      "scholarships"
+    ],
+    "reason": "The 2027/28 Buddhism route confirms qualification/preparation assessment and B2 proof. Open access is not itself a no-test exemption. The central fee index and pre-enrolment deadline page remain 2026/27; their numerical tariff/deadline is not relabelled as 2027/28. The current scholarship announcement leaves its formal application route/deadline forthcoming."
+  },
+  {
+    "owner": "university",
+    "id": "firenze",
+    "name": "Università degli Studi di Firenze",
+    "university": "Università degli Studi di Firenze",
+    "not_confirmed": [],
+    "partly_confirmed": [
+      "universitaly",
+      "documents",
+      "visa_permit"
+    ],
+    "previous_cycle_only": [
+      "regional_dsu",
+      "scholarships"
+    ],
+    "reason": "The current Software page links an explicit country-grade annex and describes possible preparation/English interviews. It does not establish a reserved non-EU quota, a separate compulsory standardised exam or its date/modality. General pre-enrolment guidance lists 31 July without an academic year; it is not promoted to a confirmed 2027/28 deadline."
+  },
+  {
+    "owner": "university",
+    "id": "napoli-federico-ii",
+    "name": "Università degli Studi di Napoli Federico II",
+    "university": "Università degli Studi di Napoli Federico II",
+    "not_confirmed": [
+      "documents",
+      "regional_dsu",
+      "scholarships"
+    ],
+    "partly_confirmed": [
+      "universitaly",
+      "visa_permit"
+    ],
+    "previous_cycle_only": [],
+    "reason": "Chemical Engineering's 2027/28 notice announces pre-evaluation and says guidelines/precise dates will follow. Its linked international-candidates page does not supply the promised current programme eligibility/fee/quota regulation. General visa/insurance guidance and the national Universitaly requirement do not establish programme admission criteria."
+  },
+  {
+    "owner": "university",
+    "id": "padova",
+    "name": "Università degli Studi di Padova",
+    "university": "Università degli Studi di Padova",
+    "not_confirmed": [
+      "visa_permit"
+    ],
+    "partly_confirmed": [
+      "universitaly",
+      "documents"
+    ],
+    "previous_cycle_only": [
+      "regional_dsu",
+      "scholarships"
+    ],
+    "reason": "The country table explicitly covers 27/28 and separates Bachelor and Master columns. Programme profiles link this table but do not establish every programme-specific grade/test/selection/quota rule. Some formal calls/quota fields are TBD. Undated portal EUR 2,950 is not a verified 2027/28 tariff and differs from the 2026/27 contribution notice."
+  },
+  {
+    "owner": "university",
+    "id": "pisa",
+    "name": "Università di Pisa",
+    "university": "Università di Pisa",
+    "not_confirmed": [],
+    "partly_confirmed": [
+      "universitaly",
+      "documents",
+      "regional_dsu",
+      "visa_permit",
+      "scholarships"
+    ],
+    "previous_cycle_only": [],
+    "reason": "The 2027 calls and department page establish applicant routes and B2 certification timing, but annual fees are determined separately (the call's numerical examples are 2026/27). Old teaching regulations do not automatically establish 2027/28 credit rules. Absence of a quota or exam statement is not a no-quota/no-test exemption."
+  },
+  {
+    "owner": "university",
+    "id": "politecnico-milano",
+    "name": "Politecnico di Milano",
+    "university": "Politecnico di Milano",
+    "not_confirmed": [],
+    "partly_confirmed": [
+      "universitaly",
+      "documents",
+      "visa_permit",
+      "scholarships"
+    ],
+    "previous_cycle_only": [
+      "regional_dsu"
+    ],
+    "reason": "The central tariff and HPC-specific curricular page explicitly cover 2026/27, so they do not prove a 2027/28 tariff or subject-credit rule. The current standard MSc dossier/country tables support the stated rules, with programme scoring/test/quota details still not established. Bocconi's joint route is separate."
+  },
+  {
+    "owner": "university",
+    "id": "politecnico-torino",
+    "name": "Politecnico di Torino",
+    "university": "Politecnico di Torino",
+    "not_confirmed": [
+      "visa_permit",
+      "scholarships"
+    ],
+    "partly_confirmed": [
+      "universitaly",
+      "documents"
+    ],
+    "previous_cycle_only": [
+      "regional_dsu"
+    ],
+    "reason": "HySET publishes 2027–29 eligibility, grade scoring and possible interviews, but does not establish a compulsory standardised exam or reserved non-EU quota. The dated continuation notice says funding is not secured. Its undated self-funded fee quotation is not promoted to the 2027 cohort. Ordinary Polito 2026/27 instructions are a different route."
+  },
+  {
+    "owner": "university",
+    "id": "tor-vergata",
+    "name": "Università degli Studi di Roma Tor Vergata",
+    "university": "Università degli Studi di Roma Tor Vergata",
+    "not_confirmed": [],
+    "partly_confirmed": [
+      "universitaly",
+      "documents",
+      "visa_permit"
+    ],
+    "previous_cycle_only": [
+      "regional_dsu",
+      "scholarships"
+    ],
+    "reason": "Mechatronics has its own current call, B2/GRE conditions, quota and Universitaly date. The general admissions landing page does not add a 2027/28 fee schedule or complete country-specific recognition alternatives. Conditional GRE routes cannot become a universal yes/no test flag."
+  },
+  {
+    "owner": "university",
+    "id": "torino",
+    "name": "Università degli Studi di Torino",
+    "university": "Università degli Studi di Torino",
+    "not_confirmed": [],
+    "partly_confirmed": [
+      "universitaly",
+      "documents",
+      "visa_permit"
+    ],
+    "previous_cycle_only": [
+      "regional_dsu",
+      "scholarships"
+    ],
+    "reason": "The recovered current EAP application page states 24+6 credits; its local requirements page says 18+6 and TAPP. Present both by route and retain the unresolved applicability. The central fee schedule is 2026/27; the linked EPOG tariff page has no independently dated 2027/28 tariff. Its June 10 translation date omits a year."
+  },
+  {
+    "owner": "university",
+    "id": "trento",
+    "name": "Università degli Studi di Trento",
+    "university": "Università degli Studi di Trento",
+    "not_confirmed": [],
+    "partly_confirmed": [
+      "universitaly",
+      "documents",
+      "visa_permit",
+      "scholarships"
+    ],
+    "previous_cycle_only": [
+      "regional_dsu"
+    ],
+    "reason": "The seven tracks use 28DIGITAL consortium rules, not ordinary UniTrento tuition. Published dossier/language/fee rules do not establish a universal no-test exemption, numeric GPA minimum, selection weights or reserved non-EU quota. University and consortium calendars/documents contain route/year differences; exact recipient instructions need confirmation."
+  }
+]

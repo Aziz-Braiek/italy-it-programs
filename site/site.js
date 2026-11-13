@@ -185,8 +185,9 @@
     if (deadline === "pending" && card.dataset.deadline) return false;
     if (tuition && card.dataset.tuition !== tuition) return false;
     if (scholarship && card.dataset.scholarship !== scholarship) return false;
-    if (filters.admissionTest?.value === "no" && card.dataset.admissionTest !== "no") return false;
-    if (filters.englishCertificate?.value === "required" && !["yes", "conditional"].includes(card.dataset.englishCertificate)) return false;
+    if (filters.admissionTest?.value && card.dataset.admissionTest !== filters.admissionTest.value) return false;
+    const certificateState = filters.englishCertificate?.value === "required" ? "yes" : filters.englishCertificate?.value;
+    if (certificateState && card.dataset.englishCertificate !== certificateState) return false;
     return true;
   }
 
@@ -370,7 +371,7 @@
     if (!rows.length) { announce("Save one or more programs before exporting a shortlist."); return; }
     const headers = ["Program", "University", "City", "2027/28 status", "Degree value", "Degree verified for 2027/28", "Language value", "Language verified for 2027/28", "Next confirmed date", "Tuition information", "Scholarship information", "Tracker page"];
     const decisionFields = [...Object.entries(decisionData.program_fields || {}).map(([key, label]) => ["program", key, label]), ...Object.entries(decisionData.university_fields || {}).map(([key, label]) => ["university", key, label])];
-    decisionFields.forEach(([, , label]) => headers.push(label, `${label} — cycle status`, `${label} — source URL`, `${label} — verified date`));
+    decisionFields.forEach(([, , label]) => headers.push(label, `${label} — cycle status`, `${label} — source URL`, `${label} — verified date`, `${label} — confirmation`, `${label} — missing components`));
     const exportedDecision = (card) => {
       const program = decisionData.programs?.[card.dataset.programId] || {};
       const university = decisionData.universities?.[program.university_id] || {};
@@ -380,11 +381,11 @@
         if (key === "scholarships") {
           const offers = (fact || []).filter((offer) => !offer.program_ids || offer.program_ids.includes(card.dataset.programId));
           const current = offers.filter((offer) => offer.cycle_status === "2027/28 confirmed");
-          fact = current.length ? { value: current.map((offer) => offer.value).join(" | "), cycle_status: "2027/28 confirmed", source_urls: [...new Set(current.flatMap((offer) => offer.source_urls || []))], verified_date: current.map((offer) => offer.verified_date).sort().at(-1) } : offers[0];
+          fact = current.length ? { value: current.map((offer) => offer.value).join(" | "), cycle_status: "2027/28 confirmed", source_urls: [...new Set(current.flatMap((offer) => offer.source_urls || []))], verified_date: current.map((offer) => offer.verified_date).sort().at(-1), missing_components: [...new Set(current.flatMap((offer) => offer.missing_components || []))] } : offers[0];
         }
         if (fact?.program_ids && !fact.program_ids.includes(card.dataset.programId)) fact = null;
-        if (fact?.cycle_status !== "2027/28 confirmed") return ["Not confirmed", fact?.cycle_status || "not confirmed", "", ""];
-        return [fact.value, fact.cycle_status, (fact.source_urls || []).join(" | "), fact.verified_date || ""];
+        if (fact?.cycle_status !== "2027/28 confirmed") return ["Not confirmed", fact?.cycle_status || "not confirmed", "", "", fact?.evidence_scope === "degree_structure" ? "Degree structure (historical value omitted)" : "Not confirmed", ""];
+        return [fact.value, fact.cycle_status, (fact.source_urls || []).join(" | "), fact.verified_date || "", fact.evidence_scope === "degree_structure" ? "Degree structure" : fact.missing_components?.length ? "Partly confirmed" : "Confirmed", (fact.missing_components || []).join(" | ")];
       });
     };
     const lines = [headers, ...rows.map((card) => [

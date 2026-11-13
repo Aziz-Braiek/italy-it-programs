@@ -1,0 +1,37 @@
+{
+  "selection": "SystemRandom sample without replacement from fully confirmed current-tuition records; selected once and preserved.",
+  "eligible_records": 8,
+  "checks": [
+    {
+      "id": "discovered-017",
+      "university": "Università degli Studi di Trento",
+      "programme": "Cloud and Networking Infrastructure and HPC (CNIHPC) – 28DIGITAL track",
+      "value": "2027 admission fee schedule: non-EU/EEA citizens EUR 18,000 per academic year (EUR 9,000/semester); EU/EEA citizens EUR 6,000/year (EUR 3,000/semester). Residence or prior study in the EU does not change citizenship-based fee classification. Flat consortium fees, not local ISEE tuition; competitive waivers are separate. Application/registration fees are not tuition.",
+      "official_url": "https://masterschool.28digital.eu/admissions/fees",
+      "exact_passage": "18,000 EUR",
+      "table_context": "Non-EU/EEA citizenship row, annual tuition column; EU/EEA row is EUR 6,000/year.",
+      "checked_date": "2026-11-13"
+    },
+    {
+      "id": "discovered-015",
+      "university": "Università degli Studi di Trento",
+      "programme": "Fintech (FT) – 28DIGITAL Master’s track",
+      "value": "2027 admission fee schedule: non-EU/EEA citizens EUR 18,000 per academic year (EUR 9,000/semester); EU/EEA citizens EUR 6,000/year (EUR 3,000/semester). Residence or prior study in the EU does not change citizenship-based fee classification. Flat consortium fees, not local ISEE tuition; competitive waivers are separate. Application/registration fees are not tuition.",
+      "official_url": "https://masterschool.28digital.eu/admissions/fees",
+      "exact_passage": "18,000 EUR",
+      "table_context": "Non-EU/EEA citizenship row, annual tuition column; EU/EEA row is EUR 6,000/year.",
+      "checked_date": "2026-11-13"
+    },
+    {
+      "id": "discovered-016",
+      "university": "Università degli Studi di Trento",
+      "programme": "Human-Computer Interaction and Design with Extended Reality (HCID/XR) – 28DIGITAL track",
+      "value": "2027 admission fee schedule: non-EU/EEA citizens EUR 18,000 per academic year (EUR 9,000/semester); EU/EEA citizens EUR 6,000/year (EUR 3,000/semester). Residence or prior study in the EU does not change citizenship-based fee classification. Flat consortium fees, not local ISEE tuition; competitive waivers are separate. Application/registration fees are not tuition.",
+      "official_url": "https://masterschool.28digital.eu/admissions/fees",
+      "exact_passage": "18,000 EUR",
+      "table_context": "Non-EU/EEA citizenship row, annual tuition column; EU/EEA row is EUR 6,000/year.",
+      "checked_date": "2026-11-13"
+    }
+  ],
+  "limitation": "All fully confirmed current tuition records in this snapshot share the 28DIGITAL consortium tariff. These are three programme checks, not independent tariff schedules."
+}

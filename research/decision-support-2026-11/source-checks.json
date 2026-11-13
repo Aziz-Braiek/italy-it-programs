@@ -3712,6 +3712,32 @@
       ]
     },
     {
+      "url": "https://didattica.di.unipi.it/en/internazionale/degrees-offered-in-english/",
+      "source_ids": [
+        "REFINE-PISA-CS-ENGLISH"
+      ],
+      "evidence_key": "0e87b9fc7f5101ab1ca3",
+      "checked_at_utc": "2026-11-13T12:16:04.988026+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://didattica.di.unipi.it/en/internazionale/degrees-offered-in-english/",
+      "redirects": [],
+      "headers": {
+        "date": "Fri, 13 Nov 2026 12:16:04 GMT",
+        "content-length": "15812",
+        "content-type": "text/html; charset=UTF-8"
+      },
+      "bytes": 69475,
+      "sha256": "72df2c501e0259189485b8e36e0f0d11c0f05930120ec49cc34edd2eaa82b31a",
+      "elapsed_seconds": 0.531,
+      "local_raw_path": "tmp/decision-support-2026-11-13/0e87b9fc7f5101ab1ca3.html",
+      "local_text_path": "tmp/decision-support-2026-11-13/0e87b9fc7f5101ab1ca3.txt",
+      "text_characters": 4602,
+      "transport_outcome": "accessible",
+      "academic_cycles_detected": []
+    },
+    {
       "url": "https://didattica.di.unipi.it/en/master-programme-in-computer-science/",
       "source_ids": [
         "SRC-PISA-CS"
@@ -3774,6 +3800,7 @@
     {
       "url": "https://didattica.di.unipi.it/en/master-programme-in-informatics-for-digital-health/",
       "source_ids": [
+        "REFINE-PISA-DIGITAL-HEALTH",
         "SRC-PISA-DH"
       ],
       "evidence_key": "81339e4557f1880f20b6",
@@ -4311,6 +4338,96 @@
       ]
     },
     {
+      "url": "https://en.unito.it/international-relations/students-mobility/international-students",
+      "source_ids": [
+        "REFINE-UNITO-VISA"
+      ],
+      "evidence_key": "c0374e8cce565c5d04dd",
+      "checked_at_utc": "2026-11-13T12:13:52.028169+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 404,
+      "effective_url": "https://en.unito.it/international-relations/students-mobility/international-students",
+      "redirects": [],
+      "headers": {
+        "date": "Fri, 13 Nov 2026 12:13:53 GMT",
+        "content-type": "text/html; charset=UTF-8",
+        "cache-control": "max-age=3600, public",
+        "last-modified": "Fri, 13 Nov 2026 12:13:52 GMT",
+        "age": "0"
+      },
+      "bytes": 105847,
+      "sha256": "f5f2591c9916cd99aa794f7e897be4e17e08e5cb05fdafefbc4efb61547346e2",
+      "elapsed_seconds": 1.297,
+      "local_raw_path": "tmp/decision-support-2026-11-13/c0374e8cce565c5d04dd.html",
+      "local_text_path": "tmp/decision-support-2026-11-13/c0374e8cce565c5d04dd.txt",
+      "text_characters": 4333,
+      "transport_outcome": "broken",
+      "academic_cycles_detected": []
+    },
+    {
+      "url": "https://en.unito.it/living-turin/when-you-arrive/residence-permit",
+      "source_ids": [
+        "REFINE-UNITO-PERMIT"
+      ],
+      "evidence_key": "969ca08aa672409d50c5",
+      "checked_at_utc": "2026-11-13T12:16:04.990026+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://en.unito.it/living-turin/when-you-arrive/residence-permit-and-stay-requirements",
+      "redirects": [
+        {
+          "status": 301,
+          "url": "https://en.unito.it/living-turin/when-you-arrive/residence-permit",
+          "location": "https://en.unito.it/living-turin/when-you-arrive/residence-permit-and-stay-requirements"
+        }
+      ],
+      "headers": {
+        "date": "Fri, 13 Nov 2026 12:16:06 GMT",
+        "content-type": "text/html; charset=UTF-8",
+        "cache-control": "max-age=3600, public",
+        "last-modified": "Fri, 13 Nov 2026 12:14:01 GMT",
+        "age": "0"
+      },
+      "bytes": 137352,
+      "sha256": "ec227f6e696e068421cc59779b0984975125d5ba8c06c1c46d5de77c6495fe3b",
+      "elapsed_seconds": 1.672,
+      "local_raw_path": "tmp/decision-support-2026-11-13/969ca08aa672409d50c5.html",
+      "local_text_path": "tmp/decision-support-2026-11-13/969ca08aa672409d50c5.txt",
+      "text_characters": 15257,
+      "transport_outcome": "accessible",
+      "academic_cycles_detected": []
+    },
+    {
+      "url": "https://en.unito.it/living-turin/you-leave-home/visa",
+      "source_ids": [
+        "REFINE-UNITO-VISA-GUIDE"
+      ],
+      "evidence_key": "99bd3df88988a5921aa0",
+      "checked_at_utc": "2026-11-13T12:16:05.156186+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://en.unito.it/living-turin/you-leave-home/visa",
+      "redirects": [],
+      "headers": {
+        "date": "Fri, 13 Nov 2026 12:16:10 GMT",
+        "content-type": "text/html; charset=UTF-8",
+        "cache-control": "max-age=3600, public",
+        "last-modified": "Fri, 13 Nov 2026 12:16:05 GMT",
+        "age": "0"
+      },
+      "bytes": 114446,
+      "sha256": "41a7dc51e83369655b64de7051b512800d6204db7a788b6f0714d9f72978de32",
+      "elapsed_seconds": 5.829,
+      "local_raw_path": "tmp/decision-support-2026-11-13/99bd3df88988a5921aa0.html",
+      "local_text_path": "tmp/decision-support-2026-11-13/99bd3df88988a5921aa0.txt",
+      "text_characters": 5552,
+      "transport_outcome": "accessible",
+      "academic_cycles_detected": []
+    },
+    {
       "url": "https://en.unito.it/studying-unito/programs/degree-programs/artificial-intelligence-and-high-performance-computing",
       "source_ids": [
         "SRC-UNITO-AIHPC-2026"
@@ -4651,6 +4768,36 @@
       "academic_cycles_detected": [
         "2026/27",
         "2027/28"
+      ]
+    },
+    {
+      "url": "https://en.unito.it/studying-unito/tuition-fees",
+      "source_ids": [
+        "REFINE-UNITO-FEES"
+      ],
+      "evidence_key": "acb0d66aeab32eaa2bb7",
+      "checked_at_utc": "2026-11-13T12:16:05.526808+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://en.unito.it/studying-unito/tuition-fees",
+      "redirects": [],
+      "headers": {
+        "date": "Fri, 13 Nov 2026 12:16:06 GMT",
+        "content-type": "text/html; charset=UTF-8",
+        "cache-control": "max-age=3600, public",
+        "last-modified": "Fri, 13 Nov 2026 12:13:29 GMT",
+        "age": "0"
+      },
+      "bytes": 131397,
+      "sha256": "568ec53c68bb632f315ea19af35c7a290c7c7dff03f51193a4a85ae54f397132",
+      "elapsed_seconds": 0.688,
+      "local_raw_path": "tmp/decision-support-2026-11-13/acb0d66aeab32eaa2bb7.html",
+      "local_text_path": "tmp/decision-support-2026-11-13/acb0d66aeab32eaa2bb7.txt",
+      "text_characters": 5839,
+      "transport_outcome": "accessible",
+      "academic_cycles_detected": [
+        "2026/27"
       ]
     },
     {
@@ -5221,6 +5368,34 @@
       "transport_outcome": "accessible",
       "academic_cycles_detected": [
         "2027/28"
+      ]
+    },
+    {
+      "url": "https://masterhpc.polimi.it/en/ammissioni/",
+      "source_ids": [
+        "REFINE-POLIMI-HPC-REQ"
+      ],
+      "evidence_key": "034abeca944d98d2c7f0",
+      "checked_at_utc": "2026-11-13T12:16:04.989025+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://masterhpc.polimi.it/en/ammissioni/",
+      "redirects": [],
+      "headers": {
+        "date": "Fri, 13 Nov 2026 12:16:04 GMT",
+        "content-type": "text/html; charset=UTF-8"
+      },
+      "bytes": 154674,
+      "sha256": "59edd0862c8f35cd59850325fd6692a33b20eba82d6b33e59d4d463d1dbbddd2",
+      "elapsed_seconds": 0.938,
+      "local_raw_path": "tmp/decision-support-2026-11-13/034abeca944d98d2c7f0.html",
+      "local_text_path": "tmp/decision-support-2026-11-13/034abeca944d98d2c7f0.txt",
+      "text_characters": 6173,
+      "transport_outcome": "accessible",
+      "academic_cycles_detected": [
+        "2026/27",
+        "2028/29"
       ]
     },
     {
@@ -6231,7 +6406,8 @@
     {
       "url": "https://web.uniroma2.it/en/percorso/admissions",
       "source_ids": [
-        "DEC-TORVERGATA-ADMISSIONS"
+        "DEC-TORVERGATA-ADMISSIONS",
+        "REFINE-TORVERGATA-ADMISSIONS"
       ],
       "evidence_key": "2d84f33777c54d1b8dca",
       "checked_at_utc": "2026-11-13T00:22:54.632280+00:00",
@@ -6992,6 +7168,34 @@
       ]
     },
     {
+      "url": "https://www.dicmapi.unina.it/international-students-and-doctoral-candidates",
+      "source_ids": [
+        "REFINE-UNINA-GUIDELINES"
+      ],
+      "evidence_key": "ca9cce8f15a0fb1badd9",
+      "checked_at_utc": "2026-11-13T12:13:51.820691+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://www.dicmapi.unina.it/international-students-and-doctoral-candidates",
+      "redirects": [],
+      "headers": {
+        "date": "Fri, 13 Nov 2026 12:13:51 GMT",
+        "content-type": "text/html; charset=UTF-8",
+        "content-length": "39364",
+        "last-modified": "Thu, 12 Nov 2026 10:25:35 GMT",
+        "cache-control": "max-age=0, no-cache, no-store, must-revalidate"
+      },
+      "bytes": 274689,
+      "sha256": "524eb2daba526e59a419a90b4167053c7bd0a94cbd43c8b7071cd2b7f3ce847e",
+      "elapsed_seconds": 0.188,
+      "local_raw_path": "tmp/decision-support-2026-11-13/ca9cce8f15a0fb1badd9.html",
+      "local_text_path": "tmp/decision-support-2026-11-13/ca9cce8f15a0fb1badd9.txt",
+      "text_characters": 11954,
+      "transport_outcome": "accessible",
+      "academic_cycles_detected": []
+    },
+    {
       "url": "https://www.dicmapi.unina.it/mag_ingchim/masters-degree-in-chemical-engineering/?lang=en",
       "source_ids": [
         "SRC-UNINA-CHE-PROGRAM"
@@ -7147,16 +7351,111 @@
       ]
     },
     {
-      "url": "https://www.eap.unito.it/do/home.pl/View?doc=how_to_apply.html",
+      "url": "https://www.eap.unito.it/do/home.pl/View?doc=admission_requirements.html",
       "source_ids": [
-        "SRC-UNITO-EAP-APPLICATION-2027"
+        "REFINE-EAP-REQUIREMENTS"
       ],
-      "evidence_key": "3daf12a0d23dda3841cb",
-      "checked_at_utc": "2026-11-13T00:10:30.869562+00:00",
+      "evidence_key": "84b634dbf49467801edc",
+      "checked_at_utc": "2026-11-13T12:16:04.990026+00:00",
       "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
       "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
-      "transport_outcome": "inconclusive",
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='www.eap.unito.it', port=443): Max retries exceeded with url: /do/home.pl/View?doc=how_to_apply.html (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.eap.unito.it', port=443) at 0x1e4ae649e10>, 'Connection to www.eap.unito.it timed out. (connect timeout=10)'))"
+      "http_status": 200,
+      "effective_url": "https://www.eap.unito.it/do/home.pl/View?doc=admission_requirements.html",
+      "redirects": [],
+      "headers": {
+        "date": "Fri, 13 Nov 2026 12:16:08 GMT",
+        "content-length": "14665",
+        "content-type": "text/html; charset=UTF-8"
+      },
+      "bytes": 56401,
+      "sha256": "d0b7f0e0226d81c05dcd8ded8ffa02702b8a71f9c539e099b673cb12e22b98a3",
+      "elapsed_seconds": 6.266,
+      "local_raw_path": "tmp/decision-support-2026-11-13/84b634dbf49467801edc.html",
+      "local_text_path": "tmp/decision-support-2026-11-13/84b634dbf49467801edc.txt",
+      "text_characters": 4485,
+      "transport_outcome": "accessible",
+      "academic_cycles_detected": []
+    },
+    {
+      "url": "https://www.eap.unito.it/do/home.pl/View?doc=how_to_apply.html",
+      "source_ids": [
+        "REFINE-EAP-APPLY"
+      ],
+      "evidence_key": "3daf12a0d23dda3841cb",
+      "checked_at_utc": "2026-11-13T12:13:51.822692+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://www.eap.unito.it/do/home.pl/View?doc=how_to_apply.html",
+      "redirects": [],
+      "headers": {
+        "date": "Fri, 13 Nov 2026 12:13:52 GMT",
+        "content-length": "17612",
+        "content-type": "text/html; charset=UTF-8"
+      },
+      "bytes": 70534,
+      "sha256": "16fce99b54f0d0bcb961b60cb7823cae7811b7170cff30c71534088a2d580fa0",
+      "elapsed_seconds": 2.125,
+      "local_raw_path": "tmp/decision-support-2026-11-13/3daf12a0d23dda3841cb.html",
+      "local_text_path": "tmp/decision-support-2026-11-13/3daf12a0d23dda3841cb.txt",
+      "text_characters": 9365,
+      "transport_outcome": "accessible",
+      "academic_cycles_detected": [
+        "2027/28"
+      ]
+    },
+    {
+      "url": "https://www.eap.unito.it/do/home.pl/View?doc=partecipation_costs.html",
+      "source_ids": [
+        "REFINE-EAP-COSTS"
+      ],
+      "evidence_key": "ad33c511de0008ebbc89",
+      "checked_at_utc": "2026-11-13T12:17:39.091169+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://www.eap.unito.it/do/home.pl/View?doc=partecipation_costs.html",
+      "redirects": [],
+      "headers": {
+        "date": "Fri, 13 Nov 2026 12:17:41 GMT",
+        "content-length": "13850",
+        "content-type": "text/html; charset=UTF-8"
+      },
+      "bytes": 54265,
+      "sha256": "adc76ee47d6e58ef049f131ff018c7d07d0b1bac45977e973c8b1953c9ccf739",
+      "elapsed_seconds": 4.687,
+      "local_raw_path": "tmp/decision-support-2026-11-13/ad33c511de0008ebbc89.html",
+      "local_text_path": "tmp/decision-support-2026-11-13/ad33c511de0008ebbc89.txt",
+      "text_characters": 2965,
+      "transport_outcome": "accessible",
+      "academic_cycles_detected": [],
+      "content_warning": "HTTP 200 soft error: Document not found. Not admissions evidence; followed the actual linked EPOG tuition page instead."
+    },
+    {
+      "url": "https://www.eap.unito.it/do/home.pl/View?doc=scholarship_grants_study_awards.html",
+      "source_ids": [
+        "REFINE-EAP-AID"
+      ],
+      "evidence_key": "fa86951340bbdc5b620a",
+      "checked_at_utc": "2026-11-13T12:18:37.257856+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://www.eap.unito.it/do/home.pl/View?doc=scholarship_grants_study_awards.html",
+      "redirects": [],
+      "headers": {
+        "date": "Fri, 13 Nov 2026 12:18:50 GMT",
+        "content-length": "14588",
+        "content-type": "text/html; charset=UTF-8"
+      },
+      "bytes": 56655,
+      "sha256": "9e6cb5797f91600988e7390b06a97f8505c63fd81b483ae8065b9bf3a04813b0",
+      "elapsed_seconds": 14.047,
+      "local_raw_path": "tmp/decision-support-2026-11-13/fa86951340bbdc5b620a.html",
+      "local_text_path": "tmp/decision-support-2026-11-13/fa86951340bbdc5b620a.txt",
+      "text_characters": 3590,
+      "transport_outcome": "accessible",
+      "academic_cycles_detected": []
     },
     {
       "url": "https://www.econ.univpm.it/EM31_EM33",
@@ -7308,6 +7607,35 @@
       ]
     },
     {
+      "url": "https://www.epog.eu/admission-and-scholarships/faq/",
+      "source_ids": [
+        "REFINE-EAP-FAQ"
+      ],
+      "evidence_key": "3706d192e942d1be133e",
+      "checked_at_utc": "2026-11-13T12:16:04.990026+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://www.epog.eu/admission-and-scholarships/faq/",
+      "redirects": [],
+      "headers": {
+        "date": "Fri, 13 Nov 2026 12:16:00 GMT",
+        "content-type": "text/html; charset=UTF-8",
+        "content-length": "35475"
+      },
+      "bytes": 232572,
+      "sha256": "288f6c7ba7d953f527c402b15add9dda83d3452b2e9f1c4c6aee7988e9de4836",
+      "elapsed_seconds": 1.281,
+      "local_raw_path": "tmp/decision-support-2026-11-13/3706d192e942d1be133e.html",
+      "local_text_path": "tmp/decision-support-2026-11-13/3706d192e942d1be133e.txt",
+      "text_characters": 16818,
+      "transport_outcome": "accessible",
+      "academic_cycles_detected": [
+        "2025/26",
+        "2026/27"
+      ]
+    },
+    {
       "url": "https://www.epog.eu/admission-and-scholarships/scholarships/",
       "source_ids": [
         "SRC-EPOG-SCHOLARSHIPS"
@@ -7336,6 +7664,7 @@
     {
       "url": "https://www.epog.eu/admission-and-scholarships/tuition-fees/",
       "source_ids": [
+        "REFINE-EPOG-FEES",
         "SRC-EPOG-TUITION-FEES"
       ],
       "evidence_key": "a5f5842105b71e703e73",
@@ -7507,6 +7836,32 @@
         "2025/26",
         "2026/27"
       ]
+    },
+    {
+      "url": "https://www.international.unina.it/academic-and-student-life/",
+      "source_ids": [
+        "REFINE-UNINA-LIFE"
+      ],
+      "evidence_key": "783f5487812fce714581",
+      "checked_at_utc": "2026-11-13T12:13:51.621216+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://www.international.unina.it/academic-and-student-life/",
+      "redirects": [],
+      "headers": {
+        "date": "Fri, 13 Nov 2026 12:13:50 GMT",
+        "content-type": "text/html; charset=UTF-8",
+        "content-length": "218928"
+      },
+      "bytes": 218928,
+      "sha256": "f40d96bb7d08790e1f03868868fa63adf5231160d4a8fbf4ff9e313eee108125",
+      "elapsed_seconds": 1.422,
+      "local_raw_path": "tmp/decision-support-2026-11-13/783f5487812fce714581.html",
+      "local_text_path": "tmp/decision-support-2026-11-13/783f5487812fce714581.txt",
+      "text_characters": 20993,
+      "transport_outcome": "accessible",
+      "academic_cycles_detected": []
     },
     {
       "url": "https://www.international.univpm.it/wp-content/uploads/2026/05/UNIVPM-ADMISSION-GUIDELINES_movein_2026-2027_updated.pdf",
@@ -8266,6 +8621,62 @@
       ]
     },
     {
+      "url": "https://www.polimi.it/en/prospective-students/how-much-does-it-cost/laurea-laurea-magistrale-and-single-cycle-programmes",
+      "source_ids": [
+        "REFINE-POLIMI-FEES"
+      ],
+      "evidence_key": "278c95257e85806e94f0",
+      "checked_at_utc": "2026-11-13T12:13:51.620215+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://www.polimi.it/en/prospective-students/how-much-does-it-cost/laurea-laurea-magistrale-and-single-cycle-programmes",
+      "redirects": [],
+      "headers": {
+        "date": "Fri, 13 Nov 2026 12:13:51 GMT",
+        "content-type": "text/html; charset=utf-8",
+        "content-length": "40928",
+        "cache-control": "max-age=0"
+      },
+      "bytes": 539710,
+      "sha256": "5f31ef7ed4a8e43652756a319a6738586fa642db75e9e1bd4169b25ecfc1905b",
+      "elapsed_seconds": 0.141,
+      "local_raw_path": "tmp/decision-support-2026-11-13/278c95257e85806e94f0.html",
+      "local_text_path": "tmp/decision-support-2026-11-13/278c95257e85806e94f0.txt",
+      "text_characters": 17239,
+      "transport_outcome": "accessible",
+      "academic_cycles_detected": [
+        "2026/27"
+      ]
+    },
+    {
+      "url": "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/application/",
+      "source_ids": [
+        "REFINE-POLIMI-APPLICATION"
+      ],
+      "evidence_key": "9894f29ac69a7913e6dd",
+      "checked_at_utc": "2026-11-13T12:13:51.620215+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/application/",
+      "redirects": [],
+      "headers": {
+        "date": "Fri, 13 Nov 2026 12:13:51 GMT",
+        "content-type": "text/html; charset=utf-8",
+        "content-length": "40883",
+        "cache-control": "max-age=0"
+      },
+      "bytes": 538246,
+      "sha256": "ff64b03cb07aa9261192367bf1a553de70550f492eb4d1a673f62884fa0f1d7a",
+      "elapsed_seconds": 0.11,
+      "local_raw_path": "tmp/decision-support-2026-11-13/9894f29ac69a7913e6dd.html",
+      "local_text_path": "tmp/decision-support-2026-11-13/9894f29ac69a7913e6dd.txt",
+      "text_characters": 17855,
+      "transport_outcome": "accessible",
+      "academic_cycles_detected": []
+    },
+    {
       "url": "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/application/list-of-documents-required-by-the-admissions-office",
       "source_ids": [
         "SRC-POLIMI-ENGLISH-2027"
@@ -8325,6 +8736,85 @@
         "2026–2028",
         "2027/28"
       ]
+    },
+    {
+      "url": "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/evaluation",
+      "source_ids": [
+        "REFINE-POLIMI-EVALUATION"
+      ],
+      "evidence_key": "e6258bfd354322efba71",
+      "checked_at_utc": "2026-11-13T12:17:39.091169+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 404,
+      "effective_url": "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/evaluation",
+      "redirects": [],
+      "headers": {
+        "date": "Fri, 13 Nov 2026 12:17:39 GMT",
+        "content-type": "text/html; charset=utf-8"
+      },
+      "bytes": 511051,
+      "sha256": "29427ae444e0e9f1f1bab11cacbe4d7ad29c284e231e4a8cf21855da038eb35c",
+      "elapsed_seconds": 0.281,
+      "local_raw_path": "tmp/decision-support-2026-11-13/e6258bfd354322efba71.html",
+      "local_text_path": "tmp/decision-support-2026-11-13/e6258bfd354322efba71.txt",
+      "text_characters": 10911,
+      "transport_outcome": "broken",
+      "academic_cycles_detected": []
+    },
+    {
+      "url": "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/requirements",
+      "source_ids": [
+        "REFINE-POLIMI-COUNTRY"
+      ],
+      "evidence_key": "d93f8327c1170ebc64d6",
+      "checked_at_utc": "2026-11-13T12:16:04.989025+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification/requirements",
+      "redirects": [],
+      "headers": {
+        "date": "Fri, 13 Nov 2026 12:16:04 GMT",
+        "content-type": "text/html; charset=utf-8",
+        "content-length": "46127",
+        "cache-control": "max-age=0"
+      },
+      "bytes": 593723,
+      "sha256": "c5d7dcfc6b54f8c902c37a9a3bb955cf7d98b27136c46fa5d2fb89a7d1f0bea4",
+      "elapsed_seconds": 0.125,
+      "local_raw_path": "tmp/decision-support-2026-11-13/d93f8327c1170ebc64d6.html",
+      "local_text_path": "tmp/decision-support-2026-11-13/d93f8327c1170ebc64d6.txt",
+      "text_characters": 28221,
+      "transport_outcome": "accessible",
+      "academic_cycles_detected": []
+    },
+    {
+      "url": "https://www.polimi.it/en/prospective-students/how-to-apply/on-arrival-information/residence-permit",
+      "source_ids": [
+        "REFINE-POLIMI-PERMIT"
+      ],
+      "evidence_key": "dc7c6609d420d841cfe2",
+      "checked_at_utc": "2026-11-13T12:13:51.620215+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://www.polimi.it/en/prospective-students/how-to-apply/on-arrival-information/residence-permit",
+      "redirects": [],
+      "headers": {
+        "date": "Fri, 13 Nov 2026 12:13:51 GMT",
+        "content-type": "text/html; charset=utf-8",
+        "content-length": "41273",
+        "cache-control": "max-age=0"
+      },
+      "bytes": 538700,
+      "sha256": "0dd6baab46b7ec76f5c5adaf75c4a65efe10b737646c3488552889b9073e9d2b",
+      "elapsed_seconds": 0.11,
+      "local_raw_path": "tmp/decision-support-2026-11-13/dc7c6609d420d841cfe2.html",
+      "local_text_path": "tmp/decision-support-2026-11-13/dc7c6609d420d841cfe2.txt",
+      "text_characters": 19249,
+      "transport_outcome": "accessible",
+      "academic_cycles_detected": []
     },
     {
       "url": "https://www.polimi.it/en/students/tuition-fees-scholarships-and-financial-aid/tuition-fees",
@@ -9316,6 +9806,7 @@
     {
       "url": "https://www.sst.unifi.it/index.php?func=viewpage&module=CMpro&newlang=eng&pageid=168",
       "source_ids": [
+        "REFINE-UNIFI-SST",
         "SRC-UNIFI-SST-2027"
       ],
       "evidence_key": "6f43a177fb52eb912936",
@@ -9344,6 +9835,36 @@
       ]
     },
     {
+      "url": "https://www.sst.unifi.it/upload/sub/docs/SST_admission_requirements.pdf",
+      "source_ids": [
+        "REFINE-UNIFI-GRADE"
+      ],
+      "evidence_key": "674135b63fec0a036ebc",
+      "checked_at_utc": "2026-11-13T12:17:39.090170+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://www.sst.unifi.it/upload/sub/docs/SST_admission_requirements.pdf",
+      "redirects": [],
+      "headers": {
+        "date": "Fri, 13 Nov 2026 12:17:39 GMT",
+        "last-modified": "Thu, 01 Oct 2026 16:36:33 GMT",
+        "etag": "\"c7e3-gzip\"",
+        "cache-control": "max-age=2592000",
+        "content-length": "47277",
+        "content-type": "application/pdf"
+      },
+      "bytes": 51171,
+      "sha256": "4f7e2f33bc116c2f5e6c80e77b00643f0e1d6f406929ec66a8dfe5db2646dd67",
+      "elapsed_seconds": 0.203,
+      "local_raw_path": "tmp/decision-support-2026-11-13/674135b63fec0a036ebc.pdf",
+      "pdf_pages": 4,
+      "local_text_path": "tmp/decision-support-2026-11-13/674135b63fec0a036ebc.txt",
+      "text_characters": 5074,
+      "transport_outcome": "accessible",
+      "academic_cycles_detected": []
+    },
+    {
       "url": "https://www.stat.unipd.it/en/statistical-science",
       "source_ids": [
         "SRC-PADUA-STATISTICAL-SCIENCE-PROFILE-2027"
@@ -9369,6 +9890,32 @@
       "local_text_path": "tmp/decision-support-2026-11-13/0302234e62aa30792c1c.txt",
       "text_characters": 2145,
       "transport_outcome": "accessible",
+      "academic_cycles_detected": []
+    },
+    {
+      "url": "https://www.unibo.it/en/study/enrolment-fees-and-other-procedures/tuition-fees-and-exemptions/tuition-fees",
+      "source_ids": [
+        "REFINE-UNIBO-FEES"
+      ],
+      "evidence_key": "15d00899cb0d29c22f14",
+      "checked_at_utc": "2026-11-13T12:13:51.889895+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 404,
+      "effective_url": "https://www.unibo.it/en/study/enrolment-fees-and-other-procedures/tuition-fees-and-exemptions/tuition-fees",
+      "redirects": [],
+      "headers": {
+        "date": "Fri, 13 Nov 2026 12:13:51 GMT",
+        "content-type": "text/html; charset=utf-8",
+        "age": "0"
+      },
+      "bytes": 8309,
+      "sha256": "e8186b09cca75a788101bcb053e4d7fa9bf984e8e9d7c5b0e8e05e96acfb8286",
+      "elapsed_seconds": 0.172,
+      "local_raw_path": "tmp/decision-support-2026-11-13/15d00899cb0d29c22f14.html",
+      "local_text_path": "tmp/decision-support-2026-11-13/15d00899cb0d29c22f14.txt",
+      "text_characters": 751,
+      "transport_outcome": "broken",
       "academic_cycles_detected": []
     },
     {
@@ -10199,8 +10746,36 @@
       ]
     },
     {
+      "url": "https://www.unifi.it/en/study-us/your-learning-path/start-your-enrolment/international-students/non-eu-students",
+      "source_ids": [
+        "REFINE-UNIFI-DOCS"
+      ],
+      "evidence_key": "724194b7c24bd2e3846f",
+      "checked_at_utc": "2026-11-13T12:13:51.621216+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://www.unifi.it/en/study-us/your-learning-path/start-your-enrolment/international-students/non-eu-students",
+      "redirects": [],
+      "headers": {
+        "date": "Fri, 13 Nov 2026 12:13:51 GMT",
+        "content-type": "text/html; charset=UTF-8",
+        "cache-control": "public, max-age=14400",
+        "last-modified": "Fri, 13 Nov 2026 11:41:33 GMT"
+      },
+      "bytes": 181169,
+      "sha256": "9708b805f03be6914c51cb64dd6d29c04682f774c45be00898eebd7a6911ff7e",
+      "elapsed_seconds": 0.25,
+      "local_raw_path": "tmp/decision-support-2026-11-13/724194b7c24bd2e3846f.html",
+      "local_text_path": "tmp/decision-support-2026-11-13/724194b7c24bd2e3846f.txt",
+      "text_characters": 20225,
+      "transport_outcome": "accessible",
+      "academic_cycles_detected": []
+    },
+    {
       "url": "https://www.unifi.it/en/study-us/your-learning-path/start-your-enrolment/international-students/pre-enrolment-and-study",
       "source_ids": [
+        "REFINE-UNIFI-PREENROL",
         "SRC-UNIFI-INTL"
       ],
       "evidence_key": "5f54b777eace85c3a4b5",
@@ -11550,8 +12125,9 @@
     {
       "url": "https://www.unipd.it/en/ammissione-studenti-internazionali",
       "source_ids": [
-        "SRC-PADUA-INTL-2027",
-        "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027"
+        "REFINE-UNIPD-INTL",
+        "SRC-PADOVA-INTERNATIONAL-ADMISSIONS-2027",
+        "SRC-PADUA-INTL-2027"
       ],
       "evidence_key": "51c2d8f0c94e5bd0f925",
       "checked_at_utc": "2026-11-13T00:10:19.743062+00:00",
@@ -11913,6 +12489,32 @@
       "academic_cycles_detected": []
     },
     {
+      "url": "https://www.unipd.it/en/iscriversi-titolo-estero",
+      "source_ids": [
+        "REFINE-PADUA-ENROL-DOCS"
+      ],
+      "evidence_key": "d18eedcd40f8f00d0d5e",
+      "checked_at_utc": "2026-11-13T12:16:06.295196+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://www.unipd.it/en/iscriversi-titolo-estero",
+      "redirects": [],
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "date": "Fri, 13 Nov 2026 12:16:06 GMT",
+        "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate"
+      },
+      "bytes": 1513939,
+      "sha256": "6a73ac9fd82bf012072704a0de8dd5c041c7e74e1a3e9a356cb1d6a5bc21601f",
+      "elapsed_seconds": 0.281,
+      "local_raw_path": "tmp/decision-support-2026-11-13/d18eedcd40f8f00d0d5e.html",
+      "local_text_path": "tmp/decision-support-2026-11-13/d18eedcd40f8f00d0d5e.txt",
+      "text_characters": 2839,
+      "transport_outcome": "accessible",
+      "academic_cycles_detected": []
+    },
+    {
       "url": "https://www.unipd.it/en/node/79192",
       "source_ids": [
         "SRC-PADUA-SCIENCE-MSC-CATALOGUE-2026"
@@ -12058,6 +12660,42 @@
       "text_characters": 5552,
       "transport_outcome": "accessible",
       "academic_cycles_detected": []
+    },
+    {
+      "url": "https://www.unipd.it/en/tuition-fees",
+      "source_ids": [
+        "REFINE-UNIPD-FEES"
+      ],
+      "evidence_key": "6a40d36172553457dea7",
+      "checked_at_utc": "2026-11-13T12:13:51.826692+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://www.unipd.it/en/contribuzione-studentesca",
+      "redirects": [
+        {
+          "status": 301,
+          "url": "https://www.unipd.it/en/tuition-fees",
+          "location": "/en/contribuzione-studentesca"
+        }
+      ],
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "date": "Fri, 13 Nov 2026 12:13:51 GMT",
+        "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate"
+      },
+      "bytes": 1541346,
+      "sha256": "f14f15dfbd99e4712f4e37f2c710d7e9c34ca675b9de2024086b492e1a5cd356",
+      "elapsed_seconds": 0.36,
+      "local_raw_path": "tmp/decision-support-2026-11-13/6a40d36172553457dea7.html",
+      "local_text_path": "tmp/decision-support-2026-11-13/6a40d36172553457dea7.txt",
+      "text_characters": 7684,
+      "transport_outcome": "accessible",
+      "academic_cycles_detected": [
+        "2023/24",
+        "2025/26",
+        "2026/27"
+      ]
     },
     {
       "url": "https://www.unipd.it/node/93348",
@@ -12296,6 +12934,33 @@
       ]
     },
     {
+      "url": "https://www.unipi.it/en/about-us/international-relations/welcome-services/entry-and-stay-information-for-non-eu-citizens/student-entry-visa/",
+      "source_ids": [
+        "REFINE-UNIPI-VISA"
+      ],
+      "evidence_key": "a6ee4d5574d51c03d185",
+      "checked_at_utc": "2026-11-13T12:21:10.340412+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://www.unipi.it/en/about-us/international-relations/welcome-services/entry-and-stay-information-for-non-eu-citizens/student-entry-visa/",
+      "redirects": [],
+      "headers": {
+        "date": "Fri, 13 Nov 2026 12:21:10 GMT",
+        "content-type": "text/html; charset=UTF-8"
+      },
+      "bytes": 729963,
+      "sha256": "2f753aaaa6747e8ac2d9e642732cc1e0893ac36b0ee6890c78377a01090371ac",
+      "elapsed_seconds": 1.172,
+      "local_raw_path": "tmp/decision-support-2026-11-13/a6ee4d5574d51c03d185.html",
+      "local_text_path": "tmp/decision-support-2026-11-13/a6ee4d5574d51c03d185.txt",
+      "text_characters": 16923,
+      "transport_outcome": "accessible",
+      "academic_cycles_detected": [
+        "2026/27"
+      ]
+    },
+    {
       "url": "https://www.unipi.it/en/education/courses/master-degree/data-science-and-business-informatics-wdb-lm-en/",
       "source_ids": [
         "SRC-AUDIT-UNIPI-DSBI-PROFILE"
@@ -12321,6 +12986,33 @@
       "academic_cycles_detected": [
         "2026/27",
         "2027/28"
+      ]
+    },
+    {
+      "url": "https://www.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/",
+      "source_ids": [
+        "REFINE-UNIPI-DOCS"
+      ],
+      "evidence_key": "8c18bdd03016fd498f86",
+      "checked_at_utc": "2026-11-13T12:13:51.989957+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://www.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/",
+      "redirects": [],
+      "headers": {
+        "date": "Fri, 13 Nov 2026 12:13:52 GMT",
+        "content-type": "text/html; charset=UTF-8"
+      },
+      "bytes": 726348,
+      "sha256": "d46607147fda422f1917f23f932c5d7630b1627ae63429518049a481e1443f57",
+      "elapsed_seconds": 1.25,
+      "local_raw_path": "tmp/decision-support-2026-11-13/8c18bdd03016fd498f86.html",
+      "local_text_path": "tmp/decision-support-2026-11-13/8c18bdd03016fd498f86.txt",
+      "text_characters": 13107,
+      "transport_outcome": "accessible",
+      "academic_cycles_detected": [
+        "2026/27"
       ]
     },
     {
@@ -12860,6 +13552,64 @@
       "local_raw_path": "tmp/decision-support-2026-11-13/1d40f515938733f35117.html",
       "local_text_path": "tmp/decision-support-2026-11-13/1d40f515938733f35117.txt",
       "text_characters": 33306,
+      "transport_outcome": "accessible",
+      "academic_cycles_detected": [
+        "2025/26"
+      ]
+    },
+    {
+      "url": "https://www.unitn.it/en/international/coming-unitrento/all-you-need-know/residence-permit",
+      "source_ids": [
+        "REFINE-UNITN-PERMIT"
+      ],
+      "evidence_key": "1411d2d478f16c033eee",
+      "checked_at_utc": "2026-11-13T12:21:10.340412+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://www.unitn.it/en/international/coming-unitrento/all-you-need-know/residence-permit",
+      "redirects": [],
+      "headers": {
+        "date": "Fri, 13 Nov 2026 12:21:22 GMT",
+        "content-type": "text/html; charset=UTF-8",
+        "cache-control": "public, max-age=14400",
+        "last-modified": "Fri, 13 Nov 2026 12:21:10 GMT"
+      },
+      "bytes": 399944,
+      "sha256": "a0e26b0b4ef0df543d7e90e8a96c8d2ca7a439be6cd73e18137ccd96c944e5c3",
+      "elapsed_seconds": 12.656,
+      "local_raw_path": "tmp/decision-support-2026-11-13/1411d2d478f16c033eee.html",
+      "local_text_path": "tmp/decision-support-2026-11-13/1411d2d478f16c033eee.txt",
+      "text_characters": 34183,
+      "transport_outcome": "accessible",
+      "academic_cycles_detected": [
+        "2025/26"
+      ]
+    },
+    {
+      "url": "https://www.unitn.it/en/international/coming-unitrento/all-you-need-know/visa",
+      "source_ids": [
+        "REFINE-UNITN-VISA"
+      ],
+      "evidence_key": "f253749db214ff8768de",
+      "checked_at_utc": "2026-11-13T12:21:10.340412+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://www.unitn.it/en/international/coming-unitrento/all-you-need-know/visa",
+      "redirects": [],
+      "headers": {
+        "date": "Fri, 13 Nov 2026 12:21:22 GMT",
+        "content-type": "text/html; charset=UTF-8",
+        "cache-control": "public, max-age=14400",
+        "last-modified": "Fri, 13 Nov 2026 12:21:10 GMT"
+      },
+      "bytes": 387744,
+      "sha256": "99c5518d95fedde2385531b097e9190dbff4317be71d1602ec8f0171b15bfbcb",
+      "elapsed_seconds": 12.687,
+      "local_raw_path": "tmp/decision-support-2026-11-13/f253749db214ff8768de.html",
+      "local_text_path": "tmp/decision-support-2026-11-13/f253749db214ff8768de.txt",
+      "text_characters": 30664,
       "transport_outcome": "accessible",
       "academic_cycles_detected": [
         "2025/26"
@@ -13804,6 +14554,45 @@
       ]
     },
     {
+      "url": "https://www.unive.it/fees",
+      "source_ids": [
+        "REFINE-UNIVE-FEES"
+      ],
+      "evidence_key": "c50831d11c8684343177",
+      "checked_at_utc": "2026-11-13T12:16:06.225195+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://www.unive.it/pag/19734",
+      "redirects": [
+        {
+          "status": 302,
+          "url": "https://www.unive.it/fees",
+          "location": "https://www.unive.it/pag/19734"
+        }
+      ],
+      "headers": {
+        "date": "Fri, 13 Nov 2026 12:16:06 GMT",
+        "cache-control": "max-age=0",
+        "content-type": "text/html; charset=utf-8",
+        "content-length": "13821"
+      },
+      "bytes": 62027,
+      "sha256": "d78e4dd97cb7299e65ae7f262d232e706fbf86f98455f2e904d53c8190daeadc",
+      "elapsed_seconds": 0.125,
+      "local_raw_path": "tmp/decision-support-2026-11-13/c50831d11c8684343177.html",
+      "local_text_path": "tmp/decision-support-2026-11-13/c50831d11c8684343177.txt",
+      "text_characters": 14063,
+      "transport_outcome": "accessible",
+      "academic_cycles_detected": [
+        "2022/23",
+        "2023/24",
+        "2024/25",
+        "2025/26",
+        "2026/27"
+      ]
+    },
+    {
       "url": "https://www.unive.it/pag/15612/",
       "source_ids": [
         "SRC-CA-FOSCARI-ENGLISH-2026"
@@ -13834,6 +14623,7 @@
     {
       "url": "https://www.unive.it/pag/19545",
       "source_ids": [
+        "REFINE-UNIVE-FUNDING",
         "SRC-CA-FOSCARI-SCHOLARSHIPS-2027"
       ],
       "evidence_key": "b28d57c5682c96fa9cae",
@@ -13858,6 +14648,34 @@
       "academic_cycles_detected": [
         "2026/27",
         "2027/28"
+      ]
+    },
+    {
+      "url": "https://www.unive.it/pag/40813/",
+      "source_ids": [
+        "REFINE-UNIVE-PREENROL"
+      ],
+      "evidence_key": "a1d648420cfddca58d93",
+      "checked_at_utc": "2026-11-13T12:13:51.820691+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://www.unive.it/pag/40813/",
+      "redirects": [],
+      "headers": {
+        "date": "Fri, 13 Nov 2026 12:13:51 GMT",
+        "cache-control": "max-age=0",
+        "content-type": "text/html; charset=utf-8"
+      },
+      "bytes": 67958,
+      "sha256": "00f0fdbec79061409f7bedac2e9996bcfed1c574510e726db5d8b7d7581d462b",
+      "elapsed_seconds": 0.157,
+      "local_raw_path": "tmp/decision-support-2026-11-13/a1d648420cfddca58d93.html",
+      "local_text_path": "tmp/decision-support-2026-11-13/a1d648420cfddca58d93.txt",
+      "text_characters": 20388,
+      "transport_outcome": "accessible",
+      "academic_cycles_detected": [
+        "2026/27"
       ]
     },
     {
@@ -14049,6 +14867,7 @@
     {
       "url": "https://www.unive.it/web/en/20997/enrol",
       "source_ids": [
+        "REFINE-UNIVE-ENROL",
         "SRC-CA-FOSCARI-BAR-ENROL-2027"
       ],
       "evidence_key": "6361466d79ae54f73c0f",
@@ -14070,6 +14889,35 @@
       "local_raw_path": "tmp/decision-support-2026-11-13/6361466d79ae54f73c0f.html",
       "local_text_path": "tmp/decision-support-2026-11-13/6361466d79ae54f73c0f.txt",
       "text_characters": 13178,
+      "transport_outcome": "accessible",
+      "academic_cycles_detected": [
+        "2027/28"
+      ]
+    },
+    {
+      "url": "https://www.unive.it/web/en/21001/admission-and-enrolment-with-an-international-qualification",
+      "source_ids": [
+        "REFINE-UNIVE-INTL-ENROL"
+      ],
+      "evidence_key": "6c4f8db674802423f75e",
+      "checked_at_utc": "2026-11-13T12:16:05.943418+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://www.unive.it/web/en/21001/admission-and-enrolment-with-an-international-qualification",
+      "redirects": [],
+      "headers": {
+        "date": "Fri, 13 Nov 2026 12:16:05 GMT",
+        "cache-control": "private, no-store, max-age=0",
+        "content-length": "13912",
+        "content-type": "text/html; charset=utf-8"
+      },
+      "bytes": 87786,
+      "sha256": "ca2ecd64230384effaa91e82e4295aa2e9309d7b22621d4c6e3635b24b6fab68",
+      "elapsed_seconds": 0.547,
+      "local_raw_path": "tmp/decision-support-2026-11-13/6c4f8db674802423f75e.html",
+      "local_text_path": "tmp/decision-support-2026-11-13/6c4f8db674802423f75e.txt",
+      "text_characters": 13980,
       "transport_outcome": "accessible",
       "academic_cycles_detected": [
         "2027/28"
@@ -14162,6 +15010,35 @@
         "2022/23",
         "2025/26",
         "2026/27"
+      ]
+    },
+    {
+      "url": "https://www.universitaly.it/en/studenti-stranieri",
+      "source_ids": [
+        "REFINE-UNIVERSITALY-2027"
+      ],
+      "evidence_key": "24b69743f10326e66277",
+      "checked_at_utc": "2026-11-13T12:13:51.619216+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://www.universitaly.it/en/studenti-stranieri",
+      "redirects": [],
+      "headers": {
+        "content-type": "text/html;charset=utf-8",
+        "date": "Fri, 13 Nov 2026 12:13:51 GMT"
+      },
+      "bytes": 85431,
+      "sha256": "d8d8bd4abec1e7eb537e3f99a8047e9683395888810a3d1e9a15c25698eaccf1",
+      "elapsed_seconds": 0.203,
+      "local_raw_path": "tmp/decision-support-2026-11-13/24b69743f10326e66277.html",
+      "local_text_path": "tmp/decision-support-2026-11-13/24b69743f10326e66277.txt",
+      "text_characters": 7978,
+      "transport_outcome": "accessible",
+      "academic_cycles_detected": [
+        "2025/26",
+        "2026/27",
+        "2027/28"
       ]
     },
     {
@@ -14317,6 +15194,65 @@
       "text_characters": 1455,
       "transport_outcome": "accessible",
       "academic_cycles_detected": []
+    },
+    {
+      "url": "https://wwwassets.unipd.it/sites/default/files/2026-09/Entry%20requirements%20per%20Country%202027-28%20.pdf",
+      "source_ids": [
+        "REFINE-PADUA-COUNTRIES-2027"
+      ],
+      "evidence_key": "2b8ad46f151780687f73",
+      "checked_at_utc": "2026-11-13T12:17:39.091169+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 404,
+      "effective_url": "https://wwwassets.unipd.it/sites/default/files/2026-09/Entry%20requirements%20per%20Country%202027-28%20.pdf",
+      "redirects": [],
+      "headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "date": "Fri, 13 Nov 2026 12:17:39 GMT",
+        "cache-control": "must-revalidate, no-cache, private"
+      },
+      "bytes": 15170,
+      "sha256": "f8f3430e0913c9c5d58358f28766f24ebb1e93ab3ceabf023776b4431ba4ce53",
+      "elapsed_seconds": 0.609,
+      "local_raw_path": "tmp/decision-support-2026-11-13/2b8ad46f151780687f73.html",
+      "local_text_path": "tmp/decision-support-2026-11-13/2b8ad46f151780687f73.txt",
+      "text_characters": 162,
+      "transport_outcome": "broken",
+      "academic_cycles_detected": []
+    },
+    {
+      "url": "https://wwwassets.unipd.it/sites/default/files/2026-09/Entry%20requirements%20per%20Country%2027-28%20.pdf",
+      "source_ids": [
+        "REFINE-PADUA-COUNTRIES-LINKED"
+      ],
+      "evidence_key": "67d5ebabc89f24983c1c",
+      "checked_at_utc": "2026-11-13T12:18:37.257856+00:00",
+      "method": "Fresh full GET; TLS verification enabled; no account cookies; no-cache headers",
+      "fact_verification": "NOT_ESTABLISHED_BY_FETCH",
+      "http_status": 200,
+      "effective_url": "https://wwwassets.unipd.it/sites/default/files/2026-09/Entry%20requirements%20per%20Country%2027-28%20.pdf",
+      "redirects": [],
+      "headers": {
+        "content-type": "application/pdf",
+        "date": "Thu, 17 Sep 2026 13:51:55 GMT",
+        "etag": "W/\"d3a51-65bac5ea977b8\"",
+        "last-modified": "Thu, 17 Sep 2026 11:49:00 GMT",
+        "cache-control": "max-age=31536000",
+        "age": "4919202"
+      },
+      "bytes": 866897,
+      "sha256": "912175e8f343572def73a8492810e9285576679d38660de4316761396a6a4d1d",
+      "elapsed_seconds": 0.094,
+      "local_raw_path": "tmp/decision-support-2026-11-13/67d5ebabc89f24983c1c.pdf",
+      "pdf_pages": 15,
+      "local_text_path": "tmp/decision-support-2026-11-13/67d5ebabc89f24983c1c.txt",
+      "text_characters": 30197,
+      "transport_outcome": "accessible",
+      "academic_cycles_detected": [
+        "2018/19",
+        "2027/28"
+      ]
     },
     {
       "url": "https://wwwassets.unipd.it/sites/default/files/2026-10/ELENCO%20CERTIFICAZIONI%20DI%20LINGUA%20INGLESE%20.docx.pdf",

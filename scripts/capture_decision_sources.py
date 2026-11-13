@@ -49,6 +49,9 @@ def main():
                     cycles.add(f"{year}/{str(end_year)[-2:]}")
                 elif end_year == int(year) + 2:
                     cycles.add(f"{year}–{end_year}")
+            for year, end in re.findall(r"(?:A\.?Y\.?|A\.?A\.?|academicyear)(\d{2})/(\d{2})", text, re.I):
+                if int(end) == int(year) + 1:
+                    cycles.add(f"20{year}/{end}")
             row["academic_cycles_detected"] = sorted(cycles)
     index_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2)+"\n", encoding="utf-8")
     source_path.write_text(json.dumps(list(by_id.values()), ensure_ascii=False, indent=2)+"\n", encoding="utf-8")

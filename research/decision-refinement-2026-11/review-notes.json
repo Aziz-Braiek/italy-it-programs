@@ -1,0 +1,116 @@
+{
+  "politecnico-milano": {
+    "source_ids": [
+      "REFINE-POLIMI-COUNTRY",
+      "REFINE-POLIMI-APPLICATION",
+      "SRC-POLIMI-ENGLISH-2027",
+      "REFINE-POLIMI-FEES",
+      "REFINE-POLIMI-HPC-REQ",
+      "REFINE-POLIMI-PERMIT"
+    ],
+    "reason": "The central tariff and HPC-specific curricular page explicitly cover 2026/27, so they do not prove a 2027/28 tariff or subject-credit rule. The current standard MSc dossier/country tables support the stated rules, with programme scoring/test/quota details still not established. Bocconi's joint route is separate."
+  },
+  "padova": {
+    "source_ids": [
+      "REFINE-PADUA-COUNTRIES-LINKED",
+      "DEC-PADUA-ENTRY-TITLE",
+      "REFINE-UNIPD-INTL",
+      "REFINE-UNIPD-FEES",
+      "REFINE-PADUA-ENROL-DOCS"
+    ],
+    "reason": "The country table explicitly covers 27/28 and separates Bachelor and Master columns. Programme profiles link this table but do not establish every programme-specific grade/test/selection/quota rule. Some formal calls/quota fields are TBD. Undated portal EUR 2,950 is not a verified 2027/28 tariff and differs from the 2026/27 contribution notice."
+  },
+  "pisa": {
+    "source_ids": [
+      "REFINE-PISA-CS-ENGLISH",
+      "SRC-PISA-CALL-2027",
+      "SRC-UNIPI-INFO-ENG-2027-CALL",
+      "DEC-PISA-FEES",
+      "REFINE-UNIPI-VISA"
+    ],
+    "reason": "The 2027 calls and department page establish applicant routes and B2 certification timing, but annual fees are determined separately (the call's numerical examples are 2026/27). Old teaching regulations do not automatically establish 2027/28 credit rules. Absence of a quota or exam statement is not a no-quota/no-test exemption."
+  },
+  "bologna": {
+    "source_ids": [
+      "AUDIT-BBS-FINANCE-UNIBO-2026",
+      "REFINE-UNIBO-FEES",
+      "SRC-BBS-AI-MANAGEMENT-2027",
+      "SRC-BBS-DSBA-2027",
+      "SRC-BBS-ENTREPRENEURIAL-FINANCE-2027",
+      "SRC-BBS-FINANCE-AI-2027",
+      "SRC-BBS-MARKETING-ANALYTICS-AI-2027",
+      "SRC-BOLOGNA-CLE-2027",
+      "SRC-BOLOGNA-CLE-ABOUT",
+      "SRC-UNIBO-BBS-AI-MFG-2027",
+      "SRC-UNIBO-BBS-GMBA-2026-2027-SHEET",
+      "SRC-UNIBO-GRENFIN-2027-CALL"
+    ],
+    "reason": "GrEnFIn has a current formal call and is distinct from Bologna's 28DIGITAL, CLE and BBS tracks. BBS pages advertise 2027/28 but say the formal calls/applications are forthcoming; undated fees, test/waiver sections are not rolled forward. CLE's current page links older formal criteria. Ordinary UniBo tuition and DSU rules do not automatically apply to professional masters."
+  },
+  "ca-foscari": {
+    "source_ids": [
+      "REFINE-UNIVE-ENROL",
+      "REFINE-UNIVE-INTL-ENROL",
+      "REFINE-UNIVE-PREENROL",
+      "REFINE-UNIVE-FEES",
+      "REFINE-UNIVE-FUNDING"
+    ],
+    "reason": "The 2027/28 Buddhism route confirms qualification/preparation assessment and B2 proof. Open access is not itself a no-test exemption. The central fee index and pre-enrolment deadline page remain 2026/27; their numerical tariff/deadline is not relabelled as 2027/28. The current scholarship announcement leaves its formal application route/deadline forthcoming."
+  },
+  "firenze": {
+    "source_ids": [
+      "REFINE-UNIFI-SST",
+      "REFINE-UNIFI-GRADE",
+      "REFINE-UNIFI-DOCS",
+      "REFINE-UNIFI-PREENROL"
+    ],
+    "reason": "The current Software page links an explicit country-grade annex and describes possible preparation/English interviews. It does not establish a reserved non-EU quota, a separate compulsory standardised exam or its date/modality. General pre-enrolment guidance lists 31 July without an academic year; it is not promoted to a confirmed 2027/28 deadline."
+  },
+  "napoli-federico-ii": {
+    "source_ids": [
+      "REFINE-UNINA-GUIDELINES",
+      "REFINE-UNINA-LIFE",
+      "DEC-UNINA-DSU-2026"
+    ],
+    "reason": "Chemical Engineering's 2027/28 notice announces pre-evaluation and says guidelines/precise dates will follow. Its linked international-candidates page does not supply the promised current programme eligibility/fee/quota regulation. General visa/insurance guidance and the national Universitaly requirement do not establish programme admission criteria."
+  },
+  "politecnico-torino": {
+    "source_ids": [
+      "SRC-POLITO-HYSET-REQ-2027",
+      "SRC-POLITO-HYSET-FEES-2027",
+      "SRC-POLITO-HYSET-SELF-FUNDED",
+      "SRC-POLITO-HYSET-ENGLISH"
+    ],
+    "reason": "HySET publishes 2027–29 eligibility, grade scoring and possible interviews, but does not establish a compulsory standardised exam or reserved non-EU quota. The dated continuation notice says funding is not secured. Its undated self-funded fee quotation is not promoted to the 2027 cohort. Ordinary Polito 2026/27 instructions are a different route."
+  },
+  "tor-vergata": {
+    "source_ids": [
+      "REFINE-TORVERGATA-ADMISSIONS"
+    ],
+    "reason": "Mechatronics has its own current call, B2/GRE conditions, quota and Universitaly date. The general admissions landing page does not add a 2027/28 fee schedule or complete country-specific recognition alternatives. Conditional GRE routes cannot become a universal yes/no test flag."
+  },
+  "torino": {
+    "source_ids": [
+      "REFINE-EAP-APPLY",
+      "REFINE-EAP-REQUIREMENTS",
+      "REFINE-UNITO-FEES",
+      "REFINE-UNITO-PERMIT",
+      "REFINE-UNITO-VISA-GUIDE",
+      "REFINE-EPOG-FEES",
+      "REFINE-EAP-FAQ"
+    ],
+    "reason": "The recovered current EAP application page states 24+6 credits; its local requirements page says 18+6 and TAPP. Present both by route and retain the unresolved applicability. The central fee schedule is 2026/27; the linked EPOG tariff page has no independently dated 2027/28 tariff. Its June 10 translation date omits a year."
+  },
+  "trento": {
+    "source_ids": [
+      "SRC-UNITRENTO-28DIGITAL-2027",
+      "SRC-28DIGITAL-ADMISSIONS-2027",
+      "SRC-28DIGITAL-FEES-2027",
+      "DEC-28DIGITAL-DOCUMENTS",
+      "REFINE-UNITN-VISA",
+      "REFINE-UNITN-PERMIT",
+      "SRC-UNITN-FEES-NEU-2026"
+    ],
+    "reason": "The seven tracks use 28DIGITAL consortium rules, not ordinary UniTrento tuition. Published dossier/language/fee rules do not establish a universal no-test exemption, numeric GPA minimum, selection weights or reserved non-EU quota. University and consortium calendars/documents contain route/year differences; exact recipient instructions need confirmation."
+  }
+}
