@@ -1,0 +1,27 @@
+{
+  "run_at": "2026-11-13T14:08:58.014908+00:00",
+  "tiers": [
+    "A"
+  ],
+  "selected": 517,
+  "checked": 517,
+  "skipped_not_due": 0,
+  "classes": {
+    "unchanged": 376,
+    "broken": 106,
+    "blocked": 34,
+    "moved or redirected": 1
+  },
+  "broken": 106,
+  "blocked": 34,
+  "successful_text_captures": 377,
+  "unrecoverable_checker_results": 67,
+  "recovered_text_snapshots_without_http_metadata": 176,
+  "recovered_robots_denials": 9,
+  "http_requests": null,
+  "downloaded_bytes": null,
+  "recovery_note": "The first run attempted all selected URLs but a Windows checkpoint replacement failed. Completed normalized text and recorded/cached-policy outcomes were recovered offline. Missing HTTP outcomes are explicitly operational checker failures, not asserted university failures. No URL was re-fetched. The writer now retries locks and writes independent per-URL result checkpoints.",
+  "failure_ratio": 0.27079303675048355,
+  "health_failed": true,
+  "observed_file_window_seconds": 313.07
+}

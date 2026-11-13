@@ -1,0 +1,1954 @@
+{
+  "schema_version": 1,
+  "records": {
+    "program": {
+      "legacy-001": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 10,
+        "total_sources": 10,
+        "failed_sources": 7,
+        "baseline_only": true
+      },
+      "legacy-002": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 10,
+        "total_sources": 10,
+        "failed_sources": 4,
+        "baseline_only": true
+      },
+      "legacy-003": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 6,
+        "total_sources": 6,
+        "failed_sources": 4,
+        "baseline_only": true
+      },
+      "legacy-004": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 10,
+        "total_sources": 10,
+        "failed_sources": 7,
+        "baseline_only": true
+      },
+      "legacy-005": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 6,
+        "total_sources": 6,
+        "failed_sources": 4,
+        "baseline_only": true
+      },
+      "legacy-006": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 6,
+        "total_sources": 6,
+        "failed_sources": 4,
+        "baseline_only": true
+      },
+      "legacy-007": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 6,
+        "total_sources": 6,
+        "failed_sources": 4,
+        "baseline_only": true
+      },
+      "legacy-008": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 6,
+        "total_sources": 6,
+        "failed_sources": 4,
+        "baseline_only": true
+      },
+      "legacy-009": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 6,
+        "total_sources": 6,
+        "failed_sources": 4,
+        "baseline_only": true
+      },
+      "legacy-010": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 6,
+        "total_sources": 6,
+        "failed_sources": 4,
+        "baseline_only": true
+      },
+      "legacy-011": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 8,
+        "total_sources": 8,
+        "failed_sources": 6,
+        "baseline_only": true
+      },
+      "legacy-012": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 8,
+        "total_sources": 8,
+        "failed_sources": 6,
+        "baseline_only": true
+      },
+      "legacy-013": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 8,
+        "total_sources": 8,
+        "failed_sources": 6,
+        "baseline_only": true
+      },
+      "legacy-014": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 8,
+        "total_sources": 8,
+        "failed_sources": 6,
+        "baseline_only": true
+      },
+      "legacy-015": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 8,
+        "total_sources": 8,
+        "failed_sources": 6,
+        "baseline_only": true
+      },
+      "legacy-016": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 8,
+        "total_sources": 8,
+        "failed_sources": 6,
+        "baseline_only": true
+      },
+      "legacy-017": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 8,
+        "total_sources": 8,
+        "failed_sources": 6,
+        "baseline_only": true
+      },
+      "legacy-018": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 8,
+        "total_sources": 8,
+        "failed_sources": 6,
+        "baseline_only": true
+      },
+      "legacy-019": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 3,
+        "failed_sources": 1,
+        "baseline_only": true
+      },
+      "legacy-020": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 6,
+        "total_sources": 6,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-021": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 4,
+        "failed_sources": 1,
+        "baseline_only": true
+      },
+      "legacy-022": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 4,
+        "failed_sources": 2,
+        "baseline_only": true
+      },
+      "legacy-023": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 4,
+        "failed_sources": 2,
+        "baseline_only": true
+      },
+      "legacy-024": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 5,
+        "total_sources": 5,
+        "failed_sources": 1,
+        "baseline_only": true
+      },
+      "legacy-025": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 6,
+        "total_sources": 6,
+        "failed_sources": 1,
+        "baseline_only": true
+      },
+      "legacy-026": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 6,
+        "total_sources": 7,
+        "failed_sources": 1,
+        "baseline_only": true
+      },
+      "legacy-027": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 12,
+        "total_sources": 13,
+        "failed_sources": 1,
+        "baseline_only": true
+      },
+      "legacy-028": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 2,
+        "total_sources": 3,
+        "failed_sources": 2,
+        "baseline_only": true
+      },
+      "legacy-029": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 8,
+        "total_sources": 11,
+        "failed_sources": 6,
+        "baseline_only": true
+      },
+      "legacy-030": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 8,
+        "total_sources": 11,
+        "failed_sources": 6,
+        "baseline_only": true
+      },
+      "legacy-031": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 7,
+        "total_sources": 10,
+        "failed_sources": 5,
+        "baseline_only": true
+      },
+      "legacy-032": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 7,
+        "total_sources": 10,
+        "failed_sources": 4,
+        "baseline_only": true
+      },
+      "legacy-033": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 7,
+        "total_sources": 10,
+        "failed_sources": 5,
+        "baseline_only": true
+      },
+      "legacy-034": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 8,
+        "total_sources": 11,
+        "failed_sources": 5,
+        "baseline_only": true
+      },
+      "legacy-035": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 5,
+        "total_sources": 5,
+        "failed_sources": 5,
+        "baseline_only": true
+      },
+      "legacy-036": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 5,
+        "total_sources": 5,
+        "failed_sources": 5,
+        "baseline_only": true
+      },
+      "legacy-037": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 12,
+        "total_sources": 15,
+        "failed_sources": 10,
+        "baseline_only": true
+      },
+      "legacy-038": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 8,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-039": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 8,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-040": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 8,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-041": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 8,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-042": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 9,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-043": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 2,
+        "total_sources": 8,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-044": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 8,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-045": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 5,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-046": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 5,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-047": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 5,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-048": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 5,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-049": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 5,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-050": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 5,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-051": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 5,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-052": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 8,
+        "total_sources": 8,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-053": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 7,
+        "total_sources": 8,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-054": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 7,
+        "total_sources": 8,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-055": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 8,
+        "total_sources": 8,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-056": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 4,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-057": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 6,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-058": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 11,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-059": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 6,
+        "total_sources": 13,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-060": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 11,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-061": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 11,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-062": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 8,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-063": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 8,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-064": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 8,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-065": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 9,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-066": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 8,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-067": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 8,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-068": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 10,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-069": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 11,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-070": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 10,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-071": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 10,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-072": {
+        "last_checked": null,
+        "changes_detected": false,
+        "checked_sources": 0,
+        "total_sources": 5,
+        "failed_sources": 0,
+        "baseline_only": false
+      },
+      "legacy-073": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 7,
+        "total_sources": 17,
+        "failed_sources": 1,
+        "baseline_only": true
+      },
+      "legacy-074": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 11,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-075": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 11,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-076": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 1,
+        "total_sources": 7,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-077": {
+        "last_checked": null,
+        "changes_detected": false,
+        "checked_sources": 0,
+        "total_sources": 2,
+        "failed_sources": 0,
+        "baseline_only": false
+      },
+      "legacy-078": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 5,
+        "total_sources": 12,
+        "failed_sources": 2,
+        "baseline_only": true
+      },
+      "legacy-079": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 8,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-080": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 13,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-081": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 1,
+        "total_sources": 6,
+        "failed_sources": 1,
+        "baseline_only": true
+      },
+      "legacy-082": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 5,
+        "total_sources": 5,
+        "failed_sources": 2,
+        "baseline_only": true
+      },
+      "legacy-083": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 5,
+        "total_sources": 5,
+        "failed_sources": 2,
+        "baseline_only": true
+      },
+      "legacy-084": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 6,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-085": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 2,
+        "total_sources": 2,
+        "failed_sources": 1,
+        "baseline_only": true
+      },
+      "legacy-086": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 3,
+        "failed_sources": 2,
+        "baseline_only": true
+      },
+      "legacy-087": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 3,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-088": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 9,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-089": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 2,
+        "total_sources": 6,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-090": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 6,
+        "total_sources": 19,
+        "failed_sources": 3,
+        "baseline_only": true
+      },
+      "legacy-091": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 5,
+        "total_sources": 20,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-092": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 12,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-093": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 10,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-094": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 11,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-095": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 3,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-096": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 9,
+        "total_sources": 20,
+        "failed_sources": 6,
+        "baseline_only": true
+      },
+      "legacy-097": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 13,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-098": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 9,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-099": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 6,
+        "total_sources": 6,
+        "failed_sources": 2,
+        "baseline_only": true
+      },
+      "legacy-100": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 6,
+        "total_sources": 6,
+        "failed_sources": 2,
+        "baseline_only": true
+      },
+      "legacy-101": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 5,
+        "total_sources": 5,
+        "failed_sources": 2,
+        "baseline_only": true
+      },
+      "legacy-102": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 5,
+        "total_sources": 5,
+        "failed_sources": 2,
+        "baseline_only": true
+      },
+      "legacy-103": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 5,
+        "total_sources": 5,
+        "failed_sources": 2,
+        "baseline_only": true
+      },
+      "legacy-104": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 6,
+        "total_sources": 6,
+        "failed_sources": 2,
+        "baseline_only": true
+      },
+      "legacy-105": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 6,
+        "total_sources": 6,
+        "failed_sources": 2,
+        "baseline_only": true
+      },
+      "legacy-106": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 6,
+        "total_sources": 6,
+        "failed_sources": 2,
+        "baseline_only": true
+      },
+      "legacy-107": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 5,
+        "total_sources": 5,
+        "failed_sources": 2,
+        "baseline_only": true
+      },
+      "legacy-108": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 5,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-109": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 5,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-110": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 5,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-111": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 5,
+        "total_sources": 6,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-112": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 5,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-113": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 6,
+        "total_sources": 7,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-114": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 5,
+        "total_sources": 6,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-115": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 5,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-116": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 5,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-117": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 3,
+        "failed_sources": 1,
+        "baseline_only": true
+      },
+      "legacy-118": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 2,
+        "total_sources": 2,
+        "failed_sources": 2,
+        "baseline_only": true
+      },
+      "legacy-119": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 3,
+        "failed_sources": 3,
+        "baseline_only": true
+      },
+      "legacy-120": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 2,
+        "total_sources": 2,
+        "failed_sources": 2,
+        "baseline_only": true
+      },
+      "legacy-121": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 3,
+        "failed_sources": 3,
+        "baseline_only": true
+      },
+      "legacy-122": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 3,
+        "failed_sources": 3,
+        "baseline_only": true
+      },
+      "legacy-123": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 3,
+        "failed_sources": 2,
+        "baseline_only": true
+      },
+      "legacy-124": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 2,
+        "total_sources": 2,
+        "failed_sources": 2,
+        "baseline_only": true
+      },
+      "legacy-125": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 2,
+        "total_sources": 3,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-126": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 3,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-127": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 2,
+        "total_sources": 2,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-128": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 3,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-129": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 3,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-130": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 4,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-131": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 3,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-132": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 12,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-133": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 11,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-134": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 11,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-135": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 11,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-136": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 11,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-137": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 12,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-138": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 12,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-139": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 11,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-140": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 6,
+        "total_sources": 7,
+        "failed_sources": 4,
+        "baseline_only": true
+      },
+      "legacy-141": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 6,
+        "total_sources": 7,
+        "failed_sources": 4,
+        "baseline_only": true
+      },
+      "legacy-142": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 6,
+        "total_sources": 7,
+        "failed_sources": 4,
+        "baseline_only": true
+      },
+      "legacy-143": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 6,
+        "total_sources": 7,
+        "failed_sources": 4,
+        "baseline_only": true
+      },
+      "legacy-144": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 6,
+        "total_sources": 7,
+        "failed_sources": 4,
+        "baseline_only": true
+      },
+      "legacy-145": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 6,
+        "total_sources": 7,
+        "failed_sources": 4,
+        "baseline_only": true
+      },
+      "legacy-146": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 6,
+        "total_sources": 6,
+        "failed_sources": 4,
+        "baseline_only": true
+      },
+      "legacy-147": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 4,
+        "failed_sources": 1,
+        "baseline_only": true
+      },
+      "legacy-148": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 5,
+        "total_sources": 5,
+        "failed_sources": 1,
+        "baseline_only": true
+      },
+      "legacy-149": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 10,
+        "total_sources": 10,
+        "failed_sources": 1,
+        "baseline_only": true
+      },
+      "legacy-150": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 9,
+        "total_sources": 9,
+        "failed_sources": 1,
+        "baseline_only": true
+      },
+      "legacy-151": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 8,
+        "total_sources": 8,
+        "failed_sources": 1,
+        "baseline_only": true
+      },
+      "legacy-152": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 9,
+        "total_sources": 9,
+        "failed_sources": 1,
+        "baseline_only": true
+      },
+      "legacy-153": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 6,
+        "total_sources": 10,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-154": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 10,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-155": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 10,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-156": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 10,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-157": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 8,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-158": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 5,
+        "total_sources": 14,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "legacy-159": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 8,
+        "total_sources": 8,
+        "failed_sources": 6,
+        "baseline_only": true
+      },
+      "legacy-160": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 7,
+        "total_sources": 7,
+        "failed_sources": 7,
+        "baseline_only": true
+      },
+      "legacy-161": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 11,
+        "total_sources": 14,
+        "failed_sources": 9,
+        "baseline_only": true
+      },
+      "legacy-162": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 5,
+        "total_sources": 5,
+        "failed_sources": 5,
+        "baseline_only": true
+      },
+      "legacy-163": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 8,
+        "total_sources": 8,
+        "failed_sources": 7,
+        "baseline_only": true
+      },
+      "legacy-164": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 8,
+        "total_sources": 8,
+        "failed_sources": 8,
+        "baseline_only": true
+      },
+      "legacy-165": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 9,
+        "total_sources": 9,
+        "failed_sources": 7,
+        "baseline_only": true
+      },
+      "discovered-001": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 8,
+        "total_sources": 8,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "discovered-002": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 4,
+        "failed_sources": 4,
+        "baseline_only": true
+      },
+      "discovered-003": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 4,
+        "failed_sources": 4,
+        "baseline_only": true
+      },
+      "discovered-004": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 4,
+        "failed_sources": 4,
+        "baseline_only": true
+      },
+      "discovered-005": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 4,
+        "failed_sources": 4,
+        "baseline_only": true
+      },
+      "discovered-006": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 4,
+        "failed_sources": 4,
+        "baseline_only": true
+      },
+      "discovered-007": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 7,
+        "total_sources": 10,
+        "failed_sources": 6,
+        "baseline_only": true
+      },
+      "discovered-008": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 7,
+        "total_sources": 10,
+        "failed_sources": 6,
+        "baseline_only": true
+      },
+      "discovered-009": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 2,
+        "total_sources": 2,
+        "failed_sources": 2,
+        "baseline_only": true
+      },
+      "discovered-010": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 3,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "discovered-011": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 3,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "discovered-012": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 9,
+        "total_sources": 9,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "discovered-013": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 4,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "discovered-014": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 4,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "discovered-015": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 4,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "discovered-016": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 4,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "discovered-017": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 4,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "discovered-018": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 4,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "discovered-019": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 4,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "discovered-020": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 6,
+        "total_sources": 6,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "discovered-021": {
+        "last_checked": null,
+        "changes_detected": false,
+        "checked_sources": 0,
+        "total_sources": 1,
+        "failed_sources": 0,
+        "baseline_only": false
+      },
+      "discovered-022": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 1,
+        "total_sources": 2,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "discovered-023": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 8,
+        "total_sources": 11,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "discovered-024": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 7,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "discovered-026": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 6,
+        "total_sources": 13,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "discovered-027": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 7,
+        "total_sources": 12,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "discovered-028": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 10,
+        "total_sources": 10,
+        "failed_sources": 9,
+        "baseline_only": true
+      },
+      "discovered-025": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 7,
+        "total_sources": 19,
+        "failed_sources": 1,
+        "baseline_only": true
+      },
+      "discovered-029": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 2,
+        "total_sources": 2,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "discovered-030": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 4,
+        "failed_sources": 4,
+        "baseline_only": true
+      },
+      "discovered-031": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 5,
+        "total_sources": 7,
+        "failed_sources": 5,
+        "baseline_only": true
+      },
+      "discovered-032": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 8,
+        "total_sources": 11,
+        "failed_sources": 5,
+        "baseline_only": true
+      },
+      "discovered-033": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 6,
+        "total_sources": 6,
+        "failed_sources": 6,
+        "baseline_only": true
+      },
+      "discovered-035": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 7,
+        "total_sources": 7,
+        "failed_sources": 7,
+        "baseline_only": true
+      },
+      "discovered-036": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 11,
+        "total_sources": 11,
+        "failed_sources": 11,
+        "baseline_only": true
+      },
+      "discovered-034": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 6,
+        "total_sources": 6,
+        "failed_sources": 6,
+        "baseline_only": true
+      },
+      "discovered-037": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 9,
+        "total_sources": 12,
+        "failed_sources": 7,
+        "baseline_only": true
+      },
+      "discovered-038": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 8,
+        "total_sources": 8,
+        "failed_sources": 4,
+        "baseline_only": true
+      },
+      "discovered-039": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 8,
+        "total_sources": 9,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "discovered-040": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 1,
+        "total_sources": 1,
+        "failed_sources": 1,
+        "baseline_only": true
+      },
+      "discovered-041": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 1,
+        "total_sources": 1,
+        "failed_sources": 1,
+        "baseline_only": true
+      },
+      "discovered-042": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 3,
+        "failed_sources": 1,
+        "baseline_only": true
+      },
+      "discovered-043": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 3,
+        "failed_sources": 1,
+        "baseline_only": true
+      },
+      "discovered-044": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 1,
+        "total_sources": 1,
+        "failed_sources": 1,
+        "baseline_only": true
+      }
+    },
+    "university": {
+      "napoli-federico-ii": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 22,
+        "total_sources": 23,
+        "failed_sources": 15,
+        "baseline_only": true
+      },
+      "politecnico-bari": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 12,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "politecnico-milano": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 28,
+        "total_sources": 32,
+        "failed_sources": 10,
+        "baseline_only": true
+      },
+      "politecnico-torino": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 28,
+        "total_sources": 29,
+        "failed_sources": 19,
+        "baseline_only": true
+      },
+      "roma-tre": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 9,
+        "total_sources": 22,
+        "failed_sources": 6,
+        "baseline_only": true
+      },
+      "sapienza": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 18,
+        "total_sources": 32,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "tor-vergata": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 4,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "ca-foscari": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 22,
+        "total_sources": 26,
+        "failed_sources": 11,
+        "baseline_only": true
+      },
+      "milano-bicocca": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 13,
+        "total_sources": 21,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "marche": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 10,
+        "failed_sources": 2,
+        "baseline_only": true
+      },
+      "catania": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 11,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "milano-statale": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 9,
+        "total_sources": 18,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "laquila": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 13,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "insubria": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 2,
+        "total_sources": 10,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "bologna": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 56,
+        "total_sources": 57,
+        "failed_sources": 9,
+        "baseline_only": true
+      },
+      "camerino": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 6,
+        "total_sources": 15,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "ferrara": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 12,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "firenze": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 5,
+        "total_sources": 6,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "genova": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 12,
+        "total_sources": 32,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "messina": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 1,
+        "total_sources": 4,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "modena-reggio": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 14,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "padova": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 56,
+        "total_sources": 60,
+        "failed_sources": 39,
+        "baseline_only": true
+      },
+      "palermo": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 16,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "parma": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 1,
+        "total_sources": 5,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "pavia": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 2,
+        "total_sources": 8,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "perugia": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 3,
+        "total_sources": 8,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "pisa": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 9,
+        "total_sources": 10,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "salerno": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 5,
+        "total_sources": 15,
+        "failed_sources": 3,
+        "baseline_only": true
+      },
+      "siena": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 1,
+        "total_sources": 5,
+        "failed_sources": 1,
+        "baseline_only": true
+      },
+      "torino": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 20,
+        "total_sources": 23,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "trento": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 17,
+        "total_sources": 25,
+        "failed_sources": 1,
+        "baseline_only": true
+      },
+      "trieste": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 8,
+        "total_sources": 17,
+        "failed_sources": 1,
+        "baseline_only": true
+      },
+      "udine": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 4,
+        "total_sources": 12,
+        "failed_sources": 0,
+        "baseline_only": true
+      },
+      "verona": {
+        "last_checked": "2026-11-13",
+        "changes_detected": false,
+        "checked_sources": 2,
+        "total_sources": 4,
+        "failed_sources": 0,
+        "baseline_only": true
+      }
+    }
+  },
+  "explanation": "Monitoring checks sources and flags changes for human review. It never updates admissions data. First baselines cannot establish whether a change predated monitoring."
+}

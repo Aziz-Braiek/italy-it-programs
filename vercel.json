@@ -1,4 +1,9 @@
 {
   "buildCommand": "python scripts/build_site.py",
-  "outputDirectory": "dist"
+  "outputDirectory": "dist",
+  "git": {
+    "deploymentEnabled": {
+      "monitoring/source-checks": false
+    }
+  }
 }

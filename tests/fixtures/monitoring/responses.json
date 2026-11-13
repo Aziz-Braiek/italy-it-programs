@@ -1,0 +1,10 @@
+{
+  "https://university.example/robots.txt": {"status": 200, "fixture": "robots.txt"},
+  "https://university.example/page": {"status": 200, "fixture": "page-v1.html", "headers": {"ETag": "\"fixture-v1\"", "Last-Modified": "Fri, 13 Nov 2026 09:00:00 GMT", "Content-Type": "text/html"}},
+  "https://university.example/moved": {"status": 302, "headers": {"Location": "/page"}},
+  "https://university.example/gone": {"status": 404},
+  "https://university.example/wall": {"status": 200, "body": "<html><body>Verify you are human. CAPTCHA</body></html>"},
+  "https://university.example/login": {"status": 200, "body": "<html><input type='password'></html>"},
+  "https://university.example/busy": {"status": 503, "headers": {"Retry-After": "86400"}},
+  "https://university.example/rules.pdf": {"status": 200, "fixture": "rules.pdf", "headers": {"Content-Type": "application/pdf"}}
+}

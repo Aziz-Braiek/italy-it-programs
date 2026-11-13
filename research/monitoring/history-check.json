@@ -1,0 +1,15 @@
+{
+  "scope": "Before the first monitoring commit; checked locally before any push",
+  "base_commit": "900315e",
+  "head_at_check": "900315e4ef87f8b4b874d5854809b040e3207ca5",
+  "new_commits": [],
+  "monitoring_content_commits": [],
+  "tracked_normalized_snapshots": [],
+  "shared_history_rewritten": false,
+  "inherited_already_public_quotation_files": [
+    "research/applicant-profiles-2026-11/tuition-spot-checks.json",
+    "research/applicant-profiles-2026-11/report.md",
+    "research/decision-refinement-2026-11/tuition-spot-checks.json"
+  ],
+  "note": "Earlier approved research quotations predate this monitoring round and are already public. No new monitoring passages, normalized snapshots or text diffs were committed."
+}

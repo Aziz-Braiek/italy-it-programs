@@ -1,0 +1,502 @@
+{
+  "programs-2027-2028.json": {
+    "production_count": 209,
+    "branch_count": 209,
+    "changed_record_count": 209,
+    "changed_ids": [
+      "legacy-001",
+      "legacy-002",
+      "legacy-003",
+      "legacy-004",
+      "legacy-005",
+      "legacy-006",
+      "legacy-007",
+      "legacy-008",
+      "legacy-009",
+      "legacy-010",
+      "legacy-011",
+      "legacy-012",
+      "legacy-013",
+      "legacy-014",
+      "legacy-015",
+      "legacy-016",
+      "legacy-017",
+      "legacy-018",
+      "legacy-019",
+      "legacy-020",
+      "legacy-021",
+      "legacy-022",
+      "legacy-023",
+      "legacy-024",
+      "legacy-025",
+      "legacy-026",
+      "legacy-027",
+      "legacy-028",
+      "legacy-029",
+      "legacy-030",
+      "legacy-031",
+      "legacy-032",
+      "legacy-033",
+      "legacy-034",
+      "legacy-035",
+      "legacy-036",
+      "legacy-037",
+      "legacy-038",
+      "legacy-039",
+      "legacy-040",
+      "legacy-041",
+      "legacy-042",
+      "legacy-043",
+      "legacy-044",
+      "legacy-045",
+      "legacy-046",
+      "legacy-047",
+      "legacy-048",
+      "legacy-049",
+      "legacy-050",
+      "legacy-051",
+      "legacy-052",
+      "legacy-053",
+      "legacy-054",
+      "legacy-055",
+      "legacy-056",
+      "legacy-057",
+      "legacy-058",
+      "legacy-059",
+      "legacy-060",
+      "legacy-061",
+      "legacy-062",
+      "legacy-063",
+      "legacy-064",
+      "legacy-065",
+      "legacy-066",
+      "legacy-067",
+      "legacy-068",
+      "legacy-069",
+      "legacy-070",
+      "legacy-071",
+      "legacy-072",
+      "legacy-073",
+      "legacy-074",
+      "legacy-075",
+      "legacy-076",
+      "legacy-077",
+      "legacy-078",
+      "legacy-079",
+      "legacy-080",
+      "legacy-081",
+      "legacy-082",
+      "legacy-083",
+      "legacy-084",
+      "legacy-085",
+      "legacy-086",
+      "legacy-087",
+      "legacy-088",
+      "legacy-089",
+      "legacy-090",
+      "legacy-091",
+      "legacy-092",
+      "legacy-093",
+      "legacy-094",
+      "legacy-095",
+      "legacy-096",
+      "legacy-097",
+      "legacy-098",
+      "legacy-099",
+      "legacy-100",
+      "legacy-101",
+      "legacy-102",
+      "legacy-103",
+      "legacy-104",
+      "legacy-105",
+      "legacy-106",
+      "legacy-107",
+      "legacy-108",
+      "legacy-109",
+      "legacy-110",
+      "legacy-111",
+      "legacy-112",
+      "legacy-113",
+      "legacy-114",
+      "legacy-115",
+      "legacy-116",
+      "legacy-117",
+      "legacy-118",
+      "legacy-119",
+      "legacy-120",
+      "legacy-121",
+      "legacy-122",
+      "legacy-123",
+      "legacy-124",
+      "legacy-125",
+      "legacy-126",
+      "legacy-127",
+      "legacy-128",
+      "legacy-129",
+      "legacy-130",
+      "legacy-131",
+      "legacy-132",
+      "legacy-133",
+      "legacy-134",
+      "legacy-135",
+      "legacy-136",
+      "legacy-137",
+      "legacy-138",
+      "legacy-139",
+      "legacy-140",
+      "legacy-141",
+      "legacy-142",
+      "legacy-143",
+      "legacy-144",
+      "legacy-145",
+      "legacy-146",
+      "legacy-147",
+      "legacy-148",
+      "legacy-149",
+      "legacy-150",
+      "legacy-151",
+      "legacy-152",
+      "legacy-153",
+      "legacy-154",
+      "legacy-155",
+      "legacy-156",
+      "legacy-157",
+      "legacy-158",
+      "legacy-159",
+      "legacy-160",
+      "legacy-161",
+      "legacy-162",
+      "legacy-163",
+      "legacy-164",
+      "legacy-165",
+      "discovered-001",
+      "discovered-002",
+      "discovered-003",
+      "discovered-004",
+      "discovered-005",
+      "discovered-006",
+      "discovered-007",
+      "discovered-008",
+      "discovered-009",
+      "discovered-010",
+      "discovered-011",
+      "discovered-012",
+      "discovered-013",
+      "discovered-014",
+      "discovered-015",
+      "discovered-016",
+      "discovered-017",
+      "discovered-018",
+      "discovered-019",
+      "discovered-020",
+      "discovered-021",
+      "discovered-022",
+      "discovered-023",
+      "discovered-024",
+      "discovered-026",
+      "discovered-027",
+      "discovered-028",
+      "discovered-025",
+      "discovered-029",
+      "discovered-030",
+      "discovered-031",
+      "discovered-032",
+      "discovered-033",
+      "discovered-035",
+      "discovered-036",
+      "discovered-034",
+      "discovered-037",
+      "discovered-038",
+      "discovered-039",
+      "discovered-040",
+      "discovered-041",
+      "discovered-042",
+      "discovered-043",
+      "discovered-044"
+    ],
+    "core_changed_count": 2,
+    "core_changed_ids": [
+      "legacy-007",
+      "discovered-022"
+    ],
+    "added": [],
+    "removed": []
+  },
+  "universities-2027-2028.json": {
+    "production_count": 34,
+    "branch_count": 34,
+    "changed_record_count": 34,
+    "changed_ids": [
+      "napoli-federico-ii",
+      "politecnico-bari",
+      "politecnico-milano",
+      "politecnico-torino",
+      "roma-tre",
+      "sapienza",
+      "tor-vergata",
+      "ca-foscari",
+      "milano-bicocca",
+      "marche",
+      "catania",
+      "milano-statale",
+      "laquila",
+      "insubria",
+      "bologna",
+      "camerino",
+      "ferrara",
+      "firenze",
+      "genova",
+      "messina",
+      "modena-reggio",
+      "padova",
+      "palermo",
+      "parma",
+      "pavia",
+      "perugia",
+      "pisa",
+      "salerno",
+      "siena",
+      "torino",
+      "trento",
+      "trieste",
+      "udine",
+      "verona"
+    ],
+    "core_changed_count": 2,
+    "core_changed_ids": [
+      "politecnico-torino",
+      "tor-vergata"
+    ],
+    "added": [],
+    "removed": []
+  },
+  "files": [
+    {
+      "status": "A",
+      "path": "research/2026-11-13-rendered-review-resolution.md"
+    },
+    {
+      "status": "A",
+      "path": "research/applicant-profiles-2026-11/README.md"
+    },
+    {
+      "status": "A",
+      "path": "research/applicant-profiles-2026-11/baseline.json"
+    },
+    {
+      "status": "A",
+      "path": "research/applicant-profiles-2026-11/compiled-routes.json"
+    },
+    {
+      "status": "A",
+      "path": "research/applicant-profiles-2026-11/conflict-review.json"
+    },
+    {
+      "status": "A",
+      "path": "research/applicant-profiles-2026-11/national-rules.json"
+    },
+    {
+      "status": "A",
+      "path": "research/applicant-profiles-2026-11/priority-field-ledger.json"
+    },
+    {
+      "status": "A",
+      "path": "research/applicant-profiles-2026-11/priority-unverified-fields.json"
+    },
+    {
+      "status": "A",
+      "path": "research/applicant-profiles-2026-11/profile-examples.json"
+    },
+    {
+      "status": "A",
+      "path": "research/applicant-profiles-2026-11/record-outcomes.json"
+    },
+    {
+      "status": "A",
+      "path": "research/applicant-profiles-2026-11/report.md"
+    },
+    {
+      "status": "A",
+      "path": "research/applicant-profiles-2026-11/route-gap-ledger.json"
+    },
+    {
+      "status": "A",
+      "path": "research/applicant-profiles-2026-11/route-scope-audit.json"
+    },
+    {
+      "status": "A",
+      "path": "research/applicant-profiles-2026-11/summary.json"
+    },
+    {
+      "status": "A",
+      "path": "research/applicant-profiles-2026-11/tuition-spot-checks.json"
+    },
+    {
+      "status": "A",
+      "path": "research/applicant-profiles-2026-11/university-route-ledger.json"
+    },
+    {
+      "status": "A",
+      "path": "research/applicant-profiles-2026-11/verified-routes.json"
+    },
+    {
+      "status": "A",
+      "path": "research/decision-refinement-2026-11/baseline.json"
+    },
+    {
+      "status": "A",
+      "path": "research/decision-refinement-2026-11/priority-field-ledger.json"
+    },
+    {
+      "status": "A",
+      "path": "research/decision-refinement-2026-11/priority-unverified-fields.json"
+    },
+    {
+      "status": "A",
+      "path": "research/decision-refinement-2026-11/record-outcomes.json"
+    },
+    {
+      "status": "A",
+      "path": "research/decision-refinement-2026-11/report.md"
+    },
+    {
+      "status": "A",
+      "path": "research/decision-refinement-2026-11/review-notes.json"
+    },
+    {
+      "status": "A",
+      "path": "research/decision-refinement-2026-11/summary.json"
+    },
+    {
+      "status": "A",
+      "path": "research/decision-refinement-2026-11/tuition-spot-checks.json"
+    },
+    {
+      "status": "A",
+      "path": "research/decision-support-2026-11/README.md"
+    },
+    {
+      "status": "A",
+      "path": "research/decision-support-2026-11/additional-sources.json"
+    },
+    {
+      "status": "A",
+      "path": "research/decision-support-2026-11/coverage.json"
+    },
+    {
+      "status": "A",
+      "path": "research/decision-support-2026-11/field-ledger.json"
+    },
+    {
+      "status": "A",
+      "path": "research/decision-support-2026-11/record-outcomes.json"
+    },
+    {
+      "status": "A",
+      "path": "research/decision-support-2026-11/report.md"
+    },
+    {
+      "status": "A",
+      "path": "research/decision-support-2026-11/source-checks.json"
+    },
+    {
+      "status": "A",
+      "path": "research/decision-support-2026-11/source-conflicts.json"
+    },
+    {
+      "status": "A",
+      "path": "research/decision-support-2026-11/unverified-fields.json"
+    },
+    {
+      "status": "A",
+      "path": "research/decision-support-2026-11/verified-facts.json"
+    },
+    {
+      "status": "M",
+      "path": "research/programs-2027-2028.json"
+    },
+    {
+      "status": "A",
+      "path": "research/site-presentation.json"
+    },
+    {
+      "status": "M",
+      "path": "research/universities-2027-2028.json"
+    },
+    {
+      "status": "A",
+      "path": "scripts/applicant_profiles.py"
+    },
+    {
+      "status": "A",
+      "path": "scripts/build_applicant_profile_report.py"
+    },
+    {
+      "status": "A",
+      "path": "scripts/build_decision_refinement_report.py"
+    },
+    {
+      "status": "M",
+      "path": "scripts/build_research_data.py"
+    },
+    {
+      "status": "M",
+      "path": "scripts/build_site.py"
+    },
+    {
+      "status": "A",
+      "path": "scripts/capture_decision_sources.py"
+    },
+    {
+      "status": "A",
+      "path": "scripts/decision_support.py"
+    },
+    {
+      "status": "A",
+      "path": "scripts/site_data_cleanup.py"
+    },
+    {
+      "status": "A",
+      "path": "scripts/test_applicant_profiles.mjs"
+    },
+    {
+      "status": "M",
+      "path": "scripts/test_live_site.mjs"
+    },
+    {
+      "status": "M",
+      "path": "scripts/test_site.mjs"
+    },
+    {
+      "status": "A",
+      "path": "site/applicant-profile-view.js"
+    },
+    {
+      "status": "A",
+      "path": "site/applicant-profiles.js"
+    },
+    {
+      "status": "M",
+      "path": "site/site.css"
+    },
+    {
+      "status": "M",
+      "path": "site/site.js"
+    },
+    {
+      "status": "A",
+      "path": "tests/test_applicant_profiles.py"
+    },
+    {
+      "status": "A",
+      "path": "tests/test_decision_support.py"
+    },
+    {
+      "status": "M",
+      "path": "tests/test_static_site.py"
+    }
+  ],
+  "diff_stat": "56 files changed, 300006 insertions(+), 616 deletions(-)",
+  "production_commit": "c6dff07bff8c7b12b872bcd90590145e0932404b",
+  "pre_monitoring_tip": "900315e4ef87f8b4b874d5854809b040e3207ca5"
+}

@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /private/
+Disallow: /*?download=private$
+Allow: /private/public/
+Crawl-delay: 3
